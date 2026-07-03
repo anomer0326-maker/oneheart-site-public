@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 하나님을 안다는 것의 의미 §1 (1권 2장 · Day 4) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 2장 §1(하나님을 안다는 것의 의미)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 4. 연관 성구: 로마서 1, 야고보서 1, 시편 36, 잠언 3, 야고보서 2, 요한복음 17, 디도서 1. 전체 우리말 의역·문장별 성구 수록."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day04_Book1-Ch2-%C2%A71.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="하나님을 안다는 것의 의미 §1 — 기독교 강요 영어로 읽기 (Day 4)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 2장 §1(하나님을 안다는 것의 의미)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 4. 연관 성구: 로마서 1, 야고보서 1, 시편 36, 잠언 3, 야고보서 2, 요한복음 17, 디도서 1. 전체 우리말 의역·문장별 성구 수록."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day04_Book1-Ch2-%C2%A71.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 하나님을 안다는 것의 의미 §1 (1권 2장 · Day 4) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 2장 §1(하나님을 안다는 것의 의미)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 4. 연관 성구: 로마서 1, 야고보서 1, 시편 36, 잠언 3, 야고보서 2, 요한복음 17, 디도서 1. 전체 우리말 의역·문장별 성구 수록.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 2장 §1 — 하나님을 안다는 것의 의미","mentions":[{"@type":"CreativeWork","name":"로마서 1 (Rom 1)"},{"@type":"CreativeWork","name":"야고보서 1 (James 1)"},{"@type":"CreativeWork","name":"시편 36 (Psalm 36)"},{"@type":"CreativeWork","name":"잠언 3 (Prov 3)"},{"@type":"CreativeWork","name":"예레미야 10 (Jer 10)"},{"@type":"CreativeWork","name":"야고보서 2"},{"@type":"CreativeWork","name":"요한복음 17"},{"@type":"CreativeWork","name":"디도서 1"},{"@type":"CreativeWork","name":"마태복음 7"},{"@type":"CreativeWork","name":"로마서 1"},{"@type":"CreativeWork","name":"시편 19"},{"@type":"CreativeWork","name":"요한복음 14"},{"@type":"CreativeWork","name":"에베소서 2"},{"@type":"CreativeWork","name":"사도행전 14"},{"@type":"CreativeWork","name":"마태복음 5"},{"@type":"CreativeWork","name":"창세기 1"},{"@type":"CreativeWork","name":"갈라디아서 4"},{"@type":"CreativeWork","name":"시편 16"},{"@type":"CreativeWork","name":"시편 36"},{"@type":"CreativeWork","name":"히브리서 1"},{"@type":"CreativeWork","name":"시편 145"},{"@type":"CreativeWork","name":"야고보서 1"},{"@type":"CreativeWork","name":"다니엘 2"},{"@type":"CreativeWork","name":"빌립보서 4"},{"@type":"CreativeWork","name":"데살로니가전서 5"},{"@type":"CreativeWork","name":"시편 34"},{"@type":"CreativeWork","name":"호세아 6"},{"@type":"CreativeWork","name":"신명기 10"},{"@type":"CreativeWork","name":"시편 2"},{"@type":"CreativeWork","name":"시편 116"},{"@type":"CreativeWork","name":"로마서 12"},{"@type":"CreativeWork","name":"시편 73"},{"@type":"CreativeWork","name":"시편 37"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day04_Book1-Ch2-%C2%A71.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Calvin, *Institutes* — Day 4<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Calvin, *Institutes* — Day 4</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="·">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">·</span>
+    <span class="p-title">본문 (v1 형식)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h2>Book 1, Chapter 2, §1</h2><h3><em>What it is to Know God — Tendency of this Knowledge</em></h3><p><strong>Translation:</strong> Henry Beveridge (public domain) · <strong>Commentary language:</strong> English (immersion)</p><hr/><h2>PART 1 — Full Text of the Section (verbatim)</h2><blockquote>
+<p>By the knowledge of God, I understand that by which we not only conceive that there is some God, but also apprehend what it is for our interest, and conducive to his glory, what, in short, it is befitting to know concerning him. For, properly speaking, we cannot say that God is known where there is no religion or piety. I am not now referring to that species of knowledge by which men, in themselves lost and under curse, apprehend God as a Redeemer in Christ the Mediator. I speak only of that simple and primitive knowledge, to which the mere course of nature would have conducted us, had Adam stood upright. For although no man will now, in the present ruin of the human race, perceive God to be either a father, or the author of salvation, or propitious in any respect, until Christ interpose to make our peace; still it is one thing to perceive that God our Maker supports us by his power, rules us by his providence, fosters us by his goodness, and visits us with all kinds of blessings, and another thing to embrace the grace of reconciliation offered to us in Christ. Since, then, the Lord first appears, as well in the creation of the world as in the general doctrine of Scripture, simply as a Creator, and afterwards as a Redeemer in Christ,—a twofold knowledge of him hence arises: of these the former is now to be considered, the latter will afterwards follow in its order. But although our mind cannot conceive of God, without rendering some worship to him, it will not, however, be sufficient simply to hold that he is the only being whom all ought to worship and adore, unless we are also persuaded that he is the fountain of all goodness, and that we must seek everything in him, and in none but him. My meaning is: we must be persuaded not only that as he once formed the world, so he sustains it by his boundless power, governs it by his wisdom, preserves it by his goodness, in particular, rules the human race with justice and Judgment, bears with them in mercy, shields them by his protection; but also that not a particle of light, or wisdom, or justice, or power, or rectitude, or genuine truth, will anywhere be found, which does not flow from him, and of which he is not the cause; in this way we must learn to expect and ask all things from him, and thankfully ascribe to him whatever we receive. For this sense of the divine perfections is the proper master to teach us piety, out of which religion springs. By piety I mean that union of reverence and love to God which the knowledge of his benefits inspires. For, until men feel that they owe everything to God, that they are cherished by his paternal care, and that he is the author of all their blessings, so that nought is to be looked for away from him, they will never submit to him in voluntary obedience; nay, unless they place their entire happiness in him, they will never yield up their whole selves to him in truth and sincerity.</p>
+</blockquote><p><strong>Reading time:</strong> ≈ 4–5 minutes aloud (one long doctrinal paragraph, 11 sentences).</p><hr/><h2>PART 2 — Argument Map (premise → arguments → conclusion)</h2><p><strong>Governing question:</strong> What does it actually <em>mean</em> to "know God"?</p><p><strong>Premise (definition):</strong> To know God is not merely to grant that <em>some</em> deity exists, but to apprehend what concerns our welfare and his glory — knowledge that issues in worship.</p><p><strong>Argument 1 — Knowledge entails piety.</strong> "We cannot say that God is known where there is no religion or piety." Bare cognition without reverence does not count as knowledge of God at all.</p><p><strong>Argument 2 — Scope clarification (Creator, not yet Redeemer).</strong> Calvin brackets <em>redemptive</em> knowledge (God in Christ the Mediator) and isolates the "simple and primitive knowledge" of God as <strong>Creator</strong> — the knowledge nature itself would have yielded "had Adam stood upright."</p><p><strong>Argument 3 — The twofold knowledge.</strong> Because the Lord appears first as Creator and afterward as Redeemer, "a twofold knowledge of him hence arises." Book 1 treats the former; the latter is deferred to its proper place (Book 2).</p><p><strong>Argument 4 — Knowledge must include God as fountain of all good.</strong> It is not enough to hold God as the sole object of worship; one must be persuaded he is "the fountain of all goodness," so that <em>every</em> good — light, wisdom, justice, power, rectitude, truth — flows from him and nowhere else.</p><p><strong>Argument 5 — This sense of God's perfections produces piety, and piety produces religion.</strong> "This sense of the divine perfections is the proper master to teach us piety, out of which religion springs."</p><p><strong>Conclusion (definition of piety):</strong> <em>Piety</em> = "that union of reverence and love to God which the knowledge of his benefits inspires." Until people feel they owe everything to God, they will neither obey him willingly nor surrender themselves wholly to him.</p><p><strong>Logical spine:</strong> <em>true knowledge → sense of God as fountain of all good → piety (reverence + love) → religion / wholehearted obedience.</em></p><hr/><h2>PART 3 — ⭐ Sentence-by-Sentence Deconstruction (every sentence, in order)</h2><h3>Sentence 1</h3><p><strong>① Text:</strong> "By the knowledge of God, I understand that by which we not only conceive that there is some God, but also apprehend what it is for our interest, and conducive to his glory, what, in short, it is befitting to know concerning him."</p><p><strong>② Syntax skeleton:</strong> [Prepositional fronting: <em>By the knowledge of God</em>] <strong>I (S) understand (V)</strong> <em>that</em> (O — antecedent/cataphoric pronoun) [relative clause: <em>by which</em> <strong>we (S) conceive / apprehend (V)</strong> …]. Inside the relative clause two correlative verbs share the subject <em>we</em>: "not only conceive [that-clause] but also apprehend [what-clauses]." The object of <em>apprehend</em> is a triplet of nominal interrogative clauses: "<em>what</em> it is for our interest," "[what is] <em>conducive to his glory</em>," "<em>what</em> … it is befitting to know concerning him."</p><p><strong>③ Grammar points:</strong>
+- <strong>Fronted prepositional phrase</strong> ("By the knowledge of God…") — topicalization: Calvin announces his <em>term</em> before defining it. Equivalent to "What I mean by 'the knowledge of God' is…"
+- <strong>Cataphoric / anticipatory <em>that</em></strong>: "I understand <em>that</em> by which…" — <em>that</em> is a demonstrative pronoun whose content is supplied by the following relative clause <em>by which we…</em>. Render as "that thing whereby we…"
+- <strong>Correlative pair <em>not only … but also</em></strong>: a balanced, additive construction. The first member (bare existence) is subordinated; the weight falls on the second (saving/glorifying apprehension).
+- <strong>Embedded interrogative (indirect-question) clauses</strong> as objects: <em>what it is for our interest</em>, <em>what it is befitting to know</em>. Note the <strong>anticipatory <em>it</em></strong> in "what <em>it</em> is … to know concerning him," where <em>it</em> points forward to the infinitive <em>to know</em>.
+- <strong>Parenthetical <em>in short</em></strong>: a discourse marker signaling summary/reformulation.</p><p><strong>④ Vocabulary in context (etymology):</strong>
+- <em>conceive</em> (L. <em>concipere</em>, "to take in, grasp") — here = form the bare mental notion that God exists.
+- <em>apprehend</em> (L. <em>apprehendere</em>, "to seize") — a fuller, more committed grasp than <em>conceive</em>; Calvin gradates the two verbs deliberately.
+- <em>conducive</em> (L. <em>conducere</em>, "to lead together / be useful") — "tending to promote." Governs <em>to his glory</em>.
+- <em>befitting</em> — "suitable, proper" (from <em>befit</em>); a slightly archaic gerund-adjective.</p><p><strong>⑤ Plain-English paraphrase:</strong> "When I say 'the knowledge of God,' I mean the kind of knowing that doesn't just register that a God exists, but actually grasps what is good for us, what honors him, and — in a word — what we ought to know about him."</p><p><strong>⑥ Style note:</strong> A textbook opening definition. The tripartite object (<em>our interest / his glory / befitting to know</em>) yokes self-interest, divine glory, and propriety into one breath — a signature Calvinian fusion of the practical and the doxological.</p><hr/><h3>Sentence 2</h3><p><strong>① Text:</strong> "For, properly speaking, we cannot say that God is known where there is no religion or piety."</p><p><strong>② Syntax skeleton:</strong> [Conjunction <em>For</em>] [parenthetical <em>properly speaking</em>] <strong>we (S) cannot say (V)</strong> [that-clause object: <em>that God is known</em>] [adverbial clause of place/condition: <em>where there is no religion or piety</em>].</p><p><strong>③ Grammar points:</strong>
+- <strong>Causal <em>For</em></strong>: introduces the ground for sentence 1's loaded definition.
+- <strong>Disjunct <em>properly speaking</em></strong>: a stance adverbial = "strictly / in the proper sense of the words."
+- <strong>Passive <em>God is known</em></strong>: agentless passive keeps focus on the <em>state</em> of being known rather than the knower.
+- <strong>Existential <em>there is</em></strong> inside a <em>where</em>-clause functioning conditionally ("in any case where / wherever there is no…").</p><p><strong>④ Vocabulary:</strong>
+- <em>religion</em> (L. <em>religio</em>; classically derived either from <em>relegere</em> "to read again / consider carefully" or <em>religare</em> "to bind fast" — Calvin elsewhere favors a binding sense) — here the outward, ordered response to God.
+- <em>piety</em> (L. <em>pietas</em>, dutiful devotion) — the inward disposition; to be defined precisely at the section's end.</p><p><strong>⑤ Plain-English paraphrase:</strong> "Strictly speaking, God simply <em>isn't</em> truly known wherever reverence and devotion are absent."</p><p><strong>⑥ Style note:</strong> A crisp aphorism that converts the definition into a denial — a favorite Reformation move: knowledge of God is never merely intellectual.</p><hr/><h3>Sentence 3</h3><p><strong>① Text:</strong> "I am not now referring to that species of knowledge by which men, in themselves lost and under curse, apprehend God as a Redeemer in Christ the Mediator."</p><p><strong>② Syntax skeleton:</strong> <strong>I (S) am … referring (V) [negated]</strong> <em>to that species of knowledge</em> (prep. object) [relative clause: <em>by which</em> <strong>men (S) apprehend (V) God (O)</strong> <em>as a Redeemer</em>…], with an interposed appositive/participial phrase <em>in themselves lost and under curse</em> describing <em>men</em>.</p><p><strong>③ Grammar points:</strong>
+- <strong>Negative progressive <em>am not now referring</em></strong>: the present progressive + <em>now</em> marks a deliberate, temporary delimitation of topic ("at this moment I am not talking about…").
+- <strong>Interposed reduced clause <em>in themselves lost and under curse</em></strong>: a participial/adjectival aside modifying <em>men</em>; <em>lost</em> (past participle) and <em>under curse</em> (prepositional) coordinate as predicate descriptors. = "men who are, in themselves, lost and under a curse."
+- <strong>Resultative <em>as a Redeemer</em></strong>: <em>as</em> introduces the role under which God is apprehended.
+- <strong>Apposition <em>in Christ the Mediator</em></strong>: <em>the Mediator</em> re-identifies Christ by office.</p><p><strong>④ Vocabulary:</strong>
+- <em>species</em> (L. <em>species</em>, "kind, appearance") — here logical sense, "type/category" of knowledge, not biological.
+- <em>Redeemer</em> (L. <em>redimere</em>, "to buy back") — God as the one who ransoms.
+- <em>Mediator</em> (L. <em>mediator</em>, "go-between") — Christ as the one standing <em>medius</em>, in the middle, between God and humanity.</p><p><strong>⑤ Plain-English paraphrase:</strong> "I'm not, at this point, talking about the saving knowledge by which guilty, condemned people come to know God as their Redeemer through Christ the go-between."</p><p><strong>⑥ Style note:</strong> Calvin disciplines his subject matter, fencing off soteriology (Book 2) so he can isolate the doctrine of God the Creator (Book 1).</p><hr/><h3>Sentence 4</h3><p><strong>① Text:</strong> "I speak only of that simple and primitive knowledge, to which the mere course of nature would have conducted us, had Adam stood upright."</p><p><strong>② Syntax skeleton:</strong> <strong>I (S) speak (V) only</strong> <em>of that … knowledge</em> [relative clause: <em>to which</em> <strong>the mere course of nature (S) would have conducted (V) us (O)</strong>] [inverted conditional: <em>had Adam stood upright</em>].</p><p><strong>③ Grammar points:</strong>
+- <strong>Restrictive <em>only</em></strong>: narrows the topic to the one kind of knowledge in view.
+- <strong>Counterfactual (third) conditional with inversion</strong>: "<em>had Adam stood upright</em>" = "if Adam had stood upright." Dropping <em>if</em> and inverting auxiliary + subject is a formal, literary way to express an unreal past condition. Apodosis: "would have conducted us."
+- <strong>Adjective pair <em>simple and primitive</em></strong>: <em>primitive</em> here = "original, belonging to the first/unfallen state," not "crude."</p><p><strong>④ Vocabulary:</strong>
+- <em>primitive</em> (L. <em>primitivus</em>, "first of its kind / earliest") — original, prelapsarian.
+- <em>course of nature</em> — the ordinary, created order; what nature itself would teach.
+- <em>conducted</em> (L. <em>conducere/ducere</em>, "to lead") — "led, guided."
+- <em>upright</em> — both literally "standing erect" and morally "righteous"; Calvin exploits the moral overtone (Adam's integrity).</p><p><strong>⑤ Plain-English paraphrase:</strong> "I'm dealing only with that plain, original knowledge of God that nature on its own would have led us to — <em>if</em> Adam had not fallen."</p><p><strong>⑥ Style note:</strong> The counterfactual quietly introduces the Fall as the hinge: such "natural" knowledge is now, in fact, unavailable in pure form — a point Chapter 1 already prepared.</p><hr/><h3>Sentence 5</h3><p><strong>① Text:</strong> "For although no man will now, in the present ruin of the human race, perceive God to be either a father, or the author of salvation, or propitious in any respect, until Christ interpose to make our peace; still it is one thing to perceive that God our Maker supports us by his power, rules us by his providence, fosters us by his goodness, and visits us with all kinds of blessings, and another thing to embrace the grace of reconciliation offered to us in Christ."</p><p><strong>② Syntax skeleton:</strong> [Causal <em>For</em>] [<strong>concessive</strong> clause: <em>although no man will … perceive God to be …, until Christ interpose</em>] ; [main clause with <strong>correlative <em>it is one thing … and another thing</em></strong>: <em>it is one thing</em> [to-infinitive: <em>to perceive that God … supports / rules / fosters / visits …</em>] <em>and another thing</em> [to-infinitive: <em>to embrace the grace of reconciliation</em>]].</p><p><strong>③ Grammar points:</strong>
+- <strong>Concessive <em>although … still</em></strong>: the <em>although</em> clause concedes a point; <em>still</em> (= "nevertheless") launches the main assertion. Classic <em>although…yet/still</em> correlation.
+- <strong>Triple disjunction <em>either … or … or</em></strong>: "either a father, or the author of salvation, or propitious." Three predicate complements after <em>perceive God to be</em>.
+- <strong>Subjunctive <em>until Christ interpose</em></strong>: bare subjunctive <em>interpose</em> (not <em>interposes</em>) in a temporal-conditional clause — formal/archaic, expressing a contingent future condition.
+- <strong>Correlative <em>one thing … another thing</em></strong>: a rhetorical antithesis distinguishing creational from redemptive perception.
+- <strong>Accusative-and-infinitive <em>perceive God to be</em></strong>: classical "ECM"/raising construction ("perceive God <em>to be</em> a father").
+- <strong>Parallel verb chain <em>supports … rules … fosters … visits</em></strong>, each with its instrumental phrase (<em>by his power / by his providence / by his goodness / with all kinds of blessings</em>) — rhythmic enumeration.</p><p><strong>④ Vocabulary:</strong>
+- <em>propitious</em> (L. <em>propitius</em>, "favorable, well-disposed") — graciously inclined.
+- <em>interpose</em> (L. <em>interponere</em>, "to put between") — to step in as mediator. Echoes <em>Mediator</em> in Sentence 3.
+- <em>fosters</em> — nourishes, cherishes.
+- <em>reconciliation</em> (L. <em>reconciliare</em>, "to bring back together") — restoration of friendship between estranged parties.</p><p><strong>⑤ Plain-English paraphrase:</strong> "Granted, in our fallen state nobody now perceives God as a father or savior or favorable at all until Christ steps in to make peace — <em>still</em>, it's one thing to recognize that God our Maker upholds, governs, nourishes, and blesses us, and quite another to embrace the reconciling grace offered in Christ."</p><p><strong>⑥ Style note:</strong> The longest sentence in the section. Calvin balances a heavy concession against a sharp <em>one-thing/another-thing</em> distinction, the very seam between Book 1 (Creator) and Book 2 (Redeemer).</p><hr/><h3>Sentence 6</h3><p><strong>① Text:</strong> "Since, then, the Lord first appears, as well in the creation of the world as in the general doctrine of Scripture, simply as a Creator, and afterwards as a Redeemer in Christ,—a twofold knowledge of him hence arises: of these the former is now to be considered, the latter will afterwards follow in its order."</p><p><strong>② Syntax skeleton:</strong> [Causal <em>Since</em>] <strong>the Lord (S) appears (V)</strong> <em>first … simply as a Creator … and afterwards as a Redeemer</em> → [main clause: <strong>a twofold knowledge (S) … arises (V)</strong> <em>hence</em>] : [colon-introduced specification: <em>the former (S) is to be considered (V)</em> … <em>the latter (S) will follow (V)</em>].</p><p><strong>③ Grammar points:</strong>
+- <strong>Causal <em>Since … (then)</em></strong>: grounds the conclusion that follows the dash.
+- <strong>Correlative <em>as well … as</em></strong>: "as well in the creation … as in the general doctrine of Scripture" = "both in … and in …" (older idiom).
+- <strong>Temporal antithesis <em>first … afterwards</em></strong>: orders the two appearances (Creator → Redeemer).
+- <strong>Dash + <em>hence arises</em></strong>: the em-dash marks the inferential leap to the conclusion; <strong>inversion</strong> in "a twofold knowledge of him hence arises" (adverb <em>hence</em> before verb) lends a formal cadence.
+- <strong>Colon of specification</strong>, then the <strong>correlative pair <em>the former … the latter</em></strong>: anaphoric pointers (former = Creator-knowledge; latter = Redeemer-knowledge).
+- <strong>Passive of obligation <em>is now to be considered</em></strong>: "is to be" + past participle = "must / is going to be."</p><p><strong>④ Vocabulary:</strong>
+- <em>twofold</em> — double, of two parts; sets up the architecture of the whole <em>Institutes</em> (duplex cognitio Dei).
+- <em>the former / the latter</em> — referential pair for the first/second of two items.
+- <em>in its order</em> — in its proper, appointed sequence.</p><p><strong>⑤ Plain-English paraphrase:</strong> "So, since the Lord shows himself first as Creator — both in the created world and throughout Scripture — and only afterward as Redeemer in Christ, a <em>double</em> knowledge of him arises. The first we'll take up now; the second comes later, in its place."</p><p><strong>⑥ Style note:</strong> Here Calvin lays the structural keel of the <em>Institutes</em>: the <strong>duplex cognitio Dei</strong> (twofold knowledge of God). The sentence is itself a table of contents.</p><hr/><h3>Sentence 7</h3><p><strong>① Text:</strong> "But although our mind cannot conceive of God, without rendering some worship to him, it will not, however, be sufficient simply to hold that he is the only being whom all ought to worship and adore, unless we are also persuaded that he is the fountain of all goodness, and that we must seek everything in him, and in none but him."</p><p><strong>② Syntax skeleton:</strong> [Concessive <em>although</em> <strong>our mind (S) cannot conceive (V) of God</strong>, <em>without rendering some worship</em>] , <strong>it (anticipatory S) will not … be sufficient (V)</strong> [extraposed real subject: <em>simply to hold that he is the only being whom all ought to worship</em>] [conditional <em>unless</em> <strong>we (S) are persuaded (V)</strong> <em>that he is the fountain of all goodness</em>, <em>and that we must seek everything in him</em>].</p><p><strong>③ Grammar points:</strong>
+- <strong>Concessive <em>although … however</em></strong>: the doubling of concessive <em>although</em> with adversative <em>however</em> is pleonastic but emphatic ("granted X — even so…").
+- <strong>Anticipatory / extraposed <em>it</em></strong>: "<em>it</em> will not be sufficient … <em>to hold</em>" — <em>it</em> is a dummy subject; the genuine subject is the infinitive clause <em>to hold that…</em>.
+- <strong>Negative + <em>without<em> + gerund (double-negative logic)</em><em>: "cannot conceive of God </em>without rendering<em> worship" = "whenever the mind conceives God, it necessarily renders some worship." A </em>not…without<em> litotes.
+- </em><em>Relative </em>whom all ought to worship</em></strong>: object relative (<em>whom</em>) properly used.
+- <strong>Conditional <em>unless</em></strong>: introduces the necessary further condition; correlated with the <em>that</em>-clauses of content.
+- <strong>Restrictive <em>in none but him</em></strong>: emphatic exclusivity ("in nobody except him").</p><p><strong>④ Vocabulary:</strong>
+- <em>render</em> (L. <em>reddere</em>, "to give back") — to give/pay (worship as something owed).
+- <em>fountain</em> — source, spring; a key Calvinian metaphor (God as <em>fons omnium bonorum</em>).
+- <em>adore</em> (L. <em>adorare</em>, "to pray to, venerate") — intensified worship.</p><p><strong>⑤ Plain-English paraphrase:</strong> "Now even though the mind can't think of God without offering him some worship, it's still not enough merely to hold that he alone deserves worship — <em>unless</em> we're also convinced that he is the source of all good, and that we must seek everything in him and in no one else."</p><p><strong>⑥ Style note:</strong> Calvin pushes past minimal monotheism: acknowledging God's uniqueness is insufficient without trusting him as the <strong>fountain of all goodness</strong>. The <em>not…without</em> and <em>unless</em> together fence the claim tightly.</p><hr/><h3>Sentence 8</h3><p><strong>① Text:</strong> "My meaning is: we must be persuaded not only that as he once formed the world, so he sustains it by his boundless power, governs it by his wisdom, preserves it by his goodness, in particular, rules the human race with justice and Judgment, bears with them in mercy, shields them by his protection; but also that not a particle of light, or wisdom, or justice, or power, or rectitude, or genuine truth, will anywhere be found, which does not flow from him, and of which he is not the cause; in this way we must learn to expect and ask all things from him, and thankfully ascribe to him whatever we receive."</p><p><strong>② Syntax skeleton:</strong> <strong>My meaning (S) is (V)</strong> : <strong>we (S) must be persuaded (V)</strong> [<strong>correlative <em>not only … but also</em></strong>] — (a) <em>not only that</em> [<em>as he once formed the world, so he sustains … governs … preserves … rules … bears … shields</em>]; (b) <em>but also that not a particle … will be found</em> [relative: <em>which does not flow from him, and of which he is not the cause</em>]; — [resultative coda: <em>in this way we must learn to expect and ask all things from him, and … ascribe … whatever we receive</em>].</p><p><strong>③ Grammar points:</strong>
+- <strong>Colon of explication <em>My meaning is:</em></strong>— self-glossing.
+- <strong>Correlative <em>not only … but also</em></strong> spanning two huge <em>that</em>-clauses — the backbone of the sentence.
+- <strong>Comparative correlative <em>as … so</em></strong>: "<em>as</em> he once formed the world, <em>so</em> he sustains it" — proportion/parallel between creation and providential sustenance.
+- <strong>Verb cascade with instrumentals</strong>: <em>sustains by power / governs by wisdom / preserves by goodness / rules with justice and Judgment / bears with in mercy / shields by protection</em> — six providential acts, each instrument-tagged. Sonorous parallelism.
+- <strong>Emphatic negative <em>not a particle … will anywhere be found</em></strong>: hyperbolic universal negation; <em>anywhere</em> reinforces.
+- <strong>Double relative <em>which does not flow from him, and of which he is not the cause</em></strong>: two relatives (subject <em>which</em>; pied-piped <em>of which</em>) both negated — God as exclusive source.
+- <strong>Resultative <em>in this way … we must learn</em></strong>: draws the practical inference (expectation, petition, thanksgiving).</p><p><strong>④ Vocabulary:</strong>
+- <em>sustains / preserves</em> — upholding providence (<em>conservatio</em>).
+- <em>rectitude</em> (L. <em>rectitudo</em>, "straightness") — moral uprightness. (Note the echo of <em>upright</em> in Sentence 4.)
+- <em>particle</em> — the smallest portion; rhetorical minimization to assert totality.
+- <em>ascribe</em> (L. <em>ascribere</em>, "to write/assign to") — to attribute, credit.</p><p><strong>⑤ Plain-English paraphrase:</strong> "Here's what I mean: we must be convinced not only that, just as God once made the world, so he now keeps it going — sustaining by power, governing by wisdom, preserving by goodness, ruling humankind with justice and judgment, bearing with us in mercy, shielding us by his care — but <em>also</em> that not the tiniest bit of light, wisdom, justice, power, rectitude, or real truth exists anywhere that does not flow from him as its source. So we must learn to expect and ask everything from him, and thankfully credit to him whatever we receive."</p><p><strong>⑥ Style note:</strong> The doctrinal climax: creation flows seamlessly into <strong>providence</strong>, and providence into the exclusivity of God as cause of every good — closing with the threefold practical posture of expectation, petition, and thanksgiving.</p><hr/><h3>Sentence 9</h3><p><strong>① Text:</strong> "For this sense of the divine perfections is the proper master to teach us piety, out of which religion springs."</p><p><strong>② Syntax skeleton:</strong> [Causal <em>For</em>] <strong>this sense of the divine perfections (S) is (V) the proper master (C)</strong> [infinitive of purpose/function: <em>to teach us piety</em>] [relative: <em>out of which religion springs</em>].</p><p><strong>③ Grammar points:</strong>
+- <strong>Predicate-nominative metaphor <em>is the proper master</em></strong>: God-perceiving experience is personified as a <em>teacher (magister)</em>.
+- <strong>Infinitive of function <em>to teach us piety</em></strong>: defines what kind of master it is.
+- <strong>Non-restrictive relative <em>out of which religion springs</em></strong>: <em>which</em> refers to <em>piety</em>; pied-piped <em>out of which</em> = "from which."</p><p><strong>④ Vocabulary:</strong>
+- <em>sense</em> — perception, felt awareness (not merely intellectual cognition); cf. Calvin's <em>sensus divinitatis</em>.
+- <em>perfections</em> — God's attributes considered as excellences.
+- <em>master</em> (L. <em>magister</em>) — teacher.
+- <em>springs</em> — issues, originates (as water from a source — re-echoing <em>fountain</em>).</p><p><strong>⑤ Plain-English paraphrase:</strong> "This felt awareness of God's perfections is the true teacher that schools us in piety — and piety is the soil out of which religion grows."</p><p><strong>⑥ Style note:</strong> A compact causal bridge: perception → piety → religion. The teaching-metaphor humanizes an abstract claim.</p><hr/><h3>Sentence 10</h3><p><strong>① Text:</strong> "By piety I mean that union of reverence and love to God which the knowledge of his benefits inspires."</p><p><strong>② Syntax skeleton:</strong> [Fronted <em>By piety</em>] <strong>I (S) mean (V) that union of reverence and love to God (O)</strong> [restrictive relative: <em>which the knowledge of his benefits inspires</em>].</p><p><strong>③ Grammar points:</strong>
+- <strong>Fronted <em>By piety</em></strong>: parallel to Sentence 1's "By the knowledge of God" — Calvin defines his second technical term the same way.
+- <strong>Restrictive relative <em>which … inspires</em></strong>: <em>which</em> = object of <em>inspires</em>; subject is <em>the knowledge of his benefits</em>. = "the union … that the knowledge of his benefits calls forth."
+- <strong>Coordinated abstract nouns <em>reverence and love</em></strong>: the two affective poles of piety (awe + affection).</p><p><strong>④ Vocabulary:</strong>
+- <em>piety</em> (defined) = <em>pietas</em> — here precisely "the union of reverence and love to God."
+- <em>reverence</em> — awe, fear-tinged respect.
+- <em>inspires</em> (L. <em>inspirare</em>, "to breathe into") — to instill, awaken.
+- <em>benefits</em> — kindnesses, gifts received from God.</p><p><strong>⑤ Plain-English paraphrase:</strong> "By 'piety' I mean the blend of reverence and love toward God that is awakened in us when we know his kindnesses."</p><p><strong>⑥ Style note:</strong> One of the most-quoted definitions in the <em>Institutes</em>. Piety is not raw fear nor sentimental love but their <em>union</em>, and it is <em>response</em> — generated by the knowledge of God's benefits.</p><hr/><h3>Sentence 11</h3><p><strong>① Text:</strong> "For, until men feel that they owe everything to God, that they are cherished by his paternal care, and that he is the author of all their blessings, so that nought is to be looked for away from him, they will never submit to him in voluntary obedience; nay, unless they place their entire happiness in him, they will never yield up their whole selves to him in truth and sincerity."</p><p><strong>② Syntax skeleton:</strong> [Causal <em>For</em>] [<strong>temporal <em>until</em></strong> clause with three coordinated <em>that</em>-objects of <em>feel</em>: <em>that they owe everything … that they are cherished … that he is the author …</em> + result <em>so that nought is to be looked for away from him</em>] <strong>they (S) will never submit (V)</strong> ; [coordinating <em>nay</em>] [<strong>conditional <em>unless</em></strong>: <em>unless they place their entire happiness in him</em>] <strong>they (S) will never yield up (V) their whole selves (O)</strong> <em>in truth and sincerity</em>.</p><p><strong>③ Grammar points:</strong>
+- <strong>Negative-temporal <em>until … they will never submit</em></strong>: "not until X will Y" logic — obedience is withheld <em>until</em> the prior condition (felt indebtedness) is met.
+- <strong>Triple <em>that<em>-clause object of </em>feel</em></strong>: parallel content clauses enumerate what must be felt.
+- <strong>Result <em>so that nought is to be looked for away from him</em></strong>: <em>nought</em> (archaic = "nothing"); <em>is to be looked for</em> passive-of-obligation = "nothing should be sought."
+- <strong>Escalating <em>nay</em></strong>: a corrective intensifier ("indeed, more than that…") introducing the parallel second clause.
+- <strong>Conditional <em>unless … they will never yield up</em></strong>: mirrors the <em>until</em> clause; reinforces by repetition (anaphoric parallelism of the two halves).
+- <strong>Reflexive intensive <em>their whole selves</em></strong>: total self-surrender.</p><p><strong>④ Vocabulary:</strong>
+- <em>cherished</em> — tenderly cared for.
+- <em>paternal care</em> — fatherly providence (re-echoes "father" in Sentence 5).
+- <em>nought</em> — nothing (archaic).
+- <em>yield up</em> — surrender, hand over wholly.
+- <em>sincerity</em> (L. <em>sincerus</em>, "pure, unmixed") — wholeheartedness, no pretense.</p><p><strong>⑤ Plain-English paraphrase:</strong> "For until people <em>feel</em> that they owe everything to God, that his fatherly care cherishes them, and that he is the source of all their blessings — so that nothing is sought apart from him — they will never willingly obey him. More than that: unless they anchor all their happiness in him, they will never give their whole selves to him honestly and sincerely."</p><p><strong>⑥ Style note:</strong> The section closes on the <em>affective</em> and <em>volitional</em> dimensions: true knowledge → felt indebtedness → willing obedience and total self-surrender. The doubled negative structure (<em>until…never / unless…never</em>) hammers the conditionality home.</p><hr/><h2>PART 4 — Vocabulary Table</h2><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>POS</th>
+<th>Meaning (in context)</th>
+<th>Nuance &amp; etymology (KR gloss)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>conceive</td>
+<td>v.</td>
+<td>form the bare notion (that God is)</td>
+<td>L. <em>concipere</em> "take in." Weaker than <em>apprehend</em>. (생각해 내다/인지하다)</td>
+</tr>
+<tr>
+<td>apprehend</td>
+<td>v.</td>
+<td>grasp fully, take hold of</td>
+<td>L. <em>apprehendere</em> "seize." Committed grasp. (파악하다)</td>
+</tr>
+<tr>
+<td>conducive</td>
+<td>adj.</td>
+<td>tending to promote</td>
+<td>L. <em>conducere</em> "lead together / be useful." (도움이 되는)</td>
+</tr>
+<tr>
+<td>piety</td>
+<td>n.</td>
+<td>union of reverence and love to God</td>
+<td>L. <em>pietas</em> "dutiful devotion." Calvin's defined term. (경건)</td>
+</tr>
+<tr>
+<td>religion</td>
+<td>n.</td>
+<td>ordered devotion to God</td>
+<td>L. <em>religio</em> (<em>religare</em> "bind fast"). (종교/신앙)</td>
+</tr>
+<tr>
+<td>species</td>
+<td>n.</td>
+<td>kind, type (of knowledge)</td>
+<td>L. <em>species</em> "kind, appearance." Logical sense. (종류)</td>
+</tr>
+<tr>
+<td>Redeemer</td>
+<td>n.</td>
+<td>one who buys back / ransoms</td>
+<td>L. <em>redimere</em> "buy back." (구속자)</td>
+</tr>
+<tr>
+<td>Mediator</td>
+<td>n.</td>
+<td>go-between (Christ)</td>
+<td>L. <em>mediator</em> "one in the middle." (중보자)</td>
+</tr>
+<tr>
+<td>primitive</td>
+<td>adj.</td>
+<td>original, prelapsarian</td>
+<td>L. <em>primitivus</em> "first of its kind." Not "crude." (원초적인)</td>
+</tr>
+<tr>
+<td>upright</td>
+<td>adj.</td>
+<td>erect / morally righteous</td>
+<td>OE; Calvin exploits moral sense (Adam's integrity). (곧은/의로운)</td>
+</tr>
+<tr>
+<td>propitious</td>
+<td>adj.</td>
+<td>favorably disposed</td>
+<td>L. <em>propitius</em> "favorable." (자비로운/호의적인)</td>
+</tr>
+<tr>
+<td>interpose</td>
+<td>v.</td>
+<td>step in between (as mediator)</td>
+<td>L. <em>interponere</em> "put between." (중재하다)</td>
+</tr>
+<tr>
+<td>reconciliation</td>
+<td>n.</td>
+<td>restoration of friendship</td>
+<td>L. <em>reconciliare</em> "bring back together." (화해)</td>
+</tr>
+<tr>
+<td>twofold</td>
+<td>adj.</td>
+<td>double, of two parts</td>
+<td>duplex cognitio Dei. (이중적인)</td>
+</tr>
+<tr>
+<td>render</td>
+<td>v.</td>
+<td>give/pay (as owed)</td>
+<td>L. <em>reddere</em> "give back." (드리다)</td>
+</tr>
+<tr>
+<td>fountain</td>
+<td>n.</td>
+<td>source, spring</td>
+<td>metaphor: <em>fons omnium bonorum</em>. (원천/샘)</td>
+</tr>
+<tr>
+<td>adore</td>
+<td>v.</td>
+<td>venerate, worship intensely</td>
+<td>L. <em>adorare</em> "pray to." (경배하다)</td>
+</tr>
+<tr>
+<td>rectitude</td>
+<td>n.</td>
+<td>moral uprightness</td>
+<td>L. <em>rectitudo</em> "straightness." (정직/올바름)</td>
+</tr>
+<tr>
+<td>particle</td>
+<td>n.</td>
+<td>smallest portion</td>
+<td>rhetorical minimization for totality. (티끌만큼)</td>
+</tr>
+<tr>
+<td>ascribe</td>
+<td>v.</td>
+<td>attribute, credit to</td>
+<td>L. <em>ascribere</em> "assign to." (돌리다)</td>
+</tr>
+<tr>
+<td>sense</td>
+<td>n.</td>
+<td>felt awareness</td>
+<td>cf. <em>sensus divinitatis</em>. (감각/의식)</td>
+</tr>
+<tr>
+<td>perfections</td>
+<td>n.</td>
+<td>divine attributes as excellences</td>
+<td>(완전하심/속성)</td>
+</tr>
+<tr>
+<td>master</td>
+<td>n.</td>
+<td>teacher</td>
+<td>L. <em>magister</em>. (스승)</td>
+</tr>
+<tr>
+<td>inspires</td>
+<td>v.</td>
+<td>breathes into, awakens</td>
+<td>L. <em>inspirare</em>. (불어넣다)</td>
+</tr>
+<tr>
+<td>benefits</td>
+<td>n.</td>
+<td>kindnesses, gifts received</td>
+<td>(은택/유익)</td>
+</tr>
+<tr>
+<td>cherished</td>
+<td>v.(pp.)</td>
+<td>tenderly cared for</td>
+<td>(사랑받는/소중히 여겨지는)</td>
+</tr>
+<tr>
+<td>nought</td>
+<td>n.</td>
+<td>nothing</td>
+<td>archaic. (아무것도 없음)</td>
+</tr>
+<tr>
+<td>sincerity</td>
+<td>n.</td>
+<td>wholeheartedness, no pretense</td>
+<td>L. <em>sincerus</em> "pure, unmixed." (진실함)</td>
+</tr>
+</tbody>
+</table><hr/><h2>PART 5 — 🏛 Theology (deep)</h2><p><strong>1. The thesis: knowledge of God is inseparable from piety.</strong> Calvin's opening definition is deliberately anti-speculative. To "know God" is not to register a metaphysical fact ("there is some God") but to apprehend God <em>as he bears on our welfare and his glory</em>, in a knowing that issues in worship. Hence the axiom: "we cannot say that God is known where there is no religion or piety." This sets Calvin against any purely intellectual theism — and, polemically, against the scholastic appetite for defining the divine <em>essence</em> (which he attacks in §2 as "frigid speculation").</p><p><strong>2. The <em>duplex cognitio Dei</em> (twofold knowledge of God).</strong> Sentence 6 articulates the architectural principle of the whole <em>Institutes</em>: God is known first as <strong>Creator</strong> and afterward as <strong>Redeemer in Christ</strong>. This is not two Gods or two unrelated subjects but one God under two relations, ordered by the history of creation and redemption. Book 1 expounds the <em>cognitio Dei creatoris</em>; Books 2–4 unfold the <em>cognitio Dei redemptoris</em>. Calvin's care to "bracket" redemptive knowledge here (Sentence 3) is methodological, not a denial that fallen humans actually need the Redeemer to know God savingly.</p><p><strong>3. The hypothetical of unfallen knowledge.</strong> "That simple and primitive knowledge, to which the mere course of nature would have conducted us, had Adam stood upright" (Sentence 4) marks a crucial Reformed distinction: <em>what nature would have taught in integrity</em> vs. <em>what nature now actually yields in corruption</em>. Calvin does <strong>not</strong> teach an autonomous, optimistic natural theology. The natural knowledge of the Creator is genuine and obligating (it leaves us "without excuse," cf. Rom. 1), yet since the Fall no one perceives God as Father, Savior, or propitious "until Christ interpose" (Sentence 5). The <em>capacity</em> for creational knowledge remains; its <em>saving sufficiency</em> is gone.</p><p><strong>4. God as <em>fons omnium bonorum</em> — the fountain of all good.</strong> The doctrinal weight of §1 falls on Sentence 8: not a particle of light, wisdom, justice, power, rectitude, or truth exists "which does not flow from him." This is Calvin's doctrine of God as the sole, exclusive source of all good — the metaphysical ground for <em>soli Deo gloria</em> and for the practical posture of expectation, petition, and thanksgiving. It also undergirds his doctrine of <strong>providence</strong>: creation (Sentence 8a: "as he once formed the world") flows seamlessly into conservation and government ("so he sustains… governs… preserves… rules… bears with… shields"). Calvin allows no deist gap between making and maintaining the world — precisely the Epicurean error he will skewer in §2.</p><p><strong>5. The definition of piety (<em>pietas</em>).</strong> "That union of reverence and love to God which the knowledge of his benefits inspires" (Sentence 10) is among the most influential definitions in Reformed theology. Three features: (a) piety is a <em>union</em> of two affections — reverence (awe/fear) and love (affection) — not one without the other; cold fear and sentimental affection are both deficient. (b) Piety is <em>responsive</em>, "inspired" by knowledge of God's <em>benefits</em> — it is grateful in structure. (c) Piety is the <em>seed of religion</em> ("out of which religion springs"): right worship grows from rightly affected knowledge, not the reverse. This reverses any merely ritual or institutional account of religion.</p><p><strong>6. Reformed reception.</strong> This section grounds the famous opening of the <strong>Westminster Shorter Catechism</strong> ("Man's chief end is to glorify God and to enjoy him forever") — reverence (glorify) and love/enjoyment (enjoy) united. It also anticipates the <strong>Heidelberg Catechism's</strong> gratitude structure (the third part, "Thankfulness"), since Calvin roots obedience in felt indebtedness ("until men feel that they owe everything to God"). In the modern era, B. B. Warfield and later Reformed dogmatics (Bavinck) treat the <em>duplex cognitio</em> as the organizing insight of Calvin's theology. Calvin's anti-speculative stance ("what kind of being God is, and what things are agreeable to his nature," §2) prefigures later Reformed emphasis on God's <em>attributes-toward-us</em> over essence-in-itself.</p><hr/><h2>PART 6 — 📖 Biblical Studies (deep)</h2><p><strong>1. "Without excuse": the natural knowledge of the Creator (Romans 1:19–21).</strong> The whole frame of §1 — a real but now-corrupted knowledge of God as Creator — rests on Paul's argument that "what may be known of God is manifest… for God has shewed it unto them… so that they are without excuse" (Rom. 1:19–20). Calvin's claim that nature <em>would have</em> led us to know God "had Adam stood upright," yet now fails to make God appear "a father… until Christ interpose," is a precise exegesis of Romans 1: the knowledge is sufficient to condemn but, post-Fall, insufficient to save. The Greek <strong>τὸ γνωστὸν τοῦ θεοῦ</strong> ("that which may be known of God," Rom. 1:19) is exactly the <em>cognitio creatoris</em> Calvin isolates.</p><p><strong>2. God as Creator throughout Scripture (Sentence 6).</strong> Calvin says the Lord appears "as well in the creation of the world as in the general doctrine of Scripture, simply as a Creator." The biblical substructure is Genesis 1–2 read alongside the creation-praise of the Psalms (Ps. 104; Ps. 33:6, "By the word of the LORD were the heavens made") and Isaiah's Creator-monotheism (Isa. 40:26–28, 45:18). The move from Creator to Redeemer ("afterwards as a Redeemer in Christ") tracks the canonical order itself — Genesis before Exodus, creation before covenant — and culminates in John 1:1–14, where the Creator-Word (δι' αὐτοῦ πάντα ἐγένετο, "all things were made by him," Jn. 1:3) becomes the Redeemer-Mediator made flesh.</p><p><strong>3. Providence: sustaining, governing, preserving (Sentence 8).</strong> Calvin's chain "sustains… governs… preserves… rules… bears with… shields" is saturated with biblical providence-texts: <strong>Hebrews 1:3</strong> — Christ "upholding all things by the word of his power" (φέρων τε τὰ πάντα); <strong>Acts 17:25, 28</strong> — God "giveth to all life, and breath, and all things… for in him we live, and move, and have our being"; <strong>Colossians 1:17</strong> — "by him all things consist (συνέστηκεν)"; <strong>Psalm 145:15–16</strong> — "the eyes of all wait upon thee… thou openest thine hand, and satisfiest the desire of every living thing." The instrumental tags (by power / wisdom / goodness) echo the wisdom-creation tradition (Prov. 3:19; Jer. 10:12, "He hath made the earth by his power, he hath established the world by his wisdom").</p><p><strong>4. God the fountain of all good (Sentence 8b).</strong> "Not a particle of light… which does not flow from him" rests on <strong>James 1:17</strong> — "Every good gift and every perfect gift is from above, and cometh down from the Father of lights" (πᾶσα δόσις ἀγαθή… ἄνωθέν ἐστιν) — and on <strong>Psalm 36:9</strong>, "For with thee is the fountain of life: in thy light shall we see light," which supplies Calvin's very metaphor of God as <em>fountain</em> and his pairing of <em>life/light</em>. Compare 1 Corinthians 4:7, "what hast thou that thou didst not receive?" — directly grounding the thanksgiving posture.</p><p><strong>5. Piety as reverence + love inspired by benefits (Sentence 10–11).</strong> The "union of reverence and love" tracks the great commandment, <strong>Deuteronomy 6:5</strong> ("thou shalt love the LORD thy God with all thine heart"), held together with <strong>Deuteronomy 10:12</strong> — "to fear the LORD thy God, to walk in all his ways, and to love him, and to serve the LORD thy God with all thy heart" — where <em>fear</em> and <em>love</em> stand side by side, exactly Calvin's <em>reverence</em> and <em>love</em>. That piety is awakened by "the knowledge of his benefits" reflects the covenantal pattern in which the indicative of God's gifts grounds the imperative of obedience (Exod. 20:2, "I am the LORD thy God, which… brought thee out," <em>before</em> the commandments). The closing demand for "truth and sincerity" echoes <strong>Joshua 24:14</strong>, "serve him in sincerity and in truth."</p><p><strong>6. The Father motif.</strong> The recurring language — God as "father," "paternal care," "cherished" — anticipates the redemptive fatherhood fully revealed in Christ (Rom. 8:15, "Abba, Father"), while §1 carefully restricts the <em>Creator's</em> fatherly care to providence. Calvin's exegetical tact: the fatherhood known in creation is real but does not, of itself, reach the adoptive sonship that comes only "in Christ."</p><hr/><h2>PART 7 — 🔁 Translation Comparison (Beveridge vs. Battles)</h2><p>The most quoted line is the definition of piety. Both translators handle the <em>duplex cognitio</em> similarly; the notable divergence is lexical sharpness.</p><ul>
+<li><strong>Piety (Sentence 10).</strong> Beveridge: "that <em>union of reverence and love</em> to God which the knowledge of his benefits inspires." Battles renders the same Latin (<em>pietatem… reverentiam… coniunctam amore Dei</em>) more tightly as <strong>"reverence joined with love of God"</strong> (&lt;15 words) — foregrounding the verb <em>joined</em> where Beveridge nominalizes it as <em>union</em>.</li>
+<li><strong>"Frigid speculations" / essence (anticipating §2).</strong> Beveridge's "<em>frigid speculations</em>" for those who chase God's essence is matched by Battles' crisper <strong>"cold speculation"</strong> — a tighter idiom, but the sense is identical.</li>
+</ul><p>Elsewhere (the Creator/Redeemer ordering, the providence chain) the two are substantially equivalent; no material difference of meaning.</p><hr/><h2>PART 8 — ✅ Check Yourself (multiple choice)</h2><p><strong>Q1 (Grammar/Syntax).</strong> In "I speak only of that simple and primitive knowledge… <em>had Adam stood upright</em>," the italicized phrase is:
+A. an imperative command
+B. an inverted counterfactual (third) conditional = "if Adam had stood upright"
+C. a present participle clause
+D. a relative clause</p><p><strong>Q2 (Grammar/Syntax).</strong> In Sentence 7, "<em>it</em> will not… be sufficient simply <em>to hold</em> that he is the only being…," the word <em>it</em> functions as:
+A. a referential pronoun pointing back to "mind"
+B. an anticipatory (dummy) subject for the extraposed infinitive "to hold…"
+C. the direct object of "hold"
+D. a relative pronoun</p><p><strong>Q3 (Vocabulary).</strong> In context, <em>propitious</em> (Sentence 5) most nearly means:
+A. hidden or remote
+B. favorably disposed, gracious
+C. all-powerful
+D. just and severe</p><p><strong>Q4 (Theology).</strong> Calvin's phrase "a twofold knowledge of him hence arises" refers to:
+A. knowledge by reason vs. knowledge by Scripture
+B. the knowledge of God as Creator and as Redeemer in Christ (<em>duplex cognitio Dei</em>)
+C. the knowledge of God's essence vs. his existence
+D. Old Testament knowledge vs. New Testament knowledge</p><p><strong>Q5 (Comprehension/Theology).</strong> According to §1, Calvin defines <em>piety</em> as:
+A. the fear of punishment that restrains us from sin
+B. correct doctrine about God's essence
+C. the union of reverence and love to God which the knowledge of his benefits inspires
+D. the outward performance of religious ceremonies</p><hr/><h3>Answer Key</h3><ul>
+<li><strong>Q1 — B.</strong> "had Adam stood upright" inverts auxiliary + subject to express an unreal past condition (counterfactual), equivalent to "if Adam had stood upright."</li>
+<li><strong>Q2 — B.</strong> <em>It</em> is an anticipatory/dummy subject; the real subject is the extraposed infinitive clause "to hold that he is the only being…"</li>
+<li><strong>Q3 — B.</strong> <em>Propitious</em> (L. <em>propitius</em>) = favorably inclined, gracious — Calvin says fallen man cannot perceive God as "propitious… until Christ interpose."</li>
+<li><strong>Q4 — B.</strong> The <em>duplex cognitio Dei</em>: God known first as Creator (Book 1), then as Redeemer in Christ (Books 2ff).</li>
+<li><strong>Q5 — C.</strong> Calvin's defined term: "that union of reverence and love to God which the knowledge of his benefits inspires." (A describes mere servile fear, rejected later in the chapter.)</li>
+</ul></div>
+</section>
+  <section class="period" id="paraphrase" data-period="✒"><h2 class="period-head" onclick="togglePeriod(this)"><span class="p-num">✒</span><span class="p-title">풀어 쓴 우리말 의역 — 1권 2장 §1</span><span class="p-caret">–</span></h2><div class="period-body para-ko"><p class="para-note">직역이 아니라 본문의 뜻을 살려 우리말로 다시 쓴 글입니다. 영어 본문을 공부한 뒤 마무리로 읽어 보세요.</p><p>내가 &quot;하나님을 아는 지식&quot;이라고 말할 때, 그것은 단지 어떤 신이 존재한다는 사실을 머리로 인정하는 것이 아니다. 우리에게 유익이 되고 그분의 영광에 부합하는 것, 한마디로 그분에 관해 마땅히 알아야 할 것을 붙드는 앎을 뜻한다.<sup class="vs-ref"><a id="pv-1" href="#vs-1" onclick="return vsJump(1)" title="관련 성구 보기">1</a></sup> 엄밀히 말해, 종교도 경건도 없는 곳에서는 하나님이 &quot;알려졌다&quot;고 말할 수 없기 때문이다.<sup class="vs-ref"><a id="pv-2" href="#vs-2" onclick="return vsJump(2)" title="관련 성구 보기">2</a></sup></p><p>미리 분명히 해 두자. 지금 내가 말하려는 것은, 잃어버린 바 되어 저주 아래 있는 사람이 중보자 그리스도 안에서 하나님을 구속주로 붙드는 그런 종류의 지식이 아니다. 여기서 다루는 것은 그보다 단순하고 원초적인 지식 — 만일 아담이 타락하지 않고 바로 서 있었다면, 자연의 질서만 따라가도 우리가 다다랐을 그 앎이다.<sup class="vs-ref"><a id="pv-3" href="#vs-3" onclick="return vsJump(3)" title="관련 성구 보기">3</a></sup> 물론 인류가 이렇게 무너져 버린 지금은, 그리스도께서 중간에 서서 우리의 화평을 이루어 주시기 전까지, 그 누구도 하나님을 아버지로도, 구원의 주로도, 어떤 의미로든 우리에게 호의를 베푸시는 분으로도 경험하지 못한다.<sup class="vs-ref"><a id="pv-4" href="#vs-4" onclick="return vsJump(4)" title="관련 성구 보기">4</a></sup> 그래도 이 둘은 서로 다른 일이다. 하나는 우리를 지으신 하나님께서 당신의 능력으로 우리를 떠받치시고, 섭리로 다스리시고, 선하심으로 먹이시며, 온갖 복으로 찾아오신다는 것을 아는 것이고, 다른 하나는 그리스도 안에서 내미신 화목의 은혜를 끌어안는 것이다.<sup class="vs-ref"><a id="pv-5" href="#vs-5" onclick="return vsJump(5)" title="관련 성구 보기">5</a></sup></p><p>그러므로 주님께서 세계의 창조에서나 성경의 전체 가르침에서나 먼저는 단순히 창조주로 나타나시고, 그 뒤에 그리스도 안에서 구속주로 나타나시는 이상, 하나님을 아는 지식은 두 겹으로 갈라진다. 지금은 그 첫째를 살피고, 둘째는 뒤에 제 순서에서 다룰 것이다.<sup class="vs-ref"><a id="pv-6" href="#vs-6" onclick="return vsJump(6)" title="관련 성구 보기">6</a></sup></p><p>그런데 우리 마음은 하나님을 떠올리는 순간 어떤 식으로든 그분께 예배를 드리지 않을 수 없다. 그러나 그분만이 모든 사람이 경배하고 흠모해야 할 유일한 분이시라고 인정하는 것만으로는 충분하지 않다. 거기에 더하여, 그분이 모든 선의 샘이시라는 것과, 모든 것을 오직 그분 안에서만 — 다른 어디서도 아니라 — 구해야 한다는 확신이 있어야 한다.<sup class="vs-ref"><a id="pv-7" href="#vs-7" onclick="return vsJump(7)" title="관련 성구 보기">7</a></sup> 내 말의 뜻은 이렇다. 하나님께서 일찍이 세상을 지으셨듯 지금도 그 가없는 능력으로 세상을 떠받치시고, 지혜로 다스리시며, 선하심으로 보존하시고, 특별히 인류를 정의와 공의로 다스리시며, 자비로 참으시고, 보호하심으로 감싸신다는 것을 믿어야 한다.<sup class="vs-ref"><a id="pv-8" href="#vs-8" onclick="return vsJump(8)" title="관련 성구 보기">8</a></sup> 그러나 거기서 그치지 않는다. 빛이든 지혜든 정의든 능력이든 올바름이든 참된 진리든, 그분에게서 흘러나오지 않고 그분이 원인이 아닌 것은 세상 어디에도 단 한 톨도 없다는 것까지 믿어야 한다.<sup class="vs-ref"><a id="pv-9" href="#vs-9" onclick="return vsJump(9)" title="관련 성구 보기">9</a></sup> 그럴 때 우리는 모든 것을 그분께 기대하고 구하며, 받은 모든 것을 감사함으로 그분께 돌려드리는 법을 배우게 된다.<sup class="vs-ref"><a id="pv-10" href="#vs-10" onclick="return vsJump(10)" title="관련 성구 보기">10</a></sup></p><p>하나님의 완전하심을 이렇게 몸으로 느끼는 것이야말로 우리에게 경건을 가르치는 참된 스승이며, 종교는 바로 그 경건에서 태어난다.<sup class="vs-ref"><a id="pv-11" href="#vs-11" onclick="return vsJump(11)" title="관련 성구 보기">11</a></sup> 내가 말하는 경건이란, 그분이 베푸신 은혜들을 앎으로써 우러나오는, 하나님을 향한 경외와 사랑의 결합이다.<sup class="vs-ref"><a id="pv-12" href="#vs-12" onclick="return vsJump(12)" title="관련 성구 보기">12</a></sup> 사람이 모든 것을 하나님께 빚졌다는 것, 그분의 아버지 같은 돌보심 안에서 길러지고 있다는 것, 자기가 누리는 모든 복의 주인이 그분이시므로 그분을 떠나서는 아무것도 바랄 것이 없다는 것을 뼛속으로 느끼기 전까지는, 결코 자원하는 마음으로 그분께 순종하지 않는다.<sup class="vs-ref"><a id="pv-13" href="#vs-13" onclick="return vsJump(13)" title="관련 성구 보기">13</a></sup> 아니, 자신의 행복 전부를 그분 안에 두지 않는 한, 그 누구도 자기 전체를 참되고 진실하게 그분께 내어드리지 않는 것이다.<sup class="vs-ref"><a id="pv-14" href="#vs-14" onclick="return vsJump(14)" title="관련 성구 보기">14</a></sup></p></div></section><section class="period" id="paraphrase-verses" data-period="📖"><h2 class="period-head" onclick="togglePeriod(this)"><span class="p-num">📖</span><span class="p-title">성구로 다시 읽기 — 1권 2장 §1</span><span class="p-caret">–</span></h2><div class="period-body vs-ko"><p class="para-note">위 의역의 문장 흐름을 따라, 각 대목과 맞닿은 성경 구절을 모았습니다. 의역 문장 끝의 <sup class="vs-ref"><a href="#vs-1" onclick="return vsJump(1)">번호</a></sup>를 누르면 해당 성구로 이동합니다.</p><h3 class="vs-label" id="vs-1"><a class="vs-back" href="#pv-1" onclick="return pvJump(1)">↩ 의역 본문</a>1. 하나님을 아는 지식 — 존재 인정이 아니라 마땅히 알아야 할 것을 붙드는 앎</h3><p class="vs-item"><b>야고보서 2:19</b> — “네가 하나님은 한 분이신 줄을 믿느냐 잘하는도다 귀신들도 믿고 떠느니라”</p><p class="vs-item"><b>요한복음 17:3</b> — “영생은 곧 유일하신 참 하나님과 그가 보내신 자 예수 그리스도를 아는 것이니이다”</p><h3 class="vs-label" id="vs-2"><a class="vs-back" href="#pv-2" onclick="return pvJump(2)">↩ 의역 본문</a>2. 종교도 경건도 없는 곳에서는 하나님이 알려졌다고 말할 수 없다</h3><p class="vs-item"><b>디도서 1:16</b> — “그들이 하나님을 시인하나 행위로는 부인하니 가증한 자요 복종하지 아니하는 자요 모든 선한 일을 버리는 자니라”</p><p class="vs-item"><b>마태복음 7:21</b> — “나더러 주여 주여 하는 자마다 다 천국에 들어갈 것이 아니요 다만 하늘에 계신 내 아버지의 뜻대로 행하는 자라야 들어가리라”</p><h3 class="vs-label" id="vs-3"><a class="vs-back" href="#pv-3" onclick="return pvJump(3)">↩ 의역 본문</a>3. 아담이 서 있었다면 자연의 질서가 이끌었을 원초적 지식</h3><p class="vs-item"><b>로마서 1:19-20</b> — “창세로부터 그의 보이지 아니하는 것들 곧 그의 영원하신 능력과 신성이 그가 만드신 만물에 분명히 보여 알려졌나니 그러므로 그들이 핑계하지 못할지니라”</p><p class="vs-item"><b>시편 19:1</b> — “하늘이 하나님의 영광을 선포하고 궁창이 그의 손으로 하신 일을 나타내는도다”</p><h3 class="vs-label" id="vs-4"><a class="vs-back" href="#pv-4" onclick="return pvJump(4)">↩ 의역 본문</a>4. 그리스도께서 화평을 이루시기 전에는 누구도 하나님을 아버지로 경험하지 못한다</h3><p class="vs-item"><b>요한복음 14:6</b> — “내가 곧 길이요 진리요 생명이니 나로 말미암지 않고는 아버지께로 올 자가 없느니라”</p><p class="vs-item"><b>에베소서 2:14</b> — “그는 우리의 화평이신지라 둘로 하나를 만드사 원수 된 것 곧 중간에 막힌 담을 자기 육체로 허시고”</p><h3 class="vs-label" id="vs-5"><a class="vs-back" href="#pv-5" onclick="return pvJump(5)">↩ 의역 본문</a>5. 창조주의 돌보심을 아는 것과 화목의 은혜를 끌어안는 것은 다른 일이다</h3><p class="vs-item"><b>사도행전 14:17</b> — “그러나 자기를 증언하지 아니하신 것이 아니니 곧 여러분에게 하늘로부터 비를 내리시며 결실기를 주시는 선한 일을 하사 음식과 기쁨으로 여러분의 마음에 만족하게 하셨느니라”</p><p class="vs-item"><b>마태복음 5:45</b> — “하나님이 그 해를 악인과 선인에게 비추시며 비를 의로운 자와 불의한 자에게 내려주심이라”</p><h3 class="vs-label" id="vs-6"><a class="vs-back" href="#pv-6" onclick="return pvJump(6)">↩ 의역 본문</a>6. 두 겹의 지식 — 먼저 창조주로, 그 뒤에 구속주로</h3><p class="vs-item"><b>창세기 1:1</b> — “태초에 하나님이 천지를 창조하시니라”</p><p class="vs-item"><b>갈라디아서 4:4-5</b> — “때가 차매 하나님이 그 아들을 보내사 여자에게서 나게 하시고 율법 아래에 나게 하신 것은 율법 아래에 있는 자들을 속량하시고 우리로 아들의 명분을 얻게 하려 하심이라”</p><h3 class="vs-label" id="vs-7"><a class="vs-back" href="#pv-7" onclick="return pvJump(7)">↩ 의역 본문</a>7. 그분은 모든 선의 샘 — 모든 것을 오직 그분 안에서만 구해야 한다</h3><p class="vs-item"><b>시편 16:2</b> — “내가 여호와께 아뢰되 주는 나의 주님이시오니 주 밖에는 나의 복이 없다 하였나이다”</p><p class="vs-item"><b>시편 36:9</b> — “진실로 생명의 원천이 주께 있사오니 주의 빛 안에서 우리가 빛을 보리이다”</p><h3 class="vs-label" id="vs-8"><a class="vs-back" href="#pv-8" onclick="return pvJump(8)">↩ 의역 본문</a>8. 지으셨듯 지금도 떠받치시고 다스리시고 보존하시고 보호하신다</h3><p class="vs-item"><b>히브리서 1:3</b> — “그의 능력의 말씀으로 만물을 붙드시며”</p><p class="vs-item"><b>시편 145:9</b> — “여호와께서는 모든 것을 선대하시며 그 지으신 모든 것에 긍휼을 베푸시는도다”</p><h3 class="vs-label" id="vs-9"><a class="vs-back" href="#pv-9" onclick="return pvJump(9)">↩ 의역 본문</a>9. 빛&#183;지혜&#183;정의&#183;능력&#183;진리, 그분에게서 나오지 않은 것은 한 톨도 없다</h3><p class="vs-item"><b>야고보서 1:17</b> — “온갖 좋은 은사와 온전한 선물이 다 위로부터 빛들의 아버지께로부터 내려오나니 그는 변함도 없으시고 회전하는 그림자도 없으시니라”</p><p class="vs-item"><b>다니엘 2:20-22</b> — “영원부터 영원까지 하나님의 이름을 찬송할 것은 지혜와 능력이 그에게 있음이로다 … 그는 지혜자에게 지혜를 주시고 총명한 자에게 지식을 주시는도다”</p><h3 class="vs-label" id="vs-10"><a class="vs-back" href="#pv-10" onclick="return pvJump(10)">↩ 의역 본문</a>10. 모든 것을 그분께 구하고, 받은 모든 것을 감사로 돌려드린다</h3><p class="vs-item"><b>빌립보서 4:6</b> — “아무 것도 염려하지 말고 다만 모든 일에 기도와 간구로, 너희 구할 것을 감사함으로 하나님께 아뢰라”</p><p class="vs-item"><b>데살로니가전서 5:18</b> — “범사에 감사하라 이것이 그리스도 예수 안에서 너희를 향하신 하나님의 뜻이니라”</p><h3 class="vs-label" id="vs-11"><a class="vs-back" href="#pv-11" onclick="return pvJump(11)">↩ 의역 본문</a>11. 하나님의 완전하심을 느끼는 것이 경건의 스승이요, 종교는 경건에서 태어난다</h3><p class="vs-item"><b>시편 34:8</b> — “너희는 여호와의 선하심을 맛보아 알지어다 그에게 피하는 자는 복이 있도다”</p><p class="vs-item"><b>호세아 6:6</b> — “나는 인애를 원하고 제사를 원하지 아니하며 번제보다 하나님을 아는 것을 원하노라”</p><h3 class="vs-label" id="vs-12"><a class="vs-back" href="#pv-12" onclick="return pvJump(12)">↩ 의역 본문</a>12. 경건 = 그분의 은혜를 앎에서 우러나는 경외와 사랑의 결합</h3><p class="vs-item"><b>신명기 10:12</b> — “이스라엘아 네 하나님 여호와께서 네게 요구하시는 것이 무엇이냐 곧 네 하나님 여호와를 경외하여 그의 모든 도를 행하고 그를 사랑하며 마음을 다하고 뜻을 다하여 네 하나님 여호와를 섬기고”</p><p class="vs-item"><b>시편 2:11</b> — “여호와를 경외함으로 섬기고 떨며 즐거워할지어다”</p><h3 class="vs-label" id="vs-13"><a class="vs-back" href="#pv-13" onclick="return pvJump(13)">↩ 의역 본문</a>13. 모든 것을 빚졌음을 느껴야 자원하는 순종이 나온다</h3><p class="vs-item"><b>시편 116:12</b> — “내게 주신 모든 은혜를 내가 여호와께 무엇으로 보답할까”</p><p class="vs-item"><b>로마서 12:1</b> — “그러므로 형제들아 내가 하나님의 모든 자비하심으로 너희를 권하노니 너희 몸을 하나님이 기뻐하시는 거룩한 산 제물로 드리라 이는 너희가 드릴 영적 예배니라”</p><h3 class="vs-label" id="vs-14"><a class="vs-back" href="#pv-14" onclick="return pvJump(14)">↩ 의역 본문</a>14. 행복 전부를 그분 안에 두어야 자기 전체를 내어드린다</h3><p class="vs-item"><b>시편 73:25-26</b> — “하늘에서는 주 외에 누가 내게 있리요 땅에서는 주 밖에 내가 사모할 이 없나이다 내 육체와 마음은 쇠약하나 하나님은 내 마음의 반석이시요 영원한 분깃이시라”</p><p class="vs-item"><b>시편 37:4</b> — “또 여호와를 기뻐하라 그가 네 마음의 소원을 네게 이루어 주시리로다”</p></div></section><script>function vsJump(n){var s=document.getElementById("paraphrase-verses");if(s)s.classList.remove("collapsed");var t=document.getElementById("vs-"+n);if(t){t.scrollIntoView({behavior:"smooth",block:"center"});if(window.flash)flash(t);}return false;}function pvJump(n){var s=document.getElementById("paraphrase");if(s)s.classList.remove("collapsed");var t=document.getElementById("pv-"+n);if(t){t.scrollIntoView({behavior:"smooth",block:"center"});if(window.flash)flash(t.closest("p"));}return false;}</script>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>

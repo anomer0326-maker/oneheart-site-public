@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>설교 · 한마음침례교회</title>
+<meta name="description" content="한마음침례교회 설교 — 핵심 논증과 말씀을 PPT 스타일 슬라이드로, 전문도 함께 보실 수 있습니다.">
+<link rel="icon" type="image/png" href="favicon.png">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-S23G4J640B');</script>
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church">
+<meta property="og:title" content="설교 · 한마음침례교회">
+<meta property="og:description" content="핵심 논증과 말씀을 한영 병기 슬라이드로 따라가는 설교.">
+<meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  :root {
+    --gold: #97b3ae;        /* 세이지 그린 — 장식 */
+    --gold-ink: #4a6a62;    /* 딥 세이지 — 강조 글씨 */
+    --gold-2: #45645d;      /* 더 진한 세이지 (본문 출처·아멘) */
+    --accent: #4a6a62;      /* 소제목 라벨 */
+    --cream: #f4f2ed;
+    --ink: #3a4744;         /* 제목 */
+    --body: #46514c;        /* 본문 */
+    --soft: #5b645d;        /* 보조 */
+    --line: #e3ddd3;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    font-family: "Pretendard", sans-serif;
+    background: radial-gradient(circle at 50% 26%, #ffffff 0%, #ebe7df 78%), var(--cream);
+    color: var(--body); overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    word-break: keep-all;
+  }
+  h1, h2, h3, .serif { font-family: "Gowun Batang", serif; }
+  a { color: var(--gold-ink); text-decoration: none; }
+
+  .topbar {
+    position: fixed; top: 0; left: 0; right: 0; height: 56px;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 24px; background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(12px);
+    z-index: 30; border-bottom: 1px solid var(--line);
+  }
+  .topbar .home { font-family: "Gowun Batang", serif; font-weight: 700; color: var(--ink); font-size: 1.05rem; letter-spacing: -0.01em; }
+  .topbar .right { display: flex; gap: 10px; align-items: center; }
+  .tb-btn {
+    font-family: inherit; font-size: .85rem; font-weight: 500; color: var(--body);
+    background: #fff; border: 1px solid var(--line);
+    padding: 8px 16px; border-radius: 20px; cursor: pointer; transition: all 0.2s;
+  }
+  .tb-btn:hover { color: #fff; background: var(--ink); border-color: var(--ink); }
+
+  .progress { position: fixed; top: 56px; left: 0; height: 3px; background: linear-gradient(90deg, var(--gold-2), var(--gold)); z-index: 30; transition: width .3s; width: 0; }
+
+  .stage { position: fixed; inset: 56px 0 0 0; display: flex; overflow-y: auto; padding: 28px 80px; }
+  .slide { max-width: 1040px; width: 100%; margin: auto; text-align: center; animation: fade .5s cubic-bezier(0.25, 1, 0.5, 1); }
+  @keyframes fade { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+
+  .label { font-size: .9rem; letter-spacing: .25em; text-transform: uppercase; color: var(--accent); font-weight: 700; margin-bottom: 16px; }
+  .slide .ko { font-family: "Gowun Batang", serif; font-weight: 500; line-height: 1.55; }
+  .slide .en { color: var(--soft); font-weight: 400; line-height: 1.55; margin-top: 16px; font-size: 0.9em; }
+
+  .s-title .cross { height: 160px; width: auto; display: block; margin: 0 auto 24px; }
+  .s-title h1 { font-size: clamp(2.4rem, 6vw, 4.2rem); font-weight: 900; line-height: 1.35; color: var(--ink); }
+  .s-title .en-title { color: var(--gold-ink); font-size: clamp(1.1rem, 2.6vw, 1.8rem); margin-top: 18px; font-weight: 500; letter-spacing: .02em; }
+  .s-title .ref { margin-top: 36px; font-size: 1.3rem; color: var(--soft); font-weight: 500; }
+  .s-title .by { margin-top: 14px; color: var(--accent); font-weight: 700; font-size: 1.1rem; }
+
+  .s-question .ko, .s-conclusion .ko { font-size: clamp(1.5rem, 3.4vw, 2.2rem); font-weight: 700; color: var(--ink); }
+  .s-question .en, .s-conclusion .en { font-size: clamp(1rem, 1.9vw, 1.25rem); color: var(--soft); }
+  .s-point .ko { font-size: clamp(1.5rem, 3.4vw, 2.25rem); color: var(--ink); font-weight: 700; }
+  .s-point .en { font-size: clamp(1rem, 1.9vw, 1.25rem); color: var(--soft); }
+  .sub { margin-top: 22px; padding-top: 16px; border-top: 1px solid var(--line); font-size: clamp(1rem, 2vw, 1.3rem); }
+  .sub .ko { font-weight: 500; color: var(--gold-ink); }
+  .sub .en { font-size: .85em; margin-top: 14px; color: var(--soft); }
+
+  .s-section .num { font-size: clamp(3.5rem, 10vw, 6.5rem); font-family: "Gowun Batang", serif; font-weight: 900; color: #f2c3b9; line-height: 1; }
+  .s-section .num small { display: block; font-size: .22em; letter-spacing: .3em; color: var(--accent); margin-top: 8px; font-family: "Pretendard", sans-serif; }
+  .s-section h2 { font-size: clamp(2rem, 5vw, 3.4rem); font-weight: 900; margin-top: 12px; line-height: 1.4; color: var(--ink); }
+  .s-section .en { color: var(--gold-ink); font-size: clamp(1.1rem, 2.4vw, 1.6rem); margin-top: 16px; font-weight: 500; }
+  .s-section .ref { margin-top: 34px; display: inline-block; border: 1px solid var(--gold); border-radius: 30px; padding: 10px 28px; color: var(--gold-ink); font-weight: 700; font-size: 1.05rem; background: #fff; }
+
+  .s-scripture .qmark { font-family: "Gowun Batang", serif; font-size: 5rem; color: #f2c3b9; line-height: .2; height: 24px; max-width: 40px; margin: 0 auto 16px; }
+  .s-scripture .ko { font-size: clamp(1.4rem, 3.2vw, 2.1rem); font-weight: 500; font-style: normal; color: var(--ink); line-height: 1.6; }
+  .s-scripture .en { font-style: italic; font-size: clamp(1rem, 1.9vw, 1.2rem); color: var(--soft); line-height: 1.55; }
+  .s-scripture .ref { margin-top: 36px; color: var(--gold-2); font-weight: 700; letter-spacing: .02em; font-size: 1.2rem; }
+
+  .s-bigidea .ko { font-size: clamp(1.45rem, 3.2vw, 2.1rem); color: var(--ink); font-weight: 700; }
+  .cols { display: flex; gap: 28px; justify-content: center; margin-top: 40px; flex-wrap: wrap; }
+  .col { flex: 1; min-width: 280px; max-width: 440px; background: #fff; border: 1px solid var(--line); border-top: 4px solid var(--gold); border-radius: 16px; padding: 30px 24px; box-shadow: 0 10px 24px rgba(15,23,42,0.05); }
+  .col .h { font-family: "Gowun Batang", serif; font-weight: 700; font-size: 1.8rem; color: var(--gold-ink); }
+  .col .he { font-size: .85rem; letter-spacing: .15em; color: var(--accent); margin-top: 6px; font-weight: 700; text-transform: uppercase; }
+  .col .d { margin-top: 18px; font-size: 1.1rem; color: var(--body); line-height: 1.7; }
+  .col .de { font-size: .9rem; color: var(--soft); margin-top: 8px; line-height: 1.6; }
+
+  .s-blessing .ko { font-size: clamp(1.6rem, 3.8vw, 2.5rem); color: var(--ink); }
+  .s-blessing .amen { margin-top: 40px; font-family: "Gowun Batang", serif; font-weight: 900; font-size: clamp(2.2rem, 5vw, 3.2rem); color: var(--gold-2); letter-spacing: .15em; }
+  .s-blessing .amen small { display: block; font-size: .4em; color: var(--accent); letter-spacing: .25em; margin-top: 8px; font-family: "Pretendard", sans-serif; }
+
+  .nav-arrow {
+    position: fixed; top: 0; bottom: 0; width: 70px; display: flex; align-items: center; justify-content: center;
+    background: none; border: none; color: rgba(30, 41, 59, 0.25); font-size: 3rem; cursor: pointer; z-index: 25;
+    transition: all 0.2s; font-weight: 300;
+  }
+  .nav-arrow:hover { color: var(--gold-ink); background: rgba(30,41,59,0.04); }
+  .nav-arrow.prev { left: 0; } .nav-arrow.next { right: 0; }
+  .counter {
+    position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); z-index: 25; color: var(--soft);
+    font-size: .95rem; background: rgba(255, 255, 255, 0.85); padding: 6px 20px; border-radius: 20px; letter-spacing: .05em;
+    border: 1px solid var(--line); backdrop-filter: blur(4px);
+  }
+
+  .fulltext { position: fixed; inset: 0; background: var(--cream); color: var(--ink); z-index: 60; overflow-y: auto; display: none; }
+  .fulltext.open { display: block; }
+  .ft-bar {
+    position: sticky; top: 0; background: rgba(244, 242, 237, 0.95); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line);
+    padding: 16px 24px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  }
+  .ft-bar .t { font-family: "Gowun Batang", serif; font-weight: 900; color: var(--ink); font-size: 1.15rem; }
+  .ft-close { font-family: inherit; font-weight: 700; color: #fff; background: var(--ink); border: none; padding: 10px 22px; border-radius: 20px; cursor: pointer; transition: background 0.2s; }
+  .ft-close:hover { background: var(--gold-2); }
+  .ft-body { max-width: 780px; margin: 0 auto; padding: 45px 24px 100px; }
+  .ft-body .para { margin-bottom: 34px; }
+  .ft-body .ft-sec { font-family: "Gowun Batang", serif; font-size: 1.3rem; font-weight: 700; color: var(--accent); margin: 48px 0 22px; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+  .ft-body .ft-sec:first-child { margin-top: 0; }
+  .ft-body .para .ko { font-family: "Gowun Batang", serif; font-size: 1.2rem; line-height: 1.95; color: var(--ink); }
+  .ft-body .para .en { font-size: .98rem; color: var(--soft); line-height: 1.8; margin-top: 12px; padding-left: 16px; border-left: 3px solid var(--line); }
+
+  @media(max-width:760px) {
+    .topbar { height: 50px; padding: 0 10px; }
+    .topbar .home { font-size: .9rem; }
+    .tb-btn { font-size: .72rem; padding: 6px 9px; }
+    .progress { top: 50px; }
+    .stage { inset: 50px 0 0 0; padding: 22px 46px; }
+    .nav-arrow { width: 40px; font-size: 1.8rem; }
+    .counter { bottom: 14px; font-size: .8rem; padding: 5px 14px; }
+    .label { letter-spacing: .12em; margin-bottom: 14px; font-size: .78rem; }
+    .s-title .cross { height: 104px; margin-bottom: 16px; }
+    .s-title h1 { font-size: 2rem; }
+    .s-title .en-title { font-size: 1rem; margin-top: 12px; }
+    .s-title .ref { font-size: 1rem; margin-top: 22px; }
+    .s-title .by { font-size: .95rem; }
+    .s-question .ko, .s-conclusion .ko { font-size: 1.45rem; }
+    .s-question .en, .s-conclusion .en, .s-point .en, .s-bigidea .en { font-size: 1rem; }
+    .s-point .ko { font-size: 1.5rem; }
+    .sub { font-size: 1.05rem; margin-top: 24px; padding-top: 18px; }
+    .s-section .num { font-size: 3.2rem; }
+    .s-section h2 { font-size: 1.6rem; }
+    .s-section .en { font-size: 1.05rem; }
+    .s-section .ref { font-size: .9rem; padding: 8px 18px; margin-top: 22px; }
+    .s-scripture .ko { font-size: 1.4rem; }
+    .s-scripture .en { font-size: 1rem; }
+    .s-scripture .ref { font-size: 1rem; margin-top: 24px; }
+    .s-bigidea .ko { font-size: 1.45rem; }
+    .cols { gap: 14px; margin-top: 26px; }
+    .col { padding: 20px 16px; min-width: 0; }
+    .col .h { font-size: 1.4rem; }
+    .s-blessing .ko { font-size: 1.45rem; }
+    .s-blessing .amen { font-size: 1.9rem; margin-top: 26px; }
+    .ft-body .para .ko { font-size: 1.08rem; }
+  }
+  .empty { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; text-align: center; color: var(--soft); padding: 30px; }
+  .gate2 { max-width: 540px; margin: auto; background: #fff; border: 1px solid var(--line); border-top: 5px solid var(--gold); border-radius: 20px; padding: 48px 36px; text-align: center; box-shadow: 0 14px 36px rgba(15,23,42,0.06); }
+  .gate2 .lock { font-size: 2.4rem; margin-bottom: 14px; }
+  .gate2 h2 { font-family: "Gowun Batang", serif; font-size: 1.5rem; color: var(--ink); margin-bottom: 12px; font-weight: 700; }
+  .gate2 p { color: var(--body); max-width: 440px; margin: 0 auto 26px; }
+  .gate2 p .en { display:block; color: var(--soft); font-size: .9em; margin-top: 10px; }
+  .gate2 .g-btn { display:inline-block; background: var(--accent); color:#fff; border:none; border-radius:30px; padding:14px 32px; font-family:inherit; font-weight:700; font-size:1rem; cursor:pointer; transition:all .2s; }
+  .gate2 .g-btn:hover { background: var(--gold-2); transform: translateY(-2px); }
+  .gate2 .g-link { display:block; margin-top:18px; color: var(--soft); font-size:.92rem; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <a class="home" href="index.html">← 한마음침례교회</a>
+  <div class="right">
+    <button class="tb-btn" id="langBtn">한 / EN</button>
+    <button class="tb-btn" id="ftBtn">전문 보기</button>
+    <a class="tb-btn" id="cardBtn" href="cards.html">카드</a>
+    <a class="tb-btn" href="sermons.html">목록</a>
+  </div>
+</div>
+<div class="progress" id="bar"></div>
+
+<button class="nav-arrow prev" id="prev" aria-label="이전">‹</button>
+<div class="stage" id="stage"><div class="empty">불러오는 중… · Loading…</div></div>
+<button class="nav-arrow next" id="next" aria-label="다음">›</button>
+<div class="counter" id="counter"></div>
+
+<div class="fulltext" id="fulltext">
+  <div class="ft-bar">
+    <span class="t" id="ftTitle">설교 전문</span>
+    <button class="ft-close" id="ftClose">슬라이드로 ✕</button>
+  </div>
+  <div class="ft-body" id="ftBody"></div>
+</div>
+
+<script src="sermons-data.js"></script>
+<script>
+  const PREVIEW_COUNT = 3;   // 비멤버가 열람 가능한 최근 설교 수
+  const params = new URLSearchParams(location.search);
+  const id = params.get('id') || (window.SERMONS_DATA && window.SERMONS_DATA.sermons[0] && window.SERMONS_DATA.sermons[0].id);
+  const stage = document.getElementById('stage');
+  let slides=[], cur=0, lang='both';
+  let SERMON=null;
+
+  function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+  // 호흡 단위 한글 줄바꿈 — 쉼표·연결어미 우선, 길이 균형(DP). 데이터는 안 건드리고 렌더 시 자동 적용.
+  function brkScore(w){
+    if(/[—–―ー]$/.test(w)) return 6;                                          // 줄표 뒤에서 끊음
+    if(/[,，][”"’')\]]?$/.test(w)) return 5;                                  // 쉼표
+    if(/[.!?…][”"’')\]]?$/.test(w)) return 4;                                 // 문장끝
+    if(/(으나|지만|면서|는데|은데|아서|어서|여서|도록|거나|니까|므로|지마는|건만|든지)[”"’')\]]?$/.test(w)) return 4; // 연결어미(강)
+    if(/^(이|그|저|새|헌|옛|한|두|세|네|모든|온갖|어떤|무슨|웬|온|각|매|첫|다른|딴|별|그런|이런|저런|아무|여러|몇|단|전)$/.test(w)) return -5; // 관형사(뒤 명사와 붙임)
+    if(/(던)$/.test(w)) return -3;                                            // 관형형(~던)
+    if(/^.[은는을]$/.test(w)) return -2;                                      // 2음절 관형형 추정(깊은 등)
+    if(/(하고|하며|하면|이며|이고|되고|되며|라며|라고|보다)$/.test(w)) return 3;    // 동사·인용 연결
+    if(/(고|며|면|나)$/.test(w)) return 2;                                      // 연결어미(약)
+    if(/(은|는|이|가|을|를|에|에서|에게|으로|로|와|과|도|만|까지|부터|의|께서)$/.test(w)) return 1; // 조사
+    return 0;
+  }
+  function koBreath(t, ideal, hard){
+    t=(t||'').trim();
+    if(!t || !/[가-힣]/.test(t)) return t;
+    var words=t.split(/\s+/), n=words.length;
+    if(n<2) return t;
+    function cl(w){return [...w].length;}
+    var pre=[0]; for(var i=0;i<n;i++) pre.push(pre[i]+cl(words[i])+1);
+    function lineLen(a,b){return pre[b+1]-pre[a]-1;}
+    if(lineLen(0,n-1)<=ideal+4) return t;
+    var BASE=8, BREAKW=14, MINLINE=6, LW=0.3;
+    var cost=new Array(n+1).fill(Infinity), prev=new Array(n+1).fill(-1); cost[0]=0;
+    for(var b=0;b<n;b++){
+      for(var a=0;a<=b;a++){
+        if(cost[a]===Infinity) continue;
+        var len=lineLen(a,b), c=cost[a], dev=len-ideal;
+        c+=dev*dev*LW;
+        if(len>hard) c+=(len-hard)*40;
+        if(b!==n-1){ if(len<MINLINE) c+=60; c+=BASE+(5-brkScore(words[b]))*BREAKW; }
+        if(c<cost[b+1]){cost[b+1]=c;prev[b+1]=a;}
+      }
+    }
+    var cuts={}, k=n; while(prev[k]>0){ cuts[prev[k]-1]=1; k=prev[k]; }
+    var out=''; for(var j=0;j<n;j++){ out+=words[j]; if(j<n-1) out+= cuts[j]?'\n':' '; }
+    return out;
+  }
+  function ln(ko,en,koCls,enCls,sub){
+    let h='';
+    if(lang!=='en' && ko){
+      var kb=koBreath(ko, sub?18:15, sub?28:24);
+      h+=`<div class="ko ${koCls||''}">${esc(kb).replace(/\n/g,'<br>')}</div>`;
+    }
+    if(lang!=='ko' && en) h+=`<div class="en ${enCls||''}">${esc(en)}</div>`;
+    return h;
+  }
+
+  // 긴 카드 자동 분할 — 문장 경계에서 균형있게(DP) 나눠 한 카드가 너무 길지 않게.
+  function sentsOf(t){ return (t||'').trim().split(/(?<=[.!?…])\s+/).filter(function(x){return x;}); }
+  function partN(lens,P){
+    var m=lens.length, pre=[0], i; for(i=0;i<m;i++) pre.push(pre[i]+lens[i]);
+    var total=pre[m], target=total/P, INF=1e18, dp=[], from=[];
+    for(i=0;i<=m;i++){ dp.push(new Array(P+1).fill(INF)); from.push(new Array(P+1).fill(-1)); }
+    dp[0][0]=0;
+    for(var p=1;p<=P;p++) for(i=1;i<=m;i++) for(var j=p-1;j<i;j++){
+      if(dp[j][p-1]>=INF) continue;
+      var seg=pre[i]-pre[j], d=seg-target, c=dp[j][p-1]+d*d;
+      if(c<dp[i][p]){ dp[i][p]=c; from[i][p]=j; }
+    }
+    var cuts=[], ii=m, pp=P; while(pp>0){ var jj=from[ii][pp]; cuts.unshift([jj,ii]); ii=jj; pp--; }
+    return cuts;
+  }
+  function splitN(text,P){
+    var s=sentsOf(text); if(s.length<=1) return [text||''];
+    P=Math.min(P,s.length); if(P<2) return [text];
+    return partN(s.map(function(x){return [...x].length;}),P).map(function(c){return s.slice(c[0],c[1]).join(' ');});
+  }
+  function paginate(arr){
+    var ST={question:1,point:1,conclusion:1,blessing:1,section:1,scripture:1}, MAXC=120, TRIG=150, res=[];
+    arr.forEach(function(s){
+      var koc=s.ko?[...s.ko].length:0;
+      if(!ST[s.type] || koc<=TRIG){ res.push(s); return; }
+      var P=Math.ceil(koc/MAXC), es=sentsOf(s.en).length; if(es>=2) P=Math.min(P,es);
+      var kp=splitN(s.ko,P); if(kp.length<2){ res.push(s); return; }
+      var ep=splitN(s.en||'',kp.length), n=kp.length;
+      for(var i=0;i<n;i++){
+        var c=Object.assign({},s);
+        c.ko=kp[i]; c.en=(ep[i]!==undefined?ep[i]:'');
+        if(i<n-1){ delete c.sub_ko; delete c.sub_en; delete c.ref; delete c.ref_ko; delete c.ref_en; }
+        c._p=i+1; c._pn=n; res.push(c);
+      }
+    });
+    return res;
+  }
+
+  let RAWDATA=null, isMember=false;
+  function onData(data){ RAWDATA=data; evaluate(); }
+  function onErr(){ stage.innerHTML='<div class="empty">설교를 불러오지 못했습니다.<br>sermons-data.js 파일이 같은 폴더에 있는지 확인해 주세요.</div>'; }
+
+  function publicIds(data){
+    return (data.sermons||[]).slice().sort((a,b)=>b.date.localeCompare(a.date)).slice(0,PREVIEW_COUNT).map(s=>s.id);
+  }
+  function showGate(){
+    document.title=SERMON.title_ko+' · 한마음침례교회';
+    document.getElementById('ftTitle').textContent=SERMON.title_ko;
+    ['ftBtn','cardBtn','langBtn'].forEach(idn=>{ const el=document.getElementById(idn); if(el) el.style.display='none'; });
+    document.getElementById('prev').style.visibility='hidden';
+    document.getElementById('next').style.visibility='hidden';
+    document.getElementById('counter').textContent='';
+    document.getElementById('bar').style.width='0';
+    // 공개 미리보기(제목·본문 구절은 크롤링 가능) + 전문/슬라이드는 로그인 게이팅
+    stage.innerHTML=`<div class="slide s-title">
+      <img class="cross" src="cross-cut.png" alt="한마음침례교회 로고">
+      <h1>${esc(SERMON.title_ko)}</h1>
+      <div class="en-title">${esc(SERMON.title_en||'')}</div>
+      <div class="ref">${esc(SERMON.scripture_ref_ko||'')} · ${esc(SERMON.scripture_ref_en||'')}</div>
+      <div class="by">${esc(SERMON.preacher_ko||'')}${SERMON.preacher_en? ' · '+esc(SERMON.preacher_en):''}</div>
+      <div class="gate2" style="margin-top:34px">
+        <div class="lock">🔒</div>
+        <p>이 설교의 <b>전체 슬라이드와 전문</b>은 멤버 로그인 후 보실 수 있습니다. 최근 ${PREVIEW_COUNT}편은 로그인 없이 바로 보실 수 있어요.
+          <span class="en">Full slides and transcript are available to members after signing in. The latest ${PREVIEW_COUNT} sermons are open to all.</span></p>
+        <button class="g-btn" onclick="netlifyIdentity.open()">로그인 · 멤버 가입</button>
+        <a class="g-link" href="sermons.html">← 설교 목록으로 돌아가기</a>
+      </div>
+    </div>`;
+  }
+  function evaluate(){
+    if(!RAWDATA) return;
+    SERMON=(RAWDATA.sermons||[]).find(x=>x.id===id);
+    if(!SERMON){ stage.innerHTML='<div class="empty">설교를 찾을 수 없습니다.<br><a href="sermons.html">← 목록으로</a></div>'; return; }
+    ['ftBtn','cardBtn','langBtn'].forEach(idn=>{ const el=document.getElementById(idn); if(el) el.style.display=''; });
+    document.title=SERMON.title_ko+' · 한마음침례교회';
+    document.getElementById('ftTitle').textContent=SERMON.title_ko;
+    document.getElementById('cardBtn').href='cards.html?id='+encodeURIComponent(SERMON.id);
+    slides=paginate(SERMON.slides && SERMON.slides.length ? SERMON.slides : buildFallback(SERMON));
+    buildFullText(SERMON);
+    cur=0; render();
+  }
+  if(window.SERMONS_DATA){ onData(window.SERMONS_DATA); }
+  else { fetch('sermons.json').then(r=>r.json()).then(onData).catch(onErr); }
+
+  function buildFallback(s){
+    const out=[{type:'title',title_ko:s.title_ko,title_en:s.title_en,ref_ko:s.scripture_ref_ko,ref_en:s.scripture_ref_en,preacher_ko:s.preacher_ko,preacher_en:s.preacher_en,date:s.date}];
+    (s.scripture_text||[]).forEach(p=>out.push({type:'scripture',ref_ko:s.scripture_ref_ko,ref_en:s.scripture_ref_en,ko:p.ko,en:p.en}));
+    return out;
+  }
+
+  function render(){
+    if(!slides.length) return;
+    const s=slides[cur];
+    let html='';
+    if(s.type==='title'){
+      html=`<div class="slide s-title">
+        <img class="cross" src="cross-cut.png" alt="한마음침례교회 로고">
+        <h1>${esc(s.title_ko)}</h1>
+        <div class="en-title">${esc(s.title_en||'')}</div>
+        <div class="ref">${esc(s.ref_ko||'')} · ${esc(s.ref_en||'')}</div>
+        <div class="by">${esc(s.preacher_ko||'')} · ${esc(s.preacher_en||'')}</div></div>`;
+    } else if(s.type==='question'){
+      html=`<div class="slide s-question">
+        <div class="label">${esc(s.label_ko||'')} · ${esc(s.label_en||'')}</div>
+        ${ln(s.ko,s.en)}</div>`;
+    } else if(s.type==='section'){
+      html=`<div class="slide s-section">
+        <div class="num">${esc(s.num_ko||'')}<small>${esc(s.num_en||'')}</small></div>
+        ${lang!=='en'?`<h2>${esc(s.ko)}</h2>`:''}
+        ${lang!=='ko'?`<div class="en">${esc(s.en||'')}</div>`:''}
+        ${s.ref?`<div class="ref">${esc(s.ref)}</div>`:''}</div>`;
+    } else if(s.type==='scripture'){
+      html=`<div class="slide s-scripture">
+        <div class="qmark">&ldquo;</div>
+        ${ln(s.ko,s.en)}
+        <div class="ref">${esc(s.ref_ko||'')} · ${esc(s.ref_en||'')}</div></div>`;
+    } else if(s.type==='point'){
+      html=`<div class="slide s-point">
+        ${s.label_ko?`<div class="label">${esc(s.label_ko)} · ${esc(s.label_en||'')}</div>`:''}
+        ${ln(s.ko,s.en)}
+        ${(s.sub_ko||s.sub_en)?`<div class="sub">${ln(s.sub_ko,s.sub_en,'','',true)}</div>`:''}</div>`;
+    } else if(s.type==='bigidea'){
+      html=`<div class="slide s-bigidea">
+        ${ln(s.ko,s.en)}
+        <div class="cols">
+          <div class="col"><div class="h">${esc(s.left_ko)}</div><div class="he">${esc(s.left_en||'')}</div>
+            ${lang!=='en'?`<div class="d">${esc(s.left_desc_ko||'')}</div>`:''}${lang!=='ko'?`<div class="de">${esc(s.left_desc_en||'')}</div>`:''}</div>
+          <div class="col"><div class="h">${esc(s.right_ko)}</div><div class="he">${esc(s.right_en||'')}</div>
+            ${lang!=='en'?`<div class="d">${esc(s.right_desc_ko||'')}</div>`:''}${lang!=='ko'?`<div class="de">${esc(s.right_desc_en||'')}</div>`:''}</div>
+        </div>
+        ${(s.sub_ko||s.sub_en)?`<div class="sub">${ln(s.sub_ko,s.sub_en,'','',true)}</div>`:''}</div>`;
+    } else if(s.type==='conclusion'){
+      html=`<div class="slide s-conclusion">
+        <div class="label">${esc(s.label_ko||'')} · ${esc(s.label_en||'')}</div>
+        ${ln(s.ko,s.en)}
+        ${(s.sub_ko||s.sub_en)?`<div class="sub">${ln(s.sub_ko,s.sub_en,'','',true)}</div>`:''}</div>`;
+    } else if(s.type==='blessing'){
+      html=`<div class="slide s-blessing">
+        ${ln(s.ko,s.en)}
+        <div class="amen">${esc(s.amen_ko||'아멘')}<small>${esc(s.amen_en||'Amen')}</small></div></div>`;
+    }
+    if(s._pn>1) html=html.replace(/<\/div>\s*$/, '<div style="margin-top:22px;font-size:.78rem;letter-spacing:.18em;color:rgba(30,41,59,.34);font-weight:700">'+s._p+' / '+s._pn+'</div></div>');
+    stage.innerHTML=html;
+    document.getElementById('counter').textContent=`${cur+1} / ${slides.length}`;
+    document.getElementById('bar').style.width=((cur+1)/slides.length*100)+'%';
+    document.getElementById('prev').style.visibility=cur===0?'hidden':'visible';
+    document.getElementById('next').style.visibility=cur===slides.length-1?'hidden':'visible';
+  }
+
+  function go(d){ const n=cur+d; if(n>=0&&n<slides.length){cur=n;render();} }
+  document.getElementById('prev').onclick=()=>go(-1);
+  document.getElementById('next').onclick=()=>go(1);
+  document.addEventListener('keydown',e=>{
+    if(document.getElementById('fulltext').classList.contains('open')) return;
+    if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){go(1);e.preventDefault();}
+    if(e.key==='ArrowLeft'||e.key==='PageUp'){go(-1);}
+    if(e.key==='Home'){cur=0;render();}
+    if(e.key==='End'){cur=slides.length-1;render();}
+  });
+  let tx=0;
+  stage.addEventListener('touchstart',e=>tx=e.changedTouches[0].clientX,{passive:true});
+  stage.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-tx; if(Math.abs(dx)>50) go(dx<0?1:-1);},{passive:true});
+
+  document.getElementById('langBtn').onclick=()=>{
+    lang = lang==='both'?'ko':lang==='ko'?'en':'both';
+    document.getElementById('langBtn').textContent = lang==='both'?'한 / EN':lang==='ko'?'한국어':'ENGLISH';
+    render();
+  };
+
+  function buildFullText(s){
+    const html=(s.body||[]).map(p=>
+      p.section
+        ? `<h3 class="ft-sec">${esc(p.ko)}</h3>`
+        : `<div class="para">${p.ko?`<div class="ko">${esc(p.ko)}</div>`:''}${p.en?`<div class="en">${esc(p.en)}</div>`:''}</div>`).join('');
+    document.getElementById('ftBody').innerHTML = html || '<p style="text-align:center;color:#64748b">전문이 아직 등록되지 않았습니다.</p>';
+  }
+  document.getElementById('ftBtn').onclick=()=>document.getElementById('fulltext').classList.add('open');
+  document.getElementById('ftClose').onclick=()=>document.getElementById('fulltext').classList.remove('open');
+</script>
+</body>
+</html>

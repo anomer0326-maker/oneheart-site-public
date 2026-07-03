@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 하나님을 아는 지식과 나를 아는 지식 §2 (1권 1장 · Day 2) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 1장 §2(하나님을 아는 지식과 나를 아는 지식)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 2. 연관 성구: 시편 36, 누가복음 18, 고린도전서 4, 이사야 6, 욥기 42, 누가복음 5, 잠언 16. 전체 우리말 의역·문장별 성구 수록."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day02_Book1-Ch1-%C2%A72.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="하나님을 아는 지식과 나를 아는 지식 §2 — 기독교 강요 영어로 읽기 (Day 2)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 1장 §2(하나님을 아는 지식과 나를 아는 지식)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 2. 연관 성구: 시편 36, 누가복음 18, 고린도전서 4, 이사야 6, 욥기 42, 누가복음 5, 잠언 16. 전체 우리말 의역·문장별 성구 수록."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day02_Book1-Ch1-%C2%A72.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 하나님을 아는 지식과 나를 아는 지식 §2 (1권 1장 · Day 2) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 1장 §2(하나님을 아는 지식과 나를 아는 지식)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 2. 연관 성구: 시편 36, 누가복음 18, 고린도전서 4, 이사야 6, 욥기 42, 누가복음 5, 잠언 16. 전체 우리말 의역·문장별 성구 수록.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 1장 §2 — 하나님을 아는 지식과 나를 아는 지식","mentions":[{"@type":"CreativeWork","name":"시편 36 (Ps 36)"},{"@type":"CreativeWork","name":"누가복음 18 (Luke 18)"},{"@type":"CreativeWork","name":"고린도전서 4 (1 Corinthians 4)"},{"@type":"CreativeWork","name":"이사야 6 (Isaiah 6)"},{"@type":"CreativeWork","name":"욥기 42 (Job 42)"},{"@type":"CreativeWork","name":"이사야 6"},{"@type":"CreativeWork","name":"욥기 42"},{"@type":"CreativeWork","name":"누가복음 5"},{"@type":"CreativeWork","name":"잠언 16"},{"@type":"CreativeWork","name":"요한계시록 3"},{"@type":"CreativeWork","name":"사무엘상 16"},{"@type":"CreativeWork","name":"히브리서 4"},{"@type":"CreativeWork","name":"시편 36"},{"@type":"CreativeWork","name":"마태복음 23"},{"@type":"CreativeWork","name":"디모데후서 3"},{"@type":"CreativeWork","name":"예레미야 17"},{"@type":"CreativeWork","name":"이사야 64"},{"@type":"CreativeWork","name":"고린도후서 10"},{"@type":"CreativeWork","name":"마태복음 6"},{"@type":"CreativeWork","name":"에베소서 4"},{"@type":"CreativeWork","name":"고린도전서 13"},{"@type":"CreativeWork","name":"요한복음 9"},{"@type":"CreativeWork","name":"출애굽기 33"},{"@type":"CreativeWork","name":"디모데전서 6"},{"@type":"CreativeWork","name":"사도행전 26"},{"@type":"CreativeWork","name":"갈라디아서 6"},{"@type":"CreativeWork","name":"로마서 12"},{"@type":"CreativeWork","name":"누가복음 18"},{"@type":"CreativeWork","name":"마태복음 5"},{"@type":"CreativeWork","name":"베드로전서 1"},{"@type":"CreativeWork","name":"빌립보서 3"},{"@type":"CreativeWork","name":"고린도전서 1"},{"@type":"CreativeWork","name":"요한복음 15"},{"@type":"CreativeWork","name":"로마서 3"},{"@type":"CreativeWork","name":"욥기 15"},{"@type":"CreativeWork","name":"시편 130"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day02_Book1-Ch1-%C2%A72.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 2 — Institutes, Book 1, Ch. 1, §2<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 2 — Institutes, Book 1, Ch. 1, §2</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="·">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">·</span>
+    <span class="p-title">본문 (v1 형식)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>"THE KNOWLEDGE OF GOD AND OF OURSELVES MUTUALLY CONNECTED"
+Source: source/Institutes_Beveridge_FULL.txt (Beveridge, public domain) · verified · SCHEDULE.md Day 2
+<em>(All commentary in English — immersion.)</em></p><h2>PART 1 — The Text (Reading)</h2><p><strong>§2.</strong> On the other hand, it is evident that man never attains to a true self-knowledge until he has previously contemplated the face of God, and come down after such contemplation to look into himself. For (such is our innate pride) we always seem to ourselves just, and upright, and wise, and holy, until we are convinced, by clear evidence, of our injustice, vileness, folly, and impurity. Convinced, however, we are not, if we look to ourselves only, and not to the Lord also —He being the only standard by the application of which this conviction can be produced. For, since we are all naturally prone to hypocrisy, any empty semblance of righteousness is quite enough to satisfy us instead of righteousness itself. And since nothing appears within us or around us that is not tainted with very great impurity, so long as we keep our mind within the confines of human pollution, anything which is in some small degree less defiled delights us as if it were most pure just as an eye, to which nothing but black had been previously presented, deems an object of a whitish, or even of a brownish hue, to be perfectly white. Nay, the bodily sense may furnish a still stronger illustration of the extent to which we are deluded in estimating the powers of the mind. If, at mid-day, we either look down to the ground, or on the surrounding objects which lie open to our view, we think ourselves endued with a very strong and piercing eyesight; but when we look up to the sun, and gaze at it unveiled, the sight which did excellently well for the earth is instantly so dazzled and confounded by the refulgence, as to oblige us to confess that our acuteness in discerning terrestrial objects is mere dimness when applied to the sun. Thus too, it happens in estimating our spiritual qualities. So long as we do not look beyond the earth, we are quite pleased with our own righteousness, wisdom, and virtue; we address ourselves in the most flattering terms, and seem only less than demigods. But should we once begin to raise our thoughts to God, and reflect what kind of Being he is, and how absolute the perfection of that righteousness, and wisdom, and virtue, to which, as a standard, we are bound to be conformed, what formerly delighted us by its false show of righteousness will become polluted with the greatest iniquity; what strangely imposed upon us under the name of wisdom will disgust by its extreme folly; and what presented the appearance of virtuous energy will be condemned as the most miserable impotence. So far are those qualities in us, which seem most perfect, from corresponding to the divine purity.</p><p><em>(Reading time: 4–5 min.)</em></p><h2>PART 2 — Argument Map</h2><ul>
+<li><strong>Counter-thesis (the ordering):</strong> real self-knowledge comes <em>only after</em> we have first looked at God ("On the other hand" turns §1's open question into a settled sequence: God first).</li>
+<li><strong>Cause:</strong> innate pride keeps us feeling righteous until <em>clear evidence</em> convicts us.</li>
+<li><strong>The standard:</strong> that conviction is impossible if we measure ourselves by ourselves; God alone is the measuring rod.</li>
+<li><strong>Two analogies of distorted perception:</strong> (1) the eye habituated to black calls grey "white"; (2) at noon our sight seems sharp, but facing the sun proves it dim.</li>
+<li><strong>Conclusion:</strong> confined to earth we feel like demigods; turned to God, our "righteousness/wisdom/virtue" are exposed as iniquity/folly/impotence.</li>
+</ul><h2>PART 3 — Sentence-by-Sentence Deep Analysis ⭐</h2><p><strong>[S1]</strong> <em>"On the other hand, it is evident that man never attains to a true self-knowledge until he has previously contemplated the face of God, and come down after such contemplation to look into himself."</em>
+- <strong>Syntax:</strong> Anticipatory <em>it</em> + <em>that</em>-clause: <em>it is evident [that man never attains … until …]</em>. Inside: [S] <em>man</em> [V] <em>attains to</em> + adverbial <em>until</em>-clause containing two coordinated verbs (<em>has contemplated</em> … and <em>come down</em> … <em>to look into himself</em>).
+- <strong>Grammar:</strong> <strong>never … until</strong> = "not until X does Y happen" (X is the precondition). <em>attains to</em> (intransitive + <em>to</em>). <em>previously</em> fixes sequence. The perfect <em>has … contemplated</em> marks a completed prior act; <em>come down</em> shares the auxiliary <em>has</em> (… and [has] come down).
+- <strong>Vocabulary:</strong> <em>attain to</em> (reach); <em>contemplate</em> (gaze on deeply; L <em>templum</em>); <em>the face of God</em> (God's presence/self-disclosure).
+- <strong>Plain English:</strong> On the other hand, clearly no one reaches true self-knowledge until he has first gazed on God's face and only then comes back down to examine himself.
+- <strong>Style:</strong> <em>On the other hand</em> signals Calvin tipping §1's balance toward "God first."</p><p><strong>[S2]</strong> <em>"For (such is our innate pride) we always seem to ourselves just, and upright, and wise, and holy, until we are convinced, by clear evidence, of our injustice, vileness, folly, and impurity."</em>
+- <strong>Syntax:</strong> Main clause <em>we … seem … just, and upright, and wise, and holy</em> + <em>until</em>-clause <em>we are convinced … of …</em>. A parenthetical <em>(such is our innate pride)</em> is inserted.
+- <strong>Grammar:</strong> The parenthesis uses <strong>inversion</strong> for emphasis: <em>such is our innate pride</em> (= "our innate pride is such [that…]"). <em>seem to ourselves [to be] just…</em> — predicate adjectives in a four-term list, mirrored by the four vices later (<em>injustice, vileness, folly, impurity</em>) — deliberate <strong>antithesis</strong>.
+- <strong>Vocabulary:</strong> <em>upright</em> (morally straight); <em>vileness</em> (baseness); <em>folly</em> (foolishness).
+- <strong>Plain English:</strong> For — so great is our inborn pride — we always think ourselves just, upright, wise, and holy, until clear proof convinces us of our injustice, baseness, folly, and impurity.
+- <strong>Style:</strong> The paired four-item lists (virtues vs vices) stage the reversal pride must undergo.</p><p><strong>[S3]</strong> <em>"Convinced, however, we are not, if we look to ourselves only, and not to the Lord also —He being the only standard by the application of which this conviction can be produced."</em>
+- <strong>Syntax:</strong> <strong>Fronting/inversion</strong> for emphasis: <em>Convinced … we are not</em> (= "we are not convinced"). Conditional <em>if we look to ourselves only…</em>. Then an <strong>absolute participial phrase</strong>: <em>He being the only standard [by the application of which this conviction can be produced]</em>.
+- <strong>Grammar:</strong> The fronted complement <em>Convinced</em> throws stress on the key word. The relative <em>by the application of which</em> (pied-piped preposition) modifies <em>standard</em>.
+- <strong>Vocabulary:</strong> <em>standard</em> (norm, measuring rod; Latin <em>norma</em>); <em>conviction</em> (being proven guilty/persuaded).
+- <strong>Plain English:</strong> But convinced we will not be, if we look only at ourselves and not also at the Lord — since He is the only standard whose application can produce that conviction.
+- <strong>Style:</strong> The inversion (<em>Convinced … we are not</em>) is emphatic, almost confrontational.</p><p><strong>[S4]</strong> <em>"For, since we are all naturally prone to hypocrisy, any empty semblance of righteousness is quite enough to satisfy us instead of righteousness itself."</em>
+- <strong>Syntax:</strong> Causal <em>since</em>-clause + main clause [S] <em>any empty semblance of righteousness</em> [V] <em>is</em> [C] <em>enough to satisfy us</em>.
+- <strong>Grammar:</strong> <em>prone to</em> + noun = "inclined toward." <em>enough to satisfy</em> (adjective + infinitive of result). <em>instead of</em> (in place of).
+- <strong>Vocabulary:</strong> <em>prone to</em> (inclined to); <em>semblance</em> (outward appearance, mere look).
+- <strong>Plain English:</strong> For, since we are all naturally inclined to hypocrisy, a hollow appearance of righteousness is quite enough to content us in place of real righteousness.
+- <strong>Style:</strong> Crisp maxim that diagnoses self-deception.</p><p><strong>[S5]</strong> <em>"And since nothing appears within us or around us that is not tainted with very great impurity, so long as we keep our mind within the confines of human pollution, anything which is in some small degree less defiled delights us as if it were most pure — just as an eye, to which nothing but black had been previously presented, deems an object of a whitish, or even of a brownish hue, to be perfectly white."</em>
+- <strong>Syntax:</strong> Causal <em>since</em>-clause (<em>nothing appears … that is not tainted…</em>) + temporal <em>so long as</em>-clause + main clause [S] <em>anything [which is … less defiled]</em> [V] <em>delights</em> [O] <em>us</em> + comparison <em>as if it were most pure</em>; then a simile <em>just as an eye … deems an object … to be perfectly white</em>.
+- <strong>Grammar:</strong> <strong>Double negative</strong> <em>nothing … that is not tainted</em> = "everything is tainted." <strong>Counterfactual</strong> <em>as if it were</em> (past subjunctive). <em>deems … to be</em> = "judges … to be." Relative <em>to which nothing but black had been presented</em> (pluperfect) modifies <em>an eye</em>.
+- <strong>Vocabulary:</strong> <em>tainted</em> (contaminated); <em>defiled</em> (made impure); <em>hue</em> (shade of colour); <em>deem</em> (judge).
+- <strong>Plain English:</strong> And since everything in us and around us is deeply impure, as long as we keep our mind within the limits of human corruption, anything even slightly less filthy delights us as if it were perfectly pure — just as an eye shown nothing but black takes a whitish or even brownish thing to be pure white.
+- <strong>Style:</strong> First <strong>perceptual analogy</strong> (relative comparison): with no clean reference, "less dirty" passes for "clean."</p><p><strong>[S6]</strong> <em>"Nay, the bodily sense may furnish a still stronger illustration of the extent to which we are deluded in estimating the powers of the mind."</em>
+- <strong>Syntax:</strong> [S] <em>the bodily sense</em> [V] <em>may furnish</em> [O] <em>a still stronger illustration</em> + post-modifier <em>of the extent [to which we are deluded …]</em>.
+- <strong>Grammar:</strong> <em>nay</em> escalates ("indeed, even"). <em>a still stronger</em> = comparative intensified by <em>still</em> ("even stronger"). <em>the extent to which</em> (relative).
+- <strong>Vocabulary:</strong> <em>furnish</em> (provide); <em>deluded</em> (deceived); <em>estimating</em> (judging the value of).
+- <strong>Plain English:</strong> Indeed, physical eyesight gives an even stronger illustration of how deceived we are when we judge our mental powers.
+- <strong>Style:</strong> Transition raising the stakes from the first analogy to the sharper sun-analogy.</p><p><strong>[S7]</strong> <em>"If, at mid-day, we either look down to the ground, or on the surrounding objects which lie open to our view, we think ourselves endued with a very strong and piercing eyesight; but when we look up to the sun, and gaze at it unveiled, the sight which did excellently well for the earth is instantly so dazzled and confounded by the refulgence, as to oblige us to confess that our acuteness in discerning terrestrial objects is mere dimness when applied to the sun."</em>
+- <strong>Syntax:</strong> Conditional <em>If … we think ourselves endued with … eyesight</em>; contrast <em>but when … the sight … is so dazzled … as to oblige us to confess [that …]</em>.
+- <strong>Grammar:</strong> <em>think ourselves [to be] endued with</em> (reflexive + predicate). <strong>so … as to</strong> = result ("so dazzled … that it forces…"). <em>oblige us to confess</em> (causative). Embedded <em>that</em>-clause: <em>our acuteness … is mere dimness when applied to the sun</em>.
+- <strong>Vocabulary:</strong> <em>endued with</em> (endowed with); <em>piercing</em> (sharp); <em>gaze at</em> (look long at); <em>refulgence</em> (radiance — archaic); <em>acuteness</em> (sharpness); <em>terrestrial</em> (earthly); <em>dimness</em> (faintness of sight).
+- <strong>Plain English:</strong> At noon, looking at the ground or nearby objects, we think our eyesight strong and sharp; but the moment we look straight at the sun, the sight that worked so well on earth is so dazzled that we must admit our sharpness on earthly things is mere dimness against the sun.
+- <strong>Style:</strong> The <strong>sun analogy</strong> — Calvin's signature figure; the brighter the light (God), the more our "strength" shows as weakness.</p><p><strong>[S8]</strong> <em>"Thus too, it happens in estimating our spiritual qualities."</em>
+- <strong>Syntax:</strong> [S] <em>it</em> [V] <em>happens</em> + adverbial <em>in estimating our spiritual qualities</em>. <em>Thus too</em> = "in the same way."
+- <strong>Grammar:</strong> Light, hinge sentence applying the analogy. <em>it happens</em> (impersonal).
+- <strong>Plain English:</strong> The same thing happens when we judge our spiritual qualities.
+- <strong>Style:</strong> A brief pivot from image to application.</p><p><strong>[S9]</strong> <em>"So long as we do not look beyond the earth, we are quite pleased with our own righteousness, wisdom, and virtue; we address ourselves in the most flattering terms, and seem only less than demigods."</em>
+- <strong>Syntax:</strong> Temporal <em>so long as</em>-clause + main clause(s): <em>we are pleased with…; we address ourselves…; and seem only less than demigods</em>.
+- <strong>Grammar:</strong> <em>so long as</em> = "as long as." <em>address ourselves in flattering terms</em> = "speak to/of ourselves flatteringly." <em>only less than demigods</em> = "almost gods."
+- <strong>Vocabulary:</strong> <em>flattering</em> (excessively complimentary); <em>demigods</em> (half-gods — archaic, vivid).
+- <strong>Plain English:</strong> As long as we never look beyond the earth, we are quite pleased with our righteousness, wisdom, and virtue; we flatter ourselves and feel little less than gods.
+- <strong>Style:</strong> Irony — self-deification as the symptom of not looking up.</p><p><strong>[S10]</strong> <em>"But should we once begin to raise our thoughts to God, and reflect what kind of Being he is, … what formerly delighted us by its false show of righteousness will become polluted with the greatest iniquity; what … under the name of wisdom will disgust by its extreme folly; and what presented the appearance of virtuous energy will be condemned as the most miserable impotence."</em>
+- <strong>Syntax:</strong> <strong>Inverted conditional</strong> <em>should we once begin …</em> (= "if we once begin…"). Then a <strong>triadic parallel</strong> of three subject-clauses (<em>what … righteousness / what … wisdom / what … virtuous energy</em>), each with its reversal (<em>iniquity / folly / impotence</em>).
+- <strong>Grammar:</strong> <em>should we begin</em> = formal/literary conditional (inversion replaces "if"). <em>what</em> = the free relative ("that which"). <em>bound to be conformed</em> (passive of obligation). The three "what…will…" clauses are rigorously parallel — <strong>tricolon</strong>.
+- <strong>Vocabulary:</strong> <em>false show</em> (deceptive display); <em>iniquity</em> (wickedness); <em>disgust</em> (revolt); <em>impotence</em> (powerlessness).
+- <strong>Plain English:</strong> But the moment we lift our thoughts to God and consider what He is — the absolute perfection of righteousness, wisdom, and virtue we are bound to match — what once pleased us as righteousness turns out to be foul iniquity; what passed for wisdom, sheer folly; what looked like virtuous energy, wretched impotence.
+- <strong>Style:</strong> A <strong>tricolon</strong> of reversals — the rhetorical climax of the section.</p><p><strong>[S11]</strong> <em>"So far are those qualities in us, which seem most perfect, from corresponding to the divine purity."</em>
+- <strong>Syntax:</strong> <strong>Inversion</strong> of the <em>so … from</em> construction: normal order = "those qualities in us … are so far from corresponding to the divine purity." Fronting <em>So far</em> throws the stress forward.
+- <strong>Grammar:</strong> <strong>be far from + -ing</strong> = "be nowhere near doing." Relative <em>which seem most perfect</em> is parenthetical.
+- <strong>Plain English:</strong> So far are even our seemingly most perfect qualities from matching God's purity.
+- <strong>Style:</strong> A clinching, inverted summary — the gap between us and God is the last word.</p><h2>PART 4 — Vocabulary</h2><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>POS</th>
+<th>Meaning in context</th>
+<th>Nuance &amp; etymology (KR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>contemplate</td>
+<td>v.</td>
+<td>gaze on deeply</td>
+<td>L <em>contemplari</em> (from <em>templum</em>) (응시하다)</td>
+</tr>
+<tr>
+<td>standard</td>
+<td>n.</td>
+<td>norm, measuring rod</td>
+<td>L <em>norma</em>; the rule we're measured by (기준)</td>
+</tr>
+<tr>
+<td>prone to</td>
+<td>adj.</td>
+<td>inclined to</td>
+<td>leaning toward (a fault) (~하기 쉬운)</td>
+</tr>
+<tr>
+<td>semblance</td>
+<td>n.</td>
+<td>outward appearance</td>
+<td>mere look, not reality (겉모양)</td>
+</tr>
+<tr>
+<td>tainted</td>
+<td>adj.</td>
+<td>contaminated</td>
+<td>morally stained (오염된)</td>
+</tr>
+<tr>
+<td>hue</td>
+<td>n.</td>
+<td>shade of colour</td>
+<td>(색조)</td>
+</tr>
+<tr>
+<td>endued</td>
+<td>v.(pp)</td>
+<td>endowed</td>
+<td>archaic for <em>endowed with</em> (부여받은)</td>
+</tr>
+<tr>
+<td>refulgence</td>
+<td>n.</td>
+<td>radiance</td>
+<td>archaic, "blazing brightness" (광휘)</td>
+</tr>
+<tr>
+<td>demigods</td>
+<td>n.</td>
+<td>half-gods</td>
+<td>vivid archaism for self-deification (반신)</td>
+</tr>
+<tr>
+<td>impotence</td>
+<td>n.</td>
+<td>powerlessness</td>
+<td>L <em>in-+potens</em> (무력함)</td>
+</tr>
+</tbody>
+</table><h2>PART 5 — 🏛 Theology (deep)</h2><ol>
+<li><strong>Order settled: God first.</strong> §1 left the priority open; §2's <em>"On the other hand"</em> fixes it — true self-knowledge presupposes the prior vision of God. This protects Calvin from grounding theology in anthropology: the self is read <em>in the light of</em> God, never the reverse.</li>
+<li><strong>God as <em>norma</em> of self-knowledge.</strong> <em>"He being the only standard…"</em> Apart from the divine measure we cannot be convicted; sin is exposed only against God's holiness. This is the epistemic form of <strong>total depravity</strong> — corruption so pervasive it even corrupts our self-assessment (the <strong>noetic effects of sin</strong>).</li>
+<li><strong>The optics of grace and light.</strong> The sun-analogy enacts Calvin's recurring <strong>light</strong> motif (cf. Ps 36:9, "in thy light shall we see light"): the nearer the divine light, the more our self-rated "powers" register as darkness. It also anticipates Calvin's doctrine of <strong>accommodation</strong> — we see only as God condescends to be seen.</li>
+<li><strong>What Calvin opposes:</strong> classical/Stoic <em>self</em>-knowledge that breeds self-admiration, and any anthropocentric optimism ("less than demigods"). True self-knowledge is doxological humility, not introspective self-esteem.</li>
+</ol><h2>PART 6 — 📖 Biblical Studies (deep)</h2><ul>
+<li><strong>Isaiah 6:5</strong> — Isaiah, seeing the LORD, cries <em>"Woe is me… I am undone"</em> (Heb. <em>nidmêtî</em>, "I am ruined/silenced"). This is the prophetic archetype behind §2's logic and its sun-imagery: exposure to God's holiness collapses self-righteousness.</li>
+<li><strong>Job 42:5–6</strong> — <em>"now mine eye seeth thee. Wherefore I abhor myself"</em> — the "contemplate God, then look down at yourself" sequence of S1 in narrative form.</li>
+<li><strong>Luke 18:9–14</strong> — the Pharisee vs the tax-collector dramatizes S2/S4: self-measured "righteousness" (<em>semblance</em>) versus conviction before God.</li>
+<li><strong>1 Corinthians 4:3–4</strong> — <em>"he that judgeth me is the Lord"</em> — Paul refuses self-assessment as the standard, exactly Calvin's point in S3 (God alone is the <em>norma</em>).</li>
+<li><strong>Psalm 36:9</strong> — <em>"in thy light shall we see light"</em> — the theological root of the sun/eye analogy (S7).</li>
+</ul><h2>PART 7 — 🔁 Translation Comparison (Beveridge vs Battles)</h2><p>Here the two versions agree in substance; what dates Beveridge is <strong>diction</strong>: <em>refulgence</em> (radiance), <em>demigods</em>, <em>endued</em> (endowed). Battles (1960) modernizes such words. (1) No semantic difference. (2) Beveridge keeps a Latinate, Victorian register; Battles renders the 1559 critical text for plain modern reading. (3) <strong>Stylistic, not theological</strong> — so today's gain is acclimating to Beveridge's archaic vocabulary.</p><h2>PART 8 — ✅ Check yourself (multiple choice)</h2><p><strong>Q1 (theology/comprehension).</strong> According to §2, true self-knowledge is reached only when we:
+A. introspect harder on our own  B. first contemplate God and measure ourselves by Him  C. compare ourselves with other people  D. acquire more education</p><p><strong>Q2 (grammar).</strong> <em>"Convinced, however, we are not, if we look to ourselves only…"</em> — the opening <em>Convinced … we are not</em> is an example of:
+A. the passive voice misused  B. fronting/inversion for emphasis (= "we are not convinced")  C. the imperative mood  D. a conditional clause</p><p><strong>Q3 (comprehension).</strong> The image of <em>an eye, to which nothing but black had been previously presented,</em> calling grey "white" illustrates that:
+A. people are colour-blind  B. without a pure standard, the "less defiled" passes for pure  C. optimism is healthy  D. the senses are always reliable</p><p><strong>Q4 (vocabulary).</strong> <em>"…so dazzled and confounded by the </em><em>refulgence</em><em>…"</em> — <em>refulgence</em> means:
+A. refusal  B. reflection  C. radiance / blazing brightness  D. confusion</p><p><strong>Q5 (grammar/style).</strong> <em>"So far are those qualities in us … from corresponding to the divine purity."</em> This uses the pattern:
+A. be far from + -ing (= nowhere near doing), with inversion for emphasis  B. comparative of distance  C. a rhetorical question  D. the subjunctive</p><hr/><p><strong>Answer Key:</strong> <strong>Q1 B</strong> — God is the <em>norma</em>; self-knowledge presupposes the vision of God. <strong>Q2 B</strong> — fronted complement <em>Convinced</em> = emphatic "we are not convinced." <strong>Q3 B</strong> — with no pure reference, relative cleanness looks absolute. <strong>Q4 C</strong> — <em>refulgence</em> = brilliance (archaic). <strong>Q5 A</strong> — <em>be far from + -ing</em>, here inverted (<em>So far are … from corresponding</em>).</p><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 1 §2 끝. 다음은 Ch. 1 §3 (Day 3).</p></div>
+</section>
+  <section class="period" id="paraphrase" data-period="✒"><h2 class="period-head" onclick="togglePeriod(this)"><span class="p-num">✒</span><span class="p-title">풀어 쓴 우리말 의역 — 1권 1장 §2</span><span class="p-caret">–</span></h2><div class="period-body para-ko"><p class="para-note">직역이 아니라 본문의 뜻을 살려 우리말로 다시 쓴 글입니다. 영어 본문을 공부한 뒤 마무리로 읽어 보세요.</p><p>다른 한편으로, 이 반대 방향 역시 분명하다. 사람은 먼저 하나님의 얼굴을 우러러본 뒤, 그 바라봄에서 내려와 자기 자신을 들여다보기 전까지는 결코 참된 자기 인식에 이르지 못한다.<sup class="vs-ref"><a id="pv-1" href="#vs-1" onclick="return vsJump(1)" title="관련 성구 보기">1</a></sup> 우리는 타고나기를 교만해서, 명백한 증거 앞에서 자신의 불의함과 추함과 어리석음과 더러움을 인정하지 않을 수 없게 되기 전까지는, 언제나 스스로를 의롭고 바르고 지혜롭고 거룩하다고 여기기 때문이다.<sup class="vs-ref"><a id="pv-2" href="#vs-2" onclick="return vsJump(2)" title="관련 성구 보기">2</a></sup> 그런데 그 증거는 나 자신만 들여다봐서는 결코 얻어지지 않는다. 주님을 함께 바라봐야 한다. 그 확신을 낳을 수 있는 유일한 잣대가 그분이시기 때문이다.<sup class="vs-ref"><a id="pv-3" href="#vs-3" onclick="return vsJump(3)" title="관련 성구 보기">3</a></sup></p><p>우리는 모두 본성상 위선으로 기울어 있어서, 속이 빈 의의 겉모습만으로도 진짜 의를 가진 양 넉넉히 만족해 버린다.<sup class="vs-ref"><a id="pv-4" href="#vs-4" onclick="return vsJump(4)" title="관련 성구 보기">4</a></sup> 게다가 우리 안에도, 우리 주변에도 심하게 오염되지 않은 것이 하나도 없으므로, 우리의 생각이 인간이라는 오염된 울타리 안에 머무는 동안에는 조금만 덜 더러운 것도 마치 더없이 순결한 것인 양 우리를 기쁘게 한다.<sup class="vs-ref"><a id="pv-5" href="#vs-5" onclick="return vsJump(5)" title="관련 성구 보기">5</a></sup> 마치 검은 것만 보아 온 눈이 희끄무레한 것, 심지어 거무튀튀한 것을 보고도 새하얗다고 여기는 것과 같다.<sup class="vs-ref"><a id="pv-6" href="#vs-6" onclick="return vsJump(6)" title="관련 성구 보기">6</a></sup></p><p>아니, 우리 몸의 감각이 이보다 더 강력한 예를 보여 준다. 우리가 마음의 능력을 얼마나 크게 착각하고 있는지 말이다.<sup class="vs-ref"><a id="pv-7" href="#vs-7" onclick="return vsJump(7)" title="관련 성구 보기">7</a></sup> 한낮에 땅을 내려다보거나 눈앞에 펼쳐진 주변 사물을 볼 때, 우리는 자기 시력이 아주 강하고 예리하다고 자신한다.<sup class="vs-ref"><a id="pv-8" href="#vs-8" onclick="return vsJump(8)" title="관련 성구 보기">8</a></sup> 그러나 고개를 들어 태양을 맨눈으로 바라보는 순간, 땅 위에서는 그토록 잘 보이던 그 시력이 그 눈부신 광채에 단번에 어지러워지고 만다. 그리고 인정할 수밖에 없게 된다. 땅의 것들을 알아보던 그 예리함이, 태양 앞에서는 그저 침침함에 지나지 않았다는 것을.<sup class="vs-ref"><a id="pv-9" href="#vs-9" onclick="return vsJump(9)" title="관련 성구 보기">9</a></sup></p><p>우리의 영적 자질을 평가할 때도 꼭 그런 일이 일어난다.<sup class="vs-ref"><a id="pv-10" href="#vs-10" onclick="return vsJump(10)" title="관련 성구 보기">10</a></sup> 시선이 땅을 넘어가지 않는 동안, 우리는 자신의 의로움과 지혜와 덕에 스스로 흡족해한다. 더없이 달콤한 말로 자신을 치켜세우며, 스스로 거의 반신(半神)쯤 되는 줄 안다.<sup class="vs-ref"><a id="pv-11" href="#vs-11" onclick="return vsJump(11)" title="관련 성구 보기">11</a></sup> 그러나 일단 생각을 하나님께로 들어 올려 그분이 어떤 분이신지, 우리가 마땅히 따라야 할 기준인 그 의와 지혜와 덕의 완전함이 얼마나 절대적인지 헤아리기 시작하면, 모든 것이 뒤집힌다.<sup class="vs-ref"><a id="pv-12" href="#vs-12" onclick="return vsJump(12)" title="관련 성구 보기">12</a></sup> 전에는 의라는 거짓 겉모습으로 우리를 기쁘게 하던 것이 극심한 죄악으로 드러나고, 지혜라는 이름으로 우리를 감쪽같이 속이던 것이 그 지독한 어리석음으로 역겨워지며, 힘 있는 덕처럼 보이던 것이 더없이 비참한 무력함으로 판정받는다.<sup class="vs-ref"><a id="pv-13" href="#vs-13" onclick="return vsJump(13)" title="관련 성구 보기">13</a></sup> 우리 안에서 가장 완전해 보이는 것들조차, 하나님의 순결하심에는 그토록 멀리 못 미치는 것이다.<sup class="vs-ref"><a id="pv-14" href="#vs-14" onclick="return vsJump(14)" title="관련 성구 보기">14</a></sup></p></div></section><section class="period" id="paraphrase-verses" data-period="📖"><h2 class="period-head" onclick="togglePeriod(this)"><span class="p-num">📖</span><span class="p-title">성구로 다시 읽기 — 1권 1장 §2</span><span class="p-caret">–</span></h2><div class="period-body vs-ko"><p class="para-note">위 의역의 문장 흐름을 따라, 각 대목과 맞닿은 성경 구절을 모았습니다. 의역 문장 끝의 <sup class="vs-ref"><a href="#vs-1" onclick="return vsJump(1)">번호</a></sup>를 누르면 해당 성구로 이동합니다.</p><h3 class="vs-label" id="vs-1"><a class="vs-back" href="#pv-1" onclick="return pvJump(1)">↩ 의역 본문</a>1. 하나님의 얼굴을 먼저 바라본 뒤에야 참된 자기 인식에 이른다</h3><p class="vs-item"><b>이사야 6:5</b> — “그 때에 내가 말하되 화로다 나여 망하게 되었도다 나는 입술이 부정한 사람이요 나는 입술이 부정한 백성 중에 거주하면서 만군의 여호와이신 왕을 뵈었음이로다”</p><p class="vs-item"><b>욥기 42:5-6</b> — “내가 주께 대하여 귀로 듣기만 하였사오나 이제는 눈으로 주를 뵈옵나이다 그러므로 내가 스스로 거두어들이고 티끌과 재 가운데에서 회개하나이다”</p><p class="vs-item"><b>누가복음 5:8</b> — “시몬 베드로가 이를 보고 예수의 무릎 아래에 엎드려 이르되 주여 나를 떠나소서 나는 죄인이로소이다”</p><h3 class="vs-label" id="vs-2"><a class="vs-back" href="#pv-2" onclick="return pvJump(2)">↩ 의역 본문</a>2. 타고난 교만 — 스스로에게는 늘 의롭고 지혜롭고 거룩해 보인다</h3><p class="vs-item"><b>잠언 16:2</b> — “사람의 행위가 자기 보기에는 모두 깨끗하여도 여호와는 심령을 감찰하시느니라”</p><p class="vs-item"><b>요한계시록 3:17</b> — “네가 말하기를 나는 부자라 부요하여 부족한 것이 없다 하나 네 곤고한 것과 가련한 것과 가난한 것과 눈 먼 것과 벌거벗은 것을 알지 못하는도다”</p><h3 class="vs-label" id="vs-3"><a class="vs-back" href="#pv-3" onclick="return pvJump(3)">↩ 의역 본문</a>3. 주님만이 이 확신을 낳는 유일한 잣대이다</h3><p class="vs-item"><b>사무엘상 16:7</b> — “내가 보는 것은 사람과 같지 아니하니 사람은 외모를 보거니와 나 여호와는 중심을 보느니라”</p><p class="vs-item"><b>히브리서 4:12-13</b> — “하나님의 말씀은 살아 있고 활력이 있어 … 마음의 생각과 뜻을 판단하나니 지으신 것이 하나도 그 앞에 나타나지 않음이 없고 우리의 결산을 받으실 이의 눈 앞에 만물이 벌거벗은 것 같이 드러나느니라”</p><p class="vs-item"><b>시편 36:9</b> — “진실로 생명의 원천이 주께 있사오니 주의 빛 안에서 우리가 빛을 보리이다”</p><h3 class="vs-label" id="vs-4"><a class="vs-back" href="#pv-4" onclick="return pvJump(4)">↩ 의역 본문</a>4. 우리는 본성상 위선에 기울어, 의의 빈 껍데기로 만족한다</h3><p class="vs-item"><b>마태복음 23:27-28</b> — “화 있을진저 외식하는 서기관들과 바리새인들이여 회칠한 무덤 같으니 겉으로는 아름답게 보이나 그 안에는 죽은 사람의 뼈와 모든 더러운 것이 가득하도다”</p><p class="vs-item"><b>디모데후서 3:5</b> — “경건의 모양은 있으나 경건의 능력은 부인하니”</p><p class="vs-item"><b>예레미야 17:9</b> — “만물보다 거짓되고 심히 부패한 것은 마음이라 누가 능히 이를 알리요마는”</p><h3 class="vs-label" id="vs-5"><a class="vs-back" href="#pv-5" onclick="return pvJump(5)">↩ 의역 본문</a>5. 오염된 인간끼리 비교하는 한, 덜 더러운 것이 순결해 보인다</h3><p class="vs-item"><b>이사야 64:6</b> — “무릇 우리는 다 부정한 자 같아서 우리의 의는 다 더러운 옷 같으며 우리는 다 잎사귀 같이 시들므로 우리의 죄악이 바람 같이 우리를 몰아가나이다”</p><p class="vs-item"><b>고린도후서 10:12</b> — “그들이 자기로써 자기를 헤아리고 자기로써 자기를 비교하니 지혜가 없도다”</p><h3 class="vs-label" id="vs-6"><a class="vs-back" href="#pv-6" onclick="return pvJump(6)">↩ 의역 본문</a>6. 검은 것만 보던 눈은 회색도 순백으로 여긴다</h3><p class="vs-item"><b>마태복음 6:22-23</b> — “눈은 몸의 등불이니 … 네게 있는 빛이 어두우면 그 어둠이 얼마나 더하겠느냐”</p><p class="vs-item"><b>에베소서 4:18</b> — “그들의 총명이 어두워지고 그들 가운데 있는 무지함과 그들의 마음이 굳어짐으로 말미암아 하나님의 생명에서 떠나 있도다”</p><h3 class="vs-label" id="vs-7"><a class="vs-back" href="#pv-7" onclick="return pvJump(7)">↩ 의역 본문</a>7. 육신의 감각이 더 강력한 예증을 준다</h3><p class="vs-item"><b>고린도전서 13:12</b> — “우리가 지금은 거울로 보는 것 같이 희미하나 그 때에는 얼굴과 얼굴을 대하여 볼 것이요”</p><h3 class="vs-label" id="vs-8"><a class="vs-back" href="#pv-8" onclick="return pvJump(8)">↩ 의역 본문</a>8. 땅을 볼 때는 시력이 아주 좋다고 자신한다</h3><p class="vs-item"><b>요한복음 9:41</b> — “너희가 맹인이 되었더라면 죄가 없으려니와 본다고 하니 너희 죄가 그대로 있느니라”</p><h3 class="vs-label" id="vs-9"><a class="vs-back" href="#pv-9" onclick="return pvJump(9)">↩ 의역 본문</a>9. 그러나 해를 직시하면 그 시력은 눈부심에 무너진다</h3><p class="vs-item"><b>출애굽기 33:20</b> — “네가 내 얼굴을 보지 못하리니 나를 보고 살 자가 없음이니라”</p><p class="vs-item"><b>디모데전서 6:16</b> — “오직 그에게만 죽지 아니함이 있고 가까이 가지 못할 빛에 거하시고 어떤 사람도 보지 못하였고 또 볼 수 없는 이시니”</p><p class="vs-item"><b>사도행전 26:13</b> — “정오가 되어 길에서 보니 하늘로부터 해보다 더 밝은 빛이 나와 내 동행들을 둘러 비추는지라”</p><h3 class="vs-label" id="vs-10"><a class="vs-back" href="#pv-10" onclick="return pvJump(10)">↩ 의역 본문</a>10. 영적 자질을 평가할 때도 똑같은 일이 일어난다</h3><p class="vs-item"><b>갈라디아서 6:3</b> — “만일 누가 아무 것도 되지 못하고 된 줄로 생각하면 스스로 속임이라”</p><p class="vs-item"><b>로마서 12:3</b> — “마땅히 생각할 그 이상의 생각을 품지 말고 오직 하나님께서 각 사람에게 나누어 주신 믿음의 분량대로 지혜롭게 생각하라”</p><h3 class="vs-label" id="vs-11"><a class="vs-back" href="#pv-11" onclick="return pvJump(11)">↩ 의역 본문</a>11. 땅만 보는 동안엔 자기 의에 만족하며 스스로 반신(半神)쯤으로 여긴다</h3><p class="vs-item"><b>누가복음 18:11-12</b> — “바리새인은 서서 따로 기도하여 이르되 하나님이여 나는 다른 사람들 곧 토색, 불의, 간음을 하는 자들과 같지 아니하고 이 세리와도 같지 아니함을 감사하나이다”</p><p class="vs-item"><b>시편 36:2</b> — “그가 스스로 자랑하기를 자기의 죄악은 드러나지 아니하고 미워함을 받지도 아니하리라 함이로다”</p><h3 class="vs-label" id="vs-12"><a class="vs-back" href="#pv-12" onclick="return pvJump(12)">↩ 의역 본문</a>12. 생각을 하나님께로 들어 올려 그분의 완전하심이 우리의 기준임을 헤아리면</h3><p class="vs-item"><b>마태복음 5:48</b> — “그러므로 하늘에 계신 너희 아버지의 온전하심과 같이 너희도 온전하라”</p><p class="vs-item"><b>베드로전서 1:15-16</b> — “오직 너희를 부르신 거룩한 이처럼 너희도 모든 행실에 거룩한 자가 되라 기록되었으되 내가 거룩하니 너희도 거룩할지어다 하셨느니라”</p><p class="vs-item"><b>이사야 6:3</b> — “거룩하다 거룩하다 거룩하다 만군의 여호와여 그의 영광이 온 땅에 충만하도다”</p><h3 class="vs-label" id="vs-13"><a class="vs-back" href="#pv-13" onclick="return pvJump(13)">↩ 의역 본문</a>13. 의로 보이던 것은 죄로, 지혜는 어리석음으로, 능력은 무력함으로 드러난다</h3><p class="vs-item"><b>빌립보서 3:8</b> — “내가 그를 위하여 모든 것을 잃어버리고 배설물로 여김은 그리스도를 얻고”</p><p class="vs-item"><b>고린도전서 1:20</b> — “지혜 있는 자가 어디 있느냐 … 하나님께서 이 세상의 지혜를 미련하게 하신 것이 아니냐”</p><p class="vs-item"><b>요한복음 15:5</b> — “나를 떠나서는 너희가 아무 것도 할 수 없음이라”</p><h3 class="vs-label" id="vs-14"><a class="vs-back" href="#pv-14" onclick="return pvJump(14)">↩ 의역 본문</a>14. 가장 완전해 보이는 것조차 하나님의 순결에는 못 미친다</h3><p class="vs-item"><b>로마서 3:23</b> — “모든 사람이 죄를 범하였으매 하나님의 영광에 이르지 못하더니”</p><p class="vs-item"><b>욥기 15:15-16</b> — “하나님은 거룩한 자들을 믿지 아니하시나니 하늘이라도 그가 보시기에 부정하거든 하물며 악을 저지르기를 물 마심 같이 하는 가증하고 부패한 사람을 용납하시겠느냐”</p><p class="vs-item"><b>시편 130:3</b> — “여호와여 주께서 죄악을 지켜보실진대 주여 누가 서리이까”</p></div></section><script>function vsJump(n){var s=document.getElementById("paraphrase-verses");if(s)s.classList.remove("collapsed");var t=document.getElementById("vs-"+n);if(t){t.scrollIntoView({behavior:"smooth",block:"center"});if(window.flash)flash(t);}return false;}function pvJump(n){var s=document.getElementById("paraphrase");if(s)s.classList.remove("collapsed");var t=document.getElementById("pv-"+n);if(t){t.scrollIntoView({behavior:"smooth",block:"center"});if(window.flash)flash(t.closest("p"));}return false;}</script>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>

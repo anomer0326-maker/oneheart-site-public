@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 하나님을 안다는 것의 의미 §2 (1권 2장 · Day 5) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 2장 §2(하나님을 안다는 것의 의미)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 5. 연관 성구: 에베소서 2, 로마서 2, 고린도후서 5, 로마서 14, 출애굽기 34, 신명기 29, 스바냐 1. 전체 우리말 의역·문장별 성구 수록."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day05_Book1-Ch2-%C2%A72.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="하나님을 안다는 것의 의미 §2 — 기독교 강요 영어로 읽기 (Day 5)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 2장 §2(하나님을 안다는 것의 의미)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 5. 연관 성구: 에베소서 2, 로마서 2, 고린도후서 5, 로마서 14, 출애굽기 34, 신명기 29, 스바냐 1. 전체 우리말 의역·문장별 성구 수록."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day05_Book1-Ch2-%C2%A72.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 하나님을 안다는 것의 의미 §2 (1권 2장 · Day 5) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 2장 §2(하나님을 안다는 것의 의미)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 5. 연관 성구: 에베소서 2, 로마서 2, 고린도후서 5, 로마서 14, 출애굽기 34, 신명기 29, 스바냐 1. 전체 우리말 의역·문장별 성구 수록.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 2장 §2 — 하나님을 안다는 것의 의미","mentions":[{"@type":"CreativeWork","name":"에베소서 2 (Eph 2)"},{"@type":"CreativeWork","name":"로마서 2 (Rom 2)"},{"@type":"CreativeWork","name":"고린도후서 5 (2 Cor 5)"},{"@type":"CreativeWork","name":"로마서 14 (Rom 14)"},{"@type":"CreativeWork","name":"신명기 10 (Deuteronomy 10)"},{"@type":"CreativeWork","name":"출애굽기 34"},{"@type":"CreativeWork","name":"신명기 29"},{"@type":"CreativeWork","name":"스바냐 1"},{"@type":"CreativeWork","name":"시편 94"},{"@type":"CreativeWork","name":"전도서 12"},{"@type":"CreativeWork","name":"시편 50"},{"@type":"CreativeWork","name":"시편 100"},{"@type":"CreativeWork","name":"고린도전서 10"},{"@type":"CreativeWork","name":"미가 6"},{"@type":"CreativeWork","name":"사무엘상 15"},{"@type":"CreativeWork","name":"시편 63"},{"@type":"CreativeWork","name":"신명기 10"},{"@type":"CreativeWork","name":"출애굽기 20"},{"@type":"CreativeWork","name":"신명기 4"},{"@type":"CreativeWork","name":"시편 91"},{"@type":"CreativeWork","name":"베드로전서 5"},{"@type":"CreativeWork","name":"시편 46"},{"@type":"CreativeWork","name":"히브리서 4"},{"@type":"CreativeWork","name":"시편 23"},{"@type":"CreativeWork","name":"빌립보서 4"},{"@type":"CreativeWork","name":"말라기 1"},{"@type":"CreativeWork","name":"고린도후서 5"},{"@type":"CreativeWork","name":"시편 130"},{"@type":"CreativeWork","name":"히브리서 11"},{"@type":"CreativeWork","name":"요한일서 4"},{"@type":"CreativeWork","name":"창세기 39"},{"@type":"CreativeWork","name":"시편 2"},{"@type":"CreativeWork","name":"히브리서 12"},{"@type":"CreativeWork","name":"이사야 29"},{"@type":"CreativeWork","name":"요한복음 4"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day05_Book1-Ch2-%C2%A72.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 5 — Calvin, *Institutes* Book 1, Chapter 2, §2<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 5 — Calvin, *Institutes* Book 1, Chapter 2, §2</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="·">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">·</span>
+    <span class="p-title">본문 (v1 형식)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>Chapter 2 — "What it is to know God; tendency of this knowledge."</strong>
+<strong>Section 2 — Further illustration of the use, with a reproof of vain curiosity and a refutation of the Epicureans; the character of God as it appears to the pious mind; religion defined.</strong></p><blockquote>
+<p>All English quoted from the Beveridge translation (public domain). All commentary in English.</p>
+</blockquote><hr/><h2>PART 1 — Full text of §2 (verbatim)</h2><blockquote>
+<ol start="2">
+<li>Those, therefore, who, in considering this question, propose to inquire what the essence of God is, only delude us with frigid speculations,—it being much more our interest to know what kind of being God is, and what things are agreeable to his nature. For, of what use is it to join Epicures in acknowledging some God who has cast off the care of the world, and only delights himself in ease? What avails it, in short, to know a God with whom we have nothing to do? The effect of our knowledge rather ought to be, first, to teach us reverence and fear; and, secondly, to induce us, under its guidance and teaching, to ask every good thing from him, and, when it is received, ascribe it to him. For how can the idea of God enter your mind without instantly giving rise to the thought, that since you are his workmanship, you are bound, by the very law of creation, to submit to his authority?—that your life is due to him?—that whatever you do ought to have reference to him? If so, it undoubtedly follows that your life is sadly corrupted, if it is not framed in obedience to him, since his will ought to be the law of our lives. On the other hand, your idea of his nature is not clear unless you acknowledge him to be the origin and fountain of all goodness. Hence would arise both confidence in him, and a desire of cleaving to him, did not the depravity of the human mind lead it away from the proper course of investigation.</li>
+</ol>
+<p>For, first of all, the pious mind does not devise for itself any kind of God, but looks alone to the one true God; nor does it feign for him any character it pleases, but is contented to have him in the character in which he manifests himself always guarding, with the utmost diligences against transgressing his will, and wandering, with daring presumptions from the right path. He by whom God is thus known perceiving how he governs all things, confides in him as his guardian and protector, and casts himself entirely upon his faithfulness,—perceiving him to be the source of every blessing, if he is in any strait or feels any want, he instantly recurs to his protection and trusts to his aid,—persuaded that he is good and merciful, he reclines upon him with sure confidence, and doubts not that, in the divine clemency, a remedy will be provided for his every time of need,—acknowledging him as his Father and his Lord he considers himself bound to have respect to his authority in all things, to reverence his majesty, aim at the advancement of his glory, and obey his commands,—regarding him as a just judge, armed with severity to punish crimes, he keeps the Judgment-seat always in his view. Standing in awe of it, he curbs himself, and fears to provoke his anger. Nevertheless, he is not so terrified by an apprehension of Judgment as to wish he could withdraw himself, even if the means of escape lay before him; nay, he embraces him not less as the avenger of wickedness than as the rewarder of the righteous; because he perceives that it equally appertains to his glory to store up punishment for the one, and eternal life for the other. Besides, it is not the mere fear of punishment that restrains him from sin. Loving and revering God as his father, honouring and obeying him as his master, although there were no hell, he would revolt at the very idea of offending him.</p>
+<p>Such is pure and genuine religion, namely, confidence in God coupled with serious fear—fear, which both includes in it willing reverence, and brings along with it such legitimate worship as is prescribed by the law. And it ought to be more carefully considered that all men promiscuously do homage to God, but very few truly reverence him. On all hands there is abundance of ostentatious ceremonies, but sincerity of heart is rare.</p>
+</blockquote><p><strong>Reading time:</strong> ~3.5–4 minutes aloud (≈ 520 words).</p><hr/><h2>PART 2 — Argument map</h2><p><strong>Premise (negative):</strong> Knowing <em>that</em> God exists, or speculating about his bare <em>essence</em>, is useless — "frigid speculation." A God "with whom we have nothing to do" is no real object of knowledge.</p><p><strong>Argument 1 — The right <em>content</em> of the knowledge of God is practical, not metaphysical.</strong> What matters is <em>qualis sit Deus</em> (what kind of being God is) and what befits his nature, not <em>quid sit</em> (what his essence is). → Refutation of the Epicureans, who posit a God detached from the world.</p><p><strong>Argument 2 — The right <em>effect</em> of this knowledge is twofold:</strong> (a) reverence and fear; (b) trustful petition and grateful ascription. The very idea of God carries with it the obligation of the creature.</p><p><strong>Argument 3 — The right <em>posture</em> of the pious mind.</strong> The believer does not invent a God of his own liking but receives God as he manifests himself. This single, integrated disposition combines: trust in the Governor, recourse to the Provider, repose in the Merciful, submission to the Father/Lord, and awe before the Judge.</p><p><strong>Argument 4 — Genuine fear is filial, not servile.</strong> The pious mind would shrink from offending God <em>even if there were no hell</em>. Fear of punishment alone is not what restrains it.</p><p><strong>Conclusion (definition):</strong> Therefore "pure and genuine religion" = <strong>confidence in God coupled with serious fear</strong> — a reverent love. And, sobering coda: outward homage is universal, true reverence rare.</p><hr/><h2>PART 3 — Sentence-by-sentence deep analysis ⭐</h2><h3>Paragraph 1</h3><hr/><p><strong>S1.</strong> "Those, therefore, who, in considering this question, propose to inquire what the essence of God is, only delude us with frigid speculations,—it being much more our interest to know what kind of being God is, and what things are agreeable to his nature."</p><ul>
+<li><strong>② Syntax skeleton:</strong> <strong>S</strong> = <em>Those … who … propose to inquire …</em> ; <strong>V</strong> = <em>delude</em> ; <strong>O</strong> = <em>us</em> ; adverbial <em>only</em> + means phrase <em>with frigid speculations</em>. The relative clause <em>[who, in considering this question, propose to inquire what the essence of God is]</em> modifies <em>Those</em>. Embedded inside the relative clause is an interrogative noun clause <em>[what the essence of God is]</em> = object of <em>inquire</em>. The em-dash introduces an <strong>absolute construction</strong> <em>[it being much more our interest to know …]</em>. Two interrogative clauses hang off <em>to know</em>: <em>[what kind of being God is]</em> and <em>[what things are agreeable to his nature]</em>.</li>
+<li><strong>③ Grammar points:</strong> (1) <em>Those … who …</em> — antecedent + restrictive relative clause; the subject is held open across an interparenthetical <em>in considering this question</em>. (2) <strong>Indirect questions</strong> with inverted-to-normal order: <em>what the essence of God is</em> (not "<em>what is the essence</em>"); the subordinate question keeps S-V order. (3) <strong>Nominative absolute / participial absolute</strong>: <em>it being much more our interest to know …</em> — <em>it</em> is the subject of a participial <em>being</em>, grammatically detached from the main clause, supplying the reason ("since it is much more our interest"). (4) <strong>Anticipatory / dummy <em>it</em></strong> in <em>it … our interest to know</em> — the real subject is the infinitive phrase <em>to know …</em>. (5) Correlative pair of objects governed by <em>to know</em>: <em>what kind of being God is, and what things are agreeable …</em>.</li>
+<li><strong>④ Vocabulary in context (etymology):</strong> <em>delude</em> &lt; Latin <em>dēlūdere</em> "to play false, mock" (<em>lūdere</em> "to play"). <em>frigid</em> &lt; Latin <em>frīgidus</em> "cold"; here metaphorical = lifeless, lacking warmth/profit. <em>speculations</em> &lt; Latin <em>speculārī</em> "to spy out, observe" (<em>specula</em> "watchtower"); Calvin's pejorative sense = idle theorizing. <em>agreeable to</em> = "in conformity with, suited to" (older sense, not "pleasant").</li>
+<li><strong>⑤ Plain-English paraphrase:</strong> People who tackle the knowledge of God by asking <em>what God's essence is</em> merely fool us with cold, useless theorizing — because it matters far more to know <em>what sort of God he is</em> and what fits his nature.</li>
+<li><strong>⑥ Style note:</strong> Calvin opens with a <strong>dismissive periodic sentence</strong>: the heavy front-loaded subject delays the verb (<em>delude</em>) for rhetorical contempt, then the dash pivots to the positive correction — a classic <em>non hoc, sed illud</em> ("not this, but that") movement.</li>
+</ul><hr/><p><strong>S2.</strong> "For, of what use is it to join Epicures in acknowledging some God who has cast off the care of the world, and only delights himself in ease?"</p><ul>
+<li><strong>② Syntax skeleton:</strong> Rhetorical question. <strong>V</strong> = <em>is</em> ; <strong>predicate</strong> = <em>of what use</em> (fronted) ; dummy <strong>S</strong> = <em>it</em> ; real subject = infinitive <em>[to join Epicures in acknowledging some God …]</em>. Relative clause <em>[who has cast off the care of the world, and only delights himself in ease]</em> modifies <em>God</em>.</li>
+<li><strong>③ Grammar points:</strong> (1) <strong>Anticipatory <em>it</em></strong> again: <em>it = to join Epicures…</em>. (2) <strong>Fronting</strong> of the interrogative complement <em>of what use</em> for emphasis (= "what good is it…?"). (3) <strong>Compound relative predicate</strong>: <em>who has cast off … and (who) only delights himself…</em> — second relative subject elided. (4) <em>delights himself</em> — reflexive use, archaic flavor ("takes pleasure").</li>
+<li><strong>④ Vocabulary in context:</strong> <em>Epicures</em> = the <strong>Epicureans</strong>, here a byword for those who imagine gods indifferent to human affairs (Epicurus held the gods exist but are unconcerned, <em>apatheia</em>). <em>cast off</em> = phrasal verb, "thrown away, renounced." <em>care</em> = "oversight, concern" (Latin <em>cura</em>). <em>ease</em> &lt; Old French <em>aise</em>; here = untroubled idleness (≈ Epicurean <em>ataraxia</em>).</li>
+<li><strong>⑤ Plain-English paraphrase:</strong> What is the point of agreeing with the Epicureans that there is some god who has abandoned all concern for the world and merely enjoys his own comfort?</li>
+<li><strong>⑥ Style note:</strong> First of a <strong>pair of rhetorical questions</strong> (with S3) that pour scorn on a useless theism; the named target (<em>Epicures</em>) gives the abstraction a polemical face.</li>
+</ul><hr/><p><strong>S3.</strong> "What avails it, in short, to know a God with whom we have nothing to do?"</p><ul>
+<li><strong>② Syntax skeleton:</strong> Rhetorical question. <strong>V</strong> = <em>avails</em> ; dummy <strong>S</strong> = <em>it</em> ; real subject = <em>[to know a God …]</em> ; O of <em>avails</em> = interrogative <em>What</em>. Relative clause <em>[with whom we have nothing to do]</em> modifies <em>God</em>.</li>
+<li><strong>③ Grammar points:</strong> (1) <em>avails</em> — intransitive-ish "is of profit/use"; <em>What avails it…?</em> = "what good does it do?" (2) <strong>Pied-piping</strong> of the preposition in the relative clause: <em>with whom</em> (formal; not "whom we have nothing to do with"). (3) <em>in short</em> — parenthetical discourse marker summarizing the prior question.</li>
+<li><strong>④ Vocabulary in context:</strong> <em>avail</em> &lt; Anglo-French <em>availer</em>, ult. Latin <em>valēre</em> "to be strong, be worth." <em>have nothing to do with</em> — idiom = "have no relation/dealings with."</li>
+<li><strong>⑤ Plain-English paraphrase:</strong> In a word: what is the use of knowing a God who has no bearing on our lives?</li>
+<li><strong>⑥ Style note:</strong> A tightening <strong>epigram</strong> that caps the Epicurean rebuttal — short, punchy, the inverse of S1's long period.</li>
+</ul><hr/><p><strong>S4.</strong> "The effect of our knowledge rather ought to be, first, to teach us reverence and fear; and, secondly, to induce us, under its guidance and teaching, to ask every good thing from him, and, when it is received, ascribe it to him."</p><ul>
+<li><strong>② Syntax skeleton:</strong> <strong>S</strong> = <em>The effect of our knowledge</em> ; <strong>V</strong> = <em>ought to be</em> ; <strong>predicate complement</strong> = two coordinated infinitive phrases [<em>to teach us reverence and fear</em>] and [<em>to induce us … to ask … and … ascribe</em>]. <em>rather</em> = adverbial contrast with the rejected views above.</li>
+<li><strong>③ Grammar points:</strong> (1) <strong>Enumerative correlatives</strong> <em>first … secondly</em> organizing the two purposes. (2) <strong>Causative <em>induce … to ask</em></strong>: <em>induce</em> takes object + infinitive (<em>induce us to ask</em>). (3) Compound infinitives under <em>induce</em>: <em>to ask … and (to) ascribe</em> — the second <em>to</em> dropped (bare infinitive in coordination). (4) <strong>Embedded temporal clause</strong> <em>when it is received</em> (passive) inserted before <em>ascribe</em>. (5) <em>under its guidance and teaching</em> — adjunct, <em>its</em> = the knowledge's.</li>
+<li><strong>④ Vocabulary in context:</strong> <em>reverence</em> &lt; Latin <em>reverērī</em> "to stand in awe of" (<em>vereor</em> "fear/respect"). <em>induce</em> &lt; Latin <em>indūcere</em> "to lead in/on." <em>ascribe</em> &lt; Latin <em>ascrībere</em> "to write to/assign to" — to credit something to its source.</li>
+<li><strong>⑤ Plain-English paraphrase:</strong> Instead, the purpose of knowing God ought to be: first, to teach us reverence and fear; and second, to move us — guided and taught by that knowledge — to ask every good thing from God, and, when we receive it, to credit it back to him.</li>
+<li><strong>⑥ Style note:</strong> A <strong>balanced bicolon</strong> (<em>first … secondly</em>) that states the practical thesis of the section; the give-and-receive rhythm (<em>ask … receive … ascribe</em>) mirrors the piety it describes.</li>
+</ul><hr/><p><strong>S5.</strong> "For how can the idea of God enter your mind without instantly giving rise to the thought, that since you are his workmanship, you are bound, by the very law of creation, to submit to his authority?—that your life is due to him?—that whatever you do ought to have reference to him?"</p><ul>
+<li><strong>② Syntax skeleton:</strong> Rhetorical question. <strong>S</strong> = <em>the idea of God</em> ; <strong>V</strong> = <em>can enter</em> ; <strong>O</strong> = <em>your mind</em> ; negative-circumstance adjunct <em>[without instantly giving rise to the thought …]</em>. Three appositional <em>that</em>-clauses unpack <em>the thought</em>: [<em>that … you are bound … to submit to his authority</em>], [<em>that your life is due to him</em>], [<em>that whatever you do ought to have reference to him</em>].</li>
+<li><strong>③ Grammar points:</strong> (1) <strong>Rhetorical "how can … without …"</strong> = a strong assertion that it cannot. (2) <strong>Gerund after preposition</strong>: <em>without … giving rise to</em>. (3) <strong>Triadic apposition</strong> — three parallel <em>that</em>-clauses, each closed by a dash + question mark, building cumulative force. (4) Inside clause 1, <strong>causal subordinate</strong> <em>since you are his workmanship</em> + <strong>passive of obligation</strong> <em>you are bound … to submit</em>. (5) <em>whatever you do</em> — <strong>indefinite relative</strong> functioning as subject of clause 3.</li>
+<li><strong>④ Vocabulary in context:</strong> <em>workmanship</em> = "thing made," product of a maker (cf. Greek <em>ποίημα</em>, Eph. 2:10). <em>bound</em> = "obligated" (past participle of <em>bind</em>). <em>the very law of creation</em> — <em>very</em> intensifier = "the law of creation itself." <em>have reference to</em> = "be directed toward, be ordered to."</li>
+<li><strong>⑤ Plain-English paraphrase:</strong> For how could the thought of God ever enter your mind without immediately producing these conclusions: that, being his handiwork, you are obligated by creation's very law to submit to him? — that your life belongs to him? — that all you do should be oriented toward him?</li>
+<li><strong>⑥ Style note:</strong> <strong>Climax by triple apposition</strong> with interrogative dashes — Calvin stages the inference as something the mind cannot help making; the staccato questions enact the "instant" arising of the thought.</li>
+</ul><hr/><p><strong>S6.</strong> "If so, it undoubtedly follows that your life is sadly corrupted, if it is not framed in obedience to him, since his will ought to be the law of our lives."</p><ul>
+<li><strong>② Syntax skeleton:</strong> <strong>Main:</strong> dummy <strong>S</strong> <em>it</em> + <strong>V</strong> <em>follows</em> + extraposed clause <em>[that your life is sadly corrupted]</em>. Three subordinators stacked: condition <em>If so</em>; embedded condition <em>if it is not framed in obedience to him</em>; cause <em>since his will ought to be the law of our lives</em>.</li>
+<li><strong>③ Grammar points:</strong> (1) <strong>Anticipatory <em>it<em> + extraposed </em>that<em>-clause</em><em> (</em>it follows that …<em>). (2) </em><em>Conditional layering</em><em>: an opening </em>If so<em> (anaphoric — "if that is true") plus a nested </em>if<em>-clause of the negative condition. (3) </em><em>Passive</em><em> </em>is framed<em> with figurative </em>frame<em> = "shape, construct." (4) </em><em>Causal </em>since</em></strong>-clause grounding the obligation.</li>
+<li><strong>④ Vocabulary in context:</strong> <em>follows</em> = logical consequence (<em>sequitur</em>). <em>sadly</em> = "grievously, deplorably" (older sense, not merely "regrettably"). <em>framed</em> &lt; Old English <em>framian</em> "to be useful/make progress"; here "fashioned, ordered." <em>corrupted</em> &lt; Latin <em>corrumpere</em> "to break/spoil utterly."</li>
+<li><strong>⑤ Plain-English paraphrase:</strong> If that is so, then it certainly follows that your life is gravely corrupt whenever it is not shaped by obedience to God — because his will ought to be the rule of our lives.</li>
+<li><strong>⑥ Style note:</strong> A <strong>syllogistic</strong> sentence (<em>it follows that …</em>); the cascade of conditional and causal clauses gives it the feel of an inference being drawn before our eyes.</li>
+</ul><hr/><p><strong>S7.</strong> "On the other hand, your idea of his nature is not clear unless you acknowledge him to be the origin and fountain of all goodness."</p><ul>
+<li><strong>② Syntax skeleton:</strong> <strong>S</strong> = <em>your idea of his nature</em> ; <strong>V</strong> = <em>is</em> ; <strong>C</strong> = <em>clear</em> (negated <em>not clear</em>) ; conditional adjunct <em>[unless you acknowledge him to be the origin and fountain of all goodness]</em>. Inside: <em>acknowledge</em> + <strong>accusative-and-infinitive</strong> <em>him to be …</em>.</li>
+<li><strong>③ Grammar points:</strong> (1) <strong>Discourse pivot</strong> <em>On the other hand</em> — turns from obligation (fear) to benefit (love/trust). (2) <strong>Negative conditional conjunction <em>unless</em></strong> (= "if … not"). (3) <strong>ACI (accusative + infinitive)</strong>: <em>acknowledge him to be the origin</em> (Latinate construction Calvin's translator preserves). (4) <strong>Hendiadys-like pairing</strong> <em>origin and fountain</em> (two near-synonyms for one idea, source).</li>
+<li><strong>④ Vocabulary in context:</strong> <em>origin</em> &lt; Latin <em>orīgō</em> "beginning, source." <em>fountain</em> &lt; Latin <em>fons/fontem</em>, here a stock Calvinian image: God as <em>fons omnium bonorum</em> ("fountain of all goods" — recall Day 4). <em>goodness</em> = the sum of all good things/perfections.</li>
+<li><strong>⑤ Plain-English paraphrase:</strong> Conversely, your conception of God's nature remains unclear unless you recognize him as the source and wellspring of everything good.</li>
+<li><strong>⑥ Style note:</strong> The <strong>antithetical hinge</strong> (<em>On the other hand</em>) balancing the chapter's two notes — submission <em>and</em> trust — and reintroducing the <em>fons</em> metaphor that anchors §2.</li>
+</ul><hr/><p><strong>S8.</strong> "Hence would arise both confidence in him, and a desire of cleaving to him, did not the depravity of the human mind lead it away from the proper course of investigation."</p><ul>
+<li><strong>② Syntax skeleton:</strong> <strong>Inverted conditional.</strong> Main clause: <em>[both confidence in him, and a desire of cleaving to him] would arise</em> (subject postponed after <em>Hence would arise</em>). Protasis without <em>if</em>: <em>[did not the depravity of the human mind lead it away …]</em> = "if the depravity … did not lead it away."</li>
+<li><strong>③ Grammar points:</strong> (1) <strong>Inversion for emphasis</strong>: <em>Hence would arise …</em> (verb before subject after the adverb <em>Hence</em>). (2) <strong>Conditional inversion</strong> replacing <em>if</em>: <em>did not the depravity … lead</em> = "if the depravity did not lead" — a <strong>counterfactual / contrary-to-fact conditional</strong> (<em>would arise … did not …</em>). (3) <strong>Correlative <em>both … and </em></strong>joining the two compound subjects. (4) <em>cleaving to</em> — <em>cleave</em> (to adhere) governing <em>to</em>.</li>
+<li><strong>④ Vocabulary in context:</strong> <em>confidence</em> &lt; Latin <em>cōnfīdere</em> "to trust fully." <em>cleaving</em> &lt; Old English <em>clifian</em> "to stick fast, adhere" (note: distinct from the homograph <em>cleave</em> = to split). <em>depravity</em> &lt; Latin <em>dēprāvāre</em> "to distort, corrupt." <em>course of investigation</em> = the right path of inquiry into God.</li>
+<li><strong>⑤ Plain-English paraphrase:</strong> From this both trust in God and a longing to hold fast to him would naturally spring — were it not that the corruption of the human mind diverts it from the proper path of inquiry.</li>
+<li><strong>⑥ Style note:</strong> <strong>Double inversion</strong> (adverb-fronting + <em>if</em>-less conditional) — a high-register, almost Latinate cadence that lets the sentence end on the grim word <em>investigation</em>, setting up the corrective that follows.</li>
+</ul><hr/><h3>Paragraph 2</h3><hr/><p><strong>S9.</strong> "For, first of all, the pious mind does not devise for itself any kind of God, but looks alone to the one true God; nor does it feign for him any character it pleases, but is contented to have him in the character in which he manifests himself always guarding, with the utmost diligences against transgressing his will, and wandering, with daring presumptions from the right path."</p><ul>
+<li><strong>② Syntax skeleton:</strong> Compound. Clause A: <strong>S</strong> <em>the pious mind</em> + neg <strong>V</strong> <em>does not devise</em> + O <em>any kind of God</em> + adversative <em>but looks alone to the one true God</em>. Clause B (after <em>nor</em>, with <strong>inversion</strong>): <em>nor does it feign … any character it pleases, but is contented to have him in the character [in which he manifests himself]</em>. Trailing participial cluster: <em>always guarding … against transgressing … and wandering …</em>.</li>
+<li><strong>③ Grammar points:</strong> (1) <strong>Negative-adversative parallelism</strong> <em>not … but … nor … but</em> — a four-beat antithetical structure (does not invent / but looks; nor feigns / but is content). (2) <strong>Inversion after <em>nor</em></strong>: <em>nor does it feign</em> (auxiliary <em>does</em> fronted, required after sentence-initial negative <em>nor</em>). (3) <strong>Relative clause</strong> <em>any character (that) it pleases</em> — contact relative (omitted <em>that</em>). (4) <strong>Locative relative</strong> <em>the character in which he manifests himself</em>. (5) <strong>Participial adjuncts</strong> <em>guarding … against transgressing … and wandering</em> — <em>against</em> governs two gerunds (<em>transgressing</em>, <em>wandering</em>). (6) <em>with the utmost diligences</em> / <em>with daring presumptions</em> — parallel manner phrases.</li>
+<li><strong>④ Vocabulary in context:</strong> <em>devise</em> &lt; Latin <em>dīvidere</em> via Old French <em>deviser</em> "to plan, contrive." <em>feign</em> &lt; Latin <em>fingere</em> "to shape, fashion, invent" (cf. <em>fiction</em>) — here "fabricate falsely." <em>manifests</em> &lt; Latin <em>manifestus</em> "caught in the act, plainly visible." <em>transgressing</em> &lt; Latin <em>trānsgredī</em> "to step across" (a boundary, i.e., God's will). <em>presumption</em> &lt; Latin <em>praesūmere</em> "to take beforehand" — overreaching arrogance.</li>
+<li><strong>⑤ Plain-English paraphrase:</strong> For, above all, the godly mind does not invent some god of its own but looks only to the one true God; nor does it pin on him whatever character it likes, but is content to take him as he reveals himself — carefully guarding against violating his will and against straying, through bold presumption, from the right path.</li>
+<li><strong>⑥ Style note:</strong> A <strong>chiasmus of negations</strong> that defines piety by what it refuses: invention and projection. The repeated <em>not … but</em> delivers the Reformed nerve — God known <em>as he reveals himself</em>, never as we imagine.</li>
+</ul><hr/><p><strong>S10.</strong> "He by whom God is thus known perceiving how he governs all things, confides in him as his guardian and protector, and casts himself entirely upon his faithfulness,—perceiving him to be the source of every blessing, if he is in any strait or feels any want, he instantly recurs to his protection and trusts to his aid,—persuaded that he is good and merciful, he reclines upon him with sure confidence, and doubts not that, in the divine clemency, a remedy will be provided for his every time of need,—acknowledging him as his Father and his Lord he considers himself bound to have respect to his authority in all things, to reverence his majesty, aim at the advancement of his glory, and obey his commands,—regarding him as a just judge, armed with severity to punish crimes, he keeps the Judgment-seat always in his view."</p><ul>
+<li><strong>② Syntax skeleton:</strong> A vast <strong>periodic sentence</strong> built on one subject, <em>He [by whom God is thus known]</em>, and a series of dash-separated movements, each opened by a <strong>participial phrase</strong> that names an aspect of God and closed by a <strong>main clause</strong> describing the believer's answering act:</li>
+<li><em>perceiving how he governs all things</em> → <em>confides in him … and casts himself … upon his faithfulness</em></li>
+<li><em>perceiving him to be the source of every blessing</em> → <em>(if … strait/want) he instantly recurs to his protection and trusts to his aid</em></li>
+<li><em>persuaded that he is good and merciful</em> → <em>he reclines upon him … and doubts not that … a remedy will be provided</em></li>
+<li><em>acknowledging him as his Father and his Lord</em> → <em>he considers himself bound to have respect … to reverence … aim at … and obey</em></li>
+<li><em>regarding him as a just judge …</em> → <em>he keeps the Judgment-seat always in his view</em></li>
+<li><strong>③ Grammar points:</strong> (1) <strong>Relative clause as subject head</strong>: <em>He by whom God is thus known</em> = "the man by whom God is known in this way" (passive relative with pied-piped <em>by whom</em>). (2) <strong>Serial participial absolutes</strong> (<em>perceiving … persuaded … acknowledging … regarding</em>) each governing a clause — the architecture of the whole sentence. (3) <strong>Conditional inset</strong> <em>if he is in any strait or feels any want</em>. (4) <strong>Catalogues of infinitives</strong> under <em>bound</em>: <em>to have respect … to reverence … aim at … and obey</em> (later <em>to</em>'s dropped). (5) <strong>Litotes</strong> <em>doubts not that …</em> = "is fully sure that." (6) <strong>Em-dashes</strong> as the connective scaffolding, marking each new facet.</li>
+<li><strong>④ Vocabulary in context:</strong> <em>confides in</em> = "puts trust in" (Latin <em>cōnfīdere</em>). <em>strait</em> = "tight place, distress" (cf. "dire straits"; Latin <em>strictus</em> "drawn tight"). <em>recurs to</em> &lt; Latin <em>recurrere</em> "to run back to" — i.e., takes refuge in. <em>reclines upon</em> &lt; Latin <em>reclīnāre</em> "to lean back on" — restful trust. <em>clemency</em> &lt; Latin <em>clēmentia</em> "mildness, mercy." <em>appertains</em> (cf. S12) / <em>Judgment-seat</em> = the divine tribunal (cf. Greek <em>βῆμα</em>, Rom. 14:10; 2 Cor. 5:10).</li>
+<li><strong>⑤ Plain-English paraphrase:</strong> The person who knows God this way responds to each thing he sees in God: seeing that God governs everything, he trusts him as guardian and protector and throws himself wholly on God's faithfulness; seeing him as the source of every blessing, then in any hardship or need he runs at once to God's protection and relies on his help; convinced God is good and merciful, he rests on him with sure confidence and never doubts that God's mercy will provide a remedy for every need; recognizing him as Father and Lord, he holds himself bound to respect his authority in all things, to reverence his majesty, to seek his glory, and to obey him; and seeing him as a just judge armed to punish crime, he keeps the judgment-seat always before his eyes.</li>
+<li><strong>⑥ Style note:</strong> The <strong>rhetorical masterpiece of the section</strong> — a <em>correlatio</em> / cumulative period in which knowledge and response are welded facet by facet. Form embodies content: the integrated <em>disposition</em> of piety is mirrored by a single sentence that refuses to break apart.</li>
+</ul><hr/><p><strong>S11.</strong> "Standing in awe of it, he curbs himself, and fears to provoke his anger."</p><ul>
+<li><strong>② Syntax skeleton:</strong> <strong>S</strong> = <em>he</em> ; <strong>V₁</strong> = <em>curbs</em> (O <em>himself</em>) ; <strong>V₂</strong> = <em>fears</em> (+ infinitive <em>to provoke his anger</em>). Fronted participial phrase <em>[Standing in awe of it]</em> (<em>it</em> = the Judgment-seat).</li>
+<li><strong>③ Grammar points:</strong> (1) <strong>Fronted present participle</strong> <em>Standing in awe of it</em> — adverbial of attendant circumstance/cause. (2) <strong>Compound predicate</strong> <em>curbs … and fears</em>. (3) <em>fears to provoke</em> — <em>fear</em> + infinitive = "is afraid to / shrinks from doing."</li>
+<li><strong>④ Vocabulary in context:</strong> <em>awe</em> &lt; Old Norse <em>agi</em> "terror, reverential fear." <em>curbs</em> &lt; Old French <em>courbe</em> "curved (bit)"; figuratively "restrains" (as a bridle restrains a horse). <em>provoke</em> &lt; Latin <em>prōvocāre</em> "to call forth, challenge."</li>
+<li><strong>⑤ Plain-English paraphrase:</strong> Standing in awe of that judgment-seat, he restrains himself and is afraid to stir up God's anger.</li>
+<li><strong>⑥ Style note:</strong> A <strong>short clause</strong> that lands after S10's vast period — a deliberate metrical "exhale," focusing on the restraint that awe produces.</li>
+</ul><hr/><p><strong>S12.</strong> "Nevertheless, he is not so terrified by an apprehension of Judgment as to wish he could withdraw himself, even if the means of escape lay before him; nay, he embraces him not less as the avenger of wickedness than as the rewarder of the righteous; because he perceives that it equally appertains to his glory to store up punishment for the one, and eternal life for the other."</p><ul>
+<li><strong>② Syntax skeleton:</strong> Three coordinated movements. (A) <em>he is not so terrified … as to wish [he could withdraw himself]</em>, with concessive <em>even if the means of escape lay before him</em>. (B) After <em>nay</em>: <em>he embraces him not less as the avenger … than as the rewarder …</em>. (C) Causal <em>because he perceives [that it equally appertains to his glory to store up punishment … and eternal life …]</em>.</li>
+<li><strong>③ Grammar points:</strong> (1) <strong>Result correlative <em>so … as to </em></strong>: <em>not so terrified … as to wish</em> = "not terrified to the point of wishing." (2) <strong>Counterfactual concessive</strong> <em>even if the means of escape lay before him</em> (past subjunctive <em>lay</em> = were lying). (3) <strong>Corrective <em>nay</em></strong>: intensifying "no — rather." (4) <strong>Comparative correlative <em>not less … than </em></strong>: <em>not less as the avenger … than as the rewarder</em>. (5) <strong>Extraposed <em>it … to </em></strong>: <em>it appertains to his glory to store up …</em> (dummy <em>it</em> + infinitival real subject). (6) <strong>Antithesis</strong> <em>the one … the other</em> / <em>punishment … eternal life</em>.</li>
+<li><strong>④ Vocabulary in context:</strong> <em>apprehension</em> &lt; Latin <em>apprehendere</em> "to seize" — here "anxious anticipation." <em>withdraw</em> = "remove (himself), escape." <em>nay</em> = archaic "indeed/rather" (intensifier). <em>avenger</em> &lt; Latin <em>vindicāre</em> via Old French; one who exacts justice. <em>appertains</em> &lt; Latin <em>appertinēre</em> "to belong to." <em>store up</em> = "lay up, reserve" (cf. Rom. 2:5, "treasuring up wrath").</li>
+<li><strong>⑤ Plain-English paraphrase:</strong> Yet he is not so frightened by the thought of judgment that he would wish to run away even if escape were possible; on the contrary, he welcomes God just as much as the punisher of evil as the rewarder of the righteous — because he sees that God's glory is equally served by reserving punishment for the wicked and eternal life for the good.</li>
+<li><strong>⑥ Style note:</strong> A <strong>paradox of holy fear</strong>: fear that does not flee but <em>embraces</em>. The balanced comparatives (<em>not less … than</em>; <em>the one … the other</em>) stage the believer's even-handed acceptance of God's justice and mercy.</li>
+</ul><hr/><p><strong>S13.</strong> "Besides, it is not the mere fear of punishment that restrains him from sin."</p><ul>
+<li><strong>② Syntax skeleton:</strong> <strong>Cleft sentence.</strong> <em>it is not the mere fear of punishment [that restrains him from sin]</em> — cleft highlighting <em>the mere fear of punishment</em> as (negated) the restraining cause.</li>
+<li><strong>③ Grammar points:</strong> (1) <strong>It-cleft for focus/negation</strong>: <em>it is not X that …</em> = "X is not what …." (2) <em>Besides</em> — additive discourse connective. (3) <em>restrains … from</em> — verb + <em>from</em> + noun.</li>
+<li><strong>④ Vocabulary in context:</strong> <em>mere</em> = "nothing more than, only" (Latin <em>merus</em> "pure, unmixed"). <em>restrains</em> &lt; Latin <em>restringere</em> "to bind back." <em>Besides</em> = "moreover, in addition."</li>
+<li><strong>⑤ Plain-English paraphrase:</strong> What is more, it is not merely the dread of punishment that holds him back from sin.</li>
+<li><strong>⑥ Style note:</strong> A <strong>terse cleft</strong> that isolates and denies the servile motive — clearing the ground for the climactic S14.</li>
+</ul><hr/><p><strong>S14.</strong> "Loving and revering God as his father, honouring and obeying him as his master, although there were no hell, he would revolt at the very idea of offending him."</p><ul>
+<li><strong>② Syntax skeleton:</strong> <strong>S</strong> = <em>he</em> ; <strong>V</strong> = <em>would revolt</em> ; adjunct <em>at the very idea of offending him</em>. Two fronted participial phrases (<em>Loving and revering … as his father</em>; <em>honouring and obeying … as his master</em>); concessive clause <em>although there were no hell</em>.</li>
+<li><strong>③ Grammar points:</strong> (1) <strong>Paired participial absolutes</strong> in parallel (<em>Loving and revering … / honouring and obeying …</em>), each with an <em>as</em>-phrase of role (<em>father / master</em>). (2) <strong>Counterfactual concessive</strong> <em>although there were no hell</em> — past subjunctive <em>were</em> expressing a contrary-to-fact supposition. (3) <strong>Conditional-counterfactual main verb</strong> <em>would revolt</em>. (4) <em>the very idea</em> — <em>very</em> intensifier ("the mere idea itself"). (5) <strong>Gerund object</strong> <em>of offending him</em>.</li>
+<li><strong>④ Vocabulary in context:</strong> <em>revering</em> &lt; Latin <em>reverērī</em> "to stand in awe." <em>revolt</em> &lt; Latin <em>revolvere</em> via Italian <em>rivoltare</em> "to turn back/away"; here "recoil in abhorrence." <em>offending</em> &lt; Latin <em>offendere</em> "to strike against." Note the <strong>double role-pairing</strong>: <em>father / master</em> = the affective (love) and the dutiful (obedience) sides of piety.</li>
+<li><strong>⑤ Plain-English paraphrase:</strong> Loving and revering God as his Father, honouring and obeying him as his Master, he would — even if there were no hell at all — shrink in horror from the very thought of offending him.</li>
+<li><strong>⑥ Style note:</strong> The <strong>emotional and theological climax</strong> of §2: <em>etiamsi nullus esset infernus</em> ("even if there were no hell"). The counterfactual proves the fear is <em>filial</em>, not mercenary — love, not the gallows, is the deepest restraint.</li>
+</ul><hr/><h3>Paragraph 3</h3><hr/><p><strong>S15.</strong> "Such is pure and genuine religion, namely, confidence in God coupled with serious fear—fear, which both includes in it willing reverence, and brings along with it such legitimate worship as is prescribed by the law."</p><ul>
+<li><strong>② Syntax skeleton:</strong> <strong>Inverted predicative</strong>: <em>Such</em> (C, fronted) + <strong>V</strong> <em>is</em> + <strong>S</strong> <em>pure and genuine religion</em>. Appositive (after <em>namely</em>): <em>confidence in God coupled with serious fear</em>. Then <em>fear</em> is re-taken up by a <strong>non-restrictive relative</strong>: <em>[which both includes in it willing reverence, and brings along with it such legitimate worship as is prescribed by the law]</em>.</li>
+<li><strong>③ Grammar points:</strong> (1) <strong>Inversion for definition</strong>: <em>Such is X</em> = "X is of this kind" — formal closing formula. (2) <strong>Appositive definition</strong> introduced by <em>namely</em>. (3) <strong>Resumptive repetition</strong> <em>serious fear—fear, which …</em> (epanalepsis): the dash repeats <em>fear</em> to attach the relative clause. (4) <strong>Correlative <em>both … and </em></strong>within the relative: <em>includes … and brings</em>. (5) <strong>Correlative <em>such … as </em></strong>: <em>such legitimate worship as is prescribed by the law</em> (= "the kind of worship that the law prescribes").</li>
+<li><strong>④ Vocabulary in context:</strong> <em>genuine</em> &lt; Latin <em>genuīnus</em> "natural, innate." <em>coupled</em> = "joined" (Latin <em>cōpula</em> "bond"). <em>legitimate</em> &lt; Latin <em>lēgitimus</em> "lawful." <em>prescribed</em> &lt; Latin <em>praescrībere</em> "to write beforehand, lay down as a rule." <em>the law</em> = the divine law (esp. the Decalogue / Mosaic law as norm of worship).</li>
+<li><strong>⑤ Plain-English paraphrase:</strong> This, then, is pure and true religion: trust in God joined to serious fear — a fear that both contains within it willing reverence and carries with it the lawful worship that God's law prescribes.</li>
+<li><strong>⑥ Style note:</strong> The <strong>defining sentence</strong> of the whole chapter (<em>Talis est pura germanaque religio</em>). The repeated <em>fear</em> and the <em>both … and</em> balance give it the cadence of a formal definition meant to be remembered.</li>
+</ul><hr/><p><strong>S16.</strong> "And it ought to be more carefully considered that all men promiscuously do homage to God, but very few truly reverence him."</p><ul>
+<li><strong>② Syntax skeleton:</strong> <strong>S</strong> dummy <em>it</em> + <strong>V</strong> <em>ought to be … considered</em> (passive) + extraposed clause <em>[that all men promiscuously do homage to God, but very few truly reverence him]</em>. Within: adversative <em>but</em> joining <em>all men … do homage</em> vs. <em>very few … reverence</em>.</li>
+<li><strong>③ Grammar points:</strong> (1) <strong>Anticipatory <em>it</em> + extraposed <em>that</em>-clause</strong> (<em>it ought to be considered that …</em>). (2) <strong>Passive of obligation</strong> <em>ought to be considered</em>. (3) <strong>Antithesis</strong> <em>all … but very few</em> with the contrast <em>do homage</em> (outward) vs. <em>truly reverence</em> (inward). (4) Adverbs carry the weight: <em>promiscuously</em> (indiscriminately, all alike) vs. <em>truly</em>.</li>
+<li><strong>④ Vocabulary in context:</strong> <em>promiscuously</em> &lt; Latin <em>prōmiscuus</em> "mixed, indiscriminate" — here "without distinction, one and all." <em>do homage</em> = "pay formal respect/allegiance" (feudal term, Old French <em>homage</em>). <em>reverence</em> (verb) = to render heartfelt awe.</li>
+<li><strong>⑤ Plain-English paraphrase:</strong> And it deserves more careful thought that, while everyone alike pays God outward homage, very few truly revere him.</li>
+<li><strong>⑥ Style note:</strong> A <strong>sobering antithesis</strong> (<em>all … very few</em>) that pivots from the ideal portrait to a realistic diagnosis — the gap between formal religion and true piety.</li>
+</ul><hr/><p><strong>S17.</strong> "On all hands there is abundance of ostentatious ceremonies, but sincerity of heart is rare."</p><ul>
+<li><strong>② Syntax skeleton:</strong> <strong>Existential + antithesis.</strong> Clause A: <em>On all hands there is abundance of ostentatious ceremonies</em> (existential <em>there is</em>). Clause B: <em>but sincerity of heart is rare</em> (<strong>S</strong> <em>sincerity of heart</em> + <strong>V</strong> <em>is</em> + <strong>C</strong> <em>rare</em>).</li>
+<li><strong>③ Grammar points:</strong> (1) <strong>Existential <em>there is </em></strong>with fronted locative adjunct <em>On all hands</em>. (2) <strong>Adversative <em>but</em></strong> completing the antithesis abundance vs. rarity. (3) <strong>Implied parallelism / zeugma of contrast</strong>: outward <em>ceremonies</em> (plentiful) vs. inward <em>sincerity</em> (rare).</li>
+<li><strong>④ Vocabulary in context:</strong> <em>On all hands</em> = idiom, "on every side, everywhere." <em>abundance</em> &lt; Latin <em>abundāre</em> "to overflow." <em>ostentatious</em> &lt; Latin <em>ostentāre</em> "to display showily" (<em>ostendere</em> "to show"). <em>ceremonies</em> &lt; Latin <em>caerimōnia</em> "religious rite." <em>sincerity</em> &lt; Latin <em>sincērus</em> "pure, unadulterated."</li>
+<li><strong>⑤ Plain-English paraphrase:</strong> Everywhere there is no shortage of showy ceremonies, but genuine sincerity of heart is rare.</li>
+<li><strong>⑥ Style note:</strong> A <strong>closing epigram</strong> — short, balanced, memorable — that seals the section on the same realist note as S16: the ratio of show to substance in religion is lopsided.</li>
+</ul><hr/><h2>PART 4 — Vocabulary table</h2><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>POS</th>
+<th>Meaning (in context)</th>
+<th>Nuance &amp; etymology</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>delude</td>
+<td>v.</td>
+<td>to fool, mislead</td>
+<td>L. <em>dēlūdere</em> "to mock, play false" (<em>lūdere</em> play)</td>
+</tr>
+<tr>
+<td>frigid</td>
+<td>adj.</td>
+<td>lifeless, profitless</td>
+<td>L. <em>frīgidus</em> "cold"; here metaphorical</td>
+</tr>
+<tr>
+<td>speculation</td>
+<td>n.</td>
+<td>idle theorizing</td>
+<td>L. <em>speculārī</em> "to spy out" (<em>specula</em> watchtower)</td>
+</tr>
+<tr>
+<td>agreeable to</td>
+<td>phr.</td>
+<td>in conformity with, suited to</td>
+<td>older sense, not "pleasant"</td>
+</tr>
+<tr>
+<td>avail</td>
+<td>v.</td>
+<td>to be of use/profit</td>
+<td>L. <em>valēre</em> "to be strong, be worth"</td>
+</tr>
+<tr>
+<td>Epicures</td>
+<td>n.</td>
+<td>the Epicureans (detached gods)</td>
+<td>sect; byword for gods indifferent to the world</td>
+</tr>
+<tr>
+<td>workmanship</td>
+<td>n.</td>
+<td>a thing made, handiwork</td>
+<td>cf. Gk <em>ποίημα</em>, Eph. 2:10</td>
+</tr>
+<tr>
+<td>bound</td>
+<td>adj.</td>
+<td>obligated</td>
+<td>pp. of <em>bind</em></td>
+</tr>
+<tr>
+<td>frame</td>
+<td>v.</td>
+<td>to shape, order, construct</td>
+<td>OE <em>framian</em> "to be useful, advance"</td>
+</tr>
+<tr>
+<td>fountain</td>
+<td>n.</td>
+<td>source, wellspring</td>
+<td>L. <em>fons</em>; Calvin's <em>fons omnium bonorum</em></td>
+</tr>
+<tr>
+<td>cleave (to)</td>
+<td>v.</td>
+<td>to adhere, hold fast</td>
+<td>OE <em>clifian</em> (≠ <em>cleave</em> "to split")</td>
+</tr>
+<tr>
+<td>depravity</td>
+<td>n.</td>
+<td>corruption (of nature)</td>
+<td>L. <em>dēprāvāre</em> "to distort"</td>
+</tr>
+<tr>
+<td>feign</td>
+<td>v.</td>
+<td>to fabricate falsely</td>
+<td>L. <em>fingere</em> "to shape, invent"</td>
+</tr>
+<tr>
+<td>manifest</td>
+<td>v.</td>
+<td>to reveal plainly</td>
+<td>L. <em>manifestus</em> "caught in the act, evident"</td>
+</tr>
+<tr>
+<td>transgress</td>
+<td>v.</td>
+<td>to overstep, violate</td>
+<td>L. <em>trānsgredī</em> "to step across"</td>
+</tr>
+<tr>
+<td>presumption</td>
+<td>n.</td>
+<td>arrogant overreach</td>
+<td>L. <em>praesūmere</em> "to take beforehand"</td>
+</tr>
+<tr>
+<td>strait</td>
+<td>n.</td>
+<td>hardship, tight place</td>
+<td>L. <em>strictus</em> "drawn tight"</td>
+</tr>
+<tr>
+<td>recur (to)</td>
+<td>v.</td>
+<td>to take refuge in, run back to</td>
+<td>L. <em>recurrere</em> "to run back"</td>
+</tr>
+<tr>
+<td>recline (upon)</td>
+<td>v.</td>
+<td>to rest/lean on (in trust)</td>
+<td>L. <em>reclīnāre</em> "to lean back"</td>
+</tr>
+<tr>
+<td>clemency</td>
+<td>n.</td>
+<td>mercy, mildness</td>
+<td>L. <em>clēmentia</em></td>
+</tr>
+<tr>
+<td>appertain (to)</td>
+<td>v.</td>
+<td>to belong to, pertain</td>
+<td>L. <em>appertinēre</em></td>
+</tr>
+<tr>
+<td>avenger</td>
+<td>n.</td>
+<td>one who exacts justice</td>
+<td>L. <em>vindicāre</em> "to claim, punish"</td>
+</tr>
+<tr>
+<td>apprehension</td>
+<td>n.</td>
+<td>anxious anticipation</td>
+<td>L. <em>apprehendere</em> "to seize"</td>
+</tr>
+<tr>
+<td>nay</td>
+<td>adv.</td>
+<td>rather, indeed (intensive)</td>
+<td>archaic corrective</td>
+</tr>
+<tr>
+<td>revolt (at)</td>
+<td>v.</td>
+<td>to recoil in abhorrence</td>
+<td>It. <em>rivoltare</em> "to turn away"</td>
+</tr>
+<tr>
+<td>coupled</td>
+<td>v./adj.</td>
+<td>joined, bonded</td>
+<td>L. <em>cōpula</em> "bond"</td>
+</tr>
+<tr>
+<td>legitimate</td>
+<td>adj.</td>
+<td>lawful</td>
+<td>L. <em>lēgitimus</em> "lawful"</td>
+</tr>
+<tr>
+<td>prescribe</td>
+<td>v.</td>
+<td>to lay down as a rule</td>
+<td>L. <em>praescrībere</em> "to write beforehand"</td>
+</tr>
+<tr>
+<td>promiscuously</td>
+<td>adv.</td>
+<td>indiscriminately, all alike</td>
+<td>L. <em>prōmiscuus</em> "mixed"</td>
+</tr>
+<tr>
+<td>do homage</td>
+<td>phr.</td>
+<td>to pay formal respect</td>
+<td>OF <em>homage</em> (feudal)</td>
+</tr>
+<tr>
+<td>ostentatious</td>
+<td>adj.</td>
+<td>showy, for display</td>
+<td>L. <em>ostentāre</em> "to display"</td>
+</tr>
+<tr>
+<td>sincerity</td>
+<td>n.</td>
+<td>pure-heartedness</td>
+<td>L. <em>sincērus</em> "pure, unmixed"</td>
+</tr>
+</tbody>
+</table><hr/><h2>PART 5 — 🏛 Theology (deep)</h2><p><strong>The doctrine at stake: what <em>kind</em> of knowledge of God is salvific/pious.</strong> §2 develops the program announced in §1. There Calvin defined the knowledge of God as not bare cognition <em>that</em> God exists but apprehension of "what it is for our interest" to know of him, insisting that "we cannot say that God is known where there is no religion or piety." §2 now presses the point polemically: speculation about the divine <em>essence</em> (<em>quid sit Deus</em>) is "frigid"; what saves and sanctifies is knowing <em>qualis sit Deus</em> — what kind of being God is, and what is "agreeable to his nature."</p><p><strong>Against speculative theology.</strong> Calvin is making a deliberate methodological choice against a certain scholastic mode (and against pagan philosophy) that begins with God's metaphysical essence. His <em>theologia</em> is relational and practical: knowledge of God always terminates in <em>worship</em>. This is the seedbed of his later, famous principle that God reveals himself <em>quoad nos</em> (as he is "toward us"), not <em>quoad se</em> (as he is "in himself") — a form of the <strong>doctrine of accommodation</strong> that recurs throughout Book 1.</p><p><strong>The Epicurean foil.</strong> The Epicureans held that gods exist but are wholly unconcerned with the world (living in untroubled <em>ataraxia</em>). Calvin uses them as the archetype of a <em>useless</em> theism: a God "with whom we have nothing to do." Note the structural point — <em>atheism of the practical kind</em> (a God who does nothing) is, for Calvin, no better than denial. True knowledge of God necessarily includes God's <em>providence</em> and <em>beneficence</em>.</p><p><strong>The structure of piety.</strong> §2 gives Calvin's working definition of <em>pietas</em>: "that union of reverence and love to God which the knowledge of his benefits inspires" (the phrase falls at the end of §1 in Beveridge's paragraphing and is presupposed here). §2's portrait of the <em>pious mind</em> (S9–S14) unfolds piety as an <strong>integrated disposition</strong> — not a sequence of separate acts but a single posture responding to every facet of God: God as Governor → trust; as Benefactor → recourse and gratitude; as merciful → restful confidence; as Father/Lord → obedience; as Judge → awe. This is Calvin's characteristic <em>correlation</em> of the knowledge of God and the knowledge of self/duty.</p><p><strong>Filial vs. servile fear.</strong> The climax (S13–S14) distinguishes <strong>timor filialis</strong> (filial fear, born of love) from <strong>timor servilis</strong> (servile, mercenary fear of punishment). Calvin's test — <em>etiamsi nullus esset infernus</em>, "even if there were no hell" — became a touchstone in Reformed and later Puritan devotion (echoing a motif also found in patristic and medieval piety, e.g., the sentiment later popularized in the Spanish sonnet <em>"No me mueve, mi Dios, para quererte / el cielo que me tienes prometido"</em>). The point: true religion is not extorted by threat but flows from love that reverences.</p><p><strong>Religion defined (S15).</strong> <em>"Such is pure and genuine religion, namely, confidence in God coupled with serious fear"</em> — <em>fiducia</em> + <em>timor</em>. This pairing (trust and reverent fear) is Calvin's compact definition and coheres with the <em>duplex cognitio Dei</em> framework (Creator/Redeemer) introduced in §1: here we are still in the <em>cognitio Dei Creatoris</em>, the knowledge available "had Adam stood upright," now corrupted and needing the Redeemer.</p><p><strong>Realist coda (S16–S17).</strong> Calvin ends not in triumph but in diagnosis: outward homage is universal, true reverence rare; ceremonies abound, sincerity is scarce. This anticipates Book 1's later critique of idolatry and superstition (Chs. 4, 11–12) and his lifelong concern that the <em>form</em> of worship without the <em>heart</em> is hypocrisy — the cor (heart) as the seat of true religion.</p><p><strong>Cross-links:</strong> Builds on §1 (<em>duplex cognitio Dei</em>, <em>fons omnium bonorum</em>, definition of piety); looks forward to Ch.3 (the <em>sensus divinitatis</em>, the universally implanted sense of deity — note S17's "on all hands"), Ch.4 (how that seed is corrupted), and Chs.11–12 (idolatry, true vs. false worship).</p><hr/><h2>PART 6 — 📖 Biblical studies (deep)</h2><p>Calvin's §2 is saturated with Scripture even where he does not cite chapter and verse; the prose is a tissue of biblical theology.</p><p><strong>1. Creation and obligation (S5).</strong> <em>"Since you are his workmanship, you are bound, by the very law of creation, to submit to his authority."</em> The logic is that of <strong>Psalm 100:3</strong> — "It is he that hath made us, and not we ourselves; we are his people" — and of <strong>Acts 17:28</strong> (Paul to the Epicureans and Stoics! "in him we live, and move, and have our being"). The word <em>workmanship</em> directly evokes <strong>Ephesians 2:10</strong> (Gk <em>ποίημα</em>, "we are his workmanship"). Creation establishes a <em>jus creatoris</em>, a maker's claim.</p><p><strong>2. God as fountain of all good (S7).</strong> <em>"the origin and fountain of all goodness"</em> draws on <strong>James 1:17</strong> ("Every good gift and every perfect gift is from above, and cometh down from the Father of lights") and <strong>Psalm 36:9</strong> ("For with thee is the fountain of life"). The <em>fons</em> image is Calvin's signature.</p><p><strong>3. Reverence + petition + gratitude (S4).</strong> The threefold effect — fear, asking, ascribing — mirrors the shape of biblical prayer: <strong>Philippians 4:6</strong> ("in every thing by prayer and supplication with thanksgiving let your requests be made known unto God") and the doxological reflex of <strong>1 Corinthians 4:7</strong> ("what hast thou that thou didst not receive?").</p><p><strong>4. The Judgment-seat (S10, S12).</strong> <em>"he keeps the Judgment-seat always in his view"</em> invokes the <em>βῆμα</em> of <strong>Romans 14:10</strong> and <strong>2 Corinthians 5:10</strong> ("we must all appear before the judgment seat of Christ"). <em>"to store up punishment"</em> (S12) echoes <strong>Romans 2:5</strong> — "treasurest up unto thyself wrath against the day of wrath" (Gk <em>θησαυρίζεις … ὀργήν</em>). God as both <em>"avenger of wickedness"</em> and <em>"rewarder of the righteous"</em> condenses <strong>Romans 12:19</strong> ("Vengeance is mine; I will repay") with <strong>Hebrews 11:6</strong> ("he is a rewarder of them that diligently seek him," Gk <em>μισθαποδότης</em>).</p><p><strong>5. Filial fear (S14).</strong> <em>"although there were no hell, he would revolt at the very idea of offending him."</em> The biblical substructure is the <strong>fear of the LORD</strong> as the beginning of wisdom (<strong>Proverbs 1:7; 9:10; Psalm 111:10</strong>) understood not as cringing dread but as reverent love — cf. <strong>Deuteronomy 10:12</strong> ("to fear the LORD thy God … and to love him"), where fear and love are conjoined exactly as Calvin conjoins <em>reverence and love</em>. <strong>1 John 4:18</strong> ("perfect love casteth out fear," i.e., servile fear) stands behind the distinction.</p><p><strong>6. Lawful worship "prescribed by the law" (S15).</strong> Calvin's insistence that true fear "brings along … such legitimate worship as is prescribed by the law" is his <strong>regulative</strong> instinct — worship is to be governed by God's revealed will, not human invention (cf. <strong>Deuteronomy 12:32</strong>, "What thing soever I command you, observe to do it: thou shalt not add thereto"; and <strong>1 Samuel 15:22</strong>, "to obey is better than sacrifice").</p><p><strong>7. Homage without sincerity (S16–S17).</strong> The diagnosis — many do homage, few reverence; abundant ceremonies, rare sincerity — is straight from the prophets and Jesus: <strong>Isaiah 29:13</strong> ("this people draw near me with their mouth … but have removed their heart far from me"), quoted by Christ in <strong>Matthew 15:8–9</strong> ("in vain they do worship me"). "Sincerity of heart" recalls <strong>John 4:24</strong> ("worship him in spirit and in truth").</p><p><strong>Exegetical method note:</strong> Calvin does not proof-text mechanically; he <em>reasons from</em> the biblical account of God as Creator-Provider-Judge to the proper response of the creature, then <em>closes the circle</em> with prophetic critique of empty worship. The movement is creation → obligation → trust → filial fear → true worship → critique of hypocrisy — a miniature biblical theology of religion.</p><hr/><h2>PART 7 — 🔁 Translation comparison (Beveridge vs. Battles)</h2><p><strong>(a) S15 — definition of religion.</strong> Beveridge: <em>"pure and genuine religion, namely, confidence in God coupled with serious fear."</em> Battles renders the key pair more starkly as faith joined with "earnest fear." <strong>What:</strong> "confidence" vs. "faith" for <em>fiducia</em>; "serious" vs. "earnest" for the qualifier. <strong>Why:</strong> Beveridge's <em>confidence</em> foregrounds the <em>trust</em> nuance of <em>fiducia</em>; <em>faith</em> risks collapsing it into <em>fides</em>. <strong>Type:</strong> chiefly <strong>stylistic/lexical</strong>, but with a mild theological tilt (trust vs. belief).</p><p><strong>(b) S14 — the famous clause.</strong> Beveridge: <em>"although there were no hell."</em> Battles: "even if there were no hell." <strong>What/Why:</strong> near-identical; Battles' <em>even if</em> makes the <strong>concessive-counterfactual</strong> force slightly more explicit for modern readers. <strong>Type:</strong> purely <strong>stylistic</strong>.</p><p><strong>(c) S1 — <em>qualis/quid</em>.</strong> Beveridge: <em>"what kind of being God is."</em> Battles: God's nature, "what … God is like." <strong>What:</strong> both capture <em>qualis sit Deus</em> vs. <em>quid sit</em>; Beveridge's "what kind of being" is heavier but precise. <strong>Type:</strong> <strong>stylistic</strong>.</p><hr/><h2>PART 8 — ✅ Check yourself (multiple choice)</h2><p><strong>Q1 (syntax).</strong> In S8, <em>"Hence would arise both confidence in him … did not the depravity of the human mind lead it away …,"</em> the clause <em>"did not the depravity … lead"</em> is:
+A. an ordinary past-tense statement
+B. an <em>if</em>-less (inverted) counterfactual conditional = "if … did not lead"
+C. a relative clause modifying <em>depravity</em>
+D. an imperative</p><p><strong>Q2 (syntax/grammar).</strong> In S13, <em>"it is not the mere fear of punishment that restrains him from sin,"</em> the construction is:
+A. an anticipatory-<em>it</em> extraposition of an infinitive
+B. a passive of obligation
+C. an it-cleft used to focus and negate the cause
+D. a nominative absolute</p><p><strong>Q3 (vocabulary).</strong> As Calvin uses it in S1, <em>"frigid speculations"</em> most nearly means:
+A. frightening predictions
+B. cold, lifeless/profitless theorizing
+C. careful observations
+D. heretical doctrines</p><p><strong>Q4 (vocabulary).</strong> In S8, <em>"a desire of cleaving to him,"</em> the verb <em>cleave</em> here means:
+A. to split apart
+B. to chop
+C. to adhere / hold fast
+D. to divide loyalties</p><p><strong>Q5 (theology/comprehension).</strong> Calvin's clause <em>"although there were no hell, he would revolt at the very idea of offending him"</em> (S14) is meant to establish that true religious fear is:
+A. servile — motivated chiefly by dread of punishment
+B. filial — flowing from love, not from fear of hell
+C. optional for the pious mind
+D. identical to mere outward ceremony</p><hr/><h3>Answer Key</h3><p><strong>Q1 — B.</strong> <em>Did not the depravity … lead</em> is a conditional inversion replacing <em>if</em>; with <em>would arise</em> it forms a contrary-to-fact conditional.
+<strong>Q2 — C.</strong> <em>It is not X that …</em> is an it-cleft; here it focuses on and negates <em>the mere fear of punishment</em> as the restraining cause.
+<strong>Q3 — B.</strong> <em>Frigid</em> = "cold," used metaphorically of lifeless, useless speculation.
+<strong>Q4 — C.</strong> <em>Cleave (to)</em> from OE <em>clifian</em> = adhere/hold fast (distinct from the homograph meaning "to split").
+<strong>Q5 — B.</strong> The counterfactual "even if there were no hell" proves the fear is filial (love-driven), not servile; S13 has already denied that "mere fear of punishment" is what restrains him.</p><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 2, §2 끝 (Chapter 2 완료). 다음은 <strong>Book 1, Ch. 3, §1</strong> (Day 6) — "The knowledge of God naturally implanted in the human mind" (<em>sensus divinitatis</em>).</p></div>
+</section>
+  <section class="period" id="paraphrase" data-period="✒"><h2 class="period-head" onclick="togglePeriod(this)"><span class="p-num">✒</span><span class="p-title">풀어 쓴 우리말 의역 — 1권 2장 §2</span><span class="p-caret">–</span></h2><div class="period-body para-ko"><p class="para-note">직역이 아니라 본문의 뜻을 살려 우리말로 다시 쓴 글입니다. 영어 본문을 공부한 뒤 마무리로 읽어 보세요.</p><p>그러므로 하나님을 아는 지식이 무엇인가 하는 이 물음 앞에서, &quot;하나님의 본질이 무엇인가&quot;부터 캐묻자고 덤비는 사람들은 차갑고 공허한 사변으로 우리를 놀리는 것일 뿐이다. 우리에게 정말 필요한 것은 그분이 어떤 분이신지, 무엇이 그분의 본성에 합당한지를 아는 일이다.<sup class="vs-ref"><a id="pv-1" href="#vs-1" onclick="return vsJump(1)" title="관련 성구 보기">1</a></sup> 세상 돌보기를 내던지고 홀로 한가함이나 즐기는 신 — 에피쿠로스가 말하는 그런 신을 인정한들 무슨 소용인가? 한마디로, 우리와 아무 상관 없는 신을 알아서 무엇에 쓰겠는가?<sup class="vs-ref"><a id="pv-2" href="#vs-2" onclick="return vsJump(2)" title="관련 성구 보기">2</a></sup> 오히려 하나님을 아는 앎의 효과는 이것이어야 한다. 먼저 우리에게 경외와 두려움을 가르치는 것, 그리고 그 가르침의 인도를 따라 모든 좋은 것을 그분께 구하고, 받으면 그분께 돌려드리게 하는 것이다.<sup class="vs-ref"><a id="pv-3" href="#vs-3" onclick="return vsJump(3)" title="관련 성구 보기">3</a></sup></p><p>생각해 보라. 하나님이라는 생각이 마음에 들어오는 순간, 이런 생각이 곧바로 따라 일어나지 않을 수 있는가 — 나는 그분의 작품이니, 창조라는 법 자체에 의해 그분의 권위에 복종할 의무가 있다는 것. 내 생명이 그분께 빚진 것이라는 것. 내가 하는 모든 일이 그분을 향해 있어야 한다는 것.<sup class="vs-ref"><a id="pv-4" href="#vs-4" onclick="return vsJump(4)" title="관련 성구 보기">4</a></sup> 그렇다면 결론은 피할 수 없다. 그분께 순종하는 모양으로 빚어지지 않은 삶은 슬프게도 썩어 있는 삶이다. 그분의 뜻이 우리 삶의 법이어야 하기 때문이다.<sup class="vs-ref"><a id="pv-5" href="#vs-5" onclick="return vsJump(5)" title="관련 성구 보기">5</a></sup> 다른 한편, 그분이 모든 선의 기원이요 샘이심을 인정하기 전까지는 그분에 대한 생각이 아직 선명한 것이 아니다. 인간 마음의 부패가 바른길에서 우리를 끌어내지만 않는다면, 바로 그 앎에서 그분을 향한 신뢰와, 그분께 꼭 붙어 있고 싶은 소원이 자라날 것이다.<sup class="vs-ref"><a id="pv-6" href="#vs-6" onclick="return vsJump(6)" title="관련 성구 보기">6</a></sup></p><p>경건한 마음이 실제로 어떠한지 보라. 경건한 마음은 자기 취향대로 신을 지어내지 않는다. 오직 한 분 참 하나님만 바라보며, 그분께 제멋대로 성격을 입히지 않고, 스스로 나타내 보이신 그 모습 그대로의 그분으로 만족한다. 그리고 그분의 뜻을 넘어서거나 무엄한 억측으로 길을 벗어나지 않으려고 온 힘을 다해 자신을 지킨다.<sup class="vs-ref"><a id="pv-7" href="#vs-7" onclick="return vsJump(7)" title="관련 성구 보기">7</a></sup> 이렇게 하나님을 아는 사람은, 그분이 만물을 다스리심을 보기에 그분을 자기의 보호자와 지키시는 이로 신뢰하여 그 신실하심에 자신을 통째로 맡긴다.<sup class="vs-ref"><a id="pv-8" href="#vs-8" onclick="return vsJump(8)" title="관련 성구 보기">8</a></sup> 그분이 모든 복의 근원이심을 보기에, 어려움에 처하거나 부족을 느낄 때마다 지체 없이 그분의 보호로 달려가 그 도우심을 의지한다.<sup class="vs-ref"><a id="pv-9" href="#vs-9" onclick="return vsJump(9)" title="관련 성구 보기">9</a></sup> 그분이 선하시고 자비하심을 확신하기에, 흔들리지 않는 신뢰로 그분께 기대며, 어떤 곤경의 때에도 하나님의 인자하심 안에 처방이 준비되어 있음을 의심하지 않는다.<sup class="vs-ref"><a id="pv-10" href="#vs-10" onclick="return vsJump(10)" title="관련 성구 보기">10</a></sup> 그분을 아버지와 주님으로 인정하기에, 모든 일에서 그 권위를 존중하고 그 위엄을 경외하며 그 영광을 높이는 것을 목표 삼고 그 계명에 순종할 의무를 스스로 진다.<sup class="vs-ref"><a id="pv-11" href="#vs-11" onclick="return vsJump(11)" title="관련 성구 보기">11</a></sup> 그리고 그분이 악을 벌하시는 준엄한 무장을 갖추신 공의로운 재판장이심을 알기에, 그 심판석을 언제나 눈앞에 두고 살아간다. 그 앞에서 떨며 자신을 제어하고, 그분의 진노를 자극하기를 두려워한다.<sup class="vs-ref"><a id="pv-12" href="#vs-12" onclick="return vsJump(12)" title="관련 성구 보기">12</a></sup></p><p>그렇지만 그는 심판이 무서워서, 도망갈 길만 있다면 달아나고 싶어 할 만큼 겁에 질려 있는 것이 아니다. 오히려 그는 의인에게 상 주시는 분 못지않게 악을 갚으시는 분으로서의 하나님도 똑같이 껴안는다. 한쪽에게 형벌을, 다른 쪽에게 영원한 생명을 쌓아 두시는 것이 똑같이 그분의 영광에 속한다는 것을 알기 때문이다.<sup class="vs-ref"><a id="pv-13" href="#vs-13" onclick="return vsJump(13)" title="관련 성구 보기">13</a></sup> 게다가 그를 죄에서 붙들어 매는 것은 단순한 형벌의 공포가 아니다. 하나님을 아버지로 사랑하고 경외하며 주인으로 공경하고 순종하기에, 설령 지옥이 없다 할지라도 그분을 근심시켜 드린다는 생각만으로도 그는 몸서리를 치는 것이다.<sup class="vs-ref"><a id="pv-14" href="#vs-14" onclick="return vsJump(14)" title="관련 성구 보기">14</a></sup></p><p>이것이 순수하고 참된 종교(기독교)다. 곧 하나님을 향한 신뢰와 진지한 두려움의 결합 — 그 두려움은 안에 자원하는 경외를 품고 있으며, 율법이 정해 준 합당한 예배를 함께 데리고 온다.<sup class="vs-ref"><a id="pv-15" href="#vs-15" onclick="return vsJump(15)" title="관련 성구 보기">15</a></sup> 그리고 이것을 더 깊이 새겨야 한다. 사람들은 너나없이 하나님께 절을 하지만, 그분을 참으로 경외하는 사람은 지극히 드물다. 어디를 보나 요란한 예식은 넘쳐나는데, 마음의 진실함은 드물다.<sup class="vs-ref"><a id="pv-16" href="#vs-16" onclick="return vsJump(16)" title="관련 성구 보기">16</a></sup></p></div></section><section class="period" id="paraphrase-verses" data-period="📖"><h2 class="period-head" onclick="togglePeriod(this)"><span class="p-num">📖</span><span class="p-title">성구로 다시 읽기 — 1권 2장 §2</span><span class="p-caret">–</span></h2><div class="period-body vs-ko"><p class="para-note">위 의역의 문장 흐름을 따라, 각 대목과 맞닿은 성경 구절을 모았습니다. 의역 문장 끝의 <sup class="vs-ref"><a href="#vs-1" onclick="return vsJump(1)">번호</a></sup>를 누르면 해당 성구로 이동합니다.</p><h3 class="vs-label" id="vs-1"><a class="vs-back" href="#pv-1" onclick="return pvJump(1)">↩ 의역 본문</a>1. 하나님의 &quot;본질&quot;이 아니라 그분이 &quot;어떤 분&quot;이신지를 알아야 한다</h3><p class="vs-item"><b>출애굽기 34:6</b> — “여호와께서 그의 앞으로 지나시며 선포하시되 여호와라 여호와라 자비롭고 은혜롭고 노하기를 더디하고 인자와 진실이 많은 하나님이라”</p><p class="vs-item"><b>신명기 29:29</b> — “감추어진 일은 우리 하나님 여호와께 속하였거니와 나타난 일은 영원히 우리와 우리 자손에게 속하였나니”</p><h3 class="vs-label" id="vs-2"><a class="vs-back" href="#pv-2" onclick="return pvJump(2)">↩ 의역 본문</a>2. 세상을 내버려 둔 신 — 우리와 상관없는 신을 알아 무엇하랴</h3><p class="vs-item"><b>스바냐 1:12</b> — “여호와가 복도 내리지 아니하시며 화도 내리지 아니하시리라 하는 자를 내가 벌하리니”</p><p class="vs-item"><b>시편 94:7</b> — “그들이 말하기를 여호와가 보지 못하며 야곱의 하나님이 알아차리지 못하리라 하나이다”</p><h3 class="vs-label" id="vs-3"><a class="vs-back" href="#pv-3" onclick="return pvJump(3)">↩ 의역 본문</a>3. 앎의 효과 — 경외를 배우고, 구하며, 받으면 그분께 돌린다</h3><p class="vs-item"><b>전도서 12:13</b> — “하나님을 경외하고 그의 명령들을 지킬지어다 이것이 모든 사람의 본분이니라”</p><p class="vs-item"><b>시편 50:15</b> — “환난 날에 나를 부르라 내가 너를 건지리니 네가 나를 영화롭게 하리로다”</p><h3 class="vs-label" id="vs-4"><a class="vs-back" href="#pv-4" onclick="return pvJump(4)">↩ 의역 본문</a>4. 너는 그분의 작품 — 창조의 법이 복종을 요구한다</h3><p class="vs-item"><b>시편 100:3</b> — “여호와가 우리 하나님이신 줄 너희는 알지어다 그는 우리를 지으신 이요 우리는 그의 것이니 그의 백성이요 그의 기르시는 양이로다”</p><p class="vs-item"><b>고린도전서 10:31</b> — “그런즉 너희가 먹든지 마시든지 무엇을 하든지 다 하나님의 영광을 위하여 하라”</p><h3 class="vs-label" id="vs-5"><a class="vs-back" href="#pv-5" onclick="return pvJump(5)">↩ 의역 본문</a>5. 그분의 뜻이 삶의 법 — 순종 없는 삶은 부패한 삶이다</h3><p class="vs-item"><b>미가 6:8</b> — “사람아 주께서 선한 것이 무엇임을 네게 보이셨나니 여호와께서 네게 구하시는 것은 오직 정의를 행하며 인자를 사랑하며 겸손하게 네 하나님과 함께 행하는 것이 아니냐”</p><p class="vs-item"><b>사무엘상 15:22</b> — “순종이 제사보다 낫고 듣는 것이 숫양의 기름보다 나으니”</p><h3 class="vs-label" id="vs-6"><a class="vs-back" href="#pv-6" onclick="return pvJump(6)">↩ 의역 본문</a>6. 모든 선의 근원이심을 알 때 신뢰와 밀착의 소원이 자란다</h3><p class="vs-item"><b>시편 63:8</b> — “나의 영혼이 주를 가까이 따르니 주의 오른손이 나를 붙드시거니와”</p><p class="vs-item"><b>신명기 10:20</b> — “네 하나님 여호와를 경외하여 그를 섬기며 그에게 의지하고 그의 이름으로 맹세하라”</p><h3 class="vs-label" id="vs-7"><a class="vs-back" href="#pv-7" onclick="return pvJump(7)">↩ 의역 본문</a>7. 경건한 마음은 신을 지어내지 않는다 — 나타내신 그대로의 하나님만</h3><p class="vs-item"><b>출애굽기 20:4</b> — “너를 위하여 새긴 우상을 만들지 말고 또 위로 하늘에 있는 것이나 아래로 땅에 있는 것이나 땅 아래 물 속에 있는 것의 어떤 형상도 만들지 말며”</p><p class="vs-item"><b>신명기 4:15-16</b> — “여호와께서 호렙 산 불길 중에서 너희에게 말씀하시던 날에 너희가 어떤 형상도 보지 못하였은즉 너희는 깊이 삼가라 … 자기를 위하여 어떤 형상대로든지 우상을 새겨 만들지 말라”</p><h3 class="vs-label" id="vs-8"><a class="vs-back" href="#pv-8" onclick="return pvJump(8)">↩ 의역 본문</a>8. 다스리심을 보기에 — 보호자로 신뢰하고 자신을 던진다</h3><p class="vs-item"><b>시편 91:2</b> — “나는 여호와를 향하여 말하기를 그는 나의 피난처요 나의 요새요 내가 의뢰하는 하나님이라 하리니”</p><p class="vs-item"><b>베드로전서 5:7</b> — “너희 염려를 다 주께 맡기라 이는 그가 너희를 돌보심이라”</p><h3 class="vs-label" id="vs-9"><a class="vs-back" href="#pv-9" onclick="return pvJump(9)">↩ 의역 본문</a>9. 복의 근원이시기에 — 곤경마다 즉시 달려간다</h3><p class="vs-item"><b>시편 46:1</b> — “하나님은 우리의 피난처시요 힘이시니 환난 중에 만날 큰 도움이시라”</p><p class="vs-item"><b>히브리서 4:16</b> — “그러므로 우리는 긍휼하심을 받고 때를 따라 돕는 은혜를 얻기 위하여 은혜의 보좌 앞에 담대히 나아갈 것이니라”</p><h3 class="vs-label" id="vs-10"><a class="vs-back" href="#pv-10" onclick="return pvJump(10)">↩ 의역 본문</a>10. 선하고 자비하심을 확신하기에 — 의심 없이 기댄다</h3><p class="vs-item"><b>시편 23:1</b> — “여호와는 나의 목자시니 내게 부족함이 없으리로다”</p><p class="vs-item"><b>빌립보서 4:19</b> — “나의 하나님이 그리스도 예수 안에서 영광 가운데 그 풍성한 대로 너희 모든 쓸 것을 채우시리라”</p><h3 class="vs-label" id="vs-11"><a class="vs-back" href="#pv-11" onclick="return pvJump(11)">↩ 의역 본문</a>11. 아버지요 주님으로 인정하기에 — 존중&#183;경외&#183;영광&#183;순종</h3><p class="vs-item"><b>말라기 1:6</b> — “아들은 그 아버지를, 종은 그 주인을 공경하나니 내가 아버지일진대 나를 공경함이 어디 있느냐 내가 주인일진대 나를 두려워함이 어디 있느냐”</p><h3 class="vs-label" id="vs-12"><a class="vs-back" href="#pv-12" onclick="return pvJump(12)">↩ 의역 본문</a>12. 공의로운 재판장이시기에 — 심판석을 늘 눈앞에 둔다</h3><p class="vs-item"><b>고린도후서 5:10</b> — “이는 우리가 다 반드시 그리스도의 심판대 앞에 나타나게 되어 각각 선악간에 그 몸으로 행한 것을 따라 받으려 함이라”</p><p class="vs-item"><b>전도서 12:14</b> — “하나님은 모든 행위와 모든 은밀한 일을 선악 간에 심판하시리라”</p><h3 class="vs-label" id="vs-13"><a class="vs-back" href="#pv-13" onclick="return pvJump(13)">↩ 의역 본문</a>13. 도망치고 싶은 공포가 아니다 — 벌하시는 분이자 상 주시는 분으로 껴안는다</h3><p class="vs-item"><b>시편 130:4</b> — “그러나 사유하심이 주께 있음은 주를 경외하게 하심이니이다”</p><p class="vs-item"><b>히브리서 11:6</b> — “하나님께 나아가는 자는 반드시 그가 계신 것과 또한 그가 자기를 찾는 자들에게 상 주시는 이심을 믿어야 할지니라”</p><h3 class="vs-label" id="vs-14"><a class="vs-back" href="#pv-14" onclick="return pvJump(14)">↩ 의역 본문</a>14. 형벌이 무서워서가 아니라 — 지옥이 없어도 근심시키기를 몸서리친다</h3><p class="vs-item"><b>요한일서 4:18</b> — “사랑 안에 두려움이 없고 온전한 사랑이 두려움을 내쫓나니 두려움에는 형벌이 있음이라”</p><p class="vs-item"><b>창세기 39:9</b> — “내가 어찌 이 큰 악을 행하여 하나님께 죄를 지으리이까”</p><h3 class="vs-label" id="vs-15"><a class="vs-back" href="#pv-15" onclick="return pvJump(15)">↩ 의역 본문</a>15. 참 종교(기독교) = 신뢰 + 자원하는 경외를 품은 진지한 두려움</h3><p class="vs-item"><b>시편 2:11</b> — “여호와를 경외함으로 섬기고 떨며 즐거워할지어다”</p><p class="vs-item"><b>히브리서 12:28</b> — “우리가 진동하지 못할 나라를 받았은즉 은혜를 받자 이로 말미암아 경건함과 두려움으로 하나님을 기쁘시게 섬길지니”</p><h3 class="vs-label" id="vs-16"><a class="vs-back" href="#pv-16" onclick="return pvJump(16)">↩ 의역 본문</a>16. 모두가 절은 하지만 참으로 경외하는 이는 드물다</h3><p class="vs-item"><b>이사야 29:13</b> — “이 백성이 입으로는 나를 가까이 하며 입술로는 나를 공경하나 그들의 마음은 내게서 멀리 떠났나니 그들이 나를 경외함은 사람의 계명으로 가르침을 받았을 뿐이라”</p><p class="vs-item"><b>요한복음 4:23</b> — “아버지께 참되게 예배하는 자들은 영과 진리로 예배할 때가 오나니 곧 이 때라 아버지께서는 자기에게 이렇게 예배하는 자들을 찾으시느니라”</p></div></section><script>function vsJump(n){var s=document.getElementById("paraphrase-verses");if(s)s.classList.remove("collapsed");var t=document.getElementById("vs-"+n);if(t){t.scrollIntoView({behavior:"smooth",block:"center"});if(window.flash)flash(t);}return false;}function pvJump(n){var s=document.getElementById("paraphrase");if(s)s.classList.remove("collapsed");var t=document.getElementById("pv-"+n);if(t){t.scrollIntoView({behavior:"smooth",block:"center"});if(window.flash)flash(t.closest("p"));}return false;}</script>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>

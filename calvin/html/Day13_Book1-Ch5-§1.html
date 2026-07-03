@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 창조 세계에 나타난 하나님의 영광 §1 (1권 5장 · Day 13) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 5장 §1(창조 세계에 나타난 하나님의 영광)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 13. 연관 성구: 로마서 1, 시편 19, 시편 104, 히브리서 11."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day13_Book1-Ch5-%C2%A71.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="창조 세계에 나타난 하나님의 영광 §1 — 기독교 강요 영어로 읽기 (Day 13)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 5장 §1(창조 세계에 나타난 하나님의 영광)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 13. 연관 성구: 로마서 1, 시편 19, 시편 104, 히브리서 11."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day13_Book1-Ch5-%C2%A71.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 창조 세계에 나타난 하나님의 영광 §1 (1권 5장 · Day 13) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 5장 §1(창조 세계에 나타난 하나님의 영광)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 13. 연관 성구: 로마서 1, 시편 19, 시편 104, 히브리서 11.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 5장 §1 — 창조 세계에 나타난 하나님의 영광","mentions":[{"@type":"CreativeWork","name":"로마서 1 (Romans 1)"},{"@type":"CreativeWork","name":"시편 19 (Psalm 19)"},{"@type":"CreativeWork","name":"시편 104 (Psalm 104)"},{"@type":"CreativeWork","name":"히브리서 11 (Hebrews 11)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day13_Book1-Ch5-%C2%A71.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 13 — Institutes I.5.§1 [직강]<small>Calvin English Live Lecture · Book 1, Chapter 5, Section 1</small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">Orientation — one minute</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">Full Text (Beveridge, 9 sentences — about 3 minutes)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">Sentence-by-Sentence Live Teaching (watch the stars)</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl2" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl2" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl1" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl3" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl2" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl2" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl3" href="#S9" onclick="closeNavMobile()">S9</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">Today&#x27;s Grammar Formulas (시험 직전 이것만)</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">Vocabulary (어원 후킹 테이블)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref">Book 1, Chapter 5, Section 1</span>
+      <h1>Day 13 — Institutes I.5.§1 [직강]</h1>
+      <div class="sub">Calvin English Live Lecture · Book 1, Chapter 5, Section 1</div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">Orientation — one minute</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>New chapter, new front. For four chapters Calvin argued <strong>from the inside</strong> — the <em>seed of religion</em>, the <em>sensus divinitatis</em> stamped on the conscience. Chapter 5 turns the camera <strong>outward</strong>: God has not only planted a seed in us, he has <strong>plastered the whole universe</strong> with his glory. The argument shifts from conscience to cosmos. And the logic is forensic, not devotional: the point of this display is the same as the seed's — to leave humanity <strong>without excuse</strong> (it ends, as you'll see in nine sentences, on Romans 1:20). Watch how Calvin stacks his witnesses: Psalm 104, Psalm 19, Hebrews 11, Romans 1. He is building a courtroom file.</p><p>Grammatically, today is <strong>emphasis-by-negation day</strong> plus the return of an old friend. Calvin keeps proving "you <em>must</em> see God" by saying "you <em>cannot not</em> see him." Three engines to track: the double-negative-for-emphasis, the <em>so … that</em> result clause armed with concessive <em>however</em>, and the nominative absolute (back from Day 12, now doing reasons again).</p><p><strong>Today's 3 Big Points — mark them now:</strong></p><ol>
+<li><strong>Double negative = emphatic positive ("cannot … without"; "no X … that does not Y")</strong>: "<em>we </em><em>cannot</em><em> open our eyes </em><em>without</em><em> being compelled to behold him</em>" = whenever we open our eyes, we are forced to see him. And S6: "<em>there is </em><em>no</em><em> portion of the world … that </em><em>does not</em><em> exhibit … beauty</em>" = every portion exhibits beauty. Two negatives → a universal.</li>
+<li><strong>"so + adj … that …" result clause + concessive "however + adj" (= no matter how)</strong>: "<em>his glory is engraven in characters </em><em>so</em><em> bright … </em><em>that</em><em> none, </em><em>however</em><em> dull and illiterate, </em><em>can plead</em><em> ignorance</em>" = so vivid that no one, no matter how stupid, has any excuse. <em>However</em> + adjective = "no matter how" + adjective.</li>
+<li><strong>Nominative absolute supplying a reason (NOUN + V-ing, no conjunction, no finite verb)</strong>: "<em>… as a kind of mirror …, the elegant structure of the world </em><em>serving</em><em> us</em>"; "<em>… a language which all nations understand, the manifestation of the Godhead </em><em>being</em><em> too clear to escape …</em>" Restore each with <em>since/because</em> + a finite verb.</li>
+</ol><p>Three engines. Lock them in. Now read.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">Full Text (Beveridge, 9 sentences — about 3 minutes)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+<span class="ft-sent" data-s="S1" id="ft-S1" onclick="jumpToCard('S1')">Since the perfection of blessedness consists in the knowledge of God, he has been pleased, in order that none might be excluded from the means of obtaining felicity, not only to deposit in our minds that seed of religion of which we have already spoken, but so to manifest his perfections in the whole structure of the universe, and daily place himself in our view, that we cannot open our eyes without being compelled to behold him.</span> <span class="ft-sent" data-s="S2" id="ft-S2" onclick="jumpToCard('S2')">His essence, indeed, is incomprehensible, utterly transcending all human thought; but on each of his works his glory is engraven in characters so bright, so distinct, and so illustrious, that none, however dull and illiterate, can plead ignorance as their excuse.</span> <span class="ft-sent" data-s="S3" id="ft-S3" onclick="jumpToCard('S3')">Hence, with perfect truth, the Psalmist exclaims, “He covereth himself with light as with a garment,” (Psalm 104:2); as if he had said, that God for the first time was arrayed in visible attire when, in the creation of the world, he displayed those glorious banners, on which, to whatever side we turn, we behold his perfections visibly portrayed.</span> <span class="ft-sent" data-s="S4" id="ft-S4" onclick="jumpToCard('S4')">In the same place, the Psalmist aptly compares the expanded heavens to his royal tent, and says, “He layeth the beams of his chambers in the waters, maketh the clouds his chariot, and walketh upon the wings of the wind,” sending forth the winds and lightnings as his swift messengers.</span> <span class="ft-sent" data-s="S5" id="ft-S5" onclick="jumpToCard('S5')">And because the glory of his power and wisdom is more refulgent in the firmament, it is frequently designated as his palace.</span> <span class="ft-sent" data-s="S6" id="ft-S6" onclick="jumpToCard('S6')">And, first, wherever you turn your eyes, there is no portion of the world, however minute, that does not exhibit at least some sparks of beauty; while it is impossible to contemplate the vast and beautiful fabric as it extends around, without being overwhelmed by the immense weight of glory.</span> <span class="ft-sent" data-s="S7" id="ft-S7" onclick="jumpToCard('S7')">Hence, the author of the Epistle to the Hebrews elegantly describes the visible worlds as images of the invisible (Heb. 11:3), the elegant structure of the world serving us as a kind of mirror, in which we may behold God, though otherwise invisible.</span> <span class="ft-sent" data-s="S8" id="ft-S8" onclick="jumpToCard('S8')">For the same reason, the Psalmist attributes language to celestial objects, a language which all nations understand (Psalm 19:1), the manifestation of the Godhead being too clear to escape the notice of any people, however obtuse.</span> <span class="ft-sent" data-s="S9" id="ft-S9" onclick="jumpToCard('S9')">The apostle Paul, stating this still more clearly, says, “That which may be known of God is manifest in them, for God has showed it unto them. For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead,” (Rom. 1:20).</span>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Nine sentences. Thesis → the medium (engraved works) → four scriptural witnesses → the verdict (no excuse):</p><pre><code>[THESIS]    blessedness = knowing God; so he reveals himself outwardly  (S1)
+[MEDIUM]    his essence hidden, BUT his glory engraved on every work    (S2)
+[WITNESS-1] Ps 104:2 — God clothed in light, creation his royal banners (S3-S5)
+[SCOPE]     even the tiniest speck shows beauty; the whole = crushing   (S6)
+[WITNESS-2] Heb 11:3 — visible worlds = mirror of the invisible         (S7)
+[WITNESS-3] Ps 19:1 — the heavens speak a language all nations grasp    (S8)
+[VERDICT]   Rom 1:20 — invisible things clearly seen → no excuse        (S9)
+</code></pre><p><strong>Examiner's Eye:</strong> the trap field is the relation between <strong>S2's two halves</strong>. Calvin says God's <em>essence</em> is <em>incomprehensible</em> — and yet his <em>glory</em> is <em>engraven … so bright … that none … can plead ignorance.</em> Both are true at once: God-in-himself is hidden; God-in-his-works is unmistakable. An option that makes Calvin say "the creation gives us comprehension of God's essence" overshoots — the creation reveals his <em>perfections</em> (power, wisdom, goodness), not his <em>essence</em>. Second snare: the double negatives. <em>We cannot open our eyes without being compelled to behold him</em> (S1) and <em>no portion … that does not exhibit … beauty</em> (S6) are <strong>emphatic universals</strong> — every glance, every speck — not statements of limitation.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">Sentence-by-Sentence Live Teaching (watch the stars)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Star scale: ★★★ exam-critical, conquer it. ★★ know the structure. ★ one point and move.</p><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the thesis — "not only … but so … that" + the double-negative climax</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>Since the perfection of blessedness consists in the knowledge of God, he has been pleased, in order that none might be excluded from the means of obtaining felicity, not only to deposit in our minds that seed of religion of which we have already spoken, but so to manifest his perfections in the whole structure of the universe, and daily place himself in our view, that we cannot open our eyes without being compelled to behold him.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">이유/시간절 (since)</span><span class="leaf"><b>Since</b> the perfection of blessedness <b>consists in</b> the knowledge of God</span></li></ul></li><li><span class="leaf">he <b>has been pleased</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in order that</b> none might be excluded</span></li><li><span class="leaf">from the means of obtaining felicity</span></li></ul></li><li><span class="leaf"><b>not only</b> to deposit in our minds</span></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that seed of religion</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of which we have already spoken</span></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b> so to manifest his perfections</span></li><li><span class="leaf">in the whole structure of the universe</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and daily place himself in our view</span></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">we <b>cannot</b> open our eyes</span></li><li><span class="leaf"><b>without</b> being compelled to behold him</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>felicity</em> &lt; Latin <em>felix</em> (happy) → happiness, blessedness; <em>manifest</em> &lt; <em>manus</em> (hand) + <em>-festus</em> (struck/seized) → laid out where the hand can grasp it, made plain; <em>deposit</em> &lt; <em>de-</em> (down) + <em>ponere</em> (to place) → to lay down/store.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>consist in</em> = have its essence in (NOT <em>consist of</em> = be made up of); <em>it has pleased him / he has been pleased to</em> = he has chosen, been graciously willing to; <em>not only … but (also)</em> = correlative pair joining two gifts.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Since real happiness consists in knowing God, and so that no one would be cut off from the way to it, God chose not only to plant in our minds that seed of religion we already talked about, but also to display his perfections so fully across the whole universe that we can't open our eyes without being forced to see him.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the perfection of blessedness consists in the knowledge of God</b> → real happiness consists in knowing God</li><li><b>he has been pleased</b> → God chose</li><li><b>that none might be excluded from the means of obtaining felicity</b> → so that no one would be cut off from the way to happiness</li><li><b>so to manifest his perfections in the whole structure of the universe</b> → to display his perfections so fully across the whole universe</li><li><b>we cannot open our eyes without being compelled to behold him</b> → we can't open our eyes without being forced to see him</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Today's Point 2 — hidden essence vs. engraved glory: "so … that … however …"</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>His essence, indeed, is incomprehensible, utterly transcending all human thought; but on each of his works his glory is engraven in characters so bright, so distinct, and so illustrious, that none, however dull and illiterate, can plead ignorance as their excuse.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">His essence</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">indeed</span></li></ul></li><li><span class="leaf"><b>is incomprehensible</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">utterly <b>transcending</b> all human thought</span></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">on each of his works</span></li></ul></li><li><span class="leaf">his glory <b>is engraven</b></span></li><li><span class="leaf">in characters</span></li><li><span class="lab ph">결과절 (so…that)</span><span class="leaf"><b>so</b> bright, <b>so</b> distinct, and <b>so</b> illustrious</span></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">none</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>however</b> dull and illiterate</span></li></ul></li><li><span class="leaf"><b>can plead</b> ignorance</span></li><li><span class="leaf">as their excuse</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>incomprehensible</em> &lt; <em>in-</em> (not) + <em>comprehendere</em> (to grasp fully) → ungraspable; <em>illustrious</em> &lt; <em>il-/in-</em> + <em>lustrare</em> (to light up) → shining, luminous (here literal: radiant); <em>character</em> &lt; Greek <em>charaktēr</em> (an engraved/stamped mark) → here a carved letter, not "personality."</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>plead ignorance as an excuse</em> = offer "I didn't know" as a defense; <em>however dull and illiterate</em> = no matter how slow and unlettered; <em>engraven in characters</em> = inscribed in letters.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">God's own essence is beyond comprehension, far above anything the human mind can reach; but on every one of his works his glory is engraved in letters so bright, so clear, and so vivid that no one — no matter how slow or uneducated — can plead ignorance as an excuse.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>His essence … is incomprehensible</b> → God's own essence is beyond comprehension</li><li><b>utterly transcending all human thought</b> → far above anything the human mind can reach</li><li><b>engraven in characters so bright, so distinct, and so illustrious</b> → engraved in letters so bright, so clear, and so vivid</li><li><b>none, however dull and illiterate</b> → no one, no matter how slow or uneducated</li><li><b>can plead ignorance as their excuse</b> → can plead ignorance as an excuse</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the first witness — Ps 104:2 + "as if he had said" + subjunctive</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>Hence, with perfect truth, the Psalmist exclaims, “He covereth himself with light as with a garment,” (Psalm 104:2); as if he had said, that God for the first time was arrayed in visible attire when, in the creation of the world, he displayed those glorious banners, on which, to whatever side we turn, we behold his perfections visibly portrayed.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Hence</span></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">with perfect truth</span></li></ul></li><li><span class="leaf">the Psalmist <b>exclaims</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">“He covereth himself with light</span></li><li><span class="leaf">as with a garment,”</span></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Psalm 104:2</span></li></ul></li><li><span class="leaf"><b>as if</b> he had said</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that God</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">for the first time</span></li></ul></li><li><span class="leaf"><b>was arrayed</b> in visible attire</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf">when</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in the creation of the world</span></li></ul></li></ul></li><li><span class="leaf">he <b>displayed</b> those glorious banners</span></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>on which</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to whatever side we turn</span></li></ul></li></ul></li><li><span class="leaf">we <b>behold</b> his perfections visibly portrayed</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>array</em> &lt; Anglo-Norman <em>arayer</em> (to put in order, dress) → to clothe; <em>attire</em> &lt; Old French <em>atirier</em> (to equip/dress) → clothing; <em>banner</em> &lt; Late Latin <em>bandum</em> (a standard, flag) → a royal/military ensign.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>with perfect truth</em> = entirely rightly, with complete justification; <em>as if he had said</em> = as though he meant to say; <em>to whatever side we turn</em> = no matter which way we look.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And so the Psalmist rightly cries out, "He covers himself with light as with a garment" (Psalm 104:2) — as though he meant that God first put on visible clothing when, in creating the world, he unfurled those glorious banners, on which, whichever way we turn, we see his perfections clearly displayed.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>with perfect truth</b> → rightly</li><li><b>as if he had said</b> → as though he meant</li><li><b>God … was arrayed in visible attire</b> → God first put on visible clothing</li><li><b>he displayed those glorious banners</b> → he unfurled those glorious banners</li><li><b>to whatever side we turn, we behold his perfections visibly portrayed</b> → whichever way we turn, we see his perfections clearly displayed</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the Psalm extended — "compares … to" + the chariot imagery</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>In the same place, the Psalmist aptly compares the expanded heavens to his royal tent, and says, “He layeth the beams of his chambers in the waters, maketh the clouds his chariot, and walketh upon the wings of the wind,” sending forth the winds and lightnings as his swift messengers.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">In the same place</span></li></ul></li><li><span class="leaf">the Psalmist <b>aptly compares</b> the expanded heavens</span></li><li><span class="leaf"><b>to</b> his royal tent</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and <b>says</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">“He layeth the beams of his chambers in the waters</span></li><li><span class="leaf">maketh the clouds his chariot</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and walketh upon the wings of the wind,”</span></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>sending forth</b> the winds and lightnings</span></li><li><span class="leaf">as his swift messengers</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>expanded</em> &lt; <em>ex-</em> (out) + <em>pandere</em> (to spread) → spread out, stretched; <em>refulgent</em> (coming in S5) and <em>firmament</em> belong to this same celestial vocabulary; <em>chariot</em> &lt; Latin <em>carrus</em> (wheeled cart) via Old French.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in the same place</em> = in the same passage; <em>compare X to Y</em> = liken X to Y (not "compare with" = measure against); <em>swift messengers</em> = fast-moving couriers.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">In the same passage the Psalmist fittingly likens the outstretched heavens to God's royal tent, and says, "He lays the beams of his rooms in the waters, makes the clouds his chariot, and walks on the wings of the wind" — sending out the winds and lightning as his swift messengers.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>In the same place</b> → In the same passage</li><li><b>aptly compares the expanded heavens to his royal tent</b> → fittingly likens the outstretched heavens to God's royal tent</li><li><b>layeth … maketh … walketh</b> → lays … makes … walks</li><li><b>sending forth the winds and lightnings as his swift messengers</b> → sending out the winds and lightning as his swift messengers</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s1" title="1-star">★</span><span class="s-label">the firmament as palace — "because … it is designated"</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>And because the glory of his power and wisdom is more refulgent in the firmament, it is frequently designated as his palace.</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><strong>refulgent</strong> — re+fulgere(flash) → flashing back light (눈부신)</li><li><strong>firmament</strong> — the "firm" arch overhead — designated as his palace (창공)</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><strong>Designated as</strong> = called, named</li></ul></div></div><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p>One point, then move: a simple <em>because</em>-clause of reason feeding a passive main clause — <em>because [the glory … is more refulgent in the firmament], it is frequently designated as his palace.</em> <em>Refulgent</em> (&lt; <em>re-</em> + <em>fulgere</em>, to flash/shine → blazing brightly) and <em>firmament</em> (the vault of the sky) keep the celestial register. <em>Designated as</em> = called, named. The sky, where God's power and wisdom shine most dazzlingly, gets the title "his palace." A bridge sentence — note the royal-architecture metaphor (tent → palace) carrying over from S4. One point, made; move.</p></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Today's Point 1 — "no … that does not" + "impossible … without"</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>And, first, wherever you turn your eyes, there is no portion of the world, however minute, that does not exhibit at least some sparks of beauty; while it is impossible to contemplate the vast and beautiful fabric as it extends around, without being overwhelmed by the immense weight of glory.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">And, first</span></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>wherever</b> you turn your eyes</span></li></ul></li><li><span class="leaf"><b>there is no</b> portion of the world</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>however</b> minute</span></li></ul></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that does not</b> exhibit</span><ul class="tr"><li><span class="leaf">at least some sparks of beauty</span></li><li><span class="lab ph">부사절 (while)</span><span class="leaf"><b>while</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">it <b>is impossible</b> to contemplate the vast and beautiful fabric</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as it extends around</span></li></ul></li><li><span class="leaf"><b>without</b> being overwhelmed</span></li><li><span class="leaf">by the immense weight of glory</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>minute</em> (adj.) &lt; Latin <em>minutus</em> (made small) → tiny; <em>fabric</em> &lt; <em>fabrica</em> (a constructed work, workshop) → built structure (not "cloth"); <em>contemplate</em> &lt; <em>con-</em> + <em>templum</em> (a space marked out for observation) → to gaze at attentively.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>wherever you turn your eyes</em> = in every direction you look; <em>there is no X … that does not Y</em> = every X does Y; <em>it is impossible to … without …</em> = one cannot … without necessarily …; <em>sparks of beauty</em> = small flashes of beauty.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And first of all, wherever you look, there is no part of the world, however tiny, that doesn't show at least some sparks of beauty; while it's impossible to take in the vast, beautiful structure stretching all around you without being overwhelmed by the sheer weight of its glory.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>wherever you turn your eyes</b> → wherever you look</li><li><b>there is no portion of the world, however minute, that does not exhibit</b> → there is no part of the world, however tiny, that doesn't show</li><li><b>the vast and beautiful fabric as it extends around</b> → the vast, beautiful structure stretching all around you</li><li><b>without being overwhelmed by the immense weight of glory</b> → without being overwhelmed by the sheer weight of its glory</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Today's Point 3 — the mirror + nominative absolute "the structure … serving"</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>Hence, the author of the Epistle to the Hebrews elegantly describes the visible worlds as images of the invisible (Heb. 11:3), the elegant structure of the world serving us as a kind of mirror, in which we may behold God, though otherwise invisible.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Hence</span></li></ul></li><li><span class="leaf">the author of the Epistle to the Hebrews</span></li><li><span class="leaf"><b>elegantly describes</b> the visible worlds</span></li><li><span class="leaf"><b>as</b> images of the invisible</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Heb. 11:3</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the elegant structure of the world</span></li><li><span class="leaf"><b>serving</b> us</span></li><li><span class="leaf">as a kind of mirror</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in which</b> we may behold God</span></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf"><b>though</b> otherwise invisible</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>elegant</em> &lt; Latin <em>elegans</em> (tasteful, refined, choosing well) → here "finely wrought"; <em>invisible</em> &lt; <em>in-</em> (not) + <em>videre</em> (to see); <em>mirror</em> &lt; Old French <em>mirour</em> &lt; Latin <em>mirari</em> (to wonder at) → the wondering-glass.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>describe X as Y</em> = portray X as Y; <em>a kind of mirror</em> = a sort of mirror; <em>though otherwise invisible</em> = even though invisible in every other way.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And so the author of Hebrews elegantly describes the visible worlds as images of the invisible (Heb. 11:3), since the beautifully ordered structure of the world serves us as a kind of mirror in which we can see God, who is otherwise invisible.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the author of the Epistle to the Hebrews</b> → the author of Hebrews</li><li><b>describes the visible worlds as images of the invisible</b> → describes the visible worlds as images of the invisible (kept)</li><li><b>the elegant structure of the world serving us as a kind of mirror</b> → since the beautifully ordered structure of the world serves us as a kind of mirror</li><li><b>in which we may behold God, though otherwise invisible</b> → in which we can see God, who is otherwise invisible</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Today's Point 3 again — Ps 19:1 + nominative absolute "the manifestation … being"</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>For the same reason, the Psalmist attributes language to celestial objects, a language which all nations understand (Psalm 19:1), the manifestation of the Godhead being too clear to escape the notice of any people, however obtuse.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">For the same reason</span></li></ul></li><li><span class="leaf">the Psalmist <b>attributes</b> language</span></li><li><span class="leaf"><b>to</b> celestial objects</span></li><li><span class="leaf">a language</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which all nations understand</span></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Psalm 19:1</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the manifestation of the Godhead</span></li><li><span class="leaf"><b>being</b> too clear</span></li><li><span class="leaf">to escape the notice of any people</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>however</b> obtuse</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>attribute</em> (verb) &lt; <em>ad-</em> (to) + <em>tribuere</em> (to assign) → ascribe to; <em>celestial</em> &lt; <em>caelum</em> (heaven/sky) → of the heavens; <em>obtuse</em> &lt; <em>obtundere</em> (to beat blunt) → dull, blunt-minded.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>for the same reason</em> = on the same grounds; <em>attribute X to Y</em> = ascribe X to Y; <em>too clear to escape notice</em> = so clear it can't go unnoticed; <em>however obtuse</em> = no matter how dull-witted.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">For the same reason, the Psalmist credits the heavenly bodies with a language — a language every nation understands (Psalm 19:1) — since the revealing of the Godhead is too clear to slip past the notice of any people, no matter how dull-witted.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>attributes language to celestial objects</b> → credits the heavenly bodies with a language</li><li><b>a language which all nations understand</b> → a language every nation understands</li><li><b>the manifestation of the Godhead being too clear to escape the notice of any people</b> → since the revealing of the Godhead is too clear to slip past the notice of any people</li><li><b>however obtuse</b> → no matter how dull-witted</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the verdict — Paul, Rom 1:20, and the "no excuse" payoff</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p>The apostle Paul, stating this still more clearly, says, “That which may be known of God is manifest in them, for God has showed it unto them. For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead,” (Rom. 1:20).</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">The apostle Paul</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>stating</b> this still more clearly</span></li></ul></li><li><span class="leaf"><b>says</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">“That which may be known of God</span></li><li><span class="leaf"><b>is manifest</b> in them</span></li><li><span class="leaf"><b>for</b> God <b>has showed</b> it unto them</span></li><li><span class="leaf"><b>For</b> the invisible things of him</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">from the creation of the world</span></li></ul></li><li><span class="leaf"><b>are clearly seen</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>being understood</b> by the things that are made</span></li></ul></li><li><span class="leaf">even his eternal power and Godhead,”</span></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Rom. 1:20</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>manifest</em> (adj.) &lt; <em>manus</em> + <em>-festus</em> → plain, evident; <em>Godhead</em> &lt; Old English <em>god</em> + <em>-hād</em> (state/condition) → divine nature, deity (translating Greek <em>theiotēs</em>); <em>apostle</em> &lt; Greek <em>apostolos</em> (one sent out).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>that which may be known of God</em> = what can be known about God; <em>manifest in them</em> = plain among/to them; <em>the invisible things of him</em> = his invisible attributes; <em>the things that are made</em> = created things.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The apostle Paul, putting it even more plainly, says: "What can be known about God is plain to them, because God has shown it to them. For ever since the world was created, his invisible qualities — his eternal power and divine nature — have been clearly seen, understood through the things he has made" (Rom. 1:20).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>stating this still more clearly</b> → putting it even more plainly</li><li><b>That which may be known of God is manifest in them</b> → What can be known about God is plain to them</li><li><b>for God has showed it unto them</b> → because God has shown it to them</li><li><b>the invisible things of him from the creation of the world are clearly seen</b> → ever since the world was created, his invisible qualities have been clearly seen</li><li><b>being understood by the things that are made, even his eternal power and Godhead</b> → understood through the things he has made — his eternal power and divine nature</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">Today&#x27;s Grammar Formulas (시험 직전 이것만)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>Formula 1 — double negative = emphatic positive ("cannot … without V-ing" / "no X … that does not Y" / "impossible … without"):</strong></p><pre><code>S + cannot + V + without + V-ing         ⟺   whenever S Vs, S necessarily V-ing
+there is no X (…) that does not Y         ⟺   every X does Y
+it is impossible to V without V-ing        ⟺   V-ing necessarily accompanies V
+"we cannot open our eyes without being compelled to behold him"
+= every time we open our eyes, we are forced to see him
+"there is no portion of the world … that does not exhibit … beauty"
+= every portion of the world exhibits beauty
+</code></pre><p>⚠️ Two negatives net to a strong <strong>positive/universal</strong> — do NOT read "cannot … without" as a limitation. Paraphrase test: cancel both negatives and add "necessarily / every."
+Drill: <em>We cannot survey the starry sky without confessing a Maker.</em> (= surveying the sky necessarily makes us confess a Maker.)</p><p><strong>Formula 2 — result clause "so + adj … that …" armed with concessive "however + adj" (= no matter how):</strong></p><pre><code>… so + (adj) … that + none, however + (adj), can + V
+"his glory is engraven in characters so bright … that none, however dull and illiterate, can plead ignorance"
+= so vivid that no one, no matter how dull, has any excuse
+however + (adj) = no matter how + (adj)   [also: "however minute," "however obtuse"]
+</code></pre><p>⚠️ <em>However</em> + adjective here is <strong>concessive</strong> ("no matter how X"), NOT the contrastive sentence-adverb "however" (= but). It clips an entire concessive clause down to <em>however + adj</em>. Restore: <em>no matter how dull and illiterate they are.</em>
+Drill: <em>The proof is so plain that none, however learned, can overturn it.</em></p><p><strong>Formula 3 — nominative absolute supplying a reason (NOUN + being/V-ing …, no conjunction, no finite verb):</strong></p><pre><code>[Main clause] , [NOUN + (being / V-ing) + …]
+"… as a kind of mirror …, the elegant structure of the world serving us …"
+= since the elegant structure of the world serves us …
+"… a language which all nations understand, the manifestation of the Godhead being too clear …"
+= since the manifestation of the Godhead is too clear …
+</code></pre><p>⚠️ The absolute has its <strong>own subject</strong> and a <strong>participle</strong> (not a finite verb), so it is not a dangling modifier. Restore with <em>since / because / and</em> + finite verb. (Same engine as Day 12's <em>justice being one of his essential attributes</em>.)
+Drill: <em>We behold God in the world, the creation serving as his mirror.</em></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">Vocabulary (어원 후킹 테이블)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⚠️ consist in</td>
+<td>have its essence in</td>
+<td>NOT <em>consist of</em> (be made of) — <em>blessedness consists in knowing God</em> (~에 있다)</td>
+</tr>
+<tr>
+<td>felicity</td>
+<td>happiness, blessedness</td>
+<td><em>felix</em>(happy) → felicitous = happy (지복)</td>
+</tr>
+<tr>
+<td>manifest</td>
+<td>make/be plain</td>
+<td><em>manus</em>(hand) + <em>-festus</em>(seized) → laid where the hand grasps it (드러내다)</td>
+</tr>
+<tr>
+<td>deposit</td>
+<td>lay down, store</td>
+<td><em>de</em>(down) + <em>ponere</em>(place) → <em>deposit the seed of religion</em> (심어두다)</td>
+</tr>
+<tr>
+<td>incomprehensible</td>
+<td>ungraspable</td>
+<td><em>in</em>(not) + <em>comprehendere</em>(grasp fully) → 不可解 (불가해한)</td>
+</tr>
+<tr>
+<td>transcend</td>
+<td>rise beyond</td>
+<td><em>trans</em>+<em>scandere</em>(climb) → climb past human thought (초월하다)</td>
+</tr>
+<tr>
+<td>⚠️ character</td>
+<td>engraved letter/mark</td>
+<td>Greek <em>charaktēr</em>(stamped mark) → here "letter," NOT personality (글자)</td>
+</tr>
+<tr>
+<td>illustrious</td>
+<td>radiant, shining</td>
+<td><em>in</em>+<em>lustrare</em>(light up) → literally luminous here (찬란한)</td>
+</tr>
+<tr>
+<td>plead (ignorance)</td>
+<td>offer as a defense</td>
+<td>legal: enter a plea — <em>plead ignorance</em> = "I didn't know" defense (변명하다)</td>
+</tr>
+<tr>
+<td>array / attire</td>
+<td>clothe / clothing</td>
+<td><em>array</em> = dress in order; <em>attire</em> &lt; <em>atirier</em>(equip) → visible clothing (차려입다)</td>
+</tr>
+<tr>
+<td>banner</td>
+<td>royal standard, flag</td>
+<td><em>bandum</em>(standard) → <em>glorious banners</em> of the King (깃발)</td>
+</tr>
+<tr>
+<td>refulgent</td>
+<td>blazing bright</td>
+<td><em>re</em>+<em>fulgere</em>(flash) → flashing back light (눈부신)</td>
+</tr>
+<tr>
+<td>firmament</td>
+<td>the vault of sky</td>
+<td>the "firm" arch overhead — <em>designated as his palace</em> (창공)</td>
+</tr>
+<tr>
+<td>⚠️ fabric</td>
+<td>built structure</td>
+<td><em>fabrica</em>(construction) → NOT "cloth" — <em>the vast fabric</em> of the world (구조물)</td>
+</tr>
+<tr>
+<td>minute (adj.)</td>
+<td>tiny</td>
+<td><em>minutus</em>(made small) → <em>however minute</em> = no matter how tiny (미세한)</td>
+</tr>
+<tr>
+<td>contemplate</td>
+<td>gaze at attentively</td>
+<td><em>con</em>+<em>templum</em>(marked-out space) → behold (응시하다)</td>
+</tr>
+<tr>
+<td>⚠️ compare to</td>
+<td>liken to</td>
+<td><em>compare TO</em> = liken; <em>compare WITH</em> = measure against (~에 비기다)</td>
+</tr>
+<tr>
+<td>celestial</td>
+<td>of the heavens</td>
+<td><em>caelum</em>(sky) → celestial objects = heavenly bodies (천상의)</td>
+</tr>
+<tr>
+<td>attribute (v.)</td>
+<td>ascribe to</td>
+<td><em>ad</em>+<em>tribuere</em>(assign) → <em>attribute language to the heavens</em> (~의 것으로 돌리다)</td>
+</tr>
+<tr>
+<td>obtuse</td>
+<td>dull-minded</td>
+<td><em>obtundere</em>(beat blunt) → mentally blunt — <em>however obtuse</em> (둔한)</td>
+</tr>
+<tr>
+<td>Godhead</td>
+<td>deity, divine nature</td>
+<td><em>god</em>+<em>-hād</em>(state) → translates Greek <em>theiotēs</em> (신성)</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>Where we are: the pivot from the seed within to the witness without.</strong> Chapters 3–4 argued the <em>sensus divinitatis</em> — God's knowledge implanted <em>in</em> us. Chapter 5 is the companion argument: God's knowledge displayed <em>around</em> us, in <em>the creation and continual government of the world</em> (note the chapter title's two halves — creation <em>and</em> providence; §1 opens the first half). Calvin's own outline (the chapter summary Beveridge prints) divides the chapter in two: sections 1–10 show the knowledge of God displayed in his works, and from section 11 the dark turn — that human <em>stupidity</em> renders even this brilliant display useless for salvation. So keep the frame: §1 is the <em>bright</em> side of natural revelation. The display is real, objective, dazzling. What it <em>cannot</em> do (left for §11ff and developed in Book 2) is <em>save</em> — sin has blinded the eye, not dimmed the light.</p><p><strong>"Perfections," not "essence" — the careful distinction in S2.</strong> Calvin is doing precision theology in S2, and examiners love it. <em>His essence … is incomprehensible</em> — God <em>in se</em> (in himself) is beyond comprehension. But <em>on each of his works his glory is engraven</em> — what creation reveals is God's <em>perfections</em> (his power, wisdom, goodness), his <em>glory</em>, not his bare essence. This is the medieval and Reformed distinction between God's incommunicable hiddenness and his self-revelation <em>ad extra</em> (toward the outside). Creation is genuine revelation, but it is <em>accommodated</em> revelation — God stooping to be seen, "arrayed in visible attire" (S3). Calvin's favorite metaphors for this — <em>mirror</em> (S7), <em>theatre of God's glory</em> (elsewhere in this chapter) — all guard the same line: we see God <em>truly</em> but <em>indirectly</em>, in his works, never <em>directly</em> in his essence.</p><p><strong>The forensic engine: this is Romans 1, and the verdict is "without excuse."</strong> Notice the destination of the whole section: it marches to Romans 1:20 (S9) and stops one phrase short of the quotation's punchline — <em>so that they are without excuse</em> (<em>anapologētous</em>). That is not an accident. The function of natural revelation in Calvin (as in Paul) is primarily <strong>inculpatory</strong>: it renders humanity guilty, leaves them <em>without excuse</em>, <em>exactly</em> as the <em>seed of religion</em> did in Chapter 4 (recall Day 6: the <em>sensus divinitatis</em> exists <em>to make us inexcusable</em>, not to save). So Chapter 5's bright display and Chapter 4's implanted seed do the <em>same legal work</em> from two directions — inside and outside, both close the courtroom door on the plea of ignorance.</p><p><strong>Calvin and the classical witnesses, restrained.</strong> Calvin will, later in this chapter, freely cite the pagans (Cicero, the philosophers) as unwitting witnesses to the creation's testimony. But §1 stays inside Scripture — four texts, Psalm 104, Psalm 19, Hebrews 11, Romans 1 — precisely because he wants the <em>interpretation</em> of nature controlled by the Word. Guardrail against over-reading: this is <strong>not</strong> a natural theology that builds <em>up</em> from creation to a proof of God independent of Scripture (the later Enlightenment project, and the thing Barth feared in the <em>Nein!</em> to Brunner — recall Day 9). Calvin reads the <em>book of nature</em> through the <em>spectacles of Scripture</em> (his own later image in this very chapter's neighborhood): the creation testifies, but it is the Word that tells us what the testimony <em>means</em>.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li><strong>Psalm 104:2 — quoted in S3.</strong> <em>"He covereth himself with light as with a garment."</em> Calvin reads the light-as-clothing image as creation being God's <em>visible attire</em> — the moment the invisible God put on a viewable garment. How Calvin uses it: as a <em>picture</em> of accommodation, God making himself seeable in his works.</li>
+<li><strong>Psalm 104:3 — quoted in S4.</strong> <em>"He layeth the beams of his chambers in the waters, maketh the clouds his chariot, and walketh upon the wings of the wind."</em> The royal-residence imagery (tent → palace) — sky, cloud, wind as the King's architecture and retinue. Calvin lets the poetry do the theology: the cosmos is the King's house.</li>
+<li><strong>Psalm 19:1 — cited in S8.</strong> <em>"The heavens declare the glory of God."</em> Calvin's gloss — <em>a language which all nations understand</em> — leans on Psalm 19's universal, wordless speech (v. 3, "no speech … where their voice is not heard"). The point: this revelation is <em>universal</em>, crossing every language, so no people can plead they were not told.</li>
+<li><strong>Hebrews 11:3 — cited in S7.</strong> <em>"the worlds were framed … so that things which are seen were not made of things which do appear."</em> Calvin turns it into the <em>mirror</em>: visible worlds as <em>images of the invisible.</em> Note he reads Hebrews' faith-statement as an epistemology of nature — the seen reflects the unseen Maker.</li>
+<li><strong>Romans 1:20 — quoted in S9, and the chapter's controlling text.</strong> <em>"the invisible things of him … are clearly seen … even his eternal power and Godhead."</em> Greek: <em>ta aorata autou … kathoratai</em> ("his invisible things … are clearly seen" — a deliberate oxymoron), revealing <em>hē aidios autou dynamis kai theiotēs</em> ("his eternal power and deity"). Calvin stops at <em>Godhead</em>, but the next words — <em>eis to einai autous anapologētous</em> ("so that they are without excuse") — are the silent verdict the whole section is built to deliver. How Calvin uses Scripture today: he lets <em>Paul</em> state the legal conclusion that the <em>Psalms</em> and <em>Hebrews</em> only displayed — revelation seen → excuse removed.</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>문제 ① 어법 — 밑줄 친 부분 중 틀린 것은?</strong></p><blockquote>
+<p>The display is so plain that (A) <em>none, however learned</em>, can deny it; (B) we <em>cannot</em> contemplate the heavens (C) <em>without being</em> moved to worship — the whole creation (D) <em>served</em> us as a mirror of the invisible God.</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: (D).</strong> The intended structure is a <strong>nominative absolute</strong> supplying an ongoing reason, which requires the <strong>participle</strong> <em>serving</em>, not the finite past <em>served</em>: <em>the whole creation </em><em>serving</em><em> us as a mirror</em> (= since the whole creation serves us as a mirror). As printed, <em>served</em> makes a second finite verb with no conjunction — a comma splice. (A) is Formula 2 (<em>none, however + adj, can V</em> — correct concessive). (B)–(C) is Formula 1 (<em>cannot … without being</em> — correct double-negative-for-emphasis). 출제 의도: 절대구문은 정동사가 아니라 분사라야 함을 (D)에서 함정으로 깔고, Formula 1·2를 정답 분산용으로 배치.</p><p><strong>문제 ② 내용일치 — §1과 일치하는 것은?</strong></p><p>(A) Calvin teaches that by contemplating the creation we may comprehend God's incomprehensible essence.
+(B) Calvin argues that because God's essence is hidden, the natural world gives no genuine knowledge of God at all.
+(C) According to Calvin, God has so manifested his perfections in the universe that no one, however dull, can plead ignorance as an excuse, the creation serving as a mirror in which the invisible God is seen.
+(D) Calvin concludes that the heavens speak a language understood only by the learned and astronomically trained.</p><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: (C)</strong> — S2·S6·S7·S9 종합: <em>engraven … so bright … that none, however dull and illiterate, can plead ignorance</em>; <em>a kind of mirror, in which we may behold God.</em> (A)는 S2 전반부 함정 — 창조는 <em>essence</em>가 아니라 <em>perfections/glory</em>를 드러냄(본질은 <em>incomprehensible</em>). (B)는 S2 후반부(<em>but …</em>)를 무시한 정반대 — 본질은 숨겨도 영광은 새겨져 알려짐. (D)는 S8 정면 뒤집기 — <em>a language which all nations understand … too clear to escape the notice of any people, however obtuse</em>(전 민족이 이해, 가장 둔한 자도 못 피함). 출제 의도: 본질/완전성 구별, 이중부정 보편성, 거울 인식론, 보편 계시 범위.</p><p><strong>문제 ③ 영작 — Formula 1 적용.</strong></p><p>"우리는 하늘을 바라볼 때마다 창조주를 떠올리지 않을 수 없다" — <em>cannot … without V-ing</em> 이중부정 구문으로 옮겨라.</p><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>모범답안:</strong> <em>We cannot behold the heavens without being reminded of the Creator.</em> (= Whenever we behold the heavens, we are necessarily reminded of the Creator.)
+출제 의도: <em>cannot + V + without + V-ing</em> 이중부정이 강한 긍정(필연)으로 풀린다는 점. <em>without</em> 다음은 동명사(<em>being reminded</em>)여야 하며, 능동 <em>reminding</em>으로 쓰면 의미·태 오류로 감점. (S1의 <em>we cannot open our eyes without being compelled to behold him</em> 그대로의 구조.)</p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary:</strong> Because blessedness is knowing God, he reveals himself not only by the inward seed but by engraving his glory on the whole universe so plainly that <em>we cannot open our eyes without beholding him</em> — his essence stays hidden, but his perfections shine in characters <em>so bright … that none, however dull, can plead ignorance</em>; four witnesses (Ps 104, Ps 19, Heb 11, Rom 1) make the creation a <em>mirror</em> of the invisible God and seal Paul's verdict, <em>without excuse</em>; and you now own the day's three engines — the double-negative-for-emphasis, the <em>so … that</em> result clause with concessive <em>however</em>, and the nominative absolute of reason.</p><p><strong>Homework (10 min):</strong></p><ol>
+<li><strong>Structure restoration:</strong> Take S1's buried spine — <em>he has been pleased … not only to deposit … but so to manifest … that we cannot open our eyes …</em> — and rewrite it in plain base order (subject + verb first, modifiers after), marking where the <em>not only / but</em> pair and the <em>so … that</em> result clause sit.</li>
+<li><strong>Composition:</strong> Using Formula 3 (nominative absolute), write one sentence: "우리는 창조 안에서 하나님을 본다 — 온 세계가 그분의 거울 역할을 하므로." (Hint: <em>…, the whole world serving as his mirror.</em>)</li>
+<li><strong>Preview:</strong> Tomorrow is <strong>Book 1, Chapter 5, §2</strong> — Calvin descends from the cosmos to the <em>details</em>: the heavens and the earth present <em>innumerable proofs</em> of God's wisdom, <em>not only those more recondite proofs which astronomy, medicine, and all the natural sciences are designed to illustrate, but proofs which force themselves on the notice of the most illiterate peasant.</em> The witness moves from the grand fabric to the everyday eye.</li>
+</ol><p><strong>Where we stopped:</strong> Book 1, Ch. 5, §1 끝. 다음은 Book 1, Ch. 5, §2 (Day 14).</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>

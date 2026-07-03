@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 하나님을 아는 지식과 나를 아는 지식 §3 (1권 1장 · Day 3) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 1장 §3(하나님을 아는 지식과 나를 아는 지식)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 3. 연관 성구: 이사야 24, 창세기 18, 이사야 6, 열왕기상 19, 다니엘 10, 요한계시록 1, 하박국 3. 전체 우리말 의역·문장별 성구 수록."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day03_Book1-Ch1-%C2%A73.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="하나님을 아는 지식과 나를 아는 지식 §3 — 기독교 강요 영어로 읽기 (Day 3)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 1장 §3(하나님을 아는 지식과 나를 아는 지식)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 3. 연관 성구: 이사야 24, 창세기 18, 이사야 6, 열왕기상 19, 다니엘 10, 요한계시록 1, 하박국 3. 전체 우리말 의역·문장별 성구 수록."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day03_Book1-Ch1-%C2%A73.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 하나님을 아는 지식과 나를 아는 지식 §3 (1권 1장 · Day 3) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 1장 §3(하나님을 아는 지식과 나를 아는 지식)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 3. 연관 성구: 이사야 24, 창세기 18, 이사야 6, 열왕기상 19, 다니엘 10, 요한계시록 1, 하박국 3. 전체 우리말 의역·문장별 성구 수록.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 1장 §3 — 하나님을 아는 지식과 나를 아는 지식","mentions":[{"@type":"CreativeWork","name":"이사야 24 (Isaiah 24)"},{"@type":"CreativeWork","name":"창세기 18 (Gen 18)"},{"@type":"CreativeWork","name":"이사야 6 (Isaiah 6)"},{"@type":"CreativeWork","name":"열왕기상 19 (1 Kings 19)"},{"@type":"CreativeWork","name":"다니엘 10"},{"@type":"CreativeWork","name":"요한계시록 1"},{"@type":"CreativeWork","name":"하박국 3"},{"@type":"CreativeWork","name":"욥기 40"},{"@type":"CreativeWork","name":"이사야 40"},{"@type":"CreativeWork","name":"시편 39"},{"@type":"CreativeWork","name":"사사기 13"},{"@type":"CreativeWork","name":"사사기 6"},{"@type":"CreativeWork","name":"창세기 32"},{"@type":"CreativeWork","name":"욥기 38"},{"@type":"CreativeWork","name":"창세기 18"},{"@type":"CreativeWork","name":"열왕기상 19"},{"@type":"CreativeWork","name":"이사야 6"},{"@type":"CreativeWork","name":"욥기 25"},{"@type":"CreativeWork","name":"이사야 24"},{"@type":"CreativeWork","name":"요한계시록 21"},{"@type":"CreativeWork","name":"잠언 1"},{"@type":"CreativeWork","name":"히브리서 11"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day03_Book1-Ch1-%C2%A73.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 3 — Institutes, Book 1, Ch. 1, §3<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 3 — Institutes, Book 1, Ch. 1, §3</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="·">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">·</span>
+    <span class="p-title">본문 (v1 형식)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>"THE KNOWLEDGE OF GOD AND OF OURSELVES MUTUALLY CONNECTED"
+Source: source/Institutes_Beveridge_FULL.txt (Beveridge, public domain) · verified · SCHEDULE.md Day 3
+<em>(All commentary in English — immersion.)</em></p><h2>PART 1 — The Text (Reading)</h2><p><strong>§3.</strong> Hence that dread and amazement with which as Scripture uniformly relates, holy men were struck and overwhelmed whenever they beheld the presence of God. When we see those who previously stood firm and secure so quaking with terror, that the fear of death takes hold of them, nay, they are, in a manner, swallowed up and annihilated, the inference to be drawn is that men are never duly touched and impressed with a conviction of their insignificance, until they have contrasted themselves with the majesty of God. Frequent examples of this consternation occur both in the Book of Judges and the Prophetical Writings; so much so, that it was a common expression among the people of God, "We shall die, for we have seen the Lord." Hence the Book of Job, also, in humbling men under a conviction of their folly, feebleness, and pollution, always derives its chief argument from descriptions of the Divine wisdom, virtue, and purity. Nor without cause: for we see Abraham the readier to acknowledge himself but dust and ashes the nearer he approaches to behold the glory of the Lord, and Elijah unable to wait with unveiled face for His approach; so dreadful is the sight. And what can man do, man who is but rottenness and a worm, when even the Cherubim themselves must veil their faces in very terror? To this, undoubtedly, the Prophet Isaiah refers, when he says (Isaiah 24:23), "The moon shall be confounded, and the sun ashamed, when the Lord of Hosts shall reign;" i.e., when he shall exhibit his refulgence, and give a nearer view of it, the brightest objects will, in comparison, be covered with darkness. But though the knowledge of God and the knowledge of ourselves are bound together by a mutual tie, due arrangement requires that we treat of the former in the first place, and then descend to the latter.</p><p><em>(Reading time: 4–5 min.)</em></p><h2>PART 2 — Argument Map</h2><ul>
+<li><strong>Claim (proof from Scripture):</strong> whenever holy men met God's presence, they were struck with dread — evidence for §2's thesis.</li>
+<li><strong>Inference:</strong> we are never truly convinced of our nothingness until we contrast ourselves with God's majesty.</li>
+<li><strong>Examples:</strong> Judges &amp; the Prophets ("We shall die, for we have seen the Lord"); Job; Abraham ("dust and ashes"); Elijah (veiled face).</li>
+<li><strong>A fortiori:</strong> if the very cherubim veil their faces, what is mortal man — "rottenness and a worm"?</li>
+<li><strong>Scriptural seal:</strong> Isa 24:23 — before God's brightness even sun and moon are ashamed.</li>
+<li><strong>Method note (closing the chapter):</strong> though the two knowledges are mutual, <em>order</em> requires we treat God first, then descend to ourselves.</li>
+</ul><h2>PART 3 — Sentence-by-Sentence Deep Analysis ⭐</h2><p><strong>[S1]</strong> <em>"Hence that dread and amazement with which as Scripture uniformly relates, holy men were struck and overwhelmed whenever they beheld the presence of God."</em>
+- <strong>Syntax:</strong> A verbless exclamation built on a noun phrase: [head] <em>that dread and amazement</em> + relative <em>[with which … holy men were struck and overwhelmed]</em> + temporal <em>[whenever they beheld the presence of God]</em>. The clause <em>as Scripture uniformly relates</em> is parenthetical ("as Scripture consistently reports").
+- <strong>Grammar:</strong> <em>Hence</em> = "from this (it follows)." Pied-piped relative <em>with which</em> (= "with which dread… they were struck"). Two passive verbs <em>were struck and overwhelmed</em>. <em>whenever</em> = "every time that" (iterative).
+- <strong>Vocabulary:</strong> <em>dread</em> (deep fear); <em>amazement</em> (here = stunned terror, not delight); <em>behold</em> (see, gaze on — solemn).
+- <strong>Plain English:</strong> Hence the dread and stunned terror with which — as Scripture consistently reports — holy men were struck and overwhelmed every time they saw God's presence.
+- <strong>Style:</strong> Opens with the effect (dread) before the cause; <em>uniformly</em> stresses an exceptionless pattern.</p><p><strong>[S2]</strong> <em>"When we see those who previously stood firm and secure so quaking with terror, that the fear of death takes hold of them, nay, they are, in a manner, swallowed up and annihilated, the inference to be drawn is that men are never duly touched … with a conviction of their insignificance, until they have contrasted themselves with the majesty of God."</em>
+- <strong>Syntax:</strong> Long fronted <em>When</em>-clause, then main clause [S] <em>the inference to be drawn</em> [V] <em>is</em> [C] <em>that</em>-clause; inside, <strong>never … until</strong> governs the timing.
+- <strong>Grammar:</strong> <strong>so … that</strong> result construction: <em>so quaking with terror, that the fear of death takes hold</em>. <em>nay</em> escalates to a stronger description (<em>swallowed up and annihilated</em>). Main predicate nominative is a content clause; within it, <em>men are never … impressed … until they have contrasted themselves with the majesty of God</em> (precondition).
+- <strong>Vocabulary:</strong> <em>quaking</em> (trembling); <em>take hold of</em> (seize); <em>in a manner</em> (so to speak); <em>annihilated</em> (reduced to nothing); <em>duly</em> (rightly, properly); <em>insignificance</em> (nothingness).
+- <strong>Plain English:</strong> When we see people who once stood firm now trembling so violently that the fear of death grips them — indeed, all but swallowed up and annihilated — the conclusion is this: people are never rightly made aware of their nothingness until they have measured themselves against God's majesty.
+- <strong>Style:</strong> The drawn-out <em>When</em>-clause delays the verdict (periodic suspense), landing on <em>the inference … is that…</em>.</p><p><strong>[S3]</strong> <em>"Frequent examples of this consternation occur both in the Book of Judges and the Prophetical Writings; so much so, that it was a common expression among the people of God, 'We shall die, for we have seen the Lord.'"</em>
+- <strong>Syntax:</strong> Main clause [S] <em>examples</em> [V] <em>occur</em> + <em>both … and …</em>; then <em>so much so, that …</em> result, with embedded quotation.
+- <strong>Grammar:</strong> Correlative <em>both A and B</em>. <em>so much so that</em> = "to such a degree that." <em>for</em> = "because" (causal conjunction). The quoted clause uses the prophetic future <em>we shall die</em>.
+- <strong>Vocabulary:</strong> <em>consternation</em> (dismay, alarm); <em>common expression</em> (a saying in wide use).
+- <strong>Plain English:</strong> Such dismay shows up repeatedly in Judges and the Prophets — so much so that "We shall die, for we have seen the Lord" became a stock saying among God's people.
+- <strong>Style:</strong> Evidence piled to make the pattern feel like a law.</p><p><strong>[S4]</strong> <em>"Hence the Book of Job, also, in humbling men under a conviction of their folly, feebleness, and pollution, always derives its chief argument from descriptions of the Divine wisdom, virtue, and purity."</em>
+- <strong>Syntax:</strong> [S] <em>the Book of Job</em> [V] <em>derives</em> [O] <em>its chief argument</em> + <em>from …</em>; an inserted participial phrase <em>[in humbling men under a conviction of …]</em> modifies how Job works.
+- <strong>Grammar:</strong> <em>in + -ing</em> = "in the course of / by." Triple objects again (<em>folly, feebleness, pollution</em> / <em>wisdom, virtue, purity</em>) set human misery against divine perfection — <strong>antithesis</strong>.
+- <strong>Vocabulary:</strong> <em>feebleness</em> (weakness); <em>pollution</em> (defilement); <em>derive … from</em> (draw from).
+- <strong>Plain English:</strong> So the Book of Job too, in humbling people with a sense of their folly, weakness, and defilement, always builds its main case from portrayals of God's wisdom, power, and purity.
+- <strong>Style:</strong> The paired triads mirror the man-vs-God contrast running through the section.</p><p><strong>[S5]</strong> <em>"Nor without cause: for we see Abraham the readier to acknowledge himself but dust and ashes the nearer he approaches to behold the glory of the Lord, and Elijah unable to wait with unveiled face for His approach; so dreadful is the sight."</em>
+- <strong>Syntax:</strong> Elliptical <em>Nor without cause</em> (= "And not without reason"); <em>for</em> introduces proof. Note the <strong>proportional comparatives</strong>: <em>the readier … the nearer</em> ("the more X, the more Y"). Closing <strong>inversion</strong>: <em>so dreadful is the sight</em> (= "the sight is so dreadful").
+- <strong>Grammar:</strong> <em>the + comparative … the + comparative</em> = correlative proportion. <em>but dust and ashes</em> (<em>but</em> = "only/nothing but"). <em>unable to wait with unveiled face</em> (adjective + infinitive). The final clause inverts subject and complement for emphasis.
+- <strong>Vocabulary:</strong> <em>dust and ashes</em> (utter lowliness — Gen 18:27); <em>unveiled</em> (uncovered); <em>dreadful</em> (terrifying).
+- <strong>Plain English:</strong> And not without reason: the nearer Abraham comes to behold the Lord's glory, the readier he is to confess himself mere dust and ashes; and Elijah cannot wait with face uncovered for God's approach — so terrifying is the sight.
+- <strong>Style:</strong> <em>the readier … the nearer</em> is an elegant proportional structure worth imitating.</p><p><strong>[S6]</strong> <em>"And what can man do, man who is but rottenness and a worm, when even the Cherubim themselves must veil their faces in very terror?"</em>
+- <strong>Syntax:</strong> A <strong>rhetorical question</strong> with an appositive: <em>man, [man who is but rottenness and a worm]</em>, + <em>when</em>-clause.
+- <strong>Grammar:</strong> Rhetorical question (expected answer: "nothing"). The repetition <em>what can man do, man who is…</em> is <strong>epanalepsis/apposition</strong> for pathos. <em>even … themselves</em> is emphatic. <em>in very terror</em> = "in sheer terror" (<em>very</em> = "sheer/real," archaic intensifier).
+- <strong>Vocabulary:</strong> <em>but rottenness and a worm</em> (<em>but</em> = only); <em>veil</em> (cover).
+- <strong>Plain English:</strong> And what can a human being do — a creature that is mere rot and a worm — when even the cherubim themselves must cover their faces in sheer terror?
+- <strong>Style:</strong> <strong>A fortiori</strong> argument (from greater to lesser): if angels veil their faces, how much more should man tremble.</p><p><strong>[S7]</strong> <em>"To this, undoubtedly, the Prophet Isaiah refers, when he says (Isaiah 24:23), 'The moon shall be confounded, and the sun ashamed, when the Lord of Hosts shall reign;' i.e., when he shall exhibit his refulgence … the brightest objects will, in comparison, be covered with darkness."</em>
+- <strong>Syntax:</strong> Fronted <em>To this … the Prophet Isaiah refers</em> (object fronting); <em>when</em>-clause introduces the quotation; <em>i.e.</em> introduces Calvin's gloss.
+- <strong>Grammar:</strong> <em>refer to</em> (the <em>to</em> is fronted with <em>To this</em>). <em>i.e.</em> = <em>id est</em>, "that is." Future <em>shall be confounded … shall reign</em> (prophetic). <em>in comparison</em> = "by comparison."
+- <strong>Vocabulary:</strong> <em>confounded</em> (put to shame/thrown into confusion); <em>the Lord of Hosts</em> (YHWH Sabaoth); <em>refulgence</em> (blazing brightness); <em>exhibit</em> (display).
+- <strong>Plain English:</strong> No doubt Isaiah means this when he says (Isa 24:23), "The moon will be ashamed and the sun confounded when the LORD of Hosts reigns" — that is, when God shows his blazing brightness up close, even the brightest things look dark by comparison.
+- <strong>Style:</strong> Caps the argument with a prophetic citation; the sun/moon image rhymes with §2's sun analogy.</p><p><strong>[S8]</strong> <em>"But though the knowledge of God and the knowledge of ourselves are bound together by a mutual tie, due arrangement requires that we treat of the former in the first place, and then descend to the latter."</em>
+- <strong>Syntax:</strong> Concessive <em>though</em>-clause + main clause [S] <em>due arrangement</em> [V] <em>requires</em> [O] <em>that</em>-clause (subjunctive <em>that we treat … and then descend</em>).
+- <strong>Grammar:</strong> <em>though</em> = "although" (concession). <em>requires that we treat</em> — the <strong>mandative subjunctive</strong> (base form <em>treat</em>, not "treats"). <em>the former … the latter</em> = the first-mentioned (God) … the second (ourselves).
+- <strong>Vocabulary:</strong> <em>mutual tie</em> (reciprocal bond); <em>due arrangement</em> (proper order); <em>descend to</em> (move down to).
+- <strong>Plain English:</strong> But although knowledge of God and of ourselves are bound by a mutual tie, proper method requires that we deal with the former (God) first, and then come down to the latter (ourselves).
+- <strong>Style:</strong> A <strong>methodological hinge</strong> closing the chapter: mutuality affirmed, yet order fixed (God first) — pointing to Chapter 2 onward.</p><h2>PART 4 — Vocabulary</h2><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>POS</th>
+<th>Meaning in context</th>
+<th>Nuance &amp; etymology (KR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>dread</td>
+<td>n.</td>
+<td>deep fear/awe</td>
+<td>weightier than "fear" (두려움)</td>
+</tr>
+<tr>
+<td>amazement</td>
+<td>n.</td>
+<td>stunned terror</td>
+<td>here negative, not delight (경악)</td>
+</tr>
+<tr>
+<td>behold</td>
+<td>v.</td>
+<td>gaze on</td>
+<td>solemn, archaic for "see" (목도하다)</td>
+</tr>
+<tr>
+<td>quaking</td>
+<td>adj./v.</td>
+<td>trembling</td>
+<td>violent shaking (떪)</td>
+</tr>
+<tr>
+<td>annihilated</td>
+<td>v.(pp)</td>
+<td>reduced to nothing</td>
+<td>L <em>nihil</em>, "nothing" (전멸된)</td>
+</tr>
+<tr>
+<td>consternation</td>
+<td>n.</td>
+<td>dismay, alarm</td>
+<td>sudden shock (당혹·경악)</td>
+</tr>
+<tr>
+<td>dust and ashes</td>
+<td>idiom</td>
+<td>utter lowliness</td>
+<td>Gen 18:27; Heb. <em>aphar va-epher</em> (티끌과 재)</td>
+</tr>
+<tr>
+<td>but (rottenness)</td>
+<td>adv.</td>
+<td>only, nothing but</td>
+<td>restrictive <em>but</em> (~에 불과한)</td>
+</tr>
+<tr>
+<td>confounded</td>
+<td>v.(pp)</td>
+<td>shamed/confused</td>
+<td>thrown into confusion (당황·수치)</td>
+</tr>
+<tr>
+<td>refulgence</td>
+<td>n.</td>
+<td>blazing brightness</td>
+<td>archaic, L <em>refulgere</em> (광휘)</td>
+</tr>
+</tbody>
+</table><h2>PART 5 — 🏛 Theology (deep)</h2><ol>
+<li><strong>Holiness exposes nothingness.</strong> §3 supplies the <em>proof</em> for §2's thesis: encounter with God's <em>majesty</em> is what convicts us of <em>insignificance</em>. The creature's right response to the Holy is <strong>dread</strong> — what later theology (Rudolf Otto) calls the <em>mysterium tremendum</em>, the "numinous" awe before the wholly Other.</li>
+<li><strong>A fortiori from the angels.</strong> If sinless cherubim veil their faces, fallen man ("rottenness and a worm") has infinitely more cause to tremble — Calvin reasons from greater to lesser to crush self-confidence.</li>
+<li><strong>God as the measure (continued).</strong> As in §2 (God the <em>norma</em>), here self-assessment is impossible in isolation: only "contrasted with the majesty of God" do we know what we are. This is Reformed <strong>theocentrism</strong> — anthropology done in the light of theology.</li>
+<li><strong>The methodological hinge (S8).</strong> Calvin affirms the <em>mutuality</em> of the two knowledges but fixes the <em>order</em>: God first. This sentence governs the architecture of Book 1 (chs. 2ff. on knowing God the Creator) and answers the question §1 left open.</li>
+</ol><h2>PART 6 — 📖 Biblical Studies (deep)</h2><ul>
+<li><strong>Judges 13:22</strong> — Manoah: <em>"We shall surely die, because we have seen God."</em> This is the very saying Calvin quotes ("We shall die, for we have seen the Lord").</li>
+<li><strong>Genesis 18:27</strong> — Abraham: <em>"I have taken upon me to speak unto the Lord, which am but dust and ashes"</em> (Heb. עָפָר וָאֵפֶר, <em>aphar va-epher</em>) — the source of S5.</li>
+<li><strong>1 Kings 19:13</strong> — Elijah <em>"wrapped his face in his mantle"</em> at God's approach — S5's "unveiled face."</li>
+<li><strong>Isaiah 6:2, 5</strong> — the seraphim <em>cover their faces</em>; Isaiah cries <em>"Woe is me… I am undone."</em> (Calvin/Beveridge say "Cherubim"; Isa 6 has <em>seraphim</em> — note the conflation; the point, angels veiling faces, stands.)</li>
+<li><strong>Job</strong> — the divine speeches (chs. 38–41) humble Job by parading God's wisdom/power, exactly as Calvin says (S4).</li>
+<li><strong>Isaiah 24:23</strong> — <em>"the moon shall be confounded, and the sun ashamed, when the LORD of hosts shall reign"</em> — quoted in S7.</li>
+</ul><h2>PART 7 — 🔁 Translation Comparison (Beveridge vs Battles)</h2><p>Substance is shared; Beveridge again shows its age in diction — <em>amazement</em> (= terror, not delight), <em>consternation</em>, <em>refulgence</em>, <em>in very terror</em> (<em>very</em> = "sheer"). Battles (1960) modernizes such words and would not write <em>but rottenness and a worm</em> with restrictive <em>but</em>. (1) No theological difference. (2) Register/era only. (3) Today's gain: spotting archaic senses — especially <em>amazement</em> and <em>but</em> — that can mislead a modern reader.</p><h2>PART 8 — ✅ Check yourself (multiple choice)</h2><p><strong>Q1 (vocabulary — false friend).</strong> In <em>"that dread and </em><em>amazement</em><em> … holy men were struck and overwhelmed,"</em> <em>amazement</em> here means:
+A. pleasant wonder  B. stunned terror  C. curiosity  D. boredom</p><p><strong>Q2 (grammar).</strong> <em>"we see Abraham </em><em>the readier</em><em> to acknowledge himself but dust and ashes </em><em>the nearer</em><em> he approaches…"</em> — this is:
+A. a superlative  B. a proportional correlative ("the more…, the more…")  C. a rhetorical question  D. the subjunctive</p><p><strong>Q3 (grammar/rhetoric).</strong> <em>"what can man do … when even the Cherubim themselves must veil their faces …?"</em> functions as:
+A. a genuine information question  B. a rhetorical question making an a-fortiori point (answer: "nothing")  C. a command  D. a conditional</p><p><strong>Q4 (vocabulary).</strong> <em>"man who is </em><em>but</em><em> rottenness and a worm"</em> — <em>but</em> here means:
+A. however  B. except  C. only / nothing but  D. yet</p><p><strong>Q5 (theology/comprehension).</strong> The main point of §3 is that:
+A. angels fear God more than humans do  B. we recognize our nothingness only when measured against God's majesty  C. Job is the most important book  D. holy men were physically harmed by God</p><p><strong>Q6 (grammar).</strong> <em>"due arrangement requires </em><em>that we treat</em><em> of the former…"</em> — <em>treat</em> (not "treats") is:
+A. a typo  B. the mandative subjunctive after <em>require that</em>  C. an imperative  D. past tense</p><hr/><p><strong>Answer Key:</strong> <strong>Q1 B</strong> — archaic <em>amazement</em> = terror. <strong>Q2 B</strong> — <em>the + comparative … the + comparative</em> = proportional. <strong>Q3 B</strong> — rhetorical, arguing greater-to-lesser. <strong>Q4 C</strong> — restrictive <em>but</em> = "only." <strong>Q5 B</strong> — conviction of insignificance comes by contrast with God's majesty. <strong>Q6 B</strong> — subjunctive after <em>require that</em>.</p><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 1 §3 끝 (Ch.1 완료). 다음은 Ch. 2 §1 (Day 4).</p></div>
+</section>
+  <section class="period" id="paraphrase" data-period="✒"><h2 class="period-head" onclick="togglePeriod(this)"><span class="p-num">✒</span><span class="p-title">풀어 쓴 우리말 의역 — 1권 1장 §3</span><span class="p-caret">–</span></h2><div class="period-body para-ko"><p class="para-note">직역이 아니라 본문의 뜻을 살려 우리말로 다시 쓴 글입니다. 영어 본문을 공부한 뒤 마무리로 읽어 보세요.</p><p>성경이 한결같이 전하는 저 두려움과 놀라움은 바로 여기서 나온다. 거룩한 사람들은 하나님의 임재를 뵐 때마다 그 앞에서 얻어맞은 듯 압도되었다.<sup class="vs-ref"><a id="pv-1" href="#vs-1" onclick="return vsJump(1)" title="관련 성구 보기">1</a></sup> 조금 전까지 굳건하고 태연하게 서 있던 사람들이 죽음의 공포에 사로잡혀 떨다 못해, 말하자면 삼켜지고 소멸되다시피 하는 모습을 볼 때, 우리가 끌어낼 결론은 하나다. 사람은 자신을 하나님의 위엄과 견주어 보기 전까지는, 자기가 얼마나 하찮은 존재인지 사무치게 깨닫지 못한다는 것이다.<sup class="vs-ref"><a id="pv-2" href="#vs-2" onclick="return vsJump(2)" title="관련 성구 보기">2</a></sup></p><p>이런 경악의 장면은 사사기와 선지서에 거듭거듭 나온다. 오죽하면 &quot;우리가 주를 보았으니 반드시 죽으리라&quot;는 말이 하나님의 백성 사이에서 흔한 표현이 되었을 정도다.<sup class="vs-ref"><a id="pv-3" href="#vs-3" onclick="return vsJump(3)" title="관련 성구 보기">3</a></sup> 욥기도 마찬가지다. 사람을 그 어리석음과 연약함과 더러움 앞에 낮추려 할 때, 욥기는 언제나 하나님의 지혜와 능력과 순결하심을 묘사하는 데서 가장 중요한 논거를 끌어온다.<sup class="vs-ref"><a id="pv-4" href="#vs-4" onclick="return vsJump(4)" title="관련 성구 보기">4</a></sup> 그럴 만한 이유가 있다. 보라, 아브라함은 주의 영광을 뵙는 자리에 가까이 갈수록 자신이 티끌과 재에 지나지 않음을 더 선뜻 고백했고,<sup class="vs-ref"><a id="pv-5" href="#vs-5" onclick="return vsJump(5)" title="관련 성구 보기">5</a></sup> 엘리야는 얼굴을 가리지 않고서는 그분의 다가오심을 감히 기다리지 못했다. 그만큼 그 광경은 두려운 것이다.<sup class="vs-ref"><a id="pv-6" href="#vs-6" onclick="return vsJump(6)" title="관련 성구 보기">6</a></sup> 그룹들조차 두려움에 떨며 자기 얼굴을 가려야 한다면, 썩어질 것이요 벌레에 지나지 않는 사람이 대체 무엇을 할 수 있겠는가?<sup class="vs-ref"><a id="pv-7" href="#vs-7" onclick="return vsJump(7)" title="관련 성구 보기">7</a></sup></p><p>선지자 이사야가 &quot;만군의 여호와께서 왕이 되실 때에 달이 수치를 당하고 해가 부끄러워하리라&quot;(사 24:23) 하고 말한 것은 의심할 것 없이 바로 이것을 가리킨다. 곧 하나님께서 당신의 광채를 드러내시고 그것을 더 가까이 보이실 때에는, 세상에서 가장 밝은 것들도 그에 비하면 어둠에 덮인 듯하리라는 것이다.<sup class="vs-ref"><a id="pv-8" href="#vs-8" onclick="return vsJump(8)" title="관련 성구 보기">8</a></sup></p><p>그러나 하나님을 아는 지식과 우리 자신을 아는 지식이 이렇게 서로 묶여 있다 해도, 가르침의 바른 순서를 따르자면 먼저 하나님을 아는 지식을 다루고, 그 다음에 우리 자신을 아는 지식으로 내려가야 한다.<sup class="vs-ref"><a id="pv-9" href="#vs-9" onclick="return vsJump(9)" title="관련 성구 보기">9</a></sup></p></div></section><section class="period" id="paraphrase-verses" data-period="📖"><h2 class="period-head" onclick="togglePeriod(this)"><span class="p-num">📖</span><span class="p-title">성구로 다시 읽기 — 1권 1장 §3</span><span class="p-caret">–</span></h2><div class="period-body vs-ko"><p class="para-note">위 의역의 문장 흐름을 따라, 각 대목과 맞닿은 성경 구절을 모았습니다. 의역 문장 끝의 <sup class="vs-ref"><a href="#vs-1" onclick="return vsJump(1)">번호</a></sup>를 누르면 해당 성구로 이동합니다.</p><h3 class="vs-label" id="vs-1"><a class="vs-back" href="#pv-1" onclick="return pvJump(1)">↩ 의역 본문</a>1. 거룩한 사람들은 하나님의 임재 앞에서 압도되었다</h3><p class="vs-item"><b>다니엘 10:8</b> — “그런즉 나만 홀로 있어서 이 큰 환상을 볼 때에 내 몸에 힘이 빠졌고 나의 아름다운 빛이 변하여 썩은 듯하였고 나의 힘이 다 없어졌으나”</p><p class="vs-item"><b>요한계시록 1:17</b> — “내가 볼 때에 그의 발 앞에 엎드러져 죽은 자 같이 되매 그가 오른손을 내게 얹고 이르시되 두려워하지 말라”</p><p class="vs-item"><b>하박국 3:16</b> — “내가 들었으므로 내 창자가 흔들렸고 그 목소리로 말미암아 내 입술이 떨렸도다”</p><h3 class="vs-label" id="vs-2"><a class="vs-back" href="#pv-2" onclick="return pvJump(2)">↩ 의역 본문</a>2. 하나님의 위엄과 견주어 본 뒤에야 자기의 하찮음을 절감한다</h3><p class="vs-item"><b>욥기 40:4</b> — “나는 비천하오니 무엇이라 주께 대답하리이까 손으로 내 입을 가릴 뿐이로소이다”</p><p class="vs-item"><b>이사야 40:17</b> — “그의 앞에는 모든 열방이 아무것도 아니라 그는 그들을 없는 것 같이, 빈 것 같이 여기시느니라”</p><p class="vs-item"><b>시편 39:5</b> — “주께서 나의 날을 한 뼘 길이만큼 되게 하시매 나의 일생이 주 앞에는 없는 것 같사오니 사람은 그가 든든히 서 있는 때에도 진실로 모두가 허사뿐이니이다”</p><h3 class="vs-label" id="vs-3"><a class="vs-back" href="#pv-3" onclick="return pvJump(3)">↩ 의역 본문</a>3. &quot;우리가 주를 보았으니 죽으리로다&quot; — 사사기와 선지서의 흔한 표현</h3><p class="vs-item"><b>사사기 13:22</b> — “마노아가 그의 아내에게 이르되 우리가 하나님을 보았으니 반드시 죽으리로다”</p><p class="vs-item"><b>사사기 6:22-23</b> — “기드온이 그가 여호와의 사자인 줄을 알고 이르되 슬프도소이다 주 여호와여 내가 여호와의 사자를 대면하여 보았나이다 여호와께서 그에게 이르시되 너는 안심하라 두려워하지 말라 죽지 아니하리라”</p><p class="vs-item"><b>창세기 32:30</b> — “야곱이 그 곳 이름을 브니엘이라 하였으니 그가 이르기를 내가 하나님과 대면하여 보았으나 내 생명이 보전되었다 함이더라”</p><h3 class="vs-label" id="vs-4"><a class="vs-back" href="#pv-4" onclick="return pvJump(4)">↩ 의역 본문</a>4. 욥기는 하나님의 지혜&#183;능력&#183;순결 묘사에서 논거를 끌어온다</h3><p class="vs-item"><b>욥기 38:4</b> — “내가 땅의 기초를 놓을 때에 네가 어디 있었느냐 네가 깨달아 알았거든 말할지니라”</p><p class="vs-item"><b>욥기 40:9</b> — “네가 하나님처럼 능력이 있느냐 하나님처럼 천둥 소리를 내겠느냐”</p><h3 class="vs-label" id="vs-5"><a class="vs-back" href="#pv-5" onclick="return pvJump(5)">↩ 의역 본문</a>5. 아브라함 — 가까이 갈수록 티끌과 재라 고백한다</h3><p class="vs-item"><b>창세기 18:27</b> — “아브라함이 대답하여 이르되 나는 티끌이나 재와 같사오나 감히 주께 아뢰나이다”</p><h3 class="vs-label" id="vs-6"><a class="vs-back" href="#pv-6" onclick="return pvJump(6)">↩ 의역 본문</a>6. 엘리야 — 얼굴을 가리지 않고는 기다리지 못했다</h3><p class="vs-item"><b>열왕기상 19:12-13</b> — “불 후에 세미한 소리가 있는지라 엘리야가 듣고 겉옷으로 얼굴을 가리고 나가 굴 어귀에 서매”</p><h3 class="vs-label" id="vs-7"><a class="vs-back" href="#pv-7" onclick="return pvJump(7)">↩ 의역 본문</a>7. 그룹들도 얼굴을 가리는데, 벌레인 사람이 무엇을 하랴</h3><p class="vs-item"><b>이사야 6:2</b> — “스랍들이 모시고 섰는데 각기 여섯 날개가 있어 그 둘로는 자기의 얼굴을 가리었고 그 둘로는 자기의 발을 가리었고 그 둘로는 날며”</p><p class="vs-item"><b>욥기 25:5-6</b> — “보라 그의 눈에는 달이라도 빛을 발하지 못하고 별도 빛나지 못하거든 하물며 구더기 같은 사람, 벌레 같은 인생이랴”</p><h3 class="vs-label" id="vs-8"><a class="vs-back" href="#pv-8" onclick="return pvJump(8)">↩ 의역 본문</a>8. 여호와께서 왕이 되실 때 달이 수치를 당하고 해가 부끄러워하리라</h3><p class="vs-item"><b>이사야 24:23</b> — “그 때에 달이 수치를 당하고 해가 부끄러워하리니 이는 만군의 여호와께서 시온 산과 예루살렘에서 왕이 되시고 그 장로들 앞에서 영광을 나타내실 것임이라”</p><p class="vs-item"><b>요한계시록 21:23</b> — “그 성은 해나 달의 비침이 쓸 데 없으니 이는 하나님의 영광이 비치고 어린 양이 그 등불이 되심이라”</p><h3 class="vs-label" id="vs-9"><a class="vs-back" href="#pv-9" onclick="return pvJump(9)">↩ 의역 본문</a>9. 바른 순서 — 하나님을 아는 지식이 먼저다</h3><p class="vs-item"><b>잠언 1:7</b> — “여호와를 경외하는 것이 지식의 근본이거늘 미련한 자는 지혜와 훈계를 멸시하느니라”</p><p class="vs-item"><b>히브리서 11:6</b> — “하나님께 나아가는 자는 반드시 그가 계신 것과 또한 그가 자기를 찾는 자들에게 상 주시는 이심을 믿어야 할지니라”</p></div></section><script>function vsJump(n){var s=document.getElementById("paraphrase-verses");if(s)s.classList.remove("collapsed");var t=document.getElementById("vs-"+n);if(t){t.scrollIntoView({behavior:"smooth",block:"center"});if(window.flash)flash(t);}return false;}function pvJump(n){var s=document.getElementById("paraphrase");if(s)s.classList.remove("collapsed");var t=document.getElementById("pv-"+n);if(t){t.scrollIntoView({behavior:"smooth",block:"center"});if(window.flash)flash(t.closest("p"));}return false;}</script>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>

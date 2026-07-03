@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 무지와 악의로 질식된 하나님 지식 §1 (1권 4장 · Day 9) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 4장 §1(무지와 악의로 질식된 하나님 지식)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 9. 연관 성구: 로마서 1, 예레미야 2, 이사야 44, 예레미야 23."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day09_Book1-Ch4-%C2%A71.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="무지와 악의로 질식된 하나님 지식 §1 — 기독교 강요 영어로 읽기 (Day 9)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 4장 §1(무지와 악의로 질식된 하나님 지식)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 9. 연관 성구: 로마서 1, 예레미야 2, 이사야 44, 예레미야 23."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day09_Book1-Ch4-%C2%A71.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 무지와 악의로 질식된 하나님 지식 §1 (1권 4장 · Day 9) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 4장 §1(무지와 악의로 질식된 하나님 지식)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 9. 연관 성구: 로마서 1, 예레미야 2, 이사야 44, 예레미야 23.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 4장 §1 — 무지와 악의로 질식된 하나님 지식","mentions":[{"@type":"CreativeWork","name":"로마서 1 (Rom 1)"},{"@type":"CreativeWork","name":"예레미야 2 (Jer 2)"},{"@type":"CreativeWork","name":"이사야 44 (Isaiah 44)"},{"@type":"CreativeWork","name":"예레미야 23 (Jeremiah 23)"},{"@type":"CreativeWork","name":"시편 1 (Psalm 1)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day09_Book1-Ch4-%C2%A71.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 09 — Institutes I.4.§1 [직강]<small>Calvin English Live Lecture · Book 1, Chapter 4, Section 1</small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">Orientation — one minute</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">Full Text (Beveridge, 10 sentences — about 2 minutes)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">Sentence-by-Sentence Live Teaching (watch the stars)</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl2" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl2" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl3" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl1" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl2" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl3" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl1" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl3" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl2" href="#S10" onclick="closeNavMobile()">S10</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">Today&#x27;s Grammar Formulas (시험 직전 이것만)</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">Vocabulary (어원 후킹 테이블)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref">Book 1, Chapter 4, Section 1</span>
+      <h1>Day 09 — Institutes I.4.§1 [직강]</h1>
+      <div class="sub">Calvin English Live Lecture · Book 1, Chapter 4, Section 1</div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">Orientation — one minute</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>New chapter. Chapter 3 proved the seed: a sense of Deity planted in every single human being — even the atheists testified under oath. Now Calvin walks out into the field and asks the farmer's question: <strong>where's the crop?</strong> And the lab report comes back brutal. Sown in all. Cherished by maybe one in a hundred. Ripened to maturity: <strong>zero.</strong> That's §1 — the statistics of a failed harvest, and the diagnosis of WHY it fails: men who seek God don't climb UP to him; they shrink him DOWN to their own size. They don't meet God; they manufacture him. Three hundred years before Feuerbach said "God is man's projection," Calvin described the projection mechanism in detail — and called it the corruption, not the origin. Hold that thought for Period 6.</p><p>Grammatically? Today is <strong>word-order day</strong>. Calvin's translator keeps yanking things out of position — a degree phrase to the front, a negative to the front, an object into a spotlight cleft — and every dislocation drags the verb or the subject somewhere your ear doesn't expect. Your job: restore the base pattern, every time.</p><p><strong>Today's 3 Big Points — mark them now:</strong></p><ol>
+<li><strong>The inversion twins:</strong> "<em>so far is it from yielding fruit</em>" and "<em>in no part of the world can genuine godliness be found</em>" — front a degree phrase or a negative, and the verb jumps BEFORE the subject. No inversion = wrong sentence.</li>
+<li><strong>Cataphoric <em>this</em> + appositive <em>that</em>:</strong> "<em>Mingled vanity and pride appear in this, that when miserable men do seek after God...</em>" — <em>this</em> is an empty pointer; the <em>that</em>-clause fills it. Bonus inside: emphatic <em>do</em>.</li>
+<li><strong>The negative it-cleft, <em>that</em> omitted:</strong> "<em>it is not him they worship, but ... the dream and figment of their own heart</em>" — a cleft that aims the spotlight at the object and then negates it. Restore the missing <em>that</em>.</li>
+</ol><p>Three points. Lock them in. Now read.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">Full Text (Beveridge, 10 sentences — about 2 minutes)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+<span class="ft-sent" data-s="S1" id="ft-S1" onclick="jumpToCard('S1')">But though experience testifies that a seed of religion is divinely sown in all, scarcely one in a hundred is found who cherishes it in his heart, and not one in whom it grows to maturity so far is it from yielding fruit in its season.</span> <span class="ft-sent" data-s="S2" id="ft-S2" onclick="jumpToCard('S2')">Moreover, while some lose themselves in superstitious observances, and others, of set purpose, wickedly revolt from God, the result is that, in regard to the true knowledge of him, all are so degenerate, that in no part of the world can genuine godliness be found.</span> <span class="ft-sent" data-s="S3" id="ft-S3" onclick="jumpToCard('S3')">In saying that some fall away into superstition, I mean not to insinuate that their excessive absurdity frees them from guilt; for the blindness under which they labour is almost invariably accompanied with vain pride and stubbornness.</span> <span class="ft-sent" data-s="S4" id="ft-S4" onclick="jumpToCard('S4')">Mingled vanity and pride appear in this, that when miserable men do seek after God, instead of ascending higher than themselves as they ought to do, they measure him by their own carnal stupidity, and, neglecting solid inquiry, fly off to indulge their curiosity in vain speculation.</span> <span class="ft-sent" data-s="S5" id="ft-S5" onclick="jumpToCard('S5')">Hence, they do not conceive of him in the character in which he is manifested, but imagine him to be whatever their own rashness has devised.</span> <span class="ft-sent" data-s="S6" id="ft-S6" onclick="jumpToCard('S6')">This abyss standing open, they cannot move one footstep without rushing headlong to destruction.</span> <span class="ft-sent" data-s="S7" id="ft-S7" onclick="jumpToCard('S7')">With such an idea of God, nothing which they may attempt to offer in the way of worship or obedience can have any value in his sight, because it is not him they worship, but, instead of him, the dream and figment of their own heart.</span> <span class="ft-sent" data-s="S8" id="ft-S8" onclick="jumpToCard('S8')">This corrupt procedure is admirably described by Paul, when he says, that “thinking to be wise, they became fools” (Rom. 1:22).</span> <span class="ft-sent" data-s="S9" id="ft-S9" onclick="jumpToCard('S9')">He had previously said that “they became vain in their imaginations,” but lest any should suppose them blameless, he afterwards adds that they were deservedly blinded, because, not contented with sober inquiry, because, arrogating to themselves more than they have any title to do, they of their own accord court darkness, nay, bewitch themselves with perverse, empty show.</span> <span class="ft-sent" data-s="S10" id="ft-S10" onclick="jumpToCard('S10')">Hence it is that their folly, the result not only of vain curiosity, but of licentious desire and overweening confidence in the pursuit of forbidden knowledge, cannot be excused.</span>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Ten sentences. A statistic, a diagnosis, and Paul's signature at the bottom:</p><pre><code>[STATISTIC]   Seed sown in ALL → cherished by ~1/100 → matured by 0   (S1)
+[TWO ROADS]   superstition (some) / deliberate revolt (others)
+              → ALL degenerate; genuine godliness found NOWHERE       (S2)
+[NO ALIBI]    absurdity ≠ innocence — blindness travels with
+              pride and stubbornness                                  (S3)
+[MECHANISM]   instead of ascending, they measure God by themselves;
+              speculation replaces manifestation → a devised god      (S4~S5)
+[VERDICT]     the abyss is open: every step = headlong fall;
+              worship of a figment = zero value                       (S6~S7)
+[PAUL'S SEAL] Rom 1:21–22 — "wise" → fools; vain imaginations;
+              DESERVEDLY blinded; folly cannot be excused             (S8~S10)
+</code></pre><p><strong>Examiner's Eye:</strong> two trap fields today. First, S1's <strong>statistics ladder</strong> — sown in <em>all</em>, cherished by <em>scarcely one in a hundred</em>, matured in <em>not one</em>. An option saying "in a few the seed ripens into fruit" merges rungs two and three and dies on "not one in whom it grows to maturity." Zero means zero. Second, S3's <strong>pre-empted excuse</strong>: Calvin says <em>I mean NOT to insinuate that their absurdity frees them from guilt</em> — a double-negative minefield. Any option crediting Calvin with "the superstitious are too absurd to be blamed" reads the sentence exactly backwards. And keep the Feuerbach guardrail ready: Calvin says men fabricate gods; he never says God is therefore a fabrication. The seed is real — the harvest is what's corrupt.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">Sentence-by-Sentence Live Teaching (watch the stars)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Star scale: ★★★ exam-critical, conquer it. ★★ know the structure. ★ one point and move.</p><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Today's Point 1a — "so far is it from": the inversion that ends the harvest</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>But though experience testifies that a seed of religion is divinely sown in all, scarcely one in a hundred is found who cherishes it in his heart, and not one in whom it grows to maturity so far is it from yielding fruit in its season.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf">But though</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">experience testifies</span></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that a seed of religion</span><ul class="tr"><li><span class="leaf">is divinely sown in all</span></li></ul></li></ul></li></ul></li><li><span class="leaf">scarcely one in a hundred is found</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who cherishes it in his heart</span></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and not one</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in whom it grows to maturity</span></li></ul></li><li><span class="leaf">— <b>so far is it</b></span></li><li><span class="leaf">from yielding fruit in its season</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><strong>cherish</strong> — French cher &lt; Latin carus (dear) — hold dear, keep warm (소중히 기르다)</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><strong>be far from + V-ing</strong> = be nowhere near doing</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Experience shows that God plants a seed of religion in everyone, yet barely one person in a hundred actually nurtures it in the heart, and in no one does it ripen to maturity — so far does it fall short of bearing fruit in season.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li>experience testifies → experience shows</li><li>divinely sown → planted by God</li><li>cherishes it → nurtures it</li><li>grows to maturity → ripens to maturity</li><li>so far is it from yielding fruit → so far does it fall short of bearing fruit</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Today's Point 1b — the two roads, and the negative-fronting flip</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>Moreover, while some lose themselves in superstitious observances, and others, of set purpose, wickedly revolt from God, the result is that, in regard to the true knowledge of him, all are so degenerate, that in no part of the world can genuine godliness be found.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">Moreover, while</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">some</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and others</span></li></ul></li></ul></li><li><span class="leaf"><b>the result is that</b></span></li><li><span class="leaf">all are <b>so</b> degenerate</span></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">in no part of the world</span></li><li><span class="leaf"><b>can genuine godliness</b> be found</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><strong>superstition</strong> — super + stare — what "stands over" from fear; religion overgrown wild (미신)</li><li><strong>of set purpose</strong> — the purpose is set — fixed in advance; premeditation (고의로)</li><li><strong>degenerate</strong> — de + genus (stock) — bred away from the species-design (타락한)</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><strong>of set purpose</strong> = deliberately, with the purpose fixed in advance)</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Some get lost in superstition while others deliberately rebel against God, so that, when it comes to truly knowing him, everyone is so corrupted that genuine godliness cannot be found anywhere in the world.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li>superstitious observances → superstition</li><li>of set purpose → deliberately</li><li>wickedly revolt → rebel</li><li>so degenerate → so corrupted</li><li>in no part of the world → nowhere</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s2" title="2-star">★★</span><span class="s-label">"I mean not to insinuate" — the excuse pre-empted</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>In saying that some fall away into superstition, I mean not to insinuate that their excessive absurdity frees them from guilt; for the blindness under which they labour is almost invariably accompanied with vain pride and stubbornness.</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><strong>superstition</strong> — super + stare — what "stands over" from fear; religion overgrown wild (미신)</li><li><strong>insinuate</strong> — in + sinus (curve, fold) — slide it in by the curved path (넌지시 비추다)</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><strong>labour under</strong> = suffer from, be burdened by (we still say "labouring under a delusion")</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">When I say some fall into superstition, I don't mean to hint that their extreme foolishness clears them of guilt; the blindness they suffer from almost always comes with empty pride and stubbornness.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li>I mean not to insinuate → I don't mean to hint</li><li>excessive absurdity → extreme foolishness</li><li>frees them from guilt → clears them of guilt</li><li>blindness under which they labour → blindness they suffer from</li><li>vain pride → empty pride</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Today's Point 2 — "in this, that" + the emphatic do</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>Mingled vanity and pride appear in this, that when miserable men do seek after God, instead of ascending higher than themselves as they ought to do, they measure him by their own carnal stupidity, and, neglecting solid inquiry, fly off to indulge their curiosity in vain speculation.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">Mingled vanity and pride</span></li><li><span class="leaf"><b>appear in this,</b></span></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf">when miserable men <b>do seek</b> after God</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">instead of ascending higher than themselves</span></li><li><span class="leaf">as they ought to do</span></li></ul></li><li><span class="leaf">they <b>measure</b> him</span></li><li><span class="leaf">by their own carnal stupidity</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">neglecting solid inquiry</span></li></ul></li></ul></li><li><span class="leaf"><b>fly off</b></span></li><li><span class="leaf">to indulge their curiosity</span></li><li><span class="leaf">in vain speculation</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><strong>carnal</strong> — Latin caro/carnis (flesh) — carnivore, carnival, incarnation (육적인)</li><li><strong>stupidity</strong> — stupere = be stunned — NOT "low IQ"; the mind anesthetized (마비)</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Their mixed vanity and pride show up right here: when these wretched people do seek God, instead of rising above themselves as they should, they size him up by their own dull, fleshly minds and, skipping serious inquiry, dash off to feed their curiosity on empty speculation.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li>Mingled vanity → mixed vanity</li><li>appear in this, that → show up right here:</li><li>miserable men → wretched people</li><li>ascending higher than themselves → rising above themselves</li><li>measure him by their carnal stupidity → size him up by their dull, fleshly minds</li><li>fly off → dash off</li><li>vain speculation → empty speculation</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s1" title="1-star">★</span><span class="s-label">not A but B — the manifested versus the devised</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>Hence, they do not conceive of him in the character in which he is manifested, but imagine him to be whatever their own rashness has devised.</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><strong>rashness</strong> — rash = hasty, headlong in judgment (경솔)</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So they don't picture God as he actually reveals himself, but imagine him to be whatever their own recklessness has invented.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li>conceive of him → picture God</li><li>in the character in which he is manifested → as he actually reveals himself</li><li>rashness → recklessness</li><li>devised → invented</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the nominative absolute — "This abyss standing open"</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>This abyss standing open, they cannot move one footstep without rushing headlong to destruction.</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><strong>abyss</strong> — Greek a-byssos = no-bottom (심연)</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">With this bottomless pit lying open, they can't take a single step without plunging headlong to ruin.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li>abyss → bottomless pit</li><li>standing open → lying open</li><li>move one footstep → take a single step</li><li>rushing headlong to destruction → plunging headlong to ruin</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Today's Point 3 — the negative it-cleft, that omitted</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>With such an idea of God, nothing which they may attempt to offer in the way of worship or obedience can have any value in his sight, because it is not him they worship, but, instead of him, the dream and figment of their own heart.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">With such an idea of God</span></li><li><span class="leaf"><b>nothing</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which they may attempt to offer</span><ul class="tr"><li><span class="leaf">in the way of worship or obedience</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>can have any value</b> in his sight</span></li><li><span class="lab ph">이유절 (because)</span><span class="leaf">because</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>it is not him</b> <b>they worship</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that</span></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf">but</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">instead of him</span></li></ul></li></ul></li><li><span class="leaf">the dream and figment of their own heart</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><strong>figment</strong> — fingere (shape, mould) → fiction, feign, effigy — a moulded god (날조물)</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><strong>in the way of</strong> = by way of, under the heading of</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">With such a notion of God, nothing they try to offer as worship or obedience can count for anything in his eyes, because it isn't really him they worship but, in his place, the dream and fabrication of their own heart.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li>such an idea → such a notion</li><li>in the way of worship → as worship</li><li>have any value in his sight → count for anything in his eyes</li><li>figment → fabrication</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s1" title="1-star">★</span><span class="s-label">Paul's one-liner — Rom 1:22</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>This corrupt procedure is admirably described by Paul, when he says, that “thinking to be wise, they became fools” (Rom. 1:22).</p>
+</blockquote><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Paul describes this corrupt process perfectly when he says that, 'claiming to be wise, they became fools' (Rom. 1:22).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li>corrupt procedure → corrupt process</li><li>admirably described → describes perfectly</li><li>thinking to be wise → claiming to be wise</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the resumptive because — and "court darkness, nay, bewitch"</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p>He had previously said that “they became vain in their imaginations,” but lest any should suppose them blameless, he afterwards adds that they were deservedly blinded, because, not contented with sober inquiry, because, arrogating to themselves more than they have any title to do, they of their own accord court darkness, nay, bewitch themselves with perverse, empty show.</p>
+</blockquote><div class="syntax-holder"><p>The day's longest sentence.</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">He <b>had previously said</b></span></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">“they became vain in their imaginations,”</span></li></ul></li></ul><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf">but</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">목적절 (lest)</span><span class="leaf"><b>lest</b> any <b>should</b> suppose them blameless</span></li></ul></li></ul></li><li><span class="leaf">he afterwards adds</span></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">they were <b>deservedly</b> blinded</span></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>because,</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">not contented with sober inquiry</span></li></ul></li></ul></li><li><span class="leaf"><b>because,</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">arrogating to themselves</span></li><li><span class="leaf">more than they have any title to do</span></li></ul></li></ul></li><li><span class="leaf">they of their own accord</span></li><li><span class="leaf"><b>court darkness</b></span></li><li><span class="leaf"><b>nay</b>, bewitch themselves</span></li><li><span class="leaf">with perverse, empty show</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><strong>arrogate</strong> — ad + rogare (demand for oneself) — arrogant's verb-cousin (참칭하다)</li><li><strong>title</strong> — a deed, not a book title — "have any title to do" = have any right (권리)</li><li><strong>court</strong> — Day 08 repeat — suitors of darkness now, of numbness then (구애하다)</li><li><strong>nay</strong> — corrective escalator: upgrades the verb mid-sentence (아니, 오히려)</li><li><strong>bewitch</strong> — be + witch — self-enchantment here: reflexive (홀리다)</li><li><strong>show</strong> — empty spectacle, not a performance — "perverse, empty show" (허상)</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><strong>have any title to</strong> = have legal right to (TITLE is a trap word — a deed, a legal claim, not a book title)</li><li><strong>Of their own accord</strong> = voluntarily, unpushed — the legal point on which "deservedly" hangs</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">He had said earlier that 'they became futile in their thinking,' but so no one would think them innocent, he then adds that they were rightly blinded — because, not satisfied with sober inquiry and claiming more than they had any right to, they willingly court darkness and even bewitch themselves with twisted, empty illusion.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li>vain in their imaginations → futile in their thinking</li><li>lest any should suppose them blameless → so no one would think them innocent</li><li>deservedly blinded → rightly blinded</li><li>arrogating to themselves more than they have any title to → claiming more than they had any right to</li><li>of their own accord → willingly</li><li>perverse, empty show → twisted, empty illusion</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s2" title="2-star">★★</span><span class="s-label">"Hence it is that" — the appositive autopsy, then the gavel</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p>Hence it is that their folly, the result not only of vain curiosity, but of licentious desire and overweening confidence in the pursuit of forbidden knowledge, cannot be excused.</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><strong>overweening</strong> — over + ween (archaic: think) — thinking of oneself past the redline (자만)</li><li><strong>licentious</strong> — licentia — liberty abused into license (방종한)</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">That is exactly why their folly cannot be excused: it springs not just from idle curiosity but from unrestrained desire and overblown self-confidence in chasing forbidden knowledge.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li>Hence it is that → That is exactly why</li><li>vain curiosity → idle curiosity</li><li>licentious desire → unrestrained desire</li><li>overweening confidence → overblown self-confidence</li><li>pursuit of forbidden knowledge → chasing forbidden knowledge</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">Today&#x27;s Grammar Formulas (시험 직전 이것만)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>Formula 1 — front a negative/degree phrase → INVERT:</strong></p><pre><code>So far is S from V-ing ...        (degree fronting)
+In no part of the world CAN S be V-ed ...   (negative fronting)
+</code></pre><p>⚠️ The fronted element is the trigger; the auxiliary MUST precede the subject. A test item that fronts the negative but keeps straight order ("In no part of the world genuine godliness can be found") is the planted error. Also restore the idiom: <em>be far from V-ing</em> = be nowhere near doing.
+Drill: <em>So far is the natural man from seeking God that he flees the very light he was given.</em></p><p><strong>Formula 2 — cataphoric this + appositive that-clause:</strong></p><pre><code>S + V + in this, that S' + V'
+"Mingled vanity and pride appear in this, that ... they measure him by ..."
+</code></pre><p>⚠️ <em>This</em> points FORWARD; the <em>that</em>-clause is its content. Never read "this, that" as two demonstratives. Test: swap <em>this</em> → "the following." Bonus pattern inside: emphatic <em>do</em> (<em>when men DO seek after God</em>) — concession, not dummy.
+Drill: <em>The corruption of worship appears in this, that men offer to God what he never demanded.</em></p><p><strong>Formula 3 — negative it-cleft, that omitted:</strong></p><pre><code>it is not X (that) S + V, but Y
+"it is not him they worship, but ... the dream and figment of their own heart"
+</code></pre><p>⚠️ Restore the silent <em>that</em> and the base order: <em>S worships not X but Y</em>. The cleft spotlights the object; the negation says the spotlight found the wrong target. Cleft focus takes objective case (<em>him</em>, not <em>he</em>).
+Drill: <em>It is not the form of prayer God regards, but the heart of him who prays.</em></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">Vocabulary (어원 후킹 테이블)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cherish</td>
+<td>tend with care, nurture</td>
+<td>French <em>cher</em> &lt; Latin <em>carus</em> (dear) — hold dear, keep warm (소중히 기르다)</td>
+</tr>
+<tr>
+<td>superstition</td>
+<td>corrupted, excessive religion</td>
+<td>super + <em>stare</em> — what "stands over" from fear; religion overgrown wild (미신)</td>
+</tr>
+<tr>
+<td>of set purpose</td>
+<td>deliberately</td>
+<td>the purpose is <em>set</em> — fixed in advance; premeditation (고의로)</td>
+</tr>
+<tr>
+<td>degenerate</td>
+<td>fallen from one's kind</td>
+<td>de + <em>genus</em> (stock) — bred away from the species-design (타락한)</td>
+</tr>
+<tr>
+<td>insinuate</td>
+<td>suggest slyly, sideways</td>
+<td>in + <em>sinus</em> (curve, fold) — slide it in by the curved path (넌지시 비추다)</td>
+</tr>
+<tr>
+<td>labour under</td>
+<td>suffer from, be burdened by</td>
+<td>carry a load — still alive in "labouring under a delusion" (시달리다)</td>
+</tr>
+<tr>
+<td>carnal</td>
+<td>of the flesh</td>
+<td>Latin <em>caro/carnis</em> (flesh) — carnivore, carnival, incarnation (육적인)</td>
+</tr>
+<tr>
+<td>⚠️ stupidity</td>
+<td>numbness, torpor</td>
+<td><em>stupere</em> = be stunned — NOT "low IQ"; the mind anesthetized (마비)</td>
+</tr>
+<tr>
+<td>rashness</td>
+<td>reckless haste</td>
+<td>rash = hasty, headlong in judgment (경솔)</td>
+</tr>
+<tr>
+<td>abyss</td>
+<td>bottomless pit</td>
+<td>Greek <em>a-byssos</em> = no-bottom (심연)</td>
+</tr>
+<tr>
+<td>figment</td>
+<td>a thing fabricated</td>
+<td><em>fingere</em> (shape, mould) → fiction, feign, effigy — a moulded god (날조물)</td>
+</tr>
+<tr>
+<td>arrogate</td>
+<td>claim without right</td>
+<td>ad + <em>rogare</em> (demand for oneself) — arrogant's verb-cousin (참칭하다)</td>
+</tr>
+<tr>
+<td>⚠️ title</td>
+<td>legal right, claim</td>
+<td>a deed, not a book title — "have any title to do" = have any right (권리)</td>
+</tr>
+<tr>
+<td>of one's own accord</td>
+<td>voluntarily</td>
+<td>ac + <em>cor</em> (heart) — from one's own heart, unpushed (자발적으로)</td>
+</tr>
+<tr>
+<td>⚠️ court</td>
+<td>woo, eagerly seek</td>
+<td>Day 08 repeat — suitors of darkness now, of numbness then (구애하다)</td>
+</tr>
+<tr>
+<td>nay</td>
+<td>no — rather, say more</td>
+<td>corrective escalator: upgrades the verb mid-sentence (아니, 오히려)</td>
+</tr>
+<tr>
+<td>bewitch</td>
+<td>cast a spell on</td>
+<td>be + witch — self-enchantment here: reflexive (홀리다)</td>
+</tr>
+<tr>
+<td>⚠️ overweening</td>
+<td>arrogantly self-confident</td>
+<td>over + <em>ween</em> (archaic: think) — thinking of oneself past the redline (자만)</td>
+</tr>
+<tr>
+<td>licentious</td>
+<td>unrestrained</td>
+<td><em>licentia</em> — liberty abused into license (방종한)</td>
+</tr>
+<tr>
+<td>⚠️ show</td>
+<td>display, illusion</td>
+<td>empty spectacle, not a performance — "perverse, empty show" (허상)</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>The doctrine at stake: what sin does to knowing.</strong> Chapter 3 established the <em>semen religionis</em> — the seed of religion sown in all. Chapter 4 is the failure analysis: the seed is universal, the harvest is zero. Theologians call this the <strong>noetic effect of sin</strong> — sin corrupts not just the will but the knowing apparatus itself. Watch Calvin's precision: the corruption is not that men STOP being religious (they're incurably religious — that was Chapter 3) but that their religiosity <em>malfunctions</em>: it fabricates its object. Universal religion plus universal idolatry, both at once, and both from the same seed.</p><p><strong>The projection mechanism — Feuerbach, three centuries early.</strong> In 1841 Ludwig Feuerbach argued that God is a projection: man takes his own qualities, blows them up to infinity, and calls the result "God." Look back at S4–S7: men <em>measure God by their own carnal stupidity</em>... <em>imagine him to be whatever their own rashness has devised</em>... worship <em>the dream and figment of their own heart</em>. That IS projection theory — described, dissected, and condemned in 1559. The difference is the direction of the argument. Feuerbach: projection explains religion away. Calvin: projection is what FALLEN religion does with a REAL seed and a REAL God. The fabrication presupposes the sense it corrupts. Same data, opposite verdicts — and an exam-grade distinction.</p><p><strong>The anti-speculation principle.</strong> Underline S5's antithesis: God must be conceived <em>in the character in which he is manifested</em> — not as rashness devises him. This is Calvin's standing rule, already met on Day 05 (<em>qualis</em>, not <em>quid</em> — what God is LIKE toward us, not what he is in himself): God is known only as he gives himself to be known. Note also that Calvin twice salutes the road not taken — <em>solid inquiry</em>, <em>sober inquiry</em>. He is not anti-reason; he is anti-UNMOORED reason. The medieval moralists had a name for the disease: <em>curiositas</em> — Augustine anatomized it (Confessions 10), Aquinas filed it opposite <em>studiositas</em> (honest study). Calvin's <em>vain curiosity ... in the pursuit of forbidden knowledge</em> (S10) stands squarely in that lineage.</p><p><strong>Where it goes from here.</strong> S7's bomb — worship valued by its object, not its sincerity — detonates fully in I.11–12, where Calvin (there, not here — don't pre-quote it) calls the human mind a perpetual workshop of idols. And in the 20th century this chapter became a battlefield: <strong>Barth</strong> read Calvin's "all are so degenerate" as ammunition against ALL natural theology (his thunderous <em>Nein!</em> to <strong>Brunner</strong>, 1934); Brunner answered that the seed survives as a "point of contact" for the gospel. Both were quoting this page. Guardrail as always: §1 itself claims less than either combatant — the seed is real, the corruption is total <em>in regard to the true knowledge of him</em>, and the purpose of the wreckage is inexcusability. Don't make Calvin say more.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li><strong>Romans 1:22 — quoted in S8.</strong> <em>“thinking to be wise, they became fools”</em> — Greek φάσκοντες εἶναι σοφοὶ ἐμωράνθησαν (<em>phaskontes einai sophoi emōranthēsan</em>): "asserting themselves to be wise, they were made morons" — <em>emōranthēsan</em>, from <em>mōros</em>, the root of "moron." Calvin uses Paul as the expert witness who already wrote the autopsy of S4–S7.</li>
+<li><strong>Romans 1:21 — quoted in S9.</strong> <em>“they became vain in their imaginations”</em> — ἐματαιώθησαν ἐν τοῖς διαλογισμοῖς αὐτῶν (<em>emataiōthēsan en tois dialogismois autōn</em>): "they were emptied-out in their reasonings." <em>Mataios</em> = empty, futile — the LXX's word-family for Ecclesiastes' <em>hebel</em> (vapor). The whole of §1 is effectively a sermon on Romans 1:18–23: Calvin's "vain speculation," "vanity," "vain curiosity" all ring this one Greek bell.</li>
+<li><strong>Psalm 1:3 — echoed in S1.</strong> <em>"fruit in its season"</em> — the righteous man is a tree <em>"that bringeth forth his fruit in his season"</em> (Hebrew פִּרְיוֹ בְּעִתּוֹ, <em>piryô bə'ittô</em>). Calvin borrows the Psalm's harvest-test and reports that the seed of religion never reaches it: not one in whom it grows to maturity.</li>
+<li><strong>The Parable of the Sower (Matt. 13:3–23) — structuring S1.</strong> Seed sown broadcast, choked or withered in nearly all soils, fruitful in few — Calvin's statistics ladder (all → one in a hundred → none to maturity) runs the parable's logic, then tightens it: by nature, NO soil ripens this seed.</li>
+<li><strong>Jeremiah 23:26 (cf. Jer. 2:5) — behind S7.</strong> Prophets who prophesy <em>"the deceit of their own heart"</em> — Calvin's <em>"the dream and figment of their own heart"</em> transfers Jeremiah's indictment of false prophecy to all self-made worship; and behind S5's "devised" god stands the idol-fabrication satire of Isaiah 44:9–20: the workman who carves and then worships. How Calvin uses Scripture today: not as proof-texts bolted on, but as the very vocabulary his analysis is built from — Paul gives the mechanism, the Psalmist the harvest-test, the prophets the manufacturing imagery.</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>문제 ① 어법 — 밑줄 친 부분 중 틀린 것은?</strong></p><blockquote>
+<p>(A) <em>In no part of the world genuine godliness can be found</em>, for when men (B) <em>do seek</em> after God, (C) <em>it is not him they worship</em> but (D) <em>the figment of their own heart</em>.</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: (A).</strong> Fronted negative (<em>In no part of the world</em>) demands subject–auxiliary inversion: <em>can genuine godliness be found</em>. (B) is the emphatic <em>do</em> of S4 — correct. (C) is the it-cleft with omitted <em>that</em> — correct as it stands. (D) completes the <em>not X but Y</em> frame — correct. 출제 의도: Formula 1의 도치 강제 — 부정어 전치 후 평서 어순이 오늘의 단골 함정.</p><p><strong>문제 ② 내용일치 — §1과 일치하는 것은?</strong></p><p>(A) Calvin grants that the sheer absurdity of superstition lessens the guilt of those who practise it.
+(B) Though the seed of religion is sown in all, in a few it ripens into mature fruit in its season.
+(C) Worship offered to a god measured by human fancy is worthless, because its object is not God but a figment of the heart.
+(D) Paul teaches that the heathen were blinded against their will, and are therefore blameless.</p><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: (C)</strong> — S7 그대로: 예배의 가치는 대상이 결정한다. (A)는 S3의 방향 뒤집기 — <em>I mean NOT to insinuate that their excessive absurdity frees them from guilt</em>. (B)는 S1의 사다리 함정 — cherish는 1/100이지만 maturity는 <em>not one</em>, 0명. (D)는 S9 뒤집기 — <em>deservedly</em> blinded, <em>of their own accord</em>: 자발적이므로 유죄. 출제 의도: 이중부정(S3)과 통계 사다리(S1)를 정확히 풀어냈는지.</p><p><strong>문제 ③ 영작 — Formula 3 적용.</strong></p><p>"사람들이 경배하는 것은 하나님이 아니라 그들 자신의 마음이 빚어낸 꿈이다" — negative it-cleft로, <em>that</em> 생략형으로 옮겨라.</p><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>모범답안:</strong> <em>It is not God they worship, but the dream fashioned by their own heart.</em>
+출제 의도: 부정 분열문에서 초점(목적어)을 <em>it is not X</em> 자리에 올리고 관계사를 생략하는 것, 그리고 <em>but</em> 뒤에 대조 초점을 두는 것. <em>It is not God that they worship...</em> 도 정답; 어순을 <em>They do not worship God but...</em> 으로 풀면 분열문 미적용으로 감점.</p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary:</strong> The seed of religion is sown in all but matures in none — for fallen men, even when they DO seek God, measure him by themselves and worship the figment they fabricate, deservedly and inexcusably; and you now own the inversion twins (<em>so far is it from / in no part can</em>), the cataphoric <em>in this, that</em>, and the negative it-cleft (<em>it is not him they worship</em>).</p><p><strong>Homework (10 min):</strong></p><ol>
+<li><strong>Structure restoration:</strong> Rewrite S1's final clause in base order (start: <em>it is so far from...</em>), then rewrite S2's <em>in no part of the world can genuine godliness be found</em> in base order — and state what triggered each inversion.</li>
+<li><strong>Composition:</strong> Using Formula 2, write one sentence: "인간의 교만은 이것에서 드러난다 — 하나님을 자기 척도로 잰다는 것" (<em>Human pride appears in this, that...</em>).</li>
+<li><strong>Preview:</strong> Tomorrow is I.4.§2 — David's fool says in his heart, <em>There is no God</em> — and Calvin shows the denial is moral before it is intellectual: atheism as wish, not conclusion. First words: "The expression of David..."</li>
+</ol><p><strong>Where we stopped:</strong> Book 1, Ch. 4, §1 끝. 다음은 Book 1, Ch. 4, §2 (Day 10).</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
