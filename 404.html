@@ -5,6 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>페이지를 찾을 수 없습니다 · 한마음침례교회</title>
 <meta name="robots" content="noindex">
+<script>
+/* 칼빈 레슨 주소 대소문자 자동 교정 (Netlify는 대소문자 무시했으나 GitHub Pages는 구분 →
+   예전 즐겨찾기 day05_book1-ch2-§2 를 Day05_Book1-Ch2-§2.html 로 되살림) */
+(function(){
+  try{
+    var p = decodeURIComponent(location.pathname);
+    var m = p.match(/^(.*\/calvin\/html\/)(.+?)(\.html?)?$/i);
+    if(!m) return;
+    var mm = m[2].match(/^day\s*0*(\d+)_book\s*(\d+)-ch\s*(\d+)-§?\s*(.+)$/i);
+    if(!mm) return;
+    var day = mm[1].length < 2 ? ('0'+mm[1]).slice(-2) : mm[1];
+    var target = m[1] + 'Day'+day+'_Book'+mm[2]+'-Ch'+mm[3]+'-§'+mm[4] + '.html';
+    if(target !== p){ location.replace(target + location.hash); }
+  }catch(e){}
+})();
+</script>
 <link rel="icon" type="image/png" href="/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
