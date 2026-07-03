@@ -499,9 +499,11 @@
       </div>
 
       <p class="form-sub">문의 남기기 · Leave a Message</p>
-      <form name="newcomer" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form" id="newcomerForm">
-        <input type="hidden" name="form-name" value="newcomer">
-        <p class="hp"><label>이 칸은 비워두세요 <input name="bot-field"></label></p>
+      <form name="newcomer" class="contact-form" id="newcomerForm">
+        <input type="hidden" name="_subject" value="[한마음교회] 새가족 문의">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <p class="hp"><label>이 칸은 비워두세요 <input name="_honey"></label></p>
         <div class="field">
           <label for="nm">이름 · Name</label>
           <input id="nm" type="text" name="name" required>
@@ -565,16 +567,21 @@
   else { fetch('sermons.json').then(r=>r.json()).then(showWeek).catch(weekErr); }
   setupBiEn();
 
-  // 새가족 문의 폼: 페이지 이동 없이 접수 (Netlify Forms)
+  // 새가족 문의 폼: 페이지 이동 없이 접수 (Formsubmit → 교회 이메일 전송)
   var nf = document.getElementById('newcomerForm');
   if(nf){
     nf.addEventListener('submit', function(e){
       e.preventDefault();
-      var body = new URLSearchParams(new FormData(nf)).toString();
       var msg = document.getElementById('formMsg');
-      fetch('/', { method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded'}, body: body })
+      msg.textContent = '보내는 중… · Sending…';
+      fetch('https://formsubmit.co/ajax/anomer0326@gmail.com', {
+        method:'POST',
+        headers:{'Content-Type':'application/x-www-form-urlencoded','Accept':'application/json'},
+        body: new URLSearchParams(new FormData(nf)).toString()
+      })
+        .then(function(r){ if(!r.ok) throw new Error('http'); return r.json(); })
         .then(function(){ nf.reset(); msg.textContent = '접수되었습니다. 곧 연락드리겠습니다. · Received — we will contact you soon.'; })
-        .catch(function(){ msg.textContent = '전송에 실패했습니다. 전화나 이메일로 연락 주세요. · Could not send — please call or email us.'; });
+        .catch(function(){ msg.textContent = '전송에 실패했습니다. 전화 404-641-4285 로 연락 주세요. · Could not send — please call 404-641-4285.'; });
     });
   }
 
