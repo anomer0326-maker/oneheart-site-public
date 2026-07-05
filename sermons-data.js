@@ -7,6 +7,348 @@ window.SERMONS_DATA = {
   },
   "sermons": [
     {
+      "id": "2026-07-05",
+      "date": "2026-07-05",
+      "title_ko": "하나님을 알라",
+      "title_en": "Know God",
+      "scripture_ref_ko": "예레미야 9:23-24 · 사도행전 17:27-28",
+      "scripture_ref_en": "Jeremiah 9:23-24 · Acts 17:27-28",
+      "preacher_ko": "유병훈 목사",
+      "preacher_en": "Rev. Byong H. Yoo",
+      "series": "",
+      "scripture_text": [
+        {
+          "ko": "자랑하는 자는 이것으로 자랑할찌니 곧 명철하여 나를 아는 것과 나 여호와는 인애와 공평과 정직을 땅에 행하는 자인줄 깨닫는 것이라 (예레미야 9:24)",
+          "en": "“But let him who boasts boast in this, that he understands and knows me, that I am the LORD who practices steadfast love, justice, and righteousness in the earth.” (Jeremiah 9:24)"
+        }
+      ],
+      "slides": [
+        {
+          "type": "title",
+          "title_ko": "하나님을 알라",
+          "title_en": "Know God",
+          "ref_ko": "예레미야 9:23-24",
+          "ref_en": "Jeremiah 9:23-24",
+          "preacher_ko": "유병훈 목사",
+          "preacher_en": "Rev. Byong H. Yoo",
+          "date": "2026-07-05"
+        },
+        {
+          "type": "question",
+          "label_ko": "서론",
+          "label_en": "Introduction",
+          "ko": "우리는 세상 모든 것을 볼 수 있어도, 정작 나 자신은 보지 못합니다. 참된 지혜는 두 가지로 이루어집니다 — 하나님을 아는 것과 나를 아는 것입니다.",
+          "en": "We can see everything in the world, yet cannot see our own selves. True wisdom is made of two parts — knowing God and knowing ourselves."
+        },
+        {
+          "type": "bigidea",
+          "label_ko": "중심 진리",
+          "label_en": "BIG IDEA",
+          "ko": "우리는 하나님을 비추는 거울입니다. 그러나 죄가 그 거울을 흐리게 했기에, 오직 위로부터 비추셔야 맑아집니다.",
+          "en": "We are mirrors made to reflect God. But sin has clouded the mirror, so it is made clean only when the light shines from above.",
+          "left_ko": "나를 보면",
+          "left_en": "Look at myself",
+          "left_desc_ko": "내가 무엇을 반사하도록 지어졌는지, 그 원본이신 하나님이 드러납니다.",
+          "left_desc_en": "What I was made to reflect — God the original — is revealed.",
+          "right_ko": "하나님을 보면",
+          "right_en": "Look at God",
+          "right_desc_ko": "내가 얼마나 흐려지고 금이 간 거울인지 비로소 알게 됩니다. 이 둘은 서로를 비춥니다.",
+          "right_desc_en": "I finally see how clouded and cracked a mirror I am. The two reflect each other."
+        },
+        {
+          "type": "point",
+          "label_ko": "대지 1",
+          "label_en": "FIRST",
+          "ko": "나를 알수록, 하나님을 찾게 됩니다.",
+          "en": "The more I know myself, the more I seek God.",
+          "sub_ko": "내 밑천이 바닥나는 자리가 저주가 아니라, 하나님을 향한 첫걸음입니다. 빈 웅덩이가 깊을수록 생수의 근원이신 하나님이 더 크게 보입니다.",
+          "sub_en": "The place where my resources run dry is not a curse but the first step toward God. The deeper the empty cistern, the greater God — the fountain of living water — appears."
+        },
+        {
+          "type": "scripture",
+          "ref_ko": "고린도전서 4:7",
+          "ref_en": "1 Corinthians 4:7",
+          "ko": "네게 있는 것 중에 받지 아니한 것이 무엇이냐",
+          "en": "What do you have that you did not receive?"
+        },
+        {
+          "type": "point",
+          "label_ko": "대지 2",
+          "label_en": "SECOND",
+          "ko": "하나님을 알수록, 나를 바로 보게 됩니다.",
+          "en": "The more I know God, the more rightly I see myself.",
+          "sub_ko": "나를 잴 기준은 내 안에 없고 오직 하나님이십니다. 그 거룩하신 빛 앞에 서면 ‘내 안에 선한 것이 없다’는 가장 정직한 고백이 터져 나옵니다.",
+          "sub_en": "The standard to measure me is not in me but in God alone. Before his holy light bursts the most honest confession — ‘there is no good in me.’"
+        },
+        {
+          "type": "scripture",
+          "ref_ko": "로마서 7:18",
+          "ref_en": "Romans 7:18",
+          "ko": "내 속 곧 내 육신에 선한 것이 거하지 아니하는 줄을 아노니",
+          "en": "I know that nothing good dwells in me, that is, in my flesh."
+        },
+        {
+          "type": "point",
+          "label_ko": "대지 3",
+          "label_en": "THIRD",
+          "ko": "참으로 아는 지식은, 은혜의 삶으로 열매 맺습니다.",
+          "en": "Knowledge that truly knows bears fruit in a life of grace.",
+          "sub_ko": "참된 지식은 정보가 아니라 관계입니다. 그 은혜를 아는 사람의 삶에는 세 가지가 나타납니다 — 겸손, 감사, 그리고 주님께 전적으로 의지함입니다.",
+          "sub_en": "True knowledge is not information but relationship. Three things appear in the life of one who knows grace — humility, gratitude, and total dependence on the Lord."
+        },
+        {
+          "type": "scripture",
+          "ref_ko": "요한복음 15:5",
+          "ref_en": "John 15:5",
+          "ko": "나는 포도나무요 너희는 가지라 … 나를 떠나서는 너희가 아무것도 할 수 없음이라",
+          "en": "I am the vine; you are the branches … for apart from me you can do nothing."
+        },
+        {
+          "type": "bigidea",
+          "label_ko": "복음의 순서",
+          "label_en": "THE GOSPEL ORDER",
+          "ko": "내 안에 의가 없다면, 그 의는 밖에서 주어져야 합니다. 십자가는 그 의를 이루셨고, 그리스도와의 연합은 그 의를 내게 가져옵니다.",
+          "en": "If there is no righteousness in me, it must be given from outside. The cross accomplished that righteousness, and union with Christ brings it to me.",
+          "left_ko": "십자가의 칭의",
+          "left_en": "Justification of the cross",
+          "left_desc_ko": "그리스도께서 우리를 위해 완전한 의를 이루셨습니다 (고후 5:21). 이 의 없이는 붙을 자리조차 없습니다.",
+          "left_desc_en": "On the cross Christ accomplished a perfect righteousness for us (2 Cor 5:21). Without it there is no place even to be joined.",
+          "right_ko": "그리스도와의 연합",
+          "right_en": "Union with Christ",
+          "right_desc_ko": "그리스도께 접붙여짐으로 그 의가 내 것이 됩니다. 내 안에 선한 것이 없기에, 이제 나의 모든 것은 은혜입니다.",
+          "right_desc_en": "By being grafted into Christ, that righteousness becomes mine. Because there is no good in me, now everything I have is grace."
+        },
+        {
+          "type": "conclusion",
+          "label_ko": "결론",
+          "label_en": "Conclusion",
+          "ko": "하나님을 알 때 내가 보이고, 내가 보일 때 은혜가 보이고, 은혜가 보일 때 그리스도가 나의 생명이 됩니다.",
+          "en": "When we know God we see ourselves; when we see ourselves we see grace; and when we see grace, Christ becomes our life.",
+          "sub_ko": "내 안에 선한 것이 없습니다 — 그러나 내 안에 그리스도께서 계십니다. 나는 아무것도 아니나, 그리스도는 나의 모든 것입니다.",
+          "sub_en": "There is no good in me — but Christ is in me. I am nothing, but Christ is my everything."
+        },
+        {
+          "type": "scripture",
+          "ref_ko": "고린도후서 5:21",
+          "ref_en": "2 Corinthians 5:21",
+          "ko": "하나님이 죄를 알지도 못하신 이를 우리를 대신하여 죄로 삼으신 것은 우리로 하여금 그 안에서 하나님의 의가 되게 하려 하심이라",
+          "en": "For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God."
+        },
+        {
+          "type": "blessing",
+          "ko": "하나님을 떠나서는 허무했던 우리가 그리스도께 연합되어 그분의 의를 옷 입고, 겸손과 감사와 의존으로 날마다 그 포도나무에 붙은 가지로 살아가시기를, 우리 주 예수 그리스도의 이름으로 축원합니다.",
+          "en": "May you who were empty apart from God, now joined to Christ and clothed in his righteousness, live day by day as branches attached to the vine — in humility, gratitude, and dependence — this I bless you, in the name of our Lord Jesus Christ."
+        }
+      ],
+      "body": [
+        {
+          "ko": "부제: 하나님을 떠나서는 허무한 실상, 그러나 그리스도 안에서 나의 모든 것",
+          "en": "Subtitle: Apart from God, an empty reality; but in Christ, my everything."
+        },
+        {
+          "ko": "여호와께서 이같이 말씀하시되 지혜로운 자는 그 지혜를 자랑치 말라 용사는 그 용맹을 자랑치 말라 부자는 그 부함을 자랑치 말라 자랑하는 자는 이것으로 자랑할찌니 곧 명철하여 나를 아는 것과 나 여호와는 인애와 공평과 정직을 땅에 행하는 자인줄 깨닫는 것이라 나는 이 일을 기뻐하노라 여호와의 말이니라 (예레미야 9:23–24)",
+          "en": "Thus says the LORD: “Let not the wise man boast in his wisdom, let not the mighty man boast in his might, let not the rich man boast in his riches; but let him who boasts boast in this, that he understands and knows me, that I am the LORD who practices steadfast love, justice, and righteousness in the earth. For in these things I delight, declares the LORD.” (Jeremiah 9:23–24)"
+        },
+        {
+          "ko": "중심 명제: 우리는 하나님을 바로 알기 전까지 나를 바로 알 수 없고, 나를 바로 알기 전까지 은혜를 참으로 붙들 수 없습니다. 하나님 앞에서 드러난 나의 실상은 절망이 아니라, 은혜가 시작되는 자리입니다.",
+          "en": "Central thesis: Until we rightly know God we cannot rightly know ourselves, and until we rightly know ourselves we cannot truly lay hold of grace. The true state of ourselves, exposed before God, is not a place of despair but the place where grace begins."
+        },
+        {
+          "ko": "서론 — 우리는 자기를 안다고 착각합니다",
+          "en": "Introduction — We Imagine That We Know Ourselves",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 사람은 평생 자기를 안다고 생각하며 살아갑니다. 나는 이런 사람이다, 나는 이만큼 살아왔다, 나는 이 정도는 선하다, 그래도 믿음으로 버텨왔다 — 이렇게 우리는 자기 자신을 아주 잘 안다고 확신합니다.",
+          "en": "Beloved brothers and sisters, people go through life thinking they know themselves. “I am this kind of person; I have lived this much; I am at least this good; and I have held on by faith” — in this way we are certain that we know ourselves very well."
+        },
+        {
+          "ko": "그런데 참 이상한 일이 있습니다. 우리는 세상 모든 것을 다 볼 수 있어도, 딱 하나 볼 수 없는 것이 있습니다. 바로 자기 자신입니다. 내 눈은 다른 모든 것을 보지만 정작 나 자신은 보지 못합니다. 그래서 거울이 있어야 내 얼굴을 봅니다. 마음도 똑같습니다. 우리는 내 마음을 가장 잘 안다고 생각하지만, 사실은 내 마음이야말로 내가 가장 모르는 것일 수 있습니다. 성경은 말씀하십니다. \"만물보다 거짓되고 심히 부패한 것은 마음이라 누가 능히 이를 알리요\"(렘 17:9). 그렇습니다. 우리에게는 나를 비춰 줄 거울이 필요합니다.",
+          "en": "Yet there is a truly strange thing. We can see everything in the world, but there is one thing we cannot see — our very own selves. My eyes see everything else, but they cannot see me. That is why I need a mirror to see my own face. The heart is the same. We think we know our own heart best, but in fact our heart may be the very thing we know least. Scripture says, “The heart is deceitful above all things, and desperately sick; who can understand it?” (Jer 17:9). Yes — we need a mirror to reflect ourselves."
+        },
+        {
+          "ko": "그런데 신앙의 길에는 우리가 깊이 생각해 보아야 할 진실이 있습니다. 참으로 깊고 단단한 지혜는 두 가지로 이루어져 있다는 것입니다. 하나는 하나님을 아는 것이고, 다른 하나는 나 자신을 아는 것입니다. 그리고 이 둘은 도무지 떼어 놓을 수 없습니다. 하나님을 알지 못하면 인간은 자기 자신도 알지 못하고, 자기를 알지 못하면 하나님도 바로 알지 못한다는 것입니다.",
+          "en": "But on the path of faith there is a truth we must ponder deeply: that truly deep and solid wisdom is made of two parts. One is the knowledge of God, and the other is the knowledge of ourselves. And these two can never be pulled apart. Without knowing God a person cannot know himself, and without knowing himself he cannot rightly know God."
+        },
+        {
+          "ko": "여기서 먼저 물어야 할 것이 있습니다. 하나님은 저 높은 곳에 계시고 나는 여기 낮은 땅에 있는데, 어째서 하나님을 알아야 내가 보이고, 나를 들여다보면 하나님이 떠오른다는 것입니까? 그 답은 성경의 맨 첫 장에 있습니다. 사람은 하나님의 형상을 따라 지어졌기 때문입니다. \"하나님이 자기 형상 곧 하나님의 형상대로 사람을 창조하시되\"(창 1:27).",
+          "en": "Here we must first ask: God is up on high and I am here on the low earth — so why is it that I must know God in order to see myself, and that looking into myself brings God to mind? The answer is on the very first page of Scripture: because man was made in the image of God. “So God created man in his own image, in the image of God he created him” (Gen 1:27)."
+        },
+        {
+          "ko": "오해하지 마십시오. 하나님은 영이시라 형태가 없으십니다. 그러니 형상이란 하나님의 생김새를 복제했다는 말이 결코 아닙니다. 이것은 거울의 이치입니다. 거울은 빛의 모양을 가지지 않으면서도 빛을 비춥니다. 우리도 그렇습니다. 우리는 하나님의 모양을 복제한 것이 아니라, 그분의 성품과 다스림과 사랑을 반사하도록 지어진 존재입니다. 한마디로, 우리는 하나님을 비추는 거울인 것입니다.",
+          "en": "Do not misunderstand. God is spirit and has no form, so “image” never means that we are copies of God's appearance. It is the principle of a mirror. A mirror reflects light without possessing the shape of light. So it is with us. We are not copies of God's form; we are beings made to reflect his character, his rule, and his love. In a word, we are mirrors that reflect God."
+        },
+        {
+          "ko": "그러나 반드시 기억해야 할 것이 있습니다. 우리의 죄가 이 거울을 깨뜨렸다는 것입니다. 죄로 말미암아 이 거울이 뿌옇게 흐려지고 금이 갔습니다. 그래서 우리는 말씀과 성령의 빛 앞에 서기 전까지, 하나님도 바로 볼 수 없고 나 자신도 바로 볼 수 없게 된것입니다. 이것은 우리 힘으로 닦을 수 있는 지저분함이 아닙니다. 이것은 오직 위로부터 비추어 주셔야만 깨끗하여 지기 때문입니다.",
+          "en": "But there is something we must always remember: our sin has shattered this mirror. Through sin this mirror has grown clouded and cracked. So until we stand before the light of the Word and the Spirit, we can neither see God rightly nor see ourselves rightly. This is not a grime we can scrub off by our own strength; it can be made clean only when the light shines from above."
+        },
+        {
+          "ko": "바로 여기서 두 지식이 하나로 묶입니다. 나를 정직하게 들여다보면 내가 무엇을 반사하도록 지어졌는지, 그 원본이신 하나님이 드러납니다. 반대로 그 원본이신 하나님을 우러러보면, 그제서야 내가 얼마나 흐려지고 금이 간 거울인지 비로소 알게 됩니다. 나를 보면 하나님이 보이고, 하나님을 보면 내가 보입니다. 이 둘은 서로를 비춥니다.",
+          "en": "Right here the two kinds of knowledge are bound into one. When I look honestly into myself, what I was made to reflect — God, the original — is revealed. Conversely, when I look up to God the original, only then do I finally see how clouded and cracked a mirror I am. Look at myself and I see God; look at God and I see myself. The two reflect each other."
+        },
+        {
+          "ko": "그런데 성경은 이 모든 것을 한 구절에 담아 우리에게 도전합니다. 오늘 본문 예레미야의 말씀입니다. \"여호와께서 이같이 말씀하시되 지혜로운 자는 그 지혜를 자랑치 말라 용사는 그 용맹을 자랑치 말라 부자는 그 부함을 자랑치 말라 자랑하는 자는 이것으로 자랑할찌니 곧 명철하여 나를 아는 것과 나 여호와는 인애와 공평과 정직을 땅에 행하는 자인줄 깨닫는 것이라 나는 이 일을 기뻐하노라 여호와의 말이니라\"(렘 9:23–24).이라는 말씀입니다. 사람이 자기를 자랑할 때 붙드는 세 가지가 있습니다. 지혜, 용맹, 부입니다. \"나는 안다. 나는 할 수 있다. 나는 가졌다.\" 그렇게 사람은 자랑하기 때문입니다. 그러나 하나님은 그 모든 자랑을 내려놓으라 하십니다. 오직 자랑할 것은 여호와를 아는 것이기 때문입니다. 하나님을 알기 전까지 인간은 자기 지혜도, 자기 힘도, 자기 소유도 바르게 알지 못합니다.",
+          "en": "And Scripture packs all of this into a single verse and challenges us — today's text from Jeremiah: “Thus says the LORD: Let not the wise man boast in his wisdom, let not the mighty man boast in his might, let not the rich man boast in his riches; but let him who boasts boast in this, that he understands and knows me... For in these things I delight, declares the LORD” (Jer 9:23–24). There are three things people cling to when they boast of themselves: wisdom, might, and riches. “I know. I can. I have.” That is how people boast. But God tells us to lay down all such boasting, for the only thing to boast in is knowing the LORD. Until a person knows God, he cannot rightly know even his own wisdom, his own strength, or his own possessions."
+        },
+        {
+          "ko": "그러니 오늘 이 말씀은 우리를 무너뜨리려는 말씀이 아닙니다. 우리를 진짜 은혜의 자리로 데려가려는 말씀입니다. \"여호와를 경외하는 것이 지혜의 근본이요 거룩하신 자를 아는 것이 명철이니라\"(잠 9:10). 오늘 우리는 이 두 가지 지혜를 따라, 마침내 십자가의 은혜에 이르는 길을 함께 살펴 보도록 하겠습니다.",
+          "en": "So today's word is not meant to tear us down. It is meant to carry us to the true place of grace. “The fear of the LORD is the beginning of wisdom, and the knowledge of the Holy One is insight” (Prov 9:10). Today, following these two kinds of wisdom, let us look together at the road that finally leads to the grace of the cross."
+        },
+        {
+          "ko": "대지 1. 나를 알수록, 하나님을 찾게 됩니다",
+          "en": "Point 1. The More I Know Myself, the More I Seek God",
+          "section": true
+        },
+        {
+          "ko": "먼저 내가 나 자신을 정직하게 들여다볼 때, 그 시선은 반드시 하나님이 계신 위를 향하게 된다는 사실입니다.",
+          "en": "First, this truth: when I look honestly into myself, that gaze is inevitably turned upward, toward where God is."
+        },
+        {
+          "ko": "사람은 배부르고 만족할 때에는 좀처럼 하나님을 찾지 않습니다. 오히려 내 힘으로 도무지 안 되는 순간, 내 밑천이 바닥나는 순간에야 비로소 고개를 듭니다. 탕자를 생각해 보십시오. 그는 아버지의 집을 떠나 모든 것을 탕진하고, 돼지가 먹는 쥐엄 열매로 배를 채우려 했습니다. 바로 그 밑바닥에서 그는 \"스스로 돌이켜\" 아버지를 떠올렸습니다. \"내가 일어나 아버지께 가서 이르기를 아버지여 내가 하늘과 아버지께 죄를 얻었사오니 지금부터는 아버지의 아들이라 일컬음을 감당치 못하겠나이다 나를 품군의 하나로 보소서 하리라 하고\"(눅 15:18,19). 그렇습니다 이 탕자에게 결핍은 저주가 아니라, 하나님을 향한 첫걸음이 되었던 것입니다.",
+          "en": "People rarely seek God when they are full and satisfied. Rather, it is only at the moment when nothing works by my own strength, the moment my resources run dry, that we finally lift our heads. Think of the prodigal son. He left his father's house, squandered everything, and tried to fill his belly with the pods the pigs ate. At that very bottom he “came to himself” and remembered his father: “I will arise and go to my father, and I will say to him, Father, I have sinned against heaven and before you. I am no longer worthy to be called your son. Treat me as one of your hired servants” (Luke 15:18–19). Yes — for this prodigal, lack was not a curse but the first step toward God."
+        },
+        {
+          "ko": "정직하게 따져 보십시오. 내가 \"내 것\"이라고 부르는 것 가운데 원래부터 내게서 난 것이 하나라도 있습니까? 나의 재능도, 건강도, 성취도, 심지어 지금 내쉬는 숨 한 숨조차 하나님이 붙들어 주셔야 가능합니다. 성경은 말씀하십니다. \"네게 있는 것 중에 받지 아니한 것이 무엇이냐\"(고전 4:7). 우리는 오직 하나님을 힘입어 살며 기동하며 존재합니다(행 17:28). 나의 존재 자체가 오직 하나님 안에 붙들려 있는 것입니다.",
+          "en": "Reckon honestly: among the things I call “mine,” is there even one that originally came from me? My talents, my health, my achievements — even the single breath I now exhale — are possible only because God sustains them. Scripture says, “What do you have that you did not receive?” (1 Cor 4:7). It is only in God that we live and move and have our being (Acts 17:28). My very existence is held fast in God alone."
+        },
+        {
+          "ko": "우리는 무언가를 잃어버리고 나서야 그것이 내 것이 아니었음을 깨닫습니다. 건강할 때는 건강이 내 것인 줄 알다가, 병상에 누워서야 그것이 매 순간 주어지던 선물이었음을 압니다. 이렇게 우리의 빈곤은 하나님의 충만을 비추는 거울입니다. 어두운 밤일수록 별이 더 밝게 보이듯, 나의 빈 웅덩이가 깊을수록 생수의 근원이신 하나님이 더 크게 보입니다.",
+          "en": "It is only after we lose something that we realize it was never ours. In health we think health is ours; only when we lie on a sickbed do we learn it was a gift given moment by moment. In this way our poverty is a mirror that reflects God's fullness. Just as the stars shine brighter on a darker night, the deeper my empty cistern, the greater God — the fountain of living water — appears."
+        },
+        {
+          "ko": "성경은 말씀하십니다. \"내 백성이 두가지 악을 행하였나니 곧 생수의 근원되는 나를 버린 것과 스스로 웅덩이를 판 것인데 그것은 물을 저축지 못할 터진 웅덩이니라\"(렘 2:13), 그러나 그 터진 웅덩이로는 결코 이 갈증을 채울 수 없습니다.",
+          "en": "Scripture says, “My people have committed two evils: they have forsaken me, the fountain of living waters, and hewed out cisterns for themselves, broken cisterns that can hold no water” (Jer 2:13). But those broken cisterns can never fill this thirst."
+        },
+        {
+          "ko": "우리의 결핍의 끝은 죽음입니다. 우리의 모든 부족과 결핍은 결국 한 지점으로 모입니다. 우리 안에는 생명이 없기 때문입니다. 우리는 생명을 스스로 만들지도, 붙잡아 두지도 못합니다. 우리의 생명은 빌려 쓰는 생명이요, 언제 꺼질지 모르는 촛불입니다. 그런데 바로 그 죽음이 이상한 것 하나를 폭로합니다. 유한한 우리가 끝없이 영원을 사모한다는 것입니다. 하나님이 원래 사람이 영원히 사는 존재로 지으시고 이 \"사람들에게 영원을 사모하는 마음을 주셨\"기 때문입니다(전 3:11). 그런데 이 영원의 갈망은 돈으로도, 성공으로도, 사랑하는 사람으로도 채워지지 않습니다. 이것은 오직 진정한 생명으로만 채워지는 것입니다.",
+          "en": "The end of our lack is death. All our shortfalls and lacks finally converge on one point, because there is no life within us. We can neither make life for ourselves nor hold onto it. Our life is a borrowed life, a candle that may go out at any moment. Yet that very death exposes something strange: that we, though finite, endlessly long for eternity. For God originally made man to live forever and “put eternity into man's heart” (Eccl 3:11). And this longing for eternity cannot be filled by money, by success, or by the people we love. It is filled only by true life."
+        },
+        {
+          "ko": "그러면 이 생명은 어디서 옵니까? 오직 하나님께로부터, 우리 주 예수 그리스도를 통하여 우리 안으로 들어옵니다. 아버지 속에 생명이 있고, 그 생명이 그리스도 안에서 우리에게로 흘러듭니다. 주님은 친히 말씀하셨습니다. \"나는 부활이요 생명이니 나를 믿는 자는 죽어도 살겠고\"(요 11:25). 그러므로 우리의 죽음조차, 생명의 주인이신 하나님께로 우리를 이끄는 손짓이 됩니다.",
+          "en": "So where does this life come from? Only from God, entering into us through our Lord Jesus Christ. Life is in the Father, and that life flows into us in Christ. The Lord himself said, “I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live” (John 11:25). Therefore even our death becomes a beckoning hand that draws us to God, the Lord of life."
+        },
+        {
+          "ko": "여기까지가 첫 걸음이 됩니다. 내가 무엇인가를 가지고 있다는 자기 충족의 착각이 무너지기 전까지, 사람은 결코 하나님을 생명처럼 붙들지 못합니다. \"심령이 가난한 자는 복이 있나니 천국이 그들의 것임이요\"(마 5:3). 심령이 가난한 자란, 자기 안에 내세울 것이 없어 하나님 앞에 빈손으로 나오는 사람입니다. 그러니 사랑하는 형제 자매 여러분, 우리 주님 앞에서 나의 연약함을 감추지 마십시오. 오히려 나의 연약함을 아뢰시고 그를 통해 하나님을 찾는 길로 삼으십시오. 내가 붙들 밑천이 내 안에 하나도 없다는 바로 그 사실이, 나를 하나님께로 떠미는 은혜의 손이 되는 것입니다.",
+          "en": "This is the first step. Until the illusion of self-sufficiency — that I possess something — collapses, a person can never lay hold of God as his life. “Blessed are the poor in spirit, for theirs is the kingdom of heaven” (Matt 5:3). The poor in spirit are those who, having nothing to present within themselves, come before God empty-handed. So, beloved brothers and sisters, do not hide your weakness before the Lord. Rather, confess your weakness and make it the very road by which you seek God. The fact that you have not a single asset within you to hold onto — that very fact becomes the hand of grace that pushes you toward God."
+        },
+        {
+          "ko": "대지 2. 하나님을 알수록, 나를 바로 보게 됩니다",
+          "en": "Point 2. The More I Know God, the More Rightly I See Myself",
+          "section": true
+        },
+        {
+          "ko": "이제 반대 방향입니다. 사람은 하나님의 얼굴을 먼저 우러러본 뒤에야, 비로소 참된 자기 인식에 이를 수 있다는 것입니다.",
+          "en": "Now the opposite direction. It is only after a person first looks up to the face of God that he can arrive at true self-knowledge."
+        },
+        {
+          "ko": "자기만 들여다보아서는 자기를 정확히 알 수 없습니다. 나를 잴 기준이 내 안에 없기 때문입니다. 그 기준은 오직 하나님이십니다. 이사야를 보십시오. 높이 들린 보좌에 앉으신 거룩하신 하나님을 뵙자, 그의 시선은 곧바로 자기에게로 돌아왔습니다. \"화로다 나여 망하게 되었도다 나는 입술이 부정한 사람이요\"(사 6:5). 하나님의 거룩하심이 거울이 되어 인간인 이사야의 부정함을 비춘 것입니다. 베드로도 마찬가지였습니다. 밤새 헛수고한 그물이 예수님의 말씀 한마디에 찢어지도록 가득 찼을 때, 그는 기쁨보다 먼저 자기 실상을 보았습니다. \"주여 나를 떠나소서 나는 죄인이로소이다\"(눅 5:8).",
+          "en": "By looking only at oneself, one cannot know oneself accurately, because the standard by which to measure me is not within me. That standard is God alone. Look at Isaiah. The moment he saw the holy God seated on a throne, high and lifted up, his gaze turned at once back upon himself: “Woe is me! For I am lost; for I am a man of unclean lips” (Isa 6:5). God's holiness became a mirror that exposed the uncleanness of Isaiah the man. Peter was the same. When the nets that had toiled in vain all night were filled to breaking at a single word from Jesus, before joy he first saw his true state: “Depart from me, for I am a sinful man, O Lord” (Luke 5:8)."
+        },
+        {
+          "ko": "이것은 그들만의 일이 아닙니다. 아브라함도 하나님앞에서 \"나는 티끌이나 재와 같사오나\"(창 18:27)하며 엎드렸고, 엘리야도 하나님의 임재 앞에서 겉옷으로 얼굴을 가렸으며(왕상 19:13), 심지어 죄 없는 하늘의 스랍들조차 하나님의 임재앞에서 날개로 자기 얼굴을 가립니다(사 6:2). 하나님을 참으로 뵌 사람은 결코 태연할 수가 없습니다. 그렇습니다. 이것이 하나님 앞에 선 모든 인간의 실상입니다.",
+          "en": "This is not their experience alone. Abraham too fell down before God saying, “I who am but dust and ashes” (Gen 18:27); Elijah covered his face with his cloak before God's presence (1 Kgs 19:13); and even the sinless seraphim of heaven cover their own faces with their wings before God's presence (Isa 6:2). No one who has truly beheld God can remain composed. Yes — this is the true state of every human being who stands before God."
+        },
+        {
+          "ko": "하나님 앞에 서면, 나의 문제가 내 환경도, 내 상처도, 남의 탓도 아님을 알게 됩니다. 우리는 더 깊은 자리로 내려가게 됩니다. 나는 스스로를 고칠 수 없고, 스스로를 의롭게 할 수 없으며, 스스로 하나님께 나아갈 수도 없다는 것을 깨닫게 되는 것입니다. 그리하여 우리는 이렇게 고백할 수밖에 없습니다 —",
+          "en": "When we stand before God, we come to see that my problem is not my circumstances, not my wounds, not someone else's fault. We are brought down to a deeper place. We come to realize that I cannot fix myself, cannot make myself righteous, and cannot even come to God on my own. And so we cannot but confess —"
+        },
+        {
+          "ko": "주님, 내 안에 선한 것이 없습니다. 나로 말미암은 것은 아무것도 없습니다. 성경은 말씀 하십니다 - \"내 속 곧 내 육신에 선한 것이 거하지 아니하는 줄을 아노니\"(롬 7:18)",
+          "en": "Lord, there is no good thing in me. Nothing comes from me. Scripture says, “I know that nothing good dwells in me, that is, in my flesh” (Rom 7:18)."
+        },
+        {
+          "ko": "여기서 \"내 안에 선한 것이 없다\"는 이 고백은 자기혐오가 아닙니다. \"나는 쓸모없는 사람이다\"라는 자학도 아닙니다. 이것은 복음 앞에서 드릴 수 있는 인간으로 서의 가장 정직한 고백입니다. 이 고백을 해야 비로소 내가 그리스도가 필요한 존재라는 사실을 받아들이기 때문입니다. 내 안에 선한 것이 조금이라도 남아 있다고 믿는 사람은 그리스도를 그저 나를 도와주고 돋보이게 헤 줄 보조자로만 찾습니다. 그러나 내 안에 선한 것이 전혀 없음을 아는 사람은, 그리스도를 진정한 생명으로 붙들게 되는 것입니다.",
+          "en": "Here, this confession — “there is no good in me” — is not self-hatred. It is not the self-torment of “I am a worthless person.” It is the most honest confession a human being can offer before the gospel. For only by making this confession do we accept that we are beings who need Christ. Whoever believes even a little good remains in him seeks Christ merely as a helper who will assist him and make him look better. But whoever knows there is no good in him at all lays hold of Christ as his true life."
+        },
+        {
+          "ko": "그러니 이 고백을 남의 것으로 흘려보내지 마십시오. 이사야의 \"화로다 나여 망하게 되었도다 나는 입술이 부정한 사람이요\", 베드로의 \"나는 죄인이로소이다\"가 곧 나의 하나님을 만난 고백이 되어야 하는 것입니다. 주님, 맞습니다. 그것이 바로 저입니다. 제 안에 선한 것이 없습니다. 저로 말미암은 것은 아무것도 없습니다. 이 고백이 내 입술에서 터져 나올 때, 우리는 하나님 앞에서 처음으로 정직해지고, 처음으로 자유로워집니다. 더 이상 나에게 없는 의를 있는 척 꾸며 낼 필요가 없어지기 때문입니다. 가면을 벗은 자리, 바로 거기에 은혜가 임합니다.",
+          "en": "So do not let this confession pass by as someone else's. Isaiah's “Woe is me! I am lost; I am a man of unclean lips” and Peter's “I am a sinful man” must become my own confession upon meeting God. Lord, it is true. That is exactly me. There is no good in me. Nothing comes from me. When this confession bursts from my lips, we become honest before God for the first time, and free for the first time — because we no longer need to fake a righteousness we do not have. In the place where the mask comes off, right there, grace descends."
+        },
+        {
+          "ko": "한 가지 더 기억하십시오. 우리가 자기 의에 속는 가장 흔한 방식은 비교입니다. \"나는 저 사람보다는 낫지.\" 그 순간 우리는 이미 속고 있는 것입니다. 생각해 보십시오. 한낮에 땅의 것을 볼 때 우리는 자기 눈이 밝다고 자신합니다. 그러나 고개를 들어 태양을 맨눈으로 바라보는 순간, 그토록 잘 보이던 시력이 그 눈부신 광채에 단번에 눈이 멀 듯 어지러워지고 마는 것입니다. 그렇습니다, 하나님의 거룩하심이 바로 그 태양입니다. 우리끼리는 누가 조금 더 의로운지 다투지만, 하나님의 그 무한한 빛 앞에서는 그 차이는 아예 사라져 버립니다. 성경은 말씀하십니다 \"무릇 우리는 다 부정한 자 같아서 우리의 의는 다 더러운 옷 같으며\"(사 64:6).",
+          "en": "Remember one more thing. The most common way we are deceived about our own righteousness is comparison. “At least I am better than that person.” In that very moment we are already deceived. Consider: when we look at earthly things at midday, we are confident our eyesight is sharp. But the moment we lift our heads and gaze at the sun with the naked eye, that sight which saw so well is instantly blinded and dizzied by its dazzling glory. Yes — God's holiness is that sun. Among ourselves we quarrel over who is a little more righteous, but before that infinite light of God the difference vanishes altogether. Scripture says, “We have all become like one who is unclean, and all our righteous deeds are like a polluted garment” (Isa 64:6)."
+        },
+        {
+          "ko": "우리는 이 비교의 습관을 신앙에까지 끌어들입니다. \"나는 적어도 저 집사보다 헌신했다. 나는 그래도 새벽기도 하는 성도다.\" 이렇게 우리는 교회 안에서도 끊임없이 서로에게 잣대를 들이댑니다. 그러나 그것은 사람의 잣대일 뿐, 하나님의 잣대가 아닙니다. 하나님의 잣대 앞에서는 가장 경건해 보이던 것조차 무너집니다. \"여호와여 주께서 죄악을 지켜보실진대 주여 누가 서리이까\"(시 130:3). 아무도 서지 못합니다. 그 앞에서는 나의 최고의 선조차도 무릎을 꿇게 되는 것입니다.",
+          "en": "We drag this habit of comparison even into our faith. “At least I am more devoted than that deacon. At least I am a believer who prays at dawn.” In this way we constantly hold up measuring sticks against one another even inside the church. But that is only man's measure, not God's. Before God's measure, even what looked most pious collapses. “If you, O LORD, should mark iniquities, O Lord, who could stand?” (Ps 130:3). No one can stand. Before him, even my highest good is brought to its knees."
+        },
+        {
+          "ko": "그렇습니다. 하나님을 알면 내가 커지는 것이 아니라 작아집니다. 하나님을 알면 나의 의가 무너집니다. 그러나 사랑하는 형제 자매 여러분, 이 고백은 절망의 끝이 아닙니다. 이 고백이 우리를 어디로 데려갑니까? 절망이 아니라 십자가로 데려갑니다. 내 안에 의가 없다면, 이 의로움은 우리의 밖에서 와서 우리를 채워야 합니다. 그리고 하나님은 그 의를 이미 그리스도 안에서 이루셨습니다. 우리가 하나님께 도무지 올라갈 수 없었기에, 하나님이 친히 우리에게 내려오신 것입니다. 바로 그 자리, 자기 의가 무너진 그 자리가 그래서 은혜의 문이 되는 것입니다.",
+          "en": "Yes — knowing God makes me not larger but smaller. Knowing God brings my righteousness down. But, beloved brothers and sisters, this confession is not the end of despair. Where does this confession carry us? Not to despair, but to the cross. If there is no righteousness in me, this righteousness must come from outside me to fill me. And God has already accomplished that righteousness in Christ. Because we could in no way climb up to God, God himself came down to us. That very place — where my own righteousness collapsed — therefore becomes the door of grace."
+        },
+        {
+          "ko": "대지 3. 참으로 아는 지식은, 은혜의 삶으로 열매 맺습니다",
+          "en": "Point 3. Knowledge That Truly Knows Bears Fruit in a Life of Grace",
+          "section": true
+        },
+        {
+          "ko": "그러나 하나님을 아는 지식은 단지 \"신이 존재한다\"는 사실을 머리로 인정하는 것이 아닙니다. 그런 지식이라면 귀신들도 가지고 있습니다. 성경은 \"귀신들도 믿고 떠느니라\"(약 2:19) 라고 하십니다. 참된 지식은 그러므로 정보가 아니라 관계입니다. 성경은 말씀하십니다 - 영생은 곧 유일하신 참 하나님과 그가 보내신 예수 그리스도를 아는 것입니다(요 17:3).",
+          "en": "But the knowledge of God is not merely the intellectual admission of the fact that “a god exists.” If that were knowledge, even the demons possess it. Scripture says, “Even the demons believe — and shudder!” (James 2:19). True knowledge, therefore, is not information but relationship. Scripture says: eternal life is to know the only true God and Jesus Christ whom he has sent (John 17:3)."
+        },
+        {
+          "ko": "그리고 하나님을 아는 지식은 반드시 경건을 낳습니다. 경외만 있으면 노예의 떨림이 되고, 사랑만 있으면 값싼 친근함이 됩니다. 그러나 참된 경건은 이 둘이 한 몸입니다. 하나님을 사랑하기에 경외하고, 경외하기에 기꺼이 순종합니다. 지금까지는 \"내 안엔 아무것도 없다\"는 고백이었다면, 여기서부터는 진짜 은혜를 받은 사람에게 실제로 일어나는 일입니다. 그 은혜를 아는 사람의 삶에는 세 가지가 나타납니다.",
+          "en": "And the knowledge of God inevitably gives birth to godliness. Reverence alone becomes the trembling of a slave; love alone becomes cheap familiarity. But true godliness is these two joined as one body. Because we love God we revere him, and because we revere him we gladly obey. If until now the confession was “there is nothing in me,” from here on is what actually happens to a person who has truly received grace. Three things appear in the life of one who knows that grace."
+        },
+        {
+          "ko": "첫째, 겸손입니다. 내 안에 선한 것이 없음을 아는 사람은 다른 사람을 쉽게 정죄하지 못합니다. 나도 은혜가 아니었다면 똑같은 자리에, 아니 더 못한 자리에 있었을 것을 알기 때문입니다. 은혜를 아는 사람은 남을 판단하는 손가락을 거두고, 자기 가슴을 칩니다.",
+          "en": "First, humility. One who knows there is no good in himself cannot easily condemn others, because he knows that were it not for grace he would be in the very same place — no, an even worse place. One who knows grace withdraws the finger that judges others and beats his own breast."
+        },
+        {
+          "ko": "둘째, 감사입니다. 은혜를 아는 사람은 자기 인생을 다르게 해석합니다. 내가 잘나서, 강해서, 지혜로워서 여기까지 온 것이 아닙니다. 다 받은 것입니다. \"네게 있는 것 중에 받지 아니한 것이 무엇이냐\"(고전 4:7) 하시는 성경의 말씀을 진심으로 받기 때문입니다. 오늘의 믿음도, 호흡도, 예배도, 회개까지도 다 은혜입니다. 그래서 은혜를 아는 사람의 입에서는 자랑 대신 감사가 흘러나옵니다.",
+          "en": "Second, gratitude. One who knows grace interprets his own life differently. It is not because I was fine, strong, or wise that I came this far. It was all received. For he sincerely takes to heart the word, “What do you have that you did not receive?” (1 Cor 4:7). Today's faith, breath, worship — even repentance — are all grace. So from the mouth of one who knows grace flows thanksgiving instead of boasting."
+        },
+        {
+          "ko": "셋째, 주님께 전적으로 의지합니다. 은혜를 아는 사람은 과거의 은혜만 추억하지 않고 오늘도 주님께 붙어 있으려 합니다. 잘려 나간 가지를 본 적이 있습니까? 잘린 그 순간에는 그 가지는 여전히 푸르고 잎도 달려 있습니다. 그러나 이는 이미 죽은 것입니다. 며칠이 못 가 시들고 맙니다. 가지가 나무에 붙어 있지 않기 때문입니다. 우리도 그리스도를 떠나서도 한동안은 그럴듯해 보일 수 있습니다. 그러나 생명은 오직 예수 그리스도께 붙어 있음에서 나옵니다. 그래서 성도의 삶은 독립이 아니라 주님께 모든 것을 의지하는 것입니다.",
+          "en": "Third, total dependence on the Lord. One who knows grace does not merely reminisce about past grace but seeks to stay attached to the Lord today as well. Have you ever seen a branch that has been cut off? At the moment it is cut, that branch is still green and still has leaves. But it is already dead; within a few days it withers, because the branch is not attached to the tree. We too can look impressive for a while even apart from Christ. But life comes only from being attached to Jesus Christ. So the life of a believer is not independence but depending on the Lord for everything."
+        },
+        {
+          "ko": "이 세 가지는 억지로 짜내는 의무가 아닙니다. 은혜를 받은 사람에게서 자연스럽게 흘러나오는 열매입니다. 열매가 나무를 살리는 것이 아니라, 살아 있는 나무가 열매를 맺습니다. 마찬가지로 먼저 우리가 주님께 붙어 있는 은혜가 있고, 그 은혜에서 생수 같은 생명이 흘러 이런 삶으로 맺히는 것입니다. 그러므로 우리의 겸손과 감사와 의존은 구원을 얻어 내는 값이 아니라, 이미 받은 구원이 밖으로 드러나는 표지입니다. 그러니 이 삶은 무겁지 않습니다. 은혜가 무겁지 않기 때문입니다.",
+          "en": "These three are not duties squeezed out by force. They are fruit that flows naturally from one who has received grace. Fruit does not give life to the tree; a living tree bears fruit. Likewise, first there is the grace of our being attached to the Lord, and from that grace life like living water flows and bears fruit in such a life. Therefore our humility, gratitude, and dependence are not the price that earns salvation but the mark that displays outwardly the salvation already received. So this life is not heavy — because grace is not heavy."
+        },
+        {
+          "ko": "결론 — 하나님을 알 때, 내가 보이고 은혜가 보입니다",
+          "en": "Conclusion — When We Know God, We See Ourselves and We See Grace",
+          "section": true
+        },
+        {
+          "ko": "처음에 우리는 자신을 잘 안다고 생각하며 이 세상을 살아 왔습니다. 그러나 하나님 앞에 서자, 나의 진짜 실상이 드러났습니다. 내 안에 선한 것이 없습니다. 나로 말미암은 것은 아무것도 없습니다. 우리는 지금 \"내 육신에 선한 것이 거하지 아니하는 줄을 아노니\"(롬 7:18)라는 말씀이 이야기하시는 절망의 벼랑 끝에 서 있습니다. 내 발밑에는 내가 딛고 올라설 공로의 계단이 없고, 붙잡을 수 있는 나의 의라는 밧줄도 없기 때문입니다.",
+          "en": "At first we went through this world thinking we knew ourselves well. But when we stood before God, our true state was exposed. There is no good in me. Nothing comes from me. We now stand at the very edge of the cliff of despair that the word speaks of: “nothing good dwells in me, that is, in my flesh” (Rom 7:18). For beneath my feet there is no staircase of merit to climb, and no rope of my own righteousness to grasp."
+        },
+        {
+          "ko": "그런데 바로 여기, 다리도 계단도 없는 이 벼랑에서, 복음은 곧장 도약합니다. 내 안에 의가 없다면, 나를 살릴 수 있는 이 의는 밖에서 주어져야만 합니다. 그리고 실제로 우리를 살릴 생명의 의가 우리에게 주어졌습니다. 성경은 말씀하십니다. \"하나님이 죄를 알지도 못하신 이를 우리를 대신하여 죄로 삼으신 것은, 우리로 하여금 그 안에서 하나님의 의가 되게 하려 하심이라\"(고후 5:21). 그렇습니다, 내 것이 아닌 의, 밖에서 주어진 그리스도의 완전한 의가 나에게 입혀진 것입니다. 이것이 곧 그리스도께서 십자가에서 이루신 의, 우리의 칭의입니다.",
+          "en": "Yet right here, on this cliff with no bridge and no stairs, the gospel leaps at once. If there is no righteousness in me, then the righteousness that can save me must be given from outside. And in fact a life-giving righteousness that saves us has been given to us. Scripture says, “For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God” (2 Cor 5:21). Yes — a righteousness not my own, the perfect righteousness of Christ given from outside, has been clothed upon me. This is the righteousness Christ accomplished on the cross: our justification."
+        },
+        {
+          "ko": "그런데 이 의는 종이 위의 선언으로만 그치지 않습니다. 그리스도께 접붙여짐으로, 곧 그분과 연합함으로 그 의가 내 것이 됩니다. 여기 순서가 중요합니다. 십자가의 칭의 없이는 연합이 없고, 연합 없이는 그 의가 내게 이르지 않습니다. 무슨 뜻입니까? 주님께서 십자가에서 우리를 위한 완전한 의를 이루지 않으셨다면, 죄인인 우리가 어떻게 거룩하신 하나님께 붙을 수 있겠습니까? 그러므로 십자가에서 이루신 그 의가 없이는, 애초에 우리가 붙을 자리가 없습니다. 그러나 그 의가 이미 이루어졌다 해도, 내가 그리스도께 접붙여지지 않고서는 그 의가 나에게 이르지 않습니다. 그렇습니다. 십자가는 그 의를 이루었고, 예수 그리스도와의 연합은 그 의를 내게 가져옵니다. 주님은 말씀하십니다. \"나는 포도나무요 너희는 가지라 그가 내 안에, 내가 그 안에 거하면 사람이 열매를 많이 맺나니 나를 떠나서는 너희가 아무것도 할 수 없음이라\"(요 15:5). 그렇습니다, 내 안에 선한 것이 없기에, 이제 나의 모든 것은 받은 것이요 은혜입니다.",
+          "en": "But this righteousness does not stop at a declaration on paper. By being grafted into Christ — that is, by union with him — that righteousness becomes mine. Here the order matters. Without the justification of the cross there is no union, and without union that righteousness does not reach me. What does this mean? If the Lord had not accomplished a perfect righteousness for us on the cross, how could we sinners ever be joined to the holy God? So without the righteousness accomplished on the cross, there would be no place for us to be joined at all. Yet even though that righteousness has already been accomplished, unless I am grafted into Christ that righteousness does not reach me. Yes — the cross accomplished that righteousness, and union with Jesus Christ brings that righteousness to me. The Lord says, “I am the vine; you are the branches. Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing” (John 15:5). Yes — because there is no good in me, now everything I have is received, and is grace."
+        },
+        {
+          "ko": "이 복음이 왜 그토록 좋은 소식인지 아십니까? 만약 내 의가 나에게서 난 것이라면, 그 의는 내 성공과 실패에 따라 흔들릴 것입니다. 오늘은 의롭다가 내일은 정죄받을 것입니다. 그러나 내 의가 십자가 위의 예수 그리스도에게서 온 것이라면, 그 의는 내가 흔들려도 흔들리지 않습니다. 그리스도께서는 어제나 오늘이나 영원토록 동일하시기 때문입니다. 그러므로 나의 구원은 나의 의로움과 견고함이 아니라 예수 그리스도의 견고함에 매여 있습니다. 이것이 우리가 넘어져도 다시 일어설 수 있는 이유인 것입니다.",
+          "en": "Do you know why this gospel is such good news? If my righteousness came from me, that righteousness would waver with my successes and failures — today righteous, tomorrow condemned. But if my righteousness comes from Jesus Christ on the cross, that righteousness does not waver even when I do, for Christ is the same yesterday, today, and forever. Therefore my salvation is bound not to my own righteousness and steadfastness but to the steadfastness of Jesus Christ. This is why we can rise again even after we fall."
+        },
+        {
+          "ko": "그러므로 이것이 복된 소식, 복음의 시작입니다. 내 안에 선한 것이 없을 때, 비로소 그리스도의 선하심이 나의 소망이 됩니다. 나로 말미암은 것이 아무것도 없을 때, 비로소 그리스도로 말미암은 모든 것이 나에게 은혜가 되기 때문입니다.",
+          "en": "So this is the good news, the beginning of the gospel. When there is no good in me, only then does the goodness of Christ become my hope. When nothing comes from me, only then does everything that comes from Christ become grace to me."
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 우리가",
+          "en": "Beloved brothers and sisters, we —"
+        },
+        {
+          "ko": "하나님을 알 때 내가 보입니다. 내가 보일 때 은혜가 보입니다. 은혜가 보일 때 그리스도가 나의 생명이 됩니다. 그러므로 오늘 우리가 함께 드릴 고백은 이것입니다 —",
+          "en": "When we know God, we see ourselves. When we see ourselves, we see grace. When we see grace, Christ becomes our life. Therefore the confession we offer together today is this —"
+        },
+        {
+          "ko": "내 안에 선한 것이 없습니다 — 그러나 내 안에 그리스도께서 계십니다. 나로 말미암은 것은 아무것도 없습니다 — 그러나 주님으로 말미암아 모든 은혜가 시작되었습니다. 하나님을 떠나서는 허무한 나 — 그러나 그리스도 안에서 나는 하나님의 의가 되었습니다. 나는 아무것도 아니나, 그리스도는 나의 모든 것입니다.",
+          "en": "There is no good in me — but Christ is in me. Nothing comes from me — but through the Lord all grace has begun. Apart from God I am empty — but in Christ I have become the righteousness of God. I am nothing, but Christ is my everything."
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 하나님을 떠나서는 허무했던 우리가 이제 우리 주 예수 그리스도의 십자가의 보혈로 그리스도께 연합되어, 그분의 의를 옷 입고, 겸손과 감사와 의존으로 날마다 그 포도나무에 붙은 가지로 살아가시기를, 우리 주 예수 그리스도의 이름으로 간절히 축원 드립니다. 아멘.",
+          "en": "Beloved brothers and sisters, may you who were empty apart from God now, joined to Christ by the precious blood of the cross of our Lord Jesus Christ, be clothed in his righteousness, and live day by day as branches attached to that vine — in humility, gratitude, and dependence. This I earnestly bless you, in the name of our Lord Jesus Christ. Amen."
+        }
+      ]
+    },
+    {
       "id": "2026-06-28",
       "date": "2026-06-28",
       "title_ko": "두 개의 숯불 앞에서 다시 시작되는 제자도",
