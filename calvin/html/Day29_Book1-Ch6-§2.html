@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 안경으로서의 성경 §2 (1권 6장 · Day 29) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 6장 §2(안경으로서의 성경)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 29. 연관 성구: 로마서 10, 로마서 1, 시편 19, 히브리서 1."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day29_Book1-Ch6-%C2%A72.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="안경으로서의 성경 §2 — 기독교 강요 영어로 읽기 (Day 29)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 6장 §2(안경으로서의 성경)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 29. 연관 성구: 로마서 10, 로마서 1, 시편 19, 히브리서 1."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day29_Book1-Ch6-%C2%A72.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 안경으로서의 성경 §2 (1권 6장 · Day 29) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 6장 §2(안경으로서의 성경)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 29. 연관 성구: 로마서 10, 로마서 1, 시편 19, 히브리서 1.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 6장 §2 — 안경으로서의 성경","mentions":[{"@type":"CreativeWork","name":"로마서 10 (Rom 10)"},{"@type":"CreativeWork","name":"로마서 1 (Rom 1)"},{"@type":"CreativeWork","name":"시편 19 (Ps 19)"},{"@type":"CreativeWork","name":"히브리서 1 (Heb 1)"},{"@type":"CreativeWork","name":"신명기 31 (Deut 31)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day29_Book1-Ch6-%C2%A72.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 29 — Book 1, Chapter 6, §2<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (the whole § — 10 sentences, verbatim)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl1" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl3" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl3" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl2" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl3" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl2" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl3" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl1" href="#S10" onclick="closeNavMobile()">S10</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (etymology hooks)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (the examiner&#x27;s eye)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 29 — Book 1, Chapter 6, §2</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday (§1) Calvin handed you the <strong>spectacles</strong>. Scripture as the lens that focuses the blurred impressions of Deity. Beautiful image. But an image is not an argument, and Calvin knows it.</p><p>So today he does something a lecturer always has to do after a metaphor: <strong>he tells you the history</strong>. How did God actually deliver this better help? Answer, and write this down, because the whole Reformation is compressed into it:</p><blockquote>
+<p><strong>viva vox → scriptura.</strong> First the living voice (oracles, visions, the ministry of men). Then the written record. And the second exists <em>because</em> the first would not survive the centuries.</p>
+</blockquote><p>This is the section where the <em>oral</em> becomes the <em>textual</em>. Where "God spoke to the fathers" becomes "God deposited public records." Watch how carefully Calvin does it — he is not yet arguing that Scripture is <em>authoritative</em> (that's Ch. 7) or <em>credible</em> (Ch. 8). He is only arguing that it is <strong>necessary</strong>. Don't let a test item make him say more than he says here.</p><p><strong>Today's 3 Big Points — I'm telling you now, you'll thank me in Period 4:</strong></p><ol>
+<li><strong><code>Whether A, or B, [main clause]</code></strong> — the <em>concessive disjunctive</em>. NOT the "whether = if" noun clause. If you mistranslate S1 you lose the entire sentence.</li>
+<li><strong><code>not only does A ... but B ... V</code></strong> — negative-fronting inversion where <strong>only the first conjunct inverts</strong>, and the verb at the end agrees with the <strong>compound</strong> subject. S9. This is a killer.</li>
+<li><strong><code>it becomes + person + to V</code></strong> = <em>it is fitting for</em>. An archaic impersonal. If you read "become = turn into," S5 collapses.</li>
+</ol><p>Ready? Books open.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (the whole § — 10 sentences, verbatim)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+2. Whether God revealed himself to the fathers by oracles and visions, or, by the instrumentality and ministry of men, suggested what they were to hand down to posterity, there cannot be a doubt that the certainty of what he taught them was firmly engraven on their hearts, so that they felt assured and knew that the things which they learnt came forth from God, who invariably accompanied his word with a sure testimony, infinitely superior to mere opinion. At length, in order that, while doctrine was continually enlarged, its truth might subsist in the world during all ages, it was his pleasure that the same oracles which he had deposited with the fathers should be consigned, as it were, to public records. With this view the law was promulgated, and prophets were afterwards added to be its interpreters. For though the uses of the law were manifold, and the special office assigned to Moses and all the prophets was to teach the method of reconciliation between God and man (whence Paul calls Christ "the end of the law," Rom. 10:4); still I repeat that, in addition to the proper doctrine of faith and repentance in which Christ is set forth as a Mediator, the Scriptures employ certain marks and tokens to distinguish the only wise and true God, considered as the Creator and Governor of the world, and thereby guard against his being confounded with the herd of false deities. Therefore, while it becomes man seriously to employ his eyes in considering the works of God, since a place has been assigned him in this most glorious theatre that he may be a spectator of them, his special duty is to give ear to the Word, that he may the better profit. Hence it is not strange that those who are born in darkness become more and more hardened in their stupidity; because the vast majority instead of confining themselves within due bounds by listening with docility to the Word, exult in their own vanity. If true religion is to beam upon us, our principle must be, that it is necessary to begin with heavenly teaching, and that it is impossible for any man to obtain even the minutest portion of right and sound doctrine without being a disciple of Scripture. Hence, the first step in true knowledge is taken, when we reverently embrace the testimony which God has been pleased therein to give of himself. For not only does faith, full and perfect faith, but all correct knowledge of God, originate in obedience. And surely in this respect God has with singular Providence provided for mankind in all ages.
+</blockquote><p><em>(Beveridge's marginal notes: the French adds on "oracles and visions" — "that is to say, messages from heaven"; and on "give ear to the Word" he cites Tertullian, Apologeticum: God "added the instrument of literature" so that we might approach him more fully.)</em></p><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>[HISTORY OF DELIVERY]   S1  Two channels: oracles/visions  OR  ministry of men
+                            → in BOTH: certainty ENGRAVEN on hearts (not opinion)
+                            └ the seed of Ch.7: God's word never travels without testimony
+
+[WHY WRITE IT DOWN]     S2  Purpose clause: doctrine grows + truth must SUBSIST through all ages
+                            → oracles "consigned to public records"      [oral → written]
+                        S3  Concrete: LAW promulgated → PROPHETS as its interpreters
+
+[SCOPE GUARD]           S4  Concession (though...still): yes, Law's chief office = Christ/Mediator
+                            BUT ALSO Scripture gives "marks and tokens" of the CREATOR
+                            └ i.e. Calvin protects his Book-1 topic from the Book-2 topic
+
+[THE DUTY]              S5  Eyes on the theatre (creation) — YES, but ear to the Word — MORE
+                        S6  Consequence: those without the Word only harden
+
+[THE PRINCIPLE]         S7  RULE: begin with heavenly teaching; no sound doctrine without
+                            being a disciple of Scripture
+                        S8  First step = reverently embrace God's self-testimony
+                        S9  Ground: ALL correct knowledge of God originates in OBEDIENCE
+                        S10 Doxological close: singular Providence, in all ages
+</code></pre><p><strong>Examiner's Eye — the trap they will set:</strong>
+S5 says the eye on creation is <strong>good</strong> (<code>it becomes man seriously to employ his eyes</code>). The distractor will say Calvin <em>forbids</em> or <em>dismisses</em> looking at creation. He does not. He <strong>ranks</strong>: eyes yes, ear <em>especially</em>. <code>his special duty</code> — the word is <em>special</em>, not <em>sole</em>. Second trap: S4. Calvin <strong>concedes</strong> that the Law's proper office is Christ the Mediator; he does not deny it. He only adds an "in addition to." A choice saying "Calvin denies that the Law's purpose is to point to Christ" is a direction-flip. Kill it.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Whether... or... is NOT "if" — it's "no matter which"</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>"Whether God revealed himself to the fathers by oracles and visions, or, by the instrumentality and ministry of men, suggested what they were to hand down to posterity, there cannot be a doubt that the certainty of what he taught them was firmly engraven on their hearts, so that they felt assured and knew that the things which they learnt came forth from God, who invariably accompanied his word with a sure testimony, infinitely superior to mere opinion."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">Whether God revealed himself to the fathers</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by oracles and visions</span></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (or)</span><span class="leaf">or</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by the instrumentality and ministry of men</span></li></ul></li><li><span class="leaf">suggested</span></li><li><span class="leaf">what they were to hand down to posterity</span></li></ul></li><li><span class="leaf"><b>there cannot be a doubt</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that the certainty</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of what he taught them</span></li></ul></li></ul><ul class="tr"><li><span class="leaf">was firmly engraven on their hearts</span></li></ul></li></ul></li><li><span class="lab ph">결과절 (so…that)</span><span class="leaf">so that</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">they felt assured and knew</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that the things</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which they learnt</span></li></ul></li></ul><ul class="tr"><li><span class="leaf">came forth from God</span></li></ul></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who invariably accompanied his word</span><ul class="tr"><li><span class="leaf">with a sure testimony</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">infinitely superior to mere opinion</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>engraven</em> — archaic past participle of <em>engrave</em> (<em>en-</em> + Old French <em>graver</em>, "to carve"); the modern form is <em>engraved</em>, but the strong participle survives in the KJV register (Ex. 32:16, "graven"). <em>posterity</em> &lt; Latin <em>posterus</em> ("coming after") — those who come after. <em>instrumentality</em> &lt; <em>instrumentum</em> (tool) — the abstract noun of "being used as a tool," i.e. agency, not authorship.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>there cannot be a doubt that ~</em> = ~은 의심의 여지가 없다 (a categorical, not a hedged, claim); <em>come forth from</em> = to issue/proceed from (a source); <em>hand down to posterity</em> = to transmit to later generations.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">It doesn't matter which method God used — direct visions, or speaking through human messengers who then passed it on. Either way, the fathers were absolutely certain that what they had learned really came from God, because God never delivered his word without also supplying proof, and that proof was far more solid than a personal hunch.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Whether... or...</b> → <em>No matter whether... or...</em></li><li><b>engraven on their hearts</b> → <em>stamped firmly in their minds</em></li><li><b>hand down to posterity</b> → <em>pass on to future generations</em></li><li><b>came forth from God</b> → <em>came from God</em></li><li><b>mere opinion</b> → <em>a mere personal hunch</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">The purpose clause with a clause inside it</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>"At length, in order that, while doctrine was continually enlarged, its truth might subsist in the world during all ages, it was his pleasure that the same oracles which he had deposited with the fathers should be consigned, as it were, to public records."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` At length</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>in order that</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">부사절 (while)</span><span class="leaf">while doctrine was continually enlarged</span></li></ul></li><li><span class="leaf"><b>its truth might subsist</b></span></li><li><span class="leaf">in the world</span></li><li><span class="leaf">during all ages</span></li></ul></li><li><span class="leaf"><b>it was his pleasure</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that the same oracles</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which he had deposited with the fathers</span></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>should be consigned</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as it were</span></li></ul></li><li><span class="leaf">to public records</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>subsist</em> = <em>sub-</em> (under) + <em>sistere</em> (to stand) → "to stand firm underneath," to persist/endure. Not "to survive on little food" — that's a much later sense; the trap is real. <em>consigned</em> = <em>con-</em> (with) + <em>signare</em> (to seal) → to seal over into someone's keeping. <em>promulgated</em> (next sentence) = <em>pro-</em> + <em>vulgus</em> (the common people) → to publish abroad to the people.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>at length</em> = at last, finally (NOT "in detail"! — a top-tier vocabulary trap); <em>it was his pleasure that ~</em> = it was his sovereign will that ~; <em>as it were</em> = so to speak (a hedge marking an analogy).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Eventually, so that revelation could keep growing while its truth still lasted through every age, God decided that the same messages he had entrusted to the fathers should be formally filed away, so to speak, in a public archive.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>At length</b> → <em>Eventually</em></li><li><b>it was his pleasure that</b> → <em>God decided that</em></li><li><b>might subsist in the world during all ages</b> → <em>would last through every age</em></li><li><b>consigned, as it were, to public records</b> → <em>formally filed in a public archive</em></li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s1" title="1-star">★</span><span class="s-label">Pass through — but catch the word interpreters</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>"With this view the law was promulgated, and prophets were afterwards added to be its interpreters."</p>
+</blockquote><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p><code>With this view</code> = <em>with this purpose in mind</em> (view = intention; another archaic sense, log it). Short, clean, two passives.</p><p>One point only, but it's a good one: <strong>prophets = interpreters of the law.</strong> Not innovators. Not freelancers with new material. Calvin defines the prophetic office as <em>exegetical</em>. The Old Testament prophets, on this reading, are preachers of Torah. Remember that — it is exactly how Calvin will justify the <em>preaching office</em> of the Reformed minister.</p><hr/></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">The though ... still I repeat that ... monster — scope control</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>"For though the uses of the law were manifold, and the special office assigned to Moses and all the prophets was to teach the method of reconciliation between God and man (whence Paul calls Christ 'the end of the law,' Rom. 10:4); still I repeat that, in addition to the proper doctrine of faith and repentance in which Christ is set forth as a Mediator, the Scriptures employ certain marks and tokens to distinguish the only wise and true God, considered as the Creator and Governor of the world, and thereby guard against his being confounded with the herd of false deities."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` For</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf"><b>though</b> the uses of the law <b>were</b> manifold</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and the special office <b>was</b> to teach the method of reconciliation</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">assigned to Moses and all the prophets</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">between God and man</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">whence Paul calls Christ "the end of the law," Rom. 10:4</span></li></ul></li></ul></li><li><span class="leaf"><b>still I repeat that</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in addition to the proper doctrine of faith and repentance</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in which Christ is set forth as a Mediator</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>the Scriptures employ</b> certain marks and tokens</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">to distinguish the only wise and true God</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">considered as the Creator and Governor of the world</span></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and thereby <b>guard against</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">his <b>being confounded</b> with the herd of false deities</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>manifold</em> = <em>many</em> + <em>-fold</em> (fold, ply) → many-layered, of many kinds. <em>confounded</em> &lt; Latin <em>confundere</em> = <em>con-</em> (together) + <em>fundere</em> (to pour) → "to pour together," i.e. to mix things up. That's the sense here: mixed up <em>with</em>. <em>tokens</em> — Old English <em>tācen</em>, cognate with <em>teach</em> — a sign that shows.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in addition to</em> = ~에 더하여 (the hinge of the whole sentence — NOT "instead of"); <em>still I repeat that</em> = nevertheless I insist that; <em>set forth as</em> = presented/exhibited as; <em>guard against</em> = to protect from.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Now, yes — the law had many purposes, and the main job given to Moses and the prophets was to teach how God and humanity are reconciled, which is why Paul calls Christ "the end of the law." But I'll say it again: on top of that core teaching about faith, repentance, and Christ as Mediator, Scripture also gives us identifying marks for recognizing the one true God as Creator and Ruler of the world, so that he never gets confused with the crowd of fake gods.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the uses of the law were manifold</b> → <em>the law had many purposes</em></li><li><b>the special office assigned to</b> → <em>the main job given to</em></li><li><b>whence</b> → <em>which is why</em></li><li><b>still I repeat that</b> → <em>but I'll say it again</em></li><li><b>guard against his being confounded with the herd of false deities</b> → <em>keep him from being confused with the crowd of fake gods</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">it becomes man to V — the impersonal that everybody mistranslates</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>"Therefore, while it becomes man seriously to employ his eyes in considering the works of God, since a place has been assigned him in this most glorious theatre that he may be a spectator of them, his special duty is to give ear to the Word, that he may the better profit."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` Therefore</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">부사절 (while)</span><span class="leaf"><b>while</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">it becomes man</span></li><li><span class="leaf">seriously to employ his eyes</span></li><li><span class="leaf">in considering the works of God</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">이유/시간절 (since)</span><span class="leaf"><b>since</b> a place has been assigned him</span></li><li><span class="leaf">in this most glorious theatre</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that he may be a spectator of them</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>his special duty is</b></span></li><li><span class="leaf">to give ear to the Word</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> he may <b>the better</b> profit</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>becomes</em> (impersonal) — from Old English <em>becuman</em>, "to arrive at, to befit"; survives in <em>becoming/unbecoming</em> = fitting/unfitting. <em>spectator</em> &lt; <em>spectare</em> (to watch) — cognate with <em>spectacles</em>, the very metaphor of §1. Calvin's Latin is playing with itself: the <em>spectator</em> needs <em>spectacles</em>. <em>docility</em> (S6) &lt; <em>docere</em> (to teach) → teachableness, not obedience-as-servility.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it becomes one to V</em> = ~하는 것이 마땅하다 (fitting, proper); <em>give ear to</em> = to listen attentively to; <em>the better</em> (adverbial) = all the more, so much the more effectively.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So although it's right and proper for people to look hard at God's works — after all, we've been given seats in this magnificent theatre precisely so we can watch — our particular duty is to listen carefully to the Word, so that we benefit all the more from what we see.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>it becomes man to employ his eyes</b> → <em>it's proper for people to use their eyes</em></li><li><b>this most glorious theatre</b> → <em>this magnificent theatre</em></li><li><b>that he may be a spectator of them</b> → <em>so he can watch them</em></li><li><b>give ear to the Word</b> → <em>listen to the Word</em></li><li><b>that he may the better profit</b> → <em>so he benefits all the more</em></li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s2" title="2-star">★★</span><span class="s-label">it is not strange that — litotes, and a nasty because</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>"Hence it is not strange that those who are born in darkness become more and more hardened in their stupidity; because the vast majority instead of confining themselves within due bounds by listening with docility to the Word, exult in their own vanity."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` Hence</span></li><li><span class="leaf"><b>it is not strange</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that those</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who are born in darkness</span></li></ul></li></ul><ul class="tr"><li><span class="leaf">become more and more hardened</span></li><li><span class="leaf">in their stupidity</span></li></ul></li></ul></li><li><span class="lab ph">이유절 (because)</span><span class="leaf"><b>because</b></span></li><li><span class="leaf">the vast majority</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">instead of confining themselves within due bounds</span></li><li><span class="leaf">by listening with docility to the Word</span></li></ul></li><li><span class="leaf"><b>exult in their own vanity.</b></span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>docility</em> &lt; <em>docere</em> (to teach) → teachableness. NOT modern "docile = submissive/passive." A trap word: in Calvin it is a virtue of the intellect, not a temperament. <em>exult</em> &lt; <em>ex-</em> + <em>saltare</em> (to leap) → to leap up with joy — hence "to gloat, to revel in."</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it is not strange that ~</em> = 조금도 이상하지 않다 = it is exactly to be expected (litotes); <em>confine oneself within due bounds</em> = to stay within proper limits; <em>exult in</em> = to revel/glory in.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">No surprise, then, that people born in the dark only get more and more stubbornly stupid. Most of them, rather than keeping within proper limits by listening teachably to the Word, revel in their own empty self-importance.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>it is not strange that</b> → <em>no surprise that</em></li><li><b>hardened in their stupidity</b> → <em>stubbornly stupid</em></li><li><b>confining themselves within due bounds</b> → <em>keeping within proper limits</em></li><li><b>listening with docility</b> → <em>listening teachably</em></li><li><b>exult in their own vanity</b> → <em>revel in their own empty self-importance</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">The rule of the whole chapter — impossible ... without being</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>"If true religion is to beam upon us, our principle must be, that it is necessary to begin with heavenly teaching, and that it is impossible for any man to obtain even the minutest portion of right and sound doctrine without being a disciple of Scripture."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>If</b> true religion <b>is to</b> beam upon us</span></li></ul></li></ul></li><li><span class="leaf"><b>our principle must be</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> it is necessary to begin with heavenly teaching</span></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> it is impossible to obtain</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">for any man</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">even the minutest portion of right and sound doctrine</span></li></ul></li><li><span class="leaf"><b>without being a disciple of Scripture.</b></span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>minutest</em> — superlative of <em>minute</em> (adj., mī-NEWT) &lt; Latin <em>minutus</em> (made small); note the stress difference from the noun <em>minute</em> (MIN-it). Same root, split pronunciation. <em>disciple</em> &lt; <em>discipulus</em> &lt; <em>discere</em> (to learn) — cognate with <em>discipline</em>. Learning and being disciplined are one word in Latin, and Calvin means both.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>if X is to V</em> = X가 이루어지려면 (necessary-condition frame); <em>it is impossible to A without B</em> = B 없이는 A 불가 → B is indispensable; <em>beam upon</em> = to shine down on.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">If real religion is ever going to shine on us, we have to hold this as our rule: we must start with teaching that comes from heaven, and nobody can get even the tiniest piece of correct, sound doctrine unless he becomes a student under Scripture's authority.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>If true religion is to beam upon us</b> → <em>If real religion is ever going to shine on us</em></li><li><b>our principle must be</b> → <em>we must hold this as our rule</em></li><li><b>heavenly teaching</b> → <em>teaching that comes from heaven</em></li><li><b>even the minutest portion</b> → <em>even the tiniest piece</em></li><li><b>a disciple of Scripture</b> → <em>a student under Scripture's authority</em></li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s2" title="2-star">★★</span><span class="s-label">therein — and the first step</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>"Hence, the first step in true knowledge is taken, when we reverently embrace the testimony which God has been pleased therein to give of himself."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` Hence</span></li><li><span class="leaf">**the first step is taken**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in true knowledge</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> we reverently embrace the testimony</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which God has been pleased <b>therein</b> to give of himself</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>therein</em> = <em>there</em> + <em>in</em> — "in that (thing)"; family: <em>thereof</em> (of it), <em>thereby</em> (by it), <em>thereupon</em> (upon it), <em>wherein</em> (in which). <em>reverently</em> &lt; <em>revereri</em> = <em>re-</em> (intensive) + <em>vereri</em> (to fear, to stand in awe) — awe, not terror. <em>embrace</em> &lt; Old French <em>embracier</em> &lt; Latin <em>bracchium</em> (arm) → to take into one's arms.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>the first step is taken when ~</em> = ~할 때 비로소 첫걸음이 시작된다; <em>to give testimony of oneself</em> = to bear witness about oneself; <em>be pleased to V</em> = to choose/be willing to (sovereign, not emotional).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So the first real step toward knowing God happens when we humbly accept the testimony God has chosen to give about himself in Scripture.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the first step ... is taken</b> → <em>the first real step ... happens</em></li><li><b>reverently embrace</b> → <em>humbly accept</em></li><li><b>has been pleased therein to give</b> → <em>has chosen to give in it</em></li><li><b>of himself</b> → <em>about himself</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">The inversion that ends careers: not only does A ... but B ... originate</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p>"For not only does faith, full and perfect faith, but all correct knowledge of God, originate in obedience."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` For</span></li><li><span class="leaf"><b>not only</b></span></li><li><span class="leaf"><b>does</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">faith</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">full and perfect faith</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">all correct knowledge of God</span></li></ul></li></ul></li><li><span class="leaf"><b>originate</b></span></li><li><span class="leaf">in obedience</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>originate</em> &lt; <em>origo, originis</em> (beginning, source) — cognate with <em>orient</em> (the rising of the sun) and <em>aboriginal</em>. <em>obedience</em> &lt; <em>ob-</em> (toward) + <em>audire</em> (to hear!) → to listen toward. Look at that. The Latin root of <em>obey</em> is <em>hear</em>. Which is why S5 said `give ear to the Word`. Calvin's <em>obedientia</em> and his <em>ear</em> are the same word underneath. That is not decoration — that is the argument.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>not only A but (also) B</em> = A뿐 아니라 B도 (here with fronted-negative inversion and a shared final verb); <em>originate in</em> = to have one's source in.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">After all, it's not just faith — even faith at its fullest and purest — but every bit of accurate knowledge about God that starts with obedience.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>not only does faith ... but ... originate</b> → <em>it's not just faith ... but ... that starts</em></li><li><b>full and perfect faith</b> → <em>faith at its fullest and purest</em></li><li><b>all correct knowledge of God</b> → <em>every bit of accurate knowledge about God</em></li><li><b>originate in obedience</b> → <em>starts with obedience</em></li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s1" title="1-star">★</span><span class="s-label">The close — one word to catch</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p>"And surely in this respect God has with singular Providence provided for mankind in all ages."</p>
+</blockquote><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p><code>singular</code> = <strong>unique, extraordinary</strong> — NOT "single," and certainly not "odd." Archaic sense; you have seen it before in I.5.9 (<em>a gift of singular value</em>).</p><p>Note the word order: <code>has with singular Providence provided</code> — the adverbial phrase is wedged between auxiliary and participle. Latinate. Restore: <em>has provided for mankind, with singular Providence, in all ages.</em></p><p>And note <em>in all ages</em>: the same phrase as S2 (<em>during all ages</em>). Calvin closes the loop. The purpose stated in S2 — that truth might endure through all ages — is fulfilled, and God gets the credit. Wrap.</p><hr/></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>FORMULA 1 — THE CONCESSIVE DISJUNCTIVE
+   Whether  [ S + V₁ ... ] ,  or  [ (adverbial) + V₂ ... ] ,   [ MAIN CLAUSE ]
+   = "No matter whether A or B, C."
+   ⚠️ TRAP 1: this is NOT the noun-clause "whether = if". There is no verb governing it.
+   ⚠️ TRAP 2: the two branches may SHARE one subject. Beveridge buries V₂ behind a
+              long adverbial, so a foreign noun looks like its subject. It isn't.
+              (S1: God revealed ... or [God] suggested ... — NOT "men suggested")
+   Practice: Whether God speaks by prophet, or, by the pen of an apostle, records what
+             the Church must keep, the certainty of his word remains unshaken.
+</code></pre><pre><code>FORMULA 2 — FRONTED "NOT ONLY" + SHARED LEXICAL VERB
+   Not only + DOES/DO + [Subject₁] , but + [Subject₂] , + BARE VERB + ...
+   ⚠️ do-support appears ONLY with the first conjunct (because of the inversion).
+   ⚠️ the lexical verb sits at the END and serves BOTH subjects
+      → it agrees with the COMPOUND subject → BARE PLURAL form.
+   S9: not only does FAITH ... but ALL CORRECT KNOWLEDGE ... ORIGINATE  (not *originates*)
+   Practice: Not only does Scripture, the written Word, but also the Spirit's inward
+             testimony, confirm the believer's certainty.
+</code></pre><pre><code>FORMULA 3 — THE ARCHAIC IMPERSONAL "IT BECOMES"
+   It becomes + [PERSON] + to V   =  It is fitting / proper for [person] to V
+   Family: becoming (adj.) = fitting  /  unbecoming = improper
+   ⚠️ NOT "become = turn into." (S5)
+   Bonus pair from S5:  "the better" (adverbial the of degree) = all the more
+   Practice: It becomes the theologian to speak of God's essence sparingly, that he may
+             the better adore what he cannot measure.
+</code></pre><pre><code>FORMULA 4 — IMPOSSIBILITY = INDISPENSABILITY  (double negative)
+   It is impossible for X to obtain [even the minutest Y]  WITHOUT V-ing
+   = V-ing is absolutely indispensable to any Y at all.
+   ⚠️ "even the minutest portion" is doing the work — it forecloses partial exceptions. (S7)
+   Practice: It is impossible for any man to obtain even the faintest light of true religion
+             without being a disciple of Scripture.
+</code></pre><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (etymology hooks)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>oracles</strong> (S1)</td>
+<td>divine utterances, messages from heaven</td>
+<td><em>orare</em> = to speak/pray → the <strong>or</strong>al mouth of God. Beveridge's French gloss: <em>témoignages célestes</em>.</td>
+</tr>
+<tr>
+<td><strong>engraven</strong> (S1)</td>
+<td>새겨진 (archaic p.p. of <em>engrave</em>)</td>
+<td><em>en-</em> + <em>graver</em> (carve). Not written <strong>on</strong> the heart — <strong>cut into</strong> it.</td>
+</tr>
+<tr>
+<td><strong>instrumentality</strong> (S1)</td>
+<td>agency, being used as a tool</td>
+<td><em>instrumentum</em>. ⚠️ Men are the <strong>tool</strong>, not the <strong>author</strong>.</td>
+</tr>
+<tr>
+<td><strong>posterity</strong> (S1)</td>
+<td>later generations</td>
+<td><em>posterus</em> = coming after.</td>
+</tr>
+<tr>
+<td><strong>at length</strong> (S2)</td>
+<td>⚠️ <strong>at last, finally</strong></td>
+<td>NOT "in detail"! Top-tier trap.</td>
+</tr>
+<tr>
+<td><strong>subsist</strong> (S2)</td>
+<td>to endure, persist</td>
+<td><em>sub-</em> + <em>sistere</em> = stand underneath. ⚠️ NOT "live on scraps."</td>
+</tr>
+<tr>
+<td><strong>consigned</strong> (S2)</td>
+<td>formally handed over into keeping</td>
+<td><em>con-</em> + <em>signare</em> (seal). Legal custody.</td>
+</tr>
+<tr>
+<td><strong>public records</strong> (S2)</td>
+<td>state archive, <em>tabulae publicae</em></td>
+<td>The whole Reformation is in this phrase: an archive can be <strong>appealed to</strong>.</td>
+</tr>
+<tr>
+<td><strong>promulgated</strong> (S3)</td>
+<td>published/proclaimed abroad</td>
+<td><em>pro-</em> + <em>vulgus</em> (the crowd) → made <strong>vulgar</strong> = made public.</td>
+</tr>
+<tr>
+<td><strong>manifold</strong> (S4)</td>
+<td>of many kinds</td>
+<td>many + fold(ply).</td>
+</tr>
+<tr>
+<td><strong>whence</strong> (S4)</td>
+<td>⚠️ from which fact = "which is why"</td>
+<td>A <strong>connector</strong>, not a place.</td>
+</tr>
+<tr>
+<td><strong>tokens</strong> (S4)</td>
+<td>identifying signs, <em>notae</em></td>
+<td>OE <em>tācen</em>, cognate with <strong>teach</strong>.</td>
+</tr>
+<tr>
+<td><strong>confounded</strong> (S4)</td>
+<td>⚠️ <strong>mixed up with</strong></td>
+<td><em>con-</em> + <em>fundere</em> = pour together. NOT "baffled."</td>
+</tr>
+<tr>
+<td><strong>it becomes (one) to V</strong> (S5)</td>
+<td>⚠️ it is fitting for</td>
+<td>cf. <strong>be</strong>coming / un<strong>be</strong>coming conduct.</td>
+</tr>
+<tr>
+<td><strong>theatre</strong> (S5)</td>
+<td><em>theatrum gloriae Dei</em></td>
+<td>Creation = the stage; man = a <strong>seated spectator</strong> with a job.</td>
+</tr>
+<tr>
+<td><strong>the better</strong> (S5)</td>
+<td>⚠️ all the more (adverbial)</td>
+<td>Same "the" as <em>the more, the merrier</em>.</td>
+</tr>
+<tr>
+<td><strong>docility</strong> (S6)</td>
+<td>⚠️ <strong>teachableness</strong></td>
+<td><em>docere</em> = to teach. NOT modern "docile = passive/meek." A virtue of the intellect.</td>
+</tr>
+<tr>
+<td><strong>exult</strong> (S6)</td>
+<td>to revel, gloat</td>
+<td><em>ex-</em> + <em>saltare</em> (leap) → leap for joy.</td>
+</tr>
+<tr>
+<td><strong>beam</strong> (S7)</td>
+<td>to shine upon</td>
+<td>Continues the <em>effulgence</em> / <em>sparks</em> imagery of I.5.14–15.</td>
+</tr>
+<tr>
+<td><strong>minutest</strong> (S7)</td>
+<td>smallest</td>
+<td><em>minutus</em>. Stress: mī-NEWT (adj.), MIN-it (noun).</td>
+</tr>
+<tr>
+<td><strong>disciple</strong> (S7)</td>
+<td>one under instruction</td>
+<td><em>discere</em> = to learn → cognate with <strong>discipline</strong>. Both senses intended.</td>
+</tr>
+<tr>
+<td><strong>therein</strong> (S8)</td>
+<td>in it (= in Scripture)</td>
+<td>Family: therein / thereof / thereby / thereupon / wherein / whereof.</td>
+</tr>
+<tr>
+<td><strong>be pleased to V</strong> (S2, S8)</td>
+<td>⚠️ to sovereignly will</td>
+<td><em>beneplacitum</em>. NOT "to enjoy."</td>
+</tr>
+<tr>
+<td><strong>originate in</strong> (S9)</td>
+<td>to have its source in</td>
+<td><em>origo</em>. Cognate: <strong>orient</strong> (where the sun rises).</td>
+</tr>
+<tr>
+<td><strong>obedience</strong> (S9)</td>
+<td>⚠️ submissive hearing</td>
+<td><em>ob-</em> + <strong>audire (to HEAR)</strong>. Obey = listen-toward. Ties straight back to <em>give ear</em> (S5).</td>
+</tr>
+<tr>
+<td><strong>singular</strong> (S10)</td>
+<td>⚠️ unique, extraordinary</td>
+<td>NOT "single," NOT "odd." Cf. I.5.9 <em>a gift of singular value</em>.</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>The move Calvin is making, and why it's the hinge of the Reformation.</strong></p><p>§1 gave you the <em>spectacles</em>. Lovely, but a metaphor is a promissory note. §2 pays it: <strong>how</strong> did God actually give the spectacles? Answer: a two-stage history.</p><p><strong>Stage 1 — the living voice.</strong> Oracles, visions, "the instrumentality and ministry of men." God speaks; the fathers <em>know</em> it is God speaking, because God <code>invariably accompanied his word with a sure testimony</code>. Note what Calvin does <em>not</em> say: he does not say they proved it, or that miracles verified it, or that the church validated it. The certainty was <code>engraven on their hearts</code>. That is a placeholder — he will cash it in at I.7 as the <strong>internal testimony of the Holy Spirit</strong> (<em>testimonium Spiritus Sancti internum</em>). Watch how early the seed goes in.</p><p><strong>Stage 2 — the public record.</strong> And <em>here</em> is the pivot of an entire century of European conflict. God had the oracles <code>consigned, as it were, to public records</code>. Why? S2 tells you: <em>so that truth might subsist through all ages</em>. The written text exists because <strong>memory, tradition, and living voice do not survive corruption</strong>. Scripture is God's answer to entropy.</p><p>Now feel the polemical edge. If revelation is a <strong>public record</strong>, then it is:
+- <strong>checkable</strong> — anyone may consult the register;
+- <strong>stable</strong> — it cannot be quietly amended;
+- <strong>appealable</strong> — it stands over the very institution that transmits it.</p><p>Calvin does not say "and therefore Rome is wrong" — not here, not yet. But <em>sola Scriptura</em> has just been given its <strong>historical rationale</strong> rather than merely its slogan. The Council of Trent's fourth session (April 1546) would answer with <em>traditiones</em> alongside <em>libri</em>; Calvin's 1559 answer is already in place: God chose the archive precisely because the unwritten channel does not hold.</p><p><strong>The scope guard (S4) — don't skip this, it's where careless readers get Calvin wrong.</strong> He <em>fully grants</em> that the Law's special office is to teach reconciliation, and he even hands the objector Romans 10:4 (<em>telos nomou Christos</em>) with both hands. His counter is a mere <code>in addition to</code>. That is Calvin the systematic architect: he is in Book 1 (Creator), he must borrow from a book that is mostly about Book 2 (Redeemer), and he does it by showing that Scripture <em>also</em> carries the <em>notae</em> of the Creator. Nothing is denied; a second function is claimed. <strong>Book 1 is not a natural theology with a Bible bolted on; it is the Creator known <em>through Scripture</em>.</strong> This is precisely the Dowey–Parker dispute you have been tracking since Day 13 — and §2 is Parker's best evidence.</p><p><strong>The epistemological thesis (S6–S9).</strong> <em>Docility → disciple → reverent embrace → obedience.</em> Four rungs, one ladder. And the top rung — <code>all correct knowledge of God originate[s] in obedience</code> — is the sentence that separates Calvin from every rationalist theology after him. Knowledge of God is <strong>not</strong> the terminus of autonomous investigation. The mind that will not submit does not get a <em>smaller</em> God; per I.5.12, it gets a <strong>fictitious</strong> one.</p><p>Two guardrails so you don't over-read:
+- <strong>Not fideism.</strong> Calvin will spend all of Chapter 8 on rational evidences for Scripture's credibility. He is not anti-reason; he is anti-<strong>autonomy</strong>. Reason serves; it does not adjudicate.
+- <strong>Not moralism.</strong> <em>Obedience</em> in S9 is <em>hypakoē pisteōs</em> (Rom. 1:5), the submission of the mind to a Word it did not write. It is not "be good and God will reveal himself."</p><p><strong>Pedigree and reception.</strong> Tertullian (<em>Apologeticum</em> 18) already argued that God "added the instrument of literature" so we might approach him more fully — Beveridge flags it in the footnote, and Calvin is standing on it. Downstream: this section is the tap-root of <strong>Westminster Confession I.1</strong> ("therefore it pleased the Lord to commit the same wholly unto writing; which maketh the Holy Scripture to be most necessary") — read that line and then read S2 again; the debt is nearly verbatim. And Barth's <em>Word of God</em> threefold form (revealed / written / preached) is a twentieth-century re-run of Calvin's viva vox → scriptura, with the valences changed.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li><strong>Heb. 1:1</strong> — <em>πολυμερῶς καὶ πολυτρόπως</em>, "in many parts and in many ways God spoke to the fathers by the prophets." → <strong>S1</strong>. Calvin's "whether by oracles and visions, or by the ministry of men" is Hebrews 1:1 rendered as a disjunction. Even his phrase <em>"the fathers"</em> (τοῖς πατράσιν) is lifted straight from it.</li>
+<li><strong>2 Pet. 1:21</strong> — "holy men of God spake as they were moved by the Holy Ghost." → <strong>S1</strong>, the <em>instrumentality</em> clause. Men are the <em>instrument</em>; God is the one who <em>suggested</em>. Calvin's syntax (God as subject of both verbs) <em>is</em> his doctrine of inspiration.</li>
+<li><strong>Rom. 10:4</strong> — <em>τέλος γὰρ νόμου Χριστός</em>, "Christ is the end of the law." → <strong>S4</strong>, quoted explicitly. Note Calvin uses it as the <strong>objector's</strong> strongest card and concedes it. <em>Telos</em> = both terminus and goal; Calvin reads it as goal.</li>
+<li><strong>Eph. 1:5, 9</strong> — <em>εὐδοκία</em>, "the good pleasure of his will." → <strong>S2, S8</strong>, <code>it was his pleasure that</code> / <code>has been pleased</code>. Sovereign will, not emotion.</li>
+<li><strong>Ps. 19:1–7</strong> — the heavens declare... <strong>and then</strong> "the law of the LORD is perfect." → the architecture of <strong>S5</strong>. Eyes on the theatre, ear to the Word. (Calvin quotes Ps. 19 explicitly tomorrow, in §3–4 — this is the setup.)</li>
+<li><strong>Eph. 4:18 / 5:8</strong> — "having the understanding darkened... ye were sometimes darkness." → <strong>S6</strong>, <code>those who are born in darkness</code>.</li>
+<li><strong>Rom. 1:21</strong> — <em>ἐματαιώθησαν</em>, "they became vain in their imaginations." → <strong>S6</strong>, <code>exult in their own vanity</code>. The bell Calvin has rung since I.4.1. The alternative to docility is never neutrality; it is vanity.</li>
+<li><strong>Rom. 1:5 / 16:26</strong> — <em>ὑπακοὴ πίστεως</em>, "the obedience of faith." → <strong>S9</strong>. The controlling text. And remember the etymology: <em>ob-audire</em> = to hear-toward. Obedience <em>is</em> hearing. Which is why S5 said <code>give ear</code>.</li>
+<li><strong>Jas. 1:21</strong> — "receive with meekness the engrafted word." → <strong>S8</strong>, <code>reverently embrace</code>. Reception, not adjudication.</li>
+<li><strong>Deut. 31:24–26</strong> — Moses writes the law in a book and it is placed beside the ark as <strong>a witness</strong>. → <strong>S2–S3</strong>. That is Calvin's <code>public records</code> in its Old Testament original. The archive is not his metaphor; it is Moses'.</li>
+</ol><p><strong>How Calvin uses Scripture here:</strong> notice that in this whole section he <em>quotes</em> only once (Rom. 10:4) — and he quotes it <strong>for his opponent</strong>. Everything else is absorbed, not cited. That is a mature writer: the Bible is not his ammunition dump, it is his idiom.</p><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (the examiner&#x27;s eye)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① 어법 — Four underlined. One is wrong. Find it.</h3><blockquote>
+<p>For not only ⓐ<u>does</u> faith, full and perfect faith, but all correct knowledge of God, ⓑ<u>originates</u> in obedience. And surely in this respect God ⓒ<u>has</u> with singular Providence ⓓ<u>provided</u> for mankind in all ages.</p>
+</blockquote><p><strong>Answer: ⓑ</strong> → must be <strong><code>originate</code></strong> (bare plural).</p><p><strong>출제 의도:</strong> This is Formula 2, and it is designed to punish the reflex "singular subject → add -s." Two things have to click. <strong>First</strong>, the subject of the final verb is <strong>compound</strong> — <em>faith</em> <strong>and</strong> <em>all correct knowledge of God</em> — because <code>not only A but B</code> coordinates them; a compound subject takes a plural verb. <strong>Second</strong>, students see the <em>does</em> in ⓐ and assume the verb has already been marked for agreement, then mark it <em>again</em> on ⓑ. No. The <code>does</code> is do-support forced by the fronted <code>not only</code> inversion, and it attaches to the <strong>first conjunct only</strong>; the lexical verb waits at the end for <strong>both</strong>. ⓐ <code>does</code> is correct (inversion + first conjunct). ⓒ/ⓓ are a straightforward present perfect with an adverbial wedged in Latin-style between auxiliary and participle — ugly, but correct.</p><hr/><h3>② 내용일치 — Which of the following agrees with the passage?</h3><ol>
+<li>Calvin argues that because the Law's special office is to teach reconciliation through Christ, Scripture supplies no marks by which the Creator may be distinguished from false gods.</li>
+<li>Calvin holds that man should abandon the contemplation of God's works, since a place in the theatre of creation proved useless to him.</li>
+<li>Calvin maintains that God's oracles were committed to writing so that their truth might endure through every age, even as doctrine continued to be enlarged.</li>
+<li>Calvin concedes that a man may attain a small measure of sound doctrine apart from Scripture, though never its fullness.</li>
+</ol><p><strong>Answer: 3.</strong> (S2 — <code>in order that, while doctrine was continually enlarged, its truth might subsist in the world during all ages</code>.)</p><p><strong>출제 의도 (each distractor is a specific disease — learn the diseases, not the answers):</strong>
+- <strong>1 = direction flip.</strong> It takes Calvin's <strong>concession</strong> in S4 (<em>though ... the special office ... was to teach reconciliation</em>) and converts it into his <strong>conclusion</strong>, deleting the hinge <code>still I repeat that ... in addition to</code>. Whenever a passage says "though A, still B," the classic trap answer reports <strong>A</strong> as the thesis. Calvin's thesis is B.
+- <strong>2 = overreach.</strong> S5 explicitly says <code>it becomes man seriously to employ his eyes</code> — the theatre-seat is <em>assigned</em>, and the duty of looking is <em>fitting</em>. Calvin <strong>ranks</strong>; he never <strong>abolishes</strong>. And note the vocabulary bait: if you misread <code>becomes</code> as "turns into," this choice starts to look plausible. That is not an accident.
+- <strong>4 = scope violation, and the sharpest one.</strong> S7 says <code>impossible ... to obtain **even the minutest portion**</code>. Choice 4 grants exactly the sliver that Calvin's superlative was built to eliminate. When an author writes "not even the smallest," a distractor offering "a small amount" is <em>always</em> wrong. Always.</p><hr/><h3>③ 영작 — Translate, using <strong>Formula 2</strong> (fronted <code>not only</code> + inversion + shared final verb).</h3><blockquote>
+<p>"성경의 기록된 말씀뿐 아니라 성령의 내적 증언도, 신자의 확신 안에서 함께 작용한다."
+<em>(Not only the written Word of Scripture, but also the inward testimony of the Spirit, works together in the believer's certainty.)</em></p>
+</blockquote><p><strong>Model answer:</strong></p><blockquote>
+<p><strong>Not only does the written Word of Scripture, but also the inward testimony of the Spirit, concur in the certainty of the believer.</strong></p>
+</blockquote><p><strong>출제 의도 &amp; 채점 기준 (3 points):</strong>
+1. <strong>Inversion present on the first conjunct only:</strong> <code>does the written Word</code> ✔. Writing <em>Not only the written Word does...</em> = 0 points. The auxiliary must precede the subject.
+2. <strong>The lexical verb is BARE and sits at the end, serving both subjects:</strong> <code>concur</code> (not <em>concurs</em>) ✔. This is the single graded item that separates an A from a C.
+3. <strong>Comma-fenced second conjunct</strong> before the shared verb ✔ — Beveridge's punctuation is the reader's only signal that the verb is still coming. Reproduce it.</p><p><em>(Also acceptable for the verb: <code>originate</code>, <code>combine</code>, <code>unite</code>, <code>have their place</code>. Not acceptable: any -s form.)</em></p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary:</strong>
+God did not leave revelation to the living voice — he <strong>consigned it to public records</strong>, so that its truth would outlast every age; and therefore, although the eye on creation's theatre is fitting, the <strong>ear to the Word</strong> is our special duty, since <strong>not even the minutest portion</strong> of sound doctrine reaches any man who is not a <strong>disciple of Scripture</strong> — because all correct knowledge of God originates in <strong>obedience</strong> (<em>ob-audire</em>: to hear-toward).</p><p><strong>The 3 formulas, one more time:</strong>
+1. <code>Whether A, or B, C</code> — concessive disjunctive; <strong>one shared subject</strong> hiding behind the adverbials (S1).
+2. <code>Not only does A ... but B ... **originate**</code> — inversion on conjunct 1, <strong>bare plural</strong> verb at the end for both (S9).
+3. <code>it becomes man to V</code> = it is <strong>fitting</strong> for; <code>the better</code> = <strong>all the more</strong> (S5).</p><p><strong>Homework (10 minutes):</strong>
+1. <strong>Structure restoration.</strong> Take S4 and strip it to eight words or fewer, preserving only the spine (<code>though ... still ...</code>). Then write, in one sentence of your own, <em>why</em> Calvin needed that concession at this exact point in Book 1. (Hint: what book is he in, and what book is the Law about?)
+2. <strong>Composition.</strong> Using <strong>Formula 4</strong> (<code>impossible ... even the minutest ... without V-ing</code>), write one sentence claiming that no true self-knowledge is available without the knowledge of God. (You are re-writing I.1.1 with today's grammar. Notice how the machinery transfers.)
+3. <strong>Tomorrow's preview.</strong> §3 opens with <strong>"For if we reflect how prone the human mind is to lapse into forgetfulness of God..."</strong> — three <code>how</code>-clauses in a row, an inventory of the mind's diseases (forgetfulness / error / fiction-making). Calvin is about to give the <strong>anthropological proof</strong> for why the archive was necessary: not because God's works are dim, but because <strong>our memory leaks</strong>. Come with the <em>how + adj + S + V</em> exclamatory-clause pattern already loaded.</p><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 6, §2 끝. 다음은 <strong>Book 1, Ch. 6, §3</strong> (Day 30).</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>

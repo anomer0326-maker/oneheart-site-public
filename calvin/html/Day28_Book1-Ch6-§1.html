@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 안경으로서의 성경 §1 (1권 6장 · Day 28) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 6장 §1(안경으로서의 성경)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 28. 연관 성구: 요한복음 5, 마태복음 5, 에베소서 2, 시편 78."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day28_Book1-Ch6-%C2%A71.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="안경으로서의 성경 §1 — 기독교 강요 영어로 읽기 (Day 28)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 6장 §1(안경으로서의 성경)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 28. 연관 성구: 요한복음 5, 마태복음 5, 에베소서 2, 시편 78."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day28_Book1-Ch6-%C2%A71.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 안경으로서의 성경 §1 (1권 6장 · Day 28) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 6장 §1(안경으로서의 성경)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 28. 연관 성구: 요한복음 5, 마태복음 5, 에베소서 2, 시편 78.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 6장 §1 — 안경으로서의 성경","mentions":[{"@type":"CreativeWork","name":"요한복음 5 (John 5)"},{"@type":"CreativeWork","name":"마태복음 5 (Matt 5)"},{"@type":"CreativeWork","name":"에베소서 2 (Eph 2)"},{"@type":"CreativeWork","name":"시편 78 (Ps 78)"},{"@type":"CreativeWork","name":"사도행전 17 (Acts 17)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day28_Book1-Ch6-%C2%A71.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 28 — Institutes I.6.§1 [직강]<small>Calvin English Live Lecture · Book 1, Chapter 6, Section 1</small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">Orientation — one minute</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">Full Text (Beveridge, 17 sentences — about 3 minutes)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl2" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl2" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl3" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl3" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl2" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl2" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl1" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl3" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl1" href="#S11" onclick="closeNavMobile()">S11</a><a class="toc-s lvl2" href="#S12" onclick="closeNavMobile()">S12</a><a class="toc-s lvl1" href="#S13" onclick="closeNavMobile()">S13</a><a class="toc-s lvl1" href="#S14" onclick="closeNavMobile()">S14</a><a class="toc-s lvl2" href="#S15" onclick="closeNavMobile()">S15</a><a class="toc-s lvl1" href="#S16" onclick="closeNavMobile()">S16</a><a class="toc-s lvl2" href="#S17" onclick="closeNavMobile()">S17</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">Today&#x27;s Grammar Formulas (시험 직전 이것만)</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">Vocabulary (어원 후킹 테이블)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref">Book 1, Chapter 6, Section 1</span>
+      <h1>Day 28 — Institutes I.6.§1 [직강]</h1>
+      <div class="sub">Calvin English Live Lecture · Book 1, Chapter 6, Section 1</div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">Orientation — one minute</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>New chapter. New era. For five chapters Calvin ran natural theology to its limit and filed two verdicts at the funeral: the light of creation leaves us <em>inexcusable</em>, and it is <em>insufficient</em> to save. Yesterday's last words were a promise — "another and better help." Today he delivers it: <strong>Scripture</strong>. And he delivers it with the single most famous image in the entire <em>Institutes</em> — the <strong>spectacles</strong>. Old eyes, a beautiful book, letters swimming on the page; put on the glasses, and suddenly you <em>read</em>. That is what Scripture does to the confused impressions of Deity lying scattered in your mind. Underline S5 twice; it will follow you through every Calvin exam for the rest of your life.</p><p>But there is more here than the metaphor. S10–S12 quietly lay down the <strong>architecture of the whole work</strong>: God known as <em>Creator</em> first, as <em>Redeemer</em> afterwards — the <em>duplex cognitio Dei</em> you met back in I.2.1 now becomes the floor plan of Books 1 and 2. Calvin even posts the detour sign himself: redemption is postponed (S13, S16); this chapter treats Scripture only as our guide to God <em>the Creator</em>. Miss that scope restriction and the content-question will eat you alive.</p><p><strong>Today's 3 Big Points — mark them now:</strong></p><ol>
+<li><strong><code>Not in vain … has he added</code> / <code>And not in vain does he … retain</code> — litotes + negative-adverbial inversion, TWICE (S2, S4).</strong> Front a negative adverbial (<em>not in vain</em>), and the auxiliary must vault over the subject: <em>has he added</em>, <em>does he retain</em>. And <em>not in vain</em> is litotes — "not uselessly" = "with the most deliberate purpose." Twin sentences, same engine: one for Israel then, one for us now.</li>
+<li><strong><code>For as the aged … so Scripture …</code> — the correlative simile with a marathon protasis (S5).</strong> The <em>as</em>-clause runs almost fifty words (aged readers, fair book, blurred letters, then the glasses) before <em>so</em> finally arrives with the payoff subject, <em>Scripture</em>. Hold the frame: <strong>as A ‹is/does›, so B ‹is/does›</strong>. Lose the <em>so</em> and you lose the sentence.</li>
+<li><strong>The fronting family (S10, S12).</strong> Object fronting + emphatic <em>do</em>: <em>both kinds of knowledge they certainly did obtain</em> — object first, then subject, then stressed auxiliary. And full subject–verb inversion after a fronted prepositional phrase: <em>To this first knowledge was afterwards added the more intimate knowledge…</em> — the grammatical subject stands at the END. Find the true subject after the verb, or the singular/plural question will trap you.</li>
+</ol><p>Three engines. Lock them in. Now read.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">Full Text (Beveridge, 17 sentences — about 3 minutes)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+<span class="ft-sent" data-s="S1" id="ft-S1" onclick="jumpToCard('S1')">Therefore, though the effulgence which is presented to every eye, both in the heavens and on the earth, leaves the ingratitude of man without excuse, since God, in order to bring the whole human race under the same condemnation, holds forth to all, without exception, a mirror of his Deity in his works, another and better help must be given to guide us properly to God as a Creator.</span> <span class="ft-sent" data-s="S2" id="ft-S2" onclick="jumpToCard('S2')">Not in vain, therefore, has he added the light of his Word in order that he might make himself known unto salvation, and bestowed the privilege on those whom he was pleased to bring into nearer and more familiar relation to himself.</span> <span class="ft-sent" data-s="S3" id="ft-S3" onclick="jumpToCard('S3')">For, seeing how the minds of men were carried to and fro, and found no certain resting-place, he chose the Jews for a peculiar people, and then hedged them in that they might not, like others, go astray.</span> <span class="ft-sent" data-s="S4" id="ft-S4" onclick="jumpToCard('S4')">And not in vain does he, by the same means, retain us in his knowledge, since but for this, even those who, in comparison of others, seem to stand strong, would quickly fall away.</span> <span class="ft-sent" data-s="S5" id="ft-S5" onclick="jumpToCard('S5')">For as the aged, or those whose sight is defective, when any books however fair, is set before them, though they perceive that there is something written are scarcely able to make out two consecutive words, but, when aided by glasses, begin to read distinctly, so Scripture, gathering together the impressions of Deity, which, till then, lay confused in our minds, dissipates the darkness, and shows us the true God clearly.</span> <span class="ft-sent" data-s="S6" id="ft-S6" onclick="jumpToCard('S6')">God therefore bestows a gift of singular value, when, for the instruction of the Church, he employs not dumb teachers merely, but opens his own sacred mouth; when he not only proclaims that some God must be worshipped, but at the same time declares that He is the God to whom worship is due; when he not only teaches his elect to have respect to God, but manifests himself as the God to whom this respect should be paid.</span>
+<span class="ft-sent" data-s="S7" id="ft-S7" onclick="jumpToCard('S7')">The course which God followed towards his Church from the very first, was to supplement these common proofs by the addition of his Word, as a surer and more direct means of discovering himself.</span> <span class="ft-sent" data-s="S8" id="ft-S8" onclick="jumpToCard('S8')">And there can be no doubt that it was by this help, Adam, Noah, Abraham, and the other patriarchs, attained to that familiar knowledge which, in a manner, distinguished them from unbelievers.</span> <span class="ft-sent" data-s="S9" id="ft-S9" onclick="jumpToCard('S9')">I am not now speaking of the peculiar doctrines of faith by which they were elevated to the hope of eternal blessedness.</span> <span class="ft-sent" data-s="S10" id="ft-S10" onclick="jumpToCard('S10')">It was necessary, in passing from death unto life, that they should know God, not only as a Creator, but as a Redeemer also; and both kinds of knowledge they certainly did obtain from the Word.</span> <span class="ft-sent" data-s="S11" id="ft-S11" onclick="jumpToCard('S11')">In point of order, however, the knowledge first given was that which made them acquainted with the God by whom the world was made and is governed.</span> <span class="ft-sent" data-s="S12" id="ft-S12" onclick="jumpToCard('S12')">To this first knowledge was afterwards added the more intimate knowledge which alone quickens dead souls, and by which God is known not only as the Creator of the worlds and the sole author and disposer of all events, but also as a Redeemer, in the person of the Mediator.</span> <span class="ft-sent" data-s="S13" id="ft-S13" onclick="jumpToCard('S13')">But as the fall and the corruption of nature have not yet been considered, I now postpone the consideration of the remedy (for which, see Book 2 c. 6 &amp;c).</span> <span class="ft-sent" data-s="S14" id="ft-S14" onclick="jumpToCard('S14')">Let the reader then remember, that I am not now treating of the covenant by which God adopted the children of Abraham, or of that branch of doctrine by which, as founded in Christ, believers have, properly speaking, been in all ages separated from the profane heathen.</span> <span class="ft-sent" data-s="S15" id="ft-S15" onclick="jumpToCard('S15')">I am only showing that it is necessary to apply to Scripture, in order to learn the sure marks which distinguish God, as the Creator of the world, from the whole herd of fictitious gods.</span> <span class="ft-sent" data-s="S16" id="ft-S16" onclick="jumpToCard('S16')">We shall afterward, in due course, consider the work of Redemption.</span> <span class="ft-sent" data-s="S17" id="ft-S17" onclick="jumpToCard('S17')">In the meantime, though we shall adduce many passages from the New Testament, and some also from the Law and the Prophets, in which express mention is made of Christ, the only object will be to show that God, the Maker of the world, is manifested to us in Scripture, and his true character expounded, so as to save us from wandering up and down, as in a labyrinth, in search of some doubtful deity.</span>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Two movements. <strong>Movement one — the gift (S1–S6):</strong> the <em>therefore</em>-bridge from Chapter 5: creation's mirror condemns all without exception, BUT <em>another and better help</em> must be given (S1); so, <em>not in vain</em>, God added the light of his Word for salvation, a privilege for those brought near (S2); concretely, he chose the Jews as a peculiar people and hedged them in (S3); and <em>not in vain</em> he retains US by the same means — without it even the strongest would quickly fall away (S4); then THE simile: as failing eyes read only with glasses, so Scripture gathers the confused impressions of Deity, dissipates the darkness, and shows the true God <em>clearly</em> (S5); the gift crowned: God opens <em>his own sacred mouth</em> — not merely "some God exists" but "I AM that God" (S6). <strong>Movement two — the scope (S7–S17):</strong> this Word-supplement was God's course from the very first — Adam, Noah, Abraham knew him by it (S7–S8); then Calvin fences the field: not speaking of saving faith yet (S9); the patriarchs had BOTH knowledges from the Word — Creator first in order, Redeemer added to quicken dead souls (S10–S12); remedy postponed to Book 2 (S13); not treating the covenant now (S14); only showing that Scripture is needed to learn the <em>sure marks</em> distinguishing the Creator from all fictitious gods (S15–S16); even NT passages will serve that one object — to save us from the <em>labyrinth</em> (S17).</p><pre><code>[BRIDGE]    creation's mirror → all condemned, no excuse → BUT
+            "another and better help" = the WORD                    (S1)
+[GIFT]      not in vain: light of Word, unto salvation, privilege   (S2)
+            → Israel chosen, hedged in                              (S3)
+            → not in vain: WE are retained (but for this → fall)    (S4)
+[SIMILE]    failing eyes + GLASSES → read distinctly ::
+            confused impressions + SCRIPTURE → true God clearly     (S5)
+[CROWN]     not dumb teachers — God's own sacred mouth,
+            not "a god" but "THE God" (3× when / not only…but)      (S6)
+[HISTORY]   Word from the very first: Adam, Noah, Abraham           (S7–S8)
+[SCOPE]     duplex cognitio: Creator FIRST in order,
+            Redeemer added (quickens dead souls)                    (S9–S12)
+[DETOUR]    fall not yet treated → remedy postponed (Book 2)        (S13–S16)
+[GOAL]      Scripture's sure marks vs herd of fictitious gods;
+            out of the labyrinth                                    (S15, S17)
+</code></pre><p><strong>Examiner's Eye:</strong> the prime trap is the <strong>relation between creation and Scripture</strong>. A tempting option: "Since creation fails to reveal God, Calvin abandons it and turns to Scripture instead." Wrong twice — creation does NOT fail objectively (its mirror still condemns <em>without exception</em>, S1), and Scripture doesn't <em>replace</em> the works of God, it <em>focuses</em> them (the glasses gather and clarify what was already impressed, S5; the Word is a <em>supplement</em> to the common proofs, S7). Second trap — scope: any option claiming this chapter teaches "Scripture reveals God as Redeemer" reverses S15's explicit restriction: here Scripture is treated ONLY as guide to God <em>the Creator</em>; redemption is postponed. Third trap — S12's <em>quickens</em> = "makes alive," never "speeds up."</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">The chapter thesis — concession stacked on cause, verdict carried over</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>Therefore, though the effulgence which is presented to every eye, both in the heavens and on the earth, leaves the ingratitude of man without excuse, since God, in order to bring the whole human race under the same condemnation, holds forth to all, without exception, a mirror of his Deity in his works, another and better help must be given to guide us properly to God as a Creator.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">Therefore</span></li><li><span class="lab ph">양보절 (though)</span><span class="leaf">though the effulgence</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which is presented to every eye</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">both in the heavens and on the earth</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">leaves the ingratitude of man</span></li><li><span class="leaf">without excuse</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">이유/시간절 (since)</span><span class="leaf">since God</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in order to bring the whole human race</span></li><li><span class="leaf">under the same condemnation</span></li></ul></li><li><span class="leaf">holds forth to all</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">without exception</span></li></ul></li></ul></li><li><span class="leaf">a mirror of his Deity</span></li><li><span class="leaf">in his works</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">another and better help</span></li><li><span class="leaf">must be given</span></li><li><span class="leaf">to guide us properly</span></li><li><span class="leaf">to God as a Creator</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>effulgence</em> &lt; Latin <em>effulgere</em> (<em>ex-</em> out + <em>fulgere</em> to shine) → a shining-forth, radiance; <em>condemnation</em> &lt; <em>condemnare</em> (<em>con-</em> + <em>damnare</em> to sentence) — the courtroom never closes in Calvin.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>hold forth</em> = to hold out for display, present publicly; <em>without exception</em> = with no one exempted — universality clause.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The radiance shown to every eye in the sky and on earth strips human ingratitude of every excuse, since God displays a mirror of his divinity in his works to everyone without exception, to bring the whole human race under the same condemnation. Even so, another and better help must be given to lead us properly to God as Creator.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>effulgence</b> → radiance</li><li><b>leaves the ingratitude of man without excuse</b> → strips human ingratitude of every excuse</li><li><b>holds forth</b> → displays</li><li><b>a mirror of his Deity</b> → a mirror of his divinity</li><li><b>must be given to guide us properly</b> → must be given to lead us properly.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Big Point 1a — Not in vain … has he added: litotes + inversion, the Word unto salvation</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>Not in vain, therefore, has he added the light of his Word in order that he might make himself known unto salvation, and bestowed the privilege on those whom he was pleased to bring into nearer and more familiar relation to himself.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">Not in vain,, has he added</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">therefore</span></li></ul></li></ul></li><li><span class="leaf">the light of his Word</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">in order that he might make himself known</span></li><li><span class="leaf">unto salvation</span></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and ‹has›</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">bestowed the privilege</span></li><li><span class="leaf">on those</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (whom)</span><span class="leaf">whom he was pleased</span><ul class="tr"><li><span class="leaf">to bring</span></li><li><span class="leaf">into nearer and more familiar relation</span></li><li><span class="leaf">to himself</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>privilege</em> &lt; Latin <em>privilegium</em> (<em>privus</em> private + <em>lex</em> law) → a law for one person — grace by definition unequal; <em>bestow</em> &lt; Middle English <em>bistowen</em> (place, deposit) → to confer as a gift.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>not in vain</em> = with real effect, most purposefully (litotes); <em>unto salvation</em> = with saving effect, to the point of salvation (archaic <em>unto</em> = to, toward).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So it was not for nothing that he added the light of his Word to make himself known in a saving way, and gave that privilege to those he chose to bring into a closer, more familiar relationship with himself.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Not in vain … has he added</b> → it was not for nothing that he added</li><li><b>unto salvation</b> → in a saving way</li><li><b>bestowed the privilege on</b> → gave that privilege to</li><li><b>whom he was pleased to bring</b> → those he chose to bring</li><li><b>nearer and more familiar relation</b> → closer, more familiar relationship.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Israel chosen and fenced — seeing how + purpose that … might not</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>For, seeing how the minds of men were carried to and fro, and found no certain resting-place, he chose the Jews for a peculiar people, and then hedged them in that they might not, like others, go astray.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">For</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">seeing</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">how the minds of men were carried to and fro</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and found no certain resting-place</span></li></ul></li></ul></li></ul></li><li><span class="leaf">he chose the Jews</span></li><li><span class="leaf">for a peculiar people</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and hedged them in</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">then</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that they might not,, go astray</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">like others</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>peculiar</em> &lt; Latin <em>peculium</em> (private property; &lt; <em>pecus</em>, cattle — wealth on the hoof) → one's very own; <em>hedge</em> &lt; Old English <em>hecg</em> → living fence; verb: to enclose protectively.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>carried to and fro</em> = tossed back and forth, driven aimlessly; <em>hedge in</em> = to fence round, enclose for protection.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Because he saw how human minds were tossed back and forth and could find no firm resting place, he chose the Jews as his own treasured people and then fenced them in, so that they would not wander off like everyone else.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>seeing how</b> → because he saw how</li><li><b>carried to and fro</b> → tossed back and forth</li><li><b>for a peculiar people</b> → as his own treasured people</li><li><b>hedged them in that they might not</b> → fenced them in so that they would not</li><li><b>go astray</b> → wander off.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Big Point 1b — the twin inversion: And not in vain does he … retain, plus but for this</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>And not in vain does he, by the same means, retain us in his knowledge, since but for this, even those who, in comparison of others, seem to stand strong, would quickly fall away.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf">And not in vain does he</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by the same means</span></li></ul></li><li><span class="leaf">retain us</span></li><li><span class="leaf">in his knowledge</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">이유/시간절 (since)</span><span class="leaf">since</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf">but for this</span></li></ul></li></ul></li><li><span class="leaf">even those</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">who,, seem to stand strong</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in comparison of others</span></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">would quickly fall away</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>retain</em> &lt; Latin <em>retinere</em> (<em>re-</em> back + <em>tenere</em> hold) → to keep hold of — the grip is God's, not ours; <em>vain</em> &lt; <em>vanus</em> (empty) → <em>in vain</em> = to empty effect.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>but for this</em> = if it were not for this, without this; <em>fall away</em> = to defect, lapse from the faith (apostasy verb).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And it is not for nothing that he keeps us in the knowledge of himself by the same means, because without it even those who seem strongest compared with others would quickly fall away.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>not in vain does he … retain us</b> → it is not for nothing that he keeps us</li><li><b>by the same means</b> → by the same means (the Word)</li><li><b>but for this</b> → without it</li><li><b>in comparison of others</b> → compared with others</li><li><b>fall away</b> → abandon the faith.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">THE SPECTACLES — the most famous simile in the Institutes: as …, so …</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>For as the aged, or those whose sight is defective, when any books however fair, is set before them, though they perceive that there is something written are scarcely able to make out two consecutive words, but, when aided by glasses, begin to read distinctly, so Scripture, gathering together the impressions of Deity, which, till then, lay confused in our minds, dissipates the darkness, and shows us the true God clearly.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">For as the aged</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">등위 (or)</span><span class="leaf">or those</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (whose)</span><span class="leaf">whose sight is defective</span></li></ul></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf">when any books, is set before them</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">however fair</span></li></ul></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf">though they perceive</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that there is something written</span></li></ul></li></ul></li><li><span class="leaf">are scarcely able</span></li><li><span class="leaf">to make out two consecutive words</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf">but</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf">when aided by glasses</span></li></ul></li></ul></li><li><span class="leaf">begin to read distinctly</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">결과절 (so…that)</span><span class="leaf">so Scripture</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">gathering together the impressions of Deity</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">which,, lay confused in our minds</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">till then</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">dissipates the darkness</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and shows us the true God</span></li><li><span class="leaf">clearly</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>dissipate</em> &lt; Latin <em>dissipare</em> (<em>dis-</em> apart + <em>supare</em> throw) → to scatter to nothing — what Scripture does to fog; <em>spectacles</em> (the traditional label; Latin <em>specillis</em> in Calvin) &lt; <em>specere</em> to look → instruments FOR looking, not objects OF looking.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>make out</em> = manage to decipher, barely read; <em>set before</em> = place in front of, present to.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Just as old people, or anyone with poor eyesight, can barely make out two consecutive words when even the finest book is put in front of them — they can see that something is written there — yet read fluently once they put on glasses, so Scripture gathers up the impressions of God that until then lay jumbled in our minds, clears away the fog, and shows us the true God distinctly.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the aged, or those whose sight is defective</b> → old people, or anyone with poor eyesight</li><li><b>any books however fair</b> → even the finest book</li><li><b>are scarcely able to make out</b> → can barely make out</li><li><b>aided by glasses</b> → once they put on glasses</li><li><b>lay confused in our minds</b> → lay jumbled in our minds</li><li><b>dissipates the darkness</b> → clears away the fog.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">The gift crowned — God's own sacred mouth: triple when + triple not only … but</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>God therefore bestows a gift of singular value, when, for the instruction of the Church, he employs not dumb teachers merely, but opens his own sacred mouth; when he not only proclaims that some God must be worshipped, but at the same time declares that He is the God to whom worship is due; when he not only teaches his elect to have respect to God, but manifests himself as the God to whom this respect should be paid.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">God bestows a gift of singular value</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">therefore</span></li></ul></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf">when</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">for the instruction of the Church</span></li></ul></li></ul></li><li><span class="leaf">he employs not dumb teachers merely</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf">but opens his own sacred mouth</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf">when he not only proclaims</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that some God must be worshipped</span></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf">but declares</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">at the same time</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that He is the God</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">to whom worship is due</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf">when he not only teaches his elect</span></li><li><span class="leaf">to have respect to God</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf">but manifests himself</span></li><li><span class="leaf">as the God</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">to whom this respect should be paid</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>manifest</em> &lt; Latin <em>manifestus</em> (<em>manus</em> hand + <em>-festus</em> struck/seized) → graspable by hand, unmistakably shown; <em>singular</em> &lt; <em>singulus</em> (one apiece) → one-of-a-kind.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>open one's mouth</em> (biblical idiom) = to begin authoritative speech (cf. Matt 5:2); <em>have respect to</em> (archaic) = to look toward, give regard to — not modern "politeness."</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So God gives a uniquely precious gift when, to instruct the Church, he uses not just silent teachers but opens his own holy mouth; when he not only announces that some god ought to be worshipped, but declares that HE is the God who deserves that worship; when he not only teaches his chosen ones to look to God, but shows himself as the very God they should be looking to.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>a gift of singular value</b> → a uniquely precious gift</li><li><b>dumb teachers merely</b> → just silent teachers</li><li><b>some God must be worshipped</b> → some god ought to be worshipped</li><li><b>to whom worship is due</b> → who deserves that worship</li><li><b>have respect to God</b> → look to God.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s2" title="2-star">★★</span><span class="s-label">God's constant method — the Word as supplement, from the very first</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>The course which God followed towards his Church from the very first, was to supplement these common proofs by the addition of his Word, as a surer and more direct means of discovering himself.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">The course</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which God followed</span><ul class="tr"><li><span class="leaf">towards his Church</span></li><li><span class="leaf">from the very first</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">was to supplement these common proofs</span></li><li><span class="leaf">by the addition of his Word</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as a surer and more direct means</span></li><li><span class="leaf">of discovering himself</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>supplement</em> &lt; Latin <em>supplere</em> (<em>sub-</em> up + <em>plere</em> fill) → to fill up what remains — addition, not replacement; <em>discover</em> &lt; Old French <em>descovrir</em> (<em>dis-</em> + <em>covrir</em>) → to un-cover, disclose.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>from the very first</em> = from the earliest beginning; <em>(a) means of V-ing</em> = an instrument for V-ing.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">From the very beginning, God's method with his Church was to add his Word to these common proofs, as a surer and more direct way of revealing himself.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>The course which God followed</b> → God's method</li><li><b>supplement these common proofs by the addition of his Word</b> → add his Word to these common proofs</li><li><b>means of discovering himself</b> → way of revealing himself.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s2" title="2-star">★★</span><span class="s-label">The patriarchs' secret — it-cleft with that omitted</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>And there can be no doubt that it was by this help, Adam, Noah, Abraham, and the other patriarchs, attained to that familiar knowledge which, in a manner, distinguished them from unbelievers.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf">And there can be no doubt</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that it was by this help</span><ul class="tr"><li><span class="leaf">‹that› Adam, Noah, Abraham, and the other patriarchs</span></li><li><span class="leaf">attained</span></li><li><span class="leaf">to that familiar knowledge</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">which,, distinguished them</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in a manner</span></li></ul></li></ul></li><li><span class="leaf">from unbelievers</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>attain</em> &lt; Latin <em>attingere</em> (<em>ad-</em> + <em>tangere</em> touch) → to reach far enough to touch; <em>familiar</em> &lt; <em>familia</em> (household) → belonging to the family circle — intimate.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>there can be no doubt that</em> = it is beyond all question that; <em>in a manner</em> (archaic) = in a certain sense, so to speak.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And there is no question that it was by this help that Adam, Noah, Abraham, and the other patriarchs reached that intimate knowledge which, in a sense, set them apart from unbelievers.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>there can be no doubt that</b> → there is no question that</li><li><b>attained to</b> → reached</li><li><b>that familiar knowledge</b> → that intimate knowledge</li><li><b>in a manner</b> → in a sense</li><li><b>distinguished them from</b> → set them apart from.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s1" title="1-star">★</span><span class="s-label">Fencing the field — not saving faith yet</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p>I am not now speaking of the peculiar doctrines of faith by which they were elevated to the hope of eternal blessedness.</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><strong>peculiar</strong> — peculium(사유재산 &lt; pecus 가축) → "peculiar people"=하나님의 보물 백성(출19:5). '이상한' 아님!</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I am not talking right now about the specific doctrines of faith that lifted them to the hope of eternal blessedness.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>am not now speaking of</b> → am not talking right now about</li><li><b>peculiar doctrines of faith</b> → specific doctrines of faith</li><li><b>elevated to</b> → lifted to</li><li><b>eternal blessedness</b> → eternal happiness.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Big Point 3a — duplex cognitio + object fronting with emphatic did</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p>It was necessary, in passing from death unto life, that they should know God, not only as a Creator, but as a Redeemer also; and both kinds of knowledge they certainly did obtain from the Word.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">It was necessary</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in passing from death unto life</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that they should know God</span><ul class="tr"><li><span class="leaf">not only as a Creator</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf">but as a Redeemer also</span></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">both kinds of knowledge</span></li><li><span class="leaf">they did obtain</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">certainly</span></li></ul></li></ul></li><li><span class="leaf">from the Word</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>redeemer</em> &lt; Latin <em>redimere</em> (<em>red-</em> back + <em>emere</em> buy) → the buyer-back; <em>obtain</em> &lt; <em>obtinere</em> (<em>ob-</em> + <em>tenere</em> hold) → to get and keep hold of.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>pass from death unto life</em> = to cross from spiritual death into life (John 5:24, AV wording); <em>not only A but B also</em> = B no less than A.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">To pass from death to life, they needed to know God not only as Creator but also as Redeemer — and they certainly got both kinds of knowledge from the Word.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>It was necessary … that they should know</b> → they needed to know</li><li><b>in passing from death unto life</b> → to pass from death to life</li><li><b>as a Redeemer also</b> → also as Redeemer</li><li><b>both kinds of knowledge they certainly did obtain</b> → they certainly got both kinds of knowledge.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s1" title="1-star">★</span><span class="s-label">Order of knowledge — Creator first</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p>In point of order, however, the knowledge first given was that which made them acquainted with the God by whom the world was made and is governed.</p>
+</blockquote><div class="mi-grid"><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><strong>in point of order</strong> = as a matter of sequence" — not rank, ORDER</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">In terms of sequence, though, the knowledge given first was the kind that acquainted them with the God who made and governs the world.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>In point of order</b> → in terms of sequence</li><li><b>the knowledge first given was that which</b> → the knowledge given first was the kind that</li><li><b>made them acquainted with</b> → acquainted them with</li><li><b>by whom the world was made and is governed</b> → who made and governs the world.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S12" id="S12"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S12</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Big Point 3b — inversion after fronted PP: To this first knowledge was afterwards added …</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S12" onclick="flashFullText(this)">
+<p>To this first knowledge was afterwards added the more intimate knowledge which alone quickens dead souls, and by which God is known not only as the Creator of the worlds and the sole author and disposer of all events, but also as a Redeemer, in the person of the Mediator.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">To this first knowledge</span></li><li><span class="leaf">was added</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">afterwards</span></li></ul></li></ul></li><li><span class="leaf">the more intimate knowledge</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which alone quickens dead souls</span></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">by which God is known</span></li><li><span class="leaf">not only as the Creator of the worlds</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and the sole author and disposer of all events</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf">but also as a Redeemer</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in the person of the Mediator</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>quicken</em> &lt; Old English <em>cwic</em> (alive; cf. "the quick and the dead") → to make alive; <em>mediator</em> &lt; Latin <em>mediare</em> (&lt; <em>medius</em>, middle) → the one who stands between.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in the person of</em> = embodied in, in the concrete figure of; <em>author and disposer</em> = originator and arranger (legal-providential doublet).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">To this first knowledge was later added the deeper knowledge that alone brings dead souls to life — the knowledge by which God is known not only as Creator of the worlds and sole author and director of all events, but also as Redeemer in the person of the Mediator.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>was afterwards added</b> → was later added</li><li><b>the more intimate knowledge</b> → the deeper knowledge</li><li><b>quickens dead souls</b> → brings dead souls to life</li><li><b>disposer of all events</b> → director of all events.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S13" id="S13"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S13</span><span class="stars s1" title="1-star">★</span><span class="s-label">The detour sign — remedy postponed</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S13" onclick="flashFullText(this)">
+<p>But as the fall and the corruption of nature have not yet been considered, I now postpone the consideration of the remedy (for which, see Book 2 c. 6 &amp;c).</p>
+</blockquote><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But since the fall and the corruption of nature haven't been discussed yet, I'm postponing the discussion of the remedy (see Book 2, chapter 6 and following).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>as … have not yet been considered</b> → since … haven't been discussed yet</li><li><b>I now postpone the consideration of</b> → I'm postponing the discussion of</li><li><b>&amp;c</b> → and following.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S14" id="S14"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S14</span><span class="stars s1" title="1-star">★</span><span class="s-label">Second fence — not the covenant either</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S14" onclick="flashFullText(this)">
+<p>Let the reader then remember, that I am not now treating of the covenant by which God adopted the children of Abraham, or of that branch of doctrine by which, as founded in Christ, believers have, properly speaking, been in all ages separated from the profane heathen.</p>
+</blockquote><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Let the reader remember, then, that I'm not yet dealing with the covenant by which God adopted Abraham's children, or with that branch of doctrine, founded on Christ, which has always set believers apart from the pagan world.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>treating of</b> → dealing with</li><li><b>the children of Abraham</b> → Abraham's children</li><li><b>properly speaking</b> → strictly speaking</li><li><b>in all ages</b> → always</li><li><b>the profane heathen</b> → the pagan world.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S15" id="S15"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S15</span><span class="stars s2" title="2-star">★★</span><span class="s-label">The positive scope — Scripture's sure marks vs the herd of fictitious gods</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S15" onclick="flashFullText(this)">
+<p>I am only showing that it is necessary to apply to Scripture, in order to learn the sure marks which distinguish God, as the Creator of the world, from the whole herd of fictitious gods.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">I am only showing</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that it is necessary</span><ul class="tr"><li><span class="leaf">to apply to Scripture</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in order to learn the sure marks</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which distinguish God</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as the Creator of the world</span></li></ul></li><li><span class="leaf">from the whole herd</span></li><li><span class="leaf">of fictitious gods</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>fictitious</em> &lt; Latin <em>fingere/fictum</em> (to mould, fabricate) → invented — same forge as §5's <em>figments</em>; <em>mark</em> &lt; Old English <em>mearc</em> (boundary sign) → identifying token, criterion.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>apply to</em> (archaic) = to have recourse to, turn to for help; <em>the whole herd of</em> = the entire undifferentiated mass of (contemptuous).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I am only showing that we must turn to Scripture to learn the reliable marks that distinguish God, as Creator of the world, from the whole herd of invented gods.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>it is necessary to apply to Scripture</b> → we must turn to Scripture</li><li><b>the sure marks</b> → the reliable marks</li><li><b>fictitious gods</b> → invented gods.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S16" id="S16"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S16</span><span class="stars s1" title="1-star">★</span><span class="s-label">Promissory note</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S16" onclick="flashFullText(this)">
+<p>We shall afterward, in due course, consider the work of Redemption.</p>
+</blockquote><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Later, at the proper point, we will take up the work of Redemption.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>We shall afterward</b> → later, we will</li><li><b>in due course</b> → at the proper point</li><li><b>consider</b> → take up.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S17" id="S17"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S17</span><span class="stars s2" title="2-star">★★</span><span class="s-label">The closing frame — one object only, and the labyrinth door shut</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S17" onclick="flashFullText(this)">
+<p>In the meantime, though we shall adduce many passages from the New Testament, and some also from the Law and the Prophets, in which express mention is made of Christ, the only object will be to show that God, the Maker of the world, is manifested to us in Scripture, and his true character expounded, so as to save us from wandering up and down, as in a labyrinth, in search of some doubtful deity.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">In the meantime</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf">though we shall adduce many passages</span></li><li><span class="leaf">from the New Testament</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and some from the Law and the Prophets</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">also</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">in which express mention is made of Christ</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the only object will be</span></li><li><span class="leaf">to show</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that God,, is manifested to us</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">the Maker of the world</span></li></ul></li></ul><ul class="tr"><li><span class="leaf">in Scripture</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and his true character ‹is› expounded</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">결과절 (so…that)</span><span class="leaf">so as to save us</span></li><li><span class="leaf">from wandering up and down</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as in a labyrinth</span></li></ul></li><li><span class="leaf">in search of some doubtful deity</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>adduce</em> &lt; Latin <em>adducere</em> (<em>ad-</em> + <em>ducere</em> lead) → to lead forward as evidence; <em>labyrinth</em> &lt; Greek <em>labyrinthos</em> (the Cretan maze) — Calvin's signature image for the unaided mind.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>express mention is made of</em> = X is explicitly named; <em>up and down</em> (archaic adverbial) = in every direction, aimlessly.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Meanwhile, although we will quote many New Testament passages, and some from the Law and the Prophets, that explicitly mention Christ, the sole aim will be to show that Scripture reveals God, the Maker of the world, and lays out his true character — to keep us from wandering around as if in a maze, hunting for some uncertain deity.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>adduce many passages</b> → quote many passages</li><li><b>in which express mention is made of Christ</b> → that explicitly mention Christ</li><li><b>the only object will be</b> → the sole aim will be</li><li><b>his true character expounded</b> → lays out his true character</li><li><b>wandering up and down, as in a labyrinth</b> → wandering around as if in a maze</li><li><b>some doubtful deity</b> → some uncertain deity.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">Today&#x27;s Grammar Formulas (시험 직전 이것만)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>[공식 1] 부정 부사어 전치 + 조동사 도치 (litotes 강조)
+   Not in vain(,) + AUX + S + V …
+   ex) Not in vain, therefore, HAS HE ADDED the light of his Word …
+       And not in vain DOES HE … retain us in his knowledge …
+   ⚠️ 부정어(Not in vain / Never / Little …)가 문두에 오면
+      조동사가 주어 앞으로. "Not in vain he has added"는 오답 확정.
+   ⚠️ 의미 함정: not in vain = "헛되지 않게" = 최상급 긍정(가장 목적 있게).
+   연습) Not in vain does Scripture gather the scattered impressions of Deity.
+</code></pre><pre><code>[공식 2] as …, so … 상관 직유 (긴 전제 버티기)
+   (For) as + S1 + V1 …(아무리 길어도)…, so + S2 + V2 …
+   ex) For as the aged … begin to read distinctly,
+       so Scripture … dissipates the darkness …
+   ⚠️ as절이 길수록 so를 놓친다 — so가 본론(귀결)의 신호탄.
+   ⚠️ so 뒤는 도치 없음(양보 도치 Adj+as+V+S와 혼동 금지).
+   연습) As glasses focus weak eyes upon the page, so the Word focuses
+        the mind upon its Maker.
+</code></pre><pre><code>[공식 3] 전치(fronting) 패밀리 — 목적어 전치+강조 do / 전치사구 전치+완전도치
+   (a) O + S + (certainly) do/does/did + V원형
+       ex) Both kinds of knowledge they certainly DID OBTAIN from the Word.
+   (b) PP + V(수동) + S(진짜 주어가 뒤로)
+       ex) To this first knowledge WAS afterwards ADDED
+           the more intimate knowledge …
+   ⚠️ (a)는 주어-조동사 도치 아님(S가 do 앞) — 공식 1과 구별.
+   ⚠️ (b)는 수일치 함정: 동사는 '뒤에 오는' 진짜 주어에 맞춘다
+      (was added ← knowledge, 단수).
+   연습) To the light of creation was added the brighter light of the Word.
+</code></pre><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">Vocabulary (어원 후킹 테이블)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>effulgence</td>
+<td>광휘, 빛남</td>
+<td>ex(밖)+fulgere(번쩍) → refulgent·fulgurate 형제. 밖으로 쏟아지는 빛</td>
+</tr>
+<tr>
+<td>hold forth</td>
+<td>내밀어 보이다</td>
+<td>forth(앞으로) 들어 보이다 → 전시하다. 설교하다(현대 구어)와 구별</td>
+</tr>
+<tr>
+<td>⚠️ peculiar</td>
+<td>(성경 고어) 자기 소유의</td>
+<td>peculium(사유재산 &lt; pecus 가축) → "peculiar people"=하나님의 보물 백성(출19:5). '이상한' 아님!</td>
+</tr>
+<tr>
+<td>hedge in</td>
+<td>울타리로 두르다</td>
+<td>hedge(생울타리)로 감싸 보호 → 욥1:10 "울타리로 두르심"</td>
+</tr>
+<tr>
+<td>but for</td>
+<td>~이 없었더라면</td>
+<td>but(제외)+for → 가정법 신호. but for this + would = if it were not for this</td>
+</tr>
+<tr>
+<td>⚠️ discover</td>
+<td>(고어) 드러내다</td>
+<td>dis+cover=덮개 벗기기 → 하나님이 자신을 '드러내심'. '발견하다' 아님</td>
+</tr>
+<tr>
+<td>dissipate</td>
+<td>흩어 없애다</td>
+<td>dis(사방)+supare(던지다) → 안개·어둠을 흩어버리다</td>
+</tr>
+<tr>
+<td>⚠️ dumb</td>
+<td>말 못하는</td>
+<td>벙어리의(mute). '멍청한' 아님 — 창조계=웅변하나 음성 없는 교사</td>
+</tr>
+<tr>
+<td>⚠️ quicken</td>
+<td>살리다</td>
+<td>quick=alive("the quick and the dead") → 죽은 영혼을 살리다. '빨리하다' 아님</td>
+</tr>
+<tr>
+<td>attain to</td>
+<td>~에 도달하다</td>
+<td>ad+tangere(닿다) → 손끝이 닿을 만큼 이르다</td>
+</tr>
+<tr>
+<td>⚠️ apply to</td>
+<td>(고어) ~에 의지하다</td>
+<td>법정·의사에 '기대다' → apply to Scripture=성경에 호소하다. '적용하다' 아님</td>
+</tr>
+<tr>
+<td>adduce</td>
+<td>(증거로) 제시하다</td>
+<td>ad+ducere(끌어오다) → 증거를 법정에 끌고 나오다</td>
+</tr>
+<tr>
+<td>expound</td>
+<td>상술하다</td>
+<td>ex+ponere(밖에 놓다) → 펼쳐 설명하다 → exposition</td>
+</tr>
+<tr>
+<td>fictitious</td>
+<td>날조된</td>
+<td>fingere(빚다) → figment·fiction 한 가족. 사람 손으로 빚은 신들</td>
+</tr>
+<tr>
+<td>labyrinth</td>
+<td>미궁</td>
+<td>크레타 미노타우로스 미로 → 칼빈의 단골 이미지: 말씀 없는 정신</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>The hinge of the whole book.</strong> Chapters 1–5 asked what we can know of God from creation; the answer was a two-verdict tragedy: enough to condemn, not enough to save. Chapter 6 opens the second track: <strong>special revelation</strong>. Notice how carefully Calvin engineers the join. He does NOT say natural revelation was faulty — S1 re-affirms the mirror and the universal condemnation IN THE SAME SENTENCE that announces the better help. Grace does not demolish nature's witness; it adds lenses.</p><p><strong>The spectacles (Latin <em>specillis</em>).</strong> The most quoted image in Calvin scholarship, and worth quoting precisely: the glasses do not GIVE content — the <em>impressions of Deity</em> already lie in the mind (Chapters 3–5 built that inventory: <em>sensus divinitatis</em>, the engraven perfections). What the glasses do is <strong>collect and focus</strong> (<em>gathering together … dissipates … shows clearly</em>). That is why B. B. Warfield summarized Calvin's doctrine as: Scripture is not a NEW revelation so much as the clarifying medium of the old one — while adding, of course, what creation never contained (S2: <em>unto salvation</em>). Keep both halves or you distort him.</p><p><strong>Duplex cognitio Dei, now structural.</strong> I.2.1 announced two knowledges (Creator/Redeemer); today's S10–S12 turn that distinction into the TABLE OF CONTENTS: Creator-knowledge first <em>in point of order</em> (Book 1), Redeemer-knowledge <em>in the person of the Mediator</em> (Book 2 onward). Edward Dowey and T. H. L. Parker fought a famous scholarly duel over whether the duplex cognitio or the Creator/Redeemer sequence governs the <em>Institutes</em>' architecture — both sides camp on this very section. For your purposes: Calvin says BOTH knowledges come <em>from the Word</em> (S10) — even Adam's Creator-knowledge, post-fall, needed verbal revelation.</p><p><strong>Accommodation again.</strong> God <em>opens his own sacred mouth</em> (S6) — the same condescension logic as I.5's lisping nurse imagery in later sections: the infinite God stoops to human speech. Verbal revelation is not a concession to weakness only; it is <em>personal address</em> — the difference between reading a landscape and being spoken to by name.</p><p><strong>Limit line.</strong> Do not over-read S3-S4 into a full doctrine of Scripture's self-authentication — that is Chapter 7's business (the internal testimony of the Spirit; today's <em>testimonium</em> seed is only in the certainty vocabulary of S8's "no doubt"). And do not flatten the spectacles into "the Bible is the only revelation" — Calvin's point is subtler: the Bible is the only CORRECTIVE LENS for reading the revelation everywhere present. Barth's use of this chapter (revelation only in the Word) and Brunner's (creation revelation clarified by the Word) both claim the spectacles; the text itself holds the two in exact balance: the book of nature is fair, AND unreadable without glasses.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li><strong>Rom 1:20 — S1.</strong> <em>Leaves the ingratitude of man without excuse</em> — ἀναπολογήτους (anapologētous, "without defence") for the fourth chapter running; S1's <em>since</em>-clause states the purpose Paul implies: <em>that they may be without excuse</em>.</li>
+<li><strong>Ex 19:5; Deut 7:6 — S3.</strong> <em>A peculiar people</em> — Hebrew סְגֻלָּה (<em>segullah</em>, treasured possession); AV renders "a peculiar treasure unto me above all people." Calvin's <em>hedged them in</em> echoes Job 1:10 and Isa 5:2 (the fenced vineyard).</li>
+<li><strong>Gen 8:9 — S3.</strong> <em>Found no certain resting-place</em> — the dove of the ark, finding "no rest for the sole of her foot": the unfixed mind as Noah's dove over the flood of error.</li>
+<li><strong>Matt 5:2; Ps 78:1-2 — S6.</strong> <em>Opens his own sacred mouth</em> — the biblical formula for solemn, authoritative teaching ("he opened his mouth, and taught them").</li>
+<li><strong>John 5:24 — S10.</strong> <em>In passing from death unto life</em> — verbatim AV phrasing; Calvin plants a Johannine salvation formula at the exact point where Creator-knowledge alone proves insufficient.</li>
+<li><strong>Eph 2:1, 5; John 5:21 — S12.</strong> <em>Quickens dead souls</em> — "you hath he quickened, who were dead in trespasses"; the Son "quickeneth whom he will." Redeemer-knowledge is resurrection, not information.</li>
+<li><strong>1 Tim 2:5 — S12.</strong> <em>In the person of the Mediator</em> — "one mediator between God and men" — the first structural pointer to Book 2's Christology.</li>
+<li><strong>Acts 17:23 — S17.</strong> <em>Some doubtful deity</em> — the Athenian altar ΑΓΝΩΣΤΩ ΘΕΩ ("to the unknown god") returns from §5.12; Scripture's <em>sure marks</em> are the cure for the altar's agnostic inscription.</li>
+</ol><p>How Calvin uses Scripture here: not as proof-texts stacked at the end, but as VOCABULARY — his prose is woven from AV-familiar phrases (<em>peculiar people</em>, <em>from death unto life</em>, <em>quickened</em>) so that the argument about the Word is conducted IN the words of the Word.</p><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>문제 1 — 어법.</strong> 밑줄 친 ①~④ 중 어법상 틀린 것은?</p><blockquote>
+<p>Not in vain ① <em>he has added</em> the light of his Word; and to this first knowledge ② <em>was</em> afterwards added the more intimate knowledge ③ <em>which</em> alone quickens dead souls; and both kinds of knowledge they certainly ④ <em>did obtain</em> from the Word.</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: ①</strong> — 부정 부사어 <em>Not in vain</em>이 문두에 전치되었으므로 조동사 도치 필수: <em>has he added</em>. (②는 공식 3(b): 전치사구 전치 후 완전도치, 뒤따르는 진짜 주어 knowledge(단수)에 일치하는 was — 정문. ③ 선행사 knowledge를 받는 주격 관계대명사 — 정문. ④ 공식 3(a): 목적어 전치 + 강조 did + 원형 obtain — 정문.) 출제 의도: 공식 1(부정어 도치)과 공식 3(a)(목적어 전치 — 도치 아님)의 구별. <em>they did obtain</em>을 "도치가 없으니 틀렸다"고 찍으면 함정에 빠진 것.</p><p><strong>문제 2 — 내용일치.</strong> 본문의 내용과 일치하는 것은?</p><p>(a) Since the testimony of creation fails to reach every human being, God provided Scripture as a substitute for it.
+(b) The spectacles simile teaches that Scripture focuses the confused impressions of Deity already in our minds, showing us the true God clearly.
+(c) Calvin argues that the patriarchs obtained knowledge of God as Creator from nature, and knowledge of God as Redeemer from the Word.
+(d) In this chapter Calvin sets out to expound the covenant by which God adopted the children of Abraham.</p><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: (b)</strong> — S5: Scripture, <em>gathering together the impressions of Deity, which, till then, lay confused in our minds, dissipates the darkness, and shows us the true God clearly</em>. (a)는 이중 반전: 창조의 증거는 <em>to all, without exception</em> 제시되며(S1), 말씀은 substitute가 아니라 supplement(S7). (c)는 범위 반전: <em>both kinds of knowledge they certainly did obtain from the Word</em> (S10) — 두 지식 모두 말씀에서. (d)는 S14가 명시적으로 배제: <em>I am not now treating of the covenant…</em>. 출제 의도: supplement/substitute 구별과 S10의 from the Word 강조를 읽었는가.</p><p><strong>문제 3 — 영작.</strong> 다음 문장을 오늘의 공식 3(b)(전치사구 전치 + 완전도치)를 사용해 영어로 옮기시오.</p><p>"창조의 빛에 말씀의 더 밝은 빛이 더해졌다."</p><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>모범답안:</strong> <em>To the light of creation was added the brighter light of the Word.</em>
+(채점 기준: ① 전치사구 To the light of creation 문두 전치 ② 완전도치 — 동사 was added가 주어 앞 ③ 진짜 주어 the brighter light of the Word가 문미 + 단수 일치 was. 감점: <em>was added</em> 대신 <em>were added</em>(수일치), 주어를 문두에 두고 도치를 포기한 경우.)</p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary:</strong> Creation's mirror still condemns without exception, but God, <em>not in vain</em>, adds the light of his Word — the spectacles that gather our confused impressions of Deity and show us the true God clearly, Creator first, Redeemer in due course — and today you drilled the negative-adverbial inversion (<em>Not in vain has he added / does he retain</em>), the marathon <em>as …, so …</em> simile, and the fronting family (<em>both kinds of knowledge they certainly did obtain</em>; <em>To this first knowledge was added …</em>).</p><p><strong>Homework (10 min):</strong>
+1. <em>Structure restoration:</em> S12를 기본 어순으로 복원해 쓰시오 — 진짜 주어를 문두로 옮기고, 관계절 두 개(which alone…, by which…)를 그대로 유지할 것. (모범: <em>The more intimate knowledge which alone quickens dead souls, and by which God is known … as a Redeemer, was afterwards added to this first knowledge.</em>)
+2. <em>Composition:</em> 공식 1로 한 문장 — "하나님이 자신의 입을 여신 것은 헛되지 않다"를 <em>Not in vain</em> 도치로 영작. (예: <em>Not in vain does God open his own sacred mouth for the instruction of the Church.</em>)
+3. <em>Preview:</em> 내일 §2 첫 단어는 "Whether" — 족장들에게 말씀이 어떻게 왔는가(oracles and visions), 그리고 왜 결국 '기록'되어야 했는가. 오늘의 spoken Word가 내일 written Word가 된다.</p><p><strong>Where we stopped:</strong> Book 1, Ch. 6, §1 끝. 다음은 Book 1, Ch. 6, §2 (Day 29).
+     </p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
