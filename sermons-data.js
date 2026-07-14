@@ -7,6 +7,329 @@ window.SERMONS_DATA = {
   },
   "sermons": [
     {
+      "id": "2026-07-12",
+      "date": "2026-07-12",
+      "title_ko": "억지 웃음과 씻긴 양심",
+      "title_en": "The Forced Laugh and the Cleansed Conscience",
+      "scripture_ref_ko": "사도행전 17:16, 22-34",
+      "scripture_ref_en": "Acts 17:16, 22-34",
+      "preacher_ko": "유병훈 목사",
+      "preacher_en": "Rev. Byong H. Yoo",
+      "series": "",
+      "scripture_text": [
+        {
+          "ko": "하물며 영원하신 성령으로 말미암아 흠 없는 자기를 하나님께 드린 그리스도의 피가 어찌 너희 양심을 죽은 행실에서 깨끗하게 하고 살아 계신 하나님을 섬기게 하지 못하겠느냐 (히브리서 9:14)",
+          "en": "“How much more will the blood of Christ, who through the eternal Spirit offered himself without blemish to God, purify our conscience from dead works to serve the living God.” (Hebrews 9:14)"
+        }
+      ],
+      "slides": [
+        {
+          "type": "title",
+          "title_ko": "억지 웃음과 씻긴 양심",
+          "title_en": "The Forced Laugh and the Cleansed Conscience",
+          "ref_ko": "사도행전 17:16, 22-34",
+          "ref_en": "Acts 17:16, 22-34",
+          "preacher_ko": "유병훈 목사",
+          "preacher_en": "Rev. Byong H. Yoo",
+          "date": "2026-07-12"
+        },
+        {
+          "type": "question",
+          "label_ko": "서론",
+          "label_en": "Introduction",
+          "ko": "아테네는 하나님을 지운 도시가 아니라 종교가 넘치는 도시였습니다. 그 수많은 제단 한복판에 “알지 못하는 신에게”라고 새긴 제단이 있었습니다. 왜 사람은 하나님이 가까이 계신데도 하나님을 알지 못합니까?",
+          "en": "Athens was not a city that had erased God — it was a city overflowing with religion. In the midst of countless altars stood one inscribed “To the unknown god.” Why does a person not know God, even though God is near?"
+        },
+        {
+          "type": "point",
+          "label_ko": "서론",
+          "label_en": "Introduction",
+          "ko": "우리는 하나님을 지우거나, 하나님을 편리한 하나님으로 만듭니다 — 나를 축복하시되 다스리지 않으시는 하나님, 일요일에는 예배를 받으시되 월요일의 선택에는 말씀하지 않으시는 하나님.",
+          "en": "We either erase God or remake him into a convenient God — a God who blesses me but does not rule me; a God who receives worship on Sunday but says nothing about my choices on Monday."
+        },
+        {
+          "type": "section",
+          "label_ko": "1대지",
+          "label_en": "Point One",
+          "ko": "하나님은 가린다고 가려지시지 않으십니다",
+          "en": "God Cannot Be Covered Over, However Hard We Try"
+        },
+        {
+          "type": "point",
+          "label_ko": "네 개의 동사",
+          "label_en": "Four Verbs",
+          "ko": "하나님은 ① 천지를 지으셨고(17:24) ② 생명과 호흡을 주시며(17:25) ③ 연대와 경계를 정하셨고(17:26) ④ 우리 각 사람에게서 멀리 계시지 않습니다(17:27).",
+          "en": "God ① made heaven and earth (17:24), ② gives life and breath (17:25), ③ determined times and boundaries (17:26), and ④ is not far from each one of us (17:27)."
+        },
+        {
+          "type": "point",
+          "label_ko": "가까우심의 두 얼굴",
+          "label_en": "Two Faces of His Nearness",
+          "ko": "같은 하나님의 가까우심이 숨는 자에게는 심판의 두려움이 되고(렘 23:24), 찾는 자에게는 은혜의 기쁨이 됩니다(사 55:6). 멀어진 것은 하나님이 아니라 우리였습니다.",
+          "en": "The same nearness of God becomes the terror of judgment to the one who hides (Jer. 23:24), and the joy of grace to the one who seeks (Isa. 55:6). It was not God who moved away — it was we."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "로마서 1:20",
+          "label_en": "Romans 1:20",
+          "ko": "창세로부터 그의 보이지 아니하는 것들 곧 그의 영원하신 능력과 신성이 그가 만드신 만물에 분명히 보여 알려졌나니 그러므로 그들이 핑계하지 못할지니라",
+          "en": "For his invisible attributes, namely, his eternal power and divine nature, have been clearly perceived, ever since the creation of the world, in the things that have been made. So they are without excuse."
+        },
+        {
+          "type": "section",
+          "label_ko": "2대지",
+          "label_en": "Point Two",
+          "ko": "죄인은 도망 갈 수 없습니다",
+          "en": "The Sinner Cannot Run Away"
+        },
+        {
+          "type": "point",
+          "label_ko": "우상의 자리는 비어 있지 않습니다",
+          "label_en": "The Idol’s Throne Is Never Empty",
+          "ko": "죄인은 하나님을 없애지 않고, 자기가 다룰 수 있는 우상으로 바꿉니다(롬 1:23). 돈·자녀·인정·과학주의 — 아무리 귀한 것이라도 하나님의 자리에 앉는 순간 우상이 됩니다.",
+          "en": "The sinner does not abolish God; he exchanges God for an idol he can manage (Rom. 1:23). Money, children, approval, scientism — however precious a thing may be, the moment it sits on God’s throne it becomes an idol."
+        },
+        {
+          "type": "point",
+          "label_ko": "억지 웃음",
+          "label_en": "The Forced Laugh",
+          "ko": "벨사살은 성전 그릇으로 술을 마시며 웃었지만, 벽에 글자가 나타나자 무릎이 서로 부딪쳤습니다(단 5:6). 입은 하나님을 비웃는데 양심은 하나님 앞에서 떨고 있는 웃음 — 그것이 억지 웃음입니다.",
+          "en": "Belshazzar laughed as he drank from the temple vessels — but when the writing appeared on the wall, his knees knocked together (Dan. 5:6). The mouth mocks God while the conscience trembles before him. That is the forced laugh."
+        },
+        {
+          "type": "bigidea",
+          "label_ko": "양심의 한계",
+          "label_en": "The Limit of Conscience",
+          "ko": "양심은 우리를 법정까지 데려가지만 십자가까지는 데려가지 못합니다. 양심은 죄를 폭로하지만 죄를 씻지 못합니다.",
+          "en": "Conscience can carry us as far as the courtroom, but it cannot carry us to the cross. Conscience exposes sin, but it cannot wash sin away."
+        },
+        {
+          "type": "section",
+          "label_ko": "3대지",
+          "label_en": "Point Three",
+          "ko": "그리스도만이 우리를 깨끗하게 하십니다",
+          "en": "Only Christ Makes Us Clean"
+        },
+        {
+          "type": "point",
+          "label_ko": "재판장이 피고석으로",
+          "label_en": "The Judge in the Dock",
+          "ko": "하나님은 심판할 날을 작정하시고 심판자를 세우셨습니다(행 17:31). 그런데 바로 그 심판자가 십자가에서 죄인의 자리에 우리 대신 서셨습니다(고후 5:21). 우리의 심판은 이미 십자가에서 집행되었습니다.",
+          "en": "God has fixed a day of judgment and appointed the Judge (Acts 17:31). Yet that very Judge stood in the sinner’s place on the cross, for us (2 Cor. 5:21). Our judgment has already been executed at the cross."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "히브리서 9:14",
+          "label_en": "Hebrews 9:14",
+          "ko": "하물며 영원하신 성령으로 말미암아 흠 없는 자기를 하나님께 드린 그리스도의 피가 어찌 너희 양심을 죽은 행실에서 깨끗하게 하고 살아 계신 하나님을 섬기게 하지 못하겠느냐",
+          "en": "How much more will the blood of Christ, who through the eternal Spirit offered himself without blemish to God, purify our conscience from dead works to serve the living God."
+        },
+        {
+          "type": "point",
+          "label_ko": "순서",
+          "label_en": "The Order",
+          "ko": "속죄가 먼저요, 정결이 그 열매요, 살아 계신 하나님을 섬김이 그 목적입니다. 그리스도의 피는 기억을 지우는 마취제가 아니라, 우리를 정죄하던 실제 죄책을 제거합니다(롬 8:1).",
+          "en": "Redemption comes first; cleansing is its fruit; serving the living God is its purpose. The blood of Christ is not an anesthetic that erases memory — it removes the real guilt that condemned us (Rom. 8:1)."
+        },
+        {
+          "type": "bigidea",
+          "label_ko": "이름 없는 제단에서 그리스도의 얼굴로",
+          "label_en": "From the Nameless Altar to the Face of Christ",
+          "ko": "아테네의 제단에는 이름이 없었습니다. 그러나 복음에는 이름이 있고 얼굴이 있습니다 — 예수 그리스도. 어둠 위에 빛을 창조하신 하나님이 우리 마음에 다시 빛을 비추셨습니다(고후 4:6).",
+          "en": "The altar in Athens had no name. But the gospel has a name and a face — Jesus Christ. The God who created light over the darkness has shone light once more into our hearts (2 Cor. 4:6)."
+        },
+        {
+          "type": "conclusion",
+          "label_ko": "결론",
+          "label_en": "Conclusion",
+          "ko": "복음 앞에 세 가지 반응만 있습니다 — 웃는 사람, 미루는 사람, 믿는 사람(행 17:32-34). 네 번째 길은 없습니다. 우상을 버리고, 자기 의를 버리고, 억지 웃음을 버리고 그리스도를 믿으십시오.",
+          "en": "Before the gospel there are only three responses — the one who laughs, the one who delays, the one who believes (Acts 17:32-34). There is no fourth road. Throw down your idol, your self-righteousness, your forced laugh — and believe in Christ."
+        },
+        {
+          "type": "blessing",
+          "label_ko": "축복",
+          "label_en": "Blessing",
+          "ko": "복음은 우리의 웃음을 빼앗지 않습니다. 억지 웃음을 걷어 내고 용서받은 자의 참된 웃음을 돌려줍니다. 피로 씻긴 양심으로 하나님 앞에서 참으로 웃는 저와 여러분 되시기를 축원합니다. 아멘.",
+          "en": "The gospel does not take our laughter away. It strips off the forced laugh and gives back the true laughter of the forgiven. May you and I laugh truly before God, with a conscience washed in his blood. Amen."
+        }
+      ],
+      "body": [
+        {
+          "ko": "부제: 알지 못하는 신의 제단에서 그리스도의 얼굴까지",
+          "en": "Subtitle: From the Altar to an Unknown God to the Face of Christ"
+        },
+        {
+          "ko": "22 바울이 아레오바고 가운데 서서 말하되 아덴 사람들아 너희를 보니 범사에 종교심이 많도다 23 내가 두루 다니며 너희가 위하는 것들을 보다가 알지 못하는 신에게라고 새긴 단도 보았으니 그런즉 너희가 알지 못하고 위하는 그것을 내가 너희에게 알게 하리라 24 우주와 그 가운데 있는 만물을 지으신 하나님께서는 천지의 주재시니 손으로 지은 전에 계시지 아니하시고 25 또 무엇이 부족한 것처럼 사람의 손으로 섬김을 받으시는 것이 아니니 이는 만민에게 생명과 호흡과 만물을 친히 주시는 이심이라 26 인류의 모든 족속을 한 혈통으로 만드사 온 땅에 살게 하시고 그들의 연대를 정하시며 거주의 경계를 한정하셨으니 27 이는 사람으로 혹 하나님을 더듬어 찾아 발견하게 하려 하심이로되 그는 우리 각 사람에게서 멀리 계시지 아니하도다 (사도행전 17:22-27)",
+          "en": "22 So Paul, standing in the midst of the Areopagus, said: “Men of Athens, I perceive that in every way you are very religious. 23 For as I passed along and observed the objects of your worship, I found also an altar with this inscription: ‘To the unknown god.’ What therefore you worship as unknown, this I proclaim to you. 24 The God who made the world and everything in it, being Lord of heaven and earth, does not live in temples made by man, 25 nor is he served by human hands, as though he needed anything, since he himself gives to all mankind life and breath and everything. 26 And he made from one man every nation of mankind to live on all the face of the earth, having determined allotted periods and the boundaries of their dwelling place, 27 that they should seek God, and perhaps feel their way toward him and find him. Yet he is actually not far from each one of us.” (Acts 17:22-27)"
+        },
+        {
+          "ko": "서론 — 이름 없는 제단과 억지 웃음",
+          "en": "Introduction — The Nameless Altar and the Forced Laugh",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 우리는 살면서 이런 말들을 참 많이 듣습니다. “저는 과학을 믿지 종교를 믿지 않습니다.” “믿음이라는 것은 약한 사람들이 기대는 심리적 장치 아닙니까?” “저는 그냥 착하게 살면 된다고 생각합니다.” “종교요? 옛날에 힘 있는 사람들이 백성을 다스리려고 만들어 낸 것 아닙니까?” 여러분도 직장에서, 이웃에게서, 어쩌면 우리의 자녀들에게서 이런 말을 들어 보셨을 것입니다. 그런 말을 들을 때 우리는 어떻게 해야 합니까? 화를 내야 합니까? 말문이 막힌 채 돌아서야 합니까? 아니면 어떻게 해야 합니까? 오늘 본문에서 사도 바울이 바로 그런 사람들 앞에 섰습니다. 그리고 그가 무엇을 어떻게 전했는지가 오늘 우리에게 길을 보여 주는 것입니다.",
+          "en": "Beloved brothers and sisters, we hear these words so often in life. “I believe in science, not in religion.” “Isn’t faith just a psychological crutch for weak people?” “I think it’s enough simply to live a decent life.” “Religion? Wasn’t that invented long ago by the powerful to keep the people in line?” You have heard such words at work, from neighbors, perhaps even from our own children. What are we to do when we hear them? Should we get angry? Should we turn away, speechless? Or what should we do? In today’s text the apostle Paul stood before exactly such people. And what he preached, and how he preached it, shows us the way today."
+        },
+        {
+          "ko": "그런데 하나님을 믿기 싫어하는 사람만 있는 것이 아닙니다. 더 많은 사람은 하나님을 자기에게 편리한 하나님으로 만들어 버립니다. 나를 축복하시되 나를 다스리지는 않으시는 하나님, 내 성공은 도와주시되 내 우상은 건드리지 않으시는 하나님, 일요일에는 예배를 받으시되 나의 월요일의 선택에는 말씀하지 않으시는 하나님을 만들어 내는 것입니다. 그렇습니다. 오늘 말씀은 교회 밖의 사람들에게만 하시는 말씀이 아니라 바로 우리에게 하시는 말씀인 것입니다.",
+          "en": "But it is not only that some people refuse to believe in God. Far more people simply remake God into a God convenient for themselves — a God who blesses me but does not rule me, a God who helps my success but never touches my idols, a God who receives worship on Sunday but says nothing about my choices on Monday. Yes — today’s word is not spoken only to those outside the church. It is spoken to us."
+        },
+        {
+          "ko": "이천 년 전 아테네가 정확하게 바로 그런 도시였습니다. 아테네는 하나님을 지워 버린 무신론의 도시가 아니었습니다. 오히려 종교가 넘치는 도시였습니다. 성경은 그 성에 우상이 가득한 것을 보고 바울의 마음에 격분이 일어났다고 기록합니다(행 17:16). 바울은 회당과 장터에서 날마다 변론했고, 철학자들에게 이미 예수와 부활을 전하고 있었습니다(행 17:18). 바로 그 복음 때문에 그는 아레오바고 법정에 서서 변론하게 된 것입니다. 그리고 그 수많은 제단 한복판에 이런 제단이 있었습니다. “알지 못하는 신에게.” 이것이 인간의 모습입니다. 인간이 자신의 마음에서 하나님을 지울 수는 없습니다. 불가능합니다. 그러나 인간은 하나님을 바르게 알지도 못합니다. 타락했기 때문입니다. 그래서 그들은 우상을 찾고, 이름 없는 신에게도 제단을 쌓는 것입니다.",
+          "en": "Two thousand years ago, Athens was precisely such a city. Athens was not an atheistic city that had erased God. On the contrary, it overflowed with religion. Scripture records that Paul’s spirit was provoked within him as he saw the city full of idols (Acts 17:16). He reasoned daily in the synagogue and in the marketplace, and he was already preaching Jesus and the resurrection to the philosophers (Acts 17:18). It was because of that very gospel that he came to stand and make his defense before the Areopagus. And in the midst of those countless altars stood one altar with this inscription: “To the unknown god.” This is the portrait of humanity. A person cannot erase God from his own heart. It is impossible. Yet neither does he know God rightly, because he is fallen. And so people seek out idols, and build altars even to a god without a name."
+        },
+        {
+          "ko": "성경은 말씀 하십니다. 사람이 하나님을 부인하고 밀어내는 동안에도, 창조세계의 하나님에 대한 증언과 역시 하나님을 증거하는 양심의 소리는 사라지지 않는다고 말입니다. 오늘 본문의 바울의 설교는 모든 사람이 서게 될 마지막 법정을 이야기합니다. 하나님께서 “정하신 사람으로 하여금 천하를 공의로 심판할 날을 작정”(행 17:31)하셨기 때문입니다.",
+          "en": "Scripture tells us that even while a person denies God and pushes him away, the witness of creation to God and the voice of conscience, which also testifies to God, do not fall silent. Paul’s sermon in today’s text speaks of the final courtroom in which every person will stand — for God “has fixed a day on which he will judge the world in righteousness by a man whom he has appointed” (Acts 17:31)."
+        },
+        {
+          "ko": "그렇다면 우리는 물어야 합니다. 왜 사람은 하나님이 가까이 계신데도 하나님을 알지 못합니까? 왜 가릴 수 없는 하나님을 자꾸 가리며, 하나님을 부인하고자 하는 인간의 양심은 어떻게 깨끗해질 수 있습니까? 오늘 본문이 이에 세 가지로 답합니다.",
+          "en": "So we must ask: why does a person not know God, even though God is near? Why do we keep trying to cover the God who cannot be covered — and how can the conscience of a person who wants to deny God ever be made clean? Today’s text answers in three ways."
+        },
+        {
+          "ko": "1대지 — 하나님은 가린다고 가려지시지 않으십니다",
+          "en": "Point One — God Cannot Be Covered Over, However Hard We Try",
+          "section": true
+        },
+        {
+          "ko": "바울은 아레오바고에서 하나님이 누구신가부터 선포합니다. 오늘의 본문에 하나님의 행하심이 네 가지 동사로 나옵니다.",
+          "en": "At the Areopagus, Paul begins by proclaiming who God is. In today’s text, God’s work appears in four verbs."
+        },
+        {
+          "ko": "첫째, 하나님은 천지를 지으셨습니다. 성경은 말씀 하십니다 — “우주와 그 가운데 있는 만물을 지으신 하나님께서는 천지의 주재시니 손으로 지은 전에 계시지 아니하시고”(행 17:24). 이 말씀을 기억해 두시기 바랍니다.",
+          "en": "First, God made heaven and earth. Scripture says: “The God who made the world and everything in it, being Lord of heaven and earth, does not live in temples made by man” (Acts 17:24). Please hold on to this verse — we will come back to it."
+        },
+        {
+          "ko": "둘째, 하나님은 우리의 생명과 호흡을 주십니다. 성경은 말씀 하십니다 — “또 무엇이 부족한 것처럼 사람의 손으로 섬김을 받으시는 것이 아니니 이는 만민에게 생명과 호흡과 만물을 친히 주시는 이심이라”(행 17:25). 생각해 보십시오. 우리가 지금 이 순간에도 쉬고 있는 이 호흡이 하나님의 선물입니다. 지난밤에 우리를 재우신 분도, 오늘 아침에 우리를 깨우신 분도 하나님이십니다. 우리는 단 하루도, 단 한 번의 숨도 스스로의 힘으로 내쉬어 본 적이 없는 것입니다.",
+          "en": "Second, God gives us life and breath. Scripture says: “Nor is he served by human hands, as though he needed anything, since he himself gives to all mankind life and breath and everything” (Acts 17:25). Consider this: the very breath you are drawing at this moment is a gift from God. It was God who put us to sleep last night, and God who woke us this morning. Not for a single day, not for a single breath, have we ever breathed by our own power."
+        },
+        {
+          "ko": "셋째, 하나님은 모든 것을 정하셨습니다. 이어서 말씀하십니다 — “인류의 모든 족속을 한 혈통으로 만드사 온 땅에 살게 하시고 그들의 연대를 정하시며 거주의 경계를 한정하셨으니”(행 17:26).",
+          "en": "Third, God has determined all things. The text continues: “And he made from one man every nation of mankind to live on all the face of the earth, having determined allotted periods and the boundaries of their dwelling place” (Acts 17:26)."
+        },
+        {
+          "ko": "넷째, 하나님은 우리에게 가까이 계십니다. 성경은 말씀 하십니다 — “이는 사람으로 혹 하나님을 더듬어 찾아 발견하게 하려 하심이로되 그는 우리 각 사람에게서 멀리 계시지 아니하도다”(행 17:27).",
+          "en": "Fourth, God is near to us. Scripture says: “That they should seek God, and perhaps feel their way toward him and find him. Yet he is actually not far from each one of us” (Acts 17:27)."
+        },
+        {
+          "ko": "하나님은 지으시고 주시고 정하시고 가까이 계신 하나님이시라는 것입니다.",
+          "en": "God is the God who makes, who gives, who determines, and who is near."
+        },
+        {
+          "ko": "그러면 하나님이 우리에게 가까이 계시다는 것은 좋은 소식입니까, 무서운 소식입니까? 성경은 둘 다라고 말씀하십니다. 하나님이 두려워 숨는 사람에게는 무서운 소식입니다. 예레미야서는 말씀합니다 — “여호와의 말씀이니라 사람이 내게 보이지 아니하려고 누가 자신을 은밀한 곳에 숨길 수 있겠느냐 여호와가 말하노라 나는 천지에 충만하지 아니하냐”(렘 23:24). 그러나 하나님을 찾고 하나님께 돌아오는 사람에게는 가장 반가운 소식입니다. 그래서 “너희는 여호와를 만날 만한 때에 찾으라 가까이 계실 때에 그를 부르라”(사 55:6)라고 성경이 말씀하시는 것입니다. 그렇습니다. 하나님은 우리 가까이 계셔서 숨는 자를 드러내시고, 찾는 자를 부르십니다. 같은 하나님의 가까우심이 도망자에게는 심판의 두려움이 되고, 하나님께 돌아오는 자에게는 은혜의 기쁨이 되는 것입니다. 사랑하는 형제 자매 여러분, 인생의 광야 같은 시간을 지나며 하나님이 멀게만 느껴지신 적이 있으십니까? 그러나 본문은 분명히 말씀합니다. 하나님은 우리 각 사람에게서 멀리 계시지 않습니다. 멀어진 것은 하나님이 아니라 우리였던 것입니다.",
+          "en": "Now — is it good news or terrifying news that God is near to us? Scripture says it is both. To the one who hides from God in fear, it is terrifying news. Jeremiah says: “Can a man hide himself in secret places so that I cannot see him? declares the LORD. Do I not fill heaven and earth? declares the LORD” (Jer. 23:24). But to the one who seeks God and returns to him, it is the most welcome news of all. That is why Scripture says, “Seek the LORD while he may be found; call upon him while he is near” (Isa. 55:6). Yes — God is near, exposing the one who hides and calling the one who seeks. The very same nearness of God becomes the terror of judgment to the runaway, and the joy of grace to the one who comes home. Beloved, have you ever passed through a wilderness season in which God felt far away? But the text says plainly: God is not far from each one of us. It was not God who moved away — it was we."
+        },
+        {
+          "ko": "사람이 하나님이라는 생각을 만들어 냈습니까? 아닙니다. 성경은 말씀 하십니다 — “창세로부터 그의 보이지 아니하는 것들 곧 그의 영원하신 능력과 신성이 그가 만드신 만물에 분명히 보여 알려졌나니 그러므로 그들이 핑계하지 못할지니라”(롬 1:20). 한 개혁자는 이것을 가리켜, 하나님을 아는 감각이 사람의 마음에 지울 수 없게 새겨져 있다고 말했습니다. 보십시오. 그렇게도 교만한 인간이 나무와 돌로 만들어진 우상 앞에 무릎을 꿇습니다. 잘못된 것이지만 그들에게는 그것들이 하나님인 것이기 때문에 그러는 것입니다. 스스로 하나님께 순종하기는 싫으나 그럼에도 하나님을 찾는 마음을 부정하지 못해 헛된 가짜 우상이라도 찾는 것입니다. 그러므로 아테네와 세상의 그 수많은 제단은 역설적으로, 절대 지워지지 않는, 인간의 마음에 새기신 하나님의 각인의 증거인 것입니다.",
+          "en": "Did human beings invent the idea of God? No. Scripture says: “For his invisible attributes, namely, his eternal power and divine nature, have been clearly perceived, ever since the creation of the world, in the things that have been made. So they are without excuse” (Rom. 1:20). A Reformer called this the sense of divinity — the awareness of God engraved indelibly upon the human heart. Look at it: proud humanity kneels down before idols made of wood and stone. It is wrong, but they do it because for them those things are god. They will not obey God themselves, yet they cannot deny the heart that searches for God, and so they reach even for empty, counterfeit idols. Therefore the countless altars of Athens and of the world are, paradoxically, the evidence of God’s indelible imprint engraved on the human heart."
+        },
+        {
+          "ko": "그런데 방금 읽은 로마서 말씀이 어떻게 끝났습니까? “그러므로 그들이 핑계하지 못할지니라.” 그렇습니다. 하나님을 알 만한 것이 이미 보여졌기 때문에, 이제 모든 사람에게는 그 하나님을 예배해야 할 책임이 있는 것입니다. 그리고 이 책임은 누가 가르쳐 주어서 생기는 것이 아닙니다. 창조세계가 하나님의 능력과 신성을 증언한다면, 양심은 우리가 그 하나님 앞에 책임 있는 존재임을 증언합니다. 그러면 그 타고난 감각이 우리를 구원합니까? 아닙니다. 사람은 하나님 대신 자기에게 편한 우상을 숭배하는 죄에 빠져 있기 때문입니다. 그러므로 성경은 말씀 하십니다. “하나님의 지혜에 있어서는 이 세상이 자기 지혜로 하나님을 알지 못하므로 하나님께서 전도의 미련한 것으로 믿는 자들을 구원하시기를 기뻐하셨도다”(고전 1:21). 세상은 자기 지혜만으로는 하나님을 구원에 이르도록 알지 못했습니다. 그러므로 하나님은 세상이 미련하게 여기는 십자가의 복음을 통하여 믿는 자들을 구원하시기를 기뻐하신 것입니다. 그래서 부모가 대신 믿어 줄 수 없고, 교회 명부가 대신 구원해 줄 수도 없습니다. 하나님은 바로 여러분 한 사람 한 사람을 복음으로 부르십니다.",
+          "en": "But how did that verse from Romans end? “So they are without excuse.” Yes — because what can be known about God has already been shown, every person now bears the responsibility to worship that God. And this responsibility does not arise because someone taught it to us. If creation testifies to God’s power and divine nature, conscience testifies that we are accountable beings before that God. Then does that innate sense save us? No. For humanity has fallen into the sin of worshiping convenient idols in place of God. Therefore Scripture says: “For since, in the wisdom of God, the world did not know God through wisdom, it pleased God through the folly of what we preach to save those who believe” (1 Cor. 1:21). The world, by its own wisdom, did not come to a saving knowledge of God. And so God was pleased to save those who believe through the gospel of the cross, which the world considers foolish. This is why parents cannot believe on your behalf, and a church membership roll cannot save you in your place. God calls each one of you, personally, by the gospel."
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 천지만물은 하나님이 계시다는 것을 증거하며 우리에게 말해 줍니다. 그러나 이것들은 죄인이 어떻게 하나님께 용서받는지는 말해 주지 못합니다. 인생에 성공했는데도 마음이 공허합니까? 많은 것을 가졌는데도 불안합니까? 하나님을 부인하면서도 삶의 의미와 정의와 영원을 찾고 있습니까? 그것은 우리 안의 무엇인가가 고장이 난 것이 아니라 하나님이 우리를 부르시는 신호입니다. 우리 모두가 하나님을 알도록 지음 받았기 때문입니다. 그러므로 교회 안에 있는 우리도 스스로 물어야 합니다. 나는 살아 계신 하나님을 예배하고 있는가, 아니면 내가 만들어 낸 편리한 하나님에게 만족하고 있는가? 이 질문 앞에 정직하게 서는 것이 오늘 말씀의 첫걸음인 것입니다. 하나님은 가린다고 가려지시지 않으시기 때문입니다.",
+          "en": "Beloved, all creation testifies and tells us that God exists. But creation cannot tell us how a sinner may be forgiven by God. Have you succeeded in life and yet feel empty inside? Do you possess much and still feel anxious? Do you deny God and yet keep searching for meaning, justice, and eternity? That is not a sign that something inside you is broken — it is the signal of God calling you. For every one of us was made to know God. So we who are inside the church must also ask ourselves: am I worshiping the living God, or am I content with a convenient god of my own making? To stand honestly before that question is the first step of today’s message — because God cannot be covered over, however hard we try."
+        },
+        {
+          "ko": "2대지 — 죄인은 도망 갈 수 없습니다",
+          "en": "Point Two — The Sinner Cannot Run Away",
+          "section": true
+        },
+        {
+          "ko": "그러면 왜 사람은 그런 하나님을 예배하지 않습니까? 바울이 답합니다. “이와 같이 하나님의 소생이 되었은즉 하나님을 금이나 은이나 돌에다 사람의 기술과 고안으로 새긴 것들과 같이 여길 것이 아니니라”(행 17:29). 여기서 우리가 하나님의 소생이라는 말은 모든 사람이 이미 구원받은 하나님의 자녀라는 뜻이 아닙니다. 모든 사람이 창조주 하나님께 생명과 존재를 빚진 피조물이라는 뜻입니다. 그리고 여기에 우상숭배의 본질이 있습니다. 죄인은 하나님을 없애지 않습니다. 자기가 다룰 수 있는 우상으로 바꿉니다. 로마서는 말씀합니다 — “썩어지지 아니하는 하나님의 영광을 썩어질 사람과 새와 짐승과 기어다니는 동물 모양의 우상으로 바꾸었느니라”(롬 1:23).",
+          "en": "Then why do people not worship such a God? Paul answers: “Being then God’s offspring, we ought not to think that the divine being is like gold or silver or stone, an image formed by the art and imagination of man” (Acts 17:29). To say that we are God’s offspring does not mean that everyone is already a saved child of God. It means that every person is a creature who owes his life and existence to God the Creator. And here lies the essence of idolatry: the sinner does not abolish God — he exchanges God for an idol he can manage. Romans says: “And exchanged the glory of the immortal God for images resembling mortal man and birds and animals and creeping things” (Rom. 1:23)."
+        },
+        {
+          "ko": "오늘 우리는 금과 은과 돌로 우상을 새기지 않습니다. 그러나 인간의 우상숭배는 계속되고 있습니다. 돈이 하나님의 자리에 앉으면, 통장 잔고가 우리의 평안을 결정합니다. 자녀가 하나님의 자리에 앉으면, 자녀의 성공과 실패가 우리의 천국과 지옥이 됩니다. 사람의 인정이 하나님의 자리에 앉으면, 우리는 하나님 앞에서가 아니라 사람 앞에서 사는 인생이 됩니다. 이민의 땅에서 열심히 살아온 우리에게 성공과 안정은 얼마나 절실한 것들이었습니까. 그러나 아무리 귀한 것이라도 하나님의 자리에 앉는 순간 그것은 우상이 되는 것입니다. 과학은 우상이 아닙니다. 하나님께서 지으신 세계를 탐구하는 귀한 도구입니다. 그러나 과학이 답할 수 없는 궁극적 의미와 도덕과 구원의 문제까지 과학에게 맡길 때, 과학주의라는 우상이 됩니다. 인간이 하나님을 부인한다고 해서 예배가 사라지는 것이 아닙니다. 예배는 하나님께서 지으신 세계의 질서이기 때문입니다. 성경은 말씀 하십니다 — “내가 너희에게 말하노니 만일 이 사람들이 침묵하면 돌들이 소리 지르리라”(눅 19:40). 하늘이 하나님의 영광을 선포하듯, 만물은 이미 창조주를 경배하고 증거하고 있습니다. 그 만물 가운데 오직 사람만이 예배를 멈추려 하지만, 예배하도록 지음받은 사람은 예배 자체를 버리지 못합니다. 참 하나님을 예배하지 않으면 피조물을 하나님의 자리에 올려놓을 뿐입니다. 우상의 자리는 비어 있지 않습니다. 세상에 넘치는 것이 우상입니다. 그리고 그 우상은 강단에도, 교회 직분에도, 바른 교리를 가졌다는 자부심에도 우리도 모르게 숨어들 수 있는 것입니다.",
+          "en": "Today we do not carve idols out of gold and silver and stone. But human idolatry continues. When money sits on God’s throne, the balance in our bank account decides our peace. When our children sit on God’s throne, their success and failure become our heaven and hell. When human approval sits on God’s throne, we live our lives before people rather than before God. For us who have labored hard in this immigrant land, how desperately we longed for success and security. Yet however precious a thing may be, the moment it sits on God’s throne it becomes an idol. Science is not an idol; it is a precious instrument for exploring the world God made. But when we hand over to science even the questions science cannot answer — ultimate meaning, morality, salvation — it becomes the idol of scientism. Worship does not disappear simply because a person denies God, for worship is built into the order of the world God made. Scripture says: “I tell you, if these were silent, the very stones would cry out” (Luke 19:40). As the heavens declare the glory of God, so all creation already worships and testifies to the Creator. Among all creatures only man tries to stop worshiping — but man, made to worship, cannot abandon worship itself. If he will not worship the true God, he will simply set a creature on God’s throne. The place of the idol is never left empty. The world overflows with idols. And that idol can slip in, without our knowing it, even into the pulpit, even into church office, even into our pride at holding sound doctrine."
+        },
+        {
+          "ko": "이제 두 말씀을 나란히 들어 보시기 바랍니다. 성경은 말씀 하십니다 — “알지 못하던 시대에는 하나님이 간과하셨거니와 이제는 어디든지 사람에게 다 명하사 회개하라 하셨으니”(행 17:30). 그리고 “하나님의 진노가 불의로 진리를 막는 사람들의 모든 경건하지 않음과 불의에 대하여 하늘로부터 나타나나니”(롬 1:18).",
+          "en": "Now hear two texts side by side. Scripture says: “The times of ignorance God overlooked, but now he commands all people everywhere to repent” (Acts 17:30). And: “For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who by their unrighteousness suppress the truth” (Rom. 1:18)."
+        },
+        {
+          "ko": "아테네 사람들은 참 하나님을 몰랐습니다. 그러나 그 무지는 아무 증거도 받지 못한 무죄한 무지가 아니었습니다. 드러난 하나님의 진리를 밀어내고 하나님을 우상과 맞바꾼 끝에 이른, 죄 있는 무지였던 것입니다. 아담을 보십시오. 아담이 하나님이 계신지 몰라서 나무 사이에 숨었습니까? 아닙니다. 반대로 하나님을 알았기 때문에 숨은 것입니다(창 3:8-10). 그리고 오늘 우리도 여전히 숨습니다. 어떤 사람은 바쁜 일 속에 숨습니다. 조용해지면 양심의 소리가 들리기 때문입니다. 어떤 사람은 끊임없는 소음과 휴대폰 화면 속에 숨습니다. 어떤 사람은 자기 합리화 속에 숨습니다. 나 정도면 괜찮다고, 적어도 저들보다는 내가 낫다고, 남들도 다 그렇게 산다고 말입니다. 방법은 달라졌지만, 나무 사이에 숨은 아담과 다를 것이 없는 것입니다.",
+          "en": "The Athenians did not know the true God. But their ignorance was not an innocent ignorance that had received no evidence. It was a guilty ignorance, arrived at by suppressing the truth of God that had been revealed and exchanging God for idols. Look at Adam. Did Adam hide among the trees because he did not know whether God existed? No — on the contrary, he hid because he knew God (Gen. 3:8-10). And we still hide today. Some hide in busyness, because when things go quiet the voice of conscience can be heard. Some hide in endless noise and the glow of a phone screen. Some hide in self-justification: I’m good enough; at least I’m better than those people; everybody lives this way. The methods have changed, but we are no different from Adam hiding among the trees."
+        },
+        {
+          "ko": "어떤 분은 말합니다. 종교는 지배자들이 만들어 낸 도구라고 말입니다. 종교를 정치적으로 이용한 자들이 있었던 것은 사실입니다. 그러나 진지하게 스스로 물어보십시오. 왜 그 조작이 사람의 마음에 그렇게 쉽게 뿌리내렸습니까? 사람 안에 이미 하나님을 향한 감각이 있었기 때문입니다. 그리고 하나님을 알지 못하는 시대에는 하나님이 간과하셨다는 성경말씀도 오해하지 마시기 바랍니다. 그들의 죄를 무죄라고 판결하셨다는 뜻이 아닙니다. 이것은 열방의 우상숭배를 하나님께서 즉시 마지막 심판으로 끝내지 않으시고 오래 참으셨다는 뜻입니다. 그러나 한 혈통으로 모든 민족을 만드신 하나님께서 이제는 모든 곳의 모든 사람에게 회개를 명하시는 것입니다.",
+          "en": "Some say religion is a tool invented by rulers. It is true that there have been those who used religion politically. But ask yourself seriously: why did that manipulation take root in the human heart so easily? Because the sense of God was already there within the person. And do not misunderstand the verse that says God overlooked the times of ignorance. It does not mean he pronounced their sin innocent. It means that God did not immediately end the idolatry of the nations with final judgment, but was patient for a long time. Yet now the God who made every nation from one blood commands all people everywhere to repent."
+        },
+        {
+          "ko": "다니엘서 5장에 바로 그런 웃음이 나옵니다. 바벨론 왕 벨사살은 예루살렘 성전에서 가져온 거룩한 그릇들로 술을 마시며, 금과 은과 구리와 쇠와 나무와 돌로 만든 신들을 찬양했습니다(단 5:2-4). 살아 계신 하나님을 대놓고 조롱하는 잔치의 웃음이었습니다. 그런데 바로 그 순간, 사람의 손가락이 나타나 왕궁 벽에 글자를 쓰기 시작했습니다. 성경은 이렇게 기록합니다. “이에 왕의 즐기던 얼굴 빛이 변하고 그 생각이 번민하여 넓적다리 마디가 녹는 듯하고 그의 무릎이 서로 부딪친지라”(단 5:6). 조금 전까지 큰소리로 웃던 그 입술이 떨리기 시작한 것입니다. 한 개혁자는 이런 종류의 웃음을 가리켜 자유로운 웃음이 아니라, 양심이 속에서 갉아먹는 억지 웃음이라고 불렀습니다. 겉으로는 큰소리를 치지만 속에서는 무언가가 끊임없이 그를 갉아먹고 있다는 것입니다. 사도행전에서도, 총독 벨릭스는 바울이 의와 절제와 장차 오는 심판을 강론하자 두려워하며 지금은 가라고 말했습니다(행 24:25). 저는 그런 사람들을 조롱하려는 것이 아닙니다. 오히려 그 웃음이 얼마나 슬픈 웃음인지 말하려는 것입니다. 입은 하나님을 비웃는데 양심은 하나님 앞에서 떨고 있기 때문입니다. 오늘도 우리 주변에는, 어쩌면 우리 가족 가운데는, 그렇게 웃고 있는 사람들이 있습니다. 그리고 그들에게 필요한 것은 우리의 정죄하는 우월감이 아니라, 그 웃음 뒤의 떨림을 알아보는 긍휼과 그리스도의 복음인 것입니다. “내가 주의 영을 떠나 어디로 가며 주의 앞에서 어디로 피하리이까”(시 139:7). 그렇습니다. 우리가 하나님으로부터 도망치면 도망칠수록 양심은 더 크게 외칩니다. 이사야서는 말씀합니다 — “내 하나님의 말씀에 악인에게는 평강이 없다 하셨느니라”(사 57:21). 하나님을 떠난 평안은 궁극적인 평안이 될 수 없습니다. 겉으로 고요해 보여도, 하나님과 화목하지 않은 평안이기 때문입니다.",
+          "en": "Daniel chapter 5 shows us exactly that kind of laughter. Belshazzar, king of Babylon, drank wine from the holy vessels taken from the temple in Jerusalem, and praised the gods of gold and silver, bronze and iron, wood and stone (Dan. 5:2-4). It was the laughter of a banquet that openly mocked the living God. And at that very moment, the fingers of a human hand appeared and began to write on the wall of the palace. Scripture records: “Then the king’s color changed, and his thoughts alarmed him; his limbs gave way, and his knees knocked together” (Dan. 5:6). The lips that had been laughing loudly a moment before began to tremble. A Reformer called this kind of laughter not free laughter but forced laughter — laughter gnawed at from within by conscience. Outwardly the man is loud, but inwardly something keeps eating away at him. In Acts as well, when Paul reasoned about righteousness and self-control and the coming judgment, Governor Felix became alarmed and said, “Go away for the present” (Acts 24:25). I do not say this to mock such people. I say it to show how sorrowful that laughter is — for the mouth mocks God while the conscience trembles before him. Even today there are people around us, perhaps within our own families, who are laughing that way. And what they need is not our condemning superiority, but compassion that recognizes the trembling behind the laughter, and the gospel of Christ. “Where shall I go from your Spirit? Or where shall I flee from your presence?” (Ps. 139:7). Yes — the farther we run from God, the louder conscience cries out. Isaiah says: “There is no peace, says my God, for the wicked” (Isa. 57:21). Peace apart from God can never be ultimate peace. It may look calm on the surface, but it is a peace not reconciled with God."
+        },
+        {
+          "ko": "그러나 사랑하는 형제 자매 여러분, 여기서 분명히 해야 할 것이 있습니다. 하나님을 증거하는 우리의 양심은 증인일 뿐, 우리를 구원할 수 없습니다. 양심은 우리를 법정까지 데려가지만 십자가까지는 데려가지 못하기 때문입니다. 그렇습니다. 양심은 죄를 폭로하지만 죄를 씻지 못합니다.",
+          "en": "But beloved, here we must be clear about one thing. Our conscience, which testifies to God, is only a witness — it cannot save us. Conscience can carry us as far as the courtroom, but it cannot carry us to the cross. Yes: conscience exposes sin, but it cannot wash sin away."
+        },
+        {
+          "ko": "하나님은 가린다고 가려지시지 않으십니다. 죄인은 도망 갈 수 없습니다.",
+          "en": "God cannot be covered over, however hard we try. And the sinner cannot run away."
+        },
+        {
+          "ko": "3대지 — 그리스도만이 우리를 깨끗하게 하십니다",
+          "en": "Point Three — Only Christ Makes Us Clean",
+          "section": true
+        },
+        {
+          "ko": "그러면 이 양심은, 우리의 죄는 어떻게 깨끗해질 수 있습니까? 시간이 해결해 줍니까? 아닙니다. 선한 일을 많이 하면 씻어집니까? 아닙니다. 종교 생활을 열심히 하면 됩니까? 그것도 아닙니다. 바울의 선포를 들으시기 바랍니다. 하나님께서 회개하라 명하십니다(행 17:30). 그리고 성경은 말씀 하십니다. “이는 정하신 사람으로 하여금 천하를 공의로 심판할 날을 작정하시고 이에 그를 죽은 자 가운데서 다시 살리신 것으로 모든 사람에게 믿을 만한 증거를 주셨음이니라 하니라”(행 17:31). 이 정하신 사람은 이름 없는 사람이 아닙니다. 바울이 이미 아테네 장터에서 전하던 예수 그리스도이십니다(행 17:18).",
+          "en": "Then how can this conscience — how can our sin — be made clean? Does time heal it? No. Is it washed away by doing many good deeds? No. Is it enough to be diligent in religious activity? Not that either. Listen to Paul’s proclamation. God commands us to repent (Acts 17:30). And Scripture says: “Because he has fixed a day on which he will judge the world in righteousness by a man whom he has appointed; and of this he has given assurance to all by raising him from the dead” (Acts 17:31). This appointed man is not a nameless man. He is Jesus Christ, whom Paul had already been preaching in the marketplace of Athens (Acts 17:18)."
+        },
+        {
+          "ko": "아레오바고에서 밝혀진 두려운 소식은 하나님께서 세상을 심판하실 분을 정하셨다는 것입니다. 심판의 날이 작정되었고, 심판자가 세워졌으며, 그 증거로 하나님은 그를 죽은 자 가운데서 살리셨습니다. 하나님으로부터 도망갈 수 없는 죄인에게 이보다 무서운 소식이 있겠습니까? 그러나 복음의 놀라운 소식은 무엇입니까? 바로 그 심판자가 십자가에서 심판받을 죄인의 자리에 우리 대신 서셨다는 것입니다. 성경은 말씀 하십니다. “하나님이 죄를 알지도 못하신 이를 우리를 대신하여 죄로 삼으신 것은 우리로 하여금 그 안에서 하나님의 의가 되게 하려 하심이라”(고후 5:21). “그가 찔림은 우리의 허물 때문이요 그가 상함은 우리의 죄악 때문이라”(사 53:5). 그렇습니다. 재판장이 피고석으로 내려오셔서 피고의 형벌을 대신 짊어지신 것입니다. 이것이 복음입니다. 그리스도 안에 있는 우리가 마지막 날에 정죄를 받지 않는 까닭은 하나님께서 우리의 죄를 못 본 체하셨기 때문이 아닙니다. 우리의 정죄와 형벌을 그리스도께서 십자가에서 이미 담당하셨기 때문입니다. 우리가 심판을 피해서 구원받는 것이 아니라, 우리의 심판이 이미 십자가에서 집행되었기 때문에 구원받는 것입니다.",
+          "en": "The terrifying news revealed at the Areopagus is that God has appointed the one who will judge the world. The day of judgment has been fixed, the Judge has been installed, and as proof God raised him from the dead. For a sinner who cannot run away from God, could there be more frightening news than this? But what is the astonishing news of the gospel? It is that this very Judge stood in the dock, in the sinner’s place, on the cross, for us. Scripture says: “For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God” (2 Cor. 5:21). “But he was pierced for our transgressions; he was crushed for our iniquities” (Isa. 53:5). Yes — the Judge stepped down into the defendant’s seat and bore the defendant’s sentence himself. This is the gospel. The reason we who are in Christ will not be condemned on the last day is not that God looked the other way at our sin. It is that Christ has already borne our condemnation and our punishment on the cross. We are not saved by escaping judgment; we are saved because our judgment has already been executed at the cross."
+        },
+        {
+          "ko": "이제 서두에 기억해 두시라고 한 말씀으로 돌아갑니다. 아테네 사람들은 손으로 신전을 짓고 그 안에 신을 모시려 했습니다. 그러나 참 하나님은 우리의 손이 지은 집을 필요로 하지 않으십니다(행 17:24-25). 오히려 하나님의 아들께서 손으로 짓지 않은 더 크고 온전한 장막을 지나, 염소와 송아지의 피가 아니라 자기 피를 가지고 단번에 성소에 들어가셨습니다(히 9:11-12). 보십시오. 종교는 사람이 신을 위해 집을 짓고 제물을 바치는 것입니다. 이방 종교만 그런 것이 아닙니다. 하나님께서 친히 주신 구약의 성전과 제사조차, 마음이 떠난 채 드려질 때 하나님은 기뻐하지 않으셨습니다. 성경은 말씀 하십니다 — “너희의 무수한 제물이 내게 무엇이 유익하뇨”(사 1:11). 스데반도 같은 사도행전에서 예루살렘 성전을 두고 말했습니다. “지극히 높으신 이는 손으로 지은 곳에 계시지 아니하시나니”(행 7:48). 그러나 복음은 정반대입니다. 하나님께서 사람을 위해 자기 아들을 내어 주신 것입니다. 하나님은 무엇이 부족해서 사람의 손으로 섬김을 받으시는 분이 아닙니다. 오히려 그리스도의 피로 우리의 양심을 씻으셔서 살아 계신 하나님을 섬기게 하십니다. 그렇습니다. 우리는 하나님의 부족을 채우기 위해 섬기는 것이 아닙니다. 그리스도께서 우리의 부족을 채우셨기 때문에 섬기는 것입니다.",
+          "en": "Now we return to the verse I asked you to hold on to at the beginning. The Athenians built temples with their hands and tried to house their gods inside them. But the true God has no need of a house built by our hands (Acts 17:24-25). On the contrary, the Son of God passed through the greater and more perfect tent, not made with hands, and entered the holy places once for all — not by the blood of goats and calves, but by his own blood (Heb. 9:11-12). Look carefully: religion is man building a house for a god and offering sacrifices to it. And this is not true only of pagan religion. Even the Old Testament temple and sacrifices, which God himself gave, did not please God when they were offered with the heart far away. Scripture says: “What to me is the multitude of your sacrifices?” (Isa. 1:11). Stephen, too, said of the temple in Jerusalem, in this same book of Acts: “Yet the Most High does not dwell in houses made by hands” (Acts 7:48). But the gospel is the exact opposite. It is God who gave up his own Son for man. God is not one who is served by human hands as though he lacked anything. Rather, he cleanses our conscience by the blood of Christ so that we may serve the living God. Yes — we do not serve in order to supply what God lacks. We serve because Christ has supplied what we lacked."
+        },
+        {
+          "ko": "성경은 말씀 하십니다. “하물며 영원하신 성령으로 말미암아 흠 없는 자기를 하나님께 드린 그리스도의 피가 어찌 너희 양심을 죽은 행실에서 깨끗하게 하고 살아 계신 하나님을 섬기게 하지 못하겠느냐”(히 9:14). 순서를 보시기 바랍니다. 그리스도의 피는 영원한 속죄를 이루었습니다(히 9:12). 그 속죄가 바로, 하나님 앞에서 우리를 정죄하던 실제 죄책과 형벌을 그리스도께서 대신 담당하신 것입니다. 그리고 그 속죄의 결과로, 우리의 더럽혀진 양심이 깨끗하게 되는 것입니다. 죄책이란 무엇입니까? 죄책감이라는 감정이 아닙니다. 하나님의 법정에서 형벌을 받아야 마땅한, 죄에 대한 실제 책임을 말합니다. 감정이라면 시간이 달래 줄 수도 있을 것입니다. 그러나 실제 책임은 형벌이 실제로 집행되어야만 해결되는 것입니다. 바로 그 형벌을 그리스도께서 십자가에서 담당하신 것입니다. 속죄가 먼저요, 정결이 그 열매요, 살아 계신 하나님을 섬김이 그 목적입니다. 그리스도의 피는 과거의 기억을 지워 버리는 마취제가 아닙니다. 그러나 우리를 정죄하던 그 실제 죄책을 제거합니다. 벌레가 갉아먹던 그 양심을, 그리스도의 피가 씻은 것입니다.",
+          "en": "Scripture says: “How much more will the blood of Christ, who through the eternal Spirit offered himself without blemish to God, purify our conscience from dead works to serve the living God” (Heb. 9:14). Notice the order. The blood of Christ secured an eternal redemption (Heb. 9:12). That redemption is precisely this: Christ bore, in our place, the real guilt and punishment that condemned us before God. And as the result of that redemption, our defiled conscience is made clean. What is guilt? It is not the emotion we call a guilty feeling. It is real liability for sin — liability that deserves punishment in God’s courtroom. If it were only an emotion, time might soothe it. But real liability is resolved only when the punishment is actually carried out. And that punishment Christ bore on the cross. Redemption comes first; cleansing is its fruit; serving the living God is its purpose. The blood of Christ is not an anesthetic that erases the memory of the past. But it does remove the real guilt that condemned us. The conscience that the worm was gnawing away — the blood of Christ has washed it clean."
+        },
+        {
+          "ko": "혹시 오늘도 지나간 죄의 기억 때문에 괴로워하는 분이 계십니까? 회개했는데도 그 기억이 떠오를 때마다 다시 정죄받는 것 같은 분이 계십니까? 기억이 남아 있다고 해서 죄값이 남아 있는 것이 아닙니다. 성령께서는 그 기억조차 우리를 겸손과 감사로 이끄는 도구로 사용하실 수 있습니다. 그러나 믿는 우리의 죄값은 이미 그리스도께서 담당하셨습니다. 성경은 말씀 하십니다 — “그러므로 이제 그리스도 예수 안에 있는 자에게는 결코 정죄함이 없나니”(롬 8:1). 하나님 앞에서 여러분을 고발하던 그 문서는 십자가에서 이미 지워진 것입니다. 그러므로 씻긴 양심은 더 이상 죄책에 눌려 하나님을 피해 다니지 않습니다. 오히려 담대히 하나님께 나아가 하나님을 섬기는 것입니다. 이것이 죽은 행실에서 살아 계신 하나님께로 옮겨진 인생입니다.",
+          "en": "Is there anyone here today still tormented by the memory of past sin? Anyone who has repented, and yet each time the memory surfaces feels condemned all over again? The lingering of a memory does not mean the penalty still remains. The Holy Spirit can use even that memory as an instrument to lead us into humility and gratitude. But for us who believe, the penalty of our sin has already been borne by Christ. Scripture says: “There is therefore now no condemnation for those who are in Christ Jesus” (Rom. 8:1). The record of debt that stood against you before God has already been erased at the cross. Therefore a cleansed conscience no longer runs from God under the weight of guilt. Rather, it draws near to God with boldness and serves him. This is a life carried over from dead works to the living God."
+        },
+        {
+          "ko": "아테네 사람들은 어둠 속에서 하나님을 더듬었습니다(행 17:27). 그러나 복음은 어둠 속을 더듬던 인간의 손이 마침내 하나님을 찾아낸 소식이 아닙니다. 성경은 말씀 하십니다. “어두운 데에 빛이 비치라 말씀하셨던 그 하나님께서 예수 그리스도의 얼굴에 있는 하나님의 영광을 아는 빛을 우리 마음에 비추셨느니라”(고후 4:6). 태초에 어둠 위에 빛을 창조하신 바로 그 하나님께서, 어두워진 우리 마음속에 다시 한 번 빛을 창조하신 것입니다. 아테네의 제단에는 이름이 없었습니다. 그러나 복음에는 이름이 있고 얼굴이 있습니다. 예수 그리스도 — 우리는 더 이상 알지 못하는 신을 더듬지 않습니다. 우리를 아시고 우리를 위해 죽으신 그분의 얼굴을 바라보는 것입니다. 그리고 그 얼굴을 바라볼 때 우리는 변화됩니다. 우리가 주님을 닮게 되는 것은 스스로 올라가 얻는 보상이 전혀 아니라, 성령 안에서 그리스도의 영광을 바라볼 때 맺히는 열매인 것입니다. 성경은 말씀 하십니다 — “우리가 다 수건을 벗은 얼굴로 거울을 보는 것 같이 주의 영광을 보매 그와 같은 형상으로 변화하여 영광에서 영광에 이르니 곧 주의 영으로 말미암음이니라”(고후 3:18).",
+          "en": "The Athenians groped for God in the darkness (Acts 17:27). But the gospel is not the news that the groping hand of man finally found God in the dark. Scripture says: “For God, who said, ‘Let light shine out of darkness,’ has shone in our hearts to give the light of the knowledge of the glory of God in the face of Jesus Christ” (2 Cor. 4:6). The very God who created light over the darkness in the beginning has created light once again inside our darkened hearts. The altar in Athens had no name. But the gospel has a name, and it has a face: Jesus Christ. We no longer grope after an unknown god. We look upon the face of the One who knows us and died for us. And as we behold that face, we are changed. Our growing likeness to the Lord is in no way a reward we climb up and earn; it is the fruit that forms as we behold the glory of Christ in the Spirit. Scripture says: “And we all, with unveiled face, beholding the glory of the Lord, are being transformed into the same image from one degree of glory to another. For this comes from the Lord who is the Spirit” (2 Cor. 3:18)."
+        },
+        {
+          "ko": "그렇습니다. 하나님은 가린다고 가려지시지 않으십니다. 죄인은 도망 갈 수 없습니다. 오직 그리스도만이 우리를 — 우리의 양심을 — 깨끗하게 하십니다.",
+          "en": "Yes. God cannot be covered over, however hard we try. The sinner cannot run away. And only Christ makes us — makes our conscience — clean."
+        },
+        {
+          "ko": "결론 — 웃는 사람, 미루는 사람, 믿는 사람",
+          "en": "Conclusion — The One Who Laughs, the One Who Delays, the One Who Believes",
+          "section": true
+        },
+        {
+          "ko": "부활의 복음을 들었을 때 아테네에는 세 가지 반응이 나타났습니다. 어떤 사람은 웃었습니다(행 17:32). 어떤 사람은 “이 일에 대하여 네 말을 다시 듣겠다”며 결정을 뒤로 미뤘습니다(행 17:32). 그리고 어떤 사람은 바울을 가까이하여 믿었습니다(행 17:34). 억지 웃음이 있었고, 복음을 미루는 양심이 있었고, 믿음으로 그리스도께 나아온 사람이 있었습니다. 사랑하는 형제 자매 여러분, 이 세 가지 외에 하나님 앞에 다른 반응은 없는 것입니다. 우리에게는 네 번째 길이 없습니다. 복음을 듣기를 미룬 자들도 아직 그리스도께 나아오지 않은 상태일 뿐입니다. 그리고 이 미룸은 불신자만의 이야기가 아닙니다. 마음에 찔림을 받고도 다음 주로, 다음 기회로 결단을 미루어 온 우리 모두의 이야기이기도 한 것입니다. 그러나 오늘이 바로 은혜받을 만한 때요, 오늘이 바로 구원의 날입니다.",
+          "en": "When they heard the gospel of the resurrection, three responses appeared in Athens. Some mocked and laughed (Acts 17:32). Some put the decision off, saying, “We will hear you again about this” (Acts 17:32). And some joined Paul and believed (Acts 17:34). There was forced laughter; there was a conscience that postponed the gospel; and there were those who came to Christ in faith. Beloved, before God there is no response other than these three. There is no fourth road for us. Those who put off hearing the gospel are simply those who have not yet come to Christ. And this postponing is not only the story of unbelievers. It is also the story of all of us who have felt the sting in our hearts and yet pushed the decision off to next week, to the next opportunity. But today is the acceptable time; today is the day of salvation."
+        },
+        {
+          "ko": "그렇습니다. 바울의 설교를 듣고 아레오바고의 디오누시오 — 그는 웃지 않고 믿었고, 다마리라 하는 여자와 다른 사람들도 함께 믿었습니다(행 17:34).",
+          "en": "Yes. Having heard Paul’s sermon, Dionysius the Areopagite did not laugh — he believed; and a woman named Damaris, and others with them, believed as well (Acts 17:34)."
+        },
+        {
+          "ko": "그러므로 회개하십시오. 회개는 우리를 향한 하나님의 첫 번째 명령이자 은혜의 초청입니다. 하나님의 자리에 앉아 있던 우상을 버리십시오. 하나님 앞에서 나를 세워 주리라 믿었던 자기 의를 버리십시오. 괜찮은 척, 아무렇지 않은 척 지어 온 억지 웃음을 버리십시오. 그리고 우리를 대신하여 죽으시고 부활하신 우리 주 예수 그리스도를 진정으로 믿으시기 바랍니다. 예수 그리스도는 오늘도 여러분 각 사람에게서 멀리 계시지 않습니다.",
+          "en": "Therefore, repent. Repentance is God’s first command to us and, at the same time, his gracious invitation. Throw down the idol that has been sitting on God’s throne. Throw away the self-righteousness you trusted to make you stand before God. Throw away the forced laugh you have worn to pretend you are fine, to pretend nothing is wrong. And truly believe in our Lord Jesus Christ, who died in our place and rose again. Jesus Christ is not far from each one of you, even today."
+        },
+        {
+          "ko": "성경은 말씀 하십니다. “물은 예수 그리스도께서 부활하심으로 말미암아 이제 너희를 구원하는 표니 곧 침례라 이는 육체의 더러운 것을 제하여 버림이 아니요 하나님을 향한 선한 양심의 간구니라”(벧전 3:21, 개역개정 각주 표기 ‘침례’ 채택). 베드로는 물의 물리적 작용이 죄를 씻는다고 말하지 않습니다. 구원의 능력은 부활하신 예수 그리스도께 있습니다. 마찬가지로 우리가 받는 침례는 그리스도의 죽음과 부활을 의지하여 하나님께 드리는 선한 양심의 간구이며, 교회와 세상 앞에서 드리는 믿음의 고백입니다. 피가 씻고, 물은 그 씻김을 고백합니다. 그리스도를 믿었지만 아직 침례로 그 믿음을 고백하지 않은 분이 있다면, 피로 씻긴 양심으로 순종하시기 바랍니다.",
+          "en": "Scripture says: “Baptism, which corresponds to this, now saves you, not as a removal of dirt from the body but as an appeal to God for a good conscience, through the resurrection of Jesus Christ” (1 Pet. 3:21). Peter does not say that the physical action of water washes away sin. The power of salvation lies in the risen Jesus Christ. In the same way, the baptism we receive is an appeal to God for a good conscience, resting upon the death and resurrection of Christ, and a confession of faith made before the church and before the world. The blood washes; the water confesses that washing. If anyone here has believed in Christ but has not yet confessed that faith in baptism, obey now — with a conscience washed by his blood."
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 오늘 우리는 아테네의 이름 없는 제단 앞에서 시작하여 그리스도의 얼굴 앞에 도착했습니다. 하나님은 자신을 숨기지 않으셨고, 죄인은 그 하나님에게서 숨을 수 없으며, 오직 그리스도의 피만이 우리의 양심을 씻어 살아 계신 하나님을 섬기게 한다는 것을 살펴보았습니다. 하나님은 가까이 계셨고 우리는 멀리 도망했습니다. 그러나 그리스도께서 우리를 다시 데려오셨습니다. 복음은 우리의 웃음을 빼앗지 않습니다. 억지 웃음을 걷어 내고, 용서받은 자의 참된 웃음을 돌려주는 것입니다. 하나님은 가린다고 가려지시지 않으십니다. 죄인은 도망 갈 수 없습니다. 그리스도만이 우리를 깨끗하게 하십니다. 피로 씻긴 양심으로 하나님 앞에서 참으로 웃는 저와 여러분 되시기를 우리 주 예수 그리스도의 이름으로 축원 드립니다. 아멘.",
+          "en": "Beloved brothers and sisters, today we began before the nameless altar of Athens and arrived before the face of Christ. We have seen that God did not hide himself; that the sinner cannot hide from that God; and that only the blood of Christ washes our conscience so that we may serve the living God. God was near, and we ran far away. But Christ has brought us back. The gospel does not take our laughter away. It strips off the forced laugh and gives back the true laughter of the forgiven. God cannot be covered over, however hard we try. The sinner cannot run away. Only Christ makes us clean. May you and I be people who laugh truly before God, with a conscience washed in his blood. In the name of our Lord Jesus Christ I bless you. Amen."
+        }
+      ]
+    },
+    {
       "id": "2026-07-05",
       "date": "2026-07-05",
       "title_ko": "하나님을 알라",

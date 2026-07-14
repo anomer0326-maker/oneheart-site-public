@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 안경으로서의 성경 §3 (1권 6장 · Day 30) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 6장 §3(안경으로서의 성경)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 30. 연관 성구: 디모데전서 6, 시편 93, 시편 19, 시편 96."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day30_Book1-Ch6-%C2%A73.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="안경으로서의 성경 §3 — 기독교 강요 영어로 읽기 (Day 30)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 6장 §3(안경으로서의 성경)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 30. 연관 성구: 디모데전서 6, 시편 93, 시편 19, 시편 96."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day30_Book1-Ch6-%C2%A73.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 안경으로서의 성경 §3 (1권 6장 · Day 30) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 6장 §3(안경으로서의 성경)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 30. 연관 성구: 디모데전서 6, 시편 93, 시편 19, 시편 96.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 6장 §3 — 안경으로서의 성경","mentions":[{"@type":"CreativeWork","name":"디모데전서 6 (1 Tim 6)"},{"@type":"CreativeWork","name":"시편 93 (Psalm 93)"},{"@type":"CreativeWork","name":"시편 19 (Ps 19)"},{"@type":"CreativeWork","name":"시편 96 (Ps 96)"},{"@type":"CreativeWork","name":"민수기 6 (Num 6)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day30_Book1-Ch6-%C2%A73.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 30 — Book 1, Chapter 6, §3<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (the whole § — 5 sentences, verbatim)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl2" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl3" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl3" href="#S5" onclick="closeNavMobile()">S5</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas (this is what gets tested)</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (etymology hooks)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (the examiner&#x27;s eye)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 30 — Book 1, Chapter 6, §3</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday you got the <strong>history</strong>: viva vox → scriptura. God spoke, then God filed. Today Calvin asks the obvious follow-up question, and it is the question a lawyer asks: <strong>why was the filing necessary?</strong></p><p>And notice where he does <em>not</em> look for the answer. He does not say "because God's works are too dim." He said the opposite for fifteen sections — the theatre is <strong>blazing</strong>. So the defect is not in the exhibit. It is in the <strong>spectator</strong>. §3 is therefore the <strong>anthropological proof of the necessity of Scripture</strong>: God wrote it down because <em>our memory leaks</em>.</p><p>Three diseases of the mind, three <code>how</code>-clauses, one archive. Then the image that governs the rest of the chapter:</p><blockquote>
+<p><strong>The brightness of God is a labyrinth. The Word is the thread.</strong></p>
+</blockquote><p>Ariadne's thread, in the middle of the <em>Institutes</em>. Calvin the humanist is showing his hand. And then the line I want you to memorize tonight, because it is the whole of Reformed epistemology in ten words: <strong>it is better to limp in the way, than run with the greatest swiftness out of it.</strong></p><p><strong>Today's 3 Big Points — I'm telling you now, you'll thank me in Period 4:</strong></p><ol>
+<li><strong><code>how + adj + S + V</code> × 3, all governed by ONE verb (<code>reflect</code>)</strong> — the exclamatory-clause inventory of S1. And the two <code>how</code>-clauses after the first are <strong>gapped</strong>: the subject and verb vanish. If you can't restore them, S1 is rubble.</li>
+<li><strong><code>It being thus manifest that ...</code></strong> — the <strong>nominative absolute</strong> with a dummy <em>it</em>, a whole clause hanging outside the main sentence. S2. You have met absolutes since Day 13; this is the most Latin one yet.</li>
+<li><strong><code>how great soever the speed with which we move</code></strong> — the split <strong><code>how...soever</code></strong> concessive, verbless. S3. Beveridge's most archaic move this week. Modern English says <em>however great</em>.</li>
+</ol><p>Books open. This one is short — five sentences — and every single one is a keeper.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (the whole § — 5 sentences, verbatim)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+3. For if we reflect how prone the human mind is to lapse into forgetfulness of God, how readily inclined to every kind of error, how bent every now and then on devising new and fictitious religions, it will be easy to understand how necessary it was to make such a depository of doctrine as would secure it from either perishing by the neglect, vanishing away amid the errors, or being corrupted by the presumptuous audacity of men. It being thus manifest that God, foreseeing the inefficiency of his image imprinted on the fair form of the universe, has given the assistance of his Word to all whom he has ever been pleased to instruct effectually, we, too, must pursue this straight path, if we aspire in earnest to a genuine contemplation of God;—we must go, I say, to the Word, where the character of God, drawn from his works is described accurately and to the life; these works being estimated, not by our depraved Judgment, but by the standard of eternal truth. If, as I lately said, we turn aside from it, how great soever the speed with which we move, we shall never reach the goal, because we are off the course. We should consider that the brightness of the Divine countenance, which even an apostle declares to be inaccessible (1 Tim. 6:16), is a kind of labyrinth,—a labyrinth to us inextricable, if the Word do not serve us as a thread to guide our path; and that it is better to limp in the way, than run with the greatest swiftness out of it. Hence the Psalmist, after repeatedly declaring (Psalm 93, 96, 97, 99, &amp;c). that superstition should be banished from the world in order that pure religion may flourish, introduces God as reigning; meaning by the term, not the power which he possesses and which he exerts in the government of universal nature, but the doctrine by which he maintains his due supremacy: because error never can be eradicated from the heart of man until the true knowledge of God has been implanted in it.
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>[WHY AN ARCHIVE?]     S1  Three diseases of the mind (how-clause × 3):
+                          ① forgetfulness  ② error  ③ fiction-making (new religions)
+                          → ∴ a DEPOSITORY was necessary, secured against three deaths:
+                            perishing by NEGLECT / vanishing amid ERRORS / corrupted by AUDACITY
+                          └ note the 1:1 mapping — three diseases, three defences
+
+[THE INFERENCE]       S2  Absolute clause: God FORESAW the inefficiency of the cosmic image
+                          → gave the Word to all whom he effectually instructs
+                          ∴ WE too must go to the Word — where God's character (drawn from
+                            his works) is described "accurately and to the life"
+                          └ final absolute: works judged NOT by our depraved judgment
+                                                  BUT by the standard of eternal truth
+
+[THE COST OF LEAVING] S3  Off the Word = off the course. Speed is irrelevant.
+                      S4  Two images, one thesis:
+                          (a) God's brightness = a LABYRINTH; the Word = the THREAD
+                          (b) better to LIMP in the way than RUN out of it
+
+[SCRIPTURAL PROOF]    S5  The Psalmist (Ps. 93, 96, 97, 99): superstition banished →
+                          God "REIGNS" — and REIGNING = not raw power over nature,
+                          but the DOCTRINE by which he holds his supremacy
+                          └ because error is never uprooted until true knowledge is planted
+</code></pre><p><strong>Examiner's Eye — the trap they will set:</strong></p><p><strong>S2 is the mine field.</strong> <code>foreseeing the inefficiency of his image imprinted on the fair form of the universe</code> — the distractor will make this say that <strong>the image itself is defective</strong>, or that <strong>creation fails to reveal God</strong>. It does not say that. Read Day 26–27 again: the lamp is bright, the <em>eyes</em> are bad; the image is <em>ineffective</em> <strong>on us</strong>, not <em>inadequate</em> <strong>in itself</strong>. <em>Inefficiency</em> = it does not achieve its saving effect, because of the receiver. Any answer choice claiming "Calvin says God's image in creation is imperfect / obscure / insufficiently revealing" is a <strong>direction flip</strong>. Kill it.</p><p>Second trap, <strong>S4</strong>: the labyrinth is not sin, not the world, not error. The labyrinth is <strong>the brightness of the Divine countenance</strong> — the <em>glory</em> itself. God's inaccessible light is what we get lost in. That is a far stranger and better claim, and a careless reader will never see it.</p><p>Third trap, <strong>S5</strong>: <code>introduces God as reigning ... meaning by the term, not the power ... but the doctrine</code>. The distractor will say Calvin <strong>denies</strong> that God rules nature by power. He does not. He is doing lexical work on what <em>the Psalmist means by the word</em> "reign" — a <strong>semantic</strong> claim, not a <strong>metaphysical</strong> one.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Three how-clauses, one verb, two gaps — and a perfect 3:3 architecture</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>"For if we reflect how prone the human mind is to lapse into forgetfulness of God, how readily inclined to every kind of error, how bent every now and then on devising new and fictitious religions, it will be easy to understand how necessary it was to make such a depository of doctrine as would secure it from either perishing by the neglect, vanishing away amid the errors, or being corrupted by the presumptuous audacity of men."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>For</b></span></li><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if</b> we reflect</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">how prone the human mind is</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to lapse into forgetfulness of God</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">how readily ‹the human mind is› inclined</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to every kind of error</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">how ‹the human mind is› bent</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">every now and then</span></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">on devising new and fictitious religions</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>it will be easy to understand</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">how necessary it was</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to make such a depository of doctrine</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>as</b> would secure it</span></li><li><span class="leaf">from</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>either</b> perishing by the neglect</span></li><li><span class="leaf">vanishing away amid the errors</span></li><li><span class="lab ph">등위 (or)</span><span class="leaf"><b>or</b> being corrupted by the presumptuous audacity of men</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>depository</em> &lt; <em>deponere</em> (<em>de-</em> down + <em>ponere</em> to place) → the place where something is laid down for safekeeping; cognates: <em>deposit, deponent, depot</em>. — <em>audacity</em> &lt; <em>audere</em> (to dare) → daring; in Latin <em>audacia</em> is usually pejorative — recklessness, not courage. — <em>fictitious</em> &lt; <em>fingere</em> (to shape, mould) → the same root that gave us figment in I.4.1 and fiction. Calvin's vocabulary of idolatry is one root repeated: man <em>moulds</em> his gods. — <em>prone</em> &lt; <em>pronus</em> = leaning forward, face-down.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be prone to V</em> = ~하기 쉽다 (with an unfavourable outcome — you are never <em>prone to</em> success); <em>be bent on V-ing</em> = ~하기로 작심하다 (deliberate, obstinate); <em>every now and then</em> = 이따금; <em>vanish away amid</em> = ~ 가운데 사라지다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">If you stop and think about how easily the human mind forgets God, how quickly it drifts into every kind of error, and how determined it keeps being to invent brand-new religions out of nothing, then it's obvious why God had to set up a permanent record of his teaching — one that couldn't be lost through neglect, buried under competing errors, or rewritten by arrogant people.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>how prone the human mind is</b> → <em>how easily the human mind</em></li><li><b>lapse into forgetfulness of God</b> → <em>forget God</em></li><li><b>bent every now and then on devising</b> → <em>keeps determined to invent</em></li><li><b>such a depository of doctrine as would secure it</b> → <em>a permanent record that would protect it</em></li><li><b>the presumptuous audacity of men</b> → <em>arrogant people</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">The nominative absolute with a dummy it — the most Latin sentence of the week</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>"It being thus manifest that God, foreseeing the inefficiency of his image imprinted on the fair form of the universe, has given the assistance of his Word to all whom he has ever been pleased to instruct effectually, we, too, must pursue this straight path, if we aspire in earnest to a genuine contemplation of God;—we must go, I say, to the Word, where the character of God, drawn from his works is described accurately and to the life; these works being estimated, not by our depraved Judgment, but by the standard of eternal truth."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>It being thus manifest</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that God</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">foreseeing the inefficiency of his image</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">imprinted on the fair form of the universe</span></li></ul></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>has given</b> the assistance of his Word</span></li><li><span class="leaf">to all</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (whom)</span><span class="leaf">whom he has ever been pleased to instruct effectually</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>we, too, must pursue this straight path</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf">if we aspire in earnest to a genuine contemplation of God</span></li></ul></li><li><span class="leaf"><b>we must go</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">I say</span></li></ul></li></ul></li><li><span class="leaf"><b>to the Word</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (where)</span><span class="leaf">where the character of God</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">drawn from his works</span></li></ul></li></ul><ul class="tr"><li><span class="leaf">is described accurately and to the life</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>these works being estimated</b></span></li><li><span class="leaf"><b>not</b> by our depraved Judgment</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b> by the standard of eternal truth</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>inefficiency</em> = <em>in-</em> (not) + <em>efficere</em> (<em>ex-</em> out + <em>facere</em> make) → not bringing-about; the noun of effect, not of quality. ⚠️ NOT "poorly made." — <em>imprinted</em> = <em>in-</em> + <em>premere</em> (to press) → pressed into. Cf. Day 13's <em>engraven</em>: Calvin's whole natural-revelation vocabulary is metallurgical — stamping, engraving, imprinting on a surface. — <em>depraved</em> = <em>de-</em> (down, away) + <em>pravus</em> (crooked) → bent out of true. The judgment isn't stupid; it's warped — and a warped ruler still gives confident measurements. — <em>aspire</em> = <em>ad-</em> (toward) + <em>spirare</em> (to breathe) → to breathe toward.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it being manifest that ~</em> = ~임이 분명하므로 (causal absolute); <em>be pleased to V</em> = ⚠️ to sovereignly will (NOT "to enjoy"); <em>in earnest</em> = seriously, sincerely; <em>to the life</em> = ⚠️ true to life, lifelike (a painter's phrase, NOT "in order to give life").</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So it's clear that God saw in advance that the image of himself stamped on the beautiful structure of the universe wouldn't do its job on us, and therefore he supplied his Word to everyone he ever intended to teach effectively. That means we have to take the same direct route if we really want to know God as he is: we have to go to Scripture, where God's character — as it shows up in his works — is drawn exactly and true to life. And those works have to be measured by the standard of eternal truth, not by our own warped judgment.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>It being thus manifest that</b> → <em>So it's clear that</em></li><li><b>the inefficiency of his image</b> → <em>that the image wouldn't do its job</em></li><li><b>all whom he has ever been pleased to instruct effectually</b> → <em>everyone he ever intended to teach effectively</em></li><li><b>described accurately and to the life</b> → <em>drawn exactly and true to life</em></li><li><b>our depraved Judgment</b> → <em>our own warped judgment</em></li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s2" title="2-star">★★</span><span class="s-label">how great soever — the split concessive, verbless</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>"If, as I lately said, we turn aside from it, how great soever the speed with which we move, we shall never reach the goal, because we are off the course."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>If</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as I lately said</span></li></ul></li></ul></li><li><span class="leaf">we turn aside from it</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>how great soever</b> the speed ‹is›</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">with which we move</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>we shall never reach the goal</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">이유절 (because)</span><span class="leaf">because we are off the course</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>soever</em> = <em>so</em> + <em>ever</em>, an emphatic suffix. Family: <em>whosoever, whatsoever, whensoever, howsoever</em>. In modern English it survives fused, in <em>however / whatever</em>. — <em>aside</em> = on + side; <em>turn aside</em> = to swerve off the track.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>how ~ soever</em> = however ~, no matter how ~; <em>turn aside from</em> = to deviate from; <em>be off the course</em> = to be off the marked track (a racing metaphor — not merely "lost," but disqualified).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">If we turn away from Scripture — as I said a moment ago — then no matter how fast we're running, we'll never reach the finish line, because we're not even on the track.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>as I lately said</b> → <em>as I said a moment ago</em></li><li><b>turn aside from it</b> → <em>turn away from Scripture</em></li><li><b>how great soever the speed with which we move</b> → <em>no matter how fast we're running</em></li><li><b>reach the goal</b> → <em>reach the finish line</em></li><li><b>off the course</b> → <em>not on the track</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">The labyrinth and the thread — memorize this sentence</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>"We should consider that the brightness of the Divine countenance, which even an apostle declares to be inaccessible (1 Tim. 6:16), is a kind of labyrinth,—a labyrinth to us inextricable, if the Word do not serve us as a thread to guide our path; and that it is better to limp in the way, than run with the greatest swiftness out of it."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>We should consider</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the brightness of the Divine countenance</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which even an apostle declares to be inaccessible</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">1 Tim. 6:16</span></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>is a kind of labyrinth</b>, —</span></li><li><span class="leaf">a labyrinth inextricable</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to us</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if</b> the Word serve us</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>do</b> not</span></li></ul></li></ul></li><li><span class="leaf">as a thread</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to guide our path</span></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> it is better</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to limp in the way</span></li></ul></li><li><span class="leaf"><b>than</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">‹to› run with the greatest swiftness out of it</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>countenance</em> &lt; Old French <em>contenance</em> &lt; Latin <em>continentia</em> (bearing, demeanour) → came to mean face (cf. Num. 6:25, "the LORD make his face shine upon thee"). — <em>inextricable</em> = <em>in-</em> (not) + <em>ex-</em> (out) + <em>tricae</em> (entanglements, tricks) → literally <em>unable to be disentangled</em>. The Latin <em>tricae</em> is the same root as intricate and trick — a labyrinth word, and Calvin chose it on purpose. — <em>labyrinth</em> &lt; Greek <em>λαβύρινθος</em>, the maze of Knossos; a favourite Calvin metaphor (cf. I.5.12, the mind as a labyrinth — note the inversion: there, <em>our mind</em> is the maze; here, <em>God's glory</em> is).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>a kind of ~</em> = 일종의 ~ (a hedge, flagging metaphor — cf. `as it were` in §2); <em>serve (someone) as ~</em> = to function for someone as ~; <em>it is better to A than ‹to› B</em> = A하는 편이 B하는 것보다 낫다 (the second <em>to</em> is regularly gapped).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">We should recognize that the brightness of God's face — which even Paul calls unapproachable (1 Tim. 6:16) — is a kind of maze, and we can never find our way out of it unless the Word acts as a thread guiding our steps. And it's better to limp along on the right road than to sprint at full speed off it.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the Divine countenance</b> → <em>God's face</em></li><li><b>an apostle declares to be inaccessible</b> → <em>Paul calls unapproachable</em></li><li><b>a labyrinth to us inextricable</b> → <em>a maze we can't find our way out of</em></li><li><b>if the Word do not serve us</b> → <em>unless the Word acts</em></li><li><b>limp in the way ... run ... out of it</b> → <em>limp along on the right road ... sprint off it</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">What "God reigns" actually means — a lexical claim, not a metaphysical one</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>"Hence the Psalmist, after repeatedly declaring (Psalm 93, 96, 97, 99, &amp;c). that superstition should be banished from the world in order that pure religion may flourish, introduces God as reigning; meaning by the term, not the power which he possesses and which he exerts in the government of universal nature, but the doctrine by which he maintains his due supremacy: because error never can be eradicated from the heart of man until the true knowledge of God has been implanted in it."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` Hence <b>the Psalmist</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">after repeatedly declaring</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Psalm 93, 96, 97, 99, &amp;c</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that superstition should be banished from the world</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in order that pure religion may flourish</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>introduces God as reigning</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>meaning</b> by the term</span></li><li><span class="leaf"><b>not</b> the power</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which he possesses and which he exerts in the government of universal nature</span></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b> the doctrine</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by which he maintains his due supremacy</span></li></ul></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">이유절 (because)</span><span class="leaf"><b>because</b> error never can be eradicated from the heart of man</span></li><li><span class="leaf"><b>until</b> the true knowledge of God has been implanted in it</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>eradicated</em> = <em>e-</em> (out) + <em>radix</em> (root) → to tear out by the root. Cognate: radish, radical (= going to the root). — <em>implanted</em> = <em>in-</em> + <em>plantare</em> → set into the ground; the botanical pair with <em>eradicate</em> is deliberate: out by the root / in by the root. — <em>supremacy</em> &lt; <em>supremus</em>, superlative of <em>superus</em> (above) → the highest place. — <em>superstition</em> &lt; <em>super-</em> + <em>stare</em> (to stand over) → to stand over in dread; in Calvin's usage the standing technical term for worship of one's own invention (cf. I.4.1, I.5.12).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>introduce X as V-ing</em> = to present/portray X as doing ~ (a rhetorical, literary sense of <em>introduce</em> — as an author "brings on" a character); <em>mean by the term</em> = to intend by that word; <em>due supremacy</em> = rightful (not "owed") sovereignty — ⚠️ <em>due</em> = proper, fitting.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">That's why the Psalmist — after saying again and again (Psalms 93, 96, 97, 99, and so on) that superstition has to be driven out of the world so that true religion can thrive — pictures God as reigning. And by "reigning" he doesn't mean the raw power God has and uses to run the natural world; he means the teaching by which God keeps his rightful place on the throne. Because error can never be pulled out of a person's heart until the true knowledge of God has been planted there.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>repeatedly declaring</b> → <em>saying again and again</em></li><li><b>superstition should be banished</b> → <em>superstition has to be driven out</em></li><li><b>introduces God as reigning</b> → <em>pictures God as reigning</em></li><li><b>the doctrine by which he maintains his due supremacy</b> → <em>the teaching by which God keeps his rightful place on the throne</em></li><li><b>eradicated ... implanted</b> → <em>pulled out ... planted</em></li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas (this is what gets tested)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>FORMULA 1 — The exclamatory how-clause inventory (with gapping)
+──────────────────────────────────────────────────────────────
+   [V of cognition] + how + ADJ + S + V,  how + ADJ ‹S V›,  how + ADJ ‹S V› ...
+   reflect / consider / understand / see  ← the governing verb
+
+   • Word order: the ADJECTIVE FRONTS, ahead of S + V.
+       how prone the human mind is    (NOT: how the human mind is prone)
+   • Conjuncts 2 and 3 GAP the subject + copula. RESTORE THEM MENTALLY.
+       how readily ‹the human mind is› inclined ...
+   ⚠️ TRAP: hanging the second participle on the wrong subject.
+
+   Drill (Calvin material):
+   → "If we reflect how blind the natural eye is to grace, how quick to
+      trust its own light, how eager to build altars of its own devising,
+      we shall see why the Word must come from without."
+</code></pre><pre><code>FORMULA 2 — The nominative absolute (causal), with dummy 'it'
+──────────────────────────────────────────────────────────────
+   It being (thus) manifest / evident / certain + THAT-clause , + [MAIN CLAUSE]
+        = Since it is evident that ... , [main clause]
+
+   • The absolute has NO grammatical tie to the main clause. Don't hunt for one.
+   • 'It' is anticipatory; the real content is the that-clause.
+   • Trailing variant (Beveridge does BOTH in S2):
+        ... , these works being estimated, not by X, but by Y.
+        = "— those works, of course, being judged not by X but by Y."
+   ⚠️ TRAP: reading 'It' as the subject of the main verb. It is not.
+
+   Drill:
+   → "It being manifest that the seed of religion yields nothing but idols,
+      we must seek elsewhere for the knowledge that saves; this seed being
+      judged, not by its vigour, but by its fruit."
+</code></pre><pre><code>FORMULA 3 — The split concessive: how + ADJ + soever
+──────────────────────────────────────────────────────────────
+   how + ADJ + soever + S ‹+ be›  ,  [MAIN CLAUSE]
+        = however + ADJ + S + may be  =  no matter how ADJ
+
+   • 'soever' detaches from 'how' and lands AFTER the adjective.
+   • The copula is regularly OMITTED. Restore it.
+        how great soever the speed ‹may be›
+   • Family: whosoever / whatsoever / whensoever / howsoever
+   ⚠️ TRAP: mistaking it for a question ("how great is the speed?"). It's a CONCESSION.
+
+   BONUS — the archaic subjunctive after 'if' (S4):
+        if the Word DO not serve us   (NOT 'does' — bare form after 'if')
+        cf. "though he BE ignorant" (Day 14)
+   ⚠️ In a MODERN-usage grammar item, 'does' is correct.
+      In a READING item on Beveridge, 'do' is correct as printed. Know the question.
+
+   Drill:
+   → "How learned soever the philosopher be, if he turn aside from the Word,
+      he shall never reach the goal."
+</code></pre><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (etymology hooks)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>prone to</strong> (S1)</td>
+<td>liable to, apt to (badly)</td>
+<td><em>pronus</em> = leaning face-down. You are never <em>prone to</em> good things.</td>
+</tr>
+<tr>
+<td><strong>lapse into</strong> (S1)</td>
+<td>to slip/fall into</td>
+<td><em>labi</em> = to slide. Cf. <em>re-lapse, col-lapse, lapse of memory</em>.</td>
+</tr>
+<tr>
+<td><strong>bent on</strong> (S1)</td>
+<td>determined to (obstinately)</td>
+<td>The bow is <strong>bent</strong> — tension aimed at a target.</td>
+</tr>
+<tr>
+<td><strong>fictitious</strong> (S1)</td>
+<td>invented, made-up</td>
+<td><em>fingere</em> = to mould → <strong>figment</strong> (I.4.1), <strong>fiction</strong>, <strong>feign</strong>. Calvin's idolatry root.</td>
+</tr>
+<tr>
+<td><strong>depository</strong> (S1)</td>
+<td>a repository, an archive</td>
+<td><em>de-</em> + <em>ponere</em> = laid down for keeping. Cf. <strong>deposit, depot</strong>.</td>
+</tr>
+<tr>
+<td><strong>audacity</strong> (S1)</td>
+<td>⚠️ reckless boldness</td>
+<td><em>audere</em> = to dare. In Latin, usually <strong>pejorative</strong> — not "courage."</td>
+</tr>
+<tr>
+<td><strong>manifest</strong> (S2)</td>
+<td>evident, plain</td>
+<td><em>manus</em> (hand) + <em>festus</em> → <strong>caught red-handed</strong> → obvious.</td>
+</tr>
+<tr>
+<td><strong>inefficiency</strong> (S2)</td>
+<td>⚠️ <strong>failure to produce the effect</strong></td>
+<td><em>in-</em> + <em>efficere</em>. NOT "poorly made"! The image is fine; <strong>we</strong> are the fault. Top trap of the day.</td>
+</tr>
+<tr>
+<td><strong>imprinted</strong> (S2)</td>
+<td>stamped in</td>
+<td><em>in-</em> + <em>premere</em> (press). Family: engraven (D13), imprinted (D30).</td>
+</tr>
+<tr>
+<td><strong>fair</strong> (S2)</td>
+<td>⚠️ <strong>beautiful</strong></td>
+<td>Archaic. <em>the fair form of the universe</em> = the beautiful frame. NOT "just" or "moderate."</td>
+</tr>
+<tr>
+<td><strong>be pleased to V</strong> (S2)</td>
+<td>⚠️ to sovereignly will</td>
+<td><em>beneplacitum</em>. NOT "to enjoy." (Still live from Day 29.)</td>
+</tr>
+<tr>
+<td><strong>effectually</strong> (S2)</td>
+<td>so as to produce the effect</td>
+<td>The adverb that carries election in its pocket. Cf. <em>effectual calling</em>.</td>
+</tr>
+<tr>
+<td><strong>in earnest</strong> (S2)</td>
+<td>seriously, in good faith</td>
+<td>OE <em>eornost</em> = zeal.</td>
+</tr>
+<tr>
+<td><strong>depraved</strong> (S2)</td>
+<td>⚠️ <strong>warped, bent out of true</strong></td>
+<td><em>de-</em> + <em>pravus</em> (crooked). Not "wicked" in the lurid sense — <strong>out of alignment</strong>. A crooked ruler measures confidently.</td>
+</tr>
+<tr>
+<td><strong>to the life</strong> (S2)</td>
+<td>⚠️ <strong>true to life, lifelike</strong></td>
+<td>A painter's phrase. NOT "in order to give life."</td>
+</tr>
+<tr>
+<td><strong>how ~ soever</strong> (S3)</td>
+<td>however ~, no matter how ~</td>
+<td><em>so</em> + <em>ever</em>, detached. Family: whatso<strong>ever</strong>, whoso<strong>ever</strong>.</td>
+</tr>
+<tr>
+<td><strong>turn aside</strong> (S3)</td>
+<td>to deviate</td>
+<td>Off the marked track.</td>
+</tr>
+<tr>
+<td><strong>the course</strong> (S3)</td>
+<td>the racing track</td>
+<td>⚠️ Not "the way things go." A <strong>marked</strong> track — you can be <em>off</em> it.</td>
+</tr>
+<tr>
+<td><strong>countenance</strong> (S4)</td>
+<td>face, aspect</td>
+<td><em>continentia</em> (bearing) → face. Num. 6:25.</td>
+</tr>
+<tr>
+<td><strong>inaccessible</strong> (S4)</td>
+<td>unapproachable</td>
+<td>1 Tim. 6:16, <em>φῶς ἀπρόσιτον</em>.</td>
+</tr>
+<tr>
+<td><strong>labyrinth</strong> (S4)</td>
+<td>a maze</td>
+<td>Knossos. ⚠️ In I.5.12 the <strong>mind</strong> was the labyrinth; here <strong>God's glory</strong> is. Calvin flips his own image.</td>
+</tr>
+<tr>
+<td><strong>inextricable</strong> (S4)</td>
+<td>impossible to escape from</td>
+<td><em>in-</em> + <em>ex-</em> + <em>tricae</em> (entanglements) → cognate with <strong>intricate</strong> and <strong>trick</strong>.</td>
+</tr>
+<tr>
+<td><strong>limp</strong> (S4)</td>
+<td>to walk lamely</td>
+<td>Chosen for its <strong>indignity</strong>. Direction beats dignity.</td>
+</tr>
+<tr>
+<td><strong>superstition</strong> (S5)</td>
+<td>self-invented worship</td>
+<td><em>super-</em> + <em>stare</em> = to stand over (in dread). Calvin's technical term since I.4.</td>
+</tr>
+<tr>
+<td><strong>introduces X as V-ing</strong> (S5)</td>
+<td>portrays, brings on stage</td>
+<td>The literary sense — an author "introduces" a character.</td>
+</tr>
+<tr>
+<td><strong>due</strong> (S5)</td>
+<td>⚠️ <strong>rightful, proper</strong></td>
+<td><em>due supremacy</em> = the sovereignty that is properly his. NOT "owed" or "expected."</td>
+</tr>
+<tr>
+<td><strong>eradicated</strong> (S5)</td>
+<td>rooted out</td>
+<td><em>e-</em> + <em>radix</em> (root). Cf. <strong>radical, radish</strong>.</td>
+</tr>
+<tr>
+<td><strong>implanted</strong> (S5)</td>
+<td>planted in</td>
+<td>The botanical <strong>pair</strong> with <em>eradicate</em>. Out by the root / in by the root.</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>The argument of §3 in one line: God wrote it down because we leak.</strong></p><p>Look at what Calvin has just <em>not</em> done. He has <strong>not</strong> argued that Scripture is necessary because creation is a dim or defective witness. He spent fifteen sections in Chapter 5 insisting that creation is a <strong>blazing</strong> witness — <em>theatrum gloriae Dei</em>, the works so bright that no man, however dull, can plead ignorance. If he now said "and that's why we need a Bible," he would be contradicting himself, and every hostile reader from Trent onward would have said so.</p><p>Instead, the necessity of Scripture is derived from <strong>anthropology</strong>. Three diseases: we <strong>forget</strong>, we <strong>err</strong>, we <strong>invent</strong>. Therefore an archive, secured against <strong>neglect</strong>, <strong>dilution</strong>, and <strong>corruption</strong>. The defect is never located in the revelation. It is located in the <strong>receiver</strong>. This is the same structure as the <em>spectacles</em> in §1 (the book is fair; the eyes are old) and it is the same as <code>inefficiency</code> in S2 (the image is imprinted on the <em>fair</em> form of the universe; it simply fails <strong>of its effect in us</strong>).</p><p><strong>Why this matters for the Barth–Brunner war, one more time.</strong> Brunner wanted a <em>point of contact</em>; Barth thundered <em>Nein!</em> §3 gives ammunition to neither side cleanly, and that is exactly why it's important. Against Barth: Calvin says the image <em>is</em> imprinted, on a <em>fair</em> universe, and God <em>foresaw</em> — not "God's revelation in creation was always empty." Against Brunner: Calvin says the image is <strong>inefficient</strong>, and that a <em>depository</em> was <strong>necessary</strong>, and that our judgment is <strong>depraved</strong> so that even the works must be measured by <em>the standard of eternal truth</em> — i.e. by Scripture. Neither natural theology nor its abolition. <strong>A natural revelation that is objectively real and subjectively useless without the Word.</strong> Hold both halves or you have lost Calvin.</p><p><strong>The labyrinth, and Calvin's classical education.</strong> The image is not decorative. Calvin's first published work was a commentary on Seneca's <em>De Clementia</em> (1532) — he was a humanist before he was a theologian, and the <em>Institutes</em> is full of Knossos, Ariadne, the thread. But watch what he does with the myth. In I.5.12 he called <strong>the human mind</strong> a labyrinth (each man breeding gods in the maze of his own heart). Here he calls <strong>the brightness of the Divine countenance</strong> a labyrinth. He has flipped his own metaphor — and the flip is doctrine. It says: <em>even if your mind were straightened out, the glory itself would still be too much for you.</em> The problem is not only sin. It is <strong>finitude</strong>. <em>Finitum non capax infiniti.</em> And the answer to finitude is not repair; it is <strong>accommodation</strong> — a thread, a pair of spectacles, a Word pitched to our capacity.</p><p>Which is why <em>1 Tim. 6:16</em> is doing so much work in S4. <code>Dwelling in the light which no man can approach unto.</code> The apostle himself says the light is unapproachable. Calvin's move: <strong>God gives us a way into what we cannot approach, and the way is a text.</strong></p><p><strong>"Better to limp in the way."</strong> This aphorism has a pedigree. It is essentially Augustine's — <em>melius est claudicare in via quam praeter viam fortiter ambulare</em> ("better to limp along the road than to stride vigorously off it"), a line Augustine uses (<em>Sermon</em> 141, on John 14:6, and echoed in <em>Contra Faustum</em>) precisely about <strong>Christ as the way</strong>: the philosophers can <em>see</em> the homeland from a distance, but they do not walk <strong>the road</strong>. Calvin knows exactly what he is quoting, and he redeploys it from <em>Christ-as-the-way</em> to <em>the-Word-as-the-way</em> — which is not a substitution but an identification, since for Calvin the Word is where Christ is found. If you like tracing pedigrees, notice that Augustine's original is aimed at Platonists who have vision without a road; Calvin's is aimed at men who have zeal without a text. Same disease, different century.</p><p><strong>The last clause is the Reformation's method statement.</strong> <code>Error never can be eradicated from the heart of man until the true knowledge of God has been implanted in it.</code> This is why the Reformation was a <strong>preaching</strong> movement before it was anything else. You do not fix idolatry by removing idols. The mind is a field, not a jar; empty it and it grows weeds. (Compare Christ's own parable of the swept and garnished house, Matt. 12:43–45 — the demon returns <em>because the house is empty</em>.) So: <strong>positive instruction is the only real iconoclasm.</strong> Everything Calvin will build in Books 3 and 4 — the ministry of the Word, preaching as the ordinary means of grace, the church as <em>mater fidelium</em> — grows out of this one subordinate clause.</p><p><strong>Where we are structurally:</strong> §1 spectacles → §2 the history of the archive → §3 <strong>why the archive was necessary</strong> → §4 (tomorrow) <strong>the Psalms prove it</strong>. Calvin ends §3 with a Psalm; he will open §4 with a Psalm. He is walking you from argument into proof.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li><strong>1 Tim. 6:16</strong> — <em>φῶς οἰκῶν ἀπρόσιτον</em>, "dwelling in the light which no man can approach unto." → <strong>S4</strong>, cited explicitly. The only formal citation in the section, and it is the linchpin: the labyrinth image is <strong>licensed by an apostle</strong>. Calvin never invents an image without a warrant if he can help it.</li>
+<li><strong>Ps. 93, 96, 97, 99</strong> — the <em>Yahweh malak</em> ("The LORD reigneth") group, the enthronement psalms. → <strong>S5</strong>. Note the pattern Calvin has spotted: each of them pairs "the LORD reigneth" with the demolition of idols (<code>Confounded be all they that serve graven images</code>, Ps. 97:7; <code>all the gods of the nations are idols</code>, Ps. 96:5). The reign and the anti-idolatry are <strong>the same event</strong> in these psalms — and Calvin reads the mechanism as <strong>doctrine</strong>.</li>
+<li><strong>Ps. 19:1–9</strong> — the heavens declare... <em>and then</em> "the law of the LORD is perfect." → hovering behind the whole section; Calvin will <strong>quote it outright tomorrow</strong> in §4. S2's structure (works → but measured by eternal truth) is Psalm 19's structure.</li>
+<li><strong>Rom. 1:21–23</strong> — <em>ἐματαιώθησαν</em>, they became vain; they changed the glory of the incorruptible God into an image. → <strong>S1</strong>, <code>bent ... on devising new and fictitious religions</code>. The third disease is Romans 1 in a subordinate clause.</li>
+<li><strong>Deut. 31:24–26</strong> — Moses writes the law in a book, placed beside the ark <strong>for a witness</strong>. → <strong>S1</strong>, <code>such a depository of doctrine</code>. The archive is Moses' idea before it is Calvin's. (Same text as Day 29's <em>public records</em> — Calvin is still living in it.)</li>
+<li><strong>Isa. 55:8–9 / Job 11:7</strong> — "Canst thou by searching find out God?" → <strong>S4</strong>, the inextricable labyrinth. The wisdom literature's verdict on unaided ascent.</li>
+<li><strong>Ex. 33:20 / 33:22–23</strong> — "Thou canst not see my face, and live" ... but <em>"I will put thee in a clift of the rock."</em> → <strong>S4</strong>. This is the deep grammar of the labyrinth-and-thread: God does not remove the danger of his glory; he provides a <strong>shelter</strong> within it. The thread is the cleft of the rock in narrative form.</li>
+<li><strong>Ps. 119:105</strong> — "Thy word is a lamp unto my feet, and a light unto my path." → <strong>S3–S4</strong>, <code>to guide our path</code>. Beveridge's phrasing is almost quoting it.</li>
+<li><strong>Matt. 12:43–45</strong> — the swept, empty house and the returning demon. → <strong>S5</strong>, <code>error never can be eradicated ... until the true knowledge of God has been implanted</code>. Emptiness is not a state; it is an invitation.</li>
+<li><strong>Prov. 4:26–27 / Isa. 30:21</strong> — "turn not to the right hand nor to the left"; "This is the way, walk ye in it." → <strong>S3</strong>, <code>turn aside</code>, <code>off the course</code>. The road vocabulary is the prophets' before it is Calvin's.</li>
+</ol><p><strong>How Calvin uses Scripture here:</strong> count the explicit citations — <strong>one</strong> (1 Tim. 6:16), plus a <strong>cluster reference</strong> (Ps. 93, 96, 97, 99, &amp;c.). And look at what the cluster reference does. He is not proof-texting a single verse; he is claiming that <strong>a whole genre of psalms has a shared logic</strong>, and then extracting the logic. That is exegesis, not quotation. When Calvin cites a <em>group</em> of texts by number and no words, he is telling you: <em>go read them and you will find the pattern.</em> Do it. It's homework.</p><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (the examiner&#x27;s eye)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① 어법 — Four underlined. One is wrong. Find it.</h3><blockquote>
+<p>ⓐ<u>It being</u> thus manifest that God, ⓑ<u>foreseeing</u> the inefficiency of his image imprinted on the fair form of the universe, ⓒ<u>having given</u> the assistance of his Word to all whom he has ever been pleased to instruct effectually, we, too, must pursue this straight path; and, ⓓ<u>how great soever</u> the speed with which we move, if we turn aside from it we shall never reach the goal.</p>
+</blockquote><p><strong>Answer: ⓒ</strong> → must be <strong><code>has given</code></strong> (a finite verb).</p><p><strong>출제 의도:</strong> This is Formula 2, and the item is built to see whether you can find the <strong>spine of the that-clause</strong>. Inside <code>It being thus manifest **that** ...</code>, the <em>that</em>-clause needs a <strong>subject (God) + finite verb</strong>. <code>foreseeing</code> (ⓑ) is a legitimate participial modifier hanging on <em>God</em>; but if you also make the main verb a participle (<code>having given</code>), the <em>that</em>-clause has <strong>no predicate at all</strong> and the whole absolute collapses. One participle is decoration; two is a wreck. ⓐ <code>It being</code> is correct — that's the absolute itself, and it is <em>supposed</em> to be non-finite. ⓓ <code>how great soever</code> is correct — Formula 3, and the missing copula is normal.</p><p><strong>The diagnostic:</strong> in any absolute construction, ask <em>"where is the finite verb of the embedded clause?"</em> If you can't find one, you've been robbed.</p><hr/><h3>② 내용일치 — Which of the following agrees with the passage?</h3><ol>
+<li>Calvin argues that Scripture became necessary because the image of God imprinted on the universe is itself an imperfect and obscure likeness.</li>
+<li>Calvin holds that a man who pursues God with sufficient zeal and swiftness may reach the goal even if he departs from the Word.</li>
+<li>Calvin maintains that when the Psalmist presents God as reigning, he denies that God exercises power in the government of nature.</li>
+<li>Calvin maintains that a written repository of doctrine was needed because the human mind forgets, errs, and invents religions, and that error is not uprooted until true knowledge is planted.</li>
+</ol><p><strong>Answer: 4.</strong> (S1 + S5 — the three diseases, the three defences, and the closing law.)</p><p><strong>출제 의도 (learn the diseases, not the answers):</strong></p><ul>
+<li><strong>1 = direction flip, and it is the single most attractive wrong answer in the whole chapter.</strong> Calvin says the image is <strong>imprinted on the <em>fair</em> form of the universe</strong> and that God foresaw its <strong><code>inefficiency</code></strong> — its <em>failure to take effect in us</em>. The image is not faulty; the <strong>receiver</strong> is. If you translate <em>inefficiency</em> as "imperfection," you will choose 1 and you will feel confident doing it. That is precisely how the item is engineered. Vocabulary <strong>is</strong> reading comprehension.</li>
+<li><strong>2 = scope violation via the runner.</strong> S3 is explicit: <code>how great soever the speed with which we move, we shall never reach the goal, because we are off the course</code>. The distractor grants exactly what the concessive was built to deny. Rule of thumb: whenever the text says <em>"no matter how X, still not Y,"</em> a choice offering <em>"if X enough, then Y"</em> is <strong>always</strong> wrong.</li>
+<li><strong>3 = overreach on a semantic claim.</strong> S5 says the Psalmist <strong>means by the term</strong> not power but doctrine. That is a statement about <strong>what the word signifies in these psalms</strong>, not a denial that God rules nature — which Calvin has affirmed since I.5.7 and will devote all of Ch. 16 to. Watch the tell: <code>meaning **by the term**</code>. The <em>not A but B</em> is scoped to <strong>the word</strong>, not to reality. Distractors love to let a local semantic contrast escape into a global metaphysical one.</li>
+</ul><hr/><h3>③ 영작 — Translate, using <strong>Formula 2</strong> (nominative absolute) <strong>and</strong> <strong>Formula 3</strong> (<code>how ~ soever</code>).</h3><blockquote>
+<p>"인간의 판단이 뒤틀려 있음이 분명하므로, 우리가 아무리 예리하게 사유한다 해도, 말씀 밖에서는 결코 하나님을 알 수 없다."
+<em>(Since it is manifest that human judgment is warped, however keenly we reason, we can never know God outside the Word.)</em></p>
+</blockquote><p><strong>Model answer:</strong></p><blockquote>
+<p><strong>It being manifest that our judgment is depraved, how keenly soever we reason, we shall never know God apart from the Word.</strong></p>
+</blockquote><p><strong>출제 의도 &amp; 채점 기준 (3 points):</strong></p><ol>
+<li><strong>The absolute is correctly formed:</strong> <code>It being manifest that ...</code> — dummy <em>it</em> + participle <em>being</em> + <strong>that</strong>-clause containing a <strong>finite</strong> verb (<em>is</em>) ✔. Writing <em>"It is manifest that ..., we shall never..."</em> is a comma splice (0 points): the absolute must be <strong>non-finite</strong>. This is the exact inverse of the error in Problem ①, and yes, that is deliberate — the examiner tests the same joint from both sides.</li>
+<li><strong>The concessive is split correctly:</strong> <code>how keenly **soever** we reason</code> ✔ — <em>soever</em> lands <strong>after the adverb</strong>, not attached to <em>how</em>. Writing <em>howsoever keenly</em> is acceptable but weaker; writing <em>how soever keenly</em> is wrong.</li>
+<li><strong>The main clause is genuinely main:</strong> <code>we shall never know God apart from the Word</code> — a finite verb, no participle ✔. And use <strong><code>shall</code></strong>, not <em>will</em>, for the register: Beveridge's prophetic/consequential <em>shall</em> (cf. S3, <code>we **shall** never reach the goal</code>).</li>
+</ol><p><em>(Also acceptable: <code>Our judgment being manifestly depraved, ...</code> — a tighter absolute without the dummy </em>it<em>, and arguably better English. Full marks. Not acceptable: any version where the opening clause has a finite verb.)</em></p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary:</strong>
+Scripture was necessary <strong>not because God's works are dim but because our minds leak</strong> — we forget, we err, we invent — so God, <strong>foreseeing the inefficiency</strong> of the image imprinted on a <em>fair</em> universe, laid up a <strong>depository</strong> proof against neglect, dilution, and corruption; and since his very <strong>brightness is a labyrinth</strong>, the Word is the <strong>thread</strong>, so that it is <strong>better to limp in the way than to run with the greatest swiftness out of it</strong> — for <strong>error is never eradicated until truth is implanted</strong>.</p><p><strong>The 3 formulas, one more time:</strong></p><ol>
+<li><code>reflect **how** + ADJ + S + V, **how** + ADJ ‹S V›, **how** + ADJ ‹S V›</code> — exclamatory inventory; <strong>conjuncts 2–3 gap the subject</strong> (S1).</li>
+<li><code>**It being** manifest **that** ‹S + FINITE V›, [main clause]</code> — the causal nominative absolute; the <em>that</em>-clause <strong>must</strong> keep a finite verb (S2). Trailing variant: <code>these works **being estimated**, not by X but by Y</code>.</li>
+<li><code>**how** + ADJ + **soever** + S ‹be›, [main clause]</code> = <em>however ADJ</em> — verbless concessive (S3). Bonus: <code>**if** the Word **do** not serve</code> = archaic present subjunctive after <em>if</em> (S4).</li>
+</ol><p><strong>Homework (10 minutes):</strong></p><ol>
+<li><strong>Structure restoration.</strong> Rebuild S1's <strong>3 : 3 table</strong> from memory — three diseases of the mind, three deaths the depository prevents — and then answer in one sentence: <em>why must there be exactly three defences?</em> (Hint: look at what each disease would do to a <strong>text</strong>, not to a person.)</li>
+<li><strong>Composition.</strong> Using <strong>Formula 3</strong> plus the racing metaphor of S3, write one sentence claiming that learning without Scripture is speed without direction. Then rewrite it in Augustine's terms (<em>limp</em> vs <em>run</em>), and notice which version is more memorable — and <strong>why</strong> the humiliating verb is the strong one.</li>
+<li><strong>Reading.</strong> Go read <strong>Psalm 97</strong> and <strong>Psalm 96</strong> aloud. Find the two halves Calvin found: (a) <em>the LORD reigneth</em> and (b) <em>the idols are demolished</em>. Then ask his question: <strong>by what means</strong> does the reign demolish them? Your answer should be one word, and it is the word S5 gives you.</li>
+<li><strong>Tomorrow's preview.</strong> §4 opens: <strong>"Accordingly, the same prophet, after mentioning that the heavens declare the glory of God..."</strong> — Calvin turns to <strong>Psalm 19</strong>, the hinge text of the entire chapter: the heavens declare... <strong>and then</strong> <em>"The law of the LORD is perfect, converting the soul."</em> Everything he has argued in §§1–3 is about to be shown to be <strong>David's own argument</strong>. Come with Psalm 19 already read. It is the proof that the spectacles are not Calvin's invention.</li>
+</ol><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 6, §3 끝. 다음은 <strong>Book 1, Ch. 6, §4</strong> (Day 31).</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
