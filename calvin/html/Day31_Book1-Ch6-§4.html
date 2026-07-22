@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 안경으로서의 성경 §4 (1권 6장 · Day 31) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 6장 §4(안경으로서의 성경)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 31. 연관 성구: 시편 19, 요한복음 4, 시편 29, 시편 93."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day31_Book1-Ch6-%C2%A74.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="안경으로서의 성경 §4 — 기독교 강요 영어로 읽기 (Day 31)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 6장 §4(안경으로서의 성경)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 31. 연관 성구: 시편 19, 요한복음 4, 시편 29, 시편 93."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day31_Book1-Ch6-%C2%A74.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 안경으로서의 성경 §4 (1권 6장 · Day 31) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 6장 §4(안경으로서의 성경)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 31. 연관 성구: 시편 19, 요한복음 4, 시편 29, 시편 93.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 6장 §4 — 안경으로서의 성경","mentions":[{"@type":"CreativeWork","name":"시편 19 (Psalm 19)"},{"@type":"CreativeWork","name":"요한복음 4 (John 4)"},{"@type":"CreativeWork","name":"시편 29 (Psalm 29)"},{"@type":"CreativeWork","name":"시편 93 (Psalm 93)"},{"@type":"CreativeWork","name":"로마서 1 (Rom 1)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day31_Book1-Ch6-%C2%A74.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 31 — Book 1, Chapter 6, §4<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (the whole § — 6 sentences, verbatim)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl2" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl2" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl2" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl3" href="#S6" onclick="closeNavMobile()">S6</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas (this is what gets tested)</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (etymology hooks)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (the examiner&#x27;s eye)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 31 — Book 1, Chapter 6, §4</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday's homework was an order: <em>come with Psalm 19 already read.</em> Here is why. Yesterday (§3) Calvin argued — from <strong>anthropology</strong> — that God had to file a written record because our minds leak. Powerful. But an argument. Today he does something a preacher lives for: he shows you that the argument was <strong>David's</strong> first. §4 is the <strong>proof by Scripture</strong> of everything §§1–3 claimed. The spectacles were not Calvin's invention; the poet who wrote "the heavens declare the glory of God" is the very poet who turns, in the same breath, to "the law of the Lord is perfect."</p><p>So the whole chapter's logic is now standing in front of you, quoted: <strong>general revelation (the heavens) → special revelation (the law).</strong> Same author, Psalm 19, same page. Calvin's move is to say, <em>look — David makes my transition for me.</em></p><p>Watch the rhetorical machine today. Calvin lines up <strong>four witnesses</strong> — Psalm 19, Psalm 29, Psalm 93, and the lips of Christ himself (John 4) — and then delivers a one-sentence verdict that swallows the human race. It is a legal brief.</p><p><strong>Today's 3 Big Points — I'm telling you now, you'll thank me in Period 4:</strong></p><ol>
+<li><strong><code>after V-ing ..., ‹main-verb›</code> — the long suspended participial preamble.</strong> S1 buries three <code>that</code>-clauses inside an <em>after</em>-phrase before the main verb (<em>proceeds</em>) ever arrives. If you can't hold the subject in the air across twenty words, S1 collapses. This is Beveridge's signature suspension.</li>
+<li><strong>The trailing nominative absolute as a verdict — <code>the invitation ... proving of no avail</code> (S2), <code>unbelievers being deaf</code> (S3).</strong> You met the absolute in Day 13, 18, 22, 30. Today Calvin uses it <strong>three times as a closing gavel</strong> — a whole clause hung on the end to pronounce sentence.</li>
+<li><strong><code>if not aided ... it necessarily followed that ...</code> — the counterfactual-plus-consequence spine of the verdict (S6).</strong> <em>If not</em> = <em>unless</em>; and <code>it necessarily followed that</code> is the logician's <em>ergo</em>. The last sentence is built like a syllogism. Learn its bones.</li>
+</ol><p>Books open. Six sentences, four witnesses, one verdict. Let's go.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (the whole § — 6 sentences, verbatim)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+4. Accordingly, the same prophet, after mentioning that the heavens declare the glory of God, that the firmament sheweth forth the works of his hands, that the regular succession of day and night proclaim his Majesty, proceeds to make mention of the Word:—“The law of the Lord,” says he, “is perfect, converting the soul; the testimony of the Lord is sure, making wise the simple. The statutes of the Lord are right, rejoicing the heart; the commandment of the Lord is pure, enlightening the eyes,” (Psalm 19:1-9). For though the law has other uses besides (as to which, see Book 2 c. 7, sec. 6, 10, 12), the general meaning is, that it is the proper school for training the children of God; the invitation given to all nations, to behold him in the heavens and earth, proving of no avail. The same view is taken in the 29th Psalm, where the Psalmist, after discoursing on the dreadful voice of God, which, in thunder, wind, rain, whirlwind, and tempest, shakes the earth, makes the mountains tremble, and breaks the cedars, concludes by saying, “that in his temple does every one speak of his glory,” unbelievers being deaf to all God’s words when they echo in the air. In like manner another Psalm, after describing the raging billows of the sea, thus concludes, “Thy testimonies are very sure; holiness becometh thine house for ever,” (Psalm 93:5). To the same effect are the words of our Saviour to the Samaritan woman, when he told her that her nation and all other nations worshipped they knew not what; and that the Jews alone gave worship to the true God (John 4:22). Since the human mind, through its weakness, was altogether unable to come to God if not aided and upheld by his sacred word, it necessarily followed that all mankind, the Jews excepted, inasmuch as they sought God without the Word, were labouring under vanity and error.
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>[WITNESS 1: Ps 19]   S1  David: heavens declare / firmament sheweth / day-night proclaim
+                         → THEN "proceeds to make mention of the WORD":
+                           law perfect · testimony sure · statutes right · commandment pure
+                         └ the hinge of the whole chapter: general → special, ONE poet
+[GLOSS on Ps 19]     S2  Objection pre-empted: yes, the law has OTHER uses (→ Bk 2.7)
+                         BUT the general point = the Word is the SCHOOL of God's children
+                         └ trailing verdict: the invitation to all nations PROVING OF NO AVAIL
+
+[WITNESS 2: Ps 29]   S3  Same view: after the storm-theophany (thunder/wind/whirlwind…),
+                         Psalm ends "in his temple every one speaks of his glory"
+                         └ trailing verdict: UNBELIEVERS being DEAF to God's words in the air
+
+[WITNESS 3: Ps 93]   S4  Likewise: after the raging sea → "Thy testimonies are very sure;
+                         holiness becometh thine house for ever" (Ps 93:5)
+
+[WITNESS 4: Christ]  S5  John 4:22 — the Samaritan woman: the nations worship they-know-
+                         not-what; the JEWS ALONE worship the true God
+
+[THE VERDICT]        S6  Since the mind (through weakness) CANNOT come to God unless
+                         aided by his sacred Word → ∴ all mankind, the Jews excepted,
+                         seeking God WITHOUT the Word, laboured under vanity and error
+</code></pre><p><strong>Examiner's Eye — the trap they will set:</strong></p><p><strong>S1 is the hinge, and the trap is to miss the pivot word <code>proceeds</code>.</strong> The sentence spends its whole first half on the heavens, firmament, day and night — general revelation. Then one verb turns the corner: <code>proceeds to make mention of the Word</code>. A careless reader treats the Psalm-19 quotation as <em>more of the same</em> (nature-praise). It is the <strong>opposite</strong>: it is David abandoning the heavens for the <strong>law</strong>. The distractor will say "Calvin cites Psalm 19 to show the heavens reveal God." No — he cites it to show that <strong>even David turned from the heavens to the Word.</strong> The point is the pivot, not the panorama.</p><p>Second trap, <strong>S2</strong>: <code>though the law has other uses besides ... the general meaning is</code>. The distractor will make Calvin say the law's <em>only</em> use is instruction. He explicitly says the <strong>opposite</strong> (<code>other uses besides</code>, cross-referencing Book 2) and then narrows to the <em>general meaning for this argument</em>. Scope, not exclusion.</p><p>Third trap, <strong>S6</strong>: <code>all mankind, the Jews excepted</code>. The claim is not that the Jews were <em>cleverer</em> or <em>more devout</em>. It is that they alone <strong>had the Word</strong>. The exception is bibliological, not moral. Any choice implying the Jews reached God by superior wisdom is a direction-flip — Calvin's whole point is that <strong>no</strong> human mind reaches God unaided; the Jews differ only in that they were <strong>aided</strong>.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">The suspended after-preamble, three that-clauses, then the pivot verb proceeds</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>"Accordingly, the same prophet, after mentioning that the heavens declare the glory of God, that the firmament sheweth forth the works of his hands, that the regular succession of day and night proclaim his Majesty, proceeds to make mention of the Word:—“The law of the Lord,” says he, “is perfect, converting the soul; the testimony of the Lord is sure, making wise the simple. The statutes of the Lord are right, rejoicing the heart; the commandment of the Lord is pure, enlightening the eyes,” (Psalm 19:1-9)."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Accordingly,</b></span></li><li><span class="leaf">the same prophet</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>after</b> mentioning</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the heavens declare the glory of God</span></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the firmament sheweth forth the works of his hands</span></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the regular succession of day and night proclaim his Majesty</span></li></ul></li></ul></li><li><span class="leaf"><b>proceeds</b> to make mention of the Word: —</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">"The law of the Lord... is perfect</span></li><li><span class="leaf">converting the soul</span></li><li><span class="leaf">the testimony of the Lord is sure</span></li><li><span class="leaf">making wise the simple... "</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Psalm 19:1-9</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>firmament</em> &lt; Latin <em>firmamentum</em> (<em>firmare</em>, to make firm) → the "solid" vault of heaven; the Vulgate's rendering of Hebrew <em>rāqîaʿ</em>. — <em>proceeds</em> = <em>pro-</em> (forward) + <em>cedere</em> (to go) → to go forward, move on to the next thing; the pivot verb, chosen for its <em>forward motion</em> from nature to Word. — <em>converting</em> = <em>con-</em> + <em>vertere</em> (to turn) → to turn the soul around (Hebrew <em>šûb</em>, to return); the same <em>vertere</em> behind <em>convert, revert, subvert</em>. — <em>testimony</em> &lt; <em>testis</em> (witness) → that which bears witness.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>make mention of</em> = ~을 언급하다, to bring up; <em>proceed to V</em> = (after doing one thing) to go on to do the next; <em>the succession of day and night</em> = the regular alternation of day and night.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So the same prophet — right after saying that the heavens declare God's glory, that the sky shows off the work of his hands, and that the steady turnover of day and night announces his Majesty — moves straight on to talk about the Word: "The law of the Lord is perfect, turning the soul around; the Lord's testimony is reliable, making the untaught wise; the Lord's statutes are right and gladden the heart; the Lord's commandment is pure and gives the eyes light" (Psalm 19:1–9).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the same prophet ... proceeds to make mention of the Word</b> → <em>the same prophet ... moves straight on to talk about the Word</em></li><li><b>the firmament sheweth forth the works of his hands</b> → <em>the sky shows off the work of his hands</em></li><li><b>the regular succession of day and night proclaim his Majesty</b> → <em>the steady turnover of day and night announces his Majesty</em></li><li><b>converting the soul</b> → <em>turning the soul around</em></li><li><b>making wise the simple</b> → <em>making the untaught wise</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">The pre-empted objection + the trailing absolute that delivers the whole chapter's thesis</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>"For though the law has other uses besides (as to which, see Book 2 c. 7, sec. 6, 10, 12), the general meaning is, that it is the proper school for training the children of God; the invitation given to all nations, to behold him in the heavens and earth, proving of no avail."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>For</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf"><b>though</b> the law has other uses besides</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as to which, see Book 2 c. 7, sec. 6, 10, 12</span></li></ul></li></ul></li><li><span class="leaf"><b>the general meaning is</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> it is the proper school</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">for training the children of God</span></li></ul></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">the invitation</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">given to all nations</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to behold him in the heavens and earth</span></li></ul></li></ul></li><li><span class="leaf"><b>proving of no avail</b></span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>avail</em> &lt; Old French <em>availer</em> &lt; Latin <em>ad-</em> + <em>valere</em> (to be strong, to be worth) → to be of worth or use; <em>of no avail</em> = of no use. Cognate: <em>valid, value, valiant, prevail</em>. — <em>besides</em> = <em>by</em> + <em>side</em> + adverbial <em>-s</em> → "at the side," i.e. <em>in addition</em>. — <em>behold</em> = OE <em>be-</em> + <em>healdan</em> (to hold) → to hold in view, to gaze at. — <em>school</em> &lt; Greek <em>scholē</em> (leisure → learned discussion → school); Calvin's <em>schola</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>though ... besides</em> = although ... in addition (a concession); <em>the general meaning is that</em> = the overall point is that; <em>prove of no avail</em> = ⚠️ to turn out useless, to come to nothing (<em>prove</em> here = <em>turn out to be</em>, not "demonstrate").</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Now, the law does have other uses too (see Book 2, ch. 7, secs. 6, 10, 12), but the general point here is that Scripture is the proper school for raising God's children — since the open invitation to all nations to see God in the sky and the earth ends up achieving nothing.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the law has other uses besides</b> → <em>the law does have other uses too</em></li><li><b>the general meaning is, that</b> → <em>the general point here is that</em></li><li><b>the proper school for training the children of God</b> → <em>the proper school for raising God's children</em></li><li><b>the invitation given to all nations</b> → <em>the open invitation to all nations</em></li><li><b>proving of no avail</b> → <em>ends up achieving nothing</em></li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Witness 2, Psalm 29 — the storm-theophany and a second trailing verdict</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>"The same view is taken in the 29th Psalm, where the Psalmist, after discoursing on the dreadful voice of God, which, in thunder, wind, rain, whirlwind, and tempest, shakes the earth, makes the mountains tremble, and breaks the cedars, concludes by saying, “that in his temple does every one speak of his glory,” unbelievers being deaf to all God’s words when they echo in the air."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>The same view is taken</b> in the 29th Psalm</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (where)</span><span class="leaf"><b>where</b> the Psalmist</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>after</b> discoursing on the dreadful voice of God</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in thunder, wind, rain, whirlwind, and tempest</span></li></ul></li><li><span class="leaf">shakes the earth</span></li><li><span class="leaf">makes the mountains tremble</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and breaks the cedars</span></li></ul></li></ul></li><li><span class="leaf"><b>concludes</b> by saying</span></li><li><span class="leaf">"that in his temple does every one speak of his glory,"</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">unbelievers <b>being</b> deaf</span></li><li><span class="leaf">to all God's words</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf">when they echo in the air</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>discoursing</em> &lt; Latin <em>dis-</em> (about) + <em>currere</em> (to run) → to "run over" a subject, to hold forth on it; cognate: <em>discourse, current, cursor, excursion</em>. — <em>tempest</em> &lt; Latin <em>tempestas</em> (season, weather, storm) &lt; <em>tempus</em> (time) → the "weather of the time," hence a violent storm. — <em>cedars</em> — the cedars of Lebanon, Scripture's byword for the mightiest, tallest trees (cf. Ps. 29:5); their breaking is the image of nothing standing before God's voice.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>the same view is taken in</em> = the same point is made in; <em>discourse on</em> = to hold forth on, to expound; <em>conclude by V-ing</em> = to finish by doing ~; <em>be deaf to</em> = to refuse to hear.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The same point is made in Psalm 29: there the Psalmist, after describing the terrifying voice of God — which, in thunder, wind, rain, whirlwind, and storm, shakes the earth, makes the mountains tremble, and snaps the cedars — finishes by saying that "in his temple everyone speaks of his glory," since unbelievers stay deaf to all of God's words as long as they only echo through the open air.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>The same view is taken in the 29th Psalm</b> → <em>The same point is made in Psalm 29</em></li><li><b>discoursing on the dreadful voice of God</b> → <em>describing the terrifying voice of God</em></li><li><b>breaks the cedars</b> → <em>snaps the cedars</em></li><li><b>in his temple does every one speak of his glory</b> → <em>in his temple everyone speaks of his glory</em></li><li><b>unbelievers being deaf to all God's words when they echo in the air</b> → <em>since unbelievers stay deaf to God's words as long as they only echo through the open air</em></li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Witness 3, Psalm 93 — the raging sea, the sure testimonies</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>"In like manner another Psalm, after describing the raging billows of the sea, thus concludes, “Thy testimonies are very sure; holiness becometh thine house for ever,” (Psalm 93:5)."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>In like manner</b> another Psalm</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>after</b> describing the raging billows of the sea</span></li></ul></li><li><span class="leaf"><b>thus concludes</b></span></li><li><span class="leaf">"Thy testimonies are very sure</span></li><li><span class="leaf">holiness becometh thine house for ever,"</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Psalm 93:5</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>billows</em> &lt; Old Norse <em>bylgja</em> (a wave, a swell) → great rolling waves. — <em>becometh</em> &lt; OE <em>becuman</em> (to come to, to arrive at → to be fitting); the "be suitable" sense is the older one. — <em>testimonies</em> &lt; <em>testimonium</em> &lt; <em>testis</em> (witness) → witnessed declarations, i.e. God's revealed statutes.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in like manner</em> = likewise, in the same way; <em>the raging billows of the sea</em> = the wild, surging waves; <em>become (someone/something)</em> = ⚠️ to be fitting for, to suit (archaic); <em>for ever</em> = forever, for all time.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">In the same way, another psalm, after describing the wild surging waves of the sea, ends like this: "Your testimonies are completely reliable; holiness suits your house forever" (Psalm 93:5).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>In like manner another Psalm</b> → <em>In the same way, another psalm</em></li><li><b>the raging billows of the sea</b> → <em>the wild surging waves of the sea</em></li><li><b>thus concludes</b> → <em>ends like this</em></li><li><b>Thy testimonies are very sure</b> → <em>Your testimonies are completely reliable</em></li><li><b>holiness becometh thine house for ever</b> → <em>holiness suits your house forever</em></li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Witness 4, the lips of Christ — John 4:22, "the Jews alone"</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>"To the same effect are the words of our Saviour to the Samaritan woman, when he told her that her nation and all other nations worshipped they knew not what; and that the Jews alone gave worship to the true God (John 4:22)."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>To the same effect are</b> the words of our Saviour</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to the Samaritan woman</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> he told her</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> her nation and all other nations worshipped</span><ul class="tr"><li><span class="leaf">they knew not what</span></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the Jews alone gave worship to the true God</span></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">John 4:22</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>Saviour</em> &lt; Latin <em>salvare</em> (to save) &lt; <em>salvus</em> (safe, whole) → the one who makes safe; cognate: <em>salvation, salve, salvage, safe</em>. — <em>Samaritan</em> — from Samaria; the woman of John 4, whose people worshipped on Mount Gerizim with a truncated canon (the Samaritan Pentateuch only) — Calvin's living example of <em>nearest approach yet still astray</em> (cf. Day 25). — <em>worship</em> &lt; OE <em>weorþscipe</em> (<em>worth</em> + <em>-ship</em>) → the ascribing of <em>worth</em>; you worship what you reckon worthy.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>to the same effect</em> = making the same point; <em>worship they knew not what</em> = to worship an unknown/unidentified object (John 4:22); <em>the Jews alone</em> = only the Jews, the Jews and no one else.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The words of our Savior make the same point when he told the Samaritan woman that her people and every other nation worshipped something they didn't even know, and that only the Jews worshipped the true God (John 4:22).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>To the same effect are the words of our Saviour</b> → <em>The words of our Savior make the same point</em></li><li><b>her nation and all other nations</b> → <em>her people and every other nation</em></li><li><b>worshipped they knew not what</b> → <em>worshipped something they didn't even know</em></li><li><b>the Jews alone gave worship to the true God</b> → <em>only the Jews worshipped the true God</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">The verdict — if not aided ... it necessarily followed that ..., the syllogism that swallows the race</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>"Since the human mind, through its weakness, was altogether unable to come to God if not aided and upheld by his sacred word, it necessarily followed that all mankind, the Jews excepted, inasmuch as they sought God without the Word, were labouring under vanity and error."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">이유/시간절 (since)</span><span class="leaf">` <b>Since</b> the human mind</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">through its weakness</span></li></ul></li><li><span class="leaf"><b>was altogether unable to come to God</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if not</b> aided and upheld</span></li><li><span class="leaf">by his sacred word</span></li></ul></li><li><span class="leaf"><b>it necessarily followed</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> all mankind</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">the Jews excepted</span></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>inasmuch as</b> they sought God without the Word</span></li></ul></li><li><span class="leaf"><b>were labouring under vanity and error.</b></span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>inasmuch as</em> = <em>in</em> + <em>as</em> + <em>much</em> + <em>as</em>, a fused conjunction → "to the degree that," hence <em>because</em>. — <em>vanity</em> &lt; Latin <em>vanitas</em> &lt; <em>vanus</em> (empty) → emptiness, futility (NOT conceit here); the <em>hebel</em> of Ecclesiastes, the <em>mataiotēs</em> of Rom. 1:21. — <em>labouring</em> &lt; Latin <em>labor</em> (toil, hardship) → <em>labour under</em> = to be weighed down by; the metaphor is of a load carried. — <em>upheld</em> = <em>up</em> + <em>hold</em> → held up, supported from beneath; paired with <em>aided</em> to mean both <em>helped forward</em> and <em>held from falling</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>if not V-ed</em> = ⚠️ unless (one is) V-ed; <em>it necessarily followed that</em> = it was the necessary consequence that (logical <em>ergo</em>); <em>the Jews excepted</em> = with the exception of the Jews (absolute construction); <em>inasmuch as</em> = because, to the extent that; <em>labour under</em> = ⚠️ to suffer from, to be burdened by (NOT "to work at").</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Since the human mind, in its weakness, was completely unable to reach God unless it was helped and held up by his holy word, it necessarily followed that everyone — except the Jews — was stuck in emptiness and error, because they were all trying to find God without the Word.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the human mind, through its weakness, was altogether unable to come to God</b> → <em>the human mind, in its weakness, was completely unable to reach God</em></li><li><b>if not aided and upheld by his sacred word</b> → <em>unless it was helped and held up by his holy word</em></li><li><b>it necessarily followed that</b> → <em>it necessarily followed that</em></li><li><b>the Jews excepted</b> → <em>except the Jews</em></li><li><b>were labouring under vanity and error</b> → <em>was stuck in emptiness and error</em></li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas (this is what gets tested)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>FORMULA 1 — The suspended 'after V-ing' preamble (find the REAL main verb)
+──────────────────────────────────────────────────────────────
+   SUBJECT, after V-ing [that-cl, that-cl, that-cl], + MAIN VERB ...
+        = SUBJECT, having first done X, then does Y (the main verb)
+
+   • The finite-looking verbs inside the that-clauses are NOT the main verb.
+       "the prophet, after mentioning that the heavens DECLARE ...,
+        that the firmament SHEWETH ..., PROCEEDS to make mention of the Word"
+       → main verb = PROCEEDS; declare/sheweth are trapped in the after-clause.
+   ⚠️ TRAP: accepting the first inflected verb as the predicate. Keep the
+      subject in the air until you reach the verb that governs IT.
+
+   Drill (Calvin material):
+   → "David, after rehearsing how the heavens blaze, how the seasons turn,
+      how the storm breaks the cedars, TURNS at last to the Word."
+</code></pre><pre><code>FORMULA 2 — The trailing nominative absolute as a VERDICT
+──────────────────────────────────────────────────────────────
+   [MAIN CLAUSE] ; NOUN + present-participle (+ complement).
+        = "— seeing that NOUN is/does ..."  (a causal aside pronouncing sentence)
+
+   • No grammatical tie to the main clause. Read it as "since / seeing that."
+   • Calvin fires THREE in a row today:
+       the invitation ... PROVING of no avail            (S2)
+       unbelievers BEING deaf to all God's words         (S3)
+       the Jews EXCEPTED [= the Jews being excepted]      (S6)
+   ⚠️ TRAP: trying to attach the participle to the main subject. Don't.
+      It floats — and it usually delivers the punch line.
+
+   Drill:
+   → "The Word alone forms God's children, the invitation of the heavens
+      proving of no avail; the nations being left, apart from Scripture,
+      to worship they know not what."
+</code></pre><pre><code>FORMULA 3 — The verdict spine: 'if not' (= unless) + 'it necessarily followed that'
+──────────────────────────────────────────────────────────────
+   Since S was unable to V  IF NOT  aided ... ,
+        it necessarily followed THAT  [conclusion] .
+        = Since S could not V UNLESS aided, therefore [conclusion].
+
+   • 'if not aided' = 'unless aided' — a conditional of NECESSITY (indispensable).
+   • 'it necessarily followed that' = logical ergo (entailment, not probability).
+   • 'labour under X' = to be BURDENED by X (NOT to work at X).
+   ⚠️ TRAP: reading 'if not' as 'except' at sentence level, or 'labouring' as effort.
+
+   Drill:
+   → "Since the mind cannot rise to God if not upheld by his word, it
+      necessarily followed that the nations, seeking him without Scripture,
+      laboured under vanity and error."
+</code></pre><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (etymology hooks)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>proceeds to V</strong> (S1)</td>
+<td>goes on to do next</td>
+<td><em>pro-</em> + <em>cedere</em> = go forward. <strong>The pivot verb</strong> — nature → Word.</td>
+</tr>
+<tr>
+<td><strong>firmament</strong> (S1)</td>
+<td>the vault of heaven</td>
+<td><em>firmare</em> = make firm; the "solid" sky, Vulgate for <em>rāqîaʿ</em>.</td>
+</tr>
+<tr>
+<td><strong>sheweth</strong> (S1)</td>
+<td>shows (archaic 3sg)</td>
+<td>= <em>showeth</em>. Family: <em>doth, hath, saith</em>. Don't trip.</td>
+</tr>
+<tr>
+<td><strong>converting</strong> (S1)</td>
+<td>turning (the soul) around</td>
+<td><em>con-</em> + <em>vertere</em> (turn). Hebrew <em>šûb</em>, to return. Cf. <em>convert, revert</em>.</td>
+</tr>
+<tr>
+<td><strong>the simple</strong> (S1)</td>
+<td>⚠️ the untaught, inexperienced</td>
+<td>Hebrew <em>pethî</em>. NOT "the stupid." The Word teaches the unteachable.</td>
+</tr>
+<tr>
+<td><strong>the general meaning</strong> (S2)</td>
+<td>the overall point (here)</td>
+<td>⚠️ Narrowing phrase — signals Calvin is setting a concession aside.</td>
+</tr>
+<tr>
+<td><strong>besides</strong> (S2)</td>
+<td>in addition</td>
+<td><em>by</em> + <em>side</em> + <em>-s</em> = "at the side." <em>Other uses besides</em> = further uses.</td>
+</tr>
+<tr>
+<td><strong>avail</strong> (S2)</td>
+<td>use, worth, effect</td>
+<td><em>ad-</em> + <em>valere</em> (be worth). <em>Of no avail</em> = useless. Cf. <em>valid, prevail</em>.</td>
+</tr>
+<tr>
+<td><strong>behold</strong> (S2)</td>
+<td>to gaze at, view</td>
+<td><em>be-</em> + <em>healdan</em> (hold) = hold in view.</td>
+</tr>
+<tr>
+<td><strong>school</strong> (S2)</td>
+<td>training-place</td>
+<td>Greek <em>scholē</em>. Calvin's <em>schola</em> — the Word as <strong>schoolhouse</strong>, not lecture.</td>
+</tr>
+<tr>
+<td><strong>prove</strong> (S2)</td>
+<td>⚠️ to turn out (to be)</td>
+<td><em>prove of no avail</em> = <em>turn out</em> useless. NOT "demonstrate."</td>
+</tr>
+<tr>
+<td><strong>discoursing on</strong> (S3)</td>
+<td>holding forth on</td>
+<td><em>dis-</em> + <em>currere</em> (run) = run over a topic. Cf. <em>current, excursion</em>.</td>
+</tr>
+<tr>
+<td><strong>tempest</strong> (S3)</td>
+<td>violent storm</td>
+<td><em>tempestas</em> &lt; <em>tempus</em> (time) = "weather of the time."</td>
+</tr>
+<tr>
+<td><strong>cedars</strong> (S3)</td>
+<td>Lebanon cedars</td>
+<td>Scripture's byword for the tallest trees; their <em>breaking</em> = nothing stands.</td>
+</tr>
+<tr>
+<td><strong>does ... speak</strong> (S3)</td>
+<td>speaks (emphatic)</td>
+<td>⚠️ Archaic do-support / inversion. NOT a question.</td>
+</tr>
+<tr>
+<td><strong>billows</strong> (S4)</td>
+<td>great rolling waves</td>
+<td>Old Norse <em>bylgja</em>. <em>Raging billows</em> = surging swells.</td>
+</tr>
+<tr>
+<td><strong>becometh</strong> (S4)</td>
+<td>⚠️ befits, suits</td>
+<td>Archaic <em>become</em> = <strong>be seemly for</strong>. NOT "turns into." Top trap of the day.</td>
+</tr>
+<tr>
+<td><strong>thine</strong> (S4)</td>
+<td>your (before vowel/h)</td>
+<td><em>thine eyes, thine house</em> — like <em>an</em> before a vowel.</td>
+</tr>
+<tr>
+<td><strong>testimonies</strong> (S4)</td>
+<td>God's revealed statutes</td>
+<td><em>testis</em> (witness). The Word — <em>sure</em>, i.e. reliable, buildable-on.</td>
+</tr>
+<tr>
+<td><strong>Saviour</strong> (S5)</td>
+<td>the one who saves</td>
+<td><em>salvare</em> &lt; <em>salvus</em> (safe). Cf. <em>salvation, salvage, safe</em>.</td>
+</tr>
+<tr>
+<td><strong>worship</strong> (S5)</td>
+<td>ascribing worth</td>
+<td>OE <em>weorþscipe</em> = <em>worth</em> + <em>-ship</em>. You worship what you reckon worthy.</td>
+</tr>
+<tr>
+<td><strong>inasmuch as</strong> (S6)</td>
+<td>because, to the extent that</td>
+<td>Fused: <em>in as much as</em> → "to the degree that."</td>
+</tr>
+<tr>
+<td><strong>vanity</strong> (S6)</td>
+<td>⚠️ <strong>emptiness, futility</strong></td>
+<td><em>vanus</em> = empty. Hebrew <em>hebel</em>, Rom. 1:21 <em>ἐματαιώθησαν</em>. NOT conceit.</td>
+</tr>
+<tr>
+<td><strong>labour under</strong> (S6)</td>
+<td>⚠️ to be burdened by, suffer from</td>
+<td><em>labor</em> = a load carried. NOT "to work at."</td>
+</tr>
+<tr>
+<td><strong>upheld</strong> (S6)</td>
+<td>held up, supported</td>
+<td><em>up</em> + <em>hold</em>. Paired with <em>aided</em> = helped forward <strong>and</strong> kept from falling.</td>
+</tr>
+<tr>
+<td><strong>if not (aided)</strong> (S6)</td>
+<td>⚠️ <strong>unless (aided)</strong></td>
+<td>A conditional of necessity — the Word is indispensable, not merely useful.</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>The argument of §4 in one line: what Calvin argued in §§1–3, David and Christ already argued for him.</strong></p><p>Yesterday Calvin <em>reasoned</em> his way to the necessity of Scripture, from anthropology: we forget, we err, we invent, so God filed a record. That is a syllogism, and a hostile reader can fight a syllogism. So today Calvin does the thing that ends the fight: he shows that <strong>the Bible makes his argument itself.</strong> He calls four witnesses — Psalm 19, Psalm 29, Psalm 93, and Jesus at the well — and every one of them performs the identical move: begins with the roaring glory of creation, then <strong>turns to the Word.</strong> Heavens → law. Storm → temple. Sea → testimonies. Nations → the Jews alone. If Scripture's own poets and Scripture's own Lord make the pivot from general to special revelation, then Calvin's whole chapter is not an innovation; it is an <strong>exposition</strong>.</p><p><strong>Psalm 19 is the hinge of the entire chapter — and this is the moment Calvin has been driving toward since §1.</strong> Psalm 19 falls famously into two halves: verses 1–6, <em>the heavens declare the glory of God</em> (general revelation); verses 7–14, <em>the law of the Lord is perfect</em> (special revelation). Older critics even thought two separate poems had been stitched together. Calvin's genius is to insist the seam <strong>is the point</strong>: David himself moves from the sun's circuit to the soul's conversion, from what the eye sees to what the Word does. That single Psalm is Chapters 5 and 6 in miniature — which is exactly why Calvin ended §3 on a Psalm and opened §4 by quoting <em>this</em> one outright. He has walked you from his argument into David's, and they turn out to be the same argument.</p><p><strong>Notice the verbs of effect.</strong> The heavens <em>declare, shew, proclaim</em> — verbs of <strong>announcement</strong>. The law <em>converts, makes wise, rejoices, enlightens</em> — verbs of <strong>transformation</strong>. This is precisely the difference Calvin needs. General revelation <em>tells</em>; special revelation <em>changes</em>. The sky can leave you <em>inexcusable</em> (Rom. 1:20, the verdict of Chapter 5); only the Word can leave you <em>converted</em>. Which is why the open-air <code>invitation ... proves of no avail</code> (S2): an announcement to the deaf accomplishes nothing. The school of the Word is necessary because the broadcast of the heavens, though real and universal, lands on dead ears.</p><p><strong>Why John 4:22 is the keystone, not just a fourth prooftext.</strong> Three psalmists could be dismissed as Old-Covenant particularism. So Calvin puts the same words in the mouth of <strong>Christ</strong>: <em>"ye worship ye know not what... the Jews alone."</em> Now the claim is not merely Davidic but dominical, and it is not merely about ancient Israel — it is Jesus, standing in Samaria (the very borderland of <em>nearest approach yet still astray</em>, cf. Day 25), ratifying the thesis of Chapters 3–6: <strong>worship without the Word is worship of an unknown god.</strong> The Samaritans had five-sixths of the truth and a shortened canon, and it was not enough. The variable, again, is Scripture.</p><p><strong>The verdict, and its precision — hold the Barth–Brunner line one last time.</strong> S6 pronounces on <code>all mankind</code>: without the Word, the whole race <code>labours under vanity and error</code>. This is as sweeping as Calvin ever gets — and it is <em>not</em> a denial of general revelation. Read the premise: the mind is <code>altogether unable to come to God **if not aided**</code>. The problem is never that the heavens fail to reveal (they blaze — Chapter 5 insisted on it for fifteen sections); the problem is that the <em>mind, through its weakness</em>, cannot make the ascent. Objective revelation, subjective incapacity. The one exception, the Jews, is carved out on purely <strong>bibliological</strong> grounds: they alone had <code>his sacred word</code>. Delete the Word and they join the verdict. So §4 is not natural theology and not its abolition — it is the same double truth Calvin has held all along: <em>a real revelation, a ruined receiver, and a Word given to bridge the gap.</em></p><p><strong>A note on <code>the law</code> and the three uses.</strong> Watch Calvin's honesty in S2: <code>though the law has other uses besides (as to which, see Book 2 c. 7, sec. 6, 10, 12)</code>. He will not let Psalm 19 flatten the law into <em>mere instruction</em>. The law also convicts (the <em>usus elenchticus</em>, driving sinners to Christ) and restrains (the civil use); the cross-reference is to his own mature treatment of the <strong>three uses of the law</strong> — a doctrine Calvin develops more fully and warmly than Luther, especially the <em>tertius usus</em>, the law as the believer's guide. Here he brackets all that: <em>for the present argument</em>, the law's role is to be the <strong>school</strong> where God's children are trained to know him. Concede the fuller doctrine, then narrow to the point at hand. That discipline — grant the objection, mark the address where you'll pay it, then press on — is worth imitating.</p><p><strong>Where we are structurally:</strong> §1 spectacles → §2 the archive's history → §3 <em>why</em> the archive was necessary (anthropology) → §4 <strong>the archive's necessity proved from Scripture itself</strong> (four witnesses + the verdict on the race). Chapter 6 is now essentially complete: <em>without the Word, no one comes to God.</em> Tomorrow Calvin turns the corner into <strong>Chapter 7</strong> — the question that §4 forces: if everything hangs on Scripture, then <em>how do we know Scripture is from God?</em> The answer will be the <strong>testimony of the Spirit</strong> (<em>testimonium Spiritus Sancti internum</em>), the doctrine he has been seeding since Day 26. Come ready.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li><strong>Psalm 19:1–9</strong> — quoted outright in <strong>S1</strong>, the chapter's hinge text. Note the two-panel structure: vv.1–6 <em>the heavens declare the glory of God</em> (general revelation) → vv.7–9 <em>the law of the Lord is perfect</em> (special revelation). Calvin's entire Chapters 5–6 argument is <strong>David's own transition</strong>. The verbs matter: heavens <em>declare/shew/proclaim</em> (announce) vs. law <em>converts/makes wise/enlightens</em> (transform).</li>
+<li><strong>Psalm 29</strong> — <strong>S3</strong>, cited by number. The <em>Qôl Yahweh</em> ("the voice of the LORD") psalm: seven thunderclaps of the divine voice over the waters, shaking the wilderness, breaking the cedars (Ps. 29:5), and the climax — <em>"in his temple doth every one speak of his glory"</em> (Ps. 29:9). Calvin reads the same pivot: storm-theophany → the Word spoken in the sanctuary.</li>
+<li><strong>Psalm 93:5</strong> — <strong>S4</strong>, quoted. <em>"Thy testimonies are very sure; holiness becometh thine house for ever."</em> The enthronement psalm whose first half is the raging sea (vv.3–4, "the floods lift up their waves") and whose conclusion turns to God's <em>testimonies</em> — the third witness to the same nature→Word movement.</li>
+<li><strong>John 4:22</strong> — <strong>S5</strong>, quoted (Christ to the Samaritan woman). <em>"Ye worship ye know not what: we know what we worship: for salvation is of the Jews."</em> The dominical seal on the thesis: worship without the Word = worship of an unknown object. Ties directly back to <strong>Acts 17:23</strong> (the altar <em>to the unknown God</em>) and Calvin's I.5.12–13.</li>
+<li><strong>Romans 1:20–21</strong> — hovering behind <strong>S2</strong> (<code>the invitation ... proving of no avail</code>) and <strong>S6</strong> (<code>labouring under vanity and error</code>). <em>ἐματαιώθησαν</em> ("they became vain") is the Greek of <code>vanity</code>; the <em>inexcusable</em> of Rom. 1:20 is the flip side of the failed invitation — creation's witness leaves the nations without excuse precisely because it <em>invites</em> and is <em>refused</em>.</li>
+<li><strong>Ecclesiastes 1:2 / Hebrew <em>hebel</em></strong> — behind <code>vanity</code> in <strong>S6</strong>. <em>Hebel</em> = breath, vapour, emptiness. The heathen quest is not wicked exertion but <strong>empty</strong> exertion — toil that grasps at vapour.</li>
+<li><strong>Psalm 119</strong> — the great Torah-psalm standing behind Calvin's whole use of Psalm 19's second half; its relentless praise of <em>statutes, testimonies, commandments, law</em> is the expanded version of S1's four synonyms for the Word.</li>
+<li><strong>Deuteronomy 4:6–8</strong> — behind <strong>S5–S6</strong>, <code>the Jews alone</code>. <em>"What nation is there so great, that hath statutes and judgments so righteous as all this law?"</em> Israel's uniqueness in Deuteronomy is explicitly <strong>that it possesses the Word</strong> — exactly Calvin's ground for the exception.</li>
+<li><strong>Isaiah 55:1–3 / John 6:44–45</strong> — behind the premise of <strong>S6</strong>, <code>unable to come to God if not aided</code>. The prophetic-dominical theme that no one comes unless drawn and taught; Calvin's <em>aided and upheld by his sacred word</em> is the epistemic form of that dependence.</li>
+</ol><p><strong>How Calvin uses Scripture here:</strong> count the moves. He does not argue; he <strong>stacks witnesses</strong> and lets their agreement do the work. Three psalms with an <em>identical</em> structure, then Christ himself — the repetition is a rhetorical proof: <em>this is not one poet's quirk but the settled logic of revelation.</em> And note his restraint: he quotes Psalm 19 in full but Psalms 29 and 93 by paraphrase-plus-tagline, trusting you to hear the pattern. When Calvin gives you three texts with the same shape, he is teaching you to read for <strong>structure</strong>, not just verses. That is exegesis as pedagogy.</p><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (the examiner&#x27;s eye)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① 어법 — Four underlined. One is wrong. Find it.</h3><blockquote>
+<p>The prophet, ⓐ<u>after mentioning</u> that the heavens declare the glory of God and that the firmament ⓑ<u>sheweth</u> forth his works, ⓒ<u>proceeding</u> to make mention of the Word; and, the human mind ⓓ<u>being</u> unable to come to God if not upheld by his word, it necessarily followed that the nations laboured under error.</p>
+</blockquote><p><strong>Answer: ⓒ</strong> → must be <strong><code>proceeds</code></strong> (a finite main verb).</p><p><strong>출제 의도:</strong> This is Formula 1, and the item tests whether you can locate the <strong>real main verb</strong>. The subject <code>The prophet</code> opens the sentence and then waits through the whole <code>after</code>-preamble (<code>after mentioning that ... and that ...</code>). Its predicate, when it finally arrives, <strong>must be finite</strong>: <code>proceeds</code>. Turn it into a participle (<code>proceeding</code>) and the prophet-clause has <strong>no main verb at all</strong> — the sentence becomes a heap of subordinate material with no spine. ⓐ <code>after mentioning</code> is correct (the gerund preamble). ⓑ <code>sheweth</code> is correct (archaic 3sg inside the <em>that</em>-clause, and it <em>has</em> a subject, <em>the firmament</em>). ⓓ <code>being</code> is correct — that is a legitimate <strong>nominative absolute</strong> (<code>the human mind being unable...</code>), which is <em>supposed</em> to be non-finite because the finite verb comes later (<code>it necessarily followed</code>).</p><p><strong>The diagnostic:</strong> after an <code>X, after V-ing ...</code> opening, ask <em>"where is the finite verb whose subject is X?"</em> If the only candidate is a participle, the sentence is broken.</p><hr/><h3>② 내용일치 — Which of the following agrees with the passage?</h3><ol>
+<li>Calvin cites Psalm 19 chiefly to prove that the heavens and firmament reveal God's glory to all nations.</li>
+<li>Calvin argues that the Jews reached the true God because their natural wisdom and devotion were superior to those of other nations.</li>
+<li>Calvin concedes that the law has uses beyond instruction, but for his present point treats it as the school in which God's children are trained, since the invitation of nature comes to nothing.</li>
+<li>Calvin holds that the words of Christ to the Samaritan woman show that all nations, including the Jews, worshipped an unknown God.</li>
+</ol><p><strong>Answer: 3.</strong> (S2 — the conceded <code>other uses besides</code>, the narrowed <code>general meaning</code> = <code>school</code>, and the trailing absolute <code>proving of no avail</code>.)</p><p><strong>출제 의도 (learn the diseases, not the answers):</strong></p><ul>
+<li><strong>1 = the pivot trap, the single most attractive wrong answer.</strong> Calvin quotes Psalm 19 precisely to show that David <strong>turns from</strong> the heavens <strong>to the Word</strong> (<code>proceeds to make mention of the Word</code>). The point is the <em>pivot</em>, not the panorama. A reader who stops at the first half of S1 chooses 1 and feels safe. The verb <code>proceeds</code> is the whole answer — the citation is about the <strong>transition</strong>, general → special.</li>
+<li><strong>2 = direction flip on the exception.</strong> S6 makes the Jews' exemption <strong>bibliological</strong>, not moral: they alone were <code>aided ... by his sacred word</code>. The premise says <em>the human mind</em> — any human mind — is <code>altogether unable</code> unaided. Any choice crediting Jewish <em>wisdom</em> or <em>devotion</em> inverts Calvin's actual claim, which is that <strong>no</strong> mind reaches God on its own.</li>
+<li><strong>4 = scope violation on <code>the Jews excepted</code>.</strong> S5–S6 say all nations <strong>except the Jews</strong> worshipped they-knew-not-what. Choice 4 sweeps the Jews <em>into</em> the condemned group ("including the Jews"), erasing the one exception the whole verdict turns on. Whenever the text says <em>"all X, the Y excepted,"</em> a choice that folds Y back into X is always wrong.</li>
+</ul><hr/><h3>③ 영작 — Translate, using <strong>Formula 3</strong> (<code>if not</code> = unless + <code>it necessarily followed that</code>) <strong>and</strong> a <strong>trailing absolute</strong> (Formula 2).</h3><blockquote>
+<p>"인간의 마음은 그의 말씀으로 붙들어 주지 않으면 하나님께 이를 수 없으므로, 열방은 — 성경 없이 그를 찾았기에 — 헛됨 가운데서 수고하고 있었다는 결론이 필연적으로 따라 나왔다."
+<em>(Since the human mind cannot reach God if not upheld by his word, it necessarily followed that the nations — seeking him without Scripture — were labouring under vanity.)</em></p>
+</blockquote><p><strong>Model answer:</strong></p><blockquote>
+<p><strong>Since the human mind was unable to come to God if not upheld by his word, it necessarily followed that the nations, seeking him without the Word, were labouring under vanity and error.</strong></p>
+</blockquote><p><strong>출제 의도 &amp; 채점 기준 (3 points):</strong></p><ol>
+<li><strong><code>if not</code> = unless, correctly placed:</strong> <code>unable to come to God **if not upheld** by his word</code> ✔ — a conditional of necessity. Writing <em>"if he was not upheld"</em> is acceptable; writing <em>"except upheld"</em> or dropping the negative (<code>if upheld</code>) reverses the meaning (0 points). The Word must be <strong>indispensable</strong>, not optional.</li>
+<li><strong>The inference marker is exact:</strong> <code>**it necessarily followed that** ...</code> ✔ — the logical <em>ergo</em>. Do not soften it to <em>"it probably followed"</em> or <em>"so the nations were..."</em>; the register is entailment. Keep <code>necessarily</code>.</li>
+<li><strong>The trailing absolute is well-formed:</strong> <code>the nations, **seeking** him without the Word, were labouring...</code> ✔ — a participle (<code>seeking</code>) supplying the <em>reason</em>, hung on the subject. And use <strong><code>labouring under</code></strong> (= burdened by), not <em>"working on"</em> — the whole point is that their toil was <strong>empty</strong>. <code>Vanity</code> = futility, not conceit.</li>
+</ol><p><em>(Also acceptable: <code>..., the nations being left to seek him without the Word, laboured under vanity and error</code> — a fuller absolute. Full marks. Not acceptable: any version where <code>if not</code> is read as <code>except</code>, or where <code>labouring under</code> is rendered as diligent effort.)</em></p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary:</strong>
+What Calvin <em>argued</em> in §§1–3, <strong>David and Christ argued first</strong>: the same prophet who sang <em>the heavens declare the glory of God</em> <strong>proceeds</strong> to <em>the law of the Lord is perfect</em> (Ps. 19), and Psalms 29 and 93 make the identical pivot — storm and sea giving way to temple and testimonies — while our Saviour seals it (John 4:22, <em>the Jews alone</em>); so, since the mind <code>if not aided ... was altogether unable to come to God</code>, <strong>it necessarily followed</strong> that all mankind, the Jews excepted, <code>were labouring under vanity and error</code> — Chapter 6's thesis proved from Scripture's own mouth.</p><p><strong>The 3 formulas, one more time:</strong></p><ol>
+<li><code>SUBJECT, after V-ing [that-cl × 3], + MAIN VERB</code> — the suspended preamble; the real main verb is <code>proceeds</code>, <strong>not</strong> the verbs trapped in the <em>after</em>-clause (S1).</li>
+<li><code>[main clause]; NOUN + present-participle</code> — the <strong>trailing nominative absolute as verdict</strong>, fired three times: <code>proving of no avail</code> (S2), <code>unbelievers being deaf</code> (S3), <code>the Jews excepted</code> (S6).</li>
+<li><code>Since S was unable to V if not aided ..., it necessarily followed that ...</code> — <code>if not</code> = <strong>unless</strong> (conditional of necessity); <code>it necessarily followed</code> = logical <em>ergo</em>; <code>labour under</code> = be <strong>burdened by</strong> (S6).</li>
+</ol><p><strong>Homework (10 minutes):</strong></p><ol>
+<li><strong>Structure restoration.</strong> Rebuild the <strong>four witnesses</strong> from memory (Ps 19, Ps 29, Ps 93, John 4) and, for each, name the two halves: <em>what comes first</em> (creation's glory) and <em>what it pivots to</em> (the Word). Then answer in one sentence: <strong>why does Calvin stack four witnesses instead of arguing?</strong> (Hint: what does <em>agreement across four independent texts</em> prove that a syllogism cannot?)</li>
+<li><strong>Composition.</strong> Using <strong>Formula 1</strong>, write one sentence in which a subject waits through an <code>after</code>-preamble of three <code>that</code>-clauses before its main verb lands. Then underline your main verb and confirm its subject is the opening noun — not anything inside the <em>after</em>-clause.</li>
+<li><strong>Reading.</strong> Read <strong>Psalm 19</strong> aloud, all fourteen verses. Mark the exact seam where the heavens (vv.1–6) give way to the law (vv.7–9). That seam is Calvin's whole chapter. Then ask his question: <em>by what does the law do what the heavens cannot</em> — <em>convert</em>, <em>make wise</em>, <em>enlighten</em>? Your answer is why the school of the Word is necessary.</li>
+<li><strong>Tomorrow's preview.</strong> §4 ends Chapter 6 with the verdict that everything hangs on Scripture. Which forces the next question, and Calvin knows it: <strong>Chapter 7</strong> — <em>"THE TESTIMONY OF THE SPIRIT NECESSARY TO GIVE FULL AUTHORITY TO SCRIPTURE."</em> Its first section opens: <em>"Before proceeding farther, it seems proper to make some observations on the authority of Scripture..."</em> If the Word is the only road to God, how do we know the Word is God's? Come having asked yourself: <em>what makes me certain the Bible is from heaven?</em> Calvin's answer will not be the Church. It will be the <strong>Spirit</strong>.</li>
+</ol><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 6, §4 끝. Chapter 6 완료. 다음은 <strong>Book 1, Ch. 7, §1</strong> (Day 32).</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
