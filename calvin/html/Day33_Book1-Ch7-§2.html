@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 성경의 권위와 성령의 내적 증거 §2 (1권 7장 · Day 33) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 7장 §2(성경의 권위와 성령의 내적 증거)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 33. 연관 성구: 에베소서 2, 고린도전서 3, 시편 34, 시편 19."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day33_Book1-Ch7-%C2%A72.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="성경의 권위와 성령의 내적 증거 §2 — 기독교 강요 영어로 읽기 (Day 33)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 7장 §2(성경의 권위와 성령의 내적 증거)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 33. 연관 성구: 에베소서 2, 고린도전서 3, 시편 34, 시편 19."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day33_Book1-Ch7-%C2%A72.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 성경의 권위와 성령의 내적 증거 §2 (1권 7장 · Day 33) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 7장 §2(성경의 권위와 성령의 내적 증거)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 33. 연관 성구: 에베소서 2, 고린도전서 3, 시편 34, 시편 19.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 7장 §2 — 성경의 권위와 성령의 내적 증거","mentions":[{"@type":"CreativeWork","name":"에베소서 2 (Ephesians 2)"},{"@type":"CreativeWork","name":"고린도전서 3 (1 Cor 3)"},{"@type":"CreativeWork","name":"시편 34 (Ps 34)"},{"@type":"CreativeWork","name":"시편 19 (Ps 19)"},{"@type":"CreativeWork","name":"히브리서 5 (Heb 5)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day33_Book1-Ch7-%C2%A72.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 33 — Book 1, Chapter 7, §2<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (the whole § — 9 sentences, verbatim)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl1" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl2" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl3" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl3" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl3" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl2" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl3" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl2" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl3" href="#S9" onclick="closeNavMobile()">S9</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (어원 후킹 테이블)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 33 — Book 1, Chapter 7, §2</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday Calvin laid out the wound. Today he swings. And look at how he swings — <strong>one verse</strong>. Not a treatise, not a catalogue of Fathers. <code>a single expression of an apostle</code>. Ephesians 2:20: the Church is <em>built on the foundation of the apostles and prophets</em>. That's it. That's the whole refutation of §1's "pernicious error," and the logic is so short you can hold it in one hand: <strong>a foundation cannot be laid by the house that stands on it.</strong> The French edition even spells it out in a footnote — <em>comme le fondement va devant l'édifice</em>, as the foundation goes before the building.</p><p>Then watch what a good debater does next. He does not celebrate. He immediately asks: <em>what will they say back?</em> And he states their comeback better than they would (S4): "Fine — grant that apostolic doctrine precedes the Church. But <em>which books</em> are apostolic? That question the Church must settle." This is the canon objection, and it is the strong form of the Roman case. Calvin answers it in S5, and then — this is the sentence to memorize — draws the boundary line in S7 that has governed Protestant thinking ever since: when the Church receives Scripture, <strong><code>she does not make that authentic which was otherwise doubtful</code></strong> — she bows. Recognition, not manufacture. Ministerial, not magisterial.</p><p>And the finish (S8–S9) is pure Calvin: an analogy so homely it feels like cheating. How do you know Scripture came from God without a church decree? <em>The same way you know light from darkness, white from black, sweet from bitter.</em> Nobody convenes a council to certify that honey is sweet. This is the seed of <strong>autopistia</strong> — Scripture as self-authenticating — which flowers in §5.</p><p><strong>Today's 3 Big Points — write them down now:</strong></p><ol>
+<li><strong><code>the former ... the latter</code> + <code>must have had</code> (S3).</strong> <em>Must</em> here is not obligation — it is <strong>logical necessity</strong> ("it follows that it must have..."), and <em>must + have + p.p.</em> pins that necessity onto the <strong>past</strong>. Pair it with S5's counterfactual <code>but for this, the Church herself never could have existed</code>.</li>
+<li><strong>Negative fronting, two flavors (S4, S6).</strong> <code>Nor is there any room for the cavil</code> — negative adverb first, auxiliary jumps ahead of the subject. And <code>Nothing therefore can be more absurd than X</code> — <strong>negative + comparative = superlative</strong>: X is <em>the most</em> absurd thing there is.</li>
+<li><strong>The separated relative: <code>make that authentic which was ...</code> (S7).</strong> The antecedent <code>that</code> and its relative <code>which</code> get pried apart by the adjective <code>authentic</code>. Restore it: <em>make authentic that which was doubtful</em>. Then S9's cousin — the <strong>pro-verb <code>do</code> with gapping</strong> inside an <code>as ... as</code> comparison.</li>
+</ol><p>Nine sentences. One verse, one boundary line, one taste test. Let's go.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (the whole § — 9 sentences, verbatim)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+2. These ravings are admirably refuted by a single expression of an apostle. Paul testifies that the Church is “built on the foundation of the apostles and prophets,” (Eph. 2:20). If the doctrine of the apostles and prophets is the foundation of the Church, the former must have had its certainty before the latter began to exist. Nor is there any room for the cavil, that though the Church derives her first beginning from thence, it still remains doubtful what writings are to be attributed to the apostles and prophets, until her Judgment is interposed. For if the Christian Church was founded at first on the writings of the prophets, and the preaching of the apostles, that doctrine, wheresoever it may be found, was certainly ascertained and sanctioned antecedently to the Church, since, but for this, the Church herself never could have existed. Nothings therefore can be more absurd than the fiction, that the power of judging Scripture is in the Church, and that on her nod its certainty depends. When the Church receives it, and gives it the stamp of her authority, she does not make that authentic which was otherwise doubtful or controverted but, acknowledging it as the truth of God, she, as in duty bounds shows her reverence by an unhesitating assent. As to the question, How shall we be persuaded that it came from God without recurring to a decree of the Church? it is just the same as if it were asked, How shall we learn to distinguish light from darkness, white from black, sweet from bitter? Scripture bears upon the face of it as clear evidence of its truth, as white and black do of their colour, sweet and bitter of their taste.
+⚠️ Text note (transcription, not Calvin): our local Beveridge file carries two scanning slips — Nothings therefore (S6) for Nothing therefore, and as in duty bounds shows (S7) for as in duty bound, shows. I quote the file verbatim as the rule requires, but read them as the corrected forms. The footnote marker 18 after existed has been stripped (it is the French gloss on foundation-before-building, cited in Period 6).
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>[THE WEAPON]      S1    One apostolic phrase refutes the whole "ravings" of §1
+[THE VERSE]       S2    Eph 2:20 — the Church is BUILT ON the foundation
+                        of the apostles and prophets
+[THE INFERENCE]   S3    doctrine = foundation → the FORMER (doctrine) must have had
+                        its certainty BEFORE the LATTER (Church) began to exist
+
+[THEIR COMEBACK]  S4    "Grant the origin — but WHICH writings are apostolic?
+                        That stays doubtful till the Church's judgment steps in."
+                        → Nor is there any room for the cavil   (rejected on arrival)
+[THE ANSWER]      S5    If the Church WAS founded on those writings, then that doctrine,
+                        wherever found, was already ascertained &amp; sanctioned BEFORE her
+                        — since BUT FOR THIS she could never have existed at all
+
+[VERDICT]         S6    Nothing more absurd than the fiction: judging-power in the Church,
+                        certainty hanging on her NOD
+[THE BOUNDARY]    S7    She receives + stamps — but does NOT make authentic
+                        what was doubtful; she ACKNOWLEDGES and assents (duty, not decree)
+
+[REDUCTIO]        S8    "How know it's from God without a church decree?"
+                        = "How do we learn to tell light from dark, sweet from bitter?"
+[AUTOPISTIA]      S9    Scripture bears the evidence ON ITS FACE — as white/black do
+                        of colour, sweet/bitter of taste
+</code></pre><p><strong>Examiner's Eye — the traps they will set:</strong></p><p><strong>Trap 1 (S4): whose sentence is inside the <code>that</code>-clause?</strong> <code>Nor is there any room for the cavil, that ... it still remains doubtful what writings are to be attributed to the apostles and prophets, until her Judgment is interposed.</code> Everything after <code>that</code> is the <strong>opponents' cavil</strong>, and the main clause <em>destroys</em> it. The distractor will lift "it still remains doubtful what writings are to be attributed to the apostles and prophets" and hand it to Calvin as his own concession. Direction-flip. Kill it.</p><p><strong>Trap 2 (S7): the overshoot.</strong> Calvin says the Church <code>receives it, and gives it the stamp of her authority</code> — that is <em>granted</em>, in his own voice. What he denies is one verb: she does not <strong>make</strong> it authentic. Any option reading "Calvin denies that the Church has any role in receiving or attesting Scripture" has swapped <em>constitute</em> for <em>recognize</em> and blown past the scope.</p><p><strong>Trap 3 (S3): the former/latter swap.</strong> <code>the former</code> = <strong>the doctrine</strong> of the apostles and prophets. <code>the latter</code> = <strong>the Church</strong>. Reverse them and the sentence says the Church's certainty preceded the doctrine — the exact position Calvin is demolishing. Examiners love a former/latter inversion because it costs one word and flips the whole argument.</p><p><strong>Trap 4 (S9): "so it's just rational self-evidence?"</strong> Careful. The evidence is objectively as plain as colour and taste — but §1 already told you consciences still tremble, and §5 will say the Spirit must seal it. Objective clarity, subjective blindness: the same pairing as I.5 (the creation blazes; we walk blindfold). An option that makes Calvin a rationalist here has read S9 without the chapter.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl1" data-lvl="1" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s1" title="1-star">★</span><span class="s-label">ravings — the tone-setting noun</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>"These ravings are admirably refuted by a single expression of an apostle."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>ravings</em> &lt; OFr <em>raver</em> (to be delirious) → mad talk; cf. <em>raving mad</em>. — <em>admirably</em> &lt; <em>admirari</em> (to wonder at) → in a way that deserves wonder, i.e. splendidly (NOT "admittedly").</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>a single expression</em> = 단 한 마디/한 구절; <em>be refuted by</em> = ~에 의해 논파되다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">This nonsense is beautifully demolished by one phrase from an apostle.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>These ravings</b> → <em>This nonsense</em></li><li><b>admirably refuted</b> → <em>beautifully demolished</em></li><li><b>a single expression of an apostle</b> → <em>one phrase from an apostle</em></li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s2" title="2-star">★★</span><span class="s-label">The verse — and the preposition that does all the work</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>"Paul testifies that the Church is “built on the foundation of the apostles and prophets,” (Eph. 2:20)."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` Paul <b>testifies</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the Church</span><ul class="tr"><li><span class="leaf"><b>is built</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>on</b> the foundation</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of the apostles and prophets</span></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Eph. 2:20</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>testify</em> = <em>testis</em> (witness) + <em>facere</em> (to make) → to make oneself a witness; cf. <em>testament</em>, <em>attest</em>, <em>protest</em>. — <em>foundation</em> &lt; <em>fundare</em> (to lay a bottom, <em>fundus</em>) → cf. <em>fundamental</em>, <em>fund</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be built on</em> = ~ 위에 세워지다; <em>bear/give testimony that</em> = ~라고 증언하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Paul gives testimony that the Church is "built on the foundation of the apostles and prophets" (Eph. 2:20).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Paul testifies that</b> → <em>Paul gives testimony that</em></li><li><b>is built on the foundation of</b> → <em>is built on the foundation laid by</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the former ... the latter + must have had — logical necessity aimed at the past</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>"If the doctrine of the apostles and prophets is the foundation of the Church, the former must have had its certainty before the latter began to exist."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>If</b> the doctrine</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of the apostles and prophets</span></li></ul></li></ul></li><li><span class="leaf"><b>is</b> the foundation</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of the Church</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>the former</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">= the doctrine</span></li></ul></li></ul></li><li><span class="leaf"><b>must have had</b> its certainty</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>before</b> <b>the latter</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">= the Church</span></li></ul></li></ul></li><li><span class="leaf">began to exist</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>former</em> / <em>latter</em> — Old English comparatives of <em>fore</em> (before) and <em>late</em>; literally "the more-before one" and "the more-late one" — the etymology itself tells you the order. — <em>certainty</em> &lt; <em>certus</em> (settled, decided), p.p. of <em>cernere</em> (to sift, decide) → cf. <em>discern</em>, <em>decree</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>the former ... the latter</em> = 전자 ... 후자; <em>must have p.p.</em> = ~였음에 틀림없다 (추론); <em>begin to exist</em> = 존재하기 시작하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">If the teaching of the apostles and prophets is what the Church is built on, then that teaching must already have been certain before the Church ever existed.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the doctrine of the apostles and prophets is the foundation of the Church</b> → <em>the teaching of the apostles and prophets is what the Church is built on</em></li><li><b>the former must have had its certainty</b> → <em>that teaching must already have been certain</em></li><li><b>before the latter began to exist</b> → <em>before the Church ever existed</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Nor is there any room for the cavil, that ... — negative inversion + the opponents' best comeback</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>"Nor is there any room for the cavil, that though the Church derives her first beginning from thence, it still remains doubtful what writings are to be attributed to the apostles and prophets, until her Judgment is interposed."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (nor)</span><span class="leaf">` <b>Nor</b></span></li><li><span class="leaf"><b>is there</b> any room</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">for the cavil</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf"><b>though</b> the Church derives her first beginning <b>from thence</b></span></li></ul></li><li><span class="leaf"><b>it still remains doubtful</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>what writings are to be attributed</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to the apostles and prophets</span></li></ul></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>until</b> her Judgment <b>is interposed</b></span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>cavil</em> &lt; Latin <em>cavilla</em> (jeering, banter) → a frivolous objection. — <em>interpose</em> = <em>inter-</em> (between) + <em>ponere</em> (to place) → to insert between; cf. <em>impose</em>, <em>deposit</em>. — <em>thence</em> = OE <em>thanon</em> → from that place/source; family: <em>hence</em>, <em>whence</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>there is no room for</em> = ~의 여지가 없다; <em>derive one's beginning from</em> = ~에서 기원하다; <em>it remains doubtful what ...</em> = 무엇이 ~인지는 여전히 불확실하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And there's no room for the objection that, even though the Church originally started from that teaching, it's still unclear which writings should be credited to the apostles and prophets until the Church steps in and rules on it.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Nor is there any room for the cavil</b> → <em>And there's no room for the objection</em></li><li><b>derives her first beginning from thence</b> → <em>originally started from that teaching</em></li><li><b>it still remains doubtful</b> → <em>it's still unclear</em></li><li><b>until her Judgment is interposed</b> → <em>until the Church steps in and rules on it</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">wheresoever it may be found + but for this — the answer to the canon objection</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>"For if the Christian Church was founded at first on the writings of the prophets, and the preaching of the apostles, that doctrine, wheresoever it may be found, was certainly ascertained and sanctioned antecedently to the Church, since, but for this, the Church herself never could have existed."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>For</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if</b> the Christian Church <b>was founded at first</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>on</b> the writings of the prophets, <b>and</b> the preaching of the apostles</span></li></ul></li></ul></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that doctrine</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>wheresoever</b> it <b>may be found</b></span></li></ul></li><li><span class="leaf"><b>was certainly ascertained and sanctioned</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>antecedently to</b> the Church</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">이유/시간절 (since)</span><span class="leaf"><b>since</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but for this</b></span></li></ul></li><li><span class="leaf">the Church herself</span></li><li><span class="leaf"><b>never could have existed</b></span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>ascertain</em> = <em>ad-</em> (to) + <em>certain</em> → to <em>make</em> certain (older, active sense) rather than "find out." — <em>sanction</em> &lt; <em>sancire</em> (to make sacred, ratify) → <em>sanctus</em>; the same root gives <em>saint</em> and <em>sacred</em>. — <em>antecedently</em> = <em>ante-</em> (before) + <em>cedere</em> (to go) → going before; cf. <em>antecedent</em>, <em>precede</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>but for X</em> = X가 없었다면 (= if it were not for X); <em>wheresoever ... may be</em> = 어디서 발견되든 간에; <em>at first</em> = 처음에; <em>antecedently to</em> = ~보다 앞서.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">For if the Christian Church was originally founded on the prophets' writings and the apostles' preaching, then that teaching — wherever it may be found — was already established as certain and binding before the Church existed; otherwise the Church herself could never have come into being.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>was founded at first on</b> → <em>was originally founded on</em></li><li><b>wheresoever it may be found</b> → <em>wherever it may be found</em></li><li><b>ascertained and sanctioned antecedently to the Church</b> → <em>established as certain and binding before the Church existed</em></li><li><b>but for this, the Church herself never could have existed</b> → <em>otherwise the Church herself could never have come into being</em></li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Nothing can be more absurd than = superlative; and the word nod</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>"Nothings therefore can be more absurd than the fiction, that the power of judging Scripture is in the Church, and that on her nod its certainty depends."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Nothing</b> ‹sic: *Nothings*› therefore</span></li><li><span class="leaf"><b>can be more absurd than</b></span></li><li><span class="leaf"><b>the fiction</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the power is in the Church</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of judging Scripture</span></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> its certainty <b>depends</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>on her nod</b></span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>fiction</em> &lt; <em>fingere</em> (to mould, shape, feign) → cf. <em>feign</em>, <em>figment</em>, <em>effigy</em>. — <em>absurd</em> = <em>ab-</em> (intensive) + <em>surdus</em> (deaf, muffled) → out of tune, discordant; cf. <em>surd</em>. — <em>nod</em> (Latin <em>nutus</em>) — the gesture of a superior's will.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>nothing can be more X than</em> = ~보다 더 X한 것은 없다 (= 최상급); <em>at/on someone's nod</em> = 누군가의 재가 한 번에; <em>the power of judging</em> = 판정권.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So nothing could be more absurd than this fabrication — that the Church holds the power to judge Scripture, and that Scripture's certainty hangs on her say-so.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Nothing therefore can be more absurd than</b> → <em>So nothing could be more absurd than</em></li><li><b>the fiction</b> → <em>this fabrication</em></li><li><b>the power of judging Scripture is in the Church</b> → <em>the Church holds the power to judge Scripture</em></li><li><b>on her nod its certainty depends</b> → <em>Scripture's certainty hangs on her say-so</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">The boundary line: she does not make that authentic which was ... but ... shows her reverence</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>"When the Church receives it, and gives it the stamp of her authority, she does not make that authentic which was otherwise doubtful or controverted but, acknowledging it as the truth of God, she, as in duty bounds shows her reverence by an unhesitating assent."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>When</b> the Church <b>receives</b> it</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and gives</b> it the stamp</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of her authority</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>she does NOT make</b></span></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> … <b>authentic</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b> was otherwise doubtful or controverted</span></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>BUT</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">acknowledging it as the truth of God</span></li></ul></li><li><span class="leaf"><b>she</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>as in duty bound</b></span></li></ul></li><li><span class="leaf"><b>shows</b> her reverence</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>by</b> an unhesitating assent</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>authentic</em> &lt; Gk <em>authentikos</em> (<em>autos</em> self + <em>hentes</em> doer) → done by one's own hand, hence <em>original, of full legal force</em>; the same <em>auto-</em> root will give us autopiston ("self-authenticating") in §5. — <em>controverted</em> = <em>contra-</em> (against) + <em>vertere</em> (to turn) → turned against, disputed; cf. <em>controversy</em>. — <em>assent</em> = <em>ad-</em> (to) + <em>sentire</em> (to feel, think) → to think along with; cf. <em>consent</em>, <em>sentiment</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>give something the stamp of one's authority</em> = ~에 권위의 인장을 찍다; <em>as in duty bound</em> = 당연한 의무로서; <em>by an unhesitating assent</em> = 주저 없는 동의로써.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">When the Church accepts Scripture and puts her official seal on it, she isn't making genuine something that was otherwise uncertain or disputed. Instead, recognizing it as God's own truth, she does what she's obliged to do: she shows her reverence by agreeing without hesitation.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>gives it the stamp of her authority</b> → <em>puts her official seal on it</em></li><li><b>make that authentic which was otherwise doubtful or controverted</b> → <em>making genuine something that was otherwise uncertain or disputed</em></li><li><b>acknowledging it as the truth of God</b> → <em>recognizing it as God's own truth</em></li><li><b>as in duty bound</b> → <em>does what she's obliged to do</em></li><li><b>by an unhesitating assent</b> → <em>by agreeing without hesitation</em></li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s2" title="2-star">★★</span><span class="s-label">it is just the same as if it were asked — the reductio by analogy</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>"As to the question, How shall we be persuaded that it came from God without recurring to a decree of the Church? it is just the same as if it were asked, How shall we learn to distinguish light from darkness, white from black, sweet from bitter?"</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>As to</b> the question</span></li></ul></li></ul></li><li><span class="leaf">« <b>How shall we be persuaded</b> »</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that it came from God</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>without recurring to</b> a decree of the Church?</span></li></ul></li></ul></li><li><span class="leaf"><b>it is just the same</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>as if</b> it <b>were asked</b></span></li><li><span class="leaf">« How shall we learn to distinguish</span></li><li><span class="leaf">light from darkness</span></li><li><span class="leaf">white from black</span></li><li><span class="leaf">sweet from bitter? »</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>recur</em> = <em>re-</em> (back) + <em>currere</em> (to run) → to run back to, resort to; cf. <em>current</em>, <em>cursor</em>, <em>recourse</em>. — <em>decree</em> = <em>de-</em> + <em>cernere</em> (to sift, decide) → a sifted-out ruling; the same root as <em>discern</em> and <em>certain</em> (see S3).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>as to</em> = ~에 관해서는; <em>recur to</em> = ~에 의지하다/호소하다; <em>it is just the same as if</em> = ~라고 묻는 것과 똑같다; <em>distinguish A from B</em> = A와 B를 구별하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">As for the question "How can we be convinced Scripture came from God without falling back on a decree of the Church?" — that is exactly like asking, "How do we learn to tell light from darkness, white from black, sweet from bitter?"</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>As to the question</b> → <em>As for the question</em></li><li><b>How shall we be persuaded</b> → <em>How can we be convinced</em></li><li><b>without recurring to a decree of the Church</b> → <em>without falling back on a decree of the Church</em></li><li><b>it is just the same as if it were asked</b> → <em>that is exactly like asking</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">bears upon the face of it + the pro-verb do with gapping — autopistia in one line</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p>"Scripture bears upon the face of it as clear evidence of its truth, as white and black do of their colour, sweet and bitter of their taste."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Scripture bears</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>upon the face of it</b></span></li></ul></li></ul></li><li><span class="leaf"><b>as clear evidence</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of its truth</span></li></ul></li></ul></li><li><span class="leaf"><b>as</b></span></li><li><span class="leaf">white and black <b>do</b> ‹bear evidence›</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of their colour</span></li></ul></li></ul></li><li><span class="leaf">sweet and bitter ‹do bear evidence›</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of their taste</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>evidence</em> &lt; <em>e-</em> (out) + <em>videre</em> (to see) → that which shows itself out in the open — the etymology <em>is</em> the argument. — <em>face</em> &lt; <em>facies</em> (form, appearance, from <em>facere</em>) → the outward look of a thing; cf. <em>superficial</em>, <em>prima facie</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>upon/on the face of it</em> = 겉으로 보아 그 자체로, 그 표면에; <em>bear evidence of</em> = ~의 증거를 지니다; <em>as clear ... as</em> = ~만큼이나 명백한.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Scripture carries the clear evidence of its own truth right on its surface, just as plainly as white and black show their colour, and sweet and bitter show their taste.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>bears upon the face of it</b> → <em>carries ... right on its surface</em></li><li><b>as clear evidence of its truth, as</b> → <em>the clear evidence of its own truth ... just as plainly as</em></li><li><b>white and black do of their colour</b> → <em>white and black show their colour</em></li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>FORMULA 1 — 부정의 두 얼굴 (S4 · S6)
+  (a) Nor / Never / Not only / Little + AUX + S + V      ← 부정어 전치 → 도치
+      "Nor is there any room for the cavil, that ..."
+      복원: There is no room for the cavil, either.
+      ⚠️ Nor 뒤에는 이미 부정이 들어 있다 — not을 또 넣지 말 것.
+  (b) Nothing can be more + ADJ + than X   =  X가 가장 ADJ하다 (최상급!)
+      "Nothing therefore can be more absurd than the fiction, that ..."
+      ⚠️ "꽤 터무니없다"가 아니라 "이보다 터무니없는 건 없다".
+</code></pre><p>Practice: <em>Nor is there any room for the pretence that the Church confers what she only receives; nothing can be more absurd than to make the building certify its own foundation.</em></p><pre><code>FORMULA 2 — 과거를 향한 논리적 필연 + 반사실 (S3 · S5)
+  (a) S + must have + p.p.          ← 의무 아님! "~였음에 틀림없다"(추론)
+      "the former must have had its certainty before the latter began to exist"
+      ⚠️ must go(의무·현재) vs must have gone(추론·과거) 구분.
+      ⚠️ the former = 먼저 언급된 것 / the latter = 나중 언급된 것 — 순서 확인 필수.
+  (b) but for + N , S + could/would + never + have + p.p.   ← 전치사형 반사실
+      "since, but for this, the Church herself never could have existed"
+      = if it were not for this / were it not for this
+</code></pre><p>Practice: <em>But for the certainty of the apostolic doctrine, the Church could never have been gathered at all; that doctrine must therefore have been sure before she drew her first breath.</em></p><pre><code>FORMULA 3 — 분리 관계사 &amp; 대동사 do 생략 (S7 · S9)
+  (a) make + that + ADJ + which + V ...        ← 5형식 SVOC + 무거운 관계절 후치
+      "she does not make that authentic which was otherwise doubtful or controverted"
+      복원: she does not make AUTHENTIC THAT WHICH was otherwise doubtful.
+      ⚠️ that authentic를 한 덩어리로 읽지 말 것 (that = 대명사).
+      ⚠️ 짝은 not A but B: not MAKE authentic / but ACKNOWLEDGE and assent.
+  (b) as ... as + S + do (+ 이하 생략)          ← 대동사 do + gapping
+      "as white and black do of their colour, sweet and bitter ‹do› of their taste"
+      ⚠️ do가 무엇을 대신하는지 복원(bear evidence) + 주어 수일치(do/does).
+</code></pre><p>Practice: <em>The Council did not make canonical that which was already the Word of God, as a scale does not make heavy that which already has its weight.</em></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (어원 후킹 테이블)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ravings</td>
+<td>헛소리, 광인의 지껄임</td>
+<td><em>rave</em> — raving mad. 반박 전에 이미 진단 완료</td>
+</tr>
+<tr>
+<td><strong>admirably</strong> ⚠️</td>
+<td>훌륭하게, 감탄스럽게</td>
+<td><em>admirari</em>(경탄하다). "인정하건대(admittedly)" 아님</td>
+</tr>
+<tr>
+<td>testify</td>
+<td>증언하다</td>
+<td><em>testis</em>(증인)+<em>facere</em> — 바울이 증인석에</td>
+</tr>
+<tr>
+<td>cavil</td>
+<td>트집, 궤변</td>
+<td><em>cavilla</em>(야유) — 이름 자체가 판결</td>
+</tr>
+<tr>
+<td><strong>thence</strong></td>
+<td>거기서부터</td>
+<td>hence·whence 가족. from that source</td>
+</tr>
+<tr>
+<td>interpose</td>
+<td>사이에 끼워 넣다</td>
+<td><em>inter-</em>+<em>ponere</em> — 성경과 확신 사이의 톨게이트</td>
+</tr>
+<tr>
+<td><strong>ascertained</strong> ⚠️</td>
+<td>(고어) 확실하게 된</td>
+<td><em>ad-</em>+<em>certain</em> — "조사해 알아냄" 아님, <strong>확실해짐</strong></td>
+</tr>
+<tr>
+<td><strong>sanctioned</strong> ⚠️</td>
+<td>인준된, 효력을 얻은</td>
+<td><em>sancire</em>(신성하게 하다) → saint. "제재" 아님!</td>
+</tr>
+<tr>
+<td>antecedently to</td>
+<td>~보다 앞서</td>
+<td><em>ante-</em>+<em>cedere</em> — 앞서 가다</td>
+</tr>
+<tr>
+<td><strong>but for</strong> ⚠️</td>
+<td>~이 없었다면</td>
+<td>전치사형 가정법. "그러나 ~을 위해" 아님</td>
+</tr>
+<tr>
+<td><strong>fiction</strong> ⚠️</td>
+<td>날조, 지어낸 것</td>
+<td><em>fingere</em>(빚다) → feign·figment. 소설 아님</td>
+</tr>
+<tr>
+<td>absurd</td>
+<td>터무니없는</td>
+<td><em>ab-</em>+<em>surdus</em>(귀먹은) — 음이 안 맞는</td>
+</tr>
+<tr>
+<td><strong>nod</strong> ⚠️</td>
+<td>재가, 승인의 끄덕임</td>
+<td>라틴 <em>nutus</em> — 주인의 턱짓 하나에</td>
+</tr>
+<tr>
+<td><strong>stamp</strong></td>
+<td>인장, 도장</td>
+<td>권위의 봉인 — 찍는다고 내용이 생기진 않음</td>
+</tr>
+<tr>
+<td><strong>authentic</strong> ⚠️</td>
+<td>(법률) 정본의, 효력 있는</td>
+<td><em>autos</em>(스스로)+<em>hentes</em>(행위자) → <strong>autopiston</strong>(§5)의 어근!</td>
+</tr>
+<tr>
+<td>controverted</td>
+<td>논란된</td>
+<td><em>contra-</em>+<em>vertere</em> — 맞서 돌려진</td>
+</tr>
+<tr>
+<td><strong>as in duty bound</strong> ⚠️</td>
+<td>당연한 의무로서</td>
+<td>의무의 방향: 교회가 성경에 매인 것</td>
+</tr>
+<tr>
+<td>unhesitating</td>
+<td>주저 없는</td>
+<td><em>haesitare</em>(더듬다) — 망설임=이미 위에 서려는 것</td>
+</tr>
+<tr>
+<td>assent</td>
+<td>동의</td>
+<td><em>ad-</em>+<em>sentire</em> — 함께 생각함 (consent 사촌)</td>
+</tr>
+<tr>
+<td><strong>recur to</strong> ⚠️</td>
+<td>~에 의지하다, 호소하다</td>
+<td><em>re-</em>+<em>currere</em>(달리다) — 되돌아 뛰어가다. "재발" 아님</td>
+</tr>
+<tr>
+<td>decree</td>
+<td>칙령, 결정</td>
+<td><em>de-</em>+<em>cernere</em>(체로 거르다) → discern·certain 동족</td>
+</tr>
+<tr>
+<td><strong>on the face of it</strong> ⚠️</td>
+<td>그 자체 표면에, 자명하게</td>
+<td><em>facies</em> — prima facie. "겉보기엔(사실은 아니고)" 아님</td>
+</tr>
+<tr>
+<td>evidence</td>
+<td>증거</td>
+<td><em>e-</em>+<em>videre</em> — 밖으로 드러나 보이는 것 (어원이 곧 논증)</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>The move Calvin is making.</strong> §1 diagnosed; §2 amputates. And the instrument is a single verse read for its <strong>architectural logic</strong>, not its devotional warmth. Eph 2:20 — <em>built upon the foundation of the apostles and prophets</em> — yields one inference: foundations precede buildings. The French edition of 1560 adds the gloss in the margin: <em>comme le fondement va devant l'édifice</em>. Calvin then converts "apostles and prophets" into "the <strong>doctrine</strong> of the apostles and prophets" (S3), which is standard for him — 1 Cor 3:11 makes Christ the only foundation, so the apostles function as foundation precisely as <em>preachers of Christ</em>. Their doctrine survives in writings; therefore the argument is about Scripture.</p><p><strong>Why S4 is the section's real hinge.</strong> Anyone can win against a weak opponent. Calvin, having scored, immediately supplies Rome's best comeback: <em>concede the historical priority of apostolic doctrine — the disputed question is the</em> canon. <em>Which writings are apostolic? Only the Church can say.</em> This is Eck's <em>Enchiridion</em> position sharpened, and it would be Trent's fourth session (1546) codified. Calvin's answer in S5 is not a list of canonical criteria; it is a point about the <strong>direction of dependence</strong>. Certainty is a property the doctrine already possessed <em>wheresoever it may be found</em>; a later act of identification locates that property, it does not create it. Compare: a jeweller who identifies gold does not thereby make it gold. And then the existence-argument — <em>but for this, the Church herself never could have existed</em> — turns the opponent's institution into a witness for the prosecution.</p><p><strong>The line everyone quotes: S7.</strong> <code>She does not make that authentic which was otherwise doubtful or controverted.</code> This becomes settled Protestant doctrine within a generation. The Belgic Confession (1561), art. 5: we receive these books "not so much because the Church receives and approves them as such, but above all because the Holy Ghost witnesseth in our hearts." Westminster I.4: the authority of Scripture "dependeth not upon the testimony of any man or church, but wholly upon God." The technical vocabulary later dogmaticians attach to it — the Church's authority is <strong>ministerial</strong> (serving) not <strong>magisterial</strong> (ruling) — is Calvin's <em>not make authentic / but acknowledge</em> in Latin dress.</p><p><strong>S9 and the word to come.</strong> <code>Bears upon the face of it as clear evidence of its truth</code> is <strong>autopistia</strong> before the term is used: Scripture is <em>autopiston</em>, self-authenticating (§5 will say it "carrying its own evidence along with it, deigns not to submit to proofs and arguments"). Turretin later systematizes: Scripture is the <em>principium cognoscendi theologiae</em>, a first principle of knowing — and first principles, by definition, cannot be derived from anything prior. Warfield made this chapter the centre of his account of Calvin's bibliology; Plantinga's Reformed epistemology (belief in God as <em>properly basic</em>, and the <em>internal instigation of the Holy Spirit</em> in <em>Warranted Christian Belief</em>) is a modern philosophical descendant of exactly this pairing of self-evidence and Spirit-wrought perception.</p><p><strong>Two limit lines — do not overshoot.</strong></p><p><em>First fence: Calvin is not dismissing the Church's historical role.</em> S7 concedes, in his own voice, that she <code>receives it, and gives it the stamp of her authority</code>. He never denies that the visible Church transmitted, collected and attested the canon; he denies that this attestation <strong>constitutes</strong> authority. Anyone using this section to say "the canon has nothing to do with the Church" has read <em>make</em> as <em>receive</em>.</p><p><em>Second fence: S9 is not rationalism.</em> The light/colour/taste analogy makes the evidence objectively plain — and §1 has already told you that consciences still tremble, §5 will say that only the Spirit's inward seal produces conviction, and I.5 established the pattern (creation blazes; humanity walks blindfold). Objectively self-evident, subjectively unreceived apart from the Spirit. Quote S9 as a proof that unaided reason can establish Scripture's divinity and you have made Calvin an evidentialist in the one chapter written to deny it. The tongue must be alive for the honey to taste sweet.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li><strong>S2 — Eph 2:20</strong>, ἐποικοδομηθέντες ἐπὶ τῷ θεμελίῳ τῶν ἀποστόλων καὶ προφητῶν, ὄντος ἀκρογωνιαίου αὐτοῦ Χριστοῦ Ἰησοῦ ("built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone"). Calvin reads the genitive as <em>the foundation laid by them</em> — i.e. their doctrine — not <em>the foundation consisting of their persons</em>. Note what he leaves unquoted but is standing right there: <strong>Christ the cornerstone</strong>. The foundation is apostolic doctrine <em>because</em> it is the doctrine of Christ.</li>
+<li><strong>S2–S3 — 1 Cor 3:11</strong> ("other foundation can no man lay than that is laid, which is Jesus Christ"). This is what <em>forces</em> Calvin's persons→doctrine substitution. If Christ alone is the foundation, then Eph 2:20 must mean the apostolic <em>preaching</em> of Christ. Two verses locking each other in place.</li>
+<li><strong>S3 — the priority logic — Matt 16:18</strong> ("upon this rock I will build my church"). Calvin's opponents' favourite text is quietly conceded and reversed: even here the Church is what gets <em>built</em>, never the builder.</li>
+<li><strong>S7 <code>acknowledging it as the truth of God ... unhesitating assent</code> — 1 Thess 2:13</strong>: "ye received it not as the word of men, but as it is in truth, the word of God" (οὐ λόγον ἀνθρώπων ἀλλὰ … λόγον θεοῦ). Paul describes exactly the posture Calvin assigns the Church: <em>receiving as</em>, not <em>making into</em>.</li>
+<li><strong>S8 <code>light from darkness</code> — Gen 1:4</strong> ("God divided the light from the darkness"): the first distinction in creation, prior to every human judgment. And <strong>Isa 5:20</strong> — "Woe unto them that call evil good, and good evil; that put darkness for light" — the possibility of getting even <em>this</em> wrong, which is why §5 must come.</li>
+<li><strong>S8–S9 <code>sweet ... bitter</code> — Ps 19:10</strong> ("sweeter also than honey and the honeycomb" — of the law), <strong>Ps 34:8</strong> ("O taste and see that the LORD is good"), <strong>1 Pet 2:3</strong>. Calvin's taste analogy is not borrowed from philosophy; it is the Psalter's own way of talking about the Word.</li>
+<li><strong>S9 the trained faculty — Heb 5:14</strong>, τὰ αἰσθητήρια γεγυμνασμένα ("senses exercised to discern both good and evil"). The unstated other half of the analogy: self-evident objects still require a functioning organ. §5's <em>testimonium</em> is the giving of the organ.</li>
+</ol><p><strong>How Calvin uses Scripture here:</strong> differently from §1. §1 had no block quotation at all — biblical furniture built invisibly into the prose. §2 opens with a single explicit citation and then reasons from its <strong>structure</strong> rather than its wording. One verse, one architectural implication, and he never returns to it. That is Calvin's characteristic exegetical economy: find the verse whose <em>logic</em> settles the matter, and refuse to pile on.</p><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>① 어법 (밑줄 4개 중 틀린 것 하나)</strong></p><blockquote>
+<p>(A) <strong>Nor is there</strong> any room for the cavil that the Church confers what she receives; for if she was founded on the apostolic doctrine, that doctrine (B) <strong>must have had</strong> its certainty before she existed, since, but for this, she never (C) <strong>could exist</strong> at all. She therefore does not make (D) <strong>that authentic which</strong> was otherwise controverted, but assents to it as in duty bound.</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: (C).</strong> <code>but for + N</code>는 <strong>반사실</strong>이므로 뒤에는 반드시 <strong>modal + have + p.p.</strong> — <em>could never </em><em>have existed</em><em><em>가 맞다 (Formula 2b). (A)는 부정어 </em>Nor</em> 전치에 따른 정상 도치 (Formula 1a). (B)는 과거를 향한 논리적 필연 <em>must have p.p.</em> — 맞음 (Formula 2a). (D)는 분리 관계사 <em>make that ... authentic which ...</em>의 정상 어순 — 맞음 (Formula 3a). 출제 의도: <em>but for</em>를 단순 조건으로 착각하면 시제를 낮춰 쓰고 지나간다. 실제 오답률 최상위 유형.</p><p><strong>② 내용일치 (4지선다)</strong></p><blockquote>
+<p>Which statement best represents Calvin's position in this section?</p>
+<p>(a) Since which writings are apostolic remains doubtful until the Church's judgment is interposed, the canon rests on ecclesiastical decree.
+(b) The Church has no part whatever in receiving Scripture or attesting it, and any stamp of her authority is an impiety.
+(c) The Church, in receiving Scripture, does not make authentic what was doubtful, but acknowledges as God's truth a doctrine whose certainty preceded her own existence.
+(d) Scripture's truth can be established by argument as securely as colour is established by sight, so the testimony of the Spirit is unnecessary.</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: (c)</strong> — S3 + S5 + S7의 종합. (a)는 방향 뒤집기: 그 문장은 S4의 <code>the cavil</code>, 즉 <strong>반대자의 주장</strong>이며 <code>Nor is there any room for</code> 로 즉시 기각된다 (Trap 1). (b)는 범위 초과: S7이 교회가 <code>receives it, and gives it the stamp of her authority</code>한다고 <strong>칼빈 자신의 입으로</strong> 인정한다 — 부정되는 것은 오직 <em>make ... authentic</em> 하나뿐 (Trap 2). (d)는 §5 선취 부정: S9은 증거의 객관적 명료성을 말할 뿐이며, 성령의 내적 증거는 이 챕터의 결론(§5)이다 (Trap 4).</p><p><strong>③ 영작 (오늘의 공식 적용)</strong></p><blockquote>
+<p>다음을 영어로: "교회가 그것을 정경으로 인정할 때, 그녀는 이미 확실했던 것을 확실하게 만드는 것이 아니다 — 그리고 그 확실성이 없었다면 교회 자신이 결코 존재할 수 없었을 것이다."</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>모범답안:</strong> <em>When the Church acknowledges it as canonical, she does not make certain that which was already certain — and but for that certainty, the Church herself could never have existed.</em>
+(체크포인트: ① <em>make + that + ADJ + which</em> 분리 관계사 어순 ② <em>but for + N</em> 전치사형 반사실 ③ 그에 호응하는 <em>could never have existed</em> (modal + have + p.p.).)</p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary:</strong> One verse settles it — the Church is <em>built on</em> the apostolic foundation, so that doctrine's certainty must have preceded her existence; therefore when she receives Scripture she does not <em>make authentic</em> what was doubtful but bows to it, since Scripture bears its evidence on its own face as plainly as sweet and bitter bear theirs. (Grammar: ① <em>must have p.p.</em> 추론 + <em>the former/the latter</em> + <em>but for</em> 반사실 ② <em>Nor is there</em> 부정 도치 &amp; <em>nothing can be more X than</em> = 최상급 ③ 분리 관계사 <em>make that X which</em> + 대동사 <em>do</em> gapping.)</p><p><strong>Homework (10 min):</strong></p><ol>
+<li><strong>구조 복원:</strong> S7을 현대 어순으로 완전히 풀어 쓰라 — 분리된 <code>that ... which</code>를 붙이고, <code>not A but B</code>의 두 동사구를 각각 한 줄씩 나누어 적을 것. (모범: <em>She does not make </em><em>authentic that which</em><em> was otherwise doubtful or controverted; / but, acknowledging it as the truth of God, she shows her reverence, as in duty bound, by an unhesitating assent.</em>)</li>
+<li><strong>영작:</strong> Formula 1(b) + Formula 3(b)를 한 문장에 — "저울이 이미 무게를 가진 것을 무겁게 만들지 못하는 것처럼, 교회가 이미 하나님의 말씀인 것을 정경으로 만들 수 있다는 생각보다 더 터무니없는 것은 없다." (모범: <em>Nothing can be more absurd than the notion that the Church makes canonical what is already the Word of God, as little as a balance does heavy what already has its weight.</em>)</li>
+<li><strong>내일 예습 한 줄:</strong> §3 첫 문장은 "I am aware it is usual to quote a sentence of Augustine in which he says that he would not believe the gospel, were he not moved by the authority of the Church." — 로마 측의 마지막 카드, <strong>어거스틴 인용</strong>이 나온다. <code>were he not moved</code> = if 생략 도치 가정법이니 미리 눈에 익혀 올 것.</li>
+</ol><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 7, §2 끝. 다음은 <strong>Book 1, Ch. 7, §3</strong> (Day 34).</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
