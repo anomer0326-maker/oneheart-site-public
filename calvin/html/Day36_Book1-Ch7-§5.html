@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 성경의 권위와 성령의 내적 증거 §5 (1권 7장 · Day 36) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 7장 §5(성경의 권위와 성령의 내적 증거)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 36. 연관 성구: 신명기 30, 이사야 53, 이사야 43, 이사야 54."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day36_Book1-Ch7-%C2%A75.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="성경의 권위와 성령의 내적 증거 §5 — 기독교 강요 영어로 읽기 (Day 36)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 7장 §5(성경의 권위와 성령의 내적 증거)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 36. 연관 성구: 신명기 30, 이사야 53, 이사야 43, 이사야 54."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day36_Book1-Ch7-%C2%A75.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 성경의 권위와 성령의 내적 증거 §5 (1권 7장 · Day 36) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 7장 §5(성경의 권위와 성령의 내적 증거)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 36. 연관 성구: 신명기 30, 이사야 53, 이사야 43, 이사야 54.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 7장 §5 — 성경의 권위와 성령의 내적 증거","mentions":[{"@type":"CreativeWork","name":"신명기 30 (Deut 30)"},{"@type":"CreativeWork","name":"이사야 53 (Isa 53)"},{"@type":"CreativeWork","name":"이사야 43 (Isa 43)"},{"@type":"CreativeWork","name":"이사야 54 (Isa 54)"},{"@type":"CreativeWork","name":"로마서 10 (Romans 10)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day36_Book1-Ch7-%C2%A75.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 36 — Book 1, Chapter 7, §5<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (the whole § — 16 sentences, verbatim)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl2" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl3" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl2" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl3" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl1" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl2" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl2" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl2" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl3" href="#S11" onclick="closeNavMobile()">S11</a><a class="toc-s lvl2" href="#S12" onclick="closeNavMobile()">S12</a><a class="toc-s lvl3" href="#S13" onclick="closeNavMobile()">S13</a><a class="toc-s lvl2" href="#S14" onclick="closeNavMobile()">S14</a><a class="toc-s lvl3" href="#S15" onclick="closeNavMobile()">S15</a><a class="toc-s lvl3" href="#S16" onclick="closeNavMobile()">S16</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (어원 후킹 테이블)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 36 — Book 1, Chapter 7, §5</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday Calvin named the thing: <code>the secret testimony of the Spirit</code>. Today he seals the chapter with the word the whole Reformed tradition will build on — except that he never writes the word. He writes its <strong>definition</strong> and lets you supply the term.</p><blockquote>
+<p><code>Scripture, carrying its own evidence along with it, deigns not to submit to proofs and arguments</code></p>
+</blockquote><p>That is <strong>αὐτόπιστος</strong> — <em>autopistos</em>, self-authenticating, believed on its own account. Nine words. Underline them now.</p><p>But here is why §5 is a harder section than §4, and why most readers get it wrong. Look at the shape:</p><pre><code>S1–S2    THE FIXED POINT: Scripture does not stoop to proof; it owes its full
+         conviction to the Spirit — and we feel assured AS IF we saw God's
+         image stamped on it
+S3–S4    ⚠️ THE DOUBLE GUARDRAIL: we ask no proofs — BUT this is not credulity
+         (not fastening on an unknown object) and NOT superstition
+         (we obey WILLINGLY and KNOWINGLY)
+S5       Proof text: Isa 43:10 — "that ye may know and believe me"
+S6       THE PARADOX SENTENCE: a conviction which asks not for reasons;
+         a knowledge which ACCORDS WITH THE HIGHEST REASON
+S7–S8    Modesty + deferral (we return to this in Book 3)
+S9–S16   THE CHAPTER'S CLOSE: why so few? — taught of the Lord (Isa 54:13),
+         the elect only, the word already nigh (Deut 30), and even the elect
+         are in the dark UNTIL ingrafted — Isa 53:1 — none but those to whom
+         it is given
+</code></pre><p><strong>Two-thirds of this section is Calvin defending himself against the charge his own doctrine invites.</strong> If Scripture needs no proof and the Spirit does the sealing, then is faith just a feeling? Is it blind? Calvin saw the objection coming and spent S3, S4, and S6 slamming that door. <code>not like miserable men, whose minds are enslaved by superstition</code>. <code>willingly indeed, and knowingly</code>. <code>a knowledge which accords with the highest reason</code>. <strong>Do not let anyone tell you Calvin's doctrine of the Spirit's testimony is fideism. He anticipated you by four hundred and fifty years.</strong></p><p>Then the chapter turns sombre. S13 to S16 asks the pastoral question that has been sitting under the whole chapter: <em>if it is this clear, why do so few believe?</em> And Calvin's answer is not "the evidence is weak." It is election, and it comes with a stinger — <strong>S14 puts the elect themselves in the general darkness until they are ingrafted.</strong> Nobody gets to sit above this sentence.</p><p><strong>Today's 3 Big Points — write them down now:</strong></p><ol>
+<li><strong><code>SUCH ... IS ...</code> — complement-fronting inversion, three times, with gapping</strong> (S6). <code>Such, then, **is** a conviction...; such, ‹is› a knowledge...; such in fine, ‹is› the conviction...</code> The verb disappears in legs two and three and you must put it back. This is the single most quotable sentence of the chapter and the one most often mis-parsed.</li>
+<li><strong>The fronting family</strong> — Beveridge front-loads pointers constantly. Object–Subject–Verb: <code>**This, however, we do**</code> (S4), <code>**This singular privilege** God bestows</code> (S10). Fronted participle: <code>**Enlightened by him,** we no longer believe</code> (S2), <code>**carrying** its own evidence along with it</code> (S1). And the <strong>nominative absolute</strong> returns in its perfect-passive dress: <code>**God having been pleased** to reserve the treasure of intelligence...</code> (S13).</li>
+<li><strong>Exceptive <code>but</code> and <code>save</code> — both mean EXCEPT</strong> — <code>what is the beginning of true doctrine **but** prompt alacrity to hear?</code> (S11) and <code>none comprehend the mysteries of God **save** those to whom it is given</code> (S16). Two different words, one function, and both of them are trap words of the first rank.</li>
+</ol><p>Sixteen sentences. Chapter 7 ends today. Let's go.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (the whole § — 16 sentences, verbatim)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+5. Let it therefore be held as fixed, that those who are inwardly taught by the Holy Spirit acquiesce implicitly in Scripture; that Scripture, carrying its own evidence along with it, deigns not to submit to proofs and arguments, but owes the full conviction with which we ought to receive it to the testimony of the Spirit. Enlightened by him, we no longer believe, either on our own Judgment or that of others, that the Scriptures are from God; but, in a way superior to human Judgment, feel perfectly assured—as much so as if we beheld the divine image visibly impressed on it—that it came to us, by the instrumentality of men, from the very mouth of God. We ask not for proofs or probabilities on which to rest our Judgment, but we subject our intellect and Judgment to it as too transcendent for us to estimate. This, however, we do, not in the manner in which some are wont to fasten on an unknown object, which, as soon as known, displeases, but because we have a thorough conviction that, in holding it, we hold unassailable truth; not like miserable men, whose minds are enslaved by superstition, but because we feel a divine energy living and breathing in it—an energy by which we are drawn and animated to obey it, willingly indeed, and knowingly, but more vividly and effectually than could be done by human will or knowledge. Hence, God most justly exclaims by the mouth of Isaiah, “Ye are my witnesses, saith the Lord, and my servant whom I have chosen, that ye may know and believe me, and understand that I am he,” (Isa. 43:10).
+Such, then, is a conviction which asks not for reasons; such, a knowledge which accords with the highest reason, namely knowledge in which the mind rests more firmly and securely than in any reasons; such in fine, the conviction which revelation from heaven alone can produce. I say nothing more than every believer experiences in himself, though my words fall far short of the reality. I do not dwell on this subject at present, because we will return to it again: only let us now understand that the only true faith is that which the Spirit of God seals on our hearts. Nay, the modest and teachable reader will find a sufficient reason in the promise contained in Isaiah, that all the children of the renovated Church “shall be taught of the Lord,” (Isaiah 54:13). This singular privilege God bestows on his elect only, whom he separates from the rest of mankind. For what is the beginning of true doctrine but prompt alacrity to hear the Word of God? And God, by the mouth of Moses, thus demands to be heard: “It is not in heavens that thou shouldest say, Who shall go up for us to heaven, and bring it unto us, that we may hear and do it? But the word is very nigh unto thee, in thy mouth and in thy heart,” (Deut. 30:12, 14). God having been pleased to reserve the treasure of intelligence for his children, no wonder that so much ignorance and stupidity is seen in the generality of mankind. In the generality, I include even those specially chosen, until they are ingrafted into the body of the Church. Isaiah, moreover, while reminding us that the prophetical doctrine would prove incredible not only to strangers, but also to the Jews, who were desirous to be thought of the household of God, subjoins the reason, when he asks, “To whom has the arm of the Lord been revealed?” (Isaiah 53:1). If at any time, then we are troubled at the small number of those who believe, let us, on the other hand, call to mind, that none comprehend the mysteries of God save those to whom it is given.
+⚠️ Text note (transcription, not Calvin) — five housekeeping items from our local Beveridge file.
+(1) The footnote marker 21 standing after the testimony of the Spirit. in S1 has been stripped; the footnote itself is quoted in Period 6, because it is Calvin's own French addition and it is worth having.
+(2) The line-break hyphenation es-/timate in S3 has been closed to estimate.
+(3) Page numbers (72, 73, 78) and the running chapter headers falling inside the section have been removed. The paragraph break before Such, then, is in the text and is preserved.
+(4) The capitalised Judgment (S2 ×2, S3 ×2) is an artifact of this electronic edition, as it was yesterday. Read it as lower-case.
+(5) ⚠️ It is not in heavens (S12) is the reading of our file. KJV Deut 30:12 has It is not in heaven. I quote the file as it stands — that is the rule — but the singular is what Moses wrote and what every other edition prints. Note also the citation (Deut. 30:12, 14): Calvin deliberately skips v. 13 (Neither is it beyond the sea). And the abbreviation is inconsistent in the original — (Isa. 43:10) but (Isaiah 54:13), (Isaiah 53:1). Left as found.
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>  ── THE FIXED POINT (§§1–4 concluded) ──
+[THE THESIS]     S1   LET IT BE HELD AS FIXED — two that-clauses:
+                      (i) those inwardly taught by the Spirit acquiesce
+                          IMPLICITLY (= unreservedly) in Scripture
+                      (ii) Scripture, CARRYING ITS OWN EVIDENCE, deigns not to
+                          submit to proofs and arguments, but OWES the full
+                          conviction ... TO the testimony of the Spirit   ★ αὐτόπιστος
+[THE EFFECT]     S2   Enlightened by him, we believe NOT on our own or others'
+                      judgment BUT feel perfectly assured — as if we saw the
+                      DIVINE IMAGE VISIBLY IMPRESSED — that it came to us
+                      BY THE INSTRUMENTALITY OF MEN, FROM THE VERY MOUTH OF GOD
+
+  ── ⚠️ THE DOUBLE GUARDRAIL (against the obvious objection) ──
+[NO PROOFS]      S3   We ask not for proofs or probabilities; we SUBJECT intellect
+                      and judgment to it as TOO TRANSCENDENT to estimate
+[NOT CREDULITY]  S4a  NOT as some fasten on an unknown object which, once known,
+                      displeases — BUT because we hold UNASSAILABLE TRUTH
+[NOT SUPERSTITION]S4b NOT like miserable men enslaved by superstition — BUT because
+                      we feel A DIVINE ENERGY LIVING AND BREATHING IN IT,
+                      drawn and animated WILLINGLY INDEED, AND KNOWINGLY
+[PROOF TEXT]     S5   Isa 43:10 — "that ye may KNOW and BELIEVE me, and UNDERSTAND"
+
+  ── THE PARADOX, AND THE CLOSE OF THE ARGUMENT ──
+[⚠️ THE PARADOX] S6   SUCH is a conviction WHICH ASKS NOT FOR REASONS;
+                      SUCH ‹is› a knowledge WHICH ACCORDS WITH THE HIGHEST REASON;
+                      SUCH ‹is› the conviction REVELATION FROM HEAVEN ALONE produces
+[MODESTY]        S7   Every believer experiences it; my words fall short
+[DEFERRAL]       S8   Not dwelling on it now (→ Book 3): the only true faith is
+                      that which the Spirit SEALS ON OUR HEARTS
+
+  ── THE PASTORAL CLOSE: WHY SO FEW? ──
+[PROMISE]        S9   Nay — the modest and teachable reader has enough in Isaiah:
+                      the children of the renovated Church "SHALL BE TAUGHT OF THE LORD"
+[ELECTION]       S10  THIS SINGULAR PRIVILEGE God bestows ON HIS ELECT ONLY
+[DEFINITION]     S11  For WHAT is the beginning of true doctrine BUT prompt
+                      alacrity to hear the Word of God?
+[MOSES]          S12  Deut 30:12,14 — the word is VERY NIGH, in thy mouth and heart
+[ABSOLUTE]       S13  GOD HAVING BEEN PLEASED to reserve the treasure of
+                      intelligence for his children → no wonder at the ignorance
+                      of the generality of mankind
+[⚠️ THE STINGER] S14  In the generality I INCLUDE EVEN THOSE SPECIALLY CHOSEN,
+                      UNTIL they are ingrafted into the body of the Church
+[ISAIAH]         S15  Incredible not only to strangers BUT ALSO TO THE JEWS —
+                      "To whom has the ARM OF THE LORD been revealed?" (Isa 53:1)
+[VERDICT]        S16  Troubled at the small number? — NONE comprehend the mysteries
+                      of God SAVE those to whom IT IS GIVEN
+</code></pre><p><strong>Examiner's Eye — the traps they will set:</strong></p><p><strong>Trap 1 (S3 + S4 + S6): "asks not for reasons" ≠ "against reason."</strong> This is the number-one comprehension trap of §5 and probably of the whole chapter. S3 says <code>We ask not for proofs or probabilities</code>. Left alone, that reads like anti-intellectualism. But S4 immediately rules out <strong>credulity</strong> (<code>not in the manner in which some are wont to fasten on an unknown object</code>) and <strong>superstition</strong> (<code>not like miserable men, whose minds are enslaved by superstition</code>), and adds <code>**willingly indeed, and knowingly**</code>; and S6 states the paradox flat out — the conviction <code>asks not for reasons</code> yet is <code>a knowledge which **accords with the highest reason**</code>. An option reading "Calvin holds that faith is contrary to reason and requires the mind to be set aside" is dead on arrival. <strong>The claim is about the ground of assurance, not about the rationality of the belief.</strong></p><p><strong>Trap 2 (S2): where does <code>no longer believe</code> attach?</strong> <code>we no longer believe, **either on our own Judgment or that of others**, that the Scriptures are from God</code> — the negation attaches to the <strong>ground</strong> (<code>on our own Judgment or that of others</code>), not to the <strong>content</strong> (<code>that the Scriptures are from God</code>). We believe it more than ever; we no longer believe it <em>on that footing</em>. The distractor will read: "Calvin says the enlightened no longer believe that the Scriptures are from God." Ridiculous when stated baldly — which is why they will bury it in a subordinate clause.</p><p><strong>Trap 3 (S2): <code>by the instrumentality of men</code> AND <code>from the very mouth of God</code>.</strong> Both, in the same breath, joined by nothing more than a comma. This is dual authorship in eleven words. An option saying "Calvin denies that human agency had any part in the giving of Scripture" is contradicted by half of Calvin's own sentence. Beware also the reverse over-read: "Calvin regards the human writers as the source" — <code>from the very mouth of God</code> says otherwise. Instrument, not source.</p><p><strong>Trap 4 (S10 vs. S14): election does not exempt.</strong> S10 gives the privilege to <code>his elect only, whom he separates from the rest of mankind</code>. Then S14: <code>In the generality, I include **even those specially chosen**, **until** they are ingrafted into the body of the Church</code>. The elect are, before their ingrafting, in exactly the same darkness as everyone else. An option reading "Calvin holds the elect are marked off from mankind by a native capacity for divine things" has been beheaded by S14. <strong>The separation is God's act in time, not a quality in them.</strong></p><p><strong>Trap 5 (S11 and S16): <code>but</code> and <code>save</code> = EXCEPT.</strong> <code>what is the beginning of true doctrine **but** prompt alacrity to hear</code> = <em>what is it </em><em>except</em><em> a prompt readiness to hear?</em> — i.e. <strong>it is nothing else.</strong> Read <code>but</code> as the ordinary adversative and the sentence turns to mush. Same with <code>none comprehend the mysteries of God **save** those to whom it is given</code> = <em>except those</em>. Neither has anything to do with rescuing or with contrast.</p><p><strong>Trap 6 (S9): <code>Nay</code> again, and <code>teachable</code>.</strong> <code>Nay</code> is upward revision — <em>more than that</em>, not <em>no</em>. Second day running; they will keep testing it because it keeps working. And <code>teachable</code> = <em>docilis</em>, <strong>capable of being taught</strong> — a cognitive posture, not a moral compliment. S11 defines it for you: <code>prompt alacrity to hear</code>.</p><p><strong>Trap 7 (S15): <code>incredible</code>.</strong> = <strong>not believable, incapable of being believed</strong>. Not "amazing." <code>the prophetical doctrine would prove incredible not only to strangers, but also to the Jews</code> — the doctrine would <em>fail to be believed</em>. Every modern reader stumbles here once.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the thesis — αὐτόπιστος, and a verb separated from its preposition by seventeen words</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>"Let it therefore be held as fixed, that those who are inwardly taught by the Holy Spirit acquiesce implicitly in Scripture; that Scripture, carrying its own evidence along with it, deigns not to submit to proofs and arguments, but owes the full conviction with which we ought to receive it to the testimony of the Spirit."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Let it</b> <b>be held as fixed,</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">therefore</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> those</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who are inwardly taught by the Holy Spirit</span></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>acquiesce implicitly</b> in Scripture</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> Scripture</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">carrying its own evidence along with it</span></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>deigns not to submit</b> to proofs and arguments</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but owes</b> <b>to</b> the testimony of the Spirit</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the full conviction</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">with which we ought to receive it</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>implicitly</em> &lt; <em>im-</em> + <em>plicare</em> (to fold) → folded in, without reserve; cf. <em>implicate</em>, <em>complicated</em>, <em>explicit</em> (folded out). — <em>acquiesce</em> &lt; <em>ad-</em> + <em>quiescere</em> (to rest) → come to rest at; cf. <em>quiet</em>, <em>quiescent</em>, <em>requiem</em>. — <em>deign</em> &lt; <em>dignari</em> &lt; <em>dignus</em> (worthy) → to think worthy; cf. <em>dignity</em>, <em>disdain</em> (= <em>dis-</em> + <em>deign</em>, to think unworthy). — <em>conviction</em> &lt; <em>con-</em> + <em>vincere</em> (to conquer) — carried over from §4.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>let it be held as fixed that ...</em> = ~라고 확정된 것으로 하자 (논증 종결 선언); <em>acquiesce in X</em> = X 안에 안착하다; <em>deign to V</em> = 황송하게도 ~하다 → <em>deign not to V</em> = ~하기까지 몸을 낮추지 않는다; <em>owe A to B</em> = A는 B에게서 온 것이다; <em>carry X along with oneself</em> = X를 제 안에 지니고 다니다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So let's take this as settled: people who are taught inwardly by the Holy Spirit rely on Scripture completely, without holding anything back. Scripture brings its own proof with it and doesn't lower itself to be argued into court — but the total confidence with which we're supposed to accept it comes from the Spirit's testimony.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Let it be held as fixed</b> → Let's take it as settled</li><li><b>implicitly</b> → completely, without reservation</li><li><b>acquiesce in</b> → rely on / rest in</li><li><b>deigns not to submit to</b> → doesn't stoop to be judged by</li><li><b>owes ... to</b> → gets ... from.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ where the negation attaches — and dual authorship in eleven words</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>"Enlightened by him, we no longer believe, either on our own Judgment or that of others, that the Scriptures are from God; but, in a way superior to human Judgment, feel perfectly assured—as much so as if we beheld the divine image visibly impressed on it—that it came to us, by the instrumentality of men, from the very mouth of God."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>Enlightened by him,</b></span></li></ul></li></ul></li><li><span class="leaf"><b>we</b></span></li><li><span class="leaf"><b>no longer believe,</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">either on our own Judgment or that of others</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the Scriptures are from God</span></li></ul></li><li><span class="leaf"><b>but,</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in a way superior to human Judgment</span></li></ul></li></ul></li><li><span class="leaf">‹we› <b>feel perfectly assured</b> —</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as much so as if we beheld the divine image visibly impressed on it</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> it came to us, from the very mouth of God</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by the instrumentality of men</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>instrumentality</em> &lt; <em>instruere</em> (to build up, equip) → the being-used-as-a-tool; cf. <em>instruct</em>, <em>structure</em>. — <em>impress</em> &lt; <em>in-</em> + <em>premere</em> (to press) → pressed into; cf. <em>press</em>, <em>print</em>, <em>imprint</em>, and Greek χαρακτήρ (a stamping tool). — <em>behold</em> &lt; OE <em>be-</em> + <em>healdan</em> (to hold) → to hold with the eye, i.e. to gaze, not merely glance.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>no longer V</em> = 더 이상 ~하지 않다; <em>either A or B</em> = A든 B든 (여기서는 둘 다 배제); <em>as much so as if ...</em> = 마치 ~한 것과 똑같이; <em>by the instrumentality of X</em> = X를 도구로 하여; <em>from the very mouth of X</em> = 바로 X의 입에서.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Once he has enlightened us, we don't believe the Scriptures come from God on our own judgment or anyone else's any more. Instead — in a way that goes beyond human judgment — we are completely sure, as sure as if we could actually see God's image stamped on the page, that it reached us through human hands but out of God's own mouth.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Enlightened by him</b> → Once he has enlightened us</li><li><b>Judgment</b> → judgment (assessment)</li><li><b>feel perfectly assured</b> → are completely certain</li><li><b>as much so as if we beheld</b> → as sure as if we could see</li><li><b>by the instrumentality of men</b> → through human hands</li><li><b>from the very mouth of God</b> → straight from God himself.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s2" title="2-star">★★</span><span class="s-label">ask not again, and as too transcendent — the as that means "as being"</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>"We ask not for proofs or probabilities on which to rest our Judgment, but we subject our intellect and Judgment to it as too transcendent for us to estimate."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>We ask not for</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">proofs or probabilities</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">on which to rest our Judgment</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but we subject</b> <b>to it</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">our intellect and Judgment</span></li></ul></li></ul></li><li><span class="leaf"><b>as</b> <b>too transcendent for us to estimate.</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">being</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>transcendent</em> &lt; <em>trans-</em> (across, beyond) + <em>scandere</em> (to climb) → that which has climbed beyond; cf. <em>ascend</em>, <em>descend</em>, <em>scale</em>, <em>echelon</em>. — <em>estimate</em> &lt; <em>aestimare</em> (to value, appraise) → cf. <em>esteem</em> (the same verb, borrowed twice) and <em>aim</em>. — <em>probability</em> &lt; <em>probare</em> (to test, prove) → literally "provability," not the modern statistical sense.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>ask for X</em> = X를 요구하다; <em>rest one's judgment on X</em> = 판단을 X에 두다; <em>subject A to B</em> = A를 B에 복속시키다; <em>as</em> + adj (= as being) = ~한 것으로서; <em>too X for Y to V</em> = Y가 V하기엔 너무 X한.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">We aren't looking for proofs or likely arguments to base our judgment on. Instead, we put our intellect and judgment under Scripture, because it is far beyond our ability to size up.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>ask not for</b> → aren't looking for</li><li><b>probabilities</b> → likely arguments</li><li><b>on which to rest</b> → to base ... on</li><li><b>subject ... to it</b> → put ... under it</li><li><b>as too transcendent for us to estimate</b> → because it's beyond our ability to evaluate.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the monster — object fronting + two not A but B pairs = the anti-fideism guardrail</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>"This, however, we do, not in the manner in which some are wont to fasten on an unknown object, which, as soon as known, displeases, but because we have a thorough conviction that, in holding it, we hold unassailable truth; not like miserable men, whose minds are enslaved by superstition, but because we feel a divine energy living and breathing in it—an energy by which we are drawn and animated to obey it, willingly indeed, and knowingly, but more vividly and effectually than could be done by human will or knowledge."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>wont</em> &lt; OE <em>gewunod</em> (accustomed) — cognate with German <em>gewohnt</em>; entirely unrelated to <em>won't</em>. — <em>unassailable</em> &lt; <em>un-</em> + <em>ad-</em> + <em>salire</em> (to leap) → not to be leapt upon; cf. <em>assault</em>, <em>salient</em>, <em>somersault</em>. — <em>animate</em> &lt; <em>anima</em> (breath, soul) → to breathe life into; note it sits beside <em>living and breathing</em> — Calvin is punning in Latin. — <em>effectually</em> &lt; <em>ex-</em> + <em>facere</em> → producing the effect, actually getting it done (⚠️ NOT <em>effectively</em> in the loose modern sense). — <em>superstition</em> &lt; <em>super-</em> + <em>stare</em> (to stand over) → standing over in dread.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be wont to V</em> = ~하는 버릇이 있다; <em>fasten on X</em> = X에 달려들다; <em>as soon as known</em> = 알려지자마자 (분사 축약); <em>in holding it, we hold ...</em> = 그것을 붙잡음으로써 ~을 붙잡는다; <em>draw and animate</em> = 끌어당겨 살아 움직이게 하다; <em>more X than could be done by Y</em> = Y가 할 수 있는 것보다 더 X하게.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But we don't do this the way some people latch onto something they don't understand — something that stops appealing to them the moment they do understand it. We do it because we're thoroughly convinced that in holding to Scripture we're holding to truth that can't be knocked down. And we're not like wretched people whose minds are chained by superstition, either. We do it because we sense a divine power alive and breathing in Scripture — a power that pulls us and moves us to obey, and we obey willingly and with our eyes open, but far more sharply and effectively than our own will or knowledge could ever manage.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>are wont to fasten on</b> → latch onto</li><li><b>as soon as known, displeases</b> → stops appealing once understood</li><li><b>unassailable</b> → can't be knocked down</li><li><b>miserable men</b> → wretched people</li><li><b>enslaved by superstition</b> → chained by superstition</li><li><b>drawn and animated</b> → pulled and moved</li><li><b>willingly indeed, and knowingly</b> → willingly and with our eyes open</li><li><b>effectually</b> → effectively (in fact, not in theory).</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Isaiah 43:10 — and why Calvin picked this verse</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>"Hence, God most justly exclaims by the mouth of Isaiah, “Ye are my witnesses, saith the Lord, and my servant whom I have chosen, that ye may know and believe me, and understand that I am he,” (Isa. 43:10)."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>exclaim</em> &lt; <em>ex-</em> + <em>clamare</em> (to cry out) → cry out; cf. <em>claim</em>, <em>proclaim</em>, <em>clamour</em>. — <em>witness</em> &lt; OE <em>witan</em> (to know) + <em>-ness</em> → knowledge-bearer; the Old English word is built on <em>knowing</em>, exactly like the verse's `that ye may know`.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>by the mouth of X</em> = X의 입을 통하여; <em>most justly</em> = 지극히 정당하게; <em>saith the Lord</em> = 여호와의 말씀이니라 (KJV 관용).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">That's why God rightly declares through Isaiah: "You are my witnesses, says the LORD, and my servant whom I have chosen, so that you may know and believe me and understand that I am the one."</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>most justly exclaims</b> → rightly declares</li><li><b>by the mouth of Isaiah</b> → through Isaiah</li><li><b>Ye</b> → you</li><li><b>that ye may know</b> → so that you may know</li><li><b>I am he</b> → I am the one.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ the paradox sentence — triple SUCH ... IS inversion with gapping</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>"Such, then, is a conviction which asks not for reasons; such, a knowledge which accords with the highest reason, namely knowledge in which the mind rests more firmly and securely than in any reasons; such in fine, the conviction which revelation from heaven alone can produce."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>accord</em> &lt; <em>ad-</em> + <em>cor, cordis</em> (heart) → bring heart-to-heart; cf. <em>concord</em>, <em>discord</em>, <em>record</em> (bring back to heart = memorise), <em>courage</em>. — <em>in fine</em> &lt; Latin <em>in fine</em> (at the end) — a fossil phrase, cf. French <em>enfin</em>. — <em>securely</em> &lt; <em>se-</em> (without) + <em>cura</em> (care) → without anxiety; the modern "safe" sense is secondary. Calvin's <em>securely</em> = 근심 없이.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>such is X</em> = 이런 것이 바로 X다; <em>accord with X</em> = X와 부합하다; <em>rest in X</em> = X 안에서 안식하다 (S1의 <em>acquiesce in</em>과 짝); <em>in fine</em> = 요컨대, 끝으로; <em>revelation from heaven alone</em> = 오직 하늘로부터의 계시만이.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So this is the kind of confidence that doesn't need reasons; the kind of knowledge that fits with the highest reason there is — knowledge the mind settles into more firmly and calmly than it could into any argument; and in the end, the kind of confidence that only revelation from heaven can produce.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Such, then, is</b> → This is the kind of ... that</li><li><b>asks not for reasons</b> → doesn't need reasons</li><li><b>accords with</b> → fits with</li><li><b>rests more firmly and securely</b> → settles in more firmly and calmly</li><li><b>in fine</b> → in the end.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s1" title="1-star">★</span><span class="s-label">the modesty formula</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>"I say nothing more than every believer experiences in himself, though my words fall far short of the reality."</p>
+</blockquote><div class="mi-grid"><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>say nothing more than</em> = ~이상은 말하지 않는다; <em>fall far short of X</em> = X에 한참 못 미치다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I'm claiming nothing beyond what every believer knows from his own experience — and even so, my words come nowhere near the reality.</p></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the deferral — and the definition of true faith in fourteen words</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>"I do not dwell on this subject at present, because we will return to it again: only let us now understand that the only true faith is that which the Spirit of God seals on our hearts."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>dwell on</em> &lt; OE <em>dwellan</em> (to remain, to delay) — carried over from §4 S3; note it originally meant <em>to lead astray</em>, then <em>to linger</em>, then <em>to reside</em>. — <em>seal</em> &lt; <em>sigillum</em>, diminutive of <em>signum</em> (a sign) → a little sign pressed in.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>dwell on X</em> = X를 길게 다루다; <em>at present</em> = 지금으로서는; <em>return to X</em> = X로 되돌아가다; <em>only let us V</em> = 지금은 다만 ~하기만 하자.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I won't spend more time on this now, since we'll come back to it. For the moment just grasp this much: the only true faith is the faith that God's Spirit seals on our hearts.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>dwell on</b> → spend time on</li><li><b>at present</b> → for now</li><li><b>only let us now understand</b> → for the moment just grasp</li><li><b>that which</b> → the faith that.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Nay again — and an appositive that twenty-three words from its noun</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p>"Nay, the modest and teachable reader will find a sufficient reason in the promise contained in Isaiah, that all the children of the renovated Church “shall be taught of the Lord,” (Isaiah 54:13)."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Nay,</b> <b>will find</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the modest and teachable reader</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">a sufficient reason</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in the promise contained in Isaiah</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> all the children of the renovated Church “shall be taught of the Lord,”</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>docile / teachable</em> &lt; <em>docere</em> (to teach) → able to be taught; cf. <em>doctor</em> (teacher), <em>doctrine</em>, <em>document</em>. — <em>renovate</em> &lt; <em>re-</em> + <em>novus</em> (new) → made new again. — <em>modest</em> &lt; <em>modus</em> (measure) → keeping to measure.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Nay, ...</em> = 아니, 그뿐 아니라; <em>find a sufficient reason in X</em> = X에서 충분한 근거를 얻다; <em>be taught of the Lord</em> = 주께 가르침을 받다 (of = by).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">In fact, a humble and teachable reader will find all the reason he needs in God's promise in Isaiah, that all the children of the restored Church "shall be taught by the LORD."</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Nay</b> → In fact / What's more</li><li><b>modest and teachable</b> → humble and willing to learn</li><li><b>renovated Church</b> → restored Church</li><li><b>taught of the Lord</b> → taught by the LORD.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Object fronting again — and the word elect lands</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p>"This singular privilege God bestows on his elect only, whom he separates from the rest of mankind."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>singular</em> &lt; <em>singulus</em> (one at a time) → belonging to one alone. — <em>bestow</em> &lt; <em>be-</em> + OE <em>stow</em> (a place) → to place, to put somewhere; the sense "give" grew out of "put into someone's hands." — <em>elect</em> &lt; <em>e-</em> + <em>legere</em> (to pick out) → picked out; cf. <em>select</em>, <em>collect</em>, <em>lecture</em>, <em>elegant</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>bestow X on Y</em> = X를 Y에게 수여하다; <em>X only</em> = 오직 X에게만 (only가 후치); <em>the rest of mankind</em> = 나머지 인류.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">God grants this unique privilege only to those he has chosen, whom he sets apart from everyone else.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>This singular privilege God bestows</b> → God grants this unique privilege (word order restored)</li><li><b>singular</b> → unique</li><li><b>his elect</b> → those he has chosen</li><li><b>the rest of mankind</b> → everyone else.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">what is X but Y? — the exceptive but, and a definition disguised as a question</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p>"For what is the beginning of true doctrine but prompt alacrity to hear the Word of God?"</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>but</em> &lt; OE <em>be-ūtan</em> = <em>by</em> + <em>out</em> → "on the outside of," except; the contrastive sense is a later development, which is why the older sense keeps surfacing in fixed phrases (<em>all but</em>, <em>none but</em>, <em>nothing but</em>, <em>the last but one</em>). — <em>alacrity</em> &lt; <em>alacer</em> (brisk); cf. <em>allegro</em> (the Italian musical term is the same word). — <em>prompt</em> &lt; <em>promere</em> (<em>pro-</em> + <em>emere</em>, to bring forth) → brought out ready; cf. <em>exempt</em>, <em>redeem</em>, <em>premium</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>what is X but Y?</em> = X란 결국 Y가 아니고 무엇인가?; <em>prompt alacrity to V</em> = 지체 없는 열심으로 ~하려 함; <em>hear the Word of God</em> = 하나님의 말씀을 경청하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">After all, what is the starting point of sound teaching, if not an eager readiness to listen to God's Word?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>For</b> → After all</li><li><b>what is X but Y?</b> → what is X, if not Y?</li><li><b>prompt alacrity</b> → eager readiness</li><li><b>hear</b> → listen to.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S12" id="S12"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S12</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Moses — and a citation with a hole in it</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S12" onclick="flashFullText(this)">
+<p>"And God, by the mouth of Moses, thus demands to be heard: “It is not in heavens that thou shouldest say, Who shall go up for us to heaven, and bring it unto us, that we may hear and do it? But the word is very nigh unto thee, in thy mouth and in thy heart,” (Deut. 30:12, 14)."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>nigh / near / next</em> — one Old English family: <em>nēah</em> (nigh), <em>nēarra</em> (nearer → <em>near</em>), <em>nēahsta</em> (nearest → <em>next</em>). Modern <em>near</em> is a fossilised comparative. — <em>demand</em> &lt; <em>de-</em> + <em>mandare</em> (to entrust, order) → cf. <em>mandate</em>, <em>command</em>, <em>commend</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>by the mouth of X</em> = X의 입을 통해 (오늘 네 번째); <em>demand to be p.p.</em> = ~되기를 요구하다; <em>go up for us</em> = 우리를 위해 올라가다; <em>very nigh unto thee</em> = 네게 심히 가까이.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And through Moses, God insists on being listened to: "It isn't up in heaven, so that you'd have to say, 'Who will go up to heaven for us and bring it down so we can hear it and do it?' No — the word is very close to you, in your mouth and in your heart."</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>by the mouth of Moses</b> → through Moses</li><li><b>demands to be heard</b> → insists on being listened to</li><li><b>thou shouldest say</b> → you'd have to say</li><li><b>nigh unto thee</b> → close to you.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S13" id="S13"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S13</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">nominative absolute in perfect-passive dress + no wonder that with the copula gone</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S13" onclick="flashFullText(this)">
+<p>"God having been pleased to reserve the treasure of intelligence for his children, no wonder that so much ignorance and stupidity is seen in the generality of mankind."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` ** **ᴬᴮˢ</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">God having been pleased to reserve the treasure of intelligence for his children</span></li></ul></li></ul></li><li><span class="leaf">‹ it is › <b>no wonder</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> so much ignorance and stupidity is seen in the generality of mankind</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>intelligence</em> &lt; <em>inter-</em> + <em>legere</em> (to gather, read) → reading between / picking out — cf. <em>intellect</em>, <em>elect</em> (S10! same <em>legere</em>), <em>select</em>, <em>diligent</em>. ⚠️ Note that `intelligence` and `elect` are the same verb in Latin: God <em>picks out</em> his elect and gives them the <em>picking-out</em> faculty. Calvin is very likely hearing that. — <em>reserve</em> &lt; <em>re-</em> + <em>servare</em> (to keep) → keep back; cf. <em>preserve</em>, <em>conserve</em>, <em>observe</em>. — <em>stupidity</em> &lt; <em>stupere</em> (to be struck senseless) → numbness; cf. <em>stupor</em>, <em>stupendous</em> (= stunning).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be pleased to V</em> = ~하기를 기뻐하다 (고어 = 뜻하시다); <em>reserve X for Y</em> = X를 Y를 위해 남겨두다; <em>no wonder that ...</em> = ~인 것도 당연하다; <em>the generality of X</em> = X의 대다수.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Since God has chosen to keep the treasure of understanding for his own children, it's no surprise that most of humanity shows such ignorance and dullness.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>God having been pleased</b> → Since God has chosen</li><li><b>reserve ... for</b> → keep ... for</li><li><b>the treasure of intelligence</b> → the treasure of understanding</li><li><b>no wonder that</b> → it's no surprise that</li><li><b>the generality of mankind</b> → most of humanity.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S14" id="S14"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S14</span><span class="stars s2" title="2-star">★★</span><span class="s-label">⚠️ THE STINGER — the elect are in the dark too, until</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S14" onclick="flashFullText(this)">
+<p>"In the generality, I include even those specially chosen, until they are ingrafted into the body of the Church."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>ingraft / engraft</em> &lt; <em>in-</em> + <em>graft</em> &lt; OF <em>grafe</em> &lt; Greek γραφεῖον (a stylus) — the grafted shoot was named for its resemblance to a writing-stylus. — <em>specially chosen</em> — `special` &lt; <em>species</em> (kind, appearance) → set apart as a kind of its own; here a plain gloss on <em>electi</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>include X in Y</em> = X를 Y에 포함시키다; <em>even those specially chosen</em> = 심지어 특별히 택함받은 자들까지도; <em>be ingrafted into X</em> = X에 접붙여지다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And by "most of humanity" I mean to include even those God has specially chosen — right up until they are grafted into the body of the Church.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>In the generality, I include</b> → by "most of humanity" I mean to include</li><li><b>those specially chosen</b> → those God has specially chosen</li><li><b>until they are ingrafted</b> → until they are grafted in.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S15" id="S15"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S15</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">suspended subject — thirty words to the main verb — and incredible reversed</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S15" onclick="flashFullText(this)">
+<p>"Isaiah, moreover, while reminding us that the prophetical doctrine would prove incredible not only to strangers, but also to the Jews, who were desirous to be thought of the household of God, subjoins the reason, when he asks, “To whom has the arm of the Lord been revealed?” (Isaiah 53:1)."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>Isaiah,</b></span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">moreover</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">부사절 (while)</span><span class="leaf"><b>while reminding us</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the prophetical doctrine would prove incredible</span><ul class="tr"><li><span class="leaf"><b>not only</b> to strangers</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but also</b> to the Jews</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who were desirous to be thought of the household of God</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>subjoins the reason,</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf">when he asks</span></li></ul></li><li><span class="leaf">“To whom has the arm of the Lord been revealed?”</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>subjoin</em> &lt; <em>sub-</em> + <em>iungere</em> (to yoke) → yoke underneath, add after; cf. <em>conjoin</em>, <em>join</em>, <em>junction</em>, <em>yoke</em> (same PIE root). — <em>incredible</em> &lt; <em>in-</em> + <em>credere</em> → not to be believed; cf. yesterday's <em>credit</em>. — <em>desirous</em> &lt; <em>desiderare</em> (to long for, originally "to await from the stars," <em>de</em> + <em>sidus</em>).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>while V-ing</em> = ~하면서 (부대상황); <em>prove + adj</em> = ~인 것으로 드러나다; <em>not only A but also B</em> = A뿐 아니라 B에게도; <em>be desirous to be thought of X</em> = X의 일원으로 여겨지기를 원하다; <em>subjoin the reason</em> = 그 이유를 덧붙이다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Isaiah, too, while reminding us that the prophets' message would end up being disbelieved — not just by outsiders but by the Jews themselves, who wanted to be counted as part of God's own household — adds the reason when he asks, "To whom has the arm of the LORD been revealed?"</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>while reminding us</b> → while reminding us (kept)</li><li><b>would prove incredible</b> → would end up being disbelieved</li><li><b>strangers</b> → outsiders</li><li><b>desirous to be thought of the household of God</b> → wanting to be counted as part of God's household</li><li><b>subjoins the reason</b> → adds the reason.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S16" id="S16"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S16</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">exceptive save — and the chapter's last word</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S16" onclick="flashFullText(this)">
+<p>"If at any time, then we are troubled at the small number of those who believe, let us, on the other hand, call to mind, that none comprehend the mysteries of God save those to whom it is given."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf">` <b>If</b> <b>we are troubled</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">at any time, then</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">at the small number of those who believe</span></li></ul></li></ul></li><li><span class="leaf"><b>let us</b> <b>call to mind,</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">on the other hand</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> <b>none</b> comprehend the mysteries of God</span><ul class="tr"><li><span class="leaf"><b>save</b> those</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to whom it is given</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>save</em> (prep.) &lt; OF <em>sauf</em> &lt; L. <em>salvus</em> (safe, unharmed) → "X being safe/set aside" → except; cf. <em>salvage</em>, <em>salvation</em>, <em>safe</em>, <em>salubrious</em>. ⚠️ Same root as "save = rescue," but the prepositional use came through a different construction (the Latin ablative absolute <em>salvo iure</em>, "the right being unharmed"). — <em>comprehend</em> &lt; <em>com-</em> + <em>prehendere</em> (to seize) → to take hold of entirely; cf. <em>apprehend</em>, <em>prehensile</em>, <em>prison</em> (<em>prehensio</em>). — <em>mystery</em> &lt; μυστήριον &lt; μύειν (to close the lips/eyes) → what is disclosed only to the initiated.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be troubled at X</em> = X 때문에 심란하다; <em>on the other hand</em> = 다른 한편으로; <em>call to mind</em> = 상기하다; <em>none ... save X</em> = X 외에는 아무도 ~않다; <em>to whom it is given</em> = 그것이 주어진 자들에게 (신적 수동태).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So if we're ever bothered by how few people actually believe, let's remember the other side of it: nobody grasps God's mysteries except those to whom the grasp is given.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>If at any time</b> → If we're ever</li><li><b>troubled at</b> → bothered by</li><li><b>call to mind</b> → remember</li><li><b>comprehend</b> → grasp</li><li><b>save those to whom it is given</b> → except those to whom it is given.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — <code>SUCH + BE + S</code> : 보어 도치 + 연속 gapping</h3><pre><code>   SUCH  ( , then / in fine )  +  IS / ARE  +  [ 진짜 주어 = 명사구 ]
+   = 이런 것이 바로 ~이다        (보어 SUCH 를 문두로 → 주어·동사 도치)
+
+   ▸ SUCH, then, IS  a conviction which asks not for reasons;                (S6)
+     SUCH,     ‹is› a knowledge which accords with the highest reason;
+     SUCH in fine, ‹is› the conviction which revelation from heaven
+                   alone can produce.
+
+   ⚠️ ① 두 번째·세 번째 다리에서 IS 가 통째로 생략된다(gapping).
+        쉼표 하나가 사라진 동사의 화석이다. 반드시 복원해서 읽을 것.
+   ⚠️ ② SUCH 를 한정사로 읽지 말 것.
+        ✗ "such a knowledge" (그런 지식) ← 최다 오답
+        ○ "SUCH ‹is› a knowledge" (이런 것이 바로 ~한 지식이다)
+   ⚠️ ③ 주어는 SUCH 가 아니라 뒤의 명사구다. 수일치도 그쪽을 따른다.
+
+   ── 같은 가족 ──
+   Bright as is the manifestation ...              (I.5.11)   ← Adj + as + BE + S
+   Blessed is the man that walketh not ...         (Ps 1:1)
+</code></pre><p><strong>Transformation drill:</strong> Write three legs with gapping in legs 2 and 3 —
+<em>Such is the assurance which asks no argument; such, a certainty which shames every argument; such in fine, the peace which the Spirit alone can seal upon the heart.</em></p><hr/><h3>Formula 2 — 전치(fronting) 3형제: OSV · 분사 전치 · 독립분사구문</h3><pre><code>   ① OSV — 목적어 전치 (지시사가 앞으로 나온다)
+      ▸ THIS, however, WE DO, not in the manner ...                          (S4)
+      ▸ THIS SINGULAR PRIVILEGE  GOD  BESTOWS  on his elect only.           (S10)
+      복원:  We do this, however, ... / God bestows this singular privilege ...
+      ⚠️ 문두 명사구를 주어로 오인하는 것이 1순위 함정.
+         진단법: 동사가 요구하는 '행위자'가 될 수 있는 명사를 찾아라.
+         (privilege 가 bestow 할 수는 없다 → God 이 주어)
+
+   ② 분사구 전치 — 주어가 주절과 같을 때 (주어 없음)
+      ▸ ENLIGHTENED BY HIM, we no longer believe ...                         (S2)
+      ▸ Scripture, CARRYING ITS OWN EVIDENCE ALONG WITH IT, deigns not ...   (S1)
+      ▸ Isaiah, WHILE REMINDING US THAT ..., subjoins the reason.            (S15)
+
+   ③ 독립분사구문(nominative absolute) — 분사가 제 주어를 데리고 있을 때
+      ▸ GOD HAVING BEEN PLEASED to reserve the treasure of intelligence
+        for his children,  ‹it is› no wonder that ...                        (S13)
+      = Since God has been pleased to reserve ...
+
+      ⚠️ 여기서 정동사(has been)를 쓰면 즉시 오답 — 콤마 접속(comma splice)이 된다.
+         독립분사구문은 종속절이므로 반드시 분사형(having been p.p.)이어야 한다.
+      ⚠️ ②와 ③의 차이는 오직 하나: 분사 앞에 제 주어가 있는가.
+</code></pre><p><strong>Transformation drill:</strong> Use all three in one paragraph —
+<em>This the Spirit does, not by overpowering the mind but by opening it. This singular office God reserves to himself alone. And the Spirit having once sealed the word upon the heart, no wonder that argument adds nothing to a certainty already complete.</em></p><hr/><h3>Formula 3 — 예외의 <code>BUT</code> 와 <code>SAVE</code> (= EXCEPT), 그리고 수사의문 정의문</h3><pre><code>   ① WHAT IS  X  BUT  Y ?     =  X 는 Y 말고 무엇이겠는가  →  X 는 곧 Y 다
+      ▸ For WHAT IS the beginning of true doctrine BUT prompt alacrity
+        to hear the Word of God?                                             (S11)
+      ⚠️ 이 but 은 역접이 아니라 EXCEPT.  ( OE be-ūtan = by + out )
+      ⚠️ 수사의문 = 평서문보다 강한 단언. 번역도 단언으로 받아야 한다.
+
+   ② NONE  +  V  +  SAVE  +  NP     =  ~ 외에는 아무도 ~않다
+      ▸ NONE comprehend the mysteries of God SAVE those to whom it is given. (S16)
+      ⚠️ save 는 동사 '구원하다'가 아니라 전치사 EXCEPT.
+         ( OF sauf &lt; L. salvo — "그것은 무사한 채로" = 논외로 하고 )
+
+   ── 예외 표현 3형제, 다 외워 둘 것 ──
+      but   :  nothing but / none but / all but / the last but one
+      save  :  all save one / save for / saving your presence
+      except:  현대 표준형
+
+   ③ 보너스 — 오늘도 계속되는 고어 부정 (do-support 없음, 도치 없음)
+      ▸ deigns NOT to submit    (S1)
+      ▸ We ASK NOT for proofs   (S3)
+      ▸ a conviction which ASKS NOT for reasons  (S6)
+      ⚠️ 부정어가 문두로 나가야만 도치한다. 동사 뒤면 도치 없음. (어제 Formula 2)
+</code></pre><p><strong>Transformation drill:</strong> Compose one sentence with ① and one with ② —
+<em>For what is faith but a resting in what God has said? — and none rest so save those whose hearts the Spirit has sealed.</em></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (어원 후킹 테이블)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⚠️ <strong>implicitly</strong> (S1)</td>
+<td><strong>unreservedly, completely</strong> (NOT "암묵적으로")</td>
+<td><em>im-</em> + <em>plicare</em>(접다) = 남김없이 접어 넣다. 현대 관용구 <em>trust him implicitly</em> = 전적으로 신뢰하다. 오늘 최대 함정어</td>
+</tr>
+<tr>
+<td><strong>acquiesce in</strong> (S1)</td>
+<td>to rest in, settle upon</td>
+<td><em>ad-</em> + <em>quiescere</em>(쉬다) → ~에 안착하다. cf. <em>quiet</em>, <em>requiem</em>. 전치사는 반드시 <strong>in</strong></td>
+</tr>
+<tr>
+<td>⚠️ <strong>deign</strong> (S1)</td>
+<td><strong>to think worthy, condescend</strong></td>
+<td><em>dignari</em> &lt; <em>dignus</em>(합당한). <code>deigns not to submit</code> = 재판정에 설 만큼 몸을 낮추지 않는다. cf. <em>dignity</em>, <em>disdain</em>(= dis + deign)</td>
+</tr>
+<tr>
+<td><strong>owe A to B</strong> (S1)</td>
+<td>A is derived from B</td>
+<td>은유는 채무. Scripture의 <em>evidence</em>는 제 것, <em>conviction</em>은 성령께 빚진 것 — 둘을 섞지 말 것</td>
+</tr>
+<tr>
+<td><strong>instrumentality</strong> (S2)</td>
+<td>agency, means</td>
+<td><em>instruere</em>(갖추다) → 도구성. <code>BY the instrumentality of men, FROM the mouth of God</code> = 도구 vs 원천</td>
+</tr>
+<tr>
+<td><strong>impress</strong> (S2)</td>
+<td>to stamp, press into</td>
+<td><em>in-</em> + <em>premere</em>. 그리스어 χαρακτήρ(각인 도구)의 라틴 짝. §4의 <em>seal</em>, 오늘의 <em>stamp</em>는 한 가족</td>
+</tr>
+<tr>
+<td><strong>transcendent</strong> (S3)</td>
+<td>beyond our reach</td>
+<td><em>trans-</em> + <em>scandere</em>(오르다) → 넘어 올라간 것. cf. <em>ascend</em>, <em>echelon</em></td>
+</tr>
+<tr>
+<td>⚠️ <strong>estimate</strong> (S3)</td>
+<td><strong>to appraise, set a value on</strong> (NOT "추측하다")</td>
+<td><em>aestimare</em>. <em>esteem</em>과 같은 동사의 이중 차용. "값을 매기다" — 우리에겐 그럴 자격이 없다</td>
+</tr>
+<tr>
+<td>⚠️ <strong>wont</strong> (S4)</td>
+<td><strong>accustomed</strong> (NOT <em>won't</em>)</td>
+<td>OE <em>gewunod</em>, 독일어 <em>gewohnt</em>와 동족. <em>be wont to V</em> = ~하는 버릇이 있다</td>
+</tr>
+<tr>
+<td><strong>fasten on</strong> (S4)</td>
+<td>to seize upon</td>
+<td>모르는 것에 달려드는 심리 — 알고 나면 식는다. 칼빈이 배제하는 첫 번째 가짜 확신</td>
+</tr>
+<tr>
+<td><strong>unassailable</strong> (S4)</td>
+<td>that cannot be stormed</td>
+<td><em>ad-</em> + <em>salire</em>(뛰어들다) → 덤벼들 수 없는. 공성전 어휘. cf. <em>assault</em>, <em>somersault</em></td>
+</tr>
+<tr>
+<td><strong>animate</strong> (S4)</td>
+<td>to breathe life into</td>
+<td><em>anima</em>(숨). 바로 앞의 <em>living and breathing</em>과 라틴어로 말장난 중</td>
+</tr>
+<tr>
+<td>⚠️ <strong>effectually</strong> (S4)</td>
+<td><strong>so as actually to produce the effect</strong></td>
+<td><em>ex-</em> + <em>facere</em>. 이론이 아니라 <strong>실제로 되게 하는</strong>. 개혁파 술어 <em>effectual calling</em>의 그 단어</td>
+</tr>
+<tr>
+<td><strong>superstition</strong> (S4)</td>
+<td>religion without knowledge</td>
+<td><em>super-</em> + <em>stare</em>(위에 서다) → 두려움에 눌려 섬. Book 1이 4장부터 사냥해 온 표적</td>
+</tr>
+<tr>
+<td>⚠️ <strong>in fine</strong> (S6)</td>
+<td><strong>in short, finally</strong> (NOT "훌륭한")</td>
+<td>라틴 <em>in fine</em>(끝에서). 프랑스어 <em>enfin</em>. S6 세 번째 다리의 표지</td>
+</tr>
+<tr>
+<td><strong>accord with</strong> (S6)</td>
+<td>to agree with</td>
+<td><em>ad-</em> + <em>cor</em>(심장) → 한 마음이 되다. cf. <em>concord</em>, <em>record</em>(다시 마음에 두다=암기하다), <em>courage</em></td>
+</tr>
+<tr>
+<td>⚠️ <strong>securely</strong> (S6)</td>
+<td><strong>without anxiety</strong></td>
+<td><em>se-</em>(없이) + <em>cura</em>(근심) = <strong>근심 없이</strong>. 현대의 '안전하게'는 파생 의미</td>
+</tr>
+<tr>
+<td>⚠️ <strong>Nay</strong> (S9)</td>
+<td><strong>"더 나아가"</strong> (NOT "아니다")</td>
+<td>앞말을 강화하는 상향 수정. §4에 이어 <strong>이틀 연속</strong> 출제 후보</td>
+</tr>
+<tr>
+<td>⚠️ <strong>teachable</strong> (S9)</td>
+<td><strong>capable of being taught</strong> — <em>docilis</em></td>
+<td><em>docere</em>(가르치다) → 가르쳐질 수 있는. 순종적이라는 뜻이 아니라 <strong>인식적 자세</strong>. cf. <em>doctor</em>(=교사), <em>doctrine</em></td>
+</tr>
+<tr>
+<td><strong>renovated</strong> (S9)</td>
+<td>restored, made new again</td>
+<td><em>re-</em> + <em>novus</em>. 사54장의 회복된 시온</td>
+</tr>
+<tr>
+<td>⚠️ <strong>of</strong> (S9, "taught <strong>of</strong> the Lord")</td>
+<td><strong>BY</strong> (고어 행위자 표지)</td>
+<td>주를 <em>가르치는</em> 게 아니라 주<strong>께</strong> 가르침받는 것. 뜻이 통째로 뒤집힌다</td>
+</tr>
+<tr>
+<td>⚠️ <strong>singular</strong> (S10)</td>
+<td><strong>unique, belonging to these alone</strong> (NOT "이상한")</td>
+<td><em>singulus</em>(하나씩). <code>only</code>와 짝지어 범위를 두 번 잠근다</td>
+</tr>
+<tr>
+<td><strong>bestow</strong> (S10)</td>
+<td>to confer</td>
+<td><em>be-</em> + OE <em>stow</em>(장소) → <strong>놓아 주다</strong> → 주다. cf. 지명 <em>-stow</em></td>
+</tr>
+<tr>
+<td><strong>elect</strong> (S10)</td>
+<td>chosen out</td>
+<td><em>e-</em> + <em>legere</em>(골라내다). ⚠️ S13의 <em>intelligence</em>와 <strong>같은 동사</strong> — 골라내신 자에게 골라내는 능력을 주신다</td>
+</tr>
+<tr>
+<td>⚠️ <strong>but</strong> (S11, exceptive)</td>
+<td><strong>EXCEPT</strong></td>
+<td>OE <em>be-ūtan</em> = by + out(바깥에). 역접보다 <strong>제외가 먼저</strong>다. 화석: <em>nothing but</em>, <em>none but</em>, <em>all but</em>, <em>the last but one</em></td>
+</tr>
+<tr>
+<td><strong>alacrity</strong> (S11)</td>
+<td>brisk eagerness</td>
+<td><em>alacer</em>(활발한) — 음악 용어 <em>allegro</em>가 같은 단어</td>
+</tr>
+<tr>
+<td><strong>prompt</strong> (S11)</td>
+<td>ready without delay</td>
+<td><em>pro-</em> + <em>emere</em>(꺼내다) → 미리 꺼내 둔. cf. <em>exempt</em>, <em>redeem</em>, <em>premium</em></td>
+</tr>
+<tr>
+<td><strong>nigh</strong> (S12)</td>
+<td>near</td>
+<td>OE <em>nēah</em>. ⚠️ 현대 <em>near</em>는 이 단어의 <strong>비교급</strong>, <em>next</em>는 최상급. 원급만 사라졌다</td>
+</tr>
+<tr>
+<td>⚠️ <strong>intelligence</strong> (S13)</td>
+<td><strong>understanding</strong> (NOT "정보·지능지수")</td>
+<td><em>inter-</em> + <em>legere</em>(골라 읽다) → 사이를 읽어 내는 힘. <em>elect</em>와 동근</td>
+</tr>
+<tr>
+<td><strong>reserve</strong> (S13)</td>
+<td>to keep back</td>
+<td><em>re-</em> + <em>servare</em>(지키다) → <strong>유보하다</strong>. 분배 실패가 아니라 의도적 보류</td>
+</tr>
+<tr>
+<td>⚠️ <strong>generality</strong> (S13, S14)</td>
+<td><strong>the mass, the bulk of</strong> (NOT "일반론")</td>
+<td><em>generalis</em>. <code>the generality of mankind</code> = 인류의 대다수</td>
+</tr>
+<tr>
+<td><strong>stupidity</strong> (S13)</td>
+<td>numbness, dullness — <em>stupor</em></td>
+<td><em>stupere</em>(얼이 빠지다). 지능이 아니라 <strong>상태</strong>. cf. <em>stupendous</em>(=넋을 빼는)</td>
+</tr>
+<tr>
+<td><strong>ingraft</strong> (S14)</td>
+<td>to graft in</td>
+<td>롬11:17 ἐγκεντρίζω. ⚠️ <strong>수동태</strong> — 가지가 제 힘으로 접붙지 않는다</td>
+</tr>
+<tr>
+<td>⚠️ <strong>incredible</strong> (S15)</td>
+<td><strong>not to be believed</strong> (NOT "굉장한")</td>
+<td><em>in-</em> + <em>credere</em>. <code>would prove incredible</code> = 믿어지지 않는 것으로 드러나다</td>
+</tr>
+<tr>
+<td>⚠️ <strong>prove</strong> (S15)</td>
+<td><strong>to turn out to be</strong> (연결동사)</td>
+<td><em>prove false / prove fatal</em>의 그 prove. "증명하다"로 읽으면 문장이 무너진다</td>
+</tr>
+<tr>
+<td><strong>subjoin</strong> (S15)</td>
+<td>to append, add after</td>
+<td><em>sub-</em> + <em>iungere</em>(멍에를 메다) → 뒤에 매달다. cf. <em>conjoin</em>, <em>junction</em>, <em>yoke</em></td>
+</tr>
+<tr>
+<td><strong>household of God</strong> (S15)</td>
+<td>οἰκεῖοι τοῦ θεοῦ</td>
+<td>엡2:19. 여기서는 <strong>자처하던</strong> 자들이 못 믿었다는 반전에 쓰인다</td>
+</tr>
+<tr>
+<td>⚠️ <strong>save</strong> (prep., S16)</td>
+<td><strong>EXCEPT</strong> (NOT "구원하다")</td>
+<td>OF <em>sauf</em> &lt; L. <em>salvo</em>(무사한 채로) — 탈격 독립구 <em>salvo iure</em>의 화석. <em>all save one</em>, <em>save for</em></td>
+</tr>
+<tr>
+<td><strong>comprehend</strong> (S16)</td>
+<td>to grasp entirely</td>
+<td><em>com-</em> + <em>prehendere</em>(붙잡다). cf. <em>apprehend</em>, <em>prehensile</em>, <em>prison</em></td>
+</tr>
+<tr>
+<td><strong>mysteries</strong> (S16)</td>
+<td>μυστήρια</td>
+<td>μύειν(입을 다물다) → 입문자에게만 열리는 것. 마13:11 그대로</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>The word Calvin does not write.</strong> <code>Scripture, carrying its own evidence along with it, deigns not to submit to proofs and arguments</code> — that is <strong>αὐτόπιστος</strong>, <em>autopistos</em>, self-authenticating. Calvin gives the doctrine in §5 and leaves the label to his heirs; by Turretin's <em>Institutio Elencticae Theologiae</em> (I.iv) it is a section heading, and it stays one. The pairing that runs through all later Reformed prolegomena is set right here: Scripture is <strong>αὐτόπιστος</strong> <em>objectively</em> (it needs nothing outside itself to make it credible), and the <strong>testimonium Spiritus Sancti internum</strong> works <em>subjectively</em> (it makes us credit what is already credible). ⚠️ Keep those two apart. Conflate them and you get the caricature: "Calvin says the Bible is true because I feel it is." He says the opposite — the evidence is Scripture's own property (S1), and the Spirit supplies the <em>conviction</em>, not the evidence.</p><p><strong>Calvin's own footnote — the 1560 French, worth having.</strong> Our text carries a note at S1 that is not an editor's: it is <strong>Calvin's own addition in the French edition</strong>. He writes —</p><blockquote>
+<p><em>"Car jacoit qu'en sa propre majesté elle ait assez de quoy estre reuerée, neantmoins elle commence lors à nous vrayement toucher, quand elle est scellée en nos coeurs par le Sainct Esprit."</em>
+— "For though in its own majesty it has enough to command reverence, nevertheless it then begins truly to touch us when it is sealed in our hearts by the Holy Spirit."</p>
+</blockquote><p>⚠️ <strong>That sentence is the best one-line gloss on the whole chapter, and it is Calvin's own.</strong> Note the structure: <code>though ... in its own majesty ... enough</code> (= αὐτόπιστος, objective) <code>nevertheless ... begins truly to touch US ... when sealed in our hearts</code> (= testimonium, subjective). Objective sufficiency, subjective application. He wrote the distinction into his own vernacular text because he could see readers collapsing it.</p><p><strong>Why the anti-fideism guardrails (S3, S4, S6) had to be there.</strong> By 1559 Calvin had been attacked from two sides simultaneously for exactly twenty years. <strong>Rome</strong> said: deny the Church's judgment and you have no criterion left but private fancy — every man his own pope (this is the burden of Eck's <em>Enchiridion</em> and, after 1546, of Trent's fourth session). The <strong>Anabaptists and spiritualists</strong> — Müntzer's heirs, and closer to home the <em>Libertins spirituels</em> Calvin attacked in a 1545 treatise — said something Calvin found more dangerous because it sounded like his own doctrine: the inner Spirit, the <em>inner word</em>, needs no letter at all. Calvin's §5 answers both in one breath: <code>willingly indeed, and **knowingly**</code> (against the charge of blind fancy) and <code>**a knowledge which accords with the highest reason**</code> (against the charge of irrationalism), while S16's <code>**the same** Spirit</code>-logic from §4 blocks any inner light that runs off from the text. <strong>The two guardrails in S4 are not throat-clearing. They are the load-bearing answers to the two live objections of 1559.</strong></p><p><strong>Where election comes from, and why here.</strong> Readers are often surprised that a chapter on the <em>authority of Scripture</em> ends in election (S10–S16). But follow the logic: if the ground of faith is neither the Church's verdict nor the force of argument, then the difference between the man who believes and the man who does not cannot lie in either — so it must lie in God's giving. <code>**those to whom it is given**</code> (S16, = Matt 13:11) is not an intrusion; it is the only remaining answer. ⚠️ Note the restraint, though: Calvin gives you the <em>fact</em> and explicitly defers the <em>doctrine</em> (<code>we will return to it again</code>, S8 — Book 3). And note S14's brake: election confers no native superiority, since the elect are in the general darkness <code>until they are ingrafted</code>. Anyone who quotes S10 without S14 is quoting half a thought.</p><p><strong>Where it goes afterwards.</strong> Straight into the confessions again. <strong>Belgic Confession 5</strong>: we believe these books "without any doubt... not so much because the Church receives and approves them as such, but more especially because the Holy Ghost witnesseth in our hearts that they are from God" — that is S2, nearly word for word. <strong>Westminster 1.5</strong> ends with <code>our full persuasion and assurance of the infallible truth and divine authority thereof, is from the inward work of the Holy Spirit bearing witness by and with the Word in our hearts</code> — and note <strong><code>by and with the Word</code></strong>, which is the Westminster divines writing S14's and §4 S16's anti-enthusiasm brake into the creed. Later: <strong>Bavinck</strong> systematises the αὐτόπιστος / testimonium pair; <strong>Barth</strong>, <em>CD</em> I/1–I/2, rebuilds self-attestation on very different ground (revelation attesting itself, with a much thinner doctrine of the text); <strong>Plantinga</strong> re-describes S4's <code>willingly indeed, and knowingly</code> in analytic terms — a belief can be warranted without being inferred from other beliefs, so <code>asks not for reasons</code> and <code>accords with the highest reason</code> are not in tension at all. <strong>Plantinga's whole "Reformed epistemology" is, in effect, a 300-page commentary on S6.</strong></p><p><strong>⚠️ Guardrail — four over-readings to refuse.</strong>
+1. <strong>"Calvin is a fideist; faith is against reason."</strong> S6: <code>a knowledge which **accords with the highest reason**</code>, in which the mind rests <code>more firmly and securely **than in any reasons**</code>. S4: <code>willingly indeed, and **knowingly**</code>. The claim is about the <strong>ground</strong> of assurance, not about its rationality. And Chapter 8 — thirteen sections of evidences — is next.
+2. <strong>"The Spirit supplies Scripture's evidence."</strong> No: <code>Scripture, **carrying its own evidence along with it**</code> (S1). The evidence is Scripture's own; the <em>full conviction</em> is what is owed to the Spirit. Two nouns, two owners.
+3. <strong>"So the Church is irrelevant."</strong> S14: the elect themselves remain in the general darkness <code>until they are **ingrafted into the body of the Church**</code>. Calvin denies the Church's <em>authority over</em> Scripture (§§1–3) while affirming the Church as the place where the elect are joined in. Book 4.1 makes the Church <code>mother</code>. Both claims, held together — that is the Reformed position, and §5 is where they touch.
+4. <strong>"Election means the elect are naturally more perceptive."</strong> S13's <code>intelligence</code> is <code>**reserved**</code> — kept back and given, not innate — and S14 puts the elect in the <code>generality</code> until God acts. The separation is God's act in time (<code>separates</code>, present tense, S10), not a quality in them.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Four explicit citations (S5, S9, S12, S15), and the closing clause is an unmarked quotation. As always with Calvin, look at the <strong>grammar</strong> of each proof text, because that is usually what he is after.</p><ol>
+<li>
+<p><strong>S5 — <code>“Ye are my witnesses... that ye may know and believe me, and understand that I am he”</code> ← Isaiah 43:10</strong>, explicit. What Calvin wants is the <strong>purpose clause</strong>: God chose them <code>**that** ye may know and believe me</code>. The knowing is the <strong>goal</strong> of the choosing, not its precondition. That is S10 arriving five sentences early. ⚠️ Note the Hebrew close: אֲנִי הוּא <em>ʾănî hûʾ</em>, "I am he" — the same formula Jesus takes on his own lips in John 8:24, 8:58, 13:19. And <code>witnesses</code> = עֵדַי, the root of <code>testimony</code> (S1) in every language involved.</p>
+</li>
+<li>
+<p><strong>S9 — <code>“shall be taught of the Lord”</code> ← Isaiah 54:13</strong>, explicit. Hebrew לִמּוּדֵי יְהוָה <em>limmûdê YHWH</em>, "taught-ones of the LORD." ⚠️ <strong>Jesus quotes this exact verse in John 6:45</strong> — καὶ ἔσονται πάντες διδακτοὶ θεοῦ — and he quotes it in the middle of the passage that says <code>No man can come to me, except the Father which hath sent me draw him</code> (6:44) and <code>no man can come unto me, except it were given unto him of my Father</code> (6:65). <strong>John 6:44–65 is §5 in miniature: taught of God, and given of the Father.</strong> Calvin does not cite John 6 here. He does not have to; anyone who knows Isaiah 54:13 in the New Testament is already there.</p>
+</li>
+<li>
+<p><strong>S12 — <code>“It is not in heavens that thou shouldest say...”</code> ← Deuteronomy 30:12, 14</strong>, explicit — with v. 13 deliberately skipped (see S12 note). <strong>Paul reuses these same verses in Romans 10:6–8</strong>, redirecting them to <code>the word of faith, which we preach</code>, and then — three verses later — quotes <strong>Isaiah 53:1</strong> (<code>Lord, who hath believed our report?</code>, Rom 10:16). ⚠️ <strong>Calvin's S12 and S15 cite the same two texts, in the same order, that Paul cites in the same paragraph of Romans 10.</strong> That is not coincidence. Calvin is walking Paul's own path from <em>the word is near</em> to <em>who has believed?</em></p>
+</li>
+<li>
+<p><strong>S15 — <code>“To whom has the arm of the Lord been revealed?”</code> ← Isaiah 53:1</strong>, explicit. Quoted in <strong>John 12:38</strong> and <strong>Romans 10:16</strong>, and in <em>both</em> New Testament uses the point is unbelief in the face of full evidence — John 12:37: <code>though he had done so many miracles before them, yet they believed not on him</code>. ⚠️ זְרוֹעַ יְהוָה, <code>the arm of the LORD</code> = God's <strong>effective power in action</strong> (Exod 6:6, Isa 51:9, 52:10). To have it <em>revealed</em> is not to be shown information but to have power land on you. <strong>Calvin's exegetical move — that Isaiah <code>subjoins the reason</code> for the unbelief — depends entirely on reading 53:1b as the cause of 53:1a.</strong></p>
+</li>
+<li>
+<p><strong>S16 — <code>none comprehend the mysteries of God save those to whom it is given</code> ← Matthew 13:11</strong> (ὅτι ὑμῖν δέδοται γνῶναι τὰ <strong>μυστήρια</strong> τῆς βασιλείας τῶν οὐρανῶν, ἐκείνοις δὲ οὐ <strong>δέδοται</strong>) and <strong>Matthew 19:11</strong> (ἀλλ᾽ <strong>οἷς δέδοται</strong>). Unmarked — no quotation marks, no reference. ⚠️ Calvin keeps Matthew's <strong>divine passive</strong> (<code>it is given</code>, agent unnamed) and Matthew's noun (<code>mysteries</code>). Also <strong>1 Corinthians 2:14</strong>: ψυχικὸς δὲ ἄνθρωπος <strong>οὐ δέχεται</strong> τὰ τοῦ πνεύματος τοῦ θεοῦ... <strong>οὐ δύναται γνῶναι</strong>, ὅτι πνευματικῶς ἀνακρίνεται — "neither can he know them, because they are spiritually discerned." <strong>The chapter's last clause is a quotation the reader is expected to finish from memory.</strong></p>
+</li>
+<li>
+<p><strong>S1, S8 — <code>carrying its own evidence</code> / <code>the Spirit of God seals on our hearts</code> ← 2 Corinthians 1:22</strong> (σφραγισάμενος... τὸν ἀρραβῶνα) and <strong>Ephesians 1:13</strong>. Yesterday's seal, still working. ⚠️ And note that Calvin's mature <strong>definition of faith</strong> in III.2.7 will end with the very words of S8: <em>revealed to our minds and </em><em>sealed upon our hearts</em><em> by the Holy Spirit</em>. He is laying the phrase down here to pick it up two books later.</p>
+</li>
+<li>
+<p><strong>S2 — <code>the divine image visibly impressed on it</code> ← 2 Corinthians 3:3</strong> (<code>written not with ink, but with the Spirit of the living God; not in tables of stone, but in fleshy tables of the heart</code>) and <strong>Hebrews 1:3</strong> (χαρακτὴρ τῆς ὑποστάσεως αὐτοῦ — the <em>stamp</em> of his substance). Also <strong>2 Corinthians 4:6</strong> (<code>God, who commanded the light to shine out of darkness, hath shined in our hearts, to give the light of the knowledge of the glory of God</code>) — ⚠️ which is S2's <code>Enlightened by him</code> and <code>in our hearts</code> in a single verse.</p>
+</li>
+<li>
+<p><strong>S4 — <code>a divine energy living and breathing in it</code> ← Hebrews 4:12</strong>: ζῶν γὰρ ὁ λόγος τοῦ θεοῦ καὶ <strong>ἐνεργής</strong> — "quick [= living], and powerful." ⚠️ <strong>Beveridge's two words <code>living</code> and <code>energy</code> are the Greek's two words <code>ζῶν</code> and <code>ἐνεργής</code>, in order.</strong> Also <strong>1 Thessalonians 2:13</strong>: τὸν λόγον θεοῦ, ὃς καὶ <strong>ἐνεργεῖται</strong> ἐν ὑμῖν τοῖς πιστεύουσιν — "which <strong>effectually worketh</strong> also in you that believe" — which supplies S4's other key word, <code>effectually</code>.</p>
+</li>
+<li>
+<p><strong>S4 — <code>willingly indeed, and knowingly... drawn and animated</code> ← Philippians 2:13</strong> (θεὸς γάρ ἐστιν ὁ <strong>ἐνεργῶν</strong> ἐν ὑμῖν καὶ τὸ <strong>θέλειν</strong> καὶ τὸ ἐνεργεῖν — "it is God which worketh in you both <strong>to will</strong> and to do") and <strong>Psalm 110:3</strong> (<code>Thy people shall be **willing** in the day of thy power</code>). ⚠️ ἐνεργῶν again — the third appearance of that root under this one sentence. <strong>Philippians 2:13 is S4's exact logic: God works, and what he works is our willing.</strong> Not instead of the will; in it.</p>
+</li>
+<li>
+<p><strong>S11 — <code>prompt alacrity to hear the Word of God</code> ← Acts 17:11</strong> (the Bereans, οἵτινες ἐδέξαντο τὸν λόγον <strong>μετὰ πάσης προθυμίας</strong> — "with all readiness of mind") and <strong>James 1:19</strong> (ταχὺς εἰς τὸ ἀκοῦσαι, "swift to hear"). ⚠️ And behind both, <strong>1 Samuel 3:9</strong>: <code>Speak, LORD; for thy servant heareth.</code> Calvin's <code>prompt alacrity</code> is προθυμία, and Luke uses it to praise readers who <em>searched the scriptures daily</em> — which is to say, the teachable reader of S9 is the Berean.</p>
+</li>
+<li>
+<p><strong>S14 — <code>ingrafted into the body of the Church</code> ← Romans 11:17–24</strong> (ἐνεκεντρίσθης ἐν αὐτοῖς — "wert graffed in among them") with <strong>1 Corinthians 12:13</strong> (<code>by one Spirit are we all baptized into one body</code>) and <strong>Ephesians 4:15–16</strong>. ⚠️ Paul's verb is passive throughout Romans 11 and so is Calvin's. And Paul's warning in 11:20 (<code>be not highminded, but fear</code>) is S14's pastoral force exactly.</p>
+</li>
+<li>
+<p><strong>S15 — <code>desirous to be thought of the household of God</code> ← Ephesians 2:19</strong> (οἰκεῖοι τοῦ θεοῦ) and <strong>Romans 9:6</strong> (<code>they are not all Israel, which are of Israel</code>). ⚠️ Romans 9:6 is the doctrine of S15 in six words, and it opens the chapter where Paul works out precisely the problem of S16 — the small number of those who believe.</p>
+</li>
+<li>
+<p><strong>S3 — <code>too transcendent for us to estimate</code> ← Romans 11:33</strong> (ὡς <strong>ἀνεξεραύνητα</strong> τὰ κρίματα αὐτοῦ καὶ <strong>ἀνεξιχνίαστοι</strong> αἱ ὁδοὶ αὐτοῦ — "how unsearchable are his judgments, and his ways past finding out") and <strong>Psalm 139:6</strong> (<code>Such knowledge is too wonderful for me; it is high, I cannot attain unto it</code>). ⚠️ Note that Psalm 139:6 in the KJV is almost Beveridge's sentence: <em>too wonderful</em> / <em>too transcendent</em>, <em>I cannot attain</em> / <em>for us to estimate</em>.</p>
+</li>
+<li>
+<p><strong>S6 — <code>the conviction which revelation from heaven alone can produce</code> ← Matthew 16:17</strong>: <code>**flesh and blood hath not revealed it unto thee, but my Father which is in heaven**</code> — and <strong>Galatians 1:11–12</strong> (οὐδὲ γὰρ ἐγὼ παρὰ ἀνθρώπου παρέλαβον αὐτό... ἀλλὰ δι᾽ ἀποκαλύψεως Ἰησοῦ Χριστοῦ). ⚠️ <strong>Matthew 16:17 is §5's thesis in Jesus's own mouth, and it is spoken to Peter — the very apostle Rome's argument in §§1–3 rested on.</strong> Calvin does not point this out. Read §§1–5 as a unit and you will not need him to.</p>
+</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① 어법 — 밑줄 넷 중 어법상 <strong>틀린</strong> 것은?</h3><p>Such, then, ⓐ <u>is a conviction</u> which asks not for reasons; such, a knowledge which accords with the highest reason. This singular privilege ⓑ <u>God bestows</u> on his elect only, whom he separates from the rest of mankind. ⓒ <u>God has been pleased</u> to reserve the treasure of intelligence for his children, no wonder that so much ignorance is seen in the generality of mankind. For what is the beginning of true doctrine ⓓ <u>but prompt alacrity</u> to hear the Word of God?</p><blockquote>
+<p><strong>정답: ⓒ</strong></p>
+<p>The clause <code>no wonder that so much ignorance is seen...</code> is the <strong>main clause</strong> (with <code>it is</code> elided). What precedes it must therefore be <strong>subordinate</strong> — a <strong>nominative absolute</strong>, which requires the participle: <strong><code>God having been pleased to reserve...</code></strong>, exactly as Calvin writes it in S13. As printed in ⓒ, <code>God has been pleased</code> is a <strong>finite verb</strong>, giving two main clauses joined by nothing but a comma. Comma splice.</p>
+<p><strong>출제 의도 — 셋을 미끼로 깔았다.</strong> ⓐ is the <strong>complement-fronted inversion</strong> of S6 (<code>Such ... is a conviction</code>) — it <em>looks</em> wrong because the subject follows the verb, and it is the most-chosen wrong answer. It is correct: <code>Such</code> is the fronted complement, <code>a conviction...</code> is the subject. ⓑ is <strong>OSV</strong> from S10 — <code>This singular privilege</code> is the object, <code>God</code> the subject; students who take the fronted noun phrase for the subject will flag it. It is correct. ⓓ is the <strong>exceptive <code>but</code></strong> of S11 (= <em>except</em>); students who read it as the adversative will call it a fragment. It is correct. <strong>Only ⓒ breaks a rule rather than a habit — and the rule is: 독립분사구문의 동사는 반드시 분사형이어야 한다.</strong></p>
+</blockquote><hr/><h3>② 내용일치 — §5의 내용과 <strong>일치하는</strong> 것은?</h3><ol>
+<li>Calvin teaches that the believer's certainty runs contrary to reason, so that the intellect and the will must be set aside if the Spirit is to seal the word on the heart.</li>
+<li>Calvin holds that Scripture carries its own evidence and does not stoop to be proved by argument, yet insists that the resulting conviction is neither credulity nor superstition: the believer obeys willingly and knowingly, and the knowledge accords with the highest reason.</li>
+<li>Since God bestows this singular privilege on his elect only, Calvin concludes that the elect are exempt from the ignorance which marks the generality of mankind.</li>
+<li>Calvin denies that human agency played any part in the giving of Scripture, since he holds that it came from the very mouth of God.</li>
+</ol><blockquote>
+<p><strong>정답: ②</strong></p>
+<p>S1 (<code>carrying its own evidence along with it, deigns not to submit to proofs and arguments</code>) + S4 (<code>not in the manner in which some are wont to fasten on an unknown object</code> / <code>not like miserable men, whose minds are enslaved by superstition</code> / <code>willingly indeed, and knowingly</code>) + S6 (<code>a knowledge which accords with the highest reason</code>). Thesis and both guardrails, in Calvin's own words.</p>
+<p><strong>출제 의도 — 네 개의 서로 다른 오독을 한 문제에 심었다.</strong>
+① <strong>방향 뒤집기 — 이 절 최대의 함정.</strong> It takes S3 (<code>We ask not for proofs</code>) and runs it past S4 and S6, which say the opposite about reason. <code>willingly indeed, and **knowingly**</code> explicitly keeps the will and the intellect <strong>engaged</strong>; <code>accords with the highest reason</code> explicitly denies the contrariety. 3절만 읽고 4·6절을 안 읽으면 반드시 걸린다.
+③ <strong>S10만 읽고 S14를 안 읽은 경우.</strong> <code>In the generality, **I include even those specially chosen**, until they are ingrafted into the body of the Church</code> — the elect are <strong>inside</strong> the generality until God acts. This distractor is the single most tempting one, because its first clause is a verbatim quotation of S10. <strong>인용이 정확하다고 추론까지 옳은 것은 아니다.</strong>
+④ <strong>범위 초과 + 접속의 무시.</strong> S2 says <strong>both</strong>: <code>it came to us, **by the instrumentality of men**, **from the very mouth of God**</code>. Calvin affirms human instrumentality and divine origin in one clause. 이 선지는 문장의 절반만 인용한 것이다.</p>
+</blockquote><hr/><h3>③ 영작 — 오늘의 공식을 적용해 영작하시오.</h3><blockquote>
+<p><strong>(a)</strong> [Formula 1] "이런 것이 바로 근거를 구하지 않는 확신이며, 이런 것이 어떤 논증보다도 더 든든히 마음이 안식하는 지식이다." — <code>Such ... is ...</code> 도치를 쓰되, <strong>두 번째 다리에서는 동사를 생략</strong>할 것.
+<strong>(b)</strong> [Formula 2] "이것을 우리는 우리 자신의 판단으로 하지 않는다. 이 특권을 하나님은 자기 자녀에게만 주신다. 그리고 성령께서 이미 말씀을 마음에 인치셨으므로, 어떤 논증도 더할 것이 없는 것은 당연하다." — ①OSV, ②OSV, ③독립분사구문을 각각 한 문장씩.
+<strong>(c)</strong> [Formula 3] "참된 순종의 시작이란 하나님의 말씀을 기꺼이 들으려는 마음 말고 무엇이겠는가? 그리고 성령께서 가르치신 자들 외에는 아무도 그렇게 듣지 못한다." — <code>what is X but Y?</code> 와 <code>none ... save ...</code> 를 각각 쓸 것.</p>
+<p><strong>모범답안:</strong>
+<strong>(a)</strong> <strong>Such is the conviction which asks not for reasons; such, a knowledge in which the mind rests more firmly than in any argument.</strong>
+<strong>(b)</strong> <strong>This we do not on our own judgment. This privilege God bestows on his children only. And the Spirit having already sealed the word upon our hearts, no wonder that no argument can add anything to it.</strong>
+<strong>(c)</strong> <strong>For what is the beginning of true obedience but a willing readiness to hear the Word of God? And none so hear it save those whom the Spirit has taught.</strong></p>
+<p><strong>채점 포인트.</strong> <strong>(a)</strong> 두 번째 다리에 <code>is</code>를 다시 쓰면 감점 — 오늘 공식의 핵심은 <strong>gapping</strong>이다. 그리고 <code>Such a conviction is...</code>로 쓰면 0점: <code>such</code>가 한정사가 되어 도치가 사라진다. <strong>(b)</strong> ①②는 반드시 <strong>목적어를 문두에</strong> 둘 것 (<code>This we do...</code> / <code>This privilege God bestows...</code>) — 정상 어순으로 쓰면 공식 미적용. ③은 반드시 <strong>분사형</strong> (<code>the Spirit having sealed</code>) — <code>the Spirit has sealed</code>로 쓰면 콤마 접속이 되어 즉시 0점. <code>no wonder that</code>의 <code>it is</code> 생략은 유지해도 좋고 복원해도 좋다. <strong>(c)</strong> <code>but</code>과 <code>save</code>를 <strong>역접·구원</strong>으로 오해한 답안(예: <code>but we need also...</code>, <code>except we are saved...</code>)은 즉시 0점. 두 단어 모두 <strong>except</strong>의 자리에 있어야 한다. <code>what is X but Y?</code>는 의문부호까지 살릴 것 — 수사의문이 곧 단언이다.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> Chapter 7 closes by fixing the point it has been driving at since §1: <code>those who are inwardly taught by the Holy Spirit acquiesce implicitly in Scripture</code>, because <code>Scripture, carrying its own evidence along with it, deigns not to submit to proofs and arguments, but owes the full conviction with which we ought to receive it to the testimony of the Spirit</code> (<strong>αὐτόπιστος</strong> + <strong>testimonium</strong>, objective sufficiency and subjective sealing) — so that we <code>feel perfectly assured—as much so as if we beheld the divine image visibly impressed on it—that it came to us, **by the instrumentality of men, from the very mouth of God**</code>; and lest anyone call this credulity or superstition, Calvin bolts on both guardrails (<code>not... to fasten on an unknown object</code> / <code>not like miserable men, whose minds are enslaved by superstition</code>) and the three words that decide the whole debate, <code>**willingly indeed, and knowingly**</code>, yielding the paradox of S6 — <code>a conviction which asks not for reasons; ... a knowledge which accords with the highest reason</code> — after which the chapter turns pastoral and asks why so few believe: the children of the renovated Church <code>shall be taught of the Lord</code>, <code>this singular privilege God bestows on his elect only</code>, <code>God having been pleased to reserve the treasure of intelligence for his children</code> — yet <code>**I include even those specially chosen, until they are ingrafted into the body of the Church**</code> — and Isaiah, seeing the doctrine <code>prove incredible not only to strangers, but also to the Jews</code>, <code>subjoins the reason</code>: <code>To whom has the arm of the Lord been revealed?</code> So: <code>**none comprehend the mysteries of God save those to whom it is given.**</code></p><p><strong>And the three grammar points, once more:</strong></p><ol>
+<li><strong><code>SUCH + BE + S</code></strong> (S6) — complement fronted, subject and verb inverted, and the verb <strong>gapped</strong> in legs two and three. <code>Such</code> is never the subject and never a determiner here. Restore the <code>is</code> and the sentence turns simple.</li>
+<li><strong>The fronting family</strong> — <strong>OSV</strong> (<code>This, however, we do</code> S4; <code>This singular privilege God bestows</code> S10: the fronted noun phrase is the <strong>object</strong>); <strong>fronted participle</strong> (<code>Enlightened by him</code> S2; <code>carrying its own evidence</code> S1; <code>while reminding us</code> S15); <strong>nominative absolute</strong> with its own subject and an obligatory participle (<code>God having been pleased...</code> S13 — a finite verb here is a comma splice).</li>
+<li><strong>Exceptive <code>but</code> and <code>save</code> = EXCEPT</strong> — <code>what is the beginning of true doctrine **but** prompt alacrity to hear?</code> (S11, rhetorical question = strong assertion) and <code>none comprehend... **save** those to whom it is given</code> (S16). Plus the running old-style negation with no <em>do</em> and no inversion: <code>deigns not</code>, <code>ask not</code>, <code>asks not</code>.</li>
+</ol><p><strong>Homework (10 minutes).</strong></p><p><strong>① Structure restoration.</strong> Take S4 — the seventy-nine-word monster — and rebuild it as <strong>four</strong> flat sentences, keeping every element:</p><blockquote>
+<p><em>This, however, we do, not in the manner in which some are wont to fasten on an unknown object, which, as soon as known, displeases, but because we have a thorough conviction that, in holding it, we hold unassailable truth; not like miserable men, whose minds are enslaved by superstition, but because we feel a divine energy living and breathing in it—an energy by which we are drawn and animated to obey it, willingly indeed, and knowingly, but more vividly and effectually than could be done by human will or knowledge.</em></p>
+<p>Target shape: (i) We do this. (ii) We do NOT do it as A does — because A's attraction dies on acquaintance. (iii) We do it because P. (iv) We are not like B — we do it because Q. — Then mark the <strong>main clause</strong> (four words), circle the <strong>two <code>not ... but</code> pairs</strong>, and say in one line why <code>willingly indeed, and knowingly</code> cannot be deleted without changing Calvin's doctrine.</p>
+</blockquote><p><strong>② Composition.</strong> Write three English sentences on this content using <strong>Formula 1 in the first, Formula 2③ in the second, Formula 3① in the third</strong>:</p><blockquote>
+<p><em>"Such is the certainty the Spirit gives; such, a rest the mind cannot argue itself into. And the Spirit having sealed the word upon the heart, no wonder that the believer asks for no further proof. For what is that sealing but God bearing witness to his own speech?"</em>
+— then check your work against S6 for the gapping, against S13 for the participle, and against S11 for the exceptive <code>but</code>.</p>
+</blockquote><p><strong>③ Tomorrow's preview (one line).</strong> Chapter 7 is finished; tomorrow we open <strong>Chapter 8, "The credibility of Scripture sufficiently proved in so far as natural reason admits"</strong> — the chapter §4 promised when it granted that <code>it is easy to establish, by evidence of various kinds</code> — and §1 begins with the <strong>secondary helps</strong>: <code>the arrangement of the sacred volume</code>, its dignity, truth, simplicity, efficacy, majesty. ⚠️ Read it with <code>preposterous</code> (§4 S10) in one hand and <code>deigns not to submit</code> (§5 S1) in the other, and watch how Calvin can spend thirteen sections on proofs he has just told you cannot produce faith. <strong>That tension is not a lapse. It is the two-tier structure — <em>indicia</em> under <em>testimonium</em> — and Chapter 8 is where you find out he meant it.</strong></p><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 7, §5 끝 — <strong>Chapter 7 완료</strong>. 다음은 <strong>Book 1, Ch. 8, §1</strong> (Day 37) — 성경의 신빙성을 자연이성이 허용하는 한에서 증명하는 부차적 보조 증거들: 성경의 배열·존엄·진실성·단순성·효력.</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>

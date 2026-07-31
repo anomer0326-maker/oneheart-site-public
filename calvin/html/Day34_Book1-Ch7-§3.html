@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 성경의 권위와 성령의 내적 증거 §3 (1권 7장 · Day 34) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 7장 §3(성경의 권위와 성령의 내적 증거)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 34. 연관 성구: 히브리서 11, 에베소서 2, 고린도전서 11, 갈라디아서 1."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day34_Book1-Ch7-%C2%A73.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="성경의 권위와 성령의 내적 증거 §3 — 기독교 강요 영어로 읽기 (Day 34)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 7장 §3(성경의 권위와 성령의 내적 증거)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 34. 연관 성구: 히브리서 11, 에베소서 2, 고린도전서 11, 갈라디아서 1."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day34_Book1-Ch7-%C2%A73.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 성경의 권위와 성령의 내적 증거 §3 (1권 7장 · Day 34) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 7장 §3(성경의 권위와 성령의 내적 증거)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 34. 연관 성구: 히브리서 11, 에베소서 2, 고린도전서 11, 갈라디아서 1.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 7장 §3 — 성경의 권위와 성령의 내적 증거","mentions":[{"@type":"CreativeWork","name":"히브리서 11 (Heb 11)"},{"@type":"CreativeWork","name":"에베소서 2 (Ephesians 2)"},{"@type":"CreativeWork","name":"고린도전서 11 (1 Corinthians 11)"},{"@type":"CreativeWork","name":"갈라디아서 1 (Galatians 1)"},{"@type":"CreativeWork","name":"요한복음 5 (John 5)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day34_Book1-Ch7-%C2%A73.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 34 — Book 1, Chapter 7, §3<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (the whole § — 15 sentences, verbatim)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl2" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl2" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl3" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl3" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl2" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl3" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl3" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl3" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl2" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl1" href="#S11" onclick="closeNavMobile()">S11</a><a class="toc-s lvl2" href="#S12" onclick="closeNavMobile()">S12</a><a class="toc-s lvl2" href="#S13" onclick="closeNavMobile()">S13</a><a class="toc-s lvl1" href="#S14" onclick="closeNavMobile()">S14</a><a class="toc-s lvl2" href="#S15" onclick="closeNavMobile()">S15</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (어원 후킹 테이블)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 34 — Book 1, Chapter 7, §3</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday Calvin swung Ephesians 2:20 and knocked the argument flat. Today the opponent gets back up holding <strong>the biggest club in the sixteenth-century arsenal</strong> — a single line from Augustine:</p><blockquote>
+<p><em>Ego vero Evangelio non crederem, nisi me catholicae Ecclesiae commoveret auctoritas.</em>
+"I would not believe the gospel, were I not moved by the authority of the Church."</p>
+</blockquote><p>Look at the problem. It is not a bad prooftext. It is <strong>Augustine</strong> — the one Father both sides claim, the one Calvin quotes more than anyone alive or dead. If that sentence means what Rome says it means, Calvin's §2 collapses and the Reformation's foundation goes with it. So §3 is not a doctrinal section. <strong>§3 is a hermeneutics lesson.</strong> Calvin does not answer Augustine. He answers a <em>misreading</em> of Augustine — and the method he uses is the one you should steal for the rest of your life: <strong>go get the context.</strong></p><p>Watch the four moves, because they are a template:</p><ol>
+<li><strong>State the opponent's citation honestly</strong> (S1) — chapter and verse included, no shaving.</li>
+<li><strong>Reconstruct the argumentative situation</strong> (S3–S4) — <em>whom</em> was he arguing with? <em>What</em> were they demanding? Augustine is fighting Manichees who wanted <code>implicitly believed</code> on their bare say-so, and who were quoting the gospel at him. So he asks: what would you say to a man who doesn't even accept the gospel yet?</li>
+<li><strong>Restate the sentence inside that situation</strong> (S5) — <em>were he a stranger to the faith</em>. That is the whole key. Augustine is describing <strong>the outsider's road in</strong>, not <strong>the believer's ground of certainty</strong>.</li>
+<li><strong>Produce the counter-evidence from the same author, a few lines earlier</strong> (S8) — where Augustine says the real teacher is <code>God himself internally strengthening and illuminating our minds</code>. Same treatise. Same chapter neighbourhood. Case closed.</li>
+</ol><p>And then — this is why Calvin is a great polemicist and not merely a loud one — <strong>he concedes what is true</strong> (S9, S11, S14). Yes, the Church leads people on. Yes, Augustine really did press the Manichees with the Church's consent. Calvin gives away everything he can afford to give, and keeps only the one thing that matters: <strong>the ground of the godly's certainty is a different foundation.</strong></p><p><strong>Today's 3 Big Points — write them down now:</strong></p><ol>
+<li><strong>If-deletion + inversion in the past subjunctive — THREE times in one section</strong> (S1 <code>were he not moved</code>, S5 <code>were he a stranger</code>, S7 <code>were they not influenced</code>). The <code>if</code> is gone; the verb <code>were</code> jumps in front of the subject. Miss this and you will read a conditional as a statement of fact.</li>
+<li><strong><code>not A ... nor B ... but merely C</code></strong> — the concession-and-retention machine. S7 is the triple-decker version (<code>does not here say ... nor does he mean ... he merely says</code>), and S9 is the compressed version (<code>had no intention **to suspend** ... but only **to intimate**</code> — one head noun, two infinitives, one negated).</li>
+<li><strong><code>would have X to V</code> = "wants X to V"</strong> (S10). This is volitional <code>have</code>, not a perfect tense and not an obligation. Beveridge's most quietly lethal construction, and it is exactly where the examiner will strike.</li>
+</ol><p>Fifteen sentences. One quotation, one context, one boundary line. Let's go.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (the whole § — 15 sentences, verbatim)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+3. I am aware it is usual to quote a sentence of Augustine in which he says that he would not believe the gospel, were he not moved by the authority of the Church (Aug. Cont. Epist. Fundament. c. 5). But it is easy to discover from the context, how inaccurate and unfair it is to give it such a meaning. He was reasoning against the Manichees, who insisted on being implicitly believed, alleging that they had the truth, though they did not show they had. But as they pretended to appeal to the gospel in support of Manes, he asks what they would do if they fell in with a man who did not even believe the gospel—what kind of argument they would use to bring him over to their opinion. He afterwards adds, “But I would not believe the gospel,” &amp;c.; meaning, that were he a stranger to the faith, the only thing which could induce him to embrace the gospel would be the authority of the Church. And is it any thing wonderful, that one who does not know Christ should pay respect to men? Augustine, therefore, does not here say that the faith of the godly is founded on the authority of the Church; nor does he mean that the certainty of the gospel depends upon it; he merely says that unbelievers would have no certainty of the gospel, so as thereby to win Christ, were they not influenced by the consent of the Church. And he clearly shows this to be his meaning, by thus expressing himself a little before: “When I have praised my own creed, and ridiculed yours, who do you suppose is to judge between us; or what more is to be done than to quit those who, inviting us to certainty, afterwards command us to believe uncertainty, and follow those who invite us, in the first instance, to believe what we are not yet able to comprehend, that waxing stronger through faith itself, we may become able to understand what we believe—no longer men, but God himself internally strengthening and illuminating our minds? These unquestionably are the words of Augustine (August. Cont. Epist. Fundament. cap. 4); and the obvious inference from them is, that this holy man had no intention to suspend our faith in Scripture on the nod or decision of the Church, but only to intimate (what we too admit to be true) that those who are not yet enlightened by the Spirit of God, become teachable by reverence for the Church, and thus submit to learn the faith of Christ from the gospel. In this way, though the authority of the Church leads us on, and prepares us to believe in the gospel, it is plain that Augustine would have the certainty of the godly to rest on a very different foundation. At the same time, I deny not that he often presses the Manichees with the consent of the whole Church, while arguing in support of the Scriptures, which they rejected. Hence he upbraids Faustus (lib. 32) for not submitting to evangelical truth—truth so well founded, so firmly established, so gloriously renowned, and handed down by sure succession from the days of the apostles. But he nowhere insinuates that the authority which we give to the Scriptures depends on the definitions or devices of men. He only brings forward the universal Judgment of the Church, as a point most pertinent to the cause, and one, moreover, in which he had the advantage of his opponents. Any one who desires to see this more fully proved may read his short treatises, De Utilitate Credendi (The Advantages of Believing), where it will be found that the only facility of believing which he recommends is that which affords an introduction, and forms a fit commencement to inquiry; while he declares that we ought not to be satisfied with opinion, but to strive after substantial truth.
+⚠️ Text note (transcription, not Calvin): three housekeeping items from our local Beveridge file. (1) The line-break hyphenation au-/thority in S7 has been closed to authority. (2) The footnote markers 19 (after decision of the Church, S9) and 20 (after a very different foundation, S10) have been stripped — both are cited in Period 6, and marker 20 is the De Ordine passage that is the hidden key to the whole section. (3) The long Augustine quotation in S8 opens with a quotation mark at “When I have praised and never closes. The closing mark should fall after illuminating our minds? — Beveridge (or the scan) dropped it. I quote the file as it stands, but read the quotation as ending there, because S9 (These unquestionably are the words of Augustine) proves that is where Calvin stopped quoting.
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>[THEIR CLUB]      S1     "I would not believe the gospel, were I not moved
+                         by the authority of the Church" (Contra Epist. Fund. 5)
+[THE VERDICT]     S2     Read the CONTEXT — that meaning is inaccurate and unfair
+
+  ── CONTEXT RECONSTRUCTION ──
+[WHO?]            S3     Manichees: demanded to be believed IMPLICITLY,
+                         claimed truth but never showed it
+[WHAT SITUATION?] S4     They quote the gospel for Manes → Augustine asks:
+                         what would you say to a man who does not even believe
+                         the gospel? what argument would you use?
+[SO THE LINE      S5     "But I would not believe the gospel" = WERE HE A STRANGER
+ MEANS]                  TO THE FAITH, the only thing that could induce him = the
+                         Church's authority                    ← the whole key
+[AND SO WHAT?]    S6     No surprise: a man who doesn't know Christ respects men
+
+  ── THE THREE-PART DENIAL ──
+[NOT]             S7     NOT: godly faith is founded on Church authority
+[NOR]                    NOR: gospel certainty depends on it
+[BUT MERELY]             MERELY: unbelievers would have no certainty ... were they
+                         not influenced by the Church's consent
+
+  ── PROOF FROM THE SAME AUTHOR ──
+[HIS OWN WORDS]   S8     Contra Epist. Fund. 4: follow those who invite us to
+                         believe first, so that GROWING STRONGER THROUGH FAITH
+                         we become able to understand — "no longer men, but
+                         GOD HIMSELF internally strengthening and illuminating"
+[INFERENCE]       S9     ∴ no intention to SUSPEND faith on the Church's nod,
+                         but only to INTIMATE (which we too admit!) that the
+                         unenlightened become TEACHABLE by reverence for the Church
+[BOUNDARY LINE]   S10    Church leads us on + prepares us — YET Augustine would
+                         have the certainty of the godly rest on a DIFFERENT
+                         foundation
+
+  ── THE HONEST CONCESSION ──
+[GRANTED]         S11    I deny not: he often presses the Manichees with the
+                         consent of the whole Church
+[EXAMPLE]         S12    Contra Faustum 32 — truth so founded, so established,
+                         so renowned, handed down by sure succession
+[BUT]             S13    He NOWHERE insinuates that our authority for Scripture
+                         depends on men's definitions or devices
+[WHAT IT WAS]     S14    Only a point pertinent to the cause — and one where he
+                         had the advantage over his opponents
+[GO READ IT]      S15    De Utilitate Credendi: the only "facility of believing"
+                         he recommends = an INTRODUCTION, a fit COMMENCEMENT to
+                         inquiry — not satisfied with opinion, strive after
+                         SUBSTANTIAL truth
+</code></pre><p><strong>Examiner's Eye — the traps they will set:</strong></p><p><strong>Trap 1 (S1, S5, S7): the three vanished <code>if</code>s.</strong> <code>were he not moved</code>, <code>were he a stranger</code>, <code>were they not influenced</code> — all three are <strong>counterfactual conditionals with <code>if</code> deleted and the verb inverted</strong>. The distractor will read S5 as a statement — "Augustine was a stranger to the faith" — or read S7's tail as "unbelievers have no certainty of the gospel <em>and</em> are not influenced by the Church." Both destroy the sentence. Restore the <code>if</code> every time.</p><p><strong>Trap 2 (S7): the scope of the denial.</strong> Calvin denies <strong>two</strong> things and grants <strong>one</strong>. Denied: (a) godly faith founded on Church authority; (b) gospel certainty depending on it. Granted: (c) unbelievers would have no certainty <em>so as thereby to win Christ</em> apart from the Church's consent. An option that says "Calvin holds the Church's testimony has no effect on anyone at all" has swallowed (c) along with (a) and (b). Over-scope. Kill it.</p><p><strong>Trap 3 (S9–S10): <code>teachable</code> and <code>leads us on</code> are Calvin's own concessions.</strong> Note the parenthesis in S9 — <code>(what we too admit to be true)</code>. Calvin <strong>agrees</strong> that reverence for the Church makes the unenlightened teachable, and S10 grants that the Church <code>leads us on, and prepares us to believe</code>. The trap option will present these clauses as the <em>Roman</em> position that Calvin rejects. Direction-flip on a concessive clause — the classic.</p><p><strong>Trap 4 (S10): <code>would have ... to rest</code>.</strong> This is <em>want</em>, not <em>would have had</em> and not <em>had to</em>. "Augustine had to make the certainty of the godly rest on..." is wrong. "Augustine wanted the certainty of the godly to rest on..." is right.</p><p><strong>Trap 5 (S13): <code>nowhere</code> in mid-position does NOT invert.</strong> <code>he nowhere insinuates</code> — subject, then the negative adverb, then the verb. Compare S7's <code>nor does he mean</code>, where the negative is <strong>fronted</strong> and therefore <em>does</em> invert. Same section, both patterns, side by side. That is an exam item waiting to happen.</p><p><strong>Trap 6 (S15): <code>facility</code> and <code>substantial</code>.</strong> <code>facility of believing</code> = <em>easiness/readiness</em> to believe (Latin <em>facilitas</em>), NOT a building and NOT a skill. <code>substantial truth</code> = truth <em>with substance/reality</em> in it, NOT "a large amount of truth."</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">The opponent's club — and the first vanished if</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>"I am aware it is usual to quote a sentence of Augustine in which he says that he would not believe the gospel, were he not moved by the authority of the Church (Aug. Cont. Epist. Fundament. c. 5)."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` I am aware</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>it is usual</b></span></li><li><span class="leaf"><b>to quote</b> a sentence</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of Augustine</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in which</b> he says</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> he <b>would not believe</b> the gospel</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>were he not moved</b> by the authority of the Church</span></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Aug. Cont. Epist. Fundament. c. 5</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>aware</em> &lt; OE <em>gewær</em> (watchful) — cognate with <em>ware</em>, <em>wary</em>, <em>beware</em>. — <em>usual</em> &lt; <em>usus</em> (use, custom) → what is customarily done, NOT what is proper. — <em>commoveret</em> (the Latin behind <em>moved</em>) = <em>com-</em> + <em>movere</em> → to move thoroughly, to stir; cf. <em>commotion</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it is usual to V</em> = ~하는 것이 상례다; <em>be moved by</em> = ~에 의해 마음이 움직이다/설득되다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I know people often quote a line from Augustine where he says he would not believe the gospel if the Church's authority did not move him (Against the Letter of Mani 5).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>I am aware it is usual to quote</b> → <em>I know people often quote</em></li><li><b>were he not moved by</b> → <em>if he were not moved by</em></li><li><b>a sentence of Augustine in which he says</b> → <em>a line from Augustine where he says</em></li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s2" title="2-star">★★</span><span class="s-label">how ... it is to V — the verdict, stated before the evidence</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>"But it is easy to discover from the context, how inaccurate and unfair it is to give it such a meaning."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf">` <b>But</b></span></li><li><span class="leaf">it is easy</span></li><li><span class="leaf"><b>to discover</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">from the context</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>how inaccurate and unfair</b></span></li><li><span class="leaf"><b>it is</b></span></li><li><span class="leaf"><b>to give</b> it such a meaning</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>context</em> = <em>con-</em> (together) + <em>texere</em> (to weave) → the weave around a thread; cf. <em>textile</em>, <em>texture</em>, <em>pretext</em> (§1's word!). — <em>unfair</em> here carries its full old force: not merely "unkind" but <em>not according to what is due</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it is easy to discover from X how ...</em> = X만 보면 ~인지 금방 드러난다; <em>to give a passage such a meaning</em> = 그 구절에 그런 뜻을 부여하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But the context makes it obvious how wrong and how unfair that reading is.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>it is easy to discover from the context</b> → <em>the context makes it obvious</em></li><li><b>inaccurate and unfair</b> → <em>wrong and unfair</em></li><li><b>to give it such a meaning</b> → <em>that reading</em></li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Who was in the room — plus a gapping trap</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>"He was reasoning against the Manichees, who insisted on being implicitly believed, alleging that they had the truth, though they did not show they had."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` He was reasoning</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>against the Manichees</b></span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who insisted on</b></span><ul class="tr"><li><span class="leaf"><b>being implicitly believed</b></span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>alleging</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that they had the truth</span></li></ul></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf"><b>though</b> they did not show ‹that› they had ‹it›</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>implicitly</em> &lt; <em>implicare</em> = <em>in-</em> + <em>plicare</em> (to fold) → folded-in; cf. <em>complicated</em>, <em>explicit</em> (folded OUT = spelled out). Beautiful pair: implicit faith = faith never unfolded; explicit faith = faith unfolded and looked at. — <em>allege</em> &lt; <em>ad-</em> + <em>litigare</em> (to dispute) → to put forward in a dispute, hence to assert without proof.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>insist on V-ing</em> = ~할 것을 고집하다; <em>reason against</em> = ~을 상대로 논증하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">He was arguing against the Manichees, who demanded to be believed without question, claiming they had the truth while never demonstrating it.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>insisted on being implicitly believed</b> → <em>demanded to be believed without question</em></li><li><b>alleging that they had the truth</b> → <em>claiming they had the truth</em></li><li><b>though they did not show they had</b> → <em>while never demonstrating it</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">The situation — indirect questions, a dash-appositive, and fall in with</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>"But as they pretended to appeal to the gospel in support of Manes, he asks what they would do if they fell in with a man who did not even believe the gospel—what kind of argument they would use to bring him over to their opinion."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>As</b> they <b>pretended to appeal</b> to the gospel</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in support of Manes</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">he <b>asks</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>what</b> they <b>would do</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if</b> they <b>fell in with</b> a man</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who did not even believe</b> the gospel</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>what kind of argument</b> they <b>would use</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to bring him over to their opinion</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>pretend</em> = <em>prae-</em> (before) + <em>tendere</em> (to stretch) → to hold out in front, to lay claim; cf. <em>pretender to the throne</em> (= claimant, not liar!). — <em>appeal</em> &lt; <em>ad-</em> + <em>pellere</em> (to drive) → to drive one's case toward a higher court; still a legal word. — <em>opinion</em> &lt; <em>opinari</em> (to suppose) → what is supposed, contrasted through this chapter with <em>certainty</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>fall in with someone</em> = 우연히 마주치다 (NOT "동의하다" here — that sense exists, but the `with a man who did not even believe` object forces the encounter sense); <em>bring someone over to</em> = ~쪽으로 끌어오다/설득해 넘어오게 하다; <em>in support of</em> = ~을 옹호하여.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But since they were claiming the gospel as support for Mani, he asks what they would do if they ran into someone who did not even accept the gospel — what argument they would use to win him over.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>as they pretended to appeal to the gospel</b> → <em>since they were claiming the gospel</em></li><li><b>fell in with a man</b> → <em>ran into someone</em></li><li><b>bring him over to their opinion</b> → <em>win him over</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">THE KEY SENTENCE — the second vanished if, and the meaning restored</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>"He afterwards adds, “But I would not believe the gospel,” &amp;c.; meaning, that were he a stranger to the faith, the only thing which could induce him to embrace the gospel would be the authority of the Church."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`
+He afterwards <b>adds</b>, “But I would not believe the gospel,” &amp;c</span></li><li><span class="leaf"><b>meaning</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>were he a stranger to the faith</b></span></li></ul></li><li><span class="leaf"><b>the only thing</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which could induce</b> him to embrace the gospel</span></li></ul></li></ul></li><li><span class="leaf"><b>would be</b></span></li><li><span class="leaf">the authority of the Church</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>induce</em> = <em>in-</em> + <em>ducere</em> (to lead) → to lead in; cf. <em>conduct</em>, <em>educate</em> (lead out), <em>seduce</em> (lead aside). Note it is a leading word, not a founding word — the whole distinction of the section is embedded in the verb. — <em>embrace</em> = <em>em-</em> + <em>bracchium</em> (arm) → take into the arms. — <em>stranger</em> &lt; <em>extraneus</em> (outside) → cf. <em>extraneous</em>, Fr. <em>étranger</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>a stranger to X</em> = X를 전혀 모르는 사람; <em>induce someone to V</em> = ~하도록 이끌다; <em>&amp;c.</em> = 등등(et cetera).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">He then adds, "But I would not believe the gospel," and so on — meaning that if he were an outsider to the faith, the only thing that could lead him to accept the gospel would be the Church's authority.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>he afterwards adds</b> → <em>he then adds</em></li><li><b>were he a stranger to the faith</b> → <em>if he were an outsider to the faith</em></li><li><b>induce him to embrace</b> → <em>lead him to accept</em></li><li><b>&amp;c.</b> → <em>and so on</em></li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Rhetorical question + putative should</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>"And is it any thing wonderful, that one who does not know Christ should pay respect to men?"</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf">` <b>And is it any thing wonderful</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> one</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who does not know Christ</b></span></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>should pay</b> respect to men?</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>wonderful</em> = <em>wonder</em> + <em>-ful</em> → full of (cause for) wonder, i.e. astonishing. Trap word. — <em>respect</em> = <em>re-</em> + <em>specere</em> (to look) → to look back at, regard.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Is it any thing wonderful that ...?</em> = ~하는 것이 조금이라도 놀랄 일인가?; <em>pay respect to</em> = ~에게 경의를 표하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And is it the least bit surprising that someone who does not know Christ defers to human beings?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>is it any thing wonderful</b> → <em>is it the least bit surprising</em></li><li><b>should pay respect to men</b> → <em>defers to human beings</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">The three-part denial — not ... nor ... merely + the third vanished if</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>"Augustine, therefore, does not here say that the faith of the godly is founded on the authority of the Church; nor does he mean that the certainty of the gospel depends upon it; he merely says that unbelievers would have no certainty of the gospel, so as thereby to win Christ, were they not influenced by the consent of the Church."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>godly</em> = <em>god</em> + <em>-ly</em> → God-oriented, pious (the standing Beveridge rendering of <em>pii</em>). — <em>consent</em> = <em>con-</em> (together) + <em>sentire</em> (to feel/think) → thinking together; cf. <em>consensus</em>, <em>sentiment</em>. — <em>thereby</em> = <em>there</em> + <em>by</em> → by that means (the <em>there-</em> adverb family: <em>thereby, therein, thereof, thereupon</em>).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>nor does S V</em> = ~하지도 않는다 (도치 필수); <em>so as to V</em> = ~할 수 있도록/~하기에 이르도록; <em>depend upon</em> = ~에 달려 있다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So Augustine is not saying here that the faith of believers rests on the Church's authority, and he does not mean that the gospel's certainty depends on it. All he says is that unbelievers would have no certainty of the gospel — the kind that would bring them to Christ — if the Church's agreement did not influence them.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>does not here say</b> → <em>is not saying here</em></li><li><b>nor does he mean</b> → <em>and he does not mean</em></li><li><b>he merely says</b> → <em>all he says is</em></li><li><b>so as thereby to win Christ</b> → <em>the kind that would bring them to Christ</em></li><li><b>were they not influenced</b> → <em>if ... did not influence them</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Augustine in his own voice — purpose that ... may, and an absolute construction that names the real teacher</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>"And he clearly shows this to be his meaning, by thus expressing himself a little before: “When I have praised my own creed, and ridiculed yours, who do you suppose is to judge between us; or what more is to be done than to quit those who, inviting us to certainty, afterwards command us to believe uncertainty, and follow those who invite us, in the first instance, to believe what we are not yet able to comprehend, that waxing stronger through faith itself, we may become able to understand what we believe—no longer men, but God himself internally strengthening and illuminating our minds?"</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`
+He <b>shows</b> this <b>to be</b> his meaning</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>by thus expressing himself a little before</b></span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>When</b> I have praised my own creed, and ridiculed yours</span></li></ul></li><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who</b> do you suppose</span><ul class="tr"><li><span class="leaf"><b>is to judge</b> between us</span></li><li><span class="lab ph">등위 (or)</span><span class="leaf"><b>or what more is to be done</b></span></li><li><span class="leaf"><b>than</b> ⓐ <b>to quit</b> those</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">who, afterwards <b>command</b> us to believe uncertainty</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">inviting us to certainty</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and ⓑ ‹to› <b>follow</b> those</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who <b>invite</b> us, to believe</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in the first instance</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">what we are not yet able to comprehend</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> <b>we may become able</b> to understand</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">waxing stronger through faith itself</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">what we believe</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>no longer men, but God himself</b> internally <b>strengthening and illuminating</b> our minds?</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>wax</em> (v.) &lt; OE <em>weaxan</em> (to grow) — cognate with Ger. <em>wachsen</em>, Lat. <em>augere</em>; survives in <em>waxing moon</em> and <em>wax and wane</em>. Trap word — nothing to do with candles. — <em>creed</em> &lt; <em>credo</em> (I believe). — <em>illuminate</em> = <em>in-</em> + <em>lumen</em> (light) → to light up from within; cf. §5's <em>enlightened</em>. — <em>comprehend</em> = <em>com-</em> + <em>prehendere</em> (to grasp) → to seize wholly.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>what more is to be done than to V</em> = ~하는 것 말고 무엇을 더 하겠는가; <em>in the first instance</em> = 우선/처음에는; <em>quit</em> = 떠나다(포기하다 아님, 여기선 '그들을 버리다').</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And he makes his meaning plain by what he says a little earlier: "Once I have praised my own creed and mocked yours, who do you think is going to decide between us? What else can be done but to leave people who invite us to certainty and then order us to believe something uncertain, and instead follow people who ask us, at the start, to believe what we cannot yet grasp — so that, growing stronger through faith itself, we may become able to understand what we believe, with no human being but God himself strengthening and enlightening our minds from within?"</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>shows this to be his meaning</b> → <em>makes his meaning plain</em></li><li><b>a little before</b> → <em>a little earlier</em></li><li><b>what more is to be done than to quit</b> → <em>what else can be done but to leave</em></li><li><b>waxing stronger</b> → <em>growing stronger</em></li><li><b>no longer men, but God himself internally strengthening</b> → <em>with no human being but God himself strengthening ... from within</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">no intention to A ... but only to B — and the parenthesis that gives half the case away</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p>"These unquestionably are the words of Augustine (August. Cont. Epist. Fundament. cap. 4); and the obvious inference from them is, that this holy man had no intention to suspend our faith in Scripture on the nod or decision of the Church, but only to intimate (what we too admit to be true) that those who are not yet enlightened by the Spirit of God, become teachable by reverence for the Church, and thus submit to learn the faith of Christ from the gospel."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`
+These unquestionably are the words of Augustine</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">…cap. 4</span></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and <b>the obvious inference</b> <b>is</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">from them</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> this holy man</span><ul class="tr"><li><span class="leaf"><b>had no intention</b> ⓐ <b>to suspend</b> our faith</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in Scripture</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>on</b> the nod or decision of the Church</span></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but only</b> ⓑ <b>to intimate</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>what we too admit to be true</b></span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> those <b>become teachable</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who are not yet enlightened by the Spirit of God</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by reverence for the Church</span></li></ul></li></ul><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf">and thus <b>submit to learn</b> the faith of Christ from the gospel</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>inference</em> = <em>in-</em> + <em>ferre</em> (to carry) → what is carried in from premises; cf. <em>infer</em>, <em>fertile</em>, <em>transfer</em>. — <em>suspend</em> = <em>sub-</em> + <em>pendere</em> (to hang) → hang under; cf. <em>pendant</em>, <em>pending</em>, <em>depend</em> (hang from) — and note `depends` in S7: the same metaphor, twice. — <em>intimate</em> (v.) &lt; <em>intimus</em> (innermost) → to make inwardly known, hint. Trap. — <em>docile/teachable</em> &lt; <em>docere</em> (to teach) → cf. <em>doctor</em>, <em>doctrine</em>, <em>document</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>have no intention to V</em> = ~할 의도가 전혀 없다; <em>suspend A on B</em> = A를 B에 매달다(의존시키다); <em>submit to V</em> = 기꺼이 ~하기로 하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">These are certainly Augustine's own words (Against the Letter of Mani 4), and the plain conclusion is that this holy man had no intention of hanging our faith in Scripture on the Church's say-so. He only meant to point out — and we agree this is true — that people who are not yet enlightened by the Spirit of God become willing to be taught through their respect for the Church, and so agree to learn the faith of Christ from the gospel.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the obvious inference from them is</b> → <em>the plain conclusion is</em></li><li><b>suspend our faith ... on the nod or decision</b> → <em>hang our faith ... on the say-so</em></li><li><b>to intimate</b> → <em>to point out</em></li><li><b>(what we too admit to be true)</b> → <em>and we agree this is true</em></li><li><b>become teachable</b> → <em>become willing to be taught</em></li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s2" title="2-star">★★</span><span class="s-label">would have X to V = wants X to V — the boundary line</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p>"In this way, though the authority of the Church leads us on, and prepares us to believe in the gospel, it is plain that Augustine would have the certainty of the godly to rest on a very different foundation."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` In this way</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf"><b>though</b> the authority <b>leads us on</b>, and <b>prepares us</b> to believe in the gospel</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of the Church</span></li></ul></li></ul></li></ul></li><li><span class="leaf">it is plain</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> Augustine <b>would have</b> the certainty <b>to rest on</b> a very different foundation</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of the godly</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>lead on</em> = to conduct forward (no modern pejorative sense of "string along" here — read it neutrally). — <em>foundation</em> &lt; <em>fundare</em> (<em>fundus</em>, bottom) → the §2 word, deliberately reused.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>would have + O + (to) V</em> = O가 ~하기를 원하다; <em>lead someone on</em> = ~을 이끌어 나아가게 하다; <em>rest on</em> = ~에 근거를 두다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So although the Church's authority draws us forward and gets us ready to believe the gospel, it is clear that Augustine wanted believers' certainty to rest on a completely different foundation.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>leads us on, and prepares us</b> → <em>draws us forward and gets us ready</em></li><li><b>would have ... to rest on</b> → <em>wanted ... to rest on</em></li><li><b>a very different foundation</b> → <em>a completely different foundation</em></li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s1" title="1-star">★</span><span class="s-label">Litotes concession — I deny not that</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p>"At the same time, I deny not that he often presses the Manichees with the consent of the whole Church, while arguing in support of the Scriptures, which they rejected."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>press</em> &lt; <em>premere</em> (to squeeze) → to urge with force; cf. <em>pressure</em>, <em>oppress</em>, <em>express</em> (squeeze out). — <em>consent</em> — the §7 word, returning to be defined by use.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>I deny not that</em> = ~을 부정하지 않는다(= 인정한다); <em>at the same time</em> = 그렇다고 해서/한편으로는(시간 아님, 양보 접속).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">That said, I do not deny that he often pushes the Manichees with the agreement of the whole Church when he is defending the Scriptures they rejected.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>At the same time</b> → <em>That said</em></li><li><b>I deny not that</b> → <em>I do not deny that</em></li><li><b>presses ... with</b> → <em>pushes ... with</em></li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S12" id="S12"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S12</span><span class="stars s2" title="2-star">★★</span><span class="s-label">The so ... so ... so ... cascade, and one word Calvin lets stand</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S12" onclick="flashFullText(this)">
+<p>"Hence he upbraids Faustus (lib. 32) for not submitting to evangelical truth—truth so well founded, so firmly established, so gloriously renowned, and handed down by sure succession from the days of the apostles."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` Hence he <b>upbraids</b> Faustus</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">lib. 32</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>for not submitting</b> to evangelical truth</span></li></ul></li><li><span class="leaf">— <b>truth</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">① <b>so well founded</b>, ② <b>so firmly established</b>, ③ <b>so gloriously renowned</b>, and ④ <b>handed down</b> by sure succession from the days of the apostles</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>upbraid</em> &lt; OE <em>upbregdan</em> (to throw up against, to weave against) → to reproach. — <em>evangelical</em> &lt; εὐαγγέλιον (good news) → <em>of the gospel</em> — in the 16c. this is a gospel-word, not a party label. — <em>renowned</em> &lt; OFr <em>renomer</em> (<em>re-</em> + <em>nommer</em>, to name again) → much-named, celebrated.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>upbraid A for B</em> = A를 B의 이유로 책망하다; <em>hand down</em> = (대대로) 전수하다; <em>from the days of</em> = ~의 시대 이래로.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">That is why he criticizes Faustus (book 32) for refusing to accept gospel truth — truth so solidly grounded, so firmly settled, so widely celebrated, and passed down in a reliable line from the apostles' own time.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>upbraids Faustus for not submitting to</b> → <em>criticizes Faustus for refusing to accept</em></li><li><b>evangelical truth</b> → <em>gospel truth</em></li><li><b>so gloriously renowned</b> → <em>so widely celebrated</em></li><li><b>handed down by sure succession</b> → <em>passed down in a reliable line</em></li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S13" id="S13"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S13</span><span class="stars s2" title="2-star">★★</span><span class="s-label">nowhere in mid-position — the inversion that does NOT happen</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S13" onclick="flashFullText(this)">
+<p>"But he nowhere insinuates that the authority which we give to the Scriptures depends on the definitions or devices of men."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf">` <b>But</b> he <b>nowhere insinuates</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the authority <b>depends on</b> the definitions <b>or</b> devices</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which we give</b> to the Scriptures</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of men</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>insinuate</em> = <em>in-</em> + <em>sinuare</em> (<em>sinus</em>, a curve/fold) → to introduce by a winding path; cf. <em>sinuous</em>. — <em>device</em> &lt; <em>deviser</em> (to divide, arrange) → a contrivance; cf. <em>devise</em>, <em>division</em>. — <em>definition</em> &lt; <em>de-</em> + <em>finire</em> (to bound) → a boundary-setting, hence a council's formal ruling.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>he nowhere insinuates that</em> = 그는 어디서도 ~라고 시사하지 않는다; <em>depend on</em> = ~에 달려 있다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But he never once suggests that the authority we grant the Scriptures depends on rulings or inventions of men.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>he nowhere insinuates that</b> → <em>he never once suggests that</em></li><li><b>the definitions or devices of men</b> → <em>rulings or inventions of men</em></li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S14" id="S14"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S14</span><span class="stars s1" title="1-star">★</span><span class="s-label">one as a pro-form — what kind of argument it actually was</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S14" onclick="flashFullText(this)">
+<p>"He only brings forward the universal Judgment of the Church, as a point most pertinent to the cause, and one, moreover, in which he had the advantage of his opponents."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>pertinent</em> = <em>per-</em> + <em>tenere</em> (to hold) → holding through to the matter, relevant; cf. <em>pertain</em>, <em>tenacious</em>. — <em>cause</em> here = the case at law (Lat. <em>causa</em>) — the courtroom register of §1 again.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>bring forward</em> = (논거를) 제시하다; <em>have the advantage of someone</em> = ~보다 유리하다 (of = over, 고어); <em>pertinent to the cause</em> = 사안에 적절한.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">He simply brings up the universal agreement of the Church as a point highly relevant to the case — and one, moreover, where he had the edge over his opponents.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>brings forward</b> → <em>brings up</em></li><li><b>the universal Judgment of the Church</b> → <em>the universal agreement of the Church</em></li><li><b>had the advantage of his opponents</b> → <em>had the edge over his opponents</em></li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S15" id="S15"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S15</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Go read it yourself — separated relative, that which, and while = whereas</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S15" onclick="flashFullText(this)">
+<p>"Any one who desires to see this more fully proved may read his short treatises, De Utilitate Credendi (The Advantages of Believing), where it will be found that the only facility of believing which he recommends is that which affords an introduction, and forms a fit commencement to inquiry; while he declares that we ought not to be satisfied with opinion, but to strive after substantial truth."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`
+<b>Any one</b> <b>may read</b> his short treatises, *De Utilitate Credendi*</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who desires to see this more fully proved</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (where)</span><span class="leaf"><b>where</b> it will be found</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> <b>the only facility of believing</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which he recommends</b></span></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>is</b> <b>that which</b> ⓐ <b>affords an introduction</b>, and ⓑ <b>forms a fit commencement to inquiry</b></span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">부사절 (while)</span><span class="leaf"><b>while</b> he declares</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that we <b>ought not to be satisfied</b> with opinion, <b>but</b> ‹ought› <b>to strive after</b> substantial truth</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>facility</em> &lt; <em>facilis</em> (easy, from <em>facere</em>) → easiness, readiness. Trap. — <em>commencement</em> &lt; OFr <em>comencier</em> → a beginning (still the US graduation word — the <em>start</em>, not the end!). — <em>substantial</em> &lt; <em>substantia</em> = <em>sub-</em> + <em>stare</em> (to stand under) → having something standing underneath it. — <em>strive after</em> &lt; OFr <em>estriver</em> (to contend) → to contend toward.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>desire to see X proved</em> = X가 증명되는 것을 보고자 하다; <em>afford an introduction</em> = 입문/진입로를 제공하다; <em>a fit commencement to inquiry</em> = 탐구의 적절한 출발점; <em>strive after</em> = ~을 얻으려 애쓰다; <em>while</em> (양보·대조) = 반면에.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Anyone who wants fuller proof of this can read his short work <em>On the Usefulness of Believing</em>, where it turns out that the only readiness-to-believe he recommends is the kind that provides an entry point and makes a suitable start for inquiry — whereas he insists that we should not settle for opinion, but should press on toward real, solid truth.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>any one who desires to see this more fully proved</b> → <em>anyone who wants fuller proof of this</em></li><li><b>the only facility of believing</b> → <em>the only readiness-to-believe</em></li><li><b>affords an introduction</b> → <em>provides an entry point</em></li><li><b>a fit commencement to inquiry</b> → <em>a suitable start for inquiry</em></li><li><b>while he declares</b> → <em>whereas he insists</em></li><li><b>substantial truth</b> → <em>real, solid truth</em></li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — If-deletion + inversion (past subjunctive conditional)</h3><pre><code>   if + S + WERE / HAD / SHOULD ...
+        ↓  delete "if", invert
+   WERE / HAD / SHOULD + S + ...
+
+   ▸ WERE he not moved by the authority   = if he were not moved            (S1)
+   ▸ WERE he a stranger to the faith      = if he were a stranger           (S5)
+   ▸ WERE they not influenced by ...      = if they were not influenced     (S7)
+
+   ⚠️ Only THREE verbs invert this way: were / had / should.
+      *"Believed he not" is NOT English. You cannot invert a lexical verb.
+   ⚠️ It is a COUNTERFACTUAL, not a statement of fact.
+      "were he a stranger" ≠ "he was a stranger"
+   ⚠️ Word order looks like a question. It is not. No question mark → conditional.
+</code></pre><p><strong>Transformation drill:</strong> Turn into the inverted form —
+<em>If the Spirit did not seal the word in our hearts, no argument would produce full faith.</em>
+→ <strong>Did the Spirit not seal...</strong> ✗ (lexical verb — impossible)
+→ <strong>Were the Spirit not to seal the word in our hearts, no argument would produce full faith.</strong> ✓
+(Route a lexical verb through <code>were + to V</code> to make the inversion legal. Calvin's translator does this constantly.)</p><hr/><h3>Formula 2 — The concession machine: <code>not A ... nor B ... but (only/merely) C</code></h3><pre><code>   S + does NOT + V₁ + [that A] ;
+   NOR + aux + S + V₂ + [that B] ;      ← FRONTED negative → INVERT
+   S + MERELY/ONLY + V₃ + [that C] .
+
+   compressed variant (one head, two infinitives):
+   S + had NO intention  ⓐ to suspend ... ,
+                     BUT only  ⓑ to intimate ...        ← "but" = corrective
+   final variant (one modal, two infinitives):
+   we ought  NOT to be satisfied with opinion,
+             BUT ‹ought› to strive after substantial truth
+
+   ⚠️ Nor + AUX + S  (nor DOES he mean)        — fronted → invert
+   ⚠️ S + nowhere + V  (he nowhere insinuates) — mid-position → NO inversion
+      ✗ "Nowhere he insinuates"   ✓ "Nowhere DOES HE insinuate"
+   ⚠️ "but" after a negative = correction (not this, BUT that),
+      never a second negated item.
+</code></pre><p><strong>Transformation drill:</strong> Compose in the full three-part form —
+<em>Calvin does not say that the Church is useless; nor does he mean that her testimony is worthless; he merely says that her authority prepares the unenlightened to hear the gospel.</em></p><hr/><h3>Formula 3 — <code>would have + O + (to) V</code> = <em>wants O to V</em> (volitional <code>have</code>)</h3><pre><code>   S + would have + O + to V     =  S wishes/wants O to V
+                                    (NOT perfect, NOT obligation, NOT causative)
+
+   ▸ Augustine WOULD HAVE the certainty of the godly TO REST on a
+     very different foundation.                                        (S10)
+        = Augustine wants the certainty of the godly to rest on ...
+
+   modern English drops the "to":  He would have us BE humble.
+   Beveridge keeps it:             He would have us TO BE humble.
+
+   ⚠️ ✗ "would have had"  ✗ "would be had"  ✗ "had to rest"
+   ⚠️ Distinguish the causative-passive: "have + O + p.p." (have it done)
+</code></pre><p><strong>Transformation drill:</strong> Rewrite in Beveridge's idiom —
+<em>Calvin wants believers to rest their certainty on the inward testimony of the Spirit.</em>
+→ <strong>Calvin would have believers to rest their certainty on the inward testimony of the Spirit.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (어원 후킹 테이블)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>usual</strong> (S1)</td>
+<td>customary, habitual — merely what is <em>often done</em></td>
+<td><em>usus</em> (use) — Calvin concedes frequency, never rightness</td>
+</tr>
+<tr>
+<td><strong>induce</strong> (S5)</td>
+<td>to lead in, to move someone toward</td>
+<td><em>in-</em> + <em>ducere</em> — a <strong>leading</strong> word, not a <strong>founding</strong> word. The whole §3 distinction lives in this verb</td>
+</tr>
+<tr>
+<td>⚠️ <strong>pretend</strong> (S4)</td>
+<td><strong>to lay claim, to profess</strong> (NOT "to fake")</td>
+<td><em>prae-</em> + <em>tendere</em> = hold out in front; cf. <em>pretender to the throne</em> = claimant</td>
+</tr>
+<tr>
+<td>⚠️ <strong>wonderful</strong> (S6)</td>
+<td><strong>surprising, a cause of wonder</strong> (NOT "excellent")</td>
+<td><em>wonder</em> + <em>-ful</em>. <code>Is it any thing wonderful that…?</code> = 뭐가 놀랍나?</td>
+</tr>
+<tr>
+<td>⚠️ <strong>wax</strong> (S8)</td>
+<td><strong>to grow</strong> (NOT candle-wax)</td>
+<td>OE <em>weaxan</em>, Ger. <em>wachsen</em>; survives in <em>waxing moon</em>, <em>wax and wane</em></td>
+</tr>
+<tr>
+<td>⚠️ <strong>intimate</strong> (v., S9)</td>
+<td><strong>to hint, to indicate</strong> (NOT "close/personal")</td>
+<td><em>intimus</em> (innermost) → to make inwardly known</td>
+</tr>
+<tr>
+<td>⚠️ <strong>facility</strong> (S15)</td>
+<td><strong>easiness, readiness</strong> (NOT a building)</td>
+<td><em>facilis</em> &lt; <em>facere</em> — 믿기의 '수월함/기꺼움'</td>
+</tr>
+<tr>
+<td>⚠️ <strong>substantial</strong> (S15)</td>
+<td><strong>having real substance</strong> (NOT "large")</td>
+<td><em>sub-</em> + <em>stare</em> = standing underneath; cf. Heb 11:1 ὑπόστασις</td>
+</tr>
+<tr>
+<td>⚠️ <strong>have the advantage OF</strong> (S14)</td>
+<td>to have the advantage <strong>over</strong></td>
+<td>archaic <em>of</em> = over. 우위에 있다</td>
+</tr>
+<tr>
+<td><strong>implicitly</strong> (S3)</td>
+<td>with the reasons folded up, unexamined</td>
+<td><em>in-</em> + <em>plicare</em> (fold). Perfect antonym: <em>explicit</em> = folded OUT</td>
+</tr>
+<tr>
+<td><strong>allege</strong> (S3)</td>
+<td>to assert without proving</td>
+<td><em>ad-</em> + <em>litigare</em> (to dispute) → put forward in a fight</td>
+</tr>
+<tr>
+<td><strong>fall in with</strong> (S4)</td>
+<td>to run into, to encounter by chance</td>
+<td>마주치다 (여기선 '동의하다' 아님)</td>
+</tr>
+<tr>
+<td><strong>nod</strong> (S9)</td>
+<td><em>nutus</em> — a master's chin-jerk of command</td>
+<td>§2·§3 반복. Scripture hanging from a nobleman's chin</td>
+</tr>
+<tr>
+<td><strong>suspend</strong> (S9)</td>
+<td>to hang from</td>
+<td><em>sub-</em> + <em>pendere</em>; twin of <code>depends</code> (S7) — same metaphor, twice</td>
+</tr>
+<tr>
+<td><strong>teachable</strong> (S9)</td>
+<td><em>docilis</em> — <strong>able to be taught</strong> (NOT "obedient")</td>
+<td><em>docere</em> → doctor, doctrine. Cf. I.6.2 <code>docility</code></td>
+</tr>
+<tr>
+<td><strong>upbraid</strong> (S12)</td>
+<td>to reproach</td>
+<td>OE <em>upbregdan</em> — to throw up against someone</td>
+</tr>
+<tr>
+<td><strong>renowned</strong> (S12)</td>
+<td>celebrated, much-spoken-of</td>
+<td><em>re-</em> + <em>nommer</em> — named again and again</td>
+</tr>
+<tr>
+<td><strong>insinuate</strong> (S13)</td>
+<td>to suggest indirectly, hint obliquely</td>
+<td><em>in-</em> + <em>sinuare</em> (to wind) — to worm in by a curve; cf. <em>sinuous</em></td>
+</tr>
+<tr>
+<td><strong>device</strong> (S13)</td>
+<td>a contrivance, human invention</td>
+<td><em>deviser</em> — cf. <em>devise</em>. Paired with <em>definitions</em> = 비공식+공식 인간 산물</td>
+</tr>
+<tr>
+<td><strong>pertinent</strong> (S14)</td>
+<td>relevant, bearing on the case</td>
+<td><em>per-</em> + <em>tenere</em> — holding through to the matter</td>
+</tr>
+<tr>
+<td><strong>commencement</strong> (S15)</td>
+<td>a beginning, a start</td>
+<td>US 졸업식이 <em>commencement</em>인 이유 = 끝이 아니라 시작</td>
+</tr>
+<tr>
+<td><strong>strive after</strong> (S15)</td>
+<td>to contend toward, press on for</td>
+<td>OFr <em>estriver</em> (to contend)</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>The text at issue.</strong> Augustine, <em>Contra Epistolam Manichaei quam vocant Fundamenti</em> ("Against the Letter of Mani which they call The Foundation"), c. 396/397, chapter 5: <em>Ego vero Evangelio non crederem, nisi me catholicae Ecclesiae commoveret auctoritas.</em> Written a year or so into his episcopate, against a Manichaean tract Augustine knew intimately — <strong>because he had been a Manichee auditor for roughly nine years</strong>. When he writes <code>were he a stranger to the faith</code>, he is not constructing a thought-experiment. He is remembering the road he actually walked.</p><p><strong>Why this one line mattered so much in 1559.</strong> It was the standard opening move of Catholic controversialists against the Reformers — in Johann Eck's <em>Enchiridion</em> (1525), in the debates around Trent's fourth session (1546), and later, at full scholastic strength, in Bellarmine. The syllogism was clean: <em>You claim Scripture alone. Augustine says he believes the gospel only because of the Church. Therefore your own greatest authority refutes you.</em> Luther had already wrestled with the passage; Calvin's §3 is the settled Reformed answer, and it survived: you can see its argument reappearing verbatim in Protestant polemics for the next three centuries.</p><p><strong>The four hinges of Calvin's reading.</strong> (1) <em>Commoveret</em> is a <strong>moving-verb</strong>, not a founding-verb — an efficient cause of assent, not the formal ground of faith. (2) The line stands inside a <strong>counterfactual conditional</strong> aimed at a specific hypothetical person (S4's <code>man who did not even believe the gospel</code>). (3) The <strong>audience</strong> was Manichees demanding implicit belief — so Augustine's appeal to the Church's consent is an <em>argumentum ad hominem</em> in the technical, non-pejorative sense: it works against <em>these</em> opponents by <em>their</em> standards. (4) The <strong>decisive counter-evidence is four chapters earlier</strong>, where Augustine names the terminal teacher: <code>no longer men, but God himself internally strengthening and illuminating our minds</code>.</p><p><strong>The key that Beveridge hides in a footnote.</strong> Attached to S10, Beveridge cites <em>De Ordine</em> 2.9: <strong><code>tempore auctoritas, re autem ratio prior est</code></strong> — <em>authority comes first in time, but reason comes first in reality.</em> That single clause is Augustine's own systematic account of the very distinction Calvin is drawing. Augustine consistently separates the <strong>pedagogical order</strong> (what moves you first) from the <strong>ontological order</strong> (what actually grounds the thing). Calvin is not rescuing Augustine from Augustine; he is quoting Augustine's own architecture back at the people misusing him. If you remember one thing from Period 6, remember that Latin clause.</p><p><strong>The other treatise.</strong> <em>De Utilitate Credendi</em> (391), written to his friend Honoratus — still a Manichee — arguing that believing before understanding is rational and necessary. It is the strongest possible text for the "authority first" case, and Calvin <strong>sends you to it himself</strong> (S15). That is a confident man. His prediction: you will find that the <em>facilitas credendi</em> Augustine recommends is framed as an <em>introduction</em> and a <em>commencement</em>, and that the same treatise insists we must not stop at <em>opinio</em>.</p><p><strong>Later reception, briefly.</strong> Modern Augustine scholarship largely grants Calvin's contextual point about <em>commoveret</em> and the polemical setting, while noting that Augustine's ecclesiology is more integrated than a strict Reformed reading might wish — for Augustine the Church is not merely a signpost one walks past. The Reformed confessions later codify Calvin's distinction: <strong>Belgic Confession 5</strong> (we receive these books "not so much because the Church receives them... as because the Holy Spirit witnesses in our hearts") and <strong>Westminster 1.4–1.5</strong> (the Church's testimony may move us to a high esteem — full persuasion comes from the Spirit). Note the shape: <em>the Church's testimony is granted a real function and then explicitly subordinated.</em> That is §3 turned into a creed.</p><p><strong>⚠️ Guardrail — three over-readings to refuse.</strong>
+1. <strong>"Calvin denies the Church any role."</strong> He states the opposite twice, in his own voice: <code>(what we too admit to be true)</code> (S9) and <code>the authority of the Church leads us on, and prepares us to believe</code> (S10).
+2. <strong>"Calvin rejects tradition and succession."</strong> He quotes <code>handed down by sure succession from the days of the apostles</code> (S12) with approval. What he denies is that our authority for Scripture <strong>depends on</strong> human definitions (S13). Historical transmission: yes. Juridical constitution: no.
+3. <strong>"Therefore each individual judges for himself."</strong> Not yet, and not ever in Calvin. The alternative foundation is not private judgment — S9 already excluded human judgment on both sides. It is the <strong>Spirit's inward testimony</strong> (§5), which is neither the Church's decree nor my opinion. If your reading of §3 lands you in subjectivism, you have skipped ahead badly; I.9 will deal with the enthusiasts who did exactly that.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>This section is unusual: <strong>not one direct Bible citation.</strong> It is a patristic argument, fought on patristic ground. But the scriptural bones are showing everywhere — and one verse in particular is the hidden engine of the Augustine quotation.</p><ol>
+<li>
+<p><strong>S8 — <code>that waxing stronger through faith itself, we may become able to understand what we believe</code></strong> ← <strong>Isaiah 7:9</strong>, in the Old Latin/LXX form Augustine used: <em>nisi credideritis, non intelligetis</em> (ἐὰν μὴ πιστεύσητε, οὐδὲ μὴ συνῆτε) — "unless you believe, you will not understand." This verse is the <strong>charter of Augustine's whole <code>crede ut intelligas</code> program</strong>, and the clause Calvin quotes is a paraphrase of it. Notice how Calvin uses it: he does not have to name the verse, because the <em>order</em> it prescribes (faith → understanding) is exactly what proves his case. Augustine's sequence is <strong>temporal</strong>, and a temporal priority is not a foundational one.</p>
+</li>
+<li>
+<p><strong>S8 — <code>no longer men, but God himself internally strengthening and illuminating our minds</code></strong> ← <strong>Ephesians 3:16</strong> (κραταιωθῆναι διὰ τοῦ πνεύματος αὐτοῦ εἰς τὸν ἔσω ἄνθρωπον — "strengthened by his Spirit in the inner man") and <strong>Ephesians 1:18</strong> (πεφωτισμένους τοὺς ὀφθαλμοὺς τῆς καρδίας — "the eyes of your heart being enlightened"). Both verbs of the phrase — <em>strengthening</em>, <em>illuminating</em> — sit in Paul's prayers. Calvin's §5 will build the <em>testimonium internum</em> on precisely this vocabulary; here he gets it from Augustine for free.</p>
+</li>
+<li>
+<p><strong>S9 — <code>those who are not yet enlightened by the Spirit of God</code></strong> ← <strong>1 Corinthians 2:14</strong> (ψυχικὸς ἄνθρωπος οὐ δέχεται — "the natural man receiveth not the things of the Spirit"). The whole category of "the unenlightened who become teachable by reverence for the Church" presupposes this verse's anthropology.</p>
+</li>
+<li>
+<p><strong>S3 — <code>alleging that they had the truth, though they did not show they had</code></strong> ← <strong>2 Corinthians 4:2</strong> (τῇ φανερώσει τῆς ἀληθείας — "by manifestation of the truth commending ourselves") and <strong>1 John 4:1</strong> ("try the spirits"). Claim versus manifestation: Calvin's operative distinction against every implicit-faith demand.</p>
+</li>
+<li>
+<p><strong>S6 — <code>one who does not know Christ should pay respect to men</code></strong> ← <strong>John 5:44</strong> ("How can ye believe, which receive honour one of another?") and <strong>Galatians 1:10</strong> ("do I seek to please men?"). Human deference is exactly what marks the man who has not yet seen.</p>
+</li>
+<li>
+<p><strong>S12 — <code>handed down by sure succession from the days of the apostles</code></strong> ← <strong>1 Corinthians 11:23 / 15:3</strong> (παρέλαβον… παρέδωκα — "I received… I delivered"). Calvin lets <em>paradosis</em> language stand unchallenged when it means historical transmission. Watch how carefully he handles this word; he is not afraid of it.</p>
+</li>
+<li>
+<p><strong>S15 — <code>not to be satisfied with opinion, but to strive after substantial truth</code></strong> ← <strong>Hebrews 11:1</strong> (ἔστιν δὲ πίστις ἐλπιζομένων ὑπόστασις — faith is the <strong>substance</strong> of things hoped for) and <strong>Colossians 2:2</strong> (πληροφορία τῆς συνέσεως — "full assurance of understanding"). <em>Opinion</em> versus <em>hypostasis</em> — the chapter's driving antithesis, and the reason §4 opens with <code>a perfect conviction that God is its author</code>.</p>
+</li>
+<li>
+<p><strong>S10 — <code>rest on a very different foundation</code></strong> ← <strong>Ephesians 2:20</strong> (§2's verse) and <strong>1 Corinthians 3:11</strong> (θεμέλιον… οὐδεὶς δύναται θεῖναι — "other foundation can no man lay"). The foundation-metaphor is carried across from §2 on purpose: Calvin is telling you the socket is still empty and someone is coming to fill it.</p>
+</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① 어법 — 밑줄 넷 중 어법상 <strong>틀린</strong> 것은?</h3><p>Augustine does not say that the faith of the godly is founded on the Church's authority; ⓐ <u>nor he means</u> that the certainty of the gospel depends upon it. ⓑ <u>Were he a stranger</u> to the faith, the only thing which could induce him would be that authority. He ⓒ <u>nowhere insinuates</u> that our reverence for Scripture rests on human devices; and it is plain that he ⓓ <u>would have the certainty of the godly to rest</u> on a very different foundation.</p><blockquote>
+<p><strong>정답: ⓐ</strong></p>
+<p><code>Nor</code> is a <strong>fronted negative adverb</strong>, so the auxiliary must precede the subject: <strong><code>nor does he mean</code></strong> (exactly as Calvin writes it in S7). <code>nor he means</code> is impossible.</p>
+<p><strong>출제 의도 — 이 문제는 ⓒ와의 대비가 전부다.</strong> ⓒ <code>he nowhere insinuates</code> looks like it should invert too, and half the room will "fix" it to <em>nowhere he insinuates</em> or flag it as the error. It is <strong>correct as written</strong>, because <code>nowhere</code> sits in <strong>mid-position after the subject</strong>, and mid-position negatives do not trigger inversion. Fronted → invert; mid-position → don't. Both patterns appear in §3, ten lines apart (S7 and S13). ⓑ is the if-deleted subjunctive inversion (Formula 1) — correct. ⓓ is volitional <code>would have + O + to V</code> (Formula 3) — correct, and archaic-looking on purpose, which is why weak students choose it.</p>
+</blockquote><hr/><h3>② 내용일치 — §3의 내용과 <strong>일치하는</strong> 것은?</h3><ol>
+<li>Calvin argues that Augustine's sentence is a forgery, and that the words <code>I would not believe the gospel</code> were never written by him.</li>
+<li>Calvin denies that the Church's authority has any effect whatever on those who are not yet enlightened by the Spirit.</li>
+<li>Calvin grants that reverence for the Church makes the unenlightened teachable, but holds that Augustine wanted the certainty of the godly to rest on a different foundation.</li>
+<li>Calvin concedes that Augustine, in <em>De Utilitate Credendi</em>, recommends resting permanently in the Church's authority rather than pressing on to inquiry.</li>
+</ol><blockquote>
+<p><strong>정답: ③</strong></p>
+<p>S9's parenthesis <code>(what we too admit to be true)</code> + S10's <code>though the authority of the Church leads us on, and prepares us to believe... a very different foundation</code>. Concession and reservation, both in Calvin's own voice.</p>
+<p><strong>출제 의도 — 세 개의 서로 다른 함정을 한 문제에 심었다.</strong>
+① <strong>가짜 쟁점(false issue).</strong> Calvin never questions the <em>authenticity</em> of the sentence — he cites it with chapter number and quotes it twice. His entire complaint is about <strong>meaning</strong>, not authorship (S2: <code>inaccurate and unfair ... to give it such a meaning</code>). Students who half-remember "Calvin attacked the quotation" fall straight in.
+② <strong>범위 초과(over-scope).</strong> This inverts S9 and S10 outright. Calvin explicitly affirms the effect he is here said to deny. Notice how the distractor is built: it takes a <strong>limited</strong> denial (the Church is not the <em>foundation</em>) and inflates it to an <strong>absolute</strong> one (no effect <em>whatever</em>). That is the single most common comprehension trap in this whole chapter — watch for <em>any</em>, <em>whatever</em>, <em>at all</em>.
+④ <strong>방향 뒤집기(direction-flip) on the last clause.</strong> S15 says the opposite twice over: the facility Augustine recommends is <code>an introduction</code> and <code>a fit commencement to inquiry</code>, and he <code>declares that we ought not to be satisfied with opinion, but to strive after substantial truth</code>. The distractor swaps <em>starting point</em> for <em>resting place</em>.</p>
+</blockquote><hr/><h3>③ 영작 — 오늘의 공식을 적용해 영작하시오.</h3><blockquote>
+<p><strong>(a)</strong> [Formula 1] "만일 성령이 우리 마음에 그 말씀을 인치지 않으신다면, 어떤 논증도 온전한 믿음을 낳지 못할 것이다." — <code>if</code>를 삭제한 도치 가정법으로.
+<strong>(b)</strong> [Formula 2] "칼빈은 교회가 무용하다고 말하지 않으며, 교회의 증언이 무가치하다는 뜻도 아니다. 그는 다만 교회의 권위가 아직 조명되지 못한 자들을 복음 들을 준비가 되게 한다고 말할 뿐이다."
+<strong>(c)</strong> [Formula 3] "아우구스티누스는 경건한 자들의 확신이 성령의 내적 증거 위에 놓이기를 원했다."</p>
+<p><strong>모범답안:</strong>
+<strong>(a)</strong> <strong>Were the Spirit not to seal his word upon our hearts, no argument would produce a full and settled faith.</strong>
+<strong>(b)</strong> <strong>Calvin does not say that the Church is useless; nor does he mean that her testimony is worthless; he merely says that her authority prepares those who are not yet enlightened to hear the gospel.</strong>
+<strong>(c)</strong> <strong>Augustine would have the certainty of the godly to rest on the inward testimony of the Spirit.</strong></p>
+<p><strong>채점 포인트.</strong> (a) <code>seal</code>은 일반동사라 직접 도치 불가 — 반드시 <strong><code>were + to V</code></strong> 우회로를 쓴다. <code>Sealed the Spirit not…</code> 은 영어가 아니다. (b) 세 마디가 <strong><code>does not say / nor does he mean / he merely says</code></strong> 순서로 서야 하고, 둘째 마디는 도치 필수. <code>nor he means</code> 쓰면 0점. (c) <code>would have + O + **to** rest</code> — Beveridge 어법대로 <code>to</code>를 살린다. <code>would have had</code>·<code>had to rest</code> 는 오답.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> Rome's best patristic weapon — Augustine's <code>I would not believe the gospel, were I not moved by the authority of the Church</code> — is a <strong>counterfactual spoken about the outsider's road in</strong>, not a statement about the believer's ground of certainty; read in context (Manichees demanding implicit belief, a hypothetical unbeliever, and Augustine's own words four chapters earlier naming <code>God himself internally strengthening and illuminating our minds</code>), it grants the Church a <strong>pedagogical</strong> office that Calvin cheerfully signs — <code>what we too admit to be true</code> — while leaving the certainty of the godly resting on <code>a very different foundation</code>.</p><p><strong>And the three grammar points, once more:</strong></p><ol>
+<li><strong>If-deleted subjunctive inversion</strong> — <code>were he not moved</code> / <code>were he a stranger</code> / <code>were they not influenced</code>. Three times in fifteen sentences. Restore the <code>if</code> every single time.</li>
+<li><strong><code>not A ... nor B ... but merely C</code></strong> — with the paired inversion rule: <code>nor **does he** mean</code> (fronted → invert) vs. <code>he **nowhere insinuates**</code> (mid-position → no inversion).</li>
+<li><strong><code>would have + O + to V</code> = wants O to V</strong> — volitional <code>have</code>, not perfect, not obligation.</li>
+</ol><p><strong>Homework (10 minutes).</strong></p><p><strong>① Structure restoration.</strong> Take S9 and rebuild it as three flat sentences, keeping every element:</p><blockquote>
+<p><em>this holy man had no intention to suspend our faith in Scripture on the nod or decision of the Church, but only to intimate (what we too admit to be true) that those who are not yet enlightened by the Spirit of God, become teachable by reverence for the Church, and thus submit to learn the faith of Christ from the gospel.</em></p>
+<p>Target shape: (i) He did not intend X. (ii) He intended only Y. (iii) And Y is something we ourselves affirm. — Then mark which infinitive the words <code>no intention</code> govern, and say in one line why <code>but</code> here means <em>correction</em> and not <em>addition</em>.</p>
+</blockquote><p><strong>② Composition.</strong> Write one English sentence combining <strong>Formula 1 and Formula 2</strong>, on this content: <em>"Were the Church's consent our only ground, our faith would be precarious; Calvin does not deny her testimony, nor does he despise her office; he merely refuses to make her nod the foundation."</em> — then check your own work against S7 and S10 for the inversion and the volitional <code>have</code>.</p><p><strong>③ Tomorrow's preview (one line).</strong> §4 opens <code>It is necessary to attend to what I lately said, that our faith in doctrine is not established until we have a perfect conviction that God is its author</code> — and from there Calvin finally names the alternative foundation: the highest proof of Scripture is taken <code>from the character of him whose Word it is</code>, and <code>the testimony of the Spirit is superior to reason</code>. The empty socket of S10 starts to fill. Bring Isaiah 59:21.</p><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 7, §3 끝. 다음은 <strong>Book 1, Ch. 7, §4</strong> (Day 35) — 성경의 최고 증거는 말씀하신 분의 인격에서 나온다: 논증의 한계와 성령의 증거.</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
