@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 성경의 신빙성에 대한 증거들 §6 (1권 8장 · Day 42) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 8장 §6(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 42. 연관 성구: 출애굽기 16, 출애굽기 9, 레위기 20, 신명기 18."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day42_Book1-Ch8-%C2%A76.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="성경의 신빙성에 대한 증거들 §6 — 기독교 강요 영어로 읽기 (Day 42)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 8장 §6(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 42. 연관 성구: 출애굽기 16, 출애굽기 9, 레위기 20, 신명기 18."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day42_Book1-Ch8-%C2%A76.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 성경의 신빙성에 대한 증거들 §6 (1권 8장 · Day 42) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 8장 §6(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 42. 연관 성구: 출애굽기 16, 출애굽기 9, 레위기 20, 신명기 18.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 8장 §6 — 성경의 신빙성에 대한 증거들","mentions":[{"@type":"CreativeWork","name":"출애굽기 16 (Exod 16)"},{"@type":"CreativeWork","name":"출애굽기 9 (Exod 9)"},{"@type":"CreativeWork","name":"레위기 20 (Lev 20)"},{"@type":"CreativeWork","name":"신명기 18 (Deut 18)"},{"@type":"CreativeWork","name":"창세기 49 (Gen 49)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day42_Book1-Ch8-%C2%A76.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 42 — Book 1, Chapter 8, §6<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (the whole § — 11 sentences, verbatim)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl2" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl3" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl3" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl2" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl1" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl3" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl3" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl2" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl2" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl1" href="#S11" onclick="closeNavMobile()">S11</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (어원 후킹 테이블)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 42 — Book 1, Chapter 8, §6</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday you watched the escalation: <em>easily answered</em> → <em>could not possibly</em> → <em>is it conceivable</em>. Calvin closed §5 standing on the witness stand with his hand still up.</p><p>Today the other side finally speaks. And notice <strong>what they do not say.</strong> ★ They do not say <em>the miracles never happened.</em> They say <strong>"magic."</strong></p><p>Stop and feel how much that concedes. An opponent who says <em>it never happened</em> is arguing about <strong>facts</strong>. An opponent who says <em>it was sorcery</em> has already surrendered the facts and is now arguing about <strong>causes</strong>. Calvin sees this instantly, and S3 is the sentence where he names it: the fact was <code>too clear to leave it free for heathen writers to deny</code> — so the lie had to change its shape. ⚠️ <strong>The calumny is itself a piece of evidence.</strong> That is the argumentative move of the whole section, and if you miss it you will read §6 as a scrappy list of rebuttals instead of the trap it is.</p><pre><code>   THE THREE-DAY ARC OF THE CROSS-EXAMINATION
+
+   Day 40 (§4)   MOTIVE       — every exhibit costs the author something
+   Day 41 (§5)   OPPORTUNITY  — he published it in the assembly, while scolding them
+   Day 42 (§6)   ★ THE ALTERNATIVE HYPOTHESIS
+                              — "then it was magic"
+                              → and Calvin does not deny the category.
+                                He asks whether THIS MAN fits it.
+</code></pre><p>★ That last line is the exam point. Calvin never argues <em>magic is impossible</em>. He argues that Moses fails <strong>every profile marker of a magician</strong>, one after another — abhorrence (S4), self-advertisement (S5), self-effacement (S7), the character of the wonder itself (S8), and the price he paid (S9–S10). Five tests. Moses fails all five, in the direction that acquits him.</p><p>⚠️ And a warning about the grammar before we start. This section is where Calvin's <strong>object-complement machinery</strong> all comes out at once: <code>cause manna **to rain**</code>, <code>saw his incredulity **punished**</code>, <code>suffered his servant **to be subjected**</code>, <code>ordered every one ... **to be stoned**</code>, <code>leave it **free**</code>. Five verbs, five complements, and the form changes with the verb. If you cannot say <strong>why</strong> <code>punished</code> is a bare participle while <code>to rain</code> keeps its <code>to</code>, today's exam question will take you.</p><p><strong>Today's 3 Big Points — write them down now:</strong></p><ol>
+<li><strong><code>too ADJ to leave it free for A to V</code> — the compound too-construction with an anticipatory object.</strong> S3: <code>the fact was **too clear to leave it free for heathen writers to deny** that Moses did perform miracles.</code> ⚠️ Two structures are stacked here and students collapse them. Outer: <code>too ADJ to V</code> = <em>so ADJ that ‹nobody› could V</em>. Inner: <code>leave + **it** + **free** + for A to V</code> — where <code>it</code> is a <strong>dummy object</strong> and <code>free</code> its <strong>object complement</strong>, and the real content is the delayed <code>for...to...</code> phrase. ★ Test yourself now: what is <code>it</code>? If you answered "the fact," you have already made the mistake. Restore the base pattern in Period 3.</li>
+<li><strong><code>no X ... without V-ing</code> = a universal affirmative in disguise.</strong> S5: <code>**no impostor** deals in tricks, **without studying** to raise his reputation by amazing the common people.</code> ⚠️ Two negatives, and the product is not a mild positive but an <strong>exceptionless law</strong>: <em>every impostor, without exception, works the crowd.</em> You met the cousin on Day 6 (<code>no ~ so ~ as not to</code>). Today's version is cleaner and far more likely to be examined, because the second negative is hiding inside a <strong>preposition</strong>. ★ And notice the argumentative function: Calvin needs a universal, because he is about to show Moses is the counter-instance.</li>
+<li><strong>The object-complement cluster: <code>cause / suffer / see / order / leave</code> + O + ‹what?›</strong> S8: <code>**cause** manna **to rain**</code> and <code>**saw** his incredulity divinely **punished**</code>. S9: <code>**suffered** his servant **to be subjected**</code>. S4: <code>**ordered** every one ... **to be stoned**</code>. S3: <code>**leave** it **free**</code>. ⚠️ Same 5th pattern; four different complement forms — bare participle, <code>to</code>-infinitive, passive <code>to be</code> + p.p., and a bare adjective. <strong>The verb chooses, and the voice decides.</strong> Get the decision procedure straight today and you have a formula that will pay out for the next thousand days.</li>
+</ol><p>Eleven sentences. S1, S3, S4, S7 and S8 will take real time. Let's go.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (the whole § — 11 sentences, verbatim)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+6. For it is also worthy of remark, that the miracles which he relates are combined with disagreeable circumstances, which must have provoked opposition from the whole body of the people, if there had been the smallest ground for it. Hence it is obvious that they were induced to assent, merely because they had been previously convinced by their own experience. But because the fact was too clear to leave it free for heathen writers to deny that Moses did perform miracles, the father of lies suggested a calumny, and ascribed them to magic (Exod. 9:11). But with what probability is a charge of magic brought against him, who held it in such abhorrence, that he ordered every one who should consult soothsayers and magicians to be stoned? (Lev. 20:27). Assuredly, no impostor deals in tricks, without studying to raise his reputation by amazing the common people. But what does Moses do? By crying out, that he and Aaron his brother are nothing (Exod. 16:7), that they merely execute what God has commanded, he clears himself from every approach to suspicion. Again, if the facts are considered in themselves, what kind of incantation could cause manna to rain from heaven every day, and in sufficient quantity to maintain a people, while any one, who gathered more than the appointed measure, saw his incredulity divinely punished by its turning to worms? To this we may add, that God then suffered his servant to be subjected to so many serious trials, that the ungodly cannot now gain anything by their glamour. When (as often happened) the people proudly and petulantly rose up against him, when individuals conspired, and attempted to overthrow him, how could any impostures have enabled him to elude their rage? The event plainly shows that by these means his doctrine was attested to all succeeding ages.
+🔴 TEXT NOTE — A REAL DEFECT IN OUR SCAN, AND HOW IT WAS REPAIRED. READ THIS BEFORE YOU READ THE SECTION.
+Our source file source/Institutes_Beveridge_FULL.txt (lines 3602–3623) contains an OCR line-transposition inside §6. A block of 34 words has been lifted out of S3 and dropped into the middle of S10. The scan reads, verbatim:
+
+S3 as scanned: But because the fact was too ascribed them to magic (Exod. 9:11).
+S10 as scanned: how could any impostures have enabled clear to leave it free for heathen writers to deny that Moses did perform miracles, the father of lies suggested a calumny, and him to elude their rage?
+
+⚠️ Neither scanned sentence is English. the fact was too ascribed them to magic has no possible parse; impostures have enabled clear to leave it free has no possible parse. This is not an archaism to be puzzled over — it is print damage, and the repair is forced, not chosen.
+✅ The repair. The 34-word block is returned to its one and only grammatical home, immediately after too, which restores both sentences at a stroke and leaves every other character untouched:
+
+S3 restored: But because the fact was **too clear to leave it free for heathen writers to deny that Moses did perform miracles, the father of lies suggested a calumny, and** ascribed them to magic (Exod. 9:11).
+S10 restored: how could any impostures have enabled **him** to elude their rage?
+
+★ Three independent checks, all of which must pass before we teach a repaired text. (1) Syntax: too clear to leave... completes the stranded too, and enabled him to elude completes the stranded enabled; no word is added, deleted, or altered — only moved. (2) Sense: the restored S3 states the section's governing argument (the fact was undeniable, so the lie migrated from denial to magic), and it supplies the antecedent for them in ascribed **them** to magic — which the scanned version leaves dangling. (3) Discourse: S4 opens But with what probability is **a charge of magic** brought against him — a definite noun phrase that requires an already-introduced charge. In the scanned text no charge has been introduced by an agent; in the restored text the father of lies suggested a calumny introduces it. ⚠️ All three point the same way. The reading above is Beveridge's.
+📌 Action item for the repository (not done in this session): the defect is in the source file itself and will recur for anyone quoting Book 1, Ch. 8 §6. It should be corrected at source/Institutes_Beveridge_FULL.txt line 3607 and lines 3620–3622, with a note in source/SOURCES.md. ★ This is the first genuine transposition we have hit in 42 days. Expect more; check every stranded comparative.
+✅ Text note (ordinary transcription). Beyond the repair above, only print-furniture was removed. (1) The page number 78 falls inside S1, between from the whole body of and the people, together with the blank line that follows it; both are removed. (2) One word broken across a line-end — experi- / ence — was rejoined. (3) The running header CHAPTER 8. — THE CREDIBILITY OF SCRIPTURE SUFFICIENTLY PROVED IN SO / FAR… and page number 84 fall after the section and are not inside it. No footnote marker occurs in §6.
+ℹ️ On the count — and on one oddity. Eleven sentences. ⚠️ S4 ends with its question mark and then takes a citation: ...to be stoned? (Lev. 20:27). The parenthetical reference sits outside the question but inside the sentence unit, closed by its own full stop. This is Beveridge's house style for a citation that supports a question, and it happens exactly once in this section. Do not split it into two sentences. ★ Compare S3 and S7, where the citation sits inside the sentence before the final stop (to magic (Exod. 9:11)., are nothing (Exod. 16:7),). Three citations, two placements — the placement follows the punctuation of the host clause, not a rule about references.
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>  ── PART A: THE ARGUMENT FROM EMBARRASSMENT, CONCLUDED (S1–S2) ──
+
+[EXHIBIT]   S1  IT is worthy of remark [ THAT the miracles ( WHICH he RELATES )
+                   ARE COMBINED with ** DISAGREEABLE CIRCUMSTANCES ** ,
+                   [ WHICH MUST HAVE PROVOKED opposition
+                       from the whole body of the people ,
+                     ( IF there HAD BEEN the smallest ground for it ) ] ]
+                        ↑ it = 가주어 / that절 = 진주어
+                        ↑ must have p.p. + if there had been = 반사실 조건
+                        ↑ ⚠️ 반박이 "없었다"는 사실 자체가 증거다
+
+[INFERENCE] S2  HENCE it is OBVIOUS [ that they WERE INDUCED TO ASSENT ,
+                   ** MERELY BECAUSE ** they HAD BEEN PREVIOUSLY CONVINCED
+                       BY THEIR OWN EXPERIENCE ]
+                        ↑ merely because = 오직 ~라는 이유 하나로
+                        ↑ 동의의 유일한 설명 = 자기 눈으로 봤다
+
+  ── PART B: THE ALTERNATIVE HYPOTHESIS IS TABLED (S3) ──
+
+[★ THE HINGE] S3  BECAUSE the fact WAS ** TOO CLEAR **
+                     TO LEAVE  it  FREE  ( FOR heathen writers )
+                        TO DENY [ that Moses DID PERFORM miracles ] ,
+                  → the FATHER OF LIES SUGGESTED a CALUMNY ,
+                     and ‹he› ASCRIBED ** THEM ** to MAGIC
+                        ↑ ★ 부인이 막히자 거짓말이 형태를 바꿨다
+                        ↑ it = 가목적어, free = 목적보어 (5형식)
+                        ↑ them = the miracles (복원된 본문에서만 선행사가 산다)
+                        ↑ the father of lies = 요8:44 — 고발자에 이름표를 붙임
+
+  ── PART C: FIVE TESTS, AND MOSES FAILS THEM ALL (S4–S10) ──
+
+  TEST 1  ATTITUDE TO MAGIC
+[REL+SUCH]  S4  WITH WHAT PROBABILITY IS a charge of magic BROUGHT
+                   against him , ( WHO HELD it in ** SUCH ** ABHORRENCE ,
+                     ** THAT ** he ORDERED every one
+                        [ who SHOULD CONSULT soothsayers and magicians ]
+                        ** TO BE STONED ** ) ?  (Lev. 20:27).
+                        ↑ 의문사구 전치 + 수동 도치
+                        ↑ such ... that 결과절이 관계절 안에서 열린다
+                        ↑ order + O + to be p.p. (5형식·수동 부정사)
+
+  TEST 2  SELF-ADVERTISEMENT
+[UNIVERSAL] S5  ASSUREDLY , ** NO ** impostor DEALS IN TRICKS ,
+                   ** WITHOUT ** STUDYING to raise his reputation
+                     BY AMAZING the common people
+                        ↑ no ~ without ~ing = 예외 없는 전칭 긍정
+                        ↑ 칼빈은 지금 '사기꾼의 정의'를 확정하는 중
+
+[PIVOT]     S6  BUT WHAT DOES MOSES DO ?      ← 5단어. 방향 전환.
+
+  TEST 3  SELF-EFFACEMENT
+[★ BY-ING]  S7  BY CRYING OUT , [ that he and Aaron his brother ARE NOTHING ] ,
+                   [ that they MERELY EXECUTE ( what God HAS COMMANDED ) ] ,
+                → he CLEARS HIMSELF from every ** APPROACH TO ** SUSPICION
+                        ↑ 두 개의 that절이 crying out 에 병렬로 매달림
+                        ↑ ⚠️ 두 번째 that 앞에 and 가 없다 (무접속 병렬)
+                        ↑ approach to suspicion = 의심 비슷한 것조차
+
+  TEST 4  THE CHARACTER OF THE WONDER ITSELF
+[★ 5형식×2] S8  ( IF the facts ARE CONSIDERED in themselves , )
+                   WHAT KIND OF INCANTATION COULD CAUSE
+                     manna ** TO RAIN ** from heaven every day ,
+                     and ‹could cause it to rain› IN SUFFICIENT QUANTITY
+                       to maintain a people ,
+                   ( WHILE any one , [ who GATHERED more than
+                       the appointed measure , ] SAW his incredulity
+                       divinely ** PUNISHED ** by ITS TURNING to worms ) ?
+                        ↑ cause + O + TO V   /   see + O + p.p. (to 없음)
+                        ↑ its turning = 소유격 + 동명사 (그것이 변하는 것)
+                        ↑ 기적이 '심판까지 내장'하고 있다 — 마술은 못 하는 일
+
+  TEST 5  THE PRICE HE PAID
+[SO~THAT]   S9  God THEN ** SUFFERED ** his servant TO BE SUBJECTED
+                   to ** SO MANY ** serious trials ,
+                   ** THAT ** the ungodly CANNOT NOW GAIN anything
+                     by their ** GLAMOUR **
+                        ↑ suffer = 허락하다 (고통 ✗)
+                        ↑ ⚠️ glamour = 마법·요술 (매력 ✗) &lt; grammarye
+                        ↑ 시련은 결함이 아니라 반증불가의 근거다
+
+[NEG-ASSRT] S10 WHEN the people ROSE UP , WHEN individuals CONSPIRED
+                   and ATTEMPTED to overthrow him ,
+                → HOW COULD any impostures HAVE ENABLED him
+                     TO ELUDE their rage ?
+                        ↑ = 결코 못 했다  (Day41 S5 의 그 기계)
+
+  ── PART D: THE VERDICT (S11) ──
+
+[CLOSE]     S11 The EVENT PLAINLY SHOWS
+                   [ that BY THESE MEANS his doctrine WAS ATTESTED
+                     to all SUCCEEDING AGES ]
+                        ↑ these means = 시련들 그 자체
+                        ↑ ★ 반전: 그를 무너뜨릴 뻔한 것이 그를 입증했다
+</code></pre><p><strong>Examiner's Eye — three traps, and the third is the nasty one.</strong></p><p><strong>⚠️ Trap A — direction-flip on S1.</strong> A comprehension option will read: <em>"Moses avoided recording anything that might offend the people."</em> <strong>Exactly backwards.</strong> S1 says the miracles come <strong>combined with disagreeable circumstances</strong> — the record is <em>full</em> of material that would have provoked opposition, and the absence of that opposition is the evidence. ★ This is the same shape as Day 40 (<code>He stigmatises it with eternal infamy</code>). Two days, one method: <strong>the cost of the testimony is the proof of the testimony.</strong></p><p><strong>⚠️ Trap B — scope-overreach on S3.</strong> An option will read: <em>"Calvin argues that no heathen writer ever charged Moses with magic."</em> <strong>The opposite.</strong> Calvin's point is that heathen writers <strong>did</strong> make the charge — and that they made <em>this</em> charge precisely <strong>because</strong> denial was closed to them. ⚠️ Watch the causal chain: <code>too clear to deny</code> → <strong>therefore</strong> <code>a calumny</code> → <strong>therefore</strong> <code>magic</code>. A student who reverses the arrow has lost the section.</p><p><strong>⚠️ Trap C — the one that catches good students, on S9.</strong> An option will read: <em>"God protected Moses from the trials that his enemies devised for him."</em> <strong>No.</strong> <code>God then **suffered** his servant **to be subjected** to so many serious trials</code> = God <strong>allowed</strong> him to be put through them. ★ And the conclusion depends on it: the trials had to be <strong>real</strong> for S11's <code>by these means</code> to mean anything. <strong>A protected Moses proves nothing; a battered Moses proves everything.</strong> ⚠️ If you read <code>suffered</code> as <em>underwent</em> rather than <em>permitted</em>, you will also mis-assign the subject — the one who suffers in the modern sense is the servant, but the subject of the verb is <strong>God</strong>.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #1 — an argument built entirely out of something that did not happen</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>"For it is also worthy of remark, that the miracles which he relates are combined with disagreeable circumstances, which must have provoked opposition from the whole body of the people, if there had been the smallest ground for it."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>For</b></span></li><li><span class="leaf">it is also worthy of remark</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the miracles <b>are combined with disagreeable circumstances</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which he relates</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which must have provoked</b> opposition</span><ul class="tr"><li><span class="leaf">from the whole body of the people</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if there had been</b> the smallest ground for it</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>remark</em> &lt; Fr. <em>remarquer</em> &lt; <em>re-</em> + <em>marquer</em> — 다시 표시해 두다; family: mark, marquee, demarcate. — <em>disagreeable</em> &lt; <em>dis-</em> + <em>agree</em> &lt; OFr <em>agreer</em> &lt; <em>à gré</em> (to one's liking) &lt; Lat. <em>gratum</em> — ★ 어제의 <em>ingratitude</em>, <em>disgrace</em> 와 같은 <em>gratus</em> 뿌리. — <em>provoke</em> &lt; <em>pro</em> (forth) + <em>vocare</em> (to call) = 불러내다; family: vocation, evoke, revoke, advocate, vocal. — <em>circumstance</em> &lt; <em>circum</em> (around) + <em>stare</em> (to stand) — 둘러서 있는 것들; family: stance, constant, obstinate (S10 의 그 뿌리).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it is worthy of remark that ~</em> = ~라는 점이 주목할 만하다; <em>be combined with ~</em> = ~와 결합되어 있다; <em>there is (not) the smallest ground for ~</em> = ~할 근거가 조금도 없다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Here's something else worth noticing: the miracles Moses reports come attached to embarrassing details — details that would have set the whole nation protesting if there had been the slightest basis for a protest.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>worthy of remark</b> → worth noticing</li><li><b>disagreeable circumstances</b> → embarrassing details</li><li><b>must have provoked</b> → would certainly have provoked</li><li><b>the smallest ground</b> → the slightest basis</li><li><b>the whole body of the people</b> → the whole nation.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the inference — and merely because is the whole of it</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>"Hence it is obvious that they were induced to assent, merely because they had been previously convinced by their own experience."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Hence</b></span></li><li><span class="leaf">it is obvious</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that they <b>were induced to assent</b></span><ul class="tr"><li><span class="leaf"><b>merely because</b> they <b>had been previously convinced</b></span></li><li><span class="leaf"><b>by their own experience</b></span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>induce</em> &lt; <em>in</em> + <em>ducere</em> (to lead) — family: deduce, conduce, seduce (옆으로 이끌다), produce, duke, duct. — <em>assent</em> &lt; <em>ad</em> + <em>sentire</em> (to feel, to think) — ★ <em>consent</em>(함께 느끼다)·<em>dissent</em>(달리 느끼다)·<em>sentiment</em>·<em>sense</em> 와 한 가족: 라틴어에서 동의는 같은 쪽으로 느끼는 것. — <em>convince</em> &lt; <em>con-</em> + <em>vincere</em> (to conquer) — ⚠️ 설득은 어원상 정복이다; family: victor, evince, invincible, convict.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>induce A to V</em> = A로 하여금 ~하게 만들다; <em>merely because ~</em> = 오직 ~ 때문에 (다른 이유는 없다).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So it's clear they only came to accept it because they had already been convinced by what they had experienced themselves.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Hence</b> → So</li><li><b>were induced to assent</b> → came to accept it</li><li><b>merely because</b> → only because</li><li><b>previously convinced</b> → already convinced.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #2 — the hinge of the section, and the hardest syntax in it</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>"But because the fact was too clear to leave it free for heathen writers to deny that Moses did perform miracles, the father of lies suggested a calumny, and ascribed them to magic (Exod. 9:11)."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf">` <b>But</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">이유절 (because)</span><span class="leaf"><b>because</b> the fact was <b>too clear</b></span></li><li><span class="leaf"><b>to leave</b> <b>it</b> <b>free</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>for</b> heathen writers</span></li></ul></li><li><span class="leaf"><b>to deny</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that Moses <b>did perform</b> miracles</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>the father of lies suggested a calumny</b></span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and ‹he› <b>ascribed them to magic</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Exod. 9:11</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>calumny</em> &lt; Lat. <em>calumnia</em> (a false accusation, trickery) &lt; <em>calvi</em> (to deceive) — 로마법 용어: 무고죄; family: challenge (&lt; <em>calumniare</em>!). — <em>ascribe</em> &lt; <em>ad</em> + <em>scribere</em> (to write to someone's account) — ★ 회계 은유: 어떤 계정에 달아 놓다; family: describe, subscribe, prescribe, scripture(!). — <em>magic</em> &lt; Gk. μαγεία &lt; μάγος (a Persian priest-caste; cf. Matt 2:1 μάγοι) — ⚠️ 원래는 중립적 '박사'였다가 점차 부정적으로. — <em>heathen</em> &lt; OE <em>hæðen</em>, prob. 'dweller on the heath' — Lat. <em>paganus</em>('시골 사람')와 같은 발상.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>too ADJ to V</em> = 너무 ~해서 ~할 수 없다; <em>leave it free for A to V</em> = A가 ~하도록 여지를 남겨 두다; <em>ascribe A to B</em> = A를 B의 탓으로 돌리다; <em>the father of lies</em> = 거짓의 아비(요8:44).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But the fact was too obvious for pagan writers to be able to deny that Moses really did perform miracles — so the father of lies floated a slander instead, and put the miracles down to sorcery.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>too clear to leave it free for A to deny</b> → too obvious for A to be able to deny</li><li><b>did perform</b> → really did perform</li><li><b>calumny</b> → slander</li><li><b>ascribed them to magic</b> → put them down to sorcery.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #3 — a fronted wh-phrase over a passive, with a result clause opening inside a relative</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>"But with what probability is a charge of magic brought against him, who held it in such abhorrence, that he ordered every one who should consult soothsayers and magicians to be stoned? (Lev. 20:27)."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf">` <b>But with what probability</b></span></li><li><span class="leaf"><b>is</b> a charge of magic <b>brought</b> against <b>him</b></span></li><li><span class="leaf">?</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who held it in such abhorrence</b></span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> he <b>ordered</b> every one <b>to be stoned</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who should consult</b> soothsayers and magicians</span></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Lev. 20:27</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>abhorrence</em> &lt; <em>ab</em> (away) + <em>horrere</em> (to bristle with fear) — ★ 털이 곤두서 물러서다; family: horror, horrid, horrible, abhor. — <em>soothsayer</em> = sooth(OE <em>sōþ</em>, truth) + sayer — ⚠️ 어원은 '진실을 말하는 자'인데 뜻은 '점쟁이'; cf. <em>forsooth</em>, <em>soothe</em>(원래는 '사실이라고 인정하다'). — <em>probability</em> &lt; <em>probare</em> (to test, to prove) &lt; <em>probus</em> (upright) — family: probe, prove, approve, probation. — <em>charge</em> &lt; Lat. <em>carricare</em> (to load a wagon) &lt; <em>carrus</em> — 고발은 상대에게 짐을 싣는 일; family: cargo, carry, discharge, caricature(과장해 싣기).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>with what probability ~?</em> = 무슨 개연성으로 ~인가? = 전혀 개연성이 없다; <em>hold A in abhorrence</em> = A를 몹시 혐오하다; <em>bring a charge against A</em> = A에게 혐의를 제기하다; <em>order A to be p.p.</em> = A가 ~되도록 명하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But how believable is a charge of sorcery against a man who hated it so much that he ordered anyone consulting a fortune-teller or a wizard to be stoned to death?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>with what probability is a charge brought</b> → how believable is a charge</li><li><b>held it in such abhorrence that</b> → hated it so much that</li><li><b>every one who should consult</b> → anyone who consulted</li><li><b>soothsayers</b> → fortune-tellers</li><li><b>to be stoned</b> → to be stoned to death.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s2" title="2-star">★★</span><span class="s-label">a universal law, stated so that Moses can break it</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>"Assuredly, no impostor deals in tricks, without studying to raise his reputation by amazing the common people."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Assuredly</b></span></li><li><span class="leaf"><b>no impostor deals in tricks</b></span></li><li><span class="leaf"><b>without studying</b></span></li><li><span class="leaf"><b>to raise his reputation</b></span></li><li><span class="leaf"><b>by amazing the common people</b></span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>impostor</em> &lt; <em>in</em> + <em>ponere</em> (to lay upon) — ★ 어제 S5 의 `impose on`(속이다)·`imposture` 와 같은 가족; 사기는 상대에게 얹는 것. — <em>amaze</em> &lt; OE <em>āmasian</em> — <em>maze</em>(미로)와 같은 뿌리: 넋을 빼 헤매게 하다; family: maze, amazement, bemuse(비슷한 발상). — <em>reputation</em> &lt; <em>re-</em> + <em>putare</em> (to reckon, to prune) — 평판은 남들이 셈해 준 값; family: compute, dispute, impute, repute, count(&lt; computare). — <em>trick</em> &lt; OFr <em>trikier</em> &lt; Lat. <em>tricari</em> (to make difficulties) — family: intricate(뒤엉킨), extricate(풀어내다).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>no A ... without V-ing</em> = A치고 ~하지 않는 자는 없다; <em>deal in ~</em> = ~을 업으로 하다·취급하다; <em>study to V</em> = ~하려 애쓰다 (고어); <em>the common people</em> = 일반 대중.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Certainly, no con man in the business fails to work at building his reputation by dazzling ordinary people.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>impostor</b> → con man</li><li><b>deals in tricks</b> → is in the business of tricks</li><li><b>without studying to</b> → fails to work at</li><li><b>amazing the common people</b> → dazzling ordinary people.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s1" title="1-star">★</span><span class="s-label">five words — the pivot</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>"But what does Moses do?"</p>
+</blockquote><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So what does Moses actually do?</p></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #4 — a fronted gerund carrying two asyndetic that-clauses</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>"By crying out, that he and Aaron his brother are nothing (Exod. 16:7), that they merely execute what God has commanded, he clears himself from every approach to suspicion."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>By crying out</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> he and Aaron his brother <b>are nothing</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Exod. 16:7</span></li></ul></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> they <b>merely execute</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">what God <b>has commanded</b></span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>he clears himself</b></span></li><li><span class="leaf">from <b>every approach to suspicion</b></span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>execute</em> &lt; <em>ex</em> + <em>sequi</em> (to follow out to the end) — family: sequel, consequence, sequence, pursue, prosecute, obsequious. — <em>approach</em> &lt; OFr <em>aprochier</em> &lt; Late Lat. <em>appropiare</em> &lt; <em>ad</em> + <em>prope</em> (near) — ★ family: propinquity, proximity, approximate. — <em>suspicion</em> &lt; <em>sub</em> + <em>specere</em> (to look at from underneath) — 의심은 밑에서 훔쳐보는 눈; family: suspect, spectacle, inspect, conspicuous, despise. — <em>command</em> &lt; <em>com-</em> + <em>mandare</em> (to entrust, to put into the hand, <em>manus</em> + <em>dare</em>) — family: mandate, demand, recommend, commend.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>by V-ing</em> = ~함으로써 (수단); <em>cry out that ~</em> = ~라고 외쳐 알리다; <em>A his brother</em> = A, 곧 그의 형제 (고어 동격); <em>clear oneself from ~</em> = ~의 혐의를 벗다; <em>every approach to suspicion</em> = 의심 비슷한 것 일체.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">By declaring publicly that he and his brother Aaron are nobodies, that they are only carrying out God's orders, he puts himself beyond even the appearance of suspicion.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>by crying out</b> → by declaring publicly</li><li><b>are nothing</b> → are nobodies</li><li><b>merely execute what God has commanded</b> → are only carrying out God's orders</li><li><b>every approach to suspicion</b> → even the appearance of suspicion.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #5 — the object-complement showcase: cause O to V and see O p.p. in one breath</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>"Again, if the facts are considered in themselves, what kind of incantation could cause manna to rain from heaven every day, and in sufficient quantity to maintain a people, while any one, who gathered more than the appointed measure, saw his incredulity divinely punished by its turning to worms?"</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Again</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if the facts are considered in themselves</b></span></li></ul></li><li><span class="leaf"><b>what kind of incantation could cause</b></span></li><li><span class="leaf">manna <b>to rain</b> from heaven every day</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and</b> ‹could cause it to rain› <b>in sufficient quantity to maintain a people</b></span></li><li><span class="leaf">?</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">부사절 (while)</span><span class="leaf"><b>while</b> any one,, <b>saw</b> his incredulity divinely <b>punished</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who <b>gathered</b> more than the appointed measure</span></li></ul></li></ul></li><li><span class="leaf"><b>by its turning to worms</b></span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>incantation</em> &lt; <em>in</em> + <em>cantare</em> (to sing at/over) — ★ 주문은 노래다; family: chant, enchant, canticle, recant(노래를 도로 무르다), accent. — <em>incredulity</em> &lt; <em>in-</em> + <em>credere</em> — ★ chapter title 의 <em>credibility</em>, Day 40 의 <em>credit</em>, Day 41 의 <em>take for granted</em> 와 한 뿌리. — <em>maintain</em> &lt; <em>manu tenere</em> (to hold in the hand) — family: tenant, tenure, retain, sustain, contain. — <em>measure</em> &lt; <em>metiri</em> (to measure) — family: meter, dimension, immense(잴 수 없는), commensurate. — <em>worm</em> &lt; OE <em>wyrm</em>, originally 'serpent, dragon' — ⚠️ 옛 뜻이 훨씬 크다; cf. Day 8 의 `the worm of conscience`(사66:24).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>consider A in itself</em> = A 자체로 놓고 보다; <em>cause A to V</em> = A로 하여금 ~하게 하다; <em>see A p.p.</em> = A가 ~되는 것을 목격하다; <em>in sufficient quantity to V</em> = ~하기에 충분한 양으로; <em>turn to ~</em> = ~으로 변하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And again — looking at the facts on their own — what kind of spell could make manna fall from the sky every day, in quantities enough to feed a whole nation, while anyone who collected more than the fixed ration saw his unbelief punished by God as it turned into worms?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>if the facts are considered in themselves</b> → looking at the facts on their own</li><li><b>what kind of incantation</b> → what kind of spell</li><li><b>cause manna to rain</b> → make manna fall</li><li><b>the appointed measure</b> → the fixed ration</li><li><b>saw his incredulity divinely punished</b> → saw his unbelief punished by God</li><li><b>by its turning to worms</b> → as it turned into worms.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s2" title="2-star">★★</span><span class="s-label">⚠️ two archaic words in one sentence, and both of them are traps</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p>"To this we may add, that God then suffered his servant to be subjected to so many serious trials, that the ungodly cannot now gain anything by their glamour."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>To this we may add</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> God then <b>suffered</b> his servant <b>to be subjected</b></span><ul class="tr"><li><span class="leaf">to <b>so many</b> serious trials</span></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the ungodly <b>cannot now gain anything</b></span><ul class="tr"><li><span class="leaf"><b>by their glamour</b></span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>suffer</em> &lt; <em>sub</em> + <em>ferre</em> (to bear from underneath) — ★ 두 뜻이 한 어원에서: 견디다 → 참아 주다 → 허락하다; family: offer, refer, confer, fertile, ferry, bear(동계). — <em>glamour</em> ⚠️ &lt; Scots alteration of grammar &lt; Gk. γράμμα (a written letter) — ★ grammar → grammarye(비학) → glamour(마법) → glamour(매혹); <em>grammar</em> 와 <em>glamour</em> 는 문자 그대로 같은 단어다. — <em>ungodly</em> = OE <em>un-</em> + <em>god</em> + <em>-ly</em> — 라틴계가 아닌 순 게르만계 조어. — <em>trial</em> &lt; OFr <em>trier</em> (to pick out, to sift) — ★ 시련은 골라내는 일; family: try, triage, retry.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>to this we may add that ~</em> = 여기에 덧붙이자면 ~; <em>suffer A to V</em> = A가 ~하도록 허락하다 (고어); <em>be subjected to ~</em> = ~을 겪게 되다; <em>so ~ that ~</em> = 너무 ~해서 ~하다; <em>gain nothing by ~</em> = ~으로 아무것도 얻지 못하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">We can add that God allowed his servant to be put through so many severe ordeals that the ungodly can now get nothing out of their talk of magic.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>suffered his servant to be subjected</b> → allowed his servant to be put through</li><li><b>serious trials</b> → severe ordeals</li><li><b>cannot now gain anything by</b> → can now get nothing out of</li><li><b>their glamour</b> → their talk of magic.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the rhetorical question, third day running — and now you should recognise the machine on sight</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p>"When (as often happened) the people proudly and petulantly rose up against him, when individuals conspired, and attempted to overthrow him, how could any impostures have enabled him to elude their rage?"</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>When</b> the people <b>proudly and petulantly rose up</b> against him</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as often happened</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> individuals <b>conspired</b>, and <b>attempted to overthrow</b> him</span></li></ul></li><li><span class="leaf"><b>how could</b> any impostures <b>have enabled</b> him <b>to elude</b> their rage ?</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>petulant</em> &lt; <em>petulans</em> &lt; <em>petere</em> (to seek, to attack) — ★ family: petition, appetite, compete, impetus, repeat, perpetual — 모두 '달려들다'의 계열. — <em>elude</em> &lt; <em>e-</em> + <em>ludere</em> (to play) — family: illusion, delude, allude, ludicrous, prelude, collude — ★ 모두 '놀이'가 뿌리: 속임수는 놀이다. — <em>conspire</em> &lt; <em>con-</em> + <em>spirare</em> (to breathe together) — ★ 음모는 함께 숨 쉬는 것; family: aspire, inspire, respire, expire, spirit. — <em>overthrow</em> = OE 합성, <em>over</em> + <em>throw</em>(원래 '비틀다', cf. German <em>drehen</em>).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>rise up against ~</em> = ~에게 들고일어나다; <em>as often happened</em> = 자주 그랬듯이; <em>attempt to V</em> = ~하려 시도하다; <em>enable A to V</em> = A가 ~할 수 있게 하다; <em>how could ~?</em> = 어떻게 ~할 수 있었겠는가 = 결코 못 했다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">When the people rose against him in arrogant defiance — as they often did — when individuals plotted and tried to bring him down, how could any trickery have got him out of their fury?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>proudly and petulantly</b> → in arrogant defiance</li><li><b>conspired</b> → plotted</li><li><b>impostures</b> → trickery</li><li><b>elude their rage</b> → get out of their fury.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s1" title="1-star">★</span><span class="s-label">the verdict — and the reversal is in three words</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p>"The event plainly shows that by these means his doctrine was attested to all succeeding ages."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><strong>event</strong> — e- + venire = 나온 것. in the event(결국)·eventual 로 기억</li><li><strong>attest</strong> — ad + testis(증인). ★ §5 의 법정이 아직 서 있다. testify·testament·protest·detest</li><li><strong>succeeding ages</strong> — sub + cedere(뒤따라 가다). succeed·secede·recede·concede·precede</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The outcome makes it clear that it was through these very things that his teaching was authenticated for every age since.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the event</b> → the outcome</li><li><b>by these means</b> → through these very things</li><li><b>was attested</b> → was authenticated</li><li><b>to all succeeding ages</b> → for every age since.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — <code>too ADJ to V</code>, and the dummy object hiding inside it</h3><pre><code>┌──────────────────────────────────────────────────────────────────────┐
+│  BASIC:   S be TOO adj TO V          = so adj that S cannot V        │
+│           ⚠️ NEGATIVE without a `not`. Never translate positively.   │
+│                                                                      │
+│  WITH A LOGICAL SUBJECT ON THE INFINITIVE:                          │
+│           S be TOO adj FOR A TO V                                    │
+│           "The fact was too clear FOR heathen writers TO deny."      │
+│                                                                      │
+│  TODAY'S COMPOUND (S3) — the exam version:                          │
+│      the fact was TOO clear TO LEAVE  it  free                       │
+│                                       ↑    ↑                         │
+│                                    dummy   object                    │
+│                                    object  complement                │
+│                              FOR heathen writers TO DENY that ...    │
+│                              └── the REAL object, extraposed ───┘    │
+│                                                                      │
+│  ⚠️ THE TEST FOR A DUMMY `it`:                                      │
+│       Can you delete `it` and hang the for/that-clause on the        │
+│       complement directly?                                          │
+│         "too clear to leave heathen writers free to deny"  ✓        │
+│       → then `it` was a placeholder, NOT a pronoun. Do not hunt      │
+│         for an antecedent. (⚠️ compare `ascribed THEM to magic`      │
+│         in the same sentence, where `them` IS a real pronoun and     │
+│         DOES need one — that contrast is examinable.)                │
+│                                                                      │
+│  RELATED FRAMES that behave the same way:                           │
+│       leave IT open for A to V   /   make IT possible for A to V     │
+│       think IT best that ...     /   find IT hard to V               │
+└──────────────────────────────────────────────────────────────────────┘
+</code></pre><p><strong>변형 연습:</strong> <em>The seed of divinity is too deeply implanted to leave it free for any man to plead ignorance of God; and the testimony of conscience is too loud to leave it open for the reprobate to deny that they were warned.</em></p><h3>Formula 2 — Double negation as a universal law</h3><pre><code>┌──────────────────────────────────────────────────────────────────────┐
+│   NO  A  V₁ ,  WITHOUT  V₂-ing        (today S5)                    │
+│        = EVERY A that V₁ also V₂s.  예외 없음.                       │
+│        "No impostor deals in tricks, without studying to raise       │
+│         his reputation by amazing the common people."                │
+│        → 사기꾼치고 대중을 놀래어 명성을 쌓으려 하지 않는 자는 없다.  │
+│                                                                      │
+│   ⚠️ `WITHOUT` IS A NEGATIVE. Count it.                             │
+│      no / never / hardly  +  without  →  strong affirmative          │
+│                                                                      │
+│   THE FAMILY (build the whole set now):                             │
+│      never V₁ without V₂-ing        = V₁ 하면 반드시 V₂ 한다         │
+│      no ~ SO adj AS NOT TO V        = Day 6 의 그것                  │
+│      not ~ BUT (that) ~             = ~하지 않고는 ~않다             │
+│      there is no A but V-s          = A치고 V하지 않는 것은 없다     │
+│                                                                      │
+│   ⚠️ EXAM SHAPE: they will offer you a weak paraphrase              │
+│      ("impostors often try to impress people") as a distractor.      │
+│      A double negative is EXCEPTIONLESS. Reject any "often/          │
+│      generally/tend to" paraphrase on sight.                         │
+└──────────────────────────────────────────────────────────────────────┘
+</code></pre><p><strong>변형 연습:</strong> <em>No idolater ever fashions a god, without first measuring him by himself; and no conscience is ever quieted by such an image, without betraying, in the very moment of its ease, the terror it was built to silence.</em></p><h3>Formula 3 — The object-complement decision tree (⭐ today's core)</h3><pre><code>┌──────────────────────────────────────────────────────────────────────┐
+│              V  +  O  +  ???        WHAT FORM DOES ??? TAKE?         │
+│                                                                      │
+│  STEP 1 — WHICH VERB IS IT?                                         │
+│    ┌ KEEPS `to` ──── cause, enable, order, suffer(=allow), get,      │
+│    │                 permit, force, compel, lead, induce             │
+│    │      cause manna TO RAIN                          (S8)         │
+│    │      enable him TO ELUDE                          (S10)        │
+│    │      order every one TO BE STONED                 (S4)         │
+│    │      suffer his servant TO BE SUBJECTED           (S9)         │
+│    │      induce them TO ASSENT                        (S2, passive)│
+│    │                                                                 │
+│    └ DROPS `to` ──── make, let, have, bid, help(opt.)               │
+│                      + PERCEPTION: see, hear, feel, watch, notice    │
+│           saw his incredulity PUNISHED                 (S8)         │
+│                                                                      │
+│  STEP 2 — IS O THE AGENT OR THE PATIENT OF THE COMPLEMENT?          │
+│    AGENT  (O does it)      → ACTIVE                                 │
+│           cause manna TO RAIN         (the manna rains)             │
+│    PATIENT (O receives it) → PASSIVE                                │
+│           order him TO BE STONED      (he is stoned)                │
+│           see it PUNISHED             (it is punished)              │
+│                                                                      │
+│  ⚠️ STEP 2 OVERRIDES NOTHING IN STEP 1 — combine them:              │
+│      to-verb + patient   → TO BE p.p.   (order him to be stoned)     │
+│      bare-verb + patient → bare p.p.    (saw it punished)            │
+│      ✗ saw it TO BE punished     ✗ caused manna RAIN                │
+│                                                                      │
+│  ⚠️ AND THE BARE-ADJECTIVE COMPLEMENT (S3): leave it FREE           │
+│      leave / make / find / think / call + O + ADJ — no `to be`.      │
+└──────────────────────────────────────────────────────────────────────┘
+</code></pre><p><strong>변형 연습:</strong> <em>What kind of eloquence could cause a rude and homely style to pierce the heart, and enable an unlettered fisherman to silence the schools, while any one who came to Scripture for ornament saw his curiosity divinely disappointed, and was suffered to go away empty?</em></p><h3>Formula 4 — <code>such/so ... that</code>: the promise and the payment</h3><pre><code>┌──────────────────────────────────────────────────────────────────────┐
+│    SUCH + (a) + [adj] NOUN  ... ,  THAT + clause          (S4)      │
+│         "held it in SUCH abhorrence , THAT he ordered ..."          │
+│    SO   + adj/adv/many/much  ... ,  THAT + clause         (S9)      │
+│         "SO many serious trials , THAT the ungodly cannot ..."      │
+│                                                                      │
+│  ⚠️ TRAP 1 — BEVERIDGE COMMAS BEFORE `that`. The comma does NOT     │
+│     close the construction. On meeting a stray `that`, LOOK LEFT     │
+│     for `so` or `such` before you posit a new clause.                │
+│                                                                      │
+│  ⚠️ TRAP 2 — THE HALVES MAY BE SEPARATED BY A RELATIVE CLAUSE:      │
+│     "against him, [ WHO held it in such abhorrence, THAT ... ]"      │
+│     → both halves are INSIDE the relative. The `that` is not         │
+│       attached to `him`.                                             │
+│                                                                      │
+│  ⚠️ TRAP 3 — `so many` IS AMBIGUOUS ACROSS TWO DAYS:                │
+│       Day 41 S1  "are SO MANY sanctions"    = tot, 「바로 그만큼의」  │
+│       Day 42 S9  "SO MANY trials, THAT..."  = 결과절 강조어          │
+│     DECISION RULE: is there a `that`-clause downstream?              │
+│        YES → intensifier + result.   NO → the Latin idiom `tot`.     │
+└──────────────────────────────────────────────────────────────────────┘
+</code></pre><p><strong>변형 연습:</strong> <em>He held the invention of images in such abhorrence, that he would not suffer even a memorial of the true God to stand in the sanctuary; and he laid so many warnings upon the people, that no man could afterwards plead that he had not been told.</em></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (어원 후킹 테이블)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>remark</strong> (n.)</td>
+<td>주목·언급</td>
+<td><em>re-</em> + <em>marquer</em> 다시 표시하다. <code>worthy of remark</code> = 주목할 만한</td>
+</tr>
+<tr>
+<td><strong>disagreeable</strong> ⚠️</td>
+<td><strong>(이야기에) 어울리지 않는·불리한</strong> (단지 '불쾌한' ✗)</td>
+<td><em>dis-</em> + <em>à gré</em>(마음에 드는) &lt; <em>gratus</em> — 어제의 <em>ingratitude</em>·<em>disgrace</em> 와 한 뿌리</td>
+</tr>
+<tr>
+<td><strong>provoke</strong></td>
+<td>촉발하다·불러일으키다</td>
+<td><em>pro</em>(앞으로) + <em>vocare</em>(부르다) = 불러내다. vocation·evoke·revoke</td>
+</tr>
+<tr>
+<td><strong>ground</strong> ⚠️</td>
+<td><strong>근거·논거</strong> (땅 ✗)</td>
+<td><code>the smallest ground for it</code> = 조금의 근거도. cf. groundless(근거 없는)</td>
+</tr>
+<tr>
+<td><strong>induce</strong></td>
+<td>~하게 만들다·이끌다</td>
+<td><em>in</em> + <em>ducere</em>(이끌다). deduce·seduce·produce·duct</td>
+</tr>
+<tr>
+<td><strong>assent</strong></td>
+<td>동의</td>
+<td><em>ad</em> + <em>sentire</em>(느끼다) = 같은 쪽으로 느끼다. consent·dissent·sentiment</td>
+</tr>
+<tr>
+<td><strong>merely</strong> ⚠️</td>
+<td><strong>오직 ~일 뿐</strong> (배제 기능)</td>
+<td>S2 <code>merely because</code>, S7 <code>merely execute</code> — 두 번 다 <strong>다른 가능성을 잘라내는</strong> 말. 빼면 문장이 죽는다</td>
+</tr>
+<tr>
+<td><strong>calumny</strong> ⚠️</td>
+<td><strong>무고·중상</strong> (법정 용어)</td>
+<td><em>calumnia</em> 허위 고발죄 &lt; <em>calvi</em> 속이다. ★ <strong>challenge</strong> 가 같은 어원</td>
+</tr>
+<tr>
+<td><strong>cavil</strong> vs <strong>calumny</strong></td>
+<td>트집(가벼움) ↔ 무고(악의·법적)</td>
+<td>⚠️ 칼빈은 공격의 등급을 나눈다. Day34·37·40·41 은 <em>cavil</em>, 오늘은 <strong>격상된</strong> <em>calumny</em></td>
+</tr>
+<tr>
+<td><strong>ascribe A to B</strong></td>
+<td>A를 B의 탓으로 돌리다</td>
+<td><em>ad</em> + <em>scribere</em>(적어 넣다) — 회계 은유: 어느 계정에 달다. describe·subscribe·<strong>scripture</strong></td>
+</tr>
+<tr>
+<td><strong>the father of lies</strong></td>
+<td>거짓의 아비 = 사탄</td>
+<td>요8:44. ★ 8장의 고정 배역: 성령은 쓰고, 거짓의 아비는 위조한다(Day38 <code>apes God</code>)</td>
+</tr>
+<tr>
+<td><strong>probability</strong></td>
+<td>개연성·그럴듯함</td>
+<td><em>probare</em>(시험하다) &lt; <em>probus</em>(올곧은). probe·prove·approve·probation</td>
+</tr>
+<tr>
+<td><strong>abhorrence</strong></td>
+<td>극도의 혐오</td>
+<td><em>ab</em>(멀리) + <em>horrere</em>(털이 곤두서다). ★ 반대하는 게 아니라 <strong>몸서리치는</strong> 것</td>
+</tr>
+<tr>
+<td><strong>soothsayer</strong> ⚠️</td>
+<td>점쟁이</td>
+<td><strong>sooth</strong>(고대영어 '진실') + sayer — ⚠️ 어원은 '진실을 말하는 자'인데 뜻은 정반대 방향. cf. forsooth</td>
+</tr>
+<tr>
+<td><strong>impostor / imposture</strong></td>
+<td>사기꾼 / 사기</td>
+<td><em>in</em> + <em>ponere</em> 위에 얹다. ★ Day38 <code>cloak his impostures</code>, Day41 <code>impose on</code>(속이다) 과 한 가족</td>
+</tr>
+<tr>
+<td><strong>deal in</strong></td>
+<td>~을 업으로 하다</td>
+<td>상인의 동사. ⚠️ <em>deal with</em>(다루다)와 구별</td>
+</tr>
+<tr>
+<td><strong>study to V</strong> ⚠️</td>
+<td><strong>~하려 애쓰다</strong> (공부하다 ✗)</td>
+<td>흠정역 딤후2:15 <code>**Study** to shew thyself approved</code> 로 기억</td>
+</tr>
+<tr>
+<td><strong>amaze</strong></td>
+<td>얼을 빼다·아연케 하다</td>
+<td>&lt; <em>maze</em>(미로) — ★ 현대어보다 훨씬 강하다: 넋을 빼 헤매게 함</td>
+</tr>
+<tr>
+<td><strong>execute</strong></td>
+<td>수행하다·시행하다</td>
+<td><em>ex</em> + <em>sequi</em>(끝까지 따라가다). sequel·consequence·prosecute·obsequious</td>
+</tr>
+<tr>
+<td><strong>approach to</strong> ⚠️</td>
+<td><strong>~에 근접한 것·비슷한 것</strong> (접근법 ✗)</td>
+<td><code>every approach to suspicion</code> = 의심 비슷한 것 일체. <em>ad</em> + <em>prope</em>(가까이)</td>
+</tr>
+<tr>
+<td><strong>incantation</strong></td>
+<td>주문</td>
+<td><em>in</em> + <em>cantare</em>(노래하다) — ★ 주문은 <strong>노래</strong>다. chant·enchant·recant·accent</td>
+</tr>
+<tr>
+<td><strong>incredulity</strong></td>
+<td>불신</td>
+<td><em>in-</em> + <em>credere</em>. ★ 8장 제목의 <em>credibility</em>, Day40 <em>credit</em>, Day41 <em>take for granted</em> 와 같은 뿌리 — <strong>8장은 '믿음'의 어근으로 짜여 있다</strong></td>
+</tr>
+<tr>
+<td><strong>appointed measure</strong></td>
+<td>정해진 분량 = 오멜</td>
+<td>출16:16,18. <em>appoint</em> &lt; <em>ad</em> + <em>punctum</em>(점을 찍어 정하다)</td>
+</tr>
+<tr>
+<td><strong>suffer</strong> ⚠️⚠️</td>
+<td><strong>허락하다</strong> (고통받다 ✗) — 주어가 <strong>God</strong></td>
+<td><em>sub</em> + <em>ferre</em> 밑에서 받치다 → 참아 주다 → 허락하다. 막10:14 <code>**Suffer** the little children</code></td>
+</tr>
+<tr>
+<td><strong>glamour</strong> ⚠️⚠️</td>
+<td><strong>마법·요술</strong> (매력 ✗)</td>
+<td>★★ 스코틀랜드어에서 <strong>grammar</strong> 가 변한 말 — <em>grammarye</em>(비학) → glamour(마술) → glamour(매혹). <strong>문법과 마법은 문자 그대로 같은 단어다</strong></td>
+</tr>
+<tr>
+<td><strong>the ungodly</strong></td>
+<td>불경건한 자들</td>
+<td>정관사 + 형용사 = 집합 명사. Day4 의 <em>piety</em> 대립쌍 계열</td>
+</tr>
+<tr>
+<td><strong>petulantly</strong> ⚠️</td>
+<td><strong>오만불손하게·대들며</strong> (토라져서 ✗)</td>
+<td><em>petulans</em> &lt; <em>petere</em>(달려들다). appetite·compete·impetus·repeat 와 한 가족 — 어원은 <strong>공격성</strong></td>
+</tr>
+<tr>
+<td><strong>conspire</strong></td>
+<td>공모하다</td>
+<td><em>con-</em> + <em>spirare</em>(숨 쉬다) = <strong>함께 숨 쉬다</strong>. aspire·inspire·expire·spirit</td>
+</tr>
+<tr>
+<td><strong>elude</strong></td>
+<td>(꾀로) 벗어나다</td>
+<td><em>e-</em> + <em>ludere</em>(놀다). illusion·delude·allude·ludicrous·collude — ★ 속임수 계열은 전부 '놀이'</td>
+</tr>
+<tr>
+<td><strong>event</strong> ⚠️</td>
+<td><strong>결과·귀결</strong> (사건 ✗)</td>
+<td><em>e-</em> + <em>venire</em> = 나온 것. <code>in the event</code>(결국)·<em>eventual</em> 로 기억</td>
+</tr>
+<tr>
+<td><strong>attest</strong></td>
+<td>(증인으로) 입증하다</td>
+<td><em>ad</em> + <em>testis</em>(증인). ★ §5 의 법정이 아직 서 있다. testify·testament·protest·detest</td>
+</tr>
+<tr>
+<td><strong>succeeding ages</strong></td>
+<td>뒤이은 시대들</td>
+<td><em>sub</em> + <em>cedere</em>(뒤따라 가다). succeed·secede·recede·concede·precede</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>① <code>Heathen writers ... ascribed them to magic</code> is not a rhetorical flourish. Calvin is naming a real, documented tradition — and you should know the names.</strong></p><p>The charge that Moses was a magician has a continuous pagan pedigree, and it is one of the better-attested pieces of ancient anti-Jewish polemic:</p><pre><code>   THE MAGIC-CHARGE, A SHORT DOSSIER
+
+   Pliny the Elder, Naturalis Historia 30.11  (c. AD 77)
+        — names a "branch of magic derived from Moses and the Jews"
+   Apuleius, Apologia 90  (AD 158/9)
+        — defending himself on a charge of magic, lists Moses
+          among the famous magi
+   Numenius of Apamea (2nd c., via Eusebius, Praep. Ev. IX)
+        — treats Moses and the Egyptian magicians as commensurable
+   Celsus (via Origen, Contra Celsum I.26–28, I.68)
+        — the same charge redirected at Jesus: he learned his arts
+          in Egypt and worked them for hire
+   Rabbinic parallel: b. Sanhedrin 43a — the same accusation,
+        from a different direction entirely
+</code></pre><p>★ <strong>Why this matters for reading §6 correctly.</strong> Calvin's <code>heathen writers</code> is a <em>specific</em> reference. And the shape of the tradition is exactly what S3 predicts: <strong>the pagan critics do not say the wonders never occurred; they redescribe their cause.</strong> ⚠️ Calvin's argument is therefore not a straw man — the alternative-cause move is what the sources actually do.</p><p><strong>② <code>Sanctions</code> yesterday, <code>abhorrence</code> today: the internal-evidence argument.</strong></p><p>S4's move — <em>the accused wrote the capital statute against the crime charged</em> — belongs to a recognisable genre of argument: <strong>evidence internal to the document that a forger would have had to be insane to include.</strong> Assemble what Calvin has now built over three days:</p><pre><code>   Day 40 (§4)  Moses brands his OWN TRIBE with infamy (Gen. 49:5-6)
+                Moses records his brother's and sister's mutiny (Num. 12)
+                Moses gives his SONS the lowest place, not the priesthood
+   Day 42 (§6)  Moses legislates DEATH for the very art he is charged with
+                Moses declares he and Aaron ARE NOTHING (Exod. 16:7)
+                Moses records his own people's revolts against him
+   ────────────────────────────────────────────────────────────────
+   ⚠️ EVERY ITEM COSTS THE AUTHOR SOMETHING.
+      That is the entire evidentiary principle of §§4 and 6.
+</code></pre><p>★ Modern historical-Jesus scholarship formalised the same instinct as the <strong>criterion of embarrassment</strong> (J. P. Meier, <em>A Marginal Jew</em>, I.168–71). ⚠️ <strong>Guardrail — do not simply equate them.</strong> Meier's criterion is a tool for reconstructing tradition <em>behind</em> a text; Calvin's argument is about the <strong>honesty of a named author</strong> publishing to eyewitnesses. The logical engine (costly testimony is credible testimony) is shared; the object is not. <strong>Note the resemblance, refuse the identification.</strong></p><p><strong>③ The manna argument (S8) and Calvin's real thesis about miracle.</strong></p><p>Read S8 again and ask what property of the manna Calvin is actually pressing. Not that it was <strong>inexplicable</strong> — a magician's trick is also inexplicable to the crowd. What he presses is that it was <strong>morally structured</strong>: it came daily, it came in measure, and it <strong>rotted for the hoarder</strong>. ★ A wonder that <em>enforces a command</em> is doing something no technique can do.</p><p>⚠️ This is Calvin's settled position on miracle across the <em>Institutes</em> and it is where he differs from a crude evidentialism: <strong>a miracle is a seal on a word, not a display of power.</strong> He said it yesterday in §5 (<code>so many sanctions of the law delivered, and the doctrine propounded</code>), and Deut. 13:1–3 is the warrant — a genuine sign attached to a false doctrine is to be rejected <em>even though the sign is genuine</em>. ★ <strong>The sign never outranks the word it seals.</strong> Hold that and §6's magic-discussion is not apologetic scrambling; it is the same doctrine applied from the other side. <strong>Magic is power without a word. Miracle is a word with power attached.</strong></p><p><strong>④ The guardrail for the whole chapter — say it out loud before you finish today.</strong></p><p>⚠️ Chapter 8's own §1 called all of this <strong>"helps"</strong>: <em>"In vain were the authority of Scripture fortified by argument ... if unaccompanied by an assurance higher and stronger than human Judgment can give."</em> And §13 will close the chapter by saying these proofs are <code>only of use after the certainty of Scripture has been established in the heart by the Holy Spirit</code>.</p><p>★ So: <strong>§6 is not the ground of faith and Calvin will tell you so himself in seven days.</strong> A reader who takes §§3–13 as Calvin's evidentialist foundation has read the middle of an argument as its conclusion. ⚠️ The order is fixed and it is the argument of Ch. 7: <strong>Spirit first, proofs second — and the proofs are genuinely useful, in that order and no other.</strong> Do not soften either half. He is neither a fideist who despises evidence nor an evidentialist who grounds faith on it.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>1. Exod. 9:11 — cited in S3, and cited against the charge it documents.</strong></p><blockquote>
+<p><em>"And the magicians could not stand before Moses because of the boils; for the boil was upon the magicians, and upon all the Egyptians."</em></p>
+</blockquote><p>The Hebrew for the Egyptian practitioners is <strong>חַרְטֻמִּים</strong> <em>ḥarṭummîm</em> (Exod. 7:11, 22; 8:7, 18–19; 9:11) — the technical term for Pharaoh's ritual experts. ★ <strong>How Calvin uses it:</strong> he supplies, as the reference for the magic-charge, the one verse where the professional magicians are <strong>defeated and physically incapacitated</strong>. ⚠️ Note also the sequence in Exodus: the <em>ḥarṭummîm</em> duplicate the first two signs, fail at the third (<code>This is the finger of God</code>, 8:19), and by 9:11 cannot even stand. <strong>The narrative Calvin's opponents must use is a narrative in which magic loses.</strong></p><p><strong>2. Lev. 20:27 — cited in S4, the statute itself.</strong></p><blockquote>
+<p><em>"A man also or woman that hath a familiar spirit, or that is a wizard, shall surely be put to death: they shall stone them with stones: their blood shall be upon them."</em></p>
+</blockquote><p>The two Hebrew terms are <strong>אוֹב</strong> <em>ʾôḇ</em> (a medium, one who consults the dead — Beveridge's <code>soothsayers</code>) and <strong>יִדְּעֹנִי</strong> <em>yiddəʿōnî</em> (&lt; <em>yādaʿ</em>, "to know" — a "knowing one," Beveridge's <code>magicians</code>). ★ <strong>How Calvin uses it:</strong> as <strong>self-incriminating legislation</strong>. ⚠️ And note the penalty he selects: not exile, not a fine — <strong>stoning</strong>, the community's own act. Cf. Lev. 19:31, Deut. 18:10–12 (<em>"there shall not be found among you any one that useth divination..."</em>), 1 Sam. 28 (Saul and the medium at Endor — the statute's most famous violation).</p><p><strong>3. Exod. 16:7 — cited in S7, and the Hebrew is sharper than the English.</strong></p><blockquote>
+<p><em>"And in the morning, then ye shall see the glory of the LORD; for that he heareth your murmurings against the LORD: and what are we, that ye murmur against us?"</em></p>
+</blockquote><p><strong>וְנַחְנוּ מָה</strong> <em>wə-naḥnû māh</em> — literally <strong>"and we — what?"</strong> ⚠️ There is no verb; the clause refuses even to predicate anything of Moses and Aaron. LXX: <strong>ἡμεῖς δὲ τί ἐσμεν;</strong> (which supplies the verb the Hebrew withholds). Cf. v.8, <em>"we are nothing"</em> in effect repeated. ★ <strong>How Calvin uses it:</strong> as the exact inverse of S5's impostor-profile. <strong>The magician's first move is self-magnification; Moses' recorded first move is self-annihilation.</strong></p><p><strong>4. Exod. 16:16–20 — behind S8, and Calvin expects you to supply it.</strong></p><blockquote>
+<p><em>"Gather of it every man according to his eating, an omer for every man... Notwithstanding they hearkened not unto Moses; but some of them left of it until the morning, and it bred worms, and stank."</em></p>
+</blockquote><p><code>the appointed measure</code> = the <strong>omer</strong> (v.16, 18, 36); <code>its turning to worms</code> = <strong>וַיָּרֻם תּוֹלָעִים</strong> <em>wayyāram tôlāʿîm</em>, "it bred worms" (v.20). ★ <strong>How Calvin uses it:</strong> the punishment is aimed at <code>his incredulity</code> — and that is exegetically right, because v.20 says <code>they hearkened not</code>. <strong>The spoilage is not spoilage; it is a verdict.</strong> ⚠️ Note too v.18's equalising miracle (<em>"he that gathered much had nothing over"</em>), which Paul turns to a completely different use at 2 Cor. 8:15.</p><p><strong>5. John 8:44 — the phrase in S3.</strong></p><blockquote>
+<p><em>"Ye are of your father the devil... When he speaketh a lie, he speaketh of his own: for he is a liar, and the father of it."</em></p>
+</blockquote><p>Greek: <strong>ψεύστης ἐστὶν καὶ ὁ πατὴρ αὐτοῦ</strong> — "he is a liar and the father of it (i.e. of the lie)." ★ <strong>How Calvin uses it:</strong> to assign <strong>agency</strong>. The heathen writers are the mouth; the paternity of the calumny is elsewhere. ⚠️ Consistent with §2 (Day 38), where Satan <code>apes God</code> — <strong>counterfeiting, not creating, is the devil's whole repertoire in Book 1.</strong></p><p><strong>6. Numbers 12; 14; 16; 20 — behind S9–S10, unnamed.</strong>
+Miriam and Aaron's mutiny (12:1 — cited explicitly back on Day 40); the whole congregation's revolt and the sentence of forty years (14:1–4, 26–35); <strong>Korah, Dathan and Abiram</strong> (16 — Calvin's <code>individuals conspired, and attempted to overthrow him</code>, and cf. yesterday's catalogue item ⑧); Meribah and Moses' own exclusion from the land (20:10–12). ★ <strong>How Calvin uses them:</strong> as <code>so many serious trials</code> that God <strong>suffered</strong> (permitted). ⚠️ The last of them is the sharpest and Calvin does not press it: <strong>the trial God permitted included Moses' own disqualification.</strong> A forger does not write that ending for himself.</p><p><strong>7. Deut. 18:10–12 — the doctrinal backdrop to S4.</strong></p><blockquote>
+<p><em>"There shall not be found among you any one that maketh his son or his daughter to pass through the fire, or that useth divination, or an observer of times, or an enchanter, or a witch..."</em></p>
+</blockquote><p>★ Seven categories in two verses, and the passage closes by contrasting them with <strong>the prophet like Moses</strong> (18:15). <strong>The law that forbids divination is the same law that institutes prophecy.</strong> ⚠️ That contrast — <em>prophet</em> against <em>diviner</em> — is the deepest answer to §6's charge, and Calvin's S4 is only its legal surface. Cf. also <strong>2 Tim. 3:8</strong> (<code>Jannes and Jambres withstood Moses</code>), the New Testament's own name for the Exodus magicians.</p><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① 어법 — 밑줄 넷 중 어색한 것 하나</h3><blockquote>
+<p>But because the fact was too clear to leave <strong>ⓐ it</strong> free for heathen writers to deny that Moses did perform miracles, the father of lies suggested a calumny. And what kind of incantation could cause manna <strong>ⓑ to rain</strong> from heaven every day, while any one who gathered more than the appointed measure saw his incredulity divinely <strong>ⓒ to be punished</strong> by its turning to worms? God then suffered his servant <strong>ⓓ to be subjected</strong> to so many serious trials.</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: ⓒ</strong> → <code>punished</code></p><p><strong>출제 의도 해설.</strong> 오늘 Formula 3 의 2단계를 한 문장 안에서 모두 굴렸다.
+- <strong>ⓐ <code>it</code></strong> ✓ — <code>leave + it(가목적어) + free(목적보어) + for A to V</code>. 선행사를 찾을 수 없다고 오답 처리하기 쉽지만, <strong>가목적어는 선행사가 없는 게 정상</strong>이다.
+- <strong>ⓑ <code>to rain</code></strong> ✓ — <code>cause</code> 는 to 를 <strong>유지</strong>하는 사역동사. manna 는 rain 의 <strong>행위자</strong>이므로 능동. <code>rain</code>·<code>raining</code> 은 오답.
+- <strong>ⓒ <code>to be punished</code></strong> ✗ — <code>see</code> 는 <strong>지각동사</strong>. 지각동사의 목적보어에는 <strong>to be 가 붙지 않는다.</strong> <code>his incredulity</code> 는 punish 의 <strong>피동자</strong>이므로 분사는 과거분사, 그러나 <strong>맨몸으로</strong>: <strong><code>punished</code></strong>. ⚠️ <code>saw ... to be punished</code> 는 형태만 그럴듯한 대표적 함정이다.
+- <strong>ⓓ <code>to be subjected</code></strong> ✓ — <code>suffer(=allow)</code> 는 to 를 유지하고, <code>his servant</code> 는 subject 의 피동자이므로 <strong>수동 부정사</strong>. 형태가 ⓒ 와 비슷해 보이지만 <strong>동사가 다르다</strong>(지각 ✗ / 허용 ○). ★ <strong>ⓒ와 ⓓ를 나란히 놓은 것이 이 문제의 전부다.</strong></p><h3>② 내용일치 — 다음 중 §6 의 논지와 일치하는 것은?</h3><blockquote>
+<p>ⓐ Calvin argues that no pagan author ever accused Moses of sorcery, since the miracles were too plainly attested.
+ⓑ Calvin concedes that Moses concealed the more discreditable episodes of Israel's history in order to secure the people's assent.
+ⓒ Calvin argues that the accusation of magic is itself evidence, because it was adopted only once outright denial of the miracles had become impossible.
+ⓓ Calvin argues that God shielded Moses from the revolts of the people, and that this protection proved his doctrine to later ages.</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: ⓒ</strong></p><p><strong>출제 의도 해설.</strong>
+- <strong>ⓐ 방향 뒤집기.</strong> S3 의 인과 사슬을 정확히 반대로 세웠다. 이교 저자들은 <strong>고발했다</strong>. 다만 <em>부인</em>이 막혔기 때문에 <strong>다른 거짓말</strong>을 골랐을 뿐이다. ⚠️ <code>too clear to deny</code> 를 "그래서 아무도 아무 말 못 했다"로 읽으면 걸린다.
+- <strong>ⓑ 정반대.</strong> S1 은 기록이 <code>combined with disagreeable circumstances</code> 라고 말한다. <strong>숨긴 게 아니라 실었고, 실었는데도 반박이 없었다는 것</strong>이 논증이다.
+- <strong>ⓒ 정답.</strong> S3 의 사슬(<code>too clear to deny</code> → <code>suggested a calumny</code> → <code>ascribed them to magic</code>)을 그대로 옮겼다. <strong>적대적 증언을 증거로 돌려세우는 것</strong>이 §6 의 방법이며, 이는 Day 7–8 의 키케로·디아고라스 전략과 같다.
+- <strong>ⓓ 범위 초과 + 어휘 함정.</strong> S9 의 <code>suffered</code> 를 '보호했다'로 뒤집었다. God <strong>허락했다</strong>(<code>suffered ... to be subjected</code>), 막지 않았다. ★ 그리고 S11 의 <code>by these means</code> 가 가리키는 것은 <strong>보호가 아니라 시련 그 자체</strong>다. <strong>시련이 없으면 S11 이 성립하지 않는다.</strong></p><h3>③ 영작 — 오늘의 공식을 적용해 옮기시오</h3><blockquote>
+<p><strong>문제:</strong> 「하나님의 존재에 대한 증거는 너무나 뚜렷해서 누구에게도 무지를 변명할 여지를 남기지 않는다. 실로, 이 씨앗을 마음에 품은 자치고 그것을 어떤 형상으로 왜곡하려 하지 않는 자는 없다. 그러나 하나님께서는 그의 종들이 그토록 많은 시련을 겪도록 허락하셔서, 불경건한 자들이 이제 그들의 요설로 아무것도 얻지 못한다.」</p>
+<p>(조건: Formula 1 의 <code>too ~ to leave it free for A to V</code>, Formula 2 의 <code>no A ... without V-ing</code>, Formula 3 의 <code>suffer O to V</code>, Formula 4 의 <code>so ~ that</code> 을 각각 한 번씩 사용할 것.)</p>
+</blockquote><p><strong>모범 답안:</strong></p><blockquote>
+<p><em>The evidence of God's existence is </em><em>too plain to leave it free for any man to plead</em><em> ignorance. Indeed, </em><em>no</em><em> one who harbours this seed in his heart cherishes it </em><em>without labouring</em><em> to distort it into some image of his own. But God has </em><em>suffered</em><em> his servants </em><em>to be subjected</em><em> to </em><em>so many</em><em> trials, </em><em>that</em><em> the ungodly can now gain nothing by their clamour.</em></p>
+</blockquote><p><strong>출제 의도 해설.</strong> 네 공식이 한 단락 안에서 서로 간섭하지 않는지를 본다. 자주 나오는 실패 세 가지:
+1. <strong><code>too plain for any man to plead ignorance</code></strong> 로 줄여 쓰기 — 뜻은 통하지만 <strong><code>leave it free</code> 의 가목적어 구조가 사라진다.</strong> 조건 미충족.
+2. <strong><code>no one ... without to distort</code></strong> — ⚠️ <code>without</code> 는 <strong>전치사</strong>다. 뒤는 반드시 <strong>동명사</strong>. 이 오류가 압도적으로 많다.
+3. <strong><code>suffered his servants to subject to</code></strong> — 종은 시련을 <em>당하는</em> 쪽이므로 <strong>수동 부정사 <code>to be subjected</code></strong> 여야 한다. Formula 3 의 2단계를 그대로 적용하면 자동으로 걸러진다.
+★ 그리고 <code>so many trials, that ...</code> 의 콤마는 베버리지 관습을 재현한 것이니 있어도 없어도 좋다.</p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> ⚠️ <strong>The magic-charge is a confession</strong>: because the miracles were <code>too clear to leave it free for heathen writers to deny</code> them, the father of lies had to change the lie from <em>it never happened</em> to <em>it was sorcery</em> — and Moses then fails every marker of the magician's profile (he legislated death for it, he cried out that he and Aaron <code>are nothing</code>, the manna itself punished unbelief, and God <code>suffered</code> him to be broken by trials no conjurer would have endured), so that the very ordeals that should have destroyed his testimony are the <code>means</code> by which <code>his doctrine was attested to all succeeding ages</code>.</p><p><strong>And the three grammar points, restated:</strong></p><ol>
+<li><strong><code>too ADJ to leave it free for A to V</code></strong> — outer <code>too...to</code> is a <strong>negative</strong>; inner <code>leave + it(dummy) + free(complement) + for A to V</code> is a <strong>5th pattern with an extraposed real object</strong>. ⚠️ <code>it</code> has no antecedent; <code>them</code> in the same sentence has one. Know which is which.</li>
+<li><strong><code>no A ... without V-ing</code></strong> = an <strong>exceptionless universal</strong>, not a tendency. ⚠️ <code>without</code> counts as a negative, and it takes a <strong>gerund</strong>.</li>
+<li><strong><code>cause / enable / order / suffer + O + to V</code></strong> vs <strong><code>see / make / let + O + ∅</code></strong> — ⚠️ <strong>the verb picks the <code>to</code>; the object's role picks the voice.</strong> <code>order him to be stoned</code> / <code>saw it punished</code> / <code>cause manna to rain</code>.</li>
+</ol><p><strong>Homework (10 minutes).</strong></p><p><strong>① 구조 복원.</strong> Write out S3 in three lines: (a) the outer <code>too ... to ...</code> frame with the inner clause replaced by <code>[X]</code>; (b) the inner <code>leave + it + free + for ... to ...</code> frame with its extraposition undone; (c) a one-line answer to <em>what is the antecedent of <code>them</code> in</em> <code>ascribed them to magic</code>, <em>and why the damaged scan made that question unanswerable.</em></p><p><strong>② 영작.</strong> Recast S8 as a <strong>statement</strong> rather than a rhetorical question, keeping both object-complement frames intact and supplying the gapped verb phrase after <code>and</code> in full. Then underline the two complements and label each one <code>AGENT→active</code> or <code>PATIENT→passive</code>.</p><p><strong>③ 내일 예습 한 줄.</strong> §7 opens <code>Moreover, it is impossible to deny that he was guided by a prophetic spirit...</code> — ★ the third pillar goes up. §5 gave you <strong>miracles</strong>, §6 defended them against the <strong>magic</strong> hypothesis, and §7 turns to <strong>prophecy</strong> — the sceptre not departing from Judah (Gen. 49:10), Saul, David out of the seven brothers, and the calling of the Gentiles <code>not fulfilled till almost two thousand years after</code>. ⚠️ Prepare one question: <em>why is prophecy a better proof than miracle, on Calvin's own terms?</em> The answer is in the word <code>event</code>, which you learned today.</p><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 8, §6 끝. 다음은 <strong>Book 1, Ch. 8, §7</strong> (Day 43) — "The prophecies of Moses as to the sceptre not departing from Judah, and the calling of the Gentiles."</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
