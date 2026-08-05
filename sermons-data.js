@@ -27406,6 +27406,737 @@ window.SERMONS_DATA = {
           "en": "Amen."
         }
       ]
+    },
+    {
+      "id": "2026-08-02",
+      "date": "2026-08-02",
+      "title_ko": "놓아 주려 하심이니",
+      "title_en": "To Set Us Free",
+      "scripture_ref_ko": "히브리서 2:14–15",
+      "scripture_ref_en": "Hebrews 2:14–15",
+      "preacher_ko": "유병훈 목사",
+      "preacher_en": "Rev. Byong H. Yoo",
+      "series": "",
+      "scripture_text": [
+        {
+          "ko": "자녀들은 혈육에 함께 속하였으매 그도 또한 한 모양으로 혈육에 함께 속하심은 사망으로 말미암아 사망의 세력을 잡은 자 곧 마귀를 없이 하시며 또 죽기를 무서워하므로 일생에 매여 종노릇하는 모든 자들을 놓아 주려 하심이니 (히브리서 2:14–15)",
+          "en": "“Since therefore the children share in flesh and blood, he himself likewise partook of the same things, that through death he might destroy the one who has the power of death, that is, the devil, and deliver all those who through fear of death were subject to lifelong slavery.” (Hebrews 2:14–15)"
+        }
+      ],
+      "slides": [
+        {
+          "type": "title",
+          "title_ko": "놓아 주려 하심이니",
+          "title_en": "To Set Us Free",
+          "ref_ko": "히브리서 2:14–15",
+          "ref_en": "Hebrews 2:14–15",
+          "preacher_ko": "유병훈 목사",
+          "preacher_en": "Rev. Byong H. Yoo",
+          "date": "2026-08-02"
+        },
+        {
+          "type": "question",
+          "label_ko": "서론",
+          "label_en": "Introduction",
+          "ko": "우리는 천국 이야기를 많이 합니다. 그런데 정작 죽음이 무엇인지는 잘 이야기하지 않습니다. 그래서 천국은 믿는데 죽음은 여전히 무서운 것입니다. 오늘 세 가지를 나눕니다. 우리가 무엇을 두려워하는가, 성경은 죽음을 무엇이라 부르는가, 그리고 왜 우리가 더 이상 그 두려움에 매여 살지 않아도 되는가.",
+          "en": "We talk a great deal about heaven. But we rarely talk about what death itself is. And so we believe in heaven, yet death still frightens us. Today we share three things: what we fear, what the Bible calls death, and why we no longer have to live bound by that fear."
+        },
+        {
+          "type": "section",
+          "label_ko": "대지 1",
+          "label_en": "Point 1",
+          "ko": "우리는 무엇을 두려워합니까",
+          "en": "What Do We Fear?"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "고린도전서 15:25–26",
+          "label_en": "1 Corinthians 15:25–26",
+          "ko": "\"저가 모든 원수를 그 발 아래 둘 때까지 불가불 왕 노릇 하시리니 맨 나중에 멸망 받을 원수는 사망이니라\"",
+          "en": "“For he must reign until he has put all his enemies under his feet. The last enemy to be destroyed is death.”"
+        },
+        {
+          "type": "point",
+          "label_ko": "죽음은 실제로 원수입니다",
+          "label_en": "Death Really Is an Enemy",
+          "ko": "성경은 죽음을 원수라고 부르십니다. 멸망시킬 대상인 것입니다. 성경은 죽음을 결코 아름답게 꾸미지 않습니다. 나사로의 무덤 앞에서 주님은 통분히 여기셨고, 결말을 아시면서도 우셨습니다. 사랑하는 사람들을 갈라놓고 남은 사람들을 두려움에 묶어 놓은 그 원수 앞에서 분노하신 것입니다.",
+          "en": "The Bible calls death an enemy — something to be destroyed. Scripture never dresses death up as beautiful. At Lazarus's tomb the Lord was deeply moved with indignation, and though he knew how it would end, he wept. He was angry at the enemy that tears loved ones apart and binds those who remain in fear."
+        },
+        {
+          "type": "point",
+          "label_ko": "성경은 두려움을 야단치지 않으십니다",
+          "label_en": "The Bible Does Not Scold Our Fear",
+          "ko": "성경은 무서워하지 말라고 야단치지 않으십니다. 사람이 죽음을 무서워하며 그 두려움에 평생 매여 산다고 있는 그대로 말씀하십니다. 그러나 거기 두시려는 것이 아니라 꺼내시려는 것입니다. 믿음은 두려움을 안 느끼는 것이 아니라, 그 두려움이 더 이상 우리의 주인이 되지 못한다는 뜻입니다.",
+          "en": "Scripture does not scold us for being afraid. It simply tells the truth: people fear death and live their whole lives enslaved to that fear. But God says this not to leave us there — he says it to bring us out. Faith does not mean feeling no fear; it means that fear is no longer our master."
+        },
+        {
+          "type": "point",
+          "label_ko": "세 가지 두려움",
+          "label_en": "Three Fears",
+          "ko": "첫째, 모른다는 두려움입니다. 죽으면 어디로 갑니까. 둘째, 심판에 대한 두려움입니다. 거룩하신 하나님 앞에 홀로 섰을 때 내가 무슨 말을 하겠습니까. 셋째, 사라진다는 두려움입니다. 내가 아는 나라는 사람이 그냥 없어져 버리는 것 같은 허무함입니다.",
+          "en": "First, the fear of not knowing — where do we go when we die? Second, the fear of judgment — standing alone before a holy God, what could I possibly say? Third, the fear of vanishing — the hollow dread that the person I know as me will simply cease to be."
+        },
+        {
+          "type": "section",
+          "label_ko": "대지 2",
+          "label_en": "Point 2",
+          "ko": "성경은 죽음을 무엇이라 부릅니까",
+          "en": "What Does the Bible Call Death?"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "요한복음 11:11",
+          "label_en": "John 11:11",
+          "ko": "\"우리 친구 나사로가 잠들었도다 그러나 내가 깨우러 가노라\"",
+          "en": "“Our friend Lazarus has fallen asleep, but I go to awaken him.”"
+        },
+        {
+          "type": "point",
+          "label_ko": "잠은 끝이 아닙니다",
+          "label_en": "Sleep Is Not the End",
+          "ko": "잠은 깨어나야 하는 중간 과정입니다. 밤에 잠자리에 들며 다 끝났다고 생각하는 사람은 없습니다. 아침이 온다는 것을 알기 때문입니다. 잠들었다는 말과 깨우러 가겠다는 말이 한 문장 안에 있는 것입니다.",
+          "en": "Sleep is a passage on the way to waking. No one lies down at night thinking it is all over — we know morning is coming. 'He has fallen asleep' and 'I go to awaken him' stand together in one sentence."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "누가복음 23:43",
+          "label_en": "Luke 23:43",
+          "ko": "\"내가 진실로 네게 이르노니 오늘 네가 나와 함께 낙원에 있으리라\"",
+          "en": "“Truly, I say to you, today you will be with me in paradise.”"
+        },
+        {
+          "type": "point",
+          "label_ko": "오늘, 나와 함께",
+          "label_en": "Today, With Me",
+          "ko": "나중이 아닙니다. 오늘이라 하셨습니다. 십자가의 강도에게는 세례 받을 시간도, 선행으로 자기를 증명할 시간도 없었습니다. 남은 것은 주님께 자신을 맡기는 믿음 하나뿐이었습니다. 천국은 공로가 아니라 데려가시는 주님의 은혜에 달려 있는 것입니다. 세상을 떠나는 그 순간이 곧 그리스도와 함께 있는 순간입니다.",
+          "en": "Not later — today. The thief on the cross had no time to be baptized, no time to prove himself by good works. All he had left was faith that entrusted himself to the Lord. Heaven rests not on our merit but on the grace of the Lord who carries us home. The moment we leave this world is the moment we are with Christ."
+        },
+        {
+          "type": "point",
+          "label_ko": "싸움이 끝나고 수고가 끝납니다",
+          "label_en": "The Battle Ends, the Labor Ends",
+          "ko": "그곳에서 죄와의 싸움이 완전히 끝납니다. 용서만 받은 것이 아니라 죄의 뿌리까지 뽑히는 것입니다. 그리고 주 안에서 죽는 자들은 수고를 그치고 쉽니다. 병든 몸의 고통도, 평생 지고 온 수고도 더 이상 붙잡지 못합니다. 몸은 부활을 기다리며 잠들고, 영혼은 주님과 함께 있는 것입니다.",
+          "en": "There, the battle with sin is completely over — not only forgiven, but pulled up by the root. And those who die in the Lord rest from their labors. The pain of a sick body, the burdens carried a lifetime — none of it can hold them any longer. The body sleeps awaiting resurrection, and the soul is with the Lord."
+        },
+        {
+          "type": "section",
+          "label_ko": "대지 3",
+          "label_en": "Point 3",
+          "ko": "왜 그 두려움에 매여 살지 않아도 됩니까",
+          "en": "Why We Need No Longer Live in That Fear"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "히브리서 2:14",
+          "label_en": "Hebrews 2:14",
+          "ko": "\"자녀들은 혈육에 함께 속하였으매 그도 또한 한 모양으로 혈육에 함께 속하심은 사망으로 말미암아 사망의 세력을 잡은 자 곧 마귀를 없이 하시며\"",
+          "en": "“Since therefore the children share in flesh and blood, he himself likewise partook of the same things, that through death he might destroy the one who has the power of death, that is, the devil.”"
+        },
+        {
+          "type": "point",
+          "label_ko": "자기의 죽음으로 깨뜨리셨습니다",
+          "label_en": "He Broke It by His Own Death",
+          "ko": "주님은 죽음 바깥에 서서 명령만 내리지 않으셨습니다. 우리와 똑같은 혈육을 입고 그 죽음 안으로 들어오셨습니다. 우리를 삼키려던 바로 그 죽음으로 죽음의 권세를 깨뜨리셨고, 그 문을 안에서부터 깨뜨리고 살아 나오셨습니다. 이미 그 골짜기를 통과하여 승리하신 분이 우리를 인도하시니, 그것은 더 이상 모르는 길이 아닙니다.",
+          "en": "The Lord did not stand outside death and merely give orders. He put on the same flesh and blood as ours and walked into death itself. With the very death that meant to swallow us, he shattered death's power — he broke the door open from the inside and walked out alive. The One who has already passed through that valley in victory now leads us, so it is no longer an unknown road."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "요한복음 5:24",
+          "label_en": "John 5:24",
+          "ko": "\"내 말을 듣고 또 나 보내신 이를 믿는 자는 영생을 얻었고 심판에 이르지 아니하나니 사망에서 생명으로 옮겼느니라\"",
+          "en": "“Whoever hears my word and believes him who sent me has eternal life. He does not come into judgment, but has passed from death to life.”"
+        },
+        {
+          "type": "point",
+          "label_ko": "심판은 이미 완불되었습니다",
+          "label_en": "The Judgment Is Already Paid in Full",
+          "ko": "옮기겠다가 아니라 옮겼다고 하셨습니다. 이사는 이미 끝난 것입니다. 우리가 받아야 할 심판은 이천 년 전 갈보리 십자가에서 이미 치러졌습니다. 주님이 우리 죄 값을 다 치르셨고, 하나님은 같은 빚을 두 번 받으시는 분이 아니십니다. 다만 피고석에 앉으신 분이 우리가 아니었을 뿐입니다.",
+          "en": "Not 'I will move you' — 'you have passed.' The move is already complete. The judgment we deserved was already carried out two thousand years ago on Calvary's cross. The Lord paid our debt in full, and God does not collect the same debt twice. The trial was held and finished — only, the One in the defendant's seat was not us."
+        },
+        {
+          "type": "point",
+          "label_ko": "사라지는 것이 아니라 심는 것입니다",
+          "label_en": "Not Vanishing, but Being Planted",
+          "ko": "농부는 밀알을 흙에 묻으며 버린다고 하지 않고 심는다고 말합니다. 썩을 것으로 심고 썩지 아니할 것으로 다시 살며, 약한 것으로 심고 강한 것으로 다시 삽니다. 우리는 그 몸을 눈물로 심지만, 다시 살리실 분은 죽은 자를 살리시는 신실하신 하나님이십니다. 우리는 사라지는 것이 아니라 다시 살아날 씨앗으로 심기는 것입니다.",
+          "en": "When a farmer buries a grain of wheat in the soil, he does not say he is throwing it away — he says he is planting it. It is sown perishable and raised imperishable, sown in weakness and raised in power. We plant that body with tears, but the One who will raise it is the faithful God who raises the dead. We do not vanish; we are planted as seed that will rise again."
+        },
+        {
+          "type": "bigidea",
+          "label_ko": "핵심",
+          "label_en": "Big Idea",
+          "ko": "\"또 죽기를 무서워하므로 일생에 매여 종노릇하는 모든 자들을 놓아 주려 하심이니.\" 주님께서 친히 혈육을 입고 오신 결정적 이유가 바로 이것입니다. 죽음의 공포에 얽매여 평생 종노릇하던 우리를 온전히 자유케 하시려는 것입니다.",
+          "en": "“…and deliver all those who through fear of death were subject to lifelong slavery.” This is the decisive reason the Lord himself put on flesh and blood and came: to set fully free those of us who lived a lifetime enslaved to the terror of death."
+        },
+        {
+          "type": "conclusion",
+          "label_ko": "결론",
+          "label_en": "Conclusion",
+          "ko": "두려움에 매인 사람은 인생의 끝을 생각하지 않으려 몸부림치며 삽니다. 그러나 주 안에서 놓임 받은 사람은 그 끝을 알고도 오늘을 담대히 삽니다. 미루어 둔 사랑을 오늘 표현하고, 화해할 사람과 오늘 화해하고, 움켜쥔 손을 펼쳐 나누며, 맡기신 사명 앞에 담대히 섭니다. 죽음을 이기신 주님 안에서만 우리는 죽음을 바라보면서도 오늘을 소망으로 살 수 있습니다.",
+          "en": "The one still bound by fear lives struggling never to think of life's end. But the one set free in the Lord knows that end and still lives today with boldness — expressing today the love long postponed, reconciling today with the one who must be forgiven, opening clenched hands to share, standing courageously before the calling entrusted to us. Only in the Lord who conquered death can we look death in the face and still live today in hope."
+        },
+        {
+          "type": "blessing",
+          "label_ko": "축복",
+          "label_en": "Blessing",
+          "ko": "\"나는 부활이요 생명이니 나를 믿는 자는 죽어도 살겠고 무릇 살아서 나를 믿는 자는 영원히 죽지 아니하리니 이것을 네가 믿느냐.\" 지난주 우리 로렌스 형제님은 마지막 순간까지 이 물음에 응답하셨습니다. 오늘 주님이 우리에게 똑같이 물으십니다. 믿음으로 대답하시기를 바랍니다. \"주여, 그러하외다.\"",
+          "en": "“I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live, and everyone who lives and believes in me shall never die. Do you believe this?” Last week our brother Lawrence answered this question to his very last moment. Today the Lord asks us the same. May you answer in faith: “Yes, Lord — I believe.”"
+        }
+      ],
+      "body": [
+        {
+          "ko": "본문 히브리서 2:14–15\n14 자녀들은 혈육에 함께 속하였으매 그도 또한 한 모양으로 혈육에 함께 속하심은 사망으로 말미암아 사망의 세력을 잡은 자 곧 마귀를 없이 하시며\n15 또 죽기를 무서워하므로 일생에 매여 종노릇하는 모든 자들을 놓아 주려 하심이니",
+          "en": "Scripture Reading: Hebrews 2:14–15\n14 “Since therefore the children share in flesh and blood, he himself likewise partook of the same things, that through death he might destroy the one who has the power of death, that is, the devil,\n15 and deliver all those who through fear of death were subject to lifelong slavery.”"
+        },
+        {
+          "ko": "서론",
+          "en": "Introduction",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분.",
+          "en": "Dear brothers and sisters."
+        },
+        {
+          "ko": "처음 이 땅에 오시던 날을 기억하십니까? 가 본 적이 없는 곳이었습니다. 말도 통하지 않고, 아는 사람도 없었습니다. 무엇이 나를 기다리고 있는지 아무도 알려 주지 않았습니다. 그 짐을 싸면서 마음이 어떠하셨습니까? 두려우셨을 것입니다.",
+          "en": "Do you remember the day you first came to this land? It was a place you had never been. The language did not connect; you knew no one. No one told you what was waiting for you. As you packed those bags, how did your heart feel? You must have been afraid."
+        },
+        {
+          "ko": "그런데 먼 길을 갈 때에 나보다 먼저 가 있는 사람 하나만 있으면 달라집니다. 공항에 마중 나와 있겠다는 사람 하나, 그 땅을 이미 살아 보았고 어디가 어떤지를 아는 사람이 나를 기다리고 있다면, 똑같은 짐을 싸면서도 마음의 무게가 전혀 다른 것입니다. 짐이 가벼워진 것이 아닙니다. 갈 곳이 바뀐 것도 아닙니다. 나를 아는 분이 그곳에 먼저 계시다는 사실 하나로 두려움이 줄어드는 것입니다.",
+          "en": "But when you travel a long road, everything changes if there is just one person who has gone ahead of you. One person who says he will be waiting at the airport — someone who has already lived in that land and knows what is where. Then you pack the very same bags, but the weight on your heart is entirely different. The bags did not get lighter. The destination did not change. The fear shrinks because of one single fact: someone who knows me is already there."
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 사람이 두려워하는 것은 대개 일 자체가 아닙니다. 그 일을 감당하기 위하여 모르는 길을 가야 하는 것이 두려운 것입니다.",
+          "en": "Dear brothers and sisters, what people fear is usually not the thing itself. What we fear is having to walk an unknown road to face it."
+        },
+        {
+          "ko": "지난 수요일 우리 로렌스 형제님이 주님의 부르심을 받으셨습니다. 오랜 병상의 시간이었습니다. 그러나 우리가 기억하는 형제님은 늘 먼저 웃어 주시고, 먼저 다가와 안부를 물어 주시던 분이었습니다. 그리고 그 긴 세월 동안 고 자매님이 하루도 그 곁을 떠나지 않으셨습니다.",
+          "en": "Last Wednesday our brother Lawrence received the Lord's call home. It had been a long season on a sickbed. But the brother we remember was always the first to smile, the first to come near and ask how we were doing. And through all those long years, sister Ko never left his side for a single day."
+        },
+        {
+          "ko": "돌아가시기 사흘 전에도 우리는 형제님과 함께 예배를 드렸습니다. 말씀을 나누고, 함께 기도하고, 찬송을 불렀습니다. 그리고 사흘 뒤에 형제님은 아주 평안히 숨을 거두셨습니다. 사랑하는 형제 자매 여러분, 저는 그것이 하나님께서 베풀어 주신 은혜였다고 믿습니다.",
+          "en": "Even three days before he passed, we worshiped together with him. We shared the Word, prayed together, and sang hymns. And three days later, he breathed his last in deep peace. Dear brothers and sisters, I believe that was a grace God bestowed."
+        },
+        {
+          "ko": "사랑하는 고 자매님과 두 아드님과 두 따님, 그리고 손주들 위에 우리 하나님의 위로가 넘치기를 바랍니다. 그리고 오늘 이 자리에서 한 가지를 말씀드리고 싶습니다. 우리 교회가 그 가정 곁에 함께 서 있다는 것입니다. 여러분은 혼자 이 길을 걷지 않으십니다. 사랑하는 형제 자매 여러분, 이 가정을 위하여 기도해 주시기를 부탁드립니다.",
+          "en": "May our God's comfort overflow upon dear sister Ko, the two sons and two daughters, and the grandchildren. And today, from this place, I want to say one thing: our church stands beside that family. You do not walk this road alone. Dear brothers and sisters, I ask you to pray for this family."
+        },
+        {
+          "ko": "그리고 그 소식은 오늘 우리 각 사람에게 조용히 한 가지를 묻고 있는 것입니다. 나에게도 그날이 온다는 것 말입니다.",
+          "en": "And that news is quietly asking each one of us a question today: that day will come for me as well."
+        },
+        {
+          "ko": "우리는 그 사실을 모르지 않습니다. 다만 평소에는 생각하지 않고 살 뿐인 것입니다. 그러다가 이런 소식 앞에 서면 그 미루어 두었던 질문이 한꺼번에 올라옵니다.",
+          "en": "It is not that we do not know this. We simply live without thinking about it. Then we stand before news like this, and all the postponed questions rise up at once."
+        },
+        {
+          "ko": "우리는 천국 이야기를 많이 합니다. 그런데 정작 죽음이 무엇인지는 잘 이야기하지 않습니다. 그래서 어떻게 됩니까. 천국은 믿는데 죽음은 여전히 무서운 것입니다.",
+          "en": "We talk a great deal about heaven. But we rarely talk about what death itself actually is. And what happens then? We believe in heaven — yet death still frightens us."
+        },
+        {
+          "ko": "오늘 본문은 우리 주님께서 왜 사람이 되어 오셨는지를 말씀하십니다. 그리고 그 이유 가운데 하나가 이것입니다. \"또 죽기를 무서워하므로 일생에 매여 종노릇하는 모든 자들을 놓아 주려 하심이니.\"",
+          "en": "Today's text tells us why our Lord came as a man. And one of the reasons is this: “and deliver all those who through fear of death were subject to lifelong slavery.”"
+        },
+        {
+          "ko": "오늘 저는 세 가지를 나누고자 합니다. 우리가 무엇을 두려워하는가, 성경은 죽음을 무엇이라 부르는가, 그리고 왜 우리가 더 이상 그 두려움에 매여 살지 않아도 되는가 하는 것입니다.",
+          "en": "Today I want to share three things: what we fear, what the Bible calls death, and why we no longer have to live bound by that fear."
+        },
+        {
+          "ko": "대지 1 · 우리는 무엇을 두려워합니까",
+          "en": "Point 1 · What Do We Fear?",
+          "section": true
+        },
+        {
+          "ko": "죽음은 실제로 원수입니다",
+          "en": "Death really is an enemy",
+          "section": true
+        },
+        {
+          "ko": "성경은 말씀하십니다.",
+          "en": "The Bible says:"
+        },
+        {
+          "ko": "\"저가 모든 원수를 그 발 아래 둘 때까지 불가불 왕 노릇 하시리니 맨 나중에 멸망 받을 원수는 사망이니라\" (고린도전서 15:25–26)",
+          "en": "“For he must reign until he has put all his enemies under his feet. The last enemy to be destroyed is death.” (1 Corinthians 15:25–26)"
+        },
+        {
+          "ko": "성경은 죽음을 원수라고 부르십니다. 멸망시킬 대상인 것입니다. 성경은 죽음을 결코 아름답게 꾸미지 않습니다.",
+          "en": "The Bible calls death an enemy — something to be destroyed. Scripture never dresses death up as something beautiful."
+        },
+        {
+          "ko": "우리 주님께서도 그러하셨습니다. 나사로의 무덤 앞에 서셨을 때에 성경은 이렇게 기록합니다.",
+          "en": "Our Lord was the same. When he stood before Lazarus's tomb, Scripture records it this way:"
+        },
+        {
+          "ko": "\"예수께서 그의 우는 것과 또 함께 온 유대인들의 우는 것을 보시고 심령에 통분히 여기시고 민망히 여기사\" (요한복음 11:33)",
+          "en": "“When Jesus saw her weeping, and the Jews who had come with her also weeping, he was deeply moved in his spirit and greatly troubled.” (John 11:33)"
+        },
+        {
+          "ko": "\"통분히 여기시고.\" 이것은 그저 마음이 아프셨다는 말이 아닙니다. 속에서 치밀어 오르는 거룩한 분노를 가리키는 말인 것입니다. 무덤 앞에 서신 우리 주님의 심령 속에서 격한 것이 끓어올랐습니다.",
+          "en": "“Deeply moved.” This does not mean merely that his heart ached. It points to a holy anger surging up from within. Something fierce boiled up in the spirit of our Lord as he stood before that tomb."
+        },
+        {
+          "ko": "그러면 주님께서 무엇을 향하여 분노하신 것입니까? 우는 사람들을 향해서였겠습니까? 아닙니다. 그때 주님께서 무엇을 보셨는지 생각해 보십시오. 무덤 앞에 선 사람들을 보셨습니다. 아무것도 할 수 없어 그저 울기만 하는 사람들, 죽음 앞에서 손 한번 써 보지 못하고 주저앉은 사람들이었습니다.",
+          "en": "Then at what was the Lord angry? At the people weeping? No. Think about what he saw in that moment. He saw people standing before a tomb — people who could do nothing but weep, people who had collapsed before death without being able to lift a hand against it."
+        },
+        {
+          "ko": "그리고 그들을 그렇게 붙들어 놓은 것이 무엇이었습니까? 사망이었던 것입니다. 그렇습니다. 우리 주님은 그 사람들을 사로잡고 있는 사망을 향하여 분노하신 것입니다.",
+          "en": "And what was it that held them in that grip? It was death. Yes — our Lord was angry at death, which held those people captive."
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 이것이 바로 오늘 본문이 말하는 그 광경입니다. 죽기를 무서워하므로 일생에 매여 종노릇하는 사람들. 주님께서 무덤 앞에서 보신 것이 그것이었고, 그 앞에서 주님의 속이 끓어오른 것입니다.",
+          "en": "Dear brothers and sisters, this is exactly the scene today's text describes: people subject to lifelong slavery through fear of death. That is what the Lord saw before the tomb, and it made his spirit burn."
+        },
+        {
+          "ko": "그리고 두 절 뒤에 성경은 짧고도 무거운 한 문장을 기록합니다. \"예수께서 눈물을 흘리시더라\"(요한복음 11:35).",
+          "en": "And two verses later, Scripture records one short, weighty sentence: “Jesus wept.” (John 11:35)"
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 여기서 한 가지를 생각해 보십시오. 주님은 잠시 후에 나사로를 무덤에서 다시 살려 불러내실 분이셨습니다. 그러니까 이 일의 결말을 이미 알고 계셨던 것입니다. 그런데도 우셨습니다.",
+          "en": "Dear brothers and sisters, consider one thing here. In just a little while, the Lord would call Lazarus back out of the tomb alive. He already knew how this would end. And still he wept."
+        },
+        {
+          "ko": "우리는 결말을 알면 울지 않을 것이라고 생각합니다. 그러나 우리 주님은 결말을 아시면서도 우셨습니다. 왜 그러셨겠습니까? 주님께서 지금 원수 앞에 서셨기 때문인 것입니다. 그리고 그 원수가 사랑하는 사람들을 갈라놓고, 남은 사람들을 두려움에 꽁꽁 묶어 놓은 것을 보셨기 때문에 거기에 분노하신 것입니다.",
+          "en": "We assume that if we knew the ending, we would not weep. But our Lord knew the ending and wept anyway. Why? Because he was standing before the enemy. And he saw how that enemy tears loved ones apart and binds those who remain tightly in fear — and at that, he was angry."
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 그러면 그때 주님께서 무덤 앞에서 보신 그 사람들이 누구였습니까? 이천 년 전 유대 사람들의 이야기로 그치지 않습니다. 죽음 앞에서 아무것도 할 수 없어 그저 주저앉는 사람들 — 그것이 바로 우리인 것입니다.",
+          "en": "Dear brothers and sisters, then who were those people the Lord saw before the tomb? This is not just a story about Judeans two thousand years ago. People who can do nothing before death but sink to the ground — that is us."
+        },
+        {
+          "ko": "성경은 사람이 무서워한다고 인정하십니다",
+          "en": "The Bible acknowledges that we are afraid",
+          "section": true
+        },
+        {
+          "ko": "그러나 성경은 그 두려움을 나무라지 않으십니다. 오늘 본문이 사람의 상태를 이렇게 진단하십니다.",
+          "en": "Yet Scripture does not rebuke that fear. Today's text diagnoses the human condition like this:"
+        },
+        {
+          "ko": "\"또 죽기를 무서워하므로 일생에 매여 종노릇하는 모든 자들\" (히브리서 2:15)",
+          "en": "“…all those who through fear of death were subject to lifelong slavery.” (Hebrews 2:15)"
+        },
+        {
+          "ko": "\"일생에 매여 종노릇하는.\" 사랑하는 형제 자매 여러분, 성경은 무서워하지 말라고 야단치지 않으십니다. 사람이 죽음을 무서워하며 그 두려움에 평생 매여 산다고 있는 그대로 말씀하시는 것입니다.",
+          "en": "“Subject to lifelong slavery.” Dear brothers and sisters, Scripture does not scold us, saying, 'Stop being afraid.' It simply tells the truth as it is: people fear death and live their whole lives bound to that fear."
+        },
+        {
+          "ko": "그러나 여기서 멈추면 안 됩니다. 성경이 그것을 말씀하시는 이유가 무엇입니까? 우리를 그 자리에 그냥 두시려는 것이 아닙니다. 거기서 꺼내시려는 것입니다.",
+          "en": "But we must not stop there. Why does Scripture say this? Not to leave us where we are — but to bring us out."
+        },
+        {
+          "ko": "무서움을 느끼는 것과, 그 무서움에 일생을 매여 종처럼 사는 것은 같은 일이 아닙니다. 믿음이 있다는 것은 죽음 앞에서 아무런 두려움도 느끼지 않는다는 뜻이 아니라, 그 두려움이 더 이상 우리의 주인이 되지 못한다는 뜻인 것입니다.",
+          "en": "Feeling fear and living a lifetime enslaved to that fear are not the same thing. Having faith does not mean feeling no fear at all before death; it means that fear can no longer be our master."
+        },
+        {
+          "ko": "우리 주님은 우리의 감정을 꾸짖으러 오신 것이 아닙니다. 그 두려움의 쇠사슬을 끊으러 오신 것입니다.",
+          "en": "Our Lord did not come to rebuke our feelings. He came to break the chains of that fear."
+        },
+        {
+          "ko": "그러면 우리는 정확히 무엇이 두렵습니까",
+          "en": "Then what exactly are we afraid of?",
+          "section": true
+        },
+        {
+          "ko": "그 깊은 곳에는 적어도 세 가지 두려움이 있습니다.",
+          "en": "Deep down, there are at least three fears."
+        },
+        {
+          "ko": "첫째, 모른다는 두려움입니다. 죽으면 어디로 갑니까? 숨이 멎는 그 순간에 무슨 일이 일어납니까? 우리는 살아온 일은 다 알아도 그 한 가지는 모릅니다. 다녀와서 알려 준 사람이 아무도 없기 때문인 것입니다. 사람은 알 수 없는 것 앞에서 가장 크게 떠는 법입니다.",
+          "en": "First, the fear of not knowing. Where do we go when we die? What happens in the moment breath stops? We know everything about the life we have lived, but that one thing we do not know — because no one has gone and come back to tell us. And human beings tremble most before what they cannot know."
+        },
+        {
+          "ko": "둘째, 심판에 대한 두려움입니다. 남은 속여도 자기 자신은 속이지 못합니다. 내 인생을 내가 가장 잘 압니다. 거룩하신 하나님 앞에 홀로 섰을 때에 내가 무슨 말을 하겠습니까? 이것이 마음 깊은 곳에 있는 두 번째 두려움인 것입니다.",
+          "en": "Second, the fear of judgment. We may deceive others, but we cannot deceive ourselves. No one knows my life better than I do. Standing alone before a holy God, what could I possibly say? This is the second fear lying deep in the heart."
+        },
+        {
+          "ko": "셋째, 사라진다는 두려움입니다. 이 몸이 흙으로 돌아갑니다. 나를 기억하던 사람들도 언젠가는 다 갑니다. 내가 아는 나라는 사람이 그냥 없어져 버리는 것 같은 허무함, 그것이 세 번째 두려움인 것입니다.",
+          "en": "Third, the fear of vanishing. This body returns to dust. The people who remembered me will someday all be gone as well. The hollow dread that the person I know as 'me' will simply cease to exist — that is the third fear."
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 오늘 이 세 가지를 성경이 어떻게 답하시는지 하나씩 보겠습니다.",
+          "en": "Dear brothers and sisters, today let us see, one by one, how the Bible answers these three fears."
+        },
+        {
+          "ko": "대지 2 · 성경은 죽음을 무엇이라 부릅니까",
+          "en": "Point 2 · What Does the Bible Call Death?",
+          "section": true
+        },
+        {
+          "ko": "세상은 죽음을 무엇이라 부릅니까. 끝이라고 부릅니다. 상실이라고 부릅니다. 어쩔 수 없는 일이라고 부릅니다.",
+          "en": "What does the world call death? It calls it the end. It calls it loss. It calls it something that cannot be helped."
+        },
+        {
+          "ko": "그런데 성경은 같은 일을 다른 이름으로 부르십니다.",
+          "en": "But the Bible calls the same thing by a different name."
+        },
+        {
+          "ko": "\"이 말씀을 하신 후에 또 가라사대 우리 친구 나사로가 잠들었도다 그러나 내가 깨우러 가노라\" (요한복음 11:11)",
+          "en": "“After saying these things, he said to them, ‘Our friend Lazarus has fallen asleep, but I go to awaken him.’” (John 11:11)"
+        },
+        {
+          "ko": "나사로가 잠잔다고 하셨습니다. 사랑하는 형제 자매 여러분, 잠은 끝이 아닙니다. 잠은 깨어나야 하는 중간 과정인 것입니다.",
+          "en": "He said Lazarus was sleeping. Dear brothers and sisters, sleep is not the end. Sleep is a passage on the way to waking."
+        },
+        {
+          "ko": "우리가 밤에 잠자리에 들면서 이제 다 끝났다고 생각하는 사람이 있습니까. 없습니다. 아침이 온다는 것을 알기 때문인 것입니다. 그리고 잠이라는 말 안에는 이미 한 가지가 들어 있습니다. 깨울 분이 계시고 깨어날 때가 있다는 것입니다.",
+          "en": "Does anyone lie down at night thinking, 'Now it is all over'? No one. Because we know morning is coming. And inside the very word 'sleep' one thing is already contained: there is Someone who will wake us, and there is a time to wake."
+        },
+        {
+          "ko": "주님께서 무엇이라 이어서 말씀하셨습니까. \"그러나 내가 깨우러 가노라.\" 그렇습니다. 잠들었다는 말과 깨우러 가겠다는 말이 한 문장 안에 있는 것입니다.",
+          "en": "And what did the Lord say next? “But I go to awaken him.” Yes — 'he has fallen asleep' and 'I go to awaken him' stand together in a single sentence."
+        },
+        {
+          "ko": "여기서 한 가지를 분명히 하겠습니다. 주님께서 그것을 잠이라 부르신 것은 아무것도 모르고 누워 있다는 뜻이 아닙니다. 잠들었다고 불린 것은 우리 눈에 보이는 육신인 것입니다. 그렇다면 육신이 잠들어 있을 때에 그 영혼은 어디에 있습니까?",
+          "en": "Let me make one thing clear here. When the Lord called it sleep, he did not mean lying there knowing nothing. What is said to be asleep is the body our eyes can see. Then while the body sleeps, where is the soul?"
+        },
+        {
+          "ko": "성경은 애매하게 답하지 않으십니다",
+          "en": "The Bible does not answer vaguely",
+          "section": true
+        },
+        {
+          "ko": "십자가 위에서 한 강도가 주님께 구하였습니다. 그때 주님께서 무엇이라 대답하셨습니까. 성경은 말씀하십니다.",
+          "en": "On the cross, a thief made his plea to the Lord. And what did the Lord answer? The Bible says:"
+        },
+        {
+          "ko": "\"예수께서 이르시되 내가 진실로 네게 이르노니 오늘 네가 나와 함께 낙원에 있으리라 하시니라\" (누가복음 23:43)",
+          "en": "“And he said to him, ‘Truly, I say to you, today you will be with me in paradise.’” (Luke 23:43)"
+        },
+        {
+          "ko": "주님께서는 \"오늘 네가 나와 함께 낙원에 있으리라\"고 하셨습니다. 사랑하는 형제 자매 여러분, 나중이 아닙니다. 그리스도와 떨어진 채 어디선가 기다리는 시간이 있는 것도 아닙니다. 오늘이라고 하신 것입니다.",
+          "en": "The Lord said, “Today you will be with me in paradise.” Dear brothers and sisters — not later. Not some stretch of waiting somewhere, apart from Christ. He said today."
+        },
+        {
+          "ko": "이 사람이 누구였습니까. 십자가에 달린 강도였습니다. 그에게는 이제 세례를 받을 시간도, 선한 일로 자기를 증명할 시간도, 지나온 삶을 고쳐 살 시간도 없었습니다. 그에게 남은 것은 오직 주님께 자신을 맡기는 믿음 하나뿐이었습니다. 그런데 주님께서 그에게 오늘이라고 하신 것입니다.",
+          "en": "Who was this man? A thief hanging on a cross. He had no time left to be baptized, no time to prove himself by good works, no time to go back and live his life over. All he had left was one thing: faith that entrusted himself to the Lord. And to him the Lord said — today."
+        },
+        {
+          "ko": "그렇다면 여기서 우리가 무엇을 배웁니까? 천국에 들어가는 것이 우리가 쌓은 공로나 자격에 달린 것이 아니라는 사실입니다. 오직 우리를 데려가시는 주님의 은혜에 달려 있는 것입니다. 그리고 우리가 주님을 뵙게 되는 것은 이 세상을 떠나는 즉시 이루어지는 일이라고 성경은 말씀하시는 것입니다.",
+          "en": "Then what do we learn here? That entering heaven does not depend on the merit or qualifications we have piled up. It depends solely on the grace of the Lord who carries us home. And Scripture tells us that seeing the Lord happens the moment we leave this world."
+        },
+        {
+          "ko": "사도 바울도 같은 것을 말합니다.",
+          "en": "The apostle Paul says the same thing."
+        },
+        {
+          "ko": "\"내가 그 두 사이에 끼였으니 떠나서 그리스도와 함께 있을 욕망을 가진 이것이 더욱 좋으나\" (빌립보서 1:23)",
+          "en": "“I am hard pressed between the two. My desire is to depart and be with Christ, for that is far better.” (Philippians 1:23)"
+        },
+        {
+          "ko": "그렇습니다. 세상을 떠남과 그리스도와 함께 있음 사이에 아무것도 끼어 있지 않습니다. 세상을 떠나는 그 순간이 곧 그리스도와 함께 있는 순간인 것입니다.",
+          "en": "Yes — between departing this world and being with Christ, nothing stands in between. The moment we leave this world is the moment we are with Christ."
+        },
+        {
+          "ko": "그러므로 첫째 두려움에 답이 주어진 것입니다. 우리가 죽음의 모든 과정을 다 아는 것은 아닙니다. 그러나 이제 한 가지는 분명히 압니다. 우리가 세상을 떠나는 그 순간에 우리가 누구와 함께 있는지를 아는 것입니다. 성경이 이미 말씀해 놓으셨습니다. 우리는 그리스도와 함께 있게 되는 것입니다. 그렇습니다. 우리는 몰랐던 것이 아니라 아직 이 말씀을 유심히 듣지 않았을 뿐인 것입니다.",
+          "en": "And so the first fear has been answered. We do not know every detail of the process of death. But now we know one thing for certain: we know who we will be with the moment we leave this world. Scripture has already spoken it — we will be with Christ. Yes, it is not that we could not know; it is only that we had not yet listened closely to this word."
+        },
+        {
+          "ko": "거기서 무엇이 달라집니까",
+          "en": "What changes there?",
+          "section": true
+        },
+        {
+          "ko": "그러면 그곳에서는 무엇이 달라집니까. 두 가지만 말씀드리겠습니다.",
+          "en": "Then what changes in that place? Let me mention just two things."
+        },
+        {
+          "ko": "첫째, 우리의 싸움이 끝납니다.",
+          "en": "First, our battle ends."
+        },
+        {
+          "ko": "성경은 말씀하십니다.",
+          "en": "The Bible says:"
+        },
+        {
+          "ko": "\"하늘에 기록한 장자들의 총회와 교회와 만민의 심판자이신 하나님과 및 온전케 된 의인의 영들과\" (히브리서 12:23)",
+          "en": "“…to the assembly of the firstborn who are enrolled in heaven, and to God, the judge of all, and to the spirits of the righteous made perfect.” (Hebrews 12:23)"
+        },
+        {
+          "ko": "\"온전케 된\"이라고 하셨습니다. 사랑하는 형제 자매 여러분, 무엇이 끝났다는 것입니까?",
+          "en": "“Made perfect,” it says. Dear brothers and sisters, what is it that has ended?"
+        },
+        {
+          "ko": "우리는 예수님을 믿고 죄를 용서받았습니다. 그런데 죄를 짓고 싶은 그 마음까지 없어졌습니까? 아닙니다. 그래서 날마다 싸웁니다. 아침에 결심하고 저녁에 무너집니다. 몇십 년을 믿어도 그렇습니다. 그 싸움이 이 땅에서는 끝나지 않는 것입니다.",
+          "en": "We believed in Jesus and our sins were forgiven. But did the desire to sin disappear as well? No. So we fight every day. We resolve in the morning and collapse by evening. Even after decades of believing, it is so. On this earth, that battle never ends."
+        },
+        {
+          "ko": "그런데 그리스도와 함께하는 그곳에서 이 싸움이 완전히 끝납니다. 용서만 받은 것이 아니라 그 죄의 뿌리까지 뽑히는 것입니다. 다시는 넘어지지 않습니다. 아침마다 다시 싸움터로 나가지 않아도 되는 것입니다. 우리 로렌스 형제님이 지금 그 자리에 계신 것입니다.",
+          "en": "But in that place, together with Christ, this battle is completely over. Not only forgiven — the very root of sin is pulled out. We will never fall again. We will not have to march back to the battlefield every morning. Our brother Lawrence is in that place right now."
+        },
+        {
+          "ko": "다만 성경은 \"의인의 영들\"이라 하였습니다. 영이라 하셨지 몸이라 하지 않았습니다. 하나님께서 사람을 지으실 때에 영혼과 몸을 함께 지으셨는데, 죽음이 그 둘을 갈라놓은 것입니다. 그러므로 그 자리는 참으로 복되지만 아직 구원의 마지막 완성은 아닌 것입니다. 그 몸이 다시 무덤에서 일어날 날이 남아 있기 때문입니다. 그러나 죄와의 싸움만큼은 우리 영혼이 이 땅을 떠나는 그 순간 끝나는 것입니다.",
+          "en": "Yet notice — Scripture says “the spirits of the righteous.” Spirits, not bodies. When God made man, he made soul and body together, and death has torn the two apart. So that place is truly blessed, but it is not yet the final completion of salvation, for the day remains when that body will rise again from the grave. Still, as for the battle with sin — it ends the very moment our soul leaves this earth."
+        },
+        {
+          "ko": "둘째, 우리의 수고가 끝납니다.",
+          "en": "Second, our labor ends."
+        },
+        {
+          "ko": "성경은 말씀하십니다.",
+          "en": "The Bible says:"
+        },
+        {
+          "ko": "\"또 내가 들으니 하늘에서 음성이 나서 가로되 기록하라 지금 이후로 주 안에서 죽는 자들은 복이 있도다 하시매 성령이 가라사대 그러하다 저희 수고를 그치고 쉬리니 이는 저희의 행한 일이 따름이라 하시더라\" (요한계시록 14:13)",
+          "en": "“And I heard a voice from heaven saying, ‘Write this: Blessed are the dead who die in the Lord from now on.’ ‘Blessed indeed,’ says the Spirit, ‘that they may rest from their labors, for their deeds follow them!’” (Revelation 14:13)"
+        },
+        {
+          "ko": "여기를 자세히 보십시오. 모든 죽음이 복이라고 하지 않으셨습니다. \"주 안에서 죽는 자들\"이라고 하셨습니다. 죽음이 복인 것이 아니라, 주 안에 있는 그 사람이 복이 있는 것입니다.",
+          "en": "Look closely here. It does not say that every death is blessed. It says “the dead who die in the Lord.” It is not death that is blessed — it is the person who is in the Lord who is blessed."
+        },
+        {
+          "ko": "그리고 그들에게 무엇을 약속하십니까. \"저희 수고를 그치고 쉬리니.\" 그렇습니다. 그 병든 몸의 고통도, 평생 지고 온 모든 수고도 더 이상 그를 붙잡지 못하는 것입니다.",
+          "en": "And what is promised to them? “That they may rest from their labors.” Yes — the pain of that sick body, all the burdens carried through a lifetime, none of it can hold them any longer."
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 그러므로 그리스도 안에 있는 사람에게 죽음은 끝이 아닙니다. 그 몸은 부활을 기다리며 잠들고, 그 영혼은 세상을 떠나 주님과 함께 있게 되는 것입니다. 성경이 그것을 낙원이라 부르는 것입니다. 그러나 마지막 완성은 주님 다시 오시는 날, 그 몸까지 다시 살아나는 부활인 것입니다.",
+          "en": "Dear brothers and sisters, therefore for the one who is in Christ, death is not the end. The body sleeps awaiting resurrection, and the soul departs this world to be with the Lord. That is what Scripture calls paradise. But the final completion is the resurrection — the day the Lord comes again and even that body rises to life."
+        },
+        {
+          "ko": "대지 3 · 그러면 왜 그 두려움에 매여 살지 않아도 됩니까",
+          "en": "Point 3 · Why We Need No Longer Live Bound by That Fear",
+          "section": true
+        },
+        {
+          "ko": "그런데 여기서 우리는 물어야 합니다. 어떻게 그렇게 되었습니까. 원수였던 그 죽음이 어떻게 주님과 함께 있는 자리로 가는 문이 되었습니까.",
+          "en": "But here we must ask: how did this come to be? How did death, the enemy, become a doorway to the place where we are with the Lord?"
+        },
+        {
+          "ko": "먼저 가서 다시 돌아오신 분",
+          "en": "The One who went ahead and came back",
+          "section": true
+        },
+        {
+          "ko": "오늘 본문이 답하십니다.",
+          "en": "Today's text gives the answer."
+        },
+        {
+          "ko": "\"자녀들은 혈육에 함께 속하였으매 그도 또한 한 모양으로 혈육에 함께 속하심은 사망으로 말미암아 사망의 세력을 잡은 자 곧 마귀를 없이 하시며\" (히브리서 2:14)",
+          "en": "“Since therefore the children share in flesh and blood, he himself likewise partook of the same things, that through death he might destroy the one who has the power of death, that is, the devil.” (Hebrews 2:14)"
+        },
+        {
+          "ko": "먼저 앞부분을 보십시오. \"자녀들은 혈육에 함께 속하였으매 그도 또한 한 모양으로 혈육에 함께 속하심은.\"",
+          "en": "Look first at the opening: “Since the children share in flesh and blood, he himself likewise partook of the same things.”"
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 우리를 죽음에서 건지시려고 주님께서 어떻게 하셨습니까. 죽음 바깥에 서서 명령만 내리지 않으셨습니다. 주님께서는 우리와 똑같은 혈육을 입으신 것입니다. 죽음의 지배를 받지 않으시는 하나님의 아들이, 죽을 수 있는 몸을 입고 우리 곁으로 내려오신 것입니다. 그러므로 성탄과 십자가는 따로 있는 두 사건이 아닙니다. 우리가 두려워하는 그 죽음 안으로 친히 들어오시기 위한 살아 계신 하나님의 한 걸음이었던 것입니다.",
+          "en": "Dear brothers and sisters, what did the Lord do to rescue us from death? He did not stand outside of death and merely issue commands. The Lord put on the very same flesh and blood as ours. The Son of God, over whom death has no rule, clothed himself in a body that could die and came down to our side. So Christmas and the cross are not two separate events. They were one single step of the living God, taken in order to enter personally into the very death we fear."
+        },
+        {
+          "ko": "그리고 그 다음을 보십시오. \"사망으로 말미암아 사망의 세력을 잡은 자 곧 마귀를 없이 하시며.\"",
+          "en": "And look at what follows: “that through death he might destroy the one who has the power of death, that is, the devil.”"
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 없이 하셨다고 하십니다. 약하게 하셨다고 하지 않으셨습니다.",
+          "en": "Dear brothers and sisters, it says he destroyed him. It does not say he merely weakened him."
+        },
+        {
+          "ko": "성경은 마귀를 \"사망의 세력을 잡은 자\"라고 부릅니다. 마귀가 이 사망의 세력을 붙들고 사람을 고발해 온 것입니다. 너 같은 사람이 어떻게 하나님 앞에 서겠느냐, 너에게는 소망이 없다. 그렇게 죄책과 죽음의 공포로 평생 인간을 묶어 놓은 것입니다.",
+          "en": "Scripture calls the devil “the one who has the power of death.” Gripping that power of death, the devil has accused mankind: 'How could someone like you ever stand before God? There is no hope for you.' With guilt and the terror of death he has bound human beings all their lives."
+        },
+        {
+          "ko": "그런데 주님께서 그 손에서 그것을 빼앗아 버리셨습니다. 무엇으로 빼앗으셨습니까? 자기의 죽음으로 빼앗으신 것입니다. 우리를 삼키려고 휘두르던 바로 그 죽음으로, 주님께서 오히려 죽음의 권세를 깨뜨리신 것입니다.",
+          "en": "But the Lord tore it out of his hand. With what? With his own death. With the very death the devil swung to swallow us, the Lord shattered the power of death itself."
+        },
+        {
+          "ko": "십자가가 그러하지 않았습니까. 사람이 만든 것 중에 십자가보다 더 잔인한 것이 있었습니까. 그것은 사람을 죽이라고 세운 형틀이었습니다. 그런데 그 나무 위에서 무슨 일이 일어났습니까. 우리 주님께서 우리의 죄를 대신 감당하시고 죽으심으로 우리가 살게 된 것입니다. 죽이라고 세운 그 자리가 살리는 자리가 된 것입니다.",
+          "en": "Was not the cross exactly this? Was there anything crueler ever devised by man? It was an instrument erected to kill. Yet what happened on that tree? Our Lord bore our sins in our place and died — and by his dying, we came to live. The very place erected to kill became the place that gives life."
+        },
+        {
+          "ko": "그리스도께서 우리의 죄 값을 다 담당하셨으니, 이제 마귀가 우리를 고발할 근거가 사라진 것입니다. 고발할 것을 잃은 자가 무엇으로 우리를 붙들겠습니까. 거기서 마귀는 끝난 것입니다. 그리고 그날에 주님께서 그를 영원한 심판으로 완전히 없이 하실 것입니다.",
+          "en": "Since Christ bore the full price of our sin, the devil's grounds for accusing us have vanished. With what could an accuser who has lost his accusation still hold us? There the devil was finished. And on that day, the Lord will do away with him completely in eternal judgment."
+        },
+        {
+          "ko": "그리고 여기서 멈추면 안 됩니다. 우리 주님은 사망의 그 길로 먼저 들어가시기만 한 것이 아닙니다. 그 죽음에서 다시 살아 돌아오신 것입니다. 죽음 너머를 구경하고 오신 분이 아니라, 사망 그 안으로 들어가 그 문을 안에서부터 깨뜨리고 돌 무덤을 여시고 살아 나오신 분인 것입니다.",
+          "en": "And we must not stop here. Our Lord did not merely go ahead of us into the way of death. He came back from that death alive. He is not one who took a look at what lies beyond and returned; he is the One who entered into death itself, broke its door open from the inside, opened the stone tomb, and walked out alive."
+        },
+        {
+          "ko": "앞서 말씀드렸습니다. 가 본 적 없는 곳이 두려운 것은 모르기 때문이라고 말입니다. 그런데 이미 그 사망의 골짜기를 통과하여 승리하신 분이 우리를 인도하고 계신 것입니다. 그러면 그것은 더 이상 모르는 길이 아닌 것입니다. 이제 죽음은 더 이상 우리를 지배할 수 없는 것입니다. 사망을 이기시고 승리하신 주님이 우리를 이끄시기 때문입니다.",
+          "en": "I said earlier that we fear a place we have never been because we do not know it. But the One who has already passed through that valley of death in victory is leading us. Then it is no longer an unknown road. Death can no longer rule over us — because the Lord who conquered death is the One leading us."
+        },
+        {
+          "ko": "정죄할 심판은 이미 끝났습니다",
+          "en": "The judgment that condemns is already over",
+          "section": true
+        },
+        {
+          "ko": "둘째 두려움을 봅니다. 우리가 죽음을 두려워하는 것은 그 뒤에 따라오는 심판이 두렵기 때문이라고 하였습니다.",
+          "en": "Now the second fear. We said we fear death because we fear the judgment that follows it."
+        },
+        {
+          "ko": "성경은 말씀하십니다.",
+          "en": "The Bible says:"
+        },
+        {
+          "ko": "\"내가 진실로 진실로 너희에게 이르노니 내 말을 듣고 또 나 보내신 이를 믿는 자는 영생을 얻었고 심판에 이르지 아니하나니 사망에서 생명으로 옮겼느니라\" (요한복음 5:24)",
+          "en": "“Truly, truly, I say to you, whoever hears my word and believes him who sent me has eternal life. He does not come into judgment, but has passed from death to life.” (John 5:24)"
+        },
+        {
+          "ko": "이 한 절 안에 세 가지가 있습니다. 첫째는 영생을 얻었고, 둘째는 심판에 이르지 아니하나니, 셋째는 사망에서 생명으로 옮겼느니라인 것입니다.",
+          "en": "There are three things in this single verse: first, 'has eternal life'; second, 'does not come into judgment'; third, 'has passed from death to life.'"
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 말씀은 우리를 사망에서 생명으로 옮기겠다고 하지 않으셨습니다. 옮겼다고 하셨습니다. 이사는 이미 끝난 것입니다. 우리가 죽을 때에 비로소 옮겨지는 것이 아니라, 믿는 그날에 이미 옮겨진 것입니다.",
+          "en": "Dear brothers and sisters, the Word does not say, 'I will move you from death to life.' It says, 'has passed.' The move is already complete. We are not transferred at last when we die — we were transferred already, on the day we believed."
+        },
+        {
+          "ko": "그러면 우리가 받아야 할 그 심판은 어디로 갔습니까. 없어진 것입니까. 아닙니다. 이천 년 전 갈보리 언덕 위 십자가에서 이미 치러진 것입니다. 우리 주님께서 우리가 설 자리에 대신 서서 그 판결을 다 받으셨습니다. 완불된 것입니다. 주님이 우리의 죄 값을 다 치르셨고, 하나님은 같은 빚을 두 번 받으시는 분이 아니신 것입니다.",
+          "en": "Then where did the judgment we deserved go? Did it simply disappear? No. It was already carried out two thousand years ago on the cross on Calvary's hill. Our Lord stood in the place where we should have stood and received the full verdict. It was paid in full. The Lord paid the whole price of our sin, and God is not one who collects the same debt twice."
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 그리스도 안에 있는 사람을 정죄할 그 재판은 이미 열렸고 이미 끝났습니다. 다만 피고석에 앉으신 분이 우리가 아니었을 뿐인 것입니다.",
+          "en": "Dear brothers and sisters, the trial that would condemn anyone in Christ has already been held, and it is already over. Only — the One who sat in the defendant's seat was not us."
+        },
+        {
+          "ko": "사라지는 것이 아니라 심는 것입니다",
+          "en": "Not vanishing, but planting",
+          "section": true
+        },
+        {
+          "ko": "이제 셋째 두려움입니다. 우리는 죽음으로 영원히 사라지는 것이 두렵다고 하였습니다.",
+          "en": "Now the third fear. We said we fear vanishing forever in death."
+        },
+        {
+          "ko": "여기에 대하여 사도는 우리를 농부에게 데려갑니다. 성경은 말씀하십니다.",
+          "en": "To answer this, the apostle takes us to a farmer. The Bible says:"
+        },
+        {
+          "ko": "\"어리석은 자여 너의 뿌리는 씨가 죽지 않으면 살아나지 못하겠고 또 너의 뿌리는 것은 장래 형체를 뿌리는 것이 아니요 다만 밀이나 다른 것의 알갱이뿐이로되\" (고린도전서 15:36–37)",
+          "en": "“You foolish person! What you sow does not come to life unless it dies. And what you sow is not the body that is to be, but a bare kernel, perhaps of wheat or of some other grain.” (1 Corinthians 15:36–37)"
+        },
+        {
+          "ko": "생각해 보십시오. 농부가 밀알을 뿌립니다. 밖에서 보면 무엇을 하는 것 같습니까. 멀쩡한 곡식을 흙에 파묻어 없애는 것 같습니다. 농사를 모르는 사람이 보면 아까워서 못 볼 일인 것입니다.",
+          "en": "Think about it. A farmer sows grains of wheat. From the outside, what does it look like he is doing? It looks like he is burying perfectly good grain in the dirt, destroying it. To someone who knows nothing of farming, it would seem too wasteful to watch."
+        },
+        {
+          "ko": "그런데 농부는 그것을 잃는다고 말합니까. 버린다고 말합니까. 아닙니다. 심는다고 말하는 것입니다.",
+          "en": "But does the farmer call it losing? Does he call it throwing away? No. He calls it planting."
+        },
+        {
+          "ko": "그리고 한 가지를 더 보십시오. 뿌린 것과 나온 것이 같은 모양입니까? 밀알을 심었는데 밀알이 그대로 올라옵니까? 아닙니다. 푸른 싹이 나고 이삭이 올라오는 것입니다. 전혀 다른 모양이지만 그 안의 생명은 같습니다. 같은 생명이 전혀 다른 영광으로 일어나는 것입니다.",
+          "en": "And notice one thing more. Do what is sown and what comes up look the same? You plant a kernel of wheat — does a bare kernel come back up? No. A green shoot rises, and then the full head of grain. The form is entirely different, yet the life within is the same. The same life rises in an entirely different glory."
+        },
+        {
+          "ko": "성경은 말씀하십니다. \"너의 뿌리는 것은 장래 형체를 뿌리는 것이 아니요.\" 사랑하는 형제 자매 여러분, 이 말씀을 놓치지 마십시오. 우리가 땅에 묻은 것은 작고 약한 알갱이입니다. 우리는 하나님께서 만드실 그 이삭을 아직 본 적이 없습니다. 그러므로 땅에 묻히는 알갱이만 보고 부활의 이삭을 판단해서는 안 되는 것입니다.",
+          "en": "Scripture says, “What you sow is not the body that is to be.” Dear brothers and sisters, do not miss this. What we bury in the ground is a small, weak kernel. We have never yet seen the full grain God will make of it. So we must never judge the harvest of resurrection by the little kernel being buried."
+        },
+        {
+          "ko": "사도는 이어서 선포합니다.",
+          "en": "The apostle goes on to proclaim:"
+        },
+        {
+          "ko": "\"죽은 자의 부활도 이와 같으니 썩을 것으로 심고 썩지 아니할 것으로 다시 살며 욕된 것으로 심고 영광스러운 것으로 다시 살며 약한 것으로 심고 강한 것으로 다시 살며\" (고린도전서 15:42–43)",
+          "en": "“So is it with the resurrection of the dead. What is sown is perishable; what is raised is imperishable. It is sown in dishonor; it is raised in glory. It is sown in weakness; it is raised in power.” (1 Corinthians 15:42–43)"
+        },
+        {
+          "ko": "성경은 죽음을 부정하지 않습니다. 씨가 죽는다고 분명히 말씀하셨습니다. 그러나 죽음으로 끝난다고는 하지 않으셨습니다. 버렸다고 하지 않으시고 심었다고 하신 것입니다.",
+          "en": "Scripture does not deny death. It says plainly that the seed dies. But it never says that death is the end. It does not say 'thrown away' — it says 'sown.'"
+        },
+        {
+          "ko": "그렇습니다. 우리가 죽고 나서 무덤에 그 육신을 두는 것은 끝난 것이 아니라 심는 것이라는 말씀인 것입니다.",
+          "en": "Yes — laying that body in the grave after death is not an ending. It is, the Word says, a planting."
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 우리는 그 몸을 눈물로 심습니다. 그러나 그것을 다시 살리실 분은 우리가 아닙니다. 하나님이신 것입니다. 그러므로 이 소망은 우리가 얼마나 잘 견디는가에 달린 것이 아닙니다. 죽은 자를 살리시는 하나님께서 얼마나 신실하신가에 달린 것입니다.",
+          "en": "Dear brothers and sisters, we plant that body with tears. But the One who will raise it again is not us — it is God. So this hope does not rest on how well we endure. It rests on how faithful the God who raises the dead is."
+        },
+        {
+          "ko": "그리고 그 하나님이 어떤 분이십니까. 우리 주님은 우리를 다시 살리시려고 십자가에서 죽으시고, 사망을 이겨 부활까지 하신 하나님이신 것입니다. 그렇게 신실하신 분의 약속을 우리가 붙들고 살아가는 것입니다.",
+          "en": "And what kind of God is he? Our Lord is the God who died on the cross to raise us again, and who conquered death all the way to resurrection. It is the promise of One that faithful that we hold on to as we live."
+        },
+        {
+          "ko": "그러므로 우리는 사라지는 것이 아닙니다. 다시 살아날 씨앗으로 심기는 것입니다.",
+          "en": "Therefore we do not vanish. We are planted — as seed that will rise again."
+        },
+        {
+          "ko": "결론",
+          "en": "Conclusion",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 오늘 우리는 인간이 가진 세 가지 두려움을 나누며 시작하였습니다.",
+          "en": "Dear brothers and sisters, we began today by naming the three fears we carry."
+        },
+        {
+          "ko": "갈 길을 모르기에 두려워하였습니다. 그러나 이제 우리는 압니다. 그 모든 과정을 다 알지는 못해도, 세상을 떠나는 그 순간 우리가 누구와 함께 있게 되는지를 아는 것입니다.",
+          "en": "We were afraid because we did not know the road. But now we know. We may not know every step of the way, but we know who we will be with the moment we leave this world."
+        },
+        {
+          "ko": "심판이 두려웠습니다. 그러나 그 심판은 이천 년 전 갈보리 십자가에서 그리스도의 보혈로 이미 완불되었습니다. 그리스도를 믿는 사람은 사망에서 생명으로 이미 옮겨진 것입니다.",
+          "en": "We feared judgment. But that judgment was already paid in full two thousand years ago, by the precious blood of Christ on Calvary's cross. The one who believes in Christ has already passed from death to life."
+        },
+        {
+          "ko": "소멸과 사라짐이 두려웠습니다. 그러나 우리는 사라지는 것이 아니라 거룩하게 심기는 것입니다. 지난주 우리는 형제님의 몸을 눈물로 심었습니다. 그러나 하나님께서 그것을 썩지 아니할 몸, 영광스러운 몸으로 다시 일으키실 것입니다.",
+          "en": "We feared extinction and vanishing. But we do not vanish — we are holily planted. Last week we planted our brother's body with tears. But God will raise it again as an imperishable body, a glorious body."
+        },
+        {
+          "ko": "그러므로 오늘 본문은 우리에게 담대히 선포합니다.",
+          "en": "And so today's text boldly proclaims to us:"
+        },
+        {
+          "ko": "\"또 죽기를 무서워하므로 일생에 매여 종노릇하는 모든 자들을 놓아 주려 하심이니\" (히브리서 2:15)",
+          "en": "“…and deliver all those who through fear of death were subject to lifelong slavery.” (Hebrews 2:15)"
+        },
+        {
+          "ko": "\"놓아 주려 하심이라!\"",
+          "en": "“To set them free!”"
+        },
+        {
+          "ko": "우리 주님께서 친히 혈육을 입고 이 땅에 오신 결정적인 이유가 바로 이것입니다. 죽음의 공포에 얽매여 평생 종노릇하던 우리를 온전히 자유케 하시려는 것입니다.",
+          "en": "This is the decisive reason our Lord himself put on flesh and blood and came to this earth: to set fully free those of us who lived our whole lives enslaved, tangled in the terror of death."
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 두려움에 매여 있는 사람과 두려움에서 놓인 사람의 삶은 완전히 다릅니다.",
+          "en": "Dear brothers and sisters, the life of a person still bound by fear and the life of a person set free from it are completely different."
+        },
+        {
+          "ko": "매여 있는 사람은 인생의 끝을 생각하지 않으려고 몸부림치며 삽니다. 죽음 이야기만 나오면 화제를 돌리고 외면합니다. 그러나 주님 안에서 놓임을 받은 사람은 그 끝을 명확히 알고도 오늘을 담대하게 살아갑니다.",
+          "en": "The one who is bound lives struggling never to think of life's end — changing the subject and looking away whenever death is mentioned. But the one set free in the Lord knows that end clearly and still lives today with boldness."
+        },
+        {
+          "ko": "그는 죽음을 잊고 사는 사람이 아닙니다. 죽음이 결코 마지막이 아님을 알기에 오늘이라는 날을 더 정직하고 진실하게 살아가는 사람입니다. 미루어 두었던 사랑을 오늘 표현합니다. 용서하고 화해해야 할 사람과 오늘 화해합니다. 잃을까 두려워 아등바등 움켜쥐었던 손을 펼쳐 이웃과 나누어 줍니다. 그리고 주님께서 맡기신 사명 앞에 담대히 서는 것입니다.",
+          "en": "He is not a person who lives forgetting death. He is a person who knows death is never the last word, and so lives this day called 'today' more honestly and truly. He expresses today the love he had postponed. He reconciles today with the one he must forgive. He opens the hands he had clenched so desperately for fear of losing, and shares with his neighbor. And he stands with courage before the calling the Lord has entrusted to him."
+        },
+        {
+          "ko": "죽음을 이기신 주님 안에서만 우리는 죽음을 피하지 않고 바라보면서도 오늘을 소망으로 살아갈 수 있습니다. 이것이 주님께서 우리에게 주신 참된 자유입니다.",
+          "en": "Only in the Lord who conquered death can we look at death without turning away — and still live today in hope. This is the true freedom the Lord has given us."
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 주님께서 나사로의 무덤 앞에서 마르다에게 물으셨습니다.",
+          "en": "Dear brothers and sisters, before Lazarus's tomb the Lord asked Martha:"
+        },
+        {
+          "ko": "\"예수께서 가라사대 나는 부활이요 생명이니 나를 믿는 자는 죽어도 살겠고 무릇 살아서 나를 믿는 자는 영원히 죽지 아니하리니 이것을 네가 믿느냐\" (요한복음 11:25–26)",
+          "en": "“Jesus said to her, ‘I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live, and everyone who lives and believes in me shall never die. Do you believe this?’” (John 11:25–26)"
+        },
+        {
+          "ko": "이 물음에 마르다는 이렇게 대답하였습니다.",
+          "en": "To this question, Martha answered:"
+        },
+        {
+          "ko": "\"가로되 주여 그러하외다 주는 그리스도시요 세상에 오시는 하나님의 아들이신 줄 내가 믿나이다\" (요한복음 11:27)",
+          "en": "“She said to him, ‘Yes, Lord; I believe that you are the Christ, the Son of God, who is coming into the world.’” (John 11:27)"
+        },
+        {
+          "ko": "\"주여 그러하외다!\"",
+          "en": "“Yes, Lord — I believe!”"
+        },
+        {
+          "ko": "지난주 우리는 우리 로렌스 형제님이 삶의 마지막 순간까지 이 대답을 드리는 것을 보았습니다. 목소리가 있을 때에는 목소리로, 목소리가 닫혔을 때에는 손으로, 그 손마저 굳었을 때에는 눈꺼풀 하나로 끝까지 주님의 말씀에 \"아멘\"이라 화답하셨습니다.",
+          "en": "Last week we watched our brother Lawrence give this answer to the very last moment of his life. While he had a voice, with his voice; when his voice was closed, with his hand; and when even that hand had stiffened, with a single eyelid — to the very end he responded 'Amen' to the word of the Lord."
+        },
+        {
+          "ko": "형제님은 남아 있던 마지막 힘으로 응답하셨습니다. 오늘 아직 주님의 말씀을 듣고 응답할 수 있는 우리에게 주님이 똑같이 물으십니다.",
+          "en": "With the last strength he had left, our brother answered. And today, to us who can still hear the Lord's word and still respond, the Lord asks the very same question."
+        },
+        {
+          "ko": "\"이것을 네가 믿느냐?\"",
+          "en": "“Do you believe this?”"
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 오늘 믿음으로 대답하시기를 바랍니다. \"주여, 그러하외다.\"",
+          "en": "Dear brothers and sisters, may you answer today in faith: “Yes, Lord — I believe.”"
+        }
+      ]
     }
   ]
 };
