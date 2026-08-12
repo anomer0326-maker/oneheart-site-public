@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 성경의 신빙성에 대한 증거들 §12 (1권 8장 · Day 48) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 8장 §12(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 48. 연관 성구: 시편 2, 사도행전 4, 사도행전 5, 시편 37."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day48_Book1-Ch8-%C2%A712.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="성경의 신빙성에 대한 증거들 §12 — 기독교 강요 영어로 읽기 (Day 48)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 8장 §12(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 48. 연관 성구: 시편 2, 사도행전 4, 사도행전 5, 시편 37."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day48_Book1-Ch8-%C2%A712.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 성경의 신빙성에 대한 증거들 §12 (1권 8장 · Day 48) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 8장 §12(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 48. 연관 성구: 시편 2, 사도행전 4, 사도행전 5, 시편 37.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 8장 §12 — 성경의 신빙성에 대한 증거들","mentions":[{"@type":"CreativeWork","name":"시편 2 (Psalm 2)"},{"@type":"CreativeWork","name":"사도행전 4 (Acts 4)"},{"@type":"CreativeWork","name":"사도행전 5 (Acts 5)"},{"@type":"CreativeWork","name":"시편 37 (Ps 37)"},{"@type":"CreativeWork","name":"이사야 2 (Isa 2)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day48_Book1-Ch8-%C2%A712.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 48 — Book 1, Chapter 8, §12<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (the whole § — 9 sentences, verbatim)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl2" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl1" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl3" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl2" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl2" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl2" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl3" href="#S9" onclick="closeNavMobile()">S9</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 48 — Book 1, Chapter 8, §12</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>I left you a landmine question overnight, and today you get to watch Calvin walk straight across the minefield without losing a leg:</p><blockquote>
+<p><em>Calvin demolished Rome's logic in I.7 — "the Church's approval is what gives Scripture its authority." Yet §12 calls the Church's consent as evidence. Contradiction?</em></p>
+</blockquote><p>Answer it before Calvin does. <strong>The foundation and the help sit in different chairs in the courtroom.</strong> In I.7 Rome tried to seat the Church on the <em>judge's bench</em> — authorizing Scripture from above. Calvin threw her off it. In §12 he seats her in the <em>witness stand</em> — testifying from below. A witness does not create the truth of the case; a witness confirms it. Watch the very first sentence do this with surgical precision: the consent of the Church <code>is not without its weight</code> — <strong>weight</strong>, evidential weight. Not <em>foundation</em>. Not <em>authority</em>. Weight on a scale that was already tipped by the Spirit (I.7.4–5). If you catch that one word, you have caught the whole section — and defused the exam's favorite trap.</p><p>And notice what the argument itself looks like today. §11 heard the writings and the writers. §12 opens the <em>history books</em>: fifteen centuries of uniform obedience, waves of attackers — sophists' pens, emperors' swords — and Scripture <code>flourished like the palm tree and continued invincible</code>. Then the geography: not one city, not one nation, but a <code>holy league</code> of peoples with nothing else in common. Calvin is running Gamaliel's test at full scale (Acts 5:38–39): <em>if this work were of men, it would have come to nought.</em> It didn't. Draw the conclusion.</p><p>The shape in one breath:</p><pre><code>   S1        the ledger entry ── "Add that the Church's consent has weight"
+   S2        exhibit A        ── ages of obedience + survival vs Satan
+   S3–S4     the siege        ── sophists' pens (S3), princes' swords (S4)
+   S5–S6     the inference    ── could it have resisted by human aid? →
+                                 divine origin, its own energy
+   S7–S8     exhibit B        ── not one city/nation: a worldwide holy league
+   S9        exhibit C        ── agreement of the diverse + piety of the lights
+</code></pre><p><strong>Today's 3 Big Points — write them down now:</strong></p><ol>
+<li><strong>The ledger imperative: <code>Add, moreover, that ...</code> (S1) and its clipped return <code>Add that ...</code> (S7).</strong> An imperative with no drama in it — Calvin is not commanding you to <em>do</em> anything; he is a bookkeeper telling you to <strong>enter the next item in the column of proofs.</strong> The whole that-clause is the object of <code>Add</code>. ⚠️ Don't read it as an emotional appeal; read it as accounting. And watch the second occurrence shed its robes: S1 arrives formal (<code>, moreover, ... for the best of reasons,</code>), S7 arrives bare (<code>Add that</code>) — the bookkeeper is moving faster because the column is filling up.</li>
+<li><strong>The litotes battery — three double negatives in one section, all meaning MORE, not less.</strong> <code>not without its weight</code> (S1), <code>not to be accounted of no consequence</code> (S2), <code>no small weight</code> (S9). ★ Litotes = negating the negative to assert the positive <strong>with reserve</strong> — the rhetoric of a man understating what he could shout. ⚠️ The exam trap writes these as concessions ("Calvin admits the consent has only slight weight") — <strong>direction flip. Kill it on sight.</strong> <code>not without weight</code> = <em>weighty</em>; <code>no small weight</code> = <em>great weight</em>.</li>
+<li><strong>The modal-perfect museum opens two new wings (S5, S9).</strong> Day 46 gave you the counterfactual statement (<code>must have utterly perished</code>), Day 47 the inference (<code>must have been the teacher</code>). Today: ★ S5 <code>how could it have resisted if it had trusted only to human aid?</code> = <strong>counterfactual INTERROGATIVE</strong> — a rhetorical question whose only answer is <em>it could not have</em> — negation delivered as a question. ★ S9 <code>an agreement which a Divine Providence alone could have produced</code> = <strong><code>alone could have p.p.</code></strong> — <em>nothing else could have produced it; it exists; therefore Providence did</em> — an inference wearing a counterfactual's clothes. ⚠️ Same verb cluster, four days, five values. <strong>The frame decides. Every time.</strong></li>
+</ol><p>Nine sentences. S1, S2, S5 and S9 take the heavy time. Let's go.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (the whole § — 9 sentences, verbatim)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+12. Add, moreover, that, for the best of reasons, the consent of the Church is not without its weight. For it is not to be accounted of no consequence, that, from the first publication of Scripture, so many ages have uniformly concurred in yielding obedience to it, and that, notwithstanding of the many extraordinary attempts which Satan and the whole world have made to oppress and overthrow it, or completely efface it from the memory of men, it has flourished like the palm tree and continued invincible. Though in old times there was scarcely a sophist or orator of any note who did not exert his powers against it, their efforts proved unavailing. The powers of the earth armed themselves for its destruction, but all their attempts vanished into smoke. When thus powerfully assailed on every side, how could it have resisted if it had trusted only to human aid? Nay, its divine origin is more completely established by the fact, that when all human wishes were against it, it advanced by its own energy. Add that it was not a single city or a single nation that concurred in receiving and embracing it. Its authority was recognised as far and as wide as the world extends—various nations who had nothing else in common entering for this purpose into a holy league. Moreover, while we ought to attach the greatest weight to the agreement of minds so diversified, and in all other things so much at variance with each other—an agreement which a Divine Providence alone could have produced—it adds no small weight to the whole when we attend to the piety of those who thus agree; not of all of them indeed, but of those in whom as lights God was pleased that his Church should shine.
+✅ Text note. Our source file source/Institutes_Beveridge_FULL.txt carries §12 at lines 3773–3797. Page furniture removed as noise, per the standing rule: the page number 87 and the two-line running header (CHAPTER 8. - THE CREDIBILITY OF SCRIPTURE SUFFICIENTLY PROVED IN SO / FAR…, lines 3780–3782, with their blank lines) — ⚠️ note where the page break lands: inside S2, between it has and flourished like the palm tree. The longest sentence of the day is split across the page turn, mid-clause — third day running that the furniture falls mid-sentence; keep trusting the syntax, not the page. Two line-break hyphenations repaired: at- / tempts (lines 3787–3788) → attempts; diver- / sified (lines 3793–3794) → diversified — ⚠️ both are plain repairs, no genuine compound today (contrast Day 47's money-table, which kept its hyphen). The dash in S8 (extends—various) and the pair of dashes in S9 (each other—an agreement ... produced—it adds) are the source's own em-dashes — they carry structure today (S8's absolute construction, S9's appositive island), so respect them. One paragraph only — no Beveridge break; the ledger runs unbroken from first entry to last.
+⚠️ Now run the standing Day 42 checks. Every stranded comparative, every so/too/such without a partner, every pronoun without an antecedent.
+
+Correlatives: **as** far and **as** wide **as** the world extends (S8) ✓ — a doubled equative sharing one as-tail; nothing stranded. **so** many ages (S2) — ⚠️ no that-partner, and none needed: so many here is plain quantity ("such a great number"), not degree-with-result. **so** diversified ... **so** much at variance (S9) — same verdict: intensifiers without result clauses; the degree anchor is the standing miracle of their agreeing at all. **more** completely (S6) — ⚠️ mind the ellipsis: more completely than mere survival would establish it; the comparison reaches back to S2–S5's defensive argument. Flag, resolve, move on.
+Pronouns: it (S2, seven times by the end) = Scripture throughout — ⚠️ but the FIRST it (it is not to be accounted) is a dummy: extraposition subject for the twin that-clauses. Sort the dummies from the real ones or S2 dissolves. their (S3) = the sophists and orators — ⚠️ notional plural: the antecedent is scarcely a sophist or orator (singular in form), but sense demands plural; Beveridge rides the sense. their (S4) = the powers of the earth ✓. it adds (S9) — ⚠️ flagged: ambient/anticipatory it pointing forward to the when-clause (attending to their piety is what adds the weight), not Scripture this time. them / those (S9 tail) = the agreeing minds; of all of them ... of those both hang from the piety — supply it: the piety, not of all of them, but of those ...
+Trap words on patrol: consequence (S2) = importance — nothing follows from anything. publication (S2) = making public (first promulgation) — no printing press in Moses' day. concurred (S2, S7) = agreed together (con + currere, ran together) — no traffic accident. of any note (S3) = of any distinction — nobody is writing music. unavailing (S3) = useless, without effect (a + valere) — not "unavailable." Nay (S6) = escalation: "more than that" — not a refusal. energy (S6) = inherent operative power (Gk. energeia) — not enthusiasm. league (S8) = alliance, covenant (Lat. ligare, to bind) — not a sports division and not a unit of distance. All eight in Period 5.
+
+ℹ️ On the count. Nine sentences, one paragraph. The two giants are S2 (the twin-that exhibit, split by the page turn) and S9 (the double-dash appositive with the semicolon tail). The semicolon inside S9 does NOT end a sentence — the tail (not of all of them ...) is an elliptical afterthought still hanging from the piety. The count stands at 9.
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>A bookkeeper's ledger — two <code>Add</code> entries, each followed by its supporting evidence:</p><pre><code>   S1        ENTRY 1     ── Church's consent: not without weight
+                            (⚠️ weight ≠ foundation — I.7 intact)
+   S2        EVIDENCE    ── ages uniform in obedience + survival:
+                            Satan &amp; world attack → palm tree, invincible
+   S3–S4     THE SIEGE   ── pens: every sophist/orator, unavailing (S3)
+                            swords: powers of the earth, smoke (S4)
+   S5–S6     INFERENCE   ── rhetorical counterfactual: human aid? (S5)
+                            → Nay: divine origin, its own energy (S6)
+   S7        ENTRY 2     ── "Add that": not one city, not one nation
+   S8        EVIDENCE    ── worldwide recognition — the holy league
+   S9        CAPSTONE    ── diverse minds agreeing (Providence alone
+                            could have produced) + piety of the lights
+   ⚠️ 시험 포인트: §12 의 증거는 셋이다 — 시간(존속), 공간(만국),
+      사람(경건한 합의). 하나만 고르는 선지를 조심하라.
+</code></pre><p><strong>Examiner's Eye — 네 개를 찍어 둔다.</strong></p><p><strong>① 최다 출제 예상: I.7 과의 관계.</strong>
+⚠️ 선지에 이런 게 나온다: <em>"Calvin here reverses his earlier position and grounds the authority of Scripture on the Church's approval."</em> ✗ <strong>정반대다.</strong> I.7 이 격파한 것은 교회를 <strong>재판관석</strong>(권위의 근거)에 앉히는 로마의 논리이고, §12 가 세우는 것은 교회를 <strong>증인석</strong>(신빙성의 방증)에 앉히는 것이다. 열쇠 단어는 S1 의 <code>weight</code> — 저울에 얹는 <strong>무게</strong>지, 건물을 받치는 <strong>기초</strong>가 아니다. §13 이 이를 명문화한다(<code>secondary helps to our weakness</code>).</p><p><strong>② 두 번째 함정: litotes 를 양보로 읽기.</strong>
+⚠️ <em>"Calvin concedes that the Church's consent carries only slight weight"</em> ✗ — <code>not without its weight</code>(S1)·<code>not ... of no consequence</code>(S2)·<code>no small weight</code>(S9)는 모두 <strong>절제된 강조</strong>다: 상당한 무게가 있다. 이중부정 = 약화가 아니라 <strong>격조 있는 확언</strong>(Big Point 2).</p><p><strong>③ 세 번째 함정: S5 를 열린 질문으로 읽기.</strong>
+⚠️ <em>"Calvin leaves open the question whether Scripture survived by human aid"</em> ✗ — <code>how could it have resisted if it had trusted only to human aid?</code> 는 <strong>반사실 수사의문</strong>이다: 유일한 답은 <em>못 버텼다</em>. S6 의 <code>Nay</code> 가 즉시 도장을 찍는다: 인간의 도움이 아니라 <code>its own energy</code>.</p><p><strong>④ 네 번째 함정: S9 꼬리의 범위.</strong>
+⚠️ <em>"Calvin praises the piety of all who have ever agreed to Scripture"</em> ✗ — 본문이 명시적으로 자른다: <code>not of all of them indeed, but of those in whom as lights God was pleased that his Church should shine</code>. 무게를 더하는 것은 <strong>전원의 경건이 아니라 등불들의 경건</strong>이다. 범위 초과 선지의 교과서적 표본.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the ledger opens — and one word defuses the I.7 landmine</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>"Add, moreover, that, for the best of reasons, the consent of the Church is not without its weight."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Add</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">moreover</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">for the best of reasons</span></li></ul></li></ul><ul class="tr"><li><span class="leaf">the consent of the Church</span></li><li><span class="leaf"><b>is not without</b> its weight</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>consent</em> &lt; Lat. <em>con</em> + <em>sentire</em> (to feel together) → sense, sentiment, dissent; <em>weight</em> — cognate with Lat. <em>vehere</em> (carry): what the scale must carry.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>not without X</em> = has real X (litotes); <em>for the best of reasons</em> = with excellent justification.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And add this too: for very good reasons, the Church's agreement carries real weight.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Add, moreover, that</b> → And note also that</li><li><b>is not without its weight</b> → carries real weight</li><li><b>for the best of reasons</b> → for very good reasons.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the monster exhibit — twin that-clauses, double litotes, and a palm tree</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>"For it is not to be accounted of no consequence, that, from the first publication of Scripture, so many ages have uniformly concurred in yielding obedience to it, and that, notwithstanding of the many extraordinary attempts which Satan and the whole world have made to oppress and overthrow it, or completely efface it from the memory of men, it has flourished like the palm tree and continued invincible."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` For</span></li><li><span class="leaf"><b>it</b> is not to be accounted</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of no consequence</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">from the first publication of Scripture</span></li></ul></li></ul><ul class="tr"><li><span class="lab ph">결과절 (so…that)</span><span class="leaf">so many ages</span></li><li><span class="leaf"><b>have</b> uniformly <b>concurred</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in yielding obedience to it</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">notwithstanding of the many extraordinary attempts</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which Satan and the whole world have made</span><ul class="tr"><li><span class="leaf">to oppress and overthrow it, or completely efface it from the memory of men</span></li></ul></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>it has flourished</b> and <b>continued</b> invincible</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">like the palm tree</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>concur</em> &lt; <em>con</em> + <em>currere</em> (run together) → current, concourse; <em>efface</em> &lt; <em>ex</em> + <em>facies</em> (face) — to wipe the face off → face, surface, deface; <em>invincible</em> &lt; <em>in</em> + <em>vincere</em> (conquer) → victor, convince (= conquer by argument!).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be accounted of no consequence</em> = be reckoned unimportant; <em>notwithstanding (of) X</em> = despite X; <em>yield obedience to X</em> = obey X (formal).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">This is no small thing: from the moment Scripture was first given to the world, age after age has agreed in obeying it; and despite every extraordinary attempt by Satan and the whole world to crush it, topple it, or wipe it from human memory, it has flourished like the palm tree and remained unbeaten.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>it is not to be accounted of no consequence, that</b> → it matters a great deal that</li><li><b>notwithstanding of</b> → despite</li><li><b>efface it from the memory of men</b> → wipe it from human memory</li><li><b>concurred in yielding obedience to it</b> → agreed in obeying it.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the pens attack — scarcely ... who did not = nearly ALL did</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>"Though in old times there was scarcely a sophist or orator of any note who did not exert his powers against it, their efforts proved unavailing."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf">Though there was <b>scarcely</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in old times</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">a sophist or orator</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of any note</span></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who did <b>not</b> exert his powers against it</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">their efforts</span></li><li><span class="leaf"><b>proved</b> unavailing</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>unavailing</em> &lt; <em>a-</em> + Lat. <em>valere</em> (be strong) → valid, value, prevail; <em>sophist</em> &lt; Gk. <em>sophos</em> (wise) — by Calvin's day, a clever arguer for hire.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>of any note</em> = of any distinction; <em>exert one's powers against X</em> = deploy one's full abilities against X; <em>prove + adj.</em> = turn out to be.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">In ancient times almost every clever writer or speaker of any reputation attacked it — yet their efforts turned out to be useless.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>there was scarcely a sophist ... who did not exert</b> → almost every sophist ... attacked</li><li><b>of any note</b> → of any reputation</li><li><b>proved unavailing</b> → turned out to be useless.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s1" title="1-star">★</span><span class="s-label">the swords attack — and vanish into smoke</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>"The powers of the earth armed themselves for its destruction, but all their attempts vanished into smoke."</p>
+</blockquote><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p>One point and we move: <strong><code>vanished into smoke</code></strong> = came to nothing — and the image is loaded twice over. The attackers lit real fires (Diocletian burned the books), and <em>their attempts</em>, not the books, became the smoke; behind it stands the Psalter's verdict on the wicked — <em>into smoke shall they consume away</em> (Ps 37:20) — and Psalm 2's kings of the earth setting themselves in vain. The pens failed (S3); now the swords fail (S4). Two-front siege, zero progress.</p></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the counterfactual interrogative — the museum's fifth wing</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>"When thus powerfully assailed on every side, how could it have resisted if it had trusted only to human aid?"</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf">When powerfully <b>assailed</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">thus</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">on every side</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>how could</b> it <b>have resisted</b></span></li><li><span class="leaf">?</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf">if it <b>had trusted</b> to human aid</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">only</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>assail</em> &lt; Lat. <em>ad</em> + <em>salire</em> (leap at) → assault, salient, resilient (leap back!); <em>resist</em> &lt; <em>re</em> + <em>sistere</em> (stand against) — to stand one's ground.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>trust to X</em> = rely on X (archaic); <em>on every side</em> = from all directions.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Attacked this fiercely from every direction, how could it have survived if it had depended on human help alone?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>When thus powerfully assailed</b> → when it was attacked this fiercely</li><li><b>trusted only to human aid</b> → depended on human help alone</li><li><b>how could it have resisted</b> → how could it have survived.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Nay — the escalation, and the verdict named</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>"Nay, its divine origin is more completely established by the fact, that when all human wishes were against it, it advanced by its own energy."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Nay</b></span></li><li><span class="leaf">its divine origin</span></li><li><span class="leaf"><b>is</b> <b>established</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">more completely</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by the fact</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf">when all human wishes were against it</span></li></ul></li></ul><ul class="tr"><li><span class="leaf">it <b>advanced</b></span></li><li><span class="leaf">by its own energy</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>energy</em> &lt; Gk. <em>en</em> + <em>ergon</em> (work) — power working within → erg, liturgy (<em>leit</em> + <em>ergon</em>, public work!); <em>establish</em> &lt; Lat. <em>stabilire</em> (make firm) → stable.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Nay, ...</em> = indeed, more than that (escalation marker); <em>by its own energy</em> = by its inherent power.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">More than that: its divine origin is proved all the more completely by the fact that, with every human wish set against it, it advanced by its own inner power.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Nay</b> → more than that</li><li><b>by its own energy</b> → by its own inner power</li><li><b>the fact, that</b> → the fact that.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the second ledger entry — clipped Add that + negative it-cleft</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>"Add that it was not a single city or a single nation that concurred in receiving and embracing it."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Add</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b></span><ul class="tr"><li><span class="leaf"><b>it was not</b> <b>that</b> concurred</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">a single city or a single nation</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in receiving and embracing it</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>embrace</em> &lt; Lat. <em>in</em> + <em>bracchium</em> (arm) — to take into the arms → brace, bracelet.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it was not X that V-ed</em> = negative cleft — "the one that V-ed was not (merely) X"; <em>receive and embrace</em> = accept warmly (doublet).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Add this too: it was not just one city or one nation that agreed to receive and embrace it.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Add that</b> → add this too</li><li><b>concurred in receiving and embracing it</b> → agreed to receive and embrace it.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the map unrolled — doubled equative + the absolute construction</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>"Its authority was recognised as far and as wide as the world extends—various nations who had nothing else in common entering for this purpose into a holy league."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` Its authority</span></li><li><span class="leaf"><b>was recognised</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>as far and as wide as</b> the world extends</span></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">various nations</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who had nothing else in common</span></li></ul></li></ul></li><li><span class="leaf"><b>entering</b> into a holy league</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">for this purpose</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>league</em> &lt; Lat. <em>ligare</em> (to bind) → ligament, obligation, religion (<em>religare</em>, to bind back — Calvin knew this etymology from Lactantius, Day 11!); <em>extend</em> &lt; <em>ex</em> + <em>tendere</em> (stretch out) → tense, tent.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>as far and as wide as X extends</em> = over the whole extent of X; <em>enter into a league</em> = form an alliance; <em>have nothing in common</em> = share no traits.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Its authority was recognized across the whole extent of the world — various nations with nothing else in common joining, for this one purpose, in a holy alliance.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>was recognised as far and as wide as the world extends</b> → was recognized across the whole world</li><li><b>entering ... into a holy league</b> → joining in a holy alliance</li><li><b>dash + participle</b> → finite clause in modern prose.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the capstone — while-clause, appositive island, third litotes, and the final knot</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p>"Moreover, while we ought to attach the greatest weight to the agreement of minds so diversified, and in all other things so much at variance with each other—an agreement which a Divine Providence alone could have produced—it adds no small weight to the whole when we attend to the piety of those who thus agree; not of all of them indeed, but of those in whom as lights God was pleased that his Church should shine."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Moreover</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">부사절 (while)</span><span class="leaf"><b>while</b> we ought to attach the greatest weight</span></li><li><span class="leaf">to the agreement of minds</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">결과절 (so…that)</span><span class="leaf">so diversified, and so much at variance with each other</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in all other things</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">an agreement</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which a Divine Providence <b>alone could have produced</b></span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>it adds no small weight</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to the whole</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> we attend</span></li><li><span class="leaf">to the piety of those</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who thus agree</span></li></ul></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>not</b> of all of them indeed, <b>but</b> of those</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in whom God was pleased</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as lights</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that his Church should shine</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>variance</em> &lt; Lat. <em>variare</em> (to change) → various, variegated; <em>providence</em> &lt; <em>pro</em> + <em>videre</em> (to see ahead) → provision, prudent (!); <em>piety</em> &lt; Lat. <em>pietas</em> — dutiful reverence (Day 4's word, returned as evidence).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>attach weight to X</em> = treat X as important; <em>at variance with X</em> = in conflict with X; <em>be pleased that ...</em> = sovereignly will that ... (of God); <em>as lights</em> = as beacons/luminaries.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Moreover, granted that the greatest weight belongs to this agreement of minds so diverse — and in everything else so much in conflict — an agreement only divine Providence could have brought about, it adds considerable weight when we consider the godliness of those who agree: not all of them, certainly, but those in whom God chose to make his Church shine as lights.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>attach the greatest weight to</b> → give the greatest weight to</li><li><b>at variance with each other</b> → in conflict with each other</li><li><b>it adds no small weight</b> → it adds considerable weight</li><li><b>God was pleased that his Church should shine</b> → God chose to make his Church shine.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — the ledger imperative</h3><pre><code>  Add(, moreover,) (that) + S + V ...        ← 논거 적립 명령문
+  = "다음 항목을 증거 장부에 기입하라"
+  ⚠️ 감정적 명령이 아니라 회계 화법 — that절 전체가 Add 의 목적어
+  ⚠️ 두 번째 등장부터는 장식이 벗겨진다: Add that ... (S7)
+</code></pre><p><strong>Transformation drill.</strong> 순교자 논증(§13 예고)을 장부에 기입하라: → <em>Add, moreover, that a doctrine sealed with the blood of so many witnesses is not to be lightly dismissed.</em> (S1 의 격식형 그대로 — <code>, moreover,</code> 삽입과 that절 목적어를 확인.)</p><h3>Formula 2 — the litotes battery</h3><pre><code>  not without + N          = N 이 실제로 있다     (S1)
+  not ... of no + N        = N 이 크다           (S2)
+  no small + N             = 큰 N               (S9)
+  ⚠️ 셋 다 절제된 강조(understatement) — "약간의/조금의"로
+     읽는 순간 방향이 뒤집힌다. 이중부정 = 격조 있는 확언.
+</code></pre><p><strong>Transformation drill.</strong> "교부들의 증언은 상당한 권위를 갖는다"를 절제 화법으로: → <em>The testimony of the fathers is not without its authority, and their agreement is of no small consequence.</em> (litotes 두 종을 한 문장에 — 뜻은 강하고 목소리는 낮게.)</p><h3>Formula 3 — the modal-perfect museum, wings five and six</h3><pre><code>  ① How could S have p.p. ..., if S had p.p. ...?   (S5)
+     = 반사실 수사의문 — 유일한 답: "could not have"
+  ② X alone could have p.p. + (그런데 결과가 실존)     (S9)
+     = "X 외엔 불가능 → 결과가 있다 → X 가 했다" (추론)
+  ⚠️ 골격은 같은 modal + have + p.p. — 값은 프레임이 정한다:
+     if절 = 반사실 / 의문문 = 강한 부정 / alone + 실존 = 추론
+</code></pre><p><strong>Transformation drill.</strong> 교회의 존속으로: → <em>How could the Church have survived so many centuries of persecution, if she had leaned only on the arm of princes? Such endurance the Spirit of God alone could have produced.</em> (①과 ②를 연속 배치 — S5→S9 의 실제 순서 그대로.)</p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>consent</td>
+<td>동의, 일치</td>
+<td><em>con</em> + <em>sentire</em> — 함께 느끼다; sense·sentiment 형제</td>
+</tr>
+<tr>
+<td>concur</td>
+<td>함께 동의하다</td>
+<td><em>con</em> + <em>currere</em> — 함께 달리다; current·concourse</td>
+</tr>
+<tr>
+<td>⚠️ consequence</td>
+<td><strong>중요성</strong> (고어)</td>
+<td>of no consequence = 중요하지 않음 — "결과" 아님</td>
+</tr>
+<tr>
+<td>⚠️ publication</td>
+<td><strong>공표, 반포</strong></td>
+<td>인쇄 아님 — 성경이 처음 세상에 주어진 사건</td>
+</tr>
+<tr>
+<td>notwithstanding (of)</td>
+<td>~에도 불구하고</td>
+<td>not + withstand — 막아서지 못하고; ⚠️ Beveridge 는 of 를 붙인다</td>
+</tr>
+<tr>
+<td>efface</td>
+<td>지워 없애다</td>
+<td><em>ex</em> + <em>facies</em>(얼굴) — 얼굴을 문질러 지움; deface·surface</td>
+</tr>
+<tr>
+<td>invincible</td>
+<td>불굴의, 무적의</td>
+<td><em>in</em> + <em>vincere</em>(이기다) — convince = 논증으로 이기다(!)</td>
+</tr>
+<tr>
+<td>⚠️ of note</td>
+<td><strong>저명한</strong></td>
+<td>note = 명성 — 음표·메모 아님; of + 명사 = 형용사 패턴</td>
+</tr>
+<tr>
+<td>⚠️ unavailing</td>
+<td><strong>소용없는</strong></td>
+<td><em>a-</em> + <em>valere</em>(힘있다) — "unavailable(구할 수 없는)" 아님</td>
+</tr>
+<tr>
+<td>assail</td>
+<td>맹공하다</td>
+<td><em>ad</em> + <em>salire</em>(뛰어들다) — assault·salient·resilient</td>
+</tr>
+<tr>
+<td>⚠️ Nay</td>
+<td><strong>"아니, 그 이상"</strong></td>
+<td>부정 아님 — 판돈을 올리는 상승 표지</td>
+</tr>
+<tr>
+<td>⚠️ energy</td>
+<td><strong>내재적 작용력</strong></td>
+<td>Gk. <em>en</em> + <em>ergon</em>(일) — 열정 아님; liturgy 도 <em>ergon</em> 형제</td>
+</tr>
+<tr>
+<td>⚠️ league</td>
+<td><strong>동맹, 연맹</strong></td>
+<td><em>ligare</em>(묶다) — ligament·obligation·religion(<em>religare</em>); 거리 단위 아님</td>
+</tr>
+<tr>
+<td>at variance</td>
+<td>서로 어긋나는</td>
+<td><em>variare</em> — 각자 딴 방향; various 형제</td>
+</tr>
+<tr>
+<td>piety</td>
+<td>경건</td>
+<td><em>pietas</em> — Day 4 의 정의(reverence + love)가 증거로 재등판</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>The doctrine at stake: what a "help" may do that a "foundation" may not.</strong> Chapter 7 settled WHERE certainty comes from: the internal testimony of the Holy Spirit — not the Church's decree. Chapter 8 has been listing <em>adminicula</em> — secondary helps, props for our weakness — and §12 adds the boldest one: the Church herself, re-admitted through the servants' entrance. Underline the difference: Rome says <em>the Church's consent makes Scripture authoritative</em>; Calvin says <em>the Church's consent confirms to us what was authoritative before she spoke.</em> The witness stand, not the bench. §13 will bolt this down in so many words: these proofs are <code>secondary helps to our weakness</code>, useless to produce faith on their own. ⚠️ <strong>Over-reading guardrail:</strong> do not turn Calvin into an evidentialist. The survival argument persuades the <em>pious</em> and silences the <em>slanderer</em>; it converts nobody. If you leave today thinking Calvin proves inspiration from church history, you have put the cart before the horse he spent Chapter 7 harnessing.</p><p><strong>The history behind the sentences.</strong> S3's sophists have names: <strong>Celsus</strong> (2nd c., <em>The True Word</em>, dismantled by Origen), <strong>Porphyry</strong> (3rd c., fifteen books <em>Against the Christians</em>), <strong>Lucian</strong> the satirist, the emperor <strong>Julian</strong> "the Apostate" with his <em>Against the Galileans</em>. Now the delicious irony Calvin's readers knew: Porphyry's attack survives only in fragments — the empire ordered it burned in 448 — while the text he attacked sits open on every lectern in Europe. <strong>The attack was effaced; the target proved invincible.</strong> S4's <code>powers of the earth</code>: above all <strong>Diocletian</strong>, whose edict of 303 ordered every copy of the Scriptures surrendered and burned — the one imperial persecution aimed at the <em>book itself</em>, <code>efface it from the memory of men</code> as literal state policy. Twenty-two years later Constantine was commissioning fifty Bibles for Constantinople at public expense. Smoke, indeed. And S8's <code>holy league</code> rings with Calvin's own decade — the Schmalkaldic League (1531) fresh in every reader's ear: princes bind themselves for interest; these nations, with <code>nothing else in common</code>, were bound by the Book alone.</p><p><strong>Lineage and afterlife.</strong> The argument is patristic before it is Calvin's: Augustine (<em>City of God</em> XXII.5) marveled that the world believed fishermen against all its own wishes — S6's <code>against all human wishes</code> is nearly a citation. Forward: the endurance-and-spread argument became a fixture of classical apologetics (Grotius, Paley), and its abuse — church history as a <em>demonstration</em> compelling faith — is exactly what Calvin's <code>weight</code>-not-<code>foundation</code> distinction forbids. The moderns who remembered the distinction (Bavinck: the <em>testimonium</em> is the principium, external proofs its servants) are Calvin's true heirs here.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li><strong>Ps 92:12 — <code>The righteous shall flourish like the palm tree</code> — S2's <code>flourished like the palm tree</code>.</strong> Hebrew: צַדִּיק כַּתָּמָר יִפְרָח (<em>tsaddiq katamar yifrach</em>). Calvin lifts the psalm's emblem for the righteous <em>man</em> and pins it on the <em>Book</em> — Scripture personified as the righteous sufferer who thrives under oppression. The transfer is the exegesis: what God does for his saints, he does for his Word.</li>
+<li><strong>Ps 2:1–4 (with Acts 4:25–26) — S4's <code>The powers of the earth armed themselves</code>.</strong> <em>The kings of the earth set themselves ... against the Lord</em> — and <em>he that sitteth in the heavens shall laugh.</em> The apostles already read Ps 2 as persecution commentary (Acts 4); Calvin extends the same reading to the war on Scripture.</li>
+<li><strong>Ps 37:20 (cf. Ps 68:2) — S4's <code>vanished into smoke</code>.</strong> <em>The enemies of the Lord ... into smoke shall they consume away.</em> The arsonists become the smoke — the image executes the reversal.</li>
+<li><strong>Isa 40:8 (with 1 Pet 1:24–25) — S2/S6's invincible endurance.</strong> <em>The grass withereth ... but the word of our God shall stand for ever.</em> Gk. (LXX/Peter): τὸ ῥῆμα κυρίου μένει εἰς τὸν αἰῶνα. §12 is this verse argued from the historical record.</li>
+<li><strong>Acts 5:38–39 — the logical engine of S5–S6.</strong> Gamaliel: <em>if this counsel or this work be of men, it will come to nought: but if it be of God, ye cannot overthrow it.</em> Calvin runs the test across fifteen centuries and reports the result: not overthrown — therefore not of men.</li>
+<li><strong>Isa 2:2–3 — S7–S8's <code>holy league</code> of the nations.</strong> <em>All nations shall flow unto it ... and many people shall go and say, Come ye.</em> The prophesied convergence of peoples upon the word of the LORD, historicized as the worldwide reception of Scripture.</li>
+<li><strong>Phil 2:15 (cf. Matt 5:14) — S9's <code>in whom as lights ... his Church should shine</code>.</strong> Gk. φωστῆρες ἐν κόσμῳ (<em>phōstēres en kosmō</em>) — luminaries in the world. Calvin narrows the psalmic "all" to the Pauline "lights": the piety that weighs is the piety God kindled.</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① 어법 — 밑줄 친 부분 중 틀린 것은?</h3><blockquote>
+<p>①<strong>Add</strong>, moreover, that the uniform consent of so many ages is ②<strong>not without</strong> its weight. When assailed on every side, how could Scripture ③<strong>have resisted</strong> if it ④<strong>trusted</strong> only to human aid?</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: ④.</strong> 반사실 조건절의 시제 — 과거 사실의 반대는 <code>if it **had trusted**</code> (had + p.p.). 주절의 <code>could have resisted</code>(③, 정상)와 짝을 이루는 과거완료가 와야 한다 (Formula 3 ①). <strong>출제 의도:</strong> ①은 장부 명령문(Formula 1, 정상), ②는 litotes(Formula 2, 정상), ③은 반사실 수사의문의 modal perfect(정상) — 오늘의 세 공식을 정상 선지로 깔고, 반사실 조건절 시제 일치를 함정으로 세웠다. Day 46 부터 사흘째 조련한 그 골격이다.</p><h3>② 내용일치 — §12 의 논지와 일치하는 것은?</h3><p>(a) Calvin reverses his teaching in I.7 and grounds the authority of Scripture on the approval of the Church.
+(b) Calvin argues that Scripture's survival of every assault, and its reception by nations having nothing else in common, confirm its divine origin as secondary evidence.
+(c) Calvin concedes that the consent of the Church carries only slight weight compared with the internal testimony of the Spirit.
+(d) Calvin attributes the added weight of the argument to the piety of all who have ever professed obedience to Scripture.</p><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: (b).</strong> 시간(존속)·공간(만국 수용)의 두 증거가 방증(help)으로서 신적 기원을 확인한다 — S2–S8 그대로. <strong>함정 해설:</strong> (a) 방향 뒤집기 — weight ≠ foundation; 교회는 증인석이지 재판관석이 아니다(Examiner's Eye ①). (c) litotes 를 양보로 오독 — <code>not without its weight</code>·<code>no small weight</code> 는 절제된 강조다(Examiner's Eye ②). (d) 범위 초과 — <code>not of all of them indeed, but of those in whom as lights ...</code>(S9 꼬리, Examiner's Eye ④).</p><h3>③ 영작 — 오늘의 공식을 적용해 옮기시오</h3><blockquote>
+<p><strong>문제:</strong> 「더하여, 그토록 많은 세대의 한결같은 동의는 상당한 무게를 갖는다는 것을 적으라. 사방에서 공격받았을 때, 그것이 인간의 도움에만 의지했다면 어떻게 버틸 수 있었겠는가? 그러한 존속은 오직 하나님의 섭리만이 만들어 낼 수 있었다.」</p>
+<p>(조건: Formula 1(<code>Add that</code>), Formula 2(litotes 1회 이상), Formula 3 ①(반사실 수사의문)과 ②(<code>alone could have p.p.</code>)를 각각 사용할 것.)</p>
+</blockquote><p><strong>모범 답안:</strong></p><blockquote>
+<p><em>Add, moreover, that the uniform consent of so many ages is not without its weight. When assailed on every side, how could it have resisted if it had trusted only to human aid? Such endurance a Divine Providence alone could have produced.</em></p>
+</blockquote><p><strong>출제 의도 해설.</strong> 네 장치가 연속 산문에서 값을 유지하는지 본다. 자주 나오는 실패 넷:</p><ol>
+<li><strong><code>Add that the consent has great weight.</code></strong> — 뜻은 맞지만 ⚠️ <strong>litotes 조건 미충족.</strong> 오늘의 과녁은 절제 화법: <code>is not without its weight</code>.</li>
+<li><strong><code>how could it resist if it had trusted ...</code></strong> — ✗ ⚠️ <strong>주절의 modal perfect 탈락.</strong> 과거 반사실은 <code>could have resisted</code>. 현재형 resist 는 시제가 조건절과 어긋난다.</li>
+<li><strong><code>only a Divine Providence could produce it</code></strong> — ✗ ⚠️ <strong>과거의 실현된 결과에 대한 추론은 could have produced.</strong> 그리고 <code>alone</code> 의 자리: 명사 뒤(<code>a Divine Providence alone</code>)가 S9 의 원형이다.</li>
+<li><strong><code>Add, that ...</code></strong> — ✗ ⚠️ <strong><code>Add</code> 바로 뒤엔 콤마가 없다.</strong> S1 의 콤마들은 <code>, moreover,</code> 삽입의 것이다. 삽입 없이 쓰면 <code>Add that ...</code> (S7).</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> ⚠️ <strong>§12 는 교회를 재판관석이 아니라 증인석에 앉힌다 — 열쇠 단어는 <code>weight</code>(방증의 무게)다.</strong> 장부가 열리고(<code>Add, moreover, that ...</code> — S1, 회계 화법의 명령문), 첫 기입: 교회의 consent 는 <code>not without its weight</code>(S1 — litotes 제1탄). 증거 A는 시간이다: 모든 세대의 한결같은 순종, 그리고 사탄과 온 세상의 말살 기도(<code>efface it from the memory of men</code> — 디오클레티아누스의 303년 칙령이 문자 그대로 이것이다)에도 <code>flourished like the palm tree and continued invincible</code>(S2 — 가주어 + 쌍둥이 that절, litotes 제2탄, 시 92:12). 펜이 덤볐고(<code>scarcely a sophist ... who did not</code> = 거의 전원이 덤볐다는 이중부정, S3), 칼이 덤볐으나 <code>vanished into smoke</code>(S4 — 시 2편·시 37:20). 그렇다면: <code>how could it have resisted if it had trusted only to human aid?</code>(S5 — ★ 반사실 수사의문, 답은 "못 버텼다") — <code>Nay</code>, 생존을 넘어 전진했다, <code>by its own energy</code>(S6 — 가말리엘의 검증, 행 5:38–39). 둘째 기입(<code>Add that</code>, S7 — 장식을 벗은 장부 화법 + 부정 it-cleft): 한 도시·한 민족이 아니라 <code>as far and as wide as the world extends</code>, 아무 공통점 없는 민족들의 <code>holy league</code>(S8 — 절대구문 + 16세기의 정치 언어). 관석: 그 다양한 정신들의 일치는 <code>a Divine Providence alone could have produced</code>(S9 — ★ alone could have p.p. = 추론), 거기에 <code>no small weight</code>(litotes 제3탄)를 더하는 것은 <strong>전원이 아니라 등불들의 경건</strong>이다(<code>not of all of them ..., but of those in whom as lights God was pleased that his Church should shine</code> — 빌 2:15). <strong>기초는 성령의 내적 증언(I.7), 교회사는 저울 위의 무게 — 방증은 많고, 기초는 하나다.</strong></p><p><strong>And the three grammar points, restated:</strong></p><ol>
+<li><strong>장부 명령문.</strong> ★ <code>Add(, moreover,) that + S V</code> — that절 전체가 목적어인 적립 화법; 두 번째부터는 <code>Add that</code> 으로 옷을 벗는다(S1→S7). ⚠️ 감정적 명령으로 읽지 말 것 — 회계다.</li>
+<li><strong>Litotes 3연타.</strong> ★ <code>not without N</code> / <code>not ... of no N</code> / <code>no small N</code> = 절제된 강조 — 셋 다 "크다"는 뜻이다(S1·S2·S9). ⚠️ "약간의"로 읽는 순간 방향이 뒤집힌다 — 양보 아님, 확언임.</li>
+<li><strong>Modal perfect 제5·6관.</strong> ★ 반사실 수사의문 <code>how could S have p.p. ..., if S had p.p.?</code>(S5, 답은 강한 부정) / <code>alone could have p.p.</code> + 실존하는 결과 = 추론(S9). ⚠️ Day 46 반사실 → Day 47 추론 must → Day 48 의문형·alone형 — <strong>골격은 하나, 값은 프레임이 정한다. 나흘째, 여섯 값, 한 교훈.</strong></li>
+</ol><p><strong>Homework (10 minutes).</strong></p><p><strong>① 구조 복원.</strong> <strong>S9</strong> 를 네 개의 독립된 평서문으로 해체하라: (a) while절을 독립시킨 문장(<em>We ought to attach the greatest weight to the agreement of minds so diversified.</em> 수준까지), (b) 대시 사이 동격 섬을 독립시킨 문장(<code>alone could have produced</code> 유지), (c) 주절을 독립시킨 문장(ambient <code>it</code> 을 해소해 <em>Attending to their piety adds no small weight.</em> 형태로), (d) 세미콜론 꼬리를 완전문으로 세운 문장(생략된 <code>the piety</code> 를 복원할 것). 그런 다음 한 줄로 답하라: <strong>(d)의 범위 제한("not of all of them")은 논증의 정직성에 왜 필수인가 — 만약 칼빈이 '동의한 전원의 경건'을 주장했다면 반대자는 어디를 찔렀겠는가?</strong></p><p><strong>② 영작.</strong> <strong>Formula 1(장부 명령문)</strong>과 <strong>Formula 3 ①(반사실 수사의문)</strong>을 한 단락에 넣어, <strong>"인간의 힘만으로는 설명되지 않는 존속"</strong> 논법을 <strong>다른 소재</strong>(예: 박해 아래의 교회, 이스라엘의 보존)로 두세 문장 만들어라. 조건: litotes 를 최소 1회 사용할 것. 그런 다음 한 줄로 답하라: <strong>당신의 문단에서 수사의문의 '유일한 답'은 무엇이며, 독자가 그 답을 스스로 말하게 만드는 장치는 무엇인가?</strong></p><p><strong>③ 내일 예습 한 줄.</strong> §13 은 이렇게 열린다: <code>Again, with what confidence does it become us to subscribe to a doctrine attested and confirmed by the blood of so many saints?</code> — ★ <strong><code>with what confidence does it become us</code> — 의문 부사구 전치 + 도치 + 비인칭 <code>it becomes us</code>(~하는 것이 우리에게 합당하다)</strong>: 첫 문장부터 삼중 장치다. 무대는 순교자들: 피로 봉인된 증언(<code>sealed with the blood of so many witnesses</code>), 단 광신이 아니라 <code>sober godly zeal</code> 로. 그리고 장이 닫히며 <strong>8장 전체의 자물쇠</strong>가 채워진다: 이 모든 증거는 <code>secondary helps to our weakness</code> — 성령의 내적 증언 없이는 신앙을 낳지 못한다. ⚠️ <strong>준비해 둘 질문 하나:</strong> <em>§12 까지 쌓은 증거의 장부를 §13 이 스스로 "이것으로는 믿음이 서지 않는다"고 격하한다 — 그렇다면 칼빈은 왜 열세 절이나 증거를 쌓았는가? 힌트: 증거의 수신인이 둘이다 — 이미 믿는 자의 확증(confirm)과 비방자의 입막음(vindicate). 어느 쪽도 '창조'가 아니다.</em></p><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 8, §12 끝. 다음은 <strong>Book 1, Ch. 8, §13</strong> (Day 49) — "The constancy of the martyrs. Conclusion. Proofs of this description only of use after the certainty of Scripture has been established in the heart by the Holy Spirit."</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
