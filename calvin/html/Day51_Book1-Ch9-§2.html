@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 성령을 빙자해 성경을 버리는 오류 §2 (1권 9장 · Day 51) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 9장 §2(성령을 빙자해 성경을 버리는 오류)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 51. 연관 성구: 베드로후서 1, 고린도후서 11, 말라기 3, 야고보서 1."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day51_Book1-Ch9-%C2%A72.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="성령을 빙자해 성경을 버리는 오류 §2 — 기독교 강요 영어로 읽기 (Day 51)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 9장 §2(성령을 빙자해 성경을 버리는 오류)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 51. 연관 성구: 베드로후서 1, 고린도후서 11, 말라기 3, 야고보서 1."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day51_Book1-Ch9-%C2%A72.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 성령을 빙자해 성경을 버리는 오류 §2 (1권 9장 · Day 51) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 9장 §2(성령을 빙자해 성경을 버리는 오류)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 51. 연관 성구: 베드로후서 1, 고린도후서 11, 말라기 3, 야고보서 1.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 9장 §2 — 성령을 빙자해 성경을 버리는 오류","mentions":[{"@type":"CreativeWork","name":"베드로후서 1 (2 Pet 1)"},{"@type":"CreativeWork","name":"고린도후서 11 (2 Cor 11)"},{"@type":"CreativeWork","name":"말라기 3 (Mal 3)"},{"@type":"CreativeWork","name":"야고보서 1 (Jas 1)"},{"@type":"CreativeWork","name":"요한일서 4 (1 John 4)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day51_Book1-Ch9-%C2%A72.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 51 — Book 1, Chapter 9, §2<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (the whole § — 10 sentences, verbatim)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl2" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl3" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl3" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl2" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl2" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl1" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl2" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl2" href="#S10" onclick="closeNavMobile()">S10</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 51 — Book 1, Chapter 9, §2</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday ended with a verdict: the Spirit's office is <code>to seal on our minds the very doctrine which the gospel recommends.</code> Today Calvin cashes the verdict — twice. First, the <strong>practical inference</strong> (S1): if the Spirit works <em>through</em> the Word, then the way to the Spirit's benefit runs through <code>the reading and hearing of Scripture</code> — the study desk and the pew, both. And any spirit that <code>passes by</code> the Word to <em>suggest</em> something else — catch the verb: yesterday the true Spirit's job was to <code>suggest and instil</code> <strong>Christ's</strong> truths; today a spirit <em>suggesting any other doctrine</em> has stolen the true Spirit's verb and changed the cargo — that spirit is <code>deservedly suspected of vanity and falsehood.</code></p><p>Second, the <strong>infallible mark</strong> — the phrase yesterday's homework told you to come looking for. Here is the problem it solves: <code>Satan transforms himself into an angel of light</code> (S2 — 2 Cor. 11:14). If the counterfeit <em>glows</em>, brightness proves nothing; you need a die-stamp the counterfeiter cannot cut. And then the chapter's most famous exchange. The fanatics' objection (S4): <em>it is insulting to subject the Spirit — to whom all things are to be subject — to the Scripture.</em> Sounds pious. Sounds unanswerable. Calvin's answer (S5–S10) is one distinction wielded like a scalpel: subjection to a <strong>foreign</strong> standard would be bondage, <code>True</code> — but Scripture is not a foreign standard. It is <code>the image which he has stamped</code> (S7) — his own signature, his own likeness. <strong>Comparing the Spirit with Scripture is comparing him with himself</strong> — and self-consistency injures no one, unless (S10, the acid closer) you think it would be <em>honourable</em> for God <code>to degenerate, and revolt against himself.</code></p><p>The shape in one breath:</p><pre><code>   S1        INFERENCE    ── heed reading AND hearing (Peter still studies
+                             the prophets!) / bypass-spirit = vanity
+   S2        PROBLEM      ── Satan = angel of light → no mark, no authority
+   S3        DIAGNOSIS    ── the mark IS given; they seek the Spirit
+                             from themselves, not from Him
+   S4        OBJECTION    ── "subjecting the Spirit to Scripture insults him"
+   S5        ANSWER       ── foreign standard? bondage, granted (were) —
+                             but self-comparison (is): where is the injury?
+   S6–S7     REFINEMENT   ── a test, yes — self-appointed; the mark = the
+                             image he has STAMPED on the Scriptures
+   S8–S10    GROUND       ── the author cannot vary; such as at first,
+                             such for ever; only "honourable degeneration"
+                             could make this an insult
+</code></pre><p><strong>Today's 3 Big Points — write them down now:</strong></p><ol>
+<li><strong>One <code>understand</code>, two <code>that</code>-objects, and a parenthesis the size of a verse.</strong> S1: <code>easy to understand [that we must give diligent heed ...] , (just as Peter ... (2 Pet. 1:19), though ... arose), and, on the contrary, [that any spirit ... is deservedly suspected ...]</code>. The second <code>that</code> is your lifeline — it resumes the object-chain after twenty-plus words of parenthesis. Lose it and <code>any spirit ... is suspected</code> reads like a new sentence; keep it and the whole period hangs from one verb. ⚠️ Plus the volitional fossil inside: <code>if we would obtain</code> = <em>if we wish to obtain</em> — would = want, not future-in-the-past.</li>
+<li><strong>The subjunctive triple — and the mood contrast that IS the argument.</strong> S2 <code>if he be not ascertained</code> (bare subjunctive after <em>if</em> — Day 41's <code>If any one object</code>, back). S7 <code>lest Satan should insinuate</code> (lest + should, negative purpose). And the pair that decides the case, S5: <code>if he **were** subjected to a ... foreign standard</code> (counterfactual — that world does not exist) vs. <code>so long as he **is** compared with himself</code> (indicative — that is the actual arrangement). Calvin's theology is <em>in the verb moods</em>: bondage is subjunctive, self-comparison is indicative. ⚠️ The exam will "fix" one of them. Both are load-bearing.</li>
+<li><strong>Ellipsis under <code>but</code> + negation across <code>and</code>.</strong> S6: <code>I admit that he is brought to a test, but the very test by which ...</code> — restore the gap: <em>but ‹he is brought to› the very test</em>. S8: <code>cannot vary, and change his likeness</code> — one <code>cannot</code> governs both verbs (he cannot <em>vary-and-change</em> — the pair is one act). And S9's fronted correlative <code>Such as he there appeared at first, such he will perpetually remain</code> — the archaic <em>such ... such</em> frame. Three compressions, one skill: find the shared word, copy it across.</li>
+</ol><p>Ten sentences, four of them heavyweight. The objection-and-answer (S4–S5) is the day's summit. Let's go.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (the whole § — 10 sentences, verbatim)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+2. Hence it is easy to understand that we must give diligent heed both to the reading and hearing of Scripture, if we would obtain any benefit from the Spirit of God (just as Peter praises those who attentively study the doctrine of the prophets (2 Pet. 1:19), though it might have been thought to be superseded after the gospel light arose), and, on the contrary, that any spirit which passes by the wisdom of God’s Word, and suggests any other doctrine, is deservedly suspected of vanity and falsehood. Since Satan transforms himself into an angel of light, what authority can the Spirit have with us if he be not ascertained by an infallible mark? And assuredly he is pointed out to us by the Lord with sufficient clearness; but these miserable men err as if bent on their own destruction, while they seek the Spirit from themselves rather than from Him. But they say that it is insulting to subject the Spirit, to whom all things are to be subject, to the Scripture: as if it were disgraceful to the Holy Spirit to maintain a perfect resemblance throughout, and be in all respects without variation consistent with himself. True, if he were subjected to a human, an angelical, or to any foreign standard, it might be thought that he was rendered subordinate, or, if you will, brought into bondage, but so long as he is compared with himself, and considered in himself, how can it be said that he is thereby injured? I admit that he is brought to a test, but the very test by which it has pleased him that his majesty should be confirmed. It ought to be enough for us when once we hear his voice; but lest Satan should insinuate himself under his name, he wishes us to recognise him by the image which he has stamped on the Scriptures. The author of the Scriptures cannot vary, and change his likeness. Such as he there appeared at first, such he will perpetually remain. There is nothing contumelious to him in this, unless we are to think it would be honourable for him to degenerate, and revolt against himself.
+✅ Text note. Our source file source/Institutes_Beveridge_FULL.txt carries §2 at lines 3886–3907 — and for the first time in six days, the page furniture leaves us alone: no page break, no running header, no footnote marker falls inside the section. One paragraph, no hyphenation repairs needed. One typographic flag: the curly apostrophe in God’s Word (S1) is the source's own — reproduce it. The nested parentheses in S1 are also the source's own: the citation (2 Pet. 1:19) sits inside the larger parenthesis (just as Peter ... arose) — parenthesis within parenthesis, matched and closed. The section summary in the chapter head reads: "Refutation continued. 3. The impositions of Satan cannot be detected without the aid of the written Word. First Objection. The Answer to it." — note that the head's numbering (its "2." covering item "3.") runs one system, the section numbers another; trust the section number in the body text.
+⚠️ Now run the standing Day 42 checks. Every stranded comparative, every so/too/such without a partner, every pronoun without an antecedent.
+
+Correlatives: **both** to the reading **and** hearing (S1) ✓ — pair closed, one article the shared across both gerund-nouns. **rather than** from Him (S3) ✓ — comparative pair with matched from-phrases. **Such as** he there appeared at first, **such** he will perpetually remain (S9) ✓ — the archaic double-such correlative, both halves present. **so long as** he is compared (S5) — conditional conjunction, not a stranded so. No orphans today.
+Pronouns: the minefield is he/him/his — from S2 to S10 nearly every one is the Spirit, but watch the switches. he be not ascertained (S2) = the Spirit. he is pointed out ... by the Lord (S3) — the Spirit pointed out, the Lord doing the pointing; from **Him** (S3, capital H) = God/the Lord, against lowercase themselves. S4: to whom all things are to be subject = the Spirit (the concession sits inside the fanatics' reported objection); consistent with himself = the Spirit. S5: all four (he were subjected ... he was rendered ... he is compared ... he is thereby injured) = the Spirit. S6: he is brought ... it has pleased **him** ... **his** majesty = the Spirit — the tested one and the test-appointer are the same person; that is the point. S7 — ⚠️ the layered one: his voice = the Spirit's; lest Satan should insinuate himself under **his** name — his = the Spirit's name (Satan's forgery target); **he** wishes us to recognise **him** by the image which **he** has stamped — wisher, recognized one, and stamper are all the Spirit (read God-the-Spirit throughout and the sentence closes). S8: The author of the Scriptures = the Spirit — the noun phrase finally names what the pronouns assumed. he **there** appeared (S9) — there = in the Scriptures. in this (S10) = in being tested by his own Word (S6–S7's whole arrangement); unless **we are to** think (S10) = be to of expectation — "unless we are prepared to think."
+Trap words on patrol: would (S1) = wish to (volitional, not conditional). superseded (S1) = replaced, made obsolete (super + sedere, to sit above). passes by (S1) = bypasses, ignores — not "walks past politely." vanity (S1) = emptiness (vanus, empty) — not conceit; a vain spirit is a hollow one. ascertained (S2) = identified with certainty — stronger than "found out." assuredly (S3) = certainly. bent on (S3) = determined on (bow-metaphor: aimed). insulting / contumelious (S4/S10) — the same charge at entry and exit: treating with contempt. angelical (S5) = angelic (older form). foreign (S5) = alien, external — a standard other than himself; not "international." if you will (S5) = if you insist on the stronger word — a concession in idiom form. when once (S7) = as soon as, once. insinuate (S7) = worm in (in + sinus, into the fold). stamped (S7) = impressed as with a die — mint-language again (Day 50's coin, now the lawful mint). vary (S8) = change, deviate. contumelious (S10) = insolent, contemptuous (contumelia, abuse). degenerate (S10) = fall from one's kind (de + genus — Day 9's morphology, now applied to God per impossibile). All in Period 5.
+
+ℹ️ On the count. Ten sentences, one paragraph. Two question marks (S2, S5) — both genuine rhetorical questions expecting the answer "none/no way," not Day 50's exclamation-in-disguise. One colon (S4) introducing the as if-reframe; semicolons at the pivots of S3 and S7. The count stands at 10.
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>An objection heard, granted its best form, and dismantled by one distinction:</p><pre><code>   S1        INFERENCE   ── Spirit works through Word →
+                            give heed to READING and HEARING;
+                            bypass-spirit = vanity &amp; falsehood
+   S2        PROBLEM     ── angel-of-light counterfeit →
+                            no authority without an INFALLIBLE MARK
+   S3        DIAGNOSIS   ── the mark is given clearly; they look
+                            for the Spirit in the mirror
+   S4        OBJECTION   ── "subjecting the Spirit to Scripture = insult"
+   S5        DISTINCTION ── foreign standard (were) → bondage, granted;
+                            self-comparison (is) → injury impossible
+   S6        REFINEMENT  ── a test, admitted — but self-APPOINTED
+   S7        THE MARK    ── the image he has STAMPED on the Scriptures
+   S8–S9     GROUND      ── the author cannot vary; such as at first,
+                            such for ever
+   S10       CLOSER      ── no insult — unless self-revolt is an honour
+   ⚠️ 시험 포인트: 칼빈은 성령이 성경에 '종속'된다고 말하지 않는다 —
+      외부 기준 종속은 그가 명시적으로 기각하는 프레임이다.
+      시험은 반드시 이 프레임을 선지로 되판다.
+</code></pre><p><strong>Examiner's Eye — 네 개를 찍어 둔다.</strong></p><p><strong>① 최다 출제 예상: S5 를 "성령은 성경에 종속된다"로 요약하는 선지.</strong>
+⚠️ <em>"Calvin teaches that the Spirit is subordinate to Scripture as to a higher standard"</em> ✗ — S5 가 명시적으로 부정하는 프레임이다: <code>if he were subjected to a human, an angelical, or to any foreign standard</code> — <strong>가정법</strong>(그런 일은 없다). 실제 배열은 <code>compared with himself, and considered in himself</code>: 서열이 아니라 <strong>자기 동일성 확인</strong>. 성경은 외부 기준이 아니라 성령 자신의 <code>image</code>(S7)다.</p><p><strong>② 두 번째 함정: S6 을 뒤집는 선지.</strong>
+⚠️ <em>"Calvin denies that the Spirit is brought to any test"</em> ✗ — S6 첫마디가 <code>I admit that he is brought to a test</code>. 부정되는 것은 시험 자체가 아니라 시험의 <strong>외부성</strong>이다: <code>the very test by which it has pleased him that his majesty should be confirmed</code> — 시험은 그가 <strong>스스로 기뻐하여 정한</strong> 것이고, 결과는 위엄의 훼손이 아니라 <strong>확증</strong>이다.</p><p><strong>③ 세 번째 함정: S1 의 병렬을 반쪽으로 자르는 선지.</strong>
+⚠️ <em>"Calvin says private reading of Scripture suffices for the benefit of the Spirit"</em> ✗ — <code>both to the reading **and hearing**</code>: 개인 독서와 <strong>공적 들음</strong>(회중 설교) 둘 다. Day 50 S9 의 1 Tim. 4:13(공적 낭독)과 같은 전선이다. <code>both ... and</code> 를 자르면 오답.</p><p><strong>④ 네 번째 함정: S2 의 조건절을 사실 진술로 읽는 선지.</strong>
+⚠️ <em>"Calvin concedes that the Spirit has no authority with us"</em> ✗ — <code>what authority can the Spirit have with us **if he be not ascertained** by an infallible mark?</code> 는 조건부 수사의문: 표지 없이는 <em>어떤 영 주장도</em> 검증 불가라는 인식론적 논점이다. 그리고 S3 이 즉시 답한다: 표지는 <code>with sufficient clearness</code> 로 <strong>주어져 있다</strong>.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">one verb, two that-objects — and the Peter parenthesis</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>"Hence it is easy to understand that we must give diligent heed both to the reading and hearing of Scripture, if we would obtain any benefit from the Spirit of God (just as Peter praises those who attentively study the doctrine of the prophets (2 Pet. 1:19), though it might have been thought to be superseded after the gospel light arose), and, on the contrary, that any spirit which passes by the wisdom of God’s Word, and suggests any other doctrine, is deservedly suspected of vanity and falsehood."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` Hence</span></li><li><span class="leaf">it is easy to understand</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> we must give diligent heed</span><ul class="tr"><li><span class="leaf"><b>both</b> to the reading <b>and</b> hearing of Scripture</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if we would obtain</b> any benefit</span></li><li><span class="leaf">from the Spirit of God</span></li></ul></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">just as Peter praises those</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who attentively study</span><ul class="tr"><li><span class="leaf">the doctrine of the prophets</span></li></ul></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">2 Pet. 1:19</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf"><b>though</b> it might have been thought</span></li><li><span class="leaf">to be superseded</span></li><li><span class="leaf">after the gospel light arose</span></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">**and</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">on the contrary</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that** any spirit</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which <b>passes by</b> the wisdom of God’s Word</span><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf">and <b>suggests</b> any other doctrine</span></li></ul></li></ul></li><li><span class="leaf">is deservedly suspected</span></li><li><span class="leaf">of vanity and falsehood</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>supersede</em> &lt; <em>super</em> + <em>sedere</em> (sit above) — to displace by sitting over; <em>vanity</em> &lt; <em>vanus</em> (empty) — hollowness, not conceit; <em>heed</em> — OE <em>hēdan</em>, to guard, attend → "take heed."</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>give heed to X</em> = attend carefully to X; <em>if S would V</em> = if S wishes to V (volitional would); <em>pass by X</em> = bypass, ignore X; <em>be suspected of X</em> = lie under the suspicion of X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So it is easy to see that we must pay careful attention both to reading and to hearing Scripture if we want any benefit from the Spirit of God — just as Peter praises those who attentively study the doctrine of the prophets (2 Pet. 1:19), though one might have thought it obsolete once the gospel light had risen — and, on the other hand, that any spirit that bypasses the wisdom of God's Word and supplies some other doctrine deserves to be suspected of emptiness and falsehood.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>give diligent heed to</b> → pay careful attention to</li><li><b>if we would obtain</b> → if we want to obtain</li><li><b>superseded</b> → obsolete / replaced</li><li><b>passes by</b> → bypasses</li><li><b>suggests</b> → supplies / brings forward</li><li><b>vanity</b> → emptiness.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the counterfeit problem — an angel of light and if he be not ascertained</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>"Since Satan transforms himself into an angel of light, what authority can the Spirit have with us if he be not ascertained by an infallible mark?"</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">이유/시간절 (since)</span><span class="leaf"><b>Since</b> Satan transforms himself</span></li><li><span class="leaf">into an angel of light</span></li></ul></li></ul></li><li><span class="leaf">what authority</span></li><li><span class="leaf">can the Spirit have with us</span></li><li><span class="leaf">?</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if he be not ascertained</b></span></li><li><span class="leaf">by an <b>infallible mark</b></span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>infallible</em> &lt; <em>in</em> + <em>fallere</em> (deceive, fail) — that cannot deceive → the mark that cannot lie; <em>ascertain</em> &lt; OFr. <em>acertener</em> &lt; <em>certus</em> (sure) — to make/find certain; <em>transform</em> &lt; <em>trans</em> + <em>forma</em> — change shape across.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>transform oneself into X</em> = disguise oneself as X (2 Cor. 11:14's μετασχηματίζεται); <em>have authority with S</em> = carry weight in S's regard; <em>if S be p.p.</em> = bare subjunctive open condition.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Since Satan disguises himself as an angel of light, what authority can the Spirit have with us if he is not identified by an infallible mark?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>transforms himself into</b> → disguises himself as</li><li><b>if he be not ascertained</b> → if he is not identified</li><li><b>have with us</b> → carry with us</li><li><b>the subjunctive *be</b> → modern indicative <em>is</em>.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the mark is given — but they look in the mirror</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>"And assuredly he is pointed out to us by the Lord with sufficient clearness; but these miserable men err as if bent on their own destruction, while they seek the Spirit from themselves rather than from Him."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf">` And</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">assuredly</span></li></ul></li></ul></li><li><span class="leaf">he <b>is pointed out</b> to us</span></li><li><span class="leaf">by the Lord</span></li><li><span class="leaf">with sufficient clearness</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf">but these miserable men <b>err</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>as if ‹they were› bent</b></span></li><li><span class="leaf">on their own destruction</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">부사절 (while)</span><span class="leaf"><b>while</b> they seek the Spirit</span></li><li><span class="leaf"><b>from themselves</b></span></li><li><span class="leaf"><b>rather than from Him</b></span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>err</em> &lt; <em>errare</em> (wander, stray) → erratic, error — off the marked path; <em>assuredly</em> &lt; <em>ad</em> + <em>securus</em> (made safe/sure) — with certainty.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>point out X to S</em> = indicate X to S; <em>as if bent on X</em> = as if ‹they were› determined on X; <em>seek X from Y</em> = look to Y as the source of X; <em>rather than</em> = and not (source-contrast).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And certainly the Lord points him out to us with sufficient clearness; but these wretched men go astray as if bent on their own destruction, seeking the Spirit from themselves rather than from him.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>assuredly</b> → certainly</li><li><b>he is pointed out to us by the Lord</b> → the Lord points him out to us</li><li><b>err</b> → go astray</li><li><b>while they seek</b> → seeking.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the objection — to subject the Spirit ... to the Scripture</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>"But they say that it is insulting to subject the Spirit, to whom all things are to be subject, to the Scripture: as if it were disgraceful to the Holy Spirit to maintain a perfect resemblance throughout, and be in all respects without variation consistent with himself."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf">` But</span></li><li><span class="leaf">they say</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that it is insulting</span><ul class="tr"><li><span class="leaf"><b>to subject</b> the Spirit</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to whom</b> all things are to be subject</span></li></ul></li><li><span class="leaf"><b>to the Scripture</b></span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>as if it were</b> disgraceful</span></li><li><span class="leaf">to the Holy Spirit</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>to maintain</b> a perfect resemblance throughout</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and ‹to› <b>be</b> in all respects</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">without variation</span></li></ul></li><li><span class="leaf">consistent with himself</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>insult</em> &lt; <em>in</em> + <em>salire</em> (leap upon) — to assault with contempt; <em>resemblance</em> &lt; <em>re</em> + <em>simulare</em> &lt; <em>similis</em> (like) — likeness maintained; <em>consistent</em> &lt; <em>con</em> + <em>sistere</em> (stand together) — standing with oneself.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>subject A to B</em> = place A under B's standard; <em>as if it were X to V</em> = as though V-ing were X (bare subjunctive reframe); <em>in all respects</em> = in every regard; <em>without variation</em> = unchangingly.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But they say it is insulting to subject the Spirit — to whom all things are supposed to be subject — to Scripture: as if it were disgraceful for the Holy Spirit to keep a perfect resemblance everywhere and to be, in every respect, unvaryingly consistent with himself.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>as if it were disgraceful to the Holy Spirit to maintain</b> → as if it were disgraceful for the Holy Spirit to keep</li><li><b>throughout</b> → everywhere</li><li><b>in all respects without variation</b> → in every respect, unvaryingly</li><li><b>the gapped *and be</b> → and to be.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the answer — True, if he were ... but so long as he is ...</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>"True, if he were subjected to a human, an angelical, or to any foreign standard, it might be thought that he was rendered subordinate, or, if you will, brought into bondage, but so long as he is compared with himself, and considered in himself, how can it be said that he is thereby injured?"</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>True</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if he were subjected</b></span></li><li><span class="leaf">to a human, an angelical, or to any <b>foreign</b> standard</span></li></ul></li><li><span class="leaf">it <b>might be thought</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that he was rendered subordinate</span><ul class="tr"><li><span class="leaf">or,, brought into bondage</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if you will</b></span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">결과절 (so…that)</span><span class="leaf"><b>so long as</b> he <b>is compared</b> with himself</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and considered in himself</span></li></ul></li></ul></li><li><span class="leaf">how can it be said</span></li><li><span class="leaf">?</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that he is thereby injured</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>subordinate</em> &lt; <em>sub</em> + <em>ordo</em> (rank below) — placed under in order; <em>bondage</em> &lt; ME <em>bonde</em> (serf) — the unfree state; <em>foreign</em> &lt; <em>foris</em> (out of doors) — the outside-word: external, alien.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>True, ...</em> = granted, ... (one-word concession); <em>if you will</em> = if you insist on that (stronger) word; <em>render O ‹to be› C</em> = make O C; <em>so long as</em> = provided that, while it remains the case that; <em>thereby</em> = by that means.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">True, if he were subjected to a human, an angelic, or any other external standard, one might think he was being made subordinate — or, if you insist, brought into bondage; but so long as he is compared with himself and considered in himself, how can anyone say that he is harmed by it?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>an angelical</b> → an angelic</li><li><b>any foreign standard</b> → any other external standard</li><li><b>it might be thought that</b> → one might think</li><li><b>if you will</b> → if you insist</li><li><b>how can it be said that</b> → how can anyone say that.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the refinement — but the very test and the self-appointed bench</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>"I admit that he is brought to a test, but the very test by which it has pleased him that his majesty should be confirmed."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` I <b>admit</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that he is brought to a test</span></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b> ‹he is brought to›</span></li><li><span class="leaf"><b>the very test</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>by which</b></span></li><li><span class="leaf"><b>it has pleased him</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> his majesty</span><ul class="tr"><li><span class="leaf"><b>should be confirmed</b></span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>majesty</em> &lt; <em>maiestas</em> &lt; <em>maior</em> (greater) — the state of being greater; <em>confirm</em> &lt; <em>con</em> + <em>firmare</em> (make firm) — Day 49's courtroom verb, still on duty.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>I admit that ... but ...</em> = concession-frame with the sting in the but-clause; <em>the very N</em> = precisely that N; <em>it has pleased S that ... should V</em> = S has sovereignly willed that ... V.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I admit that he is brought to a test — but it is the very test by which he himself has been pleased to have his majesty confirmed.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the gapped *but the very test</b> → but it is the very test</li><li><b>it has pleased him that his majesty should be confirmed</b> → he himself has been pleased to have his majesty confirmed.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the mark named — the image which he has stamped on the Scriptures</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>"It ought to be enough for us when once we hear his voice; but lest Satan should insinuate himself under his name, he wishes us to recognise him by the image which he has stamped on the Scriptures."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` It ought to be enough for us</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when once</b> we hear his voice</span></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf">but</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">목적절 (lest)</span><span class="leaf"><b>lest</b> Satan <b>should insinuate</b> himself</span></li><li><span class="leaf">under his name</span></li></ul></li></ul></li><li><span class="leaf">he wishes us</span></li><li><span class="leaf">to <b>recognise</b> him</span></li><li><span class="leaf">by the <b>image</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which he has <b>stamped</b></span><ul class="tr"><li><span class="leaf">on the Scriptures</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>insinuate</em> &lt; <em>in</em> + <em>sinus</em> (fold, curve) — to wind one's way in; <em>stamp</em> — Gmc. <em>stampōn</em> (pound, impress) — the die-press word; <em>recognise</em> &lt; <em>re</em> + <em>cognoscere</em> (know again) — identification by prior acquaintance.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>when once S V</em> = as soon as S V; <em>lest S should V</em> = for fear that S should V (negative purpose); <em>under X's name</em> = wearing X's name as cover; <em>recognise A by B</em> = identify A by the mark B.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">It ought to be enough for us the moment we hear his voice; but so that Satan cannot worm his way in under his name, he wants us to recognize him by the image he has stamped on the Scriptures.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>when once</b> → the moment</li><li><b>lest Satan should insinuate himself</b> → so that Satan cannot worm his way in</li><li><b>he wishes us to recognise him</b> → he wants us to recognize him.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s1" title="1-star">★</span><span class="s-label">the ground — cannot vary, and change his likeness</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>"The author of the Scriptures cannot vary, and change his likeness."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` The author of the Scriptures</span></li><li><span class="leaf"><b>cannot</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>vary</b>, and <b>change</b> his likeness</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><strong>likeness</strong> — like + -ness — 닮음 그 자체; image 의 쌍둥이</li><li><strong>vary</strong> — varius(얼룩진) — cannot vary = 얼룩 없음</li></ul></div></div><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p><strong>One point and move.</strong> The negation's scope: one <code>cannot</code> governs both verbs — he cannot <em>vary-and-change-his-likeness</em>, the pair reading as a single act (vary within, alter the outward likeness). ⚠️ Do not read "cannot vary, and ‹does› change" — the comma is breath, not a scope-break. Nine words, and they carry the whole apparatus: the mark is infallible (S2) because the stamper is immutable. Divine simplicity doing epistemology.</p></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the correlative — Such as ... such ...</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p>"Such as he there appeared at first, such he will perpetually remain."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Such as</b> he appeared</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>there</b></span></li></ul></li></ul></li><li><span class="leaf">at first</span></li><li><span class="leaf"><b>such</b> he will remain</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">perpetually</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>perpetually</em> &lt; <em>per</em> + <em>petere</em> (seek through, continue unbroken) — without intermission; <em>remain</em> &lt; <em>re</em> + <em>manere</em> (stay back/behind) → mansion, permanent.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>such as S V-ed, such S will V</em> = exactly as S was, so S will be (correlative frame); <em>at first</em> = at the beginning.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Just as he appeared there at first, so he will forever remain.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the <em>Such as ..., such ...</em> frame</b> → Just as ..., so ...</li><li><b>there</b> → there (in the Scriptures — antecedent made explicit)</li><li><b>perpetually</b> → forever.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the closer — honourable degeneration?</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p>"There is nothing contumelious to him in this, unless we are to think it would be honourable for him to degenerate, and revolt against himself."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` There is <b>nothing contumelious</b> to him</span></li><li><span class="leaf">in this</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (unless)</span><span class="leaf"><b>unless</b> we <b>are to</b> think</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">it would be <b>honourable</b> for him</span></li><li><span class="leaf"><b>to degenerate</b>, and <b>revolt</b> against himself</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>contumelious</em> &lt; <em>contumelia</em> (insolent abuse; cf. <em>tumere</em>, to swell) — swollen-with-contempt; <em>degenerate</em> &lt; <em>de</em> + <em>genus</em> (fall from stock) — Day 9's word, aimed upward per impossibile; <em>revolt</em> &lt; <em>re</em> + <em>volvere</em> (roll back against) → revolution.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>there is nothing X in Y</em> = Y contains no X; <em>unless we are to think ...</em> = unless we are prepared to think ...; <em>it would be X for S to V</em> = extraposed judgment frame; <em>revolt against oneself</em> = turn on oneself.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">There is nothing insulting to him in this — unless we are prepared to think it would be honorable for him to degenerate and revolt against himself.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>contumelious</b> → insulting</li><li><b>we are to think</b> → we are prepared to think</li><li><b>the gapped *and revolt</b> → and to revolt</li><li><b>honourable</b> → honorable (spelling).</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — one verb, two that-objects (the resumed that)</h3><pre><code>  understand [that A], (긴 삽입), and, (부사구), [that B]
+     = 동사 하나가 that절 두 개를 목적어로 지배
+  ⚠️ 두 번째 that = 생명줄: 삽입 뒤에서 "아직 understand 안이다"를
+     알리는 재개 신호. 이것을 지우고 새 문장으로 읽으면
+     B 절이 동사 잃은 고아가 된다
+  + if S would V = S 가 V 하기를 원한다면 (의지의 would — Day 50 ② 가족)
+</code></pre><p><strong>Transformation drill.</strong> 오늘 논지로 재현: → <em>Hence it is easy to understand that we must seek the Spirit in the Word, if we would not be deceived, and, on the contrary, that any teacher who forsakes the Word is justly suspected of falsehood.</em> (두 번째 that 가 삽입 너머에서 동사에 접속되는 것을 확인.)</p><h3>Formula 2 — the subjunctive triple (+ the mood-contrast argument)</h3><pre><code>  ① if + S + be (원형)      = 열린 가정 (if he be not ascertained)
+  ② if + S + were ↔ so long as + S + is
+     = 반사실(외부 기준) ↔ 직설(자기 비교) — ⚠️ 무드 대조 자체가 논증:
+       속박은 가정법 세계에만, 자기비교는 직설법 현실에
+  ③ lest + S + should V     = ~하지 않도록 (부정 목적)
+  가족 (전부 기출): as he were (Day 50) · until ... manifest (Day 49) ·
+     If any one object (Day 41)
+  ⚠️ 어느 쪽이든 무드를 '통일'하는 선지 = 훼손이지 교정 아님
+</code></pre><p><strong>Transformation drill.</strong> ②·③을 한 문장에: → <em>If the Spirit were tried by a foreign standard, it might be thought a bondage; but lest any man should be deceived, he is compared only with himself.</em> (반사실 were 와 lest+should 가 각각 작동하는 것을 확인.)</p><h3>Formula 3 — ellipsis under <code>but</code> + negation scope + the double-such</h3><pre><code>  ① I admit ..., but ‹생략› the very N   = but ‹it is / he is brought to›
+     — but 뒤 명사구만 남으면 왼쪽에서 주어·동사를 복사
+  ② cannot V₁, and V₂   = V₁·V₂ 모두 부정 (콤마는 호흡이지
+     scope 차단이 아니다: cannot [vary and change])
+  ③ Such as S V-ed, such S will V   = ~했던 그대로, 그대로 남는다
+     (앞의 such as = 성격 설정, 뒤의 such = 전치된 보어)
+</code></pre><p><strong>Transformation drill.</strong> ③으로 영작: → <em>Such as the gospel was first delivered to the church, such it will remain to the end.</em> (전치된 such 를 remain 뒤로 되돌려 base 를 복원해 볼 것.)</p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>heed</td>
+<td>유의, 주의</td>
+<td>OE <em>hēdan</em>(지키다) — give heed to = 마음을 세워 지켜보다</td>
+</tr>
+<tr>
+<td>⚠️ would (S1)</td>
+<td><strong>원하다</strong> (의지)</td>
+<td>if we would obtain = 얻고자 한다면 — 미래 아님; Day 50 should like 가족</td>
+</tr>
+<tr>
+<td>supersede</td>
+<td>대체하다, 밀어내다</td>
+<td><em>super</em> + <em>sedere</em>(위에 앉다) — 위에 앉아 밀어냄</td>
+</tr>
+<tr>
+<td>⚠️ pass by</td>
+<td><strong>무시하다, 우회하다</strong></td>
+<td>옆을 지나쳐 감 — 인사하며 지나가는 것 아님</td>
+</tr>
+<tr>
+<td>⚠️ vanity</td>
+<td><strong>공허</strong></td>
+<td><em>vanus</em>(빈) — 허영 ✗; 빈 영 = 헛된 영</td>
+</tr>
+<tr>
+<td>ascertain</td>
+<td>확인·확증하다</td>
+<td><em>ad</em> + <em>certus</em>(확실한) — certain 을 만들다</td>
+</tr>
+<tr>
+<td>infallible</td>
+<td>오류 불가의</td>
+<td><em>in</em> + <em>fallere</em>(속이다) — 속일 수 없는 표지; the mark 의 수식어</td>
+</tr>
+<tr>
+<td>assuredly</td>
+<td>확실히</td>
+<td><em>ad</em> + <em>securus</em> — sure 를 부사로</td>
+</tr>
+<tr>
+<td>bent on</td>
+<td>~에 작정한</td>
+<td>활(bow)이 겨눠진 — 제 파멸을 겨냥해 당겨진 시위</td>
+</tr>
+<tr>
+<td>⚠️ foreign</td>
+<td><strong>외부의, 이질적인</strong></td>
+<td><em>foris</em>(문 밖) — 국제 ✗; 자기 아닌 모든 기준</td>
+</tr>
+<tr>
+<td>⚠️ if you will</td>
+<td><strong>굳이 그 말을 쓰자면</strong></td>
+<td>상대의 더 센 단어를 빌려주는 양보 관용구</td>
+</tr>
+<tr>
+<td>subordinate</td>
+<td>종속된</td>
+<td><em>sub</em> + <em>ordo</em>(아래 서열) — 서열 아래 놓임</td>
+</tr>
+<tr>
+<td>bondage</td>
+<td>속박</td>
+<td>ME <em>bonde</em>(농노) — 자유 잃은 상태</td>
+</tr>
+<tr>
+<td>majesty</td>
+<td>위엄</td>
+<td><em>maior</em>(더 큰) — '더 큼'의 상태; 시험이 훼손 못 하고 확증함</td>
+</tr>
+<tr>
+<td>⚠️ when once</td>
+<td><strong>~하자마자</strong></td>
+<td>once 강조형 — "언제 한 번" ✗</td>
+</tr>
+<tr>
+<td>insinuate</td>
+<td>스며들다</td>
+<td><em>in</em> + <em>sinus</em>(굽이, 품) — 굽이굽이 파고듦; 뱀의 동사</td>
+</tr>
+<tr>
+<td>stamp</td>
+<td>찍다, 각인하다</td>
+<td>주형 압인 — Day 50 coin(위조 조폐)의 반대편, 합법 조폐국</td>
+</tr>
+<tr>
+<td>likeness</td>
+<td>형상, 모습</td>
+<td>like + -ness — 닮음 그 자체; image 의 쌍둥이</td>
+</tr>
+<tr>
+<td>⚠️ vary</td>
+<td><strong>변하다, 이탈하다</strong></td>
+<td><em>varius</em>(얼룩진) — cannot vary = 얼룩 없음</td>
+</tr>
+<tr>
+<td>⚠️ contumelious</td>
+<td><strong>모욕적인</strong></td>
+<td><em>contumelia</em>(오만한 학대; <em>tumere</em> 부풀다) — 경멸로 부푼</td>
+</tr>
+<tr>
+<td>degenerate</td>
+<td>본성에서 떨어지다</td>
+<td><em>de</em> + <em>genus</em> — Day 9 재출; 이번엔 하나님께 per impossibile</td>
+</tr>
+<tr>
+<td>revolt</td>
+<td>반역하다</td>
+<td><em>re</em> + <em>volvere</em>(되굴러 맞서다) — 자기에 대한 반역 = 불가능</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>The objection is real, and it is still asked.</strong> "You subject the sovereign Spirit to a book?" — Calvin heard it from the Libertines (Quintin, Pocquet — Day 50's cast, still on stage); the church has heard it since from every quarter that pits pneumatology against bibliology. Calvin's answer is not a ranking but a <strong>re-description of the relation</strong>: Scripture is not a norm <em>over</em> the Spirit nor a rival <em>beside</em> him; it is his own product bearing his own image (<code>the image which he has stamped</code>). Testing spirit-claims against Scripture is therefore the Spirit testing spirits — 1 John 4:1 executed by the Spirit's own instrument. The scholastics would later give this a tidy label: Scripture as <em>principium cognoscendi</em> — not a competitor of the Spirit but the very shape his teaching ministry takes.</p><p><strong>The self-authentication circle, second arc.</strong> Chapter 7 argued: the Word is certified by the Spirit (<em>testimonium Spiritus Sancti internum</em>), not by the church. Chapter 9 argues: the Spirit is identified by the Word, not by inner weather. Put them together and you get the famous Calvinian circle — Word and Spirit mutually attesting — which critics call circular and Calvin would call <em>married</em> (Isa. 59:21, yesterday's wedding certificate). The circle is not vicious because its ground is a single divine author: God attesting God by God. Westminster inherits both arcs in order — WCF 1.5 (full persuasion <code>by the inward work of the Holy Spirit bearing witness by and with the Word in our hearts</code>) and 1.10 (the supreme judge: <code>the Holy Spirit speaking in the Scripture</code>).</p><p><strong>Immutability as epistemology.</strong> S8–S9 quietly convert a metaphysical doctrine (God cannot change — Mal. 3:6; Jas. 1:17's <code>no variableness</code>) into a <em>method</em>: because the author cannot vary, his first self-portrait remains the standard for every later claim. This is why the Reformed tradition read church history as a series of returns <em>ad fontes</em> — not archaism for its own sake, but the conviction that the stamp does not update. Note also the pastoral edge Calvin never drops: S1's <code>reading and hearing</code> keeps the whole apparatus concrete — the infallible mark is consulted at the desk and in the pew, not in a seminar on epistemology.</p><p><strong>⚠️ The over-reading guardrail — two fences today.</strong> First: do <strong>not</strong> flatten S5–S6 into "the Bible is above the Holy Spirit." Calvin explicitly rejects the subordination frame — <code>foreign standard</code> is the hypothesis he <em>denies</em>; the actual relation is self-comparison. Slogans like "Word over Spirit" reproduce the fanatics' framing with the polarity flipped, and lose the marriage both chapters defend. Second: <code>he is brought to a test</code> is <strong>not</strong> an invitation to rationalist tribunal — the test's jurisdiction exists because <code>it has pleased him</code> (S6); we verify by his stamp, we do not audit his majesty by autonomous reason. The believer is a teller checking a coin against the die — not a judge trying the mint.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li><strong>2 Corinthians 11:14 — S2 (near-quotation).</strong> αὐτὸς γὰρ ὁ Σατανᾶς μετασχηματίζεται εἰς ἄγγελον φωτός — <em>Satan himself is transformed into an angel of light</em>. HOW Calvin uses it: as the epistemological premise of the whole section — since the counterfeit <em>glows</em>, luminous experience can never self-certify; a mark external to the feeling is required. Paul's next verse (his ministers as ministers of righteousness) is the Libertine application Calvin leaves his hearers to draw.</li>
+<li><strong>2 Peter 1:19 — S1 (cited).</strong> καὶ ἔχομεν βεβαιότερον τὸν προφητικὸν λόγον, ᾧ καλῶς ποιεῖτε προσέχοντες — <em>we have the word of prophecy more sure, whereunto ye do well that ye take heed</em>. HOW Calvin uses it: Peter — eyewitness of the Transfiguration! — still sends readers to the prophetic word <code>as unto a light that shineth in a dark place</code>; the parenthesis's concessive (<code>though it might have been thought to be superseded</code>) tracks the verse's own logic: the gospel sunrise retires no lamp.</li>
+<li><strong>1 John 4:1 — S2–S3 (structural).</strong> δοκιμάζετε τὰ πνεύματα εἰ ἐκ τοῦ θεοῦ ἐστιν — <em>try the spirits whether they are of God</em>. Day 50 planted it as background; today it becomes the section's program: the <code>infallible mark</code> is the apparatus that makes the command executable. Testing spirits is not suspicion of the Spirit — it is obedience to him.</li>
+<li><strong>John 10:4–5, 27 — S7 (echo).</strong> τὰ πρόβατα αὐτῷ ἀκολουθεῖ, ὅτι οἴδασιν τὴν φωνὴν αὐτοῦ — <em>the sheep follow him, for they know his voice</em>. <code>It ought to be enough for us when once we hear his voice</code> — the shepherd's-voice ideal; but Calvin immediately adds the provision for a world with voice-forgers (<code>lest Satan should insinuate himself under his name</code>): the flock verifies the voice by the written likeness.</li>
+<li><strong>1 Corinthians 15:27–28 — S4 (background).</strong> πάντα γὰρ ὑπέταξεν ὑπὸ τοὺς πόδας αὐτοῦ — the <em>all-things-subjected</em> language. The fanatics' premise (<code>to whom all things are to be subject</code>) is orthodox — Calvin grants it standing inside their own objection; the error is the inference, not the premise.</li>
+<li><strong>2 Timothy 2:13 — S8–S10 (hidden ground).</strong> ἀρνήσασθαι γὰρ ἑαυτὸν οὐ δύναται — <em>he cannot deny himself</em>. Behind <code>cannot vary</code>, behind <code>revolt against himself</code>: the one impossibility in God is self-contradiction — which is exactly why self-comparison is the one harmless test. (Day 11 banked this verse; today it pays out.)</li>
+<li><strong>Malachi 3:6 / James 1:17 — S9 (echo).</strong> אֲנִי יְהוָה לֹא שָׁנִיתִי — <em>I am the LORD, I change not</em>; παρ᾽ ᾧ οὐκ ἔνι παραλλαγὴ — <em>with whom is no variableness</em>. <code>Such as he there appeared at first, such he will perpetually remain</code> — immutability converted into hermeneutical method: the first edition is the standard edition, <code>perpetually</code>.</li>
+<li><strong>Ephesians 1:13 — S7 (echo, continued from Day 50).</strong> ἐσφραγίσθητε τῷ πνεύματι — <em>sealed with the Spirit</em>. Yesterday the Spirit sealed doctrine on minds; today he has <code>stamped</code> his image on the Scriptures — one signet, two impressions: the page and the heart, made to match.</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>① 어법 — 밑줄 친 부분 중 틀린 것은?</strong></p><blockquote>
+<p>What authority can the Spirit have with us if he ①<strong>be not ascertained</strong> by an infallible mark? True, if he ②<strong>were subjected</strong> to any foreign standard, it might be thought that he was brought into bondage; but so long as he ③<strong>were compared</strong> with himself, how can it be said that he is injured? And ④<strong>lest Satan should insinuate</strong> himself under his name, he wishes us to recognise him by his own image.</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: ③</strong> — <code>so long as</code> 는 <strong>실제 성립하는 배열</strong>을 말하므로 직설법: <code>so long as he **is** compared with himself</code>. 반사실 <code>were</code> 는 ②의 외부-기준 가정에만 속한다 — 무드 대조가 곧 논증(Formula 2-②)이므로, 이 자리의 were 는 문법 오류이자 신학 오류. ①은 if + 원형 be 의 bare subjunctive — 오답처럼 보이는 정문(Formula 2-①). ②는 반사실 가정 — 정문. ④는 lest + should — 정문(Formula 2-③). <strong>출제 의도:</strong> 세 가정법이 각자 다른 종류임을 아는지 — "가정법이니까 다 were/원형" 으로 뭉개면 ③을 정문으로 오판한다.</p><p><strong>② 내용일치 — §2 의 논지와 일치하는 것은?</strong></p><p>(a) Calvin teaches that the Spirit is rendered subordinate to Scripture, which stands over him as a higher standard.
+(b) Calvin denies that the Spirit is brought to any test, since testing would injure his majesty.
+(c) Calvin argues that comparing the Spirit with Scripture is comparing him with himself, since Scripture bears the image he has stamped on it — a test he himself has been pleased to appoint.
+(d) Calvin holds that private reading of Scripture suffices for the Spirit's benefit, public hearing being a temporary provision now superseded.</p><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: (c)</strong> — S5(<code>compared with himself</code>) + S6(<code>it has pleased him</code>) + S7(<code>the image which he has stamped on the Scriptures</code>)의 축자 종합.
+<strong>오답 해설:</strong> (a) 방향 왜곡 — <code>foreign standard</code> 종속은 칼빈이 <strong>가정법으로 기각</strong>하는 프레임 (Examiner's Eye ①). (b) 반쪽 뒤집기 — S6 은 시험을 <strong>인정</strong>한다 (<code>I admit</code>); 부정되는 건 시험의 외부성뿐이고 결과는 위엄의 <code>confirmed</code> (Examiner's Eye ②). (d) 병렬 절단 + 어휘 오용 — S1 은 <code>both to the reading **and hearing**</code>; <code>superseded</code> 는 선지자들에 대한 가상 반론 속 단어를 훔쳐 쓴 것 (Examiner's Eye ③).</p><p><strong>③ 영작 — 오늘의 공식 적용</strong></p><p><strong>문제:</strong> 다음을 영어로. "사탄이 성령의 이름 아래로 스며들지 않도록, 성령은 우리가 성경에 찍어 두신 그 형상으로 자신을 알아보기를 원하신다." (Formula 2-③ 의 <code>lest + should</code> 와 S7 의 <code>recognise A by B</code> 구조를 쓸 것)</p><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>모범답안:</strong> <em>Lest Satan should insinuate himself under the name of the Spirit, the Spirit wishes us to recognise him by the very image which he has stamped on the Scriptures.</em></p><p><strong>출제 의도:</strong> ⚠️ 채점 포인트 셋. (1) <code>lest ... should insinuate</code> — lest 뒤에 should + 원형이 왔는가 (<code>lest ... will</code> / <code>lest ... doesn't</code> 는 감점; lest 자체가 부정을 품으므로 not 중복 금지). (2) <code>recognise him by the image</code> — 식별 기준의 by 를 살렸는가. (3) <code>the very image which</code> — S6·S7 의 <code>the very</code> 강조(= <em>verus</em>, 바로 그)를 재현했는가 (<em>that very</em> 허용).</p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary:</strong> §2 turns yesterday's verdict into practice and answers the chapter's central objection — give diligent heed to the <em>reading and hearing</em> of Scripture, distrust every Word-bypassing spirit (S1), and when the fanatics cry "insult!" at testing the Spirit by Scripture, answer with Calvin's distinction: subjection to a <em>foreign</em> standard would be bondage (subjunctive — that world does not exist), but Scripture is <code>the image which he has stamped</code> — so the test is <strong>self-comparison</strong>, self-appointed (<code>it has pleased him</code>), and harmless unless self-revolt could be an honour (S10); and today's three grammar keys were the <strong>resumed that</strong> (one <code>understand</code>, two objects, a verse-sized parenthesis between), the <strong>subjunctive triple with the mood-contrast argument</strong> (<code>if he be</code> / <code>if he were</code> vs <code>so long as he is</code> / <code>lest ... should</code>), and <strong>ellipsis &amp; scope</strong> (<code>but ‹he is brought to› the very test</code>, <code>cannot [vary, and change]</code>, <code>Such as ..., such ...</code>).</p><p><strong>Homework (10 min):</strong></p><ol>
+<li><strong>Structure restoration.</strong> S5 를 덮고, 뼈대만 보고 복원하라: <code>True, if he ______ subjected to a ______ standard, it might be thought that he was ______; but so long as he ______ compared with himself, how can it be said that he is ______?</code> 그런 다음 두 빈칸의 동사 무드(were/is)에 밑줄을 긋고, 왜 서로 달라야 하는지 한 줄로 써라.</li>
+<li><strong>Composition.</strong> <code>Such as ..., such ...</code> 로 한 문장: "복음이 처음 교회에 전해진 그대로, 끝까지 그대로 남을 것이다" → <em>Such as the gospel was first delivered to the church, such it will remain to the end.</em> — 이어서 lest + should 로 한 문장 더: "우리가 속지 않도록, 하나님은 그 표지를 성경에 찍어 두셨다" → <em>Lest we should be deceived, God has stamped that mark on the Scriptures.</em></li>
+<li><strong>Preview.</strong> 내일은 §3 — 장의 마지막 절. 첫 문장이 남겨 둔 빚을 갚는다: <code>Their cavil about our cleaving to the dead letter carries with it the punishment which they deserve for despising Scripture.</code> — Day 50 S2 에서 광신자들이 조롱하던 <code>the dead and deadly letter</code>, 그 슬로건의 출처인 고후 3:6(<code>the letter killeth</code>)을 칼빈이 직접 주석한다. 문자가 죽이는 것은 <strong>언제</strong>인가 — 그리고 같은 문자가 <code>the word of life</code> 가 되는 것은 언제인가. 편지와 영의 이혼 서류가 기각되는 날이다.</li>
+</ol><p><strong>Where we stopped:</strong> Book 1, Ch. 9, §2 끝. 다음은 Book 1, Ch. 9, §3.</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
