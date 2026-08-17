@@ -28137,6 +28137,1367 @@ window.SERMONS_DATA = {
           "en": "Dear brothers and sisters, may you answer today in faith: “Yes, Lord — I believe.”"
         }
       ]
+    },
+    {
+      "id": "2026-08-09",
+      "date": "2026-08-09",
+      "title_ko": "두 개의 증인석",
+      "title_en": "Two Witness Boxes",
+      "scripture_ref_ko": "이사야 44:8–9",
+      "scripture_ref_en": "Isaiah 44:8–9",
+      "preacher_ko": "유병훈 목사",
+      "preacher_en": "Rev. Byong H. Yoo",
+      "series": "",
+      "scripture_text": [
+        {
+          "ko": "너희는 두려워 말며 겁내지 말라 내가 예로부터 너희에게 들리지 아니하였느냐 고하지 아니하였느냐 너희는 나의 증인이라 나 외에 신이 있겠느냐 과연 반석이 없나니 다른 신이 있음을 알지 못하노라 우상을 만드는 자는 다 허망하도다 그들의 기뻐하는 우상은 무익한 것이어늘 그것의 증인들은 보지도 못하며 알지도 못하니 그러므로 수치를 당하리라 (이사야 44:8–9)",
+          "en": "“Fear not, nor be afraid; have I not told you from of old and declared it? And you are my witnesses! Is there a God besides me? There is no Rock; I know not any. All who fashion idols are nothing, and the things they delight in do not profit. Their witnesses neither see nor know, that they may be put to shame.” (Isaiah 44:8–9)"
+        }
+      ],
+      "slides": [
+        {
+          "type": "title",
+          "title_ko": "두 개의 증인석",
+          "title_en": "Two Witness Boxes",
+          "ref_ko": "이사야 44:8–9",
+          "ref_en": "Isaiah 44:8–9",
+          "preacher_ko": "유병훈 목사",
+          "preacher_en": "Rev. Byong H. Yoo",
+          "date": "2026-08-09"
+        },
+        {
+          "type": "question",
+          "label_ko": "서론",
+          "label_en": "Introduction",
+          "ko": "오늘 본문은 짧은 두 절인데, 그 안에 증인석이 두 개 있습니다. 8절의 \"너희는 나의 증인이라\"와 9절의 \"그것의 증인들\"입니다. 성경은 이 둘 사이에 중간 자리를 두지 않습니다. 오늘 세 가지를 나눕니다. 사람은 왜 우상을 만드는가, 우상을 만든 사람은 어떻게 되는가, 하나님은 자기의 증인을 어떻게 세우시는가.",
+          "en": "Today's text is only two short verses, yet two witness boxes stand within them: “You are my witnesses” in verse 8, and “their witnesses” in verse 9. Scripture leaves no neutral ground between them. Today we share three things: why people make idols, what becomes of the maker, and how God establishes his own witnesses."
+        },
+        {
+          "type": "section",
+          "label_ko": "대지 1",
+          "label_en": "Point 1",
+          "ko": "사람은 왜 우상을 만듭니까",
+          "en": "Why Do People Make Idols?"
+        },
+        {
+          "type": "point",
+          "label_ko": "우상은 대용품이 아니라 대체물입니다",
+          "label_en": "An Idol Is Not a Substitute but a Replacement",
+          "ko": "우상은 하나님을 찾지 못한 사람이 세운 대용품이 아닙니다. 하나님을 하나님으로 모시기 싫은 사람이 하나님 자리에 세운 대체물입니다. 사람은 하나님이 없어서 우상을 만드는 것이 아니라, 나를 다스리시는 하나님을 피하려고 내가 다룰 수 있는 신을 만드는 것입니다.",
+          "en": "An idol is not a substitute erected by someone who could not find God. It is a replacement set up in God's place by someone unwilling to have God be God. People do not make idols because there is no God; they make a god they can manage in order to avoid the God who rules them."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "로마서 1:23",
+          "label_en": "Romans 1:23",
+          "ko": "\"썩어지지 아니하는 하나님의 영광을 썩어질 사람과 금수와 버러지 형상의 우상으로 바꾸었느니라\"",
+          "en": "“And exchanged the glory of the immortal God for images resembling mortal man and birds and animals and creeping things.”"
+        },
+        {
+          "type": "point",
+          "label_ko": "사람은 예배하도록 지음받았습니다",
+          "label_en": "We Were Made to Worship",
+          "ko": "동사를 보십시오. '버렸다'가 아니라 \"바꾸었느니라\"입니다. 사람은 예배를 끊을 수 없습니다. 다만 그 대상을 바꿀 수 있을 뿐입니다. 샘을 버린 사람은 반드시 웅덩이를 팝니다.",
+          "en": "Look at the verb. Not “abandoned” but “exchanged.” A human being cannot stop worshiping; he can only change the object. Whoever abandons the fountain will inevitably dig a cistern."
+        },
+        {
+          "type": "point",
+          "label_ko": "참 하나님은 내 마음대로 되지 않습니다",
+          "label_en": "The True God Will Not Bend to My Will",
+          "ko": "백성은 모세가 내려옴이 \"더딤을 보고\" 금송아지를 만들었습니다. 하나님이 더디시다고 느껴지는 그 순간 사람의 손이 움직입니다. 살아 계신 하나님은 나를 다스리시지만, 만든 신은 내가 다스립니다. 사람이 우상을 만드는 것은 어리석어서가 아니라 다스림받기 싫어서입니다.",
+          "en": "The people made the golden calf when they “saw that Moses delayed.” The moment God feels slow to us, the human hand starts to move. The living God rules me; the god I made, I rule. People make idols not because they are stupid but because they refuse to be ruled."
+        },
+        {
+          "type": "point",
+          "label_ko": "두려움이 우상을 낳습니다",
+          "label_en": "Fear Gives Birth to Idols",
+          "ko": "8절은 \"두려워 말며 겁내지 말라\"로 시작합니다. 우상이 태어나는 자리가 두려움이기 때문입니다. 불안한 마음은 지금 당장 확인되는 보증을 찾습니다. 은·금·철·나무 — 전부 눈에 보이고 손에 만져지는 것들입니다.",
+          "en": "Verse 8 begins, “Fear not, nor be afraid,” because fear is the womb in which idols are born. An anxious heart looks for a guarantee it can verify right now. Silver, gold, iron, wood — all of them visible to the eye and solid to the touch."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "시편 115:8",
+          "label_en": "Psalm 115:8",
+          "ko": "\"우상을 만드는 자와 그것을 의지하는 자가 다 그와 같으리로다\"",
+          "en": "“Those who make them become like them; so do all who trust in them.”"
+        },
+        {
+          "type": "point",
+          "label_ko": "오늘의 질문",
+          "label_en": "Today's Question",
+          "ko": "눈 없는 신을 섬기면 보지 못하는 사람이 됩니다. 그러므로 우리의 질문은 \"나는 우상이 없습니까\"가 아닙니다. \"내가 두려울 때 내 손이 가장 먼저 가서 쥐는 것이 무엇입니까.\" 그것이 우리의 질문입니다.",
+          "en": "Serve a god with no eyes and you become a person who cannot see. So our question is not “Do I have any idols?” It is this: “When I am afraid, what does my hand reach for first?”"
+        },
+        {
+          "type": "section",
+          "label_ko": "대지 2",
+          "label_en": "Point 2",
+          "ko": "만든 사람은 자기가 속은 줄도 모릅니다",
+          "en": "The Maker Does Not Even Know He Has Been Deceived"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "이사야 44:20",
+          "label_en": "Isaiah 44:20",
+          "ko": "\"그는 재를 먹고 미혹한 마음에 미혹되어서 스스로 그 영혼을 구원하지 못하며 나의 오른손에 거짓 것이 있지 아니하냐 하지도 못하느니라\"",
+          "en": "“He feeds on ashes; a deluded heart has led him astray, and he cannot deliver himself or say, ‘Is there not a lie in my right hand?’”"
+        },
+        {
+          "type": "point",
+          "label_ko": "솜씨 좋은 손과 눈먼 마음",
+          "label_en": "A Skilled Hand and a Blind Heart",
+          "ko": "이 목공은 무능한 사람이 아닙니다. 줄과 붓과 대패와 정규를 제대로 다루는 숙련공입니다. 문제는 기술이 아니라 눈입니다. 그래서 이 병은 배운다고 낫지 않습니다. 기술은 늘어도 눈은 그대로입니다.",
+          "en": "This carpenter is no incompetent — he is a craftsman skilled with line, pencil, plane and compass. The problem is not his craft but his eyes. This disease is not cured by education: the skill improves, the eyes stay the same."
+        },
+        {
+          "type": "point",
+          "label_ko": "물을 수조차 없습니다",
+          "label_en": "He Cannot Even Ask",
+          "ko": "제일 무서운 말은 \"하지도 못하느니라\"입니다. 내 오른손의 이것이 혹시 거짓이 아닌가 — 그 한 마디를 묻지 못합니다. 물을 생각조차 나지 않습니다. 우상은 오래 붙들고 있으면 도리어 우리의 눈과 마음을 붙들어 버립니다.",
+          "en": "The most terrifying phrase is “he cannot say it.” Is this thing in my right hand perhaps a lie — he cannot ask that one question; it does not even occur to him. Hold an idol long enough and it grips your eyes and your heart instead."
+        },
+        {
+          "type": "point",
+          "label_ko": "합리화는 하나님의 이름으로 옵니다",
+          "label_en": "Rationalization Comes in God's Name",
+          "ko": "사울은 불순종을 \"제사하려 하여\"로 포장했고, 사무엘은 \"완고한 것은 사신 우상에게 절하는 죄와 같다\" 진단했습니다. 포장을 오래 하면 어느 날 자기가 그 포장을 정말로 믿어 버립니다. 거짓말이 진심이 되는 것입니다.",
+          "en": "Saul wrapped disobedience in “to sacrifice to the LORD,” and Samuel diagnosed it: “presumption is as iniquity and idolatry.” Keep up the packaging long enough and one day you believe the packaging yourself. The lie becomes sincerity."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "디도서 1:16",
+          "label_en": "Titus 1:16",
+          "ko": "\"저희가 하나님을 시인하나 행위로는 부인하니 가증한 자요 복종치 아니하는 자요 모든 선한 일을 버리는 자니라\"",
+          "en": "“They profess to know God, but they deny him by their works. They are detestable, disobedient, unfit for any good work.”"
+        },
+        {
+          "type": "point",
+          "label_ko": "주일의 고백과 월요일의 계산",
+          "label_en": "Sunday's Confession, Monday's Calculations",
+          "ko": "입으로는 \"하나님이 모든 것을 다스리십니다\" 고백하면서 걱정은 모든 것이 운에 달린 사람처럼 합니다. 참새 한 마리까지 아버지의 손 안에 있다고 정말 믿는다면 우리의 걱정은 달라야 합니다. 믿는 사람은 걱정을 혼자 붙들지 않고 그 걱정을 들고 아버지께로 돌아갑니다.",
+          "en": "With our mouths we confess, “God rules over everything,” while we worry like people for whom everything depends on luck. If we truly believe even a sparrow is in the Father's hand, our worrying should look different. The believer does not hold the worry alone but carries it back to the Father."
+        },
+        {
+          "type": "section",
+          "label_ko": "대지 3",
+          "label_en": "Point 3",
+          "ko": "하나님은 말씀하시고 이루심으로 증인을 세우십니다",
+          "en": "God Establishes His Witnesses by Speaking and by Fulfilling"
+        },
+        {
+          "type": "point",
+          "label_ko": "증인의 자격",
+          "label_en": "The Qualification of a Witness",
+          "ko": "하나님의 증인은 자기가 느낀 것을 말하는 사람이 아닙니다. 하나님이 미리 말씀하셨고, 말씀하신 그대로 이루셨고, 그 말씀과 이루심을 받은 사람입니다. 그러니 우리의 증언은 \"내가 이렇게 느꼈습니다\"에서 시작하지 않습니다.",
+          "en": "God's witness is not someone who reports what he felt. He is one who received the word God spoke beforehand and the fulfillment exactly as spoken. So our testimony does not begin with “this is how I felt.”"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "고린도후서 4:6",
+          "label_en": "2 Corinthians 4:6",
+          "ko": "\"어두운데서 빛이 비취리라 하시던 그 하나님께서 예수 그리스도의 얼굴에 있는 하나님의 영광을 아는 빛을 우리 마음에 비취셨느니라\"",
+          "en": "“For God, who said, ‘Let light shine out of darkness,’ has shone in our hearts to give the light of the knowledge of the glory of God in the face of Jesus Christ.”"
+        },
+        {
+          "type": "point",
+          "label_ko": "하나님은 눈까지 고치십니다",
+          "label_en": "God Heals the Eyes Themselves",
+          "ko": "해법은 더 큰 증거가 아닙니다. 증거는 이미 충분합니다. 천지를 창조하실 때 어둠을 향해 빛을 부르신 그 하나님이 이번에는 우리 마음 안에 빛을 부르십니다. 보는 눈 자체를 새로 지으시는 것입니다. 그 빛이 보게 하는 것은 예수 그리스도의 얼굴입니다.",
+          "en": "The remedy is not more evidence; the evidence is already sufficient. The same God who called light out of darkness at creation now calls light into our hearts, creating the seeing eye itself anew. And what that light lets us see is the face of Jesus Christ."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "이사야 44:22",
+          "label_en": "Isaiah 44:22",
+          "ko": "\"내가 네 허물을 빽빽한 구름의 사라짐 같이, 네 죄를 안개의 사라짐 같이 도말하였으니 너는 내게로 돌아오라 내가 너를 구속하였음이니라\"",
+          "en": "“I have blotted out your transgressions like a cloud and your sins like mist; return to me, for I have redeemed you.”"
+        },
+        {
+          "type": "bigidea",
+          "label_ko": "핵심",
+          "label_en": "Big Idea",
+          "ko": "순서를 보십시오. \"돌아오면 구속하겠다\"가 아니라 \"내가 너를 구속하였음이니라\"입니다. 값은 이미 치러졌고, 우리가 돌아옴은 그 결과입니다. 사람은 은과 금으로 구원할 수 없는 신을 만들었지만, 하나님은 은과 금이 아니라 아들의 피로 사람을 사셨습니다.",
+          "en": "Notice the order. Not “Return, and I will redeem you,” but “I have redeemed you.” The price is already paid, and our returning is the result. With silver and gold humanity manufactured a god that cannot save; God purchased humanity with the blood of his Son."
+        },
+        {
+          "type": "point",
+          "label_ko": "충성된 증인이신 그리스도",
+          "label_en": "Christ, the Faithful Witness",
+          "ko": "8절의 \"반석\"은 여호와이시고, 44장 6절의 \"나는 처음이요 마지막이라\"는 이름을 계시록 1장 17절에서 부활하신 예수께서 자기 이름으로 쓰십니다. 우리의 증언은 우리의 확신 위에 서 있지 않고, 죽기까지 신실하셨고 죽음에서 살아나신 그 충성된 증인 위에 서 있습니다.",
+          "en": "The “Rock” of verse 8 is the LORD, and the name “I am the first and the last” from Isaiah 44:6 is taken as his own by the risen Jesus in Revelation 1:17. Our testimony rests not on our own conviction but on that faithful Witness who was faithful unto death and rose again."
+        },
+        {
+          "type": "conclusion",
+          "label_ko": "결론 — 증인의 노래",
+          "label_en": "Conclusion — The Song of the Witness",
+          "ko": "우상의 증인석의 끝은 바닥이 없는 수치이지만, 하나님의 증인석의 끝은 한계가 없는 노래입니다. 이사야 44장은 \"여호와께서 야곱을 구속하셨으니\" 찬양으로 끝납니다. 로렌스 형제님은 목소리가 닫히고 손이 굳어 가는 중에도 마지막 힘으로 \"아멘\" 한 마디로 증언하셨습니다. 육신의 눈이 닫혀 가던 그 시간에 마음의 눈은 오히려 밝았던 것입니다.",
+          "en": "The end of the idol's witness box is shame without a floor; the end of God's witness box is song without a limit. Isaiah 44 ends in praise: “For the LORD has redeemed Jacob.” Our brother Lawrence, his voice closing and his hands stiffening, testified with his last strength in a single word: Amen. In the hours when the eyes of his body were closing, the eyes of his heart were bright."
+        },
+        {
+          "type": "blessing",
+          "label_ko": "축도",
+          "label_en": "Benediction",
+          "ko": "두려울 때 주님보다 먼저 손에 잡히는 그것을 내려놓으십시오. 만져지는 것이 아니라 우리의 심령에 들려주신 말씀을 붙들고, 흔들리지 않는 반석 위에서 구속의 노래를 증언하며 사는 저와 여러분 되시기를 우리 주 예수 그리스도의 이름으로 축원드립니다. 아멘.",
+          "en": "Put down the thing your hand reaches for before it reaches for the Lord when you are afraid. May you and I hold not to what can be touched but to the word spoken into our hearts, and live as witnesses who sing the song of redemption upon the Rock that cannot be shaken. In the name of our Lord Jesus Christ. Amen."
+        }
+      ],
+      "body": [
+        {
+          "ko": "본문 이사야 44:8–9\n8 너희는 두려워 말며 겁내지 말라 내가 예로부터 너희에게 들리지 아니하였느냐 고하지 아니하였느냐 너희는 나의 증인이라 나 외에 신이 있겠느냐 과연 반석이 없나니 다른 신이 있음을 알지 못하노라\n9 우상을 만드는 자는 다 허망하도다 그들의 기뻐하는 우상은 무익한 것이어늘 그것의 증인들은 보지도 못하며 알지도 못하니 그러므로 수치를 당하리라",
+          "en": "Scripture Reading: Isaiah 44:8–9\n8 “Fear not, nor be afraid; have I not told you from of old and declared it? And you are my witnesses! Is there a God besides me? There is no Rock; I know not any.\n9 All who fashion idols are nothing, and the things they delight in do not profit. Their witnesses neither see nor know, that they may be put to shame.”"
+        },
+        {
+          "ko": "서론 — 두 제작자",
+          "en": "Introduction — Two Makers",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 저는 평생 무언가를 짓는 일을 해 온 사람입니다. 도면을 그리고, 건물을 세웁니다. 그런데 이 일을 오래 할수록 분명해지는 사실이 하나 있습니다.",
+          "en": "Dear brothers and sisters, I have spent my life building things. I draw plans; I put up buildings. And the longer I do this work, the clearer one thing becomes."
+        },
+        {
+          "ko": "설계하는 사람이 질서를 발명한 것이 아니라는 것입니다. 중력을 제가 만들지 않았습니다. 빛이 어떻게 들어오는지, 나무와 돌이 어떻게 힘을 받아 견디는지, 그 본성을 제가 정한 것이 아닙니다. 설계하는 사람은 다만 이미 놓여 있는 하나님의 질서를 읽고, 그 질서에 순종하여 건물을 세울 뿐입니다.",
+          "en": "The one who designs did not invent the order. I did not make gravity. How light enters, how wood and stone bear a load and hold — I did not determine their nature. The designer only reads the order God has already laid down, and builds in obedience to it."
+        },
+        {
+          "ko": "그 질서를 어기면 어떻게 됩니까. 건물이 서지 않습니다. 무너집니다.",
+          "en": "And what happens if you violate that order? The building does not stand. It collapses."
+        },
+        {
+          "ko": "그런데 오늘 본문에는 전혀 다른 제작자가 나옵니다. 이 사람은 하나님의 질서를 읽지 않습니다. 오히려 우상을 지어냅니다. 그리고 자기가 지어낸 것 앞에 엎드려 절을 합니다. 겉으로 보면 똑같이 무언가를 만드는 일을 하는 것인데, 그 방향이 정반대인 것입니다.",
+          "en": "But in today's text a completely different maker appears. This man does not read God's order. Instead he manufactures an idol. And then he bows down before the thing he made. On the surface it looks like the same work of making something — yet the direction is exactly opposite."
+        },
+        {
+          "ko": "오늘 본문은 짧은 두 절입니다. 그런데 그 안에 증인석이 두 개 나옵니다. 8절에서 하나님은 말씀하십니다. \"너희는 나의 증인이라.\" 하나님의 증인석입니다. 그리고 9절에 또 다른 증인들이 나옵니다. \"그것의 증인들\" — 우상의 증인들입니다.",
+          "en": "Today's text is only two short verses. Yet within them stand two witness boxes. In verse 8 God says, “You are my witnesses.” That is God's witness box. And in verse 9 another set of witnesses appears — “their witnesses,” the witnesses of the idols."
+        },
+        {
+          "ko": "사랑하는 여러분, 성경은 이 둘 사이에 중간 자리를 두지 않습니다. 우리 모두는 이미 어느 한곳의 증인석에 서 있습니다. 하나님의 증인이 되든, 우상의 증인이 되든 둘 중 하나인 것입니다.",
+          "en": "Beloved, Scripture leaves no neutral ground between the two. Every one of us is already standing in one witness box or the other. Either a witness of God, or a witness of an idol — one of the two."
+        },
+        {
+          "ko": "그래서 오늘 세 가지를 여쭙고자 합니다. 첫째, 사람은 왜 우상을 만드는가. 둘째, 우상을 만든 사람은 어떻게 되는가. 셋째, 하나님은 자기의 증인을 어떻게 세우시는가.",
+          "en": "So today I want to ask three questions. First, why do people make idols? Second, what becomes of the one who makes an idol? Third, how does God establish his own witnesses?"
+        },
+        {
+          "ko": "1. 사람은 왜 우상을 만듭니까",
+          "en": "1. Why Do People Make Idols?",
+          "section": true
+        },
+        {
+          "ko": "9절은 이렇게 시작합니다. \"우상을 만드는 자는 다 허망하도다.\" 비웃기는 쉽습니다. 멀쩡한 어른이 나무토막을 깎아 놓고 그 앞에 엎드려 절을 합니다. 당연히 어리석어 보입니다. 그러나 비웃고 지나가면 오늘 말씀은 남의 이야기로 끝나고 맙니다.",
+          "en": "Verse 9 begins, “All who fashion idols are nothing.” It is easy to laugh. A grown man carves a block of wood and then bows down before it. Of course it looks foolish. But if we merely laugh and move on, today's word ends up being about someone else."
+        },
+        {
+          "ko": "물어야 합니다. 도대체 왜 사람이 저런 일을 하는가?",
+          "en": "We must ask: why on earth does a person do such a thing?"
+        },
+        {
+          "ko": "그런데 그 전에 짚어야 할 것이 있습니다. 우상이란 무엇입니까. 나무토막과 금덩이가 우상의 전부가 아닙니다.",
+          "en": "But before that, something must be settled. What is an idol? Blocks of wood and lumps of gold are not the whole of it."
+        },
+        {
+          "ko": "우상은 하나님을 찾지 못한 사람이 세운 대용품이 아닙니다. 우상은 하나님을 하나님으로 모시기 싫은 사람이 하나님 자리에 세운 대체물입니다.",
+          "en": "An idol is not a substitute erected by someone who could not find God. An idol is a replacement set up in God's place by someone unwilling to have God be God."
+        },
+        {
+          "ko": "사람은 하나님이 없어서 우상을 만드는 것이 아니라, 나를 다스리시는 하나님을 피하려고 내가 다룰 수 있는 신을 만드는 것입니다.",
+          "en": "People do not make idols because there is no God. They make a god they can manage in order to avoid the God who rules them."
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 우리 마음속을 그려 보시기 바랍니다. 하나님을 향한 길 하나만 곧게 나 있으면 되는 것입니다. 그런데 우리 마음은 그렇게 생기지 않았습니다. 수만 갈래 길이 얽히고설킨 미로와 같습니다. 그리고 그 길 끝마다 우상이 하나씩 서 있습니다. 길이 수만 갈래면, 우상도 수만 개인 것입니다.",
+          "en": "Dear brothers and sisters, picture your own heart. One straight road toward God would be enough. But our hearts are not built that way. They are a maze of tens of thousands of tangled paths. And at the end of each path stands an idol. If there are ten thousand roads, there are ten thousand idols."
+        },
+        {
+          "ko": "왜 수많은 인간은 하나님을 향한 그 한 길만 찾지 못합니까. 하나님께서 길을 감추셔서가 아닙니다. 우리의 욕심과 죄가 그 길을 향해 서는 것을 막기 때문입니다.",
+          "en": "Why can so many people not find that one road to God? Not because God hid it. Because our greed and our sin keep us from turning to face it."
+        },
+        {
+          "ko": "사람의 마음은 참 이상합니다. 하나님을 두려워하면서, 동시에 하나님을 피해 도망가고 싶어합니다. 동산에서 아담이 드린 첫 대답이 그것이었습니다.",
+          "en": "The human heart is a strange thing. It fears God and at the same time wants to run away from him. That was Adam's first answer in the garden."
+        },
+        {
+          "ko": "\"가로되 내가 동산에서 하나님의 소리를 듣고 내가 벗었으므로 두려워하여 숨었나이다\"(창 3:10)",
+          "en": "“And he said, ‘I heard the sound of you in the garden, and I was afraid, because I was naked, and I hid myself.’” (Genesis 3:10)"
+        },
+        {
+          "ko": "두려워하면서, 숨습니다. 왜 도망갑니까. 하나님이 원하시는 대로가 아니라 내 맘대로 살고 싶었기 때문입니다. 뱀이 처음 속삭인 말을 보십시오.",
+          "en": "Afraid — and hiding. Why run? Because he wanted to live his own way, not God's way. Look at what the serpent first whispered."
+        },
+        {
+          "ko": "\"너희가 그것을 먹는 날에는 너희 눈이 밝아 하나님과 같이 되어 선악을 알 줄을 하나님이 아심이니라\"(창 3:5)",
+          "en": "“For God knows that when you eat of it your eyes will be opened, and you will be like God, knowing good and evil.” (Genesis 3:5)"
+        },
+        {
+          "ko": "하나님과 같이 된다 — 내가 내 인생의 하나님이 되고 싶은 것입니다. 그래서 참 하나님을 향한 그 한 길은 애써 피하면서, 마음속에 수만 갈래 샛길을 냅니다. 그리고 그 샛길 끝마다 우상이 한 자리씩 차지합니다.",
+          "en": "You will be like God — I want to be the god of my own life. And so, carefully avoiding the one road to the true God, we cut ten thousand side paths in our hearts. And at the end of each side path an idol takes its seat."
+        },
+        {
+          "ko": "그러면 이 미로는 어떻게 해서 생겨납니까. 성경이 그 이유를 알려 줍니다.",
+          "en": "So how does this maze come into being? Scripture tells us why."
+        },
+        {
+          "ko": "첫째, 사람은 예배하도록 지음받았기 때문입니다.",
+          "en": "First, because human beings were made to worship."
+        },
+        {
+          "ko": "전도서 3장 11절은 이렇게 말씀하십니다.",
+          "en": "Ecclesiastes 3:11 says this:"
+        },
+        {
+          "ko": "\"하나님이 모든 것을 지으시되 때를 따라 아름답게 하셨고 또 사람에게 영원을 사모하는 마음을 주셨느니라\"(전 3:11)",
+          "en": "“He has made everything beautiful in its time. Also, he has put eternity into man's heart.” (Ecclesiastes 3:11)"
+        },
+        {
+          "ko": "영원을 사모하는 마음을 주셨기에, 사람의 마음은 빈 채로 있을 수 없습니다. 하나님이 채워 주셔야 할 자리가 있기 때문입니다. 하나님은 예레미야를 통해 이렇게 말씀하셨습니다.",
+          "en": "Because he has put eternity in our hearts, the human heart cannot stay empty. There is a place in it that only God can fill. Through Jeremiah God said this:"
+        },
+        {
+          "ko": "\"내 백성이 두 가지 악을 행하였나니 곧 생수의 근원되는 나를 버린 것과 스스로 웅덩이를 판 것인데 그것은 물을 저축지 못할 터진 웅덩이니라\"(렘 2:13)",
+          "en": "“My people have committed two evils: they have forsaken me, the fountain of living waters, and hewed out cisterns for themselves, broken cisterns that can hold no water.” (Jeremiah 2:13)"
+        },
+        {
+          "ko": "하나님을 버린 것에서 죄가 끝나지 않았습니다. 샘을 버린 사람은 반드시 웅덩이를 팝니다. 로마서도 똑같이 말씀합니다.",
+          "en": "The sin did not stop at forsaking God. Whoever abandons the fountain will inevitably dig a cistern. Romans says the same thing."
+        },
+        {
+          "ko": "\"썩어지지 아니하는 하나님의 영광을 썩어질 사람과 금수와 버러지 형상의 우상으로 바꾸었느니라\"(롬 1:23)",
+          "en": "“And exchanged the glory of the immortal God for images resembling mortal man and birds and animals and creeping things.” (Romans 1:23)"
+        },
+        {
+          "ko": "동사를 보십시오. '버렸다'가 아닙니다. \"바꾸었느니라\"입니다.",
+          "en": "Look at the verb. It is not “abandoned.” It is “exchanged.”"
+        },
+        {
+          "ko": "사람은 예배를 끊을 수 없습니다. 다만 그 대상을 바꿀 수 있을 뿐인 것입니다.",
+          "en": "A human being cannot stop worshiping. He can only change the object of his worship."
+        },
+        {
+          "ko": "둘째, 참 하나님은 내 마음대로 되지 않기 때문입니다.",
+          "en": "Second, because the true God will not bend to my will."
+        },
+        {
+          "ko": "호렙산에서의 일을 모세는 이렇게 회고합니다.",
+          "en": "Moses recalls what happened at Horeb this way:"
+        },
+        {
+          "ko": "\"여호와께서 화염 중에서 너희에게 말씀하시되 음성 뿐이므로 너희가 그 말소리만 듣고 형상은 보지 못하였느니라\"(신 4:12)",
+          "en": "“Then the LORD spoke to you out of the midst of the fire. You heard the sound of words, but saw no form; there was only a voice.” (Deuteronomy 4:12)"
+        },
+        {
+          "ko": "참 하나님은 보이지 않으십니다. 그리고 어떤 때는 더디게 느껴지십니다. 백성은 언제 금송아지를 만들었습니까.",
+          "en": "The true God is unseen. And at times he feels slow. When did the people make the golden calf?"
+        },
+        {
+          "ko": "\"백성이 모세가 산에서 내려옴이 더딤을 보고 모여 아론에게 이르러 가로되 일어나라 우리를 인도할 신을 우리를 위하여 만들라\"(출 32:1)",
+          "en": "“When the people saw that Moses delayed to come down from the mountain, the people gathered themselves together to Aaron and said to him, ‘Up, make us gods who shall go before us.’” (Exodus 32:1)"
+        },
+        {
+          "ko": "더딤을 보고 — 하나님이 더디시다고 느껴지는 그 순간, 사람의 손이 움직이기 시작한 것입니다.",
+          "en": "When they saw the delay — the moment God feels slow to us, the human hand starts to move."
+        },
+        {
+          "ko": "그리고 참 하나님은 나를 다스리려 하십니다. 그런데 사람이 만든 신은 정반대입니다. 본문 13절입니다.",
+          "en": "And the true God intends to rule me. But a god made by human hands is the exact opposite. Here is verse 13 of our chapter."
+        },
+        {
+          "ko": "\"목공은 줄을 늘여 재고 붓으로 긋고 대패로 밀고 정규로 그어 사람의 아름다움을 따라 인형을 새겨 집에 두게 하며\"(사 44:13)",
+          "en": "“The carpenter stretches a line; he marks it out with a pencil. He shapes it with planes and marks it with a compass. He shapes it into the figure of a man, with the beauty of a man, to dwell in a house.” (Isaiah 44:13)"
+        },
+        {
+          "ko": "사람의 아름다움을 따라 — 내 마음에 드는 모양대로 깎는 것입니다. 그리고 17절입니다.",
+          "en": "With the beauty of a man — carved into whatever shape pleases me. And then verse 17."
+        },
+        {
+          "ko": "\"그 앞에 부복하여 경배하며 그것에게 기도하여 이르기를 너는 나의 신이니 나를 구원하라 하는도다\"(사 44:17)",
+          "en": "“He falls down before it and worships; he prays to it and says, ‘Deliver me, for you are my god!’” (Isaiah 44:17)"
+        },
+        {
+          "ko": "내가 주문한 모양대로 만들어지고, 내가 부르면 응답해야 하는 신입니다. 살아 계신 하나님은 나를 다스리시지만, 만든 신은 내가 다스립니다.",
+          "en": "A god made to my order, a god who must answer when I call. The living God rules me; the god I made, I rule."
+        },
+        {
+          "ko": "사람이 우상을 만드는 것은 어리석어서가 아니라, 다스림받기 싫어서입니다. 내가 주인 노릇 하는 그 신이 과연 나를 구원할 수 있겠습니까.",
+          "en": "People make idols not because they are stupid but because they refuse to be ruled. Can a god over whom I play master ever save me?"
+        },
+        {
+          "ko": "셋째, 인간의 두려움이 우상을 만드는 것입니다.",
+          "en": "Third, it is human fear that makes idols."
+        },
+        {
+          "ko": "오늘 본문 8절이 어떻게 시작하는지 보셨습니까. \"너희는 두려워 말며 겁내지 말라.\" 하나님은 증인을 세우시기 전에 먼저 두려움부터 말씀하십니다. 왜 그렇습니까. 우상이 태어나는 자리가 바로 두려움이기 때문입니다.",
+          "en": "Did you notice how verse 8 begins? “Fear not, nor be afraid.” Before God establishes his witnesses, he first addresses their fear. Why? Because fear is the very womb in which idols are born."
+        },
+        {
+          "ko": "불안한 마음은 지금 당장 확인할 수 있는 보증을 찾습니다. 본문에 나오는 우상의 재료를 보십시오. 은이요 금이요 철이요 나무 — 전부 눈에 보이고 손에 만져지는 것들입니다.",
+          "en": "An anxious heart looks for a guarantee it can verify right now. Look at the materials of the idols in our text — silver, gold, iron, wood. Every one of them visible to the eye and solid to the touch."
+        },
+        {
+          "ko": "그러면 오늘 우리 시대의 우상은 무엇입니까. 반드시 손에 잡히지는 않습니다. 그러나 언제나 즉시 확인됩니다. 돈이 그렇습니다. 통장의 숫자는 눈으로 확인됩니다. 성공도, 사람의 인정도 그렇습니다.",
+          "en": "So what are the idols of our own day? They are not necessarily things you can hold. But they can always be checked immediately. Money is like that — the number in the account can be verified with the eye. So can success. So can the approval of people."
+        },
+        {
+          "ko": "보이지 않는 하나님을 기다리는 대신, 지금 당장 확인되는 보증을 움켜쥐는 것 — 그것이 우상의 시작인 것입니다.",
+          "en": "Instead of waiting for the God we cannot see, we clutch a guarantee we can verify this instant — that is where idolatry begins."
+        },
+        {
+          "ko": "그리고 여기서 무서운 일이 시작됩니다. 사람은 자기가 만든 것을 닮아 갑니다.",
+          "en": "And here is where the terrible thing begins. A person comes to resemble what he has made."
+        },
+        {
+          "ko": "시편 115편은 우상을 이렇게 노래합니다.",
+          "en": "Psalm 115 sings of idols this way:"
+        },
+        {
+          "ko": "\"저희 우상은 은과 금이요 사람의 수공물이라 입이 있어도 말하지 못하며 눈이 있어도 보지 못하며 귀가 있어도 듣지 못하며\"(시 115:4–6)",
+          "en": "“Their idols are silver and gold, the work of human hands. They have mouths, but do not speak; eyes, but do not see. They have ears, but do not hear.” (Psalm 115:4–6)"
+        },
+        {
+          "ko": "그리고 이렇게 끝을 맺습니다.",
+          "en": "And it ends like this:"
+        },
+        {
+          "ko": "\"우상을 만드는 자와 그것을 의지하는 자가 다 그와 같으리로다\"(시 115:8)",
+          "en": "“Those who make them become like them; so do all who trust in them.” (Psalm 115:8)"
+        },
+        {
+          "ko": "눈 없는 신을 섬기면 보지 못하는 사람이 됩니다. 그래서 9절이 말씀하는 것입니다. \"그것의 증인들은 보지도 못하며 알지도 못하니.\"",
+          "en": "Serve a god with no eyes and you become a person who cannot see. That is why verse 9 says, “Their witnesses neither see nor know.”"
+        },
+        {
+          "ko": "정리하겠습니다. 우상은 무신론자가 만드는 것이 아닙니다. 인간은 하나님에 대한 예배를 멈출 수 없는데 참 하나님을 기다리지 못하는 사람이 만드는 것입니다.",
+          "en": "Let me summarize. Idols are not made by atheists. They are made by people who cannot stop worshiping God and yet cannot wait for the true God."
+        },
+        {
+          "ko": "그러므로 오늘 우리의 질문은 \"나는 우상이 없습니까\"가 아닙니다. \"내가 두려울 때 내 손이 가장 먼저 가서 쥐는 것이 무엇입니까.\" 그것이 우리의 질문입니다.",
+          "en": "So our question today is not “Do I have any idols?” It is this: “When I am afraid, what does my hand reach for first?” That is our question."
+        },
+        {
+          "ko": "2. 만든 사람은 자기가 속은 줄도 모릅니다",
+          "en": "2. The Maker Does Not Even Know He Has Been Deceived",
+          "section": true
+        },
+        {
+          "ko": "이제 두 번째입니다. 그렇다면 우상을 만든 사람은 어떻게 됩니까.",
+          "en": "Now the second point. What, then, becomes of the one who makes an idol?"
+        },
+        {
+          "ko": "본문 앞뒤를 보면 이 목공은 무능한 사람이 아닙니다. 12절과 13절이 그의 기술을 그립니다. 줄을 늘여 재고, 붓으로 긋고, 대패로 밀고, 정규로 긋습니다. 오늘로 말하면 자와 먹줄과 컴퍼스를 제대로 다룰 줄 아는 숙련공입니다. 그런데 18절이 말씀합니다.",
+          "en": "Look at the surrounding verses and you see this carpenter is no incompetent. Verses 12 and 13 describe his skill — he stretches a line, marks with a pencil, shapes with planes, marks with a compass. In today's terms, a craftsman who knows how to handle a rule, a chalk line and a compass. And yet verse 18 says:"
+        },
+        {
+          "ko": "\"그들이 알지도 못하고 깨닫지도 못함은 그 눈이 가리워져서 보지 못하며 그 마음이 어두워져서 깨닫지 못함이라\"(사 44:18)",
+          "en": "“They know not, nor do they discern, for he has shut their eyes, so that they cannot see, and their hearts, so that they cannot understand.” (Isaiah 44:18)"
+        },
+        {
+          "ko": "솜씨 좋은 손과 눈먼 마음이 한 사람 안에 있습니다. 문제는 기술이 아니라 눈입니다. 그래서 이 병은 배운다고 낫지 않습니다. 로마서는 말씀하십니다. \"스스로 지혜 있다 하나 우준하게 되어\"(롬 1:22). 기술은 늘어도, 눈은 그대로인 것입니다.",
+          "en": "A skilled hand and a blind heart in the same man. The problem is not his craft but his eyes. And so this disease is not cured by education. Romans says, “Claiming to be wise, they became fools” (Romans 1:22). The skill improves; the eyes stay the same."
+        },
+        {
+          "ko": "그리고 20절이 이 병의 마지막 단계를 보여 줍니다.",
+          "en": "And verse 20 shows us the final stage of this disease."
+        },
+        {
+          "ko": "\"그는 재를 먹고 미혹한 마음에 미혹되어서 스스로 그 영혼을 구원하지 못하며 나의 오른손에 거짓 것이 있지 아니하냐 하지도 못하느니라\"(사 44:20)",
+          "en": "“He feeds on ashes; a deluded heart has led him astray, and he cannot deliver himself or say, ‘Is there not a lie in my right hand?’” (Isaiah 44:20)"
+        },
+        {
+          "ko": "여기서 제일 무서운 말이 무엇입니까. \"하지도 못하느니라\"입니다. 지금 내 오른손에 있는 이것이 혹시 거짓이 아닌가 — 그 한 마디를 묻지 못합니다. 아니, 물을 생각조차 나지 않는 것입니다. 미혹된 마음이 그를 속여서, 의심 자체를 지워 버린 것입니다.",
+          "en": "What is the most terrifying phrase here? “He cannot say it.” Is this thing in my right hand perhaps a lie — he cannot ask that one question. No: it does not even occur to him to ask. The deluded heart has deceived him and erased the very possibility of doubt."
+        },
+        {
+          "ko": "우상은 우리 손에 붙들리는 물건이 아닙니다. 오래 붙들고 있으면, 도리어 우리의 눈과 마음을 붙들어 버리는 것입니다.",
+          "en": "An idol is not an object our hand grips. Hold it long enough and it grips our eyes and our heart instead."
+        },
+        {
+          "ko": "사람이 어떻게 이 자리까지 갑니까. 한 번에 가지 않습니다. 합리화의 계단을 밟아 내려가는 것입니다. 사람이 우상을 만들 때는 자기를 설득할 명분부터 만듭니다. 그런데 그 명분이 놀랍게도 대개 하나님의 이름으로 되어 있습니다.",
+          "en": "How does a person get to this place? Not in one step. He walks down a staircase of rationalizations. When a person makes an idol, he first manufactures a justification to convince himself. And astonishingly, that justification is usually made in God's name."
+        },
+        {
+          "ko": "\"나는 돈으로 하나님께 영광을 돌릴 것입니다.\" \"나는 이 자리에 올라가서 하나님의 일을 할 것입니다.\" 말은 전부 하나님을 향해 있습니다. 그러나 마음이 실제로 향해 있는 곳은 돈이요, 자리요, 성공입니다.",
+          "en": "“I will glorify God with this money.” “I will climb to this position and do God's work there.” Every word points toward God. But where the heart actually points is money, position, success."
+        },
+        {
+          "ko": "사울 왕이 그랬습니다. 아말렉을 진멸하라는 명령을 받고도 가장 좋은 양과 소를 남겨 두고서, 사무엘에게 이렇게 대답하였습니다.",
+          "en": "King Saul did exactly this. Commanded to devote Amalek to destruction, he kept back the best of the sheep and oxen, and answered Samuel this way:"
+        },
+        {
+          "ko": "\"그것은 무리가 아말렉 사람에게서 끌어 온 것인데 백성이 당신의 하나님 여호와께 제사하려 하여 양과 소의 가장 좋은 것을 남김이요\"(삼상 15:15)",
+          "en": "“They have brought them from the Amalekites, for the people spared the best of the sheep and of the oxen to sacrifice to the LORD your God.” (1 Samuel 15:15)"
+        },
+        {
+          "ko": "제사하려 하였다는 것입니다. 불순종을 예배로 포장한 것입니다. 사무엘의 진단을 들어 보시기 바랍니다.",
+          "en": "To sacrifice, he said. He wrapped disobedience in the packaging of worship. Listen to Samuel's diagnosis."
+        },
+        {
+          "ko": "\"이는 거역하는 것은 사술의 죄와 같고 완고한 것은 사신 우상에게 절하는 죄와 같음이라\"(삼상 15:23)",
+          "en": "“For rebellion is as the sin of divination, and presumption is as iniquity and idolatry.” (1 Samuel 15:23)"
+        },
+        {
+          "ko": "완고한 것은 우상에게 절하는 죄와 같다 — 하나님의 이름으로 포장한 내 고집을, 성경은 우상숭배라고 부르는 것입니다.",
+          "en": "Stubbornness is as the sin of idolatry — my own willfulness, wrapped in God's name, is what Scripture calls idol worship."
+        },
+        {
+          "ko": "그런데 정말 무서운 것은 그 다음입니다. 포장을 오래 하다 보면, 어느 날부터는 자기가 그 포장을 정말로 믿어 버립니다. 처음에는 명분인 줄 알면서 말했는데, 나중에는 정말로 그렇게 믿는 것입니다. 거짓말이 진심이 되어 버린 것입니다. 주님은 말씀하셨습니다.",
+          "en": "But what comes next is truly frightening. Keep up the packaging long enough and one day you begin to believe the packaging yourself. At first you spoke it knowing it was a pretext; later you genuinely believe it. The lie has become sincerity. The Lord said:"
+        },
+        {
+          "ko": "\"때가 이르면 무릇 너희를 죽이는 자가 생각하기를 이것이 하나님을 섬기는 예라 하리라\"(요 16:2)",
+          "en": "“Indeed, the hour is coming when whoever kills you will think he is offering service to God.” (John 16:2)"
+        },
+        {
+          "ko": "하나님의 아들의 제자들을 죽이면서, 그것이 하나님을 섬기는 일이라고 진심으로 믿는 자리까지 사람이 갈 수 있습니다. 바로 그 자리가 20절입니다. 물을 수 없는 이유가 무엇입니까. 자기 안에서는 이미 그것이 '하나님을 위한 일'이 되어 있기 때문입니다.",
+          "en": "A person can go so far as to kill the disciples of God's Son and sincerely believe he is serving God. That is precisely the place verse 20 describes. Why can he not ask the question? Because within himself it has already become “a work for God.”"
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 그런데 이것이 남의 이야기입니까. 우리는 나무를 깎아 우상을 만들지는 않습니다. 우리는 주일마다 이 자리에서 하나님을 시인합니다. 그런데 성경에 이런 말씀이 있습니다.",
+          "en": "Dear brothers and sisters — but is this someone else's story? We do not carve idols out of wood. Every Lord's Day we confess God in this place. Yet Scripture says this:"
+        },
+        {
+          "ko": "\"저희가 하나님을 시인하나 행위로는 부인하니 가증한 자요 복종치 아니하는 자요 모든 선한 일을 버리는 자니라\"(딛 1:16)",
+          "en": "“They profess to know God, but they deny him by their works. They are detestable, disobedient, unfit for any good work.” (Titus 1:16)"
+        },
+        {
+          "ko": "하나님을 안다고 고백하는 사람들조차도 입의 증언과 삶의 증언이 갈라질 수 있다는 것입니다. 입으로는 \"하나님이 모든 것을 다스리십니다\" 고백하면서, 걱정은 모든 것이 운에 달린 사람처럼 합니다. 주님은 말씀하셨습니다.",
+          "en": "Even those who confess that they know God can have the testimony of their lips split from the testimony of their lives. With the mouth we confess, “God rules over everything,” while we worry like people for whom everything depends on luck. The Lord said:"
+        },
+        {
+          "ko": "\"참새 두 마리가 한 앗사리온에 팔리는 것이 아니냐 그러나 너희 아버지께서 허락지 아니하시면 그 하나라도 땅에 떨어지지 아니하리라\"(마 10:29)",
+          "en": "“Are not two sparrows sold for a penny? And not one of them will fall to the ground apart from your Father.” (Matthew 10:29)"
+        },
+        {
+          "ko": "참새 한 마리까지 아버지의 손 안에 있다고 정말 믿는다면, 그 사람의 걱정은 달라야 하지 않겠습니까. 물론 믿는 사람에게 걱정이 전혀 생기지 않는다는 뜻이 아닙니다. 다만 믿는 사람은 그 걱정을 혼자 붙들고 있지 않고, 그 걱정을 들고 아버지께로 돌아가는 것입니다.",
+          "en": "If we truly believe that even a single sparrow is in the Father's hand, should our worrying not look different? Of course this does not mean a believer never worries. It means the believer does not hold that worry alone, but carries it back to the Father."
+        },
+        {
+          "ko": "시편은 말씀하십니다. \"어리석은 자는 그 마음에 이르기를 하나님이 없다 하도다\"(시 14:1). 입으로 하는 부인이 아니라, 삶으로 하는 부인이 있는 것입니다.",
+          "en": "The Psalm says, “The fool says in his heart, ‘There is no God’” (Psalm 14:1). There is a denial made not with the lips but with the life."
+        },
+        {
+          "ko": "우리가 주일의 고백과 월요일의 계산이 서로 다른 삶을 살아갈 때 — 그때 우리는 나무토막으로 만들어진 우상 없이도 우상의 증인석에 앉아 있는 것입니다.",
+          "en": "When Sunday's confession and Monday's calculations belong to two different lives — in that moment we are seated in the idol's witness box without ever having carved a block of wood."
+        },
+        {
+          "ko": "그리고 9절은 그 증인석의 끝을 말씀합니다. \"그러므로 수치를 당하리라.\" 우상은 자기 증인을 지켜 주지 못합니다. 사람이 만들어 낸 가짜이기 때문입니다. 17절에서 우상에게 부르짖던 그 기도에는 끝내 응답이 없었습니다.",
+          "en": "And verse 9 tells us how that witness box ends: “that they may be put to shame.” An idol cannot protect its own witnesses, because it is a counterfeit made by human hands. The prayer cried out to the idol in verse 17 was never answered."
+        },
+        {
+          "ko": "그러므로 두 가지를 여쭙습니다.",
+          "en": "So I put two questions to you."
+        },
+        {
+          "ko": "첫째, 내 오른손의 그것 — 내가 의지하고, 자랑하고, 차마 내려놓지 못하는 그것 — 을 향해 \"혹시 거짓 아니냐\" 물을 수 있습니까. 오늘 그 질문이 여러분 마음에 일어난다면, 그것은 여러분이 스스로 낸 용기가 아니라 성령께서 여러분 안에서 하시는 일입니다. 그러므로 그 질문이 살아 있는 자리가 은혜의 자리인 것입니다.",
+          "en": "First, that thing in your right hand — the thing you lean on, boast in, and cannot bring yourself to set down — can you ask it, “Are you perhaps a lie?” If that question rises in your heart today, it is not courage you produced yourself; it is the Holy Spirit at work within you. Where that question is still alive is a place of grace."
+        },
+        {
+          "ko": "둘째, 이번 한 주간 나의 달력과 나의 걱정은 무엇을 증언하였습니까.",
+          "en": "Second, this past week, what did your calendar and your worries bear witness to?"
+        },
+        {
+          "ko": "제가 지은 건물도, 여러분이 평생 이루어 놓은 것도, 하나님께서 주신 좋은 선물입니다. 그러나 그것이 하나님의 자리를 차지하는 순간 우상이 되고, 우리를 사로잡는 그 우상성은 반드시 깨뜨려야 하는 것입니다. 하나님이 명하셔서 만들어진 모세의 놋뱀조차, 사람들이 분향하기 시작하자 히스기야가 부수며 \"느후스단\" 곧 놋조각이라 불렀습니다(왕하 18:4).",
+          "en": "The buildings I have built, and everything you have achieved in a lifetime, are good gifts from God. But the moment they occupy God's place they become idols, and the idolatry that captures us must be broken. Even Moses' bronze serpent, made at God's own command, was smashed by Hezekiah when the people began burning incense to it, and he called it “Nehushtan” — a piece of bronze (2 Kings 18:4)."
+        },
+        {
+          "ko": "경계선은 물건에 있지 않습니다. 우리 마음의 방향에 있는 것입니다.",
+          "en": "The boundary line is not in the object. It is in the direction of our heart."
+        },
+        {
+          "ko": "3. 하나님은 말씀하시고 이루심으로 증인을 세우십니다",
+          "en": "3. God Establishes His Witnesses by Speaking and by Fulfilling",
+          "section": true
+        },
+        {
+          "ko": "이제 마지막입니다. 그러면 하나님의 증인석에는 어떻게 서게 됩니까.",
+          "en": "Now the last point. How, then, does one come to stand in God's witness box?"
+        },
+        {
+          "ko": "8절을 다시 한번 통째로 들어 보시기 바랍니다.",
+          "en": "Listen once more to the whole of verse 8."
+        },
+        {
+          "ko": "\"너희는 두려워 말며 겁내지 말라 내가 예로부터 너희에게 들리지 아니하였느냐 고하지 아니하였느냐 너희는 나의 증인이라 나 외에 신이 있겠느냐 과연 반석이 없나니 다른 신이 있음을 알지 못하노라\"(사 44:8)",
+          "en": "“Fear not, nor be afraid; have I not told you from of old and declared it? And you are my witnesses! Is there a God besides me? There is no Rock; I know not any.” (Isaiah 44:8)"
+        },
+        {
+          "ko": "이 말씀의 순서가 은혜입니다. 먼저 두려움을 만져 주시고 — \"두려워 말며 겁내지 말라\" — 그 근거를 대십니다. \"내가 예로부터 너희에게 들리지 아니하였느냐, 고하지 아니하였느냐.\"",
+          "en": "The order of this word is grace itself. First he touches the fear — “Fear not, nor be afraid” — and then he gives the ground for it: “Have I not told you from of old and declared it?”"
+        },
+        {
+          "ko": "사랑하는 여러분, 여기에 증인의 자격이 적혀 있습니다. 하나님의 증인은 자기가 느낀 것을 말하는 사람이 아닙니다. 하나님께서 미리 말씀하셨고, 말씀하신 그대로 이루셨고, 그 말씀과 그 이루심을 받은 사람이 하나님의 증인입니다. 이사야 43장이 이것을 더 분명히 말씀합니다.",
+          "en": "Beloved, here is written the qualification of a witness. God's witness is not someone who reports what he felt. God's witness is one who received the word God spoke beforehand, and the fulfillment exactly as he spoke it. Isaiah 43 says this even more plainly."
+        },
+        {
+          "ko": "\"내가 고하였으며 구원하였으며 보였고 너희 중에 다른 신이 없었나니 그러므로 너희는 나의 증인이요 나는 하나님이니라\"(사 43:12)",
+          "en": "“I declared and saved and proclaimed, when there was no strange god among you; and you are my witnesses,” declares the LORD, “and I am God.” (Isaiah 43:12)"
+        },
+        {
+          "ko": "고하시고, 구원하시고, 보이셨습니다. 그러므로 증인인 것입니다. 그러니 우리의 증언은 \"내가 이렇게 느꼈습니다\"에서 시작하지 않습니다. 하나님이 무엇을 말씀하셨고, 그리스도 안에서 무엇을 이루셨는가 — 그것이 우리의 증언입니다.",
+          "en": "He declared, he saved, he proclaimed. Therefore you are witnesses. So our testimony does not begin with “this is how I felt.” What God has spoken, and what he has accomplished in Christ — that is our testimony."
+        },
+        {
+          "ko": "우상의 증인은 보이는 것을 쥐고도 보지 못하는데, 하나님의 증인은 눈앞에 보이지 않아도 하나님이 말씀하시고 이루신 그 구원을 들었기에 목숨을 다해 증언하는 것입니다. 성경은 말씀하십니다. \"그러므로 믿음은 들음에서 나며 들음은 그리스도의 말씀으로 말미암았느니라\"(롬 10:17).",
+          "en": "The idol's witness holds something visible and still cannot see; God's witness sees nothing before his eyes and yet testifies with his whole life, because he has heard the salvation God spoke and accomplished. Scripture says, “So faith comes from hearing, and hearing through the word of Christ” (Romans 10:17)."
+        },
+        {
+          "ko": "그런데 하나님은 들려주시는 데서 멈추지 않으십니다. 우리의 눈까지 고치십니다. 우리의 문제는 하나님을 향해 지음받은 마음이 사라진 것이 아니라, 그 마음이 다른 데로 굽어 있는 것이었습니다. 그렇다면 해법은 더 큰 증거가 아닙니다. 증거는 이미 충분합니다. 성경은 말씀하십니다.",
+          "en": "But God does not stop at letting us hear. He heals our eyes as well. Our problem was never that the heart made for God had disappeared, but that it was bent toward something else. If so, the remedy is not more evidence. The evidence is already sufficient. Scripture says:"
+        },
+        {
+          "ko": "\"어두운데서 빛이 비취리라 하시던 그 하나님께서 예수 그리스도의 얼굴에 있는 하나님의 영광을 아는 빛을 우리 마음에 비취셨느니라\"(고후 4:6)",
+          "en": "“For God, who said, ‘Let light shine out of darkness,’ has shone in our hearts to give the light of the knowledge of the glory of God in the face of Jesus Christ.” (2 Corinthians 4:6)"
+        },
+        {
+          "ko": "천지를 창조하실 때 어둠을 향해 빛을 부르신 그 하나님이, 이번에는 우리 마음 안에 빛을 부르십니다. 보는 눈 자체를 새로 지으시는 것입니다.",
+          "en": "The same God who called light out of darkness at creation now calls light into our hearts. He creates the seeing eye itself anew."
+        },
+        {
+          "ko": "그 빛은 우리 마음을 비추어, 무엇을 보게 합니까. 예수 그리스도의 얼굴입니다.",
+          "en": "And what does that light, shining into our hearts, let us see? The face of Jesus Christ."
+        },
+        {
+          "ko": "그리고 증인이 증언할 내용을 주십니다. 22절입니다.",
+          "en": "And he gives the witness the content of his testimony. Here is verse 22."
+        },
+        {
+          "ko": "\"내가 네 허물을 빽빽한 구름의 사라짐 같이, 네 죄를 안개의 사라짐 같이 도말하였으니 너는 내게로 돌아오라 내가 너를 구속하였음이니라\"(사 44:22)",
+          "en": "“I have blotted out your transgressions like a cloud and your sins like mist; return to me, for I have redeemed you.” (Isaiah 44:22)"
+        },
+        {
+          "ko": "순서를 보시기 바랍니다. \"돌아오면 구속하겠다\"가 아닙니다. \"내가 너를 구속하였음이니라\" — 이미 이루신 일입니다. 값은 치러졌고, 우리가 돌아옴은 그 결과입니다. 그 값이 무엇입니까. 베드로는 말씀합니다.",
+          "en": "Notice the order. It does not say, “Return, and I will redeem you.” It says, “I have redeemed you” — a finished work. The price has been paid, and our returning is the result. What was that price? Peter tells us."
+        },
+        {
+          "ko": "\"너희 조상의 유전한 망령된 행실에서 구속된 것은 은이나 금 같이 없어질 것으로 한 것이 아니요 오직 흠 없고 점 없는 어린양 같은 그리스도의 보배로운 피로 한 것이니라\"(벧전 1:18–19)",
+          "en": "“You were ransomed from the futile ways inherited from your forefathers, not with perishable things such as silver or gold, but with the precious blood of Christ, like that of a lamb without blemish or spot.” (1 Peter 1:18–19)"
+        },
+        {
+          "ko": "이 대조를 보시기 바랍니다. 사람은 은과 금으로 구원할 수 없는 신을 만들었습니다. 그러나 하나님은 은과 금이 아니라 아들의 피로 사람을 사신 것입니다.",
+          "en": "See the contrast. With silver and gold humanity manufactured a god that cannot save. But God purchased humanity — not with silver and gold, but with the blood of his Son."
+        },
+        {
+          "ko": "8절 끝에 하나님은 이렇게 말씀하셨습니다. \"과연 반석이 없나니.\" 이사야가 반석이라 부르는 분은 여호와 하나님이십니다. 그런데 같은 장 6절에서 하나님은 자기를 이렇게 부르셨습니다. \"나는 처음이요 나는 마지막이라 나 외에 다른 신이 없느니라\"(사 44:6).",
+          "en": "At the end of verse 8 God says, “There is no Rock.” The one Isaiah calls the Rock is the LORD God. And in verse 6 of the same chapter God names himself: “I am the first and I am the last; besides me there is no god” (Isaiah 44:6)."
+        },
+        {
+          "ko": "그러면 요한계시록에서 그 이름을 누가 자기 이름으로 쓰십니까. \"나는 처음이요 나중이니\"(계 1:17) — 부활하신 예수 그리스도이십니다. 그래서 바울은 광야의 이스라엘을 두고 말씀합니다. \"저희를 따르는 신령한 반석으로부터 마셨으매 그 반석은 곧 그리스도시라\"(고전 10:4).",
+          "en": "So who takes that name as his own in the book of Revelation? “I am the first and the last” (Revelation 1:17) — the risen Jesus Christ. And so Paul says of Israel in the wilderness, “They drank from the spiritual Rock that followed them, and the Rock was Christ” (1 Corinthians 10:4)."
+        },
+        {
+          "ko": "요한계시록은 주님을 이렇게 소개합니다.",
+          "en": "Revelation introduces the Lord this way:"
+        },
+        {
+          "ko": "\"또 충성된 증인으로 죽은 자들 가운데서 먼저 나시고 땅의 임금들의 머리가 되신 예수 그리스도 … 우리를 사랑하사 그의 피로 우리 죄에서 우리를 해방하시고\"(계 1:5)",
+          "en": "“And from Jesus Christ the faithful witness, the firstborn of the dead, and the ruler of kings on earth … who loves us and has freed us from our sins by his blood.” (Revelation 1:5)"
+        },
+        {
+          "ko": "충성된 증인 — 우리의 증언은 우리의 확신 위에 서 있지 않습니다. 죽기까지 신실하셨고 죽음에서 살아나신 그 충성된 증인 위에 서 있는 것입니다. 그래서 흔들리지 않는 것입니다.",
+          "en": "The faithful witness — our testimony does not rest on our own conviction. It rests on that faithful Witness who was faithful unto death and who rose from the dead. That is why it does not shake."
+        },
+        {
+          "ko": "결론 — 증인의 노래",
+          "en": "Conclusion — The Song of the Witness",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 오늘 말씀을 정리합니다. 우상의 증인은 보지도 못하고 알지도 못하여 마침내 수치에 이릅니다. 하나님의 증인은 하나님이 말씀하시고 이루신 구원을 들었기에 두려움에 매이지 않습니다. 그리고 그 증언의 반석은 예수 그리스도이십니다.",
+          "en": "Dear brothers and sisters, let me gather up today's word. The idol's witnesses neither see nor know, and they come at last to shame. God's witnesses are not bound by fear, because they have heard the salvation God spoke and accomplished. And the Rock of that testimony is Jesus Christ."
+        },
+        {
+          "ko": "이사야 44장이 어떻게 끝나는지 아십니까. 23절입니다.",
+          "en": "Do you know how Isaiah 44 ends? Here is verse 23."
+        },
+        {
+          "ko": "\"여호와께서 이 일을 행하셨으니 하늘아 노래할찌어다 땅의 깊은 곳들아 높이 부를찌어다 산들아 삼림과 그 가운데 모든 나무들아 소리내어 노래할찌어다 여호와께서 야곱을 구속하셨으니\"(사 44:23)",
+          "en": "“Sing, O heavens, for the LORD has done it; shout, O depths of the earth; break forth into singing, O mountains, O forest, and every tree in it! For the LORD has redeemed Jacob.” (Isaiah 44:23)"
+        },
+        {
+          "ko": "찬양의 노래로 끝납니다. 구속받은 증인의 노래입니다. 우상의 증인석의 끝은 바닥이 없는 수치인데, 하나님의 증인석의 끝은 한계가 없는 노래인 것입니다.",
+          "en": "It ends with a song of praise — the song of the redeemed witness. The end of the idol's witness box is shame without a floor; the end of God's witness box is song without a limit."
+        },
+        {
+          "ko": "어제 우리는 한 증인을 기억했습니다. 돌아가신 로렌스 형제님이십니다.",
+          "en": "Yesterday we remembered one such witness — our departed brother Lawrence."
+        },
+        {
+          "ko": "우리 형제님은 목소리가 닫히고 손이 굳어 가는 중에도, 마지막 남은 힘으로 주님의 말씀에 \"아멘\"으로 화답하셨습니다. 그때 형제님의 눈앞에 무엇이 보였겠습니까. 회복도, 손에 잡히는 보증도 없었습니다. 보이는 것은 모두 희망의 반대편을 가리키고 있었습니다. 그런데도 형제님은 귀에 들린 하나님의 그 말씀 하나를 끝까지 붙드셨습니다.",
+          "en": "Even as his voice closed and his hands stiffened, our brother answered the Lord's word with “Amen” using the last strength he had. What was there before his eyes in that moment? No recovery, no guarantee he could hold in his hand. Everything visible pointed the opposite way from hope. And still he held to the end to that one word of God he had heard."
+        },
+        {
+          "ko": "사랑하는 여러분, 그것이 증인의 자리입니다. 육신의 눈이 닫혀 가던 그 시간에, 마음의 눈은 오히려 밝았던 것입니다. 두려울 수밖에 없는 자리에서 \"두려워 말며 겁내지 말라\" 하신 그 음성을 들으셨고, 남은 힘 전부를 모아 \"아멘\" 한 마디로 증언하셨습니다.",
+          "en": "Beloved, that is the place of a witness. In the very hours when the eyes of his body were closing, the eyes of his heart were bright. In a place where fear was the only reasonable response, he heard the voice that said, “Fear not, nor be afraid,” and with all his remaining strength he testified in a single word: Amen."
+        },
+        {
+          "ko": "사랑하는 여러분, 처음에 우리 마음이 수만 갈래 미로와 같고, 그 길 끝마다 우상이 서 있다고 말씀드렸습니다. 그런데 복음이 무엇입니까. 그 미로 한가운데로 주님이 친히 들어오셔서 말씀하신 것입니다.",
+          "en": "Beloved, at the beginning I said our hearts are a maze of ten thousand paths with an idol standing at the end of each one. So what is the gospel? The gospel is that the Lord himself walked into the middle of that maze and spoke."
+        },
+        {
+          "ko": "\"예수께서 가라사대 내가 곧 길이요 진리요 생명이니 나로 말미암지 않고는 아버지께로 올 자가 없느니라\"(요 14:6)",
+          "en": "“Jesus said to him, ‘I am the way, and the truth, and the life. No one comes to the Father except through me.’” (John 14:6)"
+        },
+        {
+          "ko": "우리가 수만 갈래 길을 다 헤매 보아야 하는 것이 아닙니다. 아버지께로 가는 길은 처음부터 오직 하나였고, 그 유일한 길이 사람이 되어 우리를 찾아오셨기 때문입니다.",
+          "en": "We do not have to wander down all ten thousand roads. From the beginning there was only one road to the Father, and that one road became a man and came looking for us."
+        },
+        {
+          "ko": "이제 주님이 오늘 우리에게 물으십니다. 너는 어느 증인석에 서 있느냐.",
+          "en": "And now the Lord asks us today: In which witness box are you standing?"
+        },
+        {
+          "ko": "두려울 때 주님보다 먼저 손에 잡히는 그것을 내려놓으십시오. 그리고 온 몸으로 이 말씀을 들으시기 바랍니다. \"너희는 두려워 말며 겁내지 말라 … 너희는 나의 증인이라\"(사 44:8). 이미 우리의 죗값을 치러 주신 주님께서 말씀하십니다. \"너는 내게로 돌아오라 내가 너를 구속하였음이니라\"(사 44:22).",
+          "en": "Put down the thing your hand reaches for before it reaches for the Lord when you are afraid. And hear this word with your whole body: “Fear not, nor be afraid … and you are my witnesses” (Isaiah 44:8). The Lord who has already paid the price of our sin says, “Return to me, for I have redeemed you” (Isaiah 44:22)."
+        },
+        {
+          "ko": "오늘 우리는 주님의 그 부르심에 응답하여, 만져지는 것이 아니라 우리의 심령에 들려주신 말씀을 붙들고, 흔들리지 않는 반석 위에서 구속의 노래를 증언하며 사는 저와 여러분 되시기를 우리 주 예수 그리스도의 이름으로 축원 드립니다. 아멘.",
+          "en": "May you and I answer that call today — holding not to what can be touched but to the word spoken into our hearts, and living as witnesses who sing the song of redemption upon the Rock that cannot be shaken. In the name of our Lord Jesus Christ I bless you. Amen."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-16",
+      "date": "2026-08-16",
+      "title_ko": "눈을 뜨게 하시도다",
+      "title_en": "He Enlightens the Eyes",
+      "scripture_ref_ko": "시편 19:1–4",
+      "scripture_ref_en": "Psalm 19:1–4",
+      "preacher_ko": "유병훈 목사",
+      "preacher_en": "Rev. Byong H. Yoo",
+      "series": "",
+      "scripture_text": [
+        {
+          "ko": "하늘이 하나님의 영광을 선포하고 궁창이 그의 손으로 하신 일을 나타내는도다 날은 날에게 말하고 밤은 밤에게 지식을 전하니 언어도 없고 말씀도 없으며 들리는 소리도 없으나 그의 소리가 온 땅에 통하고 그의 말씀이 세상 끝까지 이르도다 하나님이 해를 위하여 하늘에 장막을 베푸셨도다 (시편 19:1–4)",
+          "en": "“The heavens declare the glory of God, and the sky above proclaims his handiwork. Day to day pours out speech, and night to night reveals knowledge. There is no speech, nor are there words, whose voice is not heard. Their voice goes out through all the earth, and their words to the end of the world. In them he has set a tent for the sun.” (Psalm 19:1–4)"
+        }
+      ],
+      "slides": [
+        {
+          "type": "title",
+          "title_ko": "눈을 뜨게 하시도다",
+          "title_en": "He Enlightens the Eyes",
+          "ref_ko": "시편 19:1–4",
+          "ref_en": "Psalm 19:1–4",
+          "preacher_ko": "유병훈 목사",
+          "preacher_en": "Rev. Byong H. Yoo",
+          "date": "2026-08-16"
+        },
+        {
+          "type": "question",
+          "label_ko": "서론",
+          "label_en": "Introduction",
+          "ko": "신문 글씨가 흐려 보일 때 우리는 신문사를 탓하지 않고 안경을 찾습니다. 안경이 없던 글자를 적어 넣은 것이 아니라, 흐려진 눈에 그 글자가 보이게 해 준 것입니다. 오늘 우리 앞에는 두 자리가 놓여 있습니다. 하나님이 자신을 드러내신 '창조'라는 책과, 내가 걸어온 자리 곧 '내 인생'입니다. 네 가지 눈을 함께 나눕니다 — 흐린 눈, 안경, 뜬 눈, 알아보는 눈.",
+          "en": "When the newspaper print blurs, we do not blame the newspaper; we look for our glasses. The glasses did not write new letters — they let dimmed eyes see what was already printed. Two places lie before us today: the book of creation in which God revealed himself, and the road I have walked, my own life. We share four eyes together — the dim eye, the glasses, the opened eye, the recognizing eye."
+        },
+        {
+          "type": "bigidea",
+          "label_ko": "오늘의 한 문장",
+          "label_en": "Big Idea",
+          "ko": "성경이 우리 눈을 밝혀 그리스도를 보게 하고, 그리스도를 알아본 눈이 비로소 이미 내 인생을 붙들고 계셨던 하나님을 알아봅니다.",
+          "en": "Scripture opens our eyes to see Christ; and the eye that has recognized Christ finally recognizes the God who was already holding my life."
+        },
+        {
+          "type": "section",
+          "label_ko": "첫째",
+          "label_en": "First",
+          "ko": "흐린 눈",
+          "en": "The Dim Eye"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "로마서 1:20",
+          "label_en": "Romans 1:20",
+          "ko": "\"창세로부터 그의 보이지 아니하는 것들 곧 그의 영원하신 능력과 신성이 그가 만드신 만물에 분명히 보여 알려졌나니 그러므로 그들이 핑계하지 못할지니라\"",
+          "en": "“For his invisible attributes, namely, his eternal power and divine nature, have been clearly perceived, ever since the creation of the world, in the things that have been made. So they are without excuse.”"
+        },
+        {
+          "type": "point",
+          "label_ko": "문제는 하늘이 아니라 우리 눈입니다",
+          "label_en": "The Problem Is Not the Sky but Our Eyes",
+          "ko": "하늘이 흐려서도, 별빛이 희미해서도, 증거가 부족해서도 아닙니다. 하늘은 지금도 눈부시게 밝습니다. 문제는 보여 주는 쪽이 아니라 바라보는 우리 쪽에 있습니다. 등불이 어두운 것이 아니라 우리 눈이 흐려진 것입니다.",
+          "en": "Not because the sky is clouded, nor the starlight faint, nor the evidence insufficient. The heavens are as dazzling as ever. The problem lies not on the side that shows but on our side that looks. The lamp is not dim; our eyes are."
+        },
+        {
+          "type": "point",
+          "label_ko": "흐린 눈은 헛것을 보는 눈입니다",
+          "label_en": "The Dim Eye Sees Things That Are Not There",
+          "ko": "흐린 눈은 아무것도 못 보는 눈이 아닙니다. 안개 속에서 사람인 줄 알고 불렀는데 가까이 가 보니 나무 한 그루였습니다. 사람은 참 하나님을 모르면 멈춰 서지 않고 우상을 세웁니다. 마음속에 미로가 생기고, 막다른 골목 끝마다 가짜 신이 하나씩 서 있습니다.",
+          "en": "The dim eye is not an eye that sees nothing. In the fog you call out to what you think is a person, and up close it is only a tree. When a person does not know the true God he does not stand still — he erects an idol. A maze forms in the heart, with a counterfeit god at the end of every dead end."
+        },
+        {
+          "type": "point",
+          "label_ko": "그리심산 — 길은 있었으나 하나님이 안 계셨습니다",
+          "label_en": "Gerizim — There Was a Road, but God Was Not at Its End",
+          "ko": "사마리아 여인의 막다른 골목은 산이었습니다. 조상도 있었고 제단도 있었고 몇백 년의 예배도 있었습니다. 그런데 주님은 \"너희는 알지 못하는 것을 예배하고\" 하셨습니다. 길이 없어서 막다른 골목이 아니라, 그 길 끝에 하나님이 안 계셨던 것입니다.",
+          "en": "The Samaritan woman's dead end was a mountain. There were ancestors, an altar, centuries of worship. Yet the Lord said, “You worship what you do not know.” It is a dead end not because there was no road, but because God was not at the end of it."
+        },
+        {
+          "type": "section",
+          "label_ko": "둘째",
+          "label_en": "Second",
+          "ko": "안경",
+          "en": "The Glasses"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "시편 19:8",
+          "label_en": "Psalm 19:8",
+          "ko": "\"여호와의 교훈은 정직하여 마음을 기쁘게 하고 여호와의 계명은 순결하여 눈을 밝게 하시도다\"",
+          "en": "“The precepts of the LORD are right, rejoicing the heart; the commandment of the LORD is pure, enlightening the eyes.”"
+        },
+        {
+          "type": "point",
+          "label_ko": "안경은 없던 글자를 지어내지 않습니다",
+          "label_en": "Glasses Do Not Invent Letters",
+          "ko": "하늘에 새겨진 하나님의 영광은 처음부터 거기 있었습니다. 성경은 없던 것을 만들어 내는 책이 아니라, 어지럽게 흩어져 읽히지 않던 하나님의 손길을 하나로 모아 또렷하게 보여 주는 책입니다.",
+          "en": "The glory of God inscribed on the heavens was there from the beginning. The Bible does not manufacture what does not exist; it gathers into focus the hand of God that lay scattered and unreadable."
+        },
+        {
+          "type": "point",
+          "label_ko": "하늘은 창조주를 말하나 구원자를 말하지 못합니다",
+          "label_en": "The Heavens Declare the Creator but Cannot Speak of the Savior",
+          "ko": "밤하늘의 별을 아무리 오래 올려다보아도 거기에는 십자가가 없습니다. 말씀의 안경이 감당하는 궁극적 사명은, 창조 세계를 또렷하게 해 준 뒤 마침내 우리를 예수 그리스도 앞에 데려다 놓는 것입니다.",
+          "en": "Gaze at the night stars as long as you like — there is no cross there. The ultimate task of the spectacles of the Word is this: after bringing creation into focus, to set us at last before Jesus Christ."
+        },
+        {
+          "type": "section",
+          "label_ko": "셋째",
+          "label_en": "Third",
+          "ko": "뜬 눈",
+          "en": "The Opened Eye"
+        },
+        {
+          "type": "point",
+          "label_ko": "안경은 감긴 눈을 뜨게 하지 못합니다",
+          "label_en": "Glasses Cannot Open a Closed Eye",
+          "ko": "아무리 최고급 안경이라도 눈을 꼭 감고 있으면 소용이 없습니다. 그래서 또 한 분의 손길이 필요합니다. 엠마오 길에서 주님은 밖에서 성경을 설명하시는 데 그치지 않고 안에서 그들의 마음을 열어 주셨습니다.",
+          "en": "However fine the spectacles, they are useless if the eyes are shut tight. So we need the touch of another. On the Emmaus road the Lord did not stop at explaining Scripture from outside — he opened their minds from within."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "에베소서 1:18",
+          "label_en": "Ephesians 1:18",
+          "ko": "\"너희 마음의 눈을 밝히사 그의 부르심의 소망이 무엇이며 성도 안에서 그 기업의 영광의 풍성함이 무엇이며\"",
+          "en": "“Having the eyes of your hearts enlightened, that you may know what is the hope to which he has called you, what are the riches of his glorious inheritance in the saints.”"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "요한복음 4:26",
+          "label_en": "John 4:26",
+          "ko": "\"예수께서 이르시되 네게 말하는 내가 그라 하시니라\"",
+          "en": "“Jesus said to her, ‘I who speak to you am he.’”"
+        },
+        {
+          "type": "point",
+          "label_ko": "눈이 열리면 한 분이 보입니다",
+          "label_en": "When the Eyes Open, One Person Comes into View",
+          "ko": "눈이 열렸을 때 보이는 것은 차가운 교리나 도덕적 교훈이 아닙니다. 성경의 모든 말씀이 한결같이 가리키던 단 한 분, 살아 계신 예수 그리스도이십니다. 아브라함보다 먼저 계신 분이며, 도마가 무릎 꿇고 \"나의 주님이시요 나의 하나님\"이라 부른 그 하나님이십니다.",
+          "en": "What comes into view when the eyes open is not cold doctrine or moral instruction. It is the one Person to whom every word of Scripture has pointed — the living Jesus Christ, who existed before Abraham, the God whom Thomas knelt before and called “My Lord and my God.”"
+        },
+        {
+          "type": "section",
+          "label_ko": "넷째",
+          "label_en": "Fourth",
+          "ko": "알아보는 눈",
+          "en": "The Recognizing Eye"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "시편 19:12",
+          "label_en": "Psalm 19:12",
+          "ko": "\"자기 허물을 능히 깨달을 자 누구리요 나를 숨은 허물에서 벗어나게 하소서\"",
+          "en": "“Who can discern his errors? Declare me innocent from hidden faults.”"
+        },
+        {
+          "type": "point",
+          "label_ko": "방향이 뒤집힙니다",
+          "label_en": "The Direction Reverses",
+          "ko": "이 고백이 말씀 단락 바로 뒤에 놓인 것을 놓치지 마십시오. 말씀의 안경을 쓰고 하나님을 대면하고 나서야 시인은 자기가 자기를 잘못 읽고 있었음을 깨달았습니다. 내가 성경을 읽는 줄 알았는데, 살아 있는 말씀이 나를 꿰뚫어 읽고 계셨던 것입니다.",
+          "en": "Do not miss that this confession stands immediately after the section on the Word. Only after putting on the spectacles and facing God did the psalmist realize he had been misreading himself. I thought I was reading Scripture — but the living Word was reading straight through me."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "요한복음 4:29",
+          "label_en": "John 4:29",
+          "ko": "\"내가 행한 모든 일을 내게 말한 사람을 와서 보라 이는 그리스도가 아니냐 하니\"",
+          "en": "“Come, see a man who told me all that I ever did. Can this be the Christ?”"
+        },
+        {
+          "type": "point",
+          "label_ko": "주님이 먼저 알아보셨습니다",
+          "label_en": "The Lord Recognized Her First",
+          "ko": "주님은 \"사마리아를 통과하여야 하겠다\" 작정하고 길을 떠나셨습니다. 그날 주님이 그녀를 처음 아신 것이 아니라, 그녀가 그날 주님을 처음 알아본 것입니다. 알아보는 눈은 없던 것을 찾아내는 눈이 아니라, 이미 내 삶에 찾아와 계셨던 주님을 비로소 알아채는 눈입니다.",
+          "en": "The Lord set out having determined that he “had to pass through Samaria.” It was not that he first knew her that day; it was that she first recognized him. The recognizing eye does not discover something that was never there — it finally perceives the Lord who had already come into my life."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "로마서 8:28",
+          "label_en": "Romans 8:28",
+          "ko": "\"우리가 알거니와 하나님을 사랑하는 자 곧 그의 뜻대로 부르심을 입은 자들에게는 모든 것이 합력하여 선을 이루느니라\"",
+          "en": "“And we know that for those who love God all things work together for good, for those who are called according to his purpose.”"
+        },
+        {
+          "type": "point",
+          "label_ko": "요셉은 나중에야 알아보았습니다",
+          "label_en": "Joseph Recognized It Only Later",
+          "ko": "구덩이에서도, 노예로 팔릴 때도, 감옥에서도 요셉은 그 뜻을 몰랐습니다. 세월이 흐른 뒤에야 \"하나님이 생명을 구원하시려고 나를 당신들보다 먼저 보내셨나이다\" 고백했습니다. 하나님이 그 고난의 자리에 안 계셨던 것이 아니라, 그때는 우리 눈에 그 손길이 읽히지 않았을 뿐입니다.",
+          "en": "In the pit, when sold as a slave, in prison — Joseph did not know the purpose. Only years later did he confess, “God sent me before you to preserve life.” It is not that God was absent from that place of suffering; it is that our eyes could not yet read his hand."
+        },
+        {
+          "type": "point",
+          "label_ko": "두 가지 경계",
+          "label_en": "Two Cautions",
+          "ko": "첫째, 내 삶의 경험이 성경 말씀 자체를 대신할 수 없습니다. 안경으로 글자를 읽는 것이지 내 눈맛에 맞춰 도수를 고쳐 쓰는 것이 아닙니다. 둘째, 뜻을 알려 주시는 것은 하나님의 주권적 자유입니다. 분별의 유일한 기준은 내 주관적 확신이 아니라 기록된 말씀입니다.",
+          "en": "First, the experience of my life cannot replace the Word itself — we read the letters through the glasses; we do not adjust the prescription to our own taste. Second, whether he reveals his purpose is God's sovereign freedom. The only standard of discernment is not my subjective certainty but the written Word."
+        },
+        {
+          "type": "conclusion",
+          "label_ko": "결론",
+          "label_en": "Conclusion",
+          "ko": "이 구원의 여정에서 우리가 스스로 시작한 것이 하나라도 있습니까? 하늘을 펴신 분도, 눈을 밝히는 말씀을 주신 분도 하나님이시고, 굳은 마음을 열어 주신 분은 성령이시며, 내 비틀거리던 인생을 먼저 찾아와 읽고 계셨던 분은 우리 주 예수 그리스도이십니다. 여인이 어둠에서 빠져나온 것이 아니라 주님이 그 어둠 한복판으로 걸어 들어오셨고, 그 걸음의 끝에서 우리를 위해 십자가를 지셨습니다.",
+          "en": "In this journey of salvation, is there even one thing we began ourselves? God stretched out the heavens and gave the Word that enlightens; the Spirit opened the hardened heart; and it was our Lord Jesus Christ who came first to my stumbling life and read it. The woman did not climb out of the darkness — the Lord walked into the middle of it, and at the end of that walk he took up the cross for us."
+        },
+        {
+          "type": "point",
+          "label_ko": "이번 한 주간 세 가지 결단",
+          "label_en": "Three Resolutions for This Week",
+          "ko": "첫째, 성경을 펴기 전에 먼저 엎드려 마음의 눈을 밝혀 달라 기도하십시오. 둘째, 하늘과 만물을 볼 때마다 창조주의 신실하심을 기억하십시오. 셋째, 말씀이라는 안경을 쓰고 지나온 삶의 자리를 다시 읽어 내십시오.",
+          "en": "First, kneel and pray for the eyes of your heart to be enlightened before you open the Bible. Second, remember the Creator's faithfulness whenever you look at the sky and all created things. Third, put on the spectacles of the Word and read again the places of life you have already walked."
+        },
+        {
+          "type": "blessing",
+          "label_ko": "축도",
+          "label_en": "Benediction",
+          "ko": "\"나의 반석이시요 나의 구속자이신 여호와여 내 입의 말과 마음의 묵상이 주님 앞에 열납되기를 원하나이다\"(시 19:14). 흐려진 우리 눈에 말씀의 안경을 씌우시고, 성령으로 마음의 눈을 밝혀 주시며, 마침내 우리를 먼저 찾아오신 십자가의 그 손길을 또렷이 알아보는 복된 성도님들이 다 되시기를 우리 주 예수 그리스도의 이름으로 간절히 축원합니다. 아멘.",
+          "en": "“Let the words of my mouth and the meditation of my heart be acceptable in your sight, O LORD, my rock and my redeemer” (Psalm 19:14). May God set the spectacles of his Word upon our dimmed eyes, enlighten the eyes of our hearts by the Spirit, and make every one of you blessed saints who clearly recognize the hand of the cross that came seeking us first. In the name of our Lord Jesus Christ I earnestly bless you. Amen."
+        }
+      ],
+      "body": [
+        {
+          "ko": "본문 시편 19:1–4\n1 하늘이 하나님의 영광을 선포하고 궁창이 그의 손으로 하신 일을 나타내는도다\n2 날은 날에게 말하고 밤은 밤에게 지식을 전하니\n3 언어도 없고 말씀도 없으며 들리는 소리도 없으나\n4 그의 소리가 온 땅에 통하고 그의 말씀이 세상 끝까지 이르도다 하나님이 해를 위하여 하늘에 장막을 베푸셨도다",
+          "en": "Scripture Reading: Psalm 19:1–4\n1 “The heavens declare the glory of God, and the sky above proclaims his handiwork.\n2 Day to day pours out speech, and night to night reveals knowledge.\n3 There is no speech, nor are there words, whose voice is not heard.\n4 Their voice goes out through all the earth, and their words to the end of the world. In them he has set a tent for the sun.”"
+        },
+        {
+          "ko": "서론",
+          "en": "Introduction",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 성도 여러분, 나이가 들면서 누구나 겪게 되는 일이 하나 있습니다. 어느 날 아침 신문을 펼쳤는데 글씨가 침침하고 흐릿하게 보입니다. 인쇄가 잘못된 것도 아니고 글자가 유독 작은 것도 아닌데, 두 글자를 채 이어 읽기가 어렵습니다. 그럴 때 우리는 어떻게 합니까? 신문사를 탓합니까? 아닙니다. 조용히 서랍을 열어 안경을 찾습니다. 그리고 안경을 쓰는 순간, 흐릿했던 글자가 또렷하게 눈에 들어옵니다.",
+          "en": "Dear brothers and sisters, there is something all of us come to experience as we grow older. One morning you open the newspaper and the print looks dim and blurred. Nothing is wrong with the printing, and the type is not unusually small — yet you cannot read two letters in a row. What do we do then? Do we blame the newspaper? No. We quietly open the drawer and look for our glasses. And the moment we put them on, the blurred letters come into focus."
+        },
+        {
+          "ko": "여러분, 안경이 신문에 없던 글자를 새로 적어 넣어 준 것입니까? 아닙니다. 글자는 처음부터 거기 인쇄되어 있었습니다. 안경은 다만 흐려진 우리 눈에 그 글자가 온전히 보이도록 해 주었을 뿐입니다.",
+          "en": "Now, did the glasses write new letters into the paper that were not there before? No. The letters were printed there from the beginning. The glasses only made it possible for our dimmed eyes to see them fully."
+        },
+        {
+          "ko": "오늘 우리 앞에는 신문이 아니라, 하나님께서 친히 일하고 계신 두 자리가 놓여 있습니다. 하나는 하나님께서 자신을 드러내신 '창조'라는 책이고, 또 하나는 하나님의 섭리 아래 내가 걸어온 자리, 곧 '내 인생'입니다. 하늘에는 그분의 영광이 분명하게 새겨져 있고, 내가 살아온 그 자리에는 단 한순간도 그분의 손길이 떠난 적이 없습니다. 그런데 우리 마음의 눈이 흐려져서, 하늘도 내 인생도 제대로 읽어 내지를 못합니다.",
+          "en": "Today what lies before us is not a newspaper but two places where God himself has been at work. One is the book called “creation,” in which God has revealed himself. The other is the road I have walked under God's providence — my own life. His glory is clearly inscribed upon the heavens, and not for one moment has his hand left the place where I have lived. Yet the eyes of our heart are dim, and so we read neither the heavens nor our own lives rightly."
+        },
+        {
+          "ko": "그래서 하나님께서 흐려진 우리를 위해 건네주신 안경이 무엇입니까? 바로 성경, 하나님의 거룩한 말씀입니다. 오늘 우리는 육신의 시력이 아니라 마음의 눈을 함께 바라보고자 합니다. 시편 19편의 깊은 흐름을 따라가며, 우리 마음에 일어나는 네 가지 눈의 변화를 함께 나누겠습니다. 흐린 눈, 안경, 뜬 눈, 그리고 알아보는 눈입니다.",
+          "en": "So what are the glasses God has handed to us in our dimness? The Bible — God's holy Word. Today we will look not at the eyesight of the body but at the eyes of the heart. Following the deep movement of Psalm 19, we will share four changes of sight that take place in our hearts: the dim eye, the glasses, the opened eye, and the recognizing eye."
+        },
+        {
+          "ko": "오늘 이 한 문장을 마음에 깊이 품고 말씀을 받으시기 바랍니다.",
+          "en": "Receive today's word holding this one sentence deep in your heart:"
+        },
+        {
+          "ko": "성경이 우리 눈을 밝혀 그리스도를 보게 하고, 그리스도를 알아본 눈이 비로소 이미 내 인생을 붙들고 계셨던 하나님을 알아봅니다.",
+          "en": "Scripture opens our eyes to see Christ; and the eye that has recognized Christ finally recognizes the God who was already holding my life."
+        },
+        {
+          "ko": "첫째 — 흐린 눈",
+          "en": "First — The Dim Eye",
+          "section": true
+        },
+        {
+          "ko": "성경은 말씀합니다.",
+          "en": "Scripture says:"
+        },
+        {
+          "ko": "\"하늘이 하나님의 영광을 선포하고 궁창이 그의 손으로 하신 일을 나타내는도다\" (시편 19:1)",
+          "en": "“The heavens declare the glory of God, and the sky above proclaims his handiwork.” (Psalm 19:1)"
+        },
+        {
+          "ko": "하늘이 지금 무엇을 하고 있습니까? 선포하고 있습니다. 바로 지금 이 순간에도 쉬지 않고 웅장하게 외치고 있습니다. 이어서 시인은 이렇게 노래합니다.",
+          "en": "What are the heavens doing right now? Declaring. At this very moment they are crying out, majestically and without rest. The psalmist goes on to sing:"
+        },
+        {
+          "ko": "\"언어도 없고 말씀도 없으며 들리는 소리도 없으나 그의 소리가 온 땅에 통하고 그의 말씀이 세상 끝까지 이르도다 하나님이 해를 위하여 하늘에 장막을 베푸셨도다\" (시편 19:3–4)",
+          "en": "“There is no speech, nor are there words, whose voice is not heard. Their voice goes out through all the earth, and their words to the end of the world. In them he has set a tent for the sun.” (Psalm 19:3–4)"
+        },
+        {
+          "ko": "육신의 귀에 들리는 소리는 없지만 그 장엄한 울림은 온 땅에 통하고, 저 드넓은 하늘 아래 해를 두셨다고 선포합니다. 말 없는 창조의 증인들입니다. 사도 바울 역시 같은 진리를 분명하게 선포합니다.",
+          "en": "No sound reaches the ear of the body, yet that majestic resonance goes out through all the earth, declaring that he has set the sun beneath the wide heavens. These are creation's wordless witnesses. The apostle Paul proclaims the same truth just as plainly."
+        },
+        {
+          "ko": "\"창세로부터 그의 보이지 아니하는 것들 곧 그의 영원하신 능력과 신성이 그가 만드신 만물에 분명히 보여 알려졌나니 그러므로 그들이 핑계하지 못할지니라\" (로마서 1:20)",
+          "en": "“For his invisible attributes, namely, his eternal power and divine nature, have been clearly perceived, ever since the creation of the world, in the things that have been made. So they are without excuse.” (Romans 1:20)"
+        },
+        {
+          "ko": "성경을 보십시오. 분명히 보여 알려졌기 때문에 그 누구도 하나님 앞에서 핑계할 수 없다고 선언합니다. 그러니 사람이 하나님에 대해 아무것도 모르는 것이 아닙니다. 정말 아무것도 몰랐다면 핑계라도 댈 수 있겠지만, 성경은 결코 핑계할 수 없다고 단호하게 말씀합니다.",
+          "en": "Look at what Scripture declares: because it has been clearly perceived, no one can offer an excuse before God. So it is not that people know nothing about God. If they truly knew nothing, they could at least make an excuse — but Scripture says firmly that there is no excuse to be made."
+        },
+        {
+          "ko": "그렇다면 왜 세상은 하나님께 이르지 못합니까? 하늘이 흐려서입니까? 별빛이 희미해서입니까? 증거가 부족해서입니까? 아닙니다. 하늘은 지금도 눈부시게 밝습니다. 문제는 보여 주는 쪽에 있지 않고 바라보는 우리 쪽에 있습니다. 등불이 어두운 것이 아니라 우리 눈이 흐려진 것입니다.",
+          "en": "Why then does the world not arrive at God? Is the sky too clouded? Is the starlight too faint? Is the evidence insufficient? No. The heavens are as dazzling as ever. The problem is not on the side that shows but on our side that looks. The lamp is not dim; our eyes are."
+        },
+        {
+          "ko": "그런데 여러분, 여기서 한 걸음 더 깊이 보셔야 합니다. 흐린 눈은 아예 아무것도 보지 못하는 눈입니까? 아닙니다. 흐린 눈은 '헛것을 보는 눈'입니다. 안개 낀 길을 걷다 보면 저만치 사람이 서 있는 것 같아 불러 봅니다. 그러나 가까이 다가가 보면 그저 나무 한 그루일 뿐입니다. 없는 사람을 본 것입니다.",
+          "en": "But we must look one step deeper here. Is the dim eye an eye that sees nothing at all? No. The dim eye is an eye that sees things that are not there. Walking a fog-covered road, you think someone is standing off in the distance and you call out. But as you draw near it is only a tree. You saw a person who was not there."
+        },
+        {
+          "ko": "사람은 참 하나님을 바르게 알지 못하면 가만히 멈추어 서 있지 않습니다. 스스로 우상을 만들어 세웁니다. 이 길로 가다 막히면 돌아서서 저 길로 가고, 거기서 또 막히면 또 다른 신을 세웁니다. 그렇게 마음속에 끝없는 미로가 생겨나고, 막다른 골목 끝마다 가짜 신을 하나씩 세워 두는 것입니다. 우물가의 사마리아 여인이 바로 그러했습니다. 주님과 마주 앉아 무엇을 두고 논쟁했습니까? 바로 산이었습니다.",
+          "en": "When a person does not rightly know the true God, he does not simply stand still. He manufactures an idol and sets it up. Blocked on this road, he turns and takes that one; blocked again, he erects yet another god. And so an endless maze forms in the heart, with a counterfeit god standing at the end of every dead end. The Samaritan woman at the well was exactly like this. Seated face to face with the Lord, what did she argue about? A mountain."
+        },
+        {
+          "ko": "\"우리 조상들은 이 산에서 예배하였는데 당신들의 말은 예배할 곳이 예루살렘에 있다 하더이다\" (요한복음 4:20)",
+          "en": "“Our fathers worshiped on this mountain, but you say that in Jerusalem is the place where people ought to worship.” (John 4:20)"
+        },
+        {
+          "ko": "그리심산이 그 여인의 막다른 골목이었습니다. 우리에게도 저마다 인생의 그런 산이 하나씩 자리 잡고 있지 않습니까?",
+          "en": "Mount Gerizim was that woman's dead end. Does each of us not have some such mountain lodged in our own life?"
+        },
+        {
+          "ko": "여러분, 그 산이 왜 막다른 골목입니까? 그 산에도 조상이 있었고, 제단이 있었고, 예배가 있었습니다. 몇백 년을 그렇게 올라갔습니다. 그런데 주님이 이 여인에게 무엇이라고 하셨습니까? \"너희는 알지 못하는 것을 예배하고.\"",
+          "en": "Why is that mountain a dead end? There were ancestors on that mountain, and an altar, and worship. For centuries people climbed it. And what did the Lord say to this woman? “You worship what you do not know.”"
+        },
+        {
+          "ko": "길이 없어서 막다른 골목이 아닙니다. 길은 있었습니다. 그 길 끝에 하나님이 안 계셨던 것입니다. 열심히 걸어 올라가 놓고 정작 아무도 만나지 못하는 길 — 그것이 막다른 골목입니다.",
+          "en": "It is a dead end not because there was no road. There was a road. God simply was not at the end of it. A road you climb with all your strength only to meet no one at the top — that is a dead end."
+        },
+        {
+          "ko": "그러니 눈이 흐리다는 말은 우리가 아무 생각도, 판단도 못 한다는 뜻이 아닙니다. 우리는 여전히 생각하고, 판단하고, 열심을 냅니다. 열심이 없어서 문제가 아닙니다. 그 모든 열심으로 쉼 없이 걸어간 종착지가 결국 헛된 막다른 골목이었다는 사실이 문제입니다.",
+          "en": "So when we say the eye is dim, we do not mean we cannot think or judge at all. We still think, still judge, still put out great effort. Lack of zeal is not the problem. The problem is that the destination we reached with all that tireless effort turned out to be an empty dead end."
+        },
+        {
+          "ko": "흐린 눈으로도 내 앞에 무언가 놓여 있다는 것은 압니다. 무언가 적혀 있다는 것도 압니다. 다만 두 글자를 바르게 이어 읽지 못할 뿐입니다. 그러면서도 스스로는 다 읽었다고 우깁니다. 이것이 바로 타락한 우리 눈의 실상입니다.",
+          "en": "Even a dim eye knows that something lies before it, and that something is written there. It simply cannot read two letters in a row correctly — and yet it insists that it has read the whole thing. That is the true condition of our fallen sight."
+        },
+        {
+          "ko": "둘째 — 안경",
+          "en": "Second — The Glasses",
+          "section": true
+        },
+        {
+          "ko": "그렇다면 하나님께서 우리를 이 흐린 눈 그대로 내버려 두셨습니까? 아닙니다. 시편 19편은 7절에 이르러 극적인 전환을 이룹니다. 1절부터 6절까지 웅장한 하늘을 노래하던 시인은, 7절에 이르러 전혀 다른 대상을 찬양하기 시작합니다.",
+          "en": "Did God then leave us with this dim sight as it was? No. At verse 7, Psalm 19 makes a dramatic turn. Having sung of the majestic heavens from verses 1 through 6, the psalmist begins at verse 7 to praise something entirely different."
+        },
+        {
+          "ko": "\"여호와의 율법은 완전하여 영혼을 소성시키며 여호와의 증거는 확실하여 우둔한 자를 지혜롭게 하며\" (시편 19:7)",
+          "en": "“The law of the LORD is perfect, reviving the soul; the testimony of the LORD is sure, making wise the simple.” (Psalm 19:7)"
+        },
+        {
+          "ko": "그리고 이어지는 구절에 오늘 설교의 핵심이 등장합니다.",
+          "en": "And in the verse that follows comes the heart of today's message."
+        },
+        {
+          "ko": "\"여호와의 교훈은 정직하여 마음을 기쁘게 하고 여호와의 계명은 순결하여 눈을 밝게 하시도다\" (시편 19:8)",
+          "en": "“The precepts of the LORD are right, rejoicing the heart; the commandment of the LORD is pure, enlightening the eyes.” (Psalm 19:8)"
+        },
+        {
+          "ko": "눈을 밝게 하시도다! 하늘을 노래하던 시인이 기록된 말씀으로 넘어오며, 바로 그 말씀이 우리 눈을 밝힌다고 고백합니다. 하나님께서 흐려진 우리 눈을 위해 친히 '말씀의 안경'을 건네주신 것입니다.",
+          "en": "Enlightening the eyes! The psalmist who was singing of the heavens moves to the written Word and confesses that this very Word gives light to our eyes. God himself has handed us the spectacles of his Word for our dimmed sight."
+        },
+        {
+          "ko": "여기서 두 가지 사실을 마음에 꼭 새겨야 합니다.",
+          "en": "Two things must be engraved on our hearts here."
+        },
+        {
+          "ko": "첫째, 안경은 본래 없던 글자를 지어내지 않습니다. 하늘에 새겨진 하나님의 영광은 처음부터 거기 있었습니다. 성경은 없던 것을 만들어 내는 책이 아니라, 우리 마음에 어지럽게 흩어져 읽히지 않던 하나님의 손길을 하나로 모아 또렷하게 보여 주는 책입니다.",
+          "en": "First, glasses do not invent letters that were never there. The glory of God inscribed on the heavens was there from the beginning. The Bible is not a book that manufactures what does not exist; it is a book that gathers into focus the hand of God that lay scattered and unreadable in our hearts."
+        },
+        {
+          "ko": "둘째, 안경 없이는 눈앞에 무엇을 놓아 드려도 소용이 없습니다. 시력이 흐려진 분에게 아무리 큰 글씨로 인쇄한 신문을 드려도 돌아오는 대답은 \"잘 안 보이네\" 한마디뿐입니다.",
+          "en": "Second, without glasses it does no good to place anything before the eyes. Hand a person with failing sight a newspaper printed in the largest type you like, and the only answer that comes back is, “I still can't see it.”"
+        },
+        {
+          "ko": "그러니 사랑하는 성도 여러분, 하나님을 알기 위해 그저 하늘만 멍하니 올려다보지 마십시오. 자연에만 머무르지 마시고, 내 생각의 틀 속에 갇히지 마십시오. 성경을 펴십시오. 하나님께서 우리 흐린 눈을 위해 마련해 두신 안경이 바로 여기에 있습니다.",
+          "en": "So, beloved, do not simply gaze blankly up at the sky in order to know God. Do not stop at nature, and do not stay locked inside the frame of your own thinking. Open the Bible. Here are the glasses God has prepared for our dim eyes."
+        },
+        {
+          "ko": "그런데 여러분, 여기서 한 걸음 더 나아가야 합니다. 말씀은 단순히 자연을 바르게 읽어 내는 데서 멈추지 않습니다. 하늘이 결코 우리에게 말해 줄 수 없는 결정적인 진리가 하나 있습니다. 하늘은 창조주를 선포하지만, 구원자를 말해 주지는 못합니다. 밤하늘의 별을 아무리 오래 올려다보아도 거기에는 십자가가 없습니다.",
+          "en": "But we must go one step further. The Word does not stop at helping us read nature rightly. There is one decisive truth the heavens can never tell us. The heavens declare the Creator, but they cannot speak of the Savior. Gaze at the night stars as long as you like — there is no cross there."
+        },
+        {
+          "ko": "그래서 하나님은 말씀을 통해 우리에게 한 분을 밝히 보여 주십니다. 말씀의 안경이 감당하는 궁극적인 사명은, 창조 세계를 또렷하게 해 준 뒤 마침내 우리를 바로 그 한 분 예수 그리스도 앞에 데려다 놓는 것입니다.",
+          "en": "And so through his Word God shows us one Person clearly. The ultimate task of the spectacles of the Word is this: after bringing the created world into focus, to set us at last before that one Person, Jesus Christ."
+        },
+        {
+          "ko": "셋째 — 뜬 눈",
+          "en": "Third — The Opened Eye",
+          "section": true
+        },
+        {
+          "ko": "그러나 사랑하는 성도 여러분, 여기에 또 하나의 문제가 남습니다. 아무리 최고급 안경을 맞춰 드려도, 눈을 꼭 감고 있다면 무슨 소용이 있겠습니까? 안경은 흐려진 시력을 또렷하게 보정해 줄 수는 있어도, 감겨 있는 눈꺼풀을 스스로 뜨게 하지는 못합니다.",
+          "en": "But beloved, one more problem remains. However fine the spectacles you are fitted with, what good are they if your eyes are shut tight? Glasses can correct blurred vision into focus, but they cannot open an eyelid that is closed."
+        },
+        {
+          "ko": "그래서 우리에게는 또 한 분의 손길이 반드시 필요합니다. 부활하신 주님께서 엠마오로 내려가던 두 제자에게 행하신 일을 보십시오.",
+          "en": "So we absolutely need the touch of another. See what the risen Lord did for the two disciples going down to Emmaus."
+        },
+        {
+          "ko": "\"이에 그들의 마음을 열어 성경을 깨닫게 하시고\" (누가복음 24:45)",
+          "en": "“Then he opened their minds to understand the Scriptures.” (Luke 24:45)"
+        },
+        {
+          "ko": "주님께서 친히 그들의 마음을 열어 주셨습니다. 주님은 밖에서 성경을 설명해 주시는 데서 그치지 않으시고, 안에서 그들의 굳은 마음을 열어 주셨습니다. 밖에서 말씀이 열리고 안에서 마음이 열려야 비로소 성경의 비밀이 온전히 열립니다. 사도 바울 역시 우리를 위해 바로 이 기도를 드렸습니다.",
+          "en": "The Lord himself opened their minds. He did not stop at explaining the Scriptures from the outside; he opened their hardened hearts from within. Only when the Word is opened outwardly and the heart is opened inwardly is the secret of Scripture fully opened. The apostle Paul prayed exactly this prayer for us."
+        },
+        {
+          "ko": "\"우리 주 예수 그리스도의 하나님, 영광의 아버지께서 지혜와 계시의 영을 너희에게 주사 하나님을 알게 하시고 너희 마음의 눈을 밝히사 그의 부르심의 소망이 무엇이며 성도 안에서 그 기업의 영광의 풍성함이 무엇이며\" (에베소서 1:17–18)",
+          "en": "“That the God of our Lord Jesus Christ, the Father of glory, may give you the Spirit of wisdom and of revelation in the knowledge of him, having the eyes of your hearts enlightened, that you may know what is the hope to which he has called you, what are the riches of his glorious inheritance in the saints.” (Ephesians 1:17–18)"
+        },
+        {
+          "ko": "너희 마음의 눈을 밝히사! 시편 19편 8절의 \"눈을 밝게 하시도다\"라는 찬양이, 사도 바울의 \"마음의 눈을 밝히사\"라는 간구로 그대로 이어집니다. 성령께서 우리 안에서 행하시는 일이 바로 이것입니다.",
+          "en": "Having the eyes of your hearts enlightened! The praise of Psalm 19:8 — “enlightening the eyes” — carries straight over into Paul's petition, “having the eyes of your hearts enlightened.” This is precisely the work the Holy Spirit does within us."
+        },
+        {
+          "ko": "그렇다면 그렇게 마음의 눈이 열렸을 때 무엇이 보입니까? 사마리아 여인을 다시 보십시오. 이 여인은 성경 지식이 없던 사람이 아닙니다. 조상의 전통도 알았고, 예배하던 산도 있었으며, 심지어 메시아를 기다리기까지 했습니다. 그런데도 주님은 그녀에게 \"너희는 알지 못하는 것을 예배한다\"고 지적하셨습니다. 그러다 마침내 그녀의 눈이 열립니다. 무엇을 보았습니까?",
+          "en": "So when the eyes of the heart are opened in that way, what comes into view? Look again at the Samaritan woman. She was not a person without religious knowledge. She knew her ancestors' tradition, she had a mountain of worship, she was even waiting for the Messiah. And still the Lord told her, “You worship what you do not know.” Then at last her eyes are opened. What did she see?"
+        },
+        {
+          "ko": "\"예수께서 이르시되 네게 말하는 내가 그라 하시니라\" (요한복음 4:26)",
+          "en": "“Jesus said to her, ‘I who speak to you am he.’” (John 4:26)"
+        },
+        {
+          "ko": "내가 그라! 사랑하는 성도 여러분, 이것은 문제의 정답 하나를 가르쳐 주신 장면이 아닙니다. 요한복음이 태초부터 증언하고자 했던 그 영광스러운 하나님이 지금 한 여인 바로 앞에 서 계신 것입니다.",
+          "en": "I am he! Beloved, this is not a scene in which the correct answer to a question is supplied. The glorious God whom John's Gospel has been testifying to from the beginning is now standing directly in front of one woman."
+        },
+        {
+          "ko": "눈이 열린 사람에게 무엇이 보이는지 요한복음이 계속해서 증언합니다. 주님은 친히 선언하셨습니다.",
+          "en": "John's Gospel keeps testifying to what the opened eye sees. The Lord himself declared:"
+        },
+        {
+          "ko": "\"예수께서 이르시되 진실로 진실로 너희에게 이르노니 아브라함이 나기 전부터 내가 있느니라 하시니\" (요한복음 8:58)",
+          "en": "“Jesus said to them, ‘Truly, truly, I say to you, before Abraham was, I am.’” (John 8:58)"
+        },
+        {
+          "ko": "그리고 요한복음의 끝자락에서 제자 도마는 그분 앞에 엎드려 \"나의 주님이시요 나의 하나님이시니이다\" 하고 고백합니다.",
+          "en": "And near the end of John's Gospel the disciple Thomas falls before him and confesses, “My Lord and my God!”"
+        },
+        {
+          "ko": "보십시오. \"내가 그라\" 말씀하신 주님이 누구십니까? 아브라함보다 먼저 계신 분이며, 제자가 무릎을 꿇고 \"나의 하나님\"이라 부를 수밖에 없는 바로 그 하나님이십니다. 주님은 말씀과 표적을 통해 끊임없이 자신이 누구신지를 드러내셨습니다. \"내가 그라\" 선언하실 때마다, 병자를 고치시고 죽은 자를 일으키실 때마다 자신이 참 하나님이심을 보여 주셨습니다. 성경이 우리 눈을 밝히는 궁극적인 목적은 바로 그분을 알아보게 하기 위함입니다.",
+          "en": "Look. Who is this Lord who said, “I am he”? He is the one who existed before Abraham, the very God before whom a disciple must fall on his knees and say, “My God.” Through his words and his signs the Lord unceasingly revealed who he is. Every time he declared “I am,” every time he healed the sick and raised the dead, he showed that he is the true God. The ultimate purpose of Scripture's enlightening of our eyes is that we would recognize him."
+        },
+        {
+          "ko": "눈이 열렸을 때 보이는 것은 차가운 교리나 도덕적 교훈이 아닙니다. 성경의 모든 말씀이 한결같이 가리키고 있던 단 한 분, 바로 살아 계신 예수 그리스도이십니다.",
+          "en": "What comes into view when the eyes are opened is not cold doctrine or moral instruction. It is the one Person to whom every word of Scripture has been pointing all along — the living Jesus Christ."
+        },
+        {
+          "ko": "그렇다면 \"내가 그라\" 하셨던 그 '나'는 누구십니까?",
+          "en": "So then, who is the “I” in “I am he”?"
+        },
+        {
+          "ko": "성경은 우리에게 \"막연한 어떤 신을 예배하라\"고 말하지 않습니다. 성경은 오직 한 분을 똑똑히 가리키고 있으며, 바로 그 한 분께서 친히 우리 앞에 입을 여십니다.",
+          "en": "Scripture does not tell us to “worship some vague deity.” Scripture points unmistakably to one Person, and that one Person opens his mouth before us himself."
+        },
+        {
+          "ko": "\"네게 말하는 내가 바로 그라.\"",
+          "en": "“I who speak to you am he.”"
+        },
+        {
+          "ko": "사랑하는 성도 여러분, 이것은 하나님에 대해 설명해 주는 교리 강의가 아닙니다. 하나님께서 자기 자신을 직접 나타내 보이신 선언입니다. 막연한 신을 찾아 헤매라는 것이 아니라, \"내가 바로 너희가 예배할 그 하나님이다\"라고 밝히신 것입니다.",
+          "en": "Beloved, this is not a doctrinal lecture explaining God. It is God's own declaration in which he shows himself. He is not sending us off to wander in search of some vague deity; he is making it plain: “I am the very God you are to worship.”"
+        },
+        {
+          "ko": "하나님은 말 없는 하늘의 증언 속에만 우리를 남겨 두지 않으셨습니다. 친히 육신을 입고 우리 곁으로 찾아오셔서, 당신의 입을 열어 말씀해 주셨습니다.",
+          "en": "God did not leave us with only the wordless testimony of the heavens. He took on flesh himself, came to our side, and opened his mouth and spoke to us."
+        },
+        {
+          "ko": "사랑하는 성도 여러분, 그러므로 성경을 펼치기 전에 우리가 가장 먼저 해야 할 일이 있습니다. 마음의 눈을 열어 달라고 구하는 것입니다. 이것은 단순한 습관이 아니라, 우리의 가장 간절한 기도가 되어야 합니다.",
+          "en": "Beloved, therefore there is something we must do first, before we open the Bible: ask him to open the eyes of our heart. This must not be a mere habit; it must become our most earnest prayer."
+        },
+        {
+          "ko": "넷째 — 알아보는 눈",
+          "en": "Fourth — The Recognizing Eye",
+          "section": true
+        },
+        {
+          "ko": "이제 오늘 말씀의 가장 깊은 반전이자 절정입니다. 지금까지 우리는 내가 하나님을 바라보는 이야기를 나누었습니다. 흐린 눈이 안경을 쓰고, 성령으로 마음이 열려 그리스도를 보게 되는 은혜의 여정이었습니다.",
+          "en": "Now we come to the deepest turn and the climax of today's message. Until now we have been speaking of my looking at God — a journey of grace in which the dim eye puts on glasses and, by the Spirit, the heart is opened to see Christ."
+        },
+        {
+          "ko": "그런데 시편 기자의 놀라운 고백이 바로 여기에 등장합니다. 하늘을 힘차게 노래하고 율법의 완전함을 찬양하던 시인이, 돌연 시선을 어디로 돌립니까? 바로 자기 자신입니다.",
+          "en": "And here the psalmist's astonishing confession appears. Having sung powerfully of the heavens and praised the perfection of the law, where does the psalmist suddenly turn his gaze? To himself."
+        },
+        {
+          "ko": "\"자기 허물을 능히 깨달을 자 누구리요 나를 숨은 허물에서 벗어나게 하소서\" (시편 19:12)",
+          "en": "“Who can discern his errors? Declare me innocent from hidden faults.” (Psalm 19:12)"
+        },
+        {
+          "ko": "이 순서를 결코 놓쳐서는 안 됩니다. 이 고백이 어디에 놓여 있습니까? 바로 말씀 단락 바로 뒤입니다. 시인은 처음부터 자신이 스스로를 제대로 보지 못한다는 사실을 알고 있었던 것이 아닙니다. 말씀의 안경을 쓰고 하나님을 대면하고 나서야, 비로소 자기가 자기 자신을 철저히 잘못 읽고 있었다는 사실을 깨달은 것입니다.",
+          "en": "We must never miss this order. Where does this confession stand? Immediately after the section on the Word. The psalmist did not know from the start that he could not see himself rightly. Only after putting on the spectacles of the Word and coming face to face with God did he realize that he had been thoroughly misreading himself."
+        },
+        {
+          "ko": "서론에서 말씀드린 두 자리가 여기서 다시 만납니다. 앞에는 하늘이라는 책이 있고, 뒤에는 내가 살아온 자리가 있습니다. 그리고 그 한가운데에 말씀이 놓여 있습니다. 하늘도 안경 없이는 바르게 읽지 못하고, 내 인생 역시 말씀의 안경 없이는 결코 바르게 해석할 수 없습니다.",
+          "en": "The two places I mentioned in the introduction meet again here. Before us is the book of the heavens; behind us is the road we have walked. And in the middle stands the Word. Without the glasses we cannot read the heavens rightly, and without the glasses of the Word we can never rightly interpret our own lives."
+        },
+        {
+          "ko": "그리고 여기서 방향이 완전히 뒤집힙니다. 성경은 단순히 내가 말씀을 읽는 행위에 머물지 않습니다.",
+          "en": "And here the direction reverses entirely. Scripture does not remain merely an act of my reading the Word."
+        },
+        {
+          "ko": "\"하나님의 말씀은 살아 있고 활력이 있어 좌우에 날선 어떤 검보다도 예리하여 혼과 영과 및 관절과 골수를 찔러 쪼개기까지 하며 또 마음의 생각과 뜻을 판단하나니 지으신 것이 하나도 그 앞에 나타나지 않음이 없고 우리의 결산을 받으실 이의 눈 앞에 만물이 벌거벗은 것 같이 드러나느니라\" (히브리서 4:12–13)",
+          "en": "“For the word of God is living and active, sharper than any two-edged sword, piercing to the division of soul and of spirit, of joints and of marrow, and discerning the thoughts and intentions of the heart. And no creature is hidden from his sight, but all are naked and exposed to the eyes of him to whom we must give account.” (Hebrews 4:12–13)"
+        },
+        {
+          "ko": "내가 성경을 읽고 판단하는 줄 알았는데, 살아 있는 말씀이 나를 꿰뚫어 읽고 계셨습니다. 심판대 앞에 선 것처럼 내 모든 중심이 벌거벗겨지듯 드러난 것입니다.",
+          "en": "I thought I was the one reading and judging Scripture — but the living Word was reading straight through me. As though standing before the judgment seat, everything at my center was laid bare."
+        },
+        {
+          "ko": "말씀 앞에서 그렇게 벌거벗겨진 사람이 사마리아 우물가에 있었습니다. 그 여인이 동네로 뛰어가 무어라 외쳤습니까?",
+          "en": "There was such a person, laid bare before the Word, at the Samaritan well. What did she run into town crying out?"
+        },
+        {
+          "ko": "\"내가 행한 모든 일을 내게 말한 사람을 와서 보라 이는 그리스도가 아니냐 하니\" (요한복음 4:29)",
+          "en": "“Come, see a man who told me all that I ever did. Can this be the Christ?” (John 4:29)"
+        },
+        {
+          "ko": "그분이 내가 살아온 모든 삶을 읽으셨습니다! 시편 기자는 \"자기 허물을 능히 깨달을 자 누구리요\" 탄식했습니다. 그 절박한 물음의 해답이 바로 우물가에 서 계셨습니다. 나는 나를 온전히 읽지 못하지만, 그분은 내 모든 것을 완벽하게 읽고 계셨습니다.",
+          "en": "He read the whole of the life I have lived! The psalmist cried, “Who can discern his errors?” The answer to that desperate question was standing at the well. I cannot read myself completely — but he was reading all of me perfectly."
+        },
+        {
+          "ko": "여인은 그날 무엇을 깨달았습니까? 자신이 평생 숨기며 부끄러워했던 고단한 과거가 이분 앞에는 단 하나도 감추어져 있지 않다는 사실을 알았습니다. 그리고 요한은 이 사건의 서두에서 이미 중요한 사실을 밝혀 두었습니다. 주님이 \"사마리아를 통과하여야 하겠다\" 작정하셨다는 점입니다. 여인이 물을 길으러 나온 바로 그 시각에 주님이 우물가에 앉아 계셨던 것은 결코 우연의 일치가 아니었습니다. 주님은 바로 이 여인을 만나시기로 작정하시고 길을 떠나셨던 것입니다.",
+          "en": "What did the woman realize that day? That the weary past she had spent a lifetime hiding in shame was not hidden from him in even one detail. And John had already made something important clear at the opening of this account: the Lord had determined that “he had to pass through Samaria.” That the Lord was sitting at the well at the very hour she came out to draw water was no coincidence at all. He had set out on that road having determined to meet this very woman."
+        },
+        {
+          "ko": "그러므로 주님이 이날 그녀를 처음 아신 것이 아닙니다. 주님은 이미 이 여인을 아시고 만나시고자 길을 떠나셨습니다. 다만 이 여인이 비로소 그날 주님을 처음 알아본 것입니다. 그리고 이것이 오늘 네 번째 눈, 곧 '알아보는 눈'입니다. 이것은 본래 없던 것을 찾아내는 눈이 아니라, 이미 내 삶에 찾아와 계셨던 주님을 비로소 알아채는, 성령의 역사로 그리스도를 만나 뜨여진 눈입니다.",
+          "en": "So it was not on that day that the Lord first knew her. He already knew this woman and set out to meet her. It was she who, on that day, first recognized him. And this is today's fourth eye — the recognizing eye. It is not an eye that discovers something that was never there, but an eye opened by the work of the Spirit in meeting Christ, which finally perceives the Lord who had already come into my life."
+        },
+        {
+          "ko": "사랑하는 성도 여러분, 여기서 우리가 분명하게 붙들어야 할 진리가 있습니다. 하나님의 뜻이 내 인생에 미치지 않는 순간은 단 하나도 없습니다. 그리고 그 뜻이 마침내 어느 방향을 향해 가고 있는지를 성경은 분명하게 선포합니다.",
+          "en": "Beloved, here is a truth we must hold firmly. There is not one moment of my life that God's will does not reach. And Scripture declares plainly the direction in which that will is finally moving."
+        },
+        {
+          "ko": "\"우리가 알거니와 하나님을 사랑하는 자 곧 그의 뜻대로 부르심을 입은 자들에게는 모든 것이 합력하여 선을 이루느니라\" (로마서 8:28)",
+          "en": "“And we know that for those who love God all things work together for good, for those who are called according to his purpose.” (Romans 8:28)"
+        },
+        {
+          "ko": "\"우리가 알거니와.\" 짐작한다는 뜻이 아닙니다. 분명히 확신한다는 선언입니다. 그리고 하나님의 선하신 다스림이 미치는 범위는 바로 \"모든 것\"입니다. 우리의 눈물과 아픔, 억울함까지도 단 하나 빼놓지 않으십니다.",
+          "en": "“We know.” This does not mean we guess. It is a declaration of firm certainty. And the reach of God's good rule is precisely “all things” — our tears, our pain, even our injustices; he leaves not one of them out."
+        },
+        {
+          "ko": "때로는 하나님께서 그 깊은 이유까지도 깨닫게 하십니다. 요셉이 메마른 구덩이에 던져졌을 때 그 뜻을 알았겠습니까? 노예로 팔려 갈 때, 억울하게 감옥에 갇혔을 때 그 이유를 알았겠습니까? 아닙니다. 전혀 몰랐습니다.",
+          "en": "At times God even lets us understand the deeper reason. When Joseph was thrown into the dry pit, did he know the purpose? When he was sold as a slave, when he was unjustly imprisoned, did he know the reason? No. He had no idea."
+        },
+        {
+          "ko": "세월이 한참 흐른 뒤, 자신을 팔아넘겨 두려움에 떨고 있는 형들 앞에 서서야 비로소 하나님의 구원의 원대하신 뜻을 알아본 것입니다. 형들의 배신과 악행마저도 수많은 생명을 살리시려는 하나님의 거대한 섭리 안에 있었음을 요셉은 고백하는 것입니다.",
+          "en": "Only long years later, standing before the brothers who had sold him and were now trembling in fear, did he recognize the vast saving purpose of God. Joseph confesses that even his brothers' betrayal and evil lay within God's immense providence to keep many people alive."
+        },
+        {
+          "ko": "\"하나님이 생명을 구원하시려고 나를 당신들보다 먼저 보내셨나이다.\"",
+          "en": "“God sent me before you to preserve life.”"
+        },
+        {
+          "ko": "하나님이 우리의 그 고난의 자리에 계시지 않았던 것이 아닙니다. 하나님은 언제나 우리 옆에서 일하고 계셨지만, 그때는 아직 우리 눈에 그 손길이 읽히지 않았을 뿐입니다. 사도 요한은 복음서를 갈무리하며 기록 목적을 분명히 밝힙니다.",
+          "en": "It is not that God was absent from the place of our suffering. God was always at work beside us; it is only that at the time our eyes could not yet read his hand. The apostle John, closing his Gospel, states his purpose in writing plainly."
+        },
+        {
+          "ko": "\"예수께서 제자들 앞에서 이 책에 기록되지 아니한 다른 표적도 많이 행하셨으나 오직 이것을 기록함은 너희로 예수께서 하나님의 아들 그리스도이심을 믿게 하려 함이요 또 너희로 믿고 그 이름을 힘입어 생명을 얻게 하려 함이니라\" (요한복음 20:30–31)",
+          "en": "“Now Jesus did many other signs in the presence of the disciples, which are not written in this book; but these are written so that you may believe that Jesus is the Christ, the Son of God, and that by believing you may have life in his name.” (John 20:30–31)"
+        },
+        {
+          "ko": "요한이 복음서를 기록한 목적은 단순히 책장을 채우기 위함이 아닙니다. 이 기록을 통해 성도들의 삶 한가운데서 믿음이 일어나고 생명이 약동하게 하려는 것입니다. 성경은 책 속에 갇혀 있는 활자가 아니라, 처음부터 성도의 삶이라는 현장을 향해 기록된 생명의 말씀입니다.",
+          "en": "John did not write his Gospel simply to fill pages. He wrote so that faith would rise and life would pulse in the middle of believers' lives. Scripture is not type locked inside a book; from the very beginning it is the word of life written toward the actual ground of the believer's life."
+        },
+        {
+          "ko": "다만 두 가지는 분명히 기억하셔야 합니다.",
+          "en": "But two things must be clearly remembered."
+        },
+        {
+          "ko": "첫째, 내 삶의 경험이 성경 말씀 자체를 대신할 수는 없습니다. 안경을 통해 글자를 읽는 것이지, 내 눈맛에 맞추어 안경의 도수를 마음대로 고쳐 쓰는 것이 아닙니다.",
+          "en": "First, the experience of my life can never replace the Word of Scripture itself. We read the letters through the glasses; we do not adjust the prescription of the glasses to suit our own taste."
+        },
+        {
+          "ko": "둘째, 하나님의 뜻을 알려 주시는 것은 오직 하나님의 주권적인 자유입니다. 어떤 일은 그 이유까지 깨닫게 하시고, 어떤 일은 끝내 침묵하십니다. 그러니 우리가 억지로 하나님의 뜻을 캐내려 해서는 안 됩니다. 하나님이 알려 주신 것과 내가 짐작한 것을 분별해야 하며, 그 분별의 유일한 기준은 내 주관적 확신이 아니라 오직 기록된 말씀입니다.",
+          "en": "Second, whether God reveals his purpose is entirely his sovereign freedom. For some matters he grants us the reason; about others he remains silent to the end. So we must not force God's will out of hiding. We must distinguish what God has revealed from what I have guessed, and the only standard for that discernment is not my subjective certainty but the written Word alone."
+        },
+        {
+          "ko": "그러므로 우리는 \"그때 그 고난이 왜 나에게 일어났는가\"에 대한 모든 해답을 지금 다 알아내지는 못합니다. 그러나 이것 하나만큼은 확신할 수 있습니다. 우리는 결코 차가운 우연의 세상에 내던져진 존재가 아니라, 나를 구원하시고자 독생자까지 아낌없이 내어 주신 하나님의 신실하신 손안에 살아가고 있다는 사실입니다.",
+          "en": "So we will not now discover every answer to “why did that suffering come to me then?” But of this one thing we can be certain: we are not beings flung into a cold world of chance, but people living in the faithful hand of the God who did not spare even his only Son in order to save us."
+        },
+        {
+          "ko": "그리스도를 알아본 눈으로 지나온 세월을 다시 돌아보십시오. 내가 주님을 알지 못했던 그 어두운 순간에도 나는 단 한 번도 그분의 손 밖으로 벗어난 적이 없었습니다. 하나님이 계시지 않았던 것이 아니라, 우리 눈이 흐려져 보지 못했을 뿐입니다.",
+          "en": "Look back over the years with an eye that has recognized Christ. Even in those dark moments when I did not know the Lord, I never once slipped outside his hand. It is not that God was absent; it is that our eyes were dim and could not see."
+        },
+        {
+          "ko": "결론",
+          "en": "Conclusion",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 성도 여러분, 오늘 우리가 함께 나눈 네 가지 눈의 은혜를 마음에 다시 새겨 보십시오.",
+          "en": "Beloved, engrave once more on your hearts the grace of the four eyes we have shared today."
+        },
+        {
+          "ko": "하늘은 쉬지 않고 하나님의 영광을 웅장하게 선포하고 있었지만, 우리는 그 음성을 비틀어 읽으며 헛된 우상 속을 헤매었습니다. 우리의 눈이 심히 흐려져 있었기 때문입니다.",
+          "en": "The heavens were declaring the glory of God majestically and without rest, yet we misread that voice and wandered among empty idols — because our eyes were terribly dim."
+        },
+        {
+          "ko": "그리하여 긍휼의 하나님께서는 흐려진 우리를 내버려 두지 않으시고, 성경이라는 거룩한 말씀의 안경을 친히 건네주셨습니다.",
+          "en": "And so the God of mercy did not leave us in our dimness but handed us himself the holy spectacles of his Word, the Scriptures."
+        },
+        {
+          "ko": "나아가 성령 하나님께서 굳게 닫혀 있던 우리 마음의 눈을 활짝 열어 밝혀 주셨을 때, 우리는 비로소 성경이 가리키는 단 한 분, 살아 계신 구원자 예수 그리스도를 온전히 바라보게 되었습니다.",
+          "en": "Further, when God the Holy Spirit threw open and enlightened the tightly shut eyes of our hearts, we at last saw fully the one Person to whom Scripture points — the living Savior, Jesus Christ."
+        },
+        {
+          "ko": "그리고 마침내 깊이 깨달았습니다. 내가 주님을 찾기도 전에, 그분께서 이미 신실하신 은혜로 내 지나온 전 생애를 한순간도 빠짐없이 품고 계셨다는 그 놀라운 사랑을 비로소 알아보게 된 것입니다.",
+          "en": "And finally we understood deeply: before I ever sought the Lord, he had already, in faithful grace, been holding every moment of my whole past life. That astonishing love is what we have come to recognize."
+        },
+        {
+          "ko": "이 구원의 여정 가운데 우리가 스스로 시작한 것이 과연 단 하나라도 있습니까? 광대한 하늘을 펴신 분이 누구십니까? 하나님이십니다. 눈을 밝히는 말씀을 주신 분이 누구십니까? 하나님이십니다. 굳은 마음을 열어 눈을 뜨게 하신 분이 누구십니까? 성령 하나님이십니다. 그리고 내 비틀거리던 인생을 먼저 찾아와 읽고 계셨던 분이 누구십니까? 바로 우리 주 예수 그리스도이십니다.",
+          "en": "In this whole journey of salvation, is there even one thing we began ourselves? Who stretched out the vast heavens? God. Who gave the Word that enlightens the eyes? God. Who opened the hardened heart and made the eyes see? God the Holy Spirit. And who came first to my stumbling life and was reading it? Our Lord Jesus Christ."
+        },
+        {
+          "ko": "사마리아 여인이 먼저 주님을 찾아간 것이 아닙니다. 그저 목이 말라 물 한 동이를 길으러 나왔을 뿐입니다. 성경은 증언합니다.",
+          "en": "The Samaritan woman did not go looking for the Lord first. She simply came out thirsty, to draw a jar of water. Scripture testifies:"
+        },
+        {
+          "ko": "\"사마리아를 통과하여야 하겠는지라\" (요한복음 4:4)",
+          "en": "“And he had to pass through Samaria.” (John 4:4)"
+        },
+        {
+          "ko": "그곳이 어떤 자리였습니까? 유대인이 사마리아인과 상종조차 하지 않던 자리였습니다. 사람들이 차가운 경계를 긋고 서로 등을 돌리던 그 막다른 골목으로, 주님은 반드시 통과하여야 하겠다 하시며 찾아가셨습니다. 왜 그러셨습니까? 거기 만나기로 작정하신 사람이 있었기 때문입니다. 그리고 한 여인의 회복으로 시작하여 온 동네를 구원의 빛으로 물들이셨습니다.",
+          "en": "What kind of place was that? A place where Jews would not so much as associate with Samaritans. Into that dead end, where people drew cold boundaries and turned their backs on one another, the Lord went, saying he had to pass through. Why? Because there was someone there he had determined to meet. And beginning with the restoration of one woman, he flooded an entire town with the light of salvation."
+        },
+        {
+          "ko": "그 여인이 자기 힘으로 그 어둠에서 빠져나온 것이 아닙니다. 주님이 그 어둠의 길 한복판으로 걸어 들어오셨습니다. 여러분의 고단한 인생길에도 주님이 그렇게 찾아오셨습니다. 그리고 그 걸음의 끝에서 우리를 위해 십자가를 지셨습니다.",
+          "en": "That woman did not climb out of the darkness by her own strength. The Lord walked into the middle of that dark road. He came to your weary road in just the same way. And at the end of that walk he took up the cross for us."
+        },
+        {
+          "ko": "이번 한 주간, 세 가지 결단을 가슴에 깊이 품고 삶의 자리로 나아가시기 바랍니다.",
+          "en": "This coming week, go out into the places of your life holding three resolutions deep in your heart."
+        },
+        {
+          "ko": "첫째, 성경을 펴기 전에 먼저 엎드려 기도하십시오. 성경은 인간의 지혜나 지식으로 열리는 책이 아닙니다. 시편 기자와 함께 \"내 눈을 열어서 주의 율법에서 놀라운 것을 보게 하소서\" 엎드리며, 마음의 눈을 밝혀 주시기를 성령 하나님께 먼저 간절히 구하십시오.",
+          "en": "First, kneel and pray before you open the Bible. Scripture is not a book opened by human wisdom or knowledge. Bow with the psalmist — “Open my eyes, that I may behold wondrous things out of your law” — and first ask God the Holy Spirit earnestly to enlighten the eyes of your heart."
+        },
+        {
+          "ko": "둘째, 하늘과 만물을 바라볼 때마다 창조주의 신실하심을 기억하십시오. 육신의 귀에는 침묵하는 듯 보여도, 저 드넓은 하늘과 피조세계 속에서 하나님의 웅장한 영광은 지금 이 순간에도 쉼 없이 선포되고 있습니다.",
+          "en": "Second, whenever you look at the sky and all created things, remember the faithfulness of the Creator. Though it seems silent to the ear of the body, God's majestic glory is being declared without rest at this very moment through the wide heavens and the whole creation."
+        },
+        {
+          "ko": "셋째, 말씀이라는 안경을 쓰고 지나온 삶의 자리를 다시 읽어 내십시오. 실수와 상처투성이인 줄만 알았던 고단한 시간 속에서도, 내 삶의 단 한순간조차 주님의 신실하신 손길 밖으로 벗어난 적이 없었음을 비로소 또렷이 알아보게 될 것입니다.",
+          "en": "Third, put on the spectacles of the Word and read again the places of life you have already walked. Even in those weary seasons you thought were nothing but mistakes and wounds, you will finally see clearly that not one moment of your life ever fell outside the Lord's faithful hand."
+        },
+        {
+          "ko": "시편 기자가 이 위대한 찬가를 어떻게 마무리합니까?",
+          "en": "How does the psalmist close this great hymn?"
+        },
+        {
+          "ko": "\"나의 반석이시요 나의 구속자이신 여호와여 내 입의 말과 마음의 묵상이 주님 앞에 열납되기를 원하나이다\" (시편 19:14)",
+          "en": "“Let the words of my mouth and the meditation of my heart be acceptable in your sight, O LORD, my rock and my redeemer.” (Psalm 19:14)"
+        },
+        {
+          "ko": "하늘의 영광을 우러러보고, 말씀의 완전함 앞에 눈을 뜨며, 자신의 숨은 허물을 발견한 시인은 마침내 구속자 앞에 온전히 무릎을 꿇습니다.",
+          "en": "Having looked up at the glory of the heavens, having had his eyes opened before the perfection of the Word, and having discovered his own hidden faults, the psalmist at last kneels fully before his Redeemer."
+        },
+        {
+          "ko": "오늘 우리 모두에게 이 은혜가 임하기를 소망합니다. 흐려진 우리 눈에 말씀의 안경을 씌우시고, 성령으로 마음의 눈을 밝혀 주시며, 마침내 우리를 먼저 찾아오신 십자가의 그 손길을 또렷이 알아보는 복된 성도님들이 다 되시기를 우리 주 예수 그리스도의 이름으로 간절히 축원합니다. 아멘.",
+          "en": "I long for this grace to come upon all of us today. May God set the spectacles of his Word upon our dimmed eyes, enlighten the eyes of our hearts by the Spirit, and make every one of you blessed saints who clearly recognize the hand of the cross that came seeking us first. In the name of our Lord Jesus Christ I earnestly bless you. Amen."
+        }
+      ]
     }
   ]
 };
