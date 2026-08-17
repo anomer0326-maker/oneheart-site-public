@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 성경이 교정하는 우상숭배 §2 (1권 10장 · Day 54) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 10장 §2(성경이 교정하는 우상숭배)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 54. 연관 성구: 예레미야 9, 시편 145, 고린도전서 1, 고린도후서 10."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day54_Book1-Ch10-%C2%A72.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="성경이 교정하는 우상숭배 §2 — 기독교 강요 영어로 읽기 (Day 54)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 10장 §2(성경이 교정하는 우상숭배)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 54. 연관 성구: 예레미야 9, 시편 145, 고린도전서 1, 고린도후서 10."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day54_Book1-Ch10-%C2%A72.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 성경이 교정하는 우상숭배 §2 (1권 10장 · Day 54) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 10장 §2(성경이 교정하는 우상숭배)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 54. 연관 성구: 예레미야 9, 시편 145, 고린도전서 1, 고린도후서 10.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 10장 §2 — 성경이 교정하는 우상숭배","mentions":[{"@type":"CreativeWork","name":"예레미야 9 (Jeremiah 9)"},{"@type":"CreativeWork","name":"시편 145 (Psalm 145)"},{"@type":"CreativeWork","name":"고린도전서 1 (1 Cor 1)"},{"@type":"CreativeWork","name":"고린도후서 10 (2 Cor 10)"},{"@type":"CreativeWork","name":"출애굽기 34 (Exodus 34)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day54_Book1-Ch10-%C2%A72.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 54 — Book 1, Chapter 10, §2<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (the whole § — 18 sentences, verbatim)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl2" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl3" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl2" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl1" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl1" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl3" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl3" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl2" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl2" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl3" href="#S11" onclick="closeNavMobile()">S11</a><a class="toc-s lvl1" href="#S12" onclick="closeNavMobile()">S12</a><a class="toc-s lvl2" href="#S13" onclick="closeNavMobile()">S13</a><a class="toc-s lvl3" href="#S14" onclick="closeNavMobile()">S14</a><a class="toc-s lvl2" href="#S15" onclick="closeNavMobile()">S15</a><a class="toc-s lvl2" href="#S16" onclick="closeNavMobile()">S16</a><a class="toc-s lvl2" href="#S17" onclick="closeNavMobile()">S17</a><a class="toc-s lvl3" href="#S18" onclick="closeNavMobile()">S18</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (etymology hooks)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 54 — Book 1, Chapter 10, §2</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday Calvin built a fence and promised us <code>a kind of index</code>. Today he <strong>delivers the index</strong> — and it is the single most important paragraph in Book 1 for the doctrine of God. Look at what he does. He does not open a dictionary of attributes. He opens <strong>three passages of Scripture</strong> — Exodus 34, Psalm 145, Jeremiah 9 — and lets God name himself.</p><p>But the sentence that will follow you for the rest of your life is <strong>S3</strong>. Here it is:</p><blockquote>
+<p><code>he is described not as he is in himself, but in relation to us</code></p>
+</blockquote><p>Underline it twice. That is the hinge of Calvin's whole theological method, the thing the scholastics call <strong>quoad se / quoad nos</strong> — God <em>as he is in himself</em> versus God <em>as he is toward us</em>. Calvin picks the second. Not because the first is false, but because the first is <strong>not the business of creatures</strong>. And he gives the reason in the same breath, in a comparative that is easy to skim right past: <code>in order that our acknowledgement of him may be more **a vivid actual impression** than **empty visionary speculation**.</code> Knowledge of God that does not <em>land on you</em> is not knowledge of God. It is speculation. Day 5's <code>qualis ≠ quid</code> — remember? — now cashed out with a proof text.</p><p>Then watch the architecture. S4–S5: the attributes Moses lists are <code>just those which we saw shining in the heavens, and on the earth</code> — the Chapter 5 list, verbatim recall. That is <strong>yesterday's thesis being paid off</strong>: Scripture's God and creation's God are one sitter, and here is the receipt. S8 states it as a formula so tight it is almost a proverb: <code>such as we feel him to be when experience is our guide, such he declares himself to be by his word.</code> Experience and word converge. Same God, two witnesses.</p><p>Then Jeremiah narrows the three to a <strong>triad</strong> — loving-kindness, Judgment, righteousness (S10–S11) — and Calvin, sensing the objection before you can raise it (<code>but what about truth? power? holiness? goodness?</code>), fires <strong>four rhetorical questions in a row</strong> (S13–S17) to show the triad <em>entails</em> the rest. That's not padding. That's a man defending a short list against the charge of being short.</p><p>And S18 lands the plane where Book 1 always lands: the <em>purpose</em> is not information. It is <code>worship him with perfect integrity of heart and unfeigned obedience, and also to depend entirely on his goodness.</code> Knowledge → piety. Chapter 2's thesis, restated at the end of Chapter 10's centerpiece.</p><p>The shape in one breath:</p><pre><code>   S1        SETUP      ── some passages paint God's "genuine countenance"
+   S2–S3     MOSES ⭐    ── Ex. 34 quoted → TWO observations:
+                            (a) name twice repeated = eternity + self-existence
+                            (b) described NOT in himself BUT in relation to us
+   S4–S5     BRIDGE     ── that list = the Ch. 5 list (creation) + Jehovah = power
+   S6–S8     DAVID ⭐    ── prophets do the same; Ps. 145 omits nothing;
+                            SUCH as experience → SUCH by his word
+   S9–S11    JEREMIAH ⭐ ── Jer. 9:24 → the THREE: loving-kindness,
+                            Judgment, righteousness
+   S12       CLAIM      ── know these three = amply furnished for glorying
+   S13–S17   DEFENCE ⭐  ── objection pre-empted: truth? power? goodness?
+                            holiness? — 4 rhetorical questions, all entailed
+   S18       PURPOSE ⭐  ── same end as creation's knowledge:
+                            worship + obedience + dependence
+</code></pre><p><strong>Today's 3 Big Points — write them down now:</strong></p><ol>
+<li><strong>The correlative <code>such ... such</code> — a fronted comparison with the pivot hidden in the middle.</strong> S8: <code>**such as** we feel him to be when experience is our guide, **such** he declares himself to be by his word.</code> The frame is <code>such as S V, such S V</code> = <em>as X, so Y</em>. ⚠️ Two traps in one sentence. First, <code>such</code> is a <strong>complement</strong>, not a determiner — there is no noun coming. Second, <code>we feel him to be ___</code> is a <strong>five-pattern with <code>to be</code></strong> (S + V + O + to-be-C), and the gap after <code>to be</code> is exactly what the first <code>such</code> fills. Restore it and the sentence reads: <em>we feel him to be [such]; he declares himself to be [such].</em> Same predicate, two roads.</li>
+<li><strong>Negative fronting and elliptical rhetorical questions — Calvin's argumentative artillery.</strong> S13: <code>**Nor is there** here any omission of his truth ...</code> — <code>nor</code> fronted forces <strong>auxiliary–subject inversion</strong> (<code>Nor is there</code>, not ~~Nor there is~~). S16: <code>**Whence, too, his loving-kindness, but from his goodness?**</code> — a <strong>verbless</strong> question: the whole <code>does ... come</code> has been ellipted. ⚠️ The exam will offer you <code>Nor there is</code> or <code>Whence comes too his loving-kindness</code> as "corrections." Both wrong for different reasons. Know which.</li>
+<li><strong>Impersonal <code>it</code> + extraction: <code>the attributes which it is most necessary for us to know</code>.</strong> S11. The relative <code>which</code> is not the subject of <code>is</code>; it is the <strong>object of <code>to know</code></strong>, dragged out of the infinitive clause across the dummy <code>it</code>. Restore: <code>it is most necessary for us to know the attributes</code> → relativize the object → <code>the attributes **which** it is most necessary for us to know ___</code>. ⚠️ And then the main verb is <code>are these three</code> — plural, agreeing with <code>attributes</code>, not with <code>it</code>. S7 runs the same machine (<code>it may suffice at present to refer to ...</code>) and S15 runs the passive version (<code>could **it** be believed that ...</code>).</li>
+</ol><p>Eighteen sentences. Two long Scripture quotations. Four rhetorical questions. Let's go.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (the whole § — 18 sentences, verbatim)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+2. There are certain passages which contain more vivid descriptions of the divine character, setting it before us as if his genuine countenance were visibly portrayed. Moses, indeed, seems to have intended briefly to comprehend whatever may be known of God by man, when he said, “The Lord, The Lord God, merciful and gracious, long-suffering, and abundant in goodness and truth, keeping mercy for thousands, forgiving iniquity and transgression and sin, and that will by no means clear the guilty; visiting the iniquity of the fathers upon the children, and upon the children’s children, unto the third and to the fourth generation,” (Ex. 34:6, 7). Here we may observe, first, that his eternity and selfexistence are declared by his magnificent name twice repeated; and, secondly, that in the enumeration of his perfections, he is described not as he is in himself, but in relation to us, in order that our acknowledgement of him may be more a vivid actual impression than empty visionary speculation. Moreover, the perfections thus enumerated are just those which we saw shining in the heavens, and on the earth—compassion, goodness, mercy, justice, Judgment, and truth. For power and energy are comprehended under the name Jehovah. Similar epithets are employed by the prophets when they would fully declare his sacred name. Not to collect a great number of passages, it may suffice at present to refer to one Psalm (145) in which a summary of the divine perfections is so carefully given that not one seems to have been omitted. Still, however, every perfection there set down may be contemplated in creation; and, hence, such as we feel him to be when experience is our guide, such he declares himself to be by his word. In Jeremiah, where God proclaims the character in which he would have us to acknowledge him, though the description is not so full, it is substantially the same. “Let him that glorieth,” says he, “glory in this, that he understandeth and knoweth me, that I am the Lord which exercise loving-kindness, Judgment, and righteousness, in the earth,” (Jer. 9:24). Assuredly, the attributes which it is most necessary for us to know are these three: Loving-kindness, on which alone our entire safety depends: Judgment, which is daily exercised on the wicked, and awaits them in a severer form, even for eternal destruction: Righteousness, by which the faithful are preserved, and most benignly cherished. The prophet declares, that when you understand these, you are amply furnished with the means of glorying in God. Nor is there here any omission of his truth, or power, or holiness, or goodness. For how could this knowledge of his loving-kindness, Judgment, and righteousness, exist, if it were not founded on his inviolable truth? How, again, could it be believed that he governs the earth with Judgment and righteousness, without presupposing his mighty power? Whence, too, his loving-kindness, but from his goodness? In fine, if all his ways are loving-kindness, Judgment, and righteousness, his holiness also is thereby conspicuous. Moreover, the knowledge of God, which is set before us in the Scriptures, is designed for the same purpose as that which shines in creation—viz. that we may thereby learn to worship him with perfect integrity of heart and unfeigned obedience, and also to depend entirely on his goodness.
+✅ Text note. Our source file source/Institutes_Beveridge_FULL.txt carries §2 at lines 3991–4035. Page furniture removed and nothing else: the page-88 marker (mid-S2, right after long-suffering, and), the page-92 marker, and the two-line running header CHAPTER 10. - IN SCRIPTURE, THE TRUE GOD OPPOSED, EXCLUSIVELY, TO ALL / THE… — all of which fall inside the Exodus quotation and have been lifted out. Two hyphenation repairs across line breaks: exer- + cised → exercised (S11), and loving- + kindness → loving-kindness (S17 — the hyphen is kept, because the word is genuinely hyphenated everywhere else in the section). ⚠️ selfexistence (S3) is printed exactly so in our source — an artefact of the original typesetting/scan where self-existence lost its hyphen. Left verbatim. Not our typo. Likewise acknowledgement (S3) with the medial e, and capital-J Judgment throughout (Beveridge's house style; five occurrences) — left as printed. The parentheses around (Ex. 34:6, 7), (145), and (Jer. 9:24) are the source's own, as is the em-dash before compassion (S4) and before viz. (S18). The section is a single paragraph in the source — kept as one block above.
+⚠️ Now run the standing Day 42 checks. Every stranded comparative, every so/too/such without a partner, every pronoun without an antecedent.
+
+Correlatives: **more** vivid descriptions (S1) — ⚠️ comparative with no than. Not an orphan: the implied comparison is than the general run of Scripture passages just described in §1 (In every part of Scripture we meet with descriptions...). Supply it. **not** as he is in himself, **but** in relation to us (S3) ✓ — closed, and this is the day's theological hinge. may be **more** a vivid actual impression **than** empty visionary speculation (S3) ✓ — closed, and note it is a noun-phrase comparison (more A than B where A and B are both NPs), not an adjective one. **so** carefully given **that** not one seems to have been omitted (S7) ✓ — closed so ... that result clause. **such as** ... , **such** ... (S8) ✓ — the day's Big Point 1; the pair is such as/such, and it is easy to miss because the second such is stranded at the head of its own clause. **not so** full (S9) — ⚠️ another stranded so: not so full as the Mosaic description, the comparison recoverable from the sentence's own topic. a **severer** form (S11) — ⚠️ comparative, no than: severer than the daily exercise of Judgment just mentioned. the **same** purpose **as** that which shines in creation (S18) ✓ — same ... as closed. No true orphans.
+Pronouns: S1 **which** contain = certain passages; setting **it** before us — ⚠️ it = the divine character, not the passages; **his** genuine countenance = God's. S2 **he** said = Moses; inside the quotation **that** will by no means clear the guilty — the relative's head is the Lord, not sin (see S2's surgery). S3 **his** eternity, **his** magnificent name, **his** perfections, **he** is described, **he** is in himself = God; **our** acknowledgement, **us** = we readers. S4 **those which** we saw = the perfections. S6 **they** would fully declare = the prophets; **his** sacred name = God's. S7 **which** in in which a summary ... is given = Psalm 145. S8 **every perfection there set down** — ⚠️ there = in that Psalm, an adverb of place, not an existential there; **him** ×2 and **himself** = God; **his** word = God's. S9 **where** = in Jeremiah (locative relative on a book, not a place); **he** would have us = God; **it** is substantially the same = the description. S10 **says he** = the prophet/God speaking through him; **me**, **I** = the Lord. S11 **which** it is most necessary for us to know = the attributes; **on which alone** = Loving-kindness; **which** is daily exercised = Judgment; **them** = the wicked; **by which** = Righteousness. S12 **these** = the three attributes; **you** — ⚠️ second person, the only one in the section: Calvin lifts Jeremiah's address and points it at the reader. S13 **there** = existential this time (contrast S8); **his** = God's. S14 **it** in if **it** were not founded = this knowledge; **his** inviolable truth = God's. S15 **it** could be believed = dummy it anticipating the that-clause; **he** governs = God. S16 no verb, no pronoun but **his** = God's. S17 **his** ways, **his** holiness = God's; **thereby** = by that very fact. S18 **which** is set before us = the knowledge of God; **that which** shines in creation = the (other) knowledge of God; **him**, **his** goodness = God; **thereby** = by means of that knowledge.
+Trap words on patrol: vivid (S1) = lifelike, living (vivere). countenance (S1) = face — and it is deliberate: Ex. 34 is the passage where Moses asks to see God's face. as if ... **were** visibly portrayed (S1) = ⚠️ past subjunctive after as if — counterfactual. Calvin is not saying God is visible. comprehend (S2) = ⚠️ sum up, take in together (com + prehendere, grasp together) — not "understand." Moses is compressing, not comprehending. long-suffering (S2) = slow to anger (μακρόθυμος / Heb. erek appayim, "long of nostrils"). clear the guilty (S2) = acquit the guilty. selfexistence (S3) = aseity — God's existing a se, from himself. ⚠️ Note the missing hyphen; it is the source's. magnificent (S3) = great-making, majestic (magnus + facere). enumeration (S3) = the listing out one by one. acknowledgement (S3) = ⚠️ recognition, owning-as-true — a relational word for Calvin, not a cognitive one. vivid actual impression (S3) = a living, real impress — press a seal into wax; that is the metaphor. empty visionary speculation (S3) = ⚠️ hollow, dreamy theorizing; visionary here is pejorative (given to unreal visions), not "far-sighted." Trap word. thus enumerated (S4) = listed in this way. Judgment (S4, S10, S11, S14, S15, S17) = ⚠️ judicial rule, the executing of justice (Heb. mishpat) — not "an opinion" and not merely "the Last Judgment." comprehended under (S5) = included under. epithets (S6) = descriptive titles (Gk. ἐπίθετον, "added on"). **would** fully declare (S6) = ⚠️ archaic wished to / were minded to — volitional would, not future-in-past. Not to collect (S7) = ⚠️ rather than amass, an absolute infinitive used as a discourse-marker; not a command. suffice (S7) = be enough. set down (S8) = written down, recorded. contemplated (S8) = beheld, gazed at. such as we feel him to be (S8) — see Big Point 1. experience is our guide (S8) = when we go by experience. would have us to acknowledge (S9) = ⚠️ archaic wants us to acknowledge (have + O + to V; modern English drops the to). substantially (S9) = in substance, essentially — not "considerably." him that glorieth (S10) = the one who boasts (that = who; glory = boast, καυχάομαι). the Lord **which** exercise (S10) = ⚠️ who exercise — which for persons is normal 17th-c. English (cf. "Our Father which art in heaven"), and exercise is uninflected because it agrees with I. loving-kindness (S10, S11) = covenant-love (Heb. ḥesed). Assuredly (S11) = certainly. benignly cherished (S11) = kindly nurtured (benignus = well-born → kind; cherish &lt; carus, dear). amply furnished with the means of (S12) = abundantly equipped with the grounds for. glorying in God (S12) = boasting in God — the Pauline reflex of Jer. 9:24. Nor is there (S13) — Big Point 2. inviolable (S14) = ⚠️ that cannot be violated/broken (in + violare) — of God's truth: unbreakable. presupposing (S15) = assuming beforehand. Whence (S16) = from where. In fine (S17) = ⚠️ in conclusion, finally (Fr. enfin) — nothing to do with "fine." Trap phrase. conspicuous (S17) = plainly visible (con + specere, to look at). viz. (S18) = namely (Lat. videlicet, "it is permitted to see"). unfeigned (S18) = ⚠️ not pretended, sincere (fingere, to shape/feign — the same root as Day 9's figment). depend entirely on (S18) = rely wholly upon. All in Period 5.
+
+ℹ️ On the count. Eighteen sentences, one paragraph — Calvin's longest section since Ch. 8. Structurally it is a triptych with a defence attached: Moses (S2–S5), David (S6–S8), Jeremiah (S9–S12), then the objection-and-answer (S13–S17), then the purpose clause (S18). Two block quotations of Scripture, both closed with a parenthetical reference — the first (Ex. 34) is 66 words long and swallows a page break; the second (Jer. 9:24) is broken by says he in the middle, an old-fashioned interpolation that will trip you if you are reading fast. Four consecutive question marks (S14, S15, S16 — and S17 answers them all): the only cluster of questions in the whole chapter. And exactly one second-person address, in S12 (when you understand these, **you** are amply furnished) — lifted from Jeremiah and aimed at the reader. The count stands at 18.
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Three witnesses, one triad, four questions, one purpose:</p><pre><code>   S1        FRAME       ── some passages = God's "genuine countenance"
+                            (as if — counterfactual!)
+   S2        MOSES ⭐     ── Ex. 34:6-7 quoted whole (66 words)
+   S3        RULE ⭐⭐    ── (a) name twice = eternity + self-existence
+                            (b) NOT as he is in himself / BUT in relation to us
+                            purpose: vivid impression &gt; empty speculation
+   S4        RECEIPT     ── that same list already seen in heaven + earth
+   S5        FOOTNOTE    ── "Jehovah" carries power + energy
+   S6        DAVID (i)   ── prophets use similar epithets
+   S7        DAVID (ii)  ── Ps. 145: so complete that nothing is omitted
+   S8        AXIOM ⭐     ── SUCH as experience feels him — SUCH his word
+                            declares him
+   S9        JEREMIAH(i) ── less full, substantially the same
+   S10       JEREMIAH(ii)── Jer. 9:24 quoted
+   S11       THE THREE ⭐ ── loving-kindness / Judgment / righteousness
+   S12       PAYOFF      ── know these → amply furnished for glorying
+   S13       OBJECTION   ── (Nor is there...) truth? power? holiness? goodness?
+   S14-S16   ANSWER ⭐    ── 3 rhetorical questions: truth grounds it,
+                            power presupposed, goodness is the source
+   S17       ANSWER (4)  ── holiness = conspicuous from all his ways
+   S18       PURPOSE ⭐   ── same end as creation: worship + obedience
+                            + total dependence
+</code></pre><p><strong>Examiner's Eye — four traps live in this section:</strong></p><ol>
+<li><strong>The "God is knowable in himself" flip.</strong> A comprehension option will read: <em>"Calvin holds that Scripture describes God as he is in his own essence."</em> ✗ <strong>Direction flip — 180°.</strong> S3 says the exact opposite: <code>not as he is in himself, **but** in relation to us</code>. This is the single most likely test item in the section. If you get nothing else, get this.</li>
+<li><strong>The "experience is enough" overreach.</strong> An option will read: <em>"Calvin teaches that experience gives us the same knowledge of God as Scripture does, so Scripture is unnecessary."</em> ✗ <strong>Scope overreach.</strong> S8 says experience and the word yield the <strong>same character</strong> — it does not say either can be dropped. And §1 already ruled: the word explains it <code>more clearly and familiarly</code>. Convergence ≠ redundancy.</li>
+<li><strong>The <code>as if</code> trap.</strong> An option will render S1 as <em>"Calvin claims some passages make God's face visible."</em> ✗ The verb is subjunctive: <code>**as if** his genuine countenance **were** visibly portrayed</code> — a counterfactual comparison, and Chapter 11 (starting Day 56) will spend fourteen sections denying that God has any visible form at all. Read the mood.</li>
+<li><strong>The triad-is-exhaustive trap.</strong> An option will read: <em>"Calvin lists three attributes and denies that God has truth, power, holiness, or goodness."</em> ✗ <strong>Read S13.</strong> <code>Nor is there here any omission of his truth, or power, or holiness, or goodness.</code> The triad <strong>implies</strong> the rest; it does not exclude it. S14–S17 exist to make exactly this point.</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl2" data-lvl="2" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the as if that is doing counterfactual work</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>"There are certain passages which contain more vivid descriptions of the divine character, setting it before us as if his genuine countenance were visibly portrayed."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`There are certain passages</span></li><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which contain more vivid descriptions</span><ul class="tr"><li><span class="leaf">of the divine character</span></li></ul></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">setting it before us</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">as if his genuine countenance were visibly portrayed</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>countenance</em> &lt; OFr. <em>contenance</em> &lt; Lat. <em>continentia</em> (bearing, demeanour) → face; <em>vivid</em> &lt; <em>vivere</em> (to live) → lifelike; <em>portray</em> &lt; <em>pro</em> + <em>trahere</em> (draw forth) — a drawing word, matching §1's <em>delineated</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>as if</em> + past subjunctive = ~인 것처럼 (사실은 아님); <em>set X before us</em> = lay X out in front of us.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Some passages describe God's character much more vividly, presenting it to us as though his actual face were painted for us to see.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the divine character</b> → what God is like</li><li><b>setting it before us</b> → putting it in front of us</li><li><b>his genuine countenance</b> → his real face</li><li><b>were visibly portrayed</b> → could actually be seen.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">66 words of Scripture — and a relative pronoun that has jumped its fence</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>"Moses, indeed, seems to have intended briefly to comprehend whatever may be known of God by man, when he said, “The Lord, The Lord God, merciful and gracious, long-suffering, and abundant in goodness and truth, keeping mercy for thousands, forgiving iniquity and transgression and sin, and that will by no means clear the guilty; visiting the iniquity of the fathers upon the children, and upon the children’s children, unto the third and to the fourth generation,” (Ex. 34:6, 7)."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`Moses, seems</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">indeed</span></li></ul></li></ul></li><li><span class="leaf">to have intended</span></li><li><span class="leaf">briefly to comprehend</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">whatever may be known of God by man</span></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf">when he said, "THE QUOTATION,"</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Ex. 34:6, 7</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>comprehend</em> &lt; <em>com</em> (together) + <em>prehendere</em> (seize) — grasp-together, i.e. sum up; <em>transgression</em> &lt; <em>trans</em> + <em>gradi</em> (step across) — a boundary word; <em>iniquity</em> &lt; <em>in</em> + <em>aequus</em> (not-equal) — crookedness; <em>long-suffering</em> = calque of Gk. μακρόθυμος (<em>makros</em> long + <em>thymos</em> temper).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>seem to have p.p.</em> = (과거에) ~했던 것 같다; <em>by no means</em> = 결코 ~아니다; <em>keep mercy for thousands</em> = maintain covenant-love toward thousands (of generations).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Moses seems to have meant to sum up, in a few words, everything a human being can know about God, when he said: "The LORD, the LORD God, compassionate and gracious, patient, overflowing with goodness and faithfulness, keeping covenant-love for thousands, forgiving wrongdoing, rebellion and sin — and who will certainly not let the guilty go unpunished, but holds children and grandchildren accountable to the third and fourth generation" (Ex. 34:6-7).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>seems to have intended</b> → seems to have meant</li><li><b>briefly to comprehend</b> → to sum up in short</li><li><b>whatever may be known of God by man</b> → all a person can know about God</li><li><b>that will by no means clear the guilty</b> → who will certainly not acquit the guilty</li><li><b>visiting the iniquity ... upon</b> → holding ... accountable for the wrongdoing.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the hinge of Calvin's entire doctrine of God</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>"Here we may observe, first, that his eternity and selfexistence are declared by his magnificent name twice repeated; and, secondly, that in the enumeration of his perfections, he is described not as he is in himself, but in relation to us, in order that our acknowledgement of him may be more a vivid actual impression than empty visionary speculation."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`Here we may observe</span></li><li><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">first</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that his eternity and selfexistence are declared</span><ul class="tr"><li><span class="leaf">by his magnificent name</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">twice repeated</span></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">and, `</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">secondly</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that he is described</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in the enumeration of his perfections</span></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>not</b> as he is in himself</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b> in relation to us</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">in order that our acknowledgement of him may be <b>more</b> a vivid actual impression <b>than</b> empty visionary speculation</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>aseity</em> (the concept behind <em>selfexistence</em>) &lt; Lat. <em>a se</em> (from himself); <em>enumeration</em> &lt; <em>e</em> + <em>numerus</em> (out + number) — count out one by one; <em>impression</em> &lt; <em>in</em> + <em>premere</em> (press into) — the wax-seal metaphor; <em>speculation</em> &lt; <em>specula</em> (watchtower) → gazing from a distance, hence detached theorizing.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>not A but B</em> = A가 아니라 B; <em>in relation to us</em> = 우리와의 관계 속에서 (quoad nos); <em>in order that S may V</em> = ~하기 위하여.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Notice two things here. First, God's eternity and self-existence are declared by his majestic name repeated twice. Second, in listing his perfections, he is described not as he is in his own being but as he relates to us — so that our recognition of him would be a real, living impression rather than empty theorizing.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>we may observe</b> → notice</li><li><b>selfexistence</b> → self-existence (aseity)</li><li><b>magnificent name twice repeated</b> → majestic name said twice</li><li><b>as he is in himself</b> → in his own being</li><li><b>acknowledgement</b> → recognition</li><li><b>empty visionary speculation</b> → hollow theorizing.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the receipt for yesterday's thesis — and a perception verb with a participle</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>"Moreover, the perfections thus enumerated are just those which we saw shining in the heavens, and on the earth—compassion, goodness, mercy, justice, Judgment, and truth."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`Moreover</span></li><li><span class="leaf">the perfections</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">thus enumerated</span></li></ul></li></ul></li><li><span class="leaf">are just those</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which we saw shining</span><ul class="tr"><li><span class="leaf">in the heavens, and on the earth</span></li></ul></li></ul></li><li><span class="leaf">—compassion, goodness, mercy, justice, Judgment, and truth.`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>enumerate</em> &lt; <em>e</em> + <em>numerare</em> (to count out); <em>perfection</em> &lt; <em>per</em> + <em>facere</em> (thoroughly made) → completeness, hence an <em>attribute in its completeness</em>; <em>compassion</em> &lt; <em>com</em> + <em>pati</em> (suffer with).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>see + O + V-ing</em> = O가 ~하고 있는 것을 보다; <em>just those</em> = 바로 그것들 (not "merely those").</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">What's more, the perfections listed here are exactly the ones we saw shining in the sky and on the earth — compassion, goodness, mercy, justice, judgment, and truth.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>thus enumerated</b> → listed here</li><li><b>are just those</b> → are exactly the ones</li><li><b>which we saw shining</b> → that we saw shining</li><li><b>the heavens</b> → the sky.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s1" title="1-star">★</span><span class="s-label">the seventh attribute, smuggled in under a name</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>"For power and energy are comprehended under the name Jehovah."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>comprehend</em> here again in its literal sense — <em>com</em> + <em>prehendere</em>, to include within one grasp (contrast S2's "sum up").</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be comprehended under X</em> = X 안에 포함되다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">God's power and energy are included in the name "Jehovah" itself.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>are comprehended under</b> → are included in</li><li><b>the name Jehovah</b> → the name YHWH.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s1" title="1-star">★</span><span class="s-label">an archaic would that is not a future</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>"Similar epithets are employed by the prophets when they would fully declare his sacred name."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>epithet</em> &lt; Gk. ἐπίθετον (<em>epi</em> on + <em>tithenai</em> place) — a name "placed on" someone.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>would</em> + V (archaic) = ~하고자 했다 (volitional, not future).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The prophets use similar titles for God whenever they want to declare his holy name in full.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>epithets</b> → titles/descriptions</li><li><b>are employed by</b> → are used by</li><li><b>when they would fully declare</b> → when they want to declare fully.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">an infinitive with no master, and a so ... that inside a relative</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>"Not to collect a great number of passages, it may suffice at present to refer to one Psalm (145) in which a summary of the divine perfections is so carefully given that not one seems to have been omitted."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`<b>Not to collect</b> a great number of passages</span></li><li><span class="leaf"><b>it</b> may suffice</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">at present</span></li></ul></li></ul></li><li><span class="leaf">**to refer to one Psalm **</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">145</span></li></ul></li></ul></li><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">in which a summary of the divine perfections is <b>so</b> carefully given</span></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> not one seems to have been omitted</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>collect</em> &lt; <em>com</em> + <em>legere</em> (gather together); <em>suffice</em> &lt; <em>sub</em> + <em>facere</em> (make up from under) → be enough; <em>omit</em> &lt; <em>ob</em> + <em>mittere</em> (send away) → leave out.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>not to V, ...</em> (absolute) = ~하지 않기 위해 / ~하는 것은 그만두고; <em>it may suffice to V</em> = ~하는 것으로 충분하다; <em>so ADV that S V</em> = 너무 ~해서 ~하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Rather than pile up a lot of passages, it's enough for now to point to a single Psalm — 145 — where God's perfections are summarized so thoroughly that not one of them seems to be left out.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Not to collect</b> → rather than pile up</li><li><b>it may suffice at present</b> → it's enough for now</li><li><b>to refer to</b> → to point to</li><li><b>so carefully given</b> → summarized so thoroughly</li><li><b>seems to have been omitted</b> → seems to be left out.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the correlative such ... such — the day's centerpiece formula</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>"Still, however, every perfection there set down may be contemplated in creation; and, hence, such as we feel him to be when experience is our guide, such he declares himself to be by his word."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+` every perfection may be contemplated</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Still, however</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">there set down</span></li></ul></li></ul></li><li><span class="leaf">in creation</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">hence</span></li></ul></li></ul></li><li><span class="leaf"><b>such as</b> we feel him to be</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf">when experience is our guide</span></li></ul></li><li><span class="leaf"><b>such</b> he declares himself to be</span></li><li><span class="leaf">by his word.`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>contemplate</em> &lt; <em>com</em> + <em>templum</em> (an augur's marked-off sky-space for observation) — to observe within a marked field; <em>hence</em> = from here → therefore.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>such as S V, such S V</em> = ~인 그대로, 그대로 ~이다; <em>feel + O + to be + C</em> = O가 C라고 여기다/경험하다; <em>there set down</em> = 거기에 기록된.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Even so, every perfection recorded in that Psalm can also be seen in creation; and so, whatever we find God to be when we go by experience, that is exactly what he declares himself to be in his Word.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>there set down</b> → recorded there</li><li><b>may be contemplated</b> → can be seen</li><li><b>such as we feel him to be</b> → whatever we find him to be</li><li><b>when experience is our guide</b> → when we go by experience</li><li><b>such he declares himself to be by his word</b> → that is what he says he is in Scripture.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s2" title="2-star">★★</span><span class="s-label">an archaic have + O + to V, and a where that isn't a place</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p>"In Jeremiah, where God proclaims the character in which he would have us to acknowledge him, though the description is not so full, it is substantially the same."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`In Jeremiah</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (where)</span><span class="leaf">where God proclaims the character</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">in which he <b>would have us to acknowledge</b> him</span></li></ul></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf">though the description is not so full</span></li></ul></li><li><span class="leaf">it is substantially the same.`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>proclaim</em> &lt; <em>pro</em> + <em>clamare</em> (cry forth); <em>substantially</em> &lt; <em>substantia</em> (that which stands under) → in its underlying reality, not "a lot"; <em>acknowledge</em> &lt; ME <em>knowlechen</em> + <em>ac-</em> — to own/recognize as true.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>would have + O + (to) V</em> = O가 ~하기를 원하다 (archaic); <em>not so full (as)</em> = (~만큼) 충분하지 않은; <em>substantially the same</em> = 본질적으로 동일한.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">In Jeremiah, where God announces the character in which he wants us to recognize him, the description isn't as full, but it's essentially the same.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>proclaims</b> → announces</li><li><b>would have us to acknowledge</b> → wants us to recognize</li><li><b>not so full</b> → not as complete</li><li><b>substantially the same</b> → essentially the same.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s2" title="2-star">★★</span><span class="s-label">a quotation split by says he, and a relative pronoun for a person</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p>"“Let him that glorieth,” says he, “glory in this, that he understandeth and knoweth me, that I am the Lord which exercise loving-kindness, Judgment, and righteousness, in the earth,” (Jer. 9:24)."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`"Let him that glorieth,"</span></li><li><span class="leaf"><b>says he</b></span></li><li><span class="leaf">"glory in this</span></li><li><span class="leaf">"</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that he understandeth and knoweth me</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that I am the Lord</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which exercise loving-kindness, Judgment, and righteousness, in the earth</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Jer. 9:24</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>glory</em> (v.) &lt; Lat. <em>gloriari</em> (to boast) — the verb, not the noun; <em>loving-kindness</em> = Coverdale's 1535 coinage for Heb. <em>ḥesed</em>, still one of the great English translation words; <em>righteousness</em> &lt; OE <em>rihtwis</em> (right-wise).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>let him that V-eth V</em> = ~하는 자로 하여금 ~하게 하라; <em>glory in X</em> = X를 자랑하다; <em>says he</em> (interpolated) = 그가 말하기를.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">"Let the one who boasts," he says, "boast in this: that he understands and knows me, that I am the LORD who practices covenant-love, justice, and righteousness on the earth" (Jer. 9:24).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>him that glorieth</b> → the one who boasts</li><li><b>glory in this</b> → boast in this</li><li><b>understandeth and knoweth</b> → understands and knows</li><li><b>the Lord which exercise</b> → the LORD who practices</li><li><b>loving-kindness</b> → covenant-love.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">colons doing the work of a numbered list — and which it is necessary for us to know</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p>"Assuredly, the attributes which it is most necessary for us to know are these three: Loving-kindness, on which alone our entire safety depends: Judgment, which is daily exercised on the wicked, and awaits them in a severer form, even for eternal destruction: Righteousness, by which the faithful are preserved, and most benignly cherished."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Assuredly</span></li></ul></li></ul></li><li><span class="leaf"><b>the attributes</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which <b>it</b> is most necessary for us <b>to know</b> ___</span></li></ul></li></ul></li><li><span class="leaf"><b>are</b> these three</span></li><li><span class="leaf"><b>Loving-kindness</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">on which alone our entire safety depends</span></li></ul></li></ul></li><li><span class="leaf"><b>Judgment</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which is daily exercised on the wicked, and awaits them in a severer form, even for eternal destruction</span></li></ul></li></ul></li><li><span class="leaf"><b>Righteousness</b>,.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by which the faithful are preserved, and most benignly cherished</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>attribute</em> &lt; <em>ad</em> + <em>tribuere</em> (assign to) — something <em>assigned</em> to God, hence the technical term; <em>benign</em> &lt; <em>bene</em> + <em>gignere/genus</em> (well-born) → kindly; <em>cherish</em> &lt; OFr. <em>cherir</em> &lt; Lat. <em>carus</em> (dear); <em>inviolable</em>-family preview for S14.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it is necessary for X to V</em> = X가 ~하는 것이 필요하다; <em>depend on X</em> = X에 의존하다; <em>await</em> (transitive) = ~를 기다리고 있다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Certainly the attributes we most need to know are these three: covenant-love, which alone our entire safety depends on; judgment, which is carried out daily against the wicked and waits for them in a harsher form — eternal destruction; and righteousness, by which believers are protected and kindly cared for.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Assuredly</b> → certainly</li><li><b>which it is most necessary for us to know</b> → we most need to know</li><li><b>on which alone our entire safety depends</b> → which alone our safety rests on</li><li><b>in a severer form</b> → in a harsher form</li><li><b>most benignly cherished</b> → kindly cared for.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S12" id="S12"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S12</span><span class="stars s1" title="1-star">★</span><span class="s-label">the only you in the section</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S12" onclick="flashFullText(this)">
+<p>"The prophet declares, that when you understand these, you are amply furnished with the means of glorying in God."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>ample</em> &lt; Lat. <em>amplus</em> (spacious); <em>furnish</em> &lt; OFr. <em>fournir</em> (provide) — to fit out; <em>glorying</em> — the verbal noun of S10's <em>glory</em> (boast).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be furnished with X</em> = X를 갖추다; <em>the means of V-ing</em> = ~할 수단/근거.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The prophet is saying that once you understand these three, you have everything you need to boast in God.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>declares</b> → is saying</li><li><b>amply furnished with</b> → have everything you need</li><li><b>the means of glorying in God</b> → grounds for boasting in God.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S13" id="S13"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S13</span><span class="stars s2" title="2-star">★★</span><span class="s-label">negative fronting — Nor forces inversion</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S13" onclick="flashFullText(this)">
+<p>"Nor is there here any omission of his truth, or power, or holiness, or goodness."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (nor)</span><span class="leaf">**
+`<b>Nor is there</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">here</span></li></ul></li><li><span class="leaf">any omission</span></li><li><span class="leaf">of his truth, or power, or holiness, or goodness.`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>omission</em> &lt; <em>ob</em> + <em>mittere</em> (send away) → a leaving-out; <em>holiness</em> &lt; OE <em>hālig</em> (whole, set apart).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Nor + AUX + S</em> = ~도 아니다 (부정어 도치); <em>there is no omission of X</em> = X가 빠진 것은 아니다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And this doesn't leave out God's truth, power, holiness, or goodness either.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Nor is there here any omission of</b> → this doesn't leave out</li><li><b>his truth, or power, or holiness, or goodness</b> → his truth, power, holiness, or goodness.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S14" id="S14"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S14</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">a rhetorical question wrapped around a counterfactual</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S14" onclick="flashFullText(this)">
+<p>"For how could this knowledge of his loving-kindness, Judgment, and righteousness, exist, if it were not founded on his inviolable truth?"</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`For <b>how could</b></span></li><li><span class="leaf">this knowledge</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of his loving-kindness, Judgment, and righteousness</span></li></ul></li></ul></li><li><span class="leaf"><b>exist</b></span></li><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if it were not founded</b> on his inviolable truth?</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>inviolable</em> &lt; <em>in</em> (not) + <em>violare</em> (to violate) + <em>-abilis</em> → unbreakable; <em>found</em> (v.) &lt; Lat. <em>fundare</em> &lt; <em>fundus</em> (bottom, base) — cf. <em>fundamental</em>, <em>profound</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>How could X V, if ... were not ...?</em> = ~가 아니라면 어떻게 X가 ~할 수 있겠는가 (= 결코 못한다); <em>be founded on X</em> = X에 근거하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">After all, how could we know his covenant-love, judgment, and righteousness at all if that knowledge weren't grounded on his unbreakable truthfulness?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>how could ... exist</b> → how could we know ... at all</li><li><b>if it were not founded on</b> → if it weren't grounded on</li><li><b>inviolable truth</b> → unbreakable truthfulness.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S15" id="S15"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S15</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the passive rhetorical question, and without + gerund as a hidden conditional</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S15" onclick="flashFullText(this)">
+<p>"How, again, could it be believed that he governs the earth with Judgment and righteousness, without presupposing his mighty power?"</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`**How, could it be believed**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">again</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that he governs the earth with Judgment and righteousness</span></li></ul></li><li><span class="leaf"><b>without presupposing</b> his mighty power?`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>presuppose</em> &lt; <em>prae</em> + <em>sub</em> + <em>ponere</em> (place beforehand underneath) — to lay down in advance as a base; <em>govern</em> &lt; Gk. κυβερνᾶν (to steer a ship) → the ruler as helmsman.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>without V-ing</em> = ~하지 않고서는 (= unless); <em>How could it be believed that ...?</em> = 어떻게 ~라고 믿을 수 있겠는가 (= 믿을 수 없다).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And how, again, could anyone believe that he governs the earth with judgment and righteousness without assuming his mighty power?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>How, again, could it be believed</b> → how could anyone believe</li><li><b>governs the earth</b> → rules the world</li><li><b>without presupposing</b> → without assuming.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S16" id="S16"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S16</span><span class="stars s2" title="2-star">★★</span><span class="s-label">a question with no verb at all</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S16" onclick="flashFullText(this)">
+<p>"Whence, too, his loving-kindness, but from his goodness?"</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`<b>Whence</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">too</span></li></ul></li></ul></li><li><span class="leaf">his loving-kindness</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but from his goodness</b>?`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>whence</em> = OE <em>hwanon</em> + adverbial <em>-s</em> → from where; cf. <em>thence</em>, <em>hence</em>, <em>whither/thither/hither</em> (to where/there/here).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Whence X, but from Y?</em> = X는 Y에서 오는 것 말고 어디서 오겠는가; <em>but</em> = except, other than (부정문·의문문에서).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And where does his covenant-love come from, if not from his goodness?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Whence</b> → where ... from</li><li><b>his loving-kindness</b> → his covenant-love</li><li><b>but from his goodness</b> → if not from his goodness.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S17" id="S17"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S17</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the fourth recovery — and thereby</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S17" onclick="flashFullText(this)">
+<p>"In fine, if all his ways are loving-kindness, Judgment, and righteousness, his holiness also is thereby conspicuous."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">In fine</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if</b> all his ways are loving-kindness, Judgment, and righteousness</span></li></ul></li><li><span class="leaf">his holiness is <b>thereby</b> conspicuous.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">also</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>conspicuous</em> &lt; <em>con</em> (intensive) + <em>specere</em> (to look) → clearly in sight; <em>thereby</em> = <em>there</em> + <em>by</em> — the whole `there-` adverb family (<em>therefore, therein, thereupon, thereof</em>) is prepositional shorthand: <em>by that, for that, in that</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in fine</em> = 요컨대, 결론적으로; <em>be thereby conspicuous</em> = 그로써 분명히 드러나다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">In short, if everything God does is covenant-love, judgment, and righteousness, then his holiness is obvious from that too.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>In fine</b> → in short</li><li><b>all his ways</b> → everything he does</li><li><b>thereby</b> → from that</li><li><b>conspicuous</b> → obvious.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S18" id="S18"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S18</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the landing — knowledge exists for worship, not for information</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S18" onclick="flashFullText(this)">
+<p>"Moreover, the knowledge of God, which is set before us in the Scriptures, is designed for the same purpose as that which shines in creation—viz. that we may thereby learn to worship him with perfect integrity of heart and unfeigned obedience, and also to depend entirely on his goodness."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`Moreover</span></li><li><span class="leaf">the knowledge of God</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which is set before us in the Scriptures</span></li></ul></li></ul></li><li><span class="leaf">is designed <b>for the same purpose as</b> that</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which shines in creation</span></li></ul></li></ul></li><li><span class="leaf">—<b>viz.</b> `</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that we may learn</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">thereby</span></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>to worship him</b> with perfect integrity of heart and unfeigned obedience</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and also to depend</b> entirely on his goodness</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>integrity</em> &lt; <em>integer</em> (untouched, whole) → wholeness, undividedness; <em>unfeigned</em> &lt; <em>fingere</em> (to mould, fabricate) — cf. <em>figment</em>, <em>fiction</em>, <em>effigy</em>; <em>depend</em> &lt; <em>de</em> + <em>pendere</em> (to hang down from); <em>viz.</em> &lt; <em>videlicet</em> &lt; <em>videre licet</em> (it is permitted to see).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be designed for the same purpose as X</em> = X와 같은 목적을 위한 것이다; <em>viz.</em> = 즉, 다시 말해; <em>depend entirely on X</em> = 전적으로 X에 의지하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">What's more, the knowledge of God that Scripture sets before us aims at exactly the same goal as the knowledge that shines out in creation — namely, that through it we would learn to worship him with a whole heart and sincere obedience, and to rely completely on his goodness.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>is set before us</b> → that Scripture sets before us</li><li><b>is designed for the same purpose as</b> → aims at the same goal as</li><li><b>viz.</b> → namely</li><li><b>perfect integrity of heart</b> → a whole, undivided heart</li><li><b>unfeigned obedience</b> → sincere obedience</li><li><b>depend entirely on</b> → rely completely on.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula ① — The correlative <code>such as ... , such ...</code> (S8)</h3><pre><code>   ┌──────────────────────────────────────────────────────────────┐
+   │   SUCH  as  S₁ + V₁ (+ O + to be ___)  ,                     │
+   │   SUCH      S₂ + V₂ (+ O + to be ___)                        │
+   │                                                              │
+   │   = "As X is, so Y is" / "Whatever X, that same Y"           │
+   │                                                              │
+   │   • both SUCH = COMPLEMENTS (no noun follows!)               │
+   │   • NO auxiliary inversion after fronted `such`              │
+   │   • `feel/hold/believe + O + to be + C` = formal 5-pattern   │
+   └──────────────────────────────────────────────────────────────┘
+</code></pre><p>⚠️ <strong>Trap 1:</strong> your eye expects a noun after <code>such</code>. There is none — <code>such</code> fills the <code>to be ___</code> slot.
+⚠️ <strong>Trap 2:</strong> <code>such he declares himself to be</code> — ✗ NOT <code>such does he declare</code>. <code>Such</code> is not a negative/restrictive trigger, so <strong>no inversion</strong>.
+⚠️ <strong>Trap 3:</strong> <code>we feel him to be</code> ≠ "we have feelings about him." <code>feel</code> = <em>find by experience</em>.</p><p><strong>Transformation drill.</strong> Rewrite using Formula ①:</p><blockquote>
+<p><em>We find God to be merciful when we look at creation; he says in Scripture that he is merciful.</em></p>
+</blockquote><p><strong>Model answer:</strong> <em>Such as we find him to be when creation is our teacher, such he declares himself to be by his word.</em></p><hr/><h3>Formula ② — Negative fronting → inversion; and elliptical rhetorical questions (S13, S16)</h3><pre><code>   ┌──────────────────────────────────────────────────────────────┐
+   │  (a) NEG/RESTRICTIVE FRONTED  +  AUX  +  S  +  ...           │
+   │      Nor / Never / Seldom / Little / Not only / No sooner     │
+   │                                                              │
+   │      Nor  IS  THERE  here any omission ...        ✓          │
+   │      Nor  there is  here any omission ...         ✗          │
+   │                                                              │
+   │      ⚠ existential: AUX + `there` + REAL SUBJECT             │
+   │                                                              │
+   │  (b) ELLIPTICAL RHETORICAL QUESTION                          │
+   │      Whence, (too,)  NP ,  but from NP ?                     │
+   │      = "Whence [does] NP [come], if not from NP?"            │
+   │      ⚠ `but` = EXCEPT, other than                            │
+   └──────────────────────────────────────────────────────────────┘
+</code></pre><p>⚠️ <strong>Trap 1:</strong> <code>Nor there is</code> — the single most common error. <code>Nor</code> <strong>always</strong> inverts.
+⚠️ <strong>Trap 2:</strong> <code>but</code> after a <code>Whence/Who/What ...?</code> question = <strong>except</strong>, not "however."
+⚠️ <strong>Trap 3:</strong> don't confuse S8's locative <code>there</code> (<em>= in that Psalm</em>) with S13's existential <code>there</code>.</p><p><strong>Transformation drill.</strong> Combine into one sentence using <strong>both</strong> halves of Formula ②:</p><blockquote>
+<p><em>Calvin does not leave out God's mercy. God's mercy comes only from his goodness.</em></p>
+</blockquote><p><strong>Model answer:</strong> <em>Nor is there here any omission of his mercy; whence, indeed, his mercy, but from his goodness?</em></p><hr/><h3>Formula ③ — Impersonal <code>it</code> + extraction from the infinitive (S7, S11, S15)</h3><pre><code>   ┌──────────────────────────────────────────────────────────────┐
+   │   BASE:       It is ADJ  (for X)  to V  +  NP                │
+   │   RELATIVIZE: the NP [ which it is ADJ (for X) to V ___ ]    │
+   │                                                              │
+   │   the attributes [ which it is most necessary                │
+   │                    for us to know ___ ]  ARE these three     │
+   │                     └─ object of `to know`, not subject      │
+   │                                                              │
+   │   ⚠ MAIN VERB agrees with the HEAD NOUN (attributes → ARE)   │
+   │   ⚠ `for X` = SUBJECT of the infinitive, not a beneficiary   │
+   │   ⚠ adverbials WEDGE in: it may suffice `at present` to V    │
+   └──────────────────────────────────────────────────────────────┘
+</code></pre><p>⚠️ <strong>Trap 1:</strong> a test will offer <code>is</code> for <code>are</code>. Bracket the relative clause out — <code>the attributes ... are these three</code>.
+⚠️ <strong>Trap 2:</strong> the wedge (<code>here</code>, <code>at present</code>, <code>again</code>) sits between the verb and the <code>to</code>. Strip it before parsing.
+⚠️ <strong>Trap 3:</strong> passive version — <code>could **it** be believed **that** ...</code> (S15): dummy <code>it</code> + extraposed <code>that</code>-clause. Don't hunt for a referent.</p><p><strong>Transformation drill.</strong> Rewrite using Formula ③:</p><blockquote>
+<p><em>It is most useful for the pious reader to contemplate these three attributes. They are loving-kindness, Judgment, and righteousness.</em></p>
+</blockquote><p><strong>Model answer:</strong> <em>The three attributes which it is most useful for the pious reader to contemplate are loving-kindness, Judgment, and righteousness.</em></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (etymology hooks)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>countenance</strong> (S1)</td>
+<td>face, expression / 얼굴</td>
+<td><em>continentia</em> = "bearing, how one holds oneself" → the face <strong>holds</strong> your bearing. Ex. 34 is the face-passage.</td>
+</tr>
+<tr>
+<td><strong>vivid</strong> (S1)</td>
+<td>lifelike, living / 생생한</td>
+<td><em>vivere</em> = to live. A <strong>vivid</strong> description <strong>lives</strong>.</td>
+</tr>
+<tr>
+<td><strong>portray</strong> (S1)</td>
+<td>draw, depict / 묘사하다</td>
+<td><em>pro</em> + <em>trahere</em> = draw forth. Same <em>trahere</em> as <em>tractor</em>, <em>abstract</em>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>comprehend</strong> (S2)</td>
+<td><strong>sum up, take in together</strong> / 요약하다</td>
+<td><em>com</em> + <em>prehendere</em> = grasp-<strong>together</strong>. NOT "understand." Moses <strong>compressed</strong>; he did not comprehend God.</td>
+</tr>
+<tr>
+<td><strong>long-suffering</strong> (S2)</td>
+<td>slow to anger / 오래 참음</td>
+<td>Calque of Gk. μακρόθυμος = <em>long</em>-tempered. Heb. "long of nostrils" — it takes a long time for the nose to flare.</td>
+</tr>
+<tr>
+<td><strong>iniquity</strong> (S2)</td>
+<td>crookedness, wrong / 죄악</td>
+<td><em>in</em> + <em>aequus</em> = <strong>not-equal</strong>, off-level. Sin as a <strong>tilted</strong> thing.</td>
+</tr>
+<tr>
+<td><strong>transgression</strong> (S2)</td>
+<td>rebellion, boundary-crossing / 범죄</td>
+<td><em>trans</em> + <em>gradi</em> = <strong>step across</strong> the line. Cf. <em>grade, progress, aggressive</em>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>selfexistence</strong> (S3)</td>
+<td>aseity, existing from himself / 자존성</td>
+<td>Lat. <em>a se</em> = "from himself." ⚠️ Printed <strong>unhyphenated</strong> in our source.</td>
+</tr>
+<tr>
+<td><strong>magnificent</strong> (S3)</td>
+<td>great-making, majestic / 장엄한</td>
+<td><em>magnus</em> + <em>facere</em> = <strong>make-great</strong>. Cf. <em>Magnificat</em>.</td>
+</tr>
+<tr>
+<td><strong>enumerate</strong> (S3, S4)</td>
+<td>list out one by one / 열거하다</td>
+<td><em>e</em> + <em>numerus</em> = <strong>count out</strong> of a set.</td>
+</tr>
+<tr>
+<td><strong>acknowledgement</strong> (S3)</td>
+<td>recognition, owning-as-true / 인정</td>
+<td>For Calvin a <strong>relational</strong> word, not a cognitive one. Note the medial <code>-e-</code>, as printed.</td>
+</tr>
+<tr>
+<td><strong>impression</strong> (S3)</td>
+<td>an impress, a mark pressed in / 각인</td>
+<td><em>in</em> + <em>premere</em> = <strong>press into</strong>. A <strong>seal in wax</strong>. Knowledge should leave a dent.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>visionary</strong> (S3)</td>
+<td><strong>dreamy, unreal</strong> (pejorative!) / 몽상적인</td>
+<td><em>visio</em> → given to unreal <strong>visions</strong>. NOT "far-sighted." A 19th-c. insult.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>just</strong> (S4)</td>
+<td><strong>precisely, exactly</strong> / 바로 그</td>
+<td><code>just those</code> = <strong>the very same ones</strong>, NOT "merely those."</td>
+</tr>
+<tr>
+<td>⚠️ <strong>Judgment</strong> (S4, S10, S11…)</td>
+<td>judicial rule, justice executed / 공의·심판</td>
+<td>Heb. <em>mishpat</em> — the <strong>doing</strong> of justice on the ground, not an opinion. Beveridge capitalizes it; that is his style.</td>
+</tr>
+<tr>
+<td><strong>epithet</strong> (S6)</td>
+<td>descriptive title / 별칭·칭호</td>
+<td>Gk. <em>epi</em> + <em>tithenai</em> = <strong>placed on</strong>. A name laid over someone.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>would</strong> (S6, S9)</td>
+<td><strong>wished to, was minded to</strong> / ~하고자 했다</td>
+<td>Archaic <strong>volitional</strong> <code>would</code>. Test by substituting <em>wanted to</em>.</td>
+</tr>
+<tr>
+<td><strong>suffice</strong> (S7)</td>
+<td>be enough / 충분하다</td>
+<td><em>sub</em> + <em>facere</em> = make up (from underneath) — enough to hold.</td>
+</tr>
+<tr>
+<td><strong>omit</strong> (S7, S13)</td>
+<td>leave out / 생략하다</td>
+<td><em>ob</em> + <em>mittere</em> = <strong>send away</strong>.</td>
+</tr>
+<tr>
+<td><strong>contemplate</strong> (S8)</td>
+<td>gaze at, behold / 관조하다</td>
+<td><em>com</em> + <em>templum</em> — the augur's <strong>marked-off patch of sky</strong> for observation. To look within a frame.</td>
+</tr>
+<tr>
+<td><strong>hence</strong> (S8, S16 family)</td>
+<td>therefore / from here</td>
+<td><em>from here</em> → <em>therefore</em>. Family: <em>thence</em>, <em>whence</em>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>substantially</strong> (S9)</td>
+<td><strong>in essence, at bottom</strong> / 본질적으로</td>
+<td><em>substantia</em> = what <strong>stands under</strong>. NOT "considerably."</td>
+</tr>
+<tr>
+<td>⚠️ <strong>glory</strong> (v.) (S10, S12)</td>
+<td><strong>to boast</strong> / 자랑하다</td>
+<td><em>gloriari</em>. Gk. καυχάομαι. NOT "to give glory." Jer. 9:24 → 1 Cor. 1:31.</td>
+</tr>
+<tr>
+<td><strong>loving-kindness</strong> (S10, S11)</td>
+<td>covenant-love / 인자</td>
+<td>Coverdale's 1535 coinage for Heb. <em>ḥesed</em>. One of the great English translation words.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>which</strong> (person) (S10)</td>
+<td>who / ~하는 자</td>
+<td>17th-c. usage: <em>Our Father </em><em>which</em><em> art in heaven</em>. Modern English requires <code>who</code>.</td>
+</tr>
+<tr>
+<td><strong>attribute</strong> (S11)</td>
+<td>a perfection assigned to God / 속성</td>
+<td><em>ad</em> + <em>tribuere</em> = <strong>assign to</strong>. Hence the technical theological term.</td>
+</tr>
+<tr>
+<td><strong>benign</strong> (S11)</td>
+<td>kindly / 자애로운</td>
+<td><em>bene</em> + <em>genus</em> = <strong>well-born</strong> → gracious. Cf. <em>benignant</em>, and the medical <em>benign</em>.</td>
+</tr>
+<tr>
+<td><strong>cherish</strong> (S11)</td>
+<td>nurture, hold dear / 소중히 기르다</td>
+<td><em>carus</em> = dear. Cf. <em>charity</em>, <em>caress</em>.</td>
+</tr>
+<tr>
+<td><strong>ample</strong> (S12)</td>
+<td>abundant, spacious / 충분한</td>
+<td><em>amplus</em> = <strong>roomy</strong>. Cf. <em>amplify</em>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>inviolable</strong> (S14)</td>
+<td><strong>unbreakable</strong> / 침해할 수 없는</td>
+<td><em>in</em> + <em>violare</em>. Of God's truth: it <strong>cannot</strong> fail.</td>
+</tr>
+<tr>
+<td><strong>found</strong> (v.) (S14)</td>
+<td>ground, base / ~에 근거하다</td>
+<td><em>fundus</em> = bottom. Cf. <em>fundamental</em>, <em>profound</em>, <em>founder</em>.</td>
+</tr>
+<tr>
+<td><strong>presuppose</strong> (S15)</td>
+<td>assume beforehand / 전제하다</td>
+<td><em>prae</em> + <em>sub</em> + <em>ponere</em> = <strong>lay down in advance underneath</strong>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>again</strong> (S15)</td>
+<td><strong>furthermore, secondly</strong> / 또한</td>
+<td>Discourse connector counting off items. NOT "one more time."</td>
+</tr>
+<tr>
+<td>⚠️ <strong>whence</strong> (S16)</td>
+<td><strong>from where</strong> / 어디로부터</td>
+<td>The <em>from</em> is <strong>inside</strong> the word. Family: <em>thence, hence, whither, thither</em>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>but</strong> (S16)</td>
+<td><strong>except, other than</strong> / ~말고는</td>
+<td>As in <em>none but Him</em>, <em>nothing but</em>. NOT contrastive here.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>in fine</strong> (S17)</td>
+<td><strong>in conclusion, in short</strong> / 요컨대</td>
+<td>Lat. <em>in fine</em> = "at the end." Cf. Fr. <em>enfin</em>. Nothing to do with "fine."</td>
+</tr>
+<tr>
+<td><strong>conspicuous</strong> (S17)</td>
+<td>plainly in view / 뚜렷한</td>
+<td><em>con</em> + <em>specere</em> = <strong>look at</strong> thoroughly. Cf. <em>spectacle, inspect, suspicion</em>.</td>
+</tr>
+<tr>
+<td><strong>thereby</strong> (S17, S18)</td>
+<td>by that very fact / 그로써</td>
+<td><em>there</em> + <em>by</em>. Family: <em>therefore, therein, thereof, thereupon</em> = <em>for that, in that, of that, upon that</em>.</td>
+</tr>
+<tr>
+<td><strong>viz.</strong> (S18)</td>
+<td>namely / 즉</td>
+<td><em>videlicet</em> &lt; <em>videre licet</em> = "it is permitted to see." The <code>z</code> is a medieval <code>-et</code> stroke, not a letter.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>integrity</strong> (S18)</td>
+<td><strong>undividedness, wholeness</strong> / 온전함</td>
+<td><em>integer</em> = <strong>untouched, whole</strong> (cf. the integer, a whole number). NOT "honesty." Heb. <em>tamim</em>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>unfeigned</strong> (S18)</td>
+<td><strong>unpretended, sincere</strong> / 거짓 없는</td>
+<td><em>fingere</em> = to mould, fabricate. <strong>Same root as <em>figment</em> (Day 9) and <em>fiction</em>.</strong> Calvin's false-religion vocabulary and his true-religion vocabulary share a stem.</td>
+</tr>
+<tr>
+<td><strong>depend</strong> (S18)</td>
+<td>hang from, rely wholly / 전적으로 의지하다</td>
+<td><em>de</em> + <em>pendere</em> = <strong>hang down from</strong>. Cf. <em>pendant, pending, suspend</em>.</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>1. The doctrine at stake: <em>quoad se</em> vs <em>quoad nos</em>.</strong>
+S3's <code>not as he is in himself, but in relation to us</code> is the medieval-scholastic distinction between God <strong>as he is in himself</strong> (<em>quoad se</em> / <em>in se</em>) and God <strong>as he is toward us</strong> (<em>quoad nos</em>). Calvin does not invent it; he <strong>weaponizes</strong> it. Aquinas had used the pair to organize what can and cannot be predicated of the divine essence. Calvin uses it to <strong>redirect the whole enterprise</strong>: not "what is the divine substance?" but "how does he stand toward me?" It is the same move he made in Ch. 2 §2 — Day 5's <code>qualis ≠ quid</code> — and Ch. 5 §9, and it will govern Book 1 to the end.</p><p>⚠️ <strong>Guardrail — do not turn Calvin into Kant.</strong> He is <em>not</em> saying the divine essence is unknowable-in-principle behind a veil of appearances. He is saying that God has <strong>chosen</strong> to reveal himself relationally, and that speculation past that choice is impiety, not impossibility. The limit is <strong>moral and pastoral</strong>, not epistemological-in-the-modern-sense. Battles renders the neighbouring idea as God "lisping" to us; that is Calvin's <strong>accommodation</strong> doctrine, and today's section is one of its clearest applications.</p><p><strong>2. The three texts, and why these three.</strong>
+Calvin's choice is not random. <strong>Ex. 34:6-7</strong> is Israel's own creedal self-naming of God, quoted back at God repeatedly inside the Old Testament (Num. 14:18, Neh. 9:17, Ps. 86:15, Joel 2:13, Jonah 4:2) — the nearest thing the Hebrew Bible has to a doctrine-of-God formula. <strong>Ps. 145</strong> is an <strong>acrostic</strong> (א through ת), a formal claim to completeness — hence S7's <code>not one seems to have been omitted</code>. <strong>Jer. 9:24</strong> is the verse Paul twice compresses into <code>He that glorieth, let him glory in the Lord</code> (1 Cor. 1:31; 2 Cor. 10:17). So Calvin picks: the <strong>creed</strong>, the <strong>catalogue</strong>, and the <strong>compression</strong>. Three genres, one God.</p><p><strong>3. Editions.</strong>
+Chapter 10 is small and stable across the editions. The 1536 <em>Institutio</em> had no such chapter — the whole knowledge-of-God architecture (Chs. 1–10 as we have them) is the fruit of the <strong>1539</strong> expansion and the <strong>1559</strong> final reorganization, in which Calvin split <em>cognitio Dei Creatoris</em> (Book 1) from <em>cognitio Dei Redemptoris</em> (Book 2). §2 belongs to that mature layer. The chapter head (<code>Sections. 1. ... 2. ... 3. ...</code>) is the <strong>editorial summary</strong> printed in Beveridge's edition, not Calvin's own.</p><p><strong>4. Lineage.</strong>
+The "attributes described toward us" instinct is <strong>Augustinian</strong> in temper (<em>De Trinitate</em> is precisely a warning against speculative reach), and Calvin's insistence that knowledge terminate in worship (S18) is Ch. 1's <em>cognitio Dei et nostri</em> still driving. Later: <strong>Barth</strong> takes S3's relational emphasis as ammunition against natural theology, but ⚠️ note the awkwardness — S4 and S8 say creation and Scripture display the <strong>same</strong> perfections, which is precisely what Barth resisted in the 1934 exchange with Brunner. Read S8 carefully before you enlist Calvin on either side of that fight. <strong>Plantinga</strong> and the Reformed epistemologists are more interested in Ch. 3's <em>sensus divinitatis</em> than in this section. And the modern "<strong>divine attributes</strong>" literature (Charnock, Bavinck, and in our day Sonderegger and Duby) is still arguing about exactly where S3's line falls.</p><p><strong>5. Over-reading guardrail.</strong>
+⚠️ Three things this section does <strong>not</strong> say:
+- It does not say God's essence is unknowable <em>simpliciter</em> (see above).
+- It does not say the three attributes are the <strong>only</strong> ones — S13 exists precisely to deny that.
+- It does not say experience without Scripture suffices. S8 asserts <strong>convergence of content</strong>, and §1 already ruled on <strong>clarity of access</strong>. Keep those two questions apart and you will not misquote him.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li>
+<p><strong>Exodus 34:6-7 → S2 (quoted in full).</strong> Heb. <code>יְהוָה יְהוָה אֵל רַחוּם וְחַנּוּן</code> — <em>YHWH YHWH El raḥum weḥannun</em>. Calvin reads the <strong>doubled Name</strong> as declaring eternity + aseity (S3). ⚠️ Note <code>raḥum</code> (compassionate) is from <em>reḥem</em>, <strong>womb</strong> — the mercy-word is a body-word. Calvin's <code>merciful and gracious</code> renders the pair <em>raḥum weḥannun</em>; the AV's <code>abundant in goodness and truth</code> renders <em>rav-ḥesed we'emet</em>, i.e. <strong>the very <em>ḥesed</em> that returns as <code>loving-kindness</code> in S10-S11</strong>. Same Hebrew root, two English words, one section — worth marking.</p>
+</li>
+<li>
+<p><strong>Exodus 3:14 → S3 (behind <code>selfexistence</code>).</strong> Not quoted, but it is the reason <code>Jehovah</code>/YHWH can carry aseity at all: <code>אֶהְיֶה אֲשֶׁר אֶהְיֶה</code> — <em>ehyeh asher ehyeh</em>, "I AM THAT I AM." S5's <code>power and energy are comprehended under the name Jehovah</code> leans on the same etymology.</p>
+</li>
+<li>
+<p><strong>Psalm 145 → S7 (referenced, not quoted).</strong> The alphabetical acrostic of praise. Calvin's <code>so carefully given that not one seems to have been omitted</code> is a nod to the <strong>form</strong>: A-to-Z completeness. ⚠️ And Ps. 145:8 is itself a quotation of Ex. 34:6 — so Calvin's second witness is <em>citing</em> his first. He almost certainly knew that.</p>
+</li>
+<li>
+<p><strong>Psalm 145:17 → S17 (echo).</strong> <code>The LORD is righteous in all his ways</code> — Calvin's <code>if all his ways are loving-kindness, Judgment, and righteousness</code> picks up the Psalm's own phrase while ostensibly discussing Jeremiah. The loop closes.</p>
+</li>
+<li>
+<p><strong>Jeremiah 9:24 → S10 (quoted).</strong> Heb. <code>חֶסֶד מִשְׁפָּט וּצְדָקָה</code> — <em>ḥesed, mishpat, ṣedaqah</em> = loving-kindness, Judgment, righteousness. ⚠️ Note v. 23 (not quoted) is the negative half: let not the wise/mighty/rich glory in wisdom/might/riches. Calvin quotes only the <strong>positive</strong> half because his subject is what God reveals, not what man renounces.</p>
+</li>
+<li>
+<p><strong>1 Corinthians 1:31 / 2 Corinthians 10:17 → S12 (unquoted reflex).</strong> <code>ὁ καυχώμενος ἐν κυρίῳ καυχάσθω</code> — Paul's double compression of Jer. 9:24. Calvin's <code>amply furnished with the means of **glorying** in God</code> is using Paul's verb (καυχάομαι) to gloss Jeremiah. ⚠️ He does not cite Paul here — because §1 said this section stays on the Creator side. He borrows the vocabulary and withholds the reference. Watch that discipline.</p>
+</li>
+<li>
+<p><strong>Romans 2:4 → §1 S10, still resonating in S18's <code>his goodness</code>.</strong> ἀνοχή/μακροθυμία — forbearance and long-suffering, the same field as S2's <code>long-suffering</code>.</p>
+</li>
+<li>
+<p><strong>Deuteronomy 5:9 / Exodus 20:5 → S2 (<code>unto the third and to the fourth generation</code>).</strong> The Decalogue parallel, which adds <code>of them that hate me</code> — the qualifier Calvin does not quote here but assumes.</p>
+</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① Grammar — one of the four underlined items is wrong. Find it.</h3><blockquote>
+<p>Assuredly, the attributes ⓐ<u>which it is most necessary for us to know</u> ⓑ<u>is</u> these three: Loving-kindness, on which alone our entire safety depends; Judgment, which is daily exercised on the wicked; and Righteousness, ⓒ<u>by which</u> the faithful are preserved. Nor ⓓ<u>is there</u> here any omission of his truth.</p>
+</blockquote><p><strong>Answer: ⓑ</strong></p><p><strong>Exam-setter's rationale.</strong> Formula ③, straight down the middle. Bracket the relative clause out and the skeleton is <code>the attributes ... **are** these three</code> — plural head noun, plural verb. The <code>is</code> is bait planted by the singular <code>it</code> sitting right before it inside the relative clause. ⓐ is correct: <code>which</code> is the <strong>object</strong> of <code>to know</code>, legitimately extracted across the dummy <code>it</code>, and <code>for us</code> is the infinitive's subject. ⓒ is correct pied-piping (<code>preserved **by** righteousness</code>). ⓓ is correct <strong>negative-fronting inversion</strong> — <code>Nor</code> obligatorily inverts, and in an existential the order is <code>AUX + there + subject</code>. ⚠️ If you picked ⓓ you fell for the S13 trap in reverse: you "corrected" a correct inversion.</p><hr/><h3>② Comprehension — which one agrees with the section?</h3><blockquote>
+<p>ⓐ Calvin argues that Scripture describes God as he exists in his own essence, apart from his relation to creatures.
+ⓑ Calvin holds that the three attributes named in Jeremiah exclude truth, power, holiness, and goodness from the knowledge of God.
+ⓒ Calvin maintains that the perfections listed by Moses are the very ones already visible in creation, and that the purpose of Scripture's knowledge of God is the same as creation's.
+ⓓ Calvin claims that certain passages of Scripture make God's countenance genuinely visible to the eye.</p>
+</blockquote><p><strong>Answer: ⓒ</strong></p><p><strong>Exam-setter's rationale.</strong>
+- <strong>ⓐ — direction flip, 180°.</strong> S3 says <code>not as he is in himself, **but** in relation to us</code>. This is the single most-tested sentence in the section, and the flip is the easiest distractor to write. If you underlined S3 in Period 3, this cost you nothing.
+- <strong>ⓑ — direction flip via S13.</strong> <code>**Nor is there here any omission** of his truth, or power, or holiness, or goodness</code> — and S14–S17 then <em>derive</em> all four from the triad. The triad <strong>compresses</strong>; it does not exclude.
+- <strong>ⓒ — correct.</strong> First half from S4 (<code>the perfections thus enumerated are **just those** which we saw shining in the heavens, and on the earth</code>); second half from S18 (<code>designed for **the same purpose as** that which shines in creation</code>). Two sentences, forty words apart, both required. That is what a well-built comprehension item looks like.
+- <strong>ⓓ — mood error.</strong> S1 is <code>**as if** his genuine countenance **were** visibly portrayed</code> — past subjunctive, <strong>counterfactual</strong>. And Ch. 11 will spend fourteen sections denying God any visible form. Read the mood, not the noun.</p><hr/><h3>③ Composition — apply today's formulas.</h3><blockquote>
+<p><strong>Translate into Beveridge-style English, using Formula ① (<code>such as ..., such ...</code>) and Formula ② (negative fronting).</strong>
+"우리가 창조 세계에서 그분을 인자하신 분으로 경험하는 그대로, 그분은 자신의 말씀으로 자신을 그렇게 선포하신다. 또한 여기서 그분의 공의가 빠진 것도 아니다."</p>
+</blockquote><p><strong>Model answer:</strong></p><blockquote>
+<p><em>Such as we feel him to be when creation is our guide, such he declares himself to be by his word. Nor is there here any omission of his Judgment.</em></p>
+</blockquote><p><strong>Exam-setter's rationale.</strong> Three things are being marked. <strong>(1)</strong> <code>such ... such</code> with <strong>no noun</strong> after either <code>such</code>, and <strong>no auxiliary inversion</strong> in the second clause — <code>such he declares</code>, not ~~<code>such does he declare</code>~~. <strong>(2)</strong> <code>feel + him + **to be**</code> — the formal five-pattern with <code>to be</code> retained; dropping it (<code>such as we feel him</code>) is comprehensible but not the target structure. <strong>(3)</strong> <code>Nor</code> + <strong>inverted</strong> <code>is there</code> + the real subject <code>any omission</code>. ⚠️ Writing <code>Nor there is any omission</code> loses the whole second sentence. ✅ Bonus credit for <code>by his word</code> rather than <code>through his word</code> — Beveridge's preposition, and it matches S8 exactly.</p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> Scripture paints God's <code>genuine countenance</code> in Exodus, Psalm 145, and Jeremiah — and paints him <strong><code>not as he is in himself, but in relation to us</code></strong>, so that <code>such as we feel him to be</code> in creation, <code>such he declares himself to be by his word</code>; the triad of loving-kindness, Judgment, and righteousness omits nothing, because truth grounds it, power is presupposed by it, goodness is its source, and holiness is <code>thereby conspicuous</code> — and the whole point is not information but <code>worship ... with perfect integrity of heart and unfeigned obedience</code>.</p><p><strong>The 3 grammar points, restated:</strong></p><ol>
+<li><strong><code>such as S V, such S V</code></strong> — both <code>such</code> are <strong>complements</strong> (no noun follows), no inversion, and <code>feel + O + to be + C</code> is the formal five-pattern underneath.</li>
+<li><strong>Negative fronting → inversion</strong> (<code>Nor **is there** ...</code>), and <strong>elliptical rhetorical questions</strong> (<code>Whence, too, his loving-kindness, but from his goodness?</code> — verb deleted, <code>but</code> = <em>except</em>).</li>
+<li><strong>Impersonal <code>it</code> + extraction</strong> — <code>the attributes **which** it is most necessary for us to know **are** these three</code>: <code>which</code> = object of <code>to know</code>; main verb agrees with <code>attributes</code>; strip the wedged adverbial (<code>at present</code>, <code>here</code>, <code>again</code>) before parsing.</li>
+</ol><p><strong>Homework (10 minutes).</strong></p><ol>
+<li>
+<p><strong>Structure restoration.</strong> Take S11 and rewrite it as a modern bulleted list: one line for the frame (<code>The attributes ... are these three:</code>) and three bullets, each <code>ATTRIBUTE — relative clause</code>. Then answer in one line: <em>why does Calvin change the preposition each time</em> (<code>on which</code> / <code>which</code> / <code>by which</code>)? (Hint: ground / act / means.)</p>
+</li>
+<li>
+<p><strong>Composition.</strong> Write <strong>two</strong> sentences on Psalm 145 using Formula ③ (impersonal <code>it</code> + extraction) and Formula ② (negative fronting). Target something like: <em>The single Psalm which it may suffice at present to consider is the 145th. Nor is there there any perfection left out.</em> ⚠️ Then fix that ugly <code>there there</code> — one is locative, one existential. How would you rewrite it?</p>
+</li>
+<li>
+<p><strong>Preview of tomorrow.</strong> §3 opens <code>Here it may be proper to give a summary of the general doctrine.</code> — Chapter 10's <strong>conclusion</strong>, and it turns polemical fast: Scripture <code>distinctly excludes and rejects all the gods of the heathen</code>. Watch for <strong>Justin Martyr</strong> (<em>On the Monarchy of God</em>) and <strong>Tertullian</strong> brought in as witnesses that <code>the unity of God is engraven on the hearts of all</code> — Chapter 3's <em>sensus divinitatis</em> returning as a <strong>patristic</strong> argument — and then the hammer: those impressions <code>have had no further effect than to render men **inexcusable**</code>. Day 8's word. It has been waiting seven chapters.</p>
+</li>
+</ol><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 10, §2 끝. 다음은 <strong>Book 1, Ch. 10, §3</strong> — <em>"Scripture, in directing us to the true God, excludes the gods of the heathen, who, however, in some sense, held the unity of God."</em></p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
