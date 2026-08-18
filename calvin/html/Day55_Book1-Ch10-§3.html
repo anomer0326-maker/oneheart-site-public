@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 성경이 교정하는 우상숭배 §3 (1권 10장 · Day 55) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 10장 §3(성경이 교정하는 우상숭배)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 55. 연관 성구: 로마서 1, 사도행전 17, 하박국 2, 에베소서 4."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day55_Book1-Ch10-%C2%A73.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="성경이 교정하는 우상숭배 §3 — 기독교 강요 영어로 읽기 (Day 55)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 10장 §3(성경이 교정하는 우상숭배)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 55. 연관 성구: 로마서 1, 사도행전 17, 하박국 2, 에베소서 4."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day55_Book1-Ch10-%C2%A73.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 성경이 교정하는 우상숭배 §3 (1권 10장 · Day 55) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 10장 §3(성경이 교정하는 우상숭배)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 55. 연관 성구: 로마서 1, 사도행전 17, 하박국 2, 에베소서 4.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 10장 §3 — 성경이 교정하는 우상숭배","mentions":[{"@type":"CreativeWork","name":"로마서 1 (Rom 1)"},{"@type":"CreativeWork","name":"사도행전 17 (Acts 17)"},{"@type":"CreativeWork","name":"하박국 2 (Habakkuk 2)"},{"@type":"CreativeWork","name":"에베소서 4 (Eph 4)"},{"@type":"CreativeWork","name":"로마서 2 (Rom 2)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day55_Book1-Ch10-%C2%A73.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 55 — Book 1, Chapter 10, §3<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (the whole § — 11 sentences, verbatim)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl1" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl2" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl3" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl2" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl1" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl3" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl3" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl3" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl3" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl2" href="#S11" onclick="closeNavMobile()">S11</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (etymology hooks)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (the exam-setter&#x27;s eye)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 55 — Book 1, Chapter 10, §3</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Chapter 10 ends here — and it ends with a <strong>hammer</strong>.</p><p>Yesterday was the sweet section: Exodus 34, Psalm 145, Jeremiah 9, God naming himself <code>in relation to us</code>. Today Calvin turns around and says: <em>now let me tell you what that self-naming rules OUT.</em> S2:</p><blockquote>
+<p><code>the Scripture, in order to direct us to the true God, distinctly excludes and rejects all the gods of the heathen</code></p>
+</blockquote><p>That is the chapter title cashed out. <strong>Exclusively</strong> — the word in the chapter head — is not decoration. Scripture does not add the true God to the pantheon. It <strong>evicts</strong> the pantheon.</p><p>But watch what Calvin does next, because it is the most interesting move in the section and it is very easy to misread. He <strong>concedes</strong> something big (S3–S6): the pagans knew the name of one God. Justin Martyr wrote a whole treatise on it. Tertullian proved it from the way people talk. The unity of God is <code>engraven on the hearts of all</code>. That is Chapter 3's <em>sensus divinitatis</em> coming back — <strong>as a patristic argument</strong>, with two Church Fathers in the witness box.</p><p>And then S7 detonates it:</p><blockquote>
+<p><code>these impressions, as to the unity of God, whatever they may have naturally been, have had **no further effect than to render men inexcusable**</code></p>
+</blockquote><p>⚠️ <strong>Underline <code>no further effect than</code>.</strong> This is the single most-tested formula in Book 1 and Calvin has been building it since Day 6. Real knowledge. Real content. <strong>Zero</strong> salvific effect. The knowledge functions as <strong>evidence at a trial</strong>, not as a road to God. Every time you see Calvin concede something to the heathen, look immediately for this clause. It is always there, and it always says <em>inexcusable</em>.</p><p>Then three exhibits of the damage — the wisest praying to <strong>unknown gods</strong> (S8, and yes, that is Acts 17 knocking), the philosophers' pantheon being less absurd but no less devilish (S9), the professional evaders still on the hook for <code>the charge of rebellion</code> (S10) — and one closing verse, Habakkuk 2:20: seek God <strong>in his temple</strong> (S11). Which, in Calvin's hands, means: seek him where he has spoken.</p><p>The shape in one breath:</p><pre><code>   S1        FRAME        ── "let me give a summary of the general doctrine"
+   S2        THESIS ⭐     ── Scripture, to direct us to the true God,
+                             EXCLUDES + REJECTS all gods of the heathen
+                             (reason: religion universally adulterated)
+   S3        CONCESSION   ── "It is true, indeed" — the name of one God
+                             was everywhere known and celebrated
+   S4        EVIDENCE ⭐   ── polytheists, speaking nature's own language,
+                             said "god" — as if one had been enough
+   S5        WITNESS 1    ── Justin Martyr, On the Monarchy of God:
+                             unity of God ENGRAVEN on the hearts of all
+   S6        WITNESS 2    ── Tertullian: same thing, from common speech
+   S7        HAMMER ⭐⭐    ── BUT all rushed or were dragged into lying
+                             fictions → those impressions had NO FURTHER
+                             EFFECT THAN to render men INEXCUSABLE
+   S8        EXHIBIT A ⭐  ── the wisest DISCLOSE their wandering by
+                             wishing for "any kind of Deity" → unknown gods
+   S9        EXHIBIT B ⭐  ── Jupiter/Mercury/Venus/Minerva: less absurd
+                             than the vulgar's, BUT by no means free from
+                             the delusions of the devil
+   S10       EXHIBIT C ⭐  ── however subtle the philosophers' evasions,
+                             the charge of REBELLION stands
+   S11       CLOSE        ── Hab. 2:20 — seek God in his temple, acknowledge
+                             NONE BUT Him who has manifested himself
+                             IN HIS WORD
+</code></pre><p><strong>Today's 3 Big Points — write them down now:</strong></p><ol>
+<li><strong>One auxiliary, two participles — and one of them is passive.</strong> S7: <code>all ... **have** in the vanity of their minds **rushed** or **been dragged** into lying fictions</code>. The single <code>have</code> governs <strong>both</strong> <code>rushed</code> (active) and <code>been dragged</code> (passive). ⚠️ Two traps stacked: (a) an adverbial phrase is <strong>wedged between the auxiliary and its participle</strong> (<code>have in the vanity of their minds rushed</code>) — strip it before you parse; (b) the coordination is <strong>active + passive</strong>, which is legal only because <code>have</code> serves both. Restore it: <code>have rushed / have been dragged</code>. And the meaning of the pair is the whole doctrine of sin in four words — some ran, some were hauled.</li>
+<li><strong>Verbless concessives — <code>however + ADJ + S ‹be›</code> and <code>whatever + S + may + have been</code>.</strong> S10: <code>**however subtle** the evasions devised by philosophers ‹**are**›, they cannot do away with the charge</code>. The copula is <strong>deleted</strong>. S7 runs the sibling: <code>**whatever** they may have naturally been</code>. ⚠️ The exam will offer <code>however subtle **are** the evasions</code> or <code>**how** subtle the evasions</code> as "corrections." Know why both are wrong: <code>however</code> = <em>no matter how</em>, and the fronted adjective <strong>pulls <code>however</code> with it</strong>, no inversion, copula optional.</li>
+<li><strong><code>as if</code> + past perfect subjunctive, sitting on top of a five-pattern.</strong> S4: <code>**as if** they **had thought** one god **sufficient**</code>. Two things in one clause — <code>as if</code> + <code>had p.p.</code> = counterfactual <strong>anterior</strong> to the main verb; and underneath it <code>think + O + ADJ</code> (S+V+O+C), <em>no <code>to be</code></em>. ⚠️ <code>sufficient</code> is an <strong>object complement</strong>, not an adverb, not a second object. And the comparative family for today: <code>**not so** absurd **as** those of the rude vulgar</code> (S9), <code>**no further** effect **than** to render</code> (S7).</li>
+</ol><p>Eleven sentences. Two Church Fathers. One prophet. Let's go.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (the whole § — 11 sentences, verbatim)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+3. Here it may be proper to give a summary of the general doctrine. First, then, let the reader observe that the Scripture, in order to direct us to the true God, distinctly excludes and rejects all the gods of the heathen, because religion was universally adulterated in almost every age. It is true, indeed, that the name of one God was everywhere known and celebrated. For those who worshipped a multitude of gods, whenever they spoke the genuine language of nature, simply used the name god, as if they had thought one god sufficient. And this is shrewdly noticed by Justin Martyr, who, to the same effect, wrote a treatise, entitled, On the Monarchy of God, in which he shows, by a great variety of evidence, that the unity of God is engraven on the hearts of all. Tertullian also proves the same thing from the common forms of speech. But as all, without exception, have in the vanity of their minds rushed or been dragged into lying fictions, these impressions, as to the unity of God, whatever they may have naturally been, have had no further effect than to render men inexcusable. The wisest plainly discover the vague wanderings of their minds when they express a wish for any kind of Deity, and thus offer up their prayers to unknown gods. And then, in imagining a manifold nature in God, though their ideas concerning Jupiter, Mercury, Venus, Minerva, and others, were not so absurd as those of the rude vulgar, they were by no means free from the delusions of the devil. We have elsewhere observed, that however subtle the evasions devised by philosophers, they cannot do away with the charge of rebellion, in that all of them have corrupted the truth of God. For this reason, Habakkuk (2:20), after condemning all idols, orders men to seek God in his temple, that the faithful may acknowledge none but Him, who has manifested himself in his word.
+✅ Text note. Our source file source/Institutes_Beveridge_FULL.txt carries §3 at lines 4036–4063. Page furniture removed and nothing else: the page-89 marker (end of the first line, after let the), the page-93 marker, a form-feed, and the two-line running header CHAPTER 10. - IN SCRIPTURE, THE TRUE GOD OPPOSED, EXCLUSIVELY, TO ALL / THE… — all of which fall inside S5, between entitled, On the and Monarchy of God, and have been lifted out. Also removed: the footnote marker 25 printed immediately after forms of speech. in S6 (see Period 6 §2 for what that footnote actually says — it is worth knowing, but it is apparatus, not text). No hyphenation repairs were needed in this section. ⚠️ worshipped with the doubled p (S4), lowercase god in simply used the name god (S4 — deliberate: it is the word, not the Deity), engraven as the archaic past participle (S5), and the capitalized Him in S11 are all exactly as printed. Left verbatim. Not our typos. The parenthetical (2:20) in S11 is the source's own, as is the comma-heavy pointing of wrote a treatise, entitled, On the Monarchy of God (S5) — Beveridge's period punctuation, not an error. The section is a single paragraph in the source — kept as one block above.
+⚠️ Now run the standing Day 42 checks. Every stranded comparative, every so/too/such without a partner, every pronoun without an antecedent. Today's answers: not so absurd → partner is as those of the rude vulgar (S9). no further effect → partner is than to render men inexcusable (S7). And the pronoun to worry about is they in S10 — it is the philosophers, not the evasions. Two candidates, one right. We will get there.
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Thesis, concession, hammer, three exhibits, one verse:</p><pre><code>   S1        HOUSEKEEPING ── "a summary of the general doctrine" (§§1-2 recap
+                             + Ch. 3-9 gathered up)
+   S2        THESIS ⭐⭐    ── let the reader observe THAT
+                             Scripture, [in order to direct us to the true God],
+                             distinctly EXCLUDES and REJECTS all gods of the
+                             heathen, BECAUSE religion universally adulterated
+   ─────────── CONCESSION BLOCK (S3-S6): "yes, they knew" ────────────
+   S3        GRANT        ── "It is true, indeed, that ..." the name of ONE God
+                             everywhere known + celebrated
+   S4        PROOF ⭐⭐⭐   ── polytheists, when speaking nature's language,
+                             said the name `god` — AS IF they HAD THOUGHT
+                             one god sufficient  (5-pattern under a
+                             counterfactual)
+   S5        FATHER 1     ── Justin Martyr, On the Monarchy of God:
+                             unity of God ENGRAVEN on the hearts of all
+                             (= Ch. 3 sensus divinitatis, patristic version)
+   S6        FATHER 2     ── Tertullian: same, from the common forms of speech
+   ─────────── THE HAMMER (S7) ────────────────────────────────────────
+   S7        REVERSAL ⭐⭐⭐ ── BUT: all (without exception) have
+                             [in the vanity of their minds]
+                             RUSHED  or  BEEN DRAGGED  into lying fictions
+                             → these impressions, whatever they may naturally
+                             have been, had NO FURTHER EFFECT THAN
+                             to render men INEXCUSABLE
+   ─────────── THREE EXHIBITS OF DAMAGE (S8-S10) ──────────────────────
+   S8        (A) the wise ⭐ ── they DISCLOSE their wandering by wishing for
+                             "any kind of Deity" → prayers to UNKNOWN gods
+   S9        (B) the poets ⭐ ── Jupiter/Mercury/Venus/Minerva:
+                             NOT SO absurd AS the rude vulgar's — BUT
+                             by no means free from the DELUSIONS OF THE DEVIL
+   S10       (C) the phil. ⭐ ── HOWEVER SUBTLE the evasions ‹are›,
+                             they cannot do away with the CHARGE OF REBELLION,
+                             IN THAT all have corrupted the truth of God
+   ─────────── THE REMEDY (S11) ───────────────────────────────────────
+   S11       CLOSE        ── Hab. 2:20: after condemning all idols, seek God
+                             IN HIS TEMPLE → acknowledge NONE BUT Him
+                             who has manifested himself IN HIS WORD
+                             (→ Ch. 11 opens tomorrow: no visible form)
+</code></pre><p><strong>Examiner's Eye — five traps live in this section:</strong></p><ol>
+<li><strong>The "pagans really knew God" overreach.</strong> A comprehension option will read: <em>"Calvin concedes that the heathen possessed a true knowledge of the one God."</em> ✗ <strong>Scope overreach — the classic.</strong> Yes, S3–S6 concede the <em>impression</em>. But S7 fixes its exact value: <code>**no further effect than** to render men inexcusable</code>. Knowledge sufficient to <strong>convict</strong>, insufficient to <strong>save</strong>. This is the load-bearing distinction of Book 1 (Day 6 §1, Day 9 §1, Day 24 §12 — same clause, five times), and it is the item most likely to be set.</li>
+<li><strong>The "less absurd = acceptable" flip.</strong> An option will read: <em>"Because the philosophers' conception of the gods was less crude than the common people's, Calvin excuses it."</em> ✗ <strong>Direction flip.</strong> S9 grants the comparative (<code>not so absurd as</code>) and then, in the <em>same sentence</em>, denies the conclusion: <code>they were **by no means free** from the delusions of the devil</code>. ⚠️ Whenever Calvin grants a comparative, read to the end of the sentence for the <code>but</code>. He is not being generous; he is closing an escape route.</li>
+<li><strong><code>discover</code> (S8).</strong> An option will read: <em>"the wisest men found out that their minds were wandering."</em> ✗ <strong>Vocabulary trap.</strong> Archaic <code>discover</code> = <strong>dis-cover, uncover, reveal, betray</strong> — not "find out." They do not <em>notice</em> their wandering; they <em>expose</em> it. The subject reveals its own condition to <strong>us</strong>, unwittingly. Substitute <em>disclose</em> and the sentence snaps into place.</li>
+<li><strong><code>they</code> in S10.</strong> A grammar or comprehension item will attach <code>they cannot do away with the charge</code> to <strong>the evasions</strong>. ✗ The referent is <strong>the philosophers</strong> — proof: <code>**in that all of them** have corrupted the truth of God</code>. Evasions do not corrupt truth; people do. And it is people who face a <code>charge</code>.</li>
+<li><strong>The "temple" trap (S11).</strong> An option will read: <em>"Calvin directs the faithful to worship God in a physical sanctuary."</em> ✗ Read the relative clause: <code>none but Him, **who has manifested himself in his word**</code>. The temple in Hab. 2:20 is, for Calvin, the place where God has <strong>spoken</strong> — the appositive redefines the noun. And this is the pivot into Chapter 11, which spends fourteen sections denying that God may be sought under any visible form at all. Note the direction of travel: <strong>word, not image.</strong></li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl1" data-lvl="1" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s1" title="1-star">★</span><span class="s-label">impersonal it + may be proper to V — a signpost, nothing more</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>"Here it may be proper to give a summary of the general doctrine."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>proper</em> &lt; Lat. <em>proprius</em> (one's own) → fitting, appropriate; <em>summary</em> &lt; <em>summa</em> (the top, the total — Roman accounts were added upward); <em>general</em> &lt; <em>genus, generis</em> (kind, whole class) — cf. <em>generic, genre, generate</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it may be proper to V</em> = ~하는 것이 적절할 것이다 (formal signpost); <em>give a summary of</em> = 요약하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">At this point it makes sense to sum up the argument as a whole.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Here</b> → At this point</li><li><b>it may be proper to</b> → it makes sense to</li><li><b>give a summary of</b> → sum up</li><li><b>the general doctrine</b> → the whole teaching / the argument as a whole.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the thesis of the whole chapter — a jussive with a purpose clause wedged inside</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>"First, then, let the reader observe that the Scripture, in order to direct us to the true God, distinctly excludes and rejects all the gods of the heathen, because religion was universally adulterated in almost every age."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`First, then</span></li><li><span class="leaf"><b>let</b> the reader <b>observe</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that the Scripture, distinctly <b>excludes</b> and <b>rejects</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in order to direct us to the true God</span></li></ul></li></ul><ul class="tr"><li><span class="leaf">all the gods of the heathen</span></li></ul></li></ul></li><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">이유절 (because)</span><span class="leaf">because religion was universally adulterated</span></li><li><span class="leaf">in almost every age</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>adulterate</em> &lt; <em>ad</em> + <em>alter</em> (other) — make-other, falsify; cf. <em>adultery</em> (same root: another's bed); <em>distinctly</em> &lt; <em>dis</em> + <em>stinguere</em> (prick apart, mark off) — cf. <em>distinguish, instinct, extinguish</em>; <em>heathen</em> = OE <em>hæðen</em>, "of the heath" — the country-dweller, exact Germanic parallel to Lat. <em>paganus</em> (<em>pagus</em> = village) → both = "pagan"; <em>reject</em> &lt; <em>re</em> + <em>iacere</em> (throw back) — cf. <em>inject, project, eject</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>let + O + V</em> (원형) = ~하게 하라 (3인칭 명령, 허락 아님); <em>in order to V</em> = ~하기 위하여; <em>first, then</em> = 우선 그러면 (열거 + 추론 표지).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So, to start with, the reader should notice this: in order to point us to the true God, Scripture flatly rules out and throws away all the gods of the pagan world — and it does this because religion had been corrupted everywhere, in almost every period of history.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>let the reader observe</b> → the reader should notice</li><li><b>in order to direct us to</b> → to point us to</li><li><b>distinctly excludes and rejects</b> → flatly rules out and throws away</li><li><b>the gods of the heathen</b> → the gods of the pagan world</li><li><b>universally adulterated</b> → corrupted everywhere</li><li><b>in almost every age</b> → in almost every period.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the concession — and why indeed is a warning light</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>"It is true, indeed, that the name of one God was everywhere known and celebrated."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>celebrate</em> &lt; Lat. <em>celeber</em> (frequented, thronged, famous) → to make widely spoken of; <em>everywhere</em> = OE <em>æfre</em> + <em>hwær</em>, "ever-where."</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it is true, indeed, that ...</em> = 물론 ~하기는 하다 (양보 도입, 뒤에 but 예고); <em>indeed</em> = 사실 / 인정하건대 (여기서는 후자).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Admittedly, the name of a single God was known and widely spoken of everywhere.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>It is true, indeed, that</b> → Admittedly</li><li><b>the name of one God</b> → the name of a single God</li><li><b>was everywhere known and celebrated</b> → was known and talked about everywhere.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">a subject and its verb held apart by two clauses — plus as if + had thought over a five-pattern</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>"For those who worshipped a multitude of gods, whenever they spoke the genuine language of nature, simply used the name god, as if they had thought one god sufficient."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`For <b>those</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who worshipped a multitude of gods</span></li></ul></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">whenever they spoke the genuine language of nature</span></li></ul></li></ul></li><li><span class="leaf">simply <b>used</b> the name god</span></li><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>as if</b> they <b>had thought</b> one god <b>sufficient</b></span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>multitude</em> &lt; <em>multus</em> (many) + <em>-tudo</em> (state) — cf. <em>magnitude, solitude, altitude</em>; <em>genuine</em> &lt; <em>gignere</em> (to beget) → inborn, native — cognate family: <em>genus, genital, indigenous, ingenuous</em>; <em>sufficient</em> &lt; <em>sub</em> + <em>facere</em> (make up from underneath) → enough — cf. <em>suffice</em> (§2, S7).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>as if</em> + had p.p. = (그 전에) ~했던 것처럼 (반사실·선행); <em>think + O + 형용사</em> = O를 ~하다고 여기다 (5형식, to be 생략); <em>a multitude of</em> = 수많은.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">People who worshipped a whole crowd of gods would, whenever they spoke in the plain language nature gave them, simply say "god" — as though they had already decided that one god was enough.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>those who worshipped a multitude of gods</b> → people who worshipped crowds of gods</li><li><b>whenever they spoke the genuine language of nature</b> → whenever they spoke in nature's own plain language</li><li><b>simply used the name god</b> → just said the word "god"</li><li><b>as if they had thought one god sufficient</b> → as though they had already decided one god was enough.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s2" title="2-star">★★</span><span class="s-label">a witness, a title, and a relative chain that keeps going</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>"And this is shrewdly noticed by Justin Martyr, who, to the same effect, wrote a treatise, entitled, On the Monarchy of God, in which he shows, by a great variety of evidence, that the unity of God is engraven on the hearts of all."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf">**
+`And this is shrewdly noticed</span></li><li><span class="leaf">by Justin Martyr, `</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>who</b>, wrote a treatise</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to the same effect</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">entitled, On the Monarchy of God</span></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>in which</b> he shows</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by a great variety of evidence</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the unity of God is engraven on the hearts of all</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>monarchy</em> &lt; Gk. <em>monos</em> (alone) + <em>archē</em> (rule) — sole-rule; cf. <em>anarchy, hierarchy, patriarch, monogamy</em>; <em>treatise</em> &lt; <em>tractare</em> (to handle, treat) — cf. <em>tract, traction, contract</em>; <em>engrave</em> = <em>en</em> + <em>grave</em> (to carve, OE <em>grafan</em>) — cognate with Gk. <em>graphein</em> (to write) and Ger. <em>graben</em> (to dig); <em>evidence</em> &lt; <em>e</em> + <em>videre</em> (see out) — what makes a thing see-able.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>to the same effect</em> = 같은 취지로; <em>a great variety of</em> = 매우 다양한; <em>be engraven on the hearts of all</em> = 만인의 마음에 새겨져 있다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Justin Martyr made this same sharp observation. He wrote a book on the subject called <em>On the Sole Rule of God</em>, in which he shows from a wide range of evidence that the oneness of God is carved into everyone's heart.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>shrewdly noticed</b> → sharply observed</li><li><b>to the same effect</b> → making the same point</li><li><b>a treatise, entitled</b> → a book called</li><li><b>On the Monarchy of God</b> → On the Sole Rule of God</li><li><b>by a great variety of evidence</b> → from a wide range of evidence</li><li><b>engraven on the hearts of all</b> → carved into everyone's heart.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s1" title="1-star">★</span><span class="s-label">the second witness — and what "common forms of speech" means</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>"Tertullian also proves the same thing from the common forms of speech."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>prove</em> &lt; <em>probare</em> (to test, approve) — cf. <em>probe, probable, approve</em>; <em>common</em> &lt; <em>communis</em> (shared by all) — cf. <em>communicate, community</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>prove X from Y</em> = Y로부터 X를 증명하다; <em>the common forms of speech</em> = 일상적인 어법.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Tertullian proves the same point from ordinary everyday speech.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>proves the same thing</b> → proves the same point</li><li><b>from the common forms of speech</b> → from the way people ordinarily talk.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the hammer — and the most-tested formula in Book 1</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>"But as all, without exception, have in the vanity of their minds rushed or been dragged into lying fictions, these impressions, as to the unity of God, whatever they may have naturally been, have had no further effect than to render men inexcusable."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf">**
+`<b>But</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>as</b> all, <b>have</b> <b>rushed</b> or <b>been dragged</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">without exception</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in the vanity of their minds</span></li></ul></li></ul></li><li><span class="leaf">into lying fictions</span></li></ul></li></ul></li><li><span class="leaf"><b>these impressions</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as to the unity of God</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">whatever they may have naturally been</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>have had</b></span></li><li><span class="leaf"><b>no further effect</b></span></li><li><span class="leaf"><b>than to render men inexcusable.</b>`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>vanity</em> &lt; <em>vanus</em> (empty, void) — cf. <em>vain, evanesce, vacant</em>; NOT conceit; <em>fiction</em> &lt; <em>fingere</em> (to mould, shape) — the family: <em>figment, feign, effigy, figure</em>; <em>render</em> &lt; <em>reddere</em> (<em>re</em> + <em>dare</em>, give back) — cf. <em>rendition, surrender</em>; <em>inexcusable</em> &lt; <em>in</em> + <em>ex</em> + <em>causa</em> — literally <em>not-out-of-a-case</em>, i.e. no legal plea; Gk. ἀναπολόγητος = <em>without an apologia</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>without exception</em> = 예외 없이; <em>rush into</em> = ~로 돌진하다; <em>be dragged into</em> = ~로 끌려들다; <em>as to</em> = ~에 관하여; <em>whatever S may be</em> = 무엇이든 간에 (양보); <em>no further effect than to V</em> = ~하는 것 외에는 아무 효과도 없었다; <em>render + O + 형용사</em> = O를 ~한 상태로 만들다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But since every single one of them, their minds being empty, either ran headlong or got dragged into false inventions, whatever these impressions of God's oneness naturally amounted to, they achieved nothing more than leaving people with no excuse.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>as all, without exception</b> → since every single one of them</li><li><b>in the vanity of their minds</b> → with empty minds</li><li><b>have rushed or been dragged</b> → either ran or were dragged</li><li><b>lying fictions</b> → false inventions</li><li><b>as to the unity of God</b> → about God being one</li><li><b>whatever they may have naturally been</b> → whatever they naturally amounted to</li><li><b>no further effect than to render men inexcusable</b> → nothing more than to leave people with no excuse.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">discover does not mean discover — Exhibit A</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>"The wisest plainly discover the vague wanderings of their minds when they express a wish for any kind of Deity, and thus offer up their prayers to unknown gods."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`<b>The wisest</b></span></li><li><span class="leaf">plainly <b>discover</b></span></li><li><span class="leaf">the vague wanderings of their minds</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> they express a wish for <b>any kind of Deity</b></span></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and thus <b>offer up</b> their prayers</span></li><li><span class="leaf">to <b>unknown gods</b>.`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>discover</em> &lt; <em>dis</em> (undo) + <em>cover</em> — un-cover, hence reveal; the modern "find out" sense is a later narrowing; <em>vague</em> &lt; <em>vagus</em> (wandering) — cf. <em>vagrant, vagabond, extravagant</em> (= wandering outside); note that `vague` and `wanderings` are the same idea twice, one Latin and one Germanic — a Beveridge doublet; <em>Deity</em> &lt; <em>deus</em> + <em>-itas</em> — the abstract, "godhood," which is exactly why it fits `any kind of`.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>express a wish for</em> = ~을 바란다고 표명하다; <em>any kind of X</em> = 어떤 종류의 X든; <em>offer up prayers to</em> = ~에게 기도를 올리다; <em>and thus</em> = 그리하여 (결과).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The wisest men openly expose how aimlessly their minds are wandering when they say they want a god of some sort or other, and so end up praying to gods they know nothing about.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>The wisest</b> → The wisest men</li><li><b>plainly discover</b> → openly expose (NOT "find out")</li><li><b>the vague wanderings of their minds</b> → how aimlessly their minds wander</li><li><b>express a wish for any kind of Deity</b> → say they want a god of some kind</li><li><b>offer up their prayers to unknown gods</b> → pray to gods they don't know.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">a comparative granted and a conclusion refused, in one sentence — Exhibit B</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p>"And then, in imagining a manifold nature in God, though their ideas concerning Jupiter, Mercury, Venus, Minerva, and others, were not so absurd as those of the rude vulgar, they were by no means free from the delusions of the devil."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf">**
+`And then</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in imagining a manifold nature in God</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf"><b>though</b> their ideas <b>were not so absurd as</b> those of the rude vulgar</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">concerning Jupiter, Mercury, Venus, Minerva, and others</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>they were by no means free from</b> the delusions of the devil.`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>manifold</em> = OE <em>manig</em> (many) + <em>feald</em> (fold) — calque of Lat. <em>multiplex</em>; <em>absurd</em> &lt; <em>ab</em> + <em>surdus</em> (deaf, dull-sounding) — literally out of tune, hence senseless; <em>rude</em> &lt; <em>rudis</em> (raw, rough, unworked) — cf. <em>rudiment, erudite</em> (= "un-rude-d," polished by learning); <em>vulgar</em> &lt; <em>vulgus</em> (the crowd) — cf. <em>divulge</em> (= give out to the crowd), the <em>Vulgate</em> (the Bible for the crowd); <em>delusion</em> &lt; <em>de</em> + <em>ludere</em> (to play, mock) — cf. <em>illusion, ludicrous, prelude, collude</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in V-ing</em> = ~하는 가운데, ~함으로써; <em>not so ADJ as</em> = ~만큼 ADJ하지 않다; <em>those of</em> = ~의 그것들 (반복 명사 대용); <em>by no means</em> = 결코 ~아니다; <em>be free from</em> = ~에서 벗어나 있다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And then, in the very act of picturing God's nature as multiple, their notions about Jupiter, Mercury, Venus, Minerva and the rest may have been less ridiculous than the uneducated crowd's — but they were not one bit free of the devil's tricks.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>in imagining a manifold nature in God</b> → in picturing God's nature as multiple</li><li><b>their ideas concerning</b> → their notions about</li><li><b>not so absurd as those of</b> → less ridiculous than those of</li><li><b>the rude vulgar</b> → the uneducated crowd</li><li><b>by no means free from</b> → not one bit free of</li><li><b>the delusions of the devil</b> → the devil's tricks.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">however subtle the evasions ‹are› — a concessive with its verb deleted — Exhibit C</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p>"We have elsewhere observed, that however subtle the evasions devised by philosophers, they cannot do away with the charge of rebellion, in that all of them have corrupted the truth of God."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`We have elsewhere observed</span></li><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> <b>they</b> cannot <b>do away with</b> the charge of rebellion</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>however subtle</b> the evasions ‹<b>are</b>›</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">devised by philosophers</span></li></ul></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>in that</b> all of them have corrupted the truth of God</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>subtle</em> &lt; <em>subtilis</em> &lt; <em>sub</em> + <em>tela</em> (web, loom) — finely woven; cf. <em>textile, text</em> (both from <em>texere</em>, to weave); <em>evasion</em> &lt; <em>e</em> + <em>vadere</em> (to go out) — cf. <em>invade, pervade, wade</em>; <em>devise</em> &lt; <em>dividere</em> (to divide) → to arrange, contrive — cf. <em>device, division</em>; <em>rebellion</em> &lt; <em>re</em> + <em>bellum</em> (war) — war again, cf. <em>belligerent, antebellum</em>; <em>corrupt</em> &lt; <em>cor-</em> (thoroughly) + <em>rumpere</em> (to break) — cf. <em>rupture, disrupt, bankrupt</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>however + 형용사 + S ‹be›</em> = 아무리 ~하더라도 (계사 생략 가능); <em>do away with</em> = 없애다·폐기하다; <em>in that</em> = ~라는 점에서, ~이므로; <em>elsewhere</em> = (이 책의) 다른 곳에서.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">We noted somewhere else that no matter how cleverly the philosophers spin their excuses, they cannot get rid of the charge of rebellion, because every one of them has corrupted God's truth.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>We have elsewhere observed</b> → We noted somewhere else</li><li><b>however subtle the evasions devised by philosophers</b> → no matter how clever the excuses the philosophers invent</li><li><b>do away with the charge of rebellion</b> → get rid of the accusation of rebellion</li><li><b>in that</b> → because</li><li><b>corrupted the truth of God</b> → corrupted God's truth.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the door out — and the door into Chapter 11</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p>"For this reason, Habakkuk (2:20), after condemning all idols, orders men to seek God in his temple, that the faithful may acknowledge none but Him, who has manifested himself in his word."</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">**
+`For this reason</span></li><li><span class="leaf">Habakkuk</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">2:20</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">after condemning all idols</span></li></ul></li></ul></li><li><span class="leaf"><b>orders</b> men <b>to seek</b> God</span></li><li><span class="leaf">in his temple</span></li><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the faithful <b>may</b> acknowledge</span><ul class="tr"><li><span class="leaf"><b>none but Him</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who has manifested himself in his word</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>manifest</em> &lt; <em>manus</em> (hand) + <em>-festus</em> (struck, from <em>fendere</em>) — "struck by hand," i.e. caught in the act, palpable — cf. <em>manifesto, manifold</em> (unrelated!), <em>offend, defend</em>; <em>acknowledge</em> = <em>ac-</em> (to) + <em>knowledge</em> — to own as known; <em>idol</em> &lt; Gk. <em>eidōlon</em> (image, phantom) &lt; <em>eidos</em> (form) — cf. <em>idea</em>, and the pairing is not accidental for Ch. 11; <em>temple</em> &lt; <em>templum</em> — the augur's marked-off space; cf. <em>contemplate</em> (§2, S8).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>for this reason</em> = 이런 이유로; <em>after V-ing</em> = ~한 뒤에; <em>order + O + to V</em> = O에게 ~하라고 명하다; <em>that + S + may V</em> = ~하도록 (목적, so 생략); <em>none but</em> = ~외에는 아무도 (except).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">That is why Habakkuk (2:20), after condemning every idol, tells people to look for God in his temple — so that believers will recognize no one but him, the God who has made himself known in his word.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>For this reason</b> → That is why</li><li><b>after condemning all idols</b> → after condemning every idol</li><li><b>orders men to seek</b> → tells people to look for</li><li><b>that the faithful may acknowledge</b> → so that believers will recognize</li><li><b>none but Him</b> → no one but him</li><li><b>has manifested himself in his word</b> → has made himself known in his word.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula ① — One auxiliary, two participles: active + passive coordinated, with a wedge (S7)</h3><pre><code>   ┌──────────────────────────────────────────────────────────────┐
+   │   S  +  HAVE  ( ADVERBIAL WEDGE )  +  V-ed₁  or  BEEN V-ed₂  │
+   │                                        ↑ active   ↑ passive  │
+   │                                                              │
+   │   all have (in the vanity of their minds) rushed             │
+   │            or been dragged  into lying fictions              │
+   │                                                              │
+   │   RESTORE:  have rushed  /  have been dragged                │
+   │                                                              │
+   │   ⚠ the wedge sits BETWEEN aux and its own participle        │
+   │   ⚠ `been` is NOT deletable — it carries the passive         │
+   │   ⚠ subject may also be split from V by parentheticals:      │
+   │      these impressions, (as to X), (whatever ...), HAVE HAD  │
+   └──────────────────────────────────────────────────────────────┘
+</code></pre><p>⚠️ <strong>Trap 1:</strong> you read <code>have in the vanity...</code> and stall. Strip the wedge, find <code>have + rushed</code>, then restore.
+⚠️ <strong>Trap 2:</strong> <code>have been rushed or dragged</code> — ✗ flips the first verb passive and destroys the voluntary/involuntary contrast.
+⚠️ <strong>Trap 3:</strong> agreement. <code>these impressions ... **have** had</code> — plural, despite the singular <code>unity of God</code> wedged in between.</p><p><strong>Transformation drill.</strong> Rewrite using Formula ①:</p><blockquote>
+<p><em>Every one of them, with an empty mind, either ran into superstition or was pulled into it, and their natural knowledge accomplished only one thing: it left them without a defence.</em></p>
+</blockquote><p><strong>Model answer:</strong> <em>All, without exception, have in the emptiness of their minds rushed or been dragged into superstition; and their natural knowledge, whatever it may have been, has had no further effect than to render them inexcusable.</em></p><hr/><h3>Formula ② — Verbless concessives: <code>however/whatever</code> + copula deletion (S10, S7)</h3><pre><code>   ┌──────────────────────────────────────────────────────────────┐
+   │  (a)  HOWEVER + ADJ  +  S  ‹ BE ›  ,  S + V ...              │
+   │       = no matter how ADJ S is                                │
+   │                                                              │
+   │       however subtle the evasions ‹are›, they cannot ...  ✓  │
+   │       however subtle ARE the evasions, ...                ✗  │
+   │       HOW subtle the evasions, ...                        ✗  │
+   │       however the evasions are subtle, ...                ✗  │
+   │                                                              │
+   │  (b)  WHATEVER + S + MAY (HAVE) BEEN  ,  ...                 │
+   │       whatever they may have naturally been, ...          ✓  │
+   │                                                              │
+   │   ⚠ the ADJECTIVE fronts WITH `however` — they are one unit  │
+   │   ⚠ NO auxiliary inversion; copula OPTIONAL                  │
+   │   family: however / whatever / whenever / whichever / wherever│
+   └──────────────────────────────────────────────────────────────┘
+</code></pre><p>⚠️ <strong>Trap 1:</strong> <code>however</code> ≠ <em>but</em>. Test by substituting <em>no matter how</em>.
+⚠️ <strong>Trap 2:</strong> don't invert. <code>however subtle are the evasions</code> is the single most common wrong "correction."
+⚠️ <strong>Trap 3:</strong> <code>however the evasions are subtle</code> — the adjective must come <strong>immediately after</strong> <code>however</code>.</p><p><strong>Transformation drill.</strong> Combine into one sentence using <strong>both</strong> halves of Formula ②:</p><blockquote>
+<p><em>The excuses of the wise may be very refined. Their impressions of God may have been anything at all by nature. Neither fact removes their guilt.</em></p>
+</blockquote><p><strong>Model answer:</strong> <em>However refined the excuses devised by the wise, and whatever their impressions of God may naturally have been, they cannot do away with the charge of rebellion.</em></p><hr/><h3>Formula ③ — <code>as if</code> + past perfect subjunctive over a five-pattern; and the comparative family (S4, S9, S7)</h3><pre><code>   ┌──────────────────────────────────────────────────────────────┐
+   │   AS IF  +  S  +  HAD  p.p.   =  counterfactual, ANTERIOR    │
+   │   AS IF  +  S  +  past simple =  counterfactual, SIMULTANEOUS│
+   │                                                              │
+   │      as if they HAD THOUGHT one god sufficient      (S4)     │
+   │                     V         O          C  ← 5-pattern,     │
+   │                                              `to be` omitted │
+   │      cf. as if his countenance WERE portrayed    (§2, S1)    │
+   │                                                              │
+   │   COMPARATIVE FAMILY, all under negation:                    │
+   │      not so  ADJ  as   NP        = less ADJ than NP     (S9) │
+   │      no further  N  than  to V   = nothing beyond V-ing (S7) │
+   │      by no means  ADJ/V          = not at all           (S9) │
+   │                                                              │
+   │   ⚠ `so ... as`, NEVER `so ... than`                        │
+   │   ⚠ `those of X` = the [head noun] of X, not X itself       │
+   └──────────────────────────────────────────────────────────────┘
+</code></pre><p>⚠️ <strong>Trap 1:</strong> <code>sufficient</code> in S4 is an <strong>object complement</strong> (<code>one god ‹to be› sufficient</code>), not an adverb. <code>sufficiently</code> would be wrong and meaningless.
+⚠️ <strong>Trap 2:</strong> <code>had thought</code> vs <code>thought</code> after <code>as if</code> — the past perfect makes the conviction <strong>earlier</strong> than the speaking. That timing is the argument.
+⚠️ <strong>Trap 3:</strong> <code>not so absurd as **those** of the rude vulgar</code> — <code>those</code> = <em>the ideas</em>. Comparing ideas with ideas, never ideas with people.</p><p><strong>Transformation drill.</strong> Rewrite using Formula ③, both halves:</p><blockquote>
+<p><em>When the pagans slipped and said "god," it sounded as though they had already decided one was enough. Their notions were less crude than the crowd's, but they achieved nothing except to leave them guilty.</em></p>
+</blockquote><p><strong>Model answer:</strong> <em>Whenever they spoke the genuine language of nature, they simply used the name god, as if they had thought one god sufficient; and though their notions were not so absurd as those of the rude vulgar, they had no further effect than to render them inexcusable.</em></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (etymology hooks)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>proper</strong> (S1)</td>
+<td>fitting, appropriate / 적절한</td>
+<td><em>proprius</em> = one's own → <em>what properly belongs here</em>. Cf. <em>property, appropriate</em>.</td>
+</tr>
+<tr>
+<td><strong>summary</strong> (S1)</td>
+<td>a totalling-up / 요약</td>
+<td><em>summa</em> = the <strong>top</strong> — Romans added columns <strong>upward</strong>, so the total sat at the top.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>general</strong> (S1)</td>
+<td>of the whole class / 전체적인</td>
+<td><em>genus</em> = whole kind. NOT "vague." <code>the general doctrine</code> = the argument as a whole.</td>
+</tr>
+<tr>
+<td><strong>observe</strong> (S2)</td>
+<td>note, take notice / 유의하다</td>
+<td><em>ob</em> + <em>servare</em> (keep, watch) — cf. <em>reserve, preserve, conserve</em>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>distinctly</strong> (S2)</td>
+<td>decisively, with separation / 단호히</td>
+<td><em>dis</em> + <em>stinguere</em> (prick apart). Scripture <strong>draws the line</strong>; not merely "clearly."</td>
+</tr>
+<tr>
+<td><strong>heathen</strong> (S2)</td>
+<td>pagan / 이방인</td>
+<td>OE <em>hæðen</em> = "of the heath" — the exact Germanic twin of Lat. <em>paganus</em> (<em>pagus</em> = village). Both = country-dweller → non-Christian.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>adulterate</strong> (S2)</td>
+<td><strong>falsify, mix with something foreign</strong> / 변질시키다</td>
+<td><em>ad</em> + <em>alter</em> = <strong>make-other</strong>. Same root as <em>adultery</em>. Religion wasn't watered down; it was <strong>substituted</strong>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>almost every age</strong> (S2)</td>
+<td>nearly every era / 거의 모든 시대</td>
+<td>⚠️ Calvin's <strong>hedge</strong> — he means: <em>except Israel and the Church</em>. Do not drop the <code>almost</code>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>celebrated</strong> (S3)</td>
+<td><strong>widely spoken of, famous</strong> / 널리 일컬어진</td>
+<td><em>celeber</em> = thronged, much-frequented. NOT "worshipped," NOT "had a party." The name was on every tongue while the worship went elsewhere.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>indeed</strong> (S3)</td>
+<td><strong>admittedly</strong> / 인정하건대</td>
+<td>In <code>It is true, indeed, that ...</code> it opens a <strong>concession</strong>. Substitute <em>admittedly</em> and the <code>but</code> in S7 becomes visible.</td>
+</tr>
+<tr>
+<td><strong>multitude</strong> (S4)</td>
+<td>a crowd, great number / 다수</td>
+<td><em>multus</em> + <em>-tudo</em> — cf. <em>magnitude, solitude, latitude</em>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>genuine</strong> (S4)</td>
+<td><strong>inborn, native</strong> / 본성적인</td>
+<td><em>gignere</em> = to beget. <code>the genuine language of nature</code> = the speech <strong>nature bore in them</strong>. Family: <em>genus, genital, indigenous, ingenuous</em>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>simply</strong> (S4)</td>
+<td><strong>merely, without qualification</strong> / 그저</td>
+<td>NOT "in a simple way." <em>They just said "god."</em> The bareness is the evidence.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>god</strong> (lowercase, S4)</td>
+<td>the word <em>god</em> / '신'이라는 낱말</td>
+<td>⚠️ <strong>Deliberately lowercase in our source</strong> — Calvin means the common noun, the <em>word</em>, not the Deity. Concession kept linguistic.</td>
+</tr>
+<tr>
+<td><strong>sufficient</strong> (S4)</td>
+<td>enough / 충분한</td>
+<td><em>sub</em> + <em>facere</em> = make up from underneath. Here an <strong>object complement</strong>: <code>thought one god ‹to be› sufficient</code>.</td>
+</tr>
+<tr>
+<td><strong>shrewdly</strong> (S5)</td>
+<td>astutely, penetratingly / 예리하게</td>
+<td>ME <em>shrewe</em> = a rascal → "sharp" → <strong>sharp-witted</strong>. The malice has worn off; it is praise.</td>
+</tr>
+<tr>
+<td><strong>treatise</strong> (S5)</td>
+<td>a formal book / 논고</td>
+<td><em>tractare</em> = to handle → <em>handle a subject at length</em>. Cf. <em>tract, traction, contract</em>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>monarchy</strong> (S5)</td>
+<td><strong>sole rule, sole sovereignty</strong> / 유일 통치</td>
+<td>Gk. <em>monos</em> + <em>archē</em>. Justin's title = <em>On God's Sole Sovereignty</em> = <strong>monotheism</strong>. NOT "kingship."</td>
+</tr>
+<tr>
+<td><strong>engraven</strong> (S5)</td>
+<td>carved in / 새겨진</td>
+<td>Archaic p.p. of <em>engrave</em>: <em>en</em> + <em>grafan</em> (to dig) — cognate with Gk. <em>graphein</em> (write). Rom. 2:15. <strong>Do not "correct" to <em>engraved</em>.</strong></td>
+</tr>
+<tr>
+<td><strong>evidence</strong> (S5)</td>
+<td>what makes visible / 증거</td>
+<td><em>e</em> + <em>videre</em> = <strong>see out</strong>. Cf. <em>evident, video, provide</em>.</td>
+</tr>
+<tr>
+<td><strong>common forms of speech</strong> (S6)</td>
+<td>everyday idiom / 일상 어법</td>
+<td><em>communis</em> = shared by all. Tertullian's argument: the pagan tongue slips into the <strong>singular</strong>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>as</strong> (causal, S7)</td>
+<td><strong>since, because</strong> / ~이므로</td>
+<td><code>But **as** all have rushed...</code> — causal, not temporal. Test by substituting <em>since</em>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>vanity</strong> (S7)</td>
+<td><strong>emptiness, void</strong> / 허무</td>
+<td><em>vanus</em> = <strong>empty</strong>. NOT conceit. Eph. 4:17 / Rom. 1:21 (ἐματαιώθησαν). Family: <em>vain, vacant, evanesce</em>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>fiction</strong> (S7)</td>
+<td>a thing moulded up / 허구</td>
+<td><em>fingere</em> = to mould. <strong>Same stem as <em>figment</em> (Day 9), <em>feign</em>, <em>effigy</em>, <em>figure</em>.</strong> Calvin's false-religion vocabulary, one root.</td>
+</tr>
+<tr>
+<td><strong>as to</strong> (S7)</td>
+<td>with respect to / ~에 관하여</td>
+<td>Beveridge connective. NOT "as far as."</td>
+</tr>
+<tr>
+<td><strong>render</strong> (S7)</td>
+<td>make, cause to be / ~하게 만들다</td>
+<td><em>reddere</em> (<em>re</em> + <em>dare</em>, give back). <code>render + O + ADJ</code> — a <strong>five-pattern</strong>, same shape as S4.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>inexcusable</strong> (S7)</td>
+<td><strong>without a legal defence</strong> / 변명할 수 없는</td>
+<td><em>in</em> + <em>ex</em> + <em>causa</em> — <strong>not-out-of-a-case</strong>. Rom. 1:20 ἀναπολογήτους = <em>without an apologia</em>. <strong>The verdict word of Book 1</strong> — Days 6, 9, 13, 14, 24, and today.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>discover</strong> (S8)</td>
+<td><strong>uncover, reveal, betray</strong> / 드러내다</td>
+<td><strong>dis-cover</strong>. NOT "find out." The wisest <strong>expose</strong> their own wandering; they don't notice it. A Beveridge word — learn it once.</td>
+</tr>
+<tr>
+<td><strong>the wisest</strong> (S8)</td>
+<td>the wisest men / 가장 지혜로운 자들</td>
+<td><strong>Substantivized superlative, plural</strong> — hence <code>discover</code>, no <code>-s</code>. Cf. <em>the rich, the poor, the dead</em>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>vague</strong> (S8)</td>
+<td><strong>wandering, straying</strong> / 방황하는</td>
+<td><em>vagus</em> = wandering. Cf. <em>vagrant, vagabond, extravagant</em> (= wandering <strong>outside</strong>). <code>vague wanderings</code> is a Latin+Germanic <strong>doublet</strong> — the same idea twice.</td>
+</tr>
+<tr>
+<td><strong>Deity</strong> (S8)</td>
+<td>godhood, divinity (abstract) / 신성</td>
+<td><em>deus</em> + <em>-itas</em>. The abstraction is why it takes <code>any kind of</code> — they want <em>a divinity of some sort</em>.</td>
+</tr>
+<tr>
+<td><strong>offer up</strong> (S8)</td>
+<td>present as sacrifice / 올려 드리다</td>
+<td><em>offerre</em> = bring before. The sacrificial register.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>manifold</strong> (S9)</td>
+<td><strong>many-folded, multiple</strong> / 다양한·여럿인</td>
+<td>OE <em>manig</em> + <em>feald</em> — a Germanic calque of Lat. <em>multiplex</em>. ⚠️ <strong>Unrelated</strong> to <em>manifest</em> (S11), despite the look.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>absurd</strong> (S9)</td>
+<td>senseless / 터무니없는</td>
+<td><em>ab</em> + <em>surdus</em> (deaf, dull-sounding) — literally <strong>out of tune</strong>. Cf. <em>surd</em> in mathematics.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>rude</strong> (S9)</td>
+<td><strong>raw, uncultivated</strong> / 무지한</td>
+<td><em>rudis</em> = unworked stone. <strong>NOT "impolite."</strong> Cf. <em>rudiment</em>; and <em>erudite</em> = "un-rude-d," polished by learning.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>vulgar</strong> (S9)</td>
+<td><strong>the common people</strong> / 대중</td>
+<td><em>vulgus</em> = the crowd. <strong>NOT "obscene."</strong> Cf. <em>divulge</em> (give out to the crowd), the <em>Vulgate</em>. <code>the rude vulgar</code> = the uneducated masses.</td>
+</tr>
+<tr>
+<td><strong>by no means</strong> (S9)</td>
+<td>not at all / 결코 아니다</td>
+<td>Emphatic negative — the same phrase as yesterday's Ex. 34 <code>by no means clear the guilty</code>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>delusion</strong> (S9)</td>
+<td><strong>a mockery played on one</strong> / 미혹</td>
+<td><em>de</em> + <em>ludere</em> = <strong>to play with, make sport of</strong>. A delusion is not a mistake you make; it is <strong>a game played on you</strong> — hence <em>the devil's</em>. Cf. <em>illusion, ludicrous, prelude, collude</em>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>however</strong> + ADJ (S10)</td>
+<td><strong>no matter how</strong> / 아무리 ~해도</td>
+<td>Concessive, <strong>not</strong> contrastive <em>however</em> (= but). The adjective fronts with it; the copula may vanish.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>subtle</strong> (S10)</td>
+<td><strong>finely spun</strong> / 정교한</td>
+<td><em>sub</em> + <em>tela</em> (<strong>web, loom</strong>) — "under the web." A textile metaphor: the evasion is <strong>finely woven</strong>. Cf. <em>textile, text</em> (&lt; <em>texere</em>, to weave).</td>
+</tr>
+<tr>
+<td><strong>evasion</strong> (S10)</td>
+<td>a going-out, escape / 회피</td>
+<td><em>e</em> + <em>vadere</em> = go out. Cf. <em>invade, pervade, wade</em>.</td>
+</tr>
+<tr>
+<td><strong>devise</strong> (S10)</td>
+<td>contrive / 고안하다</td>
+<td><em>dividere</em> (divide) → arrange, plan out. Cf. <em>device, division</em>.</td>
+</tr>
+<tr>
+<td><strong>do away with</strong> (S10)</td>
+<td>abolish / 없애다</td>
+<td>Three-part phrasal verb; <strong>inseparable</strong>, always takes an object.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>charge</strong> (S10)</td>
+<td><strong>formal accusation</strong> / 기소·혐의</td>
+<td>The forensic register again — S7's <code>inexcusable</code>, S10's <code>charge</code>. Book 1's natural theology is a <strong>courtroom</strong>.</td>
+</tr>
+<tr>
+<td><strong>rebellion</strong> (S10)</td>
+<td>treason, renewed war / 반역</td>
+<td><em>re</em> + <em>bellum</em> = <strong>war again</strong>. Cf. <em>belligerent, antebellum</em>. Not error — <strong>treason</strong>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>in that</strong> (S10)</td>
+<td><strong>because, inasmuch as</strong> / ~라는 점에서</td>
+<td>A subordinating conjunction. Test by substituting <em>because</em>.</td>
+</tr>
+<tr>
+<td><strong>corrupt</strong> (S10)</td>
+<td>break thoroughly / 부패시키다</td>
+<td><em>cor-</em> (thoroughly) + <em>rumpere</em> (break). Cf. <em>rupture, disrupt, bankrupt</em>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>that</strong> + may (S11)</td>
+<td><strong>in order that</strong> / ~하도록</td>
+<td>Purpose clause with <code>so</code>/<code>in order</code> <strong>deleted</strong>. NOT a relative, NOT a noun clause. Test by inserting <em>so</em>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>but</strong> (S11)</td>
+<td><strong>except, other than</strong> / ~외에는</td>
+<td><code>none but Him</code> = no one except him. Same trap as yesterday's <code>Whence ... but from his goodness?</code></td>
+</tr>
+<tr>
+<td><strong>acknowledge</strong> (S11)</td>
+<td>own as one's own / 인정하다</td>
+<td><em>ac-</em> + <em>knowledge</em>. For Calvin a <strong>relational</strong> verb, not a cognitive one — as flagged in §2.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>manifest</strong> (S11)</td>
+<td><strong>made palpable, caught in the act</strong> / 나타내다</td>
+<td><em>manus</em> (hand) + <em>-festus</em> (struck) — "struck by hand," i.e. undeniable. ⚠️ <strong>No relation to <em>manifold</em> (S9).</strong> Cf. <em>manifesto, offend, defend</em>.</td>
+</tr>
+<tr>
+<td><strong>idol</strong> (S11)</td>
+<td>image, phantom / 우상</td>
+<td>Gk. <em>eidōlon</em> &lt; <em>eidos</em> (form) — <strong>the same root as <em>idea</em></strong>. Keep that in your pocket for Chapter 11.</td>
+</tr>
+<tr>
+<td><strong>temple</strong> (S11)</td>
+<td>marked-off sacred space / 성전</td>
+<td><em>templum</em> = the augur's cut-out patch of sky. Cf. <em>contemplate</em> (§2, S8) — to look <strong>within a frame</strong>.</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>1. The doctrine at stake: how much can you concede to paganism?</strong></p><p>This section is Calvin's most careful piece of book-keeping on exactly that question, and it comes in <strong>two columns</strong>.</p><p><em>Credit column</em> (S3–S6): the pagans had <code>the name of one God</code>; their unguarded speech was monotheistic; the unity of God is <code>engraven on the hearts of all</code>. That is a <strong>real</strong> concession with <strong>real</strong> patristic backing, and Calvin does not hedge it.</p><p><em>Debit column</em> (S7–S10): <code>all, without exception</code> fell into <code>lying fictions</code>; the impressions had <code>no further effect than to render men inexcusable</code>; the wisest pray to <code>unknown gods</code>; the philosophers' evasions cannot lift <code>the charge of rebellion</code>.</p><p>⚠️ <strong>The formula that balances the two is <code>no further effect than</code>.</strong> Do not soften it and do not sharpen it. Calvin is neither an inclusivist (the pagans had saving knowledge) nor a total-blindness theorist (they had none at all). His position is <strong>forensic</strong>: they had enough to be <strong>convicted</strong>, never enough to be <strong>saved</strong>. Everything in Chapters 3–5 was building this, and today the ledger is closed with a bang.</p><p><strong>2. The two witnesses — and an honest note about one of them.</strong></p><p><code>Justin Martyr, ... On the Monarchy of God</code> (S5). The treatise <em>De monarchia</em> (Περὶ μοναρχίας) is transmitted <strong>among Justin's works</strong>, and it argues monotheism out of quotations from Greek poets and dramatists — exactly <code>a great variety of evidence</code>. ⚠️ <strong>Modern scholarship classes it among the <em>pseudo</em>-Justinian writings</strong> (as it does the <em>Cohortatio ad Graecos</em> and <em>De resurrectione</em>): the florilegium of pagan quotations it depends on is later than Justin. Calvin, and every reader before the nineteenth century, took it as genuine. <strong>This does not damage Calvin's argument</strong> — the treatise exists and makes the case regardless of its author — but state the attribution honestly and don't cite "Justin" for it without the qualifier.</p><p><code>Tertullian ... from the common forms of speech</code> (S6). This is solid ground. Tertullian's <em>Apologeticum</em> 17 and the short <em>De testimonio animae</em> make precisely the argument: pagans, off guard, say <em>Deus magnus est</em>, <em>Deus videt</em>, <em>quod Deus dederit</em> — <strong>singular, spontaneous, unprompted</strong>. Tertullian's phrase for it is that the soul is <em>naturaliter christiana</em>. ⚠️ <strong>Note what our source's apparatus adds.</strong> Beveridge's footnote 25 (attached to S6, and stripped from Period 1 as apparatus) reads: <em>"In his book, De Idolatria. See also in Augustine, a letter by one Maximus, a grammarian of Medaura, jesting at his gods, and scoffing at the true religion. See, at the same time, Augustine's grave and admirable reply. Ep. 42. 43."</em> Two notes on that: the Tertullian reference to <em>De idololatria</em> is the <strong>editor's</strong>, and the <em>testimonium animae</em> argument is better located in the <em>Apologeticum</em>; and the Maximus of Madauros exchange is <strong>Augustine Ep. 16</strong> (Maximus) and <strong>Ep. 17</strong> (Augustine's reply) in the modern numbering — Beveridge's <code>Ep. 42. 43.</code> follows an older ordering. Worth knowing if you ever chase the citation.</p><p><strong>3. Acts 17 as the recurring terminus.</strong></p><p><code>unknown gods</code> (S8) is <strong>Acts 17:23</strong>, and this is now the <strong>second</strong> time Calvin has used it to end an argument — I.5.12 closed with pagans forced to <code>worship an unknown God</code> (Day 24). ⚠️ Notice that Calvin <strong>pluralizes</strong> Paul's singular inscription. That is not error: Roman practice really did address <em>dis ignotis</em> and hedged vows with the formula <em>sive deus sive dea</em> — "whether god or goddess" — precisely because the worshipper did not know whom he was addressing. Calvin's <code>express a wish for **any kind of** Deity</code> is a fair description of that liturgical hedging. <strong>The learned pagan's own caution is Calvin's Exhibit A.</strong></p><p><strong>4. Editions and place in the argument.</strong></p><p>Chapter 10 is short, stable, and structural. The <strong>1536</strong> <em>Institutio</em> had nothing like the Chapters 1–10 architecture; it grew in the <strong>1539</strong> expansion and reached this shape in the <strong>1559</strong> final reorganization, where Calvin split <em>cognitio Dei Creatoris</em> (Book 1) from <em>cognitio Dei Redemptoris</em> (Book 2). §3 is the <strong>join</strong>: it closes the "Scripture presents the same God as creation" argument (§§1–2) and swings the door open to Chapter 11's assault on images. ⚠️ The <code>Sections. 1. ... 2. ... 3. ...</code> headings are Beveridge's <strong>editorial summary</strong>, not Calvin's own text.</p><p><strong>5. Lineage and later reception.</strong></p><p>The concession-plus-inexcusability structure is <strong>Augustinian</strong> in temper — Augustine's Platonists in <em>Confessions</em> VII genuinely see something and genuinely cannot get home on it. The specific <em>use</em> of pagan monotheistic residue as prosecution evidence is <strong>Romans 1:19–23</strong> worked out at length; Calvin's whole Chapters 3–10 can be read as a commentary on those five verses.</p><p>Later: this is one of the sharpest texts for the <strong>Barth–Brunner</strong> quarrel of 1934, and ⚠️ <strong>both sides can quote it, which is why you must read it slowly.</strong> Brunner's <em>Anknüpfungspunkt</em> has real purchase in S3–S6 (there <strong>is</strong> a point of contact; the Fathers documented it). Barth's <em>Nein!</em> has real purchase in S7 (its <strong>only</strong> effect is condemnation). Calvin holds both because for him the point of contact is a <strong>point of accusation</strong>, not a point of departure — a distinction that neither 1934 slogan captures cleanly. <strong>Plantinga</strong> and Reformed epistemology take the <code>engraven on the hearts of all</code> of S5 as the <em>sensus divinitatis</em>, properly basic but <strong>damaged</strong>; today's S7–S10 is Calvin's account of the damage.</p><p><strong>6. Over-reading guardrail.</strong></p><p>⚠️ Four things this section does <strong>not</strong> say:</p><ul>
+<li>It does <strong>not</strong> say paganism was implicitly Christian, or that pagan monotheism was saving. <code>no further effect than to render men inexcusable</code> (S7). Full stop.</li>
+<li>It does <strong>not</strong> say the pagans knew nothing. S3–S6 exist to deny exactly that, and Calvin brings two Fathers to prove it.</li>
+<li>It does <strong>not</strong> claim a historical primal monotheism from which paganism declined. ⚠️ This is a real temptation, because the section reads a little like Andrew Lang's or Wilhelm Schmidt's <em>Urmonotheismus</em>. Calvin's claim is about the <strong>engraven sense in every person now</strong> (S5), not about a reconstructible primitive revelation. Different argument, different century, different evidence.</li>
+<li>It does <strong>not</strong> despise philosophy as such. The target is <code>the **evasions** devised by philosophers</code> (S10). ⚠️ Calvin says so explicitly at II.2.15 — the pagan philosophers' insight into earthly things is a real gift of the Spirit and must not be scorned. Today he is prosecuting a <strong>manoeuvre</strong>, not a discipline.</li>
+</ul><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li>
+<p><strong>Romans 1:20 → <code>inexcusable</code> (S7).</strong> Gk. <strong>ἀναπολογήτους</strong> — <em>without an apologia</em>, i.e. with no defence-speech to make. Calvin's single most-repeated word in Book 1 (Days 6, 9, 13, 14, 24, and today). ⚠️ <strong>What is new here:</strong> he applies it not to the raw <em>sensus divinitatis</em> but to the <strong>specifically monotheistic residue</strong> that Justin and Tertullian documented. The better the pagan evidence, the heavier the verdict. That is how Calvin uses a proof text — he keeps raising the standard of the concession so the conclusion gets <em>harder</em>, not softer.</p>
+</li>
+<li>
+<p><strong>Ephesians 4:17 → <code>in the vanity of their minds</code> (S7).</strong> AV: <em>walk not as other Gentiles walk, </em><em>in the vanity of their mind</em><strong>. Gk. </strong>ἐν ματαιότητι τοῦ νοὸς αὐτῶν<strong>. ⚠️ Beveridge's phrase is a near-verbatim lift, which is Calvin quoting rather than describing. And the same root drives </strong>Romans 1:21<strong> ἐματαιώθησαν (<em>they were made empty/futile</em>) — the verb behind Days 9 and 23. <code>vanity</code> = </strong>emptiness**, never conceit.</p>
+</li>
+<li>
+<p><strong>Romans 1:21–23 → the whole shape of S7 (S7).</strong> <em>When they knew God, they glorified him not ... but became vain in their imaginations ... and changed the glory of the uncorruptible God into an image.</em> ⚠️ That is Calvin's S3→S7 sequence exactly: real knowledge → vain imagination → fictions. He is not building an argument alongside Paul; he is <strong>paraphrasing Paul's sequence</strong> and adding two Fathers as documentation.</p>
+</li>
+<li>
+<p><strong>Romans 2:15 → <code>engraven on the hearts of all</code> (S5).</strong> AV: <em>the work of the law </em><em>written in their hearts</em><strong>; Gk. </strong>γραπτόν<strong>. The engraving metaphor Calvin has used since I.3.1. ⚠️ Note that here he routes it through </strong>Justin<em><em> rather than through Paul directly — a rhetorical choice: he is proving the point from the </em>Fathers'</em> reading of the <em>pagans</em>, which is harder to dismiss than a bare citation.</p>
+</li>
+<li>
+<p><strong>Acts 17:23 → <code>unknown gods</code> (S8).</strong> Gk. <strong>ἀγνώστῳ θεῷ</strong> — <em>to an unknown god</em>, Paul's Athenian altar. ⚠️ Calvin <strong>pluralizes</strong> it (see Period 6 §3): the Athenian inscription is singular, but pagan practice at large addressed <em>dis ignotis</em>. The verse is Calvin's standing terminus for natural religion: this is where the road ends. Cf. I.5.12 (Day 24), which closed on the same phrase.</p>
+</li>
+<li>
+<p><strong>Acts 17:28 (background to S4).</strong> <em>For in him we live, and move, and have our being</em> — and Paul's quotation of Aratus, <code>We are his offspring</code>, which Calvin discussed at I.5.3 (Day 15). ⚠️ Same evidentiary logic as today's S4: a <strong>pagan's own words</strong> used against him. The genuine language of nature leaks.</p>
+</li>
+<li>
+<p><strong>1 Corinthians 8:4–6 (background to S3).</strong> <em>We know that an idol is nothing in the world, and that </em><em>there is none other God but one</em><strong>. ⚠️ Note the same <code>none ... but</code> exclusive construction that closes today's S11. Paul's <code>but</code> and Calvin's <code>but</code> are doing identical work: </strong>except**.</p>
+</li>
+<li>
+<p><strong>Habakkuk 2:18–20 → <code>after condemning all idols ... seek God in his temple</code> (S11).</strong> AV 2:19: <em>Woe unto him that saith to the wood, Awake; to the dumb stone, Arise, it shall teach! ... and there is no breath in it.</em> Then 2:20: <em>But the LORD is in his holy temple: let all the earth keep silence before him.</em> ⚠️ <strong>The contrast in Habakkuk is speech.</strong> The idol is <code>dumb</code> and has <code>no breath</code>; the LORD is in his temple and the earth falls silent <strong>to listen</strong>. Which is precisely why Calvin's appositive gloss is <code>who has manifested himself **in his word**</code> — he is not adding a Reformation slogan to the verse, he is reading the verse's own antithesis. ⭐ <strong>This is the model of Calvin exegesis to remember from today:</strong> the proof text is chosen because its <strong>internal logic</strong> already runs the argument.</p>
+</li>
+<li>
+<p><strong>Psalm 115:4–8 / Isaiah 44:9–20 (behind S9 and S11).</strong> The classic idol-polemics — makers become like what they make. ⚠️ Not quoted, but they are the reservoir behind <code>the delusions of the devil</code> and <code>after condemning all idols</code>, and they are the texts Chapter 11 will draw on from tomorrow.</p>
+</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (the exam-setter&#x27;s eye)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① Grammar — one of the four underlined items is wrong. Find it.</h3><blockquote>
+<p>But as all, without exception, ⓐ<u>have in the vanity of their minds rushed</u> or ⓑ<u>been dragged</u> into lying fictions, these impressions, as to the unity of God, whatever they may have naturally been, ⓒ<u>has had</u> no further effect than to render men inexcusable. And however subtle the evasions devised by philosophers, they cannot ⓓ<u>do away with</u> the charge of rebellion.</p>
+</blockquote><p><strong>Answer: ⓒ</strong></p><p><strong>Exam-setter's rationale.</strong> Formula ①, agreement half. Bracket out <strong>both</strong> parentheticals — <code>as to the unity of God</code> and <code>whatever they may have naturally been</code> — and the spine is <code>these impressions ... **have** had no further effect</code>. Plural subject, plural auxiliary. The bait is the singular <code>unity</code> (and, for the careless, the singular-looking <code>God</code>) sitting in the wedge immediately before the verb. ⓐ is correct: the adverbial <code>in the vanity of their minds</code> may legally sit <strong>between</strong> the auxiliary and its participle, and <code>have ... rushed</code> is a normal perfect. ⓑ is correct: <code>been dragged</code> shares the single <code>have</code> and carries the <strong>passive</strong> — deleting <code>been</code> would flip the voice and destroy the voluntary/involuntary pair. ⓓ is correct: <code>do away with</code> is an inseparable three-part phrasal verb taking <code>the charge</code> as its object. ⚠️ If you picked ⓐ you were disoriented by the wedge; if you picked ⓑ you missed that one auxiliary can govern an active and a passive participle at once. Both are the intended distractors.</p><hr/><h3>② Comprehension — which one agrees with the section?</h3><blockquote>
+<p>ⓐ Calvin denies that the heathen had any notion whatever of one God, and cites Justin Martyr and Tertullian to prove it.
+ⓑ Calvin holds that because the philosophers' conceptions of the gods were less absurd than those of the uneducated, they escaped the delusions of the devil.
+ⓒ Calvin grants that the name of one God was everywhere known, but holds that this impression accomplished nothing beyond making men inexcusable.
+ⓓ Calvin teaches that the wisest men, realizing how far their minds had wandered, ceased to pray to unknown gods.</p>
+</blockquote><p><strong>Answer: ⓒ</strong></p><p><strong>Exam-setter's rationale.</strong>
+- <strong>ⓐ — direction flip, and it flips the witnesses too.</strong> S3 says the opposite (<code>It is true, indeed, that the name of one God was everywhere known and celebrated</code>), and S5–S6 bring Justin and Tertullian in to <strong>support</strong> the concession, not to deny it. ⚠️ A double error in one option: the claim is reversed <em>and</em> the function of the citations is reversed. Cheap to write, easy to catch if you tracked the <code>It is true, indeed</code> → <code>But</code> pair.
+- <strong>ⓑ — the comparative-to-conclusion slide.</strong> S9 grants <code>not so absurd as those of the rude vulgar</code> and then, <strong>in the same sentence</strong>, refuses the inference: <code>they were **by no means free** from the delusions of the devil</code>. ⚠️ Whenever Calvin grants a comparative, read to the period. This is the section's second-most-tested item.
+- <strong>ⓒ — correct.</strong> First half from S3 (<code>the name of one God was everywhere known and celebrated</code>); second half from S7 (<code>no further effect than to render men inexcusable</code>). Two sentences, four sentences apart, and the option is correct <strong>only</strong> because it keeps the concession <em>and</em> the limit. That is what the section is.
+- <strong>ⓓ — the <code>discover</code> trap, weaponized.</strong> <code>The wisest plainly **discover** the vague wanderings of their minds</code> = they <strong>lay bare</strong>, they <strong>expose</strong> — not "realize." And the sentence continues <code>**and thus** offer up their prayers to unknown gods</code>: they go <strong>on</strong> praying. ⚠️ This option depends entirely on the archaic verb. If you glossed <code>discover</code> as <em>find out</em> in Period 3, you would pick it.</p><hr/><h3>③ Composition — apply today's formulas.</h3><blockquote>
+<p><strong>Translate into Beveridge-style English, using Formula ② (<code>however</code> + ADJ, copula deleted) and Formula ① (<code>no further effect than to V</code>).</strong>
+"철학자들이 고안한 회피가 아무리 정교하더라도, 그리고 그들의 하나님에 대한 인상이 본성상 무엇이었든, 그것들은 사람을 변명할 수 없게 만드는 것 외에는 아무런 효과도 없었다."</p>
+</blockquote><p><strong>Model answer:</strong></p><blockquote>
+<p><em>However subtle the evasions devised by philosophers, and whatever their impressions of God may naturally have been, these have had no further effect than to render men inexcusable.</em></p>
+</blockquote><p><strong>Exam-setter's rationale.</strong> Four things are being marked. <strong>(1)</strong> <code>**However subtle** the evasions</code> — the adjective fronts <strong>with</strong> <code>however</code>, there is <strong>no inversion</strong>, and the copula is <strong>dropped</strong>. ✗ <code>However subtle are the evasions</code> (illicit inversion), ✗ <code>However the evasions are subtle</code> (adjective stranded), ✗ <code>How subtle the evasions</code> (bare <code>how</code> gives exclamation, not concession). <strong>(2)</strong> <code>**whatever** ... may naturally have been</code> — the concessive free relative, with the adverb <strong>inside</strong> the perfect. <strong>(3)</strong> <code>**no further effect than to** render</code> — the negative-comparative frame completed by a <strong>to-infinitive</strong>, not a <em>that</em>-clause. ✗ <code>no further effect than that they rendered</code> loses the formula. <strong>(4)</strong> <code>render + O + **inexcusable**</code> — the five-pattern with an adjectival object complement; ✗ <code>render men **inexcusably**</code> is the classic slip. ✅ Bonus credit for <code>**devised by**</code> rather than "made by" (Beveridge's participle, S10) and for keeping <code>**men**</code> rather than "people" — the source's word.</p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> Chapter 10 closes with the ledger: Scripture, <code>in order to direct us to the true God, distinctly excludes and rejects all the gods of the heathen</code> — and yes, <code>It is true, indeed</code>, the pagans had <code>the name of one God</code>, with Justin and Tertullian to prove that <code>the unity of God is engraven on the hearts of all</code>, <strong>but</strong> since all <code>have in the vanity of their minds rushed or been dragged into lying fictions</code>, those impressions <code>have had **no further effect than to render men inexcusable**</code>: the wisest <code>discover</code> their own wandering by praying to <code>unknown gods</code>, the poets' pantheon was less absurd yet <code>by no means free from the delusions of the devil</code>, and <code>however subtle the evasions devised by philosophers</code>, <code>the charge of rebellion</code> stands — so Habakkuk's order is to seek God <code>in his temple</code> and acknowledge <code>none but Him, who has manifested himself **in his word**.</code></p><p><strong>The 3 grammar points, restated:</strong></p><ol>
+<li><strong>One auxiliary, two participles — active + passive, with a wedge.</strong> <code>all **have** (in the vanity of their minds) **rushed** or **been dragged**</code> — strip the wedge, restore <code>have rushed / have been dragged</code>, and never delete <code>been</code>. Plus the agreement trap: <code>these impressions, (as to the unity of God), (whatever ...), **have** had</code>.</li>
+<li><strong>Verbless concessives.</strong> <code>**however** + ADJ + S ‹**be**›</code> — the adjective fronts with <code>however</code>, <strong>no inversion</strong>, copula optional (<code>however subtle the evasions devised by philosophers</code>). Sibling: <code>**whatever** they may have naturally been</code>. Family: <em>however / whatever / whenever / whichever / wherever</em> = <em>no matter how / what / when / which / where</em>.</li>
+<li><strong><code>as if</code> + past perfect subjunctive over a five-pattern, and the negative-comparative family.</strong> <code>as if they **had thought** one god **sufficient**</code> — counterfactual <strong>anterior</strong>, with <code>think + O + ADJ</code> underneath and <code>to be</code> deleted. Then: <code>**not so** absurd **as** those of the rude vulgar</code>, <code>**no further** effect **than to** render</code>, <code>**by no means** free from</code>.</li>
+</ol><p><strong>Homework (10 minutes).</strong></p><ol>
+<li>
+<p><strong>Structure restoration.</strong> Take <strong>S7</strong> and rewrite it as four short modern sentences, in this order: (i) the causal ground, (ii) the two ways they got in, (iii) what the impressions were, (iv) what they achieved. Then answer in one line: <em>why does Calvin need </em><em>both</em><em> <code>rushed</code> and <code>been dragged</code>?</em> (Hint: what plea is he closing off?) ⚠️ Then do the harder half — rewrite S7 <strong>back</strong> into one Beveridge sentence, and check whether you kept the wedge and the shared auxiliary.</p>
+</li>
+<li>
+<p><strong>Composition.</strong> Write <strong>two</strong> sentences about S8–S9 using Formula ③ twice: once with <code>not so ADJ as those of X</code>, once with <code>as if + had p.p.</code> over a five-pattern. Target something like: <em>Their notions were not so gross as those of the vulgar; yet they spoke as if they had thought a manifold God sufficient.</em> ⚠️ Then check your own work on one point only: is your complement an <strong>adjective</strong> (<code>sufficient</code>) or did you slip into an adverb (<code>sufficiently</code>)? One is the five-pattern; the other is nonsense.</p>
+</li>
+<li>
+<p><strong>Preview of tomorrow.</strong> Chapter 10 is finished. <strong>Chapter 11</strong> opens — and Calvin has just handed it its premise. Today's last words were <code>manifested himself **in his word**</code>; tomorrow's §1 is headed <em>"God is opposed to idols, that all may know he is the only fit witness to himself. He expressly forbids any attempt to represent him by a bodily shape."</em> ⚠️ Watch two things from the first sentence: the phrase <strong><code>fit witness to himself</code></strong> (Calvin's whole doctrine of revelation in four words — God is his own testimony, and nothing else qualifies), and the shift in genre — Chapters 1–10 argued; Chapter 11 <strong>prosecutes</strong>, for fourteen sections, with the Second Commandment as the statute. And keep today's <code>idol</code> etymology in your pocket: Gk. <em>eidōlon</em> &lt; <em>eidos</em>, <strong>form</strong> — the same root as <em>idea</em>. Calvin is about to make that connection do work.</p>
+</li>
+</ol><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 10, §3 끝. <strong>Chapter 10 완료.</strong> 다음은 <strong>Book 1, Ch. 11, §1</strong> — <em>"God is opposed to idols, that all may know he is the only fit witness to himself. He expressly forbids any attempt to represent him by a bodily shape."</em></p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
