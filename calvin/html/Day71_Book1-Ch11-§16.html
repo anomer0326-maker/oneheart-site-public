@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 하나님을 형상으로 만드는 죄 §16 (1권 11장 · Day 71) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 11장 §16(하나님을 형상으로 만드는 죄)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 71. 연관 성구: 데살로니가전서 1, 예레미야 10, 요한계시록 6, 에베소서 2."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day71_Book1-Ch11-%C2%A716.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="하나님을 형상으로 만드는 죄 §16 — 기독교 강요 영어로 읽기 (Day 71)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 11장 §16(하나님을 형상으로 만드는 죄)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 71. 연관 성구: 데살로니가전서 1, 예레미야 10, 요한계시록 6, 에베소서 2."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day71_Book1-Ch11-%C2%A716.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 하나님을 형상으로 만드는 죄 §16 (1권 11장 · Day 71) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 11장 §16(하나님을 형상으로 만드는 죄)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 71. 연관 성구: 데살로니가전서 1, 예레미야 10, 요한계시록 6, 에베소서 2.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 11장 §16 — 하나님을 형상으로 만드는 죄","mentions":[{"@type":"CreativeWork","name":"데살로니가전서 1 (1 Thess 1)"},{"@type":"CreativeWork","name":"예레미야 10 (Jer 10)"},{"@type":"CreativeWork","name":"요한계시록 6 (Rev 6)"},{"@type":"CreativeWork","name":"에베소서 2 (Eph 2)"},{"@type":"CreativeWork","name":"마태복음 5 (Matt 5)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day71_Book1-Ch11-%C2%A716.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 71 — Book 1, Chapter 11, §16<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (⚠️ invariable) — 13 sentences</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl2" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl1" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl1" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl2" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl3" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl3" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl1" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl2" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl1" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl2" href="#S11" onclick="closeNavMobile()">S11</a><a class="toc-s lvl2" href="#S12" onclick="closeNavMobile()">S12</a><a class="toc-s lvl3" href="#S13" onclick="closeNavMobile()">S13</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (어원 후킹)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 71 — Book 1, Chapter 11, §16</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Three days, three exhibits, one method. §14: the texts they cited for <strong>having</strong> images. §15: the texts they cited for <strong>adoring</strong> them. Today, §16: not what they <em>cited</em> — what they <strong>said</strong>. Look at the first noun after the verb: <strong><code>impieties</code></strong>. Yesterday the worst word was <code>absurdities</code>. Today the register jumps. <code>Absurd</code> is a charge against the <em>mind</em>. <code>Impious</code> is a charge against the <em>soul</em>. And Calvin stacks two adjectives in front of it: <strong><code>monstrous impieties</code></strong> — then, one sentence later, <strong><code>frantic and flagitious extravagance</code></strong>. He has stopped smiling.</p><p>Thirteen sentences — the longest section in three days. But the architecture is simple, so hold it in one hand. <strong>S1–S2</strong> = the frame: <em>here is why I am about to quote these things</em>. <strong>S3–S11</strong> = the exhibit, nine sentences of quotation-and-step-back, exactly the §14–15 method, rising through: anathemas (S3) → blame for national disaster (S4) → Calvin's one interruption (S5) → the <em>a fortiori</em> from the Emperor's statue (S6) → the bishop who gives images <strong>what is due to the Trinity</strong> (S7) → <em>and they all agreed</em> (S8) → the legate who prefers brothels to iconoclasm (S9) → the unanimous verdict: worse than Samaritans (S10) → the curtain line, <code>Rejoice and exult</code> (S11). <strong>S12–S13</strong> = the verdict: <em>so much for your λατρια/δυλια distinction — the Council leans on images exactly as hard as on God</em>.</p><p>Remember §11 (Day 66)? Calvin said the dulia/latria distinction <code>shall afterwards be fully considered (see infra, s. 16…)</code>. <strong>This is s. 16.</strong> The promissory note comes due in S12. That is why this section exists: it is the historical <em>proof</em> that the distinction is a paper wall — the men who invented it could not keep it for one session.</p><p>Grammatically today is <strong>displacement</strong> day: things that are not where you expect them. A relative pronoun buried two clauses deep. A <code>much more</code> that throws the subject behind the verb. An object that jumps to the front of its sentence. Three displacements, three Big Points.</p><h3>Today's 3 Big Points</h3><ol>
+<li><strong><code>monstrous impieties, which it is strange they ventured to utter, and twice strange that all men did not protest against</code> (S1) — a relative pronoun that is the object of a verb <em>inside</em> an extraposed that-clause, and then of a stranded preposition.</strong> Where does <code>which</code> go? Restore it: <em>it is strange [that they ventured to utter </em><em>which</em><em>]</em>, <em>and twice strange [that all men did not protest against </em><em>which</em><em>]</em>. The pronoun is the object of <code>utter</code> in the first limb and of <code>against</code> in the second — and in both, it has been lifted out of a <code>that</code>-clause sitting inside <code>it is strange (that)…</code>. That is <strong>two clause boundaries</strong> crossed. Note also that the first limb drops <code>that</code> (<code>it is strange they ventured</code>) and the second keeps it (<code>twice strange that all men…</code>). If you can draw the two gaps, you own the day's hardest sentence.</li>
+<li><strong><code>if the statue of the Emperor is met with odours and incense, much more are the images of saints entitled to the honour</code> (S6) — the <em>a fortiori</em> frame with fronted <code>much more</code> and subject–verb inversion.</strong> <code>Much more are the images entitled</code> — verb before subject, because the degree adverb <code>much more</code> has been pushed to the front of the clause. Base: <em>the images of saints are much more entitled</em>. Same family as <code>Of what punishment then are the Prophets … worthy?</code> (S5) — there the fronted item is a prepositional wh-phrase (<code>worthy **of** what punishment</code> → <code>**Of what punishment** … are they worthy</code>). Fronting drags inversion behind it. Twice in two sentences.</li>
+<li><strong><code>every person refusing to do the same thing he anathematises and classes with Marcionites and Manichees</code> (S7) — the object thrown to the front (O–S–V).</strong> Read it fast and you will take <code>every person</code> as a subject and wait for its verb. It never comes, because <code>every person … thing</code> is the <strong>object</strong> of <code>anathematises</code>; the subject is the tiny <code>he</code> after it. Restore: <em>he anathematises every person refusing to do the same thing</em>. Fronting the object puts the <em>victims</em> first and the <em>bishop</em> second — the sentence performs the anathema. Companions: S9's <code>better to allow … than be denied</code> (the bare infinitive after <code>than</code>, parallel to the first <code>to</code>-infinitive) and S13's <code>as much on images as on the living God</code> (equality comparison with the preposition <strong>repeated</strong> after <code>as</code>).</li>
+</ol><p>Trap words I <em>will</em> test. <strong><code>impieties</code></strong> (S1) = <strong>acts of irreverence toward God</strong> — a theological category, not rudeness. <strong><code>ventured to utter</code></strong> (S1) = <strong>dared to say</strong>. <strong><code>twice strange</code></strong> (S1) = <strong>doubly strange</strong>. <strong><code>protest against</code></strong> (S1) — here <code>protest</code> takes <code>against</code>; the object is the buried <code>which</code>. <strong><code>detestation</code></strong> (S1) = <strong>abhorrence</strong> (<em>de-testari</em>, to call down a curse). <strong><code>flagitious</code></strong> (S2) ⚠️ = <strong>shamefully criminal</strong> (Lat. <em>flagitium</em>, a disgraceful act) — a strong word, rare, do not soften it. <strong><code>extravagance</code></strong> (S2) ⚠️ = <strong>wild excess, going beyond bounds</strong> (<em>extra-vagari</em>, to wander outside) — <strong>not</strong> spending money. <strong><code>deprive X of Y</code></strong> (S2) = <strong>strip Y from X</strong>. <strong><code>gloss</code></strong> (S2) ⚠️⚠️ = <strong>surface shine, deceptive lustre</strong> — <em>not</em> a marginal note or explanation. Two different words spelled alike; here it is the shine one. <strong><code>deck</code></strong> (S2) = <strong>adorn, dress up</strong> (as in <em>deck the halls</em>). <strong><code>fires oft an anathema</code></strong> (S3) — printed <code>oft</code>; see the Text note; the sense is <em>fires off</em> = <strong>hurls</strong>. <strong><code>anathema</code></strong> (S3, S7) = <strong>a formal curse of excommunication</strong>. <strong><code>attributes X to Y</code></strong> (S4) = <strong>blames Y for X</strong>. <strong><code>calamities</code></strong> (S4) = <strong>disasters</strong>. <strong><code>worthy of</code></strong> (S5) = <strong>deserving of</strong> — and in S5 it governs the fronted <code>Of what punishment</code>. <strong><code>met with odours and incense</code></strong> (S6) ⚠️ = <strong>greeted with perfumes and incense</strong> — <code>odours</code> here are <em>fragrances</em>, not bad smells; <code>met with</code> = <em>received with</em>. <strong><code>entitled to</code></strong> (S6) = <strong>having a right to</strong>. <strong><code>professes</code></strong> (S7) = <strong>openly declares</strong> — no hint of <em>pretends</em> here. <strong><code>embrace</code></strong> (S7) = <strong>receive with affection, accept</strong>. <strong><code>due to</code></strong> (S7) ⚠️⚠️ = <strong>owed to</strong> — the respect <em>owed to</em> the Trinity. <strong>Not</strong> <em>because of</em>. Read it as <em>because of</em> and the sentence is gibberish. <strong><code>ever blessed</code></strong> (S7) = liturgical epithet, <em>eternally blessed</em>. <strong><code>classes with</code></strong> (S7) = <strong>ranks among</strong>. <strong><code>Marcionites and Manichees</code></strong> (S7) = two ancient heresies (Period 6). <strong><code>Lest you should think</code></strong> (S8) = <strong>so that you do not think</strong> — <code>lest</code> + <code>should</code>. <strong><code>private opinion of an individual</code></strong> (S8) = <strong>one man's personal view</strong> — <code>private</code> = <em>individual</em>, opposed to <em>the body's</em>. <strong><code>assent</code></strong> (S8) = <strong>agree</strong>. <strong><code>Nay</code></strong> (S9) = <strong>more than that</strong> — an intensifier, not a <em>no</em>. <strong><code>legate</code></strong> (S9) = <strong>official delegate</strong>. <strong><code>carried still farther by his zeal</code></strong> (S9) = <strong>swept even further by his fervour</strong>. <strong><code>be denied X</code></strong> (S9) = <strong>have X refused to one</strong> — passive with a retained object. <strong><code>resolved with one consent</code></strong> (S10) = <strong>decided unanimously</strong>. <strong><code>pass off</code></strong> (S11) = <strong>run its course, conclude</strong> — a play <em>passes off</em> = it is performed to its end. <strong><code>accustomed</code></strong> (S11) = <strong>customary</strong>. <strong><code>Plaudite</code></strong> (S11) = Latin, <em>"Applaud!"</em> — the last word of a Roman comedy (Period 6). <strong><code>exult</code></strong> (S11) = <strong>rejoice greatly</strong> (<em>ex-saltare</em>, to leap up). <strong><code>offer sacrifice to</code></strong> (S11) = the one act Scripture reserves for God alone — that is why Calvin ends the quotation there. <strong><code>λατρια and δυλια</code></strong> (S12) = <em>latria</em> / <em>dulia</em> — worship vs. service; the §11 distinction. <strong><code>throw dust in all eyes</code></strong> (S12) = <strong>blind, deceive</strong> — you heard it in §11 (<code>throw dust in the eyes of the simple</code>). <strong><code>unreservedly</code></strong> (S13) = <strong>without any qualification</strong>. <strong><code>relies … on</code></strong> (S13) = <strong>rests its weight on, trusts</strong>.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (⚠️ invariable) — 13 sentences</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+16. <span class="ft-sent" data-s="S1" id="ft-S1" onclick="jumpToCard('S1')">I come now to monstrous impieties, which it is strange they ventured to utter, and twice strange that all men did not protest against with the utmost detestation.</span> <span class="ft-sent" data-s="S2" id="ft-S2" onclick="jumpToCard('S2')">It is right to expose this frantic and flagitious extravagance, and thereby deprive the worship of images of that gloss of antiquity in which Papists seek to deck it.</span> <span class="ft-sent" data-s="S3" id="ft-S3" onclick="jumpToCard('S3')">Theodosius Bishop of Amora fires oft an anathema at all who object to the worship of images.</span> <span class="ft-sent" data-s="S4" id="ft-S4" onclick="jumpToCard('S4')">Another attributes all the calamities of Greece and the East to the crime of not having worshipped them.</span> <span class="ft-sent" data-s="S5" id="ft-S5" onclick="jumpToCard('S5')">Of what punishment then are the Prophets, Apostles, and Martyrs worthy, in whose day no images existed?</span> <span class="ft-sent" data-s="S6" id="ft-S6" onclick="jumpToCard('S6')">They afterwards add, that if the statue of the Emperor is met with odours and incense, much more are the images of saints entitled to the honour.</span> <span class="ft-sent" data-s="S7" id="ft-S7" onclick="jumpToCard('S7')">Constantius, Bishop of Constantia in Cyprus, professes to embrace images with reverence, and declares that he will pay them the respect which is due to the ever blessed Trinity: every person refusing to do the same thing he anathematises and classes with Marcionites and Manichees.</span> <span class="ft-sent" data-s="S8" id="ft-S8" onclick="jumpToCard('S8')">Lest you should think this the private opinion of an individual, they all assent.</span> <span class="ft-sent" data-s="S9" id="ft-S9" onclick="jumpToCard('S9')">Nay, John the Eastern legate, carried still farther by his zeal, declares it would be better to allow a city to be filled with brothels than be denied the worship of images.</span> <span class="ft-sent" data-s="S10" id="ft-S10" onclick="jumpToCard('S10')">At last it is resolved with one consent that the Samaritans are the worst of all heretics, and that the enemies of images are worse than the Samaritans.</span> <span class="ft-sent" data-s="S11" id="ft-S11" onclick="jumpToCard('S11')">But that the play may not pass off without the accustomed Plaudite, the whole thus concludes, “Rejoice and exult, ye who, having the image of Christ, offer sacrifice to it.”</span> <span class="ft-sent" data-s="S12" id="ft-S12" onclick="jumpToCard('S12')">Where is now the distinction of λατρια and δυλια with which they would throw dust in all eyes, human and divine?</span> <span class="ft-sent" data-s="S13" id="ft-S13" onclick="jumpToCard('S13')">The Council unreservedly relies as much on images as on the living God.</span>
+</blockquote><p><strong>Sentence count: 13 (S1–S13). One paragraph.</strong></p><blockquote>
+<p><strong>Text note (not a correction to the quotation).</strong> Four things about the printed page, all left exactly as they stand. (i) <strong><code>fires oft an anathema</code></strong> (S3) — the printed Beveridge reads <strong><code>fires off</code></strong>; our file's <code>oft</code> is a scanner's misreading of <code>off</code>. The sense is <em>hurls</em>. Reproduced as printed; read as <em>off</em>. (ii) The Greek in S12 is printed <strong>without the diphthong and without accents</strong>: <code>λατρια</code> and <code>δυλια</code> for λατρεία and δουλεία — the same corruption you met in §11 (Day 66). Do not memorise the mangled spelling. (iii) Two footnote markers have been stripped: <strong>³⁷</strong> after <code>detestation</code> (S1) — the note records that the French edition adds <em>"et qu'il ne se soit trouvé gens qui leur crachassent au visage"</em>, <em>and that people were not found to spit in their face</em>; and <strong>³⁸</strong> after <code>living God</code> (S13), which sends the reader to Calvin's <em>De Vitandis Superstitionibus</em> and <em>De Fugiendis Illicitis Sacris</em>. (iv) The page break inside S10 (between <code>worse than the</code> and <code>Samaritans</code>) and the running header have been closed up. Nothing else altered. On the bishops' names (<code>Theodosius Bishop of Amora</code>, <code>Constantius, Bishop of Constantia</code>), see the guardrail in Period 6.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>[THE FRAME]        S1     "I come now to MONSTROUS IMPIETIES" — register jumps from absurd → impious
+                          strange they DARED say it / TWICE strange nobody PROTESTED
+                   S2     "It is right to EXPOSE … and thereby DEPRIVE image-worship of that GLOSS OF
+                          ANTIQUITY" ← the stated purpose: strip the appearance of ancient authority
+[THE EXHIBIT]      S3     Theodosius of Amora: ANATHEMA on all objectors
+ (quote, step back) S4     "Another": all calamities of Greece &amp; the East = crime of NOT worshipping
+                   S5     ← Calvin's one interruption: then what do PROPHETS, APOSTLES, MARTYRS deserve,
+                          "in whose day NO IMAGES EXISTED?"
+                   S6     the A FORTIORI: Emperor's statue gets incense → "MUCH MORE ARE the images…"
+                   S7     Constantius of Cyprus: images get the respect DUE TO THE TRINITY;
+                          objectors = Marcionites &amp; Manichees
+                   S8     "LEST you should think this the PRIVATE opinion of an individual, THEY ALL ASSENT"
+                   S9     "NAY" — John the legate: BETTER a city of BROTHELS THAN be denied images
+                   S10    unanimous: Samaritans = worst heretics; image-enemies = WORSE THAN Samaritans
+                   S11    curtain line, "the accustomed PLAUDITE": "Rejoice and exult, ye who … OFFER
+                          SACRIFICE to it"
+[THE VERDICT]      S12    "WHERE IS NOW the distinction of λατρια and δυλια…?" ← §11's IOU paid
+                   S13    "The Council UNRESERVEDLY relies AS MUCH on images AS on the living God."
+</code></pre><p><strong>Examiner's Eye.</strong> Three traps, in rising order of nastiness.</p><p><strong>Trap 1 — whose words are S3–S11?</strong> Every claim from S3 to S11 belongs to the <strong>council fathers</strong> as Calvin's source reports them. A comprehension item will lift one of them — <em>"the enemies of images are worse than the Samaritans"</em> — and ask whether <em>Calvin</em> says it. He reports it. The only sentence in the exhibit that is Calvin's own voice is <strong>S5</strong>, the question about the Prophets, and it is a question, not a claim. Keep the speaker column straight.</p><p><strong>Trap 2 — <code>due to</code> (S7).</strong> An item will paraphrase: <em>"Constantius honoured images because of the Trinity."</em> Wrong. <code>The respect which is **due to** the ever blessed Trinity</code> = the respect <strong>owed to</strong> the Trinity. He is not giving a <em>reason</em>; he is naming the <em>creditor</em>. The scandal of the sentence is that he transfers to images the payment owed to God. Read <code>due to</code> as <em>because of</em> and the scandal evaporates — which is exactly why the exam-setter will offer it.</p><p><strong>Trap 3 — the scope of S12–S13.</strong> The item reads: <em>"Calvin concludes that the Council maintained the distinction between latria and dulia."</em> Inverted. <code>Where is **now** the distinction…?</code> is a rhetorical question whose answer is <em>nowhere</em>; S13 spells it out: <code>as much on images **as** on the living God</code> — equal weight, no reservation. The distinction is not <em>maintained</em>; it is the thing that has just collapsed under the exhibit's weight. And note the tail of S12: <code>in all eyes, **human and divine**</code> — they tried to fool <em>God</em> with it too.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">which it is strange they ventured to utter, and twice strange that all men did not protest against — one relative pronoun, two clause boundaries, one stranded preposition</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p><strong><code>I come now to monstrous impieties, which it is strange they ventured to utter, and twice strange that all men did not protest against with the utmost detestation.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `I come to monstrous impieties</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">now</span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b> it is strange they ventured to utter __</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Ø</span></li></ul></li></ul><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf">and twice strange <b>that</b> all men did not protest <b>against</b> __</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">with the utmost detestation</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>impiety</em> &lt; <em>in-</em> + <em>pietas</em> (dutiful reverence) → <em>pious</em>, <em>piety</em>, <em>pity</em> (same root, split sense); <em>monstrous</em> &lt; <em>monstrum</em> (a portent, from <em>monere</em>, to warn) → <em>demonstrate</em>, <em>monitor</em>; <em>detestation</em> &lt; <em>de-testari</em> (to call down a curse with the gods as witnesses; <em>testis</em> = witness) → <em>testify</em>, <em>testament</em>, <em>detest</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>I come now to X</em> = I turn now to X (the orator's transition); <em>venture to V</em> = dare to V; <em>twice strange</em> = doubly strange; <em>protest against X</em> = object publicly to X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I turn now to some monstrous impieties. It is strange that they dared to say them, and stranger still that everyone did not object to them with utter disgust.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>I come now to</b> → I turn now to</li><li><b>which it is strange they ventured to utter</b> → it is strange that they dared to say them</li><li><b>twice strange</b> → stranger still</li><li><b>protest against</b> → object to</li><li><b>with the utmost detestation</b> → with utter disgust.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s2" title="2-star">★★</span><span class="s-label">deprive the worship of images of that gloss of antiquity — the stated purpose, and a gloss that is a shine, not a note</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p><strong><code>It is right to expose this frantic and flagitious extravagance, and thereby deprive the worship of images of that gloss of antiquity in which Papists seek to deck it.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `It is right</span></li><li><span class="leaf">to expose</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">this frantic and flagitious extravagance</span></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and deprive <b>of</b>.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">thereby</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">the worship of images</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that gloss of antiquity</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">in which Papists seek to deck it</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>flagitious</em> &lt; <em>flagitium</em> (a shameful act; related to <em>flagrum</em>, whip → <em>flagellate</em>) — rare, keep it; <em>extravagance</em> &lt; <em>extra</em> + <em>vagari</em> (to wander) → <em>vagrant</em>, <em>vague</em>; <em>gloss</em> (shine) ≠ <em>gloss</em> (note, &lt; γλῶσσα → <em>glossary</em>).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>deprive X of Y</em> = strip Y from X; <em>deck X in Y</em> = dress X up in Y; <em>seek to V</em> = try to V.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">It is right to expose this mad and shameful excess, and in doing so strip image-worship of the veneer of ancient authority that the Papists try to dress it in.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>flagitious</b> → shameful / criminal</li><li><b>extravagance</b> → excess</li><li><b>deprive … of</b> → strip … of</li><li><b>gloss of antiquity</b> → veneer of ancient authority</li><li><b>deck it</b> → dress it up.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s1" title="1-star">★</span><span class="s-label">fires oft an anathema — read off; the first exhibit is a curse</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p><strong><code>Theodosius Bishop of Amora fires oft an anathema at all who object to the worship of images.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>anathema</em> &lt; Gk ἀνάθεμα (a thing set up / devoted — then, a thing devoted to destruction, accursed) — the LXX word for Hebrew <em>ḥērem</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>fire off X at Y</em> = hurl X at Y.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Theodosius, bishop of Amorium, hurls an anathema at everyone who objects to worshipping images.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>fires oft (off)</b> → hurls</li><li><b>object to</b> → oppose.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s1" title="1-star">★</span><span class="s-label">attributes all the calamities … to the crime of not having worshipped them — blame by non-worship</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p><strong><code>Another attributes all the calamities of Greece and the East to the crime of not having worshipped them.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>calamity</em> &lt; <em>calamitas</em> (damage to crops, then disaster; folk-linked to <em>calamus</em>, stalk) → <em>calamitous</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>attribute X to Y</em> = assign X to Y as its cause; <em>the crime of V-ing</em> = the offence consisting in V-ing.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Another blames every disaster that has struck Greece and the East on the crime of not having worshipped images.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>attributes … to</b> → blames … on</li><li><b>calamities</b> → disasters</li><li><b>the crime of not having worshipped them</b> → the crime of not having worshipped images.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Of what punishment then are the Prophets, Apostles, and Martyrs worthy…? — fronted wh-phrase, inversion, and Calvin's one interruption</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p><strong><code>Of what punishment then are the Prophets, Apostles, and Martyrs worthy, in whose day no images existed?</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>Of what punishment**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">then</span></li></ul></li></ul></li><li><span class="leaf"><b>are</b> the Prophets, Apostles, and Martyrs</span></li><li><span class="leaf">worthy</span></li><li><span class="leaf">?`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">in whose day no images existed</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>martyr</em> &lt; Gk μάρτυς (witness) — the <em>witness</em> who paid with his life; <em>worthy</em> &lt; OE <em>weorþ</em> (value) → <em>worth</em>, <em>worship</em> (= <em>worth-ship</em>!).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be worthy of X</em> = deserve X; <em>in whose day</em> = in whose lifetime.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">In that case, what punishment do the Prophets, Apostles, and Martyrs deserve — men in whose lifetime there were no images at all?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Of what punishment … are … worthy</b> → what punishment do … deserve</li><li><b>then</b> → in that case</li><li><b>in whose day</b> → in whose lifetime</li><li><b>no images existed</b> → there were no images at all.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">if the statue of the Emperor is met with odours and incense, much more are the images of saints entitled to the honour — the a fortiori with fronted much more and inversion</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p><strong><code>They afterwards add, that if the statue of the Emperor is met with odours and incense, much more are the images of saints entitled to the honour.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `They add</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">afterwards</span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if</b> the statue of the Emperor is met</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">with odours and incense</span></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>much more are</b> the images of saints <b>entitled</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to the honour</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>incense</em> &lt; <em>incendere</em> (to set on fire) → <em>incendiary</em>, <em>incentive</em> (that which kindles); <em>odour</em> &lt; <em>odor</em> (smell, fragrance) → <em>odorous</em>, <em>deodorant</em>; <em>entitle</em> &lt; <em>titulus</em> (title, claim) → <em>title</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be met with X</em> = be received / greeted with X; <em>much more are S V-ed</em> = S are all the more V-ed (a fortiori); <em>be entitled to X</em> = have a right to X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">They go on to add that if the Emperor's statue is greeted with perfumes and incense, then the images of the saints have all the more right to that honour.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>afterwards add, that</b> → go on to add that</li><li><b>is met with</b> → is greeted with</li><li><b>odours</b> → perfumes</li><li><b>much more are the images … entitled</b> → the images have all the more right</li><li><b>the honour</b> → that honour.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the respect which is due to the ever blessed Trinity: every person refusing to do the same thing he anathematises — due to = owed to; object fronted to the head of the clause</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p><strong><code>Constantius, Bishop of Constantia in Cyprus, professes to embrace images with reverence, and declares that he will pay them the respect which is due to the ever blessed Trinity: every person refusing to do the same thing he anathematises and classes with Marcionites and Manichees.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `Constantius</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Bishop of Constantia in Cyprus</span></li></ul></li></ul></li><li><span class="leaf">professes to embrace images</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">with reverence</span></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and declares</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that he will pay them the respect</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which is <b>due to</b> the ever blessed Trinity</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>he</b> anathematises and classes.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>every person refusing to do the same thing</b></span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">with Marcionites and Manichees</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>due</em> &lt; <em>debitus</em> (owed) → <em>debt</em>, <em>debit</em>, <em>duty</em>; <em>profess</em> &lt; <em>pro-fateri</em> (to declare publicly) → <em>profession</em>, <em>confess</em>; <em>anathematise</em> &lt; ἀνάθεμα + <em>-ize</em>; <em>class</em> &lt; <em>classis</em> (a division of the Roman people) → <em>classify</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>profess to V</em> = openly declare that one Vs; <em>pay X respect / pay respect to X</em> = show X respect; <em>be due to X</em> = be owed to X (⚠️ not "because of"); <em>class X with Y</em> = rank X among Y.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Constantius, bishop of Constantia in Cyprus, openly says that he embraces images with reverence and that he will give them the respect that is owed to the ever-blessed Trinity — and anyone who refuses to do the same he excommunicates and lumps in with the Marcionites and Manichees.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>professes to embrace</b> → openly says that he embraces</li><li><b>pay them the respect</b> → give them the respect</li><li><b>which is due to</b> → that is owed to</li><li><b>every person refusing … he anathematises</b> → anyone who refuses … he excommunicates</li><li><b>classes with</b> → lumps in with.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s1" title="1-star">★</span><span class="s-label">Lest you should think this the private opinion of an individual, they all assent — the council owns it</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p><strong><code>Lest you should think this the private opinion of an individual, they all assent.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>assent</em> &lt; <em>ad-sentire</em> (to feel toward, agree) → <em>consent</em>, <em>dissent</em>, <em>sentiment</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>lest S should V</em> = so that S does not V; <em>think X (to be) Y</em> = regard X as Y; <em>the private opinion of an individual</em> = one man's personal view.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">In case you think this was just one man's personal opinion — they all agreed with him.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Lest you should think</b> → in case you think</li><li><b>this the private opinion of an individual</b> → this was just one man's personal opinion</li><li><b>assent</b> → agreed.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s2" title="2-star">★★</span><span class="s-label">better to allow a city to be filled with brothels than be denied the worship of images — the comparison with a bare infinitive after than</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p><strong><code>Nay, John the Eastern legate, carried still farther by his zeal, declares it would be better to allow a city to be filled with brothels than be denied the worship of images.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `Nay</span></li><li><span class="leaf">John the Eastern legate</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">carried still farther by his zeal</span></li></ul></li></ul></li><li><span class="leaf">declares.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">it would be better</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that</span></li></ul></li></ul></li><li><span class="leaf"><b>to allow</b> a city to be filled with brothels</span></li><li><span class="leaf"><b>than</b> <b>be denied</b> the worship of images</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>legate</em> &lt; <em>legatus</em> (one sent with a commission, from <em>lex</em>) → <em>delegate</em>, <em>legation</em>; <em>zeal</em> &lt; Gk ζῆλος (ardour, jealousy) → <em>jealous</em> (same word, split); <em>brothel</em> &lt; OE <em>brēoþan</em> (to go to ruin) — originally a <em>ruined person</em>, then the house.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>carried farther by X</em> = swept further along by X; <em>it would be better to V₁ than (to) V₂</em> = V₁ is preferable to V₂; <em>be denied X</em> = have X refused to one.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">What is more, John, the legate from the East, swept even further by his zeal, declares that it would be better to let a city fill up with brothels than to have it deprived of the worship of images.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Nay</b> → what is more</li><li><b>carried still farther by his zeal</b> → swept even further by his zeal</li><li><b>allow a city to be filled with</b> → let a city fill up with</li><li><b>than be denied</b> → than to have it deprived of.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s1" title="1-star">★</span><span class="s-label">the Samaritans are the worst of all heretics, and … the enemies of images are worse than the Samaritans — worse than the worst</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p><strong><code>At last it is resolved with one consent that the Samaritans are the worst of all heretics, and that the enemies of images are worse than the Samaritans.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>heretic</em> &lt; Gk αἵρεσις (a choosing, a sect) → <em>heresy</em>; <em>consent</em> &lt; <em>con-sentire</em> (to feel together).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it is resolved that</em> = it is formally decided that; <em>with one consent</em> = unanimously; <em>the worst of all X</em> = the worst X there is.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Finally they decide unanimously that the Samaritans are the worst heretics of all — and that the enemies of images are worse than the Samaritans.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>At last</b> → finally</li><li><b>it is resolved with one consent</b> → they decide unanimously</li><li><b>the enemies of images</b> → those who oppose images.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s2" title="2-star">★★</span><span class="s-label">that the play may not pass off without the accustomed Plaudite — the council as comedy; the quotation stops at sacrifice</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p><strong><code>But that the play may not pass off without the accustomed Plaudite, the whole thus concludes, “Rejoice and exult, ye who, having the image of Christ, offer sacrifice to it.”</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf">** `But</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the play may not pass off</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">without the accustomed Plaudite</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">the whole concludes</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">thus</span></li></ul></li></ul></li><li><span class="leaf">“Rejoice and exult</span></li><li><span class="leaf">ye.”`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">who,, offer sacrifice to it</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">having the image of Christ</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>Plaudite</em> = Lat. imperative pl. of <em>plaudere</em> (to clap) → <em>applaud</em>, <em>plausible</em> (worthy of applause!), <em>explode</em> (to drive off the stage by clapping); <em>exult</em> &lt; <em>ex-saltare</em> (to leap up) → <em>exultation</em>, <em>salient</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>that S may not V</em> = so that S does not V; <em>pass off</em> = run its course, come to its end; <em>the accustomed X</em> = the customary X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But so that the comedy would not end without its usual call for applause, the whole thing finishes like this: "Rejoice and be glad, you who, having the image of Christ, offer sacrifice to it."</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>that the play may not pass off</b> → so that the comedy would not end</li><li><b>the accustomed Plaudite</b> → its usual call for applause</li><li><b>the whole thus concludes</b> → the whole thing finishes like this</li><li><b>ye who</b> → you who</li><li><b>exult</b> → be glad.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S12" id="S12"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S12</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Where is now the distinction of λατρια and δυλια…? — §11's promissory note comes due</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S12" onclick="flashFullText(this)">
+<p><strong><code>Where is now the distinction of λατρια and δυλια with which they would throw dust in all eyes, human and divine?</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">관계절 (where)</span><span class="leaf">** `Where is the distinction</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">now</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of λατρια and δυλια</span></li></ul></li></ul><ul class="tr"><li><span class="leaf">?`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">with which they would throw dust</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in all eyes, human and divine</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>distinction</em> &lt; <em>di-stinguere</em> (to prick apart, separate) → <em>distinct</em>, <em>instinct</em>, <em>extinguish</em>; λατρεία &lt; λατρεύω (to serve for hire, then to worship — the LXX word for cultic service); δουλεία &lt; δοῦλος (slave) — service.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Where is now X?</em> = X has vanished (rhetorical); <em>throw dust in someone's eyes</em> = deceive someone.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So where is the distinction between latria and dulia now — the one they use to try to blind everyone, God included?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Where is now</b> → so where is … now</li><li><b>the distinction of λατρια and δυλια</b> → the distinction between latria and dulia</li><li><b>with which they would throw dust in all eyes</b> → which they use to try to blind everyone</li><li><b>human and divine</b> → God included.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S13" id="S13"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S13</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">relies as much on images as on the living God — equality comparison with the preposition repeated; the verdict</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S13" onclick="flashFullText(this)">
+<p><strong><code>The Council unreservedly relies as much on images as on the living God.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `The Council</span></li><li><span class="leaf">relies</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">unreservedly</span></li></ul></li></ul></li><li><span class="leaf"><b>as much on</b> images</span></li><li><span class="leaf"><b>as on</b> the living God.`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>rely</em> &lt; <em>re-ligare</em> (to bind back, fasten) → <em>religion</em> (one etymology), <em>ligament</em>, <em>oblige</em>; <em>unreservedly</em> &lt; <em>re-servare</em> (to keep back) → <em>reserve</em>, <em>reservation</em>, <em>conserve</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>rely as much on X as on Y</em> = trust X and Y equally; <em>the living God</em> = God as opposed to lifeless idols.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The Council, with no reservations at all, puts its trust in images just as much as in the living God.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>unreservedly</b> → with no reservations at all</li><li><b>relies as much on … as on</b> → puts its trust in … just as much as in</li><li><b>the living God</b> → (unchanged — it is Scripture's phrase).</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — <code>N, which it is strange (that) S V __, and … that S V prep __</code> — a relative pronoun extracted from inside an extraposed that-clause</h3><pre><code>monstrous impieties, WHICH  it is strange  [Ø they ventured to utter ___ ]
+                     ^^^^^                  gap 1 = object of UTTER
+                     and twice strange     [THAT all men did not protest AGAINST ___ ]
+                                            gap 2 = object of AGAINST (preposition STRANDED)
+
+RESTORE:  it is strange (that) they ventured to utter [these impieties]
+          it is doubly strange that all men did not protest against [these impieties]
+
+⚠️ Traps
+  · "which" is NOT the subject of "is" — skip "it is strange" and hunt for the gap.
+  · Limb 1 omits "that", limb 2 keeps it — parallel sense, unequal form. Both correct.
+  · Stranded preposition is the source form; "against which all men did not protest" is
+    the pied-piped rewrite — grammatical, but not what Beveridge wrote.
+</code></pre><p><strong>Transformation drill.</strong> Combine into one sentence with a relative extracted from an <code>it is … that</code> clause: <em>He cites a decree. It is astonishing that they signed it. It is more astonishing that no one objected to it.</em>
+→ <em>He cites a decree which it is astonishing they signed, and more astonishing that no one objected to.</em></p><h3>Formula 2 — <code>if X is V-ed, much more are Y V-ed</code> — <em>a fortiori</em> with fronted <code>much more</code> + inversion (and S5's fronted <code>Of what N … are S worthy?</code>)</h3><pre><code>IF the statue of the Emperor IS MET with odours and incense,
+MUCH MORE  ARE  the images of saints  ENTITLED to the honour.
+^^^^^^^^^  ^^^  ^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^
+fronted    AUX  SUBJECT               participle   ← degree adverb fronted ⇒ AUX before S
+degree
+
+Base: the images of saints ARE much more entitled to the honour.
+
+Companion (S5):  OF WHAT PUNISHMENT  ARE  the Prophets … WORTHY ?
+                 ^^^^^^^^^^^^^^^^^^  ^^^  ^^^^^^^^^^^^   ^^^^^^
+                 pied-piped wh-PP    AUX  SUBJECT        adjective that governs "of"
+                 Base: the Prophets are worthy OF what punishment?
+
+⚠️ Traps
+  · No inversion = no error, but it is not the source: "much more the images ARE" ≠ Beveridge.
+  · "met with odours" = GREETED with PERFUMES — not "encountered bad smells".
+  · "the honour" = the SAME honour the statue gets; "entitled to" = has a RIGHT to.
+</code></pre><p><strong>Transformation drill.</strong> Rewrite as an <em>a fortiori</em> with fronted <code>much more</code>: <em>If a king's portrait receives a bow, then a saint's picture is even more entitled to one — so they argue.</em>
+→ <em>If the portrait of a king is met with a bow, much more, they argue, is the picture of a saint entitled to one.</em></p><h3>Formula 3 — <code>[OBJECT] S V…</code> object-fronting (S7), with <code>better to V₁ than (to) V₂</code> (S9) and <code>as much on X as on Y</code> (S13)</h3><pre><code>[EVERY PERSON refusing to do the same thing]  HE  ANATHEMATISES and CLASSES with M. &amp; M.
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  ^^  ^^^^^^^^^^^^^^^^^^^^^^^^^
+ OBJECT (fronted)                            S   V₁ and V₂
+Base: he anathematises and classes with M. &amp; M. every person refusing to do the same thing.
+
+S9:   it would be better  TO ALLOW a city to be filled with brothels
+                          THAN (to) BE DENIED the worship of images
+                          ^^^^^^^^^^^^^^^^^^^ bare infinitive after THAN; passive keeps its object
+S13:  relies  AS MUCH ON images  AS ON the living God
+                      ^^                ^^   preposition REPEATED — same slot, equal weight
+
+⚠️ Traps
+  · S7: "every person" is not the subject; the subject is the two-letter "he" after it.
+  · S7: "due to the Trinity" = OWED to (creditor), never "because of".
+  · S13: "as much … THAN" is wrong — equality frames take AS … AS.
+</code></pre><p><strong>Transformation drill.</strong> Front the object, then add an equality comparison with a repeated preposition: <em>He excommunicates anyone who doubts the dream, and he trusts the dream as much as he trusts Scripture.</em>
+→ <em>Anyone who doubts the dream he excommunicates; and he relies as much on the dream as on Scripture.</em></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (어원 후킹)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>impiety</strong></td>
+<td>irreverence toward God; an impious saying</td>
+<td><em>in-</em> + <em>pietas</em>; the register above <em>absurdity</em> (Day 70). (불경)</td>
+</tr>
+<tr>
+<td><strong>monstrous</strong></td>
+<td>portentous, outrageous</td>
+<td><em>monstrum</em> = a warning sign shown (<em>monere</em>) → <em>demonstrate</em>. (괴물 같은)</td>
+</tr>
+<tr>
+<td><strong>venture to V</strong></td>
+<td>dare to V</td>
+<td><em>adventure</em> minus its head — take the risk. (감히 ~하다)</td>
+</tr>
+<tr>
+<td><strong>twice strange</strong></td>
+<td>doubly strange</td>
+<td>Ladder of surprise: they said it → nobody objected. (이중으로 이상한)</td>
+</tr>
+<tr>
+<td><strong>protest against</strong></td>
+<td>object publicly to</td>
+<td><em>pro-testari</em>, to witness forth. Here with a stranded <em>against</em>. (항의하다)</td>
+</tr>
+<tr>
+<td><strong>detestation</strong></td>
+<td>abhorrence</td>
+<td><em>de-testari</em> = call down a curse with witnesses (<em>testis</em>). (혐오)</td>
+</tr>
+<tr>
+<td><strong>flagitious</strong> ⚠️</td>
+<td>shamefully criminal</td>
+<td><em>flagitium</em> (disgrace) ~ <em>flagrum</em> (whip) → <em>flagellate</em>. Rare; do not soften. (극악한)</td>
+</tr>
+<tr>
+<td><strong>extravagance</strong> ⚠️</td>
+<td>wild excess (not spending)</td>
+<td><em>extra-vagari</em>, wander outside the bounds → <em>vagrant</em>. (방종·과도)</td>
+</tr>
+<tr>
+<td><strong>deprive X of Y</strong></td>
+<td>strip Y from X</td>
+<td><em>de-privare</em>; the second <em>of</em> is the verb's, not the noun's. (박탈하다)</td>
+</tr>
+<tr>
+<td><strong>gloss</strong> ⚠️⚠️</td>
+<td>surface shine, veneer (not a note)</td>
+<td>Two words: shine (~<em>glow</em>) vs. glossary (γλῶσσα). Here: shine. (광택·겉치레)</td>
+</tr>
+<tr>
+<td><strong>deck</strong></td>
+<td>adorn, dress up</td>
+<td><em>Deck the halls</em>. (장식하다)</td>
+</tr>
+<tr>
+<td><strong>fire off</strong></td>
+<td>hurl, discharge</td>
+<td>Artillery image; printed <em>oft</em> = scanner's <em>off</em>. (쏘아 보내다)</td>
+</tr>
+<tr>
+<td><strong>anathema / anathematise</strong></td>
+<td>formal curse of exclusion / to pronounce it</td>
+<td>Gk ἀνάθεμα, LXX for Heb. <em>ḥērem</em> (devoted to destruction). (저주·파문)</td>
+</tr>
+<tr>
+<td><strong>attribute X to Y</strong></td>
+<td>blame Y for X, assign X to Y as cause</td>
+<td><em>ad-tribuere</em>, assign to. (돌리다)</td>
+</tr>
+<tr>
+<td><strong>calamity</strong></td>
+<td>disaster</td>
+<td><em>calamitas</em>, crop damage → any ruin. (재앙)</td>
+</tr>
+<tr>
+<td><strong>worthy of</strong></td>
+<td>deserving</td>
+<td>OE <em>weorþ</em>; <em>worship</em> = <em>worth-ship</em>. Governs the fronted <em>Of what punishment</em>. (~할 만한)</td>
+</tr>
+<tr>
+<td><strong>be met with</strong></td>
+<td>be received / greeted with</td>
+<td>Ceremonial reception, not a chance encounter. (~으로 맞이되다)</td>
+</tr>
+<tr>
+<td><strong>odours</strong> ⚠️</td>
+<td>fragrances, perfumes</td>
+<td>Lat. <em>odores</em>; not stench. (향기)</td>
+</tr>
+<tr>
+<td><strong>entitled to</strong></td>
+<td>having a right to</td>
+<td><em>titulus</em>, a title of claim. (~할 권리가 있는)</td>
+</tr>
+<tr>
+<td><strong>profess to V</strong></td>
+<td>openly declare that one Vs</td>
+<td><em>pro-fateri</em>; <em>not</em> "pretend" here. (공언하다)</td>
+</tr>
+<tr>
+<td><strong>embrace</strong></td>
+<td>receive gladly, accept</td>
+<td><em>in-bracchium</em>, take in the arms. (받아들이다)</td>
+</tr>
+<tr>
+<td><strong>due to</strong> ⚠️⚠️</td>
+<td>owed to (creditor)</td>
+<td><em>debitus</em> → <em>debt</em>. <strong>Not</strong> "because of." (~에게 마땅히 돌려야 할)</td>
+</tr>
+<tr>
+<td><strong>ever blessed</strong></td>
+<td>eternally blessed (liturgical)</td>
+<td>Epithet of the Trinity. (영원히 복되신)</td>
+</tr>
+<tr>
+<td><strong>class X with Y</strong></td>
+<td>rank X among Y</td>
+<td><em>classis</em>, a division → <em>classify</em>. (~와 한 부류로 놓다)</td>
+</tr>
+<tr>
+<td><strong>Marcionites / Manichees</strong></td>
+<td>2nd-c. / 3rd-c. heresies that despised the material world</td>
+<td>The slur logic: reject images ⇒ hate matter ⇒ heretic. (마르키온파·마니교)</td>
+</tr>
+<tr>
+<td><strong>lest … should</strong></td>
+<td>so that … not</td>
+<td>Purpose-negative; the <em>should</em> is the old subjunctive. (~하지 않도록)</td>
+</tr>
+<tr>
+<td><strong>private</strong> (opinion)</td>
+<td>individual, one's own</td>
+<td><em>privatus</em> = withdrawn from the public. (개인의)</td>
+</tr>
+<tr>
+<td><strong>assent</strong></td>
+<td>agree</td>
+<td><em>ad-sentire</em> → <em>consent</em>, <em>dissent</em>. (동의하다)</td>
+</tr>
+<tr>
+<td><strong>Nay</strong></td>
+<td>more than that, indeed</td>
+<td>Intensifier, not negation. (아니, 그뿐 아니라)</td>
+</tr>
+<tr>
+<td><strong>legate</strong></td>
+<td>official delegate</td>
+<td><em>legatus</em>, one sent with a commission. (사절)</td>
+</tr>
+<tr>
+<td><strong>zeal</strong></td>
+<td>fervour</td>
+<td>Gk ζῆλος → <em>jealous</em> — same word split in two. (열심)</td>
+</tr>
+<tr>
+<td><strong>be denied X</strong></td>
+<td>have X refused to one</td>
+<td>Passive with a retained object. (~을 거부당하다)</td>
+</tr>
+<tr>
+<td><strong>resolved with one consent</strong></td>
+<td>decided unanimously</td>
+<td><em>con-sentire</em>, feel together. (만장일치로 결의된)</td>
+</tr>
+<tr>
+<td><strong>heretic</strong></td>
+<td>one who chooses a sect</td>
+<td>Gk αἵρεσις, a choosing. (이단자)</td>
+</tr>
+<tr>
+<td><strong>pass off</strong></td>
+<td>run its course, conclude</td>
+<td>A play <em>passes off</em> = is performed to the end. (끝나다)</td>
+</tr>
+<tr>
+<td><strong>accustomed</strong></td>
+<td>customary</td>
+<td><em>ad-consuetudo</em>. (관례적인)</td>
+</tr>
+<tr>
+<td><strong>Plaudite</strong></td>
+<td>"Applaud!" — a comedy's last word</td>
+<td><em>plaudere</em> → <em>applaud</em>, <em>plausible</em>, <em>explode</em>. (박수를!)</td>
+</tr>
+<tr>
+<td><strong>exult</strong></td>
+<td>rejoice greatly</td>
+<td><em>ex-saltare</em>, leap up. Vulgate Matt 5:12 <em>exsultate</em>. (크게 기뻐하다)</td>
+</tr>
+<tr>
+<td><strong>offer sacrifice to</strong></td>
+<td>perform the one act reserved for God</td>
+<td>The word Calvin stops on. (희생을 드리다)</td>
+</tr>
+<tr>
+<td><strong>λατρια / δυλια</strong></td>
+<td>latria (worship) / dulia (service)</td>
+<td>The §11 distinction; here shown breached. (예배 / 섬김)</td>
+</tr>
+<tr>
+<td><strong>throw dust in one's eyes</strong></td>
+<td>deceive, blind</td>
+<td>§11's phrase, repeated; now <em>human and divine</em>. (눈을 속이다)</td>
+</tr>
+<tr>
+<td><strong>unreservedly</strong></td>
+<td>without any reservation</td>
+<td><em>re-servare</em>, keep back — the distinction <em>was</em> a reservation. (아무 유보 없이)</td>
+</tr>
+<tr>
+<td><strong>rely on</strong></td>
+<td>rest one's trust on</td>
+<td><em>re-ligare</em>, bind back; a <em>fiducia</em> verb. (의지하다)</td>
+</tr>
+<tr>
+<td><strong>the living God</strong></td>
+<td>Scripture's anti-idol name for God</td>
+<td>Jer 10:10; 1 Thess 1:9. (살아 계신 하나님)</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>Where we are.</strong> Third and last exhibit from the Second Council of Nicaea (787). §14 gave the proof-texts for <em>having</em> images, §15 the proof-texts for <em>adoring</em> them, §16 the <em>sayings</em> of the fathers themselves. The source is the same throughout: the Carolingian refutation, the <em>Opus Caroli regis contra synodum</em> (the <em>Libri Carolini</em>), which Calvin read in the 1549 Paris printing by Jean du Tillet — and every one of today's nine quoted sentences (S3–S11) comes to Calvin <em>through that hostile Latin summary</em>, not from the Greek acts. Hold that fact; it is the guardrail for the whole period.</p><p><strong>The bishops.</strong> <em>Theodosius Bishop of Amora</em> (S3) = <strong>Theodosius of Amorium</strong>, in Phrygia — a former iconoclast who recanted at the council and, as converts do, spoke sharply against his old party. <em>Constantius, Bishop of Constantia in Cyprus</em> (S7) = <strong>Constantine of Constantia</strong> (Salamis, the Cypriot metropolis) — the name is Latinised differently in the Carolingian text. <em>John the Eastern legate</em> (S9) = <strong>John</strong>, the presbyter who represented the Eastern patriarchates (Antioch, Alexandria, Jerusalem — then under Muslim rule and unable to send their patriarchs). These identifications are the standard ones; Calvin's spellings come from his source and nothing turns on them.</p><p><strong>The S7 sentence — the most important guardrail of the day.</strong> In the Greek acts, Constantine of Constantia says (in substance) that he <em>receives and embraces the holy images with honour</em>, and that <em>the worship of latreia he renders to the Trinity alone</em>. The Latin translation that reached Charlemagne's court had lost the negation and the distinction, so that Constantine appeared to say he gave images <strong>the very worship he gives the Trinity</strong>. That mistranslation is one of the things that most scandalised the Carolingian theologians — and it is what Calvin reports in S7. So: <em>as Calvin's source stood</em>, S7 is a fair report; <em>as the Greek council spoke</em>, it is not. Which does not, by itself, rescue the council in Calvin's eyes — his argument in §§9–12 is that the <em>latria/dulia</em> line does not reach the knees of the worshipper regardless of what the theologians say. But when you write about S7, write <em>"as reported in the Libri Carolini"</em> and you will be accurate; write <em>"Constantine of Cyprus declared…"</em> without qualification and you will be repeating a translation error.</p><p><strong>The other sayings.</strong> The anathemas (S3, S7) are genuine to the genre — councils anathematise. The blaming of national calamity on iconoclasm (S4) matches the iconodule historiography of the period, which read the Arab conquests and the earthquakes of the 740s as judgement. The <em>a fortiori</em> from the imperial image (S6) is a real iconodule argument (already in John of Damascus and in the council's <em>florilegia</em>): the emperor's <em>laurata</em> received incense and <em>proskynesis</em> throughout the empire, and the defenders asked why the saints' images should receive less. The "brothels" remark (S9) and the "worse than Samaritans" verdict (S10) are reported by Calvin from the Carolingian text; historians treat them as the Carolingian authors' reading of the acts' rhetoric rather than as verbatim minutes, and you should too. The closing acclamation (S11) — the council's acts do end in acclamations; whether one of them blessed those who <em>offer sacrifice</em> to Christ's image, or whether that is the Latin translator's rendering of <em>proskynesis</em> language, is again a source question. What is not in doubt is the pattern Calvin is pointing at: the council's own rhetoric repeatedly slid from <em>honour</em> toward <em>worship</em>, and the men who drew the <em>latria/dulia</em> line were the least able to observe it.</p><p><strong>Why the theatre?</strong> S11's <code>the play … the accustomed Plaudite</code> is the Erasmian register — <em>The Praise of Folly</em> ends its parade of fools on the same stage-metaphor — and it is also Calvin the humanist: <em>Plaudite</em> is the last word of Plautus's and Terence's comedies, spoken by the <em>cantor</em> to the audience. To call a council a <em>comoedia</em> is to say it was performance, not judgement.</p><p><strong>The dulia/latria payoff.</strong> In §11 (Day 66) Calvin deferred the full treatment of the distinction to <em>"s. 16, and chap. 12 s. 2"</em>. Today is the first half of that payment, and it is <strong>historical</strong>: the distinction failed in practice at its own founding council. Tomorrow's chapter (ch. 12) gives the <strong>exegetical</strong> half: Scripture's <em>unity of God</em> language forbids transferring <em>anything</em> that belongs to divinity to another, whatever name you give the transfer. Keep the two halves separate in your notes; the exam will ask which section does which.</p><p><strong>Later reception, and the limit.</strong> The Reformed confessions inherit S13's verdict in shape — Heidelberg Q. 98 (<em>we should not be wiser than God</em>), Westminster Larger Catechism Q. 109 — and the Reformed–Roman debate on <em>latria/dulia</em> runs on exactly S12's question for the next four centuries. Modern historians of Nicaea II (who read the Greek) are considerably kinder to the council than Calvin (who read a hostile Latin summary); the standard scholarly view is that the council's <em>theology</em> did maintain the distinction, whatever its <em>rhetoric</em> did. That is the line to respect: §16 is a devastating reading of the <em>Libri Carolini's</em> Nicaea, and a partial reading of Nicaea itself — and S13's <code>unreservedly</code> is Calvin's inference from the reported sayings, not a quotation from the acts.</p><p><strong>The footnote.</strong> ³⁸ points to Calvin's own <em>De Vitandis Superstitionibus</em> (1549, on the Nicodemites who attend Mass while dissenting inwardly) and <em>De Fugiendis Illicitis Sacris</em> (1537). Both tracts turn on today's principle: what you <em>do</em> before the image is what your worship <em>is</em>, whatever your mind reserves.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li><strong>Eph 2:20; Heb 11:32–40; Rev 6:9 — <code>Prophets, Apostles, and Martyrs</code> (S5).</strong> The threefold roll of the church's witnesses — the <em>foundation of the apostles and prophets</em> (Eph 2:20, τῶν ἀποστόλων καὶ προφητῶν) and the <em>witnesses</em> (μάρτυρες) <em>slain for the word of God</em> (Rev 6:9). Calvin's use: these are the people the council's images <em>portrayed</em>; none of them had an image, so the council's S4 premise condemns its own saints.</li>
+<li><strong>Dan 3:5–7; Rev 13:15 — the Emperor's statue with incense (S6), and <code>offer sacrifice to it</code> (S11).</strong> Nebuchadnezzar's golden image before which all peoples must <em>fall down and worship</em> (Aramaic סְגִדוּ, LXX προσκυνήσωσιν); the beast's image that all must worship on pain of death. Calvin does not cite them, but the <em>a fortiori</em> from imperial-image cult is exactly the scenario these texts condemn — and <code>offer sacrifice to it</code> is the Danielic test: the three young men refused precisely <em>sacrifice to an image</em>. Calvin lets the biblical reader hear it.</li>
+<li><strong>Exod 20:4–5; Exod 22:20 — sacrifice reserved for God (S11).</strong> <em>Thou shalt not bow down thyself to them, nor serve them</em> (לֹא־תִשְׁתַּחֲוֶה לָהֶם וְלֹא תָעָבְדֵם — LXX οὐ προσκυνήσεις … οὐδὲ μὴ λατρεύσῃς); <em>he that sacrificeth unto any god, save unto the LORD only, he shall be utterly destroyed.</em> The council's acclamation blesses those who <em>sacrifice to</em> an image; the second commandment's own verb for <em>serve</em> is <strong>λατρεύειν</strong> — which is why S12 follows S11 without a breath.</li>
+<li><strong>Matt 5:12 — <code>Rejoice and exult</code> (S11).</strong> Vulgate <em>gaudete et exsultate</em> (Greek χαίρετε καὶ ἀγαλλιᾶσθε) — the Beatitudes' blessing on the persecuted. The council's closing acclamation borrows the Beatitude formula and redirects it to image-sacrificers. Calvin quotes it without comment; the borrowed sanctity is part of the impiety.</li>
+<li><strong>2 Kgs 17:33, 41; John 4:22 — <code>the Samaritans are the worst of all heretics</code> (S10).</strong> <em>They feared the LORD, and served their own gods</em> (וְאֶת־אֱלֹהֵיהֶם הָיוּ עֹבְדִים) — the Samaritans as Scripture's archetype of <strong>mixed worship</strong>. Calvin's use is by irony: the council names <em>mixed</em> worship the worst heresy, then ranks the <em>unmixed</em> worshippers below it.</li>
+<li><strong>Gal 1:8–9; 1 Cor 16:22 — <code>anathema</code> (S3, S7).</strong> Paul's ἀνάθεμα ἔστω on any who preach another gospel. The council's anathemas borrow the apostolic form; Calvin's S5 asks what the apostles would have thought of the content.</li>
+<li><strong>Jer 10:10; Acts 14:15; 1 Thess 1:9 — <code>the living God</code> (S13).</strong> <em>The LORD is the true God, he is the living God</em> (אֱלֹהִים חַיִּים), set against idols that <em>cannot do evil, neither is it in them to do good</em> (Jer 10:5); <em>ye turned to God from idols to serve</em> (δουλεύειν!) <em>the living and true God</em> (1 Thess 1:9). Calvin's use: Scripture's own antithesis — living God vs. lifeless image — is the scale on which he weighs the Council and finds it balanced <em>equal</em>. Note that 1 Thess 1:9 uses <strong>δουλεύειν</strong> for serving the living God: Scripture itself does not keep <em>dulia</em> for creatures.</li>
+</ol><p><strong>How Calvin uses Scripture here:</strong> as in §§14–15, he cites <strong>none on his own behalf</strong> — every biblical phrase in the section is the council's (S11) or is left for the reader to supply (S5's triad, S13's <em>living God</em>). His method remains <em>quotation is the refutation</em>; the one biblical <em>act</em> he performs is to end the quotation on <code>sacrifice to it</code> and let Exodus do the rest.</p><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① Grammar — which underlined part is wrong?</h3><blockquote>
+<p>I come now to monstrous impieties, ⓐ <strong>which it is strange they ventured to utter</strong>, and twice strange that all men did not protest against. They add that if the statue of the Emperor is met with odours and incense, ⓑ <strong>much more are the images of saints entitled</strong> to the honour. ⓒ <strong>Lest you should think</strong> this the private opinion of an individual, they all assent. The Council unreservedly relies ⓓ <strong>as much on images than on the living God</strong>.</p>
+</blockquote><p><strong>Answer: ⓓ.</strong> An equality comparison takes <code>as much … **as**</code>; <code>than</code> belongs to comparatives (<em>more … than</em>). Correct: <code>as much on images **as** on the living God</code>. ⓐ is Formula 1 — the relative extracted from inside the extraposed clause, <code>that</code> omitted, grammatical. ⓑ is Formula 2 — fronted <code>much more</code> with auxiliary before subject, exactly as in the source. ⓒ is <code>lest</code> + <code>should</code>, the standard negative-purpose frame. <strong>Exam-setter's rationale:</strong> ⓓ tests whether you can hold an equality frame open across a repeated preposition — the <code>on … on</code> is unusual enough to distract from the connector, and students who have just read <code>worse than the Samaritans</code> (S10) carry <code>than</code> forward by contamination.</p><h3>② Comprehension — which statement is TRUE according to the passage?</h3><p>(A) Calvin argues that the Prophets, Apostles, and Martyrs deserve punishment because no images existed in their day.
+(B) Calvin presents Constantius's declaration as the private opinion of one bishop, which the rest of the council did not share.
+(C) Calvin's stated purpose in exposing these sayings is to strip the worship of images of the appearance of ancient authority in which its defenders dress it.
+(D) Calvin concludes that the Council carefully maintained the distinction between λατρια and δυλια throughout its proceedings.</p><p><strong>Answer: (C).</strong> That is S2: <code>deprive the worship of images of that gloss of antiquity in which Papists seek to deck it</code>. <strong>Exam-setter's rationale:</strong> (A) is a <strong>direction-flip</strong> of S5 — the question is a <em>reductio</em> of the council's premise, not Calvin's claim; he holds the opposite (they deserve none). (B) flips S8 exactly: <code>Lest you should think this the private opinion of an individual, they all assent</code>. (D) inverts S12–S13: <code>Where is now the distinction…?</code> expects <em>nowhere</em>, and <code>unreservedly relies as much on images as on the living God</code> is the verdict that the distinction collapsed.</p><h3>③ Composition — apply Formulas 2 and 3</h3><p>Translate, using <strong><code>if …, much more are S V-ed</code></strong> for the first sentence and <strong>object-fronting + <code>as much on X as on Y</code></strong> for the second:</p><p><em>(1) 황제의 조각상이 향으로 맞이된다면, 성인들의 형상은 더더욱 그 영예를 받을 권리가 있다고 그들은 주장한다. (2) 이 말에 반대하는 사람은 누구든 그 주교가 파문했으니 — 그 공의회는 형상에 살아 계신 하나님께 두는 것과 똑같은 신뢰를 두었던 것이다.</em></p><blockquote>
+<p><strong>Model:</strong> <em>If the statue of the Emperor is met with incense, much more, they argue, are the images of the saints entitled to that honour. Whoever objected to this the bishop anathematised — so the Council relied as much on images as on the living God.</em>
+<strong>채점 포인트:</strong> ① <code>If … is met with incense</code> — passive protasis with <em>met with</em> = greeted with. ② <code>much more **are** the images … entitled</code> — fronted degree adverb, auxiliary <strong>before</strong> subject; <em>much more the images are</em> loses the pattern mark. ③ <code>Whoever objected to this **the bishop** anathematised</code> — object fronted, subject after it; a sentence beginning <em>The bishop anathematised whoever…</em> is correct English but scores zero for the formula. ④ <code>as much **on** images **as on** the living God</code> — the preposition repeats; <em>as much on images as the living God</em> is ambiguous, <em>than</em> is wrong. ⑤ Bonus: <em>entitled to that honour</em> — the noun <code>honour</code> with a definite determiner, as in the source.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> §16 raises the charge from <em>absurdity</em> to <strong><code>monstrous impieties</code></strong> — <code>which it is strange they ventured to utter, and twice strange that all men did not protest against</code> — and states its purpose once, in S2: to <code>deprive the worship of images of that **gloss of antiquity**</code> (= veneer, not footnote); then nine sentences of the §14–15 method, quote-and-step-back, climbing from anathemas (<code>**fires off** an anathema</code>) and blame for <code>all the calamities of Greece and the East</code>, through Calvin's single interruption — <code>**Of what punishment** then **are** the Prophets, Apostles, and Martyrs worthy, in whose day no images existed?</code> — to the <em>a fortiori</em> <code>if the statue of the Emperor is **met with** odours and incense, **much more are** the images of saints **entitled** to the honour</code>, to the centrepiece — a bishop who pays images <code>the respect which is **due to** the ever blessed Trinity</code> (= <em>owed to</em>) and <code>**every person refusing** to do the same thing **he** anathematises</code> — to <code>they **all** assent</code>, to <code>**better** to allow a city to be filled with brothels **than be denied** the worship of images</code>, to <code>**worse than** the Samaritans</code>, to the curtain line of <code>the play</code>, <code>Rejoice and exult, ye who … **offer sacrifice to** it</code>; and then the verdict §11 promised: <code>**Where is now** the distinction of λατρια and δυλια…?</code> — nowhere — because <code>The Council **unreservedly** relies **as much on** images **as on** the living God.</code> The council that invented the distinction could not keep it for one session.</p><p><strong>Grammar, the three to carry out of here.</strong> ① <strong><code>N, which it is strange (that) S V __, and … that S V prep __</code></strong> — a relative pronoun extracted from inside an extraposed that-clause, two gaps, the second behind a <strong>stranded preposition</strong>; hunt for the gap, do not attach <code>which</code> to <code>is</code>. ② <strong><code>if …, much more are S V-ed</code></strong> — the <em>a fortiori</em> with fronted <code>much more</code> and auxiliary <strong>before</strong> subject; companion <code>Of what N … are S worthy?</code> with the preposition pied-piped to the front. ③ <strong><code>[OBJECT] he V-s</code></strong> — object-fronting, the subject is the tiny pronoun after the long noun phrase; with <code>better to V₁ than (to) V₂</code> (bare infinitive after <code>than</code>, passive keeps its object) and <code>as much on X as on Y</code> (equality frame, preposition repeated, never <code>than</code>).</p><p><strong>Homework (10 min).</strong></p><ol>
+<li><strong>구조 복원.</strong> Write out <strong>S1</strong> and mark both gaps: (a) the object slot of <code>utter</code> and (b) the object slot of <code>against</code>; draw an arrow from each gap back to <code>which</code>. Then bracket the two <code>it is strange</code> clauses and circle where <code>that</code> is present and where it is omitted. Answer in one line: <em>why is the second surprise "twice" the first?</em></li>
+<li><strong>영작.</strong> Using <strong>Formula 3</strong>, write a sentence in which an authority <em>fronts its victim</em> — <code>[Whoever/Every person …] he/they V</code> — and then a second sentence with <code>relies as much on X as on Y</code>, where X is something unworthy of trust and Y is something worthy. Test: is the subject of the first sentence <em>after</em> the fronted object? Does the second sentence repeat the preposition after <code>as</code>?</li>
+<li><strong>내일 예습 한 줄.</strong> Tomorrow <strong>Chapter 12</strong> opens — <em>God distinguished from idols, that he may be the exclusive object of worship</em> — with <code>**We said at the commencement of our work (chap. 2), that the knowledge of God consists not in frigid speculation, but carries worship along with it**</code>. Note the move: today's chapter ended on a <em>council</em>; tomorrow's begins by reaching back to <strong>chapter 2</strong> (Day 4). Calvin is closing the loop — the <em>duplex cognitio</em> that <em>carries worship along with it</em> is about to be turned against the <em>latria/dulia</em> distinction a second time, from the side of what <em>worship</em> means. Ask yourself tonight: if knowledge of God <em>carries worship along with it</em>, what happens to a worship that is split into two grades?</li>
+</ol><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 11, §16 끝. Chapter 11 완료. 다음은 <strong>Book 1, Ch. 12, §1</strong> (Day 72) — <em>Scripture, in teaching that there is but one God, does not make a dispute about words, but attributes all honour and religious worship to him alone.</em></p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
