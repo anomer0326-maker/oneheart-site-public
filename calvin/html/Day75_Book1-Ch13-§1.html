@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 삼위일체 하나님 §1 (1권 13장 · Day 75) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 13장 §1(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 75. 연관 성구: 요한복음 4, 로마서 1, 출애굽기 33, 시편 92."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day75_Book1-Ch13-%C2%A71.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="삼위일체 하나님 §1 — 기독교 강요 영어로 읽기 (Day 75)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 13장 §1(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 75. 연관 성구: 요한복음 4, 로마서 1, 출애굽기 33, 시편 92."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day75_Book1-Ch13-%C2%A71.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 삼위일체 하나님 §1 (1권 13장 · Day 75) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 13장 §1(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 75. 연관 성구: 요한복음 4, 로마서 1, 출애굽기 33, 시편 92.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 13장 §1 — 삼위일체 하나님","mentions":[{"@type":"CreativeWork","name":"요한복음 4 (John 4)"},{"@type":"CreativeWork","name":"로마서 1 (Rom 1)"},{"@type":"CreativeWork","name":"출애굽기 33 (Exod 33)"},{"@type":"CreativeWork","name":"시편 92 (Ps 92)"},{"@type":"CreativeWork","name":"히브리서 1 (Heb 1)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day75_Book1-Ch13-%C2%A71.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 75 — Book 1, Chapter 13, §1<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (⚠️ invariable) — 14 sentences</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl1" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl2" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl3" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl1" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl3" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl2" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl2" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl3" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl3" href="#S11" onclick="closeNavMobile()">S11</a><a class="toc-s lvl3" href="#S12" onclick="closeNavMobile()">S12</a><a class="toc-s lvl3" href="#S13" onclick="closeNavMobile()">S13</a><a class="toc-s lvl2" href="#S14" onclick="closeNavMobile()">S14</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (어원 후킹)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 75 — Book 1, Chapter 13, §1</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>New chapter, and it is the big one. Chapter 13 runs <strong>twenty-nine sections</strong> — the longest and most technical chapter in Book 1 — and it is the Trinity chapter. So watch where Calvin chooses to begin. Not with the Father. Not with the Son. Not with a creed. He begins with <strong>two adjectives about the essence</strong>: <code>immensity</code> and <code>spirituality</code>. And he spends the whole of §1 using them as a <strong>broom</strong>.</p><p>Here is the design, and you should see it before you read a word. Yesterday Chapter 12 finished by proving that God shares his honour with <strong>nothing</strong> — <code>so prone is the descent to this vice of communicating to a crowd that which God strictly claims as his own peculiar right</code>. Today Calvin has to start saying <em>three persons</em> on top of that floor. Before he can, he has to clear the room of every conception of God that would make <em>three</em> mean <em>three gods</em>, or <em>one essence</em> mean <em>one lump of divine stuff</em>. So §1 sweeps out <strong>four</strong> errors in fourteen sentences: the <code>wild dreams of the vulgar</code> (S1), the <code>subtleties of a profane philosophy</code> — Stoic pantheism, with Seneca named (S1–S3) — the <strong>Manichees</strong> (S8–S10), and the <strong>Anthropomorphites</strong> (S11–S14). Two attributes, four corpses. And the division of labour is exact: <strong>immensity kills the dualists</strong>, <strong>spirituality kills the body-mongers</strong>. Do not cross those wires; an exam item will try to make you.</p><p>But the sentence you will remember for the rest of your life is S12, and it is not a refutation at all. It is the most famous single image in Calvin: <strong><code>God, in so speaking, lisps with us as nurses are wont to do with little children</code></strong>. Latin <em>balbutire</em>, to babble, to talk baby-talk. That is the doctrine of <strong>accommodation</strong> in one verb, and every later Calvin scholar builds on this line. Then S13 tells you what accommodation <em>does</em> and — ⚠️ read it slowly — what it does <strong>not</strong> do. <code>Not so much A **as** B</code> is not a denial of A. That is today's nastiest trap and I will come back to it three times.</p><p>Grammatically, today is <strong>correlative</strong> day. Almost every sentence is built on a pair of arms held together by a hinge word: <code>not only … but also</code>, <code>although … still</code>, <code>both … and</code>, <code>at once … and</code>, <code>while</code>, <code>It is true, indeed, that … but</code>, <code>not so much … as</code>, <code>so … as not to</code>. Find the hinge, split the sentence in two, and today is easy. Miss the hinge and you will translate half a sentence and stop.</p><h3>Today's 3 Big Points</h3><ol>
+<li><strong>The correlative with a repeated preposition: <code>not only OF V-ing … but also OF V-ing</code> (S1) — and its three cousins that do NOT repeat (S4, S9).</strong> S1: <code>should have the effect **not only of** dissipating the wild dreams of the vulgar, **but also of** refuting the subtleties of a profane philosophy</code>. Both arms are gerunds, and <strong><code>of</code> is written twice</strong> because both are governed by <code>the effect</code>. ⚠️ Drop the second <code>of</code> and the parallelism breaks — that is exam item ① today. Now the cousins, where the shared word is written <strong>once</strong>: S4 <code>he **at once** suppresses all gross imaginations, **and** checks the audacity</code> (⚠️ <code>at once … and</code> here = <strong>both … and, simultaneously</strong>, not <em>immediately</em>); S9 <code>was **both to** destroy his unity **and** restrict his immensity</code> (one <code>to</code>, two infinitives). Rule to carry: <strong><code>not only/but also</code> demands identical grammatical arms</strong>; whether the shared word is repeated is style, but if you repeat it in one arm you must repeat it in the other. And S1 carries a period feature you must not "fix": a <strong>comma between the long subject and its verb</strong> — <code>…the essence of God, should have the effect</code>. That is 1845 punctuation for a subject that has run too long, not an error.</li>
+<li><strong>The <code>as</code> family, all three of its jobs, in three consecutive sentences (S10, S12, S13).</strong> ⓐ <strong>Gapping with a pro-verb</strong> (S10): <code>Their attempt … **proved** their shameful ignorance, **as** the very nature of the error **did** their monstrous infatuation</code> — <code>did</code> stands in for <code>proved</code>, and the second clause has <strong>no verb of its own</strong>. Read it: <em>as the very nature of the error [proved] their monstrous infatuation</em>. ⓑ <strong>Degree + result</strong> (S12): <code>who is **so** devoid of intellect **as not to** understand…?</code> — the same <code>so … as not to</code> you drilled yesterday in S12 and S15 of Ch. 12, now inside a <strong>rhetorical question</strong>, which flips the answer to <em>nobody is</em>, i.e. <strong>everybody understands</strong>. ⓒ <strong>Comparison of preference</strong> (S13): <code>do **not so much** express what kind of a being God is, **as** accommodate the knowledge of him to our feebleness</code>. ⚠️⚠️ <strong><code>not so much A as B</code> does not deny A.</strong> It ranks: <em>B rather than A; B more than A</em>. Anyone who translates it <em>they do not express what God is, but only accommodate</em> has over-read the sentence, and I will build an exam option out of exactly that mistake.</li>
+<li><strong>The concession frames, and where the real clause hides (S4, S7).</strong> S4: <code>**But although** God, (in order to keep us within the bounds of soberness,) treats sparingly of his essence, **still**, (by the two attributes which I have mentioned,) he at once suppresses…</code> — <code>although … still</code> is Beveridge's regular correlative (modern English writes <em>yet</em> or nothing), and between the hinge and the main verb he has parked <strong>two heavy adverbials</strong>. Bracket them out and the spine is four words: <em>although God treats sparingly, still he suppresses</em>. S7 does the same with a different frame: <code>**It is true, indeed, that** as he is incomprehensible, he fills the earth also, **but** (knowing that our minds are heavy and grovel on the earth,) he raises us above the worlds **that he may** shake off our sluggishness and inactivity</code> — concession, contrast, participial adjunct, and a <strong>purpose clause with <code>that … may</code></strong> (Beveridge's <em>ut</em> + subjunctive; modern <em>so that he may</em>). ⚠️ That final <code>that</code> is <strong>purpose</strong>, not a relative and not a noun clause. If you read it as <em>the worlds that he may shake off</em>, you have just made God shake off the worlds.</li>
+</ol><p>Trap words I <em>will</em> test. <strong><code>immensity</code></strong> (S1, S5, S9) ⚠️⚠️ = <strong>unmeasurableness</strong> (<em>in-</em> + <em>mensus</em>, measured) — <strong>not</strong> "hugeness"; S5 tells you the sense outright: it <code>ought to deter us from **measuring** him by our sense</code>. <strong><code>spirituality</code></strong> (S1, and <code>spiritual nature</code> S5) ⚠️⚠️ = <strong>the property of being spirit</strong> (John 4:24) — <strong>not</strong> piety or the devotional life; today's #1 register trap. <strong><code>the vulgar</code></strong> (S1) ⚠️ = <strong>the common people</strong> (<em>vulgus</em>) — not "coarse persons". <strong><code>subtleties</code></strong> (S1) ⚠️ = <strong>over-fine quibbles</strong> — the identical word that opened yesterday's section (<code>Laying aside subtleties</code>), now pointed at philosophers instead of canonists. <strong><code>profane</code></strong> (S1) ⚠️ = <strong>unhallowed, outside the sacred</strong> (<em>pro-fanum</em>, in front of the temple) — not "obscene". <strong><code>spake shrewdly</code></strong> (S2) ⚠️ = <strong>spoke acutely, said something sharp</strong> — and it is <strong>ironic</strong>; Calvin means <em>he thought he was being clever</em>. <strong><code>fancied</code></strong> (S3) ⚠️ = <strong>imagined, supposed</strong> — not "liked". <strong><code>transfused</code></strong> (S3) = poured across, diffused through (<em>trans-fundere</em>). <strong><code>bounds of soberness</code></strong> (S4) ⚠️ = <strong>the limits of sober-mindedness</strong> — <em>sobrietas</em>, Calvin's standing name for restraint in speculation; nothing to do with drink. <strong><code>treats sparingly of</code></strong> (S4) ⚠️ = <strong>speaks only briefly about</strong> — <code>treat of</code> = discuss. <strong><code>at once … and</code></strong> (S4) ⚠️⚠️ = <strong>both … and, at the same time</strong> — not "immediately". <strong><code>gross</code></strong> (S4) ⚠️ = <strong>coarse, material, thick</strong> (<em>grossus</em>) — not "disgusting". <strong><code>audacity</code></strong> (S4) = daring, presumption. <strong><code>by our sense</code></strong> (S5) ⚠️ = <strong>by our sense-perception</strong> — the faculty, singular. <strong><code>carnal</code></strong> (S5) = fleshly (<em>caro, carnis</em>). <strong><code>With the same view</code></strong> (S6) ⚠️⚠️ = <strong>with the same purpose in view, for the same end</strong> — <strong>not</strong> "opinion". <strong><code>incomprehensible</code></strong> (S7) ⚠️ = <strong>uncontainable / not to be grasped whole</strong> (<em>com-prehendere</em>, to seize entirely) — the containment sense is live here, because the very next words are <code>he fills the earth also</code>. <strong><code>grovel</code></strong> (S7) = crawl face-down. <strong><code>worlds</code></strong> (S7) ⚠️ — printed <strong>plural</strong>; see the text note. <strong><code>sluggishness</code></strong> (S7) = torpor. <strong><code>first principles</code></strong> (S8) ⚠️ = <strong>ultimate originating principles</strong> (<em>principia</em>, ἀρχαί) — a technical term of philosophy, not "the basics". <strong><code>assuredly</code></strong> (S9) = certainly. <strong><code>restrict</code></strong> (S9) ⚠️ = <strong>draw tight, set a limit to</strong> (<em>re-stringere</em>) → <em>stringent, strict</em>. <strong><code>pervert</code></strong> (S10) = twist aside (<em>per-vertere</em>). <strong><code>monstrous infatuation</code></strong> (S10) ⚠️⚠️ = <strong>prodigious folly</strong> — <em>infatuation</em> &lt; <em>fatuus</em>, foolish; <strong>no romantic sense whatever</strong>, and it is the same word Beveridge used for Ps. 92:6 back on Day 22. <strong><code>corporeal</code></strong> (S11) = bodily. <strong><code>ascribed to</code></strong> (S11) = attributed to (<em>ad-scribere</em>, to enter to someone's account). <strong><code>devoid of</code></strong> (S12) = empty of (→ <em>void</em>). <strong><code>lisps</code></strong> (S12) ⚠️⚠️⚠️ = <strong>talks baby-talk, babbles</strong> — Lat. <em>balbutire</em>; today's one word to memorise. <strong><code>are wont to do</code></strong> (S12) ⚠️ = <strong>are accustomed to do</strong> (OE <em>wunian</em>, to be used to) — and <code>do</code> here is a <strong>pro-verb</strong>, standing in for <em>lisp</em>. <strong><code>modes of expression</code></strong> (S13) = ways of speaking, idioms. <strong><code>not so much … as</code></strong> (S13) ⚠️⚠️ = <strong>not so much A as B = B rather than A</strong> — it does <strong>not</strong> negate A. <strong><code>what kind of a being God is</code></strong> (S13) ⚠️ = <em>qualis sit Deus</em> — <strong>the <code>qualis</code> question of I.2.2 (Day 5)</strong>, returning by name. <strong><code>accommodate X to Y</code></strong> (S13) ⚠️ = <strong>fit X to the measure of Y</strong> (<em>ad-commodare</em> &lt; <em>modus</em>, a measure). <strong><code>feebleness</code></strong> (S13) = weakness. <strong><code>must</code></strong> (S14) ⚠️ = <strong>logical necessity</strong> (<em>it follows that he does</em>), not obligation. <strong><code>proper height</code></strong> (S14) ⚠️⚠️ = <strong>his own height, the height belonging to him</strong> (<em>proprius</em>) — <strong>not</strong> "appropriate"; the same trap as yesterday's <code>peculiar right</code>.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (⚠️ invariable) — 14 sentences</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+1. <span class="ft-sent" data-s="S1" id="ft-S1" onclick="jumpToCard('S1')">The doctrine of Scripture concerning the immensity and the spirituality of the essence of God, should have the effect not only of dissipating the wild dreams of the vulgar, but also of refuting the subtleties of a profane philosophy.</span> <span class="ft-sent" data-s="S2" id="ft-S2" onclick="jumpToCard('S2')">One of the ancients thought he spake shrewdly when he said that everything we see and everything we do not see is God (Senec. Praef. lib. 1 Quaest. Nat.)</span> <span class="ft-sent" data-s="S3" id="ft-S3" onclick="jumpToCard('S3')">In this way he fancied that the Divinity was transfused into every separate portion of the world.</span> <span class="ft-sent" data-s="S4" id="ft-S4" onclick="jumpToCard('S4')">But although God, in order to keep us within the bounds of soberness, treats sparingly of his essence, still, by the two attributes which I have mentioned, he at once suppresses all gross imaginations, and checks the audacity of the human mind.</span> <span class="ft-sent" data-s="S5" id="ft-S5" onclick="jumpToCard('S5')">His immensity surely ought to deter us from measuring him by our sense, while his spiritual nature forbids us to indulge in carnal or earthly speculation concerning him.</span> <span class="ft-sent" data-s="S6" id="ft-S6" onclick="jumpToCard('S6')">With the same view he frequently represents heaven as his dwelling-place.</span> <span class="ft-sent" data-s="S7" id="ft-S7" onclick="jumpToCard('S7')">It is true, indeed, that as he is incomprehensible, he fills the earth also, but knowing that our minds are heavy and grovel on the earth, he raises us above the worlds that he may shake off our sluggishness and inactivity.</span> <span class="ft-sent" data-s="S8" id="ft-S8" onclick="jumpToCard('S8')">And here we have a refutation of the error of the Manichees, who, by adopting two first principles, made the devil almost the equal of God.</span> <span class="ft-sent" data-s="S9" id="ft-S9" onclick="jumpToCard('S9')">This, assuredly, was both to destroy his unity and restrict his immensity.</span> <span class="ft-sent" data-s="S10" id="ft-S10" onclick="jumpToCard('S10')">Their attempt to pervert certain passages of Scripture proved their shameful ignorance, as the very nature of the error did their monstrous infatuation.</span> <span class="ft-sent" data-s="S11" id="ft-S11" onclick="jumpToCard('S11')">The Anthropomorphites also, who dreamed of a corporeal God, because mouth, ears, eyes, hands, and feet, are often ascribed to him in Scripture, are easily refuted.</span> <span class="ft-sent" data-s="S12" id="ft-S12" onclick="jumpToCard('S12')">For who is so devoid of intellect as not to understand that God, in so speaking, lisps with us as nurses are wont to do with little children?</span> <span class="ft-sent" data-s="S13" id="ft-S13" onclick="jumpToCard('S13')">Such modes of expression, therefore, do not so much express what kind of a being God is, as accommodate the knowledge of him to our feebleness.</span> <span class="ft-sent" data-s="S14" id="ft-S14" onclick="jumpToCard('S14')">In doing so, he must, of course, stoop far below his proper height.</span>
+</blockquote><p><strong>Sentence count: 14 (S1–S14). One paragraph. This section opens Chapter 13.</strong></p><blockquote>
+<p><strong>Text note (not a correction to the quotation).</strong> Five things about the printed page, all left exactly as they stand. (i) <strong>S1 has a comma between subject and verb</strong> — <code>…the essence of God, should have the effect…</code>. This is period punctuation for a subject that has run long (nineteen words), and Beveridge does it throughout; it is <strong>not</strong> a scan error and <strong>not</strong> something to tidy. (ii) <strong>S2's citation carries no sentence-final period.</strong> The printed text is <code>…is God (Senec. Praef. lib. 1 Quaest. Nat.) In this way…</code> — the full stop is absorbed by the closing parenthesis, Beveridge's regular habit with an abbreviation ending in a point. Reproduced as printed. (iii) <strong>A hyphenated line-break falls inside S7</strong> (<code>in-</code> / <code>activity</code>) <strong>and another inside S10</strong> (<code>infatu-</code> / <code>ation</code>); both closed up to <code>inactivity</code> and <code>infatuation</code>. (iv) <strong>A page break falls inside S11</strong>, between <code>because mouth, ears,</code> and <code>eyes, hands, and feet</code>, with the margin page number <strong>110</strong> in between; closed up, the number removed. (v) ⚠️ <strong>S7 prints <code>above the worlds</code>, plural.</strong> The sense plainly wants the singular (<em>supra mundum</em> — he lifts us <strong>above the world</strong>), and the plural is almost certainly a scan or compositor's slip; it is <strong>reproduced as printed</strong> here and flagged so you do not learn a false form. <code>honour</code>-class British spellings do not occur in this section. Nothing else altered.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>[THESIS]        S1     TWO ATTRIBUTES of the ESSENCE — immensity + spirituality —
+                       clear TWO targets:
+                       "NOT ONLY OF dissipating the wild dreams of THE VULGAR,
+                        BUT ALSO OF refuting the SUBTLETIES OF A PROFANE PHILOSOPHY"
+[TARGET A]      S2-S3  Stoic pantheism, Seneca named: "everything we see and everything
+                       we do not see is God" → "the Divinity was TRANSFUSED into every
+                       separate portion of the world"                    ← cf. I.5.5 (Day 17)
+[HOW IT WORKS]  S4-S5  God "treats SPARINGLY of his essence" (although…) — STILL the two
+                       attributes "AT ONCE suppress … AND check":
+                         immensity    → "deter us from MEASURING him BY OUR SENSE"
+                         spirituality → "forbids … CARNAL OR EARTHLY SPECULATION"
+[COROLLARY]     S6-S7  "heaven as his DWELLING-PLACE" — and at once the qualification:
+                       "he FILLS THE EARTH ALSO" — the heaven-idiom is a LIFT for us,
+                       "THAT HE MAY shake off our sluggishness and inactivity"
+[TARGET B]      S8-S10 MANICHEES: "TWO FIRST PRINCIPLES" → devil "ALMOST THE EQUAL of God"
+                       = "BOTH TO DESTROY his UNITY AND RESTRICT his IMMENSITY"
+                       (immensity is the blade; the refutation is one line, S10)
+[TARGET C]      S11-S14 ANTHROPOMORPHITES: mouth/ears/eyes/hands/feet → "EASILY REFUTED"
+                       "God, IN SO SPEAKING, LISPS WITH US AS NURSES are wont to do
+                        with little children"                            ← accommodatio
+                       "NOT SO MUCH express WHAT KIND OF A BEING God is,
+                        AS ACCOMMODATE the knowledge of him TO OUR FEEBLENESS"
+                       "he MUST, OF COURSE, STOOP FAR BELOW HIS PROPER HEIGHT"
+</code></pre><p><strong>Examiner's Eye.</strong> Five traps, in rising order of nastiness.</p><p><strong>Trap 1 — <code>spirituality</code> (S1).</strong> ⚠️⚠️ <code>the immensity and the **spirituality** of the essence of God</code>. Modern ear hears <em>the spiritual life, devotion, inwardness</em>. Dead wrong. The word is a <strong>metaphysical predicate of the essence</strong>: God <strong>is spirit</strong> and therefore not body — John 4:24, πνεῦμα ὁ θεός. Everything in S5, S11, S12, S13 depends on it. An item will offer <em>"Calvin commends Scripture's teaching on the spiritual life as a corrective to philosophy."</em> That option has moved the whole sentence out of metaphysics into piety. Wrong register, wrong section, wrong chapter.</p><p><strong>Trap 2 — <code>at once</code> (S4).</strong> <code>he **at once** suppresses all gross imaginations, **and** checks the audacity of the human mind.</code> Two verbs, joined by <code>and</code>, with <code>at once</code> in front. That is the correlative <strong><code>at once … and</code> = both … and, simultaneously</strong>, not the temporal <em>immediately</em>. Test yourself with the diagnostic: <strong>can you delete <code>at once</code> and keep two coordinated verbs?</strong> Yes → it is the correlative. An item will paraphrase <em>"the attributes act instantly"</em> and it will be a mistranslation dressed as a summary.</p><p><strong>Trap 3 — the heaven/earth pair (S6–S7).</strong> <code>he frequently represents heaven as his dwelling-place</code> … <code>he fills the earth also</code>. Read carelessly and you have Calvin contradicting himself in eleven words. Read the <strong>purpose clause</strong> and the contradiction dissolves: <code>he raises us above the worlds **that he may shake off our sluggishness and inactivity**</code>. The heaven-idiom is not a statement about <strong>where God is</strong>; it is an instrument aimed at <strong>us</strong>, and it belongs to the same accommodation doctrine that S12 will name. Two items live here: <em>"Calvin teaches that God dwells in heaven and is not present on the earth"</em> (⚠️ contradicts S7 outright) and <em>"Calvin says Scripture's heaven-language is inaccurate and should be discarded"</em> (⚠️ over-reach — Calvin says it is <strong>purposeful</strong>, which is the opposite of discardable).</p><p><strong>Trap 4 — which attribute kills which error.</strong> This is the section's architecture and the easiest content-mismatch item on the page. <strong>Immensity → the Manichees</strong>: S9 says so in the sentence itself, <code>both to destroy his unity **and restrict his immensity**</code> — a second ultimate principle <strong>bounds</strong> God, and a bounded God is a measured God. <strong>Spirituality → the Anthropomorphites</strong>: S11–S13, the body-parts, <code>a **corporeal** God</code>. Cross them and every step of the argument breaks. Memorise the pairing as a two-line table before you go on.</p><p><strong>Trap 5 — <code>not so much A as B</code> (S13).</strong> ⚠️⚠️ <code>Such modes of expression, therefore, do **not so much** express **what kind of a being God is**, **as** accommodate the knowledge of him to our feebleness.</code> This is <strong>not</strong> a denial that the bodily idioms tell us anything about God. <code>Not so much A as B</code> = <em>B rather than A</em>, a <strong>ranking</strong>, and the A-arm survives in reduced force. And the reason this matters is not grammatical but doctrinal, and it runs back to Day 5: I.2.2 taught that the right question about God is <strong><code>qualis</code></strong> — <em>what kind of being he is</em> — and not <em>quid</em>, what he is in his essence. Calvin is not now cancelling the <em>qualis</em> question. He is saying that <strong>the mouth-and-ears idioms are not the vehicle by which it is answered</strong>; their office is to bring knowledge <strong>down to our size</strong>. An option reading <em>"Calvin holds that the bodily language of Scripture conveys no knowledge of God"</em> is the over-reading, and it is the most attractive wrong answer today because it sounds like sophistication. Notice what S13 actually says the idioms <strong>do</strong>: they <code>accommodate **the knowledge of him**</code> — there is knowledge in them; it has been sized.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">not only of … but also of … — two attributes, two targets, and a comma you must not fix</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p><strong><code>The doctrine of Scripture concerning the immensity and the spirituality of the essence of God, should have the effect not only of dissipating the wild dreams of the vulgar, but also of refuting the subtleties of a profane philosophy.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `The doctrine of Scripture <b>,</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">concerning the immensity and the spirituality</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of the essence of God</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>should have</b> the effect</span></li><li><span class="leaf"><b>not only of</b> dissipating</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">the wild dreams of the vulgar</span></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but also of</b> refuting.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">the subtleties of a profane philosophy</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>immensity</em> &lt; <em>in-</em> + <em>mensus</em> (measured) &lt; <em>metiri</em> → <em>measure, dimension, commensurate</em> — unmeasurable, and S5 spells the sense out; <em>dissipate</em> &lt; <em>dis-</em> + <em>supare</em> (to throw) → <em>scatter apart</em>; <em>vulgar</em> &lt; <em>vulgus</em>, the common people → <em>divulge</em> (to spread among the crowd), <em>vulgate</em>; <em>profane</em> &lt; <em>pro-</em> + <em>fanum</em> (temple) — in front of the temple, i.e. outside it → <em>fane, fanatic</em>; <em>subtle</em> &lt; <em>subtilis</em> &lt; <em>sub-</em> + <em>tela</em> (under the web, finely woven) → <em>textile, text</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>have the effect of V-ing</em> = serve to V, work to V; <em>not only of X but also of Y</em> = the correlative with the preposition repeated in both arms; <em>the wild dreams of X</em> = X's crude fantasies.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">What the Bible teaches about God's essence — that it can't be measured and that it isn't physical — should clear away both the crude fantasies of ordinary people and the clever quibbles of a godless philosophy.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>immensity</b> → can't be measured</li><li><b>spirituality</b> → isn't physical</li><li><b>the vulgar</b> → ordinary people</li><li><b>wild dreams</b> → crude fantasies</li><li><b>subtleties of a profane philosophy</b> → clever quibbles of a godless philosophy.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">thought he spake shrewdly — the pantheist in the dock, and an irony you must hear</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p><strong><code>One of the ancients thought he spake shrewdly when he said that everything we see and everything we do not see is God (Senec. Praef. lib. 1 Quaest. Nat.)</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `One of the ancients</span></li><li><span class="leaf"><b>thought</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">‹that› he <b>spake shrewdly</b></span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> he said</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> <b>is</b> God</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">everything <b>and</b> everything</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">‹that› we see</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">‹that› we do not see</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Senec. Praef. lib. 1 Quaest. Nat</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>shrewd</em> &lt; ME <em>shrewe</em> (a malignant person) → originally <em>depraved</em>, then <em>cunning</em>, then <em>acute</em> — the sense here; <em>ancient</em> &lt; <em>ante</em> (before) → <em>antique, antecedent</em>; <em>quaestio</em> &lt; <em>quaerere</em> (to seek) → <em>query, inquest, conquest</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>think one spake shrewdly</em> = suppose oneself to have said something clever (⚠️ ironic); <em>everything we see and everything we do not see</em> = the whole of the visible and invisible world.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">One ancient writer thought he was being clever when he said that everything we can see and everything we can't see is God (Seneca, <em>Natural Questions</em> I, preface).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>One of the ancients</b> → One ancient writer</li><li><b>thought he spake shrewdly</b> → thought he was being clever</li><li><b>everything we do not see</b> → everything we can't see.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s1" title="1-star">★</span><span class="s-label">transfused into every separate portion — the image that gives the game away</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p><strong><code>In this way he fancied that the Divinity was transfused into every separate portion of the world.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>transfuse</em> &lt; <em>trans-</em> (across) + <em>fundere</em> (to pour) → <em>fusion, diffuse, effusive, confound</em>; <em>fancy</em> &lt; <em>fantasy</em> &lt; φαντασία (appearance) → an image in the mind; <em>portion</em> &lt; <em>portio</em>, a share.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in this way</em> = on this view, by this account; <em>be transfused into X</em> = be poured through and distributed among X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">On this view he imagined that God was poured out into every single part of the world.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>In this way</b> → On this view</li><li><b>he fancied</b> → he imagined</li><li><b>the Divinity was transfused into</b> → God was poured out into</li><li><b>every separate portion</b> → every single part.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s2" title="2-star">★★</span><span class="s-label">although … still + at once … and — two correlatives in one sentence</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p><strong><code>But although God, in order to keep us within the bounds of soberness, treats sparingly of his essence, still, by the two attributes which I have mentioned, he at once suppresses all gross imaginations, and checks the audacity of the human mind.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf"><b> `</b>But**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">양보절 (although)</span><span class="leaf"><b>although</b> God,, <b>treats sparingly of</b> his essence</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in order to keep us within the bounds of soberness</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>still</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by the two attributes</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which I have mentioned</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">he <b>at once suppresses</b> all gross imaginations</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and checks</b> the audacity of the human mind.`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>sober</em> &lt; <em>sobrius</em> (&lt; <em>se-</em> apart from + <em>ebrius</em> drunk) — hence <em>sobrietas</em>, restraint of mind; <em>gross</em> &lt; <em>grossus</em> (thick, coarse) → <em>engross, grocer</em> (one who sells in the gross); <em>audacity</em> &lt; <em>audere</em> (to dare) → <em>audacious</em>; <em>suppress</em> &lt; <em>sub-</em> + <em>premere</em> (to press down) → <em>press, express, oppress</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>although … still</em> = although … yet (Beveridge's regular pair); <em>treat sparingly of X</em> = say only a little about X; <em>keep X within the bounds of Y</em> = hold X inside the limits of Y; <em>at once V and V</em> = ⚠️ both V and V, simultaneously.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But although God says very little about his essence — to keep us from over-reaching — those two attributes are enough, in one stroke, to crush every crude picture of him and to check human presumption.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>treats sparingly of</b> → says very little about</li><li><b>within the bounds of soberness</b> → from over-reaching</li><li><b>at once … and</b> → in one stroke, both … and</li><li><b>gross imaginations</b> → crude pictures</li><li><b>audacity of the human mind</b> → human presumption.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">deter … from V-ing vs. forbid … to V — two verbs, two complement patterns, one chiasm</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p><strong><code>His immensity surely ought to deter us from measuring him by our sense, while his spiritual nature forbids us to indulge in carnal or earthly speculation concerning him.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `His </b>immensity**</span></li><li><span class="leaf">surely ought <b>to deter us from</b> measuring him</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by our sense</span></li></ul></li></ul></li><li><span class="lab ph">부사절 (while)</span><span class="leaf"><b>while</b></span></li><li><span class="leaf">his <b>spiritual nature</b></span></li><li><span class="leaf"><b>forbids us to</b> indulge.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in carnal or earthly speculation</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">concerning him</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>deter</em> &lt; <em>de-</em> (away) + <em>terrere</em> (to frighten) → <em>terror, terrible, deterrent</em> — literally to scare off; <em>carnal</em> &lt; <em>caro, carnis</em> (flesh) → <em>carnival</em> (farewell to flesh), <em>incarnate, carnage</em>; <em>indulge</em> &lt; <em>indulgere</em> (to be lenient toward) → <em>indulgence</em>; <em>speculation</em> &lt; <em>specere</em> (to look) → <em>spectacle, inspect, species</em> — a looking at.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>deter X from V-ing</em> = scare X off from V-ing (⚠️ `from` + gerund); <em>forbid X to V</em> = forbid X to do (⚠️ `to` + infinitive); <em>indulge in X</em> = give oneself freely to X; <em>while</em> here = whereas.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Because he can't be measured, we should be scared off from sizing him up by our senses; and because he is spirit, we are forbidden to wallow in physical or this-worldly speculation about him.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>His immensity</b> → Because he can't be measured</li><li><b>deter us from measuring him by our sense</b> → scared off from sizing him up by our senses</li><li><b>while</b> → and</li><li><b>forbids us to indulge in</b> → forbidden to wallow in</li><li><b>carnal or earthly</b> → physical or this-worldly.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s1" title="1-star">★</span><span class="s-label">With the same view — the trap is one word long</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p><strong><code>With the same view he frequently represents heaven as his dwelling-place.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>view</em> &lt; OF <em>veue</em> &lt; <em>videre</em> (to see) → in the idiom <em>with a view to</em>, the thing looked toward, i.e. the aim; <em>represent</em> &lt; <em>re-</em> + <em>praesentare</em> (to place before) → to set forth, portray.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>with the same view</em> = ⚠️ for the same purpose; <em>with a view to V-ing</em> = in order to V; <em>represent X as Y</em> = portray X as Y.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">With that same aim, he often pictures heaven as the place where he lives.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>With the same view</b> → With that same aim</li><li><b>frequently represents</b> → often pictures</li><li><b>dwelling-place</b> → the place where he lives.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">It is true, indeed, that … but + that he may — concession, contrast, and a purpose clause you must not misread</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p><strong><code>It is true, indeed, that as he is incomprehensible, he fills the earth also, but knowing that our minds are heavy and grovel on the earth, he raises us above the worlds that he may shake off our sluggishness and inactivity.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>It is true, indeed, that**</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">, he <b>fills the earth also</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>as</b> he is incomprehensible</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">knowing</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> our minds are heavy and grovel on the earth</span></li></ul></li></ul></li></ul></li><li><span class="leaf">he <b>raises us above the worlds</b></span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that he may</b> shake off our sluggishness and inactivity</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>comprehend</em> &lt; <em>com-</em> (wholly) + <em>prehendere</em> (to seize) → <em>apprehend, prehensile, prison</em> — hence <em>incomprehensible</em> = uncontainable; <em>grovel</em> &lt; ME <em>on grufe</em> (on the face), from ON <em>grúfa</em>; <em>sluggish</em> &lt; <em>slug</em> (a slow creature) → <em>sluggard</em>; <em>inactivity</em> &lt; <em>in-</em> + <em>agere</em> (to drive, do) → <em>agent, agile, act</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>It is true, indeed, that … but</em> = I grant that … but; <em>fill the earth also</em> = fill the earth as well; <em>that he may V</em> = ⚠️ so that he may V (purpose, not relative); <em>shake off X</em> = throw X off.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Granted, since nothing can contain him, he fills the earth too; but because he knows our minds are heavy and crawl on the ground, he lifts us above the world so as to shake off our laziness and inertia.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>It is true, indeed, that</b> → Granted</li><li><b>incomprehensible</b> → nothing can contain him</li><li><b>grovel on the earth</b> → crawl on the ground</li><li><b>that he may shake off</b> → so as to shake off</li><li><b>sluggishness and inactivity</b> → laziness and inertia.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s2" title="2-star">★★</span><span class="s-label">two first principles — the Manichee file opens</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p><strong><code>And here we have a refutation of the error of the Manichees, who, by adopting two first principles, made the devil almost the equal of God.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>principle</em> &lt; <em>principium</em> &lt; <em>princeps</em> (&lt; <em>primus</em> + <em>capere</em>, first-taking) → <em>prince, principal</em> — a beginning, source; <em>adopt</em> &lt; <em>ad-</em> + <em>optare</em> (to choose) → <em>option, opt</em>; <em>devil</em> &lt; διάβολος (slanderer) &lt; <em>dia-ballein</em>, to throw across.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>here we have a refutation of X</em> = X is refuted by this; <em>adopt a principle</em> = take a principle as one's own; <em>make X the equal of Y</em> = ⚠️ SVOC, make X into Y's equal.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And this also refutes the Manichees, who by accepting two ultimate principles made the devil nearly God's equal.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>here we have a refutation of the error of</b> → this also refutes</li><li><b>by adopting two first principles</b> → by accepting two ultimate principles</li><li><b>almost the equal of God</b> → nearly God's equal.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s2" title="2-star">★★</span><span class="s-label">both to destroy … and restrict — one to, two infinitives, and the blade named</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p><strong><code>This, assuredly, was both to destroy his unity and restrict his immensity.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>restrict</em> &lt; <em>re-</em> + <em>stringere</em> (to draw tight) → <em>stringent, strict, strain, constrain</em> — a binding-in; <em>unity</em> &lt; <em>unus</em> → <em>union, unique</em>; <em>assuredly</em> &lt; <em>ad-</em> + <em>securus</em> (&lt; <em>se-</em> + <em>cura</em>, without care) → <em>sure, secure</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>this was to V</em> = this amounted to V-ing; <em>both to V and ‹to› V</em> = the shared `to` (written once); <em>destroy X's unity</em> = make X not one.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">That, of course, amounted to wrecking his oneness and setting a limit to his unmeasurableness.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>This, assuredly, was to</b> → That, of course, amounted to</li><li><b>destroy his unity</b> → wrecking his oneness</li><li><b>restrict his immensity</b> → setting a limit to his unmeasurableness.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">as … did … — gapping with a pro-verb, the sentence most students cannot parse</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p><strong><code>Their attempt to pervert certain passages of Scripture proved their shameful ignorance, as the very nature of the error did their monstrous infatuation.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">Their attempt</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to pervert certain passages of Scripture</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>proved</b></span></li><li><span class="leaf">their shameful ignorance</span></li><li><span class="leaf"><b>as</b> <b>did</b> ‹<b>prove</b>›.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the very nature of the error</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">their monstrous infatuation</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>pervert</em> &lt; <em>per-</em> (thoroughly) + <em>vertere</em> (to turn) → <em>convert, avert, versatile</em> — a turning aside; <em>infatuation</em> &lt; <em>in-</em> + <em>fatuus</em> (foolish) → <em>fatuous</em>; <em>monstrous</em> &lt; <em>monstrum</em> (a portent) &lt; <em>monere</em> (to warn) → <em>monitor, demonstrate, premonition</em>; <em>shameful</em> &lt; OE <em>scamu</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>attempt to V</em> = effort to V; <em>X proved Y</em> = X was proof of Y; <em>as X did Y</em> = ⚠️ as X ‹proved› Y — the pro-verb `did` replacing the elided verb.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Their effort to twist certain passages of Scripture showed how shamefully ignorant they were, just as the nature of the error itself showed what enormous fools they were.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>attempt to pervert</b> → effort to twist</li><li><b>proved their shameful ignorance</b> → showed how shamefully ignorant they were</li><li><b>as … did</b> → just as … showed</li><li><b>monstrous infatuation</b> → what enormous fools they were.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">a nineteen-word subject with two clauses inside it, and the main verb at the very end</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p><strong><code>The Anthropomorphites also, who dreamed of a corporeal God, because mouth, ears, eyes, hands, and feet, are often ascribed to him in Scripture, are easily refuted.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">The Anthropomorphites also</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who</b> dreamed of a corporeal God</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">이유절 (because)</span><span class="leaf"><b>because</b> <b>are</b> often <b>ascribed to</b> him in Scripture</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">mouth, ears, eyes, hands, and feet</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>are easily refuted</b>.`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>anthropomorphite</em> &lt; ἄνθρωπος (man) + μορφή (form) → <em>anthropology, morphology, amorphous</em>; <em>corporeal</em> &lt; <em>corpus, corporis</em> (body) → <em>corpse, corps, corporation, incorporate</em>; <em>ascribe</em> &lt; <em>ad-</em> + <em>scribere</em> (to write) → <em>describe, subscribe, scripture</em> — to enter to someone's account; <em>refute</em> &lt; <em>refutare</em> (to drive back, check).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>dream of X</em> = ⚠️ imagine X (contemptuous); <em>ascribe X to Y</em> = attribute X to Y; <em>be easily refuted</em> = be refuted without difficulty.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The Anthropomorphites, too, who imagined that God has a body because Scripture often speaks of his mouth, ears, eyes, hands and feet, are easy to answer.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>who dreamed of a corporeal God</b> → who imagined that God has a body</li><li><b>because … are often ascribed to him in Scripture</b> → because Scripture often speaks of his …</li><li><b>are easily refuted</b> → are easy to answer.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S12" id="S12"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S12</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">lisps with us as nurses are wont to do — the most famous sentence in Calvin's doctrine of revelation</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S12" onclick="flashFullText(this)">
+<p><strong><code>For who is so devoid of intellect as not to understand that God, in so speaking, lisps with us as nurses are wont to do with little children?</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>For**</span></li><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who is so</b> devoid of intellect</span><ul class="tr"><li><span class="leaf"><b>as not to understand</b></span></li><li><span class="leaf"><b>?</b>`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> God,, <b>lisps with us</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in so speaking</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>as</b> nurses <b>are wont to do</b> with little children</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>devoid</em> &lt; <em>de-</em> + OF <em>vuidier</em> (to empty) → <em>void, avoid, evacuate</em>; <em>intellect</em> &lt; <em>inter-</em> + <em>legere</em> (to gather between, to pick out) → <em>elect, collect, lecture, intelligent</em>; <em>lisp</em> &lt; OE <em>wlispian</em> (to speak with a stammer) — Beveridge for <em>balbutire</em>; <em>wont</em> &lt; OE <em>gewunian</em> (to be accustomed) — ⚠️ not <em>won't</em>; <em>nurse</em> &lt; <em>nutrix</em> &lt; <em>nutrire</em> (to nourish) → <em>nutrition, nourish, nurture</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be devoid of X</em> = be entirely without X; <em>so X as not to V</em> = so X that one fails to V; <em>in so speaking</em> = in speaking this way; <em>be wont to V</em> = be accustomed to V; <em>lisp with X</em> = ⚠️ talk baby-talk alongside X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">After all, who is so brainless as not to see that when God talks like that he is using baby-talk with us, the way nurses do with small children?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>so devoid of intellect as not to understand</b> → so brainless as not to see</li><li><b>in so speaking</b> → when God talks like that</li><li><b>lisps with us</b> → uses baby-talk with us</li><li><b>are wont to do</b> → do.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S13" id="S13"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S13</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">not so much A as B — the sentence that defines accommodation, and the over-reading that ruins it</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S13" onclick="flashFullText(this)">
+<p><strong><code>Such modes of expression, therefore, do not so much express what kind of a being God is, as accommodate the knowledge of him to our feebleness.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `Such modes of expression, therefore</span></li><li><span class="leaf"><b>do not so much</b> express</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>what kind of a being</b> God <b>is</b></span></li></ul></li></ul></li><li><span class="leaf"><b>as</b> accommodate.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">the knowledge of him</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to</b> our feebleness</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>accommodate</em> &lt; <em>ad-</em> + <em>com-</em> + modus (a measure) → <em>mode, model, modest, moderate, commodity</em> — to fit to measure; <em>express</em> &lt; <em>ex-</em> + <em>premere</em> (to press out) → <em>press, impress, espresso</em>; <em>feeble</em> &lt; <em>flebilis</em> (to be wept over) &lt; <em>flere</em> (to weep) → <em>feebleness</em>; <em>mode</em> &lt; <em>modus</em> again — note `modes of expression` and `accommodate` share a root, which is not an accident of translation but is in the Latin.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>not so much A as B</em> = ⚠️⚠️ B rather than A (a ranking, not a denial); <em>what kind of a being X is</em> = <em>qualis</em> — what sort of thing X is; <em>accommodate X to Y</em> = fit X to Y's measure (⚠️ `to`, not <em>for</em>).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So these ways of speaking are less a statement of what God is like in himself than a way of scaling knowledge of him down to our weakness.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Such modes of expression</b> → these ways of speaking</li><li><b>do not so much express … as</b> → are less a statement of … than</li><li><b>what kind of a being God is</b> → what God is like in himself</li><li><b>accommodate … to our feebleness</b> → scaling … down to our weakness.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S14" id="S14"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S14</span><span class="stars s2" title="2-star">★★</span><span class="s-label">must, of course, stoop far below his proper height — the cost, and two words that are not what they look like</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S14" onclick="flashFullText(this)">
+<p><strong><code>In doing so, he must, of course, stoop far below his proper height.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>proper</em> &lt; <em>proprius</em> (one's own) → <em>property, proprietor, appropriate, propriety</em> — ⚠️ the possession sense is the old one; <em>stoop</em> &lt; OE <em>stūpian</em> (to bow, incline) → <em>steep</em> (a slope); <em>height</em> &lt; OE <em>hēhþu</em> &lt; <em>hēah</em> (high).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in doing so</em> = in acting this way; <em>must, of course</em> = ⚠️ it necessarily follows that; <em>stoop below X</em> = bend down beneath X; <em>his proper height</em> = ⚠️ the height that is his own.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">In doing this, he obviously has to bend far down below his own true height.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>In doing so</b> → In doing this</li><li><b>must, of course</b> → obviously has to</li><li><b>stoop far below</b> → bend far down below</li><li><b>his proper height</b> → his own true height.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — Correlatives, and the law of matching arms</h3><pre><code>  not only OF V-ing , but also OF V-ing        (S1)   ← preposition REPEATED in both arms
+  at once  V(s)     , and       V(s)           (S4)   ← "at once … and" = BOTH … AND (⚠ not "immediately")
+  both TO  V        , and     ‹to› V           (S9)   ← "to" written ONCE, shared
+  although  … , still  …                       (S4)   ← Beveridge's concessive pair (modern: although … yet/∅)
+  It is true, indeed, that … , but …           (S7)   ← concession frame + anticipatory "it"
+
+  THE LAW:  whatever you put in arm 1, put the SAME SHAPE in arm 2.
+            Repeat the shared word in both arms, or write it once and share it —
+            but never repeat it in one arm only.
+  ⚠ TRAP 1: "not only OF dissipating … but also refuting"  →  BROKEN (the second "of" is missing)
+  ⚠ TRAP 2: "at once" before two coordinated verbs is the CORRELATIVE, not the adverb of time.
+            Diagnostic: delete "at once" — do two coordinated verbs remain?  Yes → correlative.
+  ⚠ TRAP 3: the comma between a long subject and its verb (S1) is PERIOD PUNCTUATION. Leave it.
+</code></pre><p><strong>변형 연습.</strong> Compose: <em>신학은 대중의 조야한 상상을 흩을 뿐 아니라 철학자들의 궤변을 논박하는 효과도 가져야 한다. 그 한 속성이 동시에 그의 단일성을 무너뜨리고 그의 불측성을 제한했다.</em></p><blockquote>
+<p><strong>Model:</strong> <em>Theology should have the effect </em><em>not only of</em><em> scattering the gross imaginations of the multitude, </em><em>but also of</em><em> refuting the subtleties of the philosophers. That one principle </em><em>at once</em><em> destroyed his unity </em><em>and</em><em> restricted his immensity.</em>
+⚠ Check: second <code>of</code> present? <code>at once</code> followed by two coordinated verbs, not by a time-sense? If you wrote <code>at once destroyed his unity and at once restricted</code>, you have doubled the correlative — delete the second.</p>
+</blockquote><h3>Formula 2 — The <code>as</code> of degree, and the two complement columns</h3><pre><code>  so + ADJ + as (not) to + V                   (S12)  "so devoid of intellect AS NOT TO understand"
+     → inside a rhetorical question ("who is so … as not to …?")
+       the answer is NOBODY  →  the assertion is EVERYBODY DOES.
+
+  not so much  A  as  B                        (S13)  "do NOT SO MUCH express … AS accommodate …"
+     ⚠⚠ This RANKS; it does NOT deny A.   = "B rather than A", "B more truly than A".
+     ⚠ The pair is fixed:  not so much A **as** B.    NEVER "not so much A **than** B".
+
+  THE TWO COLUMNS — memorise as a block:
+     deter / prevent / prohibit / hinder / keep   X   FROM  V-ing      (S5: "deter us FROM measuring")
+     forbid / allow / permit / enable / compel    X   TO    V          (S5: "forbids us TO indulge")
+  ⚠ TRAP: "deter us to measure" ✗ ;  "forbids us from indulging" ✗ (loose modern usage; not Beveridge, not exam-safe).
+</code></pre><p><strong>변형 연습.</strong> Compose: <em>그의 불측성은 우리가 감각으로 그를 재려는 것을 막아야 하고, 그의 영적 본성은 우리가 육적 사변에 탐닉하는 것을 금한다. 그 표현들은 그가 어떤 분이신지를 말한다기보다 우리 연약함에 지식을 맞추는 것이다.</em></p><blockquote>
+<p><strong>Model:</strong> <em>His immensity ought </em><em>to deter us from measuring</em><em> him by our sense, while his spiritual nature </em><em>forbids us to indulge</em><em> in carnal speculation. Those expressions do </em><em>not so much</em><em> express what kind of a being he is, </em><em>as accommodate</em><em> the knowledge of him to our feebleness.</em>
+⚠ Check: <code>from</code> + <strong>gerund</strong> after <em>deter</em>; <code>to</code> + <strong>infinitive</strong> after <em>forbid</em>; <code>as</code> (not <em>than</em>) after <em>not so much</em>; and both arms after <code>not so much … as</code> are <strong>bare infinitives sharing <code>do</code></strong>.</p>
+</blockquote><h3>Formula 3 — Ellipsis after <code>as</code>: the pro-verb, and the purpose <code>that</code></h3><pre><code>  … V-ed  X ,  as  Y  DID  ‹V-ed›  Z           (S10)  "proved … , as the very nature of the error DID …"
+  … V     X ,  as  Y  are wont to DO ‹V›  Z    (S12)  "lisps with us, as nurses are wont to DO with children"
+
+  RULE: after "as" / "than", a repeated verb phrase is replaced by DO / DOES / DID.
+        The form of "do" tracks the tense of the ELIDED verb, not of anything nearby.
+           proved  (past)      → did
+           lisps   (present)   → do
+  ⚠ TRAP: reading "did" as the lexical verb "did (performed)". It is doing PROVING, not doing.
+        Restore the elided verb out loud before translating.
+
+  AND, in the same family, the clause that is NOT a relative:
+  … he raises us above the worlds  THAT HE MAY  shake off …          (S7)  = SO THAT he may (PURPOSE)
+  ⚠ TRAP: parsing "that" as a relative on "the worlds".
+     DIAGNOSTIC: a relative "that" leaves a GAP in its clause. Here "shake off" already has
+     its object ("our sluggishness and inactivity") → no gap → NOT a relative → purpose clause.
+</code></pre><p><strong>변형 연습.</strong> Compose: <em>그들의 왜곡 시도가 그들의 무지를 드러냈듯, 그 오류의 본질 자체가 그들의 어리석음을 드러냈다. 그분은 우리의 나태를 떨쳐 버리시려고 우리를 들어 올리신다.</em></p><blockquote>
+<p><strong>Model:</strong> <em>Their attempt to pervert the passages proved their ignorance, </em><em>as</em><em> the very nature of the error </em><em>did</em><em> their folly. He raises us up </em><em>that he may</em><em> shake off our sluggishness.</em>
+⚠ Check: <code>did</code> (past, tracking <em>proved</em>) with <strong>no</strong> lexical verb after it; and <code>that he may</code> with a <strong>filled</strong> object slot after <code>shake off</code> — if your <code>that</code>-clause has an empty object, you have written a relative by mistake.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (어원 후킹)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>immensity</strong> ⚠️⚠️</td>
+<td>unmeasurableness</td>
+<td><em>in-</em> + <em>mensus</em> (measured) &lt; <em>metiri</em> → <em>measure, dimension, commensurate</em>. S5 spells it out: <em>deter us from </em><em>measuring</em><strong>. </strong>Not "hugeness."** (불측성·측량 불가함)</td>
+</tr>
+<tr>
+<td><strong>spirituality</strong> ⚠️⚠️</td>
+<td>the property of <strong>being spirit</strong></td>
+<td>Of the <em>essence</em>, not of the devotional life. John 4:24 πνεῦμα ὁ θεός. Today's #1 register trap. (영성 = 영이심)</td>
+</tr>
+<tr>
+<td><strong>the vulgar</strong> ⚠️</td>
+<td>the common people</td>
+<td><em>vulgus</em> → <em>divulge</em> (spread among the crowd), <em>Vulgate</em>. Not "coarse persons." (대중)</td>
+</tr>
+<tr>
+<td><strong>wild dreams</strong></td>
+<td>crude fantasies</td>
+<td>Paired against <code>subtleties</code>: low error vs. high error. (허황된 몽상)</td>
+</tr>
+<tr>
+<td><strong>subtleties</strong> ⚠️</td>
+<td>over-fine quibbles</td>
+<td><em>sub-</em> + <em>tela</em> (under the web) → <em>textile, text</em>. <strong>Same word as Ch. 12 §3 S1</strong> — new defendants. (궤변)</td>
+</tr>
+<tr>
+<td><strong>profane</strong> ⚠️</td>
+<td>unhallowed, outside the sacred</td>
+<td><em>pro-</em> + <em>fanum</em> (temple) — <strong>in front of</strong> the temple → <em>fane, fanatic</em>. Not "obscene." (불경한·세속의)</td>
+</tr>
+<tr>
+<td><strong>spake shrewdly</strong> ⚠️</td>
+<td>spoke acutely — <strong>ironically</strong></td>
+<td><em>shrewd</em> &lt; ME <em>shrewe</em> (malignant) → <em>cunning</em> → <em>acute</em>. <code>**Thought** he spake shrewdly</code> = he thought so; Calvin did not. (예리하게 말했다고 자평)</td>
+</tr>
+<tr>
+<td><strong>fancied</strong> ⚠️</td>
+<td>imagined, supposed</td>
+<td>&lt; <em>fantasy</em> &lt; φαντασία (appearance). Not "liked." (공상했다)</td>
+</tr>
+<tr>
+<td><strong>transfused</strong></td>
+<td>poured across, diffused through</td>
+<td><em>trans-</em> + <em>fundere</em> → <em>fusion, diffuse, effusive</em>. A <strong>liquid</strong> image ⇒ divisible ⇒ refutes itself. (스며들게 하다)</td>
+</tr>
+<tr>
+<td><strong>bounds of soberness</strong> ⚠️</td>
+<td>the limits of sober-mindedness</td>
+<td><em>sobrius</em> &lt; <em>se-</em> + <em>ebrius</em> (not drunk) → <em>sobrietas</em>, Calvin's word for restraint in speculation. Nothing to do with drink. (분별의 한계)</td>
+</tr>
+<tr>
+<td><strong>treats sparingly of</strong> ⚠️</td>
+<td>says only a little about</td>
+<td><code>treat **of** X</code> = discuss X. (아껴서만 말씀하신다)</td>
+</tr>
+<tr>
+<td><strong>at once … and</strong> ⚠️⚠️</td>
+<td><strong>both … and</strong>, in one stroke</td>
+<td>Diagnostic: delete <code>at once</code> — two coordinated verbs remain. Not "immediately." (동시에 …하고 …한다)</td>
+</tr>
+<tr>
+<td><strong>gross</strong> ⚠️</td>
+<td>coarse, thick, material</td>
+<td><em>grossus</em> → <em>engross, grocer</em> (selling in the gross). Not "disgusting." (조야한)</td>
+</tr>
+<tr>
+<td><strong>audacity</strong></td>
+<td>daring, presumption</td>
+<td><em>audere</em> (to dare) → <em>audacious</em>. (담대함·주제넘음)</td>
+</tr>
+<tr>
+<td><strong>deter X from V-ing</strong></td>
+<td>scare X off from V-ing</td>
+<td><em>de-</em> + <em>terrere</em> (to frighten) → <em>terror, deterrent</em>. ⚠️ <code>from</code> + <strong>gerund</strong>. (…하지 못하게 겁주어 막다)</td>
+</tr>
+<tr>
+<td><strong>forbid X to V</strong></td>
+<td>forbid X to do</td>
+<td>⚠️ <code>to</code> + <strong>infinitive</strong> — the opposite column from <em>deter</em>. (…하는 것을 금하다)</td>
+</tr>
+<tr>
+<td><strong>by our sense</strong> ⚠️</td>
+<td>by sense-perception</td>
+<td>The faculty, <strong>singular</strong>. Not "our five senses," not "common sense." (감각으로)</td>
+</tr>
+<tr>
+<td><strong>carnal</strong></td>
+<td>fleshly</td>
+<td><em>caro, carnis</em> → <em>carnival</em> (farewell to flesh), <em>incarnate, carnage</em>. (육적인)</td>
+</tr>
+<tr>
+<td><strong>indulge in</strong></td>
+<td>give oneself over to</td>
+<td><em>indulgere</em> (to be lenient toward). The ban is on the <strong>appetite</strong>, not on thought itself. (탐닉하다)</td>
+</tr>
+<tr>
+<td><strong>With the same view</strong> ⚠️⚠️</td>
+<td>for the same <strong>purpose</strong></td>
+<td>The bare form of <code>with a view **to** V-ing</code>. <strong>Not "opinion."</strong> (같은 목적으로)</td>
+</tr>
+<tr>
+<td><strong>represents X as Y</strong></td>
+<td>portrays X as Y</td>
+<td><em>re-</em> + <em>praesentare</em> (to place before). A verb of <strong>depiction</strong> — accommodation already implied. (X를 Y로 묘사하신다)</td>
+</tr>
+<tr>
+<td><strong>incomprehensible</strong> ⚠️</td>
+<td><strong>uncontainable</strong>; not to be grasped whole</td>
+<td><em>com-</em> (wholly) + <em>prehendere</em> (to seize) → <em>apprehend, prehensile, prison</em>. The containment sense is live: <em>therefore</em> he fills the earth (1 Kgs. 8:27). (측량·포괄 불가한)</td>
+</tr>
+<tr>
+<td><strong>grovel</strong></td>
+<td>crawl face-down</td>
+<td>ME <em>on grufe</em> (on the face) &lt; ON <em>grúfa</em>. A <strong>bodily</strong> image for a <strong>noetic</strong> defect. (땅바닥을 기다)</td>
+</tr>
+<tr>
+<td><strong>worlds</strong> ⚠️</td>
+<td>(printed plural; sense wants <strong>world</strong>)</td>
+<td>See the text note — almost certainly a scan slip for <em>the world</em>. Reproduced, not corrected. (세상)</td>
+</tr>
+<tr>
+<td><strong>sluggishness</strong></td>
+<td>torpor</td>
+<td>&lt; <em>slug</em>, a slow creature → <em>sluggard</em>. (굼뜸·나태)</td>
+</tr>
+<tr>
+<td><strong>first principles</strong> ⚠️</td>
+<td>ultimate <strong>originating</strong> principles</td>
+<td><em>principium</em> &lt; <em>princeps</em> (<em>primus</em> + <em>capere</em>, first-taking) → <em>prince, principal</em>; Gk. ἀρχαί. <strong>Not "the basics."</strong> (제1원리)</td>
+</tr>
+<tr>
+<td><strong>restrict</strong> ⚠️</td>
+<td>draw tight, set a limit to</td>
+<td><em>re-</em> + <em>stringere</em> → <em>stringent, strict, constrain</em>. A <strong>binding-in</strong> — which is why it kills <em>immensity</em>. (제한하다)</td>
+</tr>
+<tr>
+<td><strong>pervert</strong></td>
+<td>twist aside</td>
+<td><em>per-</em> (thoroughly) + <em>vertere</em> (to turn) → <em>convert, avert, versatile</em>. (곡해하다)</td>
+</tr>
+<tr>
+<td><strong>monstrous</strong></td>
+<td>prodigious, unnatural</td>
+<td><em>monstrum</em> (a portent) &lt; <em>monere</em> (to warn) → <em>monitor, demonstrate, premonition</em>. "Huge" is the <strong>late</strong> sense. (터무니없는)</td>
+</tr>
+<tr>
+<td><strong>infatuation</strong> ⚠️⚠️</td>
+<td><strong>folly</strong>, besottedness of mind</td>
+<td><em>in-</em> + <em>fatuus</em> (foolish) → <em>fatuous</em>. <strong>No romantic sense.</strong> Same word as Day 22 (Ps. 92:6). (어리석음)</td>
+</tr>
+<tr>
+<td><strong>Anthropomorphites</strong></td>
+<td>those who held God to have a <strong>body</strong></td>
+<td>ἄνθρωπος + μορφή → <em>anthropology, morphology, amorphous</em>. The Audians; the Egyptian monks of 399. (신인동형론자)</td>
+</tr>
+<tr>
+<td><strong>corporeal</strong></td>
+<td>bodily</td>
+<td><em>corpus, corporis</em> → <em>corpse, corps, corporation</em>. (육체를 가진)</td>
+</tr>
+<tr>
+<td><strong>ascribed to</strong></td>
+<td>attributed to</td>
+<td><em>ad-</em> + <em>scribere</em> → <em>describe, subscribe, scripture</em> — entered <strong>to someone's account</strong>. (…에게 돌려진)</td>
+</tr>
+<tr>
+<td><strong>devoid of</strong></td>
+<td>entirely without</td>
+<td><em>de-</em> + OF <em>vuidier</em> (to empty) → <em>void, avoid, evacuate</em>. (…이 전혀 없는)</td>
+</tr>
+<tr>
+<td><strong>lisps</strong> ⚠️⚠️⚠️</td>
+<td><strong>talks baby-talk</strong>, babbles</td>
+<td>OE <em>wlispian</em>; Lat. <strong><code>balbutire</code></strong>. <strong>The</strong> accommodation word — memorise it today. (더듬거리며 아기말로 하신다)</td>
+</tr>
+<tr>
+<td><strong>are wont to do</strong> ⚠️</td>
+<td>are accustomed to do</td>
+<td>OE <em>gewunian</em> (to be used to) — ⚠️ <strong>not</strong> <em>won't</em>; and <code>do</code> here is a <strong>pro-verb</strong> for <em>lisp</em>. (…하곤 한다)</td>
+</tr>
+<tr>
+<td><strong>nurses</strong></td>
+<td>wet-nurses, nannies</td>
+<td><em>nutrix</em> &lt; <em>nutrire</em> (to nourish) → <em>nutrition, nurture</em>. (유모들)</td>
+</tr>
+<tr>
+<td><strong>modes of expression</strong></td>
+<td>ways of speaking, idioms</td>
+<td><em>modus</em> (a measure) — <strong>the same root as <code>accommodate</code></strong>, and that is not accidental. (표현 방식)</td>
+</tr>
+<tr>
+<td><strong>not so much A as B</strong> ⚠️⚠️</td>
+<td><strong>B rather than A</strong></td>
+<td>A <strong>ranking</strong>, not a denial. ⚠️ Never <code>not so much A **than** B</code>. (A라기보다는 B)</td>
+</tr>
+<tr>
+<td><strong>what kind of a being God is</strong> ⚠️</td>
+<td><em>qualis sit Deus</em></td>
+<td><strong>The <code>qualis</code> question of I.2.2 (Day 5)</strong> — legitimate, but not answered <em>by these idioms</em>. (하나님이 어떤 분이신지)</td>
+</tr>
+<tr>
+<td><strong>accommodate X to Y</strong> ⚠️</td>
+<td>fit X <strong>to the measure of</strong> Y</td>
+<td><em>ad-</em> + <em>com-</em> + <strong>modus</strong> (a measure) → <em>mode, model, modest, moderate, commodity</em>. ⚠️ <code>to</code>, never <em>for</em>. (X를 Y에 맞추다)</td>
+</tr>
+<tr>
+<td><strong>feebleness</strong></td>
+<td>weakness</td>
+<td><em>flebilis</em> (to be wept over) &lt; <em>flere</em> (to weep). (연약함)</td>
+</tr>
+<tr>
+<td><strong>must</strong> (S14) ⚠️</td>
+<td><strong>it necessarily follows that</strong></td>
+<td>Epistemic, not deontic. Cf. Day 18's <code>must necessarily be self-existent</code>. (…일 수밖에 없다)</td>
+</tr>
+<tr>
+<td><strong>stoop</strong></td>
+<td>bend down</td>
+<td>OE <em>stūpian</em> → <em>steep</em> (a slope). Completes the nurse image with a <strong>posture</strong>. (몸을 굽히다)</td>
+</tr>
+<tr>
+<td><strong>proper height</strong> ⚠️⚠️</td>
+<td><strong>his own</strong> height</td>
+<td><em>proprius</em> (one's own) → <em>property, proprietor</em>. <strong>Not "appropriate."</strong> Yesterday's <code>peculiar right</code> trap, day two. (그분 고유의 높이)</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>Where we are, and why the chapter starts here.</strong> Chapter 13 is the <strong>longest chapter in Book 1</strong> — twenty-nine sections — and the Beveridge summary you read above divides it cleanly: the orthodox doctrine occupies §§1–20 (the term <em>Person</em>, §§2–6; the deity of the Son, §§7–13; the deity of the Spirit, §§14–15; the Trinity itself, §§16–20), and the refutation of heresies occupies §§21–29, aimed above all at <strong>Servetus</strong>. Today's §1 belongs to none of those four heads. It is a <strong>doorstep</strong>: before Calvin says anything about persons, he clears the ground of every conception of the divine <strong>essence</strong> that would make the doctrine unsayable. And he does it with the two attributes he says Scripture itself emphasises — <strong>immensity</strong> and <strong>spirituality</strong> — because those two are exactly what a Trinity has to be predicated of. A God transfused through the world (S2) cannot be three persons in one essence; he is already infinitely many. A God with a body (S11) cannot be three persons in one essence; he is one body. Chapter 13 §1 is a <strong>negative preface</strong>, and it is doing structural work.</p><p><strong>Continuity from yesterday, in one line.</strong> Chapter 12 ended by insisting that God shares his <code>peculiar right</code> with <strong>nothing</strong> — the anti-idolatry principle pressed as far as it will go outward, toward creatures. Chapter 13 §1 presses the same principle <strong>inward</strong>, toward conceptions: the same God who will not share his honour with a creature will not be <strong>conceived</strong> as diffused into creatures (Seneca), rivalled by one (Mani), or shaped like one (the Anthropomorphites). Chapters 11–12 forbade the <strong>image</strong>; §1 forbids the <strong>idea</strong> behind the image.</p><p><strong>Target A: Seneca and Stoic pantheism.</strong> The reference <code>Senec. Praef. lib. 1 Quaest. Nat.</code> is to the preface of Seneca's <em>Natural Questions</em>, where the question <em>What is God?</em> is answered <em>all that you see and all that you do not see</em>. That is orthodox <strong>Stoicism</strong>: God as the immanent <em>logos</em>, the active principle (<em>to poioun</em>) pervading passive matter, identical with Nature, Fate and Zeus. Calvin has met this before and you have already studied his answer — <strong>I.5.5, Day 17</strong>, where he quoted Virgil's <code>one common soul</code> and made the crucial distinction: to say <code>Nature is God</code> <code>may be piously used</code> if the speaker means the order God has established, but it is <strong>inaccurate</strong>, because it confounds <code>the Deity with the inferior operations of his hands</code>. Today he does not repeat the argument. He restates the position in a metaphor that condemns it (<code>transfused</code>, a liquid, hence divisible) and passes on. If asked <em>where does Calvin refute pantheism?</em>, the honest answer is <strong>I.5.5</strong>, not here.</p><p><strong>Target B: the Manichees, and Augustine's shadow.</strong> Mani (c. 216–276), a Persian teacher, taught a <strong>cosmic dualism</strong>: two eternal, unoriginated principles — Light and Darkness, God and Matter — locked in conflict, with the visible world as the mixture. That is what Calvin means by <code>two first principles</code>. Why does he bother with a third-century Persian heresy in 1559? Two reasons. First, <strong>Augustine</strong>: Manichaeism was Augustine's own religion for nine years, and the anti-Manichaean works (<em>De Duabus Animabus</em>, <em>De Natura Boni</em>, <em>Contra Faustum</em>, and the theodicy of <em>Confessions</em> VII) are the classical Latin refutation, so the name is a fixed item in every Western theological syllabus. Second, <strong>the sixteenth century</strong>: Calvin's opponents repeatedly charged that his doctrine of predestination and of the bondage of the will made God the author of evil or posited an evil principle — the "Manichee" accusation was a live polemical counter, and Calvin will handle the substance of it in I.14.13–19 (on Satan as a creature, <code>not by creation, but by depravation</code>) and in Book 2. ⚠️ <strong>Guardrail:</strong> S10 is a <strong>dismissal, not a refutation</strong>. Calvin gives no exegesis of the passages the Manichees perverted and no analysis of the error. The actual refutation is <strong>S9</strong> — dualism <em>destroys unity and restricts immensity</em> — and that is a genuine argument, but it is one sentence long, and it works only against someone who already grants the attributes of S1. Do not present S10 as an argument in an essay; present S9.</p><p><strong>Target C: the Anthropomorphites, and the story behind <code>easily refuted</code>.</strong> The <strong>Audians</strong> were a fourth-century ascetic sect in Syria and Mesopotamia, following one Audius, who read the <em>image of God</em> in Gen. 1:26 as a bodily likeness; Epiphanius describes them in <em>Panarion</em> 70. More consequential was the <strong>anthropomorphite controversy of 399</strong> in Egypt, when Theophilus of Alexandria issued a festal letter condemning the bodily conception of God and provoked a revolt among the desert monks, many of whom had prayed all their lives to a God they pictured. <strong>John Cassian</strong> (<em>Conferences</em> 10.3) preserves the moment that gives the episode its pathos: the aged monk <strong>Serapion</strong>, persuaded at last to abandon the image, broke down in prayer with the cry that they had taken his God away and he had nothing left to hold. ⚠️ Hold that story against Calvin's tone. In <em>grammar</em> he is brisk — <code>easily refuted</code>, <code>so devoid of intellect</code>. In <em>substance</em> he is gentle, and the gentleness is the point: his answer is not <em>you fool</em> but <strong>the nurse</strong>. He does not tell Serapion that Scripture's mouth-and-eyes are meaningless; he tells him they are how a fluent speaker talks to someone who cannot yet manage the language. That is a pastoral answer wearing a polemical coat, and it is characteristic.</p><p><strong>The doctrine: accommodation (<em>accommodatio</em>), what it is and what it is not.</strong> S12–S14 give Calvin's most quoted statement of a principle he uses everywhere: God, in revealing himself, <strong>adjusts the mode of his speech to the capacity of the hearer</strong>. The genealogy is long. <strong>Origen</strong> and especially <strong>Chrysostom</strong> used <strong>συγκατάβασις</strong> (<em>synkatabasis</em>, condescension) for the same phenomenon; <strong>Augustine</strong> used the nurse and child image in <em>De Catechizandis Rudibus</em>; Calvin's own Latin verb is <em>balbutire</em>, to babble. In the <em>Institutes</em> you have already met the doctrine twice without the name: <strong>I.5.1 (Day 13)</strong>, where the created order is a mirror in which God shows what cannot be seen directly, and <strong>I.11</strong>, where the prohibition of images rests on the same recognition that God has chosen how he will be represented. It will return decisively at <strong>I.14.3</strong> (the six days of creation as accommodation to our slowness) and in the doctrine of Scripture as <strong>spectacles</strong> at I.6. ⚠️⚠️ <strong>The guardrail, and it matters more than anything else on this page:</strong> accommodation in Calvin is a claim about <strong>mode</strong>, not about <strong>truth-value</strong>. The nurse's baby-talk is <em>simplified</em>, not <em>false</em>; the child really does learn something, and what she learns is not an error to be unlearned. Later writers — from some Enlightenment critics through nineteenth-century liberal exegesis — extended "accommodation" into a theory that Scripture asserts culturally conditioned <strong>falsehoods</strong> which the interpreter may discard. <strong>That is not this sentence.</strong> S13 says the idioms <code>**accommodate the knowledge of him**</code> — there is knowledge in them, sized down. If you use Calvin's <em>balbutire</em> to license a doctrine of scriptural error, you are using it against his explicit claim in the same clause. Conversely, do not run the other way and read accommodation as making all anthropomorphism literally descriptive; S13's <code>not so much … as</code> blocks that too. The sentence is balanced on a comparative, and both halves of the comparison are load-bearing.</p><p><strong>A precision worth having: <code>immensity</code> is not <code>omnipresence</code>.</strong> Calvin uses <code>immensity</code> for the essence's <strong>unmeasurableness</strong> — not bounded, not partible, not quantifiable. Later Reformed scholastics (Turretin, and the Westminster tradition) distinguish <strong>immensity</strong> (God's essence considered absolutely, unbounded by space) from <strong>omnipresence</strong> or <em>ubiquity</em> (God's essence considered in relation to created space, present to all of it). Calvin does not draw that distinction here, and you should not import it into his text; but knowing it prevents the common error of reading S5 as if it were a claim about God being spread out everywhere — which is precisely the pantheist claim of S2 that Calvin is refuting. <em>Immensity</em> denies measurement; it does not assert extension.</p><p><strong>Reception, and the honest ranking.</strong> (1) <strong>S12–S14, accommodation</strong> — the strongest and by far the most influential thing in the section; it is the standard reference point for Calvin's doctrine of revelation, and its balance (true speech, lowered register, real knowledge, real cost) has held up under a great deal of scrutiny. (2) <strong>S5, the division of labour</strong> — clean, and it structures the section well, though it presupposes rather than proves the two attributes; the proof was Chapters 10–11 and the argument from Scripture's own reticence in S4. (3) <strong>S9, against dualism</strong> — a real argument, one sentence, and decisive only if the attributes are granted. (4) <strong>S2–S3, against Stoicism</strong> — restatement plus a metaphor, not a refutation; the refutation is at I.5.5. (5) <strong>S10</strong> — rhetoric. Notice, too, what §1 does <strong>not</strong> do: it offers no Scripture citations at all in Beveridge's text, even though it is entirely a claim about <code>the doctrine of Scripture</code>. The proof-texts are assumed from Chapters 10–12 and supplied by the reader; Period 7 supplies them for you.</p><p><strong>The bridge to tomorrow.</strong> §1 has cleared the essence of pantheism and of body. §2 turns the corner and states the thesis of the entire chapter: <code>But there is **another special mark** by which he designates himself, for the purpose of giving a more intimate knowledge of his nature. While he proclaims his **unity**, he distinctly sets it before us as existing in **three persons**.</code> Then, immediately, the guard against the two errors that will haunt §§2–20 — <code>lest any one should dream of a **threefold God**, or think that the simple essence is **divided** by the three Persons</code> — and the first technical argument of the chapter, from <strong>Heb. 1:3</strong>, <code>the express image of his person</code>. Note the verb in §2's warning: <code>**dream**</code>. The same verb as today's <code>dreamed of a corporeal God</code>. Calvin has just spent §1 teaching you that a wrong idea of the essence is a dream — and tomorrow he will apply the word to a wrong idea of the <strong>Trinity</strong>. The doorstep was built for that step.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>§1 quotes no Scripture and cites no verse — Beveridge's text has one parenthesis in it and it is <strong>Seneca</strong>. But the section is titled <code>The **doctrine of Scripture** concerning…</code>, so every claim in it is a claim about texts. Here are the texts Calvin is standing on. Know them; the section is unintelligible without them.</p><ol>
+<li><strong>John 4:24 — under <code>the spirituality of the essence of God</code> (S1, S5, S11–S13).</strong> πνεῦμα ὁ θεός, καὶ τοὺς προσκυνοῦντας αὐτὸν ἐν πνεύματι καὶ ἀληθείᾳ δεῖ προσκυνεῖν — <em>God is a Spirit: and they that worship him must worship him in spirit and in truth</em>. Calvin's use: <strong>the</strong> proof text for attribute two, and note that in John it is stated <strong>as a premise about worship</strong> — which is why it belongs immediately after Chapters 11–12. ⚠️ The anarthrous πνεῦμα is predicative: <em>God is spirit</em>, a statement of <strong>what kind of being</strong>, not <em>a spirit</em> among spirits.</li>
+<li><strong>Jer. 23:24 — under <code>he fills the earth also</code> (S7).</strong> הֲלוֹא אֶת־הַשָּׁמַיִם וְאֶת־הָאָרֶץ אֲנִי מָלֵא נְאֻם־יְהוָה — <em>Do not I fill heaven and earth? saith the LORD</em>. Calvin's use: the immensity text, and the direct warrant for S7's concession. Note the verse's context — it is aimed at the man who thinks he can <strong>hide</strong>, which is exactly the pastoral point of immensity.</li>
+<li><strong>1 Kings 8:27 (‖ 2 Chr. 2:6, 6:18) — under <code>incomprehensible</code> and <code>heaven as his dwelling-place</code> (S6–S7).</strong> הִנֵּה הַשָּׁמַיִם וּשְׁמֵי הַשָּׁמַיִם לֹא יְכַלְכְּלוּךָ — <em>behold, the heaven and heaven of heavens cannot contain thee</em>. Calvin's use: this single verse holds S6 and S7 together. Solomon says it <strong>in the act of dedicating a house for God to dwell in</strong> — the heaven-idiom and its qualification in one prayer. That is accommodation demonstrated in the Old Testament before Calvin explains it.</li>
+<li><strong>Isa. 66:1 — under <code>represents heaven as his dwelling-place</code> (S6).</strong> הַשָּׁמַיִם כִּסְאִי וְהָאָרֶץ הֲדֹם רַגְלָי — <em>The heaven is my throne, and the earth is my footstool: where is the house that ye build unto me?</em> Calvin's use: heaven-language given <strong>and then used against confinement</strong> — the idiom disowns the inference the moment it is drawn.</li>
+<li><strong>Isa. 40:12, 18, 25 — under <code>deter us from measuring him by our sense</code> (S5).</strong> מִי־מָדַד בְּשָׁעֳלוֹ מַיִם — <em>Who hath </em><em>measured</em><em> the waters in the hollow of his hand?</em> … <em>To whom then will ye </em><em>liken</em><em> God? or what likeness will ye compare unto him?</em> Calvin's use: the perfect pair for S5, because Isaiah joins <strong>measuring</strong> and <strong>likening</strong> in one passage — the two prohibitions of S5's two arms, from one prophet.</li>
+<li><strong>Deut. 4:12, 15–16 — under <code>carnal or earthly speculation</code> and the Anthropomorphites (S5, S11).</strong> קוֹל דְּבָרִים אַתֶּם שֹׁמְעִים וּתְמוּנָה אֵינְכֶם רֹאִים — <em>ye heard the voice of the words, but </em><em>saw no similitude</em><em>… take ye therefore good heed unto yourselves; for ye saw no manner of similitude on the day that the LORD spake unto you</em>. Calvin's use: the foundation text of I.11 on images, and here the scriptural refutation of a <strong>corporeal</strong> God — the ban on likeness is grounded in the fact that there <strong>was</strong> no visible form.</li>
+<li><strong>1 Tim. 1:17; 6:16; Exod. 33:20; John 1:18 — under <code>spiritual nature</code> (S5, S11).</strong> τῷ … ἀοράτῳ μόνῳ θεῷ — <em>unto the King eternal, immortal, </em><em>invisible</em><em><em>; </em>whom no man hath seen, nor can see</em>; <em>thou canst not see my face: for there shall no man see me, and live</em>; θεὸν οὐδεὶς ἑώρακεν πώποτε. Calvin's use: the cumulative New Testament witness that the divine essence is not an object of sight — hence not a body.</li>
+<li><strong>Ps. 34:15; Isa. 59:1; Ps. 18:8; Gen. 3:8; Exod. 33:22–23 — the texts the Anthropomorphites relied on (S11).</strong> <em>The </em><em>eyes</em><em> of the LORD are upon the righteous, and his </em><em>ears</em><em> are open unto their cry</em>; <em>neither his </em><em>ear</em><em> heavy</em>; <em>there went up a smoke out of his </em><em>nostrils</em><strong>; <em>they heard the <strong>voice</strong> of the LORD God <strong>walking</strong> in the garden<em>; </em>thou shalt see my **back parts</em></strong>. Calvin's use: he does not cite them, but S11 names the whole class (<code>mouth, ears, eyes, hands, and feet</code>), and these are the verses in the dock. ⚠️ Notice that Calvin's answer does not delete a single one of them; the nurse still speaks.</li>
+<li><strong>Num. 11:12; Isa. 49:15; 66:13; Deut. 1:31; Hos. 11:1–4 — the </strong>nurse<strong> image, and Scripture's own use of it (S12).</strong> כַּאֲשֶׁר יִשָּׂא הָאֹמֵן אֶת־הַיֹּנֵק — <em>as a </em><em>nursing father</em><em> beareth the sucking child</em>; <em>can a woman forget her sucking child…?</em>; <em>as one whom his mother comforteth</em>; <em>the LORD thy God bare thee, as a man doth bear his son</em>; <em>I taught Ephraim to go, taking them by their arms</em>. Calvin's use: this is why the nurse image is not an arbitrary illustration. ⚠️ <strong>Scripture describes God's own dealing with his people in exactly these terms</strong> — so when Calvin says God <code>lisps with us as nurses are wont to do</code>, he is not inventing a comparison, he is generalising one the Bible has already made about itself.</li>
+<li><strong>1 Cor. 3:19; 1:20; Col. 2:8 — under <code>the subtleties of a profane philosophy</code> (S1).</strong> ἡ γὰρ σοφία τοῦ κόσμου τούτου μωρία παρὰ τῷ θεῷ — <em>the wisdom of this world is foolishness with God</em>; <em>hath not God made foolish the wisdom of this world?</em>; <em>beware lest any man spoil you through </em><em>philosophy</em><em> and vain deceit</em>. Calvin's use: warrant for calling philosophy <code>profane</code> without further argument, and the same Pauline register as Rom. 1:22, which drove I.4.1 (Day 9).</li>
+<li><strong>Rom. 1:20–23 — under both targets of S1 (S1–S3, S11).</strong> τά τε ἀΐδιος αὐτοῦ δύναμις καὶ θειότης … <strong>ἤλλαξαν</strong> τὴν δόξαν τοῦ ἀφθάρτου θεοῦ <strong>ἐν ὁμοιώματι εἰκόνος φθαρτοῦ ἀνθρώπου</strong> — <em>changed the glory of the uncorruptible God into an image made like to corruptible </em><em>man</em><em><em>. Calvin's use: the master text of Book 1 and the exact charge of the Anthropomorphites in Paul's own words. ⚠️ Paul names the same substitution twice over: the </em>vulgar</em> who make images (S1's first target) and the wise who <code>became fools</code> (S1's second) are one story in Rom. 1.</li>
+<li><strong>Acts 17:24–25, 28 — under S6–S7.</strong> οὐκ ἐν χειροποιήτοις ναοῖς κατοικεῖ … οὐδὲ ὑπὸ χειρῶν ἀνθρωπίνων θεραπεύεται — <em>dwelleth not in temples made with hands, neither is worshipped with men's hands</em>, and yet <em>in him we live, and move, and have our being</em>. Calvin's use: Paul at Athens holds <strong>both</strong> halves of S7 together in front of a Stoic audience — the very audience of S2. ⚠️ Note the danger Calvin is steering past: v. 28 is the verse a pantheist would seize, and Calvin quoted it approvingly at I.5.3 (Day 15). <em>In him we live</em> is not <em>he is in everything</em>.</li>
+<li><strong>Isa. 55:8–9 — under <code>the bounds of soberness</code> (S4).</strong> כִּי־גָבְהוּ שָׁמַיִם מֵאָרֶץ כֵּן גָּבְהוּ דְרָכַי מִדַּרְכֵיכֶם — <em>for as the heavens are higher than the earth, so are my ways higher than your ways</em>. Calvin's use: the scriptural form of <code>his proper height</code> (S14) — and note that Isaiah states the distance <strong>in order to invite</strong>, as Calvin states the stoop in order to explain revelation.</li>
+<li><strong>Deut. 29:29 — under <code>treats sparingly of his essence</code> (S4).</strong> הַנִּסְתָּרֹת לַיהוָה אֱלֹהֵינוּ וְהַנִּגְלֹת לָנוּ — <em>the secret things belong unto the LORD our God: but those things which are revealed belong unto us</em>. Calvin's use: the charter of <em>sobrietas</em>, and the reason reticence is not a defect in Scripture but a design.</li>
+</ol><p><strong>How Calvin uses Scripture here:</strong> by <strong>presupposition</strong>, not citation. §1 is the only kind of section in Book 1 that quotes no verse — and that is deliberate, because its whole claim is about what Scripture's teaching <strong>is</strong>, a claim he has spent Chapters 10–12 establishing text by text. Watch the consequence for the argument's shape: the four errors are refuted <strong>not by proof-texts</strong> but by measuring them against two attributes already in evidence. That is why the refutations are so short. And it is why S12's nurse — the one image in the section — has to carry so much: it is the only thing in §1 that <em>shows</em> rather than <em>asserts</em>.</p><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① Grammar — which underlined part is wrong?</h3><blockquote>
+<p>The doctrine of Scripture concerning the immensity and the spirituality of the essence of God should have the effect ⓐ <strong>not only of dissipating the wild dreams of the vulgar, but also refuting</strong> the subtleties of a profane philosophy. This, assuredly, ⓑ <strong>was both to destroy his unity and restrict</strong> his immensity. Their attempt to pervert certain passages of Scripture proved their shameful ignorance, ⓒ <strong>as the very nature of the error did</strong> their monstrous infatuation. Such modes of expression ⓓ <strong>do not so much express what kind of a being God is, as accommodate</strong> the knowledge of him to our feebleness.</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답 · Answer: ⓐ.</strong> The correlative <code>not only X but also Y</code> requires <strong>identical arms</strong>. Arm 1 is <code>**of** dissipating…</code>, a prepositional phrase governed by <code>the effect</code>; arm 2 must therefore also be <code>**of** refuting…</code>. As printed, <code>but also refuting</code> is a bare gerund with nothing to attach it to — the parallel is broken. Correct: <code>not only **of** dissipating … but also **of** refuting</code>. ⓑ is <strong>right</strong>: <code>both to destroy … and ‹to› restrict</code> shares one <code>to</code> across two infinitives, which is permitted — the rule is consistency <strong>within</strong> the pair, and here neither arm repeats it. ⓒ is <strong>right</strong>: <code>did</code> is a <strong>pro-verb</strong> replacing the elided <code>proved</code>, and past tense correctly tracks the elided verb. ⓓ is <strong>right</strong>: <code>not so much A **as** B</code> is fixed, and both arms are bare infinitives sharing the auxiliary <code>do</code>. <strong>Exam-setter's rationale:</strong> the three correct options are three <em>different</em> legitimate ways of not repeating something — a shared <code>to</code>, an elided verb, a shared auxiliary — and the wrong option is a case where the shared word <strong>must</strong> be repeated because each arm needs its own governor. That is the whole lesson: <strong>ellipsis is legal when one word can reach both arms; it is illegal when it cannot.</strong> Ask of every gap: <em>can the missing word actually govern the second arm from where it sits?</em> In ⓑ, <code>to</code> reaches <code>restrict</code>. In ⓒ, the pattern of <code>proved</code> reaches the second clause. In ⓓ, <code>do</code> reaches <code>accommodate</code>. In ⓐ, <code>the effect</code> cannot reach <code>refuting</code> without a second <code>of</code>.</p><h3>② Comprehension — which statement is TRUE according to the passage?</h3><p>(A) Calvin teaches that God dwells in heaven and, being incomprehensible, is therefore not present on the earth.
+(B) Calvin holds that Scripture's bodily language conveys no knowledge of God, since its only function is to accommodate itself to our weakness.
+(C) Calvin says that the ascription of mouth, ears, eyes, hands and feet to God is God's baby-talk with us — a way of speaking whose office is less to state what kind of being God is than to fit the knowledge of him to our weakness, and which therefore requires him to stoop far below his own height.
+(D) Calvin argues that because God treats his essence so sparingly in Scripture, the two attributes of immensity and spirituality are insufficient to restrain the human mind, which must be curbed by the Law instead.</p><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답 · Answer: (C).</strong> S12 + S13 + S14 in sequence: <code>God, in so speaking, **lisps with us as nurses are wont to do with little children**</code> … <code>do **not so much** express what kind of a being God is, **as** accommodate the knowledge of him to our feebleness</code> … <code>he **must, of course, stoop far below his proper height**</code>. <strong>Exam-setter's rationale:</strong> (A) is the <strong>direction-flip</strong> on S6–S7 and the easiest mark to lose if you stop reading at S6. S7 says the opposite in five words — <code>he **fills the earth also**</code> — and it derives that from <code>incomprehensible</code> rather than against it, because the word means <strong>uncontainable</strong>. The heaven-idiom has a purpose clause attached (<code>that he may shake off our sluggishness</code>) and the purpose concerns <strong>us</strong>. (B) is the <strong>over-reach</strong> on S13, and it is today's most attractive wrong answer because it sounds like a sophisticated reading of accommodation. <code>Not so much A **as** B</code> <strong>ranks</strong>; it does not deny A. And S13 states in its own words that what is accommodated is <code>**the knowledge of him**</code> — knowledge is present, sized to us; the option's <em>no knowledge</em> contradicts the clause it claims to summarise. (D) inverts S4 twice over: Calvin says that <strong>although</strong> God treats his essence sparingly, <code>**still**, by the two attributes … he **at once suppresses** all gross imaginations, **and checks** the audacity of the human mind</code> — the attributes are stated to be <strong>sufficient</strong>, and the sparingness is their setting, not an objection to them. The Law is not mentioned in this section at all; that clause is imported from Chapter 12.</p><h3>③ Composition — apply Formulas 1, 2 and 3</h3><p>Translate, using <strong><code>not only of V-ing … but also of V-ing</code></strong> and <strong><code>at once … and</code></strong> for the first pair, <strong><code>deter X from V-ing</code> / <code>forbid X to V</code></strong> and <strong><code>not so much A as B</code></strong> for the second, and the <strong>pro-verb <code>did</code> after <code>as</code></strong> plus <strong>purpose <code>that … may</code></strong> for the last:</p><p><em>(1) 이 교리는 대중의 몽상을 흩을 뿐 아니라 철학의 궤변을 논박하는 효과도 가져야 한다. 그 두 속성이 동시에 모든 조야한 상상을 억누르고 인간 정신의 주제넘음을 제어한다. (2) 그의 불측성은 우리가 감각으로 그를 재는 것을 막고, 그의 영적 본성은 우리가 육적 사변에 탐닉하는 것을 금한다. 그런 표현들은 그가 어떤 분이신지를 말한다기보다 우리의 연약함에 지식을 맞추는 것이다. (3) 그들의 왜곡 시도가 그들의 무지를 드러냈듯, 그 오류의 본질 자체가 그들의 어리석음을 드러냈다. 그분은 우리의 나태를 떨쳐 버리시려고 우리를 들어 올리신다.</em></p><blockquote>
+<p><strong>모범답안 · Model:</strong> <em>This doctrine should have the effect not only of dissipating the dreams of the vulgar, but also of refuting the subtleties of philosophy. The two attributes at once suppress all gross imaginations, and check the audacity of the human mind. His immensity deters us from measuring him by our sense, while his spiritual nature forbids us to indulge in carnal speculation. Such modes of expression do not so much express what kind of a being he is, as accommodate the knowledge of him to our feebleness. Their attempt to pervert the passages proved their ignorance, as the very nature of the error did their folly. He raises us above the world that he may shake off our sluggishness.</em>
+<strong>채점 포인트:</strong> ① the <strong>second <code>of</code></strong> must be written — <code>but also **of** refuting</code>; omit it and you have reproduced the error of item ①. ② <code>at once</code> must be followed by <strong>two coordinated verbs</strong> (<code>suppress … and check</code>) and must not be doubled. ③ ⚠️ <strong>the two columns must not be swapped</strong>: <code>deter us **from measuring**</code> (<code>from</code> + gerund) against <code>forbids us **to indulge**</code> (<code>to</code> + infinitive). Writing <em>deter us to measure</em> or <em>forbids us from indulging</em> costs the whole mark. ④ <code>not so much … **as** accommodate</code> — ⚠️ <strong><code>as</code>, never <code>than</code></strong>, and both arms bare infinitives under <code>do</code>. ⑤ <code>as the very nature of the error **did** their folly</code> — the pro-verb alone, with <strong>no lexical verb</strong> after it; writing <em>did prove</em> or <em>proved</em> loses the construction, and writing <em>made</em> changes the claim. ⑥ <code>**that he may** shake off</code> — a purpose clause; check that <code>shake off</code> has its <strong>own object</strong> (<code>our sluggishness</code>), which is what proves the <code>that</code> is not a relative. Bonus mark for <code>**by our sense**</code> singular rather than <em>by our senses</em>.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> The Trinity chapter opens by clearing the room. <code>The doctrine of Scripture concerning the **immensity** and the **spirituality** of the essence of God, should have the effect **not only of** dissipating the wild dreams of **the vulgar**, **but also of** refuting the **subtleties of a profane philosophy**</code> (S1) — two attributes, two targets, and then four corpses. Seneca <code>**thought he spake shrewdly**</code> in saying <code>everything we see and everything we do not see is God</code> (S2), <code>**fancied** that the Divinity was **transfused** into every separate portion of the world</code> (S3) — a liquid, therefore divisible, therefore measured. <code>**But although** God … **treats sparingly of** his essence, **still** … he **at once** suppresses all **gross** imaginations, **and** checks the **audacity** of the human mind</code> (S4). The division of labour, and the key to the section: <code>His **immensity** … ought to **deter us from measuring** him **by our sense**, **while** his **spiritual nature forbids us to indulge** in **carnal** or earthly speculation</code> (S5). <code>**With the same view**</code> — for the same purpose — <code>he frequently **represents** heaven as his **dwelling-place**</code> (S6); <code>**It is true, indeed, that** as he is **incomprehensible**, he **fills the earth also**, **but** … he raises us above the worlds **that he may** shake off our **sluggishness**</code> (S7) — the heaven-idiom is a lift for <strong>us</strong>, not a location for him. Then the Manichees: <code>**two first principles**</code> made the devil <code>**almost the equal** of God</code> (S8), which <code>was **both to destroy his unity and restrict his immensity**</code> (S9) — <strong>immensity is the blade</strong> — and the sneer that follows the blow, <code>their attempt to pervert … **proved** their shameful ignorance, **as** the very nature of the error **did** their **monstrous infatuation**</code> (S10). Then the Anthropomorphites, whose evidence Calvin states fairly (<code>**because** mouth, ears, eyes, hands, and feet, are often **ascribed** to him</code>) before he answers it (S11) — and the answer is not contempt but a nurse: <code>who is **so devoid of intellect as not to** understand that God, **in so speaking**, **lisps with us as nurses are wont to do** with little children?</code> (S12). <code>Such modes of expression, therefore, do **not so much** express **what kind of a being God is**, **as accommodate the knowledge of him to our feebleness**</code> (S13) — ⚠️ a <strong>ranking</strong>, not a denial; there <strong>is</strong> knowledge, and it has been sized. <code>**In doing so, he must, of course, stoop far below his proper height**</code> (S14). <strong>Spirituality kills the body-mongers, immensity kills the dualists, and the God who cannot be measured chooses to babble.</strong></p><p><strong>Grammar, the three to carry out of here.</strong> ① <strong>Correlatives and the law of matching arms</strong> — <code>not only **of** V-ing … but also **of** V-ing</code> with the preposition <strong>repeated</strong> (S1, ⚠️ item ①), against <code>**at once** V and V</code> (S4, = <em>both … and</em>, <strong>not</strong> <em>immediately</em>), <code>**both to** V and ‹to› V</code> with the <code>to</code> <strong>shared</strong> (S9), <code>although … **still**</code> (S4) and <code>**It is true, indeed, that** … but</code> (S7). The test for every gap: <em>can the missing word reach the second arm from where it sits?</em> ② <strong>The <code>as</code> of degree, and the two complement columns</strong> — <code>**so** ADJ **as not to** V</code> inside a rhetorical question = <em>everyone does</em> (S12); <code>**not so much** A **as** B</code> = <em>B rather than A</em>, ⚠️⚠️ <strong>never a denial of A</strong> and ⚠️ never with <em>than</em> (S13); and the columns that must not be swapped, <code>deter/prevent/prohibit/hinder X **from** V-**ing**</code> against <code>forbid/allow/compel X **to** V</code> (S5). ③ <strong>Ellipsis after <code>as</code>, and the <code>that</code> that is not a relative</strong> — the pro-verb <code>**did**</code> standing in for <code>proved</code> (S10) and <code>are wont to **do**</code> standing in for <code>lisp</code> (S12), with the form of <em>do</em> tracking the <strong>elided</strong> verb's tense; and <code>he raises us above the worlds **that he may** shake off…</code> (S7), a <strong>purpose</strong> clause, proved to be one by the fact that <code>shake off</code> already has its object — <strong>no gap, no relative</strong>.</p><p><strong>Homework (10 min).</strong></p><ol>
+<li><strong>구조 복원.</strong> First, take <strong>S11</strong> and bracket it on paper: mark the subject, draw a box round the relative clause, draw a second box round the <code>because</code>-clause <strong>inside</strong> it, and then draw an arrow from the subject to the main verb <code>are easily refuted</code>. Answer in one line: <em>which verb does the <code>because</code>-clause modify, and what changes if you attach it to the wrong one?</em> Second, take <strong>S10</strong> and write the elided verb <strong>above</strong> the word <code>did</code>; then write out the two-row table (proving-agent → thing proved) in full. Third, take <strong>S7</strong> and rewrite the purpose clause as <code>so that he may…</code>, then explain in one line <strong>why</strong> <code>that</code> cannot be a relative pronoun here — your answer must use the word <em>gap</em>.</li>
+<li><strong>영작.</strong> Using <strong>Formula 1</strong>, write one sentence with <code>not only of V-ing … but also of V-ing</code> (both <code>of</code>s present) and one with <code>at once V and V</code>. Using <strong>Formula 2</strong>, write one sentence containing <strong>both</strong> <code>deter X from V-ing</code> <strong>and</strong> <code>forbid X to V</code>, then one of the form <code>A does not so much X as Y</code> — and check that your sentence would be <strong>false</strong> if you translated it as <em>A does not X</em>. Using <strong>Formula 3</strong>, write a sentence whose second clause ends in a bare pro-verb <code>did</code> with an object after it and no lexical verb.</li>
+<li><strong>내일 예습 한 줄.</strong> Tomorrow is <strong>Book 1, Chapter 13, §2</strong> — the turn from clearing the ground to laying the foundation. It opens <code>**But there is another special mark by which he designates himself**</code>, and that mark is this: <code>While he proclaims his **unity**, he distinctly sets it before us as existing in **three persons**.</code> Then comes the first technical argument of the chapter, from <strong>Heb. 1:3</strong> — <code>the express image of his **person**</code> — and with it the vocabulary you will live in for the next fortnight: <em>hypostasis, subsistence, substance, persona, πρόσωπον</em>. Ask yourself tonight: today Calvin said that the words of Scripture about God are a nurse's baby-talk, fitted to our feebleness. Tomorrow he will insist on a <strong>technical term that is not in Scripture at all</strong>. How can the man who wrote S13 defend <code>Person</code>? (Hint: re-read S13 and notice what it says the idioms are <strong>not so much</strong> doing. If accommodation explains the <em>homely</em> language, what explains the need for the <em>precise</em> language?)</li>
+</ol><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 13, §1 끝. 다음은 <strong>Book 1, Ch. 13, §2</strong> (Day 76) — <em>In this one essence are three persons; meaning of the word</em> Person <em>in this discussion; three hypostases in God.</em></p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
