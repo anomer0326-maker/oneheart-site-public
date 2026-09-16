@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 삼위일체 하나님 §6 (1권 13장 · Day 80) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 13장 §6(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 80. 연관 성구: 요한복음 1, 히브리서 1, 요한복음 10, 요한복음 5."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day80_Book1-Ch13-%C2%A76.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="삼위일체 하나님 §6 — 기독교 강요 영어로 읽기 (Day 80)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 13장 §6(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 80. 연관 성구: 요한복음 1, 히브리서 1, 요한복음 10, 요한복음 5."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day80_Book1-Ch13-%C2%A76.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 삼위일체 하나님 §6 (1권 13장 · Day 80) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 13장 §6(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 80. 연관 성구: 요한복음 1, 히브리서 1, 요한복음 10, 요한복음 5.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 13장 §6 — 삼위일체 하나님","mentions":[{"@type":"CreativeWork","name":"요한복음 1 (John 1)"},{"@type":"CreativeWork","name":"히브리서 1 (Heb 1)"},{"@type":"CreativeWork","name":"요한복음 10 (John 10)"},{"@type":"CreativeWork","name":"요한복음 5 (John 5)"},{"@type":"CreativeWork","name":"고린도전서 2 (1 Cor 2)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day80_Book1-Ch13-%C2%A76.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 80 — Book 1, Chapter 13, §6<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (⚠️ invariable) — 11 sentences</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl2" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl2" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl3" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl1" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl3" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl1" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl2" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl1" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl3" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl2" href="#S11" onclick="closeNavMobile()">S11</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 80 — Book 1, Chapter 13, §6</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Four days ago, in §2, Calvin used the word <em>person</em> and did not tell you what it meant. He wrote an IOU. Yesterday he spent thirty-three sentences telling you not to fight about words. Today, sentence one, he cashes the IOU and closes the word-fight in the same breath: <code>But to say nothing more of words, let us now attend to the thing signified.</code> And then — sentence two — the most-quoted definition in the whole chapter, the sentence every Reformed dogmatics for four centuries has copied out: <code>By person, then, I mean a subsistence in the Divine essence,—a subsistence which, while related to the other two, is distinguished from them by incommunicable properties.</code> Underline it. Memorise it. <strong>If you take one sentence from Book 1 into an exam, take this one.</strong></p><p>Now look at the <em>shape</em> of the section, because the shape is the lesson. Eleven sentences. <strong>S2 is a definition in three parts</strong> — (i) <em>a subsistence in the Divine essence</em>, (ii) <em>related to the other two</em>, (iii) <em>distinguished from them by incommunicable properties</em> — and <strong>S3–S10 gloss those three parts in exactly that order.</strong> S3–S6: what <em>subsistence</em> is (≠ essence, proved from John 1:1). S7–S9: what <em>related</em> means (the name <em>God</em> said absolutely belongs to all three; said <em>comparatively</em> — Father against Son — the property distinguishes). S10: what <em>incommunicable</em> means (a mark of the Father cannot be transferred to the Son). Then S11 borrows Tertullian's older word, <em>economy</em>, and fences it with a <code>provided</code>. <strong>A definition, then its own commentary, clause by clause.</strong> Read it as a diagram and you will never lose your place.</p><p>Grammatically, today is <strong>the day of definition and the day of the mixed conditional</strong>. <code>By X I mean Y</code> and <code>By X we wish Y to be understood than Z</code> — two frames for defining a term, one active, one passive-infinitive. Then the sentence the examiners love: <code>if the Word **were** God simply and **had not** some property peculiar to himself, John **could not have said** correctly…</code> — a present-unreal protasis wired to a past-unreal apodosis. Then two frontings: <code>**hence arises** that subsistence</code> (verb before subject) and <code>**whatever is proper to each** I affirm to be incommunicable</code> (object before subject). Three frames, one section.</p><p>One warning about the page. <strong>Three page-break seams fall inside words</strong> (<code>indis-|soluble</code>, <code>distin-|guished</code>, <code>incom-|municable</code>), with a running header and two margin numbers wedged between them. All three are joined silently. Details in the text note. And one quotation is printed in <strong>curly quotes</strong> (<code>“that there is in God…”</code>) — quote as printed.</p><h3>Today's 3 Big Points</h3><ol>
+<li><strong>The definitional frame, twice: <code>By person, then, I mean a subsistence…</code> (S2) and <code>By subsistence we wish something else to be understood than essence</code> (S3).</strong> Frame A is <code>By X I mean Y</code> — the <em>definiendum</em> fronted in a <code>by</code>-phrase, the <em>definiens</em> as object of <code>mean</code>. You met the frame in §3 in an opponent's mouth (<code>if **by** foreign they mean…</code>); today it is Calvin's own. Frame B is the passive-infinitive version: <code>we wish Y **to be understood**</code> — <em>we want Y understood by it</em> — with the comparative tail <code>something else … **than** essence</code>. ⚠️ Period English says <code>something else **than**</code>; modern English says <em>other than</em> or <em>something different from</em>. Don't "correct" it and don't misread it: <strong><code>else … than</code> = <em>distinct from</em>.</strong> And watch the <strong>appositive restatement</strong> in S2: <code>a subsistence,**—a subsistence which**…</code> — Calvin names the genus, then repeats it to hang the differentia on. Formula 1.</li>
+<li><strong>The mixed counterfactual: <code>if the Word were God simply and had not some property peculiar to himself, John could not have said correctly that he had always been with God</code> (S4).</strong> ⚠️⚠️ Protasis in the <strong>present-unreal</strong> (<code>were</code>, <code>had not</code>) because it describes a <em>standing state</em> — what the Word is, timelessly. Apodosis in the <strong>past-unreal</strong> (<code>could not have said</code>) because it describes a <em>past act</em> — John writing his first verse. The tenses don't match and <strong>they are not supposed to</strong>: the condition is timeless, the consequence is dated. And the adverb: <code>could not have said **correctly**</code> = <em>could not have been correct in saying</em> — <code>correctly</code> scopes over the whole saying, not over the manner of writing. Formula 2. (Yesterday's <code>were</code> count: this is the fifth <code>were</code> in five days, and the first in a plain <code>if</code>-clause.)</li>
+<li><strong>Two frontings that put the weight up front: <code>hence arises that subsistence</code> (S6) and <code>whatever is proper to each I affirm to be incommunicable</code> (S10).</strong> (a) <code>**hence arises** that subsistence, which…</code> — verb–subject inversion after the fronted adverb <code>hence</code>, so the sentence can <em>deliver</em> its subject and then keep talking about it in a relative clause. Restore: <em>that subsistence arises from this</em>. (b) <code>**whatever is proper to each** I affirm to be incommunicable</code> — the object of <code>affirm</code> is the whole free relative <code>whatever is proper to each</code>, moved to the front; the base pattern is the <strong>5th-pattern accusative + infinitive</strong>: <em>I affirm [whatever is proper to each] [to be incommunicable]</em>. ⚠️ Read <code>whatever is proper to each I</code> as a run-on and the sentence has two subjects. Formula 3. Between them sits the <strong>concessive sandwich</strong> of S6: <code>which, **though** connected with the essence…, **being** incapable of separation, **yet** has a special mark</code> — <em>though … yet</em> wrapped around a participial aside.</li>
+</ol><p>Trap words I <em>will</em> test. <strong><code>simply</code></strong> (S4, S8) ⚠️⚠️⚠️ = <strong>absolutely, without qualification</strong> (<em>simplex</em>, one-fold) — <code>if the Word were God simply</code> = <em>if the Word were just "God" and nothing more specific</em>; <strong>never</strong> "easily", <strong>never</strong> "merely" in the dismissive sense. <strong><code>indefinitely</code></strong> (S8) ⚠️⚠️ = <strong>without a defining addition</strong> — <code>God mentioned simply and indefinitely</code> = <em>the bare name, not "God the Father"</em>; <strong>not</strong> "for ever". <strong><code>property</code></strong> (S2, S4, S9, S10) ⚠️⚠️ = <strong>a characteristic proper to one</strong> (<em>proprius</em>, one's own) — <strong>not</strong> real estate; and <strong><code>proper to</code></strong> (S10) = <em>belonging to as its own</em>. <strong><code>peculiar</code></strong> (S4, S9) = <strong>his own</strong> — the same word as yesterday, now the technical term. <strong><code>incommunicable</code></strong> (S2, S10) ⚠️⚠️ = <strong>that cannot be shared or transferred</strong> (<em>communicare</em>, to make common) — nothing to do with talking. <strong><code>person</code></strong> (S2) ⚠️ = Lat. <em>persona</em>, originally the actor's <strong>mask</strong>; Calvin's definition is written precisely to <em>empty</em> that etymology — a subsistence is not a role. <strong><code>subsistence</code></strong> (S2 ×2, S3, S6, S7) = <em>subsistentia</em>, the Latin calque of <strong>ὑπόστασις</strong> — a distinct <em>standing</em> in being. <strong><code>economy</code></strong> (S11) ⚠️⚠️⚠️ = Gk <strong>οἰκονομία</strong>, <em>arrangement, disposition</em> — <strong>not</strong> thrift, <strong>not</strong> money; Beveridge glosses it himself: <code>arrangement or economy</code>. <strong><code>mark</code></strong> (S6, S10) = <strong>distinguishing sign</strong> (Lat. <em>nota</em>). <strong><code>tie</code></strong> (S6) = <strong>bond</strong>. <strong><code>apply</code></strong> (S10) ⚠️ = <strong>be applicable</strong> — intransitive; <code>nothing can apply … to the Son</code> = <em>nothing is predicable of the Son</em>. <strong><code>attributed</code></strong> (S10) = <strong>ascribed</strong>. <strong><code>adopt</code></strong> (S11) = <strong>take over as one's own</strong> (<em>ad-</em> + <em>optare</em>, to choose). <strong><code>objections to adopt</code></strong> (S11) ⚠️ = period idiom, <code>objection</code> + <em>to</em>-infinitive; modern <em>objection to adopting</em>. <strong><code>makes no change on</code></strong> (S11) ⚠️ = period preposition; modern <em>makes no change in</em>. <strong><code>attend to</code></strong> (S1) = <strong>give attention to</strong>. <strong><code>signified</code></strong> (S1) = <strong>meant</strong> (<em>signum</em> + <em>facere</em>). <strong><code>correctly</code></strong> (S4) = <strong>rightly, with truth</strong>. <strong><code>indissoluble</code></strong> (S6) = <strong>that cannot be loosened</strong> (<em>dis-</em> + <em>solvere</em>). <strong><code>calls us back</code></strong> (S5) = <em>revocat</em> — <strong>brings us back</strong>. <strong><code>compared with</code></strong> (S9) = <strong>set beside</strong>.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (⚠️ invariable) — 11 sentences</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+6. <span class="ft-sent" data-s="S1" id="ft-S1" onclick="jumpToCard('S1')">But to say nothing more of words, let us now attend to the thing signified.</span> <span class="ft-sent" data-s="S2" id="ft-S2" onclick="jumpToCard('S2')">By person, then, I mean a subsistence in the Divine essence,—a subsistence which, while related to the other two, is distinguished from them by incommunicable properties.</span> <span class="ft-sent" data-s="S3" id="ft-S3" onclick="jumpToCard('S3')">By subsistence we wish something else to be understood than essence.</span> <span class="ft-sent" data-s="S4" id="ft-S4" onclick="jumpToCard('S4')">For if the Word were God simply and had not some property peculiar to himself, John could not have said correctly that he had always been with God.</span> <span class="ft-sent" data-s="S5" id="ft-S5" onclick="jumpToCard('S5')">When he adds immediately after, that the Word was God, he calls us back to the one essence.</span> <span class="ft-sent" data-s="S6" id="ft-S6" onclick="jumpToCard('S6')">But because he could not be with God without dwelling in the Father, hence arises that subsistence, which, though connected with the essence by an indissoluble tie, being incapable of separation, yet has a special mark by which it is distinguished from it.</span> <span class="ft-sent" data-s="S7" id="ft-S7" onclick="jumpToCard('S7')">Now, I say that each of the three subsistences while related to the others is distinguished by its own properties.</span> <span class="ft-sent" data-s="S8" id="ft-S8" onclick="jumpToCard('S8')">Here relation is distinctly expressed, because, when God is mentioned simply and indefinitely the name belongs not less to the Son and Spirit than to the Father.</span> <span class="ft-sent" data-s="S9" id="ft-S9" onclick="jumpToCard('S9')">But whenever the Father is compared with the Son, the peculiar property of each distinguishes the one from the other.</span> <span class="ft-sent" data-s="S10" id="ft-S10" onclick="jumpToCard('S10')">Again, whatever is proper to each I affirm to be incommunicable, because nothing can apply or be transferred to the Son which is attributed to the Father as a mark of distinction.</span> <span class="ft-sent" data-s="S11" id="ft-S11" onclick="jumpToCard('S11')">I have no objections to adopt the definition of Tertullian, provided it is properly understood, “that there is in God a certain arrangement or economy, which makes no change on the unity of essence.”—Tertull. Lib. contra Praxeam.</span>
+</blockquote><p><strong>Sentence count: 11 (S1–S11). One paragraph, four moves: pivot + definition (S1–S2) · <em>subsistence</em> (S3–S6) · <em>related</em> (S7–S9) · <em>incommunicable</em> (S10) · Tertullian (S11).</strong></p><blockquote>
+<p><strong>Text note (not a correction to the quotation).</strong> Four features of the printed page, all left exactly as they stand.
+(i) <strong>Three page-break seams fall inside words:</strong> <code>indis-</code> | <code>soluble</code> (S6), <code>distin-</code> | <code>guished</code> (S7), and <code>incom-</code> | <code>municable</code> (S10). Between the second and third the scan carries a page number (<code>119</code>) and the running chapter header (<code>CHAPTER 13. - THE UNITY OF THE DIVINE ESSENCE IN THREE PERSONS TAUGHT, IN…</code>); a margin number <code>115</code> sits beside S11. All are stripped; the three words are joined silently; nothing else is disturbed.
+(ii) <strong>S2 prints a comma followed by an em dash</strong> — <code>essence,—a subsistence</code> — the nineteenth-century <em>comma-dash</em>. Not two punctuation errors; one period convention. Quote both marks.
+(iii) <strong>S11 prints curly quotation marks</strong> (<code>“that there is in God … unity of essence.”</code>) and closes with an em-dash citation <code>—Tertull. Lib. contra Praxeam.</code> The citation is part of the printed sentence and is included in the quotation.
+(iv) <strong><code>I have no objections to adopt</code></strong> (S11) and <strong><code>makes no change on</code></strong> (S11) are period idiom — infinitive after <em>objection</em>, <em>on</em> for <em>in</em>. Not slips. Likewise <code>something else … than</code> (S3).</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>[PIVOT]       S1     "to say nothing more of WORDS" → "the THING signified"   (§5 closed)
+[DEFINITION]  S2     PERSON = (i) a SUBSISTENCE in the Divine essence
+                              (ii) RELATED to the other two
+                              (iii) DISTINGUISHED from them by INCOMMUNICABLE PROPERTIES
+              ─── the gloss follows the definition, clause by clause ───
+[(i) SUBSIST.] S3     subsistence ≠ essence
+[   PROOF   ]  S4     John 1:1b "WITH God" — IF the Word were God SIMPLY, John could NOT have said it
+               S5     John 1:1c "WAS God" — calls us BACK to the ONE essence
+               S6     "with God" = dwelling IN the Father ⇒ HENCE ARISES that subsistence:
+                      tied to the essence (indissoluble) — YET marked (a special mark)
+[(ii) RELATED] S7     each of the THREE, related to the others, distinguished by its OWN properties
+               S8     "God" said SIMPLY &amp; INDEFINITELY = belongs NOT LESS to Son &amp; Spirit than to Father
+               S9     Father COMPARED WITH Son = the PECULIAR PROPERTY distinguishes
+[(iii) INCOMM.] S10   whatever is PROPER to each = INCOMMUNICABLE: no mark of the Father TRANSFERS to the Son
+[WITNESS]      S11    Tertullian: "ARRANGEMENT or ECONOMY" in God — NO CHANGE on the UNITY of essence
+                      — PROVIDED it is properly understood
+</code></pre><p><strong>The engine, in one line:</strong> <strong>a person is a distinct <em>standing</em> inside one <em>being</em>, marked off from the other two by what it alone has.</strong> Everything else in the section defends the three words <em>subsistence</em>, <em>related</em>, <em>incommunicable</em> against the two errors of §4: against <strong>Sabellius</strong>, the subsistence is <code>something else … than essence</code> and has <code>a special mark</code> (S3, S6); against <strong>Arius</strong>, it is <code>connected with the essence by an indissoluble tie</code> and the name <em>God</em> belongs to it <code>not less</code> than to the Father (S6, S8). ⚠️ Watch how the proof runs <em>through a preposition</em>: John 1:1 says the Word was <strong>with</strong> God — and you cannot be <em>with</em> what you simply <em>are</em>. So <em>with</em> forces a distinction (S4); <em>was God</em> forces the unity (S5); and <em>with</em> = <em>in</em> (S6) forces the distinction to be internal, not spatial. <strong>Calvin's whole doctrine of the person is a reading of two Greek words: πρός and ἦν.</strong></p><p><strong>Examiner's Eye — five traps.</strong></p><ol>
+<li>⚠️⚠️⚠️ <strong>Subsistence ≠ essence, but subsistence is not <em>separable</em> from essence.</strong> S3 says <code>something else … than essence</code>; S6 says <code>connected with the essence by an indissoluble tie, being incapable of separation</code>. Both at once. An option reading <em>"a person is the divine essence considered under another name"</em> has dropped S3 (Sabellius); an option reading <em>"a person is a subsistence distinct and separable from the essence"</em> has dropped S6 (tritheism). <strong>Distinct, not divided</strong> — the exam will offer you each half as if it were the whole.</li>
+<li>⚠️⚠️ <strong><code>the name belongs not less to the Son and Spirit than to the Father</code> (S8) — no subordination in the bare name.</strong> When <em>God</em> is said <code>simply and indefinitely</code>, it is said of all three <em>equally</em>. An option reading <em>"the name God belongs properly to the Father and derivatively to the Son"</em> is a <strong>direction-flip</strong> of <code>not less</code>. The Father's priority appears only <code>whenever the Father is **compared with** the Son</code> (S9) — in the <em>relation</em>, not in the <em>name</em>.</li>
+<li>⚠️⚠️ <strong>S4 is about <code>with God</code>, not about <code>was God</code>.</strong> What John <code>could not have said correctly</code> if the Word were God <em>simply</em> is <code>that he had always been **with** God</code> (1:1b). The <code>was God</code> clause is S5, and it does the <em>opposite</em> job (<code>calls us back to the one essence</code>). An option that says <em>"if the Word had no property of his own, John could not have called him God"</em> has swapped the two halves of the verse.</li>
+<li>⚠️⚠️ <strong>Tertullian is adopted <em>with a condition</em> — <code>provided it is properly understood</code> (S11).</strong> Yesterday's lesson, again: never quote a Calvin concession without its <code>provided</code>. An option reading <em>"Calvin adopts Tertullian's definition of the persons as an economy in God"</em> is half-true; <em>"…without qualification"</em> is false; <em>"Calvin rejects Tertullian's economy because it would alter the unity"</em> is the direction-flip of <code>makes no change on the unity of essence</code>.</li>
+<li>⚠️⚠️ <strong><code>incommunicable</code> is said of the <em>marks</em>, not of the <em>essence</em> (S10).</strong> <code>whatever is proper to each</code> — i.e. <code>attributed to the Father **as a mark of distinction**</code> — cannot transfer. The <em>essence</em> is the one thing that <strong>is</strong> common. An option reading <em>"nothing that belongs to the Father belongs to the Son"</em> has over-reached the scope: deity belongs to both; <em>paternity</em> belongs to one.</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl2" data-lvl="2" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s2" title="2-star">★★</span><span class="s-label">to say nothing more of words … the thing signified — the pivot from §5 to §6, and a jussive let us</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p><strong><code>But to say nothing more of words, let us now attend to the thing signified.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf"><b> `</b>But**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to say</b> nothing more</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of words</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>let us</b> now <b>attend</b>.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to</b> the thing</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">⌀that is⌀ <b>signified</b></span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>attend</em> &lt; <em>ad-</em> + <em>tendere</em>, to stretch toward → <em>tend, tension, intend, extend</em>; <em>signified</em> &lt; <em>signum</em> (sign) + <em>facere</em> (make) → <em>signify, significant, sign</em>; <em>thing</em> &lt; OE <em>þing</em>, orig. an assembly, then the matter before it — cf. Icelandic <em>Alþingi</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>to say nothing (more) of X</em> = leaving X aside; <em>let us attend to X</em> = let us give our attention to X; <em>the thing signified</em> = the reality meant by the word.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But enough about words — let us now turn to the reality they stand for.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>to say nothing more of words</b> → enough about words</li><li><b>let us now attend to</b> → let us now turn to</li><li><b>the thing signified</b> → the reality they stand for.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">By person, then, I mean a subsistence in the Divine essence,—a subsistence which… — the definition; three parts, and the order of the whole section</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p><strong><code>By person, then, I mean a subsistence in the Divine essence,—a subsistence which, while related to the other two, is distinguished from them by incommunicable properties.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `, then</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>By</b> person</span></li></ul></li></ul></li><li><span class="leaf">I <b>mean</b></span></li><li><span class="leaf">a subsistence</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in</b> the Divine essence</span></li></ul></li></ul></li><li><span class="leaf">— a subsistence.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">부사절 (while)</span><span class="leaf"><b>while</b> ⌀it is⌀ related</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to</b> the other two</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>is distinguished</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>from</b> them</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>by</b> incommunicable properties</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>person</em> &lt; Lat. <em>persona</em>, an actor's mask (perh. Etruscan <em>phersu</em>) → <em>personal, impersonate, parson</em>; <em>subsistence</em> &lt; <em>sub-</em> + <em>sistere</em>, to cause to stand → <em>subsist, consist, insist, persist</em>; = Gk ὑπόστασις (ὑπό under + στάσις standing); <em>incommunicable</em> &lt; <em>in-</em> + <em>communicare</em>, to make common (<em>communis</em> &lt; <em>com-</em> + <em>munus</em>, duty shared) → <em>commune, communion, municipal</em>; <em>property</em> &lt; <em>proprietas</em> &lt; <em>proprius</em>, one's own → <em>proper, appropriate, propriety</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>by X I mean Y</em> = I use the word X to signify Y; <em>X,—X which</em> = X, that is, the X which (restated antecedent); <em>while related to</em> = even as it is related to; <em>distinguished from A by B</em> = set apart from A by means of B.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">By "person," then, I mean a distinct way of subsisting within the one divine being — one that, though it stands in relation to the other two, is set apart from them by characteristics that cannot be shared.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>By person, then, I mean</b> → by "person," then, I mean</li><li><b>a subsistence in the Divine essence</b> → a distinct way of subsisting within the one divine being</li><li><b>,—a subsistence which</b> → one that</li><li><b>while related to</b> → though it stands in relation to</li><li><b>incommunicable properties</b> → characteristics that cannot be shared.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s2" title="2-star">★★</span><span class="s-label">By subsistence we wish something else to be understood than essence — Frame B, the passive infinitive, and else … than</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p><strong><code>By subsistence we wish something else to be understood than essence.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>By</b> subsistence</span></li></ul></li></ul></li><li><span class="leaf">we <b>wish</b></span></li><li><span class="leaf">something else</span></li><li><span class="leaf"><b>to be understood</b></span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>than</b> essence</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>understood</em> &lt; OE <em>understandan</em>, to stand <em>among</em> (OE <em>under</em> = among, not beneath) → to grasp from within; <em>essence</em> &lt; <em>essentia</em> &lt; <em>esse</em>, to be — coined to calque οὐσία; <em>else</em> &lt; OE <em>elles</em>, otherwise — cognate with Lat. <em>alius</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>wish X to be understood (by Y)</em> = want X taken as the meaning of Y; <em>something else than X</em> = something other than X (period).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">By "subsistence" we mean something different from "essence."</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>we wish something else to be understood than</b> → we mean something different from</li><li><b>by subsistence</b> → by "subsistence".</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">if the Word were God simply and had not … John could not have said correctly — the mixed counterfactual, and the proof from a preposition</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p><strong><code>For if the Word were God simply and had not some property peculiar to himself, John could not have said correctly that he had always been with God.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>For**</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if</b> the Word <b>were</b> God simply</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and had not</b> some property</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">peculiar to himself</span></li></ul></li></ul></li></ul></li><li><span class="leaf">John <b>could not have said</b> correctly</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> he <b>had</b> always <b>been</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>with</b> God</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>simply</em> &lt; <em>simplex</em>, one-fold (<em>sem-</em> one + <em>plicare</em> fold) → <em>simplicity</em>; opp. <em>duplex, complex</em>; <em>property</em> &lt; <em>proprius</em>, one's own; <em>peculiar</em> &lt; <em>peculium</em>, private property (<em>pecus</em>, cattle) → <em>pecuniary</em>; <em>correctly</em> &lt; <em>cor-</em> + <em>regere</em>, to rule straight → <em>correct, rector, direct</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>if S were … and had not …, S could not have V-ed</em> = mixed counterfactual (timeless condition, past consequence); <em>God simply</em> = God without qualification; <em>a property peculiar to himself</em> = a characteristic of his own; <em>be with God</em> = John 1:1b, πρὸς τὸν θεόν.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">For if the Word were simply God, with no characteristic of his own, John could not rightly have said that he had always been with God.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>if the Word were God simply</b> → if the Word were simply God, without qualification</li><li><b>had not some property peculiar to himself</b> → had no characteristic of his own</li><li><b>could not have said correctly</b> → could not rightly have said</li><li><b>that he had always been with God</b> → that he had always been with God (πρός).</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s1" title="1-star">★</span><span class="s-label">he calls us back to the one essence — the other half of the verse, one job</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p><strong><code>When he adds immediately after, that the Word was God, he calls us back to the one essence.</code></strong></p>
+</blockquote><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p><strong>One point.</strong> <code>the Word **was** God</code> = John 1:1c, θεὸς ἦν ὁ λόγος; and <code>calls us back</code> (<em>revocat</em>) is the counter-motion to S4: 1:1b (<strong>with</strong>) pushed us toward distinction; 1:1c (<strong>was</strong>) pulls us <code>back to the one essence</code>. ⚠️ <code>adds immediately after</code> — the two clauses are neighbours in the verse, and Calvin reads their <em>order</em> as an argument: distinction, then unity, in one breath. If this were a test item, the trap is to assign <code>calls us back</code> to S4's <code>with</code>. <strong><code>with</code> distinguishes; <code>was</code> unites.</strong> Move on.</p></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">hence arises that subsistence, which, though …, being …, yet has a special mark — the inversion, the concessive sandwich, and with = in</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p><strong><code>But because he could not be with God without dwelling in the Father, hence arises that subsistence, which, though connected with the essence by an indissoluble tie, being incapable of separation, yet has a special mark by which it is distinguished from it.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf"><b> `</b>But**</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">이유절 (because)</span><span class="leaf"><b>because</b> he <b>could not be</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>with</b> God</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>without dwelling</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in</b> the Father</span></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>hence arises</b> that subsistence</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf"><b>though</b> ⌀it is⌀ <b>connected</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>with</b> the essence</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>by</b> an indissoluble tie</span></li></ul></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>being</b> incapable</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of separation</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>yet has</b> a special mark</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>by which</b> it <b>is distinguished</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>from</b> it</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>dwelling</em> &lt; OE <em>dwellan</em>, to linger, delay (cf. <em>dwell on</em>) — Lat. <em>manere</em>, John's μένειν; <em>indissoluble</em> &lt; <em>in-</em> + <em>dis-</em> + <em>solvere</em>, to loosen → <em>dissolve, solution, absolve</em>; <em>tie</em> &lt; OE <em>tēag</em>, a cord → <em>tug, tow</em>; <em>mark</em> &lt; OE <em>mearc</em>, a boundary sign → <em>march</em> (border), <em>remark</em>; <em>separation</em> &lt; <em>se-</em> (apart) + <em>parare</em>, to make ready → <em>separate, sever</em> (via OFr).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>not … without V-ing</em> = only by V-ing; <em>hence arises X</em> = from this X follows; <em>though V-ed …, yet V</em> = although …, nevertheless; <em>be distinguished from X by Y</em> = be set apart from X by Y.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But because the Word could be with God only by dwelling in the Father, this is where that distinct subsistence comes from — one that, although it is bound to the essence by an unbreakable bond and cannot be separated from it, nevertheless carries a distinguishing mark that sets it apart.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>could not be with God without dwelling in the Father</b> → could be with God only by dwelling in the Father</li><li><b>hence arises that subsistence</b> → this is where that distinct subsistence comes from</li><li><b>though connected with the essence by an indissoluble tie</b> → although it is bound to the essence by an unbreakable bond</li><li><b>being incapable of separation</b> → and cannot be separated from it</li><li><b>yet has a special mark</b> → nevertheless carries a distinguishing mark.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s1" title="1-star">★</span><span class="s-label">each of the three subsistences while related to the others is distinguished by its own properties — the definition restated in the plural</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p><strong><code>Now, I say that each of the three subsistences while related to the others is distinguished by its own properties.</code></strong></p>
+</blockquote><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p><strong>One point.</strong> This is <strong>S2 said three times over</strong>: <code>while related to the other two</code> → <code>while related to the others</code>; <code>incommunicable properties</code> → <code>its own properties</code>; and the singular <code>a subsistence</code> → <code>each of the three subsistences</code>. ⚠️ The <code>while</code> is again concessive-simultaneous, and the verb is singular (<code>each … is</code>) — <code>each</code> governs. <code>Now, I say</code> = <em>next, I assert</em> — the transition to part (ii) of the definition, <em>related</em>. Move on.</p></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the name belongs not less to the Son and Spirit than to the Father — relation explained by the bare name, and two adverbs</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p><strong><code>Here relation is distinctly expressed, because, when God is mentioned simply and indefinitely the name belongs not less to the Son and Spirit than to the Father.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `Here</span></li><li><span class="leaf">relation <b>is</b> distinctly <b>expressed</b></span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">이유절 (because)</span><span class="leaf"><b>because</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> God <b>is mentioned</b> simply and indefinitely</span></li></ul></li><li><span class="leaf">the name <b>belongs</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>not less</b> <b>than</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to</b> the Son and Spirit</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to</b> the Father</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>relation</em> &lt; <em>re-</em> + <em>latus</em> (pp. of <em>ferre</em>), carried back → <em>relate, refer, translate</em>; <em>indefinitely</em> &lt; <em>in-</em> + <em>de-</em> + <em>finis</em>, boundary → <em>define, finite, infinite</em>; <em>distinctly</em> &lt; <em>distinguere</em>, to prick apart → <em>distinct, instinct, extinct</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>relation is expressed</em> = the relative term is put in explicitly; <em>mentioned simply and indefinitely</em> = named absolutely, without qualifier; <em>not less to A than to B</em> = equally to A and B.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Here the relation is stated explicitly, because when "God" is spoken of on its own, without any qualifier, the name belongs just as much to the Son and the Spirit as to the Father.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>relation is distinctly expressed</b> → the relation is stated explicitly</li><li><b>mentioned simply and indefinitely</b> → spoken of on its own, without any qualifier</li><li><b>belongs not less to … than to</b> → belongs just as much to … as to.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s1" title="1-star">★</span><span class="s-label">whenever the Father is compared with the Son — the other case, and peculiar becomes the hinge</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p><strong><code>But whenever the Father is compared with the Son, the peculiar property of each distinguishes the one from the other.</code></strong></p>
+</blockquote><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p><strong>One point.</strong> S8 gave the <em>absolute</em> case (<code>God</code> alone → all three equally); S9 gives the <em>relative</em> case (<code>the Father **compared with** the Son</code> → <code>the peculiar property of each distinguishes</code>). ⚠️ <code>whenever</code> = <em>in every case in which</em> — generic; and <code>**peculiar** property</code> = <strong>his own</strong> property — Day 74's word, yesterday's <code>peculiar subsistence</code>, today's <code>property peculiar to himself</code> (S4), all one Latin <em>proprius</em>. <strong>The persons are distinguished only <em>in relation</em>; in the bare name they are not distinguished at all.</strong> That is Augustine's rule (<em>De Trin.</em> 5), and it is the entire content of "related" in S2.</p></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">whatever is proper to each I affirm to be incommunicable — the fronted object, the 5th-pattern infinitive, and the scope of incommunicable</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p><strong><code>Again, whatever is proper to each I affirm to be incommunicable, because nothing can apply or be transferred to the Son which is attributed to the Father as a mark of distinction.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `Again</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>whatever is proper</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to</b> each</span></li></ul></li></ul></li></ul></li><li><span class="leaf">I <b>affirm</b></span></li><li><span class="leaf"><b>to be</b> incommunicable</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">이유절 (because)</span><span class="leaf"><b>because</b> nothing <b>can apply</b></span></li><li><span class="lab ph">등위 (or)</span><span class="leaf"><b>or be transferred</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to</b> the Son</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which is attributed</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to</b> the Father</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>as</b> a mark of distinction</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>affirm</em> &lt; <em>ad-</em> + <em>firmare</em>, to make firm → <em>firm, confirm, infirmary</em>; <em>apply</em> &lt; <em>ad-</em> + <em>plicare</em>, to fold to → <em>applicable, pliant, imply</em>; <em>transfer</em> &lt; <em>trans-</em> + <em>ferre</em>, to carry across → <em>transfer, refer, fertile</em>; <em>attribute</em> &lt; <em>ad-</em> + <em>tribuere</em>, to assign (orig. by <em>tribus</em>, tribe) → <em>tribute, contribute, distribute</em>; <em>incommunicable</em> — see S2.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>whatever is proper to each I affirm to be X</em> = I declare all that is each one's own to be X (fronted object + acc.-inf.); <em>apply to X</em> (intr.) = be applicable to X; <em>attributed to X as Y</em> = ascribed to X in the capacity of Y.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Further, I maintain that whatever belongs to each person as its own cannot be shared — because nothing that is ascribed to the Father as a distinguishing mark can be applied or carried over to the Son.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>whatever is proper to each I affirm to be incommunicable</b> → I maintain that whatever belongs to each as its own cannot be shared</li><li><b>nothing can apply or be transferred to the Son which is attributed to the Father</b> → nothing that is ascribed to the Father can be applied or carried over to the Son</li><li><b>as a mark of distinction</b> → as a distinguishing mark.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s2" title="2-star">★★</span><span class="s-label">I have no objections to adopt … provided it is properly understood — Tertullian's economy, fenced</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p><strong><code>I have no objections to adopt the definition of Tertullian, provided it is properly understood, “that there is in God a certain arrangement or economy, which makes no change on the unity of essence.”—Tertull. Lib. contra Praxeam.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `I </b>have** no objections</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to adopt</b> the definition</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of Tertullian</span></li></ul></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>provided</b> it <b>is</b> properly <b>understood</b></span></li></ul></li><li><span class="leaf">“.”</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> there <b>is</b> a certain arrangement or economy</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in God</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which makes</b> no change</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>on</b> the unity of essence</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">— Tertull. Lib. contra Praxeam.`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>objection</em> &lt; <em>ob-</em> + <em>iacere</em>, to throw against → <em>object, reject, inject</em>; <em>adopt</em> &lt; <em>ad-</em> + <em>optare</em>, to choose → <em>option, opt</em>; <em>economy</em> &lt; Gk <em>oikos</em> (house) + <em>nemein</em> (to manage) → <em>ecology, ecumenical</em> (οἰκουμένη, the inhabited house); <em>arrangement</em> &lt; OFr <em>a-</em> + <em>rang</em>, rank → <em>range, rank, arrange</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>have no objections to V</em> = have no objection to V-ing (period); <em>provided it is properly understood</em> = on condition that it is taken in the right sense; <em>make no change on X</em> = leave X unchanged (period <em>on</em> = <em>in</em>).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I have no objection to adopting Tertullian's definition, provided it is understood correctly: that there is in God a certain arrangement, or "economy," which leaves the unity of the essence unchanged (Tertullian, <em>Against Praxeas</em>).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>no objections to adopt</b> → no objection to adopting</li><li><b>provided it is properly understood</b> → provided it is understood correctly</li><li><b>a certain arrangement or economy</b> → a certain arrangement, or "economy"</li><li><b>makes no change on the unity of essence</b> → leaves the unity of the essence unchanged.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — The definitional frame: <code>By X (, then,) I mean Y</code> / <code>By X we wish Y to be understood (than Z)</code> + the restated antecedent</h3><pre><code>FRAME A   By X, I mean Y.                       (S2)   ← definiendum in a by-phrase; definiens = object of "mean"
+FRAME B   By X we wish Y to be understood.      (S3)   ← wish + O + passive infinitive
+          … something else … than Z             (S3)   ← period "else … than" = "other than"
+RESTATE   a Y,—a Y which …                      (S2)   ← repeat the genus to pin the relative clause
+⚠️ "mean" = signify by the word, not "intend to do"
+⚠️ "else … than" is split by the infinitive; reconnect it — never "else … as"
+⚠️ the relative after ",—a Y" modifies Y, not the noun before the dash
+</code></pre><p><strong>Drill.</strong> <em>성령이라는 말로 나는 성부와 성자에게서 나오시는 한 실재를 뜻한다 — 성부·성자와 관계되면서도 그 고유한 출원(出源)으로 구별되는 실재.</em> → <strong>By Spirit, then, I mean a subsistence proceeding from the Father and the Son,—a subsistence which, while related to both, is distinguished from them by its own peculiar procession.</strong></p><h3>Formula 2 — The mixed counterfactual: <code>if S were … and had not …, S could not have V-ed</code></h3><pre><code>PROTASIS   if S were / had not …        ← present-unreal: a STANDING STATE (what a thing IS)
+APODOSIS   S could not have V-ed …      ← past-unreal: a DATED ACT (what someone DID/SAID)
+           … could not have said CORRECTLY that …   ← adverb scopes over the whole saying
+⚠️ do NOT "match" the tenses (if S had been … could not have) — that dates the nature
+⚠️ "correctly" = "with truth", modifying the assertion, not the manner
+⚠️ the reported clause keeps its back-shift: "that he HAD always BEEN with God"
+</code></pre><p><strong>Drill.</strong> <em>만일 성령이 단순히 하나님이시고 자기 고유의 것이 없으시다면, 바울은 성령이 하나님의 깊은 것을 통달하신다고 바르게 말할 수 없었을 것이다.</em> → <strong>For if the Spirit were God simply and had nothing peculiar to himself, Paul could not have said correctly that the Spirit searcheth the deep things of God.</strong></p><h3>Formula 3 — Fronting for weight: <code>hence arises X, which …</code> / <code>whatever is P I affirm to be Q</code></h3><pre><code>(a) INVERSION   hence ARISES that subsistence, which …   (S6)   ← adverb + V + S, so the relative can follow at once
+                restore: that subsistence arises hence
+(b) FRONTED O   [whatever is proper to each] I AFFIRM to be incommunicable   (S10)
+                restore: I affirm [whatever is proper to each] to be incommunicable   (5th pattern: V + O + to be + C)
+⚠️ (a) "arises" = follows as a conclusion, not "comes into being in time"
+⚠️ (b) one clause, one finite verb ("affirm"); "whatever … each" is the OBJECT, not a subject
+PLUS  the concessive sandwich in a relative:  which, THOUGH V-ed …, BEING adj …, YET V …   (S6)
+      ← the finite verb of the relative is the one after "yet"
+</code></pre><p><strong>Drill.</strong> <em>성부는 성자와 함께가 아니고서는 성부일 수 없으므로, 여기서 저 관계가 생겨난다. 그리고 각 위격에 고유한 것은 무엇이든 나는 다른 위격에 전달될 수 없다고 단언한다.</em> → <strong>Because the Father could not be the Father without the Son, hence arises that relation; and whatever is proper to each person I affirm to be incapable of transfer to another.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>attend to</strong> (S1)</td>
+<td>give attention to</td>
+<td><em>ad-</em> + <em>tendere</em>, stretch toward → <em>tend, intend, tension</em>. 주목하다</td>
+</tr>
+<tr>
+<td><strong>signified</strong> (S1)</td>
+<td>meant, denoted</td>
+<td><em>signum</em> + <em>facere</em> → <em>sign, significant</em>; <em>the thing signified</em> = <em>res</em>. 의미된 것</td>
+</tr>
+<tr>
+<td><strong>person</strong> (S2) ⚠️</td>
+<td>a subsistence (Calvin's sense)</td>
+<td><em>persona</em>, actor's <strong>mask</strong> — the definition exists to cancel the etymology. 위격</td>
+</tr>
+<tr>
+<td><strong>subsistence</strong> (S2, S3, S6, S7)</td>
+<td>a distinct standing in being = ὑπόστασις</td>
+<td><em>sub-</em> + <em>sistere</em>; calques <em>hypo-stasis</em> syllable for syllable → <em>subsist, consist, persist</em>. 실재/자립체</td>
+</tr>
+<tr>
+<td><strong>essence</strong> (S2, S3, S5, S6, S11)</td>
+<td>being, what a thing is = οὐσία</td>
+<td><em>esse</em>, to be → <em>essential</em>; coined to calque οὐσία. 본질</td>
+</tr>
+<tr>
+<td><strong>related</strong> (S2, S7) / <strong>relation</strong> (S8)</td>
+<td>standing in reference to</td>
+<td><em>re-</em> + <em>latus</em>, carried back → <em>refer, relate</em>. 관계된/관계</td>
+</tr>
+<tr>
+<td><strong>distinguished</strong> (S2, S6, S7)</td>
+<td>set apart</td>
+<td><em>distinguere</em>, prick apart → <em>distinct, instinct</em>. 구별된</td>
+</tr>
+<tr>
+<td><strong>incommunicable</strong> (S2, S10) ⚠️⚠️</td>
+<td>that cannot be shared or transferred</td>
+<td><em>in-</em> + <em>communicare</em>, make common (<em>com-</em> + <em>munus</em>). <strong>Not</strong> about speech. 전달 불가한</td>
+</tr>
+<tr>
+<td><strong>property</strong> (S2, S4, S9, S10) ⚠️⚠️</td>
+<td>a characteristic that is one's own</td>
+<td><em>proprius</em> → <em>proper, appropriate</em>. <strong>Not</strong> real estate. 고유성</td>
+</tr>
+<tr>
+<td><strong>proper to</strong> (S10)</td>
+<td>belonging to as its own</td>
+<td>same root; <em>proprium</em> = the technical term. ~에 고유한</td>
+</tr>
+<tr>
+<td><strong>peculiar</strong> (S4, S9)</td>
+<td>his own</td>
+<td><em>peculium</em>, private property (<em>pecus</em>) → <em>pecuniary</em>. Same Latin as <em>proper</em>. 고유한</td>
+</tr>
+<tr>
+<td><strong>simply</strong> (S4, S8) ⚠️⚠️⚠️</td>
+<td>absolutely, without qualification</td>
+<td><em>simplex</em>, one-fold; opp. <em>complex</em>. <strong>Not</strong> "easily/merely." 단순히(=무한정적으로)</td>
+</tr>
+<tr>
+<td><strong>indefinitely</strong> (S8) ⚠️⚠️</td>
+<td>without a defining addition</td>
+<td><em>in-</em> + <em>de-</em> + <em>finis</em> → <em>define, finite</em>. <strong>Not</strong> "for ever." 한정어 없이</td>
+</tr>
+<tr>
+<td><strong>correctly</strong> (S4)</td>
+<td>rightly, with truth</td>
+<td><em>cor-</em> + <em>regere</em>, rule straight → <em>direct, rector</em>. 바르게</td>
+</tr>
+<tr>
+<td><strong>calls us back</strong> (S5)</td>
+<td>brings us back (<em>revocat</em>)</td>
+<td><em>re-</em> + <em>vocare</em> → <em>revoke, vocation</em>. 되돌린다</td>
+</tr>
+<tr>
+<td><strong>dwelling</strong> (S6)</td>
+<td>abiding, remaining</td>
+<td>OE <em>dwellan</em>, linger; = John's μένειν. 거하는</td>
+</tr>
+<tr>
+<td><strong>indissoluble</strong> (S6)</td>
+<td>that cannot be loosened</td>
+<td><em>in-</em> + <em>dis-</em> + <em>solvere</em> → <em>dissolve, absolve</em>. 불가분의</td>
+</tr>
+<tr>
+<td><strong>tie</strong> (S6)</td>
+<td>bond</td>
+<td>OE <em>tēag</em>, cord → <em>tow, tug</em>. 결속</td>
+</tr>
+<tr>
+<td><strong>mark</strong> (S6, S10)</td>
+<td>distinguishing sign (<em>nota</em>)</td>
+<td>OE <em>mearc</em>, boundary → <em>march, remark</em>; cf. Heb. 1:3 χαρακτήρ. 표지</td>
+</tr>
+<tr>
+<td><strong>expressed</strong> (S8)</td>
+<td>put into words</td>
+<td><em>ex-</em> + <em>premere</em>, press out → <em>express, print</em>. 명시된</td>
+</tr>
+<tr>
+<td><strong>compared with</strong> (S9)</td>
+<td>set beside</td>
+<td><em>com-</em> + <em>par</em>, equal → <em>pair, peer, parity</em>. ~와 비교되어</td>
+</tr>
+<tr>
+<td><strong>affirm</strong> (S10)</td>
+<td>declare, assert</td>
+<td><em>ad-</em> + <em>firmare</em> → <em>firm, confirm</em>. 단언하다</td>
+</tr>
+<tr>
+<td><strong>apply</strong> (S10) ⚠️</td>
+<td>be applicable (intr.)</td>
+<td><em>ad-</em> + <em>plicare</em>, fold to → <em>pliant, imply</em>. 적용되다</td>
+</tr>
+<tr>
+<td><strong>transferred</strong> (S10)</td>
+<td>carried over</td>
+<td><em>trans-</em> + <em>ferre</em> → <em>refer, fertile</em>. 옮겨진</td>
+</tr>
+<tr>
+<td><strong>attributed</strong> (S10)</td>
+<td>ascribed</td>
+<td><em>ad-</em> + <em>tribuere</em>, assign → <em>tribute, contribute</em>. 돌려진</td>
+</tr>
+<tr>
+<td><strong>objections</strong> (S11)</td>
+<td>grounds of opposition</td>
+<td><em>ob-</em> + <em>iacere</em>, throw against → <em>object, reject</em>. 이의</td>
+</tr>
+<tr>
+<td><strong>adopt</strong> (S11)</td>
+<td>take as one's own</td>
+<td><em>ad-</em> + <em>optare</em>, choose → <em>option</em>. 채택하다</td>
+</tr>
+<tr>
+<td><strong>provided</strong> (S11) ⚠️</td>
+<td>on condition that</td>
+<td>yesterday's word; <strong>never</strong> "because." ~을 조건으로</td>
+</tr>
+<tr>
+<td><strong>arrangement</strong> (S11)</td>
+<td>disposition, ordering</td>
+<td>OFr <em>rang</em>, rank → <em>range, arrange</em>. 배치</td>
+</tr>
+<tr>
+<td><strong>economy</strong> (S11) ⚠️⚠️⚠️</td>
+<td>οἰκονομία, household-ordering</td>
+<td><em>oikos</em> + <em>nemein</em> → <em>ecology, ecumenical</em>. <strong>Not</strong> thrift. 경륜/배치</td>
+</tr>
+<tr>
+<td><strong>unity</strong> (S11)</td>
+<td>oneness</td>
+<td><em>unus</em> → <em>unit, union, unique</em>. 단일성</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>What §6 is, in the architecture.</strong> The chapter's synopsis: <em>After the definition of the term follows a definition and explanation of the thing meant by it.</em> §§2–5 defended the <em>word</em>; §6 defines the <em>thing</em>. And it is the hinge of the chapter: §§7–15 will prove the deity of Son and Spirit (the <em>unity</em> side), §§16–20 their distinction (the <em>related / incommunicable</em> side), §§21–29 the heresies. <strong>Everything downstream uses today's three terms.</strong> The definition — <em>Personam igitur voco subsistentiam in Dei essentia, quae ad alios relata, proprietate incommunicabili distinguitur</em> — stands in the <em>Institutes</em> from the 1539 edition onward, and became the standard Reformed definition: you will find it copied, nearly verbatim, in the seventeenth-century dogmaticians.</p><p><strong>1. Where the definition comes from, and what Calvin refused.</strong> Three older definitions were on the table. <strong>Boethius</strong> (<em>Contra Eutychen</em> 3, c. 512): <em>persona est naturae rationabilis individua substantia</em> — "an individual substance of a rational nature." The scholastic textbook standard; Aquinas discusses it at <em>ST</em> I q. 29. ⚠️ Calvin avoids it: <em>substantia</em> is yesterday's ambiguous word, and <em>individua</em> invites the picture of the essence <em>divided</em> among three. <strong>Richard of St Victor</strong> (<em>De Trinitate</em> 4.22, c. 1160): <em>divinae naturae incommunicabilis existentia</em> — "an incommunicable existence of the divine nature." ⚠️ <strong>This is Calvin's nearest source</strong>: the word <em>incommunicable</em> is Richard's, and <em>existentia</em> is the sister of <em>subsistentia</em>. <strong>Tertullian</strong> (S11): the <em>oikonomia / dispositio</em> — adopted, with the fence. So Calvin's definition is a <em>selection</em>: Richard's <em>incommunicable</em>, the Greek <em>hypostasis</em> Latinised as <em>subsistentia</em>, and Tertullian's <em>economy</em> under guard. <strong>Not an invention — an edit.</strong></p><p><strong>2. The Greek behind <code>subsistence</code> and <code>properties</code>.</strong> The Cappadocian settlement (Basil, <em>Ep.</em> 38, 214, 236; Gregory of Nazianzus, <em>Or.</em> 29–31): οὐσία is what is <em>common</em> (τὸ κοινόν), ὑπόστασις what is <em>particular</em> (τὸ ἴδιον), and each hypostasis is marked by its <strong>ἰδιώματα</strong> — its <em>distinguishing properties</em>: for the Father <em>unbegottenness</em> (ἀγεννησία), for the Son <em>begottenness</em> (γέννησις), for the Spirit <em>procession</em> (ἐκπόρευσις). Calvin's <code>incommunicable properties</code> (S2), <code>special mark</code> (S6), <code>its own properties</code> (S7), <code>peculiar property</code> (S9), <code>proper to each</code> (S10) are all this one Greek idea, ἰδιώματα, in five English dresses. ⚠️ Calvin does not <em>name</em> the properties here; §18 gives their <em>order</em> (Father the beginning, Son the wisdom, Spirit the power), §§23–25 their consequences. Do not import the names into §6; he is defining the <em>slot</em>, not filling it.</p><p><strong>3. Augustine and the rule of relation (S8–S9).</strong> <em>De Trinitate</em> 5.5–8 lays down the rule Calvin states in two sentences: whatever is said of God <em>ad se</em> (absolutely) is said of the whole Trinity and of each person <em>equally</em> — God, good, eternal, almighty; whatever is said <em>ad aliquid</em> (relatively) — Father, Son, begotten, unbegotten — distinguishes. S8 is <em>ad se</em> (<code>God mentioned simply and indefinitely … not less to the Son and Spirit than to the Father</code>); S9 is <em>ad aliquid</em> (<code>whenever the Father is **compared with** the Son</code>). ⚠️ This is also the root of Calvin's most controversial Trinitarian emphasis: because the name <em>God</em> belongs to the Son <em>not less</em> than to the Father, the Son is God <strong>of himself</strong> as to his essence (<em>autotheos</em>), begotten of the Father only as to his <em>person</em>. Caroli (1537) and Valentine Gentile (1558) both attacked him for it; Warfield's essay <em>Calvin's Doctrine of the Trinity</em> (1909) made it famous. §§23–25 will state it outright. <strong>Today's <code>not less</code> is the seed.</strong></p><p><strong>4. Tertullian's <em>economy</em>, and what the <code>provided</code> quarantines.</strong> <em>Adversus Praxean</em> 2 (c. 213): the <em>oikonomia</em> (Tertullian keeps the Greek, and glosses it <em>dispositio</em>) "distributes the unity into a trinity" — <em>unitatem in trinitatem disponit</em> — three "not in status but in degree, not in substance but in form, not in power but in aspect" (<em>non statu sed gradu, nec substantia sed forma, nec potestate sed specie</em>). ⚠️ <em>Gradus</em> — <em>degree</em> — is the phrase Calvin's <code>provided it is properly understood</code> fences off. Read as an <em>order</em> of the persons, it is orthodox and Calvin will affirm it (§18); read as a <em>ranking</em> of their deity, it is Arius. Calvin takes the <em>economy</em> (the internal disposition that leaves the essence one) and leaves the <em>degree</em> at the door. ⚠️ Note also what <em>economy</em> does <strong>not</strong> mean here: not the later theological sense of <em>economic Trinity</em> (God's works <em>toward us</em>, in creation and redemption, as against the <em>immanent</em> Trinity). Tertullian's <em>oikonomia</em> in this passage is precisely the <em>internal</em> arrangement. Don't read the twentieth-century pair back into S11.</p><p><strong>5. Afterlife — <em>person</em> under pressure.</strong> The word Calvin defined so carefully drifted. By the seventeenth century <em>person</em> began to mean a <em>centre of consciousness</em>; by the nineteenth it meant an <em>individual self</em>. Read S2 in that sense and you have three minds — tritheism. This is why <strong>Barth</strong> (<em>Church Dogmatics</em> I/1 §9) replaced <em>person</em> with <em>mode of being</em> (<em>Seinsweise</em>), and cited Calvin's definition as saying essentially what he meant: a <em>subsistence</em>, a distinct way the one God <em>is</em>, not a second ego. Rahner made the same move (<em>distinct manner of subsisting</em>). And the modern <em>social</em> Trinitarians (Moltmann, Zizioulas) went the other way, treating <em>person</em> as a relational self. ⚠️ Calvin is on Barth's side of that line, <em>and</em> he is not a modalist — S6's <code>special mark</code> and S10's <code>incommunicable</code> are exactly what modalism denies. <strong>Read him in his own terms: <em>subsistence</em> = <em>hypostasis</em>, not <em>personality</em>.</strong></p><p><strong>Over-reading guard-rail.</strong> ⚠️ Five limits.
+<strong>(a)</strong> <em>Subsistence</em> is <strong>not a part</strong> of the essence. <code>in the Divine essence</code> (S2) locates, it does not partition; <code>indissoluble tie, being incapable of separation</code> (S6) forbids the partition explicitly.
+<strong>(b)</strong> <code>dwelling in the Father</code> (S6) is <strong>not spatial</strong>. It renders John's <em>in</em> (1:18, 14:10); the Word is <em>with</em> God by being <em>in</em> him — a relation of being, not of place.
+<strong>(c)</strong> <code>relation</code> (S8) is a <strong>rule of predication</strong>, not (yet) the Thomist doctrine of <em>subsistent relations</em> — Calvin says the persons are distinguished <em>by properties</em> and that relation <em>is expressed</em> when they are compared; he does not say a person <em>is</em> a relation. Don't upgrade him to Aquinas.
+<strong>(d)</strong> <code>arises</code> (S6) is <strong>logical</strong>, not temporal. The subsistence does not <em>come into being</em>; it <em>follows</em> from the text.
+<strong>(e)</strong> <code>economy</code> (S11) is Tertullian's <em>internal disposition</em>, <strong>not</strong> the modern <em>economic Trinity</em>; and it is adopted <code>provided it is properly understood</code> — quote it with its fence.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li>
+<p><strong>John 1:1b — the whole of S4.</strong> <em>and the Word was </em><em>with</em><em> God</em> (<strong>καὶ ὁ λόγος ἦν πρὸς τὸν θεόν</strong>). ⚠️ <strong>How Calvin uses it:</strong> the preposition <strong>πρός</strong> with the accusative — <em>toward, in the presence of, face to face with</em> — cannot be predicated of a thing of itself. <em>You cannot be with what you simply are.</em> So <code>if the Word were God simply … John could not have said correctly that he had always been with God</code>. The imperfect <strong>ἦν</strong> is <code>had always been</code> — continuous, without beginning. <strong>One preposition carries the doctrine of the person; one imperfect carries its eternity.</strong></p>
+</li>
+<li>
+<p><strong>John 1:1c — the whole of S5.</strong> <em>and the Word </em><em>was God</em><strong> (</strong>καὶ θεὸς ἦν ὁ λόγος<strong>). ⚠️ The predicate </strong>θεός<strong> is anarthrous and fronted — <em>qualitative</em>: what the Word <em>was</em> is God, the very essence. Hence <code>he calls us back to the one essence</code>. Calvin reads the verse's </strong>order** as an argument: πρός (distinction), then θεός (unity), <code>immediately after</code>. Sabellius cannot have 1:1b; Arius cannot have 1:1c.</p>
+</li>
+<li>
+<p><strong>John 1:18 with John 14:10–11 — behind S6's <code>dwelling in the Father</code>.</strong> <em>the only begotten Son, which is </em><em>in the bosom</em><em> of the Father</em> (<strong>ὁ ὢν εἰς τὸν κόλπον τοῦ πατρός</strong>); <em>I am </em><em>in</em><em> the Father, and the Father </em><em>in</em><em> me</em> (<strong>ἐγὼ ἐν τῷ πατρὶ καὶ ὁ πατὴρ ἐν ἐμοί</strong>). ⚠️ Calvin turns 1:1's <em>with</em> into 1:18's <em>in</em>: <code>he could not be with God without dwelling in the Father</code>. The tradition's word for this mutual indwelling is <strong>περιχώρησις</strong>; Calvin does not use the word, but S6 is the thing. <strong>Withness for God is inwardness.</strong></p>
+</li>
+<li>
+<p><strong>Hebrews 1:3 — carried from §2, and it names S6's <code>special mark</code>.</strong> <em>the express image of his person</em> (<strong>χαρακτὴρ τῆς ὑποστάσεως αὐτοῦ</strong>). ⚠️ Two of today's words in one verse: <strong>ὑπόστασις</strong> = <code>subsistence</code> (S2, S3), and <strong>χαρακτήρ</strong> = an engraved <em>mark</em> — S6's <code>a special mark by which it is distinguished</code>. The Son is the <em>character</em> of the Father's <em>hypostasis</em>: the mark of a subsistence. Calvin settled the verse's meaning on Day 76; today the definition is built out of its two nouns.</p>
+</li>
+<li>
+<p><strong>1 John 1:2 with John 17:5 — the second witness to <code>always been with God</code>.</strong> <em>that eternal life, which was </em><em>with</em><em> the Father</em> (<strong>ἥτις ἦν πρὸς τὸν πατέρα</strong>); <em>the glory which I had </em><em>with thee</em><em> before the world was</em> (<strong>παρὰ σοί</strong>). ⚠️ Same πρός, same imperfect ἦν, in the same author — and παρά with the dative in 17:5 gives the <em>presence</em> sense unambiguously. Calvin cites only 1:1 in S4, but <code>always</code> (<em>semper</em>) is doing the work of 17:5's <em>before the world was</em>. <strong>Eternal withness = eternal distinction.</strong></p>
+</li>
+<li>
+<p><strong>Matthew 28:19 with 2 Corinthians 13:14 — the floor under S8.</strong> <em>in the </em><em>name</em><em> of the Father, and of the Son, and of the Holy Ghost</em> (<strong>εἰς τὸ ὄνομα</strong>, singular); <em>the grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Ghost</em>. ⚠️ <code>the name belongs not less to the Son and Spirit than to the Father</code> — one <em>name</em>, three named: the baptismal formula is the biblical form of S8's <code>not less … than</code>. Calvin will spend §§7–15 proving that <em>God</em> is predicated of Son and Spirit <em>simply</em>; S8 states the conclusion in advance. <strong>When you say just "God", you have said all three.</strong></p>
+</li>
+<li>
+<p><strong>John 5:26 with John 10:30 — the tension S9–S10 manages.</strong> <em>as the Father hath life </em><em>in himself</em><em>; so hath he given to the Son to have life in himself</em> (<strong>ζωὴν ἔχειν ἐν ἑαυτῷ</strong>); <em>I and my Father are one</em> (<strong>ἓν ἐσμεν</strong>, neuter — one <em>thing</em>, not one <em>person</em>). ⚠️ 10:30 is S8 (the same essence, the same name); 5:26 is S9–S10 (<em>hath given</em> = the Father's mark, <em>to have life in himself</em> = the Son's — <code>the peculiar property of each distinguishes the one from the other</code>, and what is the Father's <em>as giver</em> is <code>incommunicable</code>). Calvin's later exegesis of 5:26 (§§23–25) is where <code>not less</code> and <code>incommunicable</code> are reconciled: <strong>same life, different way of having it.</strong></p>
+</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① Grammar — which underlined part is wrong?</h3><blockquote>
+<p>ⓐ By person, then, <strong>I mean a subsistence</strong> in the Divine essence,—a subsistence which, while related to the other two, is distinguished from them by incommunicable properties.
+ⓑ For if the Word were God simply and had not some property peculiar to himself, John <strong>could not have said</strong> correctly that he had always been with God.
+ⓒ But because he could not be with God without dwelling in the Father, <strong>hence arises that subsistence</strong>, which yet has a special mark by which it is distinguished from it.
+ⓓ By subsistence we wish something else <strong>to be understood as</strong> essence.</p>
+</blockquote><p><strong>Answer: ⓓ.</strong></p><p><strong>출제 의도.</strong> Formula 1, Frame B: <code>something else … **than** essence</code>. The comparative <em>else</em> takes <em>than</em> (period) or <em>other than / different from</em> (modern); <code>as</code> turns the sentence into its opposite — <em>we want something else to be taken </em><em>as</em><em> essence</em> — i.e. that the subsistence <em>is</em> the essence, which is exactly Sabellius. ⚠️ The bait is the split: <code>else</code> and <code>than</code> are separated by <code>to be understood</code>, so students lose the pairing and reach for <code>as</code> from <em>understood as</em>. Reconnect <code>else … than</code>. Now check why the others stand. <strong>ⓐ</strong> is Frame A: <code>By X I mean Y</code> — <em>mean</em> = signify; the comma-dash restatement <code>,—a subsistence which</code> correctly pins the relative to <em>subsistence</em>, not <em>essence</em>. <strong>ⓑ</strong> is Formula 2: the mixed counterfactual — present-unreal protasis (<code>were … had not</code>), past-unreal apodosis (<code>could not have said</code>); <em>could not say</em> would date the consequence to now (John is not writing now), and <em>had been … could not have</em> would date the Word's nature. <strong>ⓒ</strong> is Formula 3(a): <code>hence **arises** that subsistence</code> — verb–subject inversion after the fronted adverb, singular verb agreeing with the delayed subject; <em>hence that subsistence arises</em> is also grammatical but forfeits the relative's immediate attachment.</p><h3>② Comprehension — which statement is TRUE according to the passage?</h3><blockquote>
+<p>ⓐ Calvin defines a <em>person</em> as the Divine essence itself considered under a different name, since subsistence and essence are ultimately the same.
+ⓑ Because John says the Word was <em>with</em> God, the Word must be a subsistence that can be separated from the divine essence.
+ⓒ A person is a subsistence in the one essence, related to the other two and distinguished from them by properties that cannot be transferred; and when <em>God</em> is named without qualification, the name belongs no less to the Son and the Spirit than to the Father.
+ⓓ Calvin rejects Tertullian's description of the persons as an <em>economy</em> in God, since any arrangement within God would alter the unity of the essence.</p>
+</blockquote><p><strong>Answer: ⓒ.</strong> (S2 <code>a subsistence in the Divine essence,—a subsistence which, while related to the other two, is distinguished from them by incommunicable properties</code>; S8 <code>the name belongs not less to the Son and Spirit than to the Father</code>.)</p><p><strong>출제 의도.</strong> Four options, four failure modes.
+- <strong>ⓐ is the Sabellian direction-flip on S3.</strong> <code>By subsistence we wish something else to be understood **than** essence</code> — the definition exists to deny that they are the same. An option that makes <em>person</em> a <em>name for the essence</em> has read <code>else … than</code> as <code>else … as</code> (Problem ①, ⓓ) and abolished the <code>special mark</code> of S6.
+- <strong>ⓑ is the tritheist over-reach on S4, and it catches the student who stops reading at S4.</strong> <code>with God</code> does force a distinction — but S6 fences it at once: <code>connected with the essence by an indissoluble tie, being incapable of separation</code>. <strong>Distinct, not separable.</strong> Any option with <em>separated</em> or <em>separable</em> in it is false to S6.
+- <strong>ⓒ is true</strong>, and note it needs <strong>both</strong> halves: the three-part definition (S2) <em>and</em> the equality of the bare name (S8). Drop S8 and you have left the door open to Arius; drop S2's <code>distinguished</code> and you have left it open to Sabellius.
+- <strong>ⓓ is the direction-flip on S11.</strong> <code>I have **no objections** to adopt the definition of Tertullian, **provided** it is properly understood</code> — and the definition itself says the economy <code>**makes no change** on the unity of essence</code>. ⓓ has reversed both the verdict (<em>rejects</em>) and the content (<em>would alter</em>). ⚠️ Yesterday's rule: <strong>the <code>provided</code> fences, it does not refuse.</strong></p><h3>③ Composition — apply Formulas 1, 2 and 3</h3><p>Render into Beveridge-style English, using <strong>all three</strong> of today's formulas:</p><blockquote>
+<p>"성령이라는 말로 나는 신적 본질 안에 있는 한 실재를 뜻한다 — 성부·성자와 관계되면서도 자기 고유의 특성으로 그들과 구별되는 실재. 만일 성령이 단순히 하나님이시고 자기에게 고유한 것이 없으시다면, 바울은 성령이 하나님의 깊은 것을 통달하신다고 바르게 말할 수 없었을 것이다. 여기서 저 구별이 생겨난다. 그리고 각 위격에 고유한 것은 무엇이든 나는 전달 불가능하다고 단언한다."</p>
+</blockquote><p><strong>Model answer:</strong></p><blockquote>
+<p><strong>By Spirit, then, I mean a subsistence in the Divine essence,—a subsistence which, while related to the Father and the Son, is distinguished from them by a property peculiar to himself. For if the Spirit were God simply and had not some property peculiar to himself, Paul could not have said correctly that the Spirit searcheth the deep things of God. Hence arises that distinction. And whatever is proper to each I affirm to be incommunicable.</strong></p>
+</blockquote><p><strong>출제 의도 및 채점 기준.</strong> Six things are being checked.
+1. <strong>Formula 1, Frame A — <code>By X, then, I mean Y,—a Y which…</code>.</strong> <code>**By** Spirit, then, **I mean** a subsistence…, **—a subsistence which**</code>. ⚠️ The restated antecedent is the mark of the frame; <em>a subsistence in the Divine essence which…</em> is grammatical and forfeits the point (and risks attaching the relative to <em>essence</em>). <code>while related to</code> must be kept — it carries the concessive-simultaneous sense.
+2. <strong>Formula 2 — <code>if S were … and had not …, S could not have V-ed correctly that …</code>.</strong> <code>**if** the Spirit **were** God simply **and had not** some property…, Paul **could not have said** correctly</code>. ⚠️ Three checks: <code>were</code> (not <em>was</em>, not <em>had been</em>); <code>had not</code> (parallel past subjunctive); <code>could not have said</code> (past-unreal apodosis — not <em>could not say</em>). And <code>correctly</code> after the verb, scoping over the assertion.
+3. <strong>Formula 3(a) — <code>hence arises X</code>.</strong> <code>**Hence arises** that distinction</code>. ⚠️ Verb before subject; <em>Hence that distinction arises</em> is acceptable but loses the Beveridge mark.
+4. <strong>Formula 3(b) — fronted object + accusative-infinitive.</strong> <code>**whatever is proper to each** I **affirm to be** incommunicable</code>. ⚠️ One finite verb (<em>affirm</em>); <code>whatever…</code> is the object, fronted; <code>to be</code> retained (<em>I affirm whatever is proper to each incommunicable</em> is not the frame).
+5. <strong>Vocabulary control.</strong> <code>subsistence</code> (not <em>substance</em> — yesterday's fault line), <code>Divine essence</code>, <code>peculiar</code>, <code>simply</code> (= absolutely), <code>proper to</code>, <code>incommunicable</code>, <code>searcheth the deep things of God</code> (1 Cor. 2:10, KJV form). ⚠️ <em>Person</em> may replace <em>Spirit</em> only in the frame slot; the definiens must say <em>subsistence</em>.
+6. <strong>Argumentative accuracy — heaviest.</strong> The proof-sentence must argue from a <strong>predicate that requires distinction</strong> (<code>searcheth the deep things of God</code> — the Spirit searching God, as the Word was <em>with</em> God), not from a predicate of unity; the <code>Hence</code> must draw the <em>distinction</em>, not the <em>essence</em>; and the last sentence must say <strong>incommunicable of the <em>proper</em></strong>, not of the essence. ⚠️ Write <em>whatever belongs to the Spirit I affirm to be incommunicable</em> without <em>proper to</em> and you have written option ⓑ's tritheism in another key.</p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> <code>To say nothing more of words</code>, Calvin turns to <code>the thing signified</code> (S1) and defines it: <strong><code>By person, then, I mean a subsistence in the Divine essence,—a subsistence which, while related to the other two, is distinguished from them by incommunicable properties</code></strong> (S2) — then glosses the three parts in order: <em>subsistence</em> is <code>something else … than essence</code> (S3), because if the Word <code>were God simply and had not some property peculiar to himself, John could not have said correctly that he had always been **with** God</code> (S4), while <code>the Word **was** God … calls us back to the one essence</code> (S5), so that from the Word's <code>dwelling in the Father</code> <strong><code>hence arises that subsistence</code></strong>, <code>connected with the essence by an indissoluble tie … yet</code> bearing <code>a special mark</code> (S6); <em>related</em> means that <code>each of the three subsistences while related to the others is distinguished by its own properties</code> (S7), the name <em>God</em> said <code>simply and indefinitely</code> belonging <code>not less to the Son and Spirit than to the Father</code> (S8), the <code>peculiar property of each</code> distinguishing only <code>whenever the Father is compared with the Son</code> (S9); and <em>incommunicable</em> means that <code>whatever is proper to each I affirm to be incommunicable</code>, since nothing <code>attributed to the Father as a mark of distinction</code> can transfer to the Son (S10) — all of which Tertullian's <code>arrangement or economy, which makes no change on the unity of essence</code> may name, <code>**provided** it is properly understood</code> (S11). <strong>One essence, three standings, each marked by what it alone has.</strong></p><p><strong>And the three grammar points, once more.</strong> ① <strong>The definitional frame</strong> — <code>**By** person, then, **I mean** a subsistence…, **—a subsistence which**…</code> (S2) and <code>**By** subsistence we **wish** something else **to be understood than** essence</code> (S3): definiendum in the <code>by</code>-phrase, definiens as object; <code>else … than</code> = <em>other than</em>; restate the genus to pin the relative. ② <strong>The mixed counterfactual</strong> — <code>if the Word **were** God simply and **had not** …, John **could not have said** correctly…</code> (S4): timeless condition, dated consequence; do not match the tenses; <code>correctly</code> scopes the saying. ③ <strong>Fronting for weight</strong> — <code>**hence arises** that subsistence, which, **though** …, **being** …, **yet has**…</code> (S6) and <code>**whatever is proper to each** I **affirm to be** incommunicable</code> (S10): inversion after <code>hence</code>; fronted object + accusative-infinitive; the finite verb of the relative is the one after <code>yet</code>. Plus five things to keep: <strong><code>simply</code> = absolutely, <code>indefinitely</code> = without a qualifier, <code>property</code> = what is one's own, <code>incommunicable</code> = unshareable, <code>economy</code> = οἰκονομία</strong>; <strong>distinct, not separable</strong> (S3 + S6); <strong><code>not less … than</code></strong> = equally (S8); <strong>the <code>as a mark of distinction</code> fence</strong> (S10); and <strong><code>provided</code></strong> on Tertullian (S11).</p><p><strong>Homework (10 minutes).</strong></p><ol>
+<li><strong>Structure restoration.</strong> Take <strong>S6</strong> and lay it out on five lines: the <code>because</code>-clause (with <code>not … without</code> restored as <em>only by</em>); <code>hence arises that subsistence</code> restored to subject–verb order; the <code>though</code>-concession with <em>it is</em> restored; the <code>being</code>-aside; and the <code>yet</code>-predicate with its <code>by which</code> relative and the final <code>it</code> replaced by its antecedent. Then say aloud which of the two heresies of §4 each half of the relative clause excludes. (Target for the last line: <em>yet [that subsistence] has a special mark by which it is distinguished from [the essence].</em>)</li>
+<li><strong>Composition.</strong> One sentence, English, containing (a) a <strong><code>By X I mean Y,—a Y which…</code></strong> frame and (b) a <strong>mixed counterfactual</strong> <code>if S were … S could not have V-ed</code>. <em>성자라는 말로 나는 아버지에게서 나신 한 실재를 뜻한다 — 아버지와 관계되면서도 그 나심으로 구별되는 실재; 만일 그가 단순히 하나님이시라면, 요한은 그가 아버지의 품 속에 계시다고 말할 수 없었을 것이다.</em> (Target shape: <strong>By Son I mean a subsistence begotten of the Father,—a subsistence which, while related to the Father, is distinguished from him by that begetting; for if he were God simply, John could not have said that he is in the bosom of the Father.</strong>)</li>
+<li><strong>Preview — §7, one line.</strong> Tomorrow the proofs begin, and Calvin tells you the order of the next nine sections in his first sentence: <code>**Before proceeding farther, it will be necessary to prove the divinity of the Son and the Holy Spirit. Thereafter, we shall see how they differ from each other.**</code> — <em>unity first, then distinction.</em> ⚠️ Watch three things. <strong>(i)</strong> <code>it **were** certainly most absurd to imagine</code> — the sixth <code>were</code> in six days, back in the <em>would be</em> sense of Day 76. <strong>(ii)</strong> The Word is not <code>a fleeting and evanescent voice, which is sent out into the air</code> — the anti-Arian reading of <em>Word</em> as <em>eternal wisdom</em>, <code>ever dwelling with God</code> (today's <code>dwelling</code>, S6, now in Prov. 8). <strong>(iii)</strong> <code>the inference is irresistible, that the Word was truly God</code> — from 1 Peter 1:11 (<em>the Spirit of Christ</em> in the prophets) to the Word's eternity: an argument from <em>whose Spirit</em> to <em>what Word</em>. <strong>Today he defined the person. Tomorrow he proves the persons are God.</strong></li>
+</ol><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 13, §6 끝. 다음은 Book 1, Ch. 13, §7 — "Proofs of the eternal Deity of the Son. The Son the λόγος of the Eternal Father, and, therefore, the Son Eternal God. Objection. Reply."</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>

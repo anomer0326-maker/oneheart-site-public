@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 삼위일체 하나님 §8 (1권 13장 · Day 82) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 13장 §8(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 82. 연관 성구: 야고보서 1, 요한복음 17, 미가 5, 잠언 8."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day82_Book1-Ch13-%C2%A78.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="삼위일체 하나님 §8 — 기독교 강요 영어로 읽기 (Day 82)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 13장 §8(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 82. 연관 성구: 야고보서 1, 요한복음 17, 미가 5, 잠언 8."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day82_Book1-Ch13-%C2%A78.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 삼위일체 하나님 §8 (1권 13장 · Day 82) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 13장 §8(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 82. 연관 성구: 야고보서 1, 요한복음 17, 미가 5, 잠언 8.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 13장 §8 — 삼위일체 하나님","mentions":[{"@type":"CreativeWork","name":"야고보서 1 (James 1)"},{"@type":"CreativeWork","name":"요한복음 17 (John 17)"},{"@type":"CreativeWork","name":"미가 5 (Mic 5)"},{"@type":"CreativeWork","name":"잠언 8 (Prov 8)"},{"@type":"CreativeWork","name":"요한복음 1 (John 1)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day82_Book1-Ch13-%C2%A78.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 82 — Book 1, Chapter 13, §8<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (⚠️ invariable) — 16 sentences</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl2" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl2" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl3" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl3" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl2" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl3" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl1" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl3" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl1" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl3" href="#S11" onclick="closeNavMobile()">S11</a><a class="toc-s lvl2" href="#S12" onclick="closeNavMobile()">S12</a><a class="toc-s lvl2" href="#S13" onclick="closeNavMobile()">S13</a><a class="toc-s lvl2" href="#S14" onclick="closeNavMobile()">S14</a><a class="toc-s lvl2" href="#S15" onclick="closeNavMobile()">S15</a><a class="toc-s lvl1" href="#S16" onclick="closeNavMobile()">S16</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 82 — Book 1, Chapter 13, §8</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday Calvin proved the Word is <strong>God</strong>. Today he proves the Word never <strong>began</strong>. And look at how he opens — it is one of the most quotable sentences in the whole chapter: <code>Here an outcry is made by certain men, who, while they dare not openly deny his divinity, secretly rob him of his eternity.</code> <strong>Underline <code>while</code> and underline <code>secretly</code>.</strong> That single sentence tells you the entire shape of the section: the opponent is not a frontal attacker. He is a <strong>thief</strong>. He leaves the word <em>divine</em> in place and walks off with the word <em>eternal</em>. ⚠️ And Calvin's judgement on that is not "they are wrong" but <code>Nothing, therefore, is **more intolerable**</code> (S6). <strong>Concede deity, steal eternity — that is the crime being tried today.</strong></p><p>Now look at the architecture, because it is unusually clean. <strong>Two arguments against the objection, in two movements.</strong> Movement one, S2–S6: <em>if the Word began, then God changed</em> — and God cannot change, James 1:17. Movement two, S7–S15: <em>the opponent's Genesis inference is a non-sequitur</em> — <strong>manifestation is not origination</strong>. And the hinge between them is six words long: <code>**This is the merest trifling.**</code> (S8). One short flat sentence in the middle of a section of long ones. <strong>That is not carelessness. That is contempt, deployed as punctuation.</strong></p><p>And notice what yesterday planted. §7's last sentence described the Word <code>as being **liable to no variation**</code> — I told you to watch it. Today that word is cashed out as a proof-text: <code>with whom is **no variableness**, neither shadow of turning</code> (James 1:17, S5). <strong>Calvin seeds tomorrow's evidence in today's last clause, then harvests it.</strong> Same with <code>manifested</code>: §7 S6 said <code>as Christ was **not yet manifested**</code>, and today S9 turns that very word into the logical principle that destroys the objection: <code>because a thing begins to be **manifested** at a certain time, it never existed previously</code> — <strong>no, it does not follow.</strong></p><p>Grammatically, today is <strong>the day of negation and inversion</strong>. Count them: <code>they **dare not** openly deny</code> (S1), <code>piety **does not** recognise or admit **any** name</code> (S4), <code>would **cease to be** true</code> (S5), <code>**Nothing** … is **more intolerable**</code> (S6), <code>**till then no** Word existed</code> (S7), <code>It does **not** surely follow … it **never** existed previously</code> (S9), <code>it was **without** beginning</code> (S12), <code>**No** certain period of time is defined</code> (S13), <code>**Nor is this omitted** by John</code> (S14). <strong>Nine sentences out of sixteen carry a negative, and one of them inverts.</strong> ⚠️ Every one of those is a place where a careless reader flips the direction of the argument, and the examiner knows it.</p><p>One warning about the page. <strong>Two page-break seams fall inside words</strong> (<code>di-|vinity</code> S1, <code>after-|wards</code> S6), and one word-boundary hyphen in S11 is a <strong>scan artifact</strong> (<code>the Word-was</code>). Details in the text note. No running headers or margin numbers fall inside this section — it sits clean on a single page.</p><h3>Today's 3 Big Points</h3><ol>
+<li><strong>The counterfactual with a past-tense protasis: <code>if S V-ed …, S' would V</code> — and the delayed appositive <code>that</code>-clause, three times.</strong> <code>**For if** any thing adventitious **took place**, the saying of James **would cease** to be true, **that** "every good gift…"</code> (S5). ⚠️⚠️ Two things at once. <strong>(i)</strong> <code>took place</code> is <strong>not</strong> a past narrative — it is the <strong>past subjunctive of an open hypothesis</strong>: <em>if anything adventitious were to take place</em>. The clue is the apodosis: <code>**would** cease</code>, not <em>ceased</em>. <strong>Protasis past + apodosis <code>would</code> = counterfactual, not history.</strong> Yesterday's <code>it were absurd</code> was the same subjunctive wearing a different coat; today it wears the ordinary past. <strong>(ii)</strong> Then the appositive: <code>**the saying of James** would cease to be true, **that** "every good gift…"</code> — the <code>that</code>-clause is in apposition to <code>the saying</code>, held back behind the whole predicate. Restore: <em>the saying of James that "every good gift…" would cease to be true</em>. ⚠️ <strong>Comma + <code>that</code> after an abstract noun = apposition, not a relative, and not a complement of <code>true</code>.</strong> Same shape twice more today, both with verbs of inferring: <code>It does not surely follow, **that** because…</code> (S9) and <code>We, therefore, again conclude, **that** the Word was eternally begotten</code> (S15). <strong>Third day running for this pattern. Own it.</strong> Formula 1.</li>
+<li><strong>Negation and its scope: where the <code>not</code> actually bites.</strong> ⚠️⚠️⚠️ Today's central sentence is S9, and it is a <strong>trap built out of one adverb</strong>: <code>It does **not surely** follow, that because a thing begins to be manifested at a certain time, it **never** existed previously.</code> <strong>(i)</strong> The negation attaches to <code>follow</code> — to <strong>the inference</strong>, not to its content. Calvin is not saying <em>the thing never existed</em>; he is saying <em>that conclusion does not follow</em>. <strong>(ii)</strong> <code>surely</code> = <strong>certainly</strong>, and Beveridge parks it inside the negation; read it as <em>it certainly does not follow</em>, not as the modern <em>it does not necessarily follow</em> (S10's <code>I draw a **very different** conclusion</code> settles it — he is not hedging, he is reversing). <strong>(iii)</strong> And the frame itself is a formula worth memorising: <code>**it does not follow, that because** A, **B**</code> = <em>A does not entail B</em>. Then stack the family: <code>Nothing … is **more intolerable than to** fancy</code> (S6) — a <strong>negative superlative</strong>, <em>the most intolerable thing of all is to fancy</em>; <code>**No** certain period of time **is defined**</code> (S13) — the negation is on <code>certain</code>, i.e. <em>no definite period is specified</em>, not <em>no time at all</em>; and <code>it was **without** beginning</code> (S12). Formula 2.</li>
+<li><strong>Negative inversion, and the <code>as … so</code> proportional for the second day running.</strong> <code>**Nor is this** omitted by John</code> (S14) ⚠️⚠️ — a fronted negative adverb <strong>forces subject–auxiliary inversion</strong>: <code>Nor **is this** omitted</code>, never <em>Nor this is omitted</em>. Restore: <em>And John does not omit this either.</em> The same rule governs <em>never have I</em>, <em>not only did he</em>, <em>scarcely had we</em>. <strong>This is Exam Problem ①.</strong> And beside it, the big correlative of S4: <code>**as** the names of God … began to be ascribed to him…, **so** piety does not recognise or admit any name which might indicate that a change had taken place</code>. ⚠️ Do <strong>not</strong> read the <code>as</code>-clause as <em>because</em>; it is the <strong>proportional</strong> — <em>just as A holds, so B holds</em> — and here it carries a concession inside it: Calvin <strong>grants</strong> the first half in order to bound the second. Yesterday's S19 was the same correlative doing the same job. Formula 3.</li>
+</ol><p>Trap words I <em>will</em> test. <strong><code>temerity</code></strong> (S3) ⚠️⚠️⚠️ = Lat. <strong>temeritas, reckless rashness</strong> — <code>with excessive temerity</code> = <em>with outrageous recklessness</em>. <strong>It is the opposite of timidity, which is exactly the word your eye wants.</strong> <strong><code>adventitious</code></strong> (S5) ⚠️⚠️⚠️ = <strong>coming from outside, accidentally added</strong> (<em>ad-</em> + <em>venire</em>, to come <strong>to</strong>) — <code>if any thing adventitious took place</code> = <em>if anything were added to God from outside</em>. <strong>Nothing to do with adventure.</strong> This is the technical word of the whole section: an <em>adventitious</em> property is one God did not always have. <strong><code>piety</code></strong> (S4) ⚠️⚠️ = <strong>godly reverence, right religion</strong> (<em>pietas</em>) — here nearly <em>the religious mind itself</em>; <code>piety does not recognise or admit</code> = <em>reverence refuses to allow</em>. Not sentimentality. <strong><code>fancy</code></strong> (S6) ⚠️⚠️ = <strong>a verb: to imagine, to suppose</strong> — <code>to fancy a beginning</code> = <em>to imagine a beginning</em>. Not a noun, not a whim, not liking. <strong><code>intimate</code></strong> (S7) ⚠️⚠️⚠️ = <strong>a verb: to indicate, to hint, to make known</strong> (<em>intimare</em> &lt; <em>intimus</em>, innermost) — <code>must be held to intimate</code> = <em>must be taken to imply</em>. <strong>Not the adjective.</strong> <strong><code>merest</code></strong> (S8) ⚠️⚠️ = <strong>superlative of <em>mere</em>: nothing but, pure and simple</strong> — <code>the merest trifling</code> = <em>sheer frivolity, nothing but trifling</em>. <strong>Not "smallest."</strong> <strong><code>trifling</code></strong> (S8) = here a <strong>noun/gerund</strong>, <em>frivolous talk</em> — yesterday (§7 S13) the same word was an adjective. <strong><code>acutely</code></strong> (S7) = <strong>sharply, shrewdly</strong> (<em>acutus</em>, sharpened) — and note it is <strong>ironic</strong>: <code>they **think** they argue acutely</code>. <strong><code>energy</code></strong> (S11) ⚠️⚠️ = Gk <strong>ἐνέργεια, active operation, working</strong> — <em>the Word's power in act</em>, not vigour or pep. <strong><code>exerted</code></strong> (S11) = <strong>put forth into action</strong> (<em>ex-</em> + <em>serere</em>, to put forth). <strong><code>contend</code></strong> (S2) = <strong>maintain in argument</strong> (<em>con-</em> + <em>tendere</em>, to strain). <strong><code>outcry</code></strong> (S1) = <strong>clamour, protest</strong> (<em>clamor</em>). <strong><code>have respect to</code></strong> (S4) = <strong>have reference to, relate to</strong> — not "respect" in the modern sense. <strong><code>descends to</code></strong> (S14) ⚠️ = <strong>comes down to (a topic) in the order of his narrative</strong> — not spatial, not condescension. <strong><code>from everlasting</code></strong> (S15) = <strong>from eternity</strong> (KJV <em>mē'ōlām</em>). <strong><code>variableness</code></strong> (S5) = <strong>changeableness</strong> (KJV for <strong>παραλλαγή</strong>). <strong><code>sacred mouth</code></strong> (S2) = <em>os sacrum</em> — Calvin using the opponent's own pious phrasing against him.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (⚠️ invariable) — 16 sentences</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+8. <span class="ft-sent" data-s="S1" id="ft-S1" onclick="jumpToCard('S1')">Here an outcry is made by certain men, who, while they dare not openly deny his divinity, secretly rob him of his eternity.</span> <span class="ft-sent" data-s="S2" id="ft-S2" onclick="jumpToCard('S2')">For they contend that the Word only began to be when God opened his sacred mouth in the creation of the world.</span> <span class="ft-sent" data-s="S3" id="ft-S3" onclick="jumpToCard('S3')">Thus, with excessive temerity, they imagine some change in the essence of God.</span> <span class="ft-sent" data-s="S4" id="ft-S4" onclick="jumpToCard('S4')">For as the names of God, which have respect to external work, began to be ascribed to him from the existence of the work (as when he is called the Creator of heaven and earth), so piety does not recognise or admit any name which might indicate that a change had taken place in God himself.</span> <span class="ft-sent" data-s="S5" id="ft-S5" onclick="jumpToCard('S5')">For if any thing adventitious took place, the saying of James would cease to be true, that “every good gift, and every perfect gift, is from above, and cometh down from the Father of lights, with whom is no variableness, neither shadow of turning,” (James 1:17).</span> <span class="ft-sent" data-s="S6" id="ft-S6" onclick="jumpToCard('S6')">Nothing, therefore, is more intolerable than to fancy a beginning to that Word which was always God, and afterwards was the Creator of the world.</span> <span class="ft-sent" data-s="S7" id="ft-S7" onclick="jumpToCard('S7')">But they think they argue acutely, in maintaining that Moses, when he says that God then spoke for the first time, must be held to intimate that till then no Word existed in him.</span> <span class="ft-sent" data-s="S8" id="ft-S8" onclick="jumpToCard('S8')">This is the merest trifling.</span> <span class="ft-sent" data-s="S9" id="ft-S9" onclick="jumpToCard('S9')">It does not surely follow, that because a thing begins to be manifested at a certain time, it never existed previously.</span> <span class="ft-sent" data-s="S10" id="ft-S10" onclick="jumpToCard('S10')">I draw a very different conclusion.</span> Since at the very moment when God said, “Let there be light,” the energy of the Word-was immediately exerted, it must have existed long before. <span class="ft-sent" data-s="S12" id="ft-S12" onclick="jumpToCard('S12')">If any inquire how long, he will find it was without beginning.</span> <span class="ft-sent" data-s="S13" id="ft-S13" onclick="jumpToCard('S13')">No certain period of time is defined, when he himself says, “Now O Father, glorify thou me with thine own self with the glory which I had with thee before the world was,” (John 17:5).</span> <span class="ft-sent" data-s="S14" id="ft-S14" onclick="jumpToCard('S14')">Nor is this omitted by John: for before he descends to the creation of the world, he says, that “in the beginning was the Word, and the Word was with God.”</span> <span class="ft-sent" data-s="S15" id="ft-S15" onclick="jumpToCard('S15')">We, therefore, again conclude, that the Word was eternally begotten by God, and dwelt with him from everlasting.</span> <span class="ft-sent" data-s="S16" id="ft-S16" onclick="jumpToCard('S16')">In this way, his true essence, his eternity, and divinity, are established.</span>
+</blockquote><p><strong>Sentence count: 16 (S1–S16). One paragraph, four moves: the charge (S1–S3) · argument A — <em>if the Word began, God changed</em> (S4–S6) · argument B — <em>the Genesis inference is a non-sequitur</em> (S7–S11) · the proof from eternity, and the conclusion (S12–S16).</strong></p><blockquote>
+<p><strong>Text note (not a correction to the quotation).</strong> Three features of the printed page, all left exactly as they stand.
+(i) <strong>Two page-break seams fall inside words:</strong> <code>di-</code> | <code>vinity</code> (S1) and <code>after-</code> | <code>wards</code> (S6). The two words are joined silently; nothing else is disturbed. ⚠️ Unlike §7, <strong>no page number, running header, or margin number falls inside §8</strong> — the section sits clean between the header above S1 and the start of §9.
+(ii) ⚠️⚠️ <strong>S11 prints <code>the energy of the Word-was immediately exerted</code></strong> — with a hyphen between <code>Word</code> and <code>was</code>. This is a <strong>scan artifact</strong>, a line-break hyphen dropped in the wrong place by the OCR, not Beveridge's punctuation. <strong>The quotation above reproduces the source file character-for-character, hyphen and all</strong>, because that is the rule; <strong>read it as <code>the energy of the Word was immediately exerted</code>.</strong> Nothing in the grammar of the sentence changes: <code>was … exerted</code> is the finite verb of the <code>Since</code>-clause and <code>the energy of the Word</code> is its subject. ⚠️ Do not let the hyphen make you read <code>Word-was</code> as a compound. There is no such compound.
+(iii) <strong>Quotation marks are curly, with the comma inside and the citation outside:</strong> <code>“…neither shadow of turning,” (James 1:17).</code> and <code>“…before the world was,” (John 17:5).</code> S14's John quotation ends with the period <strong>inside</strong> the closing mark: <code>“in the beginning was the Word, and the Word was with God.”</code> ⚠️ And <code>“Let there be light,”</code> (S11) <strong>is</strong> in quotation marks today — contrast §7 S9's <code>Let there be this—let there be that</code>, which was printed without them because it was paraphrase. <strong>Today it is a citation; yesterday it was a gesture.</strong> Nineteenth-century convention throughout. Reproduce as printed.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>[THE CHARGE]     S1    they DARE NOT deny his divinity — so they SECRETLY ROB him of his ETERNITY
+                 S2    the objection, precisely: the Word "ONLY BEGAN TO BE" at the creation-speech
+                 S3    ⇒ verdict: "with excessive TEMERITY, they imagine SOME CHANGE in the ESSENCE of God"
+                 ─── ARGUMENT A: if the Word began, GOD changed ───
+[CONCESSION]     S4a   names that "have respect to EXTERNAL WORK" DO begin with the work (Creator ✓)
+[LIMIT]          S4b   ⇒ SO piety admits NO name implying "a change had taken place IN GOD HIMSELF"
+[PROOF-TEXT]     S5    if anything ADVENTITIOUS took place ⇒ James 1:17 would CEASE TO BE TRUE
+                       "with whom is NO VARIABLENESS, neither shadow of turning"
+[VERDICT]        S6    "NOTHING… IS MORE INTOLERABLE THAN to fancy a beginning to that Word"
+                 ─── ARGUMENT B: the Genesis inference is a NON-SEQUITUR ───
+[THEIR MOVE]     S7    "they THINK they argue acutely": Moses says God spoke FIRST TIME
+                       ⇒ (they infer) "TILL THEN NO WORD EXISTED IN HIM"
+[DISMISSAL]      S8    "This is the merest trifling."                  ← six words. the hinge.
+[THE PRINCIPLE]  S9    ⚡ MANIFESTATION ≠ ORIGINATION
+                       "It does not surely follow, that because a thing begins to be MANIFESTED
+                        at a certain time, it NEVER EXISTED PREVIOUSLY"
+[REVERSAL]       S10   "I draw a VERY DIFFERENT conclusion."
+                 S11   the energy was exerted AT "Let there be light" ⇒ it "MUST HAVE EXISTED LONG BEFORE"
+                 ─── HOW LONG? ───
+[ANSWER]         S12   "If any inquire HOW LONG, he will find it was WITHOUT BEGINNING"
+[SCRIPTURE 1]    S13   "NO CERTAIN PERIOD is defined" — Jn 17:5 "the glory which I had with thee
+                       BEFORE THE WORLD WAS"
+[SCRIPTURE 2]    S14   "NOR IS THIS OMITTED BY JOHN" — BEFORE he descends to creation: Jn 1:1
+[CONCLUSION]     S15   ⇒ the Word "ETERNALLY BEGOTTEN by God, and DWELT with him FROM EVERLASTING"
+                 S16   ⇒ three things established: TRUE ESSENCE · ETERNITY · DIVINITY
+</code></pre><p><strong>The engine, in one line:</strong> <strong>the opponent turned yesterday's Genesis argument against Calvin, and Calvin turns it back by pointing out that <em>first spoken</em> is not <em>first existing</em>.</strong> Look at what S2 actually says: <code>the Word only began to be **when God opened his sacred mouth in the creation of the world**</code>. That is <strong>§7's own proof</strong> — <em>and God said, Let there be light</em> — picked up and reversed. Yesterday Calvin used the creation-speech to show there is a Word; today the objector uses it to show the Word starts there. ⚠️ <strong>That is why §8 must follow §7. Calvin is answering the objection his own argument creates.</strong> And the answer is beautifully economical: the speech <strong>exerts</strong> the Word's energy (S11), and a power that is exerted at a moment must have been there before the moment. <strong>Exertion presupposes existence.</strong></p><p>And notice the <strong>two-tier structure of the refutation</strong>, because the exam lives in the gap between them. Argument A (S4–S6) is about <strong>God</strong>: a beginning in the Word would be a change in the divine essence, and Scripture forbids that. Argument B (S7–S11) is about <strong>logic</strong>: even granting the Genesis text, the inference is invalid. ⚠️ <strong>A is theological, B is formal, and Calvin needs both</strong> — A alone would look like question-begging against a text, B alone would leave the doctrine of God untouched. <strong>Then S12–S14 supply the positive evidence, and S15–S16 total it up.</strong> Three moves: <em>you may not</em>, <em>you cannot</em>, <em>and here is what is actually the case</em>.</p><p>⚠️ One more thing, and it is the most easily missed sentence in the section. <strong>S4 contains a concession, and the concession is the whole reason the argument works.</strong> Calvin <strong>grants</strong> that some names of God <code>began to be ascribed to him from the existence of the work</code> — <code>as when he is called **the Creator of heaven and earth**</code>. <strong>God was not always called Creator.</strong> Calvin has no problem with that. What he denies is a name that would <code>indicate that **a change had taken place in God himself**</code>. <strong>The distinction is between a name that describes God's relation to something outside him and a name that describes what he is.</strong> <em>Creator</em> is the first kind. <em>Word</em> is the second. <strong>Miss this and S4 looks like a contradiction; catch it and the section is airtight.</strong></p><p><strong>Examiner's Eye — six traps.</strong></p><ol>
+<li>⚠️⚠️⚠️ <strong>S4 does NOT deny that God may be called Creator — it grants it.</strong> Read the parenthesis: <code>(as when he is called the Creator of heaven and earth)</code>. That is an <strong>example of the permitted class</strong>, not of the forbidden one. An option reading <em>"Calvin holds that God cannot properly be called the Creator of heaven and earth, since that name implies change"</em> has <strong>inverted the concession into the denial</strong>. The forbidden name is one which <code>might indicate that a change had taken place **in God himself**</code> — the last three words carry the whole restriction.</li>
+<li>⚠️⚠️⚠️ <strong>S9 denies the inference, not the content — and it is the opponents' conclusion that is being denied.</strong> <code>It does not surely follow, that because a thing begins to be manifested at a certain time, **it never existed previously**.</code> An option reading <em>"Calvin argues that a thing which begins to be manifested at a certain time never existed before"</em> has quoted the <strong>subordinate clause as if it were the assertion</strong>. ⚠️ The main clause is <code>It does not surely follow</code>. <strong>Everything after the comma is what does NOT follow.</strong> This is the single commonest way to fail this section.</li>
+<li>⚠️⚠️ <strong>S7 reports the opponents' reasoning, not Calvin's.</strong> <code>**But they think they argue acutely, in maintaining that** Moses … must be held to intimate that till then no Word existed in him.</code> Everything from <code>Moses</code> to <code>in him</code> is <strong>inside their claim</strong>, and <code>they think</code> is ironic. An option beginning <em>"Calvin infers from Moses that…"</em> has attributed the opponents' syllogism to Calvin. <strong>The giveaway is S8: <code>This is the merest trifling.</code></strong> You do not call your own argument trifling.</li>
+<li>⚠️⚠️ <strong>S13's <code>No certain period of time is defined</code> does not mean <em>no time is mentioned</em>.</strong> It means <strong>no definite span is specified</strong> — because the span is infinite. <code>certain</code> = <em>definite, fixed</em> (Lat. <em>certus</em>), not <em>some</em>. ⚠️ An option reading <em>"Calvin concedes that Scripture nowhere indicates when the Word existed"</em> has flipped a statement about <strong>the absence of a limit</strong> into a statement about <strong>the absence of evidence</strong> — and S12 has just said <code>he will find it was **without beginning**</code>. The lack of a boundary <strong>is</strong> the finding.</li>
+<li>⚠️⚠️ <strong><code>the energy of the Word … must have existed long before</code> (S11) is an inference from the exertion, not from the speech.</strong> The logic is: the energy <strong>was exerted</strong> at the moment of the command, therefore it <strong>pre-existed</strong> the moment. An option reading <em>"Calvin argues that the Word existed long before because Moses places the command at the beginning of the narrative"</em> has swapped a <strong>metaphysical</strong> premise for a <strong>textual</strong> one. ⚠️ And note <code>**long before**</code> is immediately corrected by S12 to <code>**without beginning**</code> — an option that leaves Calvin at <em>long before</em> has stopped one sentence too early.</li>
+<li>⚠️⚠️ <strong>The opponents in S1 are not deniers of Christ's divinity.</strong> <code>while they **dare not openly deny** his divinity, secretly rob him of his eternity</code>. They <strong>profess</strong> the deity. ⚠️ An option describing them as <em>"those who deny that the Word is God"</em> has misidentified the target — that was §§6–7's opponent. <strong>Today's opponent concedes more and gives away less.</strong> The word <code>while</code> is concessive and does all the work.</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">while they dare not openly deny his divinity, secretly rob him of his eternity — the concessive, and the verb of theft</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p><strong><code>Here an outcry is made by certain men, who, while they dare not openly deny his divinity, secretly rob him of his eternity.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `Here an outcry </b>is made**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>by</b> certain men</span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">부사절 (while)</span><span class="leaf"><b>while</b> they <b>dare not</b> openly <b>deny</b> his divinity</span></li></ul></li><li><span class="leaf">secretly <b>rob</b> him</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of</b> his eternity</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>outcry</em> = out + cry, the Germanic calque of Lat. <em>exclamatio</em>; <em>temerity</em>'s neighbour in tone; <em>divinity</em> &lt; <em>divinus</em> &lt; <em>divus</em>, god → <em>divine, deity</em> (<em>deus</em>); <em>eternity</em> &lt; <em>aeternitas</em> &lt; <em>aevum</em>, an age → <em>aeon, ever, age, medieval</em> (<em>medium aevum</em>); <em>rob</em> &lt; OFr <em>rober</em>, to plunder → cognate with <em>robe</em> (clothing was what you carried off) and with <em>rubbish</em>; <em>dare</em> &lt; OE <em>durran</em>, one of the few surviving preterite-presents (like <em>can, shall, may</em>) — hence the bare infinitive and the negative without <em>do</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>here an outcry is made</em> = at this point people start protesting; <em>dare not V</em> = do not venture to V; <em>while S V</em> = although S V (concessive); <em>rob X of Y</em> = take Y away from X (⚠️ never <em>rob Y</em>).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">At this point certain people raise an objection: without quite daring to deny his divinity outright, they quietly take away his eternity.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Here an outcry is made by certain men</b> → at this point certain people raise an objection</li><li><b>while they dare not openly deny</b> → without quite daring to deny outright</li><li><b>secretly rob him of his eternity</b> → quietly take away his eternity.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the Word only began to be when God opened his sacred mouth — the objection stated precisely, and where only sits</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p><strong><code>For they contend that the Word only began to be when God opened his sacred mouth in the creation of the world.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>For<b> they </b>contend**</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the Word <b>only began to be</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> God <b>opened</b> his sacred mouth</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in</b> the creation</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of</b> the world</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>contend</em> &lt; <em>con-</em> + <em>tendere</em>, to stretch/strain → <em>tension, intend, pretend, extend, tendon</em>; <em>sacred</em> &lt; <em>sacrare</em> &lt; <em>sacer</em>, set apart → <em>sacrifice, consecrate, sacrament</em>; <em>creation</em> &lt; <em>creare</em>, to bring forth → <em>creature, creator, procreate</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>contend that…</em> = maintain in argument that…; <em>begin to be</em> = come into existence; <em>only … when</em> = not until; <em>open one's mouth</em> = begin to speak (a Hebraism, cf. <em>he opened his mouth and taught them</em>, Mt 5:2).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Their argument is that the Word did not come into existence until God opened his holy mouth to create the world.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>they contend that</b> → their argument is that</li><li><b>only began to be when</b> → did not come into existence until</li><li><b>his sacred mouth</b> → his holy mouth.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s2" title="2-star">★★</span><span class="s-label">with excessive temerity, they imagine some change in the essence of God — the verdict, and the trap word of the day</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p><strong><code>Thus, with excessive temerity, they imagine some change in the essence of God.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `Thus</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>with</b> excessive temerity</span></li></ul></li><li><span class="leaf">they <b>imagine</b> some change.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in</b> the essence</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of</b> God</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>temerity</em> &lt; <em>temeritas</em> &lt; <em>temere</em>, blindly, by chance — ⚠️ no relation to <em>timid</em> (<em>timere</em>, to fear); the pair <em>temerity / timidity</em> is a false-friend classic; <em>excessive</em> &lt; <em>ex-</em> + <em>cedere</em>, to go beyond → <em>exceed, recede, precede, concede</em>; <em>essence</em> &lt; <em>essentia</em>, coined on <em>esse</em> to render Gk <em>οὐσία</em> → <em>essential</em> (§7 S11), <em>entity, present, absent</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>with excessive temerity</em> = with outrageous recklessness; <em>imagine a change in X</em> = suppose that X has altered; <em>thus</em> = and so, by that very fact.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">In doing so, with outrageous recklessness, they are supposing some change in God's very being.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Thus</b> → in doing so</li><li><b>with excessive temerity</b> → with outrageous recklessness</li><li><b>they imagine some change</b> → they are supposing some change</li><li><b>the essence of God</b> → God's very being.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">as the names of God … began to be ascribed …, so piety does not recognise or admit any name — the concession that makes the argument work</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p><strong><code>For as the names of God, which have respect to external work, began to be ascribed to him from the existence of the work (as when he is called the Creator of heaven and earth), so piety does not recognise or admit any name which might indicate that a change had taken place in God himself.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>For**</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>as</b> the names</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of</b> God</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which have respect to</b> external work</span></li></ul></li><li><span class="leaf"><b>began to be ascribed</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to</b> him</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>from</b> the existence</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of</b> the work</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>as when</b> he <b>is called</b> the Creator</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of</b> heaven and earth</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab ph">결과절 (so…that)</span><span class="leaf"><b>so</b> piety <b>does not recognise or admit</b> any name</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which might indicate</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> a change <b>had taken place</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in</b> God himself</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>ascribe</em> &lt; <em>ad-</em> + <em>scribere</em>, to write to → <em>describe, subscribe, prescribe, scripture</em>; <em>piety</em> &lt; <em>pietas</em> &lt; <em>pius</em>, dutiful → <em>pity</em> (the same word, split in meaning), <em>expiate</em>; <em>admit</em> &lt; <em>ad-</em> + <em>mittere</em>, to send/let → <em>permit, submit, commit, mission</em>; <em>indicate</em> &lt; <em>in-</em> + <em>dicare</em>, to proclaim → <em>dedicate, index, judge</em> (<em>ius-dex</em>); <em>external</em> &lt; <em>externus</em> &lt; <em>ex</em>, out of → <em>exterior, extreme</em> (<em>extremus</em>, outermost).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>as A …, so B</em> = just as A, so B; <em>have respect to X</em> = refer to X (⚠️ not "respect X"); <em>be ascribed to X</em> = be attributed to X; <em>as when</em> = as for instance when; <em>recognise or admit</em> = acknowledge or allow; <em>take place</em> = occur.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">For just as God's names that refer to his outward work only started being applied to him once that work existed — as when he is called the Creator of heaven and earth — so religion neither acknowledges nor allows any name that would suggest a change had occurred in God himself.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>as … so</b> → just as … so</li><li><b>have respect to external work</b> → refer to his outward work</li><li><b>began to be ascribed to him from the existence of the work</b> → only started being applied once that work existed</li><li><b>piety does not recognise or admit</b> → religion neither acknowledges nor allows</li><li><b>which might indicate</b> → that would suggest.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">if any thing adventitious took place, the saying of James would cease to be true, that… — the counterfactual, the appositive, and the proof-text §7 planted</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p><strong><code>For if any thing adventitious took place, the saying of James would cease to be true, that “every good gift, and every perfect gift, is from above, and cometh down from the Father of lights, with whom is no variableness, neither shadow of turning,” (James 1:17).</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>For**</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if</b> any thing adventitious <b>took place</b></span></li></ul></li><li><span class="leaf">the saying <b>would cease to be</b> true</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of</b> James</span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> “every good gift, and every perfect gift, <b>is</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>from</b> above</span></li></ul></li></ul><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and cometh down</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>from</b> the Father</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of</b> lights</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">,”</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>with whom is</b> no variableness, neither shadow</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of</b> turning</span></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">James 1:17</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>adventitious</em> &lt; <em>ad-</em> + <em>venire</em>, to come to → <em>advent, adventure, avenue, event, invent, convene</em> — the same root everywhere, but ⚠️ the technical sense is "arriving from outside," not "exciting"; <em>cease</em> &lt; <em>cessare</em>, frequentative of <em>cedere</em>, to yield → <em>cession, incessant</em> (<em>in-cessans</em>, not ceasing); <em>variableness</em> &lt; <em>varius</em>, mottled, changeable → <em>vary, various, variegated</em>; <em>turning</em> renders τροπή → <em>tropic</em> (where the sun turns), <em>trope, heliotrope</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>if S took place, S' would V</em> = if S were to take place, S' would V (counterfactual); <em>cease to be true</em> = stop being true; <em>the saying of X, that…</em> = X's statement, namely that…; <em>come down from</em> = descend from; <em>with whom is no X</em> = in whom there is no X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">For if anything were added to him from outside, James's statement would stop being true — namely that "every good gift, and every perfect gift, is from above, and comes down from the Father of lights, in whom there is no changeableness or shadow cast by turning" (James 1:17).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>if any thing adventitious took place</b> → if anything were added to him from outside</li><li><b>the saying of James … that</b> → James's statement … namely that</li><li><b>cometh down</b> → comes down</li><li><b>with whom is no variableness, neither shadow of turning</b> → in whom there is no changeableness or shadow cast by turning.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Nothing … is more intolerable than to fancy a beginning — the negative superlative, and the verdict on Argument A</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p><strong><code>Nothing, therefore, is more intolerable than to fancy a beginning to that Word which was always God, and afterwards was the Creator of the world.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `Nothing, therefore, </b>is** more intolerable</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>than</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to fancy</b> a beginning</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to</b> that Word</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which was</b> always God</span><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and</b> afterwards <b>was</b> the Creator</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of</b> the world</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>intolerable</em> &lt; <em>in-</em> + <em>tolerare</em>, to bear → <em>tolerate, toleration</em>; cognate with <em>tollere</em> (to lift) and, through it, with <em>extol</em>; <em>fancy</em> — contracted from <em>fantasy</em> &lt; Gk <em>phantasia</em> &lt; <em>phainein</em>, to show → <em>phenomenon, phase, diaphanous, emphasis</em>; <em>afterwards</em> = OE <em>æfter</em> + <em>-weard</em> (directional suffix) → <em>toward, forward, backward</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>nothing is more X than to V</em> = to V is the most X thing of all; <em>fancy a beginning to X</em> = imagine that X had a beginning; <em>always … afterwards</em> = eternally … and then in time.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Nothing, then, is more unbearable than imagining a beginning for that Word which was always God and later became the Creator of the world.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Nothing … is more intolerable than to fancy</b> → nothing is more unbearable than imagining</li><li><b>a beginning to that Word</b> → a beginning for that Word</li><li><b>afterwards was the Creator</b> → later became the Creator.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">they think they argue acutely, in maintaining that Moses … must be held to intimate that… — three levels of embedding, all of it theirs</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p><strong><code>But they think they argue acutely, in maintaining that Moses, when he says that God then spoke for the first time, must be held to intimate that till then no Word existed in him.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf"><b> `</b>But<b> they </b>think**</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">they <b>argue</b> acutely</span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in maintaining</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> Moses</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> he <b>says</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> God then <b>spoke</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>for</b> the first time</span></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>must be held to intimate</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> no Word <b>existed</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>till</b> then</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in</b> him</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>acute</em> &lt; <em>acuere</em>, to sharpen &lt; <em>acus</em>, needle → <em>acumen, acid, acrid, eager</em> (OFr <em>aigre</em>), <em>oxygen</em> (Gk <em>oxys</em>, sharp); <em>maintain</em> &lt; <em>manu tenere</em>, to hold in the hand → <em>tenable, tenant, retain, contain</em>; <em>intimate</em> (v.) &lt; <em>intimare</em> &lt; <em>intimus</em>, innermost (superlative of <em>in</em>) → <em>intimacy</em> — ⚠️ verb and adjective are the same word taking opposite routes: to make known what is inmost / belonging to what is inmost; <em>exist</em> &lt; <em>ex-</em> + <em>sistere</em>, to stand forth → <em>insist, resist, consist, subsist</em> (§6's key verb, negated here).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>think one argues acutely</em> = suppose oneself to be reasoning shrewdly; <em>in maintaining that</em> = by maintaining that; <em>must be held to V</em> = must be taken to V; <em>for the first time</em> = on that first occasion; <em>till then</em> = until that moment.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But they suppose they are reasoning shrewdly when they insist that Moses, in saying that God spoke then for the first time, must be taken to imply that until that point no Word existed in him.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>they think they argue acutely</b> → they suppose they are reasoning shrewdly</li><li><b>in maintaining that</b> → when they insist that</li><li><b>must be held to intimate</b> → must be taken to imply</li><li><b>till then no Word existed in him</b> → until that point no Word existed in him.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s1" title="1-star">★</span><span class="s-label">This is the merest trifling. — six words, and a superlative you will misread</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p><strong><code>This is the merest trifling.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>mere</em> &lt; <em>merus</em>, unmixed, pure (of wine) → the modern weakening to "only" is a late development; <em>trifle</em> &lt; OFr <em>trufle</em>, a mockery, a jest; renders Lat. <em>nugae</em>, trifles, nonsense — the word Horace and Catullus use of light verse.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>the merest X</em> = nothing but X, sheer X; <em>this is trifling</em> = this is not serious.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">This is sheer nonsense.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the merest</b> → sheer</li><li><b>trifling</b> → nonsense.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">It does not surely follow, that because a thing begins to be manifested … it never existed previously — the principle of the whole section</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p><strong><code>It does not surely follow, that because a thing begins to be manifested at a certain time, it never existed previously.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>It does not<b> surely </b>follow**</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">이유절 (because)</span><span class="leaf"><b>because</b> a thing <b>begins to be manifested</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>at</b> a certain time</span></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="leaf">it <b>never existed</b> previously</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>follow</em> — here in the logical sense, calquing Lat. <em>sequi</em> → <em>sequel, consequence, non sequitur</em> ("it does not follow" IS <em>non sequitur</em>, translated); <em>manifest</em> &lt; <em>manus</em>, hand + <em>-festus</em> (cf. <em>infestus</em>, hostile), struck by the hand → palpable, obvious → <em>manifesto, manifestation</em>; <em>previously</em> &lt; <em>prae-</em> + <em>via</em>, way → going before on the road → <em>via, obvious</em> (<em>ob-viam</em>, in the way), <em>deviate, trivial</em> (<em>tri-via</em>, where three roads meet — hence common talk).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it does not follow that…</em> = that conclusion is not entailed (= <em>non sequitur</em>); <em>begin to be manifested</em> = start to become visible; <em>at a certain time</em> = at a definite moment; <em>never … previously</em> = not at all before that.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">It certainly does not follow that because something starts to become visible at a definite moment, it never existed before then.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>It does not surely follow, that</b> → it certainly does not follow that</li><li><b>begins to be manifested</b> → starts to become visible</li><li><b>at a certain time</b> → at a definite moment</li><li><b>it never existed previously</b> → it never existed before then.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s1" title="1-star">★</span><span class="s-label">I draw a very different conclusion. — the pivot, and the pronoun</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p><strong><code>I draw a very different conclusion.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>conclusion</em> &lt; <em>con-</em> + <em>claudere</em>, to shut → <em>close, include, exclude, recluse, clause</em>; <em>draw</em> — OE <em>dragan</em>, and the idiom <em>draw a conclusion</em> is the Germanic calque of Lat. <em>concludere</em>, both of them images of pulling something shut.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>draw a conclusion</em> = reach an inference; <em>a very different conclusion</em> = quite another conclusion.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I reach quite the opposite conclusion.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>I draw</b> → I reach</li><li><b>a very different conclusion</b> → quite the opposite conclusion.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the energy of the Word was immediately exerted, it must have existed long before — exertion presupposes existence</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p><strong><code>Since at the very moment when God said, “Let there be light,” the energy of the Word-was immediately exerted, it must have existed long before.</code></strong></p>
+<p>⚠️ <strong>Read <code>the Word-was</code> as <code>the Word was</code></strong> — the hyphen is a scan artifact, not Beveridge's. See the text note under Period 1. The quotation is reproduced exactly as the source file prints it.</p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">이유/시간절 (since)</span><span class="leaf"><b>Since</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>at</b> the very moment</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> God <b>said</b>, “Let there be light,”</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">the energy <b>was</b> immediately <b>exerted</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of</b> the Word</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">it <b>must have existed</b> long before.`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>energy</em> &lt; Gk <em>en</em> + <em>ergon</em>, work → <em>ergonomic, surgery</em> (<em>cheir-ourgia</em>, hand-work), <em>liturgy</em> (<em>leit-ourgia</em>, public work), <em>organ</em> (§7 S7); <em>exert</em> &lt; <em>ex-</em> + <em>serere</em>, to join/put forth → <em>series, insert, assert, desert</em> (<em>de-serere</em>, to un-join), <em>sermon</em> (<em>sermo</em>, a joining of words); <em>moment</em> &lt; <em>momentum</em> &lt; <em>movimentum</em> &lt; <em>movere</em>, to move → the smallest movement of the scale-pan → <em>momentum, motion, emotion</em>; <em>immediately</em> &lt; <em>in-</em> + <em>medius</em> → with no middle, no interval → <em>mediate, medium, mediator</em> (§7 S8's <em>intermediate</em>).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>at the very moment when</em> = at the exact instant that; <em>exert one's energy</em> = put one's power into action; <em>it must have V-ed</em> = it necessarily did V (inference); <em>long before</em> = a long time earlier.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Since the Word's power was put into action at the very instant God said, "Let there be light," it must already have existed long before that.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Since</b> → since (causal: seeing that)</li><li><b>the energy of the Word was immediately exerted</b> → the Word's power was put into action at once</li><li><b>it must have existed long before</b> → it must already have existed long before that.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S12" id="S12"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S12</span><span class="stars s2" title="2-star">★★</span><span class="s-label">If any inquire how long, he will find it was without beginning — the answer that abolishes the question</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S12" onclick="flashFullText(this)">
+<p><strong><code>If any inquire how long, he will find it was without beginning.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>If</b> any <b>inquire</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">how long</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">he <b>will find</b>.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">it <b>was</b> without beginning</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>inquire</em> &lt; <em>in-</em> + <em>quaerere</em>, to seek → <em>query, question, quest, acquire, require, conquer</em> (<em>con-quaerere</em>); <em>beginning</em> — OE <em>beginnan</em>; renders <em>principium</em> (<em>primus</em> + <em>capere</em>, to take first) → <em>prince, principal, principle</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>if any inquire</em> = if anyone asks; <em>how long</em> = for how long a time; <em>he will find</em> = he will discover; <em>without beginning</em> = having no beginning at all.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">If anyone asks how long, he will find that it had no beginning at all.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>If any inquire</b> → if anyone asks</li><li><b>he will find it was</b> → he will find that it had</li><li><b>without beginning</b> → no beginning at all.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S13" id="S13"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S13</span><span class="stars s2" title="2-star">★★</span><span class="s-label">No certain period of time is defined, when he himself says… — the negation on certain, and John 17:5</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S13" onclick="flashFullText(this)">
+<p><strong><code>No certain period of time is defined, when he himself says, “Now O Father, glorify thou me with thine own self with the glory which I had with thee before the world was,” (John 17:5).</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `No certain period <b>is defined</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of</b> time</span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> he himself <b>says</b></span></li><li><span class="leaf">“Now O Father, <b>glorify</b> thou me,”</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>with</b> thine own self</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>with</b> the glory</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b> I <b>had</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>with</b> thee</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>before</b> the world <b>was</b></span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">John 17:5</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>define</em> &lt; <em>de-</em> + <em>finis</em>, boundary → <em>finite, infinite, final, confine, finish</em>; <em>period</em> &lt; Gk <em>peri</em> + <em>hodos</em>, way → a way round, a circuit → <em>periodic, exodus, method, synod</em>; <em>glorify</em> &lt; <em>gloria</em> + <em>facere</em> → <em>glorious, inglorious</em>; renders δοξάζω &lt; <em>δόξα</em>, opinion → glory (the LXX's semantic shift, under Heb. כָּבוֹד, weight).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>no certain period is defined</em> = no definite length of time is fixed; <em>he himself says</em> = he says in his own words; <em>glorify thou me</em> = glorify me (imperative); <em>with thine own self</em> = in your own presence; <em>before the world was</em> = before the world existed.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">No definite length of time is fixed, when he himself says, "And now, Father, glorify me in your own presence with the glory I had with you before the world existed" (John 17:5).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>No certain period of time is defined</b> → no definite length of time is fixed</li><li><b>glorify thou me with thine own self</b> → glorify me in your own presence</li><li><b>the glory which I had with thee</b> → the glory I had with you</li><li><b>before the world was</b> → before the world existed.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S14" id="S14"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S14</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Nor is this omitted by John — negative inversion, and the word before</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S14" onclick="flashFullText(this)">
+<p><strong><code>Nor is this omitted by John: for before he descends to the creation of the world, he says, that “in the beginning was the Word, and the Word was with God.”</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (nor)</span><span class="leaf"><b> `</b>Nor is this omitted**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>by</b> John</span></li></ul></li></ul></li><li><span class="leaf"><b>for</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>before</b> he <b>descends</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to</b> the creation</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of</b> the world</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">he <b>says</b></span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> “in the beginning <b>was</b> the Word</span><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf">and the Word <b>was</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>with</b> God.”</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>omit</em> &lt; <em>ob-</em> + <em>mittere</em>, to let go past → <em>emit, permit, admit</em> (S4), <em>submit, dismiss, mission</em>; <em>descend</em> &lt; <em>de-</em> + <em>scandere</em>, to climb → <em>ascend, transcend, scan, scandal</em> (<em>skandalon</em>, a stumbling-block — what you trip <em>up</em> on); <em>nor</em> = contracted from OE <em>ne</em> + <em>other</em> → <em>neither, never, none, no</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>nor is this omitted by X</em> = and X does not leave it out either; <em>descend to a subject</em> = come down to a topic in one's treatment; <em>in the beginning</em> = at the very first.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And John does not leave this out either: before he comes down to the creation of the world, he says that "in the beginning was the Word, and the Word was with God."</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Nor is this omitted by John</b> → and John does not leave this out either</li><li><b>before he descends to the creation</b> → before he comes down to the creation</li><li><b>he says, that</b> → he says that.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S15" id="S15"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S15</span><span class="stars s2" title="2-star">★★</span><span class="s-label">We, therefore, again conclude, that the Word was eternally begotten — the appositive a third time, and two verbs of eternity</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S15" onclick="flashFullText(this)">
+<p><strong><code>We, therefore, again conclude, that the Word was eternally begotten by God, and dwelt with him from everlasting.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `We, therefore, </b>again conclude**</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the Word <b>was</b> eternally <b>begotten</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>by</b> God</span></li></ul></li></ul><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and dwelt</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>with</b> him</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>from</b> everlasting</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>conclude</em> — see S10; <em>beget</em> &lt; OE <em>be-</em> + <em>gietan</em>, to get → <em>forget, beget, gotten</em>; renders <em>gignere</em> → <em>genus, genitive, generate, genesis, indigenous</em>; <em>dwell</em> &lt; OE <em>dwellan</em>, originally to lead astray, then to linger, then to reside — the semantic drift from <em>delay</em> to <em>live in</em>; <em>everlasting</em> = ever + last (OE <em>læstan</em>, to endure) → not <em>last</em> = final; two different words.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>we conclude that…</em> = our conclusion is that…; <em>again conclude</em> = conclude once more; <em>eternally begotten</em> = generated without beginning; <em>dwell with X</em> = abide in X's company; <em>from everlasting</em> = from eternity past.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">We conclude once more, then, that the Word was begotten by God eternally and has abided with him from eternity past.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>We, therefore, again conclude, that</b> → we conclude once more, then, that</li><li><b>was eternally begotten by God</b> → was begotten by God eternally</li><li><b>dwelt with him from everlasting</b> → has abided with him from eternity past.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S16" id="S16"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S16</span><span class="stars s1" title="1-star">★</span><span class="s-label">his true essence, his eternity, and divinity, are established — the tricolon, and the audit</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S16" onclick="flashFullText(this)">
+<p><strong><code>In this way, his true essence, his eternity, and divinity, are established.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>establish</em> &lt; OFr <em>establir</em> &lt; <em>stabilire</em> &lt; <em>stabilis</em>, firm &lt; <em>stare</em>, to stand → <em>stable, stability, establishment</em> — the same <em>stare</em> as in <em>substantial</em> (§7 S18), <em>exist</em> (S7), <em>subsist</em> (§6); the chapter's whole vocabulary of being is built on one verb of standing.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in this way</em> = by this line of argument; <em>X is established</em> = X is proved and settled.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">In this way his true being, his eternity, and his divinity are all established.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>In this way</b> → in this way (by this argument)</li><li><b>his true essence</b> → his true being</li><li><b>are established</b> → are all established.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — The counterfactual with a past protasis, and the delayed appositive <code>that</code>-clause (third day)</h3><pre><code>COUNTERFACTUAL   IF S V-ed … ,  S' WOULD V'                        (S5)
+                 if any thing adventitious TOOK PLACE, the saying … WOULD CEASE to be true
+                 restore: if anything WERE TO take place, it WOULD cease
+⚠️ "took place" is NOT narrative past — the clue is "would" in the apodosis
+⚠️ contrast the OPEN conditional, same section:
+                 IF S V-∅ (subjunctive) … ,  S' WILL V'             (S12)
+                 if any INQUIRE how long, he WILL FIND …            ← a real possibility
+
+APPOSITIVE       [ABSTRACT NOUN or DUMMY "it"] + PREDICATE , THAT …
+                 the saying of James would cease to be true,  THAT "every good gift…"   (S5)
+                 It does not surely follow,                   THAT because …            (S9)
+                 We, therefore, again conclude,               THAT the Word was …       (S15)
+                 restore S5:  the saying of James THAT "…" would cease to be true
+⚠️ TEST with "namely": "the saying of James — NAMELY that … — would cease to be true" ✓
+⚠️ do NOT read S5's "that" as the complement of "true"
+⚠️ the comma before "that" is period punctuation, not a clause break
+</code></pre><p><strong>Drill.</strong> <em>만일 무엇이든 밖에서 더해진 것이 하나님께 일어났다면, 그 사도의 말은 참되기를 그쳤을 것이다, 곧 그분에게는 변함도 회전하는 그림자도 없다는 말이.</em> → <strong>For if any thing adventitious took place in God, the saying of the apostle would cease to be true, that with him is no variableness, neither shadow of turning.</strong></p><h3>Formula 2 — Negation and its scope: <code>it does not follow, that because A, B</code></h3><pre><code>THE FRAME    IT DOES NOT FOLLOW , THAT  [ BECAUSE  A ,  B ]              (S9)
+             = A does NOT entail B      (this IS the Latin "non sequitur", englished)
+⚠️ the negation governs FOLLOW — the inference — NOT the content of B
+⚠️ B is what does NOT follow; never quote B as the author's own claim
+
+"SURELY" inside a negative     It does NOT SURELY follow                 (S9)
+             period sense: "it CERTAINLY does not follow"   ← Calvin's, confirmed by S10
+             modern ear:   "it does not NECESSARILY follow"  ← a hedge he is not making
+⚠️ let the argument decide, not the dictionary
+
+THE FAMILY   NOTHING is MORE X THAN to V        = to V is the MOST X thing   (S6)
+             NO CERTAIN period is defined       = no DEFINITE span is fixed  (S13)
+                                                  ⚠️ "certain" = definite, NOT "some"
+             it was WITHOUT beginning           = it had NO beginning at all (S12)
+             till then NO Word existed          ← inside THEIR claim, not Calvin's (S7)
+⚠️ nine of today's sixteen sentences carry a negative. Locate it before you translate.
+</code></pre><p><strong>Drill.</strong> <em>어떤 것이 어느 시점에 나타나기 시작했다고 해서 그것이 전에 존재하지 않았다는 결론은 결코 따라 나오지 않는다. 하나님의 지혜에 시작을 상상하는 것보다 더 견딜 수 없는 일은 없다.</em> → <strong>It does not surely follow, that because a thing begins to be manifested at a certain time, it never existed previously. Nothing is more intolerable than to fancy a beginning to the wisdom of God.</strong></p><h3>Formula 3 — Negative inversion, and the <code>as … so</code> proportional</h3><pre><code>(a) NEGATIVE INVERSION    [NEG ADVERBIAL] + AUX + SUBJECT + …             (S14)
+                          NOR  IS  THIS  omitted by John
+                          restore: and John does not omit this either
+    FAMILY   Never have I …  /  Not only did he …  /  Scarcely had we …
+             Little did they know …  /  Only then did he …  /  Nor does he add …
+⚠️ OBLIGATORY, not stylistic:  "Nor this is omitted" ✗
+⚠️ "Nor" already negates — do not double it
+⚠️ LITOTES: "is not omitted by John" = "John states it, as one would expect"
+
+(b) PROPORTIONAL          AS  [ … ] ,  SO  [ … ]                          (S4; cf. §7 S19)
+                          AS the names … began to be ascribed …,
+                          SO piety does not recognise or admit any name …
+⚠️ "as" is PROPORTIONAL ("just as"), NOT causal ("because")
+⚠️ here limb 1 is a CONCESSION and limb 2 is a LIMIT — the parenthesis
+   "(as when he is called the Creator of heaven and earth)" is an example
+   of what is ALLOWED. Do not carry the main clause's negation backwards into it.
+
+(c) EPISTEMIC MODAL       it MUST HAVE V-ed                               (S11)
+                          = it NECESSARILY DID V   (inference about the past)
+⚠️ NOT obligation. "must have existed" = "we must conclude that it existed"
+</code></pre><p><strong>Drill.</strong> <em>요한도 이것을 빠뜨리지 않는다. 그리고 하나님의 이름들이 그 사역이 존재한 때로부터 그분께 돌려지기 시작한 것처럼, 그렇게 경건은 그분 자신 안에 변화가 일어났음을 가리킬 어떤 이름도 인정하지 않는다. 그 능력이 즉시 발휘되었으므로, 그것은 훨씬 이전에 존재했음이 틀림없다.</em> → <strong>Nor is this omitted by John. And as the names of God began to be ascribed to him from the existence of the work, so piety does not recognise any name which might indicate that a change had taken place in God himself. Since the energy was immediately exerted, it must have existed long before.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>outcry</strong> (S1)</td>
+<td>clamour, protest</td>
+<td>out + cry, calquing Lat. <em>clamor</em>. 아우성</td>
+</tr>
+<tr>
+<td><strong>certain men</strong> (S1)</td>
+<td>some people (unnamed)</td>
+<td>Lat. <em>quidam</em> — <strong>refusing to dignify with names</strong>. 어떤 자들</td>
+</tr>
+<tr>
+<td><strong>while</strong> (S1) ⚠️⚠️</td>
+<td>although (concessive)</td>
+<td>OE <em>hwīl</em>, a time → the temporal sense came first, the concessive second. <strong>Not "during."</strong> ~하면서도</td>
+</tr>
+<tr>
+<td><strong>dare not</strong> (S1)</td>
+<td>do not venture to</td>
+<td>OE <em>durran</em>, a preterite-present like <em>can, may</em> — hence bare infinitive, no <em>do</em>. 감히 ~하지 못하다</td>
+</tr>
+<tr>
+<td><strong>rob X of Y</strong> (S1) ⚠️⚠️</td>
+<td>take Y away from X</td>
+<td>OFr <em>rober</em> — <strong>cognate with <em>robe</em></strong>, what the plunderer carried off. ⚠️ never <em>rob Y</em>. 탈취하다</td>
+</tr>
+<tr>
+<td><strong>contend</strong> (S2)</td>
+<td>maintain in argument</td>
+<td><em>con-</em> + <em>tendere</em>, to strain → <em>tension, contentious</em>. 주장하다</td>
+</tr>
+<tr>
+<td><strong>begin to be</strong> (S2)</td>
+<td>come into existence</td>
+<td><code>be</code> <strong>existential</strong>, not copular; = the Arian <em>ἦν ποτε ὅτε οὐκ ἦν</em>. 존재하기 시작하다</td>
+</tr>
+<tr>
+<td><strong>temerity</strong> (S3) ⚠️⚠️⚠️</td>
+<td>reckless rashness</td>
+<td><em>temere</em>, blindly. ⚠️ <strong>NOT timidity</strong> (<em>timere</em>) — the false-friend trap of the day. 무모함</td>
+</tr>
+<tr>
+<td><strong>essence</strong> (S3, S16)</td>
+<td>what a thing is</td>
+<td><em>essentia</em> &lt; <em>esse</em>; coined for Gk <em>οὐσία</em> → <em>entity, present</em>. 본질</td>
+</tr>
+<tr>
+<td><strong>have respect to</strong> (S4) ⚠️⚠️</td>
+<td>refer to, be relative to</td>
+<td><em>respicere</em>, to look back at. <strong>Not "show respect for."</strong> ~에 관계된</td>
+</tr>
+<tr>
+<td><strong>ascribed</strong> (S4)</td>
+<td>attributed</td>
+<td><em>ad-</em> + <em>scribere</em>, write to → <em>describe, scripture</em>. 돌려지는</td>
+</tr>
+<tr>
+<td><strong>piety</strong> (S4) ⚠️</td>
+<td>godly reverence, right religion</td>
+<td><em>pietas</em> &lt; <em>pius</em>; <strong>cognate with <em>pity</em></strong>, one word split in two. 경건</td>
+</tr>
+<tr>
+<td><strong>recognise or admit</strong> (S4)</td>
+<td>acknowledge or allow</td>
+<td><em>admit</em> &lt; <em>ad-</em> + <em>mittere</em> → <em>permit, mission</em>. ⚠️ the doublet under one negative = <strong>neither</strong>. 인정도 허용도</td>
+</tr>
+<tr>
+<td><strong>might indicate</strong> (S4) ⚠️</td>
+<td>would imply (potential)</td>
+<td><em>in-</em> + <em>dicare</em>, to proclaim → <em>index, dedicate</em>. <strong>Not "perhaps."</strong> 가리킬</td>
+</tr>
+<tr>
+<td><strong>adventitious</strong> (S5) ⚠️⚠️⚠️</td>
+<td>coming from outside, accidentally added</td>
+<td><em>ad-</em> + <em>venire</em> → <em>advent, event, avenue</em>. <strong>Not "adventurous."</strong> <strong>The key term.</strong> 외부에서 더해진</td>
+</tr>
+<tr>
+<td><strong>cease to be</strong> (S5)</td>
+<td>stop being</td>
+<td><em>cessare</em> &lt; <em>cedere</em>, to yield → <em>incessant</em>. 그치다</td>
+</tr>
+<tr>
+<td><strong>variableness</strong> (S5)</td>
+<td>changeableness</td>
+<td><em>varius</em>, mottled; KJV for <strong>παραλλαγή</strong>. 변함</td>
+</tr>
+<tr>
+<td><strong>shadow of turning</strong> (S5)</td>
+<td>shadow cast by turning</td>
+<td><strong>τροπή</strong> → <em>tropic, heliotrope</em> — <strong>astronomical</strong>: the lights turn, their Father does not. 회전하는 그림자</td>
+</tr>
+<tr>
+<td><strong>intolerable</strong> (S6)</td>
+<td>unbearable</td>
+<td><em>in-</em> + <em>tolerare</em>, to bear → <em>tolerate, extol</em>. 견딜 수 없는</td>
+</tr>
+<tr>
+<td><strong>fancy</strong> (S6) ⚠️⚠️</td>
+<td>to imagine, to suppose (<strong>verb</strong>)</td>
+<td>contracted <em>fantasy</em> &lt; Gk <em>phantasia</em> &lt; <em>phainein</em>, to show → <em>phenomenon, emphasis</em>. <strong>Not a noun here.</strong> 상상하다</td>
+</tr>
+<tr>
+<td><strong>acutely</strong> (S7)</td>
+<td>shrewdly, sharply</td>
+<td><em>acuere</em> &lt; <em>acus</em>, needle → <em>acumen, acid, oxygen</em>. ⚠️ <strong>ironic</strong> here. 예리하게</td>
+</tr>
+<tr>
+<td><strong>maintaining</strong> (S7)</td>
+<td>holding, asserting</td>
+<td><em>manu tenere</em>, <strong>to hold in the hand</strong> → <em>tenant, retain</em>. 주장하면서</td>
+</tr>
+<tr>
+<td><strong>must be held to</strong> (S7)</td>
+<td>must be taken to</td>
+<td><code>must</code> = <strong>logical necessity</strong>; <code>be held</code> = <em>be regarded</em> (<em>censeri</em>). ~로 여겨져야</td>
+</tr>
+<tr>
+<td><strong>intimate</strong> (S7) ⚠️⚠️⚠️</td>
+<td>to indicate, to hint (<strong>verb</strong>)</td>
+<td><em>intimare</em> &lt; <em>intimus</em>, innermost — <strong>to make known what is inmost</strong>. <strong>Not the adjective.</strong> 암시하다</td>
+</tr>
+<tr>
+<td><strong>the merest</strong> (S8) ⚠️⚠️</td>
+<td>nothing but, sheer</td>
+<td><em>merus</em>, <strong>unmixed</strong> (of wine). <strong>Not "smallest."</strong> 순전한</td>
+</tr>
+<tr>
+<td><strong>trifling</strong> (S8)</td>
+<td>frivolity (<strong>noun</strong>)</td>
+<td>OFr <em>trufle</em>, a jest; renders <em>nugae</em>. ⚠️ yesterday an adjective (§7 S13). 시시한 소리</td>
+</tr>
+<tr>
+<td><strong>it does not follow</strong> (S9) ⚠️⚠️⚠️</td>
+<td>that conclusion is not entailed</td>
+<td><strong>= <em>non sequitur</em>, translated.</strong> The negation is on <strong>the inference</strong>. 따라 나오지 않는다</td>
+</tr>
+<tr>
+<td><strong>surely</strong> (S9) ⚠️⚠️</td>
+<td>certainly (period sense)</td>
+<td>OFr <em>seur</em> &lt; <em>securus</em> (<em>se-</em> + <em>cura</em>, without care) → <em>secure, sure</em>. ⚠️ <strong>not</strong> "necessarily." 분명히</td>
+</tr>
+<tr>
+<td><strong>manifested</strong> (S9) ⚠️⚠️⚠️</td>
+<td>made visible, brought into the open</td>
+<td><em>manus</em> + <em>-festus</em>, <strong>struck by the hand</strong> → <em>manifesto</em>. <strong>Manifestation ≠ origination.</strong> 나타나다</td>
+</tr>
+<tr>
+<td><strong>certain</strong> (S9, S13) ⚠️⚠️</td>
+<td>definite, fixed</td>
+<td><em>certus</em> &lt; <em>cernere</em>, to sift, decide → <em>discern, secret, crime</em>. <strong>Not "some."</strong> 일정한</td>
+</tr>
+<tr>
+<td><strong>previously</strong> (S9)</td>
+<td>before that</td>
+<td><em>prae-</em> + <em>via</em>, going before on the road → <em>obvious, trivial</em> (<em>tri-via</em>). 이전에</td>
+</tr>
+<tr>
+<td><strong>draw a conclusion</strong> (S10)</td>
+<td>reach an inference</td>
+<td><em>con-</em> + <em>claudere</em>, to shut together → <em>close, include, clause</em>. 결론을 내리다</td>
+</tr>
+<tr>
+<td><strong>energy</strong> (S11) ⚠️⚠️</td>
+<td>operation, power in act</td>
+<td>Gk <em>en</em> + <em>ergon</em>, <strong>in work</strong> → <em>liturgy, surgery, organ</em>. <strong>Not vigour.</strong> 능력(의 발휘)</td>
+</tr>
+<tr>
+<td><strong>exerted</strong> (S11)</td>
+<td>put forth into action</td>
+<td><em>ex-</em> + <em>serere</em>, to put forth → <em>insert, assert, series</em>. 발휘된</td>
+</tr>
+<tr>
+<td><strong>immediately</strong> (S11)</td>
+<td>with no interval</td>
+<td><em>in-</em> + <em>medius</em>, <strong>no middle</strong> → <em>mediator, medium</em>. 즉시</td>
+</tr>
+<tr>
+<td><strong>must have existed</strong> (S11) ⚠️</td>
+<td>necessarily did exist</td>
+<td><strong>epistemic <code>must</code></strong> — an inference about the past, not a duty. 존재했음이 틀림없다</td>
+</tr>
+<tr>
+<td><strong>inquire</strong> (S12)</td>
+<td>ask, seek out</td>
+<td><em>in-</em> + <em>quaerere</em> → <em>query, quest, conquer</em>. 묻다</td>
+</tr>
+<tr>
+<td><strong>without beginning</strong> (S12)</td>
+<td>having no beginning</td>
+<td><em>sine principio</em>; <em>principium</em> = <em>primus</em> + <em>capere</em>, <strong>taken first</strong>. 시작 없이</td>
+</tr>
+<tr>
+<td><strong>defined</strong> (S13)</td>
+<td>fixed, bounded</td>
+<td><em>de-</em> + <em>finis</em>, boundary → <em>finite, confine</em>. ⚠️ <strong>you cannot bound the unbeginning.</strong> 정해진</td>
+</tr>
+<tr>
+<td><strong>period</strong> (S13)</td>
+<td>stretch of time</td>
+<td>Gk <em>peri</em> + <em>hodos</em>, <strong>a way round</strong> → <em>method, exodus, synod</em>. 기간</td>
+</tr>
+<tr>
+<td><strong>he himself</strong> (S13)</td>
+<td>he in his own person</td>
+<td>the intensive — <strong>testimony replaces argument here.</strong> 그분 자신이</td>
+</tr>
+<tr>
+<td><strong>descends to</strong> (S14) ⚠️</td>
+<td>comes down to (a topic)</td>
+<td><em>de-</em> + <em>scandere</em>, to climb → <em>ascend, scan, scandal</em>. <strong>Not spatial.</strong> (논의를) 내려가다</td>
+</tr>
+<tr>
+<td><strong>Nor is this omitted</strong> (S14) ⚠️⚠️⚠️</td>
+<td>and this is not left out either</td>
+<td><em>ob-</em> + <em>mittere</em>, let go past → <em>emit, permit</em>. ⚠️ <strong>inversion obligatory</strong>; <strong>litotes</strong>. 빠뜨리지 않는다</td>
+</tr>
+<tr>
+<td><strong>eternally begotten</strong> (S15) ⚠️⚠️</td>
+<td>generated without beginning</td>
+<td><em>gignere</em> → <em>genus, genesis</em>; Nicene <em>γεννηθέντα οὐ ποιηθέντα</em>. <strong>The adverb is the doctrine.</strong> 영원히 나신</td>
+</tr>
+<tr>
+<td><strong>dwelt with</strong> (S15)</td>
+<td>abided in company with</td>
+<td>OE <em>dwellan</em>, orig. <strong>to linger</strong> — §6 and §7's verb, third appearance. 함께 거하셨다</td>
+</tr>
+<tr>
+<td><strong>from everlasting</strong> (S15)</td>
+<td>from eternity past</td>
+<td>KJV for <strong>mē'ōlām</strong> (Ps. 90:2, Prov. 8:23, Mic. 5:2). 영원 전부터</td>
+</tr>
+<tr>
+<td><strong>established</strong> (S16)</td>
+<td>proved and settled</td>
+<td><em>stabilis</em> &lt; <em>stare</em>, to stand — <strong>the same root as <em>substantial, exist, subsist</em></strong>. 확립되다</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>Where §8 sits.</strong> The chapter's synopsis for this section reads: <em>Objection, that the Λόγος began to be when the creating God spoke. Answer confirmed by Scripture and argument.</em> ⚠️ <strong>Note the word <em>Objection</em> in the heading.</strong> §7's heading ended <em>Objection. Reply.</em> and §8's begins <em>Objection</em>. <strong>The two sections are one continuous movement</strong>, and the proof-block runs on: §§7–8 the Word's eternity, §§9–10 the divine names and the angel of the Lord, §§11–13 the New Testament testimonies, §§14–15 the Spirit, §§16–20 the distinctions. <strong>Today closes the first sub-argument: the Word is God (§7) and the Word never began (§8).</strong></p><p><strong>1. Whose objection is it?</strong> ⚠️ Calvin does not name anyone — <code>certain men</code> — and you should resist filling the blank too confidently. But the position is recognisable: <strong>concede the divinity, deny the eternity.</strong> Three streams feed it. <strong>(a)</strong> The <strong>apologists' distinction</strong> between the <em>λόγος ἐνδιάθετος</em> (the word <strong>immanent</strong>, resident in God) and the <em>λόγος προφορικός</em> (the word <strong>uttered</strong>, going forth) — a Stoic distinction taken up by Theophilus of Antioch and Tertullian to explain how the Word "proceeds" at creation. ⚠️ <strong>In its careless form it makes the Word become a <em>person</em> at the moment of utterance</strong>, which is exactly S2's objection, and <strong>Calvin is refusing the move</strong> — that is why he insists the Word's <code>energy</code> was <em>exerted</em>, not <em>produced</em>, when God spoke. <strong>(b)</strong> The <strong>anti-Trinitarian radicals</strong> of Calvin's own decade — above all <strong>Servetus</strong>, for whom the eternal Word was a disposition or utterance in God, personal only in the incarnate Christ. <strong>(c)</strong> The residue of <strong>Arianism</strong>: <em>ἦν ποτε ὅτε οὐκ ἦν</em>, <em>there was when he was not</em>, condemned at Nicaea (325). ⚠️ <strong>Guardrail:</strong> do not simply label the opponents "Arians." Arius denied the Son was of one substance with the Father; <strong>today's opponents grant the divinity outright</strong> (S1) and only date it. <strong>The heading calls it an <em>objection</em>, not a heresy, and Calvin answers it as one.</strong></p><p><strong>2. The real weight of the section: immutability, and the question it raises.</strong> Calvin's Argument A is that a beginning in the Word would put <strong>change in the divine essence</strong> (S3). That commits him to <strong>divine immutability</strong> — and immediately raises the classic difficulty: <em>if God was not always Creator and then became Creator, has God not changed?</em> ⚠️ <strong>S4 is Calvin's answer, and it is the standard one, stated with unusual economy.</strong> Names that <code>have respect to external work</code> begin with the work; they say something about <strong>God's relation to the creature</strong>, not about <strong>God himself</strong>. <strong>The change is in the creature, which comes to stand in a new relation to a God who does not move.</strong> Later schoolmen call this a <em>Cambridge property</em> — like <em>being to the left of</em>, which you can acquire without moving, because someone else moved. ⚠️ <strong>Guardrail:</strong> this is <strong>not</strong> the claim that God is uninvolved, or that creation is unreal to him. S5's proof-text says the gifts really <code>cometh down</code>. <strong>Calvin denies alteration, not action.</strong> Anyone who tells you Calvin's God is inert has confused the two.</p><p><strong>3. <code>Non sequitur</code> as a theological tool.</strong> S9's <code>It does not surely follow, that…</code> is a formal move, and it is worth noticing how <strong>cheap</strong> it is in the best sense: Calvin does not have to re-exegete Genesis 1, dispute a Hebrew verb, or appeal to authority. <strong>He simply points out that the opponents' premise does not carry their conclusion.</strong> ⚠️ And the principle he substitutes — <strong>manifestation is not origination</strong> — is not ad hoc; it is a structural feature of the New Testament's own language about Christ. <strong>1 Peter 1:20</strong>: <em>foreordained before the foundation of the world, but </em><em>manifest</em><em> in these last times</em>. <strong>1 Timothy 3:16</strong>: <em>God was </em><em>manifest</em><em> in the flesh</em>. <strong>Romans 16:25–26</strong>: the mystery <em>kept secret since the world began, but </em><em>now is made manifest</em><strong>. </strong>In every case the appearing is late and the reality is not.<strong> Calvin is generalising the apostles' own habit of speech. </strong>Guardrail:<strong> he is not proving the Word's eternity from the principle — the principle only clears the objection away. </strong>The proof is S13–S14, two verses.**</p><p><strong>4. John 17:5, and why it is the strongest verse he could have chosen.</strong> The high-priestly prayer asks for the restoration of <code>the glory which I had with thee before the world was</code>. ⚠️ <strong>Three features do the work.</strong> <strong>(i)</strong> The verb is <strong>εἶχον</strong>, imperfect indicative — <em>I was having, I possessed</em> — <strong>not</strong> a verb of promise, appointment, or foreknowledge. <strong>(ii)</strong> The time-marker <strong>πρὸ τοῦ τὸν κόσμον εἶναι</strong> puts the possession <strong>before the world's existence</strong>, which is the exact point S2 disputes. <strong>(iii)</strong> And it is spoken <strong>by Christ about himself</strong>, which is why S13 says <code>he **himself** says</code>. ⚠️ <strong>The standard counter-reading</strong> — that Christ speaks of a glory <em>predestined</em> for him, not actually possessed — was available then and is still argued now; Calvin does not engage it here, because §8 is a reply to one objection, not a full exegesis. <strong>Note the gap; the exam may ask what §8 does <em>not</em> argue.</strong></p><p><strong>5. Afterlife.</strong> Two receptions and a warning. <strong>The Reformed scholastics</strong> (Turretin, <em>Institutio</em> III.xxviii–xxix) systematised §8's two arguments into the standard treatment of eternal generation, and the pairing — <em>an argument from immutability</em> plus <em>an argument from the invalidity of the temporal inference</em> — became the textbook form. <strong>Barth</strong> (<em>Church Dogmatics</em> II/1 §31.1) took the harder road: rather than defending immutability by distinguishing relative from absolute names, he redefined it as God's <strong>constancy</strong> — God is unchangeably <strong>himself</strong>, which includes his freedom to act and to become. ⚠️ <strong>That is not Calvin's argument, and it is not Calvin's opponent's either; it is a third option.</strong> And the warning: <strong>process theology</strong> and much modern kenotic Christology reject S4's distinction outright, holding that a God really related to the world must really change. <strong>You do not have to adjudicate that here.</strong> ⚠️ What you must see is that <strong>Calvin's whole section presupposes the distinction S4 states in one clause</strong>, and that if the distinction fails, S5's use of James 1:17 fails with it. <strong>Find the load-bearing sentence and you have found where the argument can be attacked. That is what reading well means.</strong></p><p><strong>Over-reading guard-rail.</strong> ⚠️ Six limits.
+<strong>(a)</strong> S4 does <strong>not</strong> deny that God is truly Creator. The parenthesis <strong>grants</strong> the name. What is denied is a name implying change <code>in God himself</code>.
+<strong>(b)</strong> S9's principle does <strong>not</strong> prove the Word eternal. It <strong>removes an objection</strong>. The proof is S11 (the argument) plus S13–S14 (the Scripture) — which is exactly what the heading promises: <em>Answer confirmed by Scripture and argument</em>.
+<strong>(c)</strong> <code>long before</code> (S11) is <strong>not</strong> Calvin's answer. <strong>S12 is.</strong> Stopping at S11 leaves him saying something he immediately corrects.
+<strong>(d)</strong> <code>must have existed</code> (S11) is <strong>inference</strong>, not obligation, and it rests on an <strong>unstated</strong> premise (<em>what is exerted already is</em>). Calvin does not defend that premise. Notice the gap; do not pretend it is filled.
+<strong>(e)</strong> The opponents of §8 are <strong>not</strong> the opponents of §§6–7. Those denied the Word's distinct subsistence or its deity; these <strong>grant the deity</strong> and deny the date. <strong>Different target, different argument.</strong>
+<strong>(f)</strong> <code>eternally begotten</code> (S15) is <strong>not</strong> "begotten a very long time ago." ⚠️ The adverb <strong>cancels the temporal reading of the participle</strong>. Any paraphrase that supplies a <em>when</em> has undone the section.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li>
+<p><strong>James 1:17 — quoted in full at S5, and the anchor of Argument A.</strong> <em>Every good gift and every perfect gift is from above, and cometh down from the Father of lights, with whom is no </em><em>variableness</em><em>, neither </em><em>shadow of turning</em><strong> (</strong>παρ' ᾧ οὐκ ἔνι παραλλαγὴ ἢ τροπῆς ἀποσκίασμα<strong>). ⚠️ </strong>How Calvin uses it:<strong> he needs only the relative clause, but he quotes the whole verse — </strong>because the whole verse is the argument<strong>. </strong>παραλλαγή<strong> is an </strong>astronomical<strong> term (a shifting, a variation in a heavenly body's position) and </strong>τροπή<strong> is the </strong>solstice<strong>, the turning of the sun; </strong>ἀποσκίασμα<strong> is the </strong>shadow cast<strong> by that turning. </strong>The Father of the lights does not do what the lights do.<strong> ⚠️ And the first half matters too: the gifts genuinely <em>come down</em>. </strong>Real giving, no variation — which is precisely S4's distinction between relative and absolute names, asserted in a single verse.<strong> That is why this is the right proof-text and not merely a convenient one. </strong>Planted yesterday** at §7 S19 (<code>as being **liable to no variation**</code>) and harvested today.</p>
+</li>
+<li>
+<p><strong>Genesis 1:3 — quoted at S11; the objection's own text, from S2 and S7.</strong> <em>And God said, </em><em>Let there be light</em><strong> (</strong>וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר<strong>; LXX </strong>καὶ εἶπεν ὁ θεός· γενηθήτω φῶς<strong>). ⚠️ </strong>How Calvin uses it:<strong> he </strong>concedes the text and reverses the inference.<strong> The opponents say the speech is where the Word starts; Calvin says the speech is where the Word's energy is </strong>exerted<strong> — and exertion presupposes existence. ⚠️ Note that the Hebrew jussive </strong>יְהִי<strong> and the Greek </strong>γενηθήτω<strong> both concern </strong>what comes to be<strong> (the light), </strong>not the speaker<strong>. </strong>The verse says something came into being. It does not say the speaking did.<strong> Contrast §7 S9, where the same verse was quoted </strong>without** quotation marks as a paraphrase; today it is a citation, because today it is the opponents' evidence.</p>
+</li>
+<li>
+<p><strong>John 17:5 — quoted in full at S13.</strong> <em>And now, O Father, glorify thou me with thine own self with the glory which I </em><em>had</em><em> with thee </em><em>before the world was</em><strong> (</strong>καὶ νῦν δόξασόν με σύ, πάτερ, παρὰ σεαυτῷ τῇ δόξῃ ᾗ εἶχον πρὸ τοῦ τὸν κόσμον εἶναι παρὰ σοί<strong>). ⚠️ </strong>How Calvin uses it:<strong> as </strong>the Word's own testimony<strong>, and for one verb — </strong>εἶχον<strong>, the imperfect of <em>ἔχω</em>, <em>I was possessing</em>. </strong>Not <em>was promised</em>, not <em>was destined</em>.<strong> And </strong>παρὰ σεαυτῷ / παρὰ σοί<strong> (<em>alongside yourself</em>) is the same <em>with</em>-relation as John 1:1's </strong>πρὸς τὸν θεόν<strong> — which is why S13 and S14 sit together. </strong>Possession, prior, and in company. Three words, three doctrines.**</p>
+</li>
+<li>
+<p><strong>John 1:1 — quoted in part at S14.</strong> <em>In the beginning </em><em>was</em><em> the Word, and the Word </em><em>was</em><em> with God</em> (<strong>ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν</strong>). ⚠️ <strong>How Calvin uses it:</strong> not for the words but for <strong>their position</strong> — <code>**before** he descends to the creation of the world</code>. <strong>John states the Word's existence before he reaches John 1:3.</strong> ⚠️ And underneath, the Greek contrast Calvin does not stop to name: the Word <strong>ἦν</strong> (imperfect, <em>was already</em>), everything else <strong>ἐγένετο</strong> (aorist, <em>came to be</em>, 1:3). <strong>Two verbs, and the whole objection dies on the difference.</strong> ⚠️ Note he stops before <code>and the Word was God</code> — <strong>yesterday he needed that clause; today he does not.</strong> Same verse, two sections, two different jobs, exactly as with §6 and §7.</p>
+</li>
+<li>
+<p><strong>1 Peter 1:20 — unnamed, and the best warrant for S9.</strong> <em>Who verily was </em><em>foreordained before the foundation of the world</em><em>, but was </em><em>manifest</em><em> in these last times for you</em> (<strong>προεγνωσμένου μὲν πρὸ καταβολῆς κόσμου φανερωθέντος δὲ ἐπ' ἐσχάτου τῶν χρόνων</strong>). ⚠️ <strong>The μέν … δέ</strong> construction <strong>is</strong> S9's principle in apostolic Greek: <em>before the foundation of the world</em> on one side, <em>manifested in the last times</em> on the other. <strong>Calvin does not cite it here — but this is the shape of New Testament language about Christ, and it is why <code>manifestation is not origination</code> is a biblical principle and not a logician's trick.</strong> Compare <strong>1 Timothy 3:16</strong> (<em>God was </em><em>manifest</em><em> in the flesh</em>, <strong>ἐφανερώθη ἐν σαρκί</strong>) and <strong>Romans 16:25–26</strong> (<em>kept secret since the world began, but </em><em>now is made manifest</em><strong>). </strong>Keep all three in your pocket.**</p>
+</li>
+<li>
+<p><strong>Psalm 102:26–27 / Hebrews 1:10–12 — unnamed, behind S3–S6.</strong> <em>They shall perish, but thou shalt endure… </em><em>thou art the same</em><em>, and thy years shall have no end</em> (<strong>σὺ δὲ ὁ αὐτὸς εἶ</strong>). ⚠️ The Old Testament's own statement of immutability — and <strong>Hebrews applies it to the Son</strong>. Calvin does not need it here because James 1:17 is doing the work, but it is the verse that makes his argument more than a philosophical postulate: <strong>the immutability he is defending is predicated of Christ in the New Testament.</strong> Cf. <strong>Malachi 3:6</strong> (<em>I am the LORD, </em><em>I change not</em><strong>, </strong>אֲנִי יְהוָה לֹא שָׁנִיתִי<strong>) and </strong>Numbers 23:19**.</p>
+</li>
+<li>
+<p><strong>Proverbs 8:23 / Micah 5:2 — behind S15's <code>from everlasting</code>.</strong> <em>I was set up </em><em>from everlasting</em><em>, from the beginning, or ever the earth was</em> (<strong>מֵעוֹלָם</strong>, Prov. 8:23); <em>whose goings forth have been from of old, </em><em>from everlasting</em><strong> (</strong>מִימֵי עוֹלָם<strong>, Mic. 5:2). ⚠️ </strong>How Calvin uses it:<strong> <code>dwelt with him **from everlasting**</code> is not his phrase but </strong>Scripture's<strong>, and Proverbs 8 is the chapter he was already working in yesterday (§7 S12, on 8:22). </strong>The vocabulary of the conclusion is borrowed from the evidence.<strong> ⚠️ Micah 5:2 is the standard Reformation proof-text for the pre-existence of the Messiah, and its </strong>מִימֵי עוֹלָם** is as unbounded as S12's <code>without beginning</code>.</p>
+</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① Grammar — which underlined part is wrong?</h3><blockquote>
+<p>ⓐ For if any thing adventitious took place, <strong>the saying of James would cease to be true</strong>, that “every good gift, and every perfect gift, is from above.”
+ⓑ <strong>It does not surely follow, that</strong> because a thing begins to be manifested at a certain time, it never existed previously.
+ⓒ For <strong>as</strong> the names of God, which have respect to external work, began to be ascribed to him from the existence of the work, <strong>so</strong> piety does not recognise or admit any name which might indicate a change.
+ⓓ <strong>Nor this is omitted</strong> by John: for before he descends to the creation of the world, he says, that “in the beginning was the Word.”</p>
+</blockquote><p><strong>Answer: ⓓ.</strong></p><p><strong>출제 의도.</strong> Formula 3(a): <strong>negative inversion.</strong> A sentence fronted by the negative adverb <code>Nor</code> <strong>must</strong> invert subject and auxiliary — <code>**Nor is this** omitted by John</code>. <code>Nor this is omitted</code> is not a stylistic variant; <strong>it is ungrammatical</strong>, then and now. ⚠️ The bait is that the uninverted order <em>looks</em> like ordinary English and the inverted order <em>looks</em> archaic — <strong>the instinct is exactly backwards here</strong>, and the same rule governs <em>never have I</em>, <em>not only did he</em>, <em>scarcely had we</em>, <em>little did they know</em>. <strong>Fix the habit, not the instance: when a clause opens with a negative or restrictive adverbial, put the auxiliary before the subject.</strong> Now check why the others stand. <strong>ⓐ</strong> is Formula 1: the counterfactual <code>if … **took place** …, … **would cease**</code>, with the appositive <code>that</code>-clause extraposed behind the whole predicate; <em>would take place … would cease</em> would double the modal, and <em>takes place … will cease</em> would convert it into an open conditional Calvin does not intend. <strong>ⓑ</strong> is Formula 2: <code>It does not follow, **that** because A, B</code> — the dummy <code>it</code>, the extraposed <code>that</code>-clause, and <code>surely</code> sitting inside the negation; moving <code>surely</code> to the front (<em>Surely it does not follow</em>) is possible modern English but changes the emphasis, and deleting <code>that</code> would leave <code>because</code> dangling from <code>follow</code>. <strong>ⓒ</strong> is Formula 3(b): the proportional <code>as … so</code>, with the <code>so</code> retained — modern English may drop it, but with <code>as</code> in the first limb the correlative is correct, and replacing <code>as</code> with <em>because</em> would destroy the concession.</p><h3>② Comprehension — which statement is TRUE according to the passage?</h3><blockquote>
+<p>ⓐ Calvin holds that God cannot rightly be called the Creator of heaven and earth, since any such name would imply that a change had taken place in him.
+ⓑ Calvin grants that the Word began to be manifested at the creation, but denies that this shows it did not exist before; from the exertion of its energy at that moment he infers that it existed without beginning.
+ⓒ Calvin argues, with Moses, that because God then spoke for the first time, no Word had existed in him until that moment.
+ⓓ Calvin concedes that Scripture nowhere indicates how long the Word existed before the world, and therefore rests his case on reason alone.</p>
+</blockquote><p><strong>Answer: ⓑ.</strong> (S9 <code>It does not surely follow, that because a thing begins to be manifested at a certain time, it never existed previously</code>; S11 <code>the energy of the Word … was immediately exerted, it must have existed long before</code>; S12 <code>he will find it was without beginning</code>.)</p><p><strong>출제 의도.</strong> Four options, four failure modes.
+- <strong>ⓐ is the inverted concession — Trap 1.</strong> S4's parenthesis <code>(as when he is called **the Creator of heaven and earth**)</code> is an example of what Calvin <strong>allows</strong>: names that <code>have respect to external work</code> <strong>do</strong> begin with the work. ⚠️ The bait is that S4's main clause is a negation, so the eye carries the <em>not</em> backwards into the parenthesis. <strong>The forbidden class is defined by the last three words of the sentence — <code>in God himself</code> — not by the parenthesis.</strong> Getting this backwards makes Calvin deny the first article of the Creed.
+- <strong>ⓑ is true</strong>, and note it needs <strong>three</strong> sentences. S9 alone gives only the non-sequitur; S11 adds the positive inference; S12 pushes <code>long before</code> to <code>without beginning</code>. ⚠️ An option that stopped at S11 would be <strong>incomplete but not false</strong> — the examiner's favourite grey zone, which is why ⓑ carries the chain through to S12. <strong>Trap 5's second half.</strong>
+- <strong>ⓒ is the ownership error — Trap 3.</strong> That inference is the <strong>opponents'</strong> (S7: <code>**they** think **they** argue acutely, in maintaining that…</code>), and Calvin's verdict on it is the next sentence: <code>This is the merest trifling.</code> ⚠️ The bait is the phrase <em>with Moses</em>, which smuggles Calvin onto the side of the text he is in fact reinterpreting. <strong>Watch every <code>they</code> in S7 — there are three.</strong>
+- <strong>ⓓ is the double flip — Trap 4 plus a reversal of the heading.</strong> S13's <code>**No certain period** of time is defined</code> means <em>no definite span is fixed</em> (because there is none to fix), <strong>not</strong> <em>Scripture is silent</em>; and the section is confirmed <strong>by Scripture</strong> — John 17:5 and John 1:1 are quoted in the very next two sentences, exactly as the argument heading promises (<em>Answer confirmed by </em><em>Scripture</em><em> and argument</em>). ⚠️ Any option that leaves Calvin resting on reason alone has ignored half the section.</p><h3>③ Composition — apply Formulas 1, 2 and 3</h3><p>Render into Beveridge-style English, using <strong>all three</strong> of today's formulas:</p><blockquote>
+<p>"만일 무엇이든 밖에서 더해진 것이 하나님께 일어났다면, 사도의 말은 참되기를 그쳤을 것이다, 곧 그분은 변하지 아니하신다는 말이. 어떤 것이 어느 정한 때에 나타나기 시작했다고 해서 그것이 전에 존재하지 않았다는 결론은 결코 따라 나오지 않는다. 바울도 이것을 빠뜨리지 않는다. 그리고 하나님의 이름들이 그 사역이 존재한 때로부터 그분께 돌려지기 시작한 것처럼, 그렇게 경건은 그분 자신 안에 변화가 일어났음을 가리킬 어떤 이름도 인정하거나 허용하지 않는다."</p>
+</blockquote><p><strong>Model answer:</strong></p><blockquote>
+<p><strong>For if any thing adventitious took place in God, the saying of the apostle would cease to be true, that he changeth not. It does not surely follow, that because a thing begins to be manifested at a certain time, it never existed previously. Nor is this omitted by Paul. And as the names of God, which have respect to external work, began to be ascribed to him from the existence of the work, so piety does not recognise or admit any name which might indicate that a change had taken place in God himself.</strong></p>
+</blockquote><p><strong>출제 의도 및 채점 기준.</strong> Six things are being checked.
+1. <strong>Formula 1, the counterfactual.</strong> <code>**if** any thing adventitious **took place** …, the saying … **would cease** to be true</code>. ⚠️ Three checks: the <strong>past</strong> protasis (<code>took place</code>, not <em>takes place</em>, not <em>had taken place</em>); the <strong><code>would</code></strong> apodosis (not <em>will</em>, not <em>ceased</em>); and the fact that they must <strong>match</strong> — a present protasis with a <code>would</code> apodosis is the commonest error and forfeits the point.
+2. <strong>Formula 1, the delayed appositive.</strong> <code>the saying of the apostle would cease to be true, **that** he changeth not.</code> ⚠️ The <code>that</code>-clause must sit <strong>after</strong> the whole predicate, with a comma. Writing <em>the saying of the apostle that he changeth not would cease to be true</em> is correct English and <strong>loses the Beveridge shape</strong>, which is what is being tested. Test yourself with <em>namely</em>.
+3. <strong>Formula 2, the negation frame.</strong> <code>**It does not surely follow, that** because a thing begins to be manifested at a certain time, it never existed previously.</code> ⚠️ Four checks: the dummy <code>It</code>; <code>does not … follow</code> (not <em>it follows not</em>, not <em>it is not following</em>); <code>**surely**</code> <strong>inside</strong> the negative; and <code>that</code> retained before <code>because</code>. ⚠️ <strong>Dropping <code>that</code> is fatal</strong> — <code>follow because</code> reads as a causal adjunct of <code>follow</code>, and the sentence then says the opposite of what it means.
+4. <strong>Formula 3(a), negative inversion.</strong> <code>**Nor is** this omitted by Paul.</code> ⚠️ Not <em>Nor this is omitted</em>; not <em>And this is not omitted</em> (grammatical, but forfeits the point); not <em>Nor is this not omitted</em> (double negative). <strong>The auxiliary must precede the subject.</strong>
+5. <strong>Formula 3(b), the proportional.</strong> <code>**as** the names of God … began to be ascribed …, **so** piety does not recognise or admit any name…</code>. ⚠️ Both limbs required; <code>so</code> must be retained; <code>as</code> must not become <em>because</em>. And the relative <code>**which** have respect to external work</code> must be <strong>non-restrictive</strong> (commas both sides) — it describes the whole class, it does not select a subset. ⚠️ Writing <em>the names of God that have respect to external work</em> <strong>changes the argument</strong>: it would imply that some names referring to external work do <strong>not</strong> begin with the work.
+6. <strong>Vocabulary and argumentative accuracy — heaviest.</strong> <code>adventitious</code> (S5, = coming from outside), <code>cease to be true</code> (S5), <code>manifested</code> (S9), <code>at a certain time</code> (S9, = definite), <code>previously</code> (S9), <code>have respect to</code> (S4, = refer to), <code>ascribed</code> (S4), <code>piety</code> (S4), <code>recognise or admit</code> (S4, the doublet), <code>might indicate</code> (S4, potential). ⚠️ <strong>And the closing clause must end <code>in God himself</code>.</strong> Drop those three words and you have written the sentence ⓐ of Problem ② — <strong>a denial that God may be called Creator</strong>, which is the exact inversion of Calvin's concession. <strong>Three words carry the whole restriction. Do not lose them.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> Yesterday the Word was proved <strong>God</strong>; today it is proved <strong>beginningless</strong>, against people who steal quietly rather than deny loudly — <code>certain men, who, **while** they dare not openly deny his divinity, **secretly rob him of his eternity**</code> (S1), whose claim is precise: <code>the Word **only began to be** when God opened his sacred mouth in the creation of the world</code> (S2), and whose real offence is upstream — <code>**with excessive temerity**, they imagine **some change in the essence of God**</code> (S3). <strong>Argument A, from immutability.</strong> Calvin first concedes what must be conceded: <code>**as** the names of God, **which have respect to external work**, began to be ascribed to him from the existence of the work (**as when he is called the Creator of heaven and earth**), **so** piety does not recognise or admit any name which might indicate that a change had taken place **in God himself**</code> (S4) — <strong>relative names may begin; absolute ones may not.</strong> Then the proof-text §7 planted: <code>**if any thing adventitious took place**, the saying of James **would cease to be true**, that "…**with whom is no variableness, neither shadow of turning**," (James 1:17)</code> (S5). Verdict: <code>**Nothing** … is **more intolerable** than **to fancy a beginning** to that Word which was **always** God, and **afterwards** was the Creator of the world</code> (S6). <strong>Argument B, from logic.</strong> Their move is stated fairly — <code>**they think they argue acutely**, in maintaining that Moses … **must be held to intimate** that till then no Word existed in him</code> (S7) — and dismissed in six words: <code>**This is the merest trifling.**</code> (S8). Then the principle the whole section turns on: <code>**It does not surely follow**, that because a thing **begins to be manifested** at a certain time, **it never existed previously**</code> (S9). <code>**I draw a very different conclusion.**</code> (S10): <code>Since at the very moment when God said, "Let there be light," the energy of the Word **was immediately exerted**, it **must have existed long before**</code> (S11) — <strong>exertion presupposes existence</strong> — and then the correction that abolishes the question: <code>If any inquire **how long**, he will find it was **without beginning**</code> (S12). <strong>The evidence.</strong> <code>**No certain period** of time is defined, when **he himself** says, "…the glory which I **had** with thee **before the world was**," (John 17:5)</code> (S13); <code>**Nor is this omitted by John**: for **before he descends to the creation** of the world, he says, that "in the beginning was the Word, and the Word was with God."</code> (S14). <strong>Conclusion:</strong> <code>the Word was **eternally begotten** by God, and **dwelt with him from everlasting**</code> (S15), so that <code>his true **essence**, his **eternity**, and **divinity**, are established</code> (S16). <strong>First spoken is not first existing. Manifestation is not origination.</strong></p><p><strong>And the three grammar points, once more.</strong> ① <strong>The counterfactual with a past protasis, and the delayed appositive</strong> — <code>**if** any thing adventitious **took place** …, the saying of James **would cease** to be true, **that** …</code> (S5): past protasis + <code>would</code> apodosis = hypothesis, <strong>not history</strong> — and read backwards from the apodosis, because only <code>be</code> shows the subjunctive openly. ⚠️ Contrast the <strong>open</strong> conditional seven sentences later: <code>**if** any **inquire** how long, he **will find**</code> (S12). Plus the appositive three times — <code>the saying of James …, **that**</code> (S5), <code>It does not surely follow, **that**</code> (S9), <code>We … conclude, **that**</code> (S15): abstract noun or dummy <code>it</code>, then the predicate, then the <code>that</code>-clause, testable with <em>namely</em>. ② <strong>Negation and its scope</strong> — <code>It does **not** surely **follow**, that because A, B</code> (S9): the negation bites on the <strong>inference</strong>, and B is what does <strong>not</strong> follow; <code>surely</code> = <em>certainly</em>, settled by S10's <code>a **very different** conclusion</code>. Plus the family: <code>**Nothing** is **more** intolerable **than**</code> = superlative (S6); <code>**No certain** period is defined</code> = no <strong>definite</strong> span (S13); <code>**without** beginning</code> (S12). <strong>Nine of sixteen sentences carry a negative — find it before you translate.</strong> ③ <strong>Negative inversion and the proportional</strong> — <code>**Nor is this** omitted by John</code> (S14): fronted negative adverbial forces subject–auxiliary inversion, <strong>obligatory</strong>, and the litotes means <em>John states it, as one would expect</em>; plus <code>**as** … , **so** …</code> (S4), second day running, with limb 1 a <strong>concession</strong> and limb 2 a <strong>limit</strong>. And five things to keep: <strong><code>temerity</code> = recklessness (not timidity), <code>adventitious</code> = added from outside, <code>intimate</code> = to hint (a verb), <code>the merest</code> = sheer, <code>certain</code> = definite</strong>; <strong>the concession in S4's parenthesis</strong> (Trap 1); <strong>the ownership of S7</strong> (Trap 3 — three <code>they</code>s); <strong><code>must have existed</code> = inference, not obligation</strong> (S11); and <strong><code>eternally begotten</code>, where the adverb cancels the <em>when</em></strong> (S15).</p><p><strong>Homework (10 minutes).</strong></p><ol>
+<li><strong>Structure restoration.</strong> Take <strong>S7</strong> and lay it out on five lines, one per level of embedding, labelling each with its owner: L0 Calvin's report, L1 their self-assessment, L2 their claim, L3 their premise, L4 their conclusion. (Target for L4: <em>till then no Word existed in him.</em>) Then do the same operation on <strong>S4</strong>: write the <code>as</code>-limb on one line, the parenthesis on a second <strong>marked GRANTED</strong>, and the <code>so</code>-limb on a third <strong>marked DENIED</strong> — and underline the three words that carry the restriction. (Target: <em>in God himself</em>.) Finally, strip <strong>S11</strong> to its spine: cover the fourteen-word time expression and write subject + verb of the <code>Since</code>-clause on one line. (Target: <em>the energy of the Word was exerted.</em>)</li>
+<li><strong>Composition.</strong> One short paragraph, English, containing (a) an <strong><code>if … took place …, would …</code></strong> counterfactual with its <code>that</code>-clause <strong>extraposed</strong>, (b) an <strong><code>it does not follow, that because A, B</code></strong> frame, and (c) one <strong>negative inversion</strong>. <em>만일 성령께 밖에서 더해진 무엇이 일어났다면, 시편 기자의 말은 참되기를 그쳤을 것이다, 곧 주는 한결같으시다는 말이. 그 영이 오순절에 부어지기 시작했다고 해서 그 전에 존재하지 않았다는 결론은 결코 따라 나오지 않는다. 베드로도 이것을 빠뜨리지 않는다.</em> (Target shape: <strong>For if any thing adventitious took place in the Spirit, the saying of the Psalmist would cease to be true, that the Lord is ever the same. It does not surely follow, that because the Spirit began to be poured out at Pentecost, he never existed previously. Nor is this omitted by Peter.</strong>)</li>
+<li><strong>Preview — §9, one line.</strong> Tomorrow Calvin leaves the Word's <strong>eternity</strong> and turns to the <strong>divine names</strong>: <code>But though I am not now treating of the office of the Mediator, having deferred it till the subject of redemption is considered, yet because it ought to be clear and incontrovertible to all, **that Christ is that Word become incarnate**, this seems the most appropriate place to introduce those passages which assert the Divinity of Christ.</code> ⚠️ Watch three things. <strong>(i)</strong> The <strong>deferral</strong> — <code>having deferred it till the subject of redemption is considered</code> — is §7 S2's <code>Thereafter</code> habit again; <strong>Calvin is constantly telling you what he is <em>not</em> doing yet.</strong> <strong>(ii)</strong> The new bridge: <code>**that Christ is that Word become incarnate**</code> — the Word of §§7–8 is now identified with the man Jesus, and only then can Old Testament divine names be applied to him. <strong>(iii)</strong> And the method changes: today was two arguments and two verses; tomorrow is a <strong>catena</strong> — Psalm 45:6, Isaiah 9:6, and the Jewish counter-readings of each, refuted one by one (<code>the Jews quibble that the name **Elohim** is applied to angels and sovereign powers</code>). <strong>Today he proved the Word never began. Tomorrow he starts proving the Word is called God by name.</strong></li>
+</ol><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 13, §8 끝. 다음은 Book 1, Ch. 13, §9.</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
