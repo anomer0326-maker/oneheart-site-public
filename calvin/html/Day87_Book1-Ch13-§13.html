@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 삼위일체 하나님 §13 (1권 13장 · Day 87) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 13장 §13(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 87. 연관 성구: 사도행전 3, 요한복음 11, 신명기 13, 마태복음 24."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day87_Book1-Ch13-%C2%A713.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="삼위일체 하나님 §13 — 기독교 강요 영어로 읽기 (Day 87)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 13장 §13(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 87. 연관 성구: 사도행전 3, 요한복음 11, 신명기 13, 마태복음 24."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day87_Book1-Ch13-%C2%A713.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 삼위일체 하나님 §13 (1권 13장 · Day 87) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 13장 §13(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 87. 연관 성구: 사도행전 3, 요한복음 11, 신명기 13, 마태복음 24.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 13장 §13 — 삼위일체 하나님","mentions":[{"@type":"CreativeWork","name":"사도행전 3 (Acts 3)"},{"@type":"CreativeWork","name":"요한복음 11 (John 11)"},{"@type":"CreativeWork","name":"신명기 13 (Deut 13)"},{"@type":"CreativeWork","name":"마태복음 24 (Matt 24)"},{"@type":"CreativeWork","name":"열왕기상 17 (1 Kgs 17)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day87_Book1-Ch13-%C2%A713.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 87 — Book 1, Chapter 13, §13<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (⚠️ invariable) — 8 sentences</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl2" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl3" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl1" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl2" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl1" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl3" href="#S8" onclick="closeNavMobile()">S8</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 87 — Book 1, Chapter 13, §13</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday I told you to write two words across the top of the page: <strong><code>ministry</code></strong> and <strong><code>inherent power</code></strong>. Open today's section and look at the second sentence. <code>they dispensed the gifts of God **as his ministers**, whereas he exerted **his own inherent might**.</code> ⚠️⚠️⚠️ <strong>The same two words. One section later. Word for word.</strong> §12 S9 said <code>not the **ministry** of forgiving sins, but the **inherent power** which the Lord declares he will not give to another</code>; §13 S2 says <code>as his **ministers** … his own **inherent** might</code>. <strong>§12 and §13 are not two arguments. They are one argument with a section break in the middle, and Calvin has re-banked the distinction rather than restating it.</strong> If a test asks you what §13 adds, the answer is not <em>a new premise</em> — it is <strong>a new field of application</strong>: yesterday the distinction governed <em>forgiveness</em>, today it governs <em>miracles</em>.</p><p>Now the opening, and it is not what you expect. §11 opened with a thesis. §12 opened with a thesis (<code>The divinity of Christ, if judged by the works …, becomes still more evident</code>). <strong>§13 opens with a shout.</strong> <code>**How clearly and transparently does this appear in his miracles?**</code> ⚠️⚠️ Three things at once. <strong>(i)</strong> It is an <strong>exclamatory inversion wearing a question mark</strong> — <code>How + adverb + does + S + V</code> — and it is not asking you anything. <strong>(ii)</strong> <code>**this**</code> is an <strong>anaphor with no noun in sight</strong>: its antecedent is across the section break, in §12 — <em>the divinity of Christ</em>, or more precisely <em>the proof from what he does</em>. <strong>Calvin has started mid-sentence, grammatically speaking.</strong> <strong>(iii)</strong> The comparative ladder from §12 S1 (<code>still more evident</code>) has just been climbed one more rung: <em>evident</em> → <code>still more evident</code> → <code>**clearly and transparently**</code>. <strong>Three sections, three grades of brightness. Mark it, because it is a chapter-map disguised as adverbs.</strong></p><p>And here is the move that makes §13 a much better argument than a careless reader will think it is. <strong>Calvin gives the whole case away in his second sentence and wins anyway.</strong> <code>**I admit** that similar and equal miracles were performed by the prophets and apostles</code>. ⚠️⚠️⚠️ <strong>Stop. Read that again.</strong> The prophets parted a sea; Elijah raised a widow's son; Peter's shadow healed. Calvin does not minimise a single one of them — he calls them <code>**similar and equal**</code>. <strong>He has just conceded that the miracles themselves prove nothing.</strong> ⚠️ <strong>If a test option says Calvin argues Christ's miracles were greater, or more numerous, or of a kind the prophets could not perform, it has read the section backwards.</strong> The argument does not live in <em>what</em> was done. It lives in <code>**this very essential difference**</code> — in <strong>how</strong>, and on <strong>whose</strong> power. <strong>Underline the word <code>difference</code> and write beside it: NOT in the works, in the MODE.</strong></p><p>Then watch him handle the one piece of evidence that could sink him, and watch how fast. <code>**Sometimes, indeed,** he used prayer, that he might ascribe glory to the Father, **but** we see that **for the most part** his own proper power is displayed.</code> (S3) ⚠️⚠️ <strong>That is a counter-example, and Calvin raises it himself.</strong> Christ at the tomb of Lazarus looks exactly like Elijah at Zarephath — a man asking God. <strong>A weaker writer suppresses this. Calvin concedes it in six words (<code>Sometimes, indeed, he used prayer</code>), explains it in nine (<code>that he might ascribe glory to the Father</code>), and turns it in thirteen.</strong> ⚠️ Note the two hedges that make the turn honest: <code>**for the most part**</code> — not <em>always</em>; <code>is **displayed**</code> — a matter of what the record shows. <strong>Calvin is arguing from a preponderance, not from a universal, and he says so. An option that has him claiming Christ never prayed is not a misreading of the argument; it is a misreading of an adverb.</strong></p><p>The spine of the second half is a single logical form, and you should be able to name it. <code>And **how should not he be** the true author of miracles, **who, of his own authority, commissions others to perform them?**</code> (S4) ⚠️⚠️ <strong>That is an a fortiori from delegation</strong>: <em>the one who hands out a power must possess it, and possess it more fully than those he hands it to.</em> Then the evidence in two stages — <strong>what Christ gave</strong> (<code>he gave power to the apostles to cast out devils, cure the lepers, raise the dead, &amp;c.</code>, S5, the Evangelist's testimony) and <strong>what the apostles admitted</strong> (<code>their whole power was **derived from** Christ</code>, S6, their own testimony, given not in words but <code>by the mode in which they performed this ministry</code>). And then the proof text, and it is chosen with great care: <code>**“In the name of Jesus Christ of Nazareth,”** says Peter (Acts 3:6), **“rise up and walk.”**</code> ⚠️⚠️⚠️ <strong>Six words of quotation and the entire argument is in the first four.</strong> Peter does not say <em>rise up and walk</em>. He says <strong>in whose name</strong> he says it. <strong>The borrowed name is the confession of derived power.</strong> <strong>Christ, at the same tomb-side and bed-side, says <code>Talitha cumi</code> and nothing else.</strong></p><h3>Today's 3 Big Points</h3><ol>
+<li><strong>Interrogative shapes that are not asking anything — two of them, built differently, and both testable.</strong> ① <code>**How clearly and transparently does this appear** in his miracles?</code> (S1) — <strong>exclamation in interrogative dress</strong>: <code>How + adverb(s) + do/does + S + V</code>, with <strong>do-support and subject–auxiliary inversion</strong> because <code>How + adverb</code> has been fronted. ⚠️ Modern English writes this with a full stop (<em>How clearly this appears in his miracles!</em>) and <strong>no inversion</strong>; Beveridge's period keeps the inversion <strong>and</strong> the question mark. ② <code>And **how should not he be** the true author of miracles …?</code> (S4) — a <strong>rhetorical modal</strong>, expecting the answer <em>he must be</em>, and note the <strong>period negative placement</strong>: <code>should **not he** be</code>, where modern English writes <code>should he not be</code>. ⚠️⚠️ <strong>The negative sits before the subject pronoun. That is not an error and it is the most likely grammar item in the section.</strong> Formula 1.</li>
+<li><strong>The concession-reversal frame, run three times in three different builds.</strong> ① <code>**I admit that** A; **but** there is this very essential difference, **that** B</code> (S2) — concession, adversative, and then a <strong>cataphoric <code>this … that</code> apposition</strong> (<code>this very essential difference</code> is empty until the <code>that</code>-clause fills it). ② <code>**whereas**</code> (S2) — a <strong>subordinating contrastive conjunction</strong>, no inversion, no comma-splice; it does not mean <em>while in time</em>. ③ <code>**Sometimes, indeed,** A, **but** B</code> (S3) — the concessive <code>indeed</code> (= <em>it is true</em>), then the reversal, hedged by <code>for the most part</code>. ⚠️ <strong>Three concessions in two sentences. Calvin's habit: give the opponent his best material first, then show it does not reach the point at issue.</strong> Formula 2.</li>
+<li><strong>Every preposition of source in this section is doing argumentative work — read the <code>by</code>s, the <code>of</code>s and the <code>from</code>s as a single system.</strong> <code>performed **by** the prophets and apostles</code> (S2) · <code>dispensed the gifts **of God**</code> (S2) · <code>**of** his own authority</code> (S4) · <code>their whole power was derived **from** Christ</code> (S6) · <code>**In the name of** Jesus Christ of Nazareth</code> (S7) · <code>performed **by his own energy**</code> (S8). ⚠️⚠️ <strong>Line them up and the section reads itself: every agent in it either borrows power or owns it, and the preposition tells you which.</strong> And notice the pair that frames the whole: <code>**performed by** the prophets and apostles</code> (S2, human instruments) ↔ <code>**performed by his own energy**</code> (S8, the source itself). <strong>Same verb, same voice, different kind of <code>by</code>. Formula 3.</strong></li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (⚠️ invariable) — 8 sentences</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+13. <span class="ft-sent" data-s="S1" id="ft-S1" onclick="jumpToCard('S1')">How clearly and transparently does this appear in his miracles?</span> <span class="ft-sent" data-s="S2" id="ft-S2" onclick="jumpToCard('S2')">I admit that similar and equal miracles were performed by the prophets and apostles; but there is this very essential difference, that they dispensed the gifts of God as his ministers, whereas he exerted his own inherent might.</span> <span class="ft-sent" data-s="S3" id="ft-S3" onclick="jumpToCard('S3')">Sometimes, indeed, he used prayer, that he might ascribe glory to the Father, but we see that for the most part his own proper power is displayed.</span> <span class="ft-sent" data-s="S4" id="ft-S4" onclick="jumpToCard('S4')">And how should not he be the true author of miracles, who, of his own authority, commissions others to perform them?</span> <span class="ft-sent" data-s="S5" id="ft-S5" onclick="jumpToCard('S5')">For the Evangelist relates that he gave power to the apostles to cast out devils, cure the lepers, raise the dead, &amp;c.</span> <span class="ft-sent" data-s="S6" id="ft-S6" onclick="jumpToCard('S6')">And they, by the mode in which they performed this ministry, showed plainly that their whole power was derived from Christ.</span> <span class="ft-sent" data-s="S7" id="ft-S7" onclick="jumpToCard('S7')">“In the name of Jesus Christ of Nazareth,” says Peter (Acts 3:6), “rise up and walk.”</span> <span class="ft-sent" data-s="S8" id="ft-S8" onclick="jumpToCard('S8')">It is not surprising, then, that Christ appealed to his miracles in order to subdue the unbelief of the Jews, inasmuch as these were performed by his own energy, and therefore bore the most ample testimony to his divinity.</span>
+</blockquote><p><strong>Sentence count: 8 (S1–S8). One paragraph, three movements: the shout and the concession that founds the whole argument — <code>How clearly and transparently …?</code> followed at once by <code>I admit that similar and equal miracles were performed by the prophets and apostles</code>, and then the pivot, <code>but there is this very essential difference</code> — ministers dispensing versus <code>his own inherent might</code> — with the one awkward counter-example (<code>Sometimes, indeed, he used prayer</code>) raised and answered in the same breath (S1–S3) · the a fortiori from delegation and its two witnesses — the Evangelist on what Christ <em>gave</em> (<code>he gave power to the apostles to cast out devils, cure the lepers, raise the dead, &amp;c.</code>) and the apostles on what they had <em>received</em> (<code>their whole power was derived from Christ</code>), sealed by Peter's borrowed name (S4–S7) · the conclusion, which is about <em>evidence</em> rather than about <em>power</em> — why Christ could rest his case on the miracles at all: <code>these were performed by his own energy, and therefore bore the most ample testimony to his divinity</code> (S8).</strong></p><blockquote>
+<p><strong>Text note (not a correction to the quotation).</strong> Five features of the printed page, all left exactly as they stand.
+(i) ⚠️⚠️ <strong>A page break falls inside S2, and inside a word.</strong> The file prints <code>but there is this very es-        121</code> / <em>(blank line)</em> / <code>sential difference</code> — the running number <strong>121</strong> sits in the middle of the sentence, and the word <strong>essential</strong> is split by a line-break hyphen across the seam. <strong>Joined; the number removed. Nothing else touched.</strong>
+(ii) <strong>Two more line-break hyphens in S8</strong>, both in the last two lines of the section: <code>inas-</code> / <code>much as</code> → <strong>inasmuch as</strong>, and <code>testi-</code> / <code>mony</code> → <strong>testimony</strong>. <strong>These are typesetting hyphens, not the edition's spelling; joined.</strong>
+(iii) ⚠️ <strong><code>&amp;c.</code> is printed, not <code>etc.</code></strong> — the older ampersand form of <em>et cetera</em>, and it is the only abbreviation of its kind in the section. <strong>Left as printed.</strong> (Note what it implies: the list in S5 is <strong>explicitly open</strong>. Calvin is summarising a commission, not itemising it.)
+(iv) <strong>The Acts 3:6 quotation is split around the speech tag</strong> — <code>“In the name of Jesus Christ of Nazareth,” says Peter (Acts 3:6), “rise up and walk.”</code> — with <strong>curly quotation marks</strong>, the reference inside the interrupting clause rather than after the quotation, and the comma before the closing quotation mark in the first half. ⚠️ Compare §12's <code>,” (Is. 43:25)</code> pattern, where the reference followed the completed quotation. <strong>The edition is not consistent about this, and the inconsistency is kept.</strong>
+(v) <strong>Typography kept:</strong> the question mark on the exclamatory S1; the semicolon before <code>but</code> in S2 (heavier than a comma — it marks the pivot); the commas isolating <code>indeed</code> in S3 and <code>then</code> in S8; the double commas around the interposed <code>of his own authority</code> in S4 and around <code>by the mode in which they performed this ministry</code> in S6; and the non-restrictive comma before <code>who</code> in S4.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>                 ─── I. THE SHOUT, THE CONCESSION, THE PIVOT (S1–S3) ───
+[HEADLINE]       S1     "HOW CLEARLY AND TRANSPARENTLY DOES THIS APPEAR in his MIRACLES?"
+                        ⚠ exclamation in question dress · "this" = §12's proof, across the break
+[CONCESSION]     S2a    "I ADMIT that SIMILAR AND EQUAL miracles were performed
+                        BY THE PROPHETS AND APOSTLES"          ← the case given away on purpose
+[THE PIVOT]      S2b    "BUT there is THIS VERY ESSENTIAL DIFFERENCE, THAT
+                        they DISPENSED the gifts of God AS HIS MINISTERS,
+                        WHEREAS he EXERTED HIS OWN INHERENT MIGHT"   ← §12 S9's axis, redeployed
+[COUNTER-EX.]    S3     "SOMETIMES, INDEED, he USED PRAYER, that he might ASCRIBE GLORY
+                        to the Father, BUT … FOR THE MOST PART his own PROPER POWER
+                        is DISPLAYED"                          ← conceded, explained, outweighed
+                 ─── II. THE A FORTIORI FROM DELEGATION, AND ITS TWO WITNESSES (S4–S7) ───
+[A FORTIORI]     S4     "And HOW SHOULD NOT HE BE the TRUE AUTHOR of miracles,
+                        WHO, OF HIS OWN AUTHORITY, COMMISSIONS OTHERS to perform them?"
+[WITNESS 1]      S5     the EVANGELIST: "he GAVE POWER to the apostles to cast out devils,
+                        cure the lepers, raise the dead, &amp;c."   ← what Christ HANDED OVER
+[WITNESS 2]      S6     the APOSTLES, "BY THE MODE in which they performed this MINISTRY,
+                        showed plainly that their WHOLE POWER was DERIVED FROM CHRIST"
+[THE PROOF]      S7     Peter, Acts 3:6 — "IN THE NAME OF Jesus Christ of Nazareth …
+                        rise up and walk"                       ← the borrowed name = the admission
+                 ─── III. WHY THE MIRACLES COULD SERVE AS EVIDENCE (S8) ───
+[CONCLUSION]     S8     "IT IS NOT SURPRISING, THEN, that Christ APPEALED TO HIS MIRACLES
+                        in order to SUBDUE THE UNBELIEF of the Jews, INASMUCH AS these were
+                        PERFORMED BY HIS OWN ENERGY, and therefore BORE THE MOST AMPLE
+                        TESTIMONY TO HIS DIVINITY"
+</code></pre><p><strong>Examiner's Eye.</strong> Five traps, and the first one is the whole section.</p><ul>
+<li><strong>Trap 1 — the difference is in the <em>mode</em>, never in the <em>miracles</em> (S2).</strong> ⚠️⚠️⚠️ <code>I admit that **similar and equal** miracles were performed by the prophets and apostles; **but there is this very essential difference, that** they dispensed the gifts of God **as his ministers**, whereas he exerted **his own inherent might**.</code> <strong><code>similar and equal</code> is a full concession and it is not grudging.</strong> <strong>An option that says Christ's miracles were greater, more numerous, unprecedented, or of a kind no prophet could work has inverted the section's opening concession</strong> — and it has also destroyed the argument, because if the works themselves differed, Calvin would not need the distinction at all. <strong>The whole weight rests on <code>as his ministers</code> versus <code>his own inherent might</code>, and on nothing else.</strong></li>
+<li><strong>Trap 2 — <code>Sometimes, indeed, he used prayer</code> is conceded, not denied (S3).</strong> ⚠️⚠️ Calvin <strong>admits the prayers</strong>, gives a reason (<code>that he might ascribe glory to the Father</code>), and then <strong>outweighs</strong> them (<code>**for the most part** his own proper power is displayed</code>). <strong>An option that has Calvin denying that Christ prayed, or claiming that Christ never invoked the Father when working miracles, has hardened a preponderance into a universal.</strong> ⚠️ Equally wrong in the other direction: <strong>an option that treats the prayers as evidence <em>against</em> Christ's divinity in Calvin's own eyes.</strong> He does not think they tell against it; he thinks they have a different purpose — <strong>glory ascribed, not power borrowed.</strong></li>
+<li><strong>Trap 3 — who is the <em>author</em> and who is the <em>minister</em> (S4–S6).</strong> ⚠️⚠️ <code>how should not he be the **true author** of miracles, who, **of his own authority**, commissions others to perform them?</code> and <code>their **whole** power was **derived from** Christ</code>. <strong>The apostles are the derived party; Christ is the source.</strong> <strong>An option that has the apostles sharing in an inherent power, or that reads <code>he gave power to the apostles</code> (S5) as evidence that the power was Christ's to <em>pass on</em> in the sense of parting with it, has crossed the section's two columns.</strong> ⚠️ Note <code>**whole**</code> in S6 — <em>their power, in its entirety, came from him</em>: no remainder, no native residue. <strong>The word is there to close exactly that loophole.</strong></li>
+<li><strong>Trap 4 — what S8 actually concludes.</strong> ⚠️ <code>It is not surprising, then, that Christ **appealed to his miracles** in order to **subdue the unbelief** of the Jews.</code> <strong>The conclusion of §13 is about the legitimacy of an <em>appeal to evidence</em>, not about the raw fact of power.</strong> Calvin is explaining <strong>why Christ could rest an argument on his miracles</strong> — because being worked <code>by his own energy</code> they <code>bore the most ample **testimony**</code> to what he was. <strong>An option that reads S8 as "miracles prove divinity" has skipped the qualifier <code>inasmuch as these were performed by his own energy</code>, which is the entire condition.</strong> <strong>Miracles as such prove nothing; miracles worked by inherent energy testify.</strong></li>
+<li><strong>Trap 5 — the antecedent of <code>this</code> in S1, and the grade of the adverbs.</strong> ⚠️ <code>How clearly and transparently does **this** appear in his miracles?</code> — <strong><code>this</code> reaches back across the section break to §12</strong>, to the divinity proved from works. <strong>An option that makes <code>this</code> refer to the miracles themselves has made the sentence say nothing</strong> (<em>how clearly do the miracles appear in his miracles</em>). ⚠️ And the adverbs: <code>clearly and transparently</code> <strong>continues</strong> §12's <code>still more evident</code>; they do <strong>not</strong> announce that this is the final or strongest proof — §14 will start again with <code>Again, …</code>. <strong>A comparative sequence is not a ranking.</strong></li>
+</ul><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">How clearly and transparently does this appear in his miracles? — an exclamation in interrogative dress, and a pronoun whose antecedent is in yesterday's section</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p><strong><code>How clearly and transparently does this appear in his miracles?</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>How**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">clearly and transparently</span></li></ul></li></ul></li><li><span class="leaf"><b>does</b></span></li><li><span class="leaf">this</span></li><li><span class="leaf"><b>appear</b></span></li><li><span class="leaf">?`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in his miracles</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>transparent</em> &lt; <em>trans-</em> (through) + <em>parēre</em> (to show, be visible) → <em>apparent, appear, apparition, parent</em>(?) — cf. <em>transpire, transmit, translucent</em>; <em>clear</em> &lt; OFr <em>cler</em> &lt; <em>clārus</em> (bright, loud) → <em>clarify, clarion, declare, Clara</em>; <em>miracle</em> &lt; <em>mīrāculum</em> &lt; <em>mīrārī</em> (to wonder at) &lt; <em>mīrus</em> (wonderful) → <em>admire, mirror, marvel</em>. ⚠️ A miracle is named for the astonishment it causes, not for the law it breaks — a thing to be <em>wondered at</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>How + adv + do/does + S + V?</em> = exclamatory emphasis, no answer expected; <em>appear in X</em> = show itself in X (manifestation, not semblance).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Look how clearly and unmistakably this shows up in his miracles.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>How clearly … does this appear</b> → how clearly this shows up</li><li><b>transparently</b> → unmistakably / you can see right through to it</li><li><b>appear</b> → show up, be visible</li><li><b>?</b> → <em>!</em></li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">I admit that similar and equal miracles were performed by the prophets and apostles; but there is this very essential difference, that they dispensed the gifts of God as his ministers, whereas he exerted his own inherent might — the concession that founds the argument, a cataphoric this … that, and yesterday's axis returning in new clothes</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p><strong><code>I admit that similar and equal miracles were performed by the prophets and apostles; but there is this very essential difference, that they dispensed the gifts of God as his ministers, whereas he exerted his own inherent might.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>I admit**</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that similar and equal miracles were performed</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by the prophets and apostles</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b> there is <b>this very essential difference</b></span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> they <b>dispensed</b> the gifts of God</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>as his ministers</b></span></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>whereas</b> he <b>exerted</b> his own <b>inherent might</b></span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>admit</em> &lt; <em>ad-</em> + <em>mittere</em> (to send toward) → <em>permit, submit, commit, mission</em> — ⚠️ the <em>let-in</em> sense (<em>admit to a room</em>) and the <em>concede</em> sense (<em>admit a point</em>) are the same verb: you let the opponent's claim in; <em>dispense</em> &lt; <em>dis-</em> + <em>pendere</em> (to weigh out) → <em>pension, pendant, ponder, expense, compensate</em>; <em>minister</em> &lt; <em>minus</em> (less) + <em>-ter</em> → the lesser party, opposite of <em>magister</em> (&lt; <em>magis</em>, more) → <em>master, magistrate</em>; <em>inherent</em> &lt; <em>in-</em> + <em>haerēre</em> (to stick) → <em>adhere, cohere, hesitate</em>; <em>exert</em> &lt; <em>ex-</em> + <em>serere</em> (to join, put forth) → <em>insert, series, assert, desert</em>; <em>might</em> (n.) OE <em>miht</em>, cognate with <em>may</em>, <em>machine</em> (Gk <em>μηχανή</em>) via PIE <em>magh-</em> (to be able).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>I admit that …, but …</em> = I grant the point, yet it does not settle the matter (concessive frame); <em>there is this difference, that …</em> = the difference is this, namely that (cataphoric apposition); <em>as his ministers</em> = in the capacity of his servants; <em>whereas</em> = while by contrast (subordinating, no inversion).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I grant that the prophets and apostles worked miracles just as impressive. But there's one crucial difference: they handed out God's gifts as his servants, while he used a power of his own.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>I admit that</b> → I grant / I'll admit</li><li><b>similar and equal</b> → just as impressive, of the same kind</li><li><b>there is this very essential difference, that</b> → the crucial difference is this:</li><li><b>dispensed</b> → handed out, distributed</li><li><b>as his ministers</b> → as his servants / acting for him</li><li><b>whereas</b> → while, whereas</li><li><b>exerted his own inherent might</b> → used a power that was his own.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Sometimes, indeed, he used prayer, that he might ascribe glory to the Father, but we see that for the most part his own proper power is displayed — the counter-example raised by the author, and two hedges that keep him honest</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p><strong><code>Sometimes, indeed, he used prayer, that he might ascribe glory to the Father, but we see that for the most part his own proper power is displayed.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>Sometimes</b>, <b>indeed</b></span></li></ul></li></ul></li><li><span class="leaf">he used prayer</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> he <b>might</b> ascribe glory to the Father</span></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b> we see.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that his own <b>proper</b> power <b>is displayed</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>for the most part</b></span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>ascribe</em> &lt; <em>ad-</em> + <em>scribere</em> (to write to an account) → <em>describe, subscribe, scripture</em> — ⚠️ same verb as §12 S1's `the works which are ascribed to him`, now with Christ as the one doing the ascribing; <em>proper</em> &lt; <em>proprius</em> (one's own) → <em>property, proprietor, appropriate, propriety</em> — ⚠️ the modern sense <em>correct</em> is a late development from <em>what is fitting to a thing's own nature</em>; <em>display</em> &lt; OFr <em>desploier</em> &lt; <em>dis-</em> + <em>plicāre</em> (to fold) → to unfold → <em>deploy, ply, complicated, explicate</em>; <em>glory</em> &lt; <em>glōria</em> → <em>glorify, inglorious</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Sometimes, indeed, A, but B</em> = it is true that sometimes A; nevertheless B (concession frame); <em>that + S + might + V</em> = in order that S should V (purpose clause); <em>for the most part</em> = mostly, in the majority of cases; <em>his own proper power</em> = the power belonging to himself.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">True, he sometimes prayed, so as to give the Father the credit — but you can see that most of the time it is his own power that is on show.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Sometimes, indeed</b> → true, sometimes / admittedly</li><li><b>used prayer</b> → prayed</li><li><b>that he might ascribe glory to</b> → so as to give the glory to</li><li><b>for the most part</b> → mostly, most of the time</li><li><b>his own proper power</b> → his own power</li><li><b>is displayed</b> → is on show, is what you see.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">And how should not he be the true author of miracles, who, of his own authority, commissions others to perform them? — the a fortiori from delegation, a rhetorical modal, and a negative standing where modern English will not put it</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p><strong><code>And how should not he be the true author of miracles, who, of his own authority, commissions others to perform them?</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf"><b> `And </b>how**</span></li><li><span class="leaf"><b>should not he be</b></span></li><li><span class="leaf">the <b>true author</b> of miracles</span></li><li><span class="leaf">?`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>who</b>,, <b>commissions</b> others to perform them</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of his own authority</b></span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>author</em> &lt; <em>auctor</em> &lt; <em>augēre</em> (to increase, originate) → <em>augment, auction, august, authority</em> — ⚠️ `author` and `authority` are the same root: the <em>auctor</em> is the one who has <em>auctoritas</em>, the power to originate; <em>commission</em> &lt; <em>com-</em> + <em>mittere</em> (to send with) → <em>mission, mission-ary, permit, submit, committee</em> — a sending-with-a-charge; <em>perform</em> &lt; OFr <em>parfournir</em>, to furnish through, complete → <em>furnish, furniture</em>; <em>true</em> &lt; OE <em>trēowe</em>, faithful, firm → <em>trust, truce, betroth</em> — ⚠️ the root sense is steadfast, hence <em>real, genuine</em>, not merely <em>not-lying</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>how should not S be X?</em> = how could S possibly not be X? (rhetorical, = S certainly is); <em>of one's own authority</em> = on one's own warrant, not by another's leave; <em>the true author of X</em> = the real originator of X; <em>commission A to V</em> = authorise A to V.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And how could he not be the real source of the miracles, when he is the one who authorises other people to perform them, on his own authority?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>how should not he be</b> → how could he not be</li><li><b>the true author of</b> → the real source of</li><li><b>of his own authority</b> → on his own authority</li><li><b>commissions others to perform them</b> → authorises others to do them.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s1" title="1-star">★</span><span class="s-label">For the Evangelist relates that he gave power to the apostles to cast out devils, cure the lepers, raise the dead, &amp;c. — one point: the coordinated infinitives share a single to, and &amp;c. tells you the list is open</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p><strong><code>For the Evangelist relates that he gave power to the apostles to cast out devils, cure the lepers, raise the dead, &amp;c.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>For** the Evangelist relates `</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that he gave power to the apostles</span><ul class="tr"><li><span class="leaf"><b>to</b>, &amp;c</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">cast out devils</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">cure the lepers</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">raise the dead</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>evangelist</em> &lt; Gk <em>εὐαγγελιστής</em> &lt; <em>εὖ</em> (good) + <em>ἄγγελος</em> (messenger) → <em>angel, evangelical, gospel</em> (OE <em>gōd-spel</em>, good news — a calque); <em>relate</em> &lt; <em>re-</em> + <em>ferre/lātum</em> (carry back) → <em>relation, translate, legislate</em>; <em>leper</em> &lt; Gk <em>λέπρα</em> &lt; <em>λεπίς</em> (scale, flake) → the scaly disease; <em>&amp;c.</em> = <em>et cetera</em>, "and the rest," where <em>cetera</em> is neuter plural of <em>ceterus</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>relate that …</em> = report that …; <em>give power to A to V</em> = authorise A to V; <em>cast out</em> = drive out (of devils, the standing English phrase for <em>ἐκβάλλω</em>).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The Evangelist reports that he gave the apostles power to drive out demons, heal lepers, raise the dead, and so on.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the Evangelist relates</b> → the Gospel writer reports</li><li><b>gave power to the apostles</b> → gave the apostles authority</li><li><b>cast out devils</b> → drive out demons</li><li><b>cure the lepers</b> → heal lepers</li><li><b>&amp;c.</b> → and so on.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s2" title="2-star">★★</span><span class="s-label">And they, by the mode in which they performed this ministry, showed plainly that their whole power was derived from Christ — testimony given by manner rather than by words, and the adjective that closes the last loophole</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p><strong><code>And they, by the mode in which they performed this ministry, showed plainly that their whole power was derived from Christ.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf">** `And they</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>by the mode</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>in which</b> they performed this ministry</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>showed plainly</b></span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that their <b>whole</b> power <b>was derived from</b> Christ</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>mode</em> &lt; <em>modus</em> (measure, manner) → <em>model, modern, moderate, commodity, mood</em> (grammatical); <em>ministry</em> &lt; <em>ministerium</em> &lt; <em>minister</em> &lt; <em>minus</em> → ⚠️ the same root as S2's `ministers` — Calvin is repeating, not varying; <em>derive</em> &lt; <em>dē-</em> + <em>rīvus</em> (stream) → <em>rival</em> (⚠️ <em>rivalis</em> = one who shares a stream), <em>river, arrive</em> (&lt; <em>ad rīpam</em>, to the bank); <em>plain</em> &lt; <em>plānus</em> (flat, level) → <em>plane, explain, plan</em> — ⚠️ the metaphor is <em>level ground</em>: nothing in the way of the eye.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>by the mode in which</em> = by the way in which; <em>show plainly that</em> = make it unmistakably clear that; <em>be derived from</em> = come from, be drawn from (source named).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And the way they carried out that ministry made it unmistakably clear that all their power came from Christ.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>by the mode in which they performed this ministry</b> → by the way they carried out this ministry</li><li><b>showed plainly</b> → made it clear</li><li><b>their whole power</b> → all their power</li><li><b>was derived from</b> → came from.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s1" title="1-star">★</span><span class="s-label">“In the name of Jesus Christ of Nazareth,” says Peter (Acts 3:6), “rise up and walk.” — one point: the quotation is split so that the borrowed name comes first</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p><strong><code>“In the name of Jesus Christ of Nazareth,” says Peter (Acts 3:6), “rise up and walk.”</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `“</b>In the name of** Jesus Christ of Nazareth,”</span></li><li><span class="leaf"><b>says Peter</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Acts 3:6</span></li></ul></li></ul></li><li><span class="leaf">“rise up and walk.”`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>Nazareth</em> — Calvin keeps the full formula `Jesus Christ of Nazareth` because that is what Peter says: the humblest possible designation carrying the highest possible authority, which is the point of the verse; <em>name</em> &lt; OE <em>nama</em>, cognate with <em>nōmen</em> → <em>nominal, nominate, noun, renown</em> — ⚠️ in Hebrew idiom the <em>šēm</em> is the person's authority and presence, not a label.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in the name of X</em> = on X's authority, as X's representative; <em>rise up and walk</em> = get up and walk (KJV imperative pair); <em>says Peter</em> = Peter says (inverted speech tag).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">"In the name of Jesus Christ of Nazareth," Peter says (Acts 3:6), "get up and walk."</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>In the name of</b> → on the authority of / in the name of</li><li><b>says Peter</b> → Peter says</li><li><b>rise up and walk</b> → get up and walk.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">It is not surprising, then, that Christ appealed to his miracles in order to subdue the unbelief of the Jews, inasmuch as these were performed by his own energy, and therefore bore the most ample testimony to his divinity — anticipatory it, a causal conjunction that is really two words, and a conclusion about evidence rather than about power</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p><strong><code>It is not surprising, then, that Christ appealed to his miracles in order to subdue the unbelief of the Jews, inasmuch as these were performed by his own energy, and therefore bore the most ample testimony to his divinity.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>It** is not surprising</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">then</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> Christ appealed to his miracles</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in order to</b> subdue the unbelief of the Jews</span></li></ul></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>inasmuch as</b> these <b>were performed</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by his own energy</span></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and <b>therefore bore</b> testimony</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">the most ample</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to his divinity</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>surprise</em> &lt; OFr <em>surprendre</em> &lt; <em>super-</em> + <em>prendere</em> (to take from above, overtake) → <em>comprehend, apprehend, enterprise</em>; <em>appeal</em> &lt; <em>ad-</em> + <em>pellere</em> (to drive toward) → <em>compel, repel, propel, pulse</em> — ⚠️ the legal sense (<em>appeal to a higher court</em>) and the evidential sense (<em>appeal to the facts</em>) are one verb: you drive your case toward an authority; <em>subdue</em> &lt; <em>subdere/subdūcere</em> (to put under, lead under) → <em>subject, subdued</em>; <em>inasmuch</em> = <em>in</em> + <em>as much</em> + <em>as</em>, a lexicalised three-word causal; <em>ample</em> &lt; <em>amplus</em> (spacious) → <em>amplify, amplitude, ampleness</em>; <em>testimony</em> &lt; <em>testis</em> (witness) → <em>testify, attest, protest, testament</em> — ⚠️ <em>testis</em> is also the origin of <em>testicle</em>, from the Roman practice of swearing an oath by one's own generative power; <em>energy</em> &lt; Gk <em>ἐν-</em> + <em>ἔργον</em> → <em>synergy, ergonomic, surgery</em> (&lt; <em>χειρουργία</em>, hand-work), <em>allergy</em> (&lt; <em>ἄλλος</em> + <em>ἔργον</em>, other-working).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it is not surprising that …</em> = it is entirely to be expected that … (litotes); <em>appeal to X</em> = point to X as evidence; <em>in order to V</em> = so as to V (purpose); <em>inasmuch as</em> = since, seeing that; <em>bear testimony to X</em> = give evidence of X; <em>the most ample</em> = the fullest (elative).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">No wonder, then, that Christ pointed to his miracles to break down the Jews' unbelief — they were done by his own power, so they gave the fullest possible evidence of his divinity.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>It is not surprising, then, that</b> → no wonder, then, that</li><li><b>appealed to</b> → pointed to</li><li><b>in order to subdue the unbelief of</b> → to break down the unbelief of</li><li><b>inasmuch as</b> → since, because</li><li><b>by his own energy</b> → by his own power</li><li><b>bore the most ample testimony to</b> → gave the fullest evidence of.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — Interrogative forms that assert: the exclamative <code>How</code>, and the rhetorical <code>should not he</code></h3><pre><code>   ① EXCLAMATIVE-INTERROGATIVE
+      How + ADVERB(S) + do/does/did + S + V ... ?
+      ⚠ THREE rules fire at once: fronting → inversion → do-support
+      ⚠ FORM = question · FORCE = exclamation · ANSWER expected = none
+      ⚠ modern English:  How clearly this appears ...!   (no inversion, "!" not "?")
+
+      S1  How clearly and transparently DOES THIS APPEAR in his miracles?
+            = This appears very clearly and transparently in his miracles.
+
+   ② RHETORICAL MODAL, with PERIOD NEGATIVE PLACEMENT
+      how should NOT + PRONOUN-SUBJECT + BE ... ?      ← period order
+      how should + PRONOUN-SUBJECT + not + BE ... ?    ← modern order
+      ⚠ "how ... not ...?" ⇒ STRONG AFFIRMATION ("he certainly is")
+
+      S4  And how SHOULD NOT HE BE the true author of miracles, who ... ?
+            = He must certainly be the true author of miracles.
+</code></pre><p>⚠️ <strong>Trap 1 — "correcting" <code>should not he be</code>.</strong> <strong>It is correct as printed.</strong> When the subject is a <strong>pronoun</strong>, modern English moves <code>not</code> after it (<code>should he not be</code>); <strong>period English does not have to.</strong> With a full noun subject even modern English keeps the older order (<code>Shall not the Judge of all the earth do right?</code>). ⚠️ <strong>Trap 2 — losing the inversion in ①.</strong> <code>How clearly **this appears**?</code> is ungrammatical as a question and mispunctuated as an exclamation. <strong>Once <code>How + adverb</code> is fronted in an interrogative, the auxiliary must come before the subject, and a lexical verb must borrow <code>do</code>.</strong> ⚠️ <strong>Trap 3 — translating either as a real question.</strong> Neither expects an answer. ⚠️ <strong>Trap 4 — the double negative in ②.</strong> <code>how</code> + <code>not</code> <strong>does not cancel to a denial</strong>; it produces emphatic affirmation.</p><p><strong>Transformation drill.</strong> <em>그의 권능이 그의 기적들 안에서 얼마나 환히 드러나는가! 그리고 다른 이들에게 권한을 주는 그가 어찌 그 권능의 참된 근원이 아닐 수 있겠는가?</em>
+→ <code>How clearly and transparently does his power appear in his miracles! And how should not he be the true source of that power, who, of his own authority, commissions others?</code> ⚠️ Check three things: the <strong>do-support</strong> (<code>does his power appear</code>, never <em>appears his power</em>); the <strong>negative before the pronoun</strong> in the second sentence; and that <strong>neither sentence is asking anything.</strong></p><hr/><h3>Formula 2 — The concession–reversal frame, three builds, and the cataphoric <code>this … that</code></h3><pre><code>   ① I ADMIT that A ;  BUT  B                        (S2)   ← full concession, semicolon pivot
+   ② SOMETIMES, INDEED, A ,  BUT  B                  (S3)   ← "indeed" = it is true (concessive)
+   ③ A ,  WHEREAS  B                                 (S2)   ← SUBORDINATING contrast
+        ⚠ whereas = "while by contrast" — NO inversion, NOT temporal, NOT the legal "whereas"
+
+   + the cataphoric apposition that carries the pivot:
+      there is THIS very essential difference,  THAT  ...   (S2)
+      ⚠ "this" points FORWARD · the comma = a colon · "that" = APPOSITIVE, not relative
+      ⚠ TEST: can you insert "namely"?  yes → appositive.  can you swap in "which"?  no.
+
+   + the honest hedges that keep a concession from becoming a universal:
+      FOR THE MOST PART ...  /  ... IS DISPLAYED      (S3)
+</code></pre><p>⚠️ <strong>Trap 1 — treating the concession as grudging or partial.</strong> <code>similar and **equal**</code> is unqualified, and the argument <strong>needs</strong> it to be. ⚠️ <strong>Trap 2 — inverting after <code>whereas</code>.</strong> <code>whereas **he exerted**</code>, never <em>whereas exerted he</em>; <code>whereas</code> is subordinating, so normal order. ⚠️ <strong>Trap 3 — misparsing <code>that</code> after <code>difference</code>.</strong> Appositive, not relative: it <strong>supplies</strong> the difference rather than <strong>describing</strong> it. ⚠️ <strong>Trap 4 — dropping the hedge.</strong> <code>for the most part</code> ≠ <em>always</em>. <strong>A universalised Calvin is a misquoted Calvin.</strong> ⚠️ <strong>Trap 5 — the emphatic <code>indeed</code>.</strong> <code>Sometimes, indeed, …, but …</code> is concessive (<em>it is true that</em>), not intensifying (<em>very much so</em>). <strong>The following <code>but</code> is your tell.</strong></p><p><strong>Transformation drill.</strong> <em>나는 선지자들도 동등한 기적을 행했음을 인정한다. 그러나 바로 이 본질적인 차이가 있으니, 곧 그들은 종으로서 하나님의 선물을 나누어 준 반면, 그는 자기 자신의 고유한 권능을 발휘하셨다는 것이다. 물론 그가 때로는 기도하셨다. 그러나 대부분의 경우 드러나는 것은 그 자신의 권능이다.</em>
+→ <code>I admit that the prophets also performed equal miracles; but there is this very essential difference, that they dispensed the gifts of God as his ministers, whereas he exerted his own inherent might. Sometimes, indeed, he used prayer; but for the most part his own proper power is displayed.</code> ⚠️ Four checks: the <strong>semicolon</strong> before <code>but</code>; <code>this … that</code> with the comma doing a colon's job; <strong>no inversion</strong> after <code>whereas</code>; and the hedge <code>for the most part</code> left in.</p><hr/><h3>Formula 3 — Source markers: how period English says <em>whose power was it?</em></h3><pre><code>   BY + PERSON        "performed BY the prophets and apostles"     (S2)  ← human instrument
+   BY + POWER         "performed BY HIS OWN ENERGY"                (S8)  ← the source itself
+   OF + AUTHORITY     "OF HIS OWN AUTHORITY"                       (S4)  ← on whose warrant
+   FROM + PERSON      "their whole power was DERIVED FROM Christ"  (S6)  ← the stream's spring
+   IN THE NAME OF     "IN THE NAME OF Jesus Christ of Nazareth"    (S7)  ← authority borrowed
+   AS + OFFICE        "dispensed the gifts of God AS HIS MINISTERS"(S2)  ← in the capacity of
+
+   THE PAIR THAT IS THE SECTION:
+      INHERENT  (in- + haerēre, to stick fast IN)   ⇒ the power is his own
+      DERIVED   (dē- + rīvus, drawn OFF a stream)   ⇒ the power flowed in from elsewhere
+</code></pre><p>⚠️ <strong>Trap 1 — treating the two <code>by</code>s as the same.</strong> <strong>S2's <code>by</code> takes persons as instruments; S8's <code>by</code> takes a power as source.</strong> The construction is identical and the argument depends on their being different. ⚠️ <strong>Trap 2 — reading <code>as his ministers</code> as comparison.</strong> <code>as</code> = <strong>in the capacity of</strong>, not <em>like</em>. ⚠️ <strong>Trap 3 — losing <code>own</code> / <code>whole</code>.</strong> <code>his **own** inherent might</code>, <code>his **own** proper power</code>, <code>**of his own** authority</code>, <code>by his **own** energy</code>; <code>their **whole** power</code>. <strong>Strike one of these modifiers and a loophole opens. Calvin does not waste them.</strong> ⚠️ <strong>Trap 4 — <code>proper</code> = <em>appropriate</em>.</strong> <strong>No: <em>one's own</em> (&lt; <em>proprius</em>).</strong></p><p><strong>Transformation drill.</strong> <em>그 기적들은 사도들에 의해 행해졌으나, 그들의 모든 권능은 그리스도에게서 온 것이었다. 그는 자기 자신의 권능으로 그것들을 행하셨고, 자기 자신의 권위로 다른 이들에게 그것을 위임하셨다. 그러므로 그들은 그의 이름으로 말했다.</em>
+→ <code>Those miracles were performed by the apostles, but their whole power was derived from Christ. He performed them by his own energy, and of his own authority commissioned others to perform them. They therefore spoke in his name.</code> ⚠️ Four markers, four different prepositions, one distinction: <strong>who owns the power.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word (Sn)</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>transparently</strong> (S1) ⚠⚠</td>
+<td>so that you see straight through to what is behind</td>
+<td><em>trans-</em> + <em>parēre</em> (to show) → <em>apparent, appear, apparition</em>. <strong>The section's thesis in an adverb — the mode shows through the work</strong></td>
+</tr>
+<tr>
+<td><strong>appear</strong> (S1) ⚠</td>
+<td><strong>show itself, be manifested</strong></td>
+<td><em>ad-</em> + <em>parēre</em>. <strong>NOT <em>seem</em>.</strong> Period English prefers the manifestation sense — cf. <em>the Lord appeared unto Abram</em></td>
+</tr>
+<tr>
+<td><strong>miracle</strong> (S1)</td>
+<td>a wonder</td>
+<td><em>mīrāculum</em> &lt; <em>mīrārī</em>, <strong>to wonder at</strong> → <em>admire, mirror, marvel</em>. <strong>Named for the astonishment, not for the broken law</strong></td>
+</tr>
+<tr>
+<td><strong>admit</strong> (S2) ⚠</td>
+<td><strong>concede, grant</strong></td>
+<td><em>ad-</em> + <em>mittere</em>, to send/let in → you <strong>let the opponent's claim in</strong>. Same verb as <em>admit to a room</em></td>
+</tr>
+<tr>
+<td><strong>similar and equal</strong> (S2) ⚠⚠⚠</td>
+<td>of the same kind and of the same force</td>
+<td><strong>A total concession — the hinge of the section. Do not soften it</strong></td>
+</tr>
+<tr>
+<td><strong>dispense</strong> (S2) ⚠</td>
+<td>portion out (another's goods)</td>
+<td><em>dis-</em> + <em>pendere</em>, <strong>to weigh out</strong> → <em>pension, pendant, ponder, expense</em>. <strong>The steward's verb</strong></td>
+</tr>
+<tr>
+<td><strong>minister</strong> (S2, S6) ⚠⚠</td>
+<td>servant, the lesser party</td>
+<td><em>minus</em> + <em>-ter</em>, <strong>the lesser one</strong> — opposite of <em>magister</em> (&lt; <em>magis</em>, more) → <em>master, magistrate</em></td>
+</tr>
+<tr>
+<td><strong>whereas</strong> (S2) ⚠⚠</td>
+<td>while by contrast</td>
+<td><strong>Subordinating</strong> — normal word order, no inversion. <strong>NOT temporal, NOT the contract preamble</strong></td>
+</tr>
+<tr>
+<td><strong>exert</strong> (S2)</td>
+<td>put forth (from within)</td>
+<td><em>ex-</em> + <em>serere</em>, to thrust out → <em>insert, assert, series</em>. <strong>What is inherent is exerted; what is another's is dispensed</strong></td>
+</tr>
+<tr>
+<td><strong>inherent</strong> (S2) ⚠⚠⚠</td>
+<td>belonging in one's own right, underived</td>
+<td><em>in-</em> + <em>haerēre</em>, <strong>to stick fast in</strong> → <em>adhere, cohere, hesitate</em>. <strong>Yesterday's key adjective, back unchanged</strong></td>
+</tr>
+<tr>
+<td><strong>might</strong> (S2) ⚠⚠</td>
+<td><strong>power, strength (NOUN)</strong></td>
+<td>OE <em>miht</em>, cognate with <em>may</em>; PIE <em>magh-</em> → <em>machine, main</em>. ⚠️ <strong>Not the modal — and S3 has the modal, two lines later</strong></td>
+</tr>
+<tr>
+<td><strong>indeed</strong> (S3) ⚠⚠</td>
+<td><strong>it is true, I grant</strong> (concessive)</td>
+<td><em>in</em> + <em>deed</em>, "in actual fact." <strong>Tell: a <code>but</code> is coming</strong></td>
+</tr>
+<tr>
+<td><strong>that he might V</strong> (S3) ⚠⚠⚠</td>
+<td><strong>in order that he should V</strong> (purpose)</td>
+<td>Latin <em>ut</em> + subjunctive. <strong>NOT <em>perhaps<em>, NOT </em>was allowed to</em></strong></td>
+</tr>
+<tr>
+<td><strong>ascribe</strong> (S3)</td>
+<td>attribute, assign</td>
+<td><em>ad-</em> + <em>scribere</em>, to write to an account → <em>describe, subscribe, scripture</em>. ⚠️ Same verb as §12 S1 — <strong>now Christ is the one ascribing</strong></td>
+</tr>
+<tr>
+<td><strong>for the most part</strong> (S3) ⚠⚠</td>
+<td>mostly, in the majority of cases</td>
+<td><strong>A hedge, and it is deliberate. Calvin argues a preponderance, not a universal</strong></td>
+</tr>
+<tr>
+<td><strong>proper</strong> (S3) ⚠⚠⚠</td>
+<td><strong>one's own</strong></td>
+<td><em>proprius</em> → <em>property, proprietor, appropriate</em>. <strong>NOT <em>appropriate</em>. The modern sense is a late drift from "fitting to a thing's own nature"</strong></td>
+</tr>
+<tr>
+<td><strong>display</strong> (S3)</td>
+<td>unfold, put on show</td>
+<td><em>dis-</em> + <em>plicāre</em> (to fold) → <em>deploy, ply, explicate, complicated</em></td>
+</tr>
+<tr>
+<td><strong>author</strong> (S4) ⚠⚠</td>
+<td><strong>originator, source, first cause</strong></td>
+<td><em>auctor</em> &lt; <em>augēre</em>, to increase/originate → <em>augment, auction, august</em> — ⚠️ <strong>same root as <em>authority</em></strong>; the writing sense is a specialisation</td>
+</tr>
+<tr>
+<td><strong>true</strong> (S4) ⚠</td>
+<td>real, actual (vs. merely instrumental)</td>
+<td>OE <em>trēowe</em>, <strong>steadfast</strong> → <em>trust, truce, betroth</em>. <strong>Not <em>truthful</em> here</strong></td>
+</tr>
+<tr>
+<td><strong>of his own authority</strong> (S4) ⚠⚠⚠</td>
+<td>on his own warrant, not by another's leave</td>
+<td><strong>The middle term of the a fortiori. Strip it and the argument collapses</strong></td>
+</tr>
+<tr>
+<td><strong>commission</strong> (S4)</td>
+<td>authorise, send with a charge</td>
+<td><em>com-</em> + <em>mittere</em>, to send with → <em>mission, permit, committee</em></td>
+</tr>
+<tr>
+<td><strong>relate</strong> (S5)</td>
+<td>report, narrate</td>
+<td><em>re-</em> + <em>ferre/lātum</em>, carry back → <em>relation, translate, legislate</em></td>
+</tr>
+<tr>
+<td><strong>cast out</strong> (S5)</td>
+<td>drive out</td>
+<td>the standing English for Gk <em>ἐκβάλλω</em> (<em>ἐκ</em> + <em>βάλλω</em>, throw out) → <em>ballistic, problem, symbol, devil</em> (<em>διάβολος</em>, thrower-across → slanderer)</td>
+</tr>
+<tr>
+<td><strong>leper</strong> (S5)</td>
+<td>one with the scaly disease</td>
+<td>Gk <em>λέπρα</em> &lt; <em>λεπίς</em>, <strong>a scale, a flake</strong></td>
+</tr>
+<tr>
+<td><strong>&amp;c.</strong> (S5) ⚠</td>
+<td>et cetera, and the rest</td>
+<td><em>cetera</em>, neuter plural of <em>ceterus</em>. <strong>The older ampersand form. It marks the list as OPEN</strong></td>
+</tr>
+<tr>
+<td><strong>mode</strong> (S6) ⚠⚠</td>
+<td>manner, way of doing</td>
+<td><em>modus</em>, a measure → <em>model, modern, moderate, commodity, mood</em>. <strong>The section's evidence is a mode, not a statement</strong></td>
+</tr>
+<tr>
+<td><strong>whole</strong> (S6) ⚠⚠</td>
+<td>entire, with no remainder</td>
+<td>OE <em>hāl</em>, sound, uninjured → <em>hale, heal, holy, health</em>. <strong>One adjective closing one loophole</strong></td>
+</tr>
+<tr>
+<td><strong>derive from</strong> (S6) ⚠⚠⚠</td>
+<td>be drawn off from (a source)</td>
+<td><em>dē-</em> + <em>rīvus</em>, <strong>a stream</strong> → <em>river, arrive</em> (&lt; <em>ad rīpam</em>), <em>rival</em> (⚠️ <em>rivalis</em> = one who shares your stream). <strong>The opposite of <em>inherent</em></strong></td>
+</tr>
+<tr>
+<td><strong>plainly</strong> (S6) ⚠</td>
+<td>clearly, unmistakably</td>
+<td><em>plānus</em>, <strong>flat, level</strong> → <em>plane, explain, plan</em>. <strong>Nothing in the way of the eye.</strong> Not <em>simply</em>, not <em>frankly</em></td>
+</tr>
+<tr>
+<td><strong>in the name of</strong> (S7) ⚠⚠</td>
+<td>on the authority of</td>
+<td>Heb. <em>šēm</em> = the person's authority and presence, not a label → <em>nōmen, nominal, noun, renown</em></td>
+</tr>
+<tr>
+<td><strong>surprising</strong> (S8)</td>
+<td>to be wondered at</td>
+<td><em>super-</em> + <em>prendere</em>, <strong>to overtake from above</strong> → <em>comprehend, apprehend, enterprise</em>. <strong><code>not surprising</code> = litotes, i.e. <em>entirely to be expected</em></strong></td>
+</tr>
+<tr>
+<td><strong>appeal to</strong> (S8)</td>
+<td>point to as evidence</td>
+<td><em>ad-</em> + <em>pellere</em>, to drive toward → <em>compel, propel, pulse</em>. <strong>The courtroom sense and the evidential sense are one verb</strong></td>
+</tr>
+<tr>
+<td><strong>subdue</strong> (S8) ⚠</td>
+<td>bring into subjection, quell</td>
+<td><em>sub-</em> + <em>dere/dūcere</em>, to put under → <em>subject</em>. <strong>Military, not conversational</strong></td>
+</tr>
+<tr>
+<td><strong>inasmuch as</strong> (S8) ⚠⚠⚠</td>
+<td><strong>since, seeing that</strong></td>
+<td><em>in</em> + <em>as much</em> + <em>as</em>, lexicalised. ⚠️ <strong>It governs BOTH following clauses — <code>were performed … and therefore bore …</code></strong></td>
+</tr>
+<tr>
+<td><strong>ample</strong> (S8) ⚠⚠</td>
+<td>abundant, more than sufficient</td>
+<td><em>amplus</em>, <strong>spacious</strong> → <em>amplify, amplitude</em>. ⚠️ <code>the most ample</code> = <strong>elative</strong> (<em>most abundant</em>), not a ranking</td>
+</tr>
+<tr>
+<td><strong>bear testimony to</strong> (S8) ⚠</td>
+<td>give evidence of</td>
+<td><em>bear</em> = <strong>carry, bring forward</strong>, not <em>endure</em>; <em>testis</em>, a witness → <em>testify, attest, protest, testament</em></td>
+</tr>
+<tr>
+<td><strong>energy</strong> (S8) ⚠</td>
+<td>operative working power, power in act</td>
+<td>Gk <em>ἐν-</em> + <em>ἔργον</em>, work → <em>synergy, ergonomic, surgery</em> (<em>χειρουργία</em>, hand-work), <em>allergy</em> (<em>ἄλλος</em> + <em>ἔργον</em>)</td>
+</tr>
+</tbody>
+</table><p>⚠️ <strong>Five words for one thing, and every one of them possessed:</strong> <code>his own inherent **might**</code> (S2) · <code>his own proper **power**</code> (S3) · <code>of his own **authority**</code> (S4) · <code>their whole power **derived from** Christ</code> (S6) · <code>by his own **energy**</code> (S8). <strong>Learn them as a set. The section is a lexical demonstration: whatever noun you choose for the thing, the possessive never moves.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>1. Where §13 sits, and why it exists at all.</strong> Proof <strong>three</strong> of the series §11 announced (<code>the **first** thing deserving of special observation</code>): <strong>§11 prophecy applied</strong> → <strong>§12 works ascribed</strong> → <strong>§13 power exercised</strong>. ⚠️⚠️ <strong>Each section closes a door the previous one left ajar, and §13 closes the last one.</strong> After §11: <em>the titles may be honorific</em>. After §12: <em>the works may have been done by God </em><em>through</em><em> him, as through a prophet</em>. <strong>§13 answers exactly that reply</strong> — <code>they dispensed the gifts of God **as his ministers**, **whereas** he exerted **his own inherent might**</code>. ⚠️ <strong>And the answer is built out of §12's own vocabulary</strong> (<code>ministry</code>/<code>ministers</code>, <code>inherent power</code>/<code>inherent might</code>). <strong>If a test asks what §13 contributes: not a new premise, but the application of §12's distinction to the one field where the opponent's reply had most force.</strong> <strong>Then §14 starts a new run — <code>Again, …</code> — from salvation, life and righteousness.</strong></p><p><strong>2. The argument's real problem, and Calvin knows it.</strong> ⚠️⚠️⚠️ <strong>Miracles are a notoriously weak proof, and Scripture itself says so.</strong> <code>If there arise among you a prophet … and giveth thee a sign or a wonder, and the sign or the wonder come to pass … thou shalt not hearken</code> (<strong>Deut 13:1–3</strong>); <code>there shall arise false Christs, and false prophets, and shall shew great signs and wonders</code> (<strong>Matt 24:24</strong>); <code>whose coming is after the working of Satan with all power and signs and lying wonders</code> (<strong>2 Thess 2:9</strong>). ⚠️ <strong>Calvin is emphatic about this elsewhere.</strong> In the <strong>Prefatory Address to Francis I</strong> (1536, kept in all editions) he refuses to let Rome authenticate its doctrine by miracles, and insists that miracles <strong>confirm a doctrine already established from the Word</strong> rather than establishing it. <strong>So §13 cannot be — and is not — the argument "he worked miracles, therefore he is God."</strong> <strong>It is the argument "he worked them <em>by his own might</em>, therefore he is God," and the concession in S2 (<code>similar and equal</code>) is precisely Calvin conceding the weak form in order to run the strong one.</strong> ⚠️ <strong>Guardrail, and it is the most important one today: if you write that Calvin proves Christ's divinity from miracles, you have said something Calvin explicitly refuses to say. He proves it from the <em>mode</em> of the miracles.</strong></p><p><strong>3. The distinction's patristic pedigree: <em>per</em> versus <em>a</em>, minister versus author.</strong> The contrast between working <strong>as an instrument</strong> and working <strong>from oneself</strong> is the standard fourth-century weapon. ⚠️ <strong>Athanasius</strong> (<em>Orations against the Arians</em>) presses it from creation: the Son is not an instrument God used but the one <strong>through whom and in whom</strong> all things were made, without himself being made. <strong>Cyril of Alexandria</strong> repeatedly notes that Christ heals <strong>αὐθεντικῶς</strong> — <em>on his own warrant</em> — where prophets pray. <strong>Augustine</strong> gives the grammar of it: the Father works <strong>a quo</strong> (<em>from whom</em>), the Son <strong>per quem</strong> (<em>through whom</em>), and yet the Son's working is not instrumental because the <em>per</em> is internal to the one divine operation (<em>De Trinitate</em> I). ⚠️⚠️ <strong>Guardrail: Calvin names none of them in §13.</strong> §10 mentioned <code>the orthodox doctors of the Church</code>; §§11–13 name nobody. <strong>Do not write that Calvin cites Athanasius or Cyril here. He runs a patristic argument in purely biblical dress — which is the method of the <em>Institutes</em> in one sentence, and the third time this week I have had to say it.</strong></p><p><strong>4. The a fortiori from delegation, and its limits.</strong> S4's move — <em>the one who commissions others must himself be the author</em> — is a form the schoolmen state as an axiom: <strong>whatever causes a quality in another possesses that quality more eminently</strong> (<em>propter quod unumquodque tale, et illud magis tale</em>). ⚠️ <strong>Calvin does not cite it, and you should not claim he does</strong>; he simply runs it, and he runs it in the form a lawyer would use rather than a metaphysician: <strong><code>of his own authority</code></strong> is the phrase that carries it. ⚠️⚠️ <strong>Where the argument is vulnerable, and it is worth knowing:</strong> a plenipotentiary can delegate powers he himself holds only by delegation — an ambassador may sub-commission. <strong>Calvin's guard against that objection is the four-word phrase, and only that phrase.</strong> <strong>This is why S4's <code>of his own authority</code> is the section's real hinge and not a stylistic flourish, and why I made you underline it.</strong></p><p><strong>5. The prayers of Christ — a standing problem, answered here in nine words.</strong> ⚠️ S3's counter-example is real and old. <strong>Arius used it</strong>; every subordinationist since has used it; <strong>John 11:41–42</strong> is the sharpest case, because Christ prays at Lazarus' tomb and then says out loud <strong>why</strong>: <code>Father, I thank thee that thou hast heard me. And I knew that thou hearest me always: but **because of the people which stand by I said it**, that they may believe that thou hast sent me.</code> ⚠️⚠️ <strong>That verse is Calvin's whole answer in S3, and he does not quote it</strong> — <code>that he might **ascribe glory to the Father**</code> is John 11:42 compressed. <strong>The prayer had an audience, and the audience was the point.</strong> ⚠️ Calvin's fuller treatment belongs elsewhere: the prayers of Christ are the acts of the <strong>Mediator</strong>, discharged in the office he assumed (Book 2, chs. 12–17), and Calvin's doctrine of <strong>accommodation</strong> governs how such passages are read. ⚠️⚠️ <strong>Guardrail: §13 gives this one clause and moves on. Do not import Book 2 into it, and above all do not write that §13 offers a doctrine of the two natures. It offers a preponderance argument about a narrative pattern.</strong></p><p><strong>6. The apostles' own disclaimers — the evidence behind S6 that Calvin never quotes.</strong> S6 says the apostles <code>by the **mode** in which they performed this ministry, showed plainly that their whole power was derived from Christ</code>. ⚠️⚠️ <strong>That is a summary of a pattern running through Acts, and it is startlingly consistent.</strong> Peter at the Beautiful Gate: <code>In the name of Jesus Christ of Nazareth</code> (3:6) — <strong>quoted in S7</strong> — and then, when the crowd stares, <code>why look ye so earnestly on us, **as though by our own power or holiness** we had made this man to walk?</code> (<strong>3:12</strong>). Peter to Aeneas: <code>**Jesus Christ** maketh thee whole</code> (<strong>9:34</strong>) — note the subject of the verb. Paul and Barnabas at Lystra, <strong>tearing their clothes</strong>: <code>we also are men of like passions with you</code> (<strong>14:14–15</strong>). ⚠️⚠️⚠️ <strong>And the negative proof: the seven sons of Sceva, who tried to use the formula without the relation — <code>We adjure you **by Jesus whom Paul preacheth**</code> (19:13) — and were beaten for it.</strong> <strong>The name works only for those actually commissioned. That is the <code>mode</code> Calvin means.</strong> <strong>Set this beside Christ: <code>Talitha cumi</code> (Mark 5:41), <code>Young man, I say unto thee, Arise</code> (Luke 7:14), <code>I will; be thou clean</code> (Matt 8:3), <code>Peace, be still</code> (Mark 4:39). Not one invocation. Not one name above his own.</strong></p><p><strong>7. The prophets prayed too — which is the other half of S2, and also unquoted.</strong> ⚠️ Elijah at Carmel: <code>**Hear me, O LORD, hear me**, that this people may know that thou art the LORD God</code> (1 Kgs 18:36–37). Elijah with the widow's son: <code>he cried unto the LORD</code> (1 Kgs 17:21). Elisha with the Shunammite's son: <code>he … **prayed unto the LORD**</code> (2 Kgs 4:33). Moses: <code>**the LORD** said unto Moses, Lift thou up thy rod</code> (Exod 14:16) — <strong>a rod raised on orders.</strong> ⚠️⚠️ <strong>Every great Old Testament miracle-worker is shown asking or obeying.</strong> <strong>Calvin does not list these because the pattern is so uniform that his sixteenth-century reader supplies it instantly.</strong> <strong>But it is the empirical basis of <code>they dispensed the gifts of God as his ministers</code>, and if you want to know whether S2's claim is fair to the text, this is where you check.</strong></p><p><strong>8. Modern reception, honestly.</strong> ⚠️ The observation that Jesus in the Synoptics heals and exorcises <strong>on his own authority, without invocation, adjuration or prayer-formula</strong>, in marked contrast to contemporary Jewish and Hellenistic practitioners, is <strong>not</strong> a confessional claim — it is a commonplace of historical-Jesus scholarship (compare the adjuration formulae in the magical papyri and in Josephus' account of Eleazar, <em>Ant.</em> 8.46–49, with Mark's bare imperatives). <strong>Geza Vermes</strong>, no friend of Nicene conclusions, notes the absence of the usual apparatus. ⚠️⚠️ <strong>Guardrail, and it is the same one as the last two days: the convergence is on the <em>datum</em>, not on the <em>inference</em>.</strong> <strong>That Jesus is portrayed as commanding rather than petitioning — widely granted. That this portrayal entails consubstantiality with the Father — precisely the disputed step, and no historian's finding settles it.</strong> <strong>Do not write that modern scholarship vindicates §13. Write that modern scholarship confirms the pattern Calvin builds on, and disputes what follows from it.</strong></p><p><strong>9. What §13 deliberately does not do.</strong> ⚠️ It says nothing about whether miracles continue, nothing about the apostles' successors, nothing about how the power was conveyed, and nothing about the relation of the natures in the working of a miracle. <strong>S3's <code>Sometimes, indeed, he used prayer</code> is the only place the incarnate condition surfaces at all, and it is disposed of in one clause.</strong> ⚠️ <strong>Guardrail: §13 is a proof of divinity from the mode of working, and that is the whole of it.</strong> <strong>An answer that has Calvin teaching about the cessation of miracles, or about sacramental power, or about the <em>communicatio idiomatum</em>, has imported three other books into eight sentences.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li><strong>Acts 3:6</strong> (S7) — <code>“In the name of Jesus Christ of Nazareth … rise up and walk.”</code> <strong>The only explicit reference in the section.</strong> ⚠️⚠️ Calvin's use: <strong>the apostles' own admission, quoted from their own mouths.</strong> Note the split quotation — <strong>the borrowed name is placed first</strong>, before the command, because the name is the evidence. Gk <em>ἐν τῷ ὀνόματι Ἰησοῦ Χριστοῦ τοῦ Ναζωραίου</em>.</li>
+<li><strong>Acts 3:12</strong> (behind S6, unquoted) — <code>why look ye so earnestly on us, **as though by our own power or holiness** we had made this man to walk?</code> ⚠️⚠️⚠️ <strong>This is S6 in Peter's own words</strong> — <code>their whole power was derived from Christ</code> is Peter's disclaimer turned into indirect statement. Gk <em>ὡς ἰδίᾳ δυνάμει ἢ εὐσεβείᾳ</em> — ⚠️ <strong><code>ἰδίᾳ δυνάμει</code> = <em>by our own power</em>, the exact phrase Calvin reserves for Christ (<code>his own proper power</code>, S3).</strong> <strong>The vocabulary of the section is Acts 3, redistributed.</strong></li>
+<li><strong>Matthew 10:1, 8</strong> (S5) — <code>he gave them power against unclean spirits, to cast them out, and to heal all manner of sickness</code> (10:1); <code>**Heal the sick, cleanse the lepers, raise the dead, cast out devils**: freely ye have received, freely give</code> (10:8). ⚠️⚠️ <strong>Calvin's list is Matthew 10:8 in reverse order, and <code>the Evangelist</code> singular means Matthew.</strong> ⚠️ Note what he leaves out and what it would have added: <code>**freely ye have received**, freely give</code> — <strong>the derivation stated by Christ himself in the same verse.</strong> <strong>The strongest support for S6 is sitting in S5's own source text, uncited.</strong></li>
+<li><strong>John 11:41–42</strong> (behind S3, unquoted) — <code>Father, I thank thee that thou hast heard me. And I knew that thou hearest me always: but **because of the people which stand by I said it**, that they may believe that thou hast sent me.</code> ⚠️⚠️⚠️ <strong>This verse <em>is</em> S3's explanation.</strong> <code>that he might ascribe glory to the Father</code> is John 11:42 compressed into nine words. ⚠️ Calvin's use: <strong>the one text where Christ states the purpose of his own praying, and it is a purpose of display, not of petition.</strong> <strong>That Calvin can compress it without citing it tells you how confident he is of his reader.</strong></li>
+<li><strong>Mark 5:41 / Luke 7:14 / Matthew 8:3 / Mark 4:39</strong> (behind S2–S3, unquoted) — <code>**Talitha cumi**</code>; <code>Young man, **I say unto thee**, Arise</code>; <code>**I will**; be thou clean</code>; <code>**Peace, be still**</code>. ⚠️⚠️ <strong>Four bare imperatives, no invocation, and the first-person pronouns are the argument</strong> (<em>I say unto thee</em>, <em>I will</em>). Calvin's use: <strong>the empirical content of <code>for the most part his own proper power is displayed</code> (S3).</strong> <strong>He never lists them. He does not need to.</strong></li>
+<li><strong>1 Kings 18:36–37 / 1 Kings 17:21 / 2 Kings 4:33 / Exodus 14:16</strong> (behind S2, unquoted) — <code>**Hear me, O LORD, hear me**</code>; <code>he cried unto the LORD</code>; <code>he … prayed unto the LORD</code>; <code>the LORD said unto Moses, **Lift thou up thy rod**</code>. ⚠️ Calvin's use: <strong>the empirical content of <code>they dispensed the gifts of God as his ministers</code>.</strong> <strong>Note Exodus especially — Moses' power arrives as a command received.</strong></li>
+<li><strong>Acts 9:34 / Acts 14:14–15 / Acts 19:13–16</strong> (behind S6, unquoted) — <code>**Jesus Christ** maketh thee whole</code>; <code>we also are men of like passions with you</code> (with the rent clothes); and the sons of Sceva, <code>**We adjure you by Jesus whom Paul preacheth**</code>, who were overpowered. ⚠️⚠️ Calvin's use: the pattern that makes <code>**by the mode** in which they performed this ministry</code> a fair description. ⚠️ <strong>The Sceva episode is the control case — the formula without the commission fails, which shows the name was never a technique.</strong></li>
+<li><strong>John 5:36 / 10:25 / 10:37–38 / 14:11</strong> (behind S8, unquoted) — <code>the **works** that I do in my Father's name, **they bear witness of me**</code>; <code>though ye believe not me, **believe the works**</code>; <code>believe me for the very **works' sake**</code>. ⚠️⚠️⚠️ <strong>This is S8's <code>Christ appealed to his miracles in order to subdue the unbelief of the Jews</code>, and it is a direct summary of John.</strong> ⚠️ Note that <strong>the evidential use of the miracles is Christ's own</strong>, not Calvin's construction: <strong>Calvin is reporting an argument the Gospel already makes</strong>, exactly as §12 S8 did with Matthew 9:6's <code>that ye may know</code>.</li>
+<li><strong>1 Corinthians 4:1 / 1 Peter 4:10</strong> (behind S2's <code>dispensed … as his ministers</code>, unquoted) — <code>**stewards** of the mysteries of God</code> (Gk <em>οἰκονόμους</em>); <code>as **good stewards** of the manifold grace of God</code>. ⚠️ Calvin's use: <strong>the New Testament's own word for what the prophets and apostles were.</strong> <code>dispense</code> (<em>to weigh out another's goods</em>) is the steward's verb and it was chosen to match.</li>
+<li><strong>Deuteronomy 13:1–3 / Matthew 24:24 / 2 Thessalonians 2:9</strong> (the unstated pressure on the whole section) — <code>though the sign … come to pass … thou shalt not hearken</code>; <code>false prophets … shall shew great signs and wonders</code>; <code>all power and signs and **lying wonders**</code>. ⚠️⚠️⚠️ <strong>These texts are why §13 cannot argue "miracles ⇒ divinity" and why S2 concedes what it concedes.</strong> <strong>Calvin does not mention them because his reader has them by heart — and because conceding <code>similar and equal</code> already neutralises them.</strong> <strong>If you understand why these three verses force the shape of §13, you understand the section.</strong></li>
+</ol><p>⚠️ <strong>Count: one reference cited (Acts 3:6), and something over twenty texts standing behind the argument uncited.</strong> ⚠️⚠️ <strong>That ratio is even steeper than §12's four-to-nine, and it is the same policy — §11 S1's <code>the selection of a few, rather than an accumulation of the whole</code>, now running at full speed.</strong> <strong>But note the difference in <em>kind</em>: yesterday's uncited texts supplied premises; today's supply the <em>evidence base</em> for two empirical generalisations (the prophets prayed, Christ commanded). Calvin is asking his reader to survey two whole testaments from memory and confirm a pattern. That is what a sixteenth-century reader of the <em>Institutes</em> was expected to be able to do.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① 어법 (Grammar) — one of the four underlined items is wrong</h3><blockquote>
+<p>How clearly and transparently ⓐ<strong>does this appear</strong> in his miracles? I admit that similar and equal miracles ⓑ<strong>were performed</strong> by the prophets and apostles; but there is this very essential difference, that they dispensed the gifts of God as his ministers, ⓒ<strong>whereas exerted he</strong> his own inherent might. And how ⓓ<strong>should not he be</strong> the true author of miracles, who, of his own authority, commissions others to perform them?</p>
+</blockquote><p><strong>Answer: ⓒ.</strong></p><p><strong>출제 의도.</strong> ⓒ inverts after <code>whereas</code>. ⚠️⚠️ <strong><code>whereas</code> is a <em>subordinating</em> conjunction of contrast, and subordinate clauses take normal subject–verb order</strong>: <code>whereas **he exerted** his own inherent might</code> (Formula 2 ③). Inversion in English is triggered by <strong>fronted negatives</strong> (<code>Nor does he …</code>, §12 S6) and by <strong>fronted interrogative or exclamative operators</strong> (<code>How … does this appear</code>, S1) — <strong>not by a subordinator.</strong> <code>whereas exerted he</code> is the one item of the four that is actually ungrammatical, in any century.</p><p>⚠️ <strong>The other three all <em>look</em> suspicious and are all correct.</strong> ⓐ <code>**does this appear**</code> — <strong>do-support plus subject–auxiliary inversion is obligatory</strong> once <code>How + adverb</code> is fronted in an interrogative frame; "correcting" it to <em>this appears</em> would leave a question mark on an uninverted clause. <strong>Note the period feature: the force is exclamatory even though the form and punctuation are interrogative — but that is a matter of force, not of grammar, so it is not the error.</strong> ⓑ <code>**were performed**</code> — passive with the agent stated (<code>by the prophets and apostles</code>), plural subject <code>miracles</code>, perfectly regular; a reader who feels that Calvin ought to be denying this will suspect the grammar because he dislikes the content. <strong>Do not confuse a theological objection with a grammatical one.</strong> ⓓ <code>**should not he be**</code> — ⚠️⚠️⚠️ <strong>correct as printed, and this is the real trap of the item.</strong> Modern English moves <code>not</code> after a pronoun subject (<code>should he not be</code>), but <strong>period English places the negative before the subject pronoun in an inverted interrogative</strong>; with a noun subject even modern English keeps the older order (<code>Shall not the Judge of all the earth do right?</code>). <strong>Three of the four underlines test whether you will "fix" good period English. Only one is broken.</strong></p><hr/><h3>② 내용일치 (Comprehension) — which of the following best represents Calvin's argument in §13?</h3><ol>
+<li>Calvin argues that Christ's miracles were greater in kind and number than those of the prophets and apostles, and that this superiority establishes his divinity.</li>
+<li>Calvin grants that the prophets and apostles performed miracles equal to Christ's, and locates the proof of his divinity not in the works themselves but in the manner of working — they distributed God's gifts as his servants, while he exerted a power inherent in himself, and he could confer the power to work miracles on others by his own authority.</li>
+<li>Calvin observes that Christ, unlike the prophets, never prayed when performing miracles, and concludes from this uninterrupted independence that the power at work in him was his own.</li>
+<li>Calvin argues that because the Jews were convinced by Christ's miracles and abandoned their unbelief, the miracles must have been performed by a power greater than any creature possesses.</li>
+</ol><p><strong>Answer: 2.</strong></p><p><strong>출제 의도.</strong> Option 2 states the section's spine in order: the concession (S2a), the pivot to <strong>mode</strong> (S2b), and the a fortiori from delegation (S4–S7).</p><ul>
+<li><strong>1 — the opening concession inverted, and the commonest error on this section.</strong> ⚠️⚠️⚠️ S2 says <code>I admit that **similar and equal** miracles were performed by the prophets and apostles</code> — <strong>unqualified, and structurally necessary.</strong> Number is never mentioned anywhere in §13. <strong>And the option destroys the argument as well as the text: if the works themselves differed, Calvin would not need <code>this very essential difference</code> at all.</strong> ⚠️ <strong>Note why this distractor is so tempting: it is what most readers assume a defence of Christ's divinity from miracles <em>must</em> say. Calvin refuses the obvious argument because Deut 13:1–3 and Matt 24:24 have already broken it.</strong></li>
+<li><strong>3 — a hedge hardened into a universal.</strong> ⚠️⚠️ S3 says <code>**Sometimes, indeed, he used prayer**, that he might ascribe glory to the Father, but we see that **for the most part** his own proper power is displayed.</code> <strong>Calvin explicitly concedes the prayers and explicitly limits his claim to a preponderance.</strong> <code>never prayed</code> and <code>uninterrupted</code> are both stronger than the text. ⚠️ <strong>This is a one-adverb trap: everything else in the option is defensible, and <code>for the most part</code> is the only thing standing between it and the right answer. Read the hedges.</strong></li>
+<li><strong>4 — purpose read as result, plus a premise the section does not use.</strong> ⚠️ S8 says Christ <code>appealed to his miracles **in order to** subdue the unbelief of the Jews</code> — <strong>an infinitive of purpose. Calvin reports what the appeal was for, not that it succeeded</strong>, and §12 has just shown the Jews trying to kill him. ⚠️ And <code>a power greater than any creature possesses</code> is a <strong>degree</strong> claim; §13's claim is about <strong>origin</strong>, not degree — <code>by his own energy</code>, not <em>by a larger energy</em>. <strong>Two errors, and the second is the more serious: degree arguments are exactly what S2's concession rules out.</strong></li>
+</ul><hr/><h3>③ 영작 (Composition) — apply today's formulas</h3><blockquote>
+<p><em>그의 권능이 그의 사역 안에서 얼마나 환히, 얼마나 투명하게 드러나는가! 나는 그의 종들도 동등한 일들을 행했음을 인정한다. 그러나 바로 이 본질적인 차이가 있으니, 곧 그들은 주인의 선물을 청지기로서 나누어 준 반면, 그는 자기 자신의 고유한 권능을 발휘하셨다는 것이다. 물론 그가 때로는 기도하셨으나, 대부분의 경우 드러나는 것은 그 자신의 권능이다. 그리고 자기 자신의 권위로 다른 이들에게 그 일을 위임하는 그가, 어찌 그 일의 참된 근원이 아닐 수 있겠는가? 그들의 모든 권능은 그에게서 온 것이었고, 그러므로 그들은 그의 이름으로 말했다.</em></p>
+</blockquote><p><strong>Target (each formula used, marked):</strong></p><p><code>How clearly and how transparently does his power appear in his work!</code> <strong>(Formula 1 ① — <code>How + adverb</code> fronted, do-support, inversion; note the second <code>how</code> repeated for the doublet.)</strong>
+<code>I admit that his servants also performed equal works; but there is this very essential difference, that they dispensed their master's gifts as stewards, whereas he exerted his own inherent might.</code> <strong>(Formula 2 ① — <code>I admit that …; but …</code> with the semicolon pivot; the cataphoric <code>this … that</code>; and Formula 2 ③ — <code>whereas</code> with NO inversion.)</strong>
+<code>Sometimes, indeed, he used prayer; but for the most part his own proper power is displayed.</code> <strong>(Formula 2 ② — concessive <code>indeed</code> answered by <code>but</code>, and the hedge <code>for the most part</code> kept.)</strong>
+<code>And how should not he be the true author of that work, who, of his own authority, commissions others to perform it?</code> <strong>(Formula 1 ② — rhetorical modal with the period negative placement <code>should not he</code>.)</strong>
+<code>Their whole power was derived from him, and therefore they spoke in his name.</code> <strong>(Formula 3 — <code>derived from</code> + <code>in the name of</code>, two source markers; and <code>whole</code> kept, closing the loophole.)</strong></p><p><strong>출제 의도.</strong> Five sentences, five things most likely to break. <strong>(i)</strong> <strong>Do-support and inversion</strong> after a fronted <code>How + adverb</code> — the commonest failure is <em>How clearly his power appears?</em>, which is neither a good question nor a good exclamation. <strong>(ii)</strong> <strong>No inversion after <code>whereas</code></strong> — the trap is contamination from the inverted sentence two lines above. <strong>(iii)</strong> <strong>The appositive <code>that</code></strong> after <code>difference</code> — writing <em>the difference which they dispensed</em> makes a relative out of an apposition. <strong>(iv)</strong> <strong>Negative placement</strong> in <code>should not he be</code> — period order is required by the drill, and students who "correct" it to <code>should he not be</code> have produced good modern English and failed the exercise. <strong>(v)</strong> ⚠️ <strong>Keeping the hedges and the modifiers.</strong> <code>for the most part</code>, <code>his **own** proper</code>, <code>their **whole** power</code> — <strong>every one of them is load-bearing, and dropping any of them changes the claim.</strong> <strong>The single commonest error across the whole exercise is writing <em>equal works</em> in sentence two and then, in the same paragraph, implying his were greater. Calvin never does. Neither may you.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> Proof three of three arrives without a thesis sentence, as a shout with a pronoun pointing back over the section break — <code>**How clearly and transparently does this appear in his miracles?**</code> (S1) — and then Calvin does the one thing that makes the argument work: <strong>he gives the whole case away.</strong> <code>**I admit that similar and equal miracles were performed by the prophets and apostles**</code> (S2a) — conceded without qualification, because the proof was never going to live in the works; it lives in <code>**this very essential difference, that** they dispensed the gifts of God **as his ministers**, **whereas** he exerted **his own inherent might**</code> (S2b), <strong>which is §12 S9's <code>not the ministry … but the inherent power</code> redeployed word for word onto a new field.</strong> The awkward evidence is raised by Calvin himself and hedged honestly — <code>**Sometimes, indeed,** he used prayer, that he might ascribe glory to the Father, but … **for the most part** his own **proper** power is displayed</code> (S3) — and then the a fortiori: <code>And **how should not he be the true author** of miracles, **who, of his own authority, commissions others** to perform them?</code> (S4), with two witnesses, the Evangelist on what Christ handed over (<code>he gave power to the apostles to cast out devils, cure the lepers, raise the dead, &amp;c.</code>, S5) and the apostles on what they had received — testimony given <strong>by manner, not by statement</strong>: <code>**by the mode in which** they performed this ministry, showed plainly that their **whole** power was **derived from** Christ</code> (S6), sealed by six words in which the borrowed name comes before the command, <code>**In the name of** Jesus Christ of Nazareth … rise up and walk</code> (S7). And the close is about <strong>evidence</strong>, not power: <code>It is not surprising, then, that Christ **appealed to** his miracles in order to **subdue the unbelief** of the Jews, **inasmuch as** these were performed **by his own energy**, and therefore bore **the most ample testimony** to his divinity</code> (S8). Grammar: ① <strong>interrogatives that assert</strong> — <code>How + adverb + does + S + V ?</code> with fronting, inversion and do-support, force exclamatory (S1), and the rhetorical <code>how **should not he** be …?</code> with the <strong>period negative before the pronoun subject</strong> (S4); ② <strong>the concession–reversal frame in three builds</strong> — <code>I admit that A; but B</code> with a semicolon pivot and a <strong>cataphoric <code>this … that</code></strong> apposition, the <strong>subordinating <code>whereas</code></strong> that takes <strong>no</strong> inversion, and <code>Sometimes, **indeed**, A, but B</code> with the hedges <code>for the most part</code> and <code>is displayed</code> left standing (S2–S3); ③ <strong>source markers as a system</strong> — <code>by</code> + persons (S2) versus <code>by</code> + his own energy (S8), <code>of his own authority</code> (S4), <code>derived from</code> (S6), <code>in the name of</code> (S7), <code>as his ministers</code> (S2), all serving the one pair <strong>inherent</strong> (<em>in- + haerēre</em>, sticks fast in) ↔ <strong>derived</strong> (<em>dē- + rīvus</em>, drawn off a stream).</p><p><strong>Homework (10 minutes).</strong></p><ol>
+<li><strong>Structure restoration.</strong> Take <strong>S2</strong> and write it on four lines: line 1 the concession <code>I admit that similar and **equal** miracles were performed by the prophets and apostles</code>, with <code>equal</code> circled and <em>TOTAL — the foundation, not a weakness</em> written beside it; line 2 the pivot <code>; but there is **this** very essential difference, **that** …</code>, with an arrow from <code>this</code> <strong>forward</strong> to the <code>that</code>-clause and the word <em>namely</em> written above the comma; line 3 the two columns side by side — <code>dispensed | the gifts of God | as his ministers</code> / <code>exerted | his own inherent might | —</code> — with <em>whose goods?</em> written under the middle cell of each; line 4 the §12 cross-reference, <code>not the **ministry** of forgiving sins, but the **inherent power**</code>, with the two shared words boxed. Then take <strong>S8</strong> and mark the gapping: <code>inasmuch as these were performed by his own energy, and [inasmuch as these] therefore bore the most ample testimony</code>, with the two gapped elements written in above the line. Finally, list the <strong>five nouns for power</strong> (<code>might</code>, <code>power</code>, <code>authority</code>, <code>power</code>, <code>energy</code>, S2/S3/S4/S6/S8) in one column and their possessive or source markers in the next, and write underneath the one sentence they all make.</li>
+<li><strong>Composition.</strong> One short paragraph, English, containing (a) a <strong><code>How + adverb</code> exclamative-interrogative</strong> with correct do-support and inversion, (b) an <strong><code>I admit that …; but there is this difference, that …</code></strong> frame whose <code>that</code> is genuinely appositive, (c) a <strong><code>whereas</code></strong> clause with <strong>no</strong> inversion, (d) a <strong><code>how should not he …?</code></strong> rhetorical modal with the <strong>period</strong> negative placement, and (e) one <strong>source marker</strong> from Formula 3. <em>그의 권위가 그의 사역 안에서 얼마나 환히 드러나는가! 나는 그의 종들도 같은 일을 행했음을 인정한다. 그러나 바로 이 차이가 있으니, 곧 그들은 그의 종으로서 행한 반면, 그는 자기 자신의 권능으로 행하셨다는 것이다. 그리고 자기 자신의 권위로 그들을 보내는 그가, 어찌 그 일의 참된 근원이 아니겠는가? 그들의 모든 권능은 그에게서 온 것이었다.</em> Target: <code>How clearly does his authority appear in his work! I admit that his servants performed the same works; but there is this difference, that they acted as his ministers, whereas he acted by his own power. And how should not he be the true author of that work, who, of his own authority, sends them? Their whole power was derived from him.</code></li>
+<li><strong>Preview — §14, one line.</strong> Tomorrow the argument <strong>restarts</strong> rather than climbing: the section opens <code>**Again**, if out of God there is no salvation, no righteousness, no life, Christ, having all these in himself, is certainly God.</code> ⚠️ <strong>Note first what has changed in the file</strong>: after §13 the page breaks and a running header intervenes, and <strong>the section number <code>14.</code> is lost in the seam</strong> — the paragraph simply begins <code>Again, …</code>. <strong>We will flag it as a text note, not as a doubt about the range.</strong> Watch three things. <strong>(i)</strong> The <strong>pre-emptive objection</strong>, raised and dismissed in two sentences: <code>**Let no one object** that life or salvation is **transfused** into him by God. For it is said **not that he received, but that he himself is** salvation.</code> ⚠️⚠️ <strong>That is today's <code>inherent</code>/<code>derived</code> pair again, now in the language of being rather than of working — and <code>not A but B</code> returns, with A denied.</strong> <strong>(ii)</strong> A <strong>rhetorical question with a self-correction inside it</strong>: <code>how could he be, **I say not** good and just, **but** goodness and justice?</code> — the <em>praeteritio</em> figure, where the speaker names something in the act of refusing to say it, and <strong>the escalation from adjective to abstract noun is the whole point.</strong> <strong>(iii)</strong> The grammar to expect: <strong>conditional <code>if</code> clauses stacked with three parallel negatives</strong> (<code>no salvation, no righteousness, no life</code>), the <strong>jussive <code>Let no one object that …</code></strong>, an <strong>impersonal passive <code>it is said that …</code></strong>, and <code>**Trusting to such proofs**</code> — another <strong>reduced participial clause</strong> of the kind Formula 1 drilled two days ago. ⚠️ <strong>Today the question was whose power worked the miracle; tomorrow it is whose life it is that he has.</strong></li>
+</ol><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 13, §13 끝. 다음은 Book 1, Ch. 13, §14.</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
