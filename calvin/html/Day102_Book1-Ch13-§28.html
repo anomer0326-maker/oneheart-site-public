@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 삼위일체 하나님 §28 (1권 13장 · Day 102) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 13장 §28(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 102. 연관 성구: 잠언 8, 마태복음 28, 요한복음 1, 이사야 40."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day102_Book1-Ch13-%C2%A728.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="삼위일체 하나님 §28 — 기독교 강요 영어로 읽기 (Day 102)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 13장 §28(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 102. 연관 성구: 잠언 8, 마태복음 28, 요한복음 1, 이사야 40."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day102_Book1-Ch13-%C2%A728.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 삼위일체 하나님 §28 (1권 13장 · Day 102) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 13장 §28(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 102. 연관 성구: 잠언 8, 마태복음 28, 요한복음 1, 이사야 40.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 13장 §28 — 삼위일체 하나님","mentions":[{"@type":"CreativeWork","name":"잠언 8 (Prov 8)"},{"@type":"CreativeWork","name":"마태복음 28 (Matt 28)"},{"@type":"CreativeWork","name":"요한복음 1 (John 1)"},{"@type":"CreativeWork","name":"이사야 40 (Isa 40)"},{"@type":"CreativeWork","name":"빌립보서 2 (Phil 2)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day102_Book1-Ch13-%C2%A728.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 102 — Book 1, Chapter 13, §28<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (⚠️ invariable) — 16 sentences</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl2" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl2" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl1" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl3" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl3" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl2" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl1" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl3" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl1" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl3" href="#S11" onclick="closeNavMobile()">S11</a><a class="toc-s lvl2" href="#S12" onclick="closeNavMobile()">S12</a><a class="toc-s lvl1" href="#S13" onclick="closeNavMobile()">S13</a><a class="toc-s lvl3" href="#S14" onclick="closeNavMobile()">S14</a><a class="toc-s lvl3" href="#S15" onclick="closeNavMobile()">S15</a><a class="toc-s lvl3" href="#S16" onclick="closeNavMobile()">S16</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 102 — Book 1, Chapter 13, §28</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>Yesterday: "wherever <em>God</em> stands alone, the Father is meant" — dismantled. Today Calvin cleans up the <em>positive</em> statement: how can the Father be "fountain of the Godhead" without being the only God, and how can the Persons be distinct without slicing the essence?</strong> <strong>Look at S2: one sentence, three claims. Count them.</strong> <strong>The pivots are the double use of <code>unbegotten</code> (S2–S3) and the double viewpoint <code>regarded as God</code> / <code>regarded as Son</code> (S11).</strong></p><p><strong>Second — denial by <code>as if</code>.</strong> Watch S5 (<code>as if we virtually held …</code>), S7 (<code>as if we imagined …</code>), S9 (<code>as if it were a part or member</code>). <strong>Each <code>as if</code> marks a picture Calvin REJECTS.</strong> Quote it as his thesis and you lose the point.</p><p><strong>Third — a run of counterfactuals.</strong> S6 (<code>If the persons were separated …, there might be …</code>), S9 (<code>if he were not God, could not be the Father</code>), S14 (<code>To have included …, would … have been</code>), S16 (<code>if God and Father were synonymous …, the Father would be …</code>).</p><p><strong>Fourth — text traps.</strong> ⚠️ Hyphenated line-ends (<code>plausib-ility</code>, <code>com-prehended</code>, <code>syn-onymous</code>) are joined; footnote markers 52–54 and the French glosses (<em>"like three streams"</em>; <em>"as if the essence were in place of the person of the Father"</em>; <em>"the Son has some being or none…"</em>) are not part of the text. The printed section is one long paragraph of <strong>16 sentences</strong>.</p><h3>Today's 3 Big Points</h3><ol>
+<li><strong>Unreal conditionals — inserted and perfect-infinitive forms: <code>If the persons were separated …, there might be …</code> (S6) · <code>the Father, if he were not God, could not be the Father; nor could the Son possibly be Son unless he were God</code> (S9) · <code>To have included the essence …, would … have been …</code> (S14) · <code>if God and Father were synonymous terms, the Father would be deifier</code> (S16).</strong> ⚠️ <strong>Restore <code>if</code> and the base tense before translating.</strong> Formula 1.</li>
+<li><strong><code>as if</code> = a REJECTED picture; <code>whereas</code>/<code>but</code> = reality: S5, S7, S9.</strong> ⚠️ <strong>The <code>as if</code> clause is the opponent's (or hypothetical) view; the <code>whereas</code>/<code>but</code> clause is Calvin's.</strong> Formula 2.</li>
+<li><strong>Two-viewpoint predication and <code>not only … but</code> escalation: <code>regarded as God … regarded as Son</code> (S11) · <code>his essence is without beginning, while his person has its beginning in God</code> (S12) · <code>not only … an absurd error, but gross impiety</code> (S14).</strong> ⚠️ <strong>Same subject, different respects — never drop the qualifier.</strong> Formula 3.</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (⚠️ invariable) — 16 sentences</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+<span class="ft-sent" data-s="S1" id="ft-S1" onclick="jumpToCard('S1')">The hallucination consists in dreaming of individuals, each of whom possesses a part of the essence.</span> <span class="ft-sent" data-s="S2" id="ft-S2" onclick="jumpToCard('S2')">The Scriptures teach that there is essentially but one God, and, therefore, that the essence both of the Son and Spirit is unbegotten; but inasmuch as the Father is first in order, and of himself begat his own Wisdom, he, as we lately observed, is justly regarded as the principle and fountain of all the Godhead.</span> <span class="ft-sent" data-s="S3" id="ft-S3" onclick="jumpToCard('S3')">Thus God, taken indefinitely, is unbegotten, and the Father, in respect of his person, is unbegotten.</span> <span class="ft-sent" data-s="S4" id="ft-S4" onclick="jumpToCard('S4')">For it is absurd to imagine that our doctrine gives any ground for alleging that we establish a quaternion of gods.</span> <span class="ft-sent" data-s="S5" id="ft-S5" onclick="jumpToCard('S5')">They falsely and calumniously ascribe to us the figment of their own brain, as if we virtually held that three persons emanate from one essence, whereas it is plain, from our writings, that we do not disjoin the persons from the essence, but interpose a distinction between the persons residing in it.</span> <span class="ft-sent" data-s="S6" id="ft-S6" onclick="jumpToCard('S6')">If the persons were separated from the essence, there might be some plausibility in their argument; as in this way there would be a trinity of Gods, not of persons comprehended in one God.</span> <span class="ft-sent" data-s="S7" id="ft-S7" onclick="jumpToCard('S7')">This affords an answer to their futile question—whether or not the essence concurs in forming the Trinity; as if we imagined that three Gods were derived from it.</span> <span class="ft-sent" data-s="S8" id="ft-S8" onclick="jumpToCard('S8')">Their objection, that there would thus be a Trinity without a God, originates in the same absurdity.</span> <span class="ft-sent" data-s="S9" id="ft-S9" onclick="jumpToCard('S9')">Although the essence does not contribute to the distinction, as if it were a part or member, the persons are not without it, or external to it; for the Father, if he were not God, could not be the Father; nor could the Son possibly be Son unless he were God.</span> <span class="ft-sent" data-s="S10" id="ft-S10" onclick="jumpToCard('S10')">We say, then, that the Godhead is absolutely of itself.</span> <span class="ft-sent" data-s="S11" id="ft-S11" onclick="jumpToCard('S11')">And hence also we hold that the Son, regarded as God, and without reference to person, is also of himself; though we also say that, regarded as Son, he is of the Father.</span> <span class="ft-sent" data-s="S12" id="ft-S12" onclick="jumpToCard('S12')">Thus his essence is without beginning, while his person has its beginning in God.</span> <span class="ft-sent" data-s="S13" id="ft-S13" onclick="jumpToCard('S13')">And, indeed, the orthodox writers who in former times spoke of the Trinity, used this term only with reference to the Persons.</span> <span class="ft-sent" data-s="S14" id="ft-S14" onclick="jumpToCard('S14')">To have included the essence in the distinction, would not only have been an absurd error, but gross impiety.</span> <span class="ft-sent" data-s="S15" id="ft-S15" onclick="jumpToCard('S15')">For those who class the three thus—Essence, Son, and Spirit—plainly do away with the essence of the Son and Spirit; otherwise the parts being intermingled would merge into each other—a circumstance which would vitiate any distinction.</span> <span class="ft-sent" data-s="S16" id="ft-S16" onclick="jumpToCard('S16')">In short, if God and Father were synonymous terms, the Father would be deifier in a sense which would leave the Son nothing but a shadow; and the Trinity would be nothing more than the union of one God with two creatures.</span>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>              ─── I. THE POSITIVE STATEMENT (S1–S3) ───
+[ERROR]       S1     "hallucination": individuals, each with a PART of the essence
+[THESIS]      S2     one God in essence ⇒ essence of Son &amp; Spirit unbegotten;
+                     Father first IN ORDER ⇒ principle &amp; fountain of the Godhead
+[CLARIFY]     S3     God (indefinitely) unbegotten; Father (as person) unbegotten
+              ─── II. THE CHARGES ANSWERED (S4–S9) ───
+[CHARGE 1]    S4-6   "quaternion" / "three from one essence" — a FIGMENT; we do not disjoin
+                     persons from essence; if we did, tritheism
+[CHARGE 2]    S7-8   "does the essence form the Trinity?" / "Trinity without a God" — same absurdity
+[ANSWER]      S9     essence not a part or member; persons not without it;
+                     Father not Father unless God; Son not Son unless God
+              ─── III. OF HIMSELF / OF THE FATHER (S10–S12) ───
+[ASEITY]      S10-11 Godhead of itself; Son as God of himself, as Son of the Father
+[SUM]         S12    essence without beginning; person has its beginning in God
+              ─── IV. THE FATHERS AND THE REDUCTIO (S13–S16) ───
+[USAGE]       S13-14 "Trinity" = Persons only; including the essence = absurd and impious
+[REDUCTIO]    S15-16 Essence/Son/Spirit list ⇒ Son &amp; Spirit lose essence; God = Father only
+                     ⇒ Son a shadow; Trinity = one God + two creatures
+</code></pre><p><strong>Examiner's Eye.</strong></p><p>① ⚠️ <strong>Rejected-picture trap.</strong> <em>"Calvin holds that three persons emanate from one essence."</em> ✗ <strong>S5: that is the figment <em>they ascribe to us</em> (<code>as if we virtually held</code>).</strong></p><p>② ⚠️ <strong>Direction-flip trap.</strong> <em>"Calvin denies that the Father is the fountain of the Godhead."</em> ✗ <strong>S2: <code>justly regarded as the principle and fountain of all the Godhead</code> — by order. What he denies is that this makes the Son's essence derived (S11–S12).</strong></p><p>③ ⚠️ <strong>Dropped-qualifier trap.</strong> <em>"The Son is of the Father."</em> / <em>"The Son is of himself."</em> <strong>Each is true only with its <code>regarded as …</code> (S11).</strong></p><p>④ ⚠️ <strong>Whose horn?</strong> <strong>S6 (<code>there would be a trinity of Gods</code>) is the consequence of a view Calvin REJECTS; S16 is a reductio of <em>their</em> equation.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl2" data-lvl="2" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s2" title="2-star">★★</span><span class="s-label">consists in dreaming of individuals — consist in vs consist of</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p><strong>The hallucination consists in dreaming of individuals, each of whom possesses a part of the essence.</strong></p>
+</blockquote><div class="syntax-holder"><p><strong>One structural note.</strong> ⚠️ `consist in` = <em>lie in, be essentially</em> (not `consist of` = <em>be made up of</em>). The error is a <em>daydream</em>: separate individuals, each owning a slice of Godhead. `each of whom possesses a part of the essence` = relative clause with a distributive pronoun; `whom` because <em>individuals</em> are persons.
+**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">The hallucination</span></li><li><span class="leaf">consists in</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">dreaming of</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">individuals</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">each of whom possesses a part of the essence</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li>`hallucination` &lt; L. <em>hallucinari</em> (wander in mind); `individual` &lt; L. <em>in-dividuus</em> (not divisible) — ironic: Calvin's target splits what cannot be split; `essence` &lt; L. <em>essentia</em> &lt; <em>esse</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li>`consist in` = lie in; `a part of` = a share of.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The mistake is imagining separate individuals, each holding a piece of the divine essence.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>hallucination</b> → delusion</li><li><b>dreaming of</b> → imagining</li><li><b>possesses</b> → owns</li><li><b>essence</b> → divine being.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ essentially but one God · inasmuch as … first in order · principle and fountain — three claims in one sentence</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p><strong>The Scriptures teach that there is essentially but one God, and, therefore, that the essence both of the Son and Spirit is unbegotten; but inasmuch as the Father is first in order, and of himself begat his own Wisdom, he, as we lately observed, is justly regarded as the principle and fountain of all the Godhead.</strong></p>
+</blockquote><div class="syntax-holder"><p><strong>Literal rendering:</strong> <em>Scripture teaches that in essence there is only one God, so that the essence of Son and Spirit is unbegotten; but since the Father is first in order and begat his Wisdom from himself, he is rightly held to be the source and fountain of the whole Godhead, as we noted a moment ago.</em>
+**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">The Scriptures teach</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that there is essentially but one God</span><ul class="tr"><li><span class="leaf">and, therefore</span></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that the essence is unbegotten</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">both of the Son and Spirit</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf">but</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">inasmuch as the Father is first in order</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and of himself begat his own Wisdom</span></li></ul></li></ul></li><li><span class="leaf">he</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as we lately observed</span></li></ul></li></ul></li><li><span class="leaf">is justly regarded</span></li><li><span class="leaf">as the principle and fountain of all the Godhead.`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li>`unbegotten` = <em>un-</em> + <em>be-</em> + <em>gotten</em> (OE <em>geotan</em>), a loan-translation of Gk <em>agennētos</em>; `principle` &lt; L. <em>princeps</em> (first) + <em>capere</em>; `fountain` &lt; L. <em>fons</em>; `inasmuch` = <em>in</em> + <em>as</em> + <em>much</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li>`first in order` = first in sequence (not in rank or time); `of himself` = from himself; `we lately observed` = we noted a little earlier.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Scripture teaches there is only one God in essence, so the essence of Son and Spirit is not begotten; but because the Father comes first in order and begot his own Wisdom, he is rightly called the source of all Godhead, as we said earlier.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>inasmuch as</b> → since</li><li><b>principle</b> → source</li><li><b>justly regarded</b> → rightly considered</li><li><b>lately</b> → recently</li><li><b>of himself</b> → from himself.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s2" title="2-star">★★</span><span class="s-label">taken indefinitely — two senses of unbegotten</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p><strong>Thus God, taken indefinitely, is unbegotten, and the Father, in respect of his person, is unbegotten.</strong></p>
+</blockquote><div class="syntax-holder"><p><strong>Two points.</strong> ⚠️ `God, taken indefinitely` = <em>"God" used without naming a person</em> (= the essence); `the Father, in respect of his person` = <em>the Father as Person</em>. Same predicate `is unbegotten`, <strong>different grounds</strong>: the essence has no source; the Father as Person has no Person before him. Same adjective, two subjects — a favorite examiner's blur. `Thus` = conclusion from S2.
+**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `Thus</span></li><li><span class="leaf">is unbegotten</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">God</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">taken indefinitely</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and is unbegotten.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the Father</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in respect of his person</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li>`indefinitely` &lt; L. <em>in-</em> + <em>definire</em> (set limits); `person` &lt; L. <em>persona</em> (actor's mask).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li>`taken indefinitely` = understood without qualification; `in respect of` = with regard to.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So 'God' in the general sense is unbegotten, and the Father, as a Person, is unbegotten too.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>indefinitely</b> → in general</li><li><b>in respect of</b> → as regards</li><li><b>taken</b> → understood.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s1" title="1-star">★</span><span class="s-label">For it is absurd to imagine that … a quaternion of gods</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p><strong>For it is absurd to imagine that our doctrine gives any ground for alleging that we establish a quaternion of gods.</strong></p>
+</blockquote><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p><strong>One point.</strong> ⚠️ <code>quaternion</code> = <em>a group of four</em> — the charge: three Persons <em>plus</em> the essence as a fourth. <code>it is absurd to imagine that …</code> = dummy <code>it</code> + that-clause. <code>give ground for alleging</code> = <em>supply a basis for claiming</em>. Move on.</p><hr/></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ They falsely and calumniously ascribe … as if we virtually held …, whereas it is plain — as if / whereas / not … but</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p><strong>They falsely and calumniously ascribe to us the figment of their own brain, as if we virtually held that three persons emanate from one essence, whereas it is plain, from our writings, that we do not disjoin the persons from the essence, but interpose a distinction between the persons residing in it.</strong></p>
+</blockquote><div class="syntax-holder"><p><strong>Literal rendering:</strong> <em>They falsely and slanderously attribute to us a figment of their own brain — as though we in effect held that three persons flow out of one essence — when it is plain from our writings that we do not separate the persons from the essence but set a distinction between the persons who dwell in it.</em>
+**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">They falsely and calumniously ascribe to us</span></li><li><span class="leaf">the figment of their own brain</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">as if we virtually held</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that three persons emanate from one essence</span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">whereas it is plain</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">from our writings</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">we do not disjoin the persons from the essence</span></li></ul></li></ul><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf">but</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">interpose a distinction</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">between the persons residing in it</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li>`calumniously` &lt; L. <em>calumnia</em> → <em>calumny</em>; `figment` &lt; L. <em>figmentum</em> &lt; <em>fingere</em> (form) → <em>fiction</em>, <em>feign</em>; `disjoin` = <em>dis-</em> + <em>jungere</em>; `emanate` &lt; L. <em>e-</em> + <em>manare</em> (flow); `interpose` &lt; L. <em>inter</em> + <em>ponere</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li>`ascribe X to Y` = attribute X to Y; `as if` = as though; `it is plain from our writings` = our writings make it clear.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">They wrongly and maliciously blame us for an idea they invented, as if we taught that three persons flow out of one essence, when our writings make clear that we do not separate the persons from the essence but distinguish the persons within it.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>falsely and calumniously</b> → wrongly and slanderously</li><li><b>ascribe</b> → attribute</li><li><b>figment</b> → invention</li><li><b>disjoin</b> → separate</li><li><b>interpose</b> → place between</li><li><b>virtually</b> → in effect.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ If the persons were separated from the essence, there might be some plausibility … — unreal conditional + as in this way</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p><strong>If the persons were separated from the essence, there might be some plausibility in their argument; as in this way there would be a trinity of Gods, not of persons comprehended in one God.</strong></p>
+</blockquote><div class="syntax-holder"><p><strong>Literal rendering:</strong> <em>If the persons were cut off from the essence, their argument might have some plausibility, since then we would have a trinity of Gods, not of persons contained in one God.</em>
+**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf">If the persons were separated from the essence</span></li></ul></li></ul></li><li><span class="leaf">there might be</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">some plausibility in their argument</span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">as in this way</span></li><li><span class="leaf">there would be a trinity of Gods</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">not of persons comprehended in one God</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li>`plausibility` &lt; L. <em>plausibilis</em> &lt; <em>plaudere</em> → <em>applaud</em>; `comprehend` &lt; L. <em>com-</em> + <em>prehendere</em> (seize) — here <em>include</em>; `separate` &lt; L. <em>se-</em> + <em>parare</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li>`there might be some plausibility in X` = X might seem credible; `in this way` = on that supposition.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">If the persons were separate from the essence, their argument might seem believable, because then we would have a trinity of gods, not of persons contained within one God.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>plausibility</b> → believability</li><li><b>comprehended in</b> → included in</li><li><b>in this way</b> → on that view</li><li><b>separated</b> → cut off.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s2" title="2-star">★★</span><span class="s-label">futile question — whether or not … as if we imagined</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p><strong>This affords an answer to their futile question—whether or not the essence concurs in forming the Trinity; as if we imagined that three Gods were derived from it.</strong></p>
+</blockquote><div class="syntax-holder"><p><strong>Three points.</strong> ⚠️ `affords an answer to` = <em>answers</em>. `whether or not the essence concurs in forming the Trinity` = their question: <em>does the essence take part in making up the Trinity?</em> ⚠️ `as if we imagined that three Gods were derived from it` = their <em>assumed</em> picture, <strong>not</strong> Calvin's. `futile` = <em>pointless</em>; the dash introduces the question.
+**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `This affords an answer</span></li><li><span class="leaf">to their futile question</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">whether or not the essence concurs in forming the Trinity</span></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">as if we imagined</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that three Gods were derived from it</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li>`futile` &lt; L. <em>futilis</em> (leaky); `concur` &lt; L. <em>con-</em> + <em>currere</em> (run together); `derive` &lt; L. <em>de-</em> + <em>rivus</em> (stream).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li>`afford an answer to` = supply an answer to; `as if` = as though.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">This answers their pointless question about whether the essence helps make up the Trinity — as though we thought three gods came out of it.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>affords an answer to</b> → answers</li><li><b>futile</b> → pointless</li><li><b>concurs in</b> → takes part in</li><li><b>derived from</b> → come from.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s1" title="1-star">★</span><span class="s-label">a Trinity without a God — the same absurdity</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p><strong>Their objection, that there would thus be a Trinity without a God, originates in the same absurdity.</strong></p>
+</blockquote><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p><strong>One point.</strong> ⚠️ The second horn of their charge: if the essence is <em>not</em> in the Trinity, there is a Trinity <em>without God</em>. <code>originates in the same absurdity</code> = <em>springs from the same mistake</em> (treating essence as a separable thing). Move on.</p><hr/></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ Although the essence does not contribute … the persons are not without it — concession + for … nor could … unless</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p><strong>Although the essence does not contribute to the distinction, as if it were a part or member, the persons are not without it, or external to it; for the Father, if he were not God, could not be the Father; nor could the Son possibly be Son unless he were God.</strong></p>
+</blockquote><div class="syntax-holder"><p><strong>Literal rendering:</strong> <em>Although the essence does not contribute to the distinction as if it were a part or member, the persons are not lacking it or outside it: for the Father, if he were not God, could not be the Father, nor could the Son possibly be Son unless he were God.</em>
+**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">양보절 (although)</span><span class="leaf">Although the essence does not contribute to the distinction</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as if it were a part or member</span></li></ul></li></ul></li></ul></li><li><span class="leaf">the persons are not without it</span></li><li><span class="lab ph">등위 (or)</span><span class="leaf">or external to it</span></li><li><span class="leaf">for</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the Father</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf">if he were not God</span></li></ul></li></ul></li><li><span class="leaf">could not be the Father</span></li></ul></li></ul></li><li><span class="lab ph">등위 (nor)</span><span class="leaf">nor could.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the Son possibly be Son</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">조건절 (unless)</span><span class="leaf">unless he were God</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li>`contribute` &lt; L. <em>con-</em> + <em>tribuere</em> (give); `external` &lt; L. <em>externus</em> &lt; <em>exter</em>; `member` &lt; L. <em>membrum</em> (limb); `possibly` &lt; L. <em>posse</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li>`as if it were a part or member` = as though it were a component; `be without X` = lack X; `nor could …` = and could not either.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Although the essence does not add to the distinction as if it were one more part, the persons are never without it or outside it: the Father could not be Father if he were not God, nor could the Son be Son unless he were God.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>without it</b> → lacking it</li><li><b>external to</b> → outside</li><li><b>contribute to</b> → add to</li><li><b>member</b> → component</li><li><b>possibly</b> → in any way.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s1" title="1-star">★</span><span class="s-label">the Godhead is absolutely of itself</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p><strong>We say, then, that the Godhead is absolutely of itself.</strong></p>
+</blockquote><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p><strong>One point.</strong> ⚠️ <code>absolutely of itself</code> = <em>by itself, not derived</em> — <strong>aseity</strong> (L. <em>a se</em>). <code>We say, then</code> = conclusion of S9. Short, but it is the premise for S11–S12.</p><hr/></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ the Son, regarded as God, … is also of himself; though … regarded as Son, he is of the Father — two viewpoints</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p><strong>And hence also we hold that the Son, regarded as God, and without reference to person, is also of himself; though we also say that, regarded as Son, he is of the Father.</strong></p>
+</blockquote><div class="syntax-holder"><p><strong>Literal rendering:</strong> <em>And from this we also hold that the Son, considered as God and without reference to person, is also of himself; although we also say that, considered as Son, he is of the Father.</em>
+**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf">** `And hence also</span></li><li><span class="leaf">we hold that</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the Son</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">regarded as God</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and without reference to person</span></li></ul></li><li><span class="leaf">is also of himself</span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf">though we also say that</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">regarded as Son</span></li></ul></li><li><span class="leaf">he is of the Father</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li>`regard` &lt; OF <em>re-</em> + <em>garder</em> (look back at); `reference` &lt; L. <em>referre</em> (carry back); `hence` &lt; OE <em>heonan</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li>`regarded as X` = considered as X; `without reference to` = leaving aside; `of himself` = from himself (aseity).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So we hold that the Son, considered as God and leaving aside the personal distinction, exists from himself too; but considered as Son, he comes from the Father.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>regarded as</b> → considered as</li><li><b>without reference to</b> → leaving aside</li><li><b>hence</b> → from this</li><li><b>of himself</b> → from himself.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S12" id="S12"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S12</span><span class="stars s2" title="2-star">★★</span><span class="s-label">essence is without beginning, … person has its beginning in God — antithesis</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S12" onclick="flashFullText(this)">
+<p><strong>Thus his essence is without beginning, while his person has its beginning in God.</strong></p>
+</blockquote><div class="syntax-holder"><p><strong>Three points.</strong> ⚠️ `Thus` = summary of S11. <strong>Antithesis:</strong> `his essence … without beginning, while his person … beginning in God`; `while` = contrast. ⚠️ `has its beginning in God` = <em>has its origin in God (the Father)</em> — <strong>order of origin, not a temporal start</strong> (eternal generation). Trap: <em>"the Son has a beginning"</em> ✗.
+**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `Thus</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">his essence is without beginning</span></li></ul></li><li><span class="leaf">while.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">his person has its beginning in God</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li>`beginning` &lt; OE <em>beginnan</em>; `essence` &lt; L. <em>essentia</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li>`without beginning` = eternal; `has its beginning in` = originates from.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So his essence has no beginning, while his person has its origin in God.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>without beginning</b> → eternal</li><li><b>has its beginning in God</b> → originates in God</li><li><b>thus</b> → so.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S13" id="S13"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S13</span><span class="stars s1" title="1-star">★</span><span class="s-label">used this term only with reference to the Persons</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S13" onclick="flashFullText(this)">
+<p><strong>And, indeed, the orthodox writers who in former times spoke of the Trinity, used this term only with reference to the Persons.</strong></p>
+</blockquote><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p><strong>One point.</strong> ⚠️ <code>this term</code> = <em>Trinity</em>. <code>orthodox writers who in former times spoke of the Trinity</code> = the Fathers. <code>And, indeed</code> = <em>and in fact</em>. Calvin appeals to patristic usage: <em>Trinity</em> names Persons, not essence. Move on.</p><hr/></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S14" id="S14"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S14</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ To have included the essence in the distinction, would not only have been …, but … — perfect infinitive as subject</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S14" onclick="flashFullText(this)">
+<p><strong>To have included the essence in the distinction, would not only have been an absurd error, but gross impiety.</strong></p>
+</blockquote><div class="syntax-holder"><p><strong>Literal rendering:</strong> <em>To have included the essence in the distinction would have been not only an absurd error but gross impiety.</em>
+**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">To have included the essence in the distinction</span></li></ul></li></ul></li><li><span class="leaf">would not only have been an absurd error</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf">but gross impiety.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">have been</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li>`impiety` &lt; L. <em>in-</em> + <em>pietas</em>; `gross` &lt; L. <em>grossus</em> (thick, coarse); `absurd` &lt; L. <em>ab-</em> + <em>surdus</em> (deaf; out of tune).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li>`not only … but (also)` = both A and B (B stronger); `include X in Y` = count X within Y.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">To have counted the essence within the distinction would have been not only a ridiculous mistake but a serious offence against God.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>gross impiety</b> → serious irreverence</li><li><b>absurd</b> → ridiculous</li><li><b>to have included</b> → if they had included.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S15" id="S15"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S15</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ those who class the three thus—Essence, Son, and Spirit—plainly do away with the essence of the Son and Spirit — otherwise + participial subject</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S15" onclick="flashFullText(this)">
+<p><strong>For those who class the three thus—Essence, Son, and Spirit—plainly do away with the essence of the Son and Spirit; otherwise the parts being intermingled would merge into each other—a circumstance which would vitiate any distinction.</strong></p>
+</blockquote><div class="syntax-holder"><p><strong>Literal rendering:</strong> <em>For those who classify the three in this way — Essence, Son, and Spirit — plainly abolish the essence of the Son and Spirit; otherwise, with the parts mixed together, they would merge into each other — a circumstance which would destroy any distinction.</em>
+**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">For those</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who class the three thus—Essence, Son, and Spirit—</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">plainly do away with the essence of the Son and Spirit</span></li><li><span class="leaf">otherwise</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the parts</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">being intermingled</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">would merge into each other</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">a circumstance</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which would vitiate any distinction</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li>`class` &lt; L. <em>classis</em>; `vitiate` &lt; L. <em>vitium</em> (fault) → <em>vice</em>; `intermingle` = <em>inter-</em> + OE <em>mengan</em>; `circumstance` &lt; L. <em>circum-</em> + <em>stare</em> (stand around).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li>`do away with` = abolish; `merge into each other` = run together; `otherwise` = if not.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Those who list the three as Essence, Son, and Spirit clearly abolish the essence of the Son and Spirit; if they did not, the parts would be mixed up and run into each other, and that would destroy any distinction.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>class</b> → list</li><li><b>plainly</b> → clearly</li><li><b>do away with</b> → abolish</li><li><b>intermingled</b> → mixed together</li><li><b>vitiate</b> → ruin.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S16" id="S16"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S16</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ In short, if God and Father were synonymous terms, the Father would be deifier … and the Trinity would be nothing more than …</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S16" onclick="flashFullText(this)">
+<p><strong>In short, if God and Father were synonymous terms, the Father would be deifier in a sense which would leave the Son nothing but a shadow; and the Trinity would be nothing more than the union of one God with two creatures.</strong></p>
+</blockquote><div class="syntax-holder"><p><strong>Literal rendering:</strong> <em>In short, if "God" and "Father" were synonymous terms, the Father would be a deifier in a sense that would leave the Son nothing but a shadow, and the Trinity would be nothing more than the union of one God with two creatures.</em>
+**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `In short</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf">if God and Father were synonymous terms</span></li></ul></li><li><span class="leaf">the Father would be deifier</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in a sense</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which would leave the Son nothing but a shadow</span></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and the Trinity would be nothing more than</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the union of one God with two creatures</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li>`synonymous` &lt; Gk <em>syn-</em> + <em>onoma</em> (name); `deifier` &lt; L. <em>deus</em> + <em>facere</em> → <em>deify</em>; `shadow` &lt; OE <em>sceadu</em>; `creature` &lt; L. <em>creatura</em> &lt; <em>creare</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li>`in short` = to sum up; `nothing but` = only; `nothing more than` = merely; `leave X nothing but Y` = reduce X to Y.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">In short, if 'God' and 'Father' meant the same thing, the Father would be the one who makes the Son divine, so the Son would be only a shadow, and the Trinity would be just one God plus two creatures.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>synonymous terms</b> → words with the same meaning</li><li><b>deifier</b> → one who makes divine</li><li><b>nothing but</b> → only</li><li><b>nothing more than</b> → merely.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>Formula 1 — Unreal conditionals (inserted, inverted, infinitival-subject).</strong></p><pre><code>If S were V-pp / Adj, S would/might V                 (S6, S16)
+S, (if S were not X,) could not be Y; nor could S … unless S were X   (S9)
+To have V-pp X, would (not only) have been Y          (S14: infinitive = the condition)
+</code></pre><p>⚠️ <strong>Traps.</strong> <strong>(a) Restore <code>if</code> and the base tense first. (b) An inserted <code>if</code>-clause sits between subject and verb. (c) A perfect infinitive as subject (<code>To have included …</code>) = <em>If they had included …</em>. (d) <code>nor could</code> triggers inversion.</strong>
+<strong>Drill:</strong> "그들이 위격을 본질에서 분리한다면, 거기에는 삼신론이 있을 것이다." → <strong>If the persons were separated from the essence, there would be a trinity of Gods.</strong> · "본질을 구별 안에 넣었다면 가증한 오류였을 것이다." → <strong>To have included the essence in the distinction would have been an absurd error.</strong></p><p><strong>Formula 2 — <code>as if</code> (rejected picture) vs <code>whereas / but</code> (reality).</strong></p><pre><code>They ascribe to us X, as if we held Y, whereas it is plain that we do not A, but B
+Although [concession: not a part], S is not without it
+</code></pre><p>⚠️ <strong>Traps.</strong> <strong>(a) <code>as if</code> = <em>as though</em> — a picture NOT held. (b) <code>whereas</code> = <em>when in fact</em>, introduces Calvin's view. (c) <code>ascribe X to Y</code> = attribute. (d) <code>not … but</code> pairs a denial with its replacement.</strong>
+<strong>Drill:</strong> "그들은 우리가 본질을 넷째로 센다는 듯이 우리에게 그 허구를 돌린다." → <strong>They ascribe to us a figment, as if we counted the essence as a fourth, whereas it is plain from our writings that we do not.</strong></p><p><strong>Formula 3 — Two respects, and <code>not only … but</code> escalation.</strong></p><pre><code>S, regarded as A, is X; though regarded as B, he is Y
+his essence is X, while his person is Y
+not only an absurd error, but gross impiety
+</code></pre><p>⚠️ <strong>Traps.</strong> <strong>(a) Never drop <code>regarded as …</code>. (b) <code>while</code> here = contrast. (c) In <code>not only A but B</code>, B is the heavier item.</strong>
+<strong>Drill:</strong> "아들은 하나님으로서는 스스로 계시나, 아들로서는 아버지에게서 났다." → <strong>The Son, regarded as God, is of himself; though regarded as Son, he is of the Father.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>hallucination</strong> (S1)</td>
+<td>delusion</td>
+<td>L. <em>hallucinari</em> (wander in mind)</td>
+</tr>
+<tr>
+<td><strong>unbegotten</strong> (S2)</td>
+<td>not generated</td>
+<td><em>un-</em> + <em>be-</em> + <em>gotten</em>; Gk <em>agennētos</em></td>
+</tr>
+<tr>
+<td><strong>principle</strong> (S2)</td>
+<td>⚠️ source, beginning (not a rule)</td>
+<td>L. <em>principium</em> &lt; <em>princeps</em> (first)</td>
+</tr>
+<tr>
+<td><strong>indefinitely</strong> (S3)</td>
+<td>without specifying</td>
+<td>L. <em>in-</em> + <em>definire</em> (set limits)</td>
+</tr>
+<tr>
+<td><strong>quaternion</strong> (S4)</td>
+<td>a group of four</td>
+<td>L. <em>quaterni</em> — cf. <em>quart</em>, <em>quarter</em></td>
+</tr>
+<tr>
+<td><strong>calumniously</strong> (S5)</td>
+<td>slanderously</td>
+<td>L. <em>calumnia</em> — cf. <em>calumny</em></td>
+</tr>
+<tr>
+<td><strong>figment</strong> (S5)</td>
+<td>invention</td>
+<td>L. <em>fingere</em> (form) — <em>fiction</em>, <em>feign</em></td>
+</tr>
+<tr>
+<td><strong>disjoin</strong> (S5)</td>
+<td>separate</td>
+<td><em>dis-</em> + <em>jungere</em> (join)</td>
+</tr>
+<tr>
+<td><strong>emanate</strong> (S5)</td>
+<td>flow out</td>
+<td>L. <em>e-</em> + <em>manare</em> (flow)</td>
+</tr>
+<tr>
+<td><strong>plausibility</strong> (S6)</td>
+<td>credibility</td>
+<td>L. <em>plaudere</em> (applaud)</td>
+</tr>
+<tr>
+<td><strong>comprehended</strong> (S6)</td>
+<td>⚠️ included (not <em>understood</em>)</td>
+<td>L. <em>com-</em> + <em>prehendere</em> (seize)</td>
+</tr>
+<tr>
+<td><strong>futile</strong> (S7)</td>
+<td>pointless</td>
+<td>L. <em>futilis</em> (leaky)</td>
+</tr>
+<tr>
+<td><strong>concur</strong> (S7)</td>
+<td>join in</td>
+<td>L. <em>con-</em> + <em>currere</em> (run together)</td>
+</tr>
+<tr>
+<td><strong>aseity</strong> (S10 idea)</td>
+<td>self-derived being</td>
+<td>L. <em>a se</em> (from oneself)</td>
+</tr>
+<tr>
+<td><strong>impiety</strong> (S14)</td>
+<td>irreverence</td>
+<td>L. <em>in-</em> + <em>pietas</em></td>
+</tr>
+<tr>
+<td><strong>vitiate</strong> (S15)</td>
+<td>spoil, invalidate</td>
+<td>L. <em>vitium</em> (fault) — <em>vice</em></td>
+</tr>
+<tr>
+<td><strong>synonymous</strong> (S16)</td>
+<td>same in meaning</td>
+<td>Gk <em>syn-</em> + <em>onoma</em> (name)</td>
+</tr>
+<tr>
+<td><strong>deifier</strong> (S16)</td>
+<td>one who makes divine (coined)</td>
+<td><em>deus</em> + <em>facere</em> — <em>deify</em></td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>What is at stake.</strong> This section completes Calvin's answer to the "essentiator" party (Days 99–101): affirm three Persons yet teach that only the Father is truly God and "essentiates" Son and Spirit. Calvin names no persons here — read it as an answer to a <em>doctrine</em>. ⚠️ Do not attribute positions to named individuals on this section alone.</p><p><strong>"Fountain of the Godhead" (S2).</strong> The phrase echoes the Greek <em>pēgē tēs theotētos</em> tradition (the Father as source, <em>monarchia</em>), yet Calvin guards it: the Father is source <em>in order</em>; the <em>essence</em> is not begotten. This is his reply to the charge that the Father alone is "deifier" (S16).</p><p><strong>Autotheos (S11).</strong> The claim that the Son, <em>as God</em>, is <em>a se</em> — of himself — was already disputed in Calvin's own day (his Trinity controversies with Gentile and others) and later by Roman Catholic and Reformed readers. Read it with its qualifier: <em>as Son</em>, he is of the Father (S11b). ⚠️ Not a denial of eternal generation.</p><p><strong>Essence and Persons (S5–S9).</strong> The Western tradition (Augustine, <em>De Trinitate</em>) insists the Persons are <em>in</em> the essence and not outside it, and equally that the essence is not a fourth item. Calvin's formula — <em>not disjoin, but distinguish</em> — is the same grammar. The French gloss "like three streams" (fn. 52) shows the <em>emanation</em> picture he rejects.</p><p><strong>Reception.</strong> WCF 2.3 (Father "of none"; Son "eternally begotten"; Spirit "eternally proceeding", in one "substance, power, and eternity") shows the shape Reformed confessions took.</p><p>⚠️ <strong>Over-reading guardrails (4).</strong> <strong>(1) S5's <code>three persons emanate from one essence</code> is the <em>opponents' charge</em>, not Calvin's thesis. (2) S6's <code>trinity of Gods</code> is a rejected consequence. (3) S11 does not deny the Son's generation. (4) S16 is a reductio, not an affirmation that God and Father are synonyms.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li><strong>Deut 6:4 / 1 Cor 8:6 — S2.</strong> <code>essentially but one God</code> — the Shema as the base of Calvin's <em>one essence</em>.</li>
+<li><strong>Prov 8:22–31; 1 Cor 1:24 — S2.</strong> <code>begat his own Wisdom</code> — the Son as the Father's Wisdom (Gk <em>Sophia</em>; Prov 8:22 LXX <em>ektisen</em> debated — Calvin takes it as generation).</li>
+<li><strong>Col 1:15–17; Heb 1:3 — S2–S3.</strong> <code>principle and fountain</code> — the Father as source; the Son as image and radiance.</li>
+<li><strong>John 5:26 — S11.</strong> <code>As the Father has life in himself, so he has granted the Son to have life in himself</code> — the Son has life "in himself" (aseity) while receiving it as Son.</li>
+<li><strong>John 1:1–2 — S9.</strong> <code>the Word was with God, and the Word was God</code> — Father and Son distinct, both God; the logic of <code>Father … could not be Father if he were not God</code>.</li>
+<li><strong>Matt 28:19 — S13–S15.</strong> The Trinitarian formula names <em>Persons</em> (Father, Son, Spirit), not essence — the patristic usage Calvin cites.</li>
+<li><strong>Isa 40:25 / Phil 2:6 — S14–S16.</strong> Equality with God vs. "union of one God with two creatures".</li>
+</ol><p><em>Calvin's method:</em> he works at the level of logic and grammar of divine names (Father/Son/God), checking each deduction against Scripture's pattern of <em>use</em>; the biblical echoes here are structural, not proof-text citations.</p><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>① Grammar.</strong> Choose the <strong>INCORRECT</strong> sentence (in Calvin's English).</p><p>① If the persons were separated from the essence, there might be some plausibility in their argument.
+② The Father, if he were not God, could not be the Father; nor could the Son possibly be Son unless he were God.
+③ To have included the essence in the distinction would have been not only an absurd error, but gross impiety.
+④ If God and Father were synonymous terms, the Father would been deifier in a sense which would leave the Son nothing but a shadow.</p><p><strong>Answer: ④.</strong> <em>would been</em> → <em>would be</em> (a modal takes the bare infinitive; <code>would been</code> is ungrammatical). ① unreal present conditional; ② inserted <code>if</code>-clause + <code>nor could</code> inversion; ③ infinitival subject + <code>not only … but</code>. <strong>Examiner's intent:</strong> Formula 1; ④ hides a modal-verb error inside an archaic-looking sentence.</p><p><strong>② Comprehension.</strong> Which best states Calvin's position in S9–S12?</p><p>① The essence is a fourth member beside the three Persons.
+② The persons are in the essence, not outside it; the Father could not be Father unless God, nor the Son Son unless God; the Son as God is of himself, as Son of the Father — so his essence is without beginning while his person has its origin in God.
+③ The Son, as God and as Son alike, derives his being from the Father.
+④ The Persons exist apart from the essence and are united only by will.</p><p><strong>Answer: ②.</strong> ① <strong>opposite</strong> (S9: <code>not … a part or member</code>). ③ <strong>scope-overreach</strong> — drops the qualifier <code>regarded as God … of himself</code> (S11). ④ <strong>direction-flip</strong> (S9: <code>not without it, or external to it</code>). <strong>Examiner's intent:</strong> S9's double negation + S11's two respects.</p><p><strong>③ Composition.</strong> Using Formula 2, render into Calvin's English: <em>"그들은 우리가 세 위격이 하나의 본질에서 흘러나온다고 주장하는 듯이 우리를 비난하지만, 우리의 글에서 보면 우리는 위격을 본질에서 떼어 놓지 않는다는 것이 분명하다."</em></p><p><strong>Model answer:</strong> <strong>They charge us as if we virtually held that three persons emanate from one essence, whereas it is plain from our writings that we do not disjoin the persons from the essence.</strong> <strong>Examiner's intent:</strong> <code>as if … held</code> (rejected view) + <code>whereas it is plain … that we do not …</code> (reality).</p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> <em>Calvin shows that the Persons are neither separated from the essence nor a fourth item beside it: the essence of Son and Spirit is unbegotten, the Father is the source only in order, the Son as God is of himself and as Son of the Father — and if "God" simply meant "Father" the Son would be a shadow and the Trinity one God plus two creatures.</em> <strong>Grammar: ① unreal conditionals (inserted, inverted, infinitival subject); ② <code>as if</code> (rejected picture) vs <code>whereas/but</code>; ③ two respects (<code>regarded as …</code>) and <code>not only … but</code>.</strong></p><p><strong>Homework (10 minutes).</strong>
+1. <strong>Structure restoration:</strong> <em>Rewrite S9 as four short sentences: (a) the concession about the essence, (b) the persons' relation to it, (c) the Father clause, (d) the Son clause.</em> Then mark the two <code>if/unless</code> conditions.
+2. <strong>Composition:</strong> <em>Render in Calvin's English:</em> "그들이 하나님과 아버지를 같은 말로 삼는다면, 아들은 그림자에 지나지 않을 것이다." (Use <code>If … were …, … would …</code>.)
+3. <strong>Preview:</strong> Tomorrow Calvin turns to the next printed section (§26 in print): <em>"if Christ be properly God, he is improperly called the Son of God"</em> — the answer by order, the Mediator's office, and John 17:3.</p><p><strong>Where we stopped:</strong> Book 1, Ch. 13, §28 끝. 다음은 Book 1, Ch. 13, §29 (인쇄 §26).</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
