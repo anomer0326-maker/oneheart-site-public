@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 삼위일체 하나님 §9 (1권 13장 · Day 83) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 13장 §9(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 83. 연관 성구: 예레미야 23, 시편 45, 이사야 9, 예레미야 33."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day83_Book1-Ch13-%C2%A79.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="삼위일체 하나님 §9 — 기독교 강요 영어로 읽기 (Day 83)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 13장 §9(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 83. 연관 성구: 예레미야 23, 시편 45, 이사야 9, 예레미야 33."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day83_Book1-Ch13-%C2%A79.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 삼위일체 하나님 §9 (1권 13장 · Day 83) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 13장 §9(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 83. 연관 성구: 예레미야 23, 시편 45, 이사야 9, 예레미야 33.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 13장 §9 — 삼위일체 하나님","mentions":[{"@type":"CreativeWork","name":"예레미야 23 (Jeremiah 23)"},{"@type":"CreativeWork","name":"시편 45 (Psalm 45)"},{"@type":"CreativeWork","name":"이사야 9 (Isaiah 9)"},{"@type":"CreativeWork","name":"예레미야 33 (Jeremiah 33)"},{"@type":"CreativeWork","name":"에스겔 48 (Ezekiel 48)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day83_Book1-Ch13-%C2%A79.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 83 — Book 1, Chapter 13, §9<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (⚠️ invariable) — 21 sentences</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl2" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl2" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl1" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl2" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl1" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl3" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl3" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl2" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl3" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl2" href="#S11" onclick="closeNavMobile()">S11</a><a class="toc-s lvl2" href="#S12" onclick="closeNavMobile()">S12</a><a class="toc-s lvl3" href="#S13" onclick="closeNavMobile()">S13</a><a class="toc-s lvl1" href="#S14" onclick="closeNavMobile()">S14</a><a class="toc-s lvl3" href="#S15" onclick="closeNavMobile()">S15</a><a class="toc-s lvl1" href="#S16" onclick="closeNavMobile()">S16</a><a class="toc-s lvl1" href="#S17" onclick="closeNavMobile()">S17</a><a class="toc-s lvl2" href="#S18" onclick="closeNavMobile()">S18</a><a class="toc-s lvl3" href="#S19" onclick="closeNavMobile()">S19</a><a class="toc-s lvl3" href="#S20" onclick="closeNavMobile()">S20</a><a class="toc-s lvl2" href="#S21" onclick="closeNavMobile()">S21</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 83 — Book 1, Chapter 13, §9</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Two days ago the Word was proved <strong>God</strong>. Yesterday the Word was proved <strong>beginningless</strong>. Today Calvin changes the <em>method</em>, and you must feel the gear-shift or you will read the section as a heap of verses. §§7–8 were <strong>argument</strong>: a premise, an inference, a proof-text. §9 is a <strong>catena</strong> — a chain of Old Testament texts, each with a <strong>Jewish counter-reading attached</strong>, each counter-reading <strong>refuted on the spot</strong>. Three links: <strong>Psalm 45:6</strong> (<code>Thy throne, O God, is for ever and ever</code>), <strong>Isaiah 9:6</strong> (<code>the Mighty God, the Everlasting Father, the Prince of Peace</code>), <strong>Jeremiah 23:6</strong> (<code>THE LORD OUR RIGHTEOUSNESS</code>). And a fourth movement that is not a new text but a <strong>defence of the third</strong> against two evasions (the altar of Exodus 17, the city of Ezekiel 48) and one genuinely hard case (Jeremiah 33:16, where the <em>city</em> gets the same name as the Messiah). <strong>The argument does not climb; it marches.</strong> Text — quibble — reply. Text — inversion — reply. Text — evasion — reply. <strong>Learn the rhythm and the section reads itself.</strong></p><p>But look at how he opens, because the first sentence is a <strong>disclaimer</strong>, and it is the most Calvin sentence of the day: <code>But though I am not now treating of the office of the Mediator, having deferred it till the subject of redemption is considered, yet because it ought to be clear and incontrovertible to all, that Christ is that Word become incarnate, this seems the most appropriate place…</code> ⚠️ <strong>Underline <code>having deferred</code>.</strong> §7 S2 said <code>Thereafter</code>; yesterday I told you Calvin is constantly telling you what he is <em>not</em> doing yet. Here it is again — the Mediator is Book 2's business — <strong>and yet</strong> he must say one thing now: <strong>the Word of §§7–8 <em>is</em> the incarnate Christ.</strong> Without that bridge, not one Old Testament divine name could be applied to Jesus. <strong>S1 is the hinge on which the whole catena hangs.</strong> Everything after it assumes it.</p><p>And notice the opponent has changed. §§7–8 fought <code>certain men</code> — anti-Trinitarians inside Christendom. §9 fights <strong><code>the Jews</code></strong> — five times by name — and that changes the rules of evidence. ⚠️ <strong>Calvin will not cite a single New Testament verse today.</strong> Not Hebrews 1:8, which quotes Psalm 45 of the Son; not Matthew 1:23 on Emmanuel. He argues from <strong>the Old Testament alone, on Jewish premises</strong> — and at S13 he actually turns a rabbinic doctrine into his own premise: <code>**as the Jews themselves teach** that the other names of God are mere epithets, whereas this, which they call the ineffable name, is substantive, and expresses his essence</code>. <strong>He borrows their axiom about the Tetragrammaton and draws his conclusion from it.</strong> That is the section's cleverest move, and it is Exam Problem ②'s territory.</p><p>Grammatically, today is <strong>the day of rhetoric that wears the grammar of a question</strong>. Two rhetorical questions carry the two hardest refutations: <code>**why should** so many epithets be here accumulated on God the Father, **seeing** the prophet's design is…?</code> (S10) and <code>**who sees not that** the altar was erected as a memorial…?</code> (S15). ⚠️ Neither is asking anything. The first means <em>there is no reason</em>; the second means <em>everyone sees</em>. And the climax is a <strong>fronted-<code>so far</code> inversion</strong> that flips a threat into a support: <code>**so far is this passage from being adverse** to the truth which we defend, **that** it rather supports it</code> (S19). Add a subjunctive <code>were</code> that looks like a plain past (S7), and a participle that looks like an absolute construction and is not (S20), and you have the day.</p><p>One warning about the page. <strong>This section straddles a page-break</strong> — the seam falls inside S3, between <code>where</code> and <code>an eternal throne</code>, and the running header plus page number <code>121</code> are dropped there. <strong>A superscript footnote marker <code>117</code> sits after <code>divine</code> in S7.</strong> And ⚠️⚠️ <strong>there are two genuine misprints in the source file</strong>, both in S8 — <code>both **us** God</code> (for <em>as</em>) and a <strong>missing comma</strong> after <code>supreme powers</code>. Details in the text note. <strong>The quotation reproduces the file. Read it with the corrections in your head.</strong></p><h3>Today's 3 Big Points</h3><ol>
+<li><strong>The fronted <code>so far … from V-ing … that …</code> — inversion, and an idiom that reverses direction.</strong> <code>**But so far is this passage from being adverse** to the truth which we defend, **that** it rather supports it.</code> (S19) ⚠️⚠️⚠️ Three things stacked. <strong>(i)</strong> The idiom: <code>**X is far from V-ing**</code> = <em>X does not V at all</em> — <code>this passage is far from being adverse</code> = <em>it is not adverse in the least</em>. Day 9 gave you <code>so far is it from</code>; Day 11 gave you <code>be far from V-ing</code>. <strong>(ii)</strong> The intensifier <code>**so** far … **that** …</code> turns the idiom into a <strong>result construction</strong>: <em>so far from being adverse that it actually supports</em>. <strong>(iii)</strong> And because <code>so far</code> is fronted, <strong>the subject and verb invert</strong>: <code>so far **is this passage** from…</code>, not <em>so far this passage is from</em>. Restore: <em>This passage is so far from being adverse to our position that it actually supports it.</em> ⚠️ The trap is direction. A hurried reader sees <code>adverse</code> and <code>truth which we defend</code> and files the sentence as <em>this passage is against us</em>. <strong>It says the exact opposite.</strong> Formula 1.</li>
+<li><strong>Rhetorical questions that are assertions in disguise — and <code>seeing</code> as a conjunction.</strong> <code>**But why should** so many epithets be here accumulated on God the Father, **seeing** the prophet's design is to present the Messiah with certain distinguished properties…?</code> (S10) ⚠️⚠️ <code>why should … ?</code> = <em>there is no reason why … should</em> — a <strong>question form carrying a negative assertion</strong>. And <code>**seeing** (that) S V</code> = <em>since, given that</em> — a <strong>conjunction</strong>, not a participle; nobody is doing any seeing. Then the mirror image at S15: <code>**But who sees not that** the altar was erected as a memorial…?</code> ⚠️⚠️⚠️ <strong>Negative question = strong positive.</strong> <em>Who does not see?</em> = <em>Everyone sees.</em> And <code>sees not</code> is the period negative <strong>without <code>do</code></strong> — you met <code>dare not</code> yesterday; <code>sees not</code> is the same syntax on an ordinary verb. ⚠️ Beveridge uses the two questions at the two points where the refutation is most exposed — <strong>rhetoric covers where argument is thinnest.</strong> Watch for that. Formula 2.</li>
+<li><strong>The participle that looks like an absolute — and is not.</strong> <code>**The prophet having formerly declared** that Christ is the true Jehovah from whom righteousness flows, **now declares** that the Church would be made **so sensible of this as to be able to** glory in assuming his very name.</code> (S20) ⚠️⚠️⚠️ Your eye sees <em>noun + participle, comma</em> and shouts <em>nominative absolute</em> (<code>justice being…</code>, Day 12). <strong>Check the main clause first.</strong> The finite verb is <code>**now declares**</code>, and its subject is … <code>The prophet</code>. <strong>The same noun.</strong> So <code>having formerly declared</code> is not an absolute (which needs its <em>own</em> subject) but an ordinary <strong>participial modifier of the main subject</strong>: <em>The prophet, having formerly declared X, now declares Y.</em> <strong>Absolute = two subjects. Modifier = one.</strong> ⚠️ That is the test, and it is Exam Problem ①. Then the tail: <code>**so** sensible of this **as to be able to** glory</code> = the <strong><code>so … as to</code> result</strong> you met on Day 10 — <em>so aware of this that it can boast</em>. Bonus: the bare subjunctive in S7, <code>this meaning here **were** harsh and forced</code> = <em>would be</em> — not a past tense. Formula 3.</li>
+</ol><p>Trap words I <em>will</em> test. <strong><code>quibble</code></strong> (S2) ⚠️⚠️ = <strong>to evade by a verbal trick, to cavil</strong> — <code>the Jews quibble that…</code> = <em>they wriggle out by objecting that…</em>. Not "argue"; the word is already a verdict. <strong><code>sovereign powers</code></strong> (S2) = <strong>rulers, magistrates</strong> (Lat. <em>potestates</em>) — human authorities, not abstract powers. <strong><code>insipid</code></strong> (S6) ⚠️⚠️ = <strong>flat, tasteless, lifeless</strong> (<em>in-</em> + <em>sapidus</em>, having flavour) — of an <em>interpretation</em>: <code>this is too insipid</code> = <em>this reading is too flat to be believed</em>. Calvin's standard sneer for a lifeless exegesis. <strong><code>singular</code></strong> (S7) ⚠️ = <strong>exceptional, outstanding</strong> — <code>singular excellence</code> = <em>extraordinary excellence</em>. Not "one" and not "odd". <strong><code>harsh and forced</code></strong> (S7) = <strong>strained, unnatural</strong> — of a reading that must be <em>forced</em> onto the text. <strong><code>perverseness</code></strong> (S8) = <strong>obstinate wrong-headedness</strong> (<em>per-</em> + <em>vertere</em>, turned the wrong way). <strong><code>obscurity</code></strong> (S8) ⚠️ = <strong>unclearness</strong> — <code>there is no obscurity in Isaiah</code> = <em>Isaiah is perfectly clear</em>. <strong><code>peculiar</code></strong> (S8) ⚠️⚠️⚠️ = <strong>belonging exclusively to</strong> (<em>peculium</em>, private property) — <code>one of the peculiar attributes of God</code> = <em>an attribute that is God's alone</em>. <strong>Never "strange."</strong> This is the whole argument of S8 in one adjective. <strong><code>epithet</code></strong> (S10, S13) ⚠️⚠️ = <strong>a descriptive title, a name added to a name</strong> (Gk <em>ἐπίθετον</em>, put-on) — Beveridge's word for the rabbinic <em>kinnuy</em>. Not an insult. <strong><code>accumulated</code></strong> (S10) = <strong>heaped up</strong> (<em>cumulus</em>, a heap). <strong><code>induce</code></strong> (S10) = <strong>lead to, move to</strong> (<em>in-</em> + <em>ducere</em>). <strong><code>substantive</code></strong> (S13) ⚠️⚠️ = <strong>denoting the substance itself, a proper name of the essence</strong> — opposed to <code>epithet</code>; this is a grammatical term (<em>nomen substantivum</em>) borrowed for theology. <strong><code>ineffable</code></strong> (S13) = <strong>not to be uttered</strong> (<em>in-</em> + <em>effabilis</em> &lt; <em>effari</em>, to speak out) — the Tetragrammaton, which Jews do not pronounce. <strong><code>evade</code></strong> (S14) = <strong>slip away from</strong> (<em>e-</em> + <em>vadere</em>, to go). <strong><code>exalter</code></strong> (S15) ⚠️ = <strong>one who lifts up</strong> — an agent noun Beveridge coins to match <code>Jehovah my exaltation</code> (S17). <strong><code>testify</code></strong> (S15) = <strong>bear witness to</strong> — here transitive, <code>to testify the Divine presence</code>. <strong><code>keenly</code></strong> (S18) = <strong>sharply, hotly</strong> — <code>still more keenly disputed</code> = <em>even more fiercely contested</em>. <strong><code>adverse</code></strong> (S19) = <strong>turned against</strong> (<em>ad-</em> + <em>vertere</em>) — <em>hostile to</em>. <strong><code>sensible of</code></strong> (S20) ⚠️⚠️⚠️ = <strong>aware of, conscious of</strong> — <code>so sensible of this</code> = <em>so keenly aware of this</em>. <strong>Not "reasonable."</strong> The classic period reversal. <strong><code>glory in</code></strong> (S20) ⚠️ = <strong>boast of, exult in</strong> (Lat. <em>gloriari</em>) — a verb, and a Pauline one (<em>καυχάομαι</em>). <strong><code>assuming</code></strong> (S20) = <strong>taking on</strong> (<em>ad-</em> + <em>sumere</em>) — <code>assuming his very name</code> = <em>taking his own name upon herself</em>. Not "supposing." <strong><code>set down</code></strong> (S21) = <strong>stated, laid down in writing</strong>.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (⚠️ invariable) — 21 sentences</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+9. <span class="ft-sent" data-s="S1" id="ft-S1" onclick="jumpToCard('S1')">But though I am not now treating of the office of the Mediator, having deferred it till the subject of redemption is considered, yet because it ought to be clear and incontrovertible to all, that Christ is that Word become incarnate, this seems the most appropriate place to introduce those passages which assert the Divinity of Christ.</span> <span class="ft-sent" data-s="S2" id="ft-S2" onclick="jumpToCard('S2')">When it is said in the forty-fifth Psalm, “Thy throne, O God, is for ever and ever,” the Jews quibble that the name Elohim is applied to angels and sovereign powers.</span> <span class="ft-sent" data-s="S3" id="ft-S3" onclick="jumpToCard('S3')">But no passage is to be found in Scripture, where an eternal throne is set up for a creature.</span> <span class="ft-sent" data-s="S4" id="ft-S4" onclick="jumpToCard('S4')">For he is not called God simply, but also the eternal Ruler.</span> <span class="ft-sent" data-s="S5" id="ft-S5" onclick="jumpToCard('S5')">Besides, the title is not conferred on any man, without some addition, as when it is said that Moses would be a God to Pharaoh (Exod. 7:1).</span> <span class="ft-sent" data-s="S6" id="ft-S6" onclick="jumpToCard('S6')">Some read as if it were in the genitive case, but this is too insipid.</span> <span class="ft-sent" data-s="S7" id="ft-S7" onclick="jumpToCard('S7')">I admit, that anything possessed of singular excellence is often called divine, but it is clear from the context, that this meaning here were harsh and forced, and totally inapplicable.</span> <span class="ft-sent" data-s="S8" id="ft-S8" onclick="jumpToCard('S8')">But if their perverseness still refuses to yield, surely there is no obscurity in Isaiah, where Christ is introduced both us God, and as possessed of supreme powers one of the peculiar attributes of God, “His name shall be called the Mighty God, the Everlasting Father, the Prince of Peace,” (Isa. 9:6).</span> <span class="ft-sent" data-s="S9" id="ft-S9" onclick="jumpToCard('S9')">Here, too, the Jews object, and invert the passage thus, This is the name by which the mighty God, the Everlasting Father, will call him; so that all which they leave to the Son is, “ Prince of Peace.”</span> <span class="ft-sent" data-s="S10" id="ft-S10" onclick="jumpToCard('S10')">But why should so many epithets be here accumulated on God the Father, seeing the prophet’s design is to present the Messiah with certain distinguished properties which may induce us to put our faith in him?</span> <span class="ft-sent" data-s="S11" id="ft-S11" onclick="jumpToCard('S11')">There can be no doubt, therefore, that he who a little before was called Emmanuel, is here called the Mighty God.</span> <span class="ft-sent" data-s="S12" id="ft-S12" onclick="jumpToCard('S12')">Moreover, there can be nothing clearer than the words of Jeremiah, “This is the name whereby he shall be called, THE LORD OUR RIGHTEOUSNESS,” (Jer. 23:6).</span> <span class="ft-sent" data-s="S13" id="ft-S13" onclick="jumpToCard('S13')">For as the Jews themselves teach that the other names of God are mere epithets, whereas this, which they call the ineffable name, is substantive, and expresses his essence, we infer, that the only begotten Son is the eternal God, who elsewhere declares, “My glory will I not give to another,” (Isa. 42:8).</span> <span class="ft-sent" data-s="S14" id="ft-S14" onclick="jumpToCard('S14')">An attempt is made to evade this from the fact, that this name is given by Moses to the altar which he built, and by Ezekiel to the New Jerusalem.</span> <span class="ft-sent" data-s="S15" id="ft-S15" onclick="jumpToCard('S15')">But who sees not that the altar was erected as a memorial to show that God was the exalter of Moses, and that the name of God was applied to Jerusalem, merely to testify the Divine presence?</span> <span class="ft-sent" data-s="S16" id="ft-S16" onclick="jumpToCard('S16')">For thus the prophet speaks, “The name of the city from that day shall be, The Lord is there,” (Ezek. 48:35).</span> <span class="ft-sent" data-s="S17" id="ft-S17" onclick="jumpToCard('S17')">In the same way, “Moses built an altar, and called the name of it JEHOVAH-nissi,” (Jehovah my exaltation).</span> <span class="ft-sent" data-s="S18" id="ft-S18" onclick="jumpToCard('S18')">But it would seem the point is still more keenly disputed as to another passage in Jeremiah, where the same title is applied to Jerusalem in these words, “In those days shall Judah be saved, and Jerusalem shall dwell safely; and this is the name wherewith she shall be called, The Lord our Righteousness.”</span> <span class="ft-sent" data-s="S19" id="ft-S19" onclick="jumpToCard('S19')">But so far is this passage from being adverse to the truth which we defend, that it rather supports it.</span> <span class="ft-sent" data-s="S20" id="ft-S20" onclick="jumpToCard('S20')">The prophet having formerly declared that Christ is the true Jehovah from whom righteousness flows, now declares that the Church would be made so sensible of this as to be able to glory in assuming his very name.</span> <span class="ft-sent" data-s="S21" id="ft-S21" onclick="jumpToCard('S21')">In the former passage, therefore, the fountain and cause of righteousness is set down, in the latter, the effect is described.</span>
+</blockquote><p><strong>Sentence count: 21 (S1–S21). One paragraph, five moves: the bridge — <em>the Word is Christ, so the divine names are his</em> (S1) · link 1, Psalm 45:6, with the <em>Elohim</em> quibble and the genitive reading (S2–S7) · link 2, Isaiah 9:6, with the inverted-syntax objection (S8–S11) · link 3, Jeremiah 23:6, with the rabbinic axiom about the ineffable name (S12–S13) · the defence of link 3 against the altar, the city, and Jeremiah 33:16 (S14–S21).</strong></p><blockquote>
+<p><strong>Text note (not a correction to the quotation).</strong> Six features of the printed page, all left exactly as they stand.
+(i) <strong>The page-break seam falls inside S3</strong>, between <code>where</code> and <code>an eternal throne</code>. The running header (<code>CHAPTER 13. - THE UNITY OF THE DIVINE ESSENCE IN THREE PERSONS TAUGHT, IN…</code>) and the page number <code>121</code> are dropped at that seam; the sentence is joined silently.
+(ii) <strong>A footnote marker <code>117</code> sits after <code>divine</code> in S7</strong> (<code>is often called divine 117</code>). Stripped, as the rule requires. <strong>Three line-break hyphens</strong> are also joined: <code>forty-|fifth</code> (a real hyphen, kept as <code>forty-fifth</code>), <code>RIGHTEOUS-|NESS</code> (S12, joined to <code>RIGHTEOUSNESS</code>), <code>right-|eousness</code> (S20, joined to <code>righteousness</code>).
+(iii) ⚠️⚠️ <strong>S8 prints <code>where Christ is introduced both us God, and as possessed of supreme powers</code>.</strong> <code>us</code> is a <strong>misprint for <code>as</code></strong> — the correlative is <code>both **as** God, and **as** possessed of…</code>. <strong>The quotation above keeps <code>us</code> because that is what the file says; read <code>as</code>.</strong> No other reading makes sense: <code>both us</code> is not English.
+(iv) ⚠️ <strong>S8 also lacks a comma after <code>supreme powers</code>:</strong> <code>as possessed of supreme powers one of the peculiar attributes of God</code>. <code>one of the peculiar attributes of God</code> is an <strong>appositive</strong> to <code>supreme powers</code> and should be set off — <em>possessed of supreme power, one of the attributes peculiar to God</em>. Read the comma in; the file does not have it.
+(v) <strong>S9 prints <code>“ Prince of Peace.”</code> with a space after the opening quotation mark.</strong> A typesetting slip, reproduced as found.
+(vi) <strong>Capitalisation is uneven and meaningful.</strong> S12's Jeremiah quotation is in <strong>small capitals</strong>: <code>THE LORD OUR RIGHTEOUSNESS</code> — the KJV convention for the Tetragrammaton (<code>LORD</code> = <em>YHWH</em>). S18's second Jeremiah quotation is in ordinary case: <code>The Lord our Righteousness</code>. S17's <code>JEHOVAH-nissi</code> mixes capitals and lower case as the KJV prints it. S8's <code>the Mighty God</code> versus S9's <code>the mighty God</code> — the second is the <strong>Jewish</strong> reading, lowered. <strong>Reproduce as printed; the typography is doing theological work.</strong></p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>[THE BRIDGE]     S1    though NOT treating of the Mediator (DEFERRED to Book 2), YET
+                       "Christ is that Word BECOME INCARNATE" ⇒ so the OT divine names are HIS
+                 ─── LINK 1 · PSALM 45:6 "Thy throne, O GOD, is FOR EVER AND EVER" ───
+[QUIBBLE]        S2    "Elohim" is used of ANGELS and RULERS too
+[REPLY a]        S3–S4 no ETERNAL THRONE for a creature — "not called God SIMPLY, but also the eternal Ruler"
+[REPLY b]        S5    the title never given to a man WITHOUT SOME ADDITION (Moses "a God TO PHARAOH")
+[REPLY c]        S6–S7 the GENITIVE reading ("thy throne of God") = "too INSIPID"; "divine" = "harsh and forced"
+                 ─── LINK 2 · ISAIAH 9:6 "the MIGHTY GOD, the EVERLASTING FATHER, the Prince of Peace" ───
+[TEXT]           S8    Christ introduced "both [as] GOD, and as possessed of SUPREME POWERS" — PECULIAR to God
+[INVERSION]      S9    the Jews flip the syntax: the Mighty God … CALLS him "Prince of Peace"
+[REPLY]          S10   WHY SHOULD so many epithets be heaped on the FATHER, SEEING the design is the MESSIAH?
+                 S11   ⇒ "he who a little before was called EMMANUEL, is here called the MIGHTY GOD"
+                 ─── LINK 3 · JEREMIAH 23:6 "THE LORD OUR RIGHTEOUSNESS" ───
+[TEXT]           S12   "nothing CLEARER"
+[THEIR AXIOM → OUR INFERENCE]
+                 S13   AS the Jews themselves teach: other names = EPITHETS, this one = SUBSTANTIVE, his ESSENCE
+                       ⇒ "we infer, that the only begotten Son is the ETERNAL GOD" + Isa 42:8 "MY GLORY … NOT … TO ANOTHER"
+                 ─── DEFENCE OF LINK 3 ───
+[EVASION 1]      S14   but the name is given to an ALTAR (Moses) and to a CITY (Ezekiel)
+[REPLY]          S15–S17  WHO SEES NOT — altar = MEMORIAL ("God the EXALTER of Moses"); city = testifies PRESENCE
+                       "The Lord IS THERE" (Ezek 48:35) · "JEHOVAH-nissi" (Exod 17:15)
+[HARD CASE]      S18   Jer 33:16 — the SAME title given to JERUSALEM: "The Lord our Righteousness"
+[REVERSAL]       S19   ⚡ "SO FAR is this passage FROM being adverse … THAT it rather SUPPORTS it"
+[RESOLUTION]     S20–S21  23:6 = Christ the TRUE JEHOVAH, FOUNTAIN of righteousness (CAUSE)
+                          33:16 = the Church SO SENSIBLE of this AS TO glory in ASSUMING his name (EFFECT)
+</code></pre><p><strong>Examiner's Eye.</strong> Four traps, and they are all about <strong>who says what</strong>.
+- <strong>Trap 1 — the concession in S7.</strong> <code>**I admit**, that anything possessed of singular excellence is often called divine</code>. ⚠️ Calvin <strong>grants</strong> that <em>divine</em> is used loosely of excellent things. An option that says <em>Calvin denies that anything but God is ever called divine</em> is false; an option that says <em>Calvin therefore allows the Psalm's "God" to mean merely "excellent"</em> is also false (<code>this meaning here were harsh and forced, and totally inapplicable</code>). <strong>He grants the general usage and refuses its application here.</strong> Same shape as yesterday's S4.
+- <strong>Trap 2 — ownership of the inverted reading in S9.</strong> <code>This is the name by which the mighty God, the Everlasting Father, will call him</code> is <strong>the Jews' reading</strong>, not Calvin's, not Isaiah's. ⚠️ It is not in quotation marks, and it is grammatically a complete sentence — the examiner will lift it and attribute it to Calvin. <strong><code>invert the passage thus</code> introduces it; the verb belongs to <code>the Jews</code>.</strong>
+- <strong>Trap 3 — the rabbinic axiom in S13 is used, not rejected.</strong> <code>**as the Jews themselves teach** that the other names of God are mere epithets, whereas this … is substantive</code>. ⚠️ Calvin <strong>agrees</strong> with this teaching — it is his premise. An option that says <em>Calvin rejects the Jewish distinction between the Tetragrammaton and the other names</em> reverses the argument.
+- <strong>Trap 4 — the direction of S19.</strong> <code>so far is this passage **from being adverse** … **that it rather supports it**</code>. The Jeremiah 33:16 passage <strong>supports</strong> Calvin. ⚠️ An option built from the words <code>adverse to the truth which we defend</code> alone is the direction-flip bait. <strong>And note the sequencing: S18 concedes the difficulty (<code>still more keenly disputed</code>), S19 reverses it.</strong> Quote S18 without S19 and you have misrepresented the section.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">though I am not now treating …, having deferred it …, yet because it ought to be clear …, that Christ is that Word become incarnate, this seems the most appropriate place — a disclaimer, a deferral, and the bridge that carries the whole section</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p><strong><code>But though I am not now treating of the office of the Mediator, having deferred it till the subject of redemption is considered, yet because it ought to be clear and incontrovertible to all, that Christ is that Word become incarnate, this seems the most appropriate place to introduce those passages which assert the Divinity of Christ.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf"><b> `</b>But**</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf"><b>though</b> I am not now treating</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of the office of the Mediator</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>having deferred</b> it</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>till</b> the subject of redemption is considered</span></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>yet</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">이유절 (because)</span><span class="leaf"><b>because</b> it ought to be clear and incontrovertible</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to all</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> Christ is that Word become incarnate</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>this seems</b> the most appropriate place</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to introduce those passages</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b> assert the Divinity of Christ</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>defer</em> &lt; <em>dis-</em> + <em>ferre</em>, to carry apart/away → <em>differ, deferment</em> (note: <em>defer to</em> someone is a different verb, &lt; <em>de-</em> + <em>ferre</em>); <em>Mediator</em> &lt; <em>medius</em>, middle → <em>mediate, medium, mediaeval</em>; <em>redemption</em> &lt; <em>re-</em> + <em>emere</em>, to buy back → <em>redeem, exempt, premium</em>; <em>incontrovertible</em> &lt; <em>in-</em> + <em>contra-</em> + <em>vertere</em> → <em>controversy, convert, adverse</em> (S19); <em>incarnate</em> &lt; <em>in-</em> + <em>caro, carnis</em>, flesh → <em>carnal, carnival, carnage</em>; <em>appropriate</em> &lt; <em>ad-</em> + <em>proprius</em>, one's own → <em>proper, property</em>, and <em>peculiar</em>'s neighbour in sense; <em>assert</em> &lt; <em>ad-</em> + <em>serere</em>, to join to oneself, to claim → <em>series, insert, exert</em> (yesterday).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>treat of X</em> = deal with the subject of X; <em>defer X till Y</em> = postpone X until Y; <em>though … yet …</em> = although … nevertheless …; <em>it ought to be clear to all, that …</em> = everyone ought to see that …; <em>the most appropriate place to V</em> = the fittest point at which to V.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I am not dealing with Christ's role as Mediator yet — I have put that off until we reach redemption. But since everyone ought to accept beyond dispute that Christ is that Word made flesh, this is the right place to bring in the passages that declare Christ's divinity.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>treating of</b> → dealing with</li><li><b>having deferred it till</b> → I have put that off until</li><li><b>though … yet</b> → although … but</li><li><b>incontrovertible</b> → beyond dispute</li><li><b>that Word become incarnate</b> → that Word made flesh</li><li><b>introduce those passages</b> → bring in the passages.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the Jews quibble that the name Elohim is applied to angels and sovereign powers — the first witness, and the first cavil</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p><strong><code>When it is said in the forty-fifth Psalm, “Thy throne, O God, is for ever and ever,” the Jews quibble that the name Elohim is applied to angels and sovereign powers.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>When</b> it is said</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in the forty-fifth Psalm</span></li></ul></li></ul></li><li><span class="leaf">“Thy throne, O God, is for ever and ever,”</span></li></ul></li></ul></li><li><span class="leaf">the Jews <b>quibble</b></span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the name Elohim is applied</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to angels and sovereign powers</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>quibble</em> — 17th-c., prob. &lt; <em>quib</em> &lt; Lat. <em>quibus</em> (the dative-ablative plural that peppered legal Latin) → a lawyer's evasion; <em>Elohim</em> — Heb. plural in form, singular in agreement when it names the one God; <em>sovereign</em> &lt; OFr <em>soverain</em> &lt; Lat. <em>superanus</em>, above (the <em>-g-</em> crept in by false association with <em>reign</em>); <em>throne</em> &lt; Gk <em>θρόνος</em>, a seat.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>when it is said …</em> = when this verse is cited; <em>quibble that …</em> = raise the verbal objection that …; <em>be applied to X</em> = be used of X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">When Psalm 45 is quoted — "Your throne, O God, is for ever and ever" — the Jews dodge by objecting that the name Elohim is also used of angels and of human rulers.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>when it is said in the forty-fifth Psalm</b> → when Psalm 45 is quoted</li><li><b>quibble that</b> → dodge by objecting that</li><li><b>sovereign powers</b> → human rulers.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s2" title="2-star">★★</span><span class="s-label">no passage is to be found in Scripture, where an eternal throne is set up for a creature — reply (a), and the adjective that does the work</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p><strong><code>But no passage is to be found in Scripture, where an eternal throne is set up for a creature.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf"><b> `</b>But<b> no passage </b>is to be found**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in Scripture</span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (where)</span><span class="leaf"><b>where</b> an eternal throne <b>is set up</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">for a creature</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>creature</em> &lt; <em>creatura</em> &lt; <em>creare</em> → <em>create, creator</em> — the word Calvin uses as the antonym of <em>God</em>; <em>eternal</em> &lt; <em>aeternus</em> &lt; <em>aevum</em> (yesterday's <em>eternity</em>); <em>Scripture</em> &lt; <em>scriptura</em> &lt; <em>scribere</em>, to write.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>X is to be found</em> = X can be found / X exists; <em>set up a throne for X</em> = establish X's reign.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But nowhere in Scripture is an eternal throne given to any created being.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>no passage is to be found in Scripture, where</b> → nowhere in Scripture is</li><li><b>set up for a creature</b> → given to any created being.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s1" title="1-star">★</span><span class="s-label">he is not called God simply, but also the eternal Ruler — the not … simply, but also frame</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p><strong><code>For he is not called God simply, but also the eternal Ruler.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>simply</em> &lt; <em>simplex</em>, one-fold (<em>sim-</em> + <em>plicare</em>) → <em>simple, simplicity</em>; <em>ruler</em> &lt; <em>rule</em> &lt; <em>regula</em> &lt; <em>regere</em>, to direct straight → <em>regal, rex, reign</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>not X simply, but also Y</em> = not merely X but Y as well.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">For he is not just called "God"; he is also called the eternal Ruler.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>not called God simply</b> → not just called "God"</li><li><b>but also</b> → he is also called.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the title is not conferred on any man, without some addition — reply (b): Moses was a god to Pharaoh</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p><strong><code>Besides, the title is not conferred on any man, without some addition, as when it is said that Moses would be a God to Pharaoh (Exod. 7:1).</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>Besides<b>, the title </b>is not conferred**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">on any man</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>without</b> some addition</span></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>as when</b> it is said</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> Moses would be a God</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to</b> Pharaoh</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Exod. 7:1</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>confer</em> &lt; <em>con-</em> + <em>ferre</em> → <em>conference, transfer, defer</em> (S1); <em>addition</em> &lt; <em>ad-</em> + <em>dare</em>, to give to → <em>add, date, donate</em>; <em>Pharaoh</em> &lt; Egyptian <em>pr-ʿȝ</em>, "great house" — a title, not a name.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>confer a title on X</em> = bestow a title upon X; <em>not … without some addition</em> = never without a qualifier; <em>as when it is said that</em> = as, for instance, where it is said that.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Besides, whenever the title is given to a human being it always comes with a qualifier — as when Moses is told he will be "a god to Pharaoh."</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the title is not conferred on any man, without some addition</b> → whenever the title is given to a human it always comes with a qualifier</li><li><b>as when it is said that</b> → as when Moses is told</li><li><b>would be a God to Pharaoh</b> → will be "a god to Pharaoh."</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s1" title="1-star">★</span><span class="s-label">Some read as if it were in the genitive case, but this is too insipid — the reading Calvin sneers at</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p><strong><code>Some read as if it were in the genitive case, but this is too insipid.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>genitive</em> &lt; <em>genitivus</em> (casus), the case "of origin" (&lt; <em>gignere</em>, to beget); <em>insipid</em> &lt; <em>in-</em> + <em>sapidus</em>, tasty (&lt; <em>sapere</em>, to taste — also "to be wise": <em>sapient</em>) → a reading with no flavour.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>read as if it were …</em> = interpret it as if it were …; <em>too insipid</em> = too flat to be credible.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Some take "God" as a genitive — "thy throne of God" — but that reading is too flat.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>read as if it were in the genitive case</b> → take "God" as a genitive</li><li><b>too insipid</b> → too flat.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">I admit, that … is often called divine, but … this meaning here were harsh and forced — the concession, and the subjunctive that looks like a past tense</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p><strong><code>I admit, that anything possessed of singular excellence is often called divine, but it is clear from the context, that this meaning here were harsh and forced, and totally inapplicable.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `I </b>admit**</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> anything <b>is</b> often <b>called</b> divine</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">possessed of singular excellence</span></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b> it <b>is clear</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">from the context</span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> this meaning here <b>were</b> harsh and forced, and totally inapplicable</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>admit</em> &lt; <em>ad-</em> + <em>mittere</em>, to let in → <em>admission, permit, omit</em>; <em>singular</em> &lt; <em>singulus</em>, one at a time → <em>single, singularity</em> — the sense "exceptional" is the older one; <em>excellence</em> &lt; <em>ex-</em> + <em>cellere</em>, to rise above → <em>excel, excelsior</em>; <em>harsh</em> &lt; ME <em>harsk</em>, Scandinavian, rough to the touch; <em>forced</em> &lt; <em>fortis</em>, strong → <em>force, fortitude</em>; <em>inapplicable</em> &lt; <em>in-</em> + <em>ad-</em> + <em>plicare</em>, to fold to → <em>apply, application, implicit</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>I admit, that …</em> = I grant that …; <em>possessed of X</em> = having X, endowed with X (⚠️ not <em>possessed by</em>); <em>it is clear from the context, that …</em> = the surrounding text shows that …; <em>this meaning were harsh and forced</em> = this sense would be strained.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I grant that anything of exceptional quality is often called "divine." But the context makes it clear that this sense would be strained and forced here, and simply does not fit.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>I admit, that</b> → I grant that</li><li><b>possessed of singular excellence</b> → of exceptional quality</li><li><b>this meaning here were harsh and forced</b> → this sense would be strained and forced here</li><li><b>totally inapplicable</b> → simply does not fit.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">if their perverseness still refuses to yield, surely there is no obscurity in Isaiah, where Christ is introduced both [as] God, and as possessed of supreme powers — the second witness, the misprint, and the word peculiar</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p><strong><code>But if their perverseness still refuses to yield, surely there is no obscurity in Isaiah, where Christ is introduced both us God, and as possessed of supreme powers one of the peculiar attributes of God, “His name shall be called the Mighty God, the Everlasting Father, the Prince of Peace,” (Isa. 9:6).</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf"><b> `</b>But**</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if</b> their perverseness still <b>refuses</b> to yield</span></li></ul></li></ul></li><li><span class="leaf"><b>surely</b> there <b>is</b> no obscurity</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in Isaiah</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (where)</span><span class="leaf"><b>where</b> Christ <b>is introduced</b></span><ul class="tr"><li><span class="leaf"><b>both</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">** ** God</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">as</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>as</b> possessed of supreme powers</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">— one of the peculiar attributes of God</span></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">“His name shall be called the Mighty God, the Everlasting Father, the Prince of Peace,”.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Isa. 9:6</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>perverseness</em> &lt; <em>per-</em> + <em>vertere</em>, thoroughly turned → <em>pervert, perverse, version</em>; <em>obscurity</em> &lt; <em>obscurus</em>, dark, covered → <em>obscure</em>; <em>peculiar</em> &lt; <em>peculium</em>, private property (&lt; <em>pecu</em>, cattle — wealth on the hoof; hence <em>pecuniary</em>) → the sense "odd" is a late narrowing of "one's own"; <em>attribute</em> &lt; <em>ad-</em> + <em>tribuere</em>, to assign to → <em>tribute, contribute</em>; <em>supreme</em> &lt; <em>supremus</em>, superlative of <em>superus</em>, above → <em>superior, summit</em>; <em>yield</em> &lt; OE <em>gieldan</em>, to pay, give up → <em>guild</em> (a paying association).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>refuse to yield</em> = refuse to give way; <em>there is no obscurity in X</em> = X is perfectly clear; <em>possessed of X</em> = endowed with X; <em>peculiar to X</em> = belonging exclusively to X; <em>be introduced as X</em> = be presented as X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But if their stubbornness still will not give way, then Isaiah is certainly unmistakable: there Christ is presented both as God and as holding supreme power, which belongs to God alone — "His name shall be called the Mighty God, the Everlasting Father, the Prince of Peace."</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>their perverseness still refuses to yield</b> → their stubbornness still will not give way</li><li><b>surely there is no obscurity in Isaiah</b> → Isaiah is certainly unmistakable</li><li><b>both [as] God, and as possessed of</b> → both as God and as holding</li><li><b>one of the peculiar attributes of God</b> → which belongs to God alone.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the Jews object, and invert the passage thus, This is the name by which the mighty God … will call him — the inverted reading, and who owns it</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p><strong><code>Here, too, the Jews object, and invert the passage thus, This is the name by which the mighty God, the Everlasting Father, will call him; so that all which they leave to the Son is, “ Prince of Peace.”</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>Here, too<b>, the Jews </b>object<b>, and </b>invert<b> the passage </b>thus**</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">This is the name</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>by which</b> the mighty God, the Everlasting Father, <b>will call</b> him</span></li></ul></li></ul></li></ul></li><li><span class="lab ph">결과절 (so…that)</span><span class="leaf"><b>so that</b> all <b>is</b>, “ Prince of Peace.”`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b> they <b>leave</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to the Son</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>invert</em> &lt; <em>in-</em> + <em>vertere</em>, to turn in/over → <em>inversion, convert, perverse</em> (S8); <em>object</em> &lt; <em>ob-</em> + <em>iacere</em>, to throw against → <em>objection, project, eject</em>; <em>prince</em> &lt; <em>princeps</em>, first-taker (<em>primus</em> + <em>capere</em>) → <em>principal, principle</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>invert the passage thus</em> = turn the syntax of the verse around as follows; <em>leave X to Y</em> = allow Y to keep X; <em>all which they leave</em> = all that they leave.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Here too the Jews object, and turn the verse around like this: "This is the name by which the mighty God, the Everlasting Father, will call him" — so that the only title they leave to the Son is "Prince of Peace."</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>invert the passage thus</b> → turn the verse around like this</li><li><b>so that all which they leave to the Son is</b> → so that the only title they leave to the Son is.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">why should so many epithets be here accumulated on God the Father, seeing the prophet's design is …? — a question that is a refutation, and seeing as a conjunction</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p><strong><code>But why should so many epithets be here accumulated on God the Father, seeing the prophet’s design is to present the Messiah with certain distinguished properties which may induce us to put our faith in him?</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf"><b> `</b>But why should<b> so many epithets </b>be<b> here </b>accumulated**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">on God the Father</span></li></ul></li></ul></li><li><span class="leaf">?`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>seeing</b> the prophet's design <b>is</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to present the Messiah</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">with certain distinguished properties</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which may induce</b> us</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to put our faith in him</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>epithet</em> &lt; Gk <em>ἐπί</em> + <em>τιθέναι</em>, to put upon → <em>thesis, hypothesis, synthetic</em>; <em>accumulate</em> &lt; <em>ad-</em> + <em>cumulus</em>, heap → <em>cumulative, cumulus</em> (the cloud); <em>design</em> &lt; <em>de-</em> + <em>signare</em>, to mark out → <em>designate, sign, signal</em>; <em>induce</em> &lt; <em>in-</em> + <em>ducere</em>, to lead → <em>conduct, duke, educate</em>; <em>distinguished</em> &lt; <em>distinguere</em>, to mark apart (<em>dis-</em> + <em>stinguere</em>, to prick) → <em>distinct, instinct, extinguish</em>; <em>Messiah</em> &lt; Heb. מָשִׁיחַ, anointed → Gk <em>Χριστός</em>, same meaning.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>why should X be Y?</em> = there is no reason for X to be Y (rhetorical); <em>seeing (that) …</em> = since …; <em>present X with Y</em> = furnish X with Y; <em>induce X to V</em> = lead X to V; <em>put one's faith in X</em> = trust X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But why would the prophet pile so many titles onto God the Father, when his whole aim is to describe the Messiah with distinctive attributes designed to make us trust him?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>why should … be here accumulated on</b> → why would the prophet pile … onto</li><li><b>seeing the prophet's design is</b> → when his whole aim is</li><li><b>present the Messiah with certain distinguished properties</b> → describe the Messiah with distinctive attributes</li><li><b>which may induce us to put our faith in him</b> → designed to make us trust him.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s2" title="2-star">★★</span><span class="s-label">he who a little before was called Emmanuel, is here called the Mighty God — the conclusion of link 2, and the relative with a subject inside it</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p><strong><code>There can be no doubt, therefore, that he who a little before was called Emmanuel, is here called the Mighty God.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `There </b>can be<b> no doubt, </b>therefore**</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> <b>he</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who</b> <b>was called</b> Emmanuel</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">a little before</span></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>is</b> here <b>called</b> the Mighty God</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>Emmanuel</em> &lt; Heb. עִמָּנוּ אֵל, <em>with-us God</em>; <em>doubt</em> &lt; <em>dubitare</em> &lt; <em>duo</em>, two (to be of two minds) → <em>dubious</em>; <em>Mighty God</em> renders אֵל גִּבּוֹר — <em>gibbor</em>, a warrior, a strong man (cf. Gen 6:4).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>there can be no doubt, that …</em> = it is beyond doubt that …; <em>a little before</em> = a little earlier (in the text).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So there is no doubt that the one who a little earlier was called Emmanuel is here called the Mighty God.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>there can be no doubt, therefore, that</b> → so there is no doubt that</li><li><b>he who a little before was called</b> → the one who a little earlier was called.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S12" id="S12"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S12</span><span class="stars s2" title="2-star">★★</span><span class="s-label">there can be nothing clearer than the words of Jeremiah — the third witness, and the name in small capitals</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S12" onclick="flashFullText(this)">
+<p><strong><code>Moreover, there can be nothing clearer than the words of Jeremiah, “This is the name whereby he shall be called, THE LORD OUR RIGHTEOUSNESS,” (Jer. 23:6).</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>Moreover<b>, there </b>can be** nothing clearer</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>than</b> the words of Jeremiah</span></li></ul></li></ul></li><li><span class="leaf">“This is the name, THE LORD OUR RIGHTEOUSNESS,”.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>whereby</b> he shall be called</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Jer. 23:6</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>whereby</em> = where + by, the old relative-adverb family (<em>wherein, whereof, wherewith, whereupon</em>) — read every one as <em>[preposition] + which</em>; <em>righteousness</em> &lt; OE <em>rihtwīs</em>, right-wise; Heb. צֶדֶק / צְדָקָה.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>there can be nothing clearer than X</em> = X is as clear as anything can be; <em>the name whereby he shall be called</em> = the name by which he will be called.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Moreover, nothing could be clearer than Jeremiah's words: "This is the name by which he shall be called: THE LORD OUR RIGHTEOUSNESS."</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>there can be nothing clearer than</b> → nothing could be clearer than</li><li><b>whereby</b> → by which.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S13" id="S13"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S13</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">as the Jews themselves teach that the other names … are mere epithets, whereas this … is substantive, … we infer, that the only begotten Son is the eternal God — their axiom, our inference</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S13" onclick="flashFullText(this)">
+<p><strong><code>For as the Jews themselves teach that the other names of God are mere epithets, whereas this, which they call the ineffable name, is substantive, and expresses his essence, we infer, that the only begotten Son is the eternal God, who elsewhere declares, “My glory will I not give to another,” (Isa. 42:8).</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>For**</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>as</b> the Jews themselves <b>teach</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the other names of God <b>are</b> mere epithets</span><ul class="tr"><li><span class="leaf"><b>whereas</b> this,, <b>is</b> substantive, and <b>expresses</b> his essence</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b> they call the ineffable name</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">we <b>infer</b></span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the only begotten Son <b>is</b> the eternal God</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who</b> elsewhere <b>declares</b>, “My glory will I not give to another,”</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Isa. 42:8</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>epithet</em> (S10); <em>ineffable</em> &lt; <em>in-</em> + <em>effabilis</em> &lt; <em>ex-</em> + <em>fari</em>, to speak → <em>fable, fate</em> (the thing spoken), <em>infant</em> (the one who cannot speak); <em>substantive</em> &lt; <em>sub-</em> + <em>stare</em>, to stand under → <em>substance, substantial</em> — the Latin rendering of Gk <em>οὐσία</em>; <em>essence</em> &lt; <em>essentia</em> &lt; <em>esse</em>, to be; <em>infer</em> &lt; <em>in-</em> + <em>ferre</em>, to carry in → <em>inference, refer, defer</em> (S1); <em>begotten</em> — past participle of <em>beget</em> (&lt; OE <em>begietan</em>), the verb of Ps 2:7 and John 1:14.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>as X teach that …, we infer that …</em> = since X teach …, we conclude …; <em>mere epithets</em> = nothing but titles; <em>the ineffable name</em> = the Tetragrammaton, YHWH; <em>give one's glory to another</em> = share one's divine honour with anyone else.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Since the Jews themselves teach that God's other names are only descriptive titles, while this one — the name they will not pronounce — names his very substance and expresses his essence, we conclude that the only-begotten Son is the eternal God, who says elsewhere, "I will not give my glory to another."</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>as the Jews themselves teach</b> → since the Jews themselves teach</li><li><b>mere epithets</b> → only descriptive titles</li><li><b>which they call the ineffable name</b> → the name they will not pronounce</li><li><b>is substantive</b> → names his very substance</li><li><b>we infer, that</b> → we conclude that</li><li><b>My glory will I not give</b> → I will not give my glory.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S14" id="S14"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S14</span><span class="stars s1" title="1-star">★</span><span class="s-label">An attempt is made to evade this from the fact, that this name is given … to the altar … and … to the New Jerusalem — the evasion stated</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S14" onclick="flashFullText(this)">
+<p><strong><code>An attempt is made to evade this from the fact, that this name is given by Moses to the altar which he built, and by Ezekiel to the New Jerusalem.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>evade</em> &lt; <em>e-</em> + <em>vadere</em>, to go out → <em>invade, evasion, wade</em>; <em>altar</em> &lt; <em>altare</em> &lt; <em>altus</em>, high (a raised place).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>an attempt is made to V</em> = people try to V; <em>evade X from the fact that …</em> = escape X on the ground that ….</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">People try to dodge this by pointing out that the same name is given by Moses to the altar he built, and by Ezekiel to the New Jerusalem.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>an attempt is made to evade this</b> → people try to dodge this</li><li><b>from the fact, that</b> → by pointing out that.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S15" id="S15"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S15</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">who sees not that the altar was erected as a memorial …, and that the name of God was applied to Jerusalem, merely to testify the Divine presence? — the negative rhetorical question, and the distinction that answers the evasion</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S15" onclick="flashFullText(this)">
+<p><strong><code>But who sees not that the altar was erected as a memorial to show that God was the exalter of Moses, and that the name of God was applied to Jerusalem, merely to testify the Divine presence?</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf"><b> `</b>But who sees not**</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the altar <b>was erected</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as a memorial</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to show</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> God was the exalter of Moses</span></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and</b> ?`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the name of God <b>was applied</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to Jerusalem</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>merely</b> to testify the Divine presence</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>erect</em> &lt; <em>e-</em> + <em>regere</em>, to set straight up → <em>direct, rector, rule</em> (S4); <em>memorial</em> &lt; <em>memoria</em> &lt; <em>memor</em>, mindful → <em>memory, remember, commemorate</em>; <em>exalt</em> &lt; <em>ex-</em> + <em>altus</em>, high → <em>altitude, altar</em> (S14); <em>testify</em> &lt; <em>testis</em>, witness → <em>testimony, testament, attest</em>; <em>presence</em> &lt; <em>prae-</em> + <em>esse</em>, to be before → <em>present</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>who sees not that …?</em> = everyone sees that …; <em>erect X as a memorial</em> = set X up as a monument; <em>apply a name to X</em> = give a name to X; <em>testify X</em> = bear witness to X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But surely everyone sees that the altar was set up as a monument to show that God had lifted Moses up, and that God's name was given to Jerusalem simply to mark that God was present there?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>who sees not that</b> → surely everyone sees that</li><li><b>erected as a memorial</b> → set up as a monument</li><li><b>God was the exalter of Moses</b> → God had lifted Moses up</li><li><b>merely to testify the Divine presence</b> → simply to mark that God was present there.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S16" id="S16"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S16</span><span class="stars s1" title="1-star">★</span><span class="s-label">For thus the prophet speaks, "The name of the city from that day shall be, The Lord is there" — the proof for the city</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S16" onclick="flashFullText(this)">
+<p><strong><code>For thus the prophet speaks, “The name of the city from that day shall be, The Lord is there,” (Ezek. 48:35).</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>thus</em> &lt; OE <em>þus</em>, in this way; Heb. שָׁמָּה = <em>there</em> (with the locative <em>-ah</em>).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>thus the prophet speaks</em> = these are the prophet's words; <em>from that day</em> = from then on.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">For this is what the prophet says: "From that day the name of the city shall be, The Lord is there."</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>thus the prophet speaks</b> → this is what the prophet says</li><li><b>shall be, The Lord is there</b> → shall be "The Lord is there."</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S17" id="S17"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S17</span><span class="stars s1" title="1-star">★</span><span class="s-label">Moses built an altar, and called the name of it JEHOVAH-nissi — the proof for the altar, with Calvin's gloss</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S17" onclick="flashFullText(this)">
+<p><strong><code>In the same way, “Moses built an altar, and called the name of it JEHOVAH-nissi,” (Jehovah my exaltation).</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>nissi</em> &lt; Heb. נֵס, a standard/banner/pole (cf. Num 21:8, the pole for the serpent), + <em>-i</em>, my; Calvin's <em>exaltation</em> connects it to נשׂא, <em>to lift up</em> — the same root he sees in <em>Nissi</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>call the name of it X</em> = name it X (Hebraism); <em>in the same way</em> = likewise.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Likewise, "Moses built an altar and named it JEHOVAH-nissi" — that is, "Jehovah is my exaltation."</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>in the same way</b> → likewise</li><li><b>called the name of it</b> → named it.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S18" id="S18"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S18</span><span class="stars s2" title="2-star">★★</span><span class="s-label">it would seem the point is still more keenly disputed as to another passage in Jeremiah, where the same title is applied to Jerusalem — the hard case, stated fairly</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S18" onclick="flashFullText(this)">
+<p><strong><code>But it would seem the point is still more keenly disputed as to another passage in Jeremiah, where the same title is applied to Jerusalem in these words, “In those days shall Judah be saved, and Jerusalem shall dwell safely; and this is the name wherewith she shall be called, The Lord our Righteousness.”</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf"><b> `</b>But<b> it </b>would seem**</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the point <b>is</b> still more keenly <b>disputed</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>as to</b> another passage in Jeremiah</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (where)</span><span class="leaf"><b>where</b> the same title <b>is applied</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to Jerusalem</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in these words</span></li></ul></li></ul><ul class="tr"><li><span class="leaf">“In those days shall Judah be saved, and Jerusalem shall dwell safely; and this is the name, The Lord our Righteousness.”</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>wherewith</b> she shall be called</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>dispute</em> &lt; <em>dis-</em> + <em>putare</em>, to reckon apart → <em>compute, reputation, amputate</em>; <em>keen</em> &lt; OE <em>cēne</em>, bold, sharp → <em>keenly</em> = sharply; <em>wherewith</em> = where + with; Heb. יְהוָה צִדְקֵנוּ, identical in 23:6 and 33:16.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it would seem (that) …</em> = admittedly, it appears that …; <em>the point is disputed as to X</em> = the question is contested with regard to X; <em>the name wherewith she shall be called</em> = the name she will be called by.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But the question seems to be argued even more fiercely over another passage in Jeremiah, where the very same title is given to Jerusalem: "In those days Judah will be saved and Jerusalem will live in safety; and this is the name she will be called by: The Lord our Righteousness."</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>it would seem the point is still more keenly disputed as to</b> → the question seems to be argued even more fiercely over</li><li><b>the same title is applied to Jerusalem in these words</b> → the very same title is given to Jerusalem</li><li><b>wherewith she shall be called</b> → she will be called by.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S19" id="S19"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S19</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">so far is this passage from being adverse to the truth which we defend, that it rather supports it — the fronted so far … from … that, and the reversal of the whole objection</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S19" onclick="flashFullText(this)">
+<p><strong><code>But so far is this passage from being adverse to the truth which we defend, that it rather supports it.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf"><b> `</b>But so far is** this passage</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>from</b> being adverse</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to the truth</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b> we defend</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> it rather <b>supports</b> it</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>adverse</em> &lt; <em>ad-</em> + <em>vertere</em> → <em>adversary, adversity, advertise</em> (to turn attention toward); <em>defend</em> &lt; <em>de-</em> + <em>fendere</em>, to strike away → <em>defence, offend, fend</em>; <em>support</em> &lt; <em>sub-</em> + <em>portare</em>, to carry from beneath → <em>portable, transport, purport</em>; <em>rather</em> — comparative of OE <em>hraþe</em>, quickly → <em>sooner</em>, hence <em>on the contrary</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>so far is X from V-ing, that Y</em> = far from V-ing, X actually Y-s; <em>be adverse to X</em> = tell against X; <em>rather</em> = on the contrary; <em>the truth which we defend</em> = our position.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But far from telling against the position we are defending, this passage actually supports it.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>so far is this passage from being adverse to</b> → far from telling against</li><li><b>the truth which we defend</b> → the position we are defending</li><li><b>it rather supports it</b> → it actually supports it.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S20" id="S20"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S20</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">The prophet having formerly declared …, now declares that the Church would be made so sensible of this as to be able to glory in assuming his very name — the participle that is not an absolute, and the so … as to result</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S20" onclick="flashFullText(this)">
+<p><strong><code>The prophet having formerly declared that Christ is the true Jehovah from whom righteousness flows, now declares that the Church would be made so sensible of this as to be able to glory in assuming his very name.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>The prophet**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>having formerly declared</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> Christ is the true Jehovah</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>from whom</b> righteousness flows</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>now declares</b></span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the Church <b>would be made so sensible</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of this</span></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>as to be able to glory</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in assuming his very name</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>sensible</em> &lt; <em>sensibilis</em> &lt; <em>sentire</em>, to feel, perceive → <em>sense, sentiment, consent</em> — the older meaning "capable of perceiving / aware" survives in <em>sensible of</em>; <em>glory</em> &lt; <em>gloria</em>; <em>assume</em> &lt; <em>ad-</em> + <em>sumere</em>, to take to oneself → <em>assumption, consume, resume, presume</em>; <em>fountain</em> (S21) &lt; <em>fons, fontis</em>, spring → <em>font, fontanelle</em>; <em>formerly</em> &lt; <em>former</em> &lt; OE <em>forma</em>, first.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>having formerly declared …, now declares …</em> = after saying earlier …, now says …; <em>be sensible of X</em> = be aware of X (⚠️ not <em>reasonable</em>); <em>so X as to be able to V</em> = so X that one can V; <em>glory in V-ing</em> = boast of V-ing; <em>assume a name</em> = take a name upon oneself.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The prophet, having earlier declared that Christ is the true Jehovah, the source of righteousness, now declares that the Church would become so aware of this that she could boast in bearing his very name.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>having formerly declared</b> → having earlier declared</li><li><b>from whom righteousness flows</b> → the source of righteousness</li><li><b>would be made so sensible of this as to be able to</b> → would become so aware of this that she could</li><li><b>glory in assuming his very name</b> → boast in bearing his very name.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S21" id="S21"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S21</span><span class="stars s2" title="2-star">★★</span><span class="s-label">In the former passage … the fountain and cause of righteousness is set down, in the latter, the effect is described — the resolution: cause and effect</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S21" onclick="flashFullText(this)">
+<p><strong><code>In the former passage, therefore, the fountain and cause of righteousness is set down, in the latter, the effect is described.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `, <b>therefore</b>, the fountain and cause <b>is set down</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">In the former passage</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of righteousness</span></li></ul></li></ul></li><li><span class="leaf">, the effect <b>is described</b>.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in the latter</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>former</em> / <em>latter</em> — both old comparatives (<em>forma</em>, first; <em>læt</em>, late); <em>cause</em> &lt; <em>causa</em>; <em>effect</em> &lt; <em>ex-</em> + <em>facere</em>, to work out → <em>efficient, effective</em>; <em>describe</em> &lt; <em>de-</em> + <em>scribere</em>, to write down.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in the former …, in the latter …</em> = in the first …, in the second …; <em>set down</em> = state, lay down; <em>the fountain and cause of X</em> = the source of X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So in the first passage the source and cause of righteousness is stated; in the second, its effect is described.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>in the former passage … in the latter</b> → in the first passage … in the second</li><li><b>the fountain and cause</b> → the source and cause</li><li><b>is set down</b> → is stated.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — The fronted <code>so far … from V-ing … that …</code> (inversion + idiom + result)</h3><pre><code>IDIOM        X  IS FAR FROM  V-ing              = X does not V at all
+RESULT       X  IS SO FAR FROM V-ing  THAT  Y   = far from V-ing, X actually Y-s
+FRONTED      SO FAR  IS  X  FROM V-ing , THAT Y                                (S19)
+             so far IS THIS PASSAGE from being adverse …, THAT it rather supports it
+⚠️ fronted "so + adverb" ⇒ subject–verb INVERSION (so far IS this passage, never *so far this passage is)
+⚠️ "adverse" is INSIDE the negation — the sentence asserts the OPPOSITE of "adverse"
+⚠️ "rather" = on the contrary (the pivot), not "somewhat"
+family:      so far IS IT from V-ing that …    (Day 9)   ·   be far from V-ing   (Day 11)
+</code></pre><p><strong>Drill.</strong> <em>이 구절은 우리가 변호하는 교리에 반대되기는커녕, 오히려 그것을 확증한다.</em> → <strong>So far is this passage from being adverse to the doctrine which we defend, that it rather confirms it.</strong></p><h3>Formula 2 — Rhetorical questions as assertions, and <code>seeing</code> as a conjunction</h3><pre><code>NEGATIVE-FORCE   WHY SHOULD  S  V … ?              = there is NO reason for S to V        (S10)
+                 why should so many epithets be accumulated on the Father …?
+POSITIVE-FORCE   WHO  V-s NOT  THAT … ?            = EVERYONE sees that …                 (S15)
+                 who sees not that the altar was erected as a memorial …?
+⚠️ neither asks anything — restore each as a STATEMENT before you translate
+⚠️ "sees not" = period negation WITHOUT do-support on an ordinary verb (modern: does not see)
+CONJUNCTION      … , SEEING (THAT)  S  V           = since / given that S V               (S10)
+⚠️ "seeing" has NO subject — it is a conjunction, like "considering (that)", "provided (that)"
+</code></pre><p><strong>Drill.</strong> <em>예언자의 의도가 메시아를 우리 앞에 세우는 것이라면, 왜 그토록 많은 칭호가 성부께 쌓여야 하는가? 그 이름이 임재를 증거하려고 그 성읍에 적용되었음을 누가 보지 못하겠는가?</em> → <strong>Why should so many titles be heaped on the Father, seeing the prophet's design is to set the Messiah before us? Who sees not that the name was applied to the city to testify the Divine presence?</strong></p><h3>Formula 3 — Participial modifier vs. nominative absolute, and <code>so … as to</code></h3><pre><code>TEST             find the MAIN VERB → find its SUBJECT → compare with the participle's noun
+MODIFIER         [S  (having V-ed …)] ,  S  V-s                    ONE subject          (S20)
+                 The prophet (having formerly declared …), now declares …
+ABSOLUTE         [N  V-ing …] ,  S  V-s                            TWO subjects        (Day 12–13)
+                 justice being an essential attribute, they …
+⚠️ same surface shape (noun + participle + comma) — the main clause decides
+RESULT           SO + ADJ + AS TO + V                                                    (S20)
+                 so sensible of this AS TO be able to glory …    = so aware that she can boast
+SUBJUNCTIVE      this meaning here WERE harsh and forced          = WOULD BE            (S7)
+⚠️ "were" with a singular subject = hypothetical, not past; do NOT "correct" to "was"
+</code></pre><p><strong>Drill.</strong> <em>사도가 앞서 그리스도가 우리의 의라고 선언한 후, 이제 교회가 그의 이름을 지니는 것을 자랑할 수 있을 만큼 이것을 깊이 의식하게 되리라고 선언한다.</em> → <strong>The apostle having formerly declared that Christ is our righteousness, now declares that the Church would be made so sensible of this as to be able to glory in bearing his name.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>treat of</strong> (S1)</td>
+<td>deal with (a subject)</td>
+<td><em>tractare</em>, to handle → <em>tract, treatise</em>. 다루다</td>
+</tr>
+<tr>
+<td><strong>defer</strong> (S1)</td>
+<td>postpone</td>
+<td><em>dis-</em> + <em>ferre</em>, carry away → <em>deferment</em>; ⚠️ not <em>defer to</em> (yield). 미루다</td>
+</tr>
+<tr>
+<td><strong>though … yet</strong> (S1)</td>
+<td>although … nevertheless</td>
+<td>the correlative pair; modern English drops <em>yet</em>. ~이지만 그래도</td>
+</tr>
+<tr>
+<td><strong>incontrovertible</strong> (S1)</td>
+<td>beyond dispute</td>
+<td><em>in-</em> + <em>contra-</em> + <em>vertere</em>: cannot be turned against. 논박 불가한</td>
+</tr>
+<tr>
+<td><strong>become incarnate</strong> (S1)</td>
+<td>made flesh</td>
+<td><em>caro, carnis</em> → <em>carnal, carnival</em>; ⚠️ <code>become</code> = past participle here. 성육신한</td>
+</tr>
+<tr>
+<td><strong>introduce</strong> (S1, S8)</td>
+<td>bring forward (as evidence)</td>
+<td><em>intro-</em> + <em>ducere</em>: the courtroom verb — call the witness. 제시하다</td>
+</tr>
+<tr>
+<td><strong>quibble</strong> (S2) ⚠️⚠️</td>
+<td>cavil, evade by verbal trick</td>
+<td>prob. &lt; Lat. <em>quibus</em>, lawyers' Latin. <strong>Already a verdict.</strong> 궤변으로 얼버무리다</td>
+</tr>
+<tr>
+<td><strong>sovereign powers</strong> (S2)</td>
+<td>rulers, magistrates</td>
+<td><em>potestates</em>; human authorities, not abstractions. 통치자들</td>
+</tr>
+<tr>
+<td><strong>is to be found</strong> (S3)</td>
+<td>can be found</td>
+<td><em>be + to-inf.</em> passive = possibility. 발견될 수 있다</td>
+</tr>
+<tr>
+<td><strong>creature</strong> (S3)</td>
+<td>created being</td>
+<td><em>creatura</em> — the antonym of <em>God</em> in Calvin's grammar. 피조물</td>
+</tr>
+<tr>
+<td><strong>simply</strong> (S4) ⚠️</td>
+<td>merely, only</td>
+<td><em>simplex</em>, one-fold. Not "plainly." 단순히</td>
+</tr>
+<tr>
+<td><strong>confer on</strong> (S5)</td>
+<td>bestow upon</td>
+<td><em>con-</em> + <em>ferre</em>. 수여하다</td>
+</tr>
+<tr>
+<td><strong>addition</strong> (S5)</td>
+<td>qualifier, limiting tag</td>
+<td>"a god <em>to Pharaoh</em>" — the <em>to</em>-phrase is the addition. 부가어</td>
+</tr>
+<tr>
+<td><strong>genitive</strong> (S6)</td>
+<td>the "of" case</td>
+<td><em>gignere</em>, beget — the case of origin. 속격</td>
+</tr>
+<tr>
+<td><strong>insipid</strong> (S6) ⚠️⚠️</td>
+<td>flat, lifeless (of a reading)</td>
+<td><em>in-</em> + <em>sapidus</em>, tasty → no flavour. Calvin's sneer. 김빠진</td>
+</tr>
+<tr>
+<td><strong>singular</strong> (S7) ⚠️</td>
+<td>exceptional</td>
+<td><em>singulus</em> — the older sense "unique." Not "odd." 탁월한</td>
+</tr>
+<tr>
+<td><strong>possessed of</strong> (S7, S8) ⚠️</td>
+<td>having, endowed with</td>
+<td>⚠️ not <em>possessed by</em>. ~을 지닌</td>
+</tr>
+<tr>
+<td><strong>were</strong> (S7) ⚠️⚠️</td>
+<td>would be (subjunctive)</td>
+<td>third day running; do not "correct" to <em>was</em>. ~일 것이다</td>
+</tr>
+<tr>
+<td><strong>harsh and forced</strong> (S7)</td>
+<td>strained, unnatural</td>
+<td>a doublet; a reading <em>forced</em> onto the words. 억지스러운</td>
+</tr>
+<tr>
+<td><strong>perverseness</strong> (S8)</td>
+<td>obstinate wrong-headedness</td>
+<td><em>per-</em> + <em>vertere</em>, thoroughly turned. 완고함</td>
+</tr>
+<tr>
+<td><strong>obscurity</strong> (S8)</td>
+<td>unclearness</td>
+<td><code>no obscurity</code> = perfectly clear (litotes). 모호함</td>
+</tr>
+<tr>
+<td><strong>peculiar</strong> (S8) ⚠️⚠️⚠️</td>
+<td>belonging exclusively to</td>
+<td><em>peculium</em>, private property (&lt; <em>pecu</em>, cattle). <strong>Never "strange."</strong> 고유한</td>
+</tr>
+<tr>
+<td><strong>invert</strong> (S9)</td>
+<td>turn upside down</td>
+<td><em>in-</em> + <em>vertere</em> — flip the syntax. 뒤집다</td>
+</tr>
+<tr>
+<td><strong>all which</strong> (S9)</td>
+<td>all that</td>
+<td>period relative after <em>all</em>. ~하는 모든 것</td>
+</tr>
+<tr>
+<td><strong>epithet</strong> (S10, S13) ⚠️⚠️</td>
+<td>descriptive title</td>
+<td>Gk <em>ἐπίθετον</em>, "put on"; = rabbinic <em>kinnuy</em>. Not an insult. 별칭</td>
+</tr>
+<tr>
+<td><strong>accumulate on</strong> (S10)</td>
+<td>heap upon</td>
+<td><em>cumulus</em>, heap. 쌓다</td>
+</tr>
+<tr>
+<td><strong>seeing (that)</strong> (S10) ⚠️⚠️</td>
+<td>since, given that</td>
+<td>a conjunction — no subject. ~이므로</td>
+</tr>
+<tr>
+<td><strong>design</strong> (S10)</td>
+<td>intention, aim</td>
+<td><em>de-</em> + <em>signare</em>, mark out. Not a drawing. 의도</td>
+</tr>
+<tr>
+<td><strong>distinguished</strong> (S10) ⚠️</td>
+<td>distinctive, marking out</td>
+<td><em>distinguere</em>, mark apart. Not "eminent." 구별되는</td>
+</tr>
+<tr>
+<td><strong>induce</strong> (S10)</td>
+<td>lead, move</td>
+<td><em>in-</em> + <em>ducere</em>. 이끌다</td>
+</tr>
+<tr>
+<td><strong>whereby / wherewith</strong> (S12, S18)</td>
+<td>by which / with which</td>
+<td>the <em>where-</em> relative family. ~에 의해 / ~으로</td>
+</tr>
+<tr>
+<td><strong>substantive</strong> (S13) ⚠️⚠️</td>
+<td>naming the substance itself</td>
+<td><em>nomen substantivum</em> — grammar borrowed for theology; opposed to <em>epithet</em>. 실체명</td>
+</tr>
+<tr>
+<td><strong>ineffable</strong> (S13)</td>
+<td>unutterable</td>
+<td><em>in-</em> + <em>effari</em>, speak out → <em>fable, infant</em>. The Tetragrammaton. 말할 수 없는</td>
+</tr>
+<tr>
+<td><strong>infer</strong> (S13)</td>
+<td>conclude</td>
+<td><em>in-</em> + <em>ferre</em>, carry in. 추론하다</td>
+</tr>
+<tr>
+<td><strong>only begotten</strong> (S13)</td>
+<td><em>μονογενής</em></td>
+<td>John 1:18, 3:16 — the one NT term Calvin admits into an OT argument. 독생한</td>
+</tr>
+<tr>
+<td><strong>evade</strong> (S14)</td>
+<td>slip away from</td>
+<td><em>e-</em> + <em>vadere</em>, go out → <em>invade</em>. 회피하다</td>
+</tr>
+<tr>
+<td><strong>erect</strong> (S15)</td>
+<td>set up</td>
+<td><em>e-</em> + <em>regere</em>, set straight. 세우다</td>
+</tr>
+<tr>
+<td><strong>exalter</strong> (S15)</td>
+<td>one who lifts up</td>
+<td>Beveridge's coinage to match <code>Jehovah my exaltation</code>. 높이시는 분</td>
+</tr>
+<tr>
+<td><strong>testify</strong> (S15)</td>
+<td>bear witness to (transitive)</td>
+<td><em>testis</em>, witness. 증거하다</td>
+</tr>
+<tr>
+<td><strong>keenly</strong> (S18)</td>
+<td>sharply, hotly</td>
+<td>OE <em>cēne</em>, sharp. 격렬하게</td>
+</tr>
+<tr>
+<td><strong>as to</strong> (S18)</td>
+<td>with regard to</td>
+<td>관하여</td>
+</tr>
+<tr>
+<td><strong>adverse</strong> (S19)</td>
+<td>hostile to, telling against</td>
+<td><em>ad-</em> + <em>vertere</em>, turned against. 반대되는</td>
+</tr>
+<tr>
+<td><strong>rather</strong> (S19) ⚠️</td>
+<td>on the contrary</td>
+<td>the pivot of a reversal; not "somewhat." 오히려</td>
+</tr>
+<tr>
+<td><strong>formerly</strong> (S20) ⚠️</td>
+<td>earlier (in the book)</td>
+<td>ch. 23 before ch. 33. Not "in old times." 앞서</td>
+</tr>
+<tr>
+<td><strong>sensible of</strong> (S20) ⚠️⚠️⚠️</td>
+<td>aware of</td>
+<td><em>sentire</em>, feel — <strong>not "reasonable."</strong> ~을 의식하는</td>
+</tr>
+<tr>
+<td><strong>glory in</strong> (S20) ⚠️</td>
+<td>boast of, exult in</td>
+<td><em>gloriari</em>; Paul's <em>καυχάομαι</em>. 자랑하다</td>
+</tr>
+<tr>
+<td><strong>assume</strong> (S20) ⚠️</td>
+<td>take upon oneself</td>
+<td><em>ad-</em> + <em>sumere</em>. Not "suppose." 취하다</td>
+</tr>
+<tr>
+<td><strong>fountain</strong> (S21)</td>
+<td>source</td>
+<td><em>fons</em> → <em>font</em>. 원천</td>
+</tr>
+<tr>
+<td><strong>set down</strong> (S21)</td>
+<td>stated, laid down</td>
+<td>진술되다</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>Where §9 sits.</strong> The chapter's synopsis reads: <em>The Son called God and Jehovah. Other names of the Eternal Father applied to him in the Old Testament. He is, therefore, the Eternal God. Another objection refuted. Case of the Jews explained.</em> ⚠️ Five clauses, and they map the section: <strong>God</strong> (Ps 45, Isa 9) — <strong>Jehovah</strong> (Jer 23) — <strong>therefore eternal God</strong> (S13) — <strong>objection</strong> (altar, city, Jer 33) — <strong>case of the Jews explained</strong> (S13's use of their own axiom). The proof-block of the chapter now runs: §§7–8 the Word's eternity, <strong>§9 the divine names</strong>, §10 the angel of the Lord, §§11–13 the New Testament testimonies. <strong>Today is the first section in which the opponent is "the Jews" rather than Christian heretics — and that changes the evidence Calvin allows himself.</strong></p><p><strong>Why no New Testament.</strong> Hebrews 1:8 quotes Psalm 45:6 of the Son outright; Matthew 1:23 applies Emmanuel to Jesus. Calvin uses neither. ⚠️ <strong>Not an oversight: a method.</strong> Against a Jewish reader, a New Testament citation is not evidence but the thing in dispute. So he argues <strong>from the Old Testament, on Old Testament terms, and — at S13 — on rabbinic terms.</strong> The one New Testament phrase he admits, <code>the only begotten Son</code>, appears in his <em>conclusion</em>, not his premises. This is the same discipline you saw in §3 (Cicero as hostile witness) — <strong>argue from what the opponent grants.</strong></p><p><strong>The three texts in their own history.</strong> <em>Psalm 45:6</em> was the Church's text for the deity of the Messiah from Hebrews onward; the vocative reading (<em>O God</em>) is the LXX's (<em>ὁ θεός</em> as vocative) and the KJV's. The <strong>genitive</strong> reading Calvin calls <code>too insipid</code> — <em>thy throne of God</em>, i.e. <em>thy divine throne</em> — was defended by medieval Jewish commentators and, ⚠️ guardrail, was adopted by the RSV in 1952 (<em>Your divine throne endures for ever</em>) before being abandoned again by most modern versions. <strong>Calvin is not fighting a straw man; he is fighting a reading that would still be on the table four hundred years later.</strong> <em>Isaiah 9:6</em>: the inverted reading (<code>the mighty God … will call him Prince of Peace</code>) is Rashi's and the Targum's — mainstream rabbinic exegesis, exactly as Calvin reports it. His reply is not that the Hebrew forbids it (it does not) but that the oracle's <em>purpose</em> makes it pointless — and that <em>El gibbor</em> is used of YHWH himself in Isaiah 10:21, though he does not cite that verse here. <em>Jeremiah 23:6</em>: the Messianic <em>Branch</em> (צֶמַח) is given the Tetragrammaton — and the rabbinic doctrine Calvin invokes at S13 is real: <strong>Maimonides, <em>Guide of the Perplexed</em> I.61</strong>, teaches that all the divine names are derived from God's actions except the Tetragrammaton, which is the <em>Shem ha-Meforash</em> and indicates his essence. Calvin's <code>which they call the ineffable name … substantive, and expresses his essence</code> is an accurate summary. <strong>He knew the Jewish sources; he used them fairly; and he used them against their owners.</strong></p><p><strong>The hard case and the Reformation answer.</strong> Jeremiah 33:16 was the standard Jewish rejoinder to the Christian use of 23:6: <em>the city gets the same name — so the name proves nothing.</em> Calvin's <code>fountain and cause … effect</code> distinction is the classic Reformed reply, and it is <strong>doctrinally loaded</strong>: the Church bears the name <em>YHWH our righteousness</em> because her righteousness is <em>received</em>, not <em>possessed</em>. ⚠️ <strong>That is imputation, in embryo, inside a Trinitarian proof.</strong> Book 3, chapter 11 will spell it out; today it appears as an exegetical move. <strong>Watch how often Calvin's doctrine of justification shows up as a <em>reading strategy</em> before it shows up as a <em>doctrine</em>.</strong></p><p><strong>The altar and the banner — a guardrail.</strong> <code>JEHOVAH-nissi</code> (Exod 17:15) is glossed <code>Jehovah my exaltation</code>. The standard lexical rendering is <em>YHWH is my banner</em> (נֵס, a standard, a pole); Calvin's <em>exaltation</em> derives the word from the root <em>to lift up</em>, which the older lexica allowed. ⚠️ <strong>Do not over-read the gloss.</strong> Calvin's argument does not depend on it — either way the altar's name commemorates what God did, and that is all S15 needs. If you quote this section to argue Hebrew etymology, you are using it for something it was not built for.</p><p><strong>Edition and reception.</strong> The catena of divine names is a standard piece of patristic and medieval apologetic against Jewish readings (Justin's <em>Dialogue with Trypho</em> already argues from Psalm 45 and Isaiah 9), and Calvin's version of it grows across the editions of the <em>Institutes</em>; the 1559 text is what you are reading. In reception, the <em>fountain / effect</em> reading of Jer 23:6 and 33:16 became a fixture of Reformed commentary, and the refusal to cite the New Testament against Jewish readers was picked up as a rule of apologetic method. ⚠️ <strong>Over-reading guardrail:</strong> Calvin does not claim the Hebrew <em>syntax</em> of Isaiah 9:6 or Psalm 45:6 excludes the Jewish readings. He claims <strong>context and purpose</strong> do. <strong>Do not make him say the grammar settles it; he says the sense does.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li>
+<p><strong>Psalm 45:6 (MT 45:7) — quoted at S2; the first witness.</strong> <em>Thy throne, O God, is for ever and ever</em> (<strong>כִּסְאֲךָ אֱלֹהִים עוֹלָם וָעֶד</strong>; LXX 44:7 <strong>ὁ θρόνος σου ὁ θεὸς εἰς τὸν αἰῶνα τοῦ αἰῶνος</strong>). ⚠️ <strong>How Calvin uses it:</strong> for the predicate, not the vocative — <code>for ever and ever</code> (<em>ʿolam va-ʿed</em>) is what no <code>creature</code> receives (S3). And the <strong>context</strong> he appeals to at S7 is the very next verse, 45:7: <em>therefore </em><em>God, thy God</em><em>, hath anointed thee</em> — the addressee is <em>God</em> and yet has <em>a God</em>: <strong>two who are God, one anointing the other.</strong> Hebrews 1:8–9 will quote both verses of the Son; Calvin leaves that to the reader.</p>
+</li>
+<li>
+<p><strong>Exodus 7:1 — quoted at S5; the counter-example that is really a rule.</strong> <em>See, I have made thee a god to Pharaoh</em> (<strong>רְאֵה נְתַתִּיךָ אֱלֹהִים לְפַרְעֹה</strong>). ⚠️ <strong>How Calvin uses it:</strong> as the model of the <code>addition</code> — <em>elohim</em> <strong>to Pharaoh</strong>, relative, bounded. Compare Exod 4:16 (<em>thou shalt be to him instead of God</em>). The Psalm's <code>O God</code> has no such <em>to</em>-phrase. <strong>A human "god" in Scripture is always a god <em>to</em> someone.</strong></p>
+</li>
+<li>
+<p><strong>Psalm 82:1, 6 / Psalm 8:5 — behind the quibble at S2.</strong> <em>God standeth in the congregation of the mighty; he judgeth among the </em><em>gods</em><strong> (</strong>אֱלֹהִים<strong>, 82:1); <em>I have said, **Ye are gods</em></strong> (82:6); <em>thou hast made him a little lower than </em><em>the angels</em><strong> (8:5, MT </strong>אֱלֹהִים<strong>, LXX </strong>ἀγγέλους<strong>). ⚠️ Calvin does not cite these, but they are the Jewish evidence — <em>Elohim</em> of judges and of heavenly beings — and he </strong>concedes the usage** (<code>I admit</code>, S7). John 10:34 will quote Ps 82:6 in a related argument; Calvin keeps it out today.</p>
+</li>
+<li>
+<p><strong>Isaiah 9:6 (MT 9:5) — quoted at S8; the second witness.</strong> <em>His name shall be called … </em><em>the Mighty God, the Everlasting Father, the Prince of Peace</em><strong> (</strong>אֵל גִּבּוֹר אֲבִיעַד שַׂר־שָׁלוֹם<strong>). ⚠️ </strong>How Calvin uses it:<strong> for <em>El gibbor</em> above all — <code>possessed of supreme powers, one of the peculiar attributes of God</code>. The verse omits the first title, <em>Wonderful, Counsellor</em> (</strong>פֶּלֶא יוֹעֵץ<strong>). </strong>Isaiah 10:21<strong> uses </strong>אֵל גִּבּוֹר<em><em> of YHWH himself (</em>the remnant shall return … unto the mighty God</em>) — the verse that closes the Jewish reading, and Calvin's commentary on Isaiah uses it; here he relies on the oracle's purpose (S10) instead.</p>
+</li>
+<li>
+<p><strong>Isaiah 7:14 / 8:8 — behind <code>a little before was called Emmanuel</code> at S11.</strong> <em>Behold, a virgin shall conceive … and shall call his name </em><em>Immanuel</em><strong> (</strong>עִמָּנוּ אֵל<strong>). ⚠️ </strong>How Calvin uses it:<strong> to read Isaiah 7–9 as </strong>one Messianic movement<em><em> — the child of 7:14 is the child of 9:6. </em>God-with-us</em> in ch. 7, <em>Mighty God</em> in ch. 9: the second name unfolds the first. Matthew 1:23 is the obvious New Testament link; Calvin does not use it.</p>
+</li>
+<li>
+<p><strong>Jeremiah 23:5–6 — quoted at S12; the third and clearest witness.</strong> <em>I will raise unto David a righteous </em><em>Branch</em><em> … and this is his name whereby he shall be called, </em><em>THE LORD OUR RIGHTEOUSNESS</em><strong> (</strong>וְזֶה־שְּׁמוֹ אֲשֶׁר־יִקְרְאוֹ יְהוָה צִדְקֵנוּ<strong>). ⚠️ </strong>How Calvin uses it:<strong> for the </strong>Tetragrammaton<strong> — not a title but the proper name. </strong>צֶמַח<strong>, the Branch, is the Messianic figure of Zech 3:8 and 6:12 too. The whole force of S13 rests on </strong>יְהוָה<em><em> being the </em>substantive</em> name.</p>
+</li>
+<li>
+<p><strong>Isaiah 42:8 — quoted at S13; the clause that closes the syllogism.</strong> <em>I am the LORD: that is my name: and </em><em>my glory will I not give to another</em><strong> (</strong>אֲנִי יְהוָה הוּא שְׁמִי וּכְבוֹדִי לְאַחֵר לֹא־אֶתֵּן<strong>). ⚠️ </strong>How Calvin uses it:<strong> the half he does not quote is the premise — <em>I am YHWH, that is my name</em> — and the half he quotes is the exclusion. </strong>If YHWH shares his name-glory with no <em>other</em>, then the Branch who bears it is not an <em>other</em>.** Compare Isa 48:11.</p>
+</li>
+<li>
+<p><strong>Exodus 17:15 and Ezekiel 48:35 — quoted at S17 and S16; the two evasions.</strong> <em>Moses built an altar, and called the name of it </em><em>Jehovah-nissi</em><strong> (</strong>יְהוָה נִסִּי<strong>); <em>the name of the city from that day shall be, **The LORD is there</em></strong> (<strong>יְהוָה שָׁמָּה</strong>). ⚠️ <strong>How Calvin uses them:</strong> both names are <strong>sentences</strong> — <em>YHWH-my-banner/exaltation</em>, <em>YHWH-is-there</em> — statements <em>about</em> YHWH's act or presence, attached to a thing. <strong>A name that is a sentence about God is not a claim that the thing is God.</strong> That is the whole of S15.</p>
+</li>
+<li>
+<p><strong>Jeremiah 33:16 — quoted at S18; the hard case.</strong> <em>In those days shall Judah be saved, and Jerusalem shall dwell safely: and this is the name wherewith she shall be called, </em><em>The LORD our righteousness</em><strong> (</strong>וְזֶה אֲשֶׁר־יִקְרָא־לָהּ יְהוָה צִדְקֵנוּ<strong>). ⚠️ </strong>How Calvin uses it:<strong> identical Hebrew to 23:6, and he does not pretend otherwise (<code>the same title</code>, S18). The answer is not in the words but in the </strong>relation<strong> — 23:6 the fountain, 33:16 the effect. Underneath is </strong>1 Corinthians 1:30<strong> (<em>Christ Jesus, who of God is made unto us … righteousness</em>) and </strong>2 Corinthians 5:21<strong> (<em>that we might be made the righteousness of God in him</em>) — the New Testament grammar of a righteousness that is <em>his</em> and becomes <em>ours</em>. </strong>Calvin does not cite them today; but S21's <code>fountain and cause … effect</code> is their Old Testament shape.**</p>
+</li>
+<li>
+<p><strong>John 1:14 — behind <code>that Word become incarnate</code> at S1.</strong> <em>And the Word was made flesh</em> (<strong>ὁ λόγος σὰρξ ἐγένετο</strong>). ⚠️ <strong>How Calvin uses it:</strong> as the unspoken bridge — <code>become incarnate</code> is <em>σὰρξ ἐγένετο</em> in Latin dress (<em>incarnatus</em>). The Word of §§7–8 (John 1:1) and the Christ of the catena are the same because of this verse. <strong>The one verse the whole section assumes is the one it does not quote.</strong></p>
+</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① Grammar — which underlined part is wrong?</h3><blockquote>
+<p>ⓐ But <strong>so far is this passage from being adverse</strong> to the truth which we defend, that it rather supports it.
+ⓑ But why should so many epithets be here accumulated on God the Father, <strong>seeing the prophet's design is</strong> to present the Messiah with certain distinguished properties?
+ⓒ <strong>The prophet having formerly declared</strong> that Christ is the true Jehovah from whom righteousness flows, <strong>it now declares</strong> that the Church would be made so sensible of this as to be able to glory in assuming his very name.
+ⓓ I admit, that anything possessed of singular excellence is often called divine, but it is clear from the context, that <strong>this meaning here were harsh and forced</strong>.</p>
+</blockquote><p><strong>Answer: ⓒ.</strong></p><p><strong>출제 의도.</strong> Formula 3: <strong>participial modifier versus absolute.</strong> In the original, <code>The prophet having formerly declared …</code> is a participial phrase modifying <strong>the subject of the main clause</strong>, and that subject is <code>The prophet</code> itself: <code>The prophet …, **now declares**</code>. ⓒ has replaced the main subject with a dummy <code>**it**</code> — <code>it now declares</code> — which leaves <code>The prophet having formerly declared</code> <strong>stranded</strong>: it is no longer a modifier (the main subject is now <code>it</code>, a different noun) and it cannot be an absolute in any sensible reading (<code>it</code> has no antecedent that could be doing the declaring). ⚠️ The bait is that the <em>shape</em> of ⓒ looks like the absolutes you learned on Days 12–13 (<code>justice being …, they …</code>) — but an absolute needs a <strong>real second subject</strong>, and <code>it</code> here is an empty one. <strong>Test: find the main verb, find its subject, compare.</strong> Original: <code>declares</code> ← <code>The prophet</code> = the participle's noun ✓. ⓒ: <code>declares</code> ← <code>it</code> ≠ <code>The prophet</code> ✗. Now check why the others stand. <strong>ⓐ</strong> is Formula 1: fronted <code>so far</code> <strong>forces</strong> the inversion <code>so far **is this passage**</code>; the uninverted <em>so far this passage is</em> would be the error, and <code>from being</code> is the gerund the idiom requires. <strong>ⓑ</strong> is Formula 2: <code>seeing</code> is a <strong>conjunction</strong> (<em>since</em>), with <code>that</code> optionally dropped and no subject of its own; <em>seeing that the prophet's design is</em> is equally correct, and neither needs a subject for <code>seeing</code>. <strong>ⓓ</strong> is the <strong>subjunctive</strong> <code>were</code> after <code>it is clear … that</code> in a hypothetical sense (<em>this meaning would be harsh</em>); "correcting" to <code>was</code> is the classic wrong instinct, exactly as at §7.</p><h3>② Comprehension — which statement is TRUE according to the passage?</h3><blockquote>
+<p>ⓐ Calvin denies that the word "divine" is ever applied in ordinary usage to anything but God, and on that ground insists the Psalm's "O God" must refer to Christ.
+ⓑ Calvin rejects the Jewish distinction between the ineffable name and the other names of God, arguing that all the divine names equally express his essence.
+ⓒ Calvin concedes that the application of "The Lord our Righteousness" to Jerusalem in Jeremiah 33 is adverse to his position, and rests his case on Jeremiah 23 alone.
+ⓓ Calvin argues that the same title bears a different relation in the two Jeremiah passages: in the first it names the source of righteousness, in the second it describes its effect in the Church, which glories in bearing the name of the one from whom her righteousness comes.</p>
+</blockquote><p><strong>Answer: ⓓ.</strong> (S19 <code>so far is this passage from being adverse … that it rather supports it</code>; S20 <code>the Church would be made so sensible of this as to be able to glory in assuming his very name</code>; S21 <code>In the former passage … the fountain and cause of righteousness is set down, in the latter, the effect is described</code>.)</p><p><strong>출제 의도.</strong> Four options, four failure modes.
+- <strong>ⓐ is the inverted concession — Trap 1.</strong> S7 opens <code>**I admit**, that anything possessed of singular excellence is often called divine</code>. Calvin <strong>grants</strong> the loose usage; what he denies is its application <em>here</em> (<code>this meaning here were harsh and forced, and totally inapplicable</code>). ⚠️ The bait is that the sentence ends in a denial, so the eye carries the <em>no</em> backwards into the concession. <strong>Grant the usage, refuse the application — same shape as yesterday's S4.</strong>
+- <strong>ⓑ is the reversed premise — Trap 3.</strong> S13: <code>**as the Jews themselves teach** that the other names of God are mere epithets, whereas this … is substantive, and expresses his essence, **we infer** …</code>. Calvin <strong>uses</strong> the rabbinic distinction as his major premise; he does not reject it. ⚠️ An option that has him flattening all the names into essence-names destroys his own syllogism — if every name expressed the essence, <em>Elohim</em> on the Psalm would already have settled everything, and S2–S7 would be pointless.
+- <strong>ⓒ is the direction-flip — Trap 4.</strong> Built entirely from S18's <code>still more keenly disputed</code> and S19's phrase <code>adverse to the truth which we defend</code>, with S19's <code>so far … from</code> and <code>rather supports</code> deleted. ⚠️ S18 concedes the objection is <em>hard</em>; S19 says the passage <em>supports</em> him; S20–S21 show how. <strong>Quoting S18 without S19 is the examiner's favourite half-truth.</strong> And <em>rests his case on Jeremiah 23 alone</em> contradicts the whole of S19–S21, where 33:16 is folded into the argument.
+- <strong>ⓓ is true</strong>, and note it needs <strong>three</strong> sentences: S19 gives the reversal, S20 the two declarations (<code>the true Jehovah from whom righteousness flows</code> / <code>glory in assuming his very name</code>), S21 the formula (<code>fountain and cause</code> / <code>effect</code>). An option stopping at S19 would be <strong>incomplete but not false</strong>; ⓓ carries it through.</p><h3>③ Composition — apply Formulas 1, 2 and 3</h3><p>Render into Beveridge-style English, using <strong>all three</strong> of today's formulas:</p><blockquote>
+<p>"이 구절은 우리가 변호하는 교리에 반대되기는커녕, 오히려 그것을 확증한다. 사도의 의도가 그리스도를 우리 앞에 세우는 것이라면, 왜 그토록 많은 칭호가 성부께 쌓여야 하겠는가? 그 이름이 다만 하나님의 임재를 증거하려고 그 성읍에 적용되었음을 누가 보지 못하겠는가? 예언자는 앞서 그리스도가 의의 원천이라고 선언한 후, 이제 교회가 그의 이름을 지니는 것을 자랑할 수 있을 만큼 이것을 깊이 의식하게 되리라고 선언한다."</p>
+</blockquote><p><strong>Model answer:</strong></p><blockquote>
+<p><strong>So far is this passage from being adverse to the doctrine which we defend, that it rather confirms it. Why should so many titles be here accumulated on the Father, seeing the apostle's design is to present Christ before us? Who sees not that the name was applied to the city merely to testify the Divine presence? The prophet having formerly declared that Christ is the fountain of righteousness, now declares that the Church would be made so sensible of this as to be able to glory in bearing his name.</strong></p>
+</blockquote><p><strong>출제 의도 및 채점 기준.</strong> Six things are being checked.
+1. <strong>Formula 1, the fronted <code>so far … from … that</code>.</strong> <code>**So far is** this passage **from being** adverse …, **that** it rather confirms it.</code> ⚠️ Three checks: the <strong>inversion</strong> after fronted <code>so far</code> (<code>is this passage</code>, not <em>this passage is</em>); the <strong>gerund</strong> after <code>from</code> (<code>from being</code>, not <em>from to be</em>); and the <strong><code>that</code></strong> result clause with <code>rather</code> retained. Writing <em>This passage is not adverse but rather confirms</em> is correct English and <strong>loses the Beveridge shape</strong>, which is what is being tested.
+2. <strong>Formula 2(a), the negative-force rhetorical question with <code>seeing</code>.</strong> <code>**Why should** so many titles be here accumulated on the Father, **seeing** the apostle's design is …?</code> ⚠️ Three checks: <code>why should</code> (not <em>why are</em>); <code>seeing</code> as a bare conjunction (or <code>seeing that</code>), <strong>with no subject of its own</strong>; and the <strong>question mark</strong> — it is still a question in form. Converting it to <em>There is no reason why …</em> gets the sense and forfeits the point.
+3. <strong>Formula 2(b), the positive-force rhetorical question.</strong> <code>**Who sees not that** the name was applied to the city …?</code> ⚠️ Two checks: <code>sees not</code> (period negation, no <code>do</code>) — <em>Who does not see</em> is grammatical modern English and loses the shape; and <code>that</code> retained. <strong>Not <em>Everyone sees that</em> — the assertion must wear the question.</strong>
+4. <strong>Formula 3, the participial modifier with one subject.</strong> <code>**The prophet having formerly declared** that …, **now declares** that …</code> ⚠️ Three checks: the participle's noun (<code>The prophet</code>) must <strong>be</strong> the subject of <code>now declares</code> — no <em>it</em>, no <em>he</em>, no second subject; <code>having … declared</code> (perfect participle — the earlier declaration precedes the later); and <code>formerly … now</code> kept as the pair.
+5. <strong>Formula 3, the <code>so … as to</code> result.</strong> <code>so sensible of this **as to be able to** glory in bearing his name</code> ⚠️ Two checks: <code>so + adjective + as to + verb</code> (not <em>so … that she can</em>, which is correct but not the target); and <strong><code>sensible of</code></strong> — <em>aware of</em> — not <em>sensitive to</em>, not <em>reasonable about</em>.
+6. <strong>Vocabulary and argumentative accuracy — heaviest.</strong> <code>adverse to</code> (S19), <code>the doctrine which we defend</code> (modelled on S19), <code>rather</code> (S19, = on the contrary), <code>accumulated on</code> (S10), <code>design</code> (S10, = intention), <code>present X before us</code> (modelled on S10), <code>merely to testify the Divine presence</code> (S15, exact), <code>the fountain of righteousness</code> (S21), <code>glory in</code> (S20), <code>sensible of</code> (S20). ⚠️ <strong>And the last sentence must keep the <em>sequence</em> — <code>formerly</code> the source, <code>now</code> the Church's awareness.</strong> Reverse them and you have reversed S21's <code>former … latter</code>, which is the whole resolution.</p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> Yesterday the Word was proved <strong>beginningless</strong>; today the incarnate Word is proved <strong>to bear God's own names</strong>, on Jewish premises, with no New Testament cited — after the bridge that carries everything: <code>**though** I am not now treating of the office of the Mediator, **having deferred it** till the subject of redemption is considered, **yet** because it ought to be clear and incontrovertible to all, **that Christ is that Word become incarnate**, this seems the most appropriate place to introduce those passages which assert the Divinity of Christ</code> (S1). <strong>Link 1, Psalm 45:6:</strong> <code>Thy throne, O God, is for ever and ever</code> — the Jews <code>**quibble** that the name Elohim is applied to angels and sovereign powers</code> (S2); reply (a) <code>no passage is to be found in Scripture, where **an eternal throne** is set up for a creature</code> (S3), <code>he is **not** called God **simply**, **but also** the eternal Ruler</code> (S4); reply (b) <code>the title is **not** conferred on any man, **without some addition**, as when it is said that Moses would be a God **to Pharaoh**</code> (S5); reply (c) the genitive reading <code>is **too insipid**</code> (S6), and — <code>**I admit**, that anything possessed of singular excellence is often called divine, **but** … this meaning here **were** harsh and forced, and totally inapplicable</code> (S7). <strong>Link 2, Isaiah 9:6:</strong> <code>there is **no obscurity** in Isaiah, where Christ is introduced both [as] God, and as possessed of supreme powers **one of the peculiar attributes of God**</code> (S8); the Jews <code>**invert** the passage thus, This is the name by which the mighty God, the Everlasting Father, will call him</code> (S9) — <code>**why should** so many epithets be here accumulated on God the Father, **seeing** the prophet's design is to present the Messiah with certain distinguished properties …?</code> (S10); <code>he who a little before was called **Emmanuel**, is here called **the Mighty God**</code> (S11). <strong>Link 3, Jeremiah 23:6:</strong> <code>**nothing clearer** … THE LORD OUR RIGHTEOUSNESS</code> (S12) — <code>**as the Jews themselves teach** that the other names of God are **mere epithets**, whereas this, which they call **the ineffable name**, is **substantive**, and expresses his essence, **we infer**, that the only begotten Son is the eternal God, who elsewhere declares, "My glory will I not give to another"</code> (S13). <strong>The defence:</strong> the altar and the city (S14) — <code>**who sees not** that the altar was erected **as a memorial** …, and that the name of God was applied to Jerusalem, **merely to testify the Divine presence**?</code> (S15), <code>The Lord **is there**</code> (S16), <code>JEHOVAH-nissi</code> (S17); the hard case, Jer 33:16, <code>**still more keenly disputed**</code> (S18) — <code>**so far is this passage from being adverse** to the truth which we defend, **that it rather supports it**</code> (S19): <code>The prophet **having formerly declared** that Christ is **the true Jehovah from whom righteousness flows**, **now declares** that the Church would be made **so sensible of this as to be able to glory in assuming his very name**</code> (S20); <code>In the former passage … **the fountain and cause** of righteousness is set down, in the latter, **the effect** is described</code> (S21). <strong>The Branch is called YHWH because he is; the city is called YHWH because she receives.</strong></p><p><strong>And the three grammar points, once more.</strong> ① <strong>The fronted <code>so far … from V-ing … that …</code></strong> — <code>**so far is** this passage **from being** adverse …, **that** it rather supports it</code> (S19): idiom (<em>far from V-ing</em> = not V-ing at all) + intensifier (<em>so … that</em> = result) + <strong>inversion</strong> forced by the fronted <code>so far</code>. ⚠️ <code>adverse</code> is inside the negation; the sentence asserts <em>support</em>. ② <strong>Rhetorical questions as assertions, and <code>seeing</code></strong> — <code>**why should** … be accumulated …, **seeing** the prophet's design is …?</code> (S10) = <em>there is no reason, since …</em>; <code>**who sees not that** …?</code> (S15) = <em>everyone sees that …</em>; <code>seeing</code> a subjectless conjunction, <code>sees not</code> the period negative without <code>do</code>. ③ <strong>Participial modifier versus absolute, and <code>so … as to</code></strong> — <code>**The prophet having formerly declared** …, **now declares**</code> (S20): one subject, so a modifier, not an absolute — <strong>find the main verb first</strong>; <code>so sensible of this **as to be able to** glory</code> = result; and <code>this meaning here **were** harsh</code> (S7) = <em>would be</em>. And five things to keep: <strong><code>peculiar</code> = belonging exclusively (not strange), <code>sensible of</code> = aware of (not reasonable), <code>insipid</code> = flat (of a reading), <code>epithet</code> vs <code>substantive</code> = title vs essence-name, <code>quibble</code> = a verdict disguised as a verb</strong>; <strong>the concession in S7</strong> (Trap 1); <strong>the ownership of S9's inverted reading</strong> (Trap 2); <strong>the rabbinic axiom used, not rejected, in S13</strong> (Trap 3); and <strong>the direction of S19</strong> (Trap 4).</p><p><strong>Homework (10 minutes).</strong></p><ol>
+<li><strong>Structure restoration.</strong> Take <strong>S1</strong> and lay it out on four lines: L1 the <code>though</code>-clause with its participle (<code>having deferred …</code>), L2 the <code>yet because</code>-clause with its extraposed <code>that</code>-clause on its own indented line, L3 the main clause (subject + verb: <em>this seems</em>), L4 the infinitive tail with its relative. Circle the main verb. (Target: <em>seems</em>.) Then take <strong>S20</strong> and write two versions side by side: the original (<strong>one</strong> subject — mark <code>The prophet</code> as both the participle's noun and the main subject) and a rewritten <strong>absolute</strong> version with a genuine second subject (e.g. <em>The prophet having formerly declared …, </em><em>the Church</em><em> now hears …</em>). Label which is which and say why. Finally, lay out the catena as a three-column table: <strong>Text | Jewish reading | Calvin's reply</strong>, one row each for Ps 45:6, Isa 9:6, Jer 23:6, and a fourth row for Jer 33:16 with the reply <em>fountain / effect</em>.</li>
+<li><strong>Composition.</strong> One short paragraph, English, containing (a) a <strong>fronted <code>so far … from V-ing … that …</code></strong>, (b) one <strong>negative-force rhetorical question with <code>seeing</code></strong> and one <strong><code>who … not that …?</code></strong>, and (c) a <strong>participial modifier sharing the main subject</strong>. <em>이 이름이 성읍에 적용되었다는 사실은 우리의 교리에 반대되기는커녕 오히려 그것을 확증한다. 그 예언자의 의도가 메시아를 묘사하는 것이라면, 왜 그 칭호들이 성부께 돌려져야 하겠는가? 그 성읍이 다만 그 원천에서 의를 받기 때문에 그 이름을 지님을 누가 보지 못하겠는가? 사도는 앞서 그리스도가 우리의 의라고 선언한 후, 이제 교회가 그 이름을 자랑한다고 선언한다.</em> (Target shape: <strong>So far is the application of this name to the city from being adverse to our doctrine, that it rather confirms it. Why should those titles be ascribed to the Father, seeing the prophet's design is to describe the Messiah? Who sees not that the city bears the name merely because she receives righteousness from its fountain? The apostle having formerly declared that Christ is our righteousness, now declares that the Church glories in that name.</strong>)</li>
+<li><strong>Preview — §10, one line.</strong> Tomorrow the catena continues with a new kind of witness — not a name but a <strong>person who appears</strong>: <code>But if this does not satisfy the Jews, I know not what cavils will enable them to evade the numerous passages in which Jehovah is said to have appeared in the form of an Angel.</code> ⚠️ Watch three things. <strong>(i)</strong> The <strong>Angel of the Lord</strong> — Calvin will argue that the Angel who speaks to the patriarchs and to Manoah <em>claims</em> the name Jehovah and is worshipped, and that this Angel is the pre-incarnate Christ (the argument heading: <em>The angel who appeared to the fathers under the Law asserts that he is Jehovah</em>). <strong>(ii)</strong> The opening formula <code>**I know not what** cavils will enable them to evade</code> — <code>know not</code> is today's <code>sees not</code> again, and <code>I know not what X</code> = <em>I cannot imagine what X</em>: a rhetorical shrug that is really a verdict. <strong>(iii)</strong> And the opponent is still <code>the Jews</code> — so still no New Testament until the case is closed. <strong>Today he proved the Son bears God's names. Tomorrow he shows the Son wearing God's face.</strong></li>
+</ol><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 13, §9 끝. 다음은 Book 1, Ch. 13, §10.</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>

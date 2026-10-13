@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 성경의 신빙성에 대한 증거들 §8 (1권 8장 · Day 44) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 8장 §8(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 44. 연관 성구: 다니엘 9, 이사야 55, 이사야 42, 이사야 39."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day44_Book1-Ch8-%C2%A78.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="성경의 신빙성에 대한 증거들 §8 — 기독교 강요 영어로 읽기 (Day 44)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 8장 §8(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 44. 연관 성구: 다니엘 9, 이사야 55, 이사야 42, 이사야 39."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day44_Book1-Ch8-%C2%A78.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 성경의 신빙성에 대한 증거들 §8 (1권 8장 · Day 44) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 8장 §8(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 44. 연관 성구: 다니엘 9, 이사야 55, 이사야 42, 이사야 39.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 8장 §8 — 성경의 신빙성에 대한 증거들","mentions":[{"@type":"CreativeWork","name":"다니엘 9 (Dan 9)"},{"@type":"CreativeWork","name":"이사야 55 (Isaiah 55)"},{"@type":"CreativeWork","name":"이사야 42 (Isaiah 42)"},{"@type":"CreativeWork","name":"이사야 39 (Isaiah 39)"},{"@type":"CreativeWork","name":"이사야 41 (Isaiah 41)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day44_Book1-Ch8-%C2%A78.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 44 — Book 1, Chapter 8, §8<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (the whole § — 16 sentences, verbatim)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl2" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl3" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl3" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl2" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl3" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl2" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl2" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl2" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl3" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl2" href="#S11" onclick="closeNavMobile()">S11</a><a class="toc-s lvl2" href="#S12" onclick="closeNavMobile()">S12</a><a class="toc-s lvl1" href="#S13" onclick="closeNavMobile()">S13</a><a class="toc-s lvl3" href="#S14" onclick="closeNavMobile()">S14</a><a class="toc-s lvl2" href="#S15" onclick="closeNavMobile()">S15</a><a class="toc-s lvl1" href="#S16" onclick="closeNavMobile()">S16</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (어원 후킹 테이블)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 44 — Book 1, Chapter 8, §8</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>You left yesterday with a question on the board, and I want the answer before we read a word: <strong>if the sceptre-argument needed a four-hundred-year gap and the Gentile-argument a two-thousand-year gap, what does Calvin gain by moving to prophets whose gaps are shorter?</strong></p><p>Read the first sentence. He tells you.</p><p><code>In the case of the other prophets the evidence is even clearer.</code></p><p>⚠️ <strong><code>Clearer</code> — not <em>stronger</em>.</strong> Underline the comparative and ask what it is comparing. Yesterday the proof ran on <strong>duration</strong>: the longer the silence between text and fulfilment, the harder the fraud. Today Calvin trades duration for something else entirely.</p><pre><code>   THE TWO CURRENCIES OF PROPHETIC PROOF
+
+   §7  (Day 43)   DURATION          400 yrs — the sceptre
+                                  2,000 yrs — the Gentiles
+                  ⚠️ but the content is VAGUE:
+                     "a sceptre", "the nations".
+                  A vague prediction survives a long gap
+                  because nobody can date its fulfilment
+                  precisely either. ★ Weak content,
+                  strong interval.
+
+   §8  (Day 44) ★ SPECIFICITY      100+ yrs — but a PROPER NAME:
+                     ** CYRUS **
+                     70 yrs — but an EXACT NUMBER:
+                     ** SEVENTY **
+                     600 yrs — but a DATED SEQUENCE:
+                     ** DANIEL **
+                  ★ Shorter gaps. Falsifiable content.
+                  You cannot "eventually" fulfil a
+                  proper noun. Either a man named
+                  Cyrus came, or he did not.
+</code></pre><p>★ <strong>That is the escalation, and <code>clearer</code> is the word that announces it.</strong> ⚠️ Do not read §8 as "more of the same, with different prophets." <strong>Calvin has changed the kind of evidence.</strong> In §7 the argument was: <em>nobody could have engineered that outcome.</em> In §8 it is: <em>nobody could have guessed that name.</em></p><p>And then, one sentence in, he does something you saw him do yesterday and will now see him do <strong>three times in one section</strong>:</p><p><code>I will only select a few examples, **for it were too tedious to enumerate the whole**.</code></p><p>⚠️ <strong><code>it were</code>.</strong> Not a typo. Not a plural. <strong>That is the bare past subjunctive of <code>be</code>, and it means <code>it would be</code>.</strong> ★ It comes back in S10 in the most violent sentence of the section — <code>**What effrontery were it** to deny...!</code> — and if you file it as an archaic wobble you will mis-parse both. <strong>Today's Big Point 1.</strong></p><p>Then the middle of the section (S6, S10) hands you a construction English has almost lost, twice:</p><p><code>...more than a hundred years elapsed before Cyrus was born, **that being** nearly the period which elapsed between the death of the one and the birth of the other.</code></p><p>⚠️ <strong>Where is the verb of <code>that being</code>?</strong> There isn't one. <strong>This is a nominative absolute</strong> — a subject plus a participle, glued to the sentence with no conjunction and no grammatical role. ★ And S10 stacks a second one on top of a <strong>discontinuous relative clause</strong> that is genuinely hard: <code>the very thing **being fulfilled** *to which* they appeal</code>. <strong>Today's Big Point 2.</strong></p><p><strong>Today's 3 Big Points — write them down now:</strong></p><ol>
+<li><strong><code>it were</code> / <code>What N were it to V</code> — the bare past subjunctive of <code>be</code> = <em>would be</em>.</strong> S2: <code>for **it were** too tedious to enumerate the whole.</code> S10: <code>**What effrontery were it** to deny that...!</code> ⚠️ Two traps stacked. (a) It is <strong>not past tense</strong> — it is <strong>unreal present</strong>: <em>it would be too tedious</em>, <em>what effrontery it would be</em>. (b) In S10 the <code>it</code> is <strong>anticipatory</strong> and the real subject is <code>to deny that...</code>, with the exclamatory <code>What effrontery</code> fronted out of the predicate. ★ <strong>Family to build today:</strong> <code>it were better to...</code>, <code>far be it from me...</code>, <code>be it that...</code> (yesterday's), <code>were it not for...</code>, <code>would that...</code>. <strong>Wherever you meet a bare <code>were</code> with a singular subject in Beveridge, translate it <code>would be</code> and check for a hidden condition.</strong></li>
+<li><strong>The nominative absolute — <code>NP + being/p.p. ...</code>, twice today, and a discontinuous relative riding on the second.</strong> S6: <code>**that being** nearly the period which elapsed...</code>. S10: <code>**the very thing being fulfilled** to which they appeal in support of their credibility</code>. ⚠️ Trap (a): you will hunt for a finite verb inside the absolute and find none — <strong>stop hunting, the absolute has no grammatical tie to the main clause; it supplies cause, attendant circumstance or comment.</strong> Trap (b), the nasty one: in S10 the relative <code>to which they appeal</code> reaches <strong>back over the participle</strong> to <code>the very thing</code>. ★ Restore it: <code>the very thing **to which they appeal** ... being fulfilled</code>. <strong>Read the head noun, then look for its relative clause anywhere downstream.</strong></li>
+<li><strong><code>Supposing X not to be Y, whence shall it be said that Z proceeded, if it was not from God?</code> — yesterday's concession, now in participial form, feeding a wh-question that is an argument by elimination.</strong> S4. ⚠️ Three moving parts. (a) <code>Supposing</code> = a <strong>participle frozen into a conjunction</strong> (= <em>even granting that</em>), the exact twin of yesterday's <code>Suppose that ... still</code> and of §7's <code>seeing</code>. (b) <code>Supposing **it not to be** sufficient evidence</code> = an <strong>accusative-and-infinitive</strong> with the negative <em>before</em> the infinitive — 27 words of it before the main clause even starts. (c) <code>**whence** shall it be said that ... **proceeded**</code> — the wh-word belongs to <code>proceeded</code>, which is <strong>twenty-two words later</strong>. ★ And the tail <code>if it was not from God?</code> closes the only remaining door. <strong>A wh-question plus a negative conditional is Calvin's elimination machine: he never says "God did it." He shuts every other exit.</strong></li>
+</ol><p>Sixteen sentences. S2, S3, S4, S6, S10 and S14 will take real time. Let's go.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (the whole § — 16 sentences, verbatim)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+8. In the case of the other prophets the evidence is even clearer. I will only select a few examples, for it were too tedious to enumerate the whole. Isaiah, in his own day, when the kingdom of Judah was at peace, and had even some ground to confide in the protection of the Chaldeans, spoke of the destruction of the city and the captivity of the people (Isaiah 55:1). Supposing it not to be sufficient evidence of divine inspiration to foretell, many years before, events which, at the time, seemed fabulous, but which ultimately turned out to be true, whence shall it be said that the prophecies which he uttered concerning their return proceeded, if it was not from God? He names Cyrus, by whom the Chaldeans were to be subdued and the people restored to freedom. After the prophet thus spoke, more than a hundred years elapsed before Cyrus was born, that being nearly the period which elapsed between the death of the one and the birth of the other. It was impossible at that time to guess that some Cyrus would arise to make war on the Babylonians, and after subduing their powerful monarchy, put an end to the captivity of the children of Israel. Does not this simple, unadorned narrative plainly demonstrate that what Isaiah spoke was not the conjecture of man, but the undoubted oracle of God? Again, when Jeremiah, a considerable time before the people were led away, assigned seventy years as the period of captivity, and fixed their liberation and return, must not his tongue have been guided by the Spirit of God? What effrontery were it to deny that, by these evidences, the authority of the prophets is established, the very thing being fulfilled to which they appeal in support of their credibility! “Behold, the former things are come to pass, and new things do I declare; before they spring forth I tell you of them,” (Isaiah 42:9). I say nothing of the agreement between Jeremiah and Ezekiel, who, living so far apart, and yet prophesying at the same time, harmonise as completely in all they say as if they had mutually dictated the words to one another. What shall I say of Daniel? Did not he deliver prophecies embracing a future period of almost six hundred years, as if he had been writing of past events generally known? (Dan. 9, &amp;c). If the pious will duly meditate on these things, they will be sufficiently instructed to silence the cavils of the ungodly. The demonstration is too clear to be gainsaid.
+✅ Text note. Our source file source/Institutes_Beveridge_FULL.txt carries §8 at lines 3649–3675. Two printer's line-break hyphenations were rejoined and nothing else was touched: conjec-‖ture → conjecture (S8) and com-‖pletely → completely (S12). The page numbers 79 and 84 and the running header CHAPTER 8. — THE CREDIBILITY OF SCRIPTURE SUFFICIENTLY PROVED IN SO / FAR… fall before S1 and are not part of the section. Every character of the prose above is Beveridge's, including the ampersand-and-c in (Dan. 9, &amp;c) and the curly quotation marks around the Isaiah citation.
+⚠️ Now run the Day 42 checks — and today one of them fires. The standing rule since Day 42: check every stranded comparative, every so/too/such without its partner, and every pronoun without an antecedent.
+
+Stranded comparatives: even clearer (S1) — partner supplied by context (than in the case of Moses). ✓ too tedious to enumerate (S2), too clear to be gainsaid (S16) — both too ... to, complete. ✓
+Pronouns: it was not from God (S4) — it = the prophecies / their source. ✓ the death of the one and the birth of the other (S6) — ⚠️ flagged, see S6. that being (S6) — that = the hundred-plus-year interval. ✓
+⚠️ And the one real defect: the Scripture reference in S3 reads (Isaiah 55:1). ★ That is a misprint, and it is Beveridge's, not ours. Isaiah 55:1 is Ho, every one that thirsteth, come ye to the waters — it has nothing to do with the destruction of the city or the captivity. The verse Calvin is pointing at is Isaiah 39:5–7 (Isaiah to Hezekiah: "all that is in thine house ... shall be carried to Babylon"), which is also the only place where "some ground to confide in the protection of the Chaldeans" makes sense. We quote the misprint verbatim in Period 1 because that is the rule. We do not teach the misprint. See Period 7 #1.
+
+ℹ️ On the count. Sixteen sentences — the longest section of the chapter so far, and the shape matters:
+</blockquote><pre><code>   S1   statement       ── the thesis: CLEARER, not longer
+   S2   praeteritio     ── "I will only select a few"        ①
+   S3   statement       ── EXHIBIT A: Isaiah, the captivity
+   S4   QUESTION  ?     ── concession + elimination
+   S5   statement       ── ★ THE NAME: Cyrus
+   S6   statement       ── the arithmetic of the gap
+   S7   statement       ── the impossibility of the guess
+   S8   QUESTION  ?     ── verdict on Exhibit A
+   S9   QUESTION  ?     ── EXHIBIT B: Jeremiah, seventy years
+   S10  EXCLAMATION !   ── ★ the seal, and the self-reference
+   S11  QUOTATION       ── Isaiah 42:9 — the proof-text FOR the method
+   S12  praeteritio     ── "I say nothing of" Jer. + Ezek.    ②
+   S13  QUESTION  ?     ── "What shall I say of Daniel?"      ③
+   S14  QUESTION  ?     ── EXHIBIT C: Daniel, six hundred years
+   S15  statement       ── the pastoral turn
+   S16  statement       ── the close
+</code></pre><blockquote>
+<p>★ <strong>Three praeteritios in sixteen sentences (S2, S12, S13).</strong> ⚠️ Yesterday you met the device once, in S10 (<code>I omit other predictions...</code>). <strong>Today it is the section's rhythm.</strong> And notice what it is doing structurally: <strong>every time Calvin says he will not go on, he goes on.</strong> <code>I will only select a few examples</code> → four prophets. <code>I say nothing of the agreement between Jeremiah and Ezekiel</code> → a full sentence on it, with a simile. <code>What shall I say of Daniel?</code> → the biggest claim in the chapter.</p>
+<p>★ <strong>This is not decoration. It is a claim about volume.</strong> The rhetorical message of praeteritio is: <em>the evidence is so abundant that selection, not accumulation, is my problem.</em> ⚠️ <strong>Compare it with §5–§7, where Calvin had to work each proof hard.</strong> Today he is behaving like a prosecutor who has stopped calling witnesses because the jury is already nodding. <strong>When an author repeatedly refuses to continue, ask what the refusal is asserting.</strong></p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>  ── PART A: THE THESIS AND THE FIRST REFUSAL (S1–S2) ──
+
+[★ THESIS]  S1  IN THE CASE OF the other prophets
+                  the evidence IS ** EVEN CLEARER **
+                       ↑ comparative: than in the case of MOSES (§§3-7)
+                       ↑ ★ clearer ≠ stronger — 내용의 명료도이지 강도가 아님
+
+[PRAETERIT] S2  I WILL ONLY SELECT a few examples ,
+                  ** FOR ** ** IT WERE ** TOO TEDIOUS
+                      TO ENUMERATE the whole
+                       ↑ ★ were = 가정법 과거 (would be) — 과거시제 ✗
+                       ↑ it = 가주어 / to enumerate = 진주어
+                       ↑ for = 등위접속사 (because 아님 — 이유의 후치)
+
+  ── PART B: EXHIBIT A — ISAIAH AND THE NAME (S3–S8) ──
+
+[SETUP]     S3  ISAIAH , ( IN HIS OWN DAY , )
+                  ( WHEN the kingdom of Judah WAS AT PEACE ,
+                    and HAD EVEN SOME GROUND TO CONFIDE IN
+                        the protection of the CHALDEANS , )
+                  SPOKE OF the DESTRUCTION of the city
+                      and the CAPTIVITY of the people
+                      (Isaiah 55:1)  ⚠️ 오식 — 사39:5-7
+                       ↑ ⚠️ 주어(Isaiah) ↔ 동사(spoke) 사이 23단어
+                       ↑ ★ 논증 장치: 예언 시점의 정황이 예언과 정반대
+
+[★ MONSTER] S4  ** SUPPOSING **  it  NOT TO BE sufficient evidence
+                      of divine inspiration  TO FORETELL ,
+                      ( MANY YEARS BEFORE , )
+                      events [ WHICH , ( at the time , ) SEEMED ** FABULOUS ** ,
+                               BUT WHICH ULTIMATELY TURNED OUT TO BE TRUE ] ,
+                  ** WHENCE ** SHALL IT BE SAID
+                      [ that the prophecies ( WHICH he UTTERED
+                            concerning their RETURN ) ** PROCEEDED ** ] ,
+                  ** IF IT WAS NOT FROM GOD ** ?
+                       ↑ Supposing = 분사→접속사 (= 설령 ~라 해도)
+                       ↑ it not to be = 대격부정사, 부정어가 to 앞
+                       ↑ ★ whence … proceeded — wh와 동사가 22단어 떨어짐
+                       ↑ ⚠️ fabulous = 우화 같은·황당한 (훌륭한 ✗)
+                       ↑ ★ 소거논법: 다른 출처를 대 보라 → 댈 수 없다
+
+[★ THE NAME] S5 He ** NAMES CYRUS ** ,
+                  [ BY WHOM the Chaldeans ** WERE TO BE SUBDUED **
+                    and the people ‹were to be› ** RESTORED ** to freedom ]
+                       ↑ were to V = 예정된 미래 (운명의 was/were to)
+                       ↑ 둘째 절에서 were to be 생략 (gapping)
+                       ↑ ★ 고유명사 = 반증 가능한 예언 — 오늘의 핵심
+
+[ARITHMETIC] S6 ( AFTER the prophet THUS SPOKE , )
+                  more than A HUNDRED YEARS ** ELAPSED **
+                      ( BEFORE Cyrus WAS BORN ) ,
+                  ** THAT BEING ** nearly the period
+                      [ WHICH ELAPSED between THE DEATH OF THE ONE
+                        and THE BIRTH OF THE OTHER ]
+                       ↑ ★ 독립분사구문(nominative absolute) — 정동사 없음
+                       ↑ ⚠️ the one = 이사야 / the other = 고레스
+                       ↑ that = 앞의 100년 남짓한 간격
+
+[NO-GUESS]  S7  IT WAS IMPOSSIBLE ( at that time ) TO GUESS
+                  [ that SOME CYRUS WOULD ARISE
+                      TO MAKE WAR on the Babylonians ,
+                      and ( AFTER SUBDUING their powerful monarchy , )
+                      ‹to› ** PUT AN END TO ** the captivity
+                          of the children of Israel ]
+                       ↑ some + 고유명사 = "무슨 고레스라는 자"
+                       ↑ ★ put 은 make 와 병렬 (to 지배) — arise 와 병렬 ✗
+
+[VERDICT]   S8  ** DOES NOT ** this SIMPLE , UNADORNED narrative
+                  PLAINLY DEMONSTRATE
+                  [ that ‹what Isaiah spoke› WAS ** NOT ** the CONJECTURE of man ,
+                    ** BUT ** the UNDOUBTED ORACLE of God ] ?
+                       ↑ 부정의문문 = 강한 긍정
+                       ↑ not A but B / 주어가 관계절 what-clause
+
+  ── PART C: EXHIBIT B — JEREMIAH AND THE NUMBER (S9) ──
+
+[NUMBER]    S9  AGAIN , ( WHEN Jeremiah ,
+                      ( A CONSIDERABLE TIME BEFORE the people WERE LED AWAY , )
+                      ASSIGNED ** SEVENTY YEARS ** as the period of captivity ,
+                      and FIXED their LIBERATION and RETURN , )
+                  ** MUST NOT ** his tongue ** HAVE BEEN GUIDED **
+                      by the Spirit of God ?
+                       ↑ must have p.p. = 추론의 must (의무 ✗)
+                       ↑ must not ~? = 부정의문 → 강한 단정
+                       ↑ ⚠️ 삽입절이 주어(Jeremiah)와 동사(assigned)를 가른다
+
+  ── PART D: THE SEAL AND ITS PROOF-TEXT (S10–S11) ──
+
+[★ MONSTER] S10 ** WHAT EFFRONTERY WERE IT ** TO DENY
+                  [ that , ( BY THESE EVIDENCES , )
+                    the AUTHORITY of the prophets IS ESTABLISHED ] ,
+                  ** THE VERY THING BEING FULFILLED **
+                      ‹ TO WHICH they APPEAL in support of their credibility › !
+                       ↑ ★ were = 가정법 (would be) — S2 와 같은 기계
+                       ↑ it = 가주어 / to deny = 진주어 / What effrontery = 전치된 보어
+                       ↑ ★ 독립분사구문 #2
+                       ↑ ⚠️ 불연속 관계절: to which → the very thing (분사 너머로)
+                       ↑ ★ 자기지시: 예언자들이 내건 그 기준이 그대로 충족됨
+
+[PROOF-TXT] S11 “ BEHOLD , the FORMER THINGS ARE COME TO PASS ,
+                   and NEW THINGS ** DO I DECLARE ** ;
+                   ( BEFORE they SPRING FORTH ) I TELL YOU OF THEM , ”
+                      (Isaiah 42:9)
+                       ↑ do I declare = 강조의 do + 도치 (신 42:9 AV)
+                       ↑ ★ 예언자 자신이 내건 검증 기준 = S10의 "the very thing"
+
+  ── PART E: TWO MORE REFUSALS AND EXHIBIT C (S12–S14) ──
+
+[PRAETERIT] S12 I ** SAY NOTHING OF ** the agreement
+                  between JEREMIAH and EZEKIEL ,
+                  [ WHO , ( LIVING SO FAR APART ,
+                            and YET PROPHESYING at the same time , )
+                    HARMONISE ** AS COMPLETELY ** in all they say
+                    ** AS IF ** they ** HAD MUTUALLY DICTATED **
+                        the words to one another ]
+                       ↑ as ~ as if ~ 상관구문
+                       ↑ as if + 과거완료 = 사실 반대의 비유
+                       ↑ ⚠️ living/prophesying = 양보의 분사 (so far apart … yet)
+
+[PRAETERIT] S13 ** WHAT SHALL I SAY OF ** Daniel ?
+                       ↑ 의지·숙고의 shall (1인칭 의문)
+
+[EXHIBIT C] S14 ** DID NOT HE ** DELIVER prophecies
+                  ( ** EMBRACING ** a future period of ALMOST SIX HUNDRED YEARS ) ,
+                  ** AS IF ** he ** HAD BEEN WRITING **
+                      of PAST EVENTS ( GENERALLY KNOWN ) ?  (Dan. 9, &amp;c)
+                       ↑ ⚠️ Did not he (Didn't he ✗ — 비축약 어순)
+                       ↑ embracing = 포괄하는 (껴안는 ✗)
+                       ↑ as if + 과거완료진행 = 이미 일어난 일을 적듯이
+
+  ── PART F: THE PASTORAL TURN AND THE CLOSE (S15–S16) ──
+
+[PASTORAL]  S15 ( ** IF ** the pious ** WILL ** DULY MEDITATE on these things , )
+                  they WILL BE SUFFICIENTLY INSTRUCTED
+                      TO SILENCE the CAVILS of the ungodly
+                       ↑ ⚠️ if ~ will = 의지의 will (단순미래 ✗)
+                       ↑ ★ 목적: 자기 확신이 아니라 반론 봉쇄 (§1·§13 위계)
+
+[CLOSE]     S16 The DEMONSTRATION IS ** TOO CLEAR TO BE GAINSAID **
+                       ↑ too ~ to + 수동
+                       ↑ gainsay = gain-(against) + say = 반박하다
+</code></pre><p><strong>Examiner's Eye — three traps, and the first one is the one that decides whether you can read Beveridge at all.</strong></p><p><strong>⚠️ Trap A — <code>were</code> in S2 and S10 read as past tense.</strong> A grammar item will underline <code>for it **were** too tedious</code> and ask you to "correct" it to <code>it **was** too tedious</code>. <strong>Do not touch it.</strong> ★ This is the <strong>bare past subjunctive of <code>be</code></strong>, and its meaning is <strong>present unreal</strong>: <em>it would be too tedious</em>. ⚠️ The give-away is the infinitive that follows: <code>it were too tedious **to enumerate**</code> — there is a suppressed condition inside that infinitive (<em>if I were to enumerate the whole</em>). <strong>Same machine in S10</strong>: <code>What effrontery **were it** to deny...</code> = <em>what effrontery it would be, if one were to deny</em>. ★ <strong>Rule: bare <code>were</code> + singular subject + an infinitive carrying the condition = subjunctive, translate <code>would be</code>.</strong> And note the register — Beveridge reaches for it at exactly two moments, both of them <strong>the writer's own posture toward his material</strong> (I decline to go on; I judge such denial shameless). <strong>The subjunctive is where the translator's voice shows.</strong></p><p><strong>⚠️ Trap B — the direction of S6's <code>the one</code> and <code>the other</code>.</strong> A comprehension option will read: <em>"Isaiah was born roughly a hundred years after Cyrus died."</em> ⚠️ <strong>Reversed — and it catches people, because S6 never names either man in that clause.</strong> ★ Restore it from the sentence itself: <code>After the prophet thus spoke, more than a hundred years elapsed **before Cyrus was born**.</code> The order is fixed by that line: <strong>prophet first, Cyrus after.</strong> So <code>the death of **the one**</code> = Isaiah's death, <code>the birth of **the other**</code> = Cyrus's birth. ⚠️ And note the sly precision of <code>that being **nearly** the period</code> — Calvin is saying the interval between the two <em>lives</em> is about the same as the interval between the <em>utterance</em> and the birth, i.e. <strong>Isaiah did not live to see any part of it.</strong> ★ <strong>When <code>the one ... the other</code> has no antecedent in its own clause, take the order from the previous clause. Always the previous clause.</strong></p><p><strong>⚠️ Trap C — the scope trap on S10's self-reference, and it is the deepest point in the section.</strong> An option will read: <em>"Calvin holds that the prophets' authority rests on the fulfilment of the predictions they themselves selected as their test."</em> ★ <strong>That is very close to right — which is what makes the wrong version dangerous.</strong> The wrong version will overreach into: <em>"...and therefore Scripture's authority rests on this fulfilment."</em> ⚠️ <strong>No.</strong> Read S10 narrowly: <code>the authority of **the prophets** is established</code> — <strong>not</strong> <em>the authority of Scripture is grounded</em>. ★ Calvin fenced this off in §1 and will fence it again in §13: <strong>these are <code>secondary helps</code>.</strong> The Spirit's inner testimony (Ch. 7) is the ground; §8 supplies <strong>arguments that silence cavils</strong> (S15 says exactly that, and says nothing more). ⚠️ <strong>The tell in the sentence: Calvin's verb is <code>established</code>, and his beneficiaries in S15 are <code>the pious</code> — people who already believe. He is arming believers against mockers, not converting mockers.</strong> <strong>Any option that promotes §8 from apologetic support to epistemic foundation has overreached the scope.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl2" data-lvl="2" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the comparative that announces a change of evidence — and it is not the change you expect</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>"In the case of the other prophets the evidence is even clearer."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>In the case of</b> the other prophets</span></li><li><span class="leaf">the evidence <b>is even clearer</b></span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>evidence</em> &lt; <em>e-</em> (out) + <em>videre</em> (to see) = that which is seen out — the visible showing; family: evident, video, vision, provide(<em>pro+videre</em> — see ahead → provide·providence, ★ the pun Calvin exploited on Day 43 with <em>prudence</em>), survey, review. — <em>clear</em> &lt; <em>clarus</em> (bright, loud) — ⚠️ the root sense is bright, not "understandable"; family: clarify, declare (S11!), clarion, Clara. ★ Note: `declare` in S11 is <em>de</em> + <em>clarare</em> = to make bright — the same root as `clearer` here. Calvin's proof-text repeats his own adjective.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in the case of ~</em> = ~의 경우에는; <em>even + 비교급</em> = 한층 더 ~한 (even clearer = 한결 더 분명하다).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">With the other prophets the evidence is even more obvious.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>In the case of</b> → With / When it comes to</li><li><b>the evidence is even clearer</b> → the evidence is even more obvious.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #1 — a two-letter word that is not a typo, and the section's governing rhetorical device</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>"I will only select a few examples, for it were too tedious to enumerate the whole."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` I <b>will only select</b> a few examples</span></li><li><span class="leaf"><b>for</b></span></li><li><span class="leaf"><b>it were</b> too tedious</span></li><li><span class="leaf"><b>to enumerate</b> the whole</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>tedious</em> &lt; Lat. <em>taedium</em> (weariness, disgust) &lt; <em>taedet me</em> ("it wearies me") — ⚠️ the root is impersonal, which is exactly the construction Beveridge builds (`it were too tedious`); family: tedium, ⚠️ and note <em>taedium vitae</em> (weariness of life). — <em>enumerate</em> &lt; <em>e-</em> (out) + <em>numerus</em> (number) = to number out; family: numeral, numerous, innumerable, supernumerary. — <em>select</em> &lt; <em>se-</em> (apart) + <em>legere</em> (to gather, to read) — ★ <em>legere</em> is one of the great roots: collect, elect, neglect, intellect, lecture, legend, elegant (= <em>e+legans</em>, "choosing carefully"). — <em>example</em> &lt; <em>ex</em> + <em>emere</em> (to take) = taken out (as a sample); ⚠️ <em>emere</em> "to buy" originally "to take"; family: exempt, redeem, premium, sample (a doublet of <em>example</em>).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it were too A to V</em> = ~하기에는 너무 A할 것이다 (= ~한다면 지나치게 A하다); <em>the whole</em> = 전체 (명사적 용법); <em>select a few examples</em> = 몇 가지 예만 골라 들다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I'll pick out just a few examples, since going through them all would take forever.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>I will only select</b> → I'll pick out just</li><li><b>for</b> → since / because</li><li><b>it were too tedious</b> → it would take forever / it'd be too tiresome</li><li><b>to enumerate the whole</b> → to go through them all.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #2 — 23 words between subject and verb, a false friend, and a misprinted reference</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>"Isaiah, in his own day, when the kingdom of Judah was at peace, and had even some ground to confide in the protection of the Chaldeans, spoke of the destruction of the city and the captivity of the people (Isaiah 55:1)."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Isaiah</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in his own day</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> the kingdom of Judah <b>was at peace</b></span></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and</b> ‹<b>when</b> it› <b>had even some ground to confide in</b> the protection of the Chaldeans</span></li></ul></li><li><span class="leaf"><b>spoke of</b> the destruction of the city</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and the captivity of the people</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Isaiah 55:1</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>confide</em> &lt; <em>com-</em> (intensive) + <em>fidere</em> (to trust) &lt; <em>fides</em> — family: faith, fidelity, confident, diffident (⚠️ <em>dis+fidere</em> = dis-trusting → shy), perfidy (<em>per+fides</em> = through/beyond faith → treachery), affidavit, fiancé(e), federal (<em>foedus</em> &lt; <em>fides</em>). — <em>captivity</em> &lt; <em>capere</em> (to take, seize) — ★ <em>capere</em> is enormous: capture, captive, receive, deceive, conceive, perceive, accept, except, anticipate, participate, municipal, ⚠️ and <em>caption</em>. — <em>destruction</em> &lt; <em>de-</em> (down) + <em>struere</em> (to pile up) — family: structure, construct, instruct, obstruct, industry. — <em>Chaldean</em> &lt; Gk. Χαλδαῖοι, Heb. כַּשְׂדִּים <em>Kaśdîm</em> — ⚠️ in later usage the word drifts to mean astrologer (Dan. 2:2), because Babylon was the home of star-reading. ★ Keep the two senses apart in Daniel.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in his own day</em> = 그 자신의 시대에·생전에; <em>be at peace</em> = 평화로운 상태다; <em>have ground to V</em> = ~할 근거가 있다; ⚠️ <em>confide in ~</em> = ~을 신뢰하다 (비밀을 털어놓다 ✗); <em>speak of ~</em> = ~에 관해 말하다·예고하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">In his own lifetime — when Judah was at peace and actually had reason to count on Chaldean protection — Isaiah announced the destruction of the city and the deportation of the people.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>in his own day</b> → in his own lifetime</li><li><b>had even some ground to confide in</b> → actually had reason to count on</li><li><b>spoke of</b> → announced</li><li><b>the captivity of the people</b> → the deportation of the people.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #3 — the monster: a 27-word concession, an accusative-and-infinitive, and a wh-word 22 words from its verb</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>"Supposing it not to be sufficient evidence of divine inspiration to foretell, many years before, events which, at the time, seemed fabulous, but which ultimately turned out to be true, whence shall it be said that the prophecies which he uttered concerning their return proceeded, if it was not from God?"</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Supposing</b></span></li><li><span class="leaf"><b>it not to be</b> sufficient evidence of divine inspiration</span></li><li><span class="leaf"><b>to foretell</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">many years before</span></li></ul></li></ul></li><li><span class="leaf">events</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>which</b>, <b>seemed fabulous</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">at the time</span></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but which</b> ultimately <b>turned out to be true</b></span></li></ul></li></ul></li><li><span class="leaf"><b>whence</b> shall <b>it</b> be said</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the prophecies <b>proceeded</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which he uttered</b> concerning their return</span></li></ul></li></ul></li></ul></li><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if it was not from God</b> ?</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li>⚠️ <em>fabulous</em> &lt; <em>fabula</em> (a told story, a fable) &lt; <em>fari</em> (to speak) — ★ <em>fari</em> is a monster root: fable, fate (<em>fatum</em> = what has been spoken), fame, infant (<em>in-fans</em> = not speaking), preface, confess, profess, affable, ineffable, infamy. Note `fate` and `infant` sit on the same root as `fabulous` — all of them about speech. — <em>foretell</em> = OE <em>fore</em> + <em>tellan</em> ★ a Germanic calque of Lat. <em>praedicere</em>; ⚠️ Beveridge alternates <em>foretell</em> / <em>predict</em> / <em>prophesy</em> — same act, three etymological layers (Germanic / Latin / Greek). — <em>proceed</em> &lt; <em>pro-</em> (forward) + <em>cedere</em> (to go) — family: precede, recede, secede, concede, accede, exceed, succeed, cease, ancestor. ★ In theology <em>procedere</em> is a technical term (the Spirit <em>proceeds</em> from the Father) — the verb Calvin picks for the origin of prophecy is the verb the creeds use for the origin of the Spirit. That is not an accident. — <em>utter</em> (v.) &lt; ME <em>uttren</em> &lt; <em>ut</em> (out) — ⚠️ unrelated to <em>utter</em> (adj., "complete"), which is the comparative of <em>out</em>. Two different words, same spelling.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>supposing (that) ~</em> = 설령 ~라 하더라도; <em>suppose A to be B</em> = A를 B라고 보다 (대격부정사); <em>turn out to be ~</em> = 결국 ~로 판명되다; <em>whence ~?</em> = 어디로부터 ~인가; <em>proceed from ~</em> = ~에서 비롯되다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Even if you say that predicting, many years ahead, events that sounded like fantasy at the time but eventually came true is not proof enough of divine inspiration — then where are we supposed to say the prophecies he gave about their return came from, if not from God?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Supposing it not to be</b> → Even if you say that ... is not</li><li><b>sufficient evidence of</b> → proof enough of</li><li><b>seemed fabulous</b> → sounded like fantasy</li><li><b>ultimately turned out to be true</b> → eventually came true</li><li><b>whence shall it be said that ... proceeded</b> → where are we supposed to say ... came from.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the shortest sentence in the section and the most dangerous claim in the chapter</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>"He names Cyrus, by whom the Chaldeans were to be subdued and the people restored to freedom."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` He <b>names Cyrus</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>by whom</b> the Chaldeans <b>were to be subdued</b></span></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and</b> the people ‹<b>were to be</b>› <b>restored</b> to freedom</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>subdue</em> &lt; OFr <em>souduire</em> &lt; Lat. <em>subducere</em> (to draw from under), sense from <em>subdere</em> (to put under) — ⚠️ a hybrid word: French form, Latin sense; family: duke/duct/conduct/induce (<em>ducere</em>), and <em>sub-</em> as in submit, subject, subordinate. — <em>restore</em> &lt; <em>re-</em> + <em>staurare</em> (to set up) — ★ cognate with Gk. σταυρός <em>stauros</em> (an upright stake → the cross); family: store, instaurate, ⚠️ and <em>restaurant</em> (a food that "restores" you — the original 18th-c. sense was the broth, not the room). — <em>Cyrus</em> &lt; OPers. Kūruš, Heb. כּוֹרֶשׁ <em>Kōreš</em>, Gk. Κῦρος.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>name A</em> = A의 이름을 대다·지명하다; <em>be to be p.p.</em> = ~되기로 정해져 있다; <em>restore A to freedom</em> = A를 자유의 몸으로 되돌리다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">He gives the name Cyrus — the man who would defeat the Chaldeans and set the people free.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>He names Cyrus</b> → He gives the name Cyrus</li><li><b>by whom ... were to be subdued</b> → the man who would defeat</li><li><b>the people restored to freedom</b> → set the people free.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #4 — a construction with no finite verb, and a pronoun pair with no antecedent in its own clause</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>"After the prophet thus spoke, more than a hundred years elapsed before Cyrus was born, that being nearly the period which elapsed between the death of the one and the birth of the other."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>After</b> the prophet <b>thus spoke</b></span></li></ul></li></ul></li><li><span class="leaf">more than a hundred years <b>elapsed</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>before</b> Cyrus <b>was born</b></span></li></ul></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that being</b> nearly the period</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which elapsed</b> between the death of <b>the one</b> and the birth of <b>the other</b></span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>elapse</em> &lt; <em>e-</em> (away) + <em>labi</em> (to slip, glide) — family: lapse, collapse (<em>com+labi</em> = fall together), relapse, prolapse, labile. ⚠️ Note the participial stem <em>laps-</em> gives the noun. — <em>period</em> &lt; Gk. περίοδος <em>periodos</em> &lt; <em>peri</em> (around) + <em>hodos</em> (way) = a going round → a cycle → a stretch of time; ★ <em>hodos</em> also gives method (<em>meta+hodos</em> = a going after) and exodus (<em>ex+hodos</em> = a going out) and synod (<em>syn+hodos</em> = a going together). — <em>born</em> / <em>borne</em> ⚠️ same verb <em>bear</em>, split spellings: `born` = brought into life, `borne` = carried/endured. Beveridge is exact about this. So is the AV.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>time elapses</em> = 시간이 경과하다; <em>that being ~</em> = 그것이 ~인 셈이니 (독립분사구문); <em>the one ... the other</em> = 전자 ... 후자 (⚠️ 앞 절의 등장 순서를 따른다).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">After the prophet said this, more than a hundred years went by before Cyrus was even born — about the same stretch as between Isaiah's death and Cyrus's birth.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>thus spoke</b> → said this</li><li><b>elapsed</b> → went by</li><li><b>that being nearly the period which elapsed</b> → about the same stretch as</li><li><b>the one ... the other</b> → Isaiah ... Cyrus.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the counterfactual, and a coordination trap that changes who does what</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>"It was impossible at that time to guess that some Cyrus would arise to make war on the Babylonians, and after subduing their powerful monarchy, put an end to the captivity of the children of Israel."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>It was impossible</b> <b>to guess</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">at that time</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> <b>some Cyrus</b> <b>would arise</b></span><ul class="tr"><li><span class="leaf"><b>to make war</b> on the Babylonians</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">after subduing their powerful monarchy</span></li></ul></li></ul></li><li><span class="leaf">‹to› <b>put an end to</b> the captivity of the children of Israel</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>monarchy</em> &lt; Gk. μόναρχος <em>monarchos</em> &lt; <em>monos</em> (alone) + <em>archein</em> (to rule) — ★ <em>archein</em> gives anarchy, oligarchy, hierarchy, patriarch, architect (<em>archi+tektōn</em> = chief builder), archangel, ⚠️ and <em>arche</em> (beginning) in archaeology, <em>ἐν ἀρχῇ</em> (John 1:1). — <em>captivity</em> — see S3. — <em>guess</em> ⚠️ Germanic/Norse, not Latin — ON <em>gizka</em>, related to <em>get</em>; ★ in a paragraph of Latinate abstractions Beveridge drops a blunt Norse monosyllable. Feel the drop in register. It is doing work.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it is impossible to V</em> = ~하기란 불가능하다; <em>make war on ~</em> = ~에 전쟁을 걸다; <em>put an end to ~</em> = ~을 끝장내다; <em>some + 고유명사</em> = 무슨 ~라는 자.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">At that point nobody could have guessed that some man named Cyrus would appear, go to war with the Babylonians, and — once he had brought down their powerful empire — end Israel's captivity.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>It was impossible ... to guess</b> → nobody could have guessed</li><li><b>some Cyrus would arise</b> → some man named Cyrus would appear</li><li><b>after subduing their powerful monarchy</b> → once he had brought down their powerful empire</li><li><b>put an end to the captivity of the children of Israel</b> → end Israel's captivity.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the verdict on Exhibit A — a negative interrogative, and two adjectives that are an argument</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>"Does not this simple, unadorned narrative plainly demonstrate that what Isaiah spoke was not the conjecture of man, but the undoubted oracle of God?"</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Does not</b> this <b>simple, unadorned</b> narrative</span></li><li><span class="leaf"><b>plainly demonstrate</b></span></li><li><span class="leaf">?</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> ‹<b>what Isaiah spoke</b>›</span><ul class="tr"><li><span class="leaf"><b>was not</b> the <b>conjecture of man</b></span></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b> the <b>undoubted oracle of God</b></span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>conjecture</em> &lt; <em>com-</em> (together) + <em>iacere</em> (to throw) — ★ <em>iacere</em> family: project, reject, inject, eject, subject, object, adjective, ejaculate, jet, ⚠️ and <em>jettison</em>/<em>jetsam</em> (goods thrown overboard). The whole family is throwing. — <em>oracle</em> &lt; <em>orare</em> (to speak, pray) &lt; <em>os, oris</em> (mouth) — family: oral, orator, oration, adore (<em>ad+orare</em>), inexorable (<em>in+ex+orare</em> = not to be prayed out of), ⚠️ and <em>orifice</em>. — <em>unadorned</em> &lt; <em>ad</em> + <em>ornare</em> (to equip, embellish) — family: ornament, ornate, adorn, ⚠️ <em>ordinary</em>? no — <em>ornare</em> is from <em>ordo</em> (order), so yes: order → to put in order → to furnish → to decorate. — <em>demonstrate</em> &lt; <em>de-</em> + <em>monstrare</em> (to show) &lt; ⚠️ monstrum (a divine portent, a sign) &lt; <em>monere</em> (to warn) — ★ `demonstrate` and `monster` are the same root: a monster was originally a SIGN. Family: monitor, admonish, premonition, muster, remonstrate.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Does not S V ~?</em> = ~하지 않는가 (= 분명히 ~한다); <em>not A but B</em> = A가 아니라 B; <em>the conjecture of man</em> = 인간의 억측; <em>the oracle of God</em> = 하나님의 신탁.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Doesn't this plain, undecorated account clearly show that what Isaiah said was not human guesswork but an unquestionable word from God?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Does not</b> → Doesn't</li><li><b>unadorned narrative</b> → undecorated account</li><li><b>plainly demonstrate</b> → clearly show</li><li><b>the conjecture of man</b> → human guesswork</li><li><b>the undoubted oracle of God</b> → an unquestionable word from God.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Exhibit B — the number, and an inference-must inside a negative question</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p>"Again, when Jeremiah, a considerable time before the people were led away, assigned seventy years as the period of captivity, and fixed their liberation and return, must not his tongue have been guided by the Spirit of God?"</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Again</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> <b>Jeremiah</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">a considerable time <b>before</b> the people <b>were led away</b></span></li></ul></li></ul></li><li><span class="leaf"><b>assigned seventy years</b> as the period of captivity</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and fixed</b> their liberation and return</span></li></ul></li><li><span class="leaf"><b>must not</b> his tongue <b>have been guided</b> by the Spirit of God ?</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>assign</em> &lt; <em>ad</em> + <em>signare</em> (to mark) &lt; <em>signum</em> — family: signal, design, resign, consign, ensign, insignia. — <em>considerable</em> &lt; <em>com-</em> + <em>sidus, sideris</em> (a star) = ⚠️ originally "to examine the stars" → to contemplate carefully → (of a quantity) worth considering → large; ★ same root in desire (<em>de+sidere</em>, ⚠️ "to await from the stars"). Consider and desire are both astrology words. — <em>liberation</em> &lt; <em>liber</em> (free) — family: liberty, liberal, deliver (<em>de+liberare</em>), ⚠️ and <em>libertine</em>. — <em>tongue</em> — OE <em>tunge</em>; ★ the AV's standard word for language (<em>Acts 2:4</em>) and for speech as an organ of the Spirit.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>a considerable time before ~</em> = ~보다 한참 전에; <em>lead away</em> = (포로로) 끌고 가다; <em>assign A as B</em> = A를 B로 정하다; <em>must not S have p.p. ~?</em> = ~했음에 틀림없지 않은가.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Or again: when Jeremiah, well before the deportation, set the captivity at seventy years and pinned down their release and return — mustn't his tongue have been guided by the Spirit of God?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>a considerable time before the people were led away</b> → well before the deportation</li><li><b>assigned seventy years as the period of captivity</b> → set the captivity at seventy years</li><li><b>fixed their liberation and return</b> → pinned down their release and return.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #5 — the seal: a subjunctive, an absolute, and a relative clause that reaches back over a participle</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p>"What effrontery were it to deny that, by these evidences, the authority of the prophets is established, the very thing being fulfilled to which they appeal in support of their credibility!"</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>What effrontery</b></span></li><li><span class="leaf"><b>were it</b></span></li><li><span class="leaf"><b>to deny</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by these evidences</span></li></ul></li></ul></li><li><span class="leaf">the <b>authority of the prophets</b></span></li><li><span class="leaf"><b>is established</b></span></li></ul></li><li><span class="leaf"><b>the very thing being fulfilled</b></span></li><li><span class="leaf">‹ <b>to which</b> they <b>appeal</b> in support of their credibility › !</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>effrontery</em> &lt; Fr. <em>effronterie</em> &lt; Lat. <em>ex</em> + <em>frons, frontis</em> (forehead, brow) — ★ "brow-out" = brazen-faced; family: front, affront (⚠️ to strike on the forehead → to insult), confront, frontier, frontispiece. — <em>evidence</em> — see S1. — <em>establish</em> &lt; <em>stabilire</em> &lt; <em>stabilis</em> &lt; <em>stare</em> (to stand) — ★ <em>stare</em> family is vast: stable, state, status, statue, station, constant, distant, instant, obstacle, substance, circumstance, ⚠️ and <em>ecstasy</em> (Gk. <em>ek+histanai</em> = standing outside oneself). — <em>appeal</em> &lt; <em>ad</em> + <em>pellere</em> (to drive, push) = to drive toward, to call upon — family: compel, expel, repel, dispel, propel, pulse, impulse, ⚠️ and <em>push</em> itself (via OFr <em>poulser</em>). — <em>credibility</em> &lt; <em>credere</em> (to believe, ⚠️ originally "to put one's heart" — PIE <em>ḱred-dʰeh₁-</em>) — family: creed, credo, credit, credential, credulous, incredible, ★ and <em>miscreant</em> (S9 tomorrow: <em>mis+credere</em> = a wrong-believer, i.e. originally a heretic, only later a villain).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>What N were it to V ...!</em> = ~한다면 얼마나 N이겠는가; <em>by these evidences</em> = 이런 증거들에 의해; <em>the very thing</em> = 바로 그것; <em>appeal to A in support of B</em> = B를 뒷받침하려고 A에 호소하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">It would take real nerve to deny that these proofs establish the prophets' authority — when the very test they themselves pointed to as their guarantee is being met.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>What effrontery were it to deny</b> → It would take real nerve to deny</li><li><b>by these evidences</b> → these proofs</li><li><b>the very thing being fulfilled to which they appeal</b> → the very test they themselves pointed to ... is being met</li><li><b>in support of their credibility</b> → as their guarantee.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the proof-text FOR the method — and the grammar of the quotation is the argument</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p>"“Behold, the former things are come to pass, and new things do I declare; before they spring forth I tell you of them,” (Isaiah 42:9)."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` “ <b>Behold</b></span></li><li><span class="leaf">the <b>former things</b> <b>are come to pass</b></span></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and new things</b> <b>do I declare</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>before they spring forth</b></span></li></ul></li><li><span class="leaf"><b>I tell you of them</b>, ”</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Isaiah 42:9</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>declare</em> &lt; <em>de-</em> (thoroughly) + <em>clarare</em> (to make clear/bright) &lt; <em>clarus</em> — ★ the same root as S1's `clearer`: Calvin's proof-text repeats his own opening adjective. Family: clarify, clarion, declaration. — <em>behold</em> — OE <em>behealdan</em> (to hold thoroughly, keep in view) ⚠️ the modern sense "look!" is the imperative only; family: hold, uphold, withhold, beholden(= held under obligation). — <em>spring forth</em> renders Heb. צָמַח <em>ṣāmaḥ</em> (to sprout) — ★ the noun צֶמַח <em>ṣemaḥ</em> ("the Branch") is the messianic title of Jer. 23:5, Zech. 3:8, 6:12. — <em>former</em> — comparative of OE <em>forma</em> (first), ⚠️ a double comparative (first + -er) with no positive form; twin of <em>latter</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Behold</em> = 보라 (주의 환기의 담화 표지); <em>come to pass</em> = 일어나다·성취되다 (⚠️ AV의 표준 표현); <em>do + V</em> = 강조의 do; <em>before ~ spring forth</em> = ~이 싹트기도 전에; <em>tell A of B</em> = A에게 B에 관해 알리다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">"Look — the earlier things have happened, and now I am announcing new ones; before they even sprout, I am telling you about them."</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Behold</b> → Look</li><li><b>are come to pass</b> → have happened</li><li><b>do I declare</b> → I am announcing</li><li><b>before they spring forth</b> → before they even sprout</li><li><b>I tell you of them</b> → I am telling you about them.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S12" id="S12"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S12</span><span class="stars s2" title="2-star">★★</span><span class="s-label">praeteritio #2 — a concessive participle pair and a counterfactual simile</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S12" onclick="flashFullText(this)">
+<p>"I say nothing of the agreement between Jeremiah and Ezekiel, who, living so far apart, and yet prophesying at the same time, harmonise as completely in all they say as if they had mutually dictated the words to one another."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>I say nothing of</b> the agreement between Jeremiah and Ezekiel</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>living so far apart</b></span></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and yet prophesying</b> at the same time</span></li></ul></li></ul></li><li><span class="leaf"><b>harmonise</b> <b>as completely</b> in all they say</span></li><li><span class="leaf"><b>as if</b> they <b>had mutually dictated</b> the words to one another</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>harmonise</em> &lt; Gk. ἁρμονία <em>harmonia</em> &lt; <em>harmos</em> (a joint, a fitting) &lt; <em>ararisko</em> (to fit together) — ★ the root sense is carpentry, not music; family: harmony, ⚠️ <em>arm</em>? no — but <em>article</em> and <em>arthritis</em> (Gk. <em>arthron</em>, a joint) are the same PIE root <em>ar-</em> "to fit". — <em>dictate</em> &lt; <em>dictare</em>, frequentative of <em>dicere</em> (to say) — family: diction, dictionary, edict, verdict (<em>vere+dictum</em> = a true saying), predict, contradict, indicate, ⚠️ and <em>ditto</em> (It. <em>detto</em>, "said" — the same thing said again). — <em>mutually</em> &lt; <em>mutuus</em> (borrowed, reciprocal) &lt; <em>mutare</em> (to change) — family: mutation, commute, permute, ⚠️ and <em>mutual fund</em> (money exchanged in common). — <em>agreement</em> &lt; <em>ad</em> + <em>gratum</em> (pleasing) — ⚠️ the root is pleasing, not "same": <em>grace, grateful, gratis, congratulate, ingratiate, agree</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>say nothing of ~</em> = ~은 말할 것도 없거니와 (⚠️ 언급하지 않겠다면서 언급하는 수사); <em>so far apart</em> = 그토록 멀리 떨어져; <em>and yet</em> = 그런데도; <em>as if + 과거완료</em> = 마치 ~했던 것처럼 (사실은 아님); <em>dictate A to B</em> = A를 B에게 받아쓰게 하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I won't even go into how well Jeremiah and Ezekiel agree — men who lived far apart and yet prophesied at the same time, and who match each other so exactly in everything they say that you'd think they had dictated the words to each other.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>I say nothing of</b> → I won't even go into</li><li><b>living so far apart, and yet prophesying</b> → who lived far apart and yet prophesied</li><li><b>harmonise as completely</b> → match each other so exactly</li><li><b>as if they had mutually dictated</b> → that you'd think they had dictated ... to each other.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S13" id="S13"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S13</span><span class="stars s1" title="1-star">★</span><span class="s-label">praeteritio #3 — one point, then move on</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S13" onclick="flashFullText(this)">
+<p>"What shall I say of Daniel?"</p>
+</blockquote><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And what am I to say about Daniel?</p></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S14" id="S14"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S14</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #6 — Exhibit C, an uncontracted negative interrogative, and a counterfactual that reverses time</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S14" onclick="flashFullText(this)">
+<p>"Did not he deliver prophecies embracing a future period of almost six hundred years, as if he had been writing of past events generally known? (Dan. 9, &amp;c)."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Did not he</b> <b>deliver</b> prophecies</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>embracing</b> a future period of <b>almost six hundred years</b></span></li></ul></li><li><span class="leaf"><b>as if</b> he <b>had been writing</b> of <b>past events</b> ?</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">generally known</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Dan. 9, &amp;c</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>embrace</em> &lt; OFr <em>embracier</em> &lt; Lat. <em>in</em> + <em>brachium</em> (arm) — ⚠️ abstract sense = encompass; family: bracelet, brace, ★ and <em>brassiere</em> (Fr. "arm-piece"). — <em>deliver</em> &lt; <em>de-</em> + <em>liberare</em> (to free) = to set free → to hand over → to utter; ⚠️ `deliver a speech` and `deliver us from evil` are the same verb. ★ Feel the odd fit: prophecy is <em>released</em>, not merely spoken. — <em>period</em> — see S6. — <em>generally</em> &lt; <em>genus, generis</em> (kind, race) — ⚠️ `generally known` = known to the kind at large, common knowledge, not "usually known"; family: general, genus, genre, gender, generate, degenerate, ingenuous, ★ and <em>genius</em> (the spirit of a <em>gens</em>).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Did not S V ~?</em> = ~하지 않았는가 (= 분명히 했다); <em>deliver prophecies</em> = 예언을 내놓다; <em>embrace a period of ~</em> = ~의 기간을 포괄하다; <em>as if + 과거완료진행</em> = 마치 ~하고 있었던 것처럼; <em>&amp;c</em> = 등등 (et cetera).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Didn't he issue prophecies covering nearly six hundred years of future history, writing as though he were recounting well-known past events?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Did not he deliver</b> → Didn't he issue</li><li><b>embracing a future period of</b> → covering ... of future history</li><li><b>as if he had been writing of</b> → as though he were recounting</li><li><b>past events generally known</b> → well-known past events.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S15" id="S15"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S15</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the pastoral turn — and one modal that decides the whole sentence</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S15" onclick="flashFullText(this)">
+<p>"If the pious will duly meditate on these things, they will be sufficiently instructed to silence the cavils of the ungodly."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>If</b> the pious <b>will</b> duly <b>meditate</b> on these things</span></li></ul></li></ul></li><li><span class="leaf">they <b>will be sufficiently instructed</b></span></li><li><span class="leaf"><b>to silence</b> the cavils of the ungodly</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>pious</em> &lt; <em>pius</em> — ⚠️ Roman <em>pietas</em> = dutifulness toward gods, family and state, a much wider word than English "piety"; family: pity (⚠️ a doublet of <em>piety</em>), expiate, ★ and <em>pious</em> in <em>pia fraus</em> (a pious fraud). — <em>meditate</em> &lt; <em>meditari</em> (to think over, to practise) &lt; PIE <em>med-</em> (to measure, take appropriate measures) — ★ same root as medicine, remedy, modest, moderate, mode, measure; ⚠️ the root idea is TAKING THE MEASURE of something. — <em>cavil</em> &lt; <em>cavilla</em> (a jeer, a quibble) — family: cavillation; ⚠️ unrelated to <em>cave</em>/<em>cavity</em>. — <em>ungodly</em> — OE formation; ★ note Beveridge/AV prefer the Germanic negative adjective for the enemy (<em>ungodly</em>, <em>unbelieving</em>) and Latinate abstractions for the argument (<em>credibility</em>, <em>demonstration</em>). The register split is consistent and it is worth hearing.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>meditate on ~</em> = ~을 깊이 묵상하다; <em>duly</em> = 마땅히·제대로; ⚠️ <em>if ~ will V</em> = ~할 마음만 있다면 (단순미래 ✗); <em>silence the cavils of ~</em> = ~의 트집을 잠재우다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">If believers are willing to give these matters the thought they deserve, they will know enough to shut down the sneers of the ungodly.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>If the pious will duly meditate on</b> → If believers are willing to give ... the thought they deserve</li><li><b>sufficiently instructed</b> → know enough</li><li><b>to silence the cavils of</b> → to shut down the sneers of.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S16" id="S16"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S16</span><span class="stars s1" title="1-star">★</span><span class="s-label">the close — one point</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S16" onclick="flashFullText(this)">
+<p>"The demonstration is too clear to be gainsaid."</p>
+</blockquote><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The proof is too plain to argue with.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>The demonstration</b> → The proof</li><li><b>too clear to be gainsaid</b> → too plain to argue with.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — 맨동사 가정법 <code>were</code>: <code>it were ADJ to V</code> / <code>What N were it to V …!</code></h3><pre><code>   ┌───────────────────────────────────────────────────────────┐
+   │   IT  WERE  + ADJ  + TO V                                 │
+   │        =  IT  WOULD BE  + ADJ  + TO V                     │
+   │        =  ( IF ONE WERE TO V ) , IT WOULD BE ADJ .        │
+   │                                                           │
+   │   WHAT + N + WERE IT + TO V …!                            │
+   │        =  WHAT N IT WOULD BE TO V …!                      │
+   │        ★ What N = 전치된 보어 / it = 가주어 / to V = 진주어  │
+   │        ★ were it 의 도치는 '가정법'이 일으킨다 (감탄 ✗)      │
+   └───────────────────────────────────────────────────────────┘
+   TODAY'S TWO:
+     S2   for ** it were ** too tedious to enumerate the whole
+     S10  ** What effrontery were it ** to deny that …!
+
+   ⚠️ 함정 3개
+   ① 과거시제로 읽기 → "너무 지루했다" ✗. **현재의 비현실**이다.
+   ② 조건절을 찾다가 못 찾고 포기 → ★ 조건은 **부정사 안에** 숨어 있다.
+      too tedious **to enumerate** = if I were to enumerate
+      **to deny** = if anyone were to deny
+   ③ `were it` 을 감탄문 도치로 설명하기 → ✗. 현대 감탄문은 도치하지 않는다
+      ("What a fool he is!"). **가정법 be 동사가 앞으로 나온 것**이다.
+
+   ★ 같은 기계의 식구 (전부 if 없음)
+        were it not for N        = N 이 없다면
+        be it that S+V           = 설령 ~라 해도       ← Day 43
+        far be it from me to V   = 결코 ~할 생각 없다
+        it were better to V      = ~하는 편이 나으리라
+        would that S+V           = ~라면 좋으련만
+        suffice it to say that ~ = ~라고만 해 두자
+</code></pre><p><strong>변형 연습.</strong> 다음을 Formula 1 로 옮기시오.</p><blockquote>
+<p>「그 예언들을 하나하나 세어 보는 일은 끝이 없을 것이다. 그리고 그 이름이 우연히 맞았다고 말한다면 그것은 얼마나 뻔뻔한 짓이겠는가!」</p>
+</blockquote><p><strong>모범 답안:</strong> <em>It </em><em>were</em><em> endless </em><em>to reckon up</em><em> these prophecies one by one. And </em><em>what effrontery were it to say</em><em> that the name fell out by chance!</em>
+⚠️ <code>It would be endless</code> 도 뜻은 같지만 <strong>조건 미충족</strong>. 오늘 배운 것은 맨동사 가정법이다. ★ 그리고 두 번째 문장에서 <code>were it</code> 의 도치를 빠뜨리면(<code>what effrontery it were to say</code>) 어색하다 — <strong>전치된 보어 뒤에서는 도치가 표준</strong>이다.</p><hr/><h3>Formula 2 — 독립분사구문(nominative absolute) + 불연속 관계절</h3><pre><code>   ┌───────────────────────────────────────────────────────────┐
+   │   NP  +  PARTICIPLE  ( , )   ⟵ 주절과 문법적 연결 없음     │
+   │        · 자기 주어를 갖는다                                │
+   │        · 접속사가 없다                                     │
+   │        · 정동사가 없다  ⚠️ 찾지 마라                        │
+   │   의미: 시간 / 이유 / 부대상황 / ★ 삽입 논평                │
+   └───────────────────────────────────────────────────────────┘
+   TODAY'S TWO — 기능이 서로 다르다:
+     S6   … before Cyrus was born , ** that being ** nearly the period
+                 ⇒ ★ 삽입 논평 (= 그 간격이 대략 ~인 셈이다)
+     S10  … is established , ** the very thing being fulfilled **
+                 ⇒ ★ 이유 (= 바로 그것이 성취되고 있으므로)
+
+   ★ 형태 목록
+        NP + V-ing              the sun having set , we returned
+        NP + p.p.               his work finished , he slept
+        NP + being + 보어        that being the case , …
+        with + NP + …           with the door open , …
+   ★ 굳은 표현(이미 쓰고 있다)
+        that being said · all things considered · weather permitting
+        God willing · other things being equal · present company excepted
+
+   ⚠️ 그리고 오늘의 진짜 난코스 — ** 불연속 관계절 **
+        the very thing  BEING FULFILLED  to which they appeal
+             └ 선행사 ┘   └ 분사 ┘        └ 관계절이 분사를 뛰어넘음 ┘
+        RESTORE ⇒ the very thing ‹to which they appeal› being fulfilled
+   ★ 읽기 규칙: 관계절은 **가장 가까운 명사**가 아니라
+        **의미상 가능한 선행사**에 붙는다. 후보를 대입해 보고 결정하라.
+</code></pre><p><strong>변형 연습.</strong> 다음을 Formula 2 로 옮기시오(독립분사구문 두 개, 그중 하나에 불연속 관계절).</p><blockquote>
+<p>「그 도시는 함락되었고, 그 간격은 백 년이 조금 넘는 셈이었다. 예언자들이 자기 신빙성의 근거로 내세운 바로 그 표징이 성취되었으므로, 아무도 반박할 수 없었다.」</p>
+</blockquote><p><strong>모범 답안:</strong> <em>The city fell, </em><em>that being</em><em> little more than a hundred years' interval. </em><em>The very sign being fulfilled to which the prophets appealed</em><em> in proof of their credibility, none could gainsay it.</em>
+⚠️ 실패 유형 둘: (1) <code>that was little more than…</code> 로 정동사를 넣으면 독립분사구문이 아니다. (2) 관계절을 <code>the very sign to which the prophets appealed being fulfilled</code> 로 <strong>정상 어순</strong>에 두면 문법적으로는 옳지만 <strong>오늘의 훈련 대상(불연속)이 사라진다</strong>. ★ 두 형태를 다 쓸 줄 알아야 읽을 때 되돌릴 수 있다.</p><hr/><h3>Formula 3 — 분사형 접속사 <code>Supposing …</code> + 대격부정사 + <code>whence …?</code> 소거논법</h3><pre><code>   ┌───────────────────────────────────────────────────────────┐
+   │   SUPPOSING  +  O  +  (NOT)  TO BE  +  C  ,               │
+   │        WHENCE  shall it be said  that  S … V-ed  ,        │
+   │        IF IT WAS NOT FROM  X  ?                           │
+   │                                                           │
+   │   ① Supposing = 분사가 굳은 접속사 (= 설령 ~라 해도)        │
+   │      ⚠️ 현수분사 규칙 적용 안 됨 — 이미 접속사다             │
+   │   ② O + (not) to be + C = 대격부정사                       │
+   │      ⚠️ 부정어는 to **앞**: `it NOT to be` (to not be ✗)   │
+   │   ③ whence = from where — ★ 짝은 뒤쪽의 `proceeded`        │
+   │   ④ if it was not from X ? = 마지막 문을 닫는 조건절        │
+   └───────────────────────────────────────────────────────────┘
+   ★ 분사형 접속사 목록 (전부 현수분사 면제)
+        supposing · seeing · granting · considering · provided
+        given · allowing · notwithstanding · concerning · regarding
+   ★ 고어 wh- 부사 4종
+        whence 어디로부터 · whither 어디로 · hence 여기서·그러므로
+        thence 거기서부터   (+ hitherto 지금까지)
+
+   ⚠️ 소거논법의 논리 형태 — 이것이 §8 전체의 엔진이다
+        ① 상대의 최선의 반론을 먼저 인정한다   (Supposing …)
+        ② 대안적 출처를 대라고 요구한다         (whence …?)
+        ③ 남은 하나를 **질문으로** 제시한다      (if it was not from God?)
+     ★ 칼빈은 "하나님이 하셨다"라고 결론을 쓰지 않는다.
+       독자가 쓰게 만든다. 그래서 이 절은 거의 전부 의문문이다.
+</code></pre><p><strong>변형 연습.</strong></p><blockquote>
+<p>「설령 그 숫자가 충분한 증거는 아니라고 치더라도, 그가 백 년 전에 말한 그 이름은 어디에서 나왔다고 할 것인가, 하나님으로부터가 아니라면?」</p>
+</blockquote><p><strong>모범 답안:</strong> <strong><em>Supposing</em>* the number </strong>not to be<strong> sufficient evidence, </strong>whence<strong> shall it be said that the name he uttered a hundred years before </strong>proceeded<strong>, </strong>if it was not from God<strong>?*
+⚠️ 실패 유형 셋: (1) <code>Supposing the number is not…</code> — 접속사로는 되지만 </strong>대격부정사 조건 미충족<strong>. (2) <code>not to be</code> 를 <code>to not be</code> 로 — ★ 이 문체에서는 언제나 <code>not to be</code>. (3) <code>where … from</code> 으로 풀어 쓰기 — 뜻은 같으나 </strong><code>whence</code> 를 쓰라**는 게 오늘 과제다.</p><hr/><h3>Formula 4 — 비축약 부정의문문 3형 + 추론의 <code>must have p.p.</code> + 의지의 <code>will</code></h3><pre><code>   ┌───────────────────────────────────────────────────────────┐
+   │   ① DOES NOT + S + V …?          (S8)                     │
+   │   ② MUST NOT + S + HAVE p.p. …?  (S9)                     │
+   │   ③ DID NOT + S + V(원형) …?     (S14)                    │
+   │        ★ 셋 다 = 강한 긍정. 읽는 즉시 평서문으로 바꿔라.     │
+   │                                                           │
+   │   어순 세 가지가 모두 옳다:                                 │
+   │        Didn't he V …?   /  Did not he V …?  /  Did he not V …? │
+   │   ⚠️ 오답 유형: `Did not he V-ed` (did 뒤 원형!)            │
+   │                                                           │
+   │   ★ must not ~ have p.p. ? 는 **금지가 아니다**            │
+   │        추론의 must + 의문의 부정                            │
+   │        = "~했음에 틀림없지 않은가"                          │
+   │        ⚠️ 금지의 must not 은 완료형을 취하지 않는다 —        │
+   │          이것이 판별 기준이다.                              │
+   │                                                           │
+   │   ★ 그리고 if절의 will (S15)                               │
+   │        IF + S + WILL + V = ~할 마음이 있다면 (의지)         │
+   │        ⚠️ 단순미래 ✗ (if절엔 미래 will 을 쓰지 않는다)       │
+   │        판별: "are willing to" 로 바꿔 자연스러우면 의지.     │
+   └───────────────────────────────────────────────────────────┘
+</code></pre><p><strong>변형 연습.</strong></p><blockquote>
+<p>「이 꾸밈없는 기록이 분명히 보여 주지 않는가? 그의 혀가 성령의 인도를 받았음에 틀림없지 않은가? 그리고 경건한 이들이 제대로 묵상할 마음만 있다면, 그들은 충분히 배우게 될 것이다.」</p>
+</blockquote><p><strong>모범 답안:</strong> <strong><em>Does not</em>* this unadorned narrative plainly show it? </strong>Must not<strong> his tongue </strong>have been guided<strong> by the Spirit? And </strong>if<strong> the pious </strong>will<strong> duly meditate, they will be sufficiently instructed.*
+⚠️ 실패 유형: (1) <code>Doesn't</code>·<code>Mustn't</code> 축약 — 뜻은 같으나 </strong>비축약 어순 훈련<strong>이 오늘 과제. (2) <code>Must not his tongue be guided</code> — ★ </strong>완료형을 빼면 추론이 아니라 금지로 읽힌다.<strong> (3) <code>if the pious meditate duly</code> — 의지의 <code>will</code> 이 빠지면 </strong>조건이 성향이 아니라 사실이 된다**. 칼빈의 요점이 사라진다.</p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (어원 후킹 테이블)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>tedious</strong> (S2)</td>
+<td>지루한, 진력나는</td>
+<td><em>taedium</em> (weariness) &lt; <em>taedet me</em> "그것이 나를 지치게 한다" — ⚠️ <strong>어원부터 비인칭</strong>이라 <code>it were too tedious</code> 라는 형태와 딱 맞는다. <em>taedium vitae</em> = 삶에 대한 권태</td>
+</tr>
+<tr>
+<td><strong>enumerate</strong> (S2)</td>
+<td>낱낱이 열거하다</td>
+<td><em>e-</em>(out) + <em>numerus</em>(number) = <strong>수를 밖으로 꺼내다</strong>. innumerable(셀 수 없는), supernumerary(정원 외의)</td>
+</tr>
+<tr>
+<td><strong>confide in</strong> (S3)</td>
+<td>⚠️ <strong>신뢰하다</strong> (비밀을 털어놓다 ✗)</td>
+<td><em>com</em> + <em>fidere</em>(믿다) &lt; <em>fides</em>. ★ <strong>추상명사를 목적어로 받으면 언제나 '신뢰'</strong>: confide in the protection / in riches. 식구: fidelity, diffident(<em>dis+fidere</em> → 자신 없는), perfidy, fiancé</td>
+</tr>
+<tr>
+<td><strong>Chaldeans</strong> (S3)</td>
+<td>갈대아인 = 신바빌로니아</td>
+<td>Heb. <strong>כַּשְׂדִּים</strong> <em>Kaśdîm</em>. ⚠️ 다니엘서에서는 <strong>점성술사</strong>를 뜻하기도 한다(단2:2) — 바빌론이 별점의 본산이라. <strong>두 뜻을 분리해 둘 것</strong></td>
+</tr>
+<tr>
+<td><strong>fabulous</strong> (S4)</td>
+<td>⚠️ <strong>황당한, 꾸며낸 이야기 같은</strong> (멋진 ✗)</td>
+<td><em>fabula</em>(우화) &lt; <em>fari</em>(말하다). ★ 같은 뿌리: <strong>fate</strong>(<em>fatum</em> = 말해진 것), <strong>infant</strong>(<em>in-fans</em> = 말 못 하는), fame, preface, ineffable. <strong>'훌륭하다'는 20세기 속어 반전</strong></td>
+</tr>
+<tr>
+<td><strong>whence</strong> (S4)</td>
+<td>어디로부터</td>
+<td>4종 세트로 외운다: <strong>whence</strong>(어디서부터) / <strong>whither</strong>(어디로) / <strong>hence</strong>(여기서·그러므로) / <strong>thence</strong>(거기서부터). ⚠️ AV의 <code>from whence</code> 는 중복이지만 흔하다</td>
+</tr>
+<tr>
+<td><strong>proceed</strong> (S4)</td>
+<td>(~에서) 비롯되다</td>
+<td><em>pro</em>(앞) + <em>cedere</em>(가다). ★ <strong>신조(creed)의 전문용어</strong> — 성령이 성부로부터 <em>procedit</em>. <strong>칼빈이 예언의 기원에 쓰는 동사가 곧 성령의 기원에 쓰이는 동사</strong></td>
+</tr>
+<tr>
+<td><strong>subdue</strong> (S5)</td>
+<td>정복하다, 굴복시키다</td>
+<td>형태는 프랑스어(<em>souduire</em>), 뜻은 라틴어(<em>subdere</em>, 밑에 두다) — ⚠️ <strong>혼혈 단어</strong>. <em>sub-</em> 계열: submit, subject, subordinate</td>
+</tr>
+<tr>
+<td><strong>elapse</strong> (S6)</td>
+<td>(시간이) 경과하다</td>
+<td><em>e-</em>(away) + <em>labi</em>(미끄러지다) = <strong>미끄러져 사라지다</strong>. ★ 주어는 언제나 시간. 식구: lapse, collapse(<em>com+labi</em>, 함께 무너지다), relapse</td>
+</tr>
+<tr>
+<td><strong>monarchy</strong> (S7)</td>
+<td>군주국, 왕조</td>
+<td><em>monos</em>(홀로) + <em>archein</em>(다스리다). ★ <em>archein</em> 가족: anarchy, hierarchy, patriarch, <strong>architect</strong>(<em>archi+tektōn</em> = 우두머리 목수)</td>
+</tr>
+<tr>
+<td><strong>conjecture</strong> (S8)</td>
+<td>억측, 추측</td>
+<td><em>com</em>(together) + <em>iacere</em>(던지다) = <strong>이것저것 던져 모은 것</strong>. ⚠️ <strong>어원 자체가 모욕</strong>이다 — 칼빈이 <code>oracle</code> 과 대비시키는 이유. 식구: project, reject, eject, object, jettison</td>
+</tr>
+<tr>
+<td><strong>oracle</strong> (S8)</td>
+<td>신탁</td>
+<td><em>orare</em>(말하다·빌다) &lt; <em>os, oris</em>(입) = <strong>입에서 나온 응답</strong>. 식구: oral, orator, adore(<em>ad+orare</em>), <strong>inexorable</strong>(<em>in+ex+orare</em> = 빌어서 뺄 수 없는)</td>
+</tr>
+<tr>
+<td><strong>demonstrate</strong> (S8)</td>
+<td>명백히 증명하다</td>
+<td><em>de-</em> + <em>monstrare</em>(보이다) &lt; ⚠️ <strong>monstrum</strong>(전조·징조) &lt; <em>monere</em>(경고하다). ★ <strong>demonstrate 와 monster 는 한 뿌리 — 괴물은 원래 '징조'였다.</strong> 식구: monitor, admonish, premonition</td>
+</tr>
+<tr>
+<td><strong>effrontery</strong> (S10)</td>
+<td>뻔뻔함, 철면피</td>
+<td><em>ex</em> + <em>frons, frontis</em>(<strong>이마</strong>) = <strong>이마를 내밀고 버티는 것</strong>. ★ <strong>affront</strong> = 이마를 치다 → 모욕하다. ⚠️ 성경의 부끄러움 관용구도 얼굴·이마다(렘3:3 "창녀의 이마", 겔3:8-9)</td>
+</tr>
+<tr>
+<td><strong>credibility</strong> (S10)</td>
+<td>신빙성</td>
+<td><em>credere</em> &lt; PIE <em>ḱred-dʰeh₁-</em> = ⚠️ <strong>"심장을 두다"</strong>. 식구: creed, credit, credulous, ★ <strong>miscreant</strong>(<em>mis+credere</em> = 잘못 믿는 자 → 원래 <strong>이단자</strong>, 나중에 악당) — <strong>내일 §9 첫 문장에 나온다</strong></td>
+</tr>
+<tr>
+<td><strong>harmonise</strong> (S12)</td>
+<td>일치하다</td>
+<td><em>harmos</em>(이음매) — ★ <strong>어원은 음악이 아니라 목공</strong>. 딱 맞물리는 것. Gk. <em>arthron</em>(관절) → arthritis 와 같은 PIE <em>ar-</em>(맞추다)</td>
+</tr>
+<tr>
+<td><strong>dictate</strong> (S12)</td>
+<td>받아쓰게 하다</td>
+<td><em>dictare</em> &lt; <em>dicere</em>(말하다)의 반복형. 식구: edict, <strong>verdict</strong>(<em>vere+dictum</em> = 참된 말), contradict, predict, ⚠️ <strong>ditto</strong>(같은 말 또 함)</td>
+</tr>
+<tr>
+<td><strong>embrace</strong> (S14)</td>
+<td>⚠️ <strong>포괄하다, 아우르다</strong> (껴안다 ✗)</td>
+<td><em>in</em> + <em>brachium</em>(<strong>팔</strong>) = 팔 안에 넣다 → <strong>범위에 넣다</strong>. ★ 현대 잔존형: <code>an all-embracing theory</code>, <code>the term embraces both cases</code></td>
+</tr>
+<tr>
+<td><strong>deliver</strong> (S14)</td>
+<td>(예언을) 내놓다·발하다</td>
+<td><em>de-</em> + <em>liberare</em>(풀어 주다) = <strong>풀어놓다</strong>. ⚠️ <code>deliver a speech</code> 와 <code>deliver us from evil</code> 이 <strong>같은 동사</strong>. ★ 예언은 '말해지는' 게 아니라 '풀려나는' 것</td>
+</tr>
+<tr>
+<td><strong>generally known</strong> (S14)</td>
+<td>⚠️ <strong>널리 알려진</strong> (보통 알려진 ✗)</td>
+<td><em>genus, generis</em>(종족·부류) → <strong>부류 전체에게 알려진 = 상식인</strong>. 식구: genre, gender, generate, ingenuous, <strong>genius</strong></td>
+</tr>
+<tr>
+<td><strong>duly</strong> (S15)</td>
+<td>마땅히, 제대로</td>
+<td><em>due</em> &lt; <em>debere</em>(빚지다) = <strong>마땅히 치러야 할 만큼</strong>. ⚠️ 군더더기가 아니다 — <strong>부주의한 독자는 설득되지 않는다는 것을 칼빈이 조용히 인정하는 자리</strong></td>
+</tr>
+<tr>
+<td><strong>cavil</strong> (S15)</td>
+<td>트집, 억지 시비</td>
+<td><em>cavilla</em>(조롱·말꼬리). ⚠️ <strong>논증이 아니라 트집</strong> — 그래서 칼빈의 동사가 <code>refute</code> 가 아니라 <strong><code>silence</code></strong> 다. 트집은 논박하는 게 아니라 입을 다물게 하는 것</td>
+</tr>
+<tr>
+<td><strong>gainsay</strong> (S16)</td>
+<td>반박하다, 부인하다</td>
+<td><code>gain-</code>(OE <em>gegn-</em> = <strong>against</strong>, 독일어 <em>gegen</em>) + <code>say</code> = <strong>맞서 말하다</strong>. ★ 라틴어 <em>contradicere</em> 의 <strong>순수 게르만어 직역</strong>. ⚠️ 현대에는 관용구 하나로만 생존: <code>there is no gainsaying it</code></td>
+</tr>
+<tr>
+<td><strong>pious / the pious</strong> (S15)</td>
+<td>경건한 (이들)</td>
+<td><em>pius</em> — ⚠️ 로마의 <em>pietas</em> 는 신·가족·국가에 대한 <strong>의무 전반</strong>이라 영어 "piety"보다 훨씬 넓다. ★ <strong>pity 는 piety 의 쌍둥이 낱말</strong>(doublet)</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>① 이 절이 챕터 안에서 하는 일 — 그리고 하지 않는 일.</strong>
+§8은 <strong>Ch. 8 전체 논증의 세 번째 블록</strong>이다. 배열은 이렇다: §§1–2 총론과 문체, §§3–7 <strong>모세</strong>, <strong>§8 나머지 선지자들</strong>, §§9–10 <strong>반론(저자·전승)</strong>, §§11 신약, §§12–13 교회사·순교자·결론. ⚠️ 그러니 §8은 <strong>구약 논증의 절정이자 마지막 절</strong>이고, 바로 다음 문장부터 칼빈은 수비로 돌아선다. ★ <strong>논증이 가장 강한 지점 바로 뒤에 반론이 오는 이 배치는 우연이 아니다 — 칼빈은 자기 최강 패가 어디서 공격받을지 알고 있다.</strong></p><p><strong>② 예언 논증(argumentum ex prophetia)의 족보.</strong>
+이 논증은 칼빈의 발명이 아니다. ★ <strong>유스티누스</strong>(<em>Dial.</em>), <strong>오리게네스</strong>(<em>Contra Celsum</em>), <strong>에우세비오스</strong>(<em>Praep./Dem. Evang.</em>), <strong>아우구스티누스</strong>(<em>De civ. Dei</em> XVIII)로 이어지는 고대 변증의 주력이었고, 특히 <strong>다니엘의 70이레</strong>는 에우세비오스 이래 표준 전시물이었다. ⚠️ <strong>칼빈이 새로 한 일은 논증의 발명이 아니라 논증의 <em>등급 조정</em>이다.</strong> §1에서 그는 이미 못을 박아 두었다: <em>"In vain were the authority of Scripture fortified by argument…"</em> — <strong>논증은 성령의 내적 증거를 대체하지 않는다.</strong> ★ 오늘 S15가 그 위계를 문장 하나로 재확인한다: 대상은 <code>the pious</code>, 목적은 <code>to silence the cavils</code>. <strong>설득이 아니라 방어.</strong></p><p><strong>③ 이사야와 고레스 — 칼빈의 최강 패이자 최대 노출부.</strong>
+사44:28과 45:1은 고레스를 <strong>이름으로</strong> 부르고, 45:1은 그를 <strong>מְשִׁיחוֹ</strong> <em>məšîḥô</em>("그의 기름부음 받은 자")라 부른다 — ⚠️ <strong>성경에서 이방인 군주에게 붙은 유일한 '메시아' 칭호다.</strong> ★ 칼빈에게 이것은 §8의 논증 그 자체다: 고유명사는 늘일 수도 비틀 수도 없다.
+⚠️ <strong>그런데 바로 그 점 때문에 이 예언은 재연대(re-dating) 공격에 가장 취약하다.</strong> 18세기 후반 <strong>되덜라인(Doederlein)·아이히호른</strong> 이후 사40–66을 포로기 말(주전 6세기)로 보는 견해가 자리 잡았고, 그 견해에서 고레스 언급은 예고가 아니라 <strong>동시대 언급</strong>이 된다. ★ <strong>한계선을 정확히 그어라:</strong> 칼빈의 논증은 <strong>16세기의 반론(예언은 우연·위조)</strong> 에는 유효하지만, <strong>본문 연대 자체를 옮기는 근대 비평의 반론</strong>과는 층위가 다르다. ⚠️ <strong>"칼빈이 논파했다"고도, "칼빈이 반박됐다"고도 말하지 마라.</strong> 그는 자기 시대의 반론을 다뤘고, 근대의 반론이 겨누는 곳(<strong>저작권과 전승</strong>)을 그도 §§9–10에서 다루려 한다 — <strong>다만 도구가 다르다.</strong></p><p><strong>④ 다니엘 — 같은 관찰, 반대 결론.</strong>
+S14의 <code>as if he had been writing of past events generally known</code> 은 <strong>비평학이 다니엘서의 마카베오 시대(주전 165년경) 저작을 주장할 때 드는 바로 그 관찰</strong>이다(포르피리오스가 3세기에 이미 제기했고, 히에로니무스가 반박했다). ★ <strong>양쪽이 동의하는 것: 정밀함은 실재한다.</strong> <strong>다투는 것: 연대뿐이다.</strong> ⚠️ 그러니 §8을 읽고 "다니엘 논쟁은 끝났다"고 말하는 것은 과대해석이고, "칼빈은 순진했다"고 말하는 것도 부정확하다 — <strong>포르피리오스의 반론은 칼빈 시대에도 알려져 있었고, 칼빈은 다니엘 주석(1561)에서 이를 다룬다.</strong> 오늘 본문에서 그가 그것을 다루지 않는 것은 <strong>여기가 개요이기 때문</strong>이다.</p><p><strong>⑤ 판본사 한 줄.</strong>
+Ch. 8의 이 증거 목록은 <strong>1539년판에서 크게 확장</strong>되었고 1559년 최종판에서 지금 자리(1권 8장)로 정착했다. ⚠️ <strong>1536년 초판에는 이만한 변증적 축적이 없다.</strong> ★ 그 사이에 무슨 일이 있었는가 — 칼빈이 <strong>스트라스부르에서 교사·논쟁가로 3년</strong>을 보냈고, 상대해야 할 회의론자와 재세례파와 인문주의 비판자들의 실제 목록이 늘었다. <strong>이 절의 목록성(prophet 넷을 훑는 방식)은 강의실에서 나온 문서다.</strong></p><p><strong>⑥ 후대 수용 — 그리고 과대해석 방지선.</strong>
+20세기에 이 장은 두 방향으로 읽혔다. ⚠️ 한쪽은 §8을 <strong>증거주의(evidentialism)의 근거</strong>로 삼아 "칼빈도 이성적 논증으로 성경을 입증했다"고 말했고, 다른 한쪽(<strong>바르트</strong>, 그리고 다른 이유로 <strong>플랜팅가</strong>의 개혁파 인식론)은 <strong>Ch. 7의 내적 증거가 기초이고 Ch. 8은 파생</strong>이라고 읽었다. ★ <strong>본문 자체가 후자를 지지한다</strong> — §1, S15, §13이 모두 같은 방향을 가리킨다.
+⚠️ <strong>하지만 반대 방향의 과대해석도 경계하라:</strong> "칼빈은 증거를 무시했다"는 말도 틀렸다. <strong>그는 열세 절을 증거에 쓴다.</strong> ★ 정확한 정식은 이것이다: <strong>증거는 신앙의 <em>기초</em>가 아니라 신앙의 <em>무장</em>이다.</strong> 기초는 성령, 무장은 논증. <strong>둘 다 필요하고, 순서가 바뀌면 칼빈이 아니다.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>1. Isaiah 39:5–7 — S3의 실제 출처. ⚠️ 본문의 <code>(Isaiah 55:1)</code> 은 오식이다.</strong></p><blockquote>
+<p><em>"Hear the word of the LORD of hosts: Behold, the days come, that all that is in thine house, and that which thy fathers have laid up in store until this day, shall be carried to Babylon: nothing shall be left, saith the LORD. And of thy sons that shall issue from thee, which thou shalt beget, shall they take away; and they shall be eunuchs in the palace of the king of Babylon."</em></p>
+</blockquote><p>★ <strong>어떻게 쓰는가:</strong> S3의 세 요소가 이 장에 모두 있다 — (a) <code>in his own day</code>(히스기야 재위), (b) <code>some ground to confide in the protection of the Chaldeans</code>(사39:1–2, <strong>므로닥발라단의 사절단</strong>과 히스기야가 보물을 보여 준 일 = 바빌론과의 친선 국면), (c) <code>the destruction of the city and the captivity of the people</code>(39:6–7). ⚠️ <strong>사55:1은 <code>Ho, every one that thirsteth</code>로, 본문과 아무 관계가 없다.</strong> ★ <strong>Period 1은 원문 그대로 두고, 여기서 사실을 말한다. 인용문은 고치지 않는다 — 주석을 단다.</strong></p><p><strong>2. Isaiah 44:28; 45:1 — S5의 <code>He names Cyrus</code>.</strong></p><blockquote>
+<p><em>"That saith of </em><em>Cyrus</em><em>, He is my shepherd, and shall perform all my pleasure: even saying to Jerusalem, Thou shalt be built; and to the temple, Thy foundation shall be laid."</em> (44:28)
+<em>"Thus saith the LORD to his </em><em>anointed</em><em>, to Cyrus, whose right hand I have holden, to subdue nations before him."</em> (45:1)</p>
+</blockquote><p>Heb. <strong>כּוֹרֶשׁ</strong> <em>Kōreš</em> / <strong>רֹעִי</strong> <em>rōʿî</em> "내 목자" / <strong>מְשִׁיחוֹ</strong> <em>məšîḥô</em> "그의 기름부음 받은 자".
+★ <strong>어떻게 쓰는가:</strong> 칼빈은 이 두 절을 <strong>인용하지 않고 사실만 취한다</strong> — "이름을 댄다"는 것. ⚠️ 어제 창49:10에서 Shiloh 난제를 건드리지 않았던 것과 <strong>정확히 같은 절제</strong>다. <strong>논증에 필요한 최소한만 취하라 — 사흘째 반복되는 원칙.</strong> ⚠️ 그리고 그가 <strong>건드리지 않은 것</strong>도 보라: 이방 왕에게 붙은 <code>anointed</code>(=메시아)라는 폭탄 같은 호칭. <strong>그것을 열면 논점이 흩어진다.</strong></p><p><strong>3. Isaiah 42:9 — S11에 </strong>축자 인용<strong>. §8의 방법론적 근거.</strong></p><blockquote>
+<p><em>"Behold, the former things are come to pass, and new things do I declare: before they spring forth I tell you of them."</em></p>
+</blockquote><p>Heb. <strong>הָרִאשֹׁנוֹת</strong> <em>hāriʾšōnôt</em>(이전 것들) / <strong>חֲדָשׁוֹת</strong> <em>ḥăḏāšôt</em>(새 것들) / <strong>בְּטֶרֶם תִּצְמַחְנָה</strong> <em>bəṭerem tiṣmaḥnâ</em> "그것들이 <strong>싹트기</strong> 전에" &lt; <strong>צָמַח</strong> <em>ṣāmaḥ</em>(싹나다).
+★ <strong>어떻게 쓰는가:</strong> <strong>이것이 S10의 <code>the very thing … to which they appeal</code> 이다.</strong> 검증 기준을 칼빈이 밖에서 들이댄 것이 아니라 <strong>선지자들이 스스로 내걸었다</strong>는 것. ⚠️ 그리고 어근 <strong>צֶמַח</strong> <em>ṣemaḥ</em>("싹")는 렘23:5·슥3:8·6:12에서 <strong>메시아 칭호("싹", the Branch)</strong> 다 — <strong>칼빈은 이 연결을 누르지 않는다. 알아두되 본문에 얹지 마라.</strong></p><p><strong>4. Isaiah 41:22–23 — 인용되지 않았으나 S10의 논리 자체.</strong></p><blockquote>
+<p><em>"Let them bring them forth, and shew us what shall happen… shew the things that are to come hereafter, that we may know that ye are gods."</em></p>
+</blockquote><p>★ <strong>어떻게 쓰는가:</strong> 여기서 <strong>예언 능력이 신성의 판별 기준으로 명문화</strong>된다. ⚠️ <strong>§8의 전 논증이 이 재판정 장면의 각주다</strong> — 이사야가 우상들에게 요구한 시험을, 칼빈은 이사야 자신에게 적용해 통과시킨다. ★ <strong>사46:9–10(<code>declaring the end from the beginning</code>)도 같은 계열.</strong> <strong>이것이 §8을 단순한 '기적 목록'과 갈라놓는 지점이다.</strong></p><p><strong>5. Jeremiah 25:11–12; 29:10 — S9의 70년.</strong></p><blockquote>
+<p><em>"And this whole land shall be a desolation… and these nations shall serve the king of Babylon </em><em>seventy years</em><em>."</em> (25:11)
+<em>"For thus saith the LORD, That after </em><em>seventy years</em><em> be accomplished at Babylon I will visit you, and perform my good word toward you, in causing you to return to this place."</em> (29:10)</p>
+</blockquote><p>Heb. <strong>שִׁבְעִים שָׁנָה</strong> <em>šiḇʿîm šānâ</em>.
+★ <strong>어떻게 쓰는가:</strong> S9의 두 동사(<code>assigned</code> … <code>and fixed</code>)가 이 두 절에 정확히 대응한다 — <strong>25장은 기간을 정하고, 29장은 귀환을 못 박는다.</strong> ⚠️ 그리고 <code>a considerable time before the people were led away</code> 는 렘25:1(<strong>여호야김 4년 = 주전 605년</strong>, 첫 사로잡힘 이전)에서 온다. <strong>칼빈의 시간 표시는 대충 쓴 말이 아니다.</strong></p><p><strong>6. 2 Samuel 23:2 — S9의 <code>his tongue</code> 뒤에 있는 어법.</strong></p><blockquote>
+<p><em>"The Spirit of the LORD spake by me, and his word was in my </em><em>tongue</em><em>."</em></p>
+</blockquote><p>★ <strong>어떻게 쓰는가:</strong> 영감을 <strong>인격이 아니라 발화 기관</strong>에 위치시키는 성경 자체의 표현. ⚠️ 칼빈이 <em>Jeremiah must have been guided</em> 가 아니라 <code>his tongue</code> 을 쓴 이유. <strong>선지자는 도구(<em>organum</em>)다 — 개혁파 영감론의 표준 강조.</strong> (cf. 벧후1:21 <em>ὑπὸ πνεύματος ἁγίου φερόμενοι</em> "성령에 이끌려".)</p><p><strong>7. Ezra 1:1–2 // 2 Chronicles 36:21–23 — S5·S9의 <code>the event</code>.</strong></p><blockquote>
+<p><em>"Now in the first year of </em><em>Cyrus</em><em> king of Persia, that the word of the LORD by the mouth of </em><em>Jeremiah</em><em> might be fulfilled…"</em> (스1:1)
+<em>"To fulfil the word of the LORD by the mouth of Jeremiah, until the land had enjoyed her sabbaths…"</em> (대하36:21)</p>
+</blockquote><p>★ <strong>어떻게 쓰는가:</strong> <strong>성취 보고서.</strong> 어제 배운 <code>the event</code>(<em>e+venire</em>, 결과)가 문서 형태로 존재하는 자리다. ⚠️ <strong>그리고 여기가 논증의 이음매이기도 하다:</strong> 시험을 내건 전승과 성취를 보고하는 전승이 같은 정경 안에 있다. ★ <strong>칼빈도 이 압력을 안다 — 그래서 §§9–10이 저자·전승 문제로 간다.</strong> <strong>강점과 취약점이 같은 자리에 있다는 것을 정직하게 표시해 두라.</strong></p><p><strong>8. Daniel 9:24–27 — S14의 <code>(Dan. 9, &amp;c)</code>.</strong></p><blockquote>
+<p><em>"</em><em>Seventy weeks</em><em> are determined upon thy people and upon thy holy city… unto the Messiah the Prince shall be seven weeks, and threescore and two weeks…"</em></p>
+</blockquote><p>Heb. <strong>שָׁבֻעִים שִׁבְעִים</strong> <em>šāḇuʿîm šiḇʿîm</em> (70 이레) = 70 × 7 = <strong>490년</strong>.
+★ <strong>어떻게 쓰는가:</strong> 칼빈은 70이레의 계산법을 여기서 열지 않는다(그의 다니엘 주석에서 다룬다). ⚠️ <strong>그리고 산수를 혼동하지 마라:</strong> 본문의 <code>almost six hundred years</code> 는 <strong>490이 아니라</strong> 다니엘의 시대(주전 605/539)에서 성취(주후 1세기)까지의 <strong>총 간격</strong>이다. ★ <strong>두 숫자는 서로 다른 것을 재고 있다. 칼빈을 490으로 '교정'하지 말 것.</strong></p><p><strong>9. Deuteronomy 18:21–22 — S10의 <code>the very thing … to which they appeal</code> 의 법적 근거.</strong></p><blockquote>
+<p><em>"And if thou say in thine heart, How shall we know the word which the LORD hath not spoken? When a prophet speaketh in the name of the LORD, if the thing follow not, nor come to pass, that is the thing which the LORD hath not spoken."</em></p>
+</blockquote><p>★ <strong>어떻게 쓰는가:</strong> ⚠️ <strong>이것이 결정적이다.</strong> 성취라는 검증 기준은 사42:9의 수사가 아니라 <strong>모세 율법이 정한 법적 시험</strong>이다. <strong>선지자 직분 자체가 반증 조건과 함께 제도화되어 있었다.</strong> ★ <strong>그래서 S10의 <code>the very thing</code> 이 '바로 그것'인 것이다 — 칼빈이 고른 시험이 아니라, 신명기가 정하고 이사야가 자임한 시험.</strong> <strong>이 각주 하나로 S10의 자기지시 구조가 완성된다.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① 어법 — 밑줄 넷 중 어색한 것 하나</h3><blockquote>
+<p>I will only select a few examples, for <strong>ⓐ it were</strong> too tedious to enumerate the whole. … more than a hundred years elapsed before Cyrus was born, <strong>ⓑ that being</strong> nearly the period which elapsed between the death of the one and the birth of the other. … What effrontery <strong>ⓒ was it</strong> to deny that, by these evidences, the authority of the prophets is established, the very thing <strong>ⓓ being fulfilled</strong> to which they appeal in support of their credibility!</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: ⓒ</strong> → <code>were it</code></p><p><strong>출제 의도 해설.</strong> 오늘 Formula 1·2 를 한 단락에 겹쳐 놓았다.
+- <strong>ⓐ <code>it were</code></strong> ✓ — <strong>맨동사 가정법</strong>(= it would be). ⚠️ 가장 '틀려 보이는' 선지라 절반이 여기를 찍는다. ★ 판별: 뒤의 부정사 <code>to enumerate</code> 가 <strong>조건을 품고 있다</strong>(= if I were to enumerate). <strong>조건이 부정사에 숨어 있으면 앞의 <code>were</code> 는 가정법이다.</strong>
+- <strong>ⓑ <code>that being</code></strong> ✓ — <strong>독립분사구문</strong>. 정동사가 없는 것이 정상이다. ⚠️ "주어 that 에 동사가 없다"고 오답 처리하기 쉽다. ★ <code>that being said</code>·<code>all things considered</code> 와 같은 기계.
+- <strong>ⓒ <code>was it</code></strong> ✗ — ⚠️ <strong>오늘의 정답.</strong> 원문은 <code>What effrontery **were it** to deny…!</code> ★ (a) 사실이 아닌 <strong>가정</strong>을 말하고 있으므로 직설법 과거 <code>was</code> 가 아니라 <strong>가정법 <code>were</code></strong>, (b) <code>to deny</code> 안에 조건이 들어 있고(= if anyone were to deny), (c) 전치된 보어 <code>What effrontery</code> 뒤에서 <strong>도치</strong>가 일어나 <code>were it</code> 이 된다. <strong><code>was it</code> 은 시제·서법·논리가 한꺼번에 어긋난다.</strong>
+- <strong>ⓓ <code>being fulfilled</code></strong> ✓ — <strong>독립분사구문 #2</strong>, 이유. ⚠️ 뒤의 <code>to which they appeal</code> 이 분사를 뛰어넘어 <code>the very thing</code> 에 걸리는 <strong>불연속 관계절</strong>이라 어색해 보이지만, ★ <strong>관계절은 가장 가까운 명사가 아니라 의미상 가능한 선행사에 붙는다.</strong></p><h3>② 내용일치 — 다음 중 §8 의 논지와 일치하는 것은?</h3><blockquote>
+<p>ⓐ Calvin argues that the prophecies of Isaiah, Jeremiah and Daniel are superior to those of Moses because they span longer intervals between utterance and fulfilment.
+ⓑ Calvin concedes that foretelling the captivity might not by itself prove inspiration, and rests the weight of the Isaiah argument on the naming of Cyrus more than a century before his birth.
+ⓒ Calvin holds that these evidences establish the authority of Scripture, so that the ungodly, upon considering them, are brought to faith.
+ⓓ Calvin declines to discuss Jeremiah and Ezekiel because their prophecies, delivered far apart, do not agree closely enough to be used as evidence.</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: ⓑ</strong></p><p><strong>출제 의도 해설.</strong>
+- <strong>ⓐ 방향은 맞고 근거가 뒤집힌 함정 — 오늘의 대표 오답.</strong> S1은 <code>even **clearer**</code> 라고 했지 <em>longer</em> 라고 하지 않았다. ⚠️ <strong>§7의 통화는 400년·2,000년이라는 '간격'이었고, §8의 통화는 이름·숫자·연대라는 '명료성'이다.</strong> ★ 오늘 칼빈은 오히려 <strong>더 짧은 간격</strong>(100년, 70년)을 들고 나온다. <strong>§7의 논리를 §8에 그대로 얹으면 걸린다.</strong>
+- <strong>ⓑ 정답.</strong> S4의 양보(<code>Supposing it not to be sufficient evidence … to foretell</code>)와 S5–S6(<code>He names Cyrus</code> / <code>more than a hundred years elapsed before Cyrus was born</code>)을 정확히 옮겼다. ★ <strong>양보한 것(재앙 예고)과 남겨 둔 것(귀환과 이름)을 구분한 것이 이 선지의 핵심.</strong>
+- <strong>ⓒ 범위 초과 두 겹.</strong> (1) S10은 <code>the authority of **the prophets** is established</code> 라고 했지 <strong>성경의 권위를 정초한다</strong>고 하지 않았다 — §1과 §13이 명시적으로 반대한다. (2) S15의 수혜자는 <code>the pious</code> 이고 목적은 <code>to **silence** the cavils of the ungodly</code> 다 — ⚠️ <strong>불신자를 회심시키는 것이 아니라 트집을 잠재우는 것.</strong> ★ <strong>증거는 신앙의 기초가 아니라 신자의 무장이다.</strong> 이 구분을 놓치면 칼빈이 증거주의자가 된다.
+- <strong>ⓓ 정반대 + praeteritio 오독.</strong> S12는 <code>I say nothing of</code> 라고 <strong>말하면서 말한다</strong>. 그리고 그가 말하는 내용은 두 선지자가 <code>harmonise **as completely** … **as if** they had mutually dictated the words to one another</code> — <strong>극도로 일치한다</strong>는 것이다. ⚠️ <strong><code>say nothing of</code> 를 '증거로 못 쓴다'로 읽으면 세 번의 praeteritio를 전부 놓친다.</strong></p><h3>③ 영작 — 오늘의 공식을 적용해 옮기시오</h3><blockquote>
+<p><strong>문제:</strong> 「설령 그 재앙의 예고가 충분한 증거는 아니라고 치더라도, 그가 백 년 전에 부른 그 이름은 어디에서 나왔다고 할 것인가, 하나님으로부터가 아니라면? 그 예언자는 그 사람이 태어나기 오래전에 죽었으니, 그 간격이 거의 한 세대의 곱절인 셈이다. 이것을 부인한다면 그것은 얼마나 뻔뻔한 짓이겠는가 — 선지자들이 자기 신빙성의 근거로 내세운 바로 그 표징이 성취되고 있는데!」</p>
+<p>(조건: Formula 3 의 <code>Supposing … not to be …, whence … if it was not from …?</code>, Formula 2 의 독립분사구문 1개와 불연속 관계절 1개, Formula 1 의 <code>What N were it to V …!</code> 를 각각 사용할 것.)</p>
+</blockquote><p><strong>모범 답안:</strong></p><blockquote>
+<p><strong><em>Supposing</em>* the threatened calamity </strong>not to be<strong> sufficient evidence of divine inspiration, </strong>whence<strong> shall it be said that the name he uttered a hundred years before </strong>proceeded<strong>, </strong>if it was not from God<strong>? The prophet died long before the man was born, </strong>that being<strong> nearly twice the space of a generation. </strong>What effrontery were it to deny<strong> this — </strong>the very sign being fulfilled to which<strong> the prophets </strong>appeal*<em> in support of their credibility!</em></p>
+</blockquote><p><strong>출제 의도 해설.</strong> 세 공식이 한 단락 안에서 서로 간섭하지 않는지를 본다. 자주 나오는 실패 다섯:
+1. <strong><code>Supposing that the threatened calamity is not sufficient evidence…</code></strong> — 접속사 용법은 맞지만 ⚠️ <strong>대격부정사 조건 미충족</strong>. 오늘 배운 것은 <code>Supposing + O + not to be + C</code> 다.
+2. <strong><code>to not be</code></strong> — ✗. ★ 이 문체에서 부정어는 <strong>언제나 <code>to</code> 앞</strong>이다. <code>not to be</code>.
+3. <strong><code>where … from</code></strong> 으로 풀어 쓰기 — 뜻은 통하지만 ⚠️ <strong><code>whence</code> 를 쓰라</strong>는 조건을 어겼고, 무엇보다 <code>whence</code> 의 짝이 22단어 뒤의 <code>proceeded</code> 라는 오늘의 핵심 훈련이 사라진다.
+4. <strong><code>that was nearly twice the space of a generation</code></strong> — 정동사를 넣는 순간 <strong>독립분사구문이 아니다</strong>. ★ <code>that being</code>.
+5. <strong><code>What effrontery it were to deny</code></strong> — ⚠️ 도치 누락. <strong>전치된 보어 뒤에서는 <code>were it</code>.</strong> 그리고 <code>What effrontery would it be</code> 로 바꾸면 뜻은 같으나 <strong>맨동사 가정법 조건 미충족</strong>이다.
+★ 마지막으로, 불연속 관계절을 정상 어순(<code>the very sign to which the prophets appeal … being fulfilled</code>)으로 되돌려 쓰면 <strong>문법은 옳지만 오늘의 과제가 아니다.</strong> <strong>두 형태를 다 쓸 줄 알아야 읽을 때 되돌릴 수 있다.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> ⚠️ <strong>§8은 §7의 논증을 반복하지 않는다 — 증거의 종류를 바꾼다:</strong> <code>In the case of the other prophets the evidence is **even clearer**</code> — 더 길어서가 아니라 <strong>더 명료해서</strong>, 곧 이름과 숫자와 연대가 붙어 <strong>반증 가능해서</strong>다. 칼빈은 세 번의 praeteritio(<code>I will only select a few examples</code>, <code>I say nothing of</code>, <code>What shall I say of Daniel?</code>)로 증거의 <strong>과잉</strong>을 연출하면서, 이사야가 <code>at peace</code> 상태의 유다에서 멸망을 예고했고(S3), 재앙 예고만으로는 부족하다고 <strong>양보한 뒤에도</strong>(<code>**Supposing** it not to be sufficient evidence…</code>) <code>**whence** shall it be said that the prophecies … proceeded, **if it was not from God**?</code> 라고 <strong>다른 문을 전부 닫으며</strong>(S4), <code>He **names Cyrus**</code> 라는 네 단어에 논증의 무게를 싣고(S5), <code>more than a hundred years elapsed before Cyrus was born, **that being** nearly the period…</code> 로 예언자와 그 이름 사이에 <strong>어떤 접촉도 없었음</strong>을 재어 보이고(S6), <code>**Does not** this simple, unadorned narrative plainly demonstrate…?</code>(S8) → <code>**must not** his tongue **have been guided**…?</code>(S9) → <code>**Did not he** deliver prophecies embracing … six hundred years…?</code>(S14)로 <strong>부정의문문 세 발</strong>을 쏜 다음, <code>**What effrontery were it** to deny …, **the very thing being fulfilled to which** they appeal in support of their credibility!</code>(S10)에서 <strong>선지자들 자신이 내건 시험</strong>(사42:9, 신18:21–22)이 그대로 충족되었음을 못 박는다. ★ 그리고 마지막에 그는 범위를 스스로 좁힌다 — <code>**If the pious will** duly meditate …, they will be sufficiently instructed **to silence the cavils of the ungodly**.</code> <strong>회심이 아니라 방어. 기초가 아니라 무장.</strong></p><p><strong>And the three grammar points, restated:</strong></p><ol>
+<li><strong><code>it were</code> / <code>What N were it to V …!</code></strong> — <strong>맨동사 가정법 <code>were</code> = <code>would be</code></strong>. ⚠️ 과거시제가 아니라 <strong>현재의 비현실</strong>이고, ★ <strong>조건은 부정사 안에 숨어 있다</strong>(<code>too tedious **to enumerate**</code> = if I were to enumerate; <code>**to deny**</code> = if anyone were to deny). 도치(<code>were it</code>)는 감탄이 아니라 <strong>가정법</strong>이 일으킨다. ★ 식구: <code>were it not for</code>, <code>be it that</code>(어제), <code>far be it from me to</code>, <code>it were better to</code>, <code>would that</code>.</li>
+<li><strong>독립분사구문 + 불연속 관계절.</strong> <code>that being nearly the period…</code>(S6, <strong>삽입 논평</strong>) / <code>the very thing being fulfilled to which they appeal…</code>(S10, <strong>이유</strong>). ⚠️ <strong>정동사를 찾지 마라 — 없다.</strong> ★ 그리고 S10에서 관계절은 분사를 뛰어넘어 선행사에 걸린다: <strong>관계절은 가장 가까운 명사가 아니라 의미상 가능한 선행사에 붙는다.</strong> 굳은 형태로 이미 쓰고 있다: <code>that being said</code>, <code>all things considered</code>, <code>weather permitting</code>, <code>God willing</code>.</li>
+<li><strong><code>Supposing X not to be Y, whence … if it was not from God?</code></strong> — 어제의 <code>Suppose … still</code> 이 <strong>분사형 접속사</strong>로 옷을 갈아입었고(식구: seeing·granting·considering·provided·given — ⚠️ <strong>전부 현수분사 규칙 면제</strong>), 그 안에 <strong>대격부정사</strong>(<code>it **not to be** sufficient</code>, 부정어는 <code>to</code> 앞)가 들어 있으며, 주절은 <strong>wh-소거 질문</strong>(<code>whence … proceeded</code> — 22단어 분리)이다. ★ <strong>칼빈은 결론을 쓰지 않는다. 다른 문을 다 닫고 독자가 쓰게 한다.</strong> 덤으로 <strong>비축약 부정의문문 3형</strong>(S8·S9·S14)과 <strong>if절의 의지 <code>will</code></strong>(S15)을 챙길 것.</li>
+</ol><p><strong>Homework (10 minutes).</strong></p><p><strong>① 구조 복원.</strong> <strong>S10</strong>을 네 줄로 풀어 쓰라: (a) 외치문 전치와 가정법 도치를 되돌린 평서문(<code>It would be …</code>), (b) 가주어–진주어를 되돌려 <code>to deny …</code> 를 문두 주어로 세운 형태, (c) 독립분사구문 <code>the very thing being fulfilled …</code> 를 <code>since</code>-절로 바꾸고 <strong>불연속 관계절을 정상 위치로 되돌린</strong> 형태, (d) <code>the very thing</code> 이 가리키는 것이 무엇인지 한 줄로 답하고 — ★ <strong>그 근거가 되는 성경 구절 두 개</strong>(하나는 본문 안, 하나는 오늘 7교시에서)를 대라.</p><p><strong>② 영작.</strong> <strong>S6</strong>을 두 문장으로 쪼개 쓴 뒤(독립분사구문을 정동사 문장으로 풀어서), 다시 <strong>한 문장의 독립분사구문</strong>으로 되돌려라. 그런 다음 한 줄로 답하라: <strong>왜 칼빈은 두 문장으로 쓰지 않고 분사구문을 택했는가?</strong> ⚠️ 힌트 — 주절이 재는 것과 분사구가 재는 것이 <strong>서로 다른 간격</strong>이다.</p><p><strong>③ 내일 예습 한 줄.</strong> §9는 이렇게 열린다: <code>I am aware of what is muttered in corners by certain miscreants, when they would display their acuteness in assailing divine truth.</code> — ★ <strong>어조가 바뀐다.</strong> 오늘까지가 증거 제시였다면 내일은 <strong>반론 처리</strong>다. ⚠️ 첫 문장부터 어휘가 사납다: <code>muttered in corners</code>(구석에서 웅얼거리는), <code>miscreants</code>(오늘 5교시 어휘표의 그 단어 — <em>mis+credere</em>, <strong>잘못 믿는 자</strong>), <code>assailing</code>. <strong>그리고 <code>when they **would** display</code> 의 <code>would</code> 를 눈여겨보라 — 오늘 S15의 의지 <code>will</code> 과 같은 계열이다(= ~하려 들 때).</strong> 반론의 내용은 <strong>저자 문제</strong>다: <code>how do we know that Moses and the prophets wrote the books which now bear their names?</code> ⚠️ <strong>준비해 둘 질문 하나:</strong> <em>오늘 §8의 논증은 텍스트의 </em><em>연대</em><em>에 전적으로 의존한다. 그렇다면 §9의 반론(저자·전승)은 §8을 보완하는 것인가, 아니면 §8이 이미 진 빚을 갚는 것인가?</em> ★ 답의 실마리는 오늘 S6의 <code>that being nearly the period…</code> 에 있다 — <strong>간격을 재려면 양 끝의 날짜가 먼저 확정되어야 한다.</strong></p><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 8, §8 끝. 다음은 <strong>Book 1, Ch. 8, §9</strong> (Day 45) — "Objection against Moses and the Prophets. Answer to it."</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>

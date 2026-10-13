@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 성경의 신빙성에 대한 증거들 §1 (1권 8장 · Day 37) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 8장 §1(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 37. 연관 성구: 고린도전서 2, 마태복음 13, 히브리서 4, 로마서 1."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day37_Book1-Ch8-%C2%A71.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="성경의 신빙성에 대한 증거들 §1 — 기독교 강요 영어로 읽기 (Day 37)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 8장 §1(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 37. 연관 성구: 고린도전서 2, 마태복음 13, 히브리서 4, 로마서 1."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day37_Book1-Ch8-%C2%A71.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 성경의 신빙성에 대한 증거들 §1 (1권 8장 · Day 37) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 8장 §1(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 37. 연관 성구: 고린도전서 2, 마태복음 13, 히브리서 4, 로마서 1.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 8장 §1 — 성경의 신빙성에 대한 증거들","mentions":[{"@type":"CreativeWork","name":"고린도전서 2 (1 Cor 2)"},{"@type":"CreativeWork","name":"마태복음 13 (Matt 13)"},{"@type":"CreativeWork","name":"히브리서 4 (Heb 4)"},{"@type":"CreativeWork","name":"로마서 1 (Rom 1)"},{"@type":"CreativeWork","name":"시편 34 (Ps 34)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day37_Book1-Ch8-%C2%A71.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 37 — Book 1, Chapter 8, §1<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (the whole § — 12 sentences, verbatim)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl2" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl3" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl3" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl2" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl3" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl2" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl3" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl3" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl2" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl3" href="#S11" onclick="closeNavMobile()">S11</a><a class="toc-s lvl3" href="#S12" onclick="closeNavMobile()">S12</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (어원 후킹 테이블)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 37 — Book 1, Chapter 8, §1</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday Calvin shut the door: <code>Scripture, carrying its own evidence along with it, deigns not to submit to proofs and arguments</code>. Today he opens a chapter of thirteen sections <strong>made entirely of proofs and arguments</strong>.</p><p>Look at that for one second before we go further. If you have understood Chapter 7 and you now read Chapter 8's title —</p><blockquote>
+<p><strong>THE CREDIBILITY OF SCRIPTURE SUFFICIENTLY PROVED IN SO FAR AS NATURAL REASON ADMITS</strong></p>
+</blockquote><p>— you should feel a jolt. Isn't this the very thing he just said was <code>preposterous</code> (§4) and beneath Scripture's dignity (§5)? Every hostile reader of Calvin since Bellarmine has said: <em>caught you</em>.</p><p><strong>He is not caught. He told you the answer four days ago and he tells you again in the first sentence of today's section.</strong> <code>preposterous</code> never meant <em>false</em> — it meant <strong>prae + posterus, out of order</strong>. So Calvin does not delete the proofs. He <strong>puts them second</strong>, and today's §1 is where he shows you what a proof looks like once it has been put second. Watch the first sentence do it:</p><pre><code>   In vain WERE the authority of Scripture
+        fortified by argument,                  ← that's Chapter 8 (this chapter!)
+        or supported by the consent of the Church,  ← that's Chapter 7 (refuted)
+        or confirmed by any other helps,
+   IF unaccompanied by an assurance higher and stronger
+        than human Judgment can give.           ← that's Chapter 7 (testimonium)
+</code></pre><p><strong>Calvin opens his chapter of arguments by putting his own chapter of arguments under the knife first.</strong> That is not a contradiction; that is a man who knows exactly what he is doing. And then S3 gives you the hinge word: those same proofs, received after the Spirit's work, <code>**become** most appropriate helps</code>. Not <em>are</em>. <strong>Become.</strong> One verb carries the whole two-tier structure.</p><p>Then, from S4 to S12, the chapter's real business begins — and it is a business you would not expect from a systematic theologian. Calvin, trained humanist, author of a commentary on Seneca, turns literary critic. Arrangement. Harmony. Majesty. Style. And the most startling move of the section: he argues that Scripture's <strong>bad prose is a providential design feature</strong> (S6), and that the plainest thing in the Bible hits harder than the whole of Greek oratory (S8, S12). If you have ever been embarrassed by the roughness of the Bible's Greek, S6 is written for you.</p><p>And then he ends by handing you a homework assignment that is also an experiment: <code>Read Demosthenes or Cicero, read Plato, Aristotle... but turn from them to the reading of the Sacred Volume</code>. ⚠️ That is not a rhetorical flourish. <strong>That is Augustine's own biography, running in reverse</strong> — and Period 6 will show you the passage.</p><p><strong>Today's 3 Big Points — write them down now:</strong></p><ol>
+<li><strong>The counterfactual machine, three moves in eight sentences.</strong> <code>**In vain were** the authority of Scripture fortified... **if unaccompanied by**</code> (S1: fronted adverbial + inversion + <em>were</em> = would be + a <strong>subjectless reduced conditional</strong>) → <code>**Had they been** adorned with a more splendid eloquence</code> (S7: if-deletion with inversion, past perfect) → <code>**But now**, when an unpolished simplicity... makes a deeper impression</code> (S8). ⚠️ That last one is the trap of the day: <strong><code>But now</code> here does not mean "at the present time."</strong> It is Latin <em>nunc vero</em> — <strong>"but as things actually stand."</strong> It is the marker that cancels the counterfactual.</li>
+<li><strong>The embedded <code>how</code>-clause — and the fact that it can be the SUBJECT.</strong> Four of them in a dash cascade in S4 (<code>how admirably the system... is arranged—how perfectly free the doctrine is—how beautifully it harmonises—how rich it is</code>), and then the killer in S11: <code>**How peculiarly this property belongs to Scripture** appears from this, that...</code>. That entire eight-word clause is the <strong>subject of <code>appears</code></strong>. It is not a question. There is no question mark. If you read it as a question the sentence has no main verb and you are finished.</li>
+<li><strong>The result-construction family, all three members present.</strong> <code>not **so** strong **as to** produce and rivet</code> (S3) · <code>**too** mighty in the power of truth **to** need the rhetorician's art</code> (S8) · and the triple in S12, <code>**so** affect you, **so** pierce your heart, **so** work its way into your very marrow, **that**...</code> — with the whole thing hung on a <strong>conditional imperative</strong>: <code>turn from them..., **and** ... it will so affect you</code>.</li>
+</ol><p>Twelve sentences. New chapter. The gloves come off. Let's go.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (the whole § — 12 sentences, verbatim)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+1. In vain were the authority of Scripture fortified by argument, or supported by the consent of the Church, or confirmed by any other helps, if unaccompanied by an assurance higher and stronger than human Judgment can give. Till this better foundation has been laid, the authority of Scripture remains in suspense. On the other hand, when recognising its exemption from the common rule, we receive it reverently, and according to its dignity, those proofs which were not so strong as to produce and rivet a full conviction in our minds, become most appropriate helps. For it is wonderful how much we are confirmed in our belief, when we more attentively consider how admirably the system of divine wisdom contained in it is arranged—how perfectly free the doctrine is from every thing that savours of earth—how beautifully it harmonises in all its parts—and how rich it is in all the other qualities which give an air of majesty to composition. Our hearts are still more firmly assured when we reflect that our admiration is elicited more by the dignity of the matter than by the graces of style. For it was not without an admirable arrangement of Providence, that the sublime mysteries of the kingdom of heaven have for the greater part been delivered with a contemptible meanness of words. Had they been adorned with a more splendid eloquence, the wicked might have cavilled, and alleged that this constituted all their force. But now, when an unpolished simplicity, almost bordering on rudeness, makes a deeper impression than the loftiest flights of oratory, what does it indicate if not that the Holy Scriptures are too mighty in the power of truth to need the rhetorician’s art?
+Hence there was good ground for the Apostle’s declaration, that the faith of the Corinthians was founded not on “the wisdom of men,” but on “the power of God,” (1 Cor. 2:5), this speech and preaching among them having been “not with enticing words of man’s wisdom, but in demonstration of the Spirit and of power,” (1 Cor. 2:5). For the truth is vindicated in opposition to every doubt, when, unsupported by foreign aid, it has its sole sufficiency in itself. How peculiarly this property belongs to Scripture appears from this, that no human writings, however skilfully composed, are at all capable of affecting us in a similar way. Read Demosthenes or Cicero, read Plato, Aristotle, or any other of that class: you will, I admit, feel wonderfully allured, pleased, moved, enchanted; but turn from them to the reading of the Sacred Volume, and whether you will or not, it will so affect you, so pierce your heart, so work its way into your very marrow, that, in comparison of the impression so produced, that of orators and philosophers will almost disappear; making it manifest that in the Sacred Volume there is a truth divine, a something which makes it immeasurably superior to all the gifts and graces attainable by man.
+⚠️ Text note (transcription, not Calvin) — five housekeeping items from our local Beveridge file.
+(1) Two line-break hyphenations have been closed: Cor-/inthians → Corinthians (S9), impres-/sion → impression (S12).
+(2) The page number 81 and the running chapter header falling immediately after attainable by man. are outside the section and have been left out. The paragraph break before Hence there was good ground is in the text and is preserved — it is a real paragraph division inside §1, not a page artifact.
+(3) The capitalised Judgment (S1) is an artifact of this electronic edition, as it has been for the last five days. Read it as lower-case.
+(4) ⚠️ The citation (1 Cor. 2:5) appears twice in S9, and the second one is wrong. The words not with enticing words of man’s wisdom, but in demonstration of the Spirit and of power are 1 Cor. 2:4, not 2:5. Beveridge (or his printer) repeated the reference. I quote the file as it stands — that is the rule — and you should mark 2:4 in your margin.
+(5) ⚠️ Also in S9: our file reads **this** speech and preaching among them. KJV 1 Cor 2:4 has **my** speech and **my** preaching. Beveridge is paraphrasing the possessive into a demonstrative to fit it inside Calvin's indirect construction. Quoted as found.
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>  ── PART A: THE ORDER IS FIXED FIRST (S1–S3) ──
+[⚠️ THE THESIS]  S1   IN VAIN WERE the authority of Scripture
+                        (i) fortified by argument            ← Ch.8, this chapter
+                        (ii) supported by the consent of the Church  ← Ch.7, refuted
+                        (iii) confirmed by any other helps
+                      IF UNACCOMPANIED BY an assurance HIGHER AND STRONGER
+                        than human judgment can give                ← Ch.7, testimonium
+[THE INTERIM]    S2   TILL this better foundation has been laid,
+                      the authority of Scripture REMAINS IN SUSPENSE
+[★ THE HINGE]    S3   ON THE OTHER HAND — when, recognising its EXEMPTION FROM
+                      THE COMMON RULE, we receive it reverently and according
+                      to its dignity → those proofs (which were NOT SO STRONG
+                      AS TO produce and rivet a full conviction)
+                      **BECOME** most appropriate helps
+                                    ↑ not "are." BECOME. 순서가 값을 만든다.
+
+  ── PART B: THE FIRST HELPS — THE BOOK AS A BOOK (S4–S5) ──
+[FIVE MARKS]     S4   it is wonderful HOW MUCH we are confirmed when we consider
+                        ① HOW ADMIRABLY the system of divine wisdom is ARRANGED
+                        ② HOW PERFECTLY FREE the doctrine is from what
+                           SAVOURS OF EARTH
+                        ③ HOW BEAUTIFULLY it HARMONISES in all its parts
+                        ④ HOW RICH it is in all the other qualities that give
+                           AN AIR OF MAJESTY to composition
+[RES &gt; VERBA]    S5   still more firmly assured when we reflect that admiration
+                      is elicited MORE BY THE DIGNITY OF THE MATTER
+                      THAN BY THE GRACES OF STYLE            ← res over verba
+
+  ── PART C: THE ARGUMENT FROM BAD PROSE (S6–S8) ──
+[PROVIDENCE]     S6   NOT WITHOUT an admirable arrangement of Providence:
+                      the SUBLIME MYSTERIES of the kingdom of heaven have
+                      been delivered with a CONTEMPTIBLE MEANNESS OF WORDS
+[COUNTERFACTUAL] S7   HAD THEY BEEN ADORNED with more splendid eloquence,
+                      the wicked MIGHT HAVE CAVILLED — "that's all their force is"
+[⚠️ BUT NOW]     S8   BUT NOW (= as things actually stand), an unpolished
+                      simplicity ALMOST BORDERING ON RUDENESS makes a DEEPER
+                      impression than the LOFTIEST FLIGHTS OF ORATORY —
+                      what does it indicate IF NOT that Scripture is
+                      TOO MIGHTY in the power of truth TO NEED the
+                      rhetorician's art?
+
+  ── PART D: PAUL, SELF-SUFFICIENCY, AND THE EXPERIMENT (S9–S12) ──
+[APOSTLE]        S9   1 Cor 2:5 — faith founded NOT ON "the wisdom of men"
+                      BUT ON "the power of God"; nominative absolute:
+                      "this speech and preaching ... HAVING BEEN ... in
+                      DEMONSTRATION of the Spirit and of power" (= 2:4)
+[PRINCIPLE]      S10  truth is VINDICATED against every doubt when,
+                      UNSUPPORTED BY FOREIGN AID, it has its SOLE
+                      SUFFICIENCY IN ITSELF
+[⚠️ AS SUBJECT]  S11  [HOW PECULIARLY this property belongs to Scripture]
+                      APPEARS FROM THIS, THAT no human writings, HOWEVER
+                      SKILFULLY COMPOSED, are AT ALL capable of affecting us
+                      in a similar way
+[THE EXPERIMENT] S12  READ Demosthenes/Cicero/Plato/Aristotle → allured,
+                      pleased, moved, enchanted (I ADMIT) — BUT TURN to the
+                      Sacred Volume, AND (WHETHER YOU WILL OR NOT) it will
+                      SO affect / SO pierce your heart / SO work into your
+                      VERY MARROW, THAT theirs almost disappears —
+                      A TRUTH DIVINE, A SOMETHING immeasurably superior to
+                      all the gifts and graces ATTAINABLE BY MAN
+</code></pre><p><strong>Examiner's Eye — the traps they will set:</strong></p><p><strong>Trap 1 (S1 + S3): the relation between the proofs and the Spirit is ORDER, not VALUE.</strong> This is the whole chapter in one trap, and it will be the number-one comprehension item for the next thirteen days. S1 says the proofs are <code>in vain ... if unaccompanied by</code> the higher assurance. S3 says that once the higher assurance is there, those same proofs <code>become most appropriate helps</code>. Two distractors get built out of this, and they are mirror images:</p><ul>
+<li>✗ <em>"Calvin dismisses rational proofs of Scripture's authority as worthless."</em> — <strong>False.</strong> <code>most appropriate helps</code> is a commendation, and he is about to spend twelve more sections producing them.</li>
+<li>✗ <em>"Calvin holds that the arrangement, harmony, and majesty of Scripture are sufficient to produce full conviction."</em> — <strong>False</strong>, and it is refuted by S3's own relative clause: <code>those proofs **which were not so strong as to produce and rivet a full conviction in our minds**</code>. He says the quiet part out loud inside the very sentence that praises them.</li>
+</ul><p><strong>Trap 2 (S8): <code>But now</code> is not temporal.</strong> They will offer an option reading "Calvin observes that in his own day plain style had come to move readers more than oratory" — a historical claim about the sixteenth century. Wrong. <code>But now</code> = <em>nunc vero</em>, <strong>"but as it actually is"</strong>, and it is the standard logical answer to a <code>Had they been...</code> counterfactual. The sentence is not about 1559; it is about the way the Bible in fact reads.</p><p><strong>Trap 3 (S6): <code>contemptible meanness of words</code> is a claim about STYLE, not about content — and it is a compliment to Providence, not a complaint.</strong> Note how the sentence is built: the subject is <code>the **sublime** mysteries of the kingdom of heaven</code> and the manner is <code>a **contemptible meanness** of words</code>. Maximum content, minimum packaging, <strong>on purpose</strong> (<code>not without an admirable arrangement of Providence</code>). Any option saying "Calvin concedes that parts of Scripture are of little worth" has confused <em>verba</em> with <em>res</em> — which is exactly the confusion S5 was written to prevent.</p><p><strong>Trap 4 (S12): who is <code>that</code> in <code>that of orators and philosophers</code>?</strong> It is a pro-form for <code>the impression</code>. <code>in comparison of the impression so produced, **that** of orators and philosophers will almost disappear</code> = <em>compared with the impression Scripture produces, the impression made by orators and philosophers all but vanishes</em>. If you read <code>that</code> as the orators themselves, or as the Sacred Volume, the comparison inverts and you will pick the wrong option.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the whole architecture in one hypothetical — plus a conditional clause with no subject and no verb</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>"In vain were the authority of Scripture fortified by argument, or supported by the consent of the Church, or confirmed by any other helps, if unaccompanied by an assurance higher and stronger than human Judgment can give."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>In vain</b></span></li><li><span class="leaf"><b>were</b> <b>fortified</b> by argument</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the authority of Scripture</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">등위 (or)</span><span class="leaf"><b>or</b> supported by the consent of the Church</span></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">등위 (or)</span><span class="leaf"><b>or</b> confirmed by any other helps</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if</b> ‹it were› <b>unaccompanied by</b> an assurance</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">higher and stronger than human Judgment can give</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>in vain</em> &lt; Lat. <em>in vanum</em>, <em>vanus</em> (empty) — cf. <em>vanity</em>, <em>evanescent</em>, <em>vaunt</em>; and this is the same <em>vanus</em> behind `labouring under vanity` (I.6.4) and Rom 1:21 ἐματαιώθησαν. — <em>fortify</em> &lt; <em>fortis</em> (strong) + <em>facere</em> → make strong; cf. <em>fort</em>, <em>fortitude</em>, <em>comfort</em> (= thoroughly strengthen). — <em>unaccompanied</em> &lt; <em>un-</em> + <em>ad-</em> + <em>com-</em> + <em>panis</em> (bread) → one who eats bread with you (<em>companion</em>) — the negation is a prefix, not a separate word. — <em>assurance</em> &lt; <em>ad-</em> + <em>securus</em> (<em>se-</em> + <em>cura</em>, free from care) → cf. <em>secure</em>, <em>sure</em>, <em>sinecure</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in vain</em> = 헛되이; <em>it were in vain to V</em> = ~해도 헛일일 것이다 (가정법); <em>fortify X by Y</em> = Y로 X를 방어·보강하다; <em>the consent of the Church</em> = 교회의 일치된 동의 (합의, 동의 절차 아님); <em>if unaccompanied by X</em> = X가 함께하지 않는다면.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">It would be pointless to prop up Scripture's authority with arguments, or with the agreement of the Church, or with any other kind of support, unless all of that came with a confidence that is higher and stronger than anything human judgment can supply.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>In vain were</b> → It would be pointless to</li><li><b>fortified by argument</b> → propped up with arguments</li><li><b>supported by the consent of the Church</b> → backed by the Church's agreement</li><li><b>if unaccompanied by</b> → unless it came with</li><li><b>human Judgment can give</b> → human reasoning can provide.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s2" title="2-star">★★</span><span class="s-label">a foundation and a hanging — two metaphors that collide, on purpose</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>"Till this better foundation has been laid, the authority of Scripture remains in suspense."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>Till</b> this better foundation <b>has been laid,</b></span></li></ul></li></ul></li><li><span class="leaf">the authority of Scripture</span></li><li><span class="leaf"><b>remains in suspense.</b></span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>suspense</em> / <em>suspend</em> &lt; <em>sub-</em> (under) + <em>pendere</em> (to hang) → cf. <em>pendant</em>, <em>pending</em>, <em>pendulum</em>, <em>depend</em> (hang from), <em>appendix</em>, <em>ponder</em> (weigh). — <em>foundation</em> &lt; <em>fundare</em> &lt; <em>fundus</em> (bottom) → cf. <em>fund</em>, <em>fundamental</em>, <em>profound</em> (<em>pro-</em> + <em>fundus</em>, toward the bottom). — <em>authority</em> &lt; <em>auctor</em> &lt; <em>augere</em> (to increase) → the one who makes a thing grow, hence the originator; cf. <em>author</em>, <em>augment</em>, <em>auction</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>lay a foundation</em> = 기초를 놓다; <em>remain in suspense</em> = 미결 상태로 남다·매달려 있다 (긴장감 X); <em>till ... has been p.p.</em> = ~되기까지는 (미래 의미).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Until that better foundation is in place, Scripture's authority is left hanging, unsettled.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Till ... has been laid</b> → Until ... is in place</li><li><b>this better foundation</b> → that deeper basis (the Spirit's assurance)</li><li><b>remains in suspense</b> → is left unsettled / stays up in the air.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ THE SENTENCE OF THE DAY — a comma that ruins you, and one verb that decides the whole chapter</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>"On the other hand, when recognising its exemption from the common rule, we receive it reverently, and according to its dignity, those proofs which were not so strong as to produce and rivet a full conviction in our minds, become most appropriate helps."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>On the other hand,</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> <b>we receive it</b> reverently, and according to its dignity</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">recognising its exemption from the common rule</span></li></ul></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>those proofs</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which were not so strong as to produce and rivet a full conviction in our minds</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>become</b> most appropriate helps</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>exemption</em> &lt; <em>ex-</em> + <em>emere</em> (to take, to buy) → taken out from; cf. <em>exempt</em>, <em>redeem</em> (<em>re-</em> + <em>emere</em>, buy back), <em>premium</em>, <em>example</em>. — <em>rivet</em> &lt; OFr. <em>river</em> (to fasten, clinch) → a pin clinched so it cannot withdraw. — <em>reverently</em> &lt; <em>re-</em> + <em>vereri</em> (to fear, to stand in awe) → cf. <em>reverence</em> (I.2.2's definition of piety!), <em>revere</em>, <em>awe</em>-adjacent. — <em>appropriate</em> &lt; <em>ad-</em> + <em>proprius</em> (one's own) → fitted to the thing; hence "exactly suited," not merely "acceptable." — <em>conviction</em> &lt; <em>con-</em> + <em>vincere</em> (to conquer) — running since §4.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>on the other hand</em> = 반면에; <em>recognise X's exemption from Y</em> = X가 Y의 적용 대상이 아님을 인정하다; <em>according to its dignity</em> = 그 존엄에 맞게; <em>not so strong as to V</em> = ~할 정도로 강하지는 않다; <em>produce and rivet a conviction</em> = 확신을 만들어 못박아 고정하다; <em>become most appropriate helps</em> = 가장 적절한 보조 증거가 된다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">On the other hand, once we recognise that Scripture is not subject to the ordinary test-then-believe procedure, and receive it with reverence, as its dignity requires — then those very proofs, which by themselves were never strong enough to generate a settled, unshakeable conviction, turn into extremely useful supports.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>when recognising</b> → once we recognise</li><li><b>its exemption from the common rule</b> → that it isn't subject to the usual rules of proof</li><li><b>according to its dignity</b> → as its dignity deserves</li><li><b>not so strong as to produce and rivet</b> → not strong enough to create and lock in</li><li><b>become most appropriate helps</b> → turn into exactly the right kind of support.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">four how-clauses on a dash cascade — and the word order that everyone gets wrong</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>"For it is wonderful how much we are confirmed in our belief, when we more attentively consider how admirably the system of divine wisdom contained in it is arranged—how perfectly free the doctrine is from every thing that savours of earth—how beautifully it harmonises in all its parts—and how rich it is in all the other qualities which give an air of majesty to composition."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>For it is wonderful</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>how much</b> we are confirmed in our belief</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> we more attentively consider</span></li><li><span class="leaf">①</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>how admirably</b> <b>is arranged</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">the system of divine wisdom</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">contained in it</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">②</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>how perfectly free</b> the doctrine <b>is</b> from every thing</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that savours of earth</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">③</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>how beautifully</b> it <b>harmonises</b> in all its parts</span></li></ul></li></ul></li><li><span class="leaf">④ <b>and</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>how rich</b> it <b>is</b> in all the other qualities</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which give an air of majesty to composition</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>admirably</em> &lt; <em>ad-</em> + <em>mirari</em> (to wonder at) → cf. <em>admire</em>, <em>miracle</em>, <em>mirage</em>, <em>mirror</em> (the wonder-glass — and the mirror epistemology of I.5.1!). — <em>savour</em> &lt; <em>sapor</em> &lt; <em>sapere</em> (to taste, to be wise) → cf. <em>sapient</em>, <em>insipid</em> (<em>in-</em> + <em>sapidus</em>, tasteless), <em>sage</em>. — <em>harmonise</em> &lt; Gk. ἁρμονία &lt; ἁρμός (a joint, a fitting) &lt; ἁρμόζω (to join) → the metaphor is carpentry, not music: parts that fit. (And ἁρμῶν, "joints," is in Heb 4:12 — see S12.) — <em>majesty</em> &lt; <em>maiestas</em> &lt; <em>maior</em> (greater) → greatness; cf. <em>major</em>, <em>mayor</em>, <em>magnify</em>. — <em>composition</em> &lt; <em>com-</em> + <em>ponere</em> (to put) → putting-together.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it is wonderful how much ...</em> = ~하는 정도가 놀랍다; <em>be confirmed in one's belief</em> = 믿음이 더 굳어지다; <em>savour of X</em> = X의 냄새·맛이 나다 (~한 티가 나다); <em>harmonise in all its parts</em> = 모든 부분이 서로 들어맞다; <em>give an air of majesty to X</em> = X에 장엄한 품격을 주다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And it is astonishing how much our belief gets reinforced when we look more carefully at how brilliantly the whole scheme of divine wisdom in Scripture is put together — how completely its teaching is free of anything that smells of this world — how beautifully all its parts fit each other — and how full it is of every other quality that makes writing majestic.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>it is wonderful</b> → it is astonishing</li><li><b>confirmed in our belief</b> → our confidence gets reinforced</li><li><b>more attentively consider</b> → look more carefully at</li><li><b>savours of earth</b> → smells of this world</li><li><b>harmonises in all its parts</b> → all its parts fit together</li><li><b>an air of majesty to composition</b> → what makes writing majestic.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s2" title="2-star">★★</span><span class="s-label">res over verba — the sentence that licenses the next three</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>"Our hearts are still more firmly assured when we reflect that our admiration is elicited more by the dignity of the matter than by the graces of style."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Our hearts are still more firmly assured</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> we reflect</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> our admiration <b>is elicited</b></span><ul class="tr"><li><span class="leaf"><b>more by</b> the dignity of <b>the matter</b></span></li><li><span class="leaf"><b>than by</b> the graces of <b>style</b></span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>elicit</em> &lt; <em>e-</em> (out) + <em>lacere</em> (to lure, entice) → to draw out by enticement; cf. <em>delight</em>, <em>lace</em>, <em>delicious</em>, and — note — <em>enticing</em> in S9. Same lure-family. — <em>admiration</em> &lt; <em>ad-</em> + <em>mirari</em> — the S4 root again. — <em>matter</em> &lt; <em>materia</em> (timber, building stuff) &lt; <em>mater</em> (mother) — the stuff a thing is made of. — <em>grace</em> &lt; <em>gratia</em> (favour, charm) &lt; <em>gratus</em> (pleasing) → cf. <em>gratify</em>, <em>ingratiate</em>, <em>grateful</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be assured</em> = 확신하게 되다; <em>still more firmly</em> = 한층 더 굳게; <em>elicit X from / by Y</em> = Y가 X를 끌어내다; <em>the dignity of the matter</em> = 내용 자체의 무게; <em>the graces of style</em> = 문체의 매력.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And our confidence gets even firmer when we notice that what really draws out our admiration is the weight of the content, not the charm of the writing.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Our hearts are still more firmly assured</b> → our confidence gets even firmer</li><li><b>when we reflect that</b> → when we notice that</li><li><b>is elicited more by</b> → is drawn out mainly by</li><li><b>the dignity of the matter</b> → the weight of the content</li><li><b>the graces of style</b> → the charm of the writing.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ the argument from bad prose — litotes, a cleft, and the trap word meanness</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>"For it was not without an admirable arrangement of Providence, that the sublime mysteries of the kingdom of heaven have for the greater part been delivered with a contemptible meanness of words."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>For it was not without</b> an admirable arrangement of Providence</span></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the sublime mysteries of the kingdom of heaven</span></li><li><span class="leaf"><b>have</b> <b>been delivered</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">for the greater part</span></li></ul></li></ul></li><li><span class="leaf"><b>with</b> a contemptible meanness of words</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>mean</em> (adj., low) &lt; OE <em>gemǣne</em>, cognate with Lat. <em>communis</em> (com- + munis) → common, shared, hence vulgar, base. ⚠️ Unrelated to <em>mean</em> (to intend) &lt; OE <em>mænan</em>, and to <em>mean</em> (average) &lt; Lat. <em>medianus</em>. Three different words, one spelling. — <em>contemptible</em> &lt; <em>con-</em> + <em>temnere</em> (to scorn) → cf. <em>contempt</em>, <em>contemn</em>. — <em>sublime</em> &lt; <em>sub-</em> + <em>limen</em> (threshold/lintel) → up to the lintel, lofty. — <em>deliver</em> &lt; <em>de-</em> + <em>liberare</em> (to set free) → hand over; here of doctrine transmitted, not of babies or parcels.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>not without X</em> = X 없이 그리된 것이 아니다 → 바로 X 때문에 (litotes 강조); <em>an arrangement of Providence</em> = 섭리의 배치·경영; <em>for the greater part</em> = 대부분 (범위 한정); <em>a meanness of words</em> = 말의 비천함·조야함; <em>deliver a doctrine</em> = 교리를 전달·전수하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">In fact it was by a remarkable act of providential design that the lofty mysteries of the kingdom of heaven were, for the most part, handed down in language that is embarrassingly plain.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>it was not without an admirable arrangement of Providence that</b> → it was by a remarkable providential design that</li><li><b>sublime mysteries</b> → lofty mysteries</li><li><b>for the greater part</b> → for the most part</li><li><b>have been delivered</b> → were handed down</li><li><b>a contemptible meanness of words</b> → language that is embarrassingly plain.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s2" title="2-star">★★</span><span class="s-label">if-deletion with inversion — the counterfactual that sets up But now</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>"Had they been adorned with a more splendid eloquence, the wicked might have cavilled, and alleged that this constituted all their force."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>Had they been adorned</b> with a more splendid eloquence</span></li></ul></li></ul></li><li><span class="leaf"><b>the wicked might have cavilled,</b></span></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and</b> ‹might have› <b>alleged</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> this constituted all their force</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>adorn</em> &lt; <em>ad-</em> + <em>ornare</em> (to equip, embellish) → cf. <em>ornament</em>, <em>ornate</em>, <em>suborn</em>. — <em>cavil</em> &lt; <em>cavillari</em> (to jest, jeer) &lt; <em>cavilla</em> (a taunt). — <em>allege</em> &lt; <em>ad-</em> + <em>litigare</em> (to dispute) via OFr → to put forward in argument; note the modern flavour of <em>unproven</em> assertion is already latent. — <em>eloquence</em> &lt; <em>e-</em> + <em>loqui</em> (to speak out) → cf. <em>loquacious</em>, <em>colloquial</em>, <em>elocution</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Had S been p.p., S might have p.p.</em> = ~였더라면 ~했을 것이다 (과거 반사실); <em>be adorned with X</em> = X로 꾸며지다; <em>cavil</em> = 트집 잡다; <em>allege that ...</em> = ~라고 주장하다 (증거 없이); <em>constitute all their force</em> = 그것이 그 힘의 전부다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">If they had been dressed up in more impressive eloquence, cynics could have sneered that the eloquence was the whole source of their power.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Had they been adorned with</b> → If they had been dressed up in</li><li><b>the wicked</b> → cynics / hostile readers</li><li><b>might have cavilled</b> → could have sneered</li><li><b>alleged that</b> → claimed that</li><li><b>constituted all their force</b> → was the whole source of their power.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ But now is not temporal — and a rhetorical question that is a thesis statement</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>"But now, when an unpolished simplicity, almost bordering on rudeness, makes a deeper impression than the loftiest flights of oratory, what does it indicate if not that the Holy Scriptures are too mighty in the power of truth to need the rhetorician’s art?"</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf">` <b>But now,</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">an unpolished simplicity</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">almost bordering on rudeness</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>makes a deeper impression</b></span></li><li><span class="leaf"><b>than</b> the loftiest flights of oratory</span></li></ul></li><li><span class="leaf"><b>what does it indicate</b></span></li><li><span class="leaf">?</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if not</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the Holy Scriptures <b>are too mighty</b> in the power of truth <b>to need</b> the rhetorician’s art</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>rude</em> &lt; <em>rudis</em> (raw, unworked, unwrought) → cf. <em>erudite</em> (<em>e-</em> + <em>rudis</em>, brought out of the rough = polished), <em>rudiment</em> (first rough stage), <em>rudimentary</em>. ⚠️ The "impolite" sense is a late narrowing. — <em>polish</em> &lt; <em>polire</em> (to smooth) → <em>unpolished</em> = 아직 다듬지 않은. — <em>oratory</em> &lt; <em>orare</em> (to speak, to plead, to pray) → cf. <em>orator</em>, <em>oration</em>, <em>adore</em> (<em>ad-</em> + <em>orare</em>), <em>inexorable</em> (that cannot be prayed out of it). — <em>rhetorician</em> &lt; Gk. ῥήτωρ (public speaker) &lt; εἴρω (to say).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>but now</em> = 그러나 실제로는 (⚠️ 시간 아님, <em>nunc vero</em>); <em>border on X</em> = X에 가깝다·접경하다; <em>make a deeper impression than X</em> = X보다 더 깊은 인상을 남기다; <em>the loftiest flights of oratory</em> = 웅변의 최고 절정; <em>what does it indicate if not that P?</em> = P라는 것 말고 무엇을 가리키겠는가 (= 바로 P다); <em>too ADJ to V</em> = 너무 ~해서 ~할 필요가 없다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But as things actually stand, a rough plainness that verges on being unfinished makes a deeper impression than the highest peaks of classical oratory — and what can that show, except that the power of truth in Scripture is so great that it doesn't need a rhetorician's technique?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>But now</b> → But as things actually stand</li><li><b>an unpolished simplicity</b> → a rough plainness</li><li><b>bordering on rudeness</b> → verging on being unfinished</li><li><b>the loftiest flights of oratory</b> → the highest peaks of oratory</li><li><b>what does it indicate if not that</b> → what can that show, except that</li><li><b>too mighty ... to need</b> → so powerful that it doesn't need.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Paul enters — with a nominative absolute and a citation error</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p>"Hence there was good ground for the Apostle’s declaration, that the faith of the Corinthians was founded not on “the wisdom of men,” but on “the power of God,” (1 Cor. 2:5), this speech and preaching among them having been “not with enticing words of man’s wisdom, but in demonstration of the Spirit and of power,” (1 Cor. 2:5)."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Hence there was good ground for</b> the Apostle’s declaration</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the faith of the Corinthians <b>was founded</b></span><ul class="tr"><li><span class="leaf"><b>not on</b> “the wisdom of men,”</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but on</b> “the power of God,”</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">1 Cor. 2:5</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>this speech and preaching among them HAVING BEEN</b></span></li><li><span class="leaf">“not with enticing words of man’s wisdom</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf">but in demonstration of the Spirit and of power,”</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">1 Cor. 2:5</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>entice</em> &lt; OFr <em>enticier</em> &lt; Lat. <em>titio</em> (firebrand) → to set alight, hence to lure; and compare <em>elicit</em> (S5) from <em>lacere</em> — Beveridge's whole vocabulary of persuasion is a vocabulary of luring. — <em>demonstration</em> &lt; <em>de-</em> + <em>monstrare</em> (to show) &lt; <em>monstrum</em> (a portent, a sign) → cf. <em>monster</em>, <em>muster</em>, <em>remonstrate</em>. — <em>declaration</em> &lt; <em>de-</em> + <em>clarare</em> &lt; <em>clarus</em> (clear) → a making-clear. — <em>ground</em> (n.) = basis, warrant — the building metaphor of S2 again.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>there is good ground for X</em> = X에는 충분한 근거가 있다; <em>be founded on X</em> = X 위에 세워지다; <em>not on A but on B</em> = A가 아니라 B 위에; <em>enticing words</em> = 마음을 끄는 말 (KJV πειθοῖς λόγοις); <em>in demonstration of X</em> = X의 논증적 입증으로.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So the Apostle had every reason to say that the Corinthians' faith rested not on "the wisdom of men" but on "the power of God" (1 Cor 2:5) — since the preaching they had heard came "not with enticing words of man's wisdom, but in demonstration of the Spirit and of power" (1 Cor 2:4).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>there was good ground for the Apostle's declaration</b> → the Apostle had every reason to say</li><li><b>was founded not on ... but on</b> → rested not on ... but on</li><li><b>this speech and preaching among them having been</b> → since the preaching they had heard was</li><li><b>(1 Cor. 2:5)* [second]</b> → (1 Cor 2:4) — the reference in our text is a misprint.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the principle, in one line — and two trap words</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p>"For the truth is vindicated in opposition to every doubt, when, unsupported by foreign aid, it has its sole sufficiency in itself."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>For the truth is vindicated</b></span></li><li><span class="leaf"><b>in opposition to</b> every doubt</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>when,</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">‹it is› <b>unsupported by foreign aid,</b></span></li></ul></li></ul></li><li><span class="leaf"><b>it has its sole sufficiency in itself</b></span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>vindicate</em> &lt; <em>vim dicere</em> / <em>vindex</em> (a claimant, a champion) → to claim, to avenge; cf. <em>vengeance</em>, <em>revenge</em>, <em>vindictive</em>. — <em>foreign</em> &lt; OFr <em>forain</em> &lt; Lat. <em>foraneus</em> &lt; <em>foris</em> (outside, doors) → cf. <em>forum</em> (the outside space), <em>forest</em>, <em>forfeit</em>, <em>afore</em>? (no — that's OE). — <em>sufficiency</em> &lt; <em>sub-</em> + <em>facere</em> (to make up under) → enough made available; cf. <em>suffice</em>, <em>efficient</em>, <em>proficient</em>. — <em>sole</em> &lt; <em>solus</em> (alone) → cf. <em>solitude</em>, <em>soliloquy</em>, <em>desolate</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be vindicated in opposition to X</em> = X에 맞서 그 정당성을 입증하다; <em>unsupported by foreign aid</em> = 외부의 도움 없이; <em>have one's sufficiency in oneself</em> = 자기 안에 충족성을 지니다 (자족).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">After all, truth makes good its case against every doubt precisely when it stands with no outside help and finds everything it needs in itself.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>is vindicated in opposition to</b> → makes good its case against</li><li><b>unsupported by foreign aid</b> → with no outside help</li><li><b>has its sole sufficiency in itself</b> → finds everything it needs in itself.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ an eight-word how-clause that is the SUBJECT of the sentence</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p>"How peculiarly this property belongs to Scripture appears from this, that no human writings, however skilfully composed, are at all capable of affecting us in a similar way."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>How peculiarly this property belongs to Scripture</b></span></li></ul></li></ul></li><li><span class="leaf"><b>appears from this,</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> no human writings</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>however skilfully composed,</b></span></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>are at all capable of</b> affecting us in a similar way</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>peculiar</em> &lt; <em>peculium</em> (private property, one's own herd) &lt; <em>pecu</em> (cattle) → cf. <em>pecuniary</em> (money &lt; cattle-wealth), <em>peculate</em> (to embezzle). — <em>property</em> &lt; <em>proprius</em> (one's own) → cf. <em>proper</em>, <em>appropriate</em> (S3!), <em>propriety</em>. Note S11 pairs <em>peculiar</em> and <em>property</em>, and both mean "belonging to itself" — the sentence is doubly emphatic in its etymology. — <em>compose</em> &lt; <em>com-</em> + <em>ponere</em> (to put together) — S4's <em>composition</em> again. — <em>skilful</em> &lt; ON <em>skil</em> (distinction, discernment).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>X appears from this, that ...</em> = X는 다음 사실에서 드러난다, 즉 ~; <em>however skilfully composed</em> = 아무리 솜씨 좋게 지어졌더라도; <em>be at all capable of V-ing</em> = 조금이라도 ~할 수 있다 (부정문에서); <em>belong peculiarly to X</em> = X에게만 고유하게 속한다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Just how uniquely this quality belongs to Scripture is clear from the following fact: no human writing, no matter how skilfully it is put together, is able to affect us in anything like the same way.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>How peculiarly this property belongs to Scripture</b> → Just how uniquely this quality belongs to Scripture [= the SUBJECT]</li><li><b>appears from this, that</b> → is clear from this fact: that</li><li><b>however skilfully composed</b> → no matter how skilfully written</li><li><b>are at all capable of affecting us</b> → can affect us at all.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S12" id="S12"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S12</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the closing experiment — a conditional imperative, a triple so ... that, and will that is not an auxiliary</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S12" onclick="flashFullText(this)">
+<p>"Read Demosthenes or Cicero, read Plato, Aristotle, or any other of that class: you will, I admit, feel wonderfully allured, pleased, moved, enchanted; but turn from them to the reading of the Sacred Volume, and whether you will or not, it will so affect you, so pierce your heart, so work its way into your very marrow, that, in comparison of the impression so produced, that of orators and philosophers will almost disappear; making it manifest that in the Sacred Volume there is a truth divine, a something which makes it immeasurably superior to all the gifts and graces attainable by man."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Read</b> Demosthenes or Cicero</span></li><li><span class="leaf"><b>read</b> Plato, Aristotle, or any other of that class</span></li><li><span class="leaf"><b>you will,</b> <b>feel</b> wonderfully allured, pleased, moved, enchanted</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">I admit</span></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but turn</b> from them to the reading of the Sacred Volume</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>AND</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>whether you will or not,</b></span></li></ul></li></ul></li><li><span class="leaf"><b>it will</b> ① <b>so affect you,</b> ② <b>so pierce your heart,</b> ③ <b>so work its way into your very marrow,</b></span></li><li><span class="leaf"><b>THAT,</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in comparison of the impression so produced</span></li></ul></li></ul></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> ‹= the impression› <b>of orators and philosophers will almost disappear;</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>making it manifest</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> in the Sacred Volume <b>there is</b> a truth divine</span><ul class="tr"><li><span class="leaf">a something</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which makes it immeasurably superior to all the gifts and graces attainable by man</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>allure</em> &lt; OFr <em>aleurer</em> (<em>à</em> + <em>loirre</em>, a falconer's lure) → to draw with bait; the lure-family again (<em>entice</em> S9, <em>elicit</em> S5). — <em>enchant</em> &lt; <em>in-</em> + <em>cantare</em> (to sing) → to sing a spell over; cf. <em>chant</em>, <em>incantation</em>, <em>charm</em> (&lt; <em>carmen</em>, song). Note both of Calvin's words for classical eloquence's effect are words for magic: lure and spell. That is a judgment. — <em>marrow</em> &lt; OE <em>mearg</em>, the innermost substance; cf. Germ. <em>Mark</em>. — <em>pierce</em> &lt; OFr <em>percer</em> &lt; Lat. <em>pertusiare</em> &lt; <em>per-</em> + <em>tundere</em> (to strike through). — <em>manifest</em> &lt; <em>manus</em> (hand) + <em>-festus</em> (struck) → caught by the hand, palpable.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>any other of that class</em> = 그 부류의 다른 누구든; <em>feel allured</em> = 매혹됨을 느끼다; <em>turn from A to B</em> = A에서 B로 돌아서다; <em>V(명령), and S will V</em> = ~해 보라, 그러면 ~할 것이다 (조건); <em>whether you will or not</em> = 원하든 원하지 않든 (will = 원하다); <em>work its way into X</em> = X 속으로 파고들다; <em>in comparison of X</em> = X와 비교하면 (고어, = with); <em>make it manifest that</em> = ~을 명백히 드러내다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Go read Demosthenes or Cicero, read Plato or Aristotle or anyone else of that rank: you will — I grant it — feel powerfully drawn in, delighted, moved, spellbound. But then turn from them to reading Scripture, and whether you want it to or not, it will hit you so hard, cut so deep into your heart, drive so far into your bones, that the impression those orators and philosophers made will all but vanish by comparison. Which makes it obvious that there is a divine truth in Scripture — some quality you cannot name — that puts it immeasurably above anything human talent can achieve.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>any other of that class</b> → anyone else of that rank</li><li><b>I admit</b> → I grant it</li><li><b>allured, pleased, moved, enchanted</b> → drawn in, delighted, moved, spellbound</li><li><b>whether you will or not</b> → whether you want it to or not (will = want)</li><li><b>work its way into your very marrow</b> → drive right into your bones</li><li><b>in comparison of the impression so produced, that of ...</b> → compared with that impression, the one made by ...</li><li><b>a truth divine, a something</b> → a divine truth — some quality you cannot name</li><li><b>attainable by man</b> → that human talent can reach.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — 반사실 3단 기계: <code>In vain were S p.p.</code> → <code>Had S been p.p.</code> → <code>But now</code></h3><pre><code>   ① 가정 제시 — 문두 부사구 + 가정법 were + 도치
+      IN VAIN  +  WERE  +  [S]  +  p.p. ...   ,  IF ‹S were› + p.p. ...
+      ▸ IN VAIN WERE the authority of Scripture FORTIFIED by argument ...,
+        IF UNACCOMPANIED by an assurance ...                             (S1)
+      = It WOULD BE in vain to fortify ... if it WERE NOT accompanied by ...
+
+      ⚠️ ① were = WOULD BE (과거 가정법). 과거시제 아님. 사실 진술 아님.
+      ⚠️ ② if절이 주어·동사 없이 축약된다 → `if unaccompanied by` / `when
+           unsupported by` / `however skilfully composed`.
+           복원 시 접두사 UN- 을 반드시 부정으로 살릴 것.
+           ✗ if it were accompanied  ○ if it were NOT accompanied
+
+   ② 반사실 심화 — if 삭제 + 조동사 도치
+      HAD  +  S  +  BEEN p.p. ...  ,  S + MIGHT/WOULD HAVE p.p.
+      ▸ HAD THEY BEEN ADORNED with a more splendid eloquence,
+        the wicked MIGHT HAVE CAVILLED, and ‹might have› ALLEGED ...      (S7)
+      ⚠️ 도치 가능 조동사는 HAD / WERE / SHOULD 뿐. 둘째 동사는 조동사 gapping.
+
+   ③ 반사실 취소 — 실제 상황으로 복귀
+      BUT NOW ( = 라틴 nunc vero ) , when ... , ‹결론›
+      ▸ BUT NOW, when an unpolished simplicity ... makes a deeper
+        impression than the loftiest flights of oratory, what does it
+        indicate if not that ...?                                        (S8)
+      ⚠️⚠️ 오늘 최대 함정: BUT NOW = 「그러나 실제로는」. 시간 부사 아님.
+           cf. 고전15:20 νυνὶ δέ "But now is Christ risen"; 롬3:21.
+           「그런데 지금은」으로 읽으면 논리 연결자를 날짜로 바꾸는 것.
+</code></pre><p><strong>Transformation drill:</strong> Run all three moves on one theme —
+<em>In vain were the gospel commended by learning, or recommended by its beauty, if unaccompanied by the Spirit's seal. Had it been delivered in a nobler tongue, the scoffer might have said that the tongue was all its power. But now, when the plainest sentence in it outweighs a library, what does that prove if not that the power was never in the words?</em></p><hr/><h3>Formula 2 — 내포 <code>how</code>절: 도치하지 않는다 · 그리고 <strong>주어 자리에 들어간다</strong></h3><pre><code>   how + ADV/ADJ  +  [S]  +  [V] ...          ← 어순 그대로, 도치 없음
+   ▸ ... consider  HOW ADMIRABLY  the system ... IS ARRANGED               (S4①)
+                   HOW PERFECTLY FREE  the doctrine  IS  from ...           (S4②)
+                   HOW BEAUTIFULLY  it  HARMONISES  in all its parts        (S4③)
+                   HOW RICH  it  IS  in all the other qualities ...         (S4④)
+
+   ⚠️ ① 직접의문·감탄은 도치(How admirably IS the system arranged!),
+        내포절은 도치 없음(how admirably the system IS arranged).
+        ✗ how perfectly free IS the doctrine   ← 최다 오답
+   ⚠️ ② how 가 형용사를 데려갈 때 be동사는 주어 뒤에 남는다.
+        how rich + it + is  /  how perfectly free + the doctrine + is
+
+   ── 그리고 이 절은 명사 자리 전체를 차지할 수 있다 ──
+   ▸ 목적어:   we consider [ how admirably the system is arranged ]         (S4)
+   ▸ 보어:     it is wonderful [ how much we are confirmed ]                (S4)
+   ▸ ★ 주어:   [ HOW PECULIARLY THIS PROPERTY BELONGS TO SCRIPTURE ]
+               APPEARS from this, that ...                                  (S11)
+
+   ⚠️⚠️ S11 유형이 오늘의 최고 출제 포인트.
+        물음표 없음 + 도치 없음 → 의문문이 아니다. appears 의 주어다.
+        진단법: 주절 동사(appears)를 먼저 찾고, 그 앞 전체를 주어로 묶어라.
+
+   ── 사촌: 축약 양보절 ──
+   however skilfully ‹they are› composed  (S11) / how great soever (I.6.3)
+   / though he be ignorant (I.5.2)
+</code></pre><p><strong>Transformation drill:</strong> Put a <code>how</code>-clause in all three slots —
+<em>How exactly the parts of Scripture answer to one another appears from this, that no forgery has ever matched it. Consider how carefully the promises are placed, and it is wonderful how little the ablest critic has been able to unsettle.</em></p><hr/><h3>Formula 3 — 정도·결과 3형제 + 조건 명령문</h3><pre><code>   ① NOT SO + ADJ + AS TO + V     = ~할 정도로 ~하지는 않다
+      ▸ those proofs which were NOT SO STRONG AS TO produce and rivet
+        a full conviction                                                  (S3)
+      ⚠️ 부정형이 훨씬 어렵다. "약하다"가 아니라 "그 결과를 낼 만큼은 아니다".
+      ⚠️ full 이 한정어다. 확신을 전혀 못 준다는 말이 아니다(§4의 a FULL faith).
+
+   ② TOO + ADJ + TO + V          = 너무 ~해서 ~할 필요/수 없다
+      ▸ the Holy Scriptures are TOO MIGHTY in the power of truth
+        TO NEED the rhetorician's art                                      (S8)
+      ⚠️ 힘의 소재를 보라: too mighty IN THE POWER OF TRUTH. 문체가 아니다.
+
+   ③ SO V, SO V, SO V, THAT ...   = 다리 셋, 착지 하나
+      ▸ it will SO affect you, SO pierce your heart, SO work its way
+        into your very marrow, THAT ... that of orators and philosophers
+        will almost disappear                                             (S12)
+      ⚠️ 첫 so 에서 that 을 찾지 말 것. 세 다리가 하나의 that절을 공유한다.
+      ⚠️ that of orators = THE IMPRESSION of orators (대명사 that).
+
+   ── 그리고 이 전체를 매달고 있는 틀 ──
+   ④ 명령문 + AND + S will V      = IF you V, S will V (조건 명령문)
+      ▸ TURN from them to the reading of the Sacred Volume, AND ...
+        it WILL so affect you ...                                          (S12)
+      ⚠️ and = 「그러면」(결과). 등위 명령 둘로 읽으면 조건 논리가 사라진다.
+      ⚠️ whether you WILL or not → will = 원하다(본동사). 바로 뒤 it WILL 은 조동사.
+         같은 철자, 다른 단어, 열 단어 간격. cf. willy-nilly &lt; will he, nill he.
+</code></pre><p><strong>Transformation drill:</strong> Use all four —
+<em>The argument is not so strong as to settle the matter by itself; the truth in it is too plain to need decoration. Open the book, and whether you will or not it will so search you, so expose you, so hold you, that every other page you read today will seem thin by comparison.</em></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (어원 후킹 테이블)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>in vain</strong></td>
+<td>헛되이</td>
+<td><em>in vanum</em>, <em>vanus</em> = <strong>empty</strong>. Same <em>vanus</em> under <code>vanity</code>, <code>evanescent</code>, and Rom 1:21 ἐματαιώθησαν. Empty effort.</td>
+</tr>
+<tr>
+<td><strong>fortify</strong></td>
+<td>방어를 보강하다</td>
+<td><em>fortis</em>(strong) + <em>facere</em> → make strong. <em>fort</em>, <em>fortitude</em>, <em>comfort</em> (= thoroughly strengthen).</td>
+</tr>
+<tr>
+<td><strong>⚠️ unaccompanied</strong></td>
+<td>함께하지 않는</td>
+<td>negation lives <strong>inside</strong> the word. <code>if unaccompanied</code> = if it were <strong>NOT</strong> accompanied. Prefix = 부정.</td>
+</tr>
+<tr>
+<td><strong>⚠️ in suspense</strong></td>
+<td>미결·매달린 상태</td>
+<td><em>sub-</em> + <em>pendere</em> = <strong>hang under</strong>. <code>pendulum</code>, <code>pending</code>, <code>depend</code>. NOT 긴장감.</td>
+</tr>
+<tr>
+<td><strong>exemption</strong></td>
+<td>적용 면제</td>
+<td><em>ex-</em> + <em>emere</em>(take, buy) = taken out. <code>exempt</code>, <code>redeem</code>, <code>premium</code>, <code>example</code>.</td>
+</tr>
+<tr>
+<td><strong>⚠️ rivet</strong></td>
+<td>못박아 고정하다</td>
+<td>a metal pin hammered through and <strong>flattened so it cannot come out</strong>. <code>produce and rivet</code> = 만들고 <strong>못박다</strong>. 논증은 riveting 을 못 한다.</td>
+</tr>
+<tr>
+<td><strong>appropriate</strong> (adj.)</td>
+<td>딱 맞는</td>
+<td><em>ad-</em> + <em>proprius</em>(one's own) → fitted <strong>to</strong> it. <code>most appropriate helps</code> = 최적의 보조물 (Lat. <em>adminiculum</em> = 포도나무 <strong>받침대</strong>).</td>
+</tr>
+<tr>
+<td><strong>⚠️ wonderful</strong></td>
+<td>놀라운</td>
+<td><em>full of wonder</em>. <code>it is wonderful how much</code> = <strong>놀랍게도 ~할 정도다</strong>. 「훌륭한」 아님(Day 34 재출).</td>
+</tr>
+<tr>
+<td><strong>admirable</strong></td>
+<td>놀랄 만한</td>
+<td><em>ad-</em> + <em>mirari</em>(wonder at). <code>admire</code>, <code>miracle</code>, <code>mirror</code>(놀람의 거울 — I.5.1 거울 인식론!).</td>
+</tr>
+<tr>
+<td><strong>⚠️ savour of</strong></td>
+<td>~한 티가 나다</td>
+<td><em>sapor</em> &lt; <em>sapere</em>(<strong>to taste</strong>, to be wise). <code>sapient</code>, <code>insipid</code>(맛없는), <code>sage</code>. 칼빈의 미각 인식론 계열(taste/sweet/bitter).</td>
+</tr>
+<tr>
+<td><strong>harmonise</strong></td>
+<td>부분이 서로 들어맞다</td>
+<td>Gk. ἁρμονία &lt; ἁρμός = <strong>joint</strong>. 목공 은유. 그리고 ἁρμῶν = 히4:12의 "joints"(S12와 연결!).</td>
+</tr>
+<tr>
+<td><strong>⚠️ air</strong> (of majesty)</td>
+<td>품격·풍모</td>
+<td>Fr. <em>air</em> = 태도·기색. <code>an air of authority</code>. 공기 아님.</td>
+</tr>
+<tr>
+<td><strong>⚠️ matter</strong></td>
+<td>내용·본질</td>
+<td><em>materia</em>(timber, stuff) &lt; <em>mater</em>. <code>the dignity of the matter</code> = 내용의 무게. res ↔ verba.</td>
+</tr>
+<tr>
+<td><strong>graces of style</strong></td>
+<td>문체의 매력</td>
+<td><em>gratia</em>(charm) &lt; <em>gratus</em>(pleasing). 은혜 아님. 수사학 용어.</td>
+</tr>
+<tr>
+<td><strong>elicit</strong></td>
+<td>끌어내다</td>
+<td><em>e-</em> + <em>lacere</em>(<strong>to lure</strong>). <code>delight</code>, <code>delicious</code>. — S9의 <em>entice</em>, S12의 <em>allure</em> 와 같은 '유인' 계열.</td>
+</tr>
+<tr>
+<td><strong>⚠️ meanness</strong> (of words)</td>
+<td>말의 비천함·조야함</td>
+<td><em>mean</em>(adj.) &lt; OE <em>gemǣne</em> ≈ Lat. <em>communis</em> = <strong>low, common</strong>. <code>a man of mean birth</code>, <code>no mean feat</code>. 인색·잔인 아님. <strong>동철 3단어</strong>(intend / average / low).</td>
+</tr>
+<tr>
+<td><strong>contemptible</strong></td>
+<td>멸시할 만한</td>
+<td><em>con-</em> + <em>temnere</em>(scorn). 칼빈이 강도를 낮추지 않았다는 증거.</td>
+</tr>
+<tr>
+<td><strong>for the greater part</strong></td>
+<td>대부분</td>
+<td>범위 한정어. "가장 중요한 부분" 아님 — §2의 예외(다윗·이사야)를 위해 미리 열어둔 문.</td>
+</tr>
+<tr>
+<td><strong>cavil</strong></td>
+<td>트집 잡다</td>
+<td><em>cavillari</em>(to jeer) &lt; <em>cavilla</em>(taunt). Day 35 <code>obstreperous</code> 짝.</td>
+</tr>
+<tr>
+<td><strong>⚠️ rudeness</strong></td>
+<td>조야함·미완성</td>
+<td><em>rudis</em> = <strong>raw, unwrought</strong>. <code>erudite</code> = <em>e-</em>+<em>rudis</em> = <strong>거친 데서 다듬어 나온</strong>. 무례 아님.</td>
+</tr>
+<tr>
+<td><strong>oratory</strong></td>
+<td>웅변</td>
+<td><em>orare</em>(speak, plead, pray). <code>orator</code>, <code>adore</code>, <code>inexorable</code>(빌어도 안 되는).</td>
+</tr>
+<tr>
+<td><strong>⚠️ but now</strong></td>
+<td><strong>그러나 실제로는</strong></td>
+<td>Lat. <em>nunc vero</em> / Gk. νυνὶ δέ (고전15:20, 롬3:21). <strong>반사실을 취소하는 논리 연결자.</strong> 시간 아님.</td>
+</tr>
+<tr>
+<td><strong>enticing words</strong></td>
+<td>마음을 끄는 말</td>
+<td>KJV for πειθοῖς λόγοις. <em>titio</em>(firebrand) → 불붙여 유혹.</td>
+</tr>
+<tr>
+<td><strong>demonstration</strong></td>
+<td>논증적 입증</td>
+<td>Gk. <strong>ἀπόδειξις</strong> — 아리스토텔레스 논리학의 '증명'. 바울이 그 단어를 <strong>성령에게</strong> 준다(고전2:4).</td>
+</tr>
+<tr>
+<td><strong>⚠️ foreign</strong></td>
+<td>외부의</td>
+<td><em>foris</em> = <strong>outside, out of doors</strong>. <code>forum</code>, <code>forest</code>, <code>forfeit</code>. 외국 아님.</td>
+</tr>
+<tr>
+<td><strong>⚠️ vindicate</strong></td>
+<td>정당한 자격을 주장·관철하다</td>
+<td><em>vindex</em>(claimant) → to <strong>lay legal claim</strong>. <code>vengeance</code>, <code>vindictive</code>. 「누명을 벗다」보다 「권리를 관철하다」.</td>
+</tr>
+<tr>
+<td><strong>sufficiency</strong></td>
+<td>충족성·자족</td>
+<td><em>sub-</em> + <em>facere</em>. <code>sole sufficiency in itself</code> = αὐτάρκεια → 어제의 αὐτόπιστος 의 일반화.</td>
+</tr>
+<tr>
+<td><strong>⚠️ peculiarly</strong></td>
+<td>고유하게·독점적으로</td>
+<td><em>peculium</em> = <strong>private property</strong> &lt; <em>pecu</em>(cattle). <code>pecuniary</code>. I.6.1의 <code>peculiar people</code>(segullah)과 같은 단어. 「이상하게」 아님.</td>
+</tr>
+<tr>
+<td><strong>property</strong></td>
+<td>고유 속성</td>
+<td><em>proprius</em>(one's own). S11은 <em>peculiar</em> + <em>property</em> 로 '자기 것'을 <strong>두 번</strong> 말한다.</td>
+</tr>
+<tr>
+<td><strong>at all</strong></td>
+<td>조금도 (부정문)</td>
+<td>negative-polarity item. <code>no human writings are **at all** capable</code> = 조금도 못 한다.</td>
+</tr>
+<tr>
+<td><strong>allure</strong></td>
+<td>매혹하다</td>
+<td>OFr <em>à</em> + <em>loirre</em> = 매사냥의 <strong>미끼</strong>.</td>
+</tr>
+<tr>
+<td><strong>enchant</strong></td>
+<td>홀리다</td>
+<td><em>in-</em> + <em>cantare</em>(<strong>to sing</strong>) → 주술을 노래해 걸다. <code>incantation</code>, <code>charm</code>(&lt; <em>carmen</em>, 노래). ★ 고전 웅변의 효과를 칼빈은 <strong>마술 어휘</strong>로 부른다.</td>
+</tr>
+<tr>
+<td><strong>⚠️ whether you will or not</strong></td>
+<td>원하든 원하지 않든</td>
+<td><code>will</code> = <strong>본동사 '원하다'</strong>(OE <em>willan</em>). <code>willy-nilly</code> &lt; <em>will he, nill he</em>. 바로 뒤 <code>it will</code> 은 조동사 — <strong>같은 철자, 다른 단어.</strong></td>
+</tr>
+<tr>
+<td><strong>marrow</strong></td>
+<td>골수</td>
+<td>OE <em>mearg</em>, Germ. <em>Mark</em>. 히4:12 <strong>μυελῶν</strong>. <code>pierce</code>(διϊκνούμενος) + <code>marrow</code> = 히4:12 직인용.</td>
+</tr>
+<tr>
+<td><strong>⚠️ in comparison of</strong></td>
+<td>~와 비교하면</td>
+<td>고어 전치사 선택 (= <em>with</em>). 고쳐 읽지 말 것.</td>
+</tr>
+<tr>
+<td><strong>⚠️ a something</strong></td>
+<td>이름 붙일 수 없는 무엇</td>
+<td>Lat. <em>nescio quid</em> / Fr. <em>je ne sais quoi</em>. <strong>부정관사 + something</strong> 은 오식이 아니라 의도다.</td>
+</tr>
+<tr>
+<td><strong>manifest</strong></td>
+<td>명백히 드러내다</td>
+<td><em>manus</em>(hand) + <em>-festus</em>(struck) → 손에 잡히는.</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>① The scandal of the chapter, and why it isn't one.</strong> Read the title of Chapter 8 straight after Chapter 7 and it looks like a self-contradiction. Bellarmine and generations after him pressed exactly that: <em>if Scripture is self-authenticating and the Spirit does all the sealing, why thirteen sections of proofs?</em> The answer is in S1 and S3, and it is structural, not apologetic:</p><pre><code>   TIER 1   TESTIMONIUM SPIRITUS INTERNUM   — the ground of assurance   (Ch.7)
+   ─────────────────────────────────────────────────────────────────────
+   TIER 2   INDICIA / ARGUMENTA             — "most appropriate HELPS"  (Ch.8)
+</code></pre><p><code>preposterous</code> (§4 S10) named the error as one of <strong>order</strong>, never of validity. Today S1 subordinates the whole of Chapter 8 before it begins (<code>in vain ... if unaccompanied by</code>), and S3 states the payoff with one verb: the proofs <code>**become** most appropriate helps</code>. Later Reformed prolegomena systematised this into a standing distinction — Turretin (<em>Institutio</em> I.iv–vi) treats the <em>criteria</em> of divine authority at length and then insists the <em>ratio formalis</em> of faith is the Spirit's testimony. Bavinck (<em>Reformed Dogmatics</em> I) runs the same two tiers under the names <em>indicia</em> and <em>testimonium</em>. <strong>Calvin's §1 is the seed of a two-tier prolegomenon that lasted three centuries.</strong></p><p><strong>② The list in S4 became a creed. Read them side by side.</strong></p><blockquote>
+<p><strong>Calvin, I.8.1 (S4):</strong> <code>how admirably the system of divine wisdom contained in it is arranged—how perfectly free the doctrine is from every thing that savours of earth—how beautifully it harmonises in all its parts—and how rich it is in all the other qualities which give an air of majesty to composition</code></p>
+<p><strong>Westminster Confession 1.5:</strong> <em>"...the heavenliness of the matter, the efficacy of the doctrine, the majesty of the style, </em><em>the consent of all the parts</em><em>, the scope of the whole ... are arguments whereby it doth abundantly evidence itself to be the Word of God: </em><em>yet notwithstanding</em><em>, our full persuasion and assurance of the infallible truth and divine authority thereof, is from the inward work of the Holy Spirit bearing witness by and with the Word in our hearts."</em></p>
+</blockquote><p><code>the consent of all the parts</code> = Calvin's <code>harmonises in all its parts</code>. <code>the majesty of the style</code> = Calvin's <code>an air of majesty</code>. <code>the heavenliness of the matter</code> = Calvin's <code>free ... from every thing that savours of earth</code> + S5's <code>the dignity of the matter</code>. And <code>**yet notwithstanding**</code> is S1's <code>if unaccompanied by</code>. <strong>The Divines are not summarising Calvin loosely; they are versifying I.7.5 and I.8.1 in order.</strong> If you know today's section you effectively know WCF 1.5, and the Belgic Confession art. 5 is the same architecture in a shorter compass.</p><p><strong>③ <em>Sermo humilis</em> — and the fact that S12 is Augustine's autobiography reversed.</strong> The claim that Scripture's low style is providential rather than embarrassing has a long history:</p><ul>
+<li><strong>Augustine, <em>Confessions</em> III.5</strong> — as a young rhetorician, fresh from Cicero's <em>Hortensius</em>, he opened the Bible and recoiled: it seemed to him <em>"unworthy to be compared to the dignity of Cicero"</em> (<em>indigna quam Tullianae dignitati compararem</em>), and he says his <code>swelling pride</code> shrank from its <code>lowliness</code> (<em>humilitas</em>).</li>
+<li><strong>Augustine, <em>De Doctrina Christiana</em> IV.6–7</strong> — the mature answer: the sacred writers have an eloquence of their own, <em>fitted to the matter</em>, and their plainness is a form of divine condescension.</li>
+<li><strong>Erich Auerbach, "Sermo Humilis"</strong> (in <em>Literary Language and Its Public</em>, 1958) — the classic modern study of how Christian Latin deliberately inverted the classical hierarchy of styles.</li>
+</ul><p>★ Now look at S12 again: <code>Read Demosthenes or Cicero, read Plato, Aristotle, or any other of that class ... but turn from them to the reading of the Sacred Volume</code>. <strong>That is precisely Augustine's itinerary in <em>Confessions</em> III.5 — Cicero first, then Scripture — with the verdict reversed.</strong> Augustine turned and was repelled; Calvin says: turn, and <code>whether you will or not</code> you will be pierced. Whether Calvin is consciously answering that page or not, the shape is unmistakable, and the ninth-most-quoted sentence of the <em>Institutes</em> is sitting on top of the most famous conversion narrative in Christian literature.</p><p><strong>④ The concession is a humanist's, and that is the point.</strong> Do not read <code>you will, I admit, feel wonderfully allured, pleased, moved, enchanted</code> as a grudging throwaway. Calvin's first publication (1532) was a commentary on <strong>Seneca's <em>De Clementia</em></strong>; he wrote some of the finest French prose of the century; the 1541 French <em>Institutio</em> is a monument of vernacular style. <strong>The man conceding Cicero's power is a professional.</strong> That is what makes the argument evidence rather than posturing — and it is also why §2 will open by conceding even more (<code>in elegance and beauty, nay, splendour, the style of some of the prophets is not surpassed by the eloquence of heathen writers</code>). Calvin's method throughout Chapter 8 is: <strong>grant the opponent's strongest ground, then show it does not reach.</strong></p><p><strong>⑤ ⚠️ 과대해석 방지 — four lines you must not cross with today's text.</strong></p><ol>
+<li><strong>Not anti-rational.</strong> S3's <code>become most appropriate helps</code> is praise, and thirteen sections of argument follow. Anyone quoting Calvin as saying evidences are worthless has skipped the verb.</li>
+<li><strong>Not a claim that Scripture is badly written.</strong> S6 says the plainness is providential; <code>for the greater part</code> limits the scope; and §2 will concede outright that some prophets rival any pagan writer. Calvin's claim is about <strong>where the power lives</strong>, not about literary quality per se.</li>
+<li><strong>Not an aesthetic apologetic.</strong> S5 pre-empts this: admiration is elicited <code>more by the dignity of the matter than by the graces of style</code>. The argument is not "the Bible is beautiful, therefore divine."</li>
+<li><strong>Not "faith comes against your will."</strong> S12's <code>whether you will or not</code> describes the <strong>impression</strong> the text makes on any reader, including a hostile one. Faith's obedience, per I.7.5, is <code>willingly indeed, and knowingly</code>. Two different claims. Do not merge them.</li>
+</ol><p><strong>⑥ A word on the modern conversation.</strong> Plantinga's <em>Warranted Christian Belief</em> uses Calvin's structure (belief in Scripture as <strong>properly basic</strong>, not inferred from evidences, yet not irrational and not incompatible with argument) — S10 and S11 are the sentences most often cited in that connection. On the other side, the "evidentialist Calvin" reading leans on Chapter 8 as a whole. <strong>The text refuses both extremes, and it refuses them in the first sentence.</strong> That is why §1 exists.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li>
+<p><strong>1 Cor. 2:5 — S9, cited explicitly.</strong> <code>that your faith should not stand in the wisdom of men, but in the power of God</code>. Calvin's <code>founded not on "the wisdom of men," but on "the power of God"</code> is a direct quotation, and it supplies the <em>not A but B</em> seam that runs through S5, S8, and S9 alike.</p>
+</li>
+<li>
+<p><strong>1 Cor. 2:4 — S9, cited but mis-numbered as 2:5.</strong> οὐκ ἐν πειθοῖς σοφίας λόγοις, ἀλλ’ ἐν <strong>ἀποδείξει</strong> πνεύματος καὶ δυνάμεως. ★ <strong>ἀπόδειξις is Aristotle's term for demonstrative proof</strong> (the subject of the <em>Posterior Analytics</em>), and Paul assigns it to the Spirit while giving <code>πειθοῖς λόγοις</code> — persuasive rhetoric — to the opposition. <strong>Paul, not Calvin, invented the two-tier structure's vocabulary.</strong> How Calvin uses it: as the apostolic warrant for writing a chapter of arguments while denying that arguments produce faith.</p>
+</li>
+<li>
+<p><strong>Hebrews 4:12 — S12, quoted without attribution.</strong> ζῶν γὰρ ὁ λόγος τοῦ θεοῦ καὶ ἐνεργής ... <strong>διϊκνούμενος</strong> ... <strong>ἁρμῶν τε καὶ μυελῶν</strong> — <code>piercing ... of the joints and marrow</code>. <code>so pierce your heart, so work its way into your very **marrow**</code> is this verse. ⚠️ And note that I.7.5 S4's <code>a divine energy **living and breathing** in it</code> is ζῶν καὶ ἐνεργής, <strong>the first half of the same verse.</strong> Two consecutive sections, one verse split in two. How Calvin uses it: the <em>effect</em> of the text is offered as the empirical residue of its divinity.</p>
+</li>
+<li>
+<p><strong>2 Cor. 4:7 — S6, the unstated logic.</strong> <code>we have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us</code>. Sublime cargo, contemptible container, and the cheapness of the container is the proof. How Calvin uses it: without citation, as the providential rationale — <code>not without an admirable arrangement of Providence</code>.</p>
+</li>
+<li>
+<p><strong>2 Cor. 10:10 — S6, an echo worth marking.</strong> The Corinthians' own complaint against Paul: <code>his bodily presence is weak, and his **speech contemptible**</code> (ὁ λόγος <strong>ἐξουθενημένος</strong>). Calvin's <code>a **contemptible** meanness of words</code> reuses the insult and reassigns it as a credential. How Calvin uses it: the charge is admitted and converted.</p>
+</li>
+<li>
+<p><strong>1 Cor. 1:17 — behind S8.</strong> <code>not with wisdom of words, lest the cross of Christ should be made of none effect</code> (ἵνα μὴ κενωθῇ ὁ σταυρός). Exactly S7's worry — that eloquence would be credited with the power. How Calvin uses it: as the Pauline form of the counterfactual.</p>
+</li>
+<li>
+<p><strong>Matt. 13:11 / 1 Cor. 2:7 — S6's phrase.</strong> <code>the sublime mysteries of the kingdom of heaven</code> = τὰ μυστήρια τῆς βασιλείας τῶν οὐρανῶν. ⚠️ Yesterday's chapter closed on Matt 13:11's logic (<code>none comprehend the mysteries of God save those to whom it is given</code>); today's S6 picks the same noun up and gives it the plainest possible wrapping. <strong>Deliberate seam between the chapters.</strong></p>
+</li>
+<li>
+<p><strong>Acts 4:13 — behind S8.</strong> The council's estimate of Peter and John: <code>unlearned and ignorant men</code> (ἀγράμματοι καὶ ἰδιῶται). The <code>unpolished simplicity, almost bordering on rudeness</code> has a New Testament pedigree — and so does the astonishment that follows it.</p>
+</li>
+<li>
+<p><strong>Jer. 23:29 — behind S12's violence.</strong> <code>Is not my word like as a fire? and like a hammer that breaketh the rock in pieces?</code> A rhetorical question, exactly like S8's, asserting that the word's force is intrinsic. How Calvin uses it: the register of <code>pierce</code>, <code>work its way</code>, <code>marrow</code> comes from this family of texts, not from rhetoric manuals.</p>
+</li>
+<li>
+<p><strong>Ps. 34:8 / Ps. 19:10 — the taste vocabulary of S4.</strong> <code>O taste and see that the LORD is good</code>; <code>sweeter also than honey</code>. <code>savours of earth</code> belongs to Calvin's running <strong>sensory epistemology</strong> (I.5.3 <code>tasted his paternal love</code>; I.7.2 <code>sweet and bitter ... of taste</code>; Heb 5:14 αἰσθητήρια). How Calvin uses it: recognition of the divine is treated as a <strong>perception</strong>, not a deduction — which is why S12 can end in an experiment rather than a syllogism.</p>
+</li>
+<li>
+<p><strong>Matt. 7:7 / Jas. 4:8 — the form of S12's invitation.</strong> <code>Ask, and it shall be given you</code>; <code>Draw nigh to God, and he will draw nigh to you</code>. <strong>Conditional imperative</strong> — command + <code>and</code> + promise. Calvin's <code>turn from them to the reading of the Sacred Volume, and ... it will so affect you</code> is built on this biblical pattern. How Calvin uses it: it converts his literary claim into a <strong>testable command</strong>.</p>
+</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① 어법 — 밑줄 넷 중 <strong>틀린</strong> 것을 고르시오.</h3><blockquote>
+<p>In vain ①<u>were</u> the authority of Scripture fortified by argument, if ②<u>unaccompanied</u> by an assurance higher than human judgment can give. Consider ③<u>how beautifully is it</u> harmonised in all its parts; and had it been adorned with a more splendid eloquence, the wicked ④<u>might have cavilled</u>.</p>
+<p><strong>정답: ③</strong></p>
+<p><code>how beautifully **is it** harmonised</code> → <strong><code>how beautifully **it is** harmonised</code>.</strong> 내포 <code>how</code>절은 <strong>도치하지 않는다</strong>. 오늘 Formula 2 의 정면 출제이고, S4 의 네 다리가 전부 이 어순을 지킨다(<code>how beautifully **it harmonises**</code>).</p>
+<p><strong>출제 의도 — 나머지 셋이 왜 옳은가를 아는 것이 실력이다.</strong>
+① <code>were</code> = <strong>would be</strong>(과거 가정법) + 문두 부사구 <code>In vain</code> 에 의한 도치. 사실을 말하는 <code>was</code> 로 바꾸면 문장의 무드가 붕괴한다(S1).
+② <code>unaccompanied</code> — 축약 조건절(<code>if ‹it were› unaccompanied</code>). 접두사 <code>un-</code> 이 부정을 지고 있으므로 <code>not</code> 을 추가로 넣으면 이중부정이 되어 뜻이 뒤집힌다.
+④ <code>might have cavilled</code> — <code>Had it been adorned</code> 라는 <strong>과거 반사실</strong> 조건에 호응하는 완료 조동사. <code>might cavil</code> 로 쓰면 시간축이 어긋난다(S7).
+<strong>함정 설계:</strong> ③은 "감탄문이니 도치"라는 반쯤 맞는 규칙을 자극한다. 규칙의 조건절이 「독립 감탄·의문일 때」임을 아는 학생만 걸러진다.</p>
+</blockquote><hr/><h3>② 내용일치 — §1의 내용과 <strong>일치하는</strong> 것은?</h3><ol>
+<li>Calvin argues that the arrangement, harmony, and majesty of Scripture are of themselves strong enough to produce and fix a full conviction in the reader's mind, so that the Spirit's testimony merely confirms what the evidences have already settled.</li>
+<li>Calvin admits that the sublime mysteries of the kingdom of heaven have for the most part been delivered in language of a contemptible plainness, and treats this very plainness as a providential arrangement, since a more splendid eloquence would have let the wicked claim that the eloquence was the whole of Scripture's force.</li>
+<li>Calvin holds that the classical orators and philosophers have no real power to move a reader, and that anyone who claims to be delighted by Cicero or Plato is deceived by mere ornament.</li>
+<li>Since Scripture is exempt from the common rule, Calvin concludes that arguments for its credibility are of no use to the believer, and he offers the marks of divinity in this chapter only as a concession to unbelievers.</li>
+</ol><blockquote>
+<p><strong>정답: ②</strong></p>
+<p>S6 (<code>not without an admirable arrangement of Providence, that the sublime mysteries ... have for the greater part been delivered with a contemptible meanness of words</code>) + S7 (<code>Had they been adorned with a more splendid eloquence, the wicked might have cavilled, and alleged that this constituted all their force</code>). 양보와 그 양보의 목적이 정확히 결합되어 있다.</p>
+<p><strong>출제 의도 — 네 개의 오답이 §1의 네 가지 서로 다른 오독을 각각 대표한다.</strong>
+① <strong>방향 뒤집기, 그리고 이 절 최대의 함정.</strong> S3 의 관계절이 이 선지를 한 방에 죽인다 — <code>those proofs **which were not so strong as to produce and rivet a full conviction in our minds**</code>. 증거는 확신을 <strong>만들지도 못박지도</strong> 못한다. 그리고 S1 의 <code>in vain ... if unaccompanied by</code> 는 성령을 <strong>확인자</strong>가 아니라 <strong>전제</strong>로 놓는다. 순서가 뒤집힌 선지다(= §4의 <code>preposterous</code> 그 자체).
+③ <strong>범위 초과 + 양보 삭제.</strong> S12 는 정반대를 말한다 — <code>you will, **I admit**, feel wonderfully allured, pleased, moved, enchanted</code>. 칼빈은 고전 웅변의 힘을 <strong>인정하고서</strong> 비교한다. 인정을 지우면 논증이 사라진다.
+④ <strong>반쪽 인용.</strong> <code>exemption from the common rule</code>(S3) 는 맞게 가져왔지만, 같은 문장의 결론이 <code>become **most appropriate helps**</code> 다 — 신자에게 <strong>유용하다</strong>는 말이다. 그리고 이 챕터가 불신자 전용이라는 말은 본문에 없다.
+<strong>⚠️ 채점 관점:</strong> ①과 ④는 방향이 정반대인데 <strong>둘 다 오답</strong>이다. 오늘의 요지는 "증거가 전부다"도 "증거는 무용하다"도 아니라 <strong>순서</strong>라는 것. 양극단 오답을 한 문제에 넣는 것은 이 구조를 이해했는지 확인하는 표준 수법이다.</p>
+</blockquote><hr/><h3>③ 영작 — 오늘의 공식을 적용해 영작하시오.</h3><blockquote>
+<p><strong>(a)</strong> [Formula 1] "복음이 학식으로 뒷받침되고 교회의 동의로 지지된다 해도, 성령의 인치심이 함께하지 않는다면 헛일일 것이다. 만일 복음이 더 화려한 언어로 꾸며졌더라면, 조롱하는 자들은 그 언어가 그 힘의 전부라고 주장했을 것이다. 그러나 실제로는, 가장 평범한 한 문장이 웅변의 절정보다 더 깊이 박힌다."
+— ①<code>In vain were ... if unaccompanied by</code> (축약 조건절 유지) ②<code>Had ... been p.p., ... might have p.p.</code> ③<code>But now</code>(시간 아님) 순서로.</p>
+<p><strong>(b)</strong> [Formula 2] "성경의 각 부분이 서로 얼마나 정확히 응답하는지는 다음 사실에서 드러난다. 즉, 아무리 솜씨 좋게 지어진 어떤 인간의 글도 같은 방식으로 우리에게 조금도 영향을 주지 못한다는 것이다."
+— 내포 <code>how</code>절을 <strong>주어 자리</strong>에 놓고, <code>appears from this, that ...</code> 과 축약 양보절 <code>however skilfully composed</code> 를 쓸 것.</p>
+<p><strong>(c)</strong> [Formula 3] "그 논증은 그 자체로 문제를 끝낼 만큼 강하지는 않다. 그 안의 진리는 너무 강해서 장식을 필요로 하지 않는다. 그 책을 펴 보라, 그러면 원하든 원하지 않든 그것이 너를 그토록 파고들고, 그토록 붙잡아, 오늘 읽은 다른 모든 것이 비교하면 얇아 보일 것이다."
+— <code>not so ... as to V</code>, <code>too ... to V</code>, 조건 명령문 + <code>whether you will or not</code> + <code>so ..., so ..., that ...</code> 을 각각 쓸 것.</p>
+<p><strong>모범답안:</strong>
+<strong>(a)</strong> <strong>In vain were the gospel supported by learning, or upheld by the consent of the Church, if unaccompanied by the seal of the Spirit. Had it been adorned with a more splendid diction, the scoffers might have alleged that the diction constituted all its force. But now, when its plainest sentence sinks deeper than the summit of oratory, what does that indicate if not that the power was never in the words?</strong>
+<strong>(b)</strong> <strong>How exactly the parts of Scripture answer to one another appears from this, that no human writing, however skilfully composed, is at all capable of affecting us in a similar way.</strong>
+<strong>(c)</strong> <strong>The argument is not so strong as to settle the question by itself; the truth in it is too mighty to need ornament. Open the book, and whether you will or not it will so search you, so hold you, that everything else you have read today will seem thin in comparison.</strong></p>
+<p><strong>채점 포인트.</strong> <strong>(a)</strong> <code>In vain the gospel was supported</code> 처럼 <strong>도치를 빼면 감점</strong>, <code>was</code> 로 쓰면 무드 붕괴로 감점. <code>if it were not accompanied by</code> 로 풀어 쓰는 것은 허용하되, 축약형을 요구했으므로 <code>if unaccompanied by</code> 가 만점. ⚠️ <code>if unaccompanied</code> 에 <code>not</code> 을 더하면 <strong>즉시 0점</strong>(이중부정). ③은 <code>But now</code> 를 반드시 <strong>논리 연결자로</strong> — <code>Nowadays</code>, <code>At present</code> 로 옮기면 0점.
+<strong>(b)</strong> <code>how</code> 절을 문장 <strong>맨 앞 주어 자리</strong>에 두지 않으면 공식 미적용. ⚠️ 도치(<code>how exactly do the parts answer</code>)는 즉시 0점 — 내포절이다. <code>appears from this, that</code> 의 <strong>콤마 + that</strong> 을 살릴 것(관계사로 바꾸면 감점). <code>however skilfully composed</code> 에서 <code>they are</code> 를 복원해 써도 되지만 축약형이 만점.
+<strong>(c)</strong> ⚠️ <code>not so strong as to</code> 를 <code>not strong enough to</code> 로 바꾸면 공식 미적용(뜻은 통하나 오늘 공식이 아님). <code>too mighty to need</code> 의 <code>to need</code> 를 <code>not to need</code> 로 쓰면 0점 — <code>too ... to</code> 는 이미 부정이다. 조건 명령문의 <code>and</code> 를 빼거나 <code>then</code> 으로 바꾸면 감점. 그리고 ⚠️ <strong><code>whether you will or not</code> 을 <code>whether you will read it or not</code> 으로 고치면 0점</strong> — <code>will</code> 은 본동사 '원하다'다. 마지막으로 <code>so ..., so ..., that ...</code> 은 <strong>that절 하나</strong>로 착지시킬 것; 다리마다 that 을 붙이면 구조 붕괴.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> Chapter 8 opens by putting itself in its place: <code>**In vain were** the authority of Scripture fortified by argument, or supported by the consent of the Church, or confirmed by any other helps, **if unaccompanied by** an assurance higher and stronger than human Judgment can give</code> — until that foundation is laid the authority <code>remains **in suspense**</code> — but once we receive Scripture reverently, <code>recognising its **exemption from the common rule**</code>, then those same proofs, <code>**which were not so strong as to produce and rivet a full conviction**</code>, <strong><code>become most appropriate helps</code></strong> (one verb, and the whole two-tier structure with it); whereupon Calvin turns literary critic and names the marks — <code>how admirably the system of divine wisdom ... is arranged—how perfectly free the doctrine is from every thing that **savours of earth**—how beautifully it **harmonises in all its parts**—and how rich it is in all the other qualities which give **an air of majesty** to composition</code> (the list the Westminster Divines will versify) — but locates their force in <code>the dignity of **the matter**</code> rather than <code>the graces of **style**</code>, and then makes the audacious move: <code>it was **not without an admirable arrangement of Providence**, that the **sublime mysteries** of the kingdom of heaven have for the greater part been delivered with a **contemptible meanness of words**</code>, since <code>**Had they been adorned** with a more splendid eloquence, the wicked might have cavilled</code>; <code>**But now**</code> — as things actually stand — an <code>unpolished simplicity, almost **bordering on rudeness**</code> outweighs <code>the loftiest flights of oratory</code>, and <code>what does it indicate **if not** that the Holy Scriptures are **too mighty** in the power of truth **to need** the rhetorician's art?</code> Paul ratifies it (<code>not on "the wisdom of men," but on "the power of God"</code>; <code>in **demonstration** of the Spirit and of power</code>), the principle is generalised (<code>unsupported by **foreign** aid, it has its **sole sufficiency in itself**</code>), narrowed (<code>**How peculiarly** this property belongs to Scripture appears from this, that...</code>), and finally put to the reader as an experiment: <code>Read Demosthenes or Cicero ... **but turn** from them to the reading of the Sacred Volume, **and whether you will or not**, it will **so** affect you, **so** pierce your heart, **so** work its way into your very **marrow**, **that** ... that of orators and philosophers will almost disappear</code> — leaving <code>a truth divine, **a something**</code> that no list of marks can name.</p><p><strong>And the three grammar points, once more:</strong></p><ol>
+<li><strong>The counterfactual machine, in three moves.</strong> <code>**In vain were** S p.p. ... **if unaccompanied by**</code> (S1: fronted adverbial forces inversion; <code>were</code> = <em>would be</em>; the <code>if</code>-clause is <strong>reduced to conjunction + participle</strong>, with the negation hiding in <code>un-</code>) → <code>**Had they been** adorned ..., the wicked **might have** cavilled</code> (S7: if-deletion, only HAD/WERE/SHOULD may invert; second modal <strong>gapped</strong>) → <code>**But now**</code> (S8: ⚠️ <em>nunc vero</em>, <strong>"but as things actually stand"</strong> — a logical operator, never a date).</li>
+<li><strong>The embedded <code>how</code>-clause: no inversion, any noun slot.</strong> Four in a dash cascade in S4 (<code>how admirably the system **is arranged**</code>, <code>how perfectly free the doctrine **is**</code>, <code>how beautifully **it harmonises**</code>, <code>how rich **it is**</code>) — subject before verb, every time. Then the high-value version in S11: <code>**How peculiarly this property belongs to Scripture** appears from this, that...</code>, where the whole clause is the <strong>subject of <code>appears</code></strong>. Diagnostic: find the main verb first, then bracket everything in front of it.</li>
+<li><strong>Degree-and-result, three members plus the frame.</strong> <code>**not so** strong **as to** produce and rivet a full conviction</code> (S3 — and <code>full</code> is the limiting word, as in §4's <code>a full faith</code>) · <code>**too** mighty in the power of truth **to** need the rhetorician's art</code> (S8) · <code>**so** affect you, **so** pierce your heart, **so** work its way into your very marrow, **that**...</code> (S12 — three legs, one landing) — all hung on the <strong>conditional imperative</strong> <code>turn ..., **and** it **will** ...</code>, inside which sits the trap of the section: <code>whether you **will** or not</code>, where <code>will</code> is the <strong>full verb "to want."</strong></li>
+</ol><p><strong>Homework (10 minutes).</strong></p><p><strong>① Structure restoration.</strong> Take S3 — the sentence everyone crashes on — and rebuild it as <strong>three</strong> flat sentences, keeping every element:</p><blockquote>
+<p><em>On the other hand, when recognising its exemption from the common rule, we receive it reverently, and according to its dignity, those proofs which were not so strong as to produce and rivet a full conviction in our minds, become most appropriate helps.</em></p>
+<p>Target shape: (i) Scripture is exempt from the common rule. (ii) When we recognise that and receive it reverently, something changes. (iii) The proofs — which could never have produced or riveted a full conviction — now become the best of helps. — Then <strong>mark the main clause</strong> (it is three words plus a complement), <strong>draw a box around the <code>when</code>-clause</strong> and put the missing comma after <code>when</code>, and write one line explaining why Calvin chose <code>become</code> instead of <code>are</code>.</p>
+</blockquote><p><strong>② Composition.</strong> Write three English sentences on this content, using <strong>Formula 1① in the first, Formula 2 (subject slot) in the second, Formula 3③④ in the third</strong>:</p><blockquote>
+<p><em>"In vain were the sermon armed with learning, if unaccompanied by the Spirit who alone opens the ear. How little the hearer's assent depends on the preacher's skill appears from this, that the plainest word, however roughly delivered, has emptied more thrones than eloquence ever did. Sit under it once, and whether you will or not it will so find you, so name you, that no argument you brought will seem worth repeating."</em>
+— then check your work against S1 for the reduced conditional, against S11 for the subject-slot <code>how</code>-clause, and against S12 for the conditional imperative and the full-verb <code>will</code>.</p>
+</blockquote><p><strong>③ Tomorrow's preview (one line).</strong> §2 opens with a <strong>concession that will look like a retraction</strong>: <code>I confess, however, that in elegance and beauty, nay, splendour, the style of some of the prophets is not surpassed by the eloquence of heathen writers.</code> ⚠️ It is not a retraction — it is the reason S6 said <code>**for the greater part**</code>. Watch Calvin grant that David and Isaiah write as well as any pagan, argue that the Spirit proved thereby <code>it was **not from want of eloquence**</code> he elsewhere used a rude style (litotes doing heavy lifting), and then locate the constant across both registers — <code>**that majesty of the Spirit to which I adverted appears conspicuous in all**</code>, from David's sweetness to <code>Amos the herdsman ... whose rougher idiom savours of rusticity</code>. And then brace yourself: the section turns to <strong>Satan aping God</strong> (<code>as Satan often apes God</code>) — the counterfeit problem, which is where every argument from majesty has to go if it is honest.</p><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 8, §1 끝. 다음은 <strong>Book 1, Ch. 8, §2</strong> (Day 38) — 선지자들의 문체에 나타나는 장엄(majesty): 일부 선지자의 우아함·화려함은 이교 저술가에 못지않다는 양보, <code>not from want of eloquence</code>, 다윗·이사야 ↔ 목자 아모스·예레미야·스가랴의 rusticity, 그리고 사탄이 하나님을 모방한다는 문제.</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>

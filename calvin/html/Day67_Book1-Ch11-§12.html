@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 하나님을 형상으로 만드는 죄 §12 (1권 11장 · Day 67) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 11장 §12(하나님을 형상으로 만드는 죄)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 67. 연관 성구: 로마서 1, 신명기 4, 예레미야 10, 하박국 2."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day67_Book1-Ch11-%C2%A712.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="하나님을 형상으로 만드는 죄 §12 — 기독교 강요 영어로 읽기 (Day 67)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 11장 §12(하나님을 형상으로 만드는 죄)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 67. 연관 성구: 로마서 1, 신명기 4, 예레미야 10, 하박국 2."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day67_Book1-Ch11-%C2%A712.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 하나님을 형상으로 만드는 죄 §12 (1권 11장 · Day 67) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 11장 §12(하나님을 형상으로 만드는 죄)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 67. 연관 성구: 로마서 1, 신명기 4, 예레미야 10, 하박국 2.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 11장 §12 — 하나님을 형상으로 만드는 죄","mentions":[{"@type":"CreativeWork","name":"로마서 1 (Rom 1)"},{"@type":"CreativeWork","name":"신명기 4 (Deut 4)"},{"@type":"CreativeWork","name":"예레미야 10 (Jer 10)"},{"@type":"CreativeWork","name":"하박국 2 (Hab 2)"},{"@type":"CreativeWork","name":"야고보서 1 (Jas 1)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day67_Book1-Ch11-%C2%A712.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 67 — Book 1, Chapter 11, §12<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (⚠️ invariable) — 13 sentences</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl2" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl2" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl3" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl2" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl2" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl1" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl1" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl2" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl2" href="#S11" onclick="closeNavMobile()">S11</a><a class="toc-s lvl2" href="#S12" onclick="closeNavMobile()">S12</a><a class="toc-s lvl3" href="#S13" onclick="closeNavMobile()">S13</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (어원 후킹)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 67 — Book 1, Chapter 11, §12</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Stop. Look at the second word of today's section.</p><p><strong><code>however</code>.</strong></p><p>For eleven sections Calvin has been prosecuting. No visible form for God (§§1–7). Idols are not a late calendar accident but a defect of the human constitution (§§8–10). The <em>dulia/latria</em> dodge is dead on arrival (§11). Eleven sections of demolition. And now, at the top of §12, one small adversative: <strong><code>I am not, however, so superstitious as to think that all visible representations of every kind are unlawful.</code></strong></p><p>That <code>however</code> is the <strong>hinge of the entire chapter</strong>. Beveridge's own argument heading names it: <strong>third division — the use and abuse of images.</strong> Divisions one and two were prosecution. Division three is <strong>qualification</strong>. And this is the single most misquoted section in the <em>Institutes</em>, because everyone who has ever wanted to make Calvin the patron saint of whitewashed walls stops reading at §11.</p><p>Here is what he actually says in S2, and I want you to underline it in whatever you are reading this on: <strong><code>sculpture and painting are gifts of God</code></strong>. Not tolerated. Not permitted. <strong>Gifts.</strong> Same noun he has been using since I.5 for the created order. So the demand that follows is not <em>abolition</em> — it is <strong><code>that both shall be used purely and lawfully</code></strong>. Watch the verb Calvin chooses for the sin: <code>abused</code>, <code>perverted</code>. You cannot pervert a thing that had no proper use. <strong>The charge of abuse presupposes a legitimate use.</strong> That is not a soft aside; it is a structural commitment, and the rest of the section is built on it.</p><p>Then he draws the line, and the line is drawn around the <strong>object</strong>, not around the art. S6: <strong><code>The only things… which ought to be painted or sculptured, are things which can be presented to the eye</code></strong>. Painting is fine. Painting <em>the invisible</em> is the category error. The prohibition attaches to God's <code>majesty… far beyond the reach of any eye</code>, not to the sculptor's chisel.</p><p>And then — this is the part I want you awake for — he does something rhetorically ruthless in the last two sentences. Having spent §§5–7 flaying the indecency and lewdness of the images actually standing in churches, he now <strong>sets all of that aside</strong>: <code>I say nothing as to the improper and unbecoming form…</code> And having disarmed himself, he lands the actual thesis: <strong><code>though they were otherwise faultless, they could not be of any utility in teaching.</code></strong></p><p>Do you see the move? He grants his opponent a <strong>perfect</strong> image. Faultless. Decent. Beautiful. And says: <em>it still teaches nothing.</em> His case does not depend on bad art. Any exam option that makes Calvin's argument rest on images being ugly or lewd has been trapped by S12 and has never reached S13.</p><p>Grammatically today is the <strong>scope-and-inversion</strong> section. Calvin is doing three things that all depend on getting the boundaries of a construction right: <strong>limiting a denial</strong> (S1), <strong>escalating an apposition</strong> (S2), and <strong>inverting for a fortiori</strong> (S5). If you mis-bracket any one of them you will read the section backwards.</p><h3>Today's 3 Big Points</h3><ol>
+<li><strong><code>not so + ADJ + as to + V</code> — where does the <code>not</code> land? (S1, and its cousin at S9.)</strong> <code>I am **not** so superstitious **as to** think that all visible representations… are unlawful.</code> The negative does <strong>not</strong> attach to <code>superstitious</code> alone. It scopes over the whole <code>so…as to</code> bracket: <em>I am not superstitious to the degree that would be required for me to think X.</em> Result: <strong>Calvin denies X.</strong> He is saying, in one breath, (a) <em>I do not hold that all images are unlawful</em> and (b) <em>anyone who does hold that is being superstitious.</em> Two claims in a construction that looks like one. And note the wit: <code>superstitious</code> is the word Rome throws at the Reformed. He picks it up and throws it at the <strong>over</strong>-scrupulous. Then S9 gives you the hedging sibling: <code>so far as I can see</code> = <em>as far as I can judge</em> — a deliberate softener, marking that sentence as <strong>opinion</strong>, not as the section's load-bearing claim.</li>
+<li><strong>The <code>what</code>-cleft with epexegetic apposition, plus <code>nay</code> escalation (S2).</strong> <code>what I insist for is, **that** both shall be used purely and lawfully,—**that** gifts which the Lord has bestowed… shall not be preposterously abused, **nay**, shall not be perverted to our destruction.</code> Two <code>that</code>-clauses. They are <strong>not</strong> a list — the dash tells you the second <strong>restates and sharpens</strong> the first (apposition, not coordination). And inside the second clause, <code>nay</code> does the same job again at the level of the verb: <strong><code>nay</code> is a corrective intensifier, not a negative.</strong> <code>not merely abused — worse, perverted.</code> So you have escalation nested inside escalation. If you read <code>nay</code> as "no," the sentence collapses.</li>
+<li><strong>Present subjunctive protasis + fronted comparative with inversion = the a fortiori engine (S5).</strong> <code>**If it be** unlawful to make any corporeal representation of God, **still more unlawful must it be** to worship such a representation instead of God.</code> Two things. (a) <code>If it be</code> — bare present subjunctive, archaic, marking the protasis as <strong>granted for argument</strong>, not asserted. (b) <code>still more unlawful</code> is <strong>fronted</strong>, and fronting a comparative complement forces <strong>subject–verb inversion</strong>: <code>must it be</code>, not <code>it must be</code>. And track the direction, because this is where options get built: <strong>making → worshipping is an increase in guilt.</strong> Calvin is climbing, not descending.</li>
+</ol><p>Trap words I <em>will</em> test. <strong><code>superstitious</code></strong> (S1) — aimed at the over-strict, not the idolater; the polarity is inverted. <strong><code>insist for</code></strong> (S2) = archaic <strong>insist on</strong>. <strong><code>preposterously</code></strong> (S2) = <em>prae</em> + <em>posterus</em>, <strong>back-to-front</strong> — structural, not merely "absurdly." <strong><code>nay</code></strong> (S2) = <strong>corrective escalation</strong>, "rather / indeed even," <em>not</em> a refusal. <strong><code>singular</code></strong> (S4) = <strong>alone, idiosyncratic, standing by ourselves</strong> — emphatically <strong>not</strong> "excellent." <strong><code>divines</code></strong> (S4) = <strong>theologians</strong>, a noun. <strong><code>corporeal</code></strong> (S5) = <strong>bodily, material</strong>. <strong><code>viz.</code></strong> (S7) = <em>videlicet</em>, <strong>namely</strong> — it introduces a definition, not an example. <strong><code>admonition</code></strong> (S8) = <strong>warning or reproof</strong>, not gentle advice. <strong><code>fitted for</code></strong> (S9) = <strong>suited to</strong>. <strong><code>hitherto</code></strong> (S10) = <strong>up to this point in time</strong>. <strong><code>judicious</code></strong> (S11) = <strong>exercising judgment, discriminating</strong>. <strong><code>wanton</code></strong> (S12) = <strong>unrestrained, undisciplined</strong> — the sense is licence, not merely lewdness. <strong><code>alluded to</code></strong> (S12) = <strong>referred to indirectly</strong> — and it <em>requires</em> <code>to</code>. <strong><code>otherwise faultless</code></strong> (S13) = <strong>faultless in every other respect</strong> — the concessive hinge of the whole section.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (⚠️ invariable) — 13 sentences</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+12. <span class="ft-sent" data-s="S1" id="ft-S1" onclick="jumpToCard('S1')">I am not, however, so superstitious as to think that all visible representations of every kind are unlawful.</span> <span class="ft-sent" data-s="S2" id="ft-S2" onclick="jumpToCard('S2')">But as sculpture and painting are gifts of God, what I insist for is, that both shall be used purely and lawfully,—that gifts which the Lord has bestowed upon us, for his glory and our good, shall not be preposterously abused, nay, shall not be perverted to our destruction.</span> <span class="ft-sent" data-s="S3" id="ft-S3" onclick="jumpToCard('S3')">We think it unlawful to give a visible shape to God, because God himself has forbidden it, and because it cannot be done without, in some degree, tarnishing his glory.</span> <span class="ft-sent" data-s="S4" id="ft-S4" onclick="jumpToCard('S4')">And lest any should think that we are singular in this opinion, those acquainted with the productions of sound divines will find that they have always disapproved of it.</span> <span class="ft-sent" data-s="S5" id="ft-S5" onclick="jumpToCard('S5')">If it be unlawful to make any corporeal representation of God, still more unlawful must it be to worship such a representation instead of God, or to worship God in it.</span> <span class="ft-sent" data-s="S6" id="ft-S6" onclick="jumpToCard('S6')">The only things, therefore, which ought to be painted or sculptured, are things which can be presented to the eye; the majesty of God, which is far beyond the reach of any eye, must not be dishonored by unbecoming representations.</span> <span class="ft-sent" data-s="S7" id="ft-S7" onclick="jumpToCard('S7')">Visible representations are of two classes—viz. historical, which give a representation of events, and pictorial, which merely exhibit bodily shapes and figures.</span> <span class="ft-sent" data-s="S8" id="ft-S8" onclick="jumpToCard('S8')">The former are of some use for instruction or admonition.</span> <span class="ft-sent" data-s="S9" id="ft-S9" onclick="jumpToCard('S9')">The latter, so far as I can see, are only fitted for amusement.</span> <span class="ft-sent" data-s="S10" id="ft-S10" onclick="jumpToCard('S10')">And yet it is certain, that the latter are almost the only kind which have hitherto been exhibited in churches.</span> <span class="ft-sent" data-s="S11" id="ft-S11" onclick="jumpToCard('S11')">Hence we may infer, that the exhibition was not the result of judicious selection, but of a foolish and inconsiderate longing.</span> <span class="ft-sent" data-s="S12" id="ft-S12" onclick="jumpToCard('S12')">I say nothing as to the improper and unbecoming form in which they are presented, or the wanton license in which sculptors and painters have here indulged (a point to which I alluded a little ago, supra, s. 7).</span> <span class="ft-sent" data-s="S13" id="ft-S13" onclick="jumpToCard('S13')">I only say, that though they were otherwise faultless, they could not be of any utility in teaching.</span>
+</blockquote><p><strong>Sentence count: 13 (S1–S13). One paragraph.</strong></p><blockquote>
+<p><strong>Text note (not a correction to the quotation).</strong> Three things in the printed page, left exactly as they stand. (i) <code>dishonored</code> (S6) is the American spelling carried by our Beveridge file — do not "fix" it in a quotation. (ii) In the physical Beveridge volume a French footnote (<em>"…pelerinage pour voir un marmouset, duquel ils ont le semblable à leur porte?"</em> — Calvin's own French, on pilgrims who trudge to see a puppet they have the twin of at home) interrupts S3 at the page break; it belongs to <strong>§10</strong>, not here, and is excluded above. (iii) <code>supra, s. 7</code> (S12) is Beveridge's editorial cross-reference, printed inside Calvin's parenthesis, and is retained.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>[PIVOT]        S1        "I am not, HOWEVER, so superstitious as to think…"
+                         → THIRD DIVISION opens. Prosecution (§§1–11) → qualification.
+                         The denial is limited, and the limit is the whole point.
+[PRINCIPLE]    S2        sculpture &amp; painting = GIFTS OF GOD
+                         → demand is USE ("purely and lawfully"), not abolition
+                         → escalation: not "abused" — NAY, "perverted to our destruction"
+[LIMIT: WHY]   S3        no visible shape of GOD. Two grounds, both with "because":
+                         (a) God has forbidden it   (b) it tarnishes his glory
+[NOT ALONE]    S4        "lest any should think that we are SINGULAR" → sound divines
+                         have ALWAYS disapproved (argument from catholic consensus)
+[A FORTIORI]   S5        make &lt; worship. If making is unlawful → worshipping is MORE so
+                         (fronted comparative + inversion: "must it be")
+[THE RULE]     S6        paint only what CAN BE PRESENTED TO THE EYE
+                         ; God's majesty is beyond every eye → prohibition attaches to the
+                         OBJECT, not to the art
+[TAXONOMY]     S7–S9     two classes (viz.):
+                          · historical  = events        → "of SOME use" (instruction/admonition)
+                          · pictorial   = shapes/figures → "only fitted for amusement"
+[VERDICT]      S10–S11   AND YET pictorial is almost the ONLY kind hitherto in churches
+                         → inference: NOT judicious selection BUT foolish, inconsiderate longing
+[CONCESSION]   S12–S13   praeteritio: I say NOTHING of indecency &amp; wanton licence (→ s.7)
+                         I ONLY say: THOUGH THEY WERE OTHERWISE FAULTLESS,
+                         they could not be of any utility in teaching   ← the actual thesis
+</code></pre><p><strong>Examiner's Eye.</strong> Six traps, and the two most dangerous are at the ends — the first sentence and the last.</p><p><strong>(1) The blanket-iconoclasm trap — S1–S2.</strong> Options will offer you: <em>"Calvin holds that all visible representations are unlawful."</em> That is <strong>precisely the position S1 denies</strong>, and denies while calling it <code>superstitious</code>. Then S2 goes further and calls sculpture and painting <strong>gifts of God</strong>. The single commonest misreading of this chapter is the one Calvin himself forecloses in his opening clause. Note also the tell in S2's vocabulary: <code>abused</code>, <code>perverted</code>. Both verbs are <strong>parasitic on a proper use</strong>. You cannot pervert nothing.</p><p><strong>(2) The <code>singular</code> trap — S4.</strong> <code>lest any should think that we are singular in this opinion.</code> Read as "excellent," the sentence turns into Calvin boasting. It means <strong>alone / peculiar to us</strong>, and the clause is defensive: <em>don't imagine this is a Reformed novelty.</em> The whole sentence is an appeal to <strong>catholic consensus</strong> — <code>sound divines… have always disapproved</code>. An option reading S4 as Calvin claiming originality inverts it exactly.</p><p><strong>(3) The a fortiori direction trap — S5.</strong> <code>If it be unlawful to make…, still more unlawful must it be to worship…</code> The ladder runs <strong>upward</strong>: making is bad, <strong>worshipping is worse</strong>. Distractors will hand you the descent (<em>"making is worse than worshipping"</em>) or, more subtly, the equation (<em>"Calvin treats making and worshipping as equally culpable"</em>). Neither survives <code>still more</code>.</p><p><strong>(4) The scope trap — S6.</strong> This is the most theologically important sentence in the section and it is built as a <strong>semicolon pair</strong>. Left of the semicolon: a <strong>permission</strong> with a boundary (<code>the only things… which ought to be painted… are things which can be presented to the eye</code>). Right of the semicolon: the <strong>exclusion</strong> that follows (<code>the majesty of God, which is far beyond the reach of any eye</code>). The prohibition is derived from the <strong>nature of the object</strong>, not from any suspicion of the medium. Any option that locates Calvin's objection in art itself has read the wrong side of the semicolon.</p><p><strong>(5) The <code>of some use</code> trap — S8.</strong> <code>The former are of some use for instruction or admonition.</code> This is a <strong>real concession, deliberately limited</strong>. Historical images — narrative scenes, events — get a genuine (if modest) pedagogical value. An option saying <em>"Calvin denies any instructional value to any image"</em> dies on S8. An option saying <em>"Calvin recommends historical images for church walls"</em> dies on S13. The concession is granted at S8 and then <strong>out-ranged</strong> at S13, which is a different operation from being withdrawn. Hold both.</p><p><strong>(6) The concession trap — S12–S13, and this is the one that separates the top band.</strong> S12 is <strong>praeteritio</strong>: Calvin names the indecency and the <code>wanton license</code> of actual church images <em>in the act of declining to argue from them</em>. Then S13: <code>I only say, that **though they were otherwise faultless**, they could not be of any utility in teaching.</code> Past subjunctive <code>were</code> = <strong>granted counterfactually</strong>. He hands the opponent the best possible case — perfect, decent, beautiful images — and the verdict does not move. So: <strong>Calvin's argument here does not rest on abuse.</strong> Any option that makes his conclusion depend on the images being improper has mistaken the discarded argument (S12) for the retained one (S13).</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the pivot — and the not is not where you think</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p><strong><code>I am not, however, so superstitious as to think that all visible representations of every kind are unlawful.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `I am not</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">however</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">결과절 (so…that)</span><span class="leaf">so superstitious</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as to think</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that all visible representations are unlawful</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of every kind</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>superstitious</em> &lt; Lat. <em>super-stare</em> ("stand over") → <em>superstitio</em>, standing over in dread; classically excessive scruple, which is precisely Calvin's sense here — not "believing in luck." • <em>representation</em> &lt; <em>re-</em> + <em>praesentare</em> ("to make present again") — note the word already contains the theological problem: an image claims to <em>make present</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>not so ADJ as to V</em> = 「~할 정도로 ADJ하지는 않다」 → therefore V is denied; <em>of every kind</em> = of any sort whatever (universal, reinforcing <em>all</em>).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I'm not so extreme as to think that every kind of picture or statue is forbidden.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>so superstitious as to think</b> → so extreme that I'd think</li><li><b>visible representations</b> → pictures and statues</li><li><b>of every kind</b> → of any kind</li><li><b>unlawful</b> → forbidden</li><li><b>however* (mid-sentence)</b> → moved to the front or dropped.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">gifts of God — and nay is not "no"</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p><strong><code>But as sculpture and painting are gifts of God, what I insist for is, that both shall be used purely and lawfully,—that gifts which the Lord has bestowed upon us, for his glory and our good, shall not be preposterously abused, nay, shall not be perverted to our destruction.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `what I insist for is,.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that both shall be used</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">purely and lawfully</span></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that gifts shall not be preposterously abused, shall not be perverted</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which the Lord has bestowed upon us</span><ul class="tr"><li><span class="leaf">for his glory and our good</span></li></ul></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">nay</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to our destruction</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>preposterous</em> = <em>prae</em> (before) + <em>posterus</em> (coming after) → the after put before — inverted order, not "absurd." • <em>pervert</em> = <em>per-</em> (thoroughly) + <em>vertere</em> (to turn) → turned all the way round; cf. <em>convert, avert, subvert</em> — the <em>vertere</em> family is Calvin's favourite metaphor for sin as misdirection. • <em>bestow</em> = <em>be-</em> + <em>stow</em> (place) — to place upon, confer.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>insist for</em> (archaic) = insist on 「고집하다·요구하다」; <em>nay</em> = rather / indeed even (corrective escalation) 「아니, 그 정도가 아니라」; <em>pervert X to Y</em> = twist X so that it produces Y.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But since sculpture and painting are gifts from God, all I'm asking is that both be used in a pure and lawful way — that gifts God gave us for his glory and our benefit shouldn't be twisted backwards and misused, or worse, turned into something that destroys us.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>what I insist for is</b> → all I'm asking is</li><li><b>preposterously abused</b> → twisted backwards and misused</li><li><b>nay</b> → or worse</li><li><b>bestowed upon us</b> → gave us</li><li><b>shall not be</b> → shouldn't be.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s2" title="2-star">★★</span><span class="s-label">two becauses — and neither one is aesthetic</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p><strong><code>We think it unlawful to give a visible shape to God, because God himself has forbidden it, and because it cannot be done without, in some degree, tarnishing his glory.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `We think</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">it unlawful</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to give a visible shape to God</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab ph">이유절 (because)</span><span class="leaf">because</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">God himself has forbidden it</span></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and because.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">it cannot be done</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">without, tarnishing his glory</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in some degree</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>tarnish</em> &lt; OFr. <em>terniss-</em>, stem of <em>ternir</em> (to dull, make dim) — from a Germanic root meaning dark; the metaphor is metal losing its shine, which is exactly right for <em>glory</em> (כָּבוֹד / δόξα = radiance, weight). • <em>visible</em> &lt; <em>videre</em> (to see) + <em>-bilis</em> (capable of being).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>cannot be done without V-ing</em> = 「~하지 않고서는 불가능하다」 → necessarily entails V-ing; <em>in some degree</em> = to some extent (deliberate hedge, weakens the claim to strengthen the argument).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">We regard it as wrong to give God a visible form, both because God himself has banned it and because it can't be done without dimming his glory at least somewhat.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>We think it unlawful to</b> → We regard it as wrong to</li><li><b>has forbidden</b> → has banned</li><li><b>cannot be done without tarnishing</b> → can't be done without dimming</li><li><b>in some degree</b> → at least somewhat.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s2" title="2-star">★★</span><span class="s-label">lest… should + the singular trap</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p><strong><code>And lest any should think that we are singular in this opinion, those acquainted with the productions of sound divines will find that they have always disapproved of it.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf">** `And lest</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">any should think</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that we are singular in this opinion</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">will find.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">those</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">acquainted with the productions of sound divines</span></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that they have always disapproved of it</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>singular</em> &lt; <em>singulus</em> (one, individual) → standing alone; the sense "outstanding" is a later semantic drift — do not import it. • <em>divine</em> (n.) &lt; <em>divinus</em>; by the 14th c. an English noun meaning one learned in divinity, i.e. a theologian. • <em>disapprove</em> = <em>dis-</em> + <em>approve</em> (&lt; <em>ad-probare</em>, to prove good).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>lest + S + should V</em> = 「~하지 않도록」 (negative purpose — never add a second <em>not</em>); <em>be singular in an opinion</em> = to stand alone in holding it; <em>be acquainted with</em> = be familiar with (books, not just people).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And in case anyone thinks we're alone in this view, people who know the writings of reliable theologians will find that they've always rejected it.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>lest any should think</b> → in case anyone thinks</li><li><b>singular in this opinion</b> → alone in this view</li><li><b>those acquainted with</b> → people who know</li><li><b>productions of sound divines</b> → writings of reliable theologians</li><li><b>disapproved of it</b> → rejected it.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">fronted comparative + inversion = the a fortiori</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p><strong><code>If it be unlawful to make any corporeal representation of God, still more unlawful must it be to worship such a representation instead of God, or to worship God in it.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf">If it be unlawful</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to make any corporeal representation of God</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>still more unlawful</b></span></li><li><span class="leaf">must it be</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to worship such a representation instead of God</span></li></ul></li><li><span class="lab ph">등위 (or)</span><span class="leaf">or</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to worship God in it</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>corporeal</em> &lt; <em>corpus, corpor-</em> (body) + <em>-alis</em> → bodily, material; distinguish <em>corporal</em> (of the body — punishment) and <em>corporeal</em> (having material substance). • <em>representation</em> — again the <em>re-praesentare</em> problem: the very noun claims to make present what is absent.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>If it be</em> (present subjunctive) = 「만일 ~라면」 granted for argument; <em>still more ADJ must it be to V</em> = 「~하는 것은 한층 더 ADJ할 수밖에 없다」 (a fortiori + inversion); <em>to worship God in it</em> = to direct worship to God <em>through</em> the image (the mediation defence).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">If it's wrong to make any physical image of God, it must be even more wrong to worship that image in God's place — or to worship God through it.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>If it be unlawful</b> → If it's wrong</li><li><b>corporeal representation</b> → physical image</li><li><b>still more unlawful must it be</b> → it must be even more wrong</li><li><b>instead of God</b> → in God's place</li><li><b>to worship God in it</b> → to worship God through it.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s2" title="2-star">★★</span><span class="s-label">read the semicolon: permission on the left, exclusion on the right</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p><strong><code>The only things, therefore, which ought to be painted or sculptured, are things which can be presented to the eye; the majesty of God, which is far beyond the reach of any eye, must not be dishonored by unbecoming representations.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">The only things, are things</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">therefore</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which ought to be painted or sculptured</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which can be presented to the eye</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the majesty of God, must not be dishonored</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which is far beyond the reach of any eye</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by unbecoming representations</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>unbecoming</em> = <em>un-</em> + <em>becoming</em> (&lt; OE <em>becuman</em>, "to arrive at, befit") → not suited to, not "ugly." • <em>sculpture</em> (v.) &lt; <em>sculpere</em> (to carve) — the verb use is later than the noun. • <em>majesty</em> &lt; <em>maiestas</em> &lt; <em>maior</em> (greater) — the word itself is a comparative: greaterness.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>the only X which… are X which…</em> = restrictive identification 「~한 것만이 ~이다」; <em>beyond the reach of</em> = out of the range of; <em>be dishonored by</em> = have one's honour diminished by.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So the only things that should be painted or sculpted are things the eye can actually see; God's majesty, which no eye can reach, must not be degraded by unfitting images.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>ought to be painted</b> → should be painted</li><li><b>can be presented to the eye</b> → the eye can actually see</li><li><b>far beyond the reach of any eye</b> → no eye can reach</li><li><b>dishonored</b> → degraded</li><li><b>unbecoming representations</b> → unfitting images.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s2" title="2-star">★★</span><span class="s-label">viz. introduces a definition, not an example</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p><strong><code>Visible representations are of two classes—viz. historical, which give a representation of events, and pictorial, which merely exhibit bodily shapes and figures.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `Visible representations are of two classes</span></li><li><span class="leaf">— viz</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">historical</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which give a representation of events</span></li></ul></li></ul></li></ul></li><li><span class="leaf">and.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">pictorial</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which merely exhibit bodily shapes and figures</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>viz.</em> &lt; <em>videlicet</em> &lt; <em>videre licet</em> ("one may see") — the final character is a scribal contraction for <em>-et</em>, not the letter z. • <em>pictorial</em> &lt; <em>pictor</em> (painter) &lt; <em>pingere</em> (to paint) — cf. <em>picture, pigment, depict</em>. • <em>exhibit</em> = <em>ex-</em> (out) + <em>habere</em> (to hold) → to hold out for viewing — note it implies display without content.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be of two classes</em> = fall into two categories; <em>viz.</em> = namely (exhaustive, not exemplary); <em>merely V</em> = do no more than V (dismissive).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Visual images come in two kinds: historical ones, which depict events, and pictorial ones, which just show bodies and shapes.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>are of two classes—viz.</b> → come in two kinds:</li><li><b>give a representation of events</b> → depict events</li><li><b>merely exhibit</b> → just show</li><li><b>bodily shapes and figures</b> → bodies and shapes.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s1" title="1-star">★</span><span class="s-label">the concession — small, real, and deliberately measured</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p><strong><code>The former are of some use for instruction or admonition.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><strong>admonition</strong> — ad-monere = to warn. Not gentle advice — the sharper half of S8's concession.</li></ul></div></div><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p>One point, and then move on.</p><p><strong><code>of some use</code></strong> — not "useful," not "of great use," and not "of no use." <code>some</code> is a <strong>calibrated quantifier</strong>, and Calvin chose it precisely. This is a <strong>genuine concession</strong>, granted so that his final position cannot be caricatured as blanket denial. Historical images — narrative, event-depicting — have <strong>a real if modest pedagogical function</strong>.</p><p><code>for instruction **or admonition**</code> — two functions, and <code>admonition</code> is the sharper one: <strong>warning, reproof</strong> (&lt; <em>ad-monere</em>, "to warn"). Think of a painting of the Flood, or of Ananias struck down. It teaches by <strong>warning</strong>. That is the specific value Calvin allows.</p><p>Do not inflate this sentence, and do not delete it. It is a hostage he gives on purpose — and he will out-range it at S13 without ever taking it back.</p><hr/></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s1" title="1-star">★</span><span class="s-label">the dismissal — with a hedge on it</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p><strong><code>The latter, so far as I can see, are only fitted for amusement.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><strong>fitted for</strong> — Passive of fit; = suited to.</li><li><strong>amusement</strong> — a- + muser = to cause to muse / divert attention. Distraction — in a church, not innocent.</li></ul></div></div><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p>One point. <strong><code>so far as I can see</code></strong> — a hedge, and a deliberate one. Calvin marks this judgment as <strong>his own assessment</strong>, not as demonstrated doctrine. Compare S3's flat <code>We think it unlawful</code> or S6's <code>must not be</code>. The register drops.</p><p><code>only fitted for **amusement**</code> — and hear the etymology, because it is not neutral: <em>amuse</em> &lt; Fr. <em>amuser</em>, "to cause to muse, to divert the attention." <strong>Amusement is distraction.</strong> In a church, on Calvin's terms, that is not an innocent verdict.</p><p><code>The former… The latter…</code> — S8 and S9 are a <strong>correlative pair</strong>, structurally parallel, and the asymmetry between them (<code>of some use</code> vs <code>only fitted for</code>) is the whole argument of the pair.</p><hr/></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s2" title="2-star">★★</span><span class="s-label">And yet — the pivot into the verdict</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p><strong><code>And yet it is certain, that the latter are almost the only kind which have hitherto been exhibited in churches.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf">** `And yet</span></li><li><span class="leaf">it is certain</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that the latter are almost the only kind</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which have hitherto been exhibited in churches</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>hitherto</em> = <em>hither</em> (to this place) + <em>to</em> → transferred from place to time: "up to this point." Cf. <em>thitherto, heretofore</em>. • <em>exhibit</em> — same <em>ex-</em> + <em>habere</em> as S7; note Calvin reuses the word, keeping the "held out for display" sense live.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>And yet</em> = and in spite of that; <em>it is certain that</em> = there is no doubt that; <em>hitherto</em> = up to now, so far.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And yet there's no question that the pictorial kind is almost the only sort that has been put on display in churches up to now.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>it is certain, that</b> → there's no question that</li><li><b>the latter</b> → the pictorial kind</li><li><b>the only kind</b> → the only sort</li><li><b>hitherto been exhibited</b> → been put on display up to now.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s2" title="2-star">★★</span><span class="s-label">not A but B — the inference, and it is about motive</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p><strong><code>Hence we may infer, that the exhibition was not the result of judicious selection, but of a foolish and inconsiderate longing.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `Hence we may infer</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that the exhibition was <b>not</b> the result</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of judicious selection</span></li></ul></li></ul><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">a foolish and inconsiderate longing</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>judicious</em> &lt; <em>judicium</em> (judgment) &lt; <em>judex</em> (judge) — the word literally means exercising judgment, which is precisely what the antonym denies. • <em>inconsiderate</em> = <em>in-</em> + <em>considerare</em> (<em>con-</em> + <em>sidus, sider-</em>, "star" — originally to examine the stars) → unexamined, unconsidered; the modern "rude" sense is a later drift. • <em>longing</em> &lt; OE <em>langian</em> — appetite, craving; a noun of desire, not of decision.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Hence we may infer that</em> = from this we are entitled to conclude that; <em>not the result of A, but of B</em> = 「A의 결과가 아니라 B의 결과」 (with <em>the result</em> gapped in the second limb).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So we can conclude that these displays weren't the product of careful choice, but of a foolish, unthinking craving.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Hence we may infer</b> → So we can conclude</li><li><b>the exhibition</b> → these displays</li><li><b>judicious selection</b> → careful choice</li><li><b>inconsiderate longing</b> → unthinking craving.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S12" id="S12"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S12</span><span class="stars s2" title="2-star">★★</span><span class="s-label">praeteritio — arguing by refusing to argue</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S12" onclick="flashFullText(this)">
+<p><strong><code>I say nothing as to the improper and unbecoming form in which they are presented, or the wanton license in which sculptors and painters have here indulged (a point to which I alluded a little ago, supra, s. 7).</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `I say nothing</span></li><li><span class="leaf">as to</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the improper and unbecoming form</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in which they are presented</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (or)</span><span class="leaf">or</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the wanton license</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in which sculptors and painters have here indulged</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">a point</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to which I alluded a little ago, supra, s. 7</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>wanton</em> &lt; ME <em>wantowen</em> = <em>wan-</em> (lacking, cf. <em>wane</em>) + <em>towen</em> (&lt; OE <em>togen</em>, "trained, disciplined") → untrained, unbridled — the sexual sense is secondary. • <em>license</em> &lt; <em>licentia</em> &lt; <em>licere</em> (to be permitted) — in this register liberty exceeded, not a document. • <em>allude</em> = <em>ad-</em> + <em>ludere</em> (to play) → to touch on playfully / indirectly; it takes <em>to</em>, and it means <em>refer indirectly</em> — a word people misuse for <em>refer</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>I say nothing as to X</em> = I make no comment on X (praeteritio — the naming <em>is</em> the argument); <em>indulge in X</em> = give oneself freely to X; <em>allude to X</em> = refer to X indirectly; <em>a little ago</em> = a short while back (archaic for <em>a little while ago</em>).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I won't even go into how improper and unfitting the form is in which these are presented, or the unrestrained liberty sculptors and painters have taken here — a point I touched on a little earlier (see section 7).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>I say nothing as to</b> → I won't even go into</li><li><b>unbecoming form</b> → unfitting form</li><li><b>wanton license… indulged</b> → unrestrained liberty… taken</li><li><b>alluded to</b> → touched on</li><li><b>a little ago</b> → a little earlier.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S13" id="S13"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S13</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the thesis — granted the perfect image, and still no</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S13" onclick="flashFullText(this)">
+<p><strong><code>I only say, that though they were otherwise faultless, they could not be of any utility in teaching.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `I only say</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf">though they were otherwise faultless</span></li></ul></li></ul><ul class="tr"><li><span class="leaf">they could not be</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of any utility</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in teaching</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>faultless</em> &lt; <em>fault</em> &lt; OFr. <em>faute</em> &lt; VL <em>fallita</em> (&lt; <em>fallere</em>, "to deceive, fail") + <em>-less</em>. • <em>utility</em> &lt; <em>utilitas</em> &lt; <em>uti</em> (to use) — the noun of usefulness, and it points straight back to S8's <em>of some use</em> / S9's <em>only fitted for</em>: the same measure, applied one last time. • <em>otherwise</em> = OE <em>on ōthre wīsan</em>, "in another manner" → in other respects.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>I only say that</em> = my sole claim is that (restriction after praeteritio); <em>though + S + were</em> = even if S were (past subjunctive concessive — counterfactual, granted for argument); <em>be of any utility in V-ing</em> = be of any use in V-ing 「~하는 데 아무 쓸모도 없다」 under negation.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">All I'm saying is that even if they were perfect in every other way, they still couldn't be of any use in teaching.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>I only say that</b> → All I'm saying is that</li><li><b>though they were otherwise faultless</b> → even if they were perfect in every other way</li><li><b>could not be of any utility in teaching</b> → couldn't be of any use in teaching.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>┌─ FORMULA 1 ─ NEGATIVE SCOPE OVER "so … as to" ───────────────────────────┐
+│                                                                          │
+│    S + be + NOT + so + ADJ + as to + V                                   │
+│         └────── the NOT scopes the WHOLE bracket ──────┘                 │
+│                                                                          │
+│    = "not ADJ to the degree that would lead to V-ing"                    │
+│    ⇒ V IS DENIED.                                                        │
+│                                                                          │
+│  ⚠ TRAP: the not does NOT attach to the adjective alone.                 │
+│     ✗ "I am not superstitious, and therefore I think X"                  │
+│     ✓ "I do not think X — and to think X would be superstition"          │
+│  ⚠ BONUS: the construction smuggles in a SECOND claim — that holding V   │
+│     would make you ADJ. One bracket, two assertions. Watch for it.       │
+│  ⚠ Hedging cousin: "so far as I can see" = marks OPINION, not doctrine.  │
+│                                                                          │
+│  Drill: 「나는 모든 예술이 우상숭배라고 생각할 만큼 엄격하지는 않다」       │
+│  → I am not so rigid as to think that all art is idolatry.               │
+│    (⇒ he DENIES that all art is idolatry, and calls the view rigid.)     │
+└──────────────────────────────────────────────────────────────────────────┘
+
+┌─ FORMULA 2 ─ WHAT-CLEFT + APPOSITIVE that + "nay" ESCALATION ────────────┐
+│                                                                          │
+│    What S V + IS , + [that-clause ①] ,— [that-clause ②]                  │
+│                       positive form      negative restatement            │
+│         ↑ focus                ↑ the DASH = apposition, NOT a list       │
+│                                                                          │
+│    … not merely A ,  NAY , B                                             │
+│                       └─ CORRECTIVE INTENSIFIER ("rather / indeed even") │
+│                          B OUTRANKS A.  It is NOT the negative "no."     │
+│                                                                          │
+│  ⚠ TRAP 1: reading the two that-clauses as coordinate (they are not —    │
+│     no "and"; the second restates and sharpens the first).               │
+│  ⚠ TRAP 2: reading "nay" as a refusal. It escalates; it never retracts.  │
+│                                                                          │
+│  Drill: 「내가 요구하는 것은 그 은사가 오용되지 않는 것, 아니 파괴에      │
+│          쓰이지 않는 것이다」                                             │
+│  → What I require is, that the gift be not abused,—nay, that it be not   │
+│    turned to our ruin.                                                   │
+└──────────────────────────────────────────────────────────────────────────┘
+
+┌─ FORMULA 3 ─ A FORTIORI: SUBJUNCTIVE PROTASIS + FRONTED COMPARATIVE ─────┐
+│                                                                          │
+│    If it BE + ADJ + to V₁ ,  still more ADJ + MUST IT BE + to V₂         │
+│       └ bare present         └ FRONTED complement                        │
+│         subjunctive:            ⇒ forces SUBJECT–VERB INVERSION          │
+│         granted for               (must it be — NOT "it must be")        │
+│         argument                                                         │
+│                                                                          │
+│    DIRECTION: V₁ ──────────────────▶ V₂   (guilt INCREASES)             │
+│                                                                          │
+│  ⚠ TRAP 1: reversing the ladder (V₂ lighter than V₁). Never.             │
+│  ⚠ TRAP 2: flattening it ("equally unlawful"). "still more" forbids it.  │
+│  ⚠ TRAP 3: writing "still more unlawful it must be" — no inversion.      │
+│     ANY fronted comparative/degree complement drags the operator          │
+│     in front of the subject. Cf. §11 "so far ARE THEY from proving."     │
+│                                                                          │
+│  Drill: 「하나님의 형상을 만드는 것이 불법이라면, 그것을 신뢰하는 것은     │
+│          한층 더 불법일 수밖에 없다」                                     │
+│  → If it be unlawful to fashion an image of God, still more unlawful     │
+│    must it be to place any trust in it.                                  │
+└──────────────────────────────────────────────────────────────────────────┘
+</code></pre><p><strong>Secondary patterns worth banking today</strong></p><table>
+<thead>
+<tr>
+<th>pattern</th>
+<th>where</th>
+<th>force</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>lest + S + should + V</code></td>
+<td>S4</td>
+<td>negative purpose — <strong>never</strong> add another <em>not</em></td>
+</tr>
+<tr>
+<td><code>cannot be done without V-ing</code></td>
+<td>S3</td>
+<td>double negative = <strong>necessary entailment</strong></td>
+</tr>
+<tr>
+<td><code>the only X which… are X which…</code></td>
+<td>S6</td>
+<td>restrictive identification</td>
+</tr>
+<tr>
+<td><code>viz.</code> (<em>videlicet</em>)</td>
+<td>S7</td>
+<td><strong>namely</strong> — exhaustive, ≠ <em>e.g.</em></td>
+</tr>
+<tr>
+<td><code>The former… The latter…</code></td>
+<td>S8–9</td>
+<td>correlatives; the asymmetry between them <em>is</em> the argument</td>
+</tr>
+<tr>
+<td><code>not the result of A, but of B</code></td>
+<td>S11</td>
+<td>contrastive, with head noun <strong>gapped</strong> in limb 2</td>
+</tr>
+<tr>
+<td><code>I say nothing as to X</code></td>
+<td>S12</td>
+<td><strong>praeteritio</strong> — the naming is the argument</td>
+</tr>
+<tr>
+<td><code>though + S + WERE + C</code></td>
+<td>S13</td>
+<td>past subjunctive concessive = <strong>even if S were C</strong></td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (어원 후킹)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>superstitious</strong> ⚠</td>
+<td>과도하게 엄격한 (here: <strong>over-scrupulous</strong>)</td>
+<td><em>super-stare</em> = "stand over" in dread. <strong>Calvin aims it at the image-smasher, not the idolater</strong> — polarity inverted.</td>
+</tr>
+<tr>
+<td><strong>insist for</strong> ⚠</td>
+<td>요구하다 (archaic = <strong>insist on</strong>)</td>
+<td>Beveridge's preposition, not a special sense. Don't over-read it.</td>
+</tr>
+<tr>
+<td><strong>bestow</strong></td>
+<td>수여하다</td>
+<td><em>be-</em> + <em>stow</em> (place) → to place upon.</td>
+</tr>
+<tr>
+<td><strong>preposterous(ly)</strong> ⚠</td>
+<td>앞뒤가 뒤집힌</td>
+<td><em>prae</em>(before) + <em>posterus</em>(after) = <strong>the after put first</strong>. Structural, not merely "silly." Echoes §11's <em>preposterous rivalship</em>.</td>
+</tr>
+<tr>
+<td><strong>pervert</strong></td>
+<td>왜곡·전도하다</td>
+<td><em>per-</em>(thoroughly) + <em>vertere</em>(turn). The <em>vertere</em> family = sin as <strong>misdirection</strong>: convert, avert, subvert.</td>
+</tr>
+<tr>
+<td><strong>nay</strong> ⚠⚠</td>
+<td>아니 그 정도가 아니라 (<strong>escalation</strong>)</td>
+<td><strong>NOT "no."</strong> A corrective intensifier: <em>not merely A — nay, B.</em> Read it as a refusal and the sentence self-destructs.</td>
+</tr>
+<tr>
+<td><strong>tarnish</strong></td>
+<td>빛을 잃게 하다</td>
+<td>OFr. <em>ternir</em> = make dim. Metal losing its shine — perfect for <strong>glory</strong> (כָּבוֹד/δόξα = radiance).</td>
+</tr>
+<tr>
+<td><strong>singular</strong> ⚠⚠</td>
+<td>혼자만의, 유별난</td>
+<td><em>singulus</em> = one alone. <strong>NOT "excellent."</strong> In S4 it is a <strong>liability</strong> Calvin is denying.</td>
+</tr>
+<tr>
+<td><strong>divines</strong> (n.) ⚠</td>
+<td>신학자들</td>
+<td>Noun, plural. <em>divinus</em> → "one learned in divinity." Not the adjective.</td>
+</tr>
+<tr>
+<td><strong>productions</strong> ⚠</td>
+<td>저작·저술</td>
+<td>19th-c. sense = <strong>written works</strong>.</td>
+</tr>
+<tr>
+<td><strong>corporeal</strong></td>
+<td>물질적·육체적</td>
+<td><em>corpus</em> + <em>-alis</em>. Distinguish <em>corporal</em> (of the body: punishment) / <em>corporeal</em> (having material substance).</td>
+</tr>
+<tr>
+<td><strong>unbecoming</strong> ⚠</td>
+<td>어울리지 않는</td>
+<td><em>un-</em> + <em>becoming</em>(befit) = <strong>unfitting</strong>, <strong>not "ugly."</strong> The unfitness is between image and object — decisive for S13.</td>
+</tr>
+<tr>
+<td><strong>viz.</strong> ⚠</td>
+<td>즉 (namely)</td>
+<td><em>videlicet</em>. <strong>Exhaustive</strong>, unlike <em>e.g.</em> The final char is a scribal contraction for <em>-et</em>, not a z.</td>
+</tr>
+<tr>
+<td><strong>exhibit</strong></td>
+<td>내보이다</td>
+<td><em>ex-</em>(out) + <em>habere</em>(hold) = hold out for viewing. Display <strong>without content</strong> — hence S7's <em>merely exhibit</em>.</td>
+</tr>
+<tr>
+<td><strong>admonition</strong> ⚠</td>
+<td>훈계·경고</td>
+<td><em>ad-monere</em> = <strong>to warn</strong>. Not gentle advice — the sharper half of S8's concession.</td>
+</tr>
+<tr>
+<td><strong>fitted for</strong></td>
+<td>~에 적합한</td>
+<td>Passive of <em>fit</em>; = suited to.</td>
+</tr>
+<tr>
+<td><strong>amusement</strong></td>
+<td>오락·기분전환</td>
+<td><em>a-</em> + <em>muser</em> = to cause to <strong>muse / divert attention</strong>. <strong>Distraction</strong> — in a church, not innocent.</td>
+</tr>
+<tr>
+<td><strong>hitherto</strong></td>
+<td>지금까지</td>
+<td><em>hither</em>(to this place) + <em>to</em> → transferred to <strong>time</strong>. Cf. <em>heretofore</em>.</td>
+</tr>
+<tr>
+<td><strong>judicious</strong></td>
+<td>분별 있는</td>
+<td><em>judicium</em>(judgment). The exact antonym of <em>inconsiderate</em>.</td>
+</tr>
+<tr>
+<td><strong>inconsiderate</strong> ⚠</td>
+<td>숙고하지 않은</td>
+<td><em>in-</em> + <em>considerare</em> (<em>con-</em> + <em>sidus</em>, star → to examine the stars) = <strong>unexamined</strong>. <strong>Not "rude."</strong></td>
+</tr>
+<tr>
+<td><strong>longing</strong></td>
+<td>갈망</td>
+<td>OE <em>langian</em>. An <strong>appetite</strong>, not a decision — that is the whole charge of S11.</td>
+</tr>
+<tr>
+<td><strong>wanton</strong> ⚠</td>
+<td>방종한·고삐 풀린</td>
+<td>ME <em>wan-</em>(lacking) + <em>towen</em>(disciplined) = <strong>untrained</strong>. Sexual sense secondary.</td>
+</tr>
+<tr>
+<td><strong>license</strong> ⚠</td>
+<td>방종 (liberty exceeded)</td>
+<td><em>licentia</em> &lt; <em>licere</em>(be permitted). <strong>Not a document.</strong></td>
+</tr>
+<tr>
+<td><strong>allude to</strong> ⚠</td>
+<td>넌지시 언급하다</td>
+<td><em>ad-</em> + <em>ludere</em>(play) = touch on <strong>indirectly</strong>. Requires <em>to</em>. ≠ plain "refer."</td>
+</tr>
+<tr>
+<td><strong>otherwise</strong></td>
+<td>다른 모든 점에서</td>
+<td>OE <em>on ōthre wīsan</em>. In S13 it fences off exactly what S12 set aside.</td>
+</tr>
+<tr>
+<td><strong>faultless</strong></td>
+<td>흠 없는</td>
+<td><em>fallere</em>(deceive, fail) → <em>faute</em> → <em>fault</em> + <em>-less</em>.</td>
+</tr>
+<tr>
+<td><strong>utility</strong></td>
+<td>유용성</td>
+<td><em>uti</em>(use). Closes the arc: <em>of some use</em>(S8) → <em>only fitted for</em>(S9) → <strong>not of any utility</strong>(S13).</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>Where we are in the chapter.</strong> Beveridge's own headings give you three divisions: §§1–7 no visible form may be given to God; §§8–11 the origin of idols and the worship actually paid them; <strong>§§12–16 the use and abuse of images</strong>. Today opens division three. That structural fact is worth memorising, because it explains the tonal whiplash — §12 sounds like a different author only if you have not noticed that the argument has changed jobs.</p><p><strong>The defence Calvin is actually attacking.</strong> S13's <code>utility in teaching</code> is not a stray remark. It is aimed at the <strong>oldest and most respectable</strong> justification of images in the Western church: <strong>Gregory the Great</strong>, writing (c. 599–600) to Serenus, bishop of Marseilles, who had smashed the images in his own church. Gregory's line — <em>what writing is to readers, a picture is to the illiterate</em> — became the standing formula: images are the <strong>book of the laity</strong>, <em>biblia pauperum</em>. That defence is <strong>pedagogical</strong>, and Calvin therefore answers it on pedagogical ground. Not "images are dangerous," not "images are indecent" (he has just set that aside), but: <strong>they do not do the job you claim for them.</strong> Watch how much the argument gains from being narrow.</p><p><strong>What is being set up for the next few days.</strong> §13 asks whether churches ought to contain images <strong>at all</strong> and appeals to the first five centuries. §14 takes on the <strong>Second Council of Nicaea (787)</strong> — the council that restored image-veneration in the East and distinguished veneration (<em>proskynēsis</em>) from adoration (<em>latreia</em>), the same distinction Calvin buried yesterday in §11. Note also that the Western reception of Nicaea II was itself contested: the <strong>Libri Carolini</strong> (c. 790s), produced at Charlemagne's court, rejected the council's decrees — so Calvin's S4 appeal to <code>sound divines</code> who <code>have always disapproved</code> is not a bluff. There is a real Western tradition of resistance he can point to.</p><p><strong>The Reformation map — and please keep the three positions distinct.</strong> <em>Luther</em> treated images as <strong>adiaphora</strong>, things indifferent, and was famously enraged by the Wittenberg iconoclasm of 1522; he preached the Invocavit sermons against it. <em>Karlstadt</em> and, in Zurich, <em>Zwingli</em> moved toward removal. <em>Calvin's</em> position, as §12 states it, is neither: <strong>the art is a gift, the cultic use of it is not.</strong> He restricts the <strong>ecclesiastical and worship</strong> use of images while explicitly preserving sculpture and painting as legitimate human activities. That is a <em>narrower</em> claim than "iconoclasm," and it is the claim the text actually makes.</p><p><strong>Limit line — and I want you to hold this one carefully.</strong> It is very easy to enlist §12 for whichever side you already prefer. Two errors to avoid. <strong>(1) Do not turn Calvin into an art critic with a positive aesthetic theory.</strong> He is not developing one. He grants sculpture and painting are gifts and then spends the section on their misuse in worship; the concession in S2 is real but it is not a programme. <strong>(2) Do not turn him into a blanket iconoclast.</strong> S1 forecloses it in his own words, and S8 grants historical images <code>some use</code>. The honest summary is the narrow one: <strong>a theological restriction on the object of representation and on the cultic function of images, inside a general affirmation of the arts.</strong> Anything grander than that is your construction, not his.</p><p><strong>One connection backward.</strong> S11's <code>foolish and inconsiderate longing</code> is not a fresh insult. It is the same anthropology as §8 (idolatry is constitutional, not calendrical) and it looks ahead to the phrase everyone quotes from I.11.8 — the mind as a perpetual <strong>forge of idols</strong>. Calvin's diagnosis is consistent across the whole chapter: the images on the walls are not a decision that went wrong. They are <strong>an appetite that was never checked</strong>.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li>
+<p><strong>S3 — <code>because God himself has forbidden it</code></strong> → <strong>Exod 20:4</strong> (the second commandment) and, more precisely for Calvin's argument, <strong>Deut 4:15–16</strong>: <em>כִּי לֹא רְאִיתֶם כָּל־תְּמוּנָה</em> — "<strong>ye saw no manner of similitude</strong> on the day that the LORD spake unto you in Horeb." The reason given in Deuteronomy is not arbitrary command but <strong>the absence of any seen form</strong>, which is exactly the ground S6 will restate philosophically. Calvin argued this at length in §§1–2; here he simply invokes it.</p>
+</li>
+<li>
+<p><strong>S3 — <code>tarnishing his glory</code></strong> → <strong>Isa 42:8</strong>: <em>וּכְבוֹדִי לְאַחֵר לֹא־אֶתֵּן</em> — "my glory will I not give to another." And behind the whole chapter, <strong>Rom 1:23</strong>: <em>ἤλλαξαν τὴν δόξαν τοῦ ἀφθάρτου θεοῦ</em> — "<strong>changed the glory</strong> of the uncorruptible God into an image." Note the verb: ἀλλάσσω, <strong>exchange</strong>. Calvin's <code>tarnish</code> is the milder, hedged form of Paul's charge — deliberately milder, because he only needs <code>in some degree</code>.</p>
+</li>
+<li>
+<p><strong>S6 — <code>the majesty of God, which is far beyond the reach of any eye</code></strong> → <strong>1 Tim 6:16</strong>: <em>ὃν εἶδεν οὐδεὶς ἀνθρώπων οὐδὲ ἰδεῖν δύναται</em> — "whom no man hath seen, <strong>nor can see</strong>." Note the second verb: not merely <em>has not</em>, but <strong><em>cannot</em></strong>. That modal is the exact grammatical shape of Calvin's <code>must not be dishonored</code> and of S13's <code>could not be</code>. Also <strong>John 1:18</strong> (<em>θεὸν οὐδεὶς ἑώρακεν πώποτε</em>) and <strong>Deut 4:12</strong> ("ye heard the voice of the words, but saw no similitude"). The doctrine is <strong>incomprehensibility</strong>, and Calvin has been on it since I.5.1.</p>
+</li>
+<li>
+<p><strong>S13 — <code>could not be of any utility in teaching</code></strong> → the sharpest background is <strong>Jer 10:8</strong>: <em>מוּסַר הֲבָלִים עֵץ הוּא</em> — "the stock is a <strong>doctrine of vanities</strong>," where the idol is described precisely as an <strong>instructor</strong>, and a worthless one. And <strong>Hab 2:18–19</strong>: <em>מוֹרֶה שָּׁקֶר</em> — "the molten image, and <strong>a teacher of lies</strong>… Woe unto him that saith to the wood, Awake; to the dumb stone, It shall teach!" Scripture itself frames the idol as a <strong>failed pedagogue</strong>. That is why Calvin's answer to Gregory's <em>books of the laity</em> can be so brief: the counter-formula is already in the prophets.</p>
+</li>
+<li>
+<p><strong>S2 — <code>sculpture and painting are gifts of God</code></strong> → not cited by Calvin, but the biblical warrant is <strong>Exod 31:2–5</strong>, where the LORD fills <strong>Bezaleel</strong> with the Spirit of God <em>"in wisdom… to devise cunning works, to work in gold, and in silver… and in carving of timber."</em> The craftsman's skill is a <strong>Spirit-given endowment</strong> in the same book that forbids images of God. Calvin's whole distinction — art yes, image of God no — is already the structure of Exodus. Compare <strong>Jas 1:17</strong> for the general principle of gifts.</p>
+</li>
+<li>
+<p><strong>S5 — the make/worship ladder</strong> → <strong>Rom 1:25</strong>: <em>ἐσεβάσθησαν καὶ ἐλάτρευσαν τῇ κτίσει παρὰ τὸν κτίσαντα</em> — "worshipped and served the creature <strong>more than</strong> the Creator." Paul's own escalation, and note that his verb is <strong>λατρεύω</strong> — the very word yesterday's §11 refused to let the opponents narrow.</p>
+</li>
+</ol><p><strong>How Calvin uses Scripture here — one line.</strong> Notice what is <em>absent</em>: §12 quotes almost nothing explicitly. After eleven sections of dense citation he now argues from <strong>principles already established</strong> by those texts. That is a deliberate register shift. The prosecution needed witnesses; the qualification needs only the law it has already proved.</p><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① 어법 — 밑줄 넷 중 어법상 <strong>틀린</strong> 것은?</h3><blockquote>
+<p>If it ⓐ<u>be</u> unlawful to make any corporeal representation of God, still more unlawful ⓑ<u>it must be</u> to worship such a representation instead of God; and lest any ⓒ<u>should think</u> that we are singular in this opinion, those acquainted with sound divines will find that they ⓓ<u>have always disapproved</u> of it.</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: ⓑ</strong></p><p><strong>해설.</strong> <code>still more unlawful</code> is a <strong>fronted comparative complement</strong>, and fronting a complement of that kind <strong>forces subject–verb inversion of the operator</strong>: <code>still more unlawful **must it be**</code>. Writing <code>it must be</code> leaves the sentence with a fronted complement and no inversion — ungrammatical in this register. Same mechanism you met yesterday at §11's <code>so far **are they** from proving</code>.</p><p>Why the others stand: <strong>ⓐ</strong> <code>If it be</code> is the bare <strong>present subjunctive</strong> in a protasis — archaic but entirely correct in Beveridge, and it marks the condition as granted for argument. <strong>ⓒ</strong> <code>lest + S + should + V</code> is the standard negative-purpose construction; <code>should</code> is the subjunctive marker, not obligation, and no second negative is permitted. <strong>ⓓ</strong> present perfect + <code>always</code> correctly expresses an unbroken record reaching the present.</p><p><strong>출제 의도.</strong> Fronting-and-inversion is the single most mechanical rule in this chapter and therefore the most reliably testable. If you can spot a fronted degree or comparative complement, you can predict the inversion without understanding the sentence at all.</p><hr/><h3>② 내용일치 — §12의 내용과 <strong>일치하는</strong> 것은?</h3><p><strong>ⓐ</strong> Calvin holds that all visible representations, of every kind, are unlawful, since sculpture and painting inevitably tarnish God's glory.
+<strong>ⓑ</strong> Calvin concedes that historical images have some use for instruction or admonition, yet maintains that even faultless images could not be of any use in teaching.
+<strong>ⓒ</strong> Calvin claims that this opinion is peculiar to himself and to the Reformed, sound divines having hitherto approved the exhibition of images.
+<strong>ⓓ</strong> Calvin's final argument rests on the improper form and wanton licence with which sculptors and painters have presented their images.</p><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: ⓑ</strong></p><p><strong>해설.</strong> ⓑ holds both halves the section actually asserts — the measured concession at <strong>S8</strong> (<code>The former are of some use for instruction or admonition</code>) and the counterfactual verdict at <strong>S13</strong> (<code>though they were otherwise faultless, they could not be of any utility in teaching</code>). The two are compatible because they operate at different scopes: S8 concedes a limited value <em>in general</em>; S13 denies utility <em>in teaching</em>, granting the best case.</p><p><strong>함정 분석.</strong>
+<strong>ⓐ — 범위 초과 + 방향 역전.</strong> This is verbatim the position <strong>S1 denies</strong>, and denies while labelling it <code>superstitious</code>. It also contradicts <strong>S2</strong> (<code>gifts of God</code>). The distractor is built by deleting one word — <code>not</code> — from the opening clause.
+<strong>ⓒ — 어휘 함정(<code>singular</code>) + 방향 역전.</strong> <code>singular</code> = <strong>alone</strong>, and <strong>S4</strong> exists to say the Reformed are <strong>not</strong> alone: <code>sound divines… have always **disapproved**</code>. The option flips the verb and misreads the adjective in one move. Two errors, one sentence — a typical high-band distractor.
+<strong>ⓓ — 폐기된 논증을 채택.</strong> The improper form and <code>wanton license</code> are exactly what <strong>S12 sets aside</strong> by praeteritio (<code>I say nothing as to…</code>). The final argument is <strong>S13</strong>, and its whole force lies in <strong>not</strong> depending on abuse. This is the most tempting wrong answer in the set, because everything in ⓓ genuinely appears in the text — just in the sentence Calvin declines to argue from.</p><hr/><h3>③ 영작 — 다음을 오늘의 공식으로 옮기시오.</h3><p><strong>(1)</strong> 「나는 모든 형상이 불법이라고 생각할 만큼 미신적이지는 않다. 그러나 내가 요구하는 것은 그것들이 순수하게 사용되는 것, 아니 우리의 파멸로 전도되지 않는 것이다.」 <em>(Formula 1 + Formula 2)</em></p><blockquote>
+<p><strong>Model:</strong> <em>I am not so superstitious as to think that all images are unlawful. But what I insist for is, that they shall be used purely,—nay, that they shall not be perverted to our destruction.</em>
+<strong>채점 포인트:</strong> ① <code>not so ADJ as to V</code> bracket intact, and the reader must be able to see that the <em>thinking</em> is what is denied. ② <code>what I insist for is, that…</code> cleft. ③ <strong><code>nay</code> as escalation</strong> — if you wrote <code>no</code>, or coordinated the clauses with <code>and</code>, you have lost the point of Formula 2.</p>
+</blockquote><p><strong>(2)</strong> 「형상을 만드는 것이 불법이라면, 그것을 통해 하나님을 예배하는 것은 한층 더 불법일 수밖에 없다.」 <em>(Formula 3)</em></p><blockquote>
+<p><strong>Model:</strong> <em>If it be unlawful to make an image, still more unlawful must it be to worship God in it.</em>
+<strong>채점 포인트:</strong> ① <code>If it be</code> — present subjunctive, not <code>is</code>. ② <code>still more unlawful</code> <strong>fronted</strong>, and therefore ③ <strong><code>must it be</code></strong>, inverted. Writing <code>it must be still more unlawful</code> is grammatical English but it is <strong>not the pattern being tested</strong> — no marks. ④ <code>worship God **in** it</code> is Calvin's own phrase for the mediation defence; <code>through</code> is acceptable but less precise.</p>
+</blockquote><p><strong>(3)</strong> 「비록 그것들이 다른 모든 점에서 흠이 없다 해도, 가르치는 데는 아무 유익도 없을 것이다.」 <em>(S13 concessive)</em></p><blockquote>
+<p><strong>Model:</strong> <em>Though they were otherwise faultless, they could not be of any utility in teaching.</em>
+<strong>채점 포인트:</strong> ① <code>Though + S + **were**</code> — past subjunctive, <strong>counterfactual concession</strong>; <code>Though they are</code> loses the concession-for-argument. ② <strong><code>otherwise</code></strong> must be present — without it the sentence no longer fences off S12's abandoned ground. ③ <code>could not</code> (modal impossibility), not <code>are not</code>. ④ <code>of **any** utility</code> — negative-polarity <code>any</code> under the negation.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> §12 opens the chapter's <strong>third division</strong> with a pivot on <code>however</code>: sculpture and painting are <strong>gifts of God</strong>, so the demand is lawful <strong>use</strong>, not abolition — the prohibition attaches to the <strong>object</strong> (<code>the majesty of God… far beyond the reach of any eye</code>, S6), not to the medium; and after sorting images into historical (<code>of some use</code>) and pictorial (<code>only fitted for amusement</code>) and finding that the churches are full of the second by <code>foolish and inconsiderate longing</code> rather than judgment, Calvin <strong>sets aside the indecency argument entirely</strong> (S12, praeteritio) in order to land the thesis that cannot be answered by better art: <strong><code>though they were otherwise faultless, they could not be of any utility in teaching</code></strong> (S13).</p><p><strong>Grammar, the three to carry out of here.</strong> ① <code>not so ADJ as to V</code> — the <strong>negative scopes the whole bracket</strong>, so V is denied, and a second claim rides along free. ② <code>what</code>-cleft + <strong>appositive</strong> <code>that</code>-clause after a dash, with <strong><code>nay</code> = escalation, never refusal</strong>. ③ <code>If it be…, still more ADJ **must it be** to…</code> — present subjunctive protasis + <strong>fronted comparative forcing inversion</strong>, and the ladder always runs <strong>upward</strong>.</p><p><strong>Homework (10 min).</strong></p><ol>
+<li><strong>구조 복원.</strong> Write out S2 and mark, with brackets, (a) the <code>what</code>-cleft focus, (b) the two <code>that</code>-clauses, (c) the exact point where <code>nay</code> escalates and <strong>what</strong> it escalates from and to. Then answer in one line: <em>why a dash rather than <code>and</code>?</em></li>
+<li><strong>영작.</strong> Using <strong>Formula 3</strong> twice in a chain, produce a two-step a fortiori of your own on a theological subject — e.g. <em>If it be dangerous to X, still more dangerous must it be to Y; and if it be dangerous to Y, still more dangerous must it be to Z.</em> Check both inversions. If either reads <code>it must be</code>, you have not done the exercise.</li>
+<li><strong>내일 예습 한 줄.</strong> §13 opens <strong><code>But, without reference to the above distinction, let us here consider, whether it is expedient that churches should contain representations of any kind…</code></strong> — mark the word <strong><code>expedient</code></strong> before you begin. Calvin is about to shift the question from <em>lawful</em> to <strong>expedient</strong>, and then reach for the argument he has been holding back: <strong>the first five hundred years.</strong> Ask yourself tonight why he changes the standard, and what it costs him.</li>
+</ol><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 11, §12 끝. 다음은 <strong>Book 1, Ch. 11, §13</strong> (Day 68) — <em>Whether it is expedient to have images in Christian temples.</em></p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>

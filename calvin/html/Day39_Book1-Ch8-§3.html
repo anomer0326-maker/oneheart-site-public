@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 성경의 신빙성에 대한 증거들 §3 (1권 8장 · Day 39) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 8장 §3(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 39. 연관 성구: 사도행전 7, 창세기 15, 신명기 4, 로마서 1."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day39_Book1-Ch8-%C2%A73.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="성경의 신빙성에 대한 증거들 §3 — 기독교 강요 영어로 읽기 (Day 39)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 8장 §3(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 39. 연관 성구: 사도행전 7, 창세기 15, 신명기 4, 로마서 1."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day39_Book1-Ch8-%C2%A73.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 성경의 신빙성에 대한 증거들 §3 (1권 8장 · Day 39) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 8장 §3(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 39. 연관 성구: 사도행전 7, 창세기 15, 신명기 4, 로마서 1.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 8장 §3 — 성경의 신빙성에 대한 증거들","mentions":[{"@type":"CreativeWork","name":"사도행전 7 (Acts 7)"},{"@type":"CreativeWork","name":"창세기 15 (Gen 15)"},{"@type":"CreativeWork","name":"신명기 4 (Deut 4)"},{"@type":"CreativeWork","name":"로마서 1 (Rom 1)"},{"@type":"CreativeWork","name":"갈라디아서 3 (Gal 3)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day39_Book1-Ch8-%C2%A73.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 39 — Book 1, Chapter 8, §3<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (the whole § — 9 sentences, verbatim)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl1" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl2" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl3" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl2" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl3" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl2" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl3" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl1" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl3" href="#S9" onclick="closeNavMobile()">S9</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (어원 후킹 테이블)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 39 — Book 1, Chapter 8, §3</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>For two days we have been arguing about <strong>prose</strong>. Yesterday ended on the palate — <code>Those who feel their works insipid must be absolutely devoid of taste.</code> Today, first sentence, Calvin puts the literary argument down and walks away from it:</p><blockquote>
+<p><code>As this subject has been treated at large by others, it will be sufficient here merely to touch on its leading points.</code></p>
+</blockquote><p>⚠️ Read that carefully, because it does <strong>not</strong> say what most students think it says. <code>treated **at large**</code> = treated <strong>at length</strong>, in full. It is not "at large" the fugitive. And the sentence is not humility — it is <strong>triage</strong>. Calvin is telling you the shape of the rest of the chapter: from here on you get <em>headings</em>, not <em>treatises</em>. §3 antiquity. §4 the honesty of Moses. §5 the miracles. Onward. He is clearing his desk.</p><p>Then S2 names the new weapon: <code>great weight is due to the **antiquity** of Scripture</code>. And here is where you must be careful, because there is a bad argument lying right next to Calvin's good one, and they look identical from a distance.</p><pre><code>   ✗  THE BAD ARGUMENT (not Calvin's):
+        Scripture is the oldest book  →  therefore it is true.
+        (Age is not a truth-maker. Error is also ancient. Calvin himself
+         spent all of I.5.12 on how OLD the world's idolatry is.)
+
+   ✓  CALVIN'S ARGUMENT (two prongs, both narrow):
+        (a) NO rival religious monument is older than Moses (S3)
+            →  so if there is borrowing, it cannot run FROM them TO him.
+                The direction of derivation is fixed.
+        (b) And Moses claims NO NOVELTY anyway (S4–S6)
+            →  he does not introduce a new Deity; he leads Israel BACK
+                to a covenant already made with Abraham.
+</code></pre><p>★ Feel the elegance of that. Prong (a) closes the door from outside; prong (b) shows Moses was never trying to walk through it. And then S7 nails it shut with a piece of forensic reasoning that is genuinely first-rate: <strong>you cannot successfully invent a nation's past in front of the nation.</strong> <code>Had he referred to matters of which they had never heard, he never could have succeeded.</code> The Exodus had to be <code>a fact of **familiar and universal notoriety**</code> — ⚠️ <em>notoriety</em> = <strong>well-known-ness</strong>, not scandal — because Moses is preaching it <em>to the people who were there</em>.</p><p>Yesterday the criterion was <code>affectation</code> — the forger betrays himself by <strong>style</strong>. Today the criterion is <strong>witnesses</strong> — the forger betrays himself by <strong>audience</strong>. ★ Same instinct, moved from the page to the crowd. Calvin has one forensic mind and he uses it twice.</p><p><strong>Today's 3 Big Points — write them down now:</strong></p><ol>
+<li><strong>The concessive <code>Whatever + N + S + may + V</code> — plus a double negative that means "every single one."</strong> S3: <code>**Whatever** fables Greek writers **may** retail concerning the Egyptian Theology, **no** monument of any religion exists **which is not** long posterior to the age of Moses.</code> ⚠️ That <code>may</code> is <strong>concessive</strong> ("아무리 ~하더라도"), not permission and not probability. ⚠️ And <code>no X exists which is not Y</code> = <strong>every X is Y</strong> — the same double-negative-equals-universal machine as yesterday's S7 (<code>not one will be found who does not rise</code>). Two days, two specimens. He likes this device.</li>
+<li><strong>Two <code>have + p.p.</code>s in one sentence, pointing at two different worlds.</strong> S7: <code>**Had he referred** to matters ..., he **never could have succeeded**</code> = the <em>if</em>-deleted counterfactual — an unreal past, a thing that did not happen. Then, in the same sentence: <code>their deliverance ... **must have been** a fact of familiar and universal notoriety</code> = the <strong>epistemic</strong> <code>must</code> — an inference about what <em>actually</em> was the case. ⚠️ Identical morphology, opposite modality. If you flatten them together the whole argument dissolves.</li>
+<li><strong>Two ways of asserting without asserting.</strong> S6: <code>For **what else does he do than** lead them back to the covenant...?</code> — a rhetorical question, and <code>do ... **than** + bare infinitive</code> (no <em>to</em>). It is the <strong>strongest</strong> claim in the section and it is dressed as a question. And S9: <code>it is obvious **how far** the Holy Scriptures must in point of antiquity surpass all other writings</code> — ⚠️ an embedded degree clause, <strong>not</strong> a question: no inversion, no question mark. You met exactly this on Day 37 (<code>**How peculiarly** this property belongs to Scripture **appears** from this, that...</code>). Same author, same trick, two sections apart.</li>
+</ol><p>Nine sentences. Short ones, mostly. But S5, S7 and S9 will each take a while. Let's go.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (the whole § — 9 sentences, verbatim)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+3. As this subject has been treated at large by others, it will be sufficient here merely to touch on its leading points. In addition to the qualities already mentioned, great weight is due to the antiquity of Scripture (Euseb. Prepar. Evang. lib. 2 c. 1). Whatever fables Greek writers may retail concerning the Egyptian Theology, no monument of any religion exists which is not long posterior to the age of Moses. But Moses does not introduce a new Deity. He only sets forth that doctrine concerning the eternal God which the Israelites had received by tradition from their fathers, by whom it had been transmitted, as it were, from hand to hand, during a long series of ages. For what else does he do than lead them back to the covenant which had been made with Abraham? Had he referred to matters of which they had never heard, he never could have succeeded; but their deliverance from the bondage in which they were held must have been a fact of familiar and universal notoriety, the very mention of which must have immediately aroused the attention of all. It is, moreover, probable, that they were intimately acquainted with the whole period of four hundred years. Now, if Moses (who is so much earlier than all other writers) traces the tradition of his doctrine from so remote a period, it is obvious how far the Holy Scriptures must in point of antiquity surpass all other writings.
+✅ Text note (transcription). A clean section, for once. The paragraph runs unbroken in our Beveridge file with no hyphenated line-breaks to close, no marginal page number falling inside it (the 82 sits in §4), and no footnote markers. The parenthetical source reference (Euseb. Prepar. Evang. lib. 2 c. 1) is printed inline in the text and is reproduced above exactly as it stands. Nine sentences, verbatim.
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>  ── PART A: CHANGING WEAPONS (S1–S2) ──
+[THE HAND-OFF]    S1  AS this subject has been TREATED AT LARGE by others,
+                      it will be sufficient here MERELY TO TOUCH ON
+                      its LEADING POINTS
+                                  ↑ AT LARGE = 상세히 (도주 중 ✗)
+                                  ↑ at large  ↔  touch on : 정면 대비
+
+[THE NEW HEAD]    S2  IN ADDITION TO the qualities already mentioned,
+                      GREAT WEIGHT IS DUE TO  the ANTIQUITY of Scripture
+                      (Euseb. Prepar. Evang. lib. 2 c. 1)
+                                  ↑ IN ADDITION TO = §1–2 를 폐기하지 않음.
+                                    누적 논거(cumulative), 대체 아님.
+
+  ── PART B: PRONG (a) — NOTHING OLDER EXISTS (S3) ──
+[⚠️ THE SWEEP]    S3  ( WHATEVER fables Greek writers MAY RETAIL
+                        concerning the Egyptian Theology, )
+                      NO monument of any religion EXISTS
+                        [ WHICH IS NOT long POSTERIOR to the age of Moses ]
+                                  ↑ may = 양보의 may (아무리 ~해도)
+                                  ↑ no ~ which is not ~ = 전칭긍정
+                                    "존재하는 모든 기념물은 모세보다 나중이다"
+
+  ── PART C: PRONG (b) — MOSES CLAIMS NO NOVELTY (S4–S6) ──
+[⚠️ THE HINGE]    S4  BUT Moses DOES NOT INTRODUCE A NEW DEITY
+                                  ↑ 9문장 중 최단. 그리고 이 절의 축.
+
+[WHAT HE DOES DO] S5  He ONLY SETS FORTH  that doctrine
+                        (concerning the eternal God)
+                        [ WHICH the Israelites HAD RECEIVED
+                          BY TRADITION from their fathers,
+                          [ BY WHOM it HAD BEEN TRANSMITTED,
+                            (AS IT WERE,) FROM HAND TO HAND,
+                            during A LONG SERIES OF AGES ] ]
+                                  ↑ 관계절 안에 관계절. 사슬이 곧 논지다.
+                                  ↑ 과거완료 2회 = 모세보다 앞선 시간층
+
+[THE PROOF-Q]     S6  FOR  WHAT ELSE DOES HE DO  THAN  LEAD them BACK
+                      to the COVENANT (which HAD BEEN MADE with Abraham)?
+                                  ↑ 수사의문 = 최강 단언
+                                  ↑ do ... than + 원형부정사 (to 없음)
+
+  ── PART D: WHY A FORGERY WAS IMPOSSIBLE (S7–S8) ──
+[⚠️ THE FORENSIC] S7  HAD HE REFERRED to matters (of which they had never
+                      heard),  he NEVER COULD HAVE SUCCEEDED ;
+                      BUT their DELIVERANCE from the bondage
+                        MUST HAVE BEEN a fact of FAMILIAR AND UNIVERSAL
+                        NOTORIETY,
+                        [ the very mention of which MUST HAVE IMMEDIATELY
+                          AROUSED the attention of all ]
+                                  ↑ 앞: 반사실(일어나지 않은 일)
+                                  ↑ 뒤: 추론의 must (실제로 그러했음이 틀림없다)
+                                    ⚠️ 같은 모양, 다른 세계.
+
+[THE MEMORY]      S8  It is, MOREOVER, PROBABLE, that they were
+                      INTIMATELY ACQUAINTED with the whole period
+                      of FOUR HUNDRED YEARS
+                                  ↑ probable = 개연적 (확정 아님) — 칼빈이
+                                    증거의 등급을 스스로 낮춰 표시한다.
+
+  ── PART E: THE CONCLUSION (S9) ──
+[THE INFERENCE]   S9  NOW, IF Moses (who is SO MUCH EARLIER than all other
+                      writers) TRACES the tradition of his doctrine
+                      FROM SO REMOTE A PERIOD,
+                      → IT IS OBVIOUS  [ HOW FAR the Holy Scriptures MUST
+                        IN POINT OF ANTIQUITY SURPASS all other writings ]
+                                  ↑ how-절 = 의문 아님 (도치 없음·물음표 없음)
+                                  ↑ must = 추론. 그리고 "surpass" 로 §1(Day37)
+                                    의 마지막 단어를 되받는다.
+</code></pre><p><strong>Examiner's Eye — four traps, and the first two are the ones that decide the section.</strong></p><p>⚠️ <strong>① "Calvin argues that the oldest religion is the true one."</strong> This is the distractor built for the student who read the heading and stopped. <strong>It is not the argument.</strong> Calvin makes two narrow claims — (a) nothing older <em>exists</em> to have been the source (S3), and (b) Moses <em>makes no claim to novelty</em> (S4–S6). Neither is "old therefore true." ★ And remember: Calvin has already told you at length (I.5.12) that <strong>error is ancient too</strong>. He is not entitled to "old = true" and he knows it.</p><p>⚠️ <strong>② "Moses invented the God of Israel / brought a new religion to the Hebrews."</strong> S4 exists to kill this in seven words: <code>**But Moses does not introduce a new Deity.**</code> Any option that has Moses <strong>founding</strong> a religion is dead. He is, in Calvin's picture, a <strong>restorer</strong> — S6, <code>lead them **back**</code>. This matters far beyond today: it is the same shape as I.6.2, where the prophets are <code>**interpreters**</code> of the law, not innovators. <strong>Calvin's revelation always runs backwards to an older deposit.</strong></p><p>⚠️ <strong>③ The modality of S7.</strong> The sentence contains one <strong>unreal</strong> past (<code>Had he referred ... he never could have succeeded</code> — this did <em>not</em> happen) and one <strong>inferential</strong> past (<code>must have been a fact of familiar and universal notoriety</code> — this <em>did</em> happen, and we can prove it by reasoning). A distractor saying "Calvin admits Moses may have referred to unfamiliar matters" has read the counterfactual as a real possibility. ⚠️ <strong>Counterfactual ≠ concession.</strong></p><p>⚠️ <strong>④ The hedge in S8 is deliberate — do not upgrade it.</strong> <code>It is, moreover, **probable**, that they were intimately acquainted with the whole period of four hundred years.</code> Calvin marks this one as <em>probable</em>, not certain. An option asserting that Calvin <strong>proves</strong> Israel's continuous memory of four centuries overreaches his own text. ★ Watch how carefully he grades his evidence: <code>great weight is due</code> (S2) · <code>no monument exists</code> (S3, flat assertion) · <code>never could have succeeded</code> (S7, demonstration) · <code>it is probable</code> (S8, concession of degree) · <code>it is obvious</code> (S9). <strong>Five different confidence levels in nine sentences.</strong> That is not sloppiness. That is a lawyer.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl1" data-lvl="1" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s1" title="1-star">★</span><span class="s-label">⚠️ at large does not mean what you think — and this sentence is triage, not modesty</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>"As this subject has been treated at large by others, it will be sufficient here merely to touch on its leading points."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>As</b> this subject has been <b>treated at large</b> by others</span></li></ul></li></ul></li><li><span class="leaf">it will be sufficient here</span></li><li><span class="leaf"><b>merely to touch on</b> its leading points</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>at large</em> — <em>large</em> &lt; Lat. <em>largus</em> (abundant, copious), not "big"; the ancestor of <em>largesse</em>. — <em>touch on</em> — the light-contact metaphor is already in Lat. <em>attingere</em> (<em>ad</em> + <em>tangere</em>) = "to touch upon a subject." — <em>sufficient</em> &lt; <em>sub</em> + <em>facere</em> = "made up to (a required level)."</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>treat a subject at large</em> = 어떤 주제를 상세히 다루다 (⚠️ 도주 중 ✗); <em>touch on</em> = 간략히 언급하고 지나가다; <em>it will be sufficient to V</em> = ~하는 것으로 충분할 것이다; <em>leading points</em> = 요점·주요 논점.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Since other writers have already covered this ground in detail, it will be enough here to run through the main points.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>at large</b> → in detail / at length</li><li><b>it will be sufficient here merely to</b> → it will be enough here just to</li><li><b>touch on</b> → run through briefly</li><li><b>leading points</b> → main points.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the pivot — and the two words that keep §§1–2 alive</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>"In addition to the qualities already mentioned, great weight is due to the antiquity of Scripture (Euseb. Prepar. Evang. lib. 2 c. 1)."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>In addition to</b> the qualities already mentioned</span></li><li><span class="leaf"><b>is due to</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>great weight</b></span></li></ul></li></ul></li><li><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the <b>antiquity</b> of Scripture</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Euseb. Prepar. Evang. lib. 2 c. 1</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>antiquity</em> &lt; <em>antiquus</em> &lt; <em>ante</em> (before) — cf. <em>antique</em>, <em>ancient</em>; the abstract noun means both "great age" and "the ancient world." — <em>quality</em> &lt; <em>qualis</em> (of what sort) — cf. I.2.2's <em>qualis</em> ≠ <em>quid</em> distinction, Day 5. — <em>due</em> &lt; OFr <em>deü</em>, pp. of <em>devoir</em> (to owe) &lt; Lat. <em>debere</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in addition to</em> = ~에 더하여 (대체 ✗, 누적 ○); <em>great weight is due to X</em> = X 에는 큰 무게가 주어져야 한다 (평가 표현); <em>the qualities already mentioned</em> = 앞서 언급한 특질들 (= §1 의 arrangement·purity·harmony·majesty).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">On top of the features already listed, the sheer age of Scripture counts for a great deal.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>In addition to</b> → on top of</li><li><b>the qualities already mentioned</b> → the features already listed</li><li><b>great weight is due to</b> → counts for a great deal / carries a lot of weight</li><li><b>antiquity</b> → age.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #1 — a concessive may, and a double negative that sweeps the whole world</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>"Whatever fables Greek writers may retail concerning the Egyptian Theology, no monument of any religion exists which is not long posterior to the age of Moses."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>Whatever</b> fables Greek writers <b>may retail</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">concerning the Egyptian Theology</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>no</b> monument of any religion <b>exists</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which is not</b> long <b>posterior</b> to the age of Moses</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>retail</em> &lt; <em>re-</em> + OFr <em>taillier</em> (to cut) — family: <em>tailor</em>, <em>detail</em> (cut into parts), <em>entail</em>, <em>tally</em>. — <em>fable</em> &lt; <em>fari</em> (to speak) — ★ same root as <em>confess</em>, <em>fate</em>, <em>infant</em>, <em>preface</em> — you met the family yesterday in S1's <em>confess</em>. — <em>monument</em> &lt; <em>monere</em> (to remind, warn) — family: <em>monitor</em>, <em>admonish</em>, <em>premonition</em>, <em>monster</em> (a portent that warns). ★ So a "monument" is literally a reminder — and Calvin is arguing about what the human race can be reminded of. — <em>posterior</em> &lt; <em>post</em> (after), comparative — antonym <em>prior</em> &lt; <em>prae</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>whatever ... may V</em> = 무엇을 ~하든 간에 (양보); <em>retail a story/fable</em> = (남의 이야기를) 옮겨 퍼뜨리다; <em>posterior to</em> = ~보다 나중의 (⚠️ prior to 의 반대); <em>no X exists which is not Y</em> = 존재하는 모든 X 는 Y 다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Whatever stories Greek writers may pass along about Egyptian religion, there is not a single religious record anywhere that does not date from long after Moses.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Whatever ... may retail</b> → whatever ... may pass along</li><li><b>fables</b> → stories / tall tales</li><li><b>no monument ... exists which is not long posterior to</b> → every record we have dates from long after</li><li><b>the age of Moses</b> → Moses' time.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s2" title="2-star">★★</span><span class="s-label">seven words, and the whole section turns on them</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>"But Moses does not introduce a new Deity."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf">` <b>But</b></span></li><li><span class="leaf"><b>does not introduce</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">Moses</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">a new Deity</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>introduce</em> &lt; <em>intro-</em> (inward) + <em>ducere</em> (to lead) — family: <em>conduct</em>, <em>educate</em> (<em>e-ducere</em>, lead out), <em>reduce</em>, <em>seduce</em> (lead aside), <em>duke</em> (<em>dux</em>, leader). — <em>Deity</em> &lt; <em>deitas</em> &lt; <em>deus</em> — cf. Skt <em>deva</em>, Gk <em>Zeus</em>, Lat. <em>dies</em> (day): the root is brightness/sky.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>introduce a new X</em> = 새로운 X 를 (들여) 도입하다; <em>does not introduce</em> = 도입하지 않는다 (창시자 아님 → 복원자).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But Moses is not bringing in some new god.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>does not introduce</b> → is not bringing in</li><li><b>a new Deity</b> → some new god.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #2 — a chain of relative clauses, and the chain is the argument</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>"He only sets forth that doctrine concerning the eternal God which the Israelites had received by tradition from their fathers, by whom it had been transmitted, as it were, from hand to hand, during a long series of ages."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>only sets forth</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">He</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> doctrine</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">concerning the eternal God</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b> the Israelites <b>had received</b> by tradition from their fathers</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>by whom</b> it <b>had been transmitted</b>, <b>from hand to hand</b>, during a long series of ages</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as it were</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>transmit</em> &lt; <em>trans</em> (across) + <em>mittere</em> (to send) — family: <em>mission</em>, <em>permit</em>, <em>commit</em>, <em>message</em>. — <em>tradition</em> &lt; <em>trans</em> + <em>dare</em> (to give) = a handing-over — ★ family: <em>traitor</em> / <em>treason</em> (<em>traditor</em> = one who hands over), <em>betray</em>, <em>extradite</em>. ⚠️ <em>tradition</em> and <em>treason</em> are the same word, split by what gets handed over and to whom. — <em>series</em> &lt; <em>serere</em> (to link) — cf. <em>insert</em>, <em>assert</em>, <em>sermon</em>. — <em>doctrine</em> &lt; <em>docere</em> (to teach) — cf. <em>doctor</em>, <em>docile</em> (I.6.2's <em>docility</em> = teachableness), <em>document</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>set forth</em> = 개진하다·제시하다 (출발하다 ✗); <em>that N ... which ...</em> = 바로 그 N (관계절이 정의); <em>by tradition</em> = 전승으로; <em>from hand to hand</em> = 손에서 손으로 (전달의 은유); <em>as it were</em> = 말하자면 (은유 표지); <em>a long series of ages</em> = 오랜 세대의 연쇄.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">All he is doing is laying out the teaching about the eternal God that the Israelites had already inherited from their ancestors — who had passed it down, so to speak, hand to hand, across a long chain of generations.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>He only sets forth</b> → all he is doing is laying out</li><li><b>that doctrine ... which</b> → the teaching ... that</li><li><b>had received by tradition from their fathers</b> → had already inherited from their ancestors</li><li><b>as it were</b> → so to speak</li><li><b>a long series of ages</b> → a long chain of generations.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s2" title="2-star">★★</span><span class="s-label">a rhetorical question that is the strongest claim in the section — and a bare infinitive after than</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>"For what else does he do than lead them back to the covenant which had been made with Abraham?"</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>For</b></span></li><li><span class="leaf"><b>what else does he do</b></span></li><li><span class="leaf"><b>than</b></span></li><li><span class="leaf"><b>lead</b> them <b>back</b> to the covenant ?</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which had been made</b> with Abraham</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>covenant</em> &lt; OFr <em>covenant</em>, prp. of <em>covenir</em> &lt; Lat. <em>convenire</em> (<em>con-</em> together + <em>venire</em> come) = "a coming together" — family: <em>convene</em>, <em>convenient</em>, <em>convention</em>. ★ Hebrew <em>berith</em> (בְּרִית) is idiomatically cut, not made (<em>karath berith</em>, "to cut a covenant," Gen 15:18) — Beveridge's "made" flattens a knife into a handshake. — <em>lead</em> — OE <em>lǣdan</em>, causative of <em>līthan</em> (to travel): "to cause to go."</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>what else does S do than V?</em> = ~하는 것 외에 무엇을 하겠는가 (= 오직 ~할 뿐이다); <em>lead X back to Y</em> = X 를 Y 로 되돌리다; <em>make a covenant with</em> = ~와 언약을 맺다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">After all, what is he doing except taking them back to the covenant God had already made with Abraham?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>For</b> → after all</li><li><b>what else does he do than</b> → what is he doing except</li><li><b>lead them back to</b> → taking them back to</li><li><b>which had been made with</b> → that God had already made with.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #3 — two have + p.p.s, two different worlds, one semicolon apart</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>"Had he referred to matters of which they had never heard, he never could have succeeded; but their deliverance from the bondage in which they were held must have been a fact of familiar and universal notoriety, the very mention of which must have immediately aroused the attention of all."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>Had he referred</b> to matters</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of which they had never heard</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">he <b>never could have succeeded</b></span></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b></span></li><li><span class="leaf"><b>must have been</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">their deliverance from the bondage</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in which they were held</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">a fact of <b>familiar and universal notoriety</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>the very mention of which must have immediately aroused</b> the attention of all</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>notoriety</em> &lt; <em>notorius</em> &lt; <em>notus</em> (known) &lt; <em>noscere</em> — ★ family: <em>notice</em>, <em>notion</em>, <em>note</em>, <em>cognition</em>, <em>ignore</em> (<em>in-</em> + <em>gnoscere</em> = not to know), and via Greek <em>gnōsis</em>, <em>diagnosis</em>. ⚠️ Modern "ill fame" is a later narrowing. — <em>familiar</em> &lt; <em>familia</em> (household) → "of the house" → "well known at close quarters." — <em>universal</em> &lt; <em>unus</em> + <em>vertere</em> (to turn) = "turned into one, taken as a whole." — <em>bondage</em> &lt; <em>bond</em> &lt; OE <em>bindan</em> (to bind) + Fr. suffix <em>-age</em>. — <em>arouse</em> &lt; <em>a-</em> (intensive) + <em>rouse</em> (orig. a hunting term: to startle game from cover). ★ So the mention does not merely inform — it flushes the attention out of hiding.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>refer to matters</em> = 사안을 거론하다; <em>had never heard of</em> = 들어본 적 없는; <em>could never have succeeded</em> = 결코 성공할 수 없었을 것이다 (반사실); <em>must have been</em> = ~였음이 틀림없다 (추론); <em>a matter of universal notoriety</em> = 만인이 다 아는 사실 (⚠️ 악명 ✗); <em>the very mention of X</em> = X 를 언급하기만 해도.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">If he had appealed to things they had never heard of, he could never have pulled it off; but their rescue from slavery must have been something everyone knew about at first hand — the sort of thing that, at the mere mention of it, would instantly have had every ear in the room.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Had he referred to</b> → if he had appealed to</li><li><b>he never could have succeeded</b> → he could never have pulled it off</li><li><b>deliverance from the bondage in which they were held</b> → rescue from the slavery they were held in</li><li><b>a fact of familiar and universal notoriety</b> → something everyone knew about at first hand</li><li><b>the very mention of which</b> → at the mere mention of it.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s1" title="1-star">★</span><span class="s-label">a graded hedge — and Calvin grades it on purpose</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>"It is, moreover, probable, that they were intimately acquainted with the whole period of four hundred years."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>It is</b>, <b>probable</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">moreover</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> they were <b>intimately acquainted with</b> the whole period of four hundred years</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>intimate</em> &lt; <em>intimus</em>, superl. of <em>interior</em> &lt; <em>intra</em> (within) — "inmost." — <em>acquainted</em> &lt; OFr <em>acointier</em> &lt; Lat. <em>ad</em> + <em>cognitus</em> (known) — ★ the <em>noscere</em> family again, one sentence after `notoriety`. Calvin's paragraph on public knowledge is built out of the vocabulary of knowing. — <em>probable</em> &lt; <em>probare</em> (to test, to prove) &lt; <em>probus</em> (good, upright) — cf. <em>probe</em>, <em>prove</em>, <em>approve</em>, <em>probation</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it is probable that</em> = ~일 가능성이 크다 (확언 아님); <em>be intimately acquainted with</em> = ~을 속속들이 알다 (⚠️ 친밀한 사이 ✗); <em>the whole period of</em> = ~의 전 기간.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">It is also likely that they knew the entire four-hundred-year stretch in detail.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>It is, moreover, probable, that</b> → it is also likely that</li><li><b>intimately acquainted with</b> → knew ... in detail</li><li><b>the whole period of four hundred years</b> → the entire four-hundred-year stretch.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ the conclusion — and a how-clause that is not a question, for the second time this chapter</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p>"Now, if Moses (who is so much earlier than all other writers) traces the tradition of his doctrine from so remote a period, it is obvious how far the Holy Scriptures must in point of antiquity surpass all other writings."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Now,</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if</b> Moses <b>traces</b> the tradition of his doctrine <b>from so remote a period</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who is <b>so much earlier than</b> all other writers</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>it is obvious</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>how far</b> the Holy Scriptures <b>must</b> <b>surpass</b> all other writings</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in point of antiquity</b></span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>trace</em> &lt; OFr <em>tracier</em> &lt; VLat. <em>tractiare</em> &lt; <em>trahere</em> (to draw, drag) — family: <em>tract</em>, <em>tractor</em>, <em>attract</em>, <em>contract</em>, <em>portrait</em>, <em>treat</em> (!). — <em>remote</em> &lt; <em>removere</em> (<em>re-</em> back + <em>movere</em>) — pp. <em>remotus</em> = "moved away." — <em>surpass</em> &lt; <em>sur-</em> (&lt; <em>super</em>) + <em>passer</em>. — <em>obvious</em> &lt; <em>ob</em> + <em>via</em> (way) = ★ "lying in the road" — a thing you cannot help meeting. Perfect verb for a conclusion Calvin thinks nobody can walk around.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>trace X from Y</em> = X 를 Y 로부터 (거슬러) 추적하다; <em>so remote a period</em> = 그토록 먼 시대 (⚠️ so + adj + a + N 어순); <em>in point of X</em> = X 라는 점에서는 (고어 관용, = in respect of); <em>it is obvious how far ...</em> = 얼마나 ~한지 명백하다 (의문문 아님).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Now if Moses — who comes so long before every other writer — traces his teaching back to a period that remote, then it is plain how far ahead of every other book the Scriptures stand in sheer age.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Now, if</b> → now if</li><li><b>so much earlier than</b> → so long before</li><li><b>traces ... from so remote a period</b> → traces ... back to a period that remote</li><li><b>it is obvious how far</b> → it is plain how far</li><li><b>in point of antiquity</b> → in sheer age</li><li><b>surpass all other writings</b> → stand ahead of every other book.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — Concessive <code>whatever/however + may</code>, and the universal double negative</h3><pre><code>┌──────────────────────────────────────────────────────────────────────┐
+│  ①  WHATEVER + N + S + MAY + V ,   MAIN CLAUSE                       │
+│      = 아무리 / 무엇을 ~하더라도                                       │
+│      ⚠️ may = 양보 (허가 ✗ / 추측 ✗)                                   │
+│      family:  however + ADJ + S + may + V                            │
+│               how ... soever                                          │
+│               whatsoever / whosoever                                  │
+│                                                                       │
+│  ②  NO  X  ...  WHICH IS NOT  Y      =  EVERY X IS Y                 │
+│      ⚠️ 반드시 종이에 괄호 치고 뒤집을 것. 머리로 하면 방향이 뒤집힌다.  │
+│      family (yesterday):  not one will be found who does not rise     │
+│                          = 전원 예외 없이 상승                         │
+└──────────────────────────────────────────────────────────────────────┘
+</code></pre><p><strong>Transformation drill.</strong> Rewrite as one sentence using ① + ②:</p><blockquote>
+<p><em>(given)</em> Critics tell many stories about the Church's councils. Every one of those councils met after the apostles.
+→ <strong>Whatever stories critics may retail concerning the councils, no council of any age exists which is not long posterior to the apostles.</strong></p>
+</blockquote><h3>Formula 2 — Two <code>MODAL + HAVE + p.p.</code>s: unreal past vs. inferred past</h3><pre><code>┌──────────────────────────────────────────────────────────────────────┐
+│  ①  HAD / WERE / SHOULD  + S + ... ,   S + could/would/might have p.p.│
+│      = if 삭제 도치 가정법 → 반사실 (일어나지 않은 일)                  │
+│      ⚠️ 도치 가능 조동사는 HAD·WERE·SHOULD 셋뿐.                       │
+│         `Did he refer ...` ✗ (그건 의문문)                             │
+│                                                                       │
+│  ②  S + MUST HAVE + p.p.                                              │
+│      = 추론의 must → 실제 과거에 대한 확신 ("~였음이 틀림없다")          │
+│      ⚠️ 의무의 must 아님. "~해야 했다" 로 옮기면 논증이 무너진다.        │
+│                                                                       │
+│  분류 규칙:  could/would/might have p.p.  →  대개 반사실                │
+│              must have p.p.               →  실제 과거의 추론           │
+│  ⚠️ 오늘의 S7 은 세미콜론 하나를 사이에 두고 ①과 ②를 연달아 쓴다.        │
+└──────────────────────────────────────────────────────────────────────┘
+</code></pre><p><strong>Transformation drill.</strong> Write one sentence containing both:</p><blockquote>
+<p><strong>Had Paul appealed to a resurrection no one in Corinth had heard reported, his letter never could have persuaded them; but the appearance to the five hundred must have been a matter of familiar report, the very citation of which must have settled the question for most of his readers.</strong></p>
+</blockquote><h3>Formula 3 — Asserting without asserting: the exceptive rhetorical question, and the embedded <code>how</code>-clause</h3><pre><code>┌──────────────────────────────────────────────────────────────────────┐
+│  ①  WHAT ELSE DOES + S + DO  THAN  + BARE INFINITIVE  ?               │
+│      = S 가 하는 일이란 ~하는 것뿐이다   (수사의문 = 강한 단언)          │
+│      ⚠️ than = except (비교 ✗) · 부정사에 to 없음                       │
+│      family:  do nothing but + 원형 / cannot but + 원형                │
+│               what is X but Y?                                        │
+│                                                                       │
+│  ②  IT IS OBVIOUS / IT APPEARS  +  HOW (FAR) + S + V ...              │
+│      = 의문문이 아니다. 도치 없음. 물음표 없음.                          │
+│      ⚠️ 내포절에서는 어순이 S + V 로 고정.                              │
+│         how far the Scriptures must surpass   ✓                       │
+│         how far must the Scriptures surpass   ✗ (직접의문)             │
+│      cf. Day 37 S11:  How peculiarly this property belongs to         │
+│                       Scripture APPEARS from this, that ...           │
+└──────────────────────────────────────────────────────────────────────┘
+</code></pre><p><strong>Transformation drill.</strong> Convert the flat statements into ① and ②:</p><blockquote>
+<p><em>(flat)</em> The prophet is merely repeating the law. It is clear that his authority depends entirely on Moses.
+→ <strong>For what else does the prophet do than repeat the law? And it is obvious how completely his authority must in point of origin depend on Moses.</strong></p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (어원 후킹 테이블)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⚠️ <strong>at large</strong> (S1)</td>
+<td>상세히, 충분히</td>
+<td><code>large</code> &lt; <em>largus</em> = <strong>abundant</strong>(크다 ✗) → <em>largesse</em>. ⚠️ 도주 중(at large)·전체(people at large)와 <strong>세 번째 뜻</strong>.</td>
+</tr>
+<tr>
+<td><strong>touch on</strong> (S1)</td>
+<td>간략히 언급하다</td>
+<td>Lat. <em>attingere</em> (<em>ad</em>+<em>tangere</em>). S1 안에서 <code>at large</code> 와 정면 대비 — 저쪽은 길게, 여기선 스치듯.</td>
+</tr>
+<tr>
+<td><strong>antiquity</strong> (S2)</td>
+<td>고대성, 오래됨</td>
+<td><em>ante</em> = before → <em>antique</em>. 이 절의 표제어.</td>
+</tr>
+<tr>
+<td><strong>be due to</strong> (S2)</td>
+<td>(마땅히) 주어져야 하다</td>
+<td>&lt; <em>debere</em> 빚지다. ⚠️ 원인의 <em>due to</em>(= because of)와 <strong>다른 어휘</strong>. <code>weight is due to X</code> = X 에 무게를 실어야 마땅.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>retail</strong> (v.) (S3)</td>
+<td>(남의 얘기를) 옮겨 퍼뜨리다</td>
+<td><em>re-</em> + <em>taillier</em> <strong>자르다</strong> → <em>tailor·detail·entail</em>. 조각내어 넘기는 것 = 중간상. <strong>경멸의 뉘앙스.</strong></td>
+</tr>
+<tr>
+<td><strong>fable</strong> (S3)</td>
+<td>꾸며낸 이야기</td>
+<td><em>fari</em> 말하다 → <em>confess(어제)·fate·infant(=말 못하는)·preface</em>. 어제 배운 그 가족.</td>
+</tr>
+<tr>
+<td><strong>monument</strong> (S3)</td>
+<td>기념물, 기록·유물</td>
+<td><em>monere</em> <strong>상기시키다</strong> → <em>monitor·admonish·premonition·monster</em>. 기념물 = 「상기시키는 것」.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>posterior to</strong> (S3)</td>
+<td>~보다 <strong>나중의</strong></td>
+<td><em>post</em> 뒤 → ↔ <em>prior to</em>. ⚠️ 해부학 뜻 아님. 방향을 뒤집으면 문장 전체가 반대가 된다.</td>
+</tr>
+<tr>
+<td><strong>introduce</strong> (S4)</td>
+<td>들여오다, 도입하다</td>
+<td><em>intro</em>(안으로) + <em>ducere</em>(이끌다) → <em>conduct·educate·seduce·duke</em>. S6 의 <code>lead back</code> 과 <strong>방향 대조</strong>.</td>
+</tr>
+<tr>
+<td><strong>set forth</strong> (S5)</td>
+<td>개진하다, 제시하다</td>
+<td>⚠️ 「출발하다」 아님. Beveridge 에서는 거의 항상 <strong>설명·제시</strong>.</td>
+</tr>
+<tr>
+<td><strong>tradition</strong> (S5)</td>
+<td>전승, 전해 내려온 것</td>
+<td><em>trans</em>+<em>dare</em> = <strong>건네줌</strong>. ★ <em>traitor·treason</em>(=<em>traditor</em> 넘긴 자)과 <strong>같은 어원</strong>. 무엇을 누구에게 넘기느냐가 갈랐다.</td>
+</tr>
+<tr>
+<td><strong>as it were</strong> (S5)</td>
+<td>말하자면</td>
+<td>과거가정법 <code>were</code> 의 화석. <strong>은유임을 스스로 표시하는 예의.</strong></td>
+</tr>
+<tr>
+<td><strong>series</strong> (S5)</td>
+<td>연쇄, 이어짐</td>
+<td><em>serere</em> <strong>잇다</strong> → <em>insert·assert</em>, 그리고 <em>sermo</em>(이어진 말) → <strong>sermon</strong>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>notoriety</strong> (S7)</td>
+<td><strong>널리 알려짐</strong></td>
+<td><em>notus</em> 알려진 &lt; <em>noscere</em> → <em>notice·notion·cognition·ignore</em>. ⚠️ 현대의 「악명」은 <strong>후대 축소</strong>. 오늘 문장에선 중립.</td>
+</tr>
+<tr>
+<td><strong>familiar</strong> (S7)</td>
+<td>가까이서 익히 아는</td>
+<td><em>familia</em> 집안 → 「집안일처럼 아는」. <code>universal</code>(만인)과 짝: <strong>가까이서 + 모두가</strong>.</td>
+</tr>
+<tr>
+<td><strong>bondage</strong> (S7)</td>
+<td>속박, 종살이</td>
+<td><em>bind</em> + <em>-age</em>. 출애굽의 그 종살이.</td>
+</tr>
+<tr>
+<td><strong>arouse</strong> (S7)</td>
+<td>(주의를) 불러일으키다</td>
+<td>원래 <strong>사냥 용어</strong> — 숨은 짐승을 몰아내다. 언급 한 번이 주의를 <strong>은신처에서 몰아낸다</strong>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>intimately acquainted</strong> (S8)</td>
+<td>속속들이 알고 있는</td>
+<td><em>intimus</em> = <em>interior</em> 의 최상급 「가장 안쪽」. ⚠️ 친밀한 사이 ✗. <code>acquaint</code> 도 <em>noscere</em> 가족 — S7 과 한 뿌리.</td>
+</tr>
+<tr>
+<td><strong>probable</strong> (S8)</td>
+<td>개연성 있는</td>
+<td><em>probare</em> 시험하다·입증하다 → <em>probe·prove·probation</em>. <strong>칼빈이 스스로 낮춘 증거 등급.</strong></td>
+</tr>
+<tr>
+<td><strong>trace</strong> (S9)</td>
+<td>거슬러 추적하다</td>
+<td><em>trahere</em> 끌다 → <em>tract·attract·contract·portrait·treat</em>. 선을 <strong>뒤로 그어 올리다</strong>.</td>
+</tr>
+<tr>
+<td>⚠️ <strong>in point of</strong> (S9)</td>
+<td>~라는 점에서</td>
+<td>고어 관용 = <em>in respect of</em>. <strong>범위 한정어</strong> — 지우면 주장이 부풀어 오른다.</td>
+</tr>
+<tr>
+<td><strong>obvious</strong> (S9)</td>
+<td>명백한</td>
+<td><em>ob</em> + <em>via</em> <strong>길</strong> = 「길 한복판에 놓인」. 피해 갈 수 없는 것.</td>
+</tr>
+<tr>
+<td><strong>covenant</strong> (S6)</td>
+<td>언약</td>
+<td><em>con</em>+<em>venire</em> 함께 오다 → <em>convene·convention</em>. 히브리어 <em>berith</em> 는 「맺다」가 아니라 <strong>자르다</strong>(<em>karath berith</em>, 창 15:18).</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>Where we are in the architecture — say it out loud, because people forget it within a week.</strong> Chapter 8 is the <em>indicia</em> chapter: rational marks of credibility. It sits <strong>under</strong> Chapter 7, and Calvin bolted it down in the first sentence of §1 (Day 37): <code>In vain were the authority of Scripture fortified by argument ... **if unaccompanied by** an assurance higher and stronger than human Judgment can give.</code> So everything today — antiquity, Moses, the four hundred years — is an <strong>adminiculum</strong>, a vine-prop. ⚠️ <strong>Props do not hold up buildings. They hold up plants that are already rooted.</strong> Anyone who quotes §3 as Calvin's <em>foundation</em> for scriptural authority has skipped two chapters.</p><p><strong>The argument from antiquity is not Calvin's invention, and he tells you so.</strong> The marginal citation is <strong>Eusebius of Caesarea, <em>Praeparatio Evangelica</em></strong> (c. AD 313) — the great apologetic encyclopaedia whose whole strategy is: <em>Greek wisdom is late, derivative, and internally incoherent; the Hebrew tradition is earlier.</em> Book 2 chapter 1, cited here, belongs to Eusebius' survey of Egyptian and Phoenician theogonies — which is precisely S3's target. (The sustained Moses-is-older-than-everybody demonstration is chiefly PE book 10; the marginal references in Beveridge are editorial pointers, not always page-precise. Don't over-invest in the exact chapter.) Behind Eusebius stand <strong>Josephus, <em>Contra Apionem</em></strong> — whom Calvin will name in his very next section — <strong>Theophilus of Antioch</strong>, <strong>Tatian</strong>, and <strong>Clement of Alexandria</strong>, <em>Stromata</em> I, who ran the same chronological comparison; and after them <strong>Augustine, <em>De Civitate Dei</em> XVIII</strong>, which does the Moses/Greek-antiquity synchronism at length. ★ Calvin is standing in a queue twelve centuries deep, and he knows it — which is exactly why S1 says <code>treated at large by others</code>. <strong>S1 is a footnote in the form of a sentence.</strong></p><p><strong>What is genuinely Calvin's, and better than the tradition:</strong> the pivot at S4. The patristic argument was mostly chronological one-upmanship — <em>ours is older, therefore yours is borrowed</em>. Calvin lets that stand as prong (a) and then adds something sharper. <strong>Moses is not competing for the prize of "oldest founder," because Moses is not a founder.</strong> <code>He only sets forth that doctrine ... which the Israelites had received by tradition from their fathers.</code> The claim shifts from <em>primacy</em> to <em>non-novelty</em> — and non-novelty is a much harder thing to fake, because it can be checked by the audience. That is why S7 follows immediately. ★ <strong>Prong (a) is Eusebius. Prong (b) plus S7 is Calvin.</strong></p><p><strong>The forensic instinct, third day running.</strong> Day 37: bad prose cannot be a marketing strategy, therefore its power is not rhetorical. Day 38: the counterfeit betrays itself by <code>affectation</code>. Day 39: the forger cannot invent a public past in front of the public. ★ These are all <strong>the same mind</strong>, and it is a lawyer's mind — Calvin took a law degree at Orléans and Bourges before he took anything else, and it shows on every page of this chapter. Read Chapter 8 as a brief, not as a meditation, and it suddenly reads easily.</p><p><strong>Reception, briefly and honestly.</strong> The mass-witness form of S7 recurs independently — <strong>Judah Halevi's <em>Kuzari</em></strong> (12th c.) argues from the national revelation at Sinai in almost the same shape, and 18th-century English apologetics rediscovered it. In the Reformed confessions, the whole <em>indicia</em> apparatus gets crystallised at <strong>Westminster Confession 1.5</strong> (<code>the heavenliness of the matter ... the consent of all the parts ... the many other incomparable excellencies</code>) — with the decisive <code>**yet notwithstanding**</code> clause that reproduces Day 37's S1. <strong>Bavinck</strong> and <strong>Turretin</strong> (<em>Institutio</em> I.iv–vi) formalise the two-storey structure: <em>indicia</em> below, <em>testimonium</em> above.</p><p><strong>⚠️ Four guardrails — and today needs them more than most days.</strong></p><p><strong>① The chronology has not survived; the argument-form largely has.</strong> Calvin writes before Champollion (hieroglyphs, 1822), before Assyriology, before anything like modern Egyptian chronology. <code>no monument of any religion exists which is not long posterior to the age of Moses</code> is, as a historical claim about the ancient Near East, no longer defensible. <strong>Say so plainly.</strong> What survives is S4–S7: a founder who disclaims novelty, appealing publicly to events his audience is presumed to have lived. Learn to hold a thinker's <em>reasoning</em> apart from his <em>data</em>. It is the only way to read anyone older than yourself.</p><p><strong>② "Oldest = truest" is not the argument, and attributing it to Calvin is a misreading.</strong> He has already documented at length how ancient idolatry is (I.5.12: the Egyptians and their <code>mystic theology</code> were his own specimen). Antiquity here is doing <strong>two narrow jobs</strong>: fixing the direction of possible derivation, and supporting the non-novelty claim. Nothing more.</p><p><strong>③ The covenant material here is historical, not yet the covenant theology.</strong> <code>the covenant which had been made with Abraham</code> is doing chronological work in §3. The theology of the covenant — one covenant, two administrations, the relation of law and gospel — is deliberately reserved for <strong>Book 2</strong> (Calvin fenced this off explicitly back in I.6, Day 28). ⚠️ Do not import Book 2 into this sentence; Calvin has not yet earned it here, and he knows it.</p><p><strong>④ S8 is <code>probable</code> and must stay <code>probable</code>.</strong> Calvin graded his own evidence in five steps across nine sentences. Flattening those grades into uniform confidence is how a careful writer gets turned into a dogmatist by his admirers. ★ <strong>The mark of having actually read someone is that you preserve their hedges.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>1. Ex. 3:6, 13–15 — the burning bush, and S4 in narrative form.</strong> <code>But Moses does not introduce a new Deity</code> (S4). Go to the founding scene and see what God says first: <em>"I am the God of thy father, the God of Abraham, the God of Isaac, and the God of Jacob."</em> ★ <strong>The very first self-identification at the bush is genealogical.</strong> And when Moses asks for a name (3:13), the answer is given and then immediately re-anchored: <em>"The LORD God of your fathers ... hath sent me unto you"</em> (3:15). Calvin's S4–S6 is not an inference imposed on the text; it is a summary of how Exodus itself introduces the God of the Exodus. <strong>This is the single best proof-text for today's section, and Calvin does not cite it — he assumes you know it.</strong></p><p><strong>2. ⚠️ Ex. 6:2–3 — the honest tension, and you should meet it before an opponent hands it to you.</strong> <em>"I appeared unto Abraham, unto Isaac, and unto Jacob, by the name of God Almighty (אֵל שַׁדַּי), but by my name JEHOVAH (יהוה) was I not known to them."</em> Read flatly, that is a <strong>new name</strong> at the Exodus — which looks like exactly the novelty S4 denies. The Reformed reading (Calvin's own, in the Exodus commentary) takes <code>known</code> as <strong>known in efficacy</strong> — the covenant name now made good in act, not a newly-introduced deity; and the same verse's <em>"I appeared unto Abraham"</em> keeps the continuity explicit in its own first clause. ★ Note how the objection and its answer sit in <strong>one verse</strong>. Modern source-critical readings take 6:2–3 quite differently; you should know that too. <strong>Do not pretend the tension is not there. Handle it.</strong></p><p><strong>3. Deut. 4:32–35 — Moses running S7's argument himself.</strong> <em>"Ask now of the days that are past ... Did ever people hear the voice of God speaking out of the midst of the fire, as thou hast heard, and live? ... Unto thee it was shewed, that thou mightest know."</em> ★ <strong>This is the mass-witness argument in Moses' own mouth</strong>, addressed to the generation that is presumed to have been present — precisely Calvin's <code>a fact of familiar and universal notoriety</code>. And Deut. 4:9 supplies the transmission clause of S5: <em>"teach them thy sons, and thy sons' sons."</em> <strong>Calvin's S5 and S7 are, between them, a compressed paraphrase of Deuteronomy 4.</strong></p><p><strong>4. Deut. 32:7 — the hand-to-hand chain of S5, verbatim.</strong> <em>"Remember the days of old, consider the years of many generations: ask thy father, and he will shew thee; thy elders, and they will tell thee."</em> ⚠️ Look at the structure: memory → generations → father → elders. <strong>That is S5's relative chain, in Hebrew parallelism.</strong> <code>by tradition from their fathers, by whom it had been transmitted, as it were, from hand to hand, during a long series of ages.</code></p><p><strong>5. Gen. 15:13; Ex. 12:40–41; Acts 7:6; Gal. 3:17 — the four hundred years of S8.</strong> Gen. 15:13 gives Abraham the number in advance: <em>"thy seed shall be a stranger in a land that is not theirs ... four hundred years."</em> Ex. 12:40 gives 430; Acts 7:6 follows the 400; Gal. 3:17 the 430. ★ Calvin's S8 claim — that Israel was <code>intimately acquainted with the whole period</code> — depends on the number being <strong>announced beforehand to Abraham and remembered forward</strong>, which is why the tradition-chain of S5 and the 400 years of S8 are the same argument told twice. ⚠️ And he calls it <code>probable</code>, not certain. Keep the hedge.</p><p><strong>6. Gen. 12:1–3; 15:18; 17:7 — the covenant of S6.</strong> <code>lead them back to the covenant which had been made with Abraham.</code> Note Gen. 17:7, <em>"an everlasting covenant"</em> (בְּרִית עוֹלָם) — the <em>olam</em> is doing exactly the work Calvin needs: the covenant is not a Mosaic institution but a standing one that Moses invokes. And Gen. 15:18's idiom is <strong>cut</strong> a covenant (<em>karath berith</em>), over the divided animals — the knife that Beveridge's <em>made</em> politely hides.</p><p><strong>7. Acts 7:22 vs. Rom. 1:22–23 — the Egyptian question of S3, from both sides.</strong> The opponent's card is Acts 7:22: <em>"And Moses was learned in all the wisdom of the Egyptians."</em> Stephen concedes the education. ★ But Calvin's diagnosis of what Egyptian religion <strong>was</strong> is already on record at I.5.12 (the Egyptians as his specimen of mystic theology), and the frame is Rom. 1:22–23, <em>"professing themselves to be wise, they became fools, and changed the glory of the uncorruptible God into an image made like to corruptible man, and to birds, and fourfooted beasts"</em> — a sentence that reads like a description of an Egyptian temple wall. <strong>Moses was trained in it; Calvin's claim is that he did not derive from it.</strong> Education is not derivation, and S3's chronology is meant to keep the two apart.</p><p><strong>8. How Calvin uses Scripture today — the meta-observation.</strong> ⚠️ Notice that §3 quotes <strong>not one verse.</strong> In a chapter about the credibility of Scripture, arguing before <code>natural reason</code>, Calvin argues about the Bible from <strong>history</strong>, and holds the Bible's own testimony in reserve. ★ That is not a lapse of piety — it is the <strong>discipline of the chapter title</strong>: <code>in so far as natural reason admits</code>. He is playing on the board he announced. Compare §§5–6, where the miracles come in and the citations return in a flood. <strong>A theologian who can keep his best material out of his hand until the right section is a theologian who has actually thought about the order of an argument.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① 어법 — 밑줄 넷 중 <strong>틀린 것</strong> 하나를 고르시오.</h3><blockquote>
+<p>Whatever fables the poets ⓐ<em>may retail</em> concerning the older gods, no record of any nation exists ⓑ<em>which is not</em> long posterior to that age; and ⓒ<em>did the lawgiver refer</em> to matters of which the people had never heard, he never could have succeeded; but their deliverance ⓓ<em>must have been</em> a fact of universal notoriety.</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: ⓒ</strong></p><p><strong>해설(출제 의도).</strong> 오늘 Formula 2①의 정면 출제다. <strong>if 삭제 도치 가정법에 쓸 수 있는 조동사는 <code>had</code>·<code>were</code>·<code>should</code> 셋뿐</strong>이다. <code>did</code>로는 도치 조건절을 만들 수 없고 — <code>did the lawgiver refer</code>는 <strong>의문문</strong>이 되어 버린다. 원문 S7 그대로 <code>**Had** the lawgiver referred</code>로 고쳐야 주절의 <code>never could have succeeded</code>(반사실 귀결)와 짝이 맞는다.
+나머지는 모두 오늘 문장 그대로: ⓐ 양보의 <code>may</code>(Formula 1①), ⓑ <code>no X ... which is not Y</code> 이중부정(Formula 1②), ⓓ 추론의 <code>must have p.p.</code>(Formula 2②).
+⚠️ <strong>함정 설계</strong>: ⓓ를 고르는 학생이 매년 나온다. <code>must have been</code>을 「~했어야 했다」(의무)로 읽고 문맥에 안 맞는다고 판단하는 경우다. <strong>must have p.p. 는 의무가 아니라 추론이다.</strong></p><h3>② 내용일치 — §3의 내용과 일치하는 것은?</h3><p><strong>ⓐ</strong> Calvin argues that because Scripture is the oldest surviving book, its doctrine must be true.
+<strong>ⓑ</strong> Calvin concedes that certain Egyptian religious monuments are contemporary with, or older than, Moses, but denies that this matters.
+<strong>ⓒ</strong> Calvin holds that Moses founded Israel's religion, and that its later antiquity derives from his authority.
+<strong>ⓓ</strong> Calvin holds that Moses introduced no new God but recalled Israel to a covenant already made with Abraham, and that a public appeal to unknown events could not have succeeded.</p><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: ⓓ</strong></p><p><strong>해설(출제 의도).</strong> ⓓ는 S4(<code>does not introduce a new Deity</code>) + S6(<code>lead them back to the covenant which had been made with Abraham</code>) + S7(<code>Had he referred ... he never could have succeeded</code>)의 정확한 합성이다.
+⚠️ <strong>ⓐ = 범위 초과.</strong> 「가장 오래됨 → 참」은 칼빈의 논증이 <strong>아니다</strong>. 그는 (a) 더 오래된 것이 <strong>존재하지 않는다</strong>(S3, 차용 방향 고정)와 (b) 모세가 <strong>새로움을 주장하지 않는다</strong>(S4–S6)만 말한다. 게다가 칼빈 자신이 I.5.12에서 우상숭배의 유구함을 길게 다뤘다 — 그는 「오래됨=참」을 쓸 수 <strong>없는</strong> 사람이다.
+⚠️ <strong>ⓑ = 방향 뒤집기.</strong> S3의 이중부정을 잘못 푼 것. <code>no monument ... which is not long posterior</code> = <strong>존재하는 모든 기념물이 모세보다 훨씬 나중이다.</strong> 동시대·그 이전의 것이 있다고 인정한 적이 없다.
+⚠️ <strong>ⓒ = S4 정면 위반.</strong> <code>But Moses does not introduce a new Deity.</code> 모세는 <strong>창시자가 아니라 복원자</strong>(S6 <code>lead them **back**</code>)다.</p><h3>③ 영작 — 오늘의 공식을 적용해 영어로 옮기시오.</h3><blockquote>
+<p>「비평가들이 초대 교회에 관해 무슨 이야기를 옮기든, 사도들보다 앞서는 신경(creed)은 하나도 존재하지 않는다. 만일 그 사도가 아무도 들어본 적 없는 사건들을 거론했더라면 그의 편지는 결코 설득할 수 없었을 것이다. 그러나 그 처형은 만인이 익히 아는 사실이었음이 틀림없다. 그리고 그가 하는 일이란 그들을 처음의 전승으로 되돌리는 것 말고 무엇이겠는가?」</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>모범답안:</strong></p><blockquote>
+<p><strong>Whatever</strong> tales critics <strong>may retail</strong> concerning the primitive Church, <strong>no</strong> creed of any age exists <strong>which is not</strong> posterior to the apostles. <strong>Had</strong> that apostle <strong>referred</strong> to events of which no one had ever heard, his letter <strong>never could have persuaded</strong> them; but the execution <strong>must have been</strong> a fact of familiar and universal notoriety. And <strong>what else does he do than lead</strong> them <strong>back</strong> to the tradition first delivered?</p>
+</blockquote><p><strong>해설(출제 의도).</strong> 네 공식이 전부 들어가야 한다. ① <code>Whatever ... may V</code> 양보 + <code>no X ... which is not Y</code> 이중부정 → 첫 문장. ② <code>Had + S + p.p., S never could have p.p.</code> 반사실 → 둘째 문장 전반. ③ <code>must have p.p.</code> 추론 → 둘째 문장 후반(세미콜론 뒤, S7과 같은 배치). ④ <code>what else does he do **than** + **원형**</code> → 마지막 문장, ⚠️ <strong><code>than to lead</code> 로 쓰면 감점</strong> — 오늘 문형은 to 없는 원형이다. <code>notoriety</code>를 「악명」의 뜻으로 오해해 다른 단어로 바꾸면 그것도 감점.</p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> Calvin puts the literary argument down in one breath — <code>As this subject has been **treated at large** by others, it will be sufficient here **merely to touch on** its leading points</code> (⚠️ <em>at large</em> = <strong>at length</strong>) — and takes up a new head of proof that does not replace the old ones but stacks on them: <code>**In addition to** the qualities already mentioned, great weight is due to the **antiquity** of Scripture</code>; the first prong sweeps the field with a concession clause and a double negative — <code>**Whatever** fables Greek writers **may retail** concerning the Egyptian Theology, **no** monument of any religion exists **which is not** long **posterior** to the age of Moses</code> (⚠️ = <strong>every</strong> surviving religious record is later than Moses; ⚠️ <em>retail</em> = pass on second-hand; ⚠️ <em>posterior</em> = <strong>later</strong>) — which does not prove Moses true but <strong>fixes the direction of any possible borrowing</strong>; then comes the hinge, seven flat words, <code>**But Moses does not introduce a new Deity**</code>, and the second prong, which is Calvin's own contribution and better than the tradition's: Moses claims <strong>no novelty at all</strong> — <code>He **only sets forth** that doctrine ... **which** the Israelites **had received** by tradition from their fathers, **by whom** it **had been transmitted**, **as it were**, **from hand to hand**, during a long **series** of ages</code> (★ the relative chain <em>is</em> the transmission it describes, and the two past perfects put the deposit <strong>behind</strong> Moses), so that <code>**For what else does he do than lead** them **back** to the covenant **which had been made** with Abraham?</code> — ★ <em>intro-duce</em> in S4, <em>lead back</em> in S6, the same <em>ducere</em> with the direction reversed; and then the forensic core, two <code>have + p.p.</code>s in two different worlds — <code>**Had he referred** to matters of which they had never heard, he **never could have succeeded**</code> (unreal past) <code>; but their deliverance ... **must have been** a fact of **familiar and universal notoriety**, the very mention of which **must have immediately aroused** the attention of all</code> (⚠️ <em>notoriety</em> = <strong>well-known-ness</strong>, not scandal; ⚠️ <em>must have</em> = <strong>inference</strong>, not obligation) — i.e. <strong>you cannot invent a public past in front of the public</strong>; a graded hedge follows, and it is graded on purpose — <code>It is, moreover, **probable**, that they were **intimately acquainted** with the whole period of four hundred years</code> — before the conclusion draws the line back: <code>Now, **if** Moses (who is **so much earlier** than all other writers) **traces** the tradition of his doctrine from **so remote a period**, it is obvious **how far** the Holy Scriptures **must in point of antiquity surpass** all other writings</code> (⚠️ the <em>how</em>-clause is <strong>not a question</strong> — no inversion, no question mark, exactly as in Day 37's <code>**How peculiarly** this property ... **appears**</code>; ⚠️ and <em>in point of antiquity</em> limits the claim to <strong>one axis</strong>, the third day running that a limiting phrase carries the sentence).</p><p><strong>And the three grammar points, once more:</strong></p><ol>
+<li><strong>Concessive <code>may</code> + the universal double negative.</strong> <code>**Whatever** fables Greek writers **may** retail ..., **no** monument ... exists **which is not** long posterior</code> (S3). ⚠️ That <code>may</code> is <em>no matter what</em> — not permission, not probability; siblings are <code>however + adj + S + may + V</code> (Day 38) and <code>how ... soever</code> (Day 30). ⚠️ And <code>no X ... which is not Y</code> = <strong>every X is Y</strong> — bracket the two negations <strong>on paper</strong>; this is the second specimen in two days, after yesterday's <code>not one will be found who does not rise</code>.</li>
+<li><strong><code>MODAL + HAVE + p.p.</code> — two of them, one semicolon apart, in opposite worlds.</strong> <code>**Had he referred** ..., he **never could have succeeded**</code> = <em>if</em>-deleted counterfactual (⚠️ only <strong>had / were / should</strong> may invert; <code>did he refer</code> is a <strong>question</strong>) — an unreal past. <code>their deliverance **must have been** a fact of ... notoriety</code> = <strong>epistemic</strong> <code>must</code> — a certain inference about the <strong>real</strong> past. ⚠️ Identical shape, opposite modality; sort them by the modal, and never translate <code>must have been</code> as obligation.</li>
+<li><strong>Two ways to assert without asserting.</strong> <code>For **what else does he do than lead** them back ...?</code> (S6) — ⚠️ <code>than</code> = <em>except</em> (not comparative), infinitive is <strong>bare</strong>, and the question mark makes the claim <strong>stronger</strong>, not weaker; family: <em>do nothing but</em> + bare inf., <em>what is X but Y?</em> And <code>it is obvious **how far** the Holy Scriptures must ... surpass</code> (S9) — ⚠️ an <strong>embedded</strong> degree clause: subject-verb order preserved, no question mark. <code>how far the Scriptures must surpass</code> ✓ / <code>how far must the Scriptures surpass</code> ✗.</li>
+</ol><p><strong>Homework (10 minutes).</strong></p><p><strong>① Structure restoration.</strong> Take S5 — the chain — and rebuild it as <strong>four</strong> flat sentences, losing nothing:</p><blockquote>
+<p><em>He only sets forth that doctrine concerning the eternal God which the Israelites had received by tradition from their fathers, by whom it had been transmitted, as it were, from hand to hand, during a long series of ages.</em></p>
+<p>Target shape: (i) All he does is present a body of teaching. (ii) That teaching concerns the eternal God. (iii) The Israelites had already received it from their fathers, by way of tradition. (iv) Those fathers had passed it on — hand to hand, so to speak — over many generations. — Then <strong>underline the two past perfects</strong> and write one line on what would be lost if both became simple pasts. (Answer to check yourself against: the deposit would stop being <strong>anterior to Moses</strong>, and prong (b) would collapse.)</p>
+</blockquote><p><strong>② Composition.</strong> Write four English sentences on the content below, using <strong>Formula 1① and ② in the first, Formula 2① and ② in the second and third, and Formula 3① and ② in the fourth</strong>:</p><blockquote>
+<p><em>"Whatever objections modern critics may retail concerning the creeds, no confession of any church exists which is not posterior to the apostolic preaching. Had the apostle appealed to a resurrection of which his hearers had never heard, his preaching never could have taken root in that city; but the empty tomb must have been a matter of familiar and universal notoriety, the very mention of which must have divided every synagogue that heard it. For what else does the creed do than lead the church back to what was delivered at the first? And it is obvious how far, in point of origin, that deposit must precede every later formula."</em>
+— then check your work against S3 for the two negations, against S7 for the <strong>two different</strong> <code>have + p.p.</code>s, and against S6/S9 for the bare infinitive after <code>than</code> and the <strong>uninverted</strong> <code>how</code>-clause.</p>
+</blockquote><p><strong>③ Tomorrow's preview (one line).</strong> §4 continues the antiquity argument but changes tactics twice. First Calvin disposes of the rival chronology with open contempt — the Egyptians <code>**carrying back their antiquity to a period of six thousand years before the world was created**</code>, whose <code>**garrulity**</code> (⚠️ = <strong>chattering</strong>, not a compliment) <code>**it cannot be necessary for me to refute**</code> (⚠️ another <em>refusal</em> to argue, exactly like yesterday's <code>None ... need be told</code> — watch how often Calvin's dismissals are stylistic verdicts rather than refutations, and keep asking whether that is enough). Then he calls <strong>Josephus, <em>Contra Apionem</em></strong> — the source S1 was gesturing at — and pivots to something much stronger and much more characteristic: <strong>the argument from self-damaging testimony.</strong> Moses records his own tribe's <code>**eternal infamy in the person of Levi**</code> (Gen. 49:5–6), his brother's and sister's rebellion (Num. 12:1), and refuses the High Priesthood to his own sons. ★ <strong>A forger flatters his own family.</strong> ⚠️ Look for the rhetorical question that carries the whole section — <code>**How can any suspicion attach to him, who ... neither consults for his own private interest, nor declines to incur obloquy...?**</code> — and note it is the <strong>same construction as today's S6</strong>: a question that is really the flattest possible assertion.</p><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 8, §3 끝. 다음은 <strong>Book 1, Ch. 8, §4</strong> (Day 40) — 고대성 논증 2부: 이집트의 6천 년 주장 기각(<code>garrulity</code>), 요세푸스 『아피온 반박』 호출, 그리고 훨씬 강한 새 논거 — <strong>자기에게 불리한 증언</strong>(모세가 자기 지파 레위를 창 49:5-6으로 낙인찍고, 형 아론·누이 미리암의 반역을 기록하며, 제사장직을 제 아들들에게 주지 않는다). 오늘의 S6와 똑같은 수사의문이 그 절의 축이 된다.</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>

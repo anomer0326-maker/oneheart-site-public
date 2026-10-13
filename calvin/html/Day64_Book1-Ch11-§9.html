@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 하나님을 형상으로 만드는 죄 §9 (1권 11장 · Day 64) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 11장 §9(하나님을 형상으로 만드는 죄)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 64. 연관 성구: 시편 113, 출애굽기 20, 시편 115, 갈라디아서 3."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day64_Book1-Ch11-%C2%A79.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="하나님을 형상으로 만드는 죄 §9 — 기독교 강요 영어로 읽기 (Day 64)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 11장 §9(하나님을 형상으로 만드는 죄)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 64. 연관 성구: 시편 113, 출애굽기 20, 시편 115, 갈라디아서 3."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day64_Book1-Ch11-%C2%A79.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 하나님을 형상으로 만드는 죄 §9 (1권 11장 · Day 64) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 11장 §9(하나님을 형상으로 만드는 죄)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 64. 연관 성구: 시편 113, 출애굽기 20, 시편 115, 갈라디아서 3.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 11장 §9 — 하나님을 형상으로 만드는 죄","mentions":[{"@type":"CreativeWork","name":"시편 113 (Ps 113)"},{"@type":"CreativeWork","name":"출애굽기 20 (Exod 20)"},{"@type":"CreativeWork","name":"시편 115 (Ps 115)"},{"@type":"CreativeWork","name":"갈라디아서 3 (Gal 3)"},{"@type":"CreativeWork","name":"로마서 3 (Rom 3)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day64_Book1-Ch11-%C2%A79.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 64 — Book 1, Chapter 11, §9<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (⚠️ invariable) — 24 sentences</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl3" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl3" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl2" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl1" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl2" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl3" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl3" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl2" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl3" href="#S11" onclick="closeNavMobile()">S11</a><a class="toc-s lvl1" href="#S12" onclick="closeNavMobile()">S12</a><a class="toc-s lvl3" href="#S13" onclick="closeNavMobile()">S13</a><a class="toc-s lvl3" href="#S14" onclick="closeNavMobile()">S14</a><a class="toc-s lvl2" href="#S15" onclick="closeNavMobile()">S15</a><a class="toc-s lvl1" href="#S16" onclick="closeNavMobile()">S16</a><a class="toc-s lvl2" href="#S17" onclick="closeNavMobile()">S17</a><a class="toc-s lvl1" href="#S18" onclick="closeNavMobile()">S18</a><a class="toc-s lvl3" href="#S19" onclick="closeNavMobile()">S19</a><a class="toc-s lvl1" href="#S20" onclick="closeNavMobile()">S20</a><a class="toc-s lvl2" href="#S21" onclick="closeNavMobile()">S21</a><a class="toc-s lvl2" href="#S22" onclick="closeNavMobile()">S22</a><a class="toc-s lvl3" href="#S23" onclick="closeNavMobile()">S23</a><a class="toc-s lvl2" href="#S24" onclick="closeNavMobile()">S24</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 64 — Book 1, Chapter 11, §9</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday the mind was a <strong>forge</strong>. Today the forge ships its product — and the product walks straight to the altar. Look at the very first word of §9: <strong>"After."</strong> Calvin is doing chronology on purpose. Making, then worshipping. And between those two he puts one adverb that carries the whole section: <strong><code>forthwith</code></strong>. Not "eventually." Not "in some cases." <em>Immediately.</em> The gap the whole medieval defence needs — "we make images but we do not worship them" — Calvin closes it in the first eleven words.</p><p>Then he does the thing that makes this section a masterclass. He <strong>grants his opponents their best sentence.</strong> S12: <em>"It is said that the images are not accounted gods."</em> Fine. Granted. Nobody in Israel thought a lump of gold created the world (S13). Nobody in Athens thought Zeus <em>was</em> the marble (S15). Augustine's own parishioners had the sophisticated answer ready (S18–S19) — <em>we worship not the image but the Deity in it</em>; and the classy ones said <em>not even that: the image is a symbol pointing beyond itself.</em> Calvin writes all of it down without flinching. <strong>And then he says: yes — and that is exactly what idolatry is.</strong> S3 pre-loaded the trap two hundred words earlier: <code>not that they actually believe them to be gods, but that the power of divinity somehow or other resides in them.</code> The refined defence <em>is</em> the diagnosis. He didn't refute the excuse. He anticipated it and printed it as Exhibit A.</p><p>Grammatically this is the section where <strong>early modern subjunctives come out to play</strong> — <code>whether it be</code>, <code>be the colour what it may</code> — and where Calvin fires off <strong>three consecutive fronting inversions</strong> (<code>So stupid are men</code>, <code>Nor were the Jews</code>, <code>Nor are the heathen</code>). If a test is written on Book 1 Ch. 11, it is written on this paragraph.</p><h3>Today's 3 Big Points</h3><ol>
+<li><strong>The concessive subjunctive — <code>be + S + what/where it may</code> (S9), <code>whether it be A or B</code> (S4).</strong> This is not "be" the imperative. It is the present subjunctive with inversion, and it means <strong>"no matter what / whichever it is."</strong> <code>be the colour what it may</code> = <em>whatever the pretext may be</em>. Miss the subjunctive and you translate an order where Calvin wrote a concession. Exam setters live here.</li>
+<li><strong>Fronting inversion, three flavours in one paragraph.</strong> <code>So stupid are men, that…</code> (degree-word fronting: <strong>So + adj + BE + S</strong>) in S8; <code>Nor were the Jews so utterly thoughtless…</code> (S13) and <code>Nor are the heathen to be deemed…</code> (S15) (negative-adverb fronting: <strong>Nor + aux/BE + S</strong>). Every one of them re-orders subject and verb. Restore the base pattern first, <em>then</em> translate.</li>
+<li><strong>The nominative absolute.</strong> S2 <code>their eyes and minds becoming wholly engrossed by them, they began…</code> and S14 <code>Aaron saying, that these were the gods…, they intimated…</code>. A participle with <strong>its own subject</strong>, hanging off the main clause. The classic student error in S14 is to make <em>Aaron</em> the subject of <code>intimated</code> — he is not; <code>they</code> is. Get this wrong and you have Aaron confessing instead of the nation.</li>
+</ol><p>Trap words I <em>will</em> test: <strong><code>titles</code></strong> (S5) — not honorifics; Beveridge's rendering of the memorial <strong>pillars</strong> of Lev. 26:1 (Latin <em>titulus</em> = an inscribed standing stone). <strong><code>description</code></strong> (S3) = <strong>kind, type</strong> — <em>"some idea of a grosser description"</em> = a coarser sort of idea. <strong><code>colour</code></strong> (S9) = <strong>pretext, pretence</strong> (cf. <em>under colour of law</em>). <strong><code>The vulgar</code></strong> (S18) = the <strong>common people</strong>, no insult intended. <strong><code>actuated</code></strong> (S21) = <strong>moved, driven</strong> (not "activated" in the machine sense, though the root is the same). <strong><code>accounted</code></strong> (S12) = <strong>reckoned, considered</strong>. <strong><code>preposterous</code></strong> (S23) — do not read "silly": <em>prae</em> + <em>posterus</em>, <strong>back-to-front</strong>, the <em>cart before the horse</em> — which is Calvin's entire thesis about image-worship.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (⚠️ invariable) — 24 sentences</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+9. <span class="ft-sent" data-s="S1" id="ft-S1" onclick="jumpToCard('S1')">After such a figment is formed, adoration forthwith ensues: for when once men imagined that they beheld God in images, they also worshipped him as being there.</span> <span class="ft-sent" data-s="S2" id="ft-S2" onclick="jumpToCard('S2')">At length their eyes and minds becoming wholly engrossed by them, they began to grow more and more brutish, gazing and wondering as if some divinity were actually before them.</span> <span class="ft-sent" data-s="S3" id="ft-S3" onclick="jumpToCard('S3')">It hence appears that men do not fall away to the worship of images until they have imbibed some idea of a grosser description: not that they actually believe them to be gods, but that the power of divinity somehow or other resides in them.</span> <span class="ft-sent" data-s="S4" id="ft-S4" onclick="jumpToCard('S4')">Therefore, whether it be God or a creature that is imaged, the moment you fall prostrate before it in veneration, you are so far fascinated by superstition.</span> <span class="ft-sent" data-s="S5" id="ft-S5" onclick="jumpToCard('S5')">For this reason, the Lord not only forbade the erection of statues to himself, but also the consecration of titles and stones which might be set up for adoration.</span> <span class="ft-sent" data-s="S6" id="ft-S6" onclick="jumpToCard('S6')">For the same reason, also, the second commandment has an additional part concerning adoration.</span> <span class="ft-sent" data-s="S7" id="ft-S7" onclick="jumpToCard('S7')">For as soon as a visible form is given to God, his power also is supposed to be annexed to it.</span> <span class="ft-sent" data-s="S8" id="ft-S8" onclick="jumpToCard('S8')">So stupid are men, that wherever they figure God, there they fix him, and by necessary consequence proceed to adore him.</span> <span class="ft-sent" data-s="S9" id="ft-S9" onclick="jumpToCard('S9')">It makes no difference whether they worship the idol simply, or God in the idol; it is always idolatry when divine honours are paid to an idol, be the colour what it may.</span> <span class="ft-sent" data-s="S10" id="ft-S10" onclick="jumpToCard('S10')">And because God wills not to be worshipped superstitiously whatever is bestowed upon idols is so much robbed from him.</span> <span class="ft-sent" data-s="S11" id="ft-S11" onclick="jumpToCard('S11')">Let those attend to this who set about hunting for miserable pretexts in defence of the execrable idolatry in which for many past ages true religion has been buried and sunk.</span> <span class="ft-sent" data-s="S12" id="ft-S12" onclick="jumpToCard('S12')">It is said that the images are not accounted gods.</span> <span class="ft-sent" data-s="S13" id="ft-S13" onclick="jumpToCard('S13')">Nor were the Jews so utterly thoughtless as not to remember that there was a God whose hand led them out of Egypt before they made the calf.</span> <span class="ft-sent" data-s="S14" id="ft-S14" onclick="jumpToCard('S14')">Indeed, Aaron saying, that these were the gods which had brought them out of Egypt, they intimated, in no ambiguous terms, that they wished to retain God, their deliverer, provided they saw him going before them in the calf.</span> <span class="ft-sent" data-s="S15" id="ft-S15" onclick="jumpToCard('S15')">Nor are the heathen to be deemed to have been so stupid as not to understand that God was something else than wood and stone.</span> <span class="ft-sent" data-s="S16" id="ft-S16" onclick="jumpToCard('S16')">For they changed the images at pleasure, but always retained the same gods in their minds; besides, they daily consecrated new images without thinking they were making new gods.</span> <span class="ft-sent" data-s="S17" id="ft-S17" onclick="jumpToCard('S17')">Read the excuses which Augustine tells us were employed by the idolaters of his time (August. in Ps. 113).</span> <span class="ft-sent" data-s="S18" id="ft-S18" onclick="jumpToCard('S18')">The vulgar, when accused, replied that they did not worship the visible object, but the Deity which dwelt in it invisibly.</span> <span class="ft-sent" data-s="S19" id="ft-S19" onclick="jumpToCard('S19')">Those, again, who had what he calls a more refined religion, said, that they neither worshipped the image, nor any inhabiting Deity, but by means of the corporeal image beheld a symbol of that which it was their duty to worship.</span> <span class="ft-sent" data-s="S20" id="ft-S20" onclick="jumpToCard('S20')">What then?</span> <span class="ft-sent" data-s="S21" id="ft-S21" onclick="jumpToCard('S21')">All idolaters whether Jewish or Gentile, were actuated in the very way which has been described.</span> <span class="ft-sent" data-s="S22" id="ft-S22" onclick="jumpToCard('S22')">Not contented with spiritual understanding, they thought that images would give them a surer and nearer impression.</span> <span class="ft-sent" data-s="S23" id="ft-S23" onclick="jumpToCard('S23')">When once this preposterous representation of God was adopted, there was no limit until, deluded every now and then by new impostures, they came to think that God exerted his power in images.</span> <span class="ft-sent" data-s="S24" id="ft-S24" onclick="jumpToCard('S24')">Still the Jews were persuaded, that under such images they worshipped the eternal God, the one true Lord of heaven and earth; and the Gentiles, also, in worshipping their own false gods, supposed them to dwell in heaven.</span>
+</blockquote><p><strong>Sentence count: 24 (S1–S24). One paragraph.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>[THESIS]      S1–S2    figment formed → adoration FORTHWITH → eyes engrossed → men grow brutish
+[DIAGNOSIS]   S3       the mechanism is NOT "this is a god" but "divinity's POWER resides here"
+[RULE]        S4       therefore: God imaged or creature imaged — prostration = superstition
+[PROOF/LAW]   S5–S7    hence 2nd commandment has TWO parts: no making + no bowing
+                       (form given → power presumed annexed)
+[AXIOM]       S8–S10   So stupid are men: where they figure God, there they FIX him
+                       → idol simply or God-in-idol = same idolatry, whatever the pretext
+[TURN]        S11–S12  now to the excuse-hunters: "but the images are not accounted gods"
+[CONCESSION]  S13–S19  granted — Jews knew (calf = YHWH-with-us), heathen knew (not wood/stone),
+                       Augustine's vulgar ("the Deity in it") and refined ("only a symbol")
+[VERDICT]     S20–S24  What then? — ALL of them, Jew and Gentile, acted the same way:
+                       not content with spiritual understanding, they wanted a surer, nearer
+                       impression → no limit → God exerts his power in images
+</code></pre><p><strong>Examiner's Eye.</strong> Three traps are already loaded.</p><p><strong>(1) The reversal trap.</strong> <em>"Calvin argues that idolaters mistake the image itself for a god."</em> <strong>Wrong — and it is the exact opposite of S3.</strong> <code>not that they actually believe them to be gods, but that the power of divinity somehow or other resides in them.</code> Students skim <code>not that… but that…</code> and keep only the first half. Calvin's whole case depends on the second half.</p><p><strong>(2) The concession trap.</strong> <em>"Calvin denies that the Israelites remembered the true God."</em> No: S13 says <code>Nor were the Jews so utterly thoughtless as not to remember that there was a God…</code> — a double negative = <strong>they did remember.</strong> Same for the heathen in S15. He concedes their knowledge in order to convict their instinct.</p><p><strong>(3) The scope trap.</strong> <em>"Calvin here condemns all visible representations."</em> Not yet, and not here. §9 is about <strong>adoration</strong>. The qualification arrives in §12 (<code>I am not, however, so superstitious as to think that all visible representations of every kind are unlawful</code>). Do not let §9 be quoted past its own scope.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the hinge of the whole section — forthwith + when once</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>After such a figment is formed, adoration forthwith ensues: for when once men imagined that they beheld God in images, they also worshipped him as being there.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">After such a figment is formed</span></li></ul></li><li><span class="leaf">adoration <b>forthwith ensues</b></span></li><li><span class="leaf">for</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf">when once men imagined</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that they beheld God in images</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">they also <b>worshipped</b> him</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as being there</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>ensue</em> &lt; OF <em>ensivre</em> &lt; L. <em>in-</em> + <em>sequi</em> (to follow) — cognate with <em>sequel, consequence, pursue</em>; <em>forthwith</em> = <em>forth</em> + <em>with</em>, "straight out with it," i.e. immediately; <em>figment</em> &lt; <em>fingere</em> (to mould) → <em>fiction, feign, effigy</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>when once</em> = once / as soon as; <em>forthwith ensues</em> = follows immediately; <em>as being there</em> = on the assumption that he was present.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Once such an invented image is made, worship follows immediately: as soon as people thought they were seeing God in images, they also worshipped him as though he were present in them.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>figment</b> → invented image</li><li><b>forthwith ensues</b> → follows immediately</li><li><b>when once</b> → as soon as</li><li><b>beheld</b> → saw</li><li><b>as being there</b> → as though he were present there.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Big Point 3 — the nominative absolute, and the slow slide into brutishness</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>At length their eyes and minds becoming wholly engrossed by them, they began to grow more and more brutish, gazing and wondering as if some divinity were actually before them.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">At length</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>their eyes and minds</b> *becoming* wholly engrossed by them</span></li></ul></li><li><span class="leaf"><b>they began to grow</b> more and more brutish</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">*gazing and wondering*</span></li><li><span class="leaf">as if some divinity <b>were</b> actually before them</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>engross</em> &lt; OF <em>en gros</em>, "in bulk" → to buy up the whole → to absorb entirely; <em>brutish</em> &lt; L. <em>brutus</em> = heavy, dull, unreasoning (cf. <em>brute force</em>); <em>divinity</em> &lt; <em>divinus</em> &lt; <em>divus</em> (god).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>at length</em> = eventually, at last; <em>engrossed by/in</em> = completely absorbed in; <em>as if + past subjunctive</em> = as though (contrary to fact).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Eventually, with their eyes and minds completely absorbed by the images, they became more and more like animals, staring and marvelling as if a god were really standing in front of them.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>At length</b> → Eventually</li><li><b>becoming wholly engrossed</b> → completely absorbed</li><li><b>brutish</b> → animal-like, unthinking</li><li><b>as if… were actually before them</b> → as if… were really in front of them.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the diagnosis — not that… but that…; and description = kind</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>It hence appears that men do not fall away to the worship of images until they have imbibed some idea of a grosser description: not that they actually believe them to be gods, but that the power of divinity somehow or other resides in them.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b>It</b> hence <b>appears</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that men <b>do not fall away</b> to the worship of images</span><ul class="tr"><li><span class="leaf"><b>until</b> they have imbibed</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">some idea of a grosser description</span></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>not that</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">they actually believe them to be gods</span></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but that</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the power of divinity <b>resides</b> in them</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">somehow or other</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>imbibe</em> &lt; <em>in-</em> + <em>bibere</em> (drink) → <em>beverage, bibulous</em>; <em>gross</em> &lt; L. <em>grossus</em> = thick, coarse (cf. <em>engross</em>, same root, different route); <em>reside</em> &lt; <em>re-</em> + <em>sedere</em> (to sit) → to sit back, dwell (cf. <em>sedentary, president</em>).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>fall away to</em> = lapse into, defect into; <em>not… until</em> = only when; <em>of a … description</em> = of a … kind; <em>somehow or other</em> = in some way that is not clear.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So it turns out that people don't slide into image-worship until they've absorbed a cruder idea — not that they really think the images are gods, but that divine power somehow lives in them.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>It hence appears</b> → So it turns out</li><li><b>fall away to</b> → slide into</li><li><b>imbibed</b> → absorbed</li><li><b>of a grosser description</b> → of a cruder kind</li><li><b>resides in</b> → lives in.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Big Point 1, first appearance — whether it be A or B; and the moment as a conjunction</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>Therefore, whether it be God or a creature that is imaged, the moment you fall prostrate before it in veneration, you are so far fascinated by superstition.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Therefore</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>whether it be</b> God <b>or</b> a creature</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that is imaged</span></li></ul></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>the moment</b> you fall prostrate before it in veneration</span></li></ul></li><li><span class="leaf"><b>you are</b> so far <b>fascinated</b> by superstition</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>prostrate</em> &lt; <em>pro-</em> (forward) + <em>sternere</em> (to spread, throw down) → <em>strewn, consternation</em>; <em>fascinate</em> &lt; L. <em>fascinare</em>, to bewitch; <em>veneration</em> &lt; <em>venerari</em> &lt; <em>Venus</em> (root sense: desire, reverence).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>fall prostrate before</em> = throw oneself down in front of; <em>the moment (that)</em> = as soon as; <em>so far</em> = to that extent.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So whether what's being pictured is God or a creature, the instant you throw yourself down before it in worship, you are to that extent under superstition's spell.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>whether it be</b> → whether it is</li><li><b>fall prostrate before it in veneration</b> → throw yourself down before it in worship</li><li><b>so far</b> → to that extent</li><li><b>fascinated</b> → put under a spell.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the legal proof — not only… but also; and the titles trap</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>For this reason, the Lord not only forbade the erection of statues to himself, but also the consecration of titles and stones which might be set up for adoration.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">For this reason</span></li></ul></li><li><span class="leaf">the Lord <b>forbade</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>not only</b> the erection of statues to himself</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but also</b> the consecration of titles and stones</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which might be set up for adoration</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>consecration</em> &lt; <em>con-</em> + <em>sacrare</em> (to make holy) &lt; <em>sacer</em>; <em>erection</em> &lt; <em>erigere</em> (to raise up) &lt; <em>e-</em> + <em>regere</em>; <em>titulus</em> (L.) = inscribed stone, placard — the same word on the cross in John 19:19.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>not only A but also B</em> = both A and B, B being the stronger; <em>set up for</em> = erected for the purpose of.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">That is why the Lord forbade not just putting up statues of himself, but also dedicating memorial pillars and stones that might be erected for worship.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>For this reason</b> → That is why</li><li><b>the erection of statues</b> → putting up statues</li><li><b>titles</b> → memorial pillars</li><li><b>consecration</b> → dedicating.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s1" title="1-star">★</span><span class="s-label">the two-part commandment</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>For the same reason, also, the second commandment has an additional part concerning adoration.</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>additional</em> &lt; <em>addere</em> (<em>ad-</em> + <em>dare</em>, to give to).</li></ul></div></div><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p>One point only: <strong><code>an additional part</code></strong> = Exod. 20:5, <code>Thou shalt not bow down thyself to them, nor serve them</code> — appended to the prohibition of making in 20:4. Calvin's claim in a nutshell: the commandment forbids <strong>two acts, making and bowing</strong>, and the second is not a footnote to the first. (Reformed numbering counts Exod. 20:4–6 as the second commandment in its own right; Roman and Lutheran numbering folds it into the first. Calvin's whole exegesis presupposes the former — worth knowing, not worth over-arguing here.)</p></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s2" title="2-star">★★</span><span class="s-label">as soon as + the passive of presumption</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>For as soon as a visible form is given to God, his power also is supposed to be annexed to it.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">For</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>as soon as</b> a visible form <b>is given</b> to God</span></li></ul></li><li><span class="leaf">his power <b>is supposed to be annexed</b> to it</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">also</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>annex</em> &lt; L. <em>ad-</em> + <em>nectere</em> (to tie) → <em>nexus, connect</em>; <em>suppose</em> &lt; <em>sub-</em> + <em>ponere</em> (to place under) — to place an assumption underneath.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>as soon as</em> = the moment that; <em>be supposed to</em> (here) = be assumed to, be taken to be — not "ought to."</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">For the moment a visible form is given to God, people assume his power is attached to it as well.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>as soon as</b> → the moment</li><li><b>is supposed to be annexed to</b> → is assumed to be attached to.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Big Point 2 — So + adj + BE + S, plus the wherever… there correlative</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>So stupid are men, that wherever they figure God, there they fix him, and by necessary consequence proceed to adore him.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">결과절 (so…that)</span><span class="leaf"><b>So stupid are men</b></span></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>wherever</b> they figure God</span></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>there</b> they <b>fix</b> him</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and <b>proceed to adore</b> him</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by necessary consequence</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>figure</em> (v.) &lt; L. <em>fingere</em> → <em>figura</em>, a shaped thing — the very root of S1's <em>figment</em>, deliberately echoed; <em>adore</em> &lt; <em>ad-</em> + <em>orare</em> (to speak, pray to) — literally, to pray toward.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>So + adj + be + S</em> = S is so adj (with inversion); <em>by necessary consequence</em> = as an unavoidable result; <em>proceed to V</em> = go on to V.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Men are so foolish that wherever they picture God, they pin him down in that spot, and inevitably go on to worship him there.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>So stupid are men</b> → Men are so foolish</li><li><b>figure God</b> → picture God</li><li><b>fix him</b> → pin him down</li><li><b>by necessary consequence</b> → inevitably.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Big Point 1, full strength — be the colour what it may</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p>It makes no difference whether they worship the idol simply, or God in the idol; it is always idolatry when divine honours are paid to an idol, be the colour what it may.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b>It makes no difference</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">whether they worship the idol simply</span></li><li><span class="lab ph">등위 (or)</span><span class="leaf">or God in the idol</span></li></ul></li><li><span class="leaf"><b>it is always idolatry</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf">when divine honours are paid to an idol</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>be the colour what it may</b></span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>colour</em> &lt; L. <em>color</em>, which already carried the sense of "outward appearance, pretext" in rhetoric (<em>color</em> = the gloss a speaker puts on a case); <em>idolatry</em> &lt; Gk. <em>εἴδωλον</em> (image) + <em>λατρεία</em> (service) — literally <em>image-service</em>, a word whose two halves will matter enormously in §11.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it makes no difference whether</em> = it does not matter whether; <em>be the colour what it may</em> = whatever the pretext may be (cf. <em>be that as it may</em>).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">It makes no difference whether they worship the idol itself or God in the idol; paying divine honours to an idol is always idolatry, whatever excuse is offered.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>It makes no difference</b> → It doesn't matter</li><li><b>simply</b> → by itself</li><li><b>divine honours are paid to</b> → divine worship is given to</li><li><b>be the colour what it may</b> → whatever excuse is offered.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the theft argument — so much robbed from him</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p>And because God wills not to be worshipped superstitiously whatever is bestowed upon idols is so much robbed from him.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf">And</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">이유절 (because)</span><span class="leaf"><b>because</b> God <b>wills not</b> to be worshipped superstitiously</span></li></ul></li><li><span class="leaf"><b>whatever is bestowed upon idols</b></span></li><li><span class="leaf"><b>is</b> so much <b>robbed</b> from him</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>bestow</em> = be- + <em>stow</em> (to place) — to place upon, confer; <em>rob</em> &lt; OF <em>rober</em>, of Germanic origin, cognate with <em>reave, bereave</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>wills not to be</em> = does not want to be; <em>so much robbed from</em> = stolen from him to exactly that extent.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And since God does not want to be worshipped superstitiously, everything given to idols is that much stolen from him.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>wills not</b> → does not want</li><li><b>bestowed upon</b> → given to</li><li><b>so much robbed from him</b> → that much stolen from him.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the postponed relative — Let those attend to this who…</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p>Let those attend to this who set about hunting for miserable pretexts in defence of the execrable idolatry in which for many past ages true religion has been buried and sunk.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b>Let those attend to this</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who</b> set about hunting for miserable pretexts</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in defence of the execrable idolatry</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>in which</b> true religion <b>has been buried and sunk</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">for many past ages</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>execrable</em> &lt; <em>ex-</em> + <em>sacer</em> — to curse, to put outside the sacred; <em>pretext</em> &lt; <em>prae-</em> + <em>texere</em> (to weave in front) — a screen woven before the real motive (cf. <em>textile, context</em>); <em>attend</em> &lt; <em>ad-</em> + <em>tendere</em> (to stretch toward).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>let + O + bare V</em> = O should V (hortative); <em>set about V-ing</em> = begin/undertake to; <em>attend to</em> = pay attention to.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Those people should pay attention to this — the ones who go looking for wretched excuses to defend the accursed idolatry that has kept true religion buried and drowned for centuries.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Let those attend to this</b> → Those people should pay attention</li><li><b>set about hunting for</b> → go looking for</li><li><b>miserable pretexts</b> → wretched excuses</li><li><b>execrable</b> → accursed.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S12" id="S12"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S12</span><span class="stars s1" title="1-star">★</span><span class="s-label">the objection, stated in one breath</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S12" onclick="flashFullText(this)">
+<p>It is said that the images are not accounted gods.</p>
+</blockquote><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The reply is that the images are not regarded as gods.</p></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S13" id="S13"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S13</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Big Point 2 again — Nor + BE + S, wrapped around a double negative</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S13" onclick="flashFullText(this)">
+<p>Nor were the Jews so utterly thoughtless as not to remember that there was a God whose hand led them out of Egypt before they made the calf.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (nor)</span><span class="leaf"><b>Nor were the Jews</b> so utterly thoughtless</span></li><li><span class="leaf"><b>as not to remember</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that there was a God</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (whose)</span><span class="leaf">whose hand led them out of Egypt</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">before they made the calf</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>utterly</em> &lt; OE <em>ūtera</em> (outer) → to the outermost degree; <em>thoughtless</em> here = without thought, mindless (not "inconsiderate").</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Nor + aux/be + S</em> = and neither + S + aux (inversion required); <em>so… as not to V</em> = so… as to fail to V.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And the Jews were not so completely mindless that they forgot there was a God whose hand had brought them out of Egypt before they made the calf.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Nor were the Jews</b> → And the Jews were not</li><li><b>so utterly thoughtless as not to remember</b> → not so mindless that they forgot</li><li><b>whose hand led them</b> → whose hand had brought them.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S14" id="S14"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S14</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Big Point 3, the booby-trap version — Aaron saying, …, they intimated</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S14" onclick="flashFullText(this)">
+<p>Indeed, Aaron saying, that these were the gods which had brought them out of Egypt, they intimated, in no ambiguous terms, that they wished to retain God, their deliverer, provided they saw him going before them in the calf.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Indeed</span></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>Aaron</b> *saying*</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that these were the gods</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which had brought them out of Egypt</span></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>they intimated</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in no ambiguous terms</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that they <b>wished to retain</b> God</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">their deliverer</span></li></ul></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>provided</b> they saw him in the calf</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">going before them</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>intimate</em> (v.) &lt; L. <em>intimare</em> &lt; <em>intimus</em> (innermost) — to make known what is inward; <em>ambiguous</em> &lt; <em>ambi-</em> (both ways) + <em>agere</em> (to drive) — driving both ways.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in no ambiguous terms</em> = perfectly plainly (litotes); <em>provided (that)</em> = on condition that; <em>go before</em> = lead the way for.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">In fact, when Aaron said that these were the gods that had brought them out of Egypt, the people made it perfectly clear that they wanted to keep God, their rescuer — on condition that they could see him leading them in the calf.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Aaron saying</b> → when Aaron said</li><li><b>they intimated</b> → the people made clear</li><li><b>in no ambiguous terms</b> → perfectly clearly</li><li><b>provided</b> → on condition that.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S15" id="S15"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S15</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the second Nor inversion — the concession extended to the Gentiles</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S15" onclick="flashFullText(this)">
+<p>Nor are the heathen to be deemed to have been so stupid as not to understand that God was something else than wood and stone.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (nor)</span><span class="leaf"><b>Nor are the heathen to be deemed</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">to have been so stupid</span></li><li><span class="leaf"><b>as not to understand</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that God <b>was</b> something else than wood and stone</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>heathen</em> &lt; OE <em>hǣthen</em>, "of the heath" — the country-dweller, a calque on L. <em>paganus</em> (villager) — same social metaphor as <em>pagan</em>; <em>deem</em> &lt; OE <em>dēman</em> (to judge), cognate with <em>doom</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be deemed to be</em> = be regarded as; <em>so… as not to V</em> = so… as to fail to V; <em>something else than</em> = something other than.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And we should not think the pagans were so stupid that they failed to realise God was something other than wood and stone.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Nor are the heathen to be deemed</b> → we should not think the pagans were</li><li><b>so stupid as not to understand</b> → so stupid that they failed to realise</li><li><b>something else than</b> → something other than.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S16" id="S16"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S16</span><span class="stars s1" title="1-star">★</span><span class="s-label">the evidence for the concession</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S16" onclick="flashFullText(this)">
+<p>For they changed the images at pleasure, but always retained the same gods in their minds; besides, they daily consecrated new images without thinking they were making new gods.</p>
+</blockquote><div class="mi-grid"><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>at pleasure</em> = as one wishes; <em>besides</em> = moreover.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">They swapped images whenever they liked but always kept the same gods in mind; and they consecrated new images every day without supposing they were making new gods.</p></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S17" id="S17"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S17</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the embedded reporting clause — which Augustine tells us were employed</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S17" onclick="flashFullText(this)">
+<p>Read the excuses which Augustine tells us were employed by the idolaters of his time (August. in Ps. 113).</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b>Read</b> the excuses</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b> <b>were employed</b> by the idolaters of his time</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">*Augustine tells us*</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>employ</em> &lt; L. <em>implicare</em> (to enfold, involve) — same root as <em>imply, implicate</em>; <em>excuse</em> &lt; <em>ex-</em> + <em>causa</em> — to put out of the case, to free from accusation.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Augustine tells us</em> (parenthetical) = according to Augustine; <em>were employed by</em> = were used by.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Read the excuses that, according to Augustine, the idolaters of his day used (Augustine, on Psalm 113).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>which Augustine tells us were employed by</b> → that, according to Augustine, were used by</li><li><b>of his time</b> → of his day.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S18" id="S18"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S18</span><span class="stars s1" title="1-star">★</span><span class="s-label">the popular defence</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S18" onclick="flashFullText(this)">
+<p>The vulgar, when accused, replied that they did not worship the visible object, but the Deity which dwelt in it invisibly.</p>
+</blockquote><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Ordinary people, when challenged, answered that they did not worship the visible object but the God who dwelt in it invisibly.</p></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S19" id="S19"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S19</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the refined defence — neither… nor… but, and the nominal relative what he calls</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S19" onclick="flashFullText(this)">
+<p>Those, again, who had what he calls a more refined religion, said, that they neither worshipped the image, nor any inhabiting Deity, but by means of the corporeal image beheld a symbol of that which it was their duty to worship.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b>Those</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">again</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who</b> had</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>what he calls</b> a more refined religion</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>said</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that they <b>neither</b> worshipped the image</span><ul class="tr"><li><span class="lab ph">등위 (nor)</span><span class="leaf"><b>nor</b> any inhabiting Deity</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b> <b>beheld</b> a symbol of</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by means of the corporeal image</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that which</b> it was their duty to worship</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>refined</em> &lt; <em>re-</em> + <em>finire</em> (to bring to a limit) — purified, brought to a finer state; <em>corporeal</em> &lt; L. <em>corpus</em> (body); <em>symbol</em> &lt; Gk. <em>σύμβολον</em> &lt; <em>syn-</em> + <em>ballein</em> (to throw together) — a token that matches its other half.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>what he calls</em> = that which he calls; <em>neither A nor B but C</em> = not A and not B, but rather C; <em>by means of</em> = through, using.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Others, who had what he calls a more refined religion, said they worshipped neither the image nor any god living in it, but through the physical image they were looking at a symbol of what they were obliged to worship.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Those, again</b> → Others</li><li><b>any inhabiting Deity</b> → any god living in it</li><li><b>by means of the corporeal image</b> → through the physical image</li><li><b>that which it was their duty to worship</b> → what they were obliged to worship.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S20" id="S20"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S20</span><span class="stars s1" title="1-star">★</span><span class="s-label">the pivot</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S20" onclick="flashFullText(this)">
+<p>What then?</p>
+</blockquote><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p>One point: <strong>a rhetorical hinge, not a question.</strong> <code>What then?</code> = <em>So what follows? What is the upshot?</em> (L. <em>Quid ergo?</em> — Paul's own move at Rom. 3:9, 6:15, <code>τί οὖν;</code>). Two words, and they turn the whole paragraph from concession to verdict. Read the section aloud and you will hear the gear change. In a lecture, this is where the marker taps the board.</p></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S21" id="S21"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S21</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the verdict — actuated, and the great levelling</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S21" onclick="flashFullText(this)">
+<p>All idolaters whether Jewish or Gentile, were actuated in the very way which has been described.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b>All idolaters</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">whether Jewish or Gentile</span></li></ul></li></ul></li><li><span class="leaf"><b>were actuated</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in the very way</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which has been described</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>actuate</em> &lt; L. <em>actus</em> &lt; <em>agere</em> (to drive, do) — cf. <em>agent, agile, exact</em>; <em>Gentile</em> &lt; L. <em>gentilis</em> &lt; <em>gens</em> (nation) — "of the nations," Heb. <em>gôyîm</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be actuated</em> = be moved/driven; <em>the very way</em> = exactly the way.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">All idolaters, Jewish or Gentile, were driven in exactly the way just described.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>whether Jewish or Gentile</b> → Jewish or Gentile</li><li><b>were actuated</b> → were driven</li><li><b>the very way which has been described</b> → exactly the way just described.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S22" id="S22"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S22</span><span class="stars s2" title="2-star">★★</span><span class="s-label">fronted participial — Not contented with…</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S22" onclick="flashFullText(this)">
+<p>Not contented with spiritual understanding, they thought that images would give them a surer and nearer impression.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>Not contented</b> with spiritual understanding</span></li></ul></li><li><span class="leaf"><b>they thought</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that images <b>would give</b> them a surer and nearer impression</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>content(ed)</em> &lt; L. <em>contentus</em> &lt; <em>continere</em> (to hold together, contain) — held-in, satisfied; <em>impression</em> &lt; <em>in-</em> + <em>premere</em> (to press) → <em>press, print, express</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>not contented with</em> = not satisfied with; <em>a surer impression</em> = a more certain sense/imprint.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Not satisfied with spiritual understanding, they thought images would give them a more certain and closer impression.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Not contented with</b> → Not satisfied with</li><li><b>surer and nearer</b> → more certain and closer</li><li><b>impression</b> → impression/sense (something pressed in).</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S23" id="S23"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S23</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">the closing argument — no limit until with an interposed participial</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S23" onclick="flashFullText(this)">
+<p>When once this preposterous representation of God was adopted, there was no limit until, deluded every now and then by new impostures, they came to think that God exerted his power in images.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>When once</b> this preposterous representation of God <b>was adopted</b></span></li></ul></li><li><span class="leaf"><b>there was no limit</b></span></li><li><span class="leaf"><b>until</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">*deluded* by new impostures</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">every now and then</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>they came to think</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that God <b>exerted</b> his power in images</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>preposterous</em> &lt; <em>prae</em> (before) + <em>posterus</em> (behind) — back-to-front; <em>imposture</em> &lt; <em>imponere</em> (to lay upon, impose upon) → <em>impostor</em>; <em>delude</em> &lt; <em>de-</em> + <em>ludere</em> (to play) — to play someone false (cf. <em>illusion, ludicrous</em>).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>when once</em> = once, as soon as; <em>there was no limit until</em> = there was no stopping point until; <em>every now and then</em> = from time to time; <em>come to think</em> = gradually reach the belief.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Once this back-to-front picture of God was accepted, there was no stopping point until, taken in from time to time by fresh frauds, they came to believe that God exercised his power through images.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>When once… was adopted</b> → Once… was accepted</li><li><b>preposterous representation</b> → back-to-front picture</li><li><b>deluded… by new impostures</b> → taken in by fresh frauds</li><li><b>exerted his power in</b> → exercised his power through.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S24" id="S24"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S24</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the concessive close — Still — and the parallel Jew/Gentile ending</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S24" onclick="flashFullText(this)">
+<p>Still the Jews were persuaded, that under such images they worshipped the eternal God, the one true Lord of heaven and earth; and the Gentiles, also, in worshipping their own false gods, supposed them to dwell in heaven.</p>
+</blockquote><div class="syntax-holder"><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>Still</b></span></li></ul></li><li><span class="leaf">the Jews <b>were persuaded</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that they worshipped the eternal God</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">under such images</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">the one true Lord of heaven and earth</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and the Gentiles,, <b>supposed</b> them to dwell in heaven</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">also</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in worshipping their own false gods</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>persuade</em> &lt; <em>per-</em> + <em>suadere</em> (to urge, make pleasant) → <em>suave, dissuade</em>; <em>dwell</em> &lt; OE <em>dwellan</em>, originally "to lead astray, delay" → to remain, live.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Still</em> (sentence-initial) = nevertheless; <em>under such images</em> = beneath the outward form of such images; <em>suppose + O + to V</em> = suppose that O + V.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Even so, the Jews were convinced that under these images they were worshipping the eternal God, the one true Lord of heaven and earth; and the Gentiles too, when they worshipped their own false gods, assumed those gods lived in heaven.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Still</b> → Even so</li><li><b>were persuaded</b> → were convinced</li><li><b>under such images</b> → under these images</li><li><b>supposed them to dwell</b> → assumed they lived.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — The concessive subjunctive (Big Point 1)</h3><pre><code>BE + S + what / who / where / as + it may           →  "no matter what/who/where S is"
+whether it BE  A  or  B                             →  "no matter whether it is A or B"
+
+  be the colour what it may       = whatever the pretext may be
+  be that as it may               = nevertheless
+  come what may                   = no matter what happens
+  whether it be God or a creature = no matter which of the two is imaged
+
+⚠️ TRAP: `be` here is the PRESENT SUBJUNCTIVE, inverted before its subject.
+   It is NOT the imperative. "be the colour what it may" ≠ "Be the colour!"
+⚠️ TRAP: the clause is ALWAYS concessive — it grants the variable and denies
+   that the variable matters. Translate with "whatever / no matter."
+</code></pre><p><strong>Transformation drill.</strong> Turn <em>"It does not matter what the excuse is; the act is idolatry"</em> into the Calvin register.
+→ <strong><code>The act is idolatry, be the excuse what it may.</code></strong>
+And once more with the disjunction: <em>"whether the object is the true God or a mere creature, the prostration condemns you"</em>
+→ <strong><code>Whether it be the true God or a mere creature, the prostration condemns you.</code></strong></p><h3>Formula 2 — Fronting inversion, three shapes (Big Point 2)</h3><pre><code>So   + ADJ  + BE  + S ,  that …      ←  S is so ADJ that …
+Nor  + BE/AUX + S  …                 ←  S is/does not … either
+Such + BE  + S                       ←  S is such
+
+  So stupid are men, that wherever they figure God, there they fix him.  (S8)
+  Nor were the Jews so utterly thoughtless as not to remember …          (S13)
+  Nor are the heathen to be deemed to have been so stupid …              (S15)
+
+⚠️ TRAP 1: inversion is OBLIGATORY after a fronted `so + adj` or a clause-initial
+   negative adverb (nor, never, little, not only, only then, hardly).
+⚠️ TRAP 2: `so … as not to V` inside a `Nor` clause = DOUBLE NEGATIVE = positive.
+   `Nor were the Jews so thoughtless as not to remember` → THEY DID REMEMBER.
+⚠️ TRAP 3: restore the base pattern BEFORE translating. Always.
+</code></pre><p><strong>Transformation drill.</strong> Rewrite <em>"The heathen were not so ignorant that they failed to see the difference"</em> with fronting.
+→ <strong><code>Nor were the heathen so ignorant as not to see the difference.</code></strong>
+And: <em>"Men are so blind that they worship what their own hands have made."</em>
+→ <strong><code>So blind are men, that they worship what their own hands have made.</code></strong></p><h3>Formula 3 — The nominative absolute (Big Point 3)</h3><pre><code>S′ + V-ing (+ complements) ,  S + V …
+      ↑ the participle has ITS OWN subject — it is NOT the main subject
+
+  their eyes and minds becoming wholly engrossed, they began to grow brutish  (S2)
+  Aaron saying that these were the gods …, they intimated …                   (S14)
+
+  Expand with a conjunction to check:
+     → As their eyes and minds became engrossed, they began …
+     → When Aaron said that these were the gods, they intimated …
+
+⚠️ TRAP: if the absolute begins with a PROPER NAME (`Aaron saying…`), students
+   promote that name to subject of the main verb. It is not. Find the finite verb
+   and read its own subject.
+⚠️ Contrast with the ordinary participial phrase, which shares the main subject:
+     `gazing and wondering as if some divinity were before them`  (S2, subject = they)
+     `Not contented with spiritual understanding, they thought …` (S22, subject = they)
+</code></pre><p><strong>Transformation drill.</strong> Combine, using an absolute: <em>"The image was consecrated. The people at once fell down before it."</em>
+→ <strong><code>The image being consecrated, the people at once fell down before it.</code></strong>
+And with a named subject: <em>"Aaron built the altar. The nation kept its feast."</em>
+→ <strong><code>Aaron building the altar, the nation kept its feast.</code></strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>forthwith</strong> (S1)</td>
+<td>immediately, at once</td>
+<td><em>forth</em> + <em>with</em> — "straight out with it." Calvin's whole case: no interval between making and worship.</td>
+</tr>
+<tr>
+<td><strong>ensue</strong> (S1)</td>
+<td>to follow, result</td>
+<td><em>in-</em> + <em>sequi</em> (follow) → <em>sequel, consequence</em>. What ensues is the <strong>sequel</strong>.</td>
+</tr>
+<tr>
+<td><strong>figment</strong> (S1)</td>
+<td>a thing invented/moulded</td>
+<td>&lt; <em>fingere</em> (to mould) → <em>fiction, feign, effigy</em>. Yesterday's forge made it.</td>
+</tr>
+<tr>
+<td><strong>engrossed</strong> (S2)</td>
+<td>wholly absorbed</td>
+<td>OF <em>en gros</em> = "in bulk" — to buy up the <em>whole</em> stock → to take up the whole mind.</td>
+</tr>
+<tr>
+<td><strong>brutish</strong> ⚠ (S2)</td>
+<td>animal-like, unreasoning</td>
+<td>L. <em>brutus</em> = heavy, dull. Not "rude." Idolatry moves you <em>down</em> the ladder of being.</td>
+</tr>
+<tr>
+<td><strong>at length</strong> ⚠ (S2)</td>
+<td>eventually, at last</td>
+<td>NOT "at great length." Contrast S1's <code>forthwith</code>: fast threshold, slow descent.</td>
+</tr>
+<tr>
+<td><strong>imbibe</strong> (S3)</td>
+<td>to drink in, absorb</td>
+<td><em>in-</em> + <em>bibere</em> (drink) → <em>beverage, bibulous</em>. You don't reason into idolatry; you swallow it.</td>
+</tr>
+<tr>
+<td><strong>description</strong> ⚠ (S3)</td>
+<td>kind, sort, class</td>
+<td><em>persons of that description</em> = of that type. NOT a verbal account.</td>
+</tr>
+<tr>
+<td><strong>gross(er)</strong> ⚠ (S3)</td>
+<td>coarse, material, thick</td>
+<td>L. <em>grossus</em> = thick. Not "disgusting." A <em>grosser idea</em> = a more physical one.</td>
+</tr>
+<tr>
+<td><strong>reside</strong> (S3)</td>
+<td>to dwell, sit within</td>
+<td><em>re-</em> + <em>sedere</em> (sit) → <em>sedentary, president</em>. The power <strong>sits</strong> in the image.</td>
+</tr>
+<tr>
+<td><strong>prostrate</strong> (S4)</td>
+<td>thrown down flat</td>
+<td><em>pro-</em> (forward) + <em>sternere</em> (spread, throw down) → <em>strewn, consternation</em>.</td>
+</tr>
+<tr>
+<td><strong>fascinate</strong> ⚠ (S4)</td>
+<td>to bewitch, put under a spell</td>
+<td>L. <em>fascinare</em> — the Gal. 3:1 word. NOT "to interest."</td>
+</tr>
+<tr>
+<td><strong>so far</strong> ⚠ (S4)</td>
+<td>to that extent</td>
+<td><em>in so far as</em>. Quantitative, not temporal.</td>
+</tr>
+<tr>
+<td><strong>titles</strong> ⚠⚠ (S5)</td>
+<td>inscribed memorial pillars</td>
+<td>L. <em>titulus</em> = a standing inscribed stone (the <em>titulus</em> on the cross, John 19:19) = Heb. <em>maṣṣēḇāh</em>. NOT honorifics.</td>
+</tr>
+<tr>
+<td><strong>annex</strong> (S7)</td>
+<td>to bind on, attach</td>
+<td><em>ad-</em> + <em>nectere</em> (tie) → <em>nexus, connect</em>. Give God a form → power gets <strong>knotted</strong> to the form.</td>
+</tr>
+<tr>
+<td><strong>figure</strong> ⚠ (S8)</td>
+<td>(verb) to form an image of</td>
+<td>Same root as <em>figment</em> (<em>fingere</em>) — Calvin's echo is deliberate.</td>
+</tr>
+<tr>
+<td><strong>fix</strong> ⚠ (S8)</td>
+<td>to fasten, immobilise</td>
+<td><em>figere</em> (to fasten) → <em>fixed, crucifix</em>. Not "repair." <strong>Figure it → fix it.</strong></td>
+</tr>
+<tr>
+<td><strong>colour</strong> ⚠⚠ (S9)</td>
+<td>pretext, pretence</td>
+<td><em>under colour of law</em>, <em>a colourable claim</em>. Nothing to do with paint.</td>
+</tr>
+<tr>
+<td><strong>bestow</strong> (S10)</td>
+<td>to give, confer</td>
+<td><em>be-</em> + <em>stow</em> (place). Paired with <em>robbed</em> in one clause: donor thinks gift, God calls it theft.</td>
+</tr>
+<tr>
+<td><strong>execrable</strong> (S11)</td>
+<td>accursed, detestable</td>
+<td><em>ex-</em> + <em>sacrare</em> — literally <em>to be cursed out of the sacred</em>. A verdict, not an insult.</td>
+</tr>
+<tr>
+<td><strong>pretext</strong> (S11)</td>
+<td>a pretended reason</td>
+<td><em>prae-</em> + <em>texere</em> (weave in front) → <em>textile, context</em>. A screen woven before the motive.</td>
+</tr>
+<tr>
+<td><strong>set about</strong> (S11)</td>
+<td>to begin, undertake</td>
+<td>Phrasal; carries effort and, here, futility — <em>out hunting</em> for excuses.</td>
+</tr>
+<tr>
+<td><strong>accounted</strong> ⚠ (S12)</td>
+<td>reckoned, considered</td>
+<td><em>on no account</em>, <em>account for</em>. Not financial here.</td>
+</tr>
+<tr>
+<td><strong>intimate</strong> (v.) (S14)</td>
+<td>to hint, make known</td>
+<td>&lt; <em>intimus</em> (innermost) — to bring the inward out.</td>
+</tr>
+<tr>
+<td><strong>provided</strong> ⚠ (S14)</td>
+<td>on condition that</td>
+<td>A CONJUNCTION, not a participle. The conditional that defines idolatry.</td>
+</tr>
+<tr>
+<td><strong>heathen</strong> (S15)</td>
+<td>pagan, gentile</td>
+<td>OE "of the heath," a calque on L. <em>paganus</em> (villager). Both mean "country person."</td>
+</tr>
+<tr>
+<td><strong>deem</strong> (S15)</td>
+<td>to judge, consider</td>
+<td>OE <em>dēman</em>, cognate with <strong>doom</strong> (= judgement).</td>
+</tr>
+<tr>
+<td><strong>at pleasure</strong> (S16)</td>
+<td>as one wishes</td>
+<td>Adverbial; cf. <em>at will</em>.</td>
+</tr>
+<tr>
+<td><strong>the vulgar</strong> ⚠ (S18)</td>
+<td>the common people</td>
+<td>L. <em>vulgus</em> = the crowd. No insult intended (cf. the <em>Vulgate</em> = the common-tongue Bible).</td>
+</tr>
+<tr>
+<td><strong>corporeal</strong> (S19)</td>
+<td>bodily, material</td>
+<td>L. <em>corpus</em>. Set against <code>invisibly</code> (S18) and <code>spiritual</code> (S22).</td>
+</tr>
+<tr>
+<td><strong>actuated</strong> (S21)</td>
+<td>moved, driven</td>
+<td>L. <em>agere</em> (drive) → <em>agent, exact, agile</em>. Idolaters as objects of their own psychology.</td>
+</tr>
+<tr>
+<td><strong>very</strong> ⚠ (S21)</td>
+<td>(adj.) exact, selfsame</td>
+<td><em>the very man</em>, <em>this very day</em>. Adjective here, not adverb.</td>
+</tr>
+<tr>
+<td><strong>impression</strong> (S22)</td>
+<td>something pressed in</td>
+<td><em>in-</em> + <em>premere</em> → <em>press, print</em>. They wanted God <strong>stamped</strong>, not understood.</td>
+</tr>
+<tr>
+<td><strong>preposterous</strong> ⚠⚠ (S23)</td>
+<td>back-to-front, order-reversed</td>
+<td><em>prae</em> (before) + <em>posterus</em> (after). Not "silly." The word IS Calvin's thesis.</td>
+</tr>
+<tr>
+<td><strong>imposture</strong> (S23)</td>
+<td>a fraud, deception</td>
+<td><em>imponere</em> (to impose upon) → <em>impostor</em>.</td>
+</tr>
+<tr>
+<td><strong>delude</strong> (S23)</td>
+<td>to deceive</td>
+<td><em>de-</em> + <em>ludere</em> (to play) → <em>illusion, ludicrous</em>. To play someone false.</td>
+</tr>
+<tr>
+<td><strong>still</strong> ⚠ (S24)</td>
+<td>nevertheless</td>
+<td>Concessive, not temporal. Sentence-initial <code>Still</code> = <em>even so</em>.</td>
+</tr>
+<tr>
+<td><strong>under</strong> ⚠ (S24)</td>
+<td>beneath the form of, by means of</td>
+<td>Latinate (<em>sub specie</em>). Not spatial.</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>The doctrine at stake: what exactly is idolatry?</strong> The standard defence Calvin faces is not stupid, and he does not pretend it is. It runs: worship <em>terminates</em> on the prototype, not on the image; the image is a channel, a book for the unlettered, a <em>relative</em> honour. Calvin answers on a different axis entirely. He does not argue about where worship terminates. He argues about <strong>what the human mind actually does with a form</strong> — S7: give God a shape, and power is presumed annexed to the shape; S8: where they figure him, there they fix him. <strong>Idolatry, for Calvin, is a doctrine of the localisation of divine power</strong>, not a doctrine about the ontology of statues. Which is why S3 is the load-bearing sentence and why the opponents' own best defence (S18–S19) turns out to be its confirmation.</p><p><strong>The two-part commandment (S6).</strong> Calvin reads Exod. 20:4–6 as a single second commandment with two limbs: <em>do not make</em> (v. 4) and <em>do not bow down</em> (v. 5). The Reformed numbering makes this its own commandment; the Roman and Lutheran numbering folds it into the first and splits the tenth to keep ten. Calvin is not inventing his numbering — it is the numbering of Philo, Josephus, and the Greek fathers — but do notice that his exegetical argument in S5–S7 works even for a reader who numbers differently, because the point is the <strong>conjunction</strong> of making and bowing, not the counting.</p><p><strong>The lineage.</strong> S17's citation is real work, not ornament. Augustine's <em>Enarratio in Psalmum 113</em> (= our Ps. 115) contains exactly the two defences Calvin reports — the popular ("we worship the God in it") and the educated ("the image is only a sign"). Calvin's move is to take Augustine's <em>reportage</em> and turn it into a <em>diagnosis</em>, which Augustine himself half does. Behind both stands the Ps. 115:8 logic — makers become like what they make — which is S2's <code>brutish</code>.</p><p><strong>Where this is going.</strong> §10 will say: <em>and this is precisely what is done in our day.</em> §11 will take on the technical distinction between <strong>δουλεία</strong> (<em>douleia</em>, service) and <strong>λατρεία</strong> (<em>latreia</em>, worship) — the distinction that the Second Council of Nicaea (787) used to license the veneration of icons and that John of Damascus had defended against the iconoclasts. Note that Calvin's word <code>idolatry</code> in S9 is itself <em>εἴδωλον</em> + <em>λατρεία</em>; he is already standing on the ground where that battle will be fought.</p><p><strong>Reception.</strong> Calvin's image-argument became the theological engine of the Reformed <em>Bildersturm</em> — the Beeldenstorm of 1566 in the Low Countries, the Scottish purgings — and it is fair to say that Calvin's own qualifications travelled less well than his conclusions. In the twentieth century Barth read the <em>Bildverbot</em> as an epistemological rule about revelation rather than a rule about church furniture, which is arguably closer to §9's own logic than the stripped walls were.</p><p><strong>⚠️ The over-reading guardrail — two lines you must not cross.</strong> First: §9 is about <strong>adoration</strong>, and Calvin himself blocks the extension three sections later (§12: <code>I am not, however, so superstitious as to think that all visible representations of every kind are unlawful</code>). Do not quote §9 as a verdict on painting, sculpture, or narrative art. Second: Calvin is <strong>not</strong> claiming that idolaters are metaphysically confused about wood — S3, S13, S15 and S18–S19 all say the opposite, explicitly and four times. Anyone who summarises this section as "Calvin thought pagans mistook statues for gods" has read the objection and missed the argument.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li>
+<p><strong>Exod. 20:4–6</strong> — <em>S5, S6, S7.</em> <code>Thou shalt not make unto thee any graven image… Thou shalt not bow down thyself to them, nor serve them.</code> This is the text S6 calls a commandment with <code>an additional part concerning adoration</code>. <strong>How Calvin uses it:</strong> not as a proof-text dropped at the end, but as the <em>structure</em> of his argument — two prohibitions because there are two acts, making and bowing, and S1's <code>forthwith</code> explains why the second had to be written down.</p>
+</li>
+<li>
+<p><strong>Lev. 26:1</strong> — <em>S5.</em> <code>Ye shall make you no idols nor graven image, neither rear you up a standing image (מַצֵּבָה, maṣṣēḇāh), neither shall ye set up any image of stone in your land, to bow down unto it.</code> This, with <strong>Deut. 16:22</strong>, is what Beveridge's <code>titles and stones</code> renders. <strong>How Calvin uses it:</strong> to prove that even an <em>aniconic</em> marker — a plain pillar, no likeness at all — falls under the ban. That destroys any defence resting on resemblance, and it is why he can then pivot to adoration as the real issue.</p>
+</li>
+<li>
+<p><strong>Exod. 32:1, 4</strong> — <em>S13, S14.</em> <code>Up, make us gods, which shall go before us</code> … <code>These be thy gods (אֵלֶּה אֱלֹהֶיךָ, ’ēlleh ’ĕlōhêḵā), O Israel, which brought thee up out of the land of Egypt.</code> <strong>How Calvin uses it:</strong> the plural <em>’ĕlōhîm</em> is the ordinary Hebrew word for the God of Israel, and v. 5 has Aaron proclaim <code>a feast to the LORD (לַיהוָה, la-YHWH)</code>. So the calf was <strong>YHWH-worship with a visible aid</strong> — which is exactly the <code>provided they saw him going before them</code> of S14. The strongest possible case for Calvin, taken from the strongest possible text.</p>
+</li>
+<li>
+<p><strong>Exod. 13:21</strong> — <em>S14.</em> <code>And the LORD went before them by day in a pillar of a cloud, to lead them the way.</code> <strong>How Calvin uses it:</strong> silently. <code>going before them in the calf</code> is the pillar's own verb. The calf is not a rival to YHWH; it is a <strong>replacement pillar</strong> — a self-issued guarantee of presence.</p>
+</li>
+<li>
+<p><strong>Ps. 115:4–8</strong> (= LXX/Vulgate <strong>Ps. 113</strong>) — <em>S2, S17.</em> <code>Their idols are silver and gold, the work of men's hands… They that make them are like unto them.</code> <strong>How Calvin uses it:</strong> twice over. The psalm's verdict is compressed into S2's <code>brutish</code> (makers become like what they make), and the psalm is also the site of Augustine's <em>Enarratio</em>, cited by number in S17. Note the numbering system — Ps. 113 there is Ps. 115 in your English Bible.</p>
+</li>
+<li>
+<p><strong>Deut. 4:28; Jer. 2:27</strong> — <em>S15.</em> <code>gods, the work of men's hands, wood and stone</code> / <code>Saying to a stock, Thou art my father.</code> <strong>How Calvin uses it:</strong> as the objection to himself. Scripture's own polemic sounds as if idolaters worship timber; Calvin concedes they did not, and relocates the sin — which makes his reading <em>harder</em> on the practice, not softer.</p>
+</li>
+<li>
+<p><strong>Rom. 1:23, 25</strong> — <em>S4.</em> <code>changed the glory of the uncorruptible God into an image made like to corruptible man</code> … <code>served the creature more than the Creator.</code> <strong>How Calvin uses it:</strong> S4's <code>whether it be God or a creature that is imaged</code> refuses to let the Creator/creature distinction function as an escape. Paul's <em>exchange</em> becomes Calvin's <em>posture</em>.</p>
+</li>
+<li>
+<p><strong>Acts 17:29</strong> — <em>S15.</em> <code>we ought not to think that the Godhead is like unto gold, or silver, or stone, graven by art and man's device.</code> <strong>How Calvin uses it:</strong> Paul at the Areopagus grants the Athenians a great deal before he denies them anything — the same concessive strategy Calvin runs in S13–S19.</p>
+</li>
+<li>
+<p><strong>Gal. 3:1</strong> — <em>S4.</em> <code>O foolish Galatians, who hath bewitched (ἐβάσκανεν, *ebaskanen*) you?</code> <strong>How Calvin uses it:</strong> <code>fascinated by superstition</code> is the Latin equivalent (<em>fascinare</em> renders <em>baskainein</em>). The vocabulary of <strong>enchantment</strong> applied to a liturgical act — a deliberate and startling transfer.</p>
+</li>
+<li>
+<p><strong>2 Cor. 5:7; Heb. 11:1</strong> — <em>S22.</em> <code>we walk by faith, not by sight.</code> <strong>How Calvin uses it:</strong> S22's craving for <code>a surer and nearer impression</code> is the exact inverse. Calvin's diagnosis of idolatry is, structurally, a diagnosis of the refusal of faith's mode of knowing — and that is why he calls the alternative <code>spiritual understanding</code>, not "no images."</p>
+</li>
+<li>
+<p><strong>Rom. 3:9; 6:15</strong> — <em>S20.</em> <code>τί οὖν; (ti oun?)</code> = <code>What then?</code> <strong>How Calvin uses it:</strong> a Pauline diatribe hinge, borrowed whole. Two words that turn concession into verdict.</p>
+</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① Grammar — one underline is wrong</h3><blockquote>
+<p>ⓐ Nor <strong>were</strong> the Jews so utterly thoughtless as not to remember that there was a God.
+ⓑ So stupid <strong>are</strong> men, that wherever they figure God, there they fix him.
+ⓒ It is always idolatry when divine honours are paid to an idol, <strong>be</strong> the colour what it may.
+ⓓ Aaron <strong>saying</strong> that these were the gods, he intimated that <strong>Aaron</strong> wished to retain God.</p>
+</blockquote><p><strong>Answer: ⓓ.</strong></p><p><strong>Exam-setter rationale.</strong> ⓐ and ⓑ are the obligatory inversions of Formula 2 — both correct, and both are there to tempt you, because inverted word order <em>looks</em> wrong. ⓒ is the concessive subjunctive of Formula 1: <code>be</code> before its subject, correct as printed. The fault is in ⓓ, and it is a <strong>content</strong> fault expressed as a <strong>grammar</strong> fault: <code>Aaron saying…</code> is a nominative absolute, so Aaron is the subject of the participle only; the main clause in Calvin is <code>**they** intimated… that **they** wished to retain God</code> — the <em>nation's</em> intent, not Aaron's. Substituting Aaron for <code>they</code> misreads the absolute and reverses the theology of the sentence. (Note also that ⓓ's <code>he intimated</code> leaves the absolute's subject and the main subject identical, which is precisely what an absolute forbids — an absolute exists <em>because</em> the two subjects differ.)</p><h3>② Comprehension — which is consistent with §9?</h3><blockquote>
+<p>ⓐ Calvin argues that idolaters, both Jewish and Gentile, mistakenly believed the images themselves were gods.
+ⓑ Calvin holds that the prohibition covers even plain memorial stones with no likeness, because the offence lies in adoration rather than in resemblance.
+ⓒ Calvin concedes that where an image is treated only as a symbol pointing beyond itself, the practice escapes the charge of idolatry.
+ⓓ Calvin argues that the distinction between worshipping the idol and worshipping God in the idol is logically self-contradictory.</p>
+</blockquote><p><strong>Answer: ⓑ.</strong></p><p><strong>Exam-setter rationale.</strong> ⓐ is the <strong>direction-flip</strong>, and it is refuted twice over: S3 (<code>not that they actually believe them to be gods, but that the power of divinity somehow or other resides in them</code>) and the whole concession of S13–S19. This is the option most students choose. ⓑ is right, and you get it from S5 (<code>titles and stones</code>, i.e. pillars without likeness) read with S4 and S9 — the offence is the prostration, <code>be the colour what it may</code>. ⓒ is the <strong>scope-overreach</strong>: Calvin records the refined symbol-defence at full strength (S19) but does not concede it — S21 sweeps <code>All idolaters whether Jewish or Gentile</code> into <code>the very way which has been described</code>. ⓓ is a <strong>subtle substitution</strong>: Calvin's refutation in S23 is <strong>historical, not logical</strong> — <code>there was no limit until… they came to think that God exerted his power in images</code>. He says the distinction never holds, not that it cannot be stated.</p><h3>③ Composition — apply today's formulas</h3><blockquote>
+<p>Render into Calvin's register, using <strong>Formula 1</strong> (concessive subjunctive) <strong>and</strong> <strong>Formula 2</strong> (fronted-negative inversion) in a single sentence:
+<em>"It does not matter what name the honour is given; and the fathers were not so careless that they failed to condemn the practice."</em></p>
+</blockquote><p><strong>Model answer:</strong> <strong><em>Be the name of the honour what it may, nor were the fathers so careless as not to condemn the practice.</em></strong></p><p><strong>Exam-setter rationale.</strong> Three things are being marked. (1) The subjunctive <code>be</code> must be <strong>inverted before its subject</strong> and the clause must read concessively — <em>whatever the name may be</em>; a candidate who writes <code>Being the name whatever</code> has produced a participle and lost the construction. (2) <code>nor</code> at the head of the second clause <strong>must trigger inversion</strong> (<code>were the fathers</code>, not <code>the fathers were</code>). (3) <code>so… as not to V</code> after <code>nor</code> must be recognised as a <strong>double negative</strong>, so that the sentence asserts that the fathers <strong>did</strong> condemn it — a candidate who writes <code>nor were the fathers so careless as to condemn</code> has inverted the meaning and lost the whole item. All three are drawn verbatim from S9 and S13.</p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary:</strong> The figment made, adoration follows <strong>forthwith</strong> (S1), because the mind that gives God a form presumes his power <strong>annexed</strong> to the form (S7) — <em>where they figure him, there they fix him</em> (S8) — so the sin is never the crude belief that wood is God (S3, S13, S15, S18–S19: everyone knew better) but the demand for a <strong>surer and nearer impression</strong> (S22) on condition of visibility (S14), and it is idolatry <code>be the colour what it may</code> (S9); grammar: the <strong>concessive subjunctive</strong> (<code>be the colour what it may</code>, <code>whether it be</code>), the <strong>three fronting inversions</strong> (<code>So stupid are men</code>, <code>Nor were the Jews</code>, <code>Nor are the heathen</code> — and remember <code>so… as not to</code> = they DID), and the <strong>nominative absolute</strong> with its own subject (<code>their eyes and minds becoming…</code>, <code>Aaron saying…, they intimated</code>).</p><p><strong>Homework (10 min):</strong></p><ol>
+<li><strong>Structure restoration:</strong> take S14 and write out its skeleton in four slots — <code>[ABSOLUTE: ___ + V-ing + that-clause], [MAIN S] + [MAIN V] + [that-clause], [provided-clause]</code> — then say in one line whose intention the sentence reports, and how you know.</li>
+<li><strong>Composition:</strong> using Formula 1 and Formula 3 together, write one sentence beginning <em>"The image being consecrated, …"</em> and ending <em>"…, be the pretext what it may."</em></li>
+<li><strong>Preview:</strong> tomorrow, §10 — Calvin stops describing the ancient world and points at his own. First words: <em>"It is an impudent falsehood to deny that the thing which was thus anciently done is also done in our day."</em> Watch for the two questions he fires in a row (<code>For why do men prostrate themselves before images? Why, when in the act of praying, do they turn towards them as to the ears of God?</code>) and for Augustine on Ps. 113 returning as a <strong>hostile</strong> witness.</li>
+</ol><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 11, §9 끝. 다음은 Book 1, Ch. 11, §10 (Day 65) — the ancient practice is our practice: the Papists' evasion.</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>

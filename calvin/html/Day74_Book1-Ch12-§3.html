@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 하나님 예배와 우상의 구별 §3 (1권 12장 · Day 74) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 12장 §3(하나님 예배와 우상의 구별)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 74. 연관 성구: 갈라디아서 4, 사도행전 10, 요한계시록 19, 스가랴 14."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day74_Book1-Ch12-%C2%A73.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="하나님 예배와 우상의 구별 §3 — 기독교 강요 영어로 읽기 (Day 74)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 12장 §3(하나님 예배와 우상의 구별)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 74. 연관 성구: 갈라디아서 4, 사도행전 10, 요한계시록 19, 스가랴 14."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day74_Book1-Ch12-%C2%A73.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 하나님 예배와 우상의 구별 §3 (1권 12장 · Day 74) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 12장 §3(하나님 예배와 우상의 구별)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 74. 연관 성구: 갈라디아서 4, 사도행전 10, 요한계시록 19, 스가랴 14.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 12장 §3 — 하나님 예배와 우상의 구별","mentions":[{"@type":"CreativeWork","name":"갈라디아서 4 (Gal 4)"},{"@type":"CreativeWork","name":"사도행전 10 (Acts 10)"},{"@type":"CreativeWork","name":"요한계시록 19 (Rev 19)"},{"@type":"CreativeWork","name":"스가랴 14 (Zech 14)"},{"@type":"CreativeWork","name":"열왕기하 17 (2 Kgs 17)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day74_Book1-Ch12-%C2%A73.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 74 — Book 1, Chapter 12, §3<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (⚠️ invariable) — 23 sentences</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl2" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl3" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl2" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl3" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl2" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl3" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl3" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl2" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl2" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl1" href="#S11" onclick="closeNavMobile()">S11</a><a class="toc-s lvl3" href="#S12" onclick="closeNavMobile()">S12</a><a class="toc-s lvl2" href="#S13" onclick="closeNavMobile()">S13</a><a class="toc-s lvl1" href="#S14" onclick="closeNavMobile()">S14</a><a class="toc-s lvl3" href="#S15" onclick="closeNavMobile()">S15</a><a class="toc-s lvl3" href="#S16" onclick="closeNavMobile()">S16</a><a class="toc-s lvl2" href="#S17" onclick="closeNavMobile()">S17</a><a class="toc-s lvl1" href="#S18" onclick="closeNavMobile()">S18</a><a class="toc-s lvl2" href="#S19" onclick="closeNavMobile()">S19</a><a class="toc-s lvl1" href="#S20" onclick="closeNavMobile()">S20</a><a class="toc-s lvl2" href="#S21" onclick="closeNavMobile()">S21</a><a class="toc-s lvl2" href="#S22" onclick="closeNavMobile()">S22</a><a class="toc-s lvl3" href="#S23" onclick="closeNavMobile()">S23</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (어원 후킹)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 74 — Book 1, Chapter 12, §3</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday ended with three dismissive words — <code>What if they did</code>. Today opens with four: <strong><code>Laying aside subtleties</code></strong>. Same gesture, and now it is a <em>method</em>. For two days Calvin has fought on the opponent's ground — definitions, Greek lexis, the fathers, concession after concession. He now sweeps the table. <code>Let us examine **the thing**.</code> That noun is the third appearance in three days (§1 <code>does not contend for a mere name</code>; §2 <code>the question relates not to the word, but the thing</code>), and here it becomes the section's opening move rather than a principle held in reserve. Watch what replaces the subtleties: <strong>exhibits</strong>. Gal. 4:8, Mt. 4:10, Rev. 19:10 and 22:8–9, Acts 10:25, Zechariah. Five witnesses in twenty-three sentences, and every one of them is chosen because it does the <em>opposite</em> of what the distinction needs.</p><p>And notice the tactic inside the tactic. Calvin does not argue that <em>dulia</em> is a bad word. He argues that <strong>Scripture never lets the line hold</strong>. Paul calls idolatry <code>did service</code> — the δουλεία word (S2). Satan asked only for προσκύνησις, not λατρεία — and Christ still refused (S5–S6). John did not intend to give an angel God's honour — and the angel still stopped him (S7–S8). Cornelius did not intend to adore Peter instead of God — and Peter <code>sternly forbids him</code> (S12–S14). Four cases where the <em>intention</em> was innocent by the Papists' own reckoning, and four refusals anyway. Then S15 gives the reason in one line, and it is a doctrine of the human heart, not of vocabulary: <code>men **never** distinguish **so** accurately … **as not to** transfer promiscuously</code>. Underline that. The distinction fails not because it is unintelligible but because <strong>we are not able to keep it</strong>.</p><p>Grammatically, today is <strong>negative-degree</strong> day. The section runs on clauses that pile a negative on top of a degree on top of another negative, and if you cannot unwind them you will read three sentences backwards.</p><h3>Today's 3 Big Points</h3><ol>
+<li><strong><code>so … as (not) to V</code> — degree + result, with the negative in the result clause (S7, S12, S15).</strong> Three instances, rising in nastiness. S7: <code>had **so far** forgotten himself **as to have intended** to transfer…</code> — plain result, no negative, but with a <strong>perfect infinitive</strong> (<code>to have intended</code>) marking time earlier than the supposing. S12: <code>had **not** made **so little** progress in piety **as not to** confine supreme worship to God alone</code> — ⚠️⚠️ <em>three</em> negatives (<code>not</code>, <code>so little</code>, <code>not to</code>) and the meaning comes out <strong>positive</strong>: <em>he had made quite enough progress, and he did confine supreme worship to God alone.</em> S15: <code>men **never** distinguish **so** accurately … **as not to** transfer</code> — <code>never</code> + <code>so … as not to</code> = <em>they always end up transferring.</em> Rule to carry: <strong><code>so X as not to Y</code> = X to the degree that prevents Y</strong>; then negate the whole and Y comes back. Count the negatives, then re-read.</li>
+<li><strong>The <code>should</code> family (S8, S19), and one impossible negative.</strong> S8: <code>it was **impossible that** a worship connected with religion **should not savour** somewhat of divine worship</code> — the <em>putative</em> <code>should</code> after an impersonal evaluative (<code>it is impossible/strange/natural that … should</code>), here negated: <em>impossible that it should not</em> = <strong>it necessarily did</strong>. Do not translate this <code>should</code> as <em>ought to</em>; it carries no obligation, only the speaker's stance on the proposition. S19: <code>**lest** any **should** allow themselves to devise a worship of their own</code> — <code>lest</code> = <em>for fear that / in order that … not</em>, and it already contains the negative, so ⚠️ <strong>never</strong> write <em>lest … not</em>. Both sentences also hang a <code>without</code> + gerund on the end (<code>without derogating</code>, and S16's <code>without retaining</code>) — a negative preposition that swallows a whole clause.</li>
+<li><strong>Fronting, cleaving, inversion — the parts moved out of place (S4, S6, S15, S23).</strong> S4: <code>This superstition, (to which he gives the name of δυλια,) **he condemns**</code> — the <strong>object is topicalized</strong> to the front and the subject <code>he</code> follows; restore the base order (<em>he condemns this superstition</em>) before you translate, or you will make <code>superstition</code> the subject and lose the sentence. S6: <code>**all that** Satan asked **was** προσκυ νεσις</code> — a pseudo-cleft with a free relative subject; the singular <code>was</code> agrees with <code>all</code>, not with what follows. S15 and S23: <code>**that which** belongs only to God</code>, <code>**that which** God strictly claims as his own peculiar right</code> — the free relative in its full two-word form; = <em>what belongs / what he claims</em>. And the last clause of the section inverts after a fronted degree adverb: <code>**so prone is the descent** to this vice</code> = <em>the descent to this vice is so prone</em>. Formula 3.</li>
+</ol><p>Trap words I <em>will</em> test. <strong><code>laying aside</code></strong> (S1) = <strong>setting aside, dropping</strong> — not <em>laying down a rule</em>. <strong><code>subtleties</code></strong> (S1) ⚠️ = <strong>over-fine distinctions, quibbles</strong> — the pejorative sense, straight from §1's <code>the subtleties which superstition employs</code>. <strong><code>did service unto</code></strong> (S2) = ἐδουλεύσατε — <strong>δουλεία in the Bible's own mouth</strong>, and the whole section's first exhibit. <strong><code>which</code></strong> (S2) ⚠️ = <strong>who</strong> — the relative used of persons is normal 1611/1845 English (<em>Our Father which art in heaven</em>); it is <strong>not</strong> an error. <strong><code>by nature</code></strong> (S2) = φύσει, <em>in their very being</em> — the dative of respect. <strong><code>excusable</code></strong> (S3) ⚠️ = <strong>defensible, able to be excused</strong> — the question expects the answer <em>no</em>. <strong><code>as much as if</code></strong> (S4) = <strong>just as much as he would have if</strong> — a counterfactual with the <em>if</em>-clause in the past perfect. <strong><code>repels</code></strong> (S5) = drives back, rebuts. <strong><code>insulting</code></strong> (S5) ⚠️ = <strong>insolent, contemptuous</strong> (<em>insultare</em>, to leap upon) — stronger than modern <em>rude</em>. <strong><code>there was no question of λατρια</code></strong> (S5) ⚠️ = <strong>λατρεία was not at issue at all</strong> — not <em>there was no doubt about it</em>. <strong><code>obeisance</code></strong> (S6) = προσκύνησις, <strong>a bow, prostration</strong> — the bodily act. <strong><code>rebuked</code></strong> (S7) = reproved. <strong><code>so far forgotten himself</code></strong> (S7) ⚠️ = <strong>so far lost his self-command</strong> — an idiom of self-possession, not memory. <strong><code>savour of</code></strong> (S8) ⚠️ = <strong>taste of, smack of, have something of</strong> — not <em>enjoy</em>. <strong><code>somewhat</code></strong> (S8) = to some degree. <strong><code>derogating from</code></strong> (S8) ⚠️ = <strong>detracting from, taking away part of</strong> (<em>de-rogare</em>, to repeal part of a law) — a <strong>legal</strong> verb: to subtract from a right. <strong><code>True,</code></strong> (S9) = <em>granted</em>, a one-word concession. <strong><code>if I may so speak</code></strong> (S9) = <strong>so to speak</strong> — Beveridge's <em>ut ita loquar</em>. <strong><code>civil honour</code></strong> (S9) ⚠️⚠️ = <strong>honour paid in the civil order</strong> — Calvin's own escape valve; today's #1 scope trap. <strong><code>conjoined with</code></strong> (S10) = joined together with. <strong><code>carries … along with it</code></strong> (S10) = brings with it as an inseparable consequence. <strong><code>profanation</code></strong> (S10) = the making common of what is holy (<em>pro-fanum</em>, in front of the temple, i.e. outside it). <strong><code>made so little progress … as not to</code></strong> (S12) ⚠️⚠️ = <strong>was not so backward that he failed to</strong> — today's #1 grammar trap. <strong><code>confine … to</code></strong> (S12) = restrict to. <strong><code>prostrates himself</code></strong> (S13) = throws himself down. <strong><code>sternly</code></strong> (S14) = severely. <strong><code>And why, but just because</code></strong> (S15) = <strong>and for what reason, except simply because</strong> — an elliptical question answering itself. <strong><code>promiscuously</code></strong> (S15, S23) ⚠️ = <strong>indiscriminately, without sorting</strong> (<em>pro-miscere</em>, to mix thoroughly) — no sexual sense; it is yesterday's <code>without distinction</code> in one word. <strong><code>appropriate</code></strong> (S16) ⚠️ = <strong>take to ourselves as our own</strong> (verb, <em>ad proprium</em>) — not the adjective <em>suitable</em>. <strong><code>the minutest portion</code></strong> (S16) = the smallest share. <strong><code>retaining</code></strong> (S16) ⚠️⚠️ = <strong>holding back, withholding</strong> (<em>re-tinere</em>) — see S16 below; today's #1 word trap. <strong><code>discourses concerning</code></strong> (S17) = speaks about, treats of. <strong><code>the repairing of the Church</code></strong> (S17) = its <strong>restoration</strong> (<em>reparare</em>). <strong><code>the reason being, that</code></strong> (S17) = the reason being that — a nominative absolute. <strong><code>been pleased to</code></strong> (S19) = has seen fit to. <strong><code>lest any should</code></strong> (S19) ⚠️ = for fear that anyone might. <strong><code>devise</code></strong> (S19) = contrive — §2's <code>invented</code> in another coat. <strong><code>inexpedient</code></strong> (S20) = not advantageous, unhelpful. <strong><code>dwell on</code></strong> (S20) = linger over. <strong><code>offices of piety</code></strong> (S21) ⚠️ = <strong>the duties/services that piety owes</strong> — <em>officium</em>, a duty; not a building and not a rank. <strong><code>bestowed … on</code></strong> (S21) = conferred upon. <strong><code>of the nature of sacrilege</code></strong> (S21) ⚠️ = <strong>sacrilege in kind</strong> (<em>sacrum</em> + <em>legere</em>, to gather up sacred things, i.e. temple-robbery) — the theft image returns. <strong><code>attached … to</code></strong> (S22) = fastened onto. <strong><code>the spoils of God</code></strong> (S22) ⚠️ = <strong>plunder taken from God</strong> — a battlefield word. <strong><code>decking</code></strong> (S22) = adorning, dressing up. <strong><code>profane</code></strong> (S22, v.) = to treat as common. <strong><code>genii</code></strong> (S23) ⚠️ = <strong>tutelary spirits</strong> (Lat. <em>genius</em>, pl. <em>genii</em>) — not <em>geniuses</em>. <strong><code>departed heroes</code></strong> (S23) = deified dead men — §2's <code>dead men</code> in the pagan register. <strong><code>prone</code></strong> (S23) = <strong>inclined, apt to fall</strong> (<em>pronus</em>, leaning forward). <strong><code>peculiar right</code></strong> (S23) ⚠️ = <strong>right belonging exclusively to him</strong> (<em>peculium</em>, private property) — not <em>odd</em>; the chapter's title word (<code>EXCLUSIVE</code>).</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (⚠️ invariable) — 23 sentences</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+3. <span class="ft-sent" data-s="S1" id="ft-S1" onclick="jumpToCard('S1')">Laying aside subtleties, let us examine the thing.</span> <span class="ft-sent" data-s="S2" id="ft-S2" onclick="jumpToCard('S2')">When Paul reminds the Galatians of what they were before they came to the knowledge of Gods he says that they “did service unto them which by nature are no gods,” (Gal. 4:8).</span> <span class="ft-sent" data-s="S3" id="ft-S3" onclick="jumpToCard('S3')">Because he does not say λατρια, was their superstition excusable?</span> <span class="ft-sent" data-s="S4" id="ft-S4" onclick="jumpToCard('S4')">This superstition, to which he gives the name of δυλια, he condemns as much as if he had given it the name of λατρια.</span> <span class="ft-sent" data-s="S5" id="ft-S5" onclick="jumpToCard('S5')">When Christ repels Satan’s insulting proposal with the words, “It is written, Thou shalt worship the Lord thy God, and him only shalt thou serve,” (Mt. 4:10), there was no question of λατρια.</span> <span class="ft-sent" data-s="S6" id="ft-S6" onclick="jumpToCard('S6')">For all that Satan asked was προσκυ νεσις (obeisance).</span> <span class="ft-sent" data-s="S7" id="ft-S7" onclick="jumpToCard('S7')">In like manners when John is rebuked by the angel for falling on his knees before him (Rev. 19:10; 22:8, 9), we ought not to suppose that John had so far forgotten himself as to have intended to transfer the honour due to God alone to an angel.</span> <span class="ft-sent" data-s="S8" id="ft-S8" onclick="jumpToCard('S8')">But because it was impossible that a worship connected with religion should not savour somewhat of divine worship, he could not προσκυ νει ν (do obeisance to) the angel without derogating from the glory of God.</span> <span class="ft-sent" data-s="S9" id="ft-S9" onclick="jumpToCard('S9')">True, we often read that men were worshipped; but that was, if I may so speak, civil honour.</span> <span class="ft-sent" data-s="S10" id="ft-S10" onclick="jumpToCard('S10')">The case is different with religious honour, which, the moment it is conjoined with worship, carries profanation of the divine honour along with it.</span> <span class="ft-sent" data-s="S11" id="ft-S11" onclick="jumpToCard('S11')">The same thing may be seen in the case of Cornelius (Acts 10:25).</span> <span class="ft-sent" data-s="S12" id="ft-S12" onclick="jumpToCard('S12')">He had not made so little progress in piety as not to confine supreme worship to God alone.</span> <span class="ft-sent" data-s="S13" id="ft-S13" onclick="jumpToCard('S13')">Therefore, when he prostrates himself before Peter, he certainly does it not with the intention of adoring him instead of God.</span> <span class="ft-sent" data-s="S14" id="ft-S14" onclick="jumpToCard('S14')">Yet Peter sternly forbids him.</span> <span class="ft-sent" data-s="S15" id="ft-S15" onclick="jumpToCard('S15')">And why, but just because men never distinguish so accurately between the worship of God and the creatures as not to transfer promiscuously to the creature that which belongs only to God.</span> <span class="ft-sent" data-s="S16" id="ft-S16" onclick="jumpToCard('S16')">Therefore, if we would have one God, let us remember that we can never appropriate the minutest portion of his glory without retaining what is his due.</span> <span class="ft-sent" data-s="S17" id="ft-S17" onclick="jumpToCard('S17')">Accordingly, when Zechariah discourses concerning the repairing of the Church, he distinctly says not only that there would be one God, but also that he would have only one name—the reason being, that he might have nothing in common with idols.</span> <span class="ft-sent" data-s="S18" id="ft-S18" onclick="jumpToCard('S18')">The nature of the worship which God requires will be seen in its own place (Book 2, c. 7 and 8).</span> <span class="ft-sent" data-s="S19" id="ft-S19" onclick="jumpToCard('S19')">He has been pleased to prescribe in his Law what is lawful and right, and thus restrict men to a certain rule, lest any should allow themselves to devise a worship of their own.</span> <span class="ft-sent" data-s="S20" id="ft-S20" onclick="jumpToCard('S20')">But as it is inexpedient to burden the reader by mixing up a variety of topics, I do not now dwell on this one.</span> <span class="ft-sent" data-s="S21" id="ft-S21" onclick="jumpToCard('S21')">Let it suffice to remember, that whatever offices of piety are bestowed anywhere else than on God alone, are of the nature of sacrilege.</span> <span class="ft-sent" data-s="S22" id="ft-S22" onclick="jumpToCard('S22')">First, superstition attached divine honours to the sun and stars, or to idols: afterwards ambition followed—ambition which, decking man in the spoils of God, dared to profane all that was sacred.</span> <span class="ft-sent" data-s="S23" id="ft-S23" onclick="jumpToCard('S23')">And though the principle of worshipping a supreme Deity continued to be held, still the practice was to sacrifice promiscuously to genii and minor gods, or departed heroes: so prone is the descent to this vice of communicating to a crowd that which God strictly claims as his own peculiar right!</span>
+</blockquote><p><strong>Sentence count: 23 (S1–S23). One paragraph. This section closes Chapter 12.</strong></p><blockquote>
+<p><strong>Text note (not a correction to the quotation).</strong> Five things about the printed page, all left as they stand. (i) <strong>The Greek is mangled by the scanner in three ways, all familiar from Days 66 and 73.</strong> <code>λατρια</code> (S3, S4, S5) and <code>δυλια</code> (S4) are the vowel-dropped corruption of <strong>λατρεία</strong> and <strong>δουλεία</strong>. <code>προσκυ νεσις</code> (S6) and <code>προσκυ νει ν</code> (S8) are the <em>split-word</em> corruption — Beveridge set <strong>προσκύνησις</strong> (<em>obeisance</em>) and <strong>προσκυνεῖν</strong> (<em>to do obeisance</em>), and the scanner has broken each after <code>προσκυ</code>. Reproduced as printed; memorise only the corrected forms. (ii) <strong>Two commas have been read as the letter <code>s</code>.</strong> S2: <code>before they came to the knowledge of Gods he says</code> — Beveridge has <em>of God, he says</em>; the printed <code>Gods</code> is the scan, not a plural. S7: <code>In like manners when John is rebuked</code> — Beveridge has <em>In like manner, when John…</em>. Both left as printed, both flagged here so you do not learn a false form. (iii) A <strong>page break falls inside S22</strong>, between <code>superstition attached</code> and <code>divine honours to the sun and stars</code>, with the margin page number 107 in between; closed up, number removed. (iv) A <strong>second page break falls inside S23</strong>, between <code>so prone is the descent</code> and <code>to this vice of communicating</code>, with the page number 111 and the running header (<code>CHAPTER 12. - GOD DISTINGUISHED FROM IDOLS…</code>) in between; closed up, header and number removed. (v) <strong>No footnote markers in this section</strong>, and <strong>no reference is printed for the Zechariah passage</strong> in S17 — it is <strong>Zech. 14:9</strong>, supplied in Period 7, not in the quotation. <code>honour</code>, <code>honours</code>, <code>savour</code> are British spellings; <code>Mt. 4:10</code> is Beveridge's abbreviation. Nothing else altered.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>[METHOD TURN]    S1      "Laying aside SUBTLETIES, let us examine THE THING"   ← concessions over
+[EXHIBIT 1]      S2      Gal. 4:8 — Paul calls idolatry "DID SERVICE" (= δουλεία)
+                 S3-S4   so: is it excusable because he did not say λατρεία?  → he condemns it
+                         "AS MUCH AS IF he had given it the name of λατρια"
+[EXHIBIT 2]      S5-S6   Mt. 4:10 — "there was NO QUESTION OF λατρια": all Satan asked
+                         was προσκύνησις — and Christ still refuses
+[EXHIBIT 3]      S7-S8   Rev. 19:10; 22:8-9 — John did NOT intend to transfer God's honour,
+                         BUT "IMPOSSIBLE that a worship connected with religion SHOULD NOT
+                         SAVOUR somewhat of divine worship" → could not bow "WITHOUT DEROGATING"
+[GUARDRAIL]      S9-S10  men ARE bowed to — but that is "CIVIL HONOUR"; religious honour,
+                         "THE MOMENT it is conjoined with worship," carries profanation
+[EXHIBIT 4]      S11-S14 Acts 10:25 — Cornelius: "had NOT made SO LITTLE progress … AS NOT TO
+                         confine supreme worship to God" → innocent intention → "YET Peter
+                         STERNLY FORBIDS him"
+[THE REASON]     S15   ★ "men NEVER distinguish SO accurately … AS NOT TO transfer
+                         PROMISCUOUSLY to the creature THAT WHICH belongs only to God"
+[THE RULE]       S16   ★ "we can NEVER appropriate the MINUTEST PORTION of his glory
+                         WITHOUT RETAINING what is his due"                  ← retaining = withholding
+[EXHIBIT 5]      S17     Zech. 14:9 — not only ONE GOD but ONE NAME: "nothing in common with idols"
+[DEFERRAL]       S18-S20 the nature of true worship → Book 2 cc. 7-8; the Law as the rule,
+                         "LEST any should DEVISE a worship of their own"; "I do not now dwell"
+[VERDICT]        S21     "whatever OFFICES OF PIETY are bestowed anywhere else than on God alone,
+                         are OF THE NATURE OF SACRILEGE"
+[GENEALOGY]      S22-S23 stars/idols → AMBITION "decking man in the SPOILS OF GOD" → genii,
+                         minor gods, DEPARTED HEROES: "SO PRONE IS THE DESCENT to this vice
+                         of communicating TO A CROWD that which God strictly claims as his
+                         own PECULIAR RIGHT!"                                ← chapter ends
+</code></pre><p><strong>Examiner's Eye.</strong> Five traps, in rising order of nastiness.</p><p><strong>Trap 1 — the scope of <code>because</code> in S3.</strong> <code>Because he does not say λατρια, was their superstition excusable?</code> The <code>because</code>-clause is <strong>inside</strong> the question; it is the <em>proposed ground</em> being tested, not a reason for asking. Unpack: <em>Was their superstition excusable </em><em>on the ground that</em><em> Paul does not use the word λατρεία?</em> Expected answer: <strong>no</strong> — and S4 supplies it. An item will offer <em>"Calvin explains that he asks the question because Paul does not use the word λατρεία."</em> That reads the clause as a reason for the asking. Wrong level.</p><p><strong>Trap 2 — <code>civil honour</code> (S9).</strong> <code>True, we often read that men were worshipped; but that was, if I may so speak, civil honour.</code> ⚠️ Calvin is <strong>not</strong> saying that everyone in Scripture who bowed to a man sinned. He is drawing a line — and the line is the one thing in this section that protects him from absurdity (Abraham bowed to the Hittites; David bowed to Saul). An item will say <em>"Calvin holds that every act of bowing recorded in Scripture is a violation of God's honour."</em> False — S9 is an explicit <strong>concession</strong>, and S10 tells you what makes the difference: <code>the moment it is **conjoined with worship**</code>. The test is not the posture; it is the <strong>religious connection</strong>.</p><p><strong>Trap 3 — S12, the triple negative.</strong> <code>He had not made so little progress in piety as not to confine supreme worship to God alone.</code> Count: <code>not</code> + <code>so little</code> + <code>not to</code>. Meaning: <strong>Cornelius did reserve supreme worship for God.</strong> He was well instructed, not ignorant. An item will read <em>"Cornelius' piety was still so undeveloped that he did not reserve supreme worship for God alone"</em> — the exact inversion, and it is the single easiest mark to lose today. And the whole argument depends on getting it right: the point of the Cornelius case is that <strong>the man's theology was sound and the act was still forbidden</strong>.</p><p><strong>Trap 4 — why Peter forbids (S13–S15).</strong> S13 says explicitly that Cornelius <code>certainly does it **not** with the intention of adoring him instead of God</code>. So the prohibition is <strong>not</strong> because Cornelius meant idolatry. S15 gives the reason: <code>men **never** distinguish **so** accurately … **as not to** transfer promiscuously</code>. The ground is the <strong>incapacity of the human heart to keep the line</strong>, not the wickedness of this man's intention. An item that says <em>"Peter forbids Cornelius because Cornelius intended to worship him as a god"</em> contradicts S13 outright — and an item that says <em>"Calvin concedes that where the intention is sound the act is permissible"</em> inverts the section's whole argument. Four exhibits, four innocent intentions, four refusals.</p><p><strong>Trap 5 — <code>retaining</code> (S16).</strong> <code>we can never appropriate the minutest portion of his glory **without retaining what is his due**</code>. Modern ear: <em>retain</em> = keep for oneself, so the sentence appears to say we may take God's glory as long as we keep back what is owed him — which is nonsense, and reverses the argument. The Latinate sense is the live one: <code>retain</code> &lt; <em>re-tinere</em>, <strong>to hold back</strong>, i.e. <strong>to withhold from him</strong>. Read: <em>we cannot take even the smallest part of his glory without withholding from him what is his due.</em> If an item offers a paraphrase with <em>keep</em> or <em>preserve</em>, check it against the argument, not against your ear.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl2" data-lvl="2" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Laying aside subtleties, let us examine the thing — the method turn in six words</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p><strong><code>Laying aside subtleties, let us examine the thing.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>Laying aside</b> subtleties</span></li></ul></li></ul></li><li><span class="leaf"><b>let us examine</b></span></li><li><span class="leaf">the thing.`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>subtle</em> &lt; <em>subtilis</em> &lt; <em>sub-</em> + <em>tela</em> (under the web, i.e. finely woven) → <em>textile, text, subtlety</em>; <em>examine</em> &lt; <em>examen</em>, the tongue of a balance (&lt; <em>exigere</em>, to weigh out) → the weighing image of §2's `moment`, continued; <em>aside</em> &lt; OE <em>on</em> + <em>sīde</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>lay aside X</em> = set X aside, drop X; <em>let us V</em> = hortative, "let's"; <em>examine the thing</em> = look at the substance (<em>res</em>), not the label.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Let's drop the hair-splitting and look at the thing itself.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Laying aside</b> → Let's drop</li><li><b>subtleties</b> → the hair-splitting</li><li><b>let us examine</b> → look at</li><li><b>the thing</b> → the thing itself.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">did service unto them which by nature are no gods — Exhibit 1, and the Bible's own δουλεία</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p><strong><code>When Paul reminds the Galatians of what they were before they came to the knowledge of Gods he says that they “did service unto them which by nature are no gods,” (Gal. 4:8).</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>When</b> Paul reminds the Galatians</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>what</b> they were</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>before</b> they came to the knowledge of God</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">he says</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> they “<b>did service unto</b> them ”</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b> by nature are no gods<b>,</b></span></li></ul></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Gal. 4:8</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>service</em> &lt; <em>servitium</em> &lt; <em>servus</em> (slave) — the Latin equivalent of δουλεία, and the AV's regular rendering of δουλεύω; <em>nature</em> &lt; <em>nasci</em> (to be born) → <em>native, nascent, innate</em> — what a thing is by birth, hence essentially; <em>remind</em> = <em>re-</em> + <em>mind</em> (to bring back to mind); <em>knowledge</em> &lt; OE <em>cnāwan</em> + <em>-lēce</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>remind X of Y</em> = bring Y back to X's mind; <em>come to the knowledge of X</em> = come to know X; <em>do service unto X</em> = serve X (cultically); <em>by nature</em> = in their very being.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">When Paul reminds the Galatians what they were before they came to know God, he says they "were slaves to beings that are not gods at all" (Gal. 4:8).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>reminds … of what they were</b> → reminds … what they were</li><li><b>came to the knowledge of God</b> → came to know God</li><li><b>did service unto</b> → were slaves to</li><li><b>them which</b> → beings that</li><li><b>by nature are no gods</b> → are not gods at all.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Because he does not say λατρια, was their superstition excusable? — the ground inside the question</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p><strong><code>Because he does not say λατρια, was their superstition excusable?</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">이유절 (because)</span><span class="leaf"><b>Because</b> he does not say λατρια</span></li></ul></li></ul></li><li><span class="leaf"><b>was</b> their superstition <b>excusable</b>?`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>excusable</em> &lt; <em>ex-</em> + <em>causa</em> (a legal case) → <em>excuse, accuse, cause</em> — literally <em>removable from the charge</em>; <em>superstition</em> &lt; <em>super-stare</em>, to stand over — §1 (Day 72) gave Calvin's own etymology: <em>not contented with the measure which reason prescribes</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Was X excusable?</em> (rhetorical) = X was not excusable; <em>because …</em> fronting a ground being tested = "on the ground that…".</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Was their superstition any more defensible just because he does not use the word "latreia"?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Because he does not say λατρια</b> → just because he does not use the word "latreia"</li><li><b>was … excusable?</b> → was … any more defensible?</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s2" title="2-star">★★</span><span class="s-label">This superstition, … he condemns as much as if he had given it the name of λατρια — object fronted, verdict counterfactual</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p><strong><code>This superstition, to which he gives the name of δυλια, he condemns as much as if he had given it the name of λατρια.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>This superstition</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to which he gives the name of δυλια</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>he condemns</b></span></li><li><span class="leaf"><b>as much as if</b>.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">he <b>had given</b> it the name of λατρια</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>condemn</em> &lt; <em>con-</em> + <em>damnare</em> (to inflict loss, to fine) → <em>damn, damage, indemnity</em> — a sentence, judicially pronounced; <em>name</em> &lt; <em>nomen</em> → <em>nominal, noun, renown</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>give X the name of Y</em> = call X Y; <em>as much as if S had V-ed</em> = just as much as (he would have) if S had V-ed.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">He condemns this superstition — which he calls "dulia" — just as harshly as he would have if he had called it "latreia."</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>This superstition … he condemns</b> → He condemns this superstition</li><li><b>to which he gives the name of</b> → which he calls</li><li><b>as much as if he had given it the name of</b> → just as harshly as he would have if he had called it.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">there was no question of λατρια — Exhibit 2, and a refusal that costs the defence everything</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p><strong><code>When Christ repels Satan’s insulting proposal with the words, “It is written, Thou shalt worship the Lord thy God, and him only shalt thou serve,” (Mt. 4:10), there was no question of λατρια.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>When</b> Christ <b>repels</b> Satan’s insulting proposal</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">with the words, “…”</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Mt. 4:10</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>there was no question of</b> λατρια.`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>repel</em> &lt; <em>re-</em> + <em>pellere</em> (to drive) → <em>compel, expel, propel, pulse</em>; <em>insult</em> &lt; <em>in-</em> + <em>saltare/salire</em> (to leap upon) → <em>assault, salient, result</em>; <em>proposal</em> &lt; <em>pro-</em> + <em>ponere</em> (to put forward) → <em>propose, position, component</em>; <em>λατρεία</em> &lt; λάτρις (hired servant) &lt; λάτρον (wage).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>repel a proposal</em> = beat back an offer; <em>there is/was no question of X</em> = X is/was not at issue; <em>it is written</em> = γέγραπται, the formula of scriptural appeal; <em>him only shalt thou serve</em> = you shall serve him alone (object fronted).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">When Christ throws back Satan's insolent offer with the words "It is written: You shall worship the Lord your God, and serve only him" (Mt. 4:10), latreia was never what was on the table.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>repels</b> → throws back</li><li><b>insulting proposal</b> → insolent offer</li><li><b>there was no question of λατρια</b> → latreia was never what was on the table.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s2" title="2-star">★★</span><span class="s-label">For all that Satan asked was προσκυ νεσις (obeisance) — the pseudo-cleft that closes the trap</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p><strong><code>For all that Satan asked was προσκυ νεσις (obeisance).</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>For**</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>all</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> Satan asked</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>was</b></span></li><li><span class="leaf">προσκυ νεσις.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">obeisance</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li>προσκύνησις &lt; πρός (towards) + κυνέω (to kiss) — literally <em>kissing towards</em>, the ancient gesture of homage; hence the Latin <em>adoratio</em> &lt; <em>ad-</em> + <em>os, oris</em> (mouth) — the same image in the other language: hand to mouth, a kiss thrown. <em>Obeisance</em> &lt; OFr <em>obeissance</em> &lt; <em>obedire</em> (<em>ob-</em> + <em>audire</em>, to listen toward).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>all (that) S asked was X</em> = the only thing S asked for was X; <em>for</em> (clause-initial) = because.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">After all, the only thing Satan asked for was a bow.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>For</b> → After all</li><li><b>all that Satan asked was</b> → the only thing Satan asked for was</li><li><b>προσκύνησις (obeisance)</b> → a bow.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">we ought not to suppose that John had so far forgotten himself as to have intended — Exhibit 3, and the innocence of the intention</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p><strong><code>In like manners when John is rebuked by the angel for falling on his knees before him (Rev. 19:10; 22:8, 9), we ought not to suppose that John had so far forgotten himself as to have intended to transfer the honour due to God alone to an angel.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `In like manner</b>s**</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> John is rebuked</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by the angel</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>for falling</b> on his knees before him</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Rev. 19:10; 22:8, 9</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>we ought not to suppose</b></span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> John had <b>so far</b> forgotten himself</span><ul class="tr"><li><span class="leaf"><b>as to have intended</b></span></li><li><span class="leaf">to transfer</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">the honour</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>due to</b> God alone</span></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to</b> an angel</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>rebuke</em> &lt; OFr <em>rebuchier</em>, to beat back (<em>re-</em> + <em>bûche</em>, log) — cousin in force to S5's <em>repel</em>; <em>transfer</em> &lt; <em>trans-</em> + <em>ferre</em> (to carry across) → <em>refer, confer, fertile</em>; <em>intend</em> &lt; <em>in-</em> + <em>tendere</em> (to stretch toward) → <em>tension, attend, intense</em> — the mind <em>stretched</em> at an object; <em>due</em> &lt; <em>debere</em> (to owe) → <em>debt, debit, duty</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in like manner</em> = likewise; <em>rebuke X for V-ing</em> = reprove X for doing; <em>fall on one's knees before X</em> = kneel to X; <em>forget oneself</em> = lose one's self-command; <em>so far … as to V</em> = to such a degree as to V; <em>ought not to suppose</em> = should not assume; <em>the honour due to X</em> = the honour owed to X; <em>transfer X to Y</em>.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Likewise, when the angel rebukes John for kneeling in front of him (Rev. 19:10; 22:8, 9), we should not assume that John had so lost his self-control as to have meant to give an angel the honour that belongs to God alone.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>In like manner</b> → Likewise</li><li><b>forgotten himself</b> → lost his self-control</li><li><b>so far … as to have intended</b> → so … as to have meant</li><li><b>the honour due to God alone</b> → the honour that belongs to God alone.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">impossible that … should not savour somewhat of divine worship — the sentence that decides the chapter</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p><strong><code>But because it was impossible that a worship connected with religion should not savour somewhat of divine worship, he could not προσκυ νει ν (do obeisance to) the angel without derogating from the glory of God.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf"><b> `</b>But**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">이유절 (because)</span><span class="leaf"><b>because</b> it was <b>impossible</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> a worship <b>should not savour</b> <b>of</b> divine worship</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">connected with religion</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">somewhat</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">he <b>could not</b> προσκυ νει ν the angel</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">do obeisance to</span></li></ul></li></ul></li><li><span class="leaf"><b>without derogating from</b> the glory of God.`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>savour</em> &lt; <em>sapor</em> (taste) &lt; <em>sapere</em> (to taste, to be wise) → <em>sapient, insipid, sage, savoury</em>; <em>derogate</em> &lt; <em>de-</em> + <em>rogare</em> (to ask, to propose a law) → <em>abrogate, arrogate, prerogative, interrogate</em> — the law-court root; <em>conjoin/connect</em> &lt; <em>con-</em> + <em>nectere</em> (to bind together) → <em>nexus, annex</em>; προσκυνεῖν — see S6.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it is impossible that … should not V</em> = it necessarily V-s; <em>savour of X</em> = smack of X; <em>somewhat</em> = to some degree; <em>do obeisance to X</em> = bow down to X; <em>without V-ing</em> = while not V-ing; <em>derogate from X</em> = detract from X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But since it was impossible for any worship tied to religion not to have something of divine worship about it, he could not bow to the angel without taking something away from God's glory.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>it was impossible that … should not savour somewhat of</b> → it was impossible for … not to have something of</li><li><b>a worship connected with religion</b> → any worship tied to religion</li><li><b>προσκυνεῖν (do obeisance to)</b> → bow to</li><li><b>without derogating from</b> → without taking something away from.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s2" title="2-star">★★</span><span class="s-label">True, we often read that men were worshipped; but that was, if I may so speak, civil honour — the guardrail</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p><strong><code>True, we often read that men were worshipped; but that was, if I may so speak, civil honour.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>True**</span></li><li><span class="leaf">we often read</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> men <b>were worshipped</b></span></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b> that <b>was</b>, <b>civil honour</b>.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf">if I may so speak</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>civil</em> &lt; <em>civis</em> (citizen) → <em>city, civic, civilian</em> — the realm of the <em>polis</em>, not the temple; <em>worship</em> &lt; OE <em>weorþscipe</em>, <em>worth-ship</em> — the acknowledgement of worth (which is precisely why English can use it of a magistrate: <em>Your Worship</em>).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>True, … but …</em> = granted … but; <em>if I may so speak</em> = so to speak; <em>civil honour</em> = honour paid in the civil sphere.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Granted, we often read of people being bowed to — but that was, so to speak, civil honour.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>True,</b> → Granted,</li><li><b>men were worshipped</b> → people being bowed to</li><li><b>if I may so speak</b> → so to speak.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s2" title="2-star">★★</span><span class="s-label">which, the moment it is conjoined with worship, carries profanation … along with it — where the line actually falls</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p><strong><code>The case is different with religious honour, which, the moment it is conjoined with worship, carries profanation of the divine honour along with it.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `The case is different</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">with religious honour</span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>which</b>,, <b>carries</b> profanation <b>along with it</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>the moment</b> it is conjoined with worship</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of the divine honour</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>profanation</em> &lt; <em>pro-</em> + <em>fanum</em> (temple) — literally <em>in front of the temple</em>, i.e. outside it, hence to make common what is holy → <em>profane, fane</em>; <em>conjoin</em> &lt; <em>con-</em> + <em>jungere</em> (to yoke) → <em>junction, yoke, joust, conjugal</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>the case is different with X</em> = it is otherwise with X; <em>the moment (that) S V-s</em> = as soon as; <em>be conjoined with X</em> = be joined to X; <em>carry X along with it</em> = bring X with it inseparably.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">It is otherwise with religious honour, which, the moment it is joined to worship, brings the profaning of God's honour along with it.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>The case is different with</b> → It is otherwise with</li><li><b>conjoined with</b> → joined to</li><li><b>carries profanation of the divine honour along with it</b> → brings the profaning of God's honour along with it.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s1" title="1-star">★</span><span class="s-label">The same thing may be seen in the case of Cornelius — Exhibit 4 announced</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p><strong><code>The same thing may be seen in the case of Cornelius (Acts 10:25).</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>case</em> &lt; <em>casus</em> &lt; <em>cadere</em> (to fall) → <em>cadence, accident, occasion</em> — what has <em>befallen</em>, hence an instance; also the legal <em>case</em>, which is the register Calvin has been in since S3.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>the same thing may be seen in the case of X</em> = the same holds in X's case.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The same can be seen in the case of Cornelius (Acts 10:25).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>The same thing may be seen</b> → The same can be seen.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S12" id="S12"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S12</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">had not made so little progress in piety as not to confine supreme worship to God alone — three negatives, one positive</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S12" onclick="flashFullText(this)">
+<p><strong><code>He had not made so little progress in piety as not to confine supreme worship to God alone.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `He </b>had not<b> made </b>so little** progress</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in piety</span></li></ul></li></ul></li><li><span class="leaf"><b>as not to</b> confine supreme worship.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to God alone</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>confine</em> &lt; <em>con-</em> + <em>finis</em> (boundary, end) → <em>finish, define, final, affinity</em>; <em>piety</em> &lt; <em>pietas</em> — dutifulness toward gods, parents, country (Day 4's definition: reverence + love); <em>progress</em> &lt; <em>pro-</em> + <em>gradi</em> (to step forward) → <em>grade, gradual, aggression, congress</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>make progress in X</em> = advance in X; <em>so little X as not to V</em> = so little X that one fails to V; <em>not so little … as not to</em> = enough … to; <em>confine X to Y</em> = restrict X to Y.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">He had not advanced so little in piety that he failed to reserve supreme worship for God alone.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>had not made so little progress</b> → had not advanced so little</li><li><b>as not to confine</b> → that he failed to reserve</li><li><b>supreme worship</b> → supreme worship (the highest honour).</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S13" id="S13"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S13</span><span class="stars s2" title="2-star">★★</span><span class="s-label">he certainly does it not with the intention of adoring him instead of God — where the negative attaches</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S13" onclick="flashFullText(this)">
+<p><strong><code>Therefore, when he prostrates himself before Peter, he certainly does it not with the intention of adoring him instead of God.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>Therefore**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> he prostrates himself before Peter</span></li></ul></li></ul></li><li><span class="leaf">he certainly <b>does it not</b>.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>with the intention of</b> adoring him</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">instead of God</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>prostrate</em> &lt; <em>pro-</em> + <em>sternere</em> (to strew, spread out) → <em>stratum, street, consternation</em> — laid out flat; <em>adore</em> &lt; <em>ad-</em> + <em>orare</em> (to speak, pray) → <em>oration, orator, inexorable</em>; also the <em>os/oris</em> image behind <em>adoratio</em> (S6).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>prostrate oneself before X</em> = throw oneself down before X; <em>with the intention of V-ing</em> = meaning to V; <em>instead of X</em> = in X's place.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So when he throws himself down in front of Peter, he certainly does not mean to be adoring Peter in God's place.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>prostrates himself before</b> → throws himself down in front of</li><li><b>does it not with the intention of adoring</b> → does not mean to be adoring</li><li><b>instead of God</b> → in God's place.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S14" id="S14"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S14</span><span class="stars s1" title="1-star">★</span><span class="s-label">Yet Peter sternly forbids him — four words, and the hinge</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S14" onclick="flashFullText(this)">
+<p><strong><code>Yet Peter sternly forbids him.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>stern</em> &lt; OE <em>styrne</em>, severe; <em>forbid</em> &lt; OE <em>forbēodan</em>, <em>for-</em> (against) + <em>bēodan</em> (to bid) — literally <em>to bid against</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Yet</em> (clause-initial) = and yet, nevertheless.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Yet Peter sharply forbids him.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>sternly</b> → sharply.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S15" id="S15"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S15</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">men never distinguish so accurately … as not to transfer promiscuously — the reason, and the doctrine of the heart</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S15" onclick="flashFullText(this)">
+<p><strong><code>And why, but just because men never distinguish so accurately between the worship of God and the creatures as not to transfer promiscuously to the creature that which belongs only to God.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf"><b> `</b>And why**</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but just because</b></span></li><li><span class="leaf">men <b>never</b> distinguish</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">결과절 (so…that)</span><span class="leaf"><b>so</b> accurately</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>between</b> the worship of God <b>and</b> the creatures</span></li></ul></li></ul></li><li><span class="leaf"><b>as not to</b> transfer</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">promiscuously</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to the creature</span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that which</b> belongs only to God</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>promiscuous</em> &lt; <em>pro-</em> (thoroughly) + <em>miscere</em> (to mix) → <em>mixture, miscellaneous, meddle</em>; <em>accurate</em> &lt; <em>ad-</em> + <em>cura</em> (care) → <em>cure, curator, secure</em> (<em>se-cura</em>, free from care); <em>distinguish</em> &lt; <em>dis-</em> + <em>stinguere</em> (to prick apart) → <em>extinguish, instinct, distinct</em>; <em>creature</em> &lt; <em>creare</em> + <em>-ura</em> — <em>a thing made</em>, the word chosen to make the contrast with the Creator audible.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>And why, but just because …</em> = and for what reason, except simply because; <em>distinguish between A and B</em>; <em>never … so … as not to V</em> = never precisely enough to avoid V-ing; <em>transfer X to Y</em>; <em>that which</em> = what.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And why? Simply because people never draw the line between the worship of God and the honour of creatures carefully enough to keep from handing over to the creature, without sorting, what belongs to God alone.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>And why, but just because</b> → And why? Simply because</li><li><b>distinguish so accurately … as not to transfer</b> → draw the line … carefully enough to keep from handing over</li><li><b>promiscuously</b> → without sorting</li><li><b>that which</b> → what.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S16" id="S16"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S16</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">we can never appropriate the minutest portion of his glory without retaining what is his due — the rule, and today's hardest word</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S16" onclick="flashFullText(this)">
+<p><strong><code>Therefore, if we would have one God, let us remember that we can never appropriate the minutest portion of his glory without retaining what is his due.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>Therefore**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if we would have</b> one God</span></li></ul></li></ul></li><li><span class="leaf"><b>let us remember</b></span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> we <b>can never appropriate</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">the minutest portion</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of his glory</span></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>without retaining</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>what</b> is his due</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>appropriate</em> &lt; <em>ad-</em> + <em>proprius</em> (one's own) → <em>property, proper, propriety</em>; <em>retain</em> &lt; <em>re-</em> + <em>tenere</em> (to hold) → <em>tenant, tenacious, contain, obtain</em> (yesterday's S4) — the <em>re-</em> is back, hence <em>hold back</em>; <em>minute</em> (adj.) &lt; <em>minutus</em>, made small &lt; <em>minuere</em> (to lessen) → <em>diminish, minus, minister</em>; <em>due</em> &lt; <em>debere</em> (to owe) → <em>debt, duty, endeavour</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>if we would have X</em> = if we wish to have X; <em>appropriate X</em> = take X to oneself; <em>the minutest portion of X</em> = the smallest part of X; <em>without V-ing</em> = while inevitably V-ing; <em>what is his due</em> = what is owed to him.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So if we mean to have one God, let us remember that we can never take even the smallest scrap of his glory to ourselves without holding back from him what is owed to him.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>if we would have</b> → if we mean to have</li><li><b>appropriate the minutest portion</b> → take even the smallest scrap … to ourselves</li><li><b>without retaining</b> → without holding back (from him)</li><li><b>what is his due</b> → what is owed to him.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S17" id="S17"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S17</span><span class="stars s2" title="2-star">★★</span><span class="s-label">not only that there would be one God, but also that he would have only one name — Exhibit 5, and a nominative absolute</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S17" onclick="flashFullText(this)">
+<p><strong><code>Accordingly, when Zechariah discourses concerning the repairing of the Church, he distinctly says not only that there would be one God, but also that he would have only one name—the reason being, that he might have nothing in common with idols.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>Accordingly**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> Zechariah discourses concerning the repairing of the Church</span></li></ul></li></ul></li><li><span class="leaf">he distinctly says</span></li><li><span class="leaf"><b>not only</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> there would be one God</span></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but also</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> he would have only one name</span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>the reason being</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> he might have nothing in common with idols</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>repair</em> &lt; <em>re-</em> + <em>parare</em> (to make ready) → <em>prepare, apparatus, parade</em>; <em>accordingly</em> &lt; <em>ad-</em> + <em>cor, cordis</em> (heart) → <em>concord, record, courage</em> — hearts brought together, hence agreement; <em>distinctly</em> &lt; <em>dis-stinguere</em> — see S15.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>discourse concerning X</em> = speak about X; <em>not only that … but also that …</em>; <em>the reason being that</em> = the reason for this being that; <em>have nothing in common with X</em> = share nothing with X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So when Zechariah speaks about the restoration of the Church, he says plainly not only that there would be one God, but also that he would have only one name — the reason being that he was to have nothing in common with idols.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Accordingly</b> → So</li><li><b>discourses concerning</b> → speaks about</li><li><b>the repairing</b> → the restoration</li><li><b>distinctly says</b> → says plainly</li><li><b>that he might have</b> → that he was to have.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S18" id="S18"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S18</span><span class="stars s1" title="1-star">★</span><span class="s-label">will be seen in its own place (Book 2, c. 7 and 8) — the forward reference</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S18" onclick="flashFullText(this)">
+<p><strong><code>The nature of the worship which God requires will be seen in its own place (Book 2, c. 7 and 8).</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>require</em> &lt; <em>re-</em> + <em>quaerere</em> (to seek) → <em>inquire, question, conquest, exquisite</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in its own place</em> = in its proper place (later in the work).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">What kind of worship God requires will be dealt with in its proper place (Book 2, chs. 7 and 8).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>The nature of the worship which God requires</b> → What kind of worship God requires</li><li><b>will be seen</b> → will be dealt with.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S19" id="S19"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S19</span><span class="stars s2" title="2-star">★★</span><span class="s-label">lest any should allow themselves to devise a worship of their own — the negative purpose clause</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S19" onclick="flashFullText(this)">
+<p><strong><code>He has been pleased to prescribe in his Law what is lawful and right, and thus restrict men to a certain rule, lest any should allow themselves to devise a worship of their own.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `He </b>has been pleased to** prescribe</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in his Law</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>what</b> is lawful and right</span></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf">and thus <b>restrict</b> men</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to a certain rule</span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">목적절 (lest)</span><span class="leaf"><b>lest</b> any <b>should</b> allow themselves <b>to devise</b> a worship of their own</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>devise</em> &lt; <em>divisare</em> &lt; <em>dividere</em> (to divide) → <em>division, device, devise/devisal</em> — to contrive by separating out; <em>prescribe</em> &lt; <em>prae-</em> + <em>scribere</em> (to write before) → <em>script, describe, proscribe</em>; <em>lest</em> &lt; OE <em>þȳ lǣs þe</em>, "by the less that".</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be pleased to V</em> = see fit to V; <em>prescribe X</em> = lay X down; <em>restrict X to Y</em>; <em>a certain rule</em> = a definite rule; <em>lest S should V</em> = so that S may not V; <em>allow oneself to V</em> = take it upon oneself to V; <em>a worship of one's own</em> = a self-invented worship.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">He has seen fit to lay down in his Law what is lawful and right, and so to hold people to a definite rule, so that no one may take it upon himself to invent a worship of his own.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>has been pleased to prescribe</b> → has seen fit to lay down</li><li><b>restrict men to a certain rule</b> → hold people to a definite rule</li><li><b>lest any should allow themselves to devise</b> → so that no one may take it upon himself to invent.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S20" id="S20"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S20</span><span class="stars s1" title="1-star">★</span><span class="s-label">inexpedient to burden the reader by mixing up a variety of topics — the author steps out</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S20" onclick="flashFullText(this)">
+<p><strong><code>But as it is inexpedient to burden the reader by mixing up a variety of topics, I do not now dwell on this one.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>expedient</em> &lt; <em>ex-</em> + <em>pes, pedis</em> (foot) → <em>expedite, impede, pedal</em> — literally <em>getting the foot out of a snare</em>; <em>burden</em> &lt; OE <em>byrþen</em> &lt; <em>beran</em> (to bear) → <em>bear, birth, bier</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>it is inexpedient to V</em> = it is not helpful to V; <em>mix up X</em> = jumble X together; <em>dwell on X</em> = linger over X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But since it is unhelpful to burden the reader by jumbling a variety of topics together, I will not linger over this one now.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>inexpedient</b> → unhelpful</li><li><b>mixing up a variety of topics</b> → jumbling a variety of topics together</li><li><b>dwell on this one</b> → linger over this one.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S21" id="S21"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S21</span><span class="stars s2" title="2-star">★★</span><span class="s-label">whatever offices of piety are bestowed anywhere else than on God alone, are of the nature of sacrilege — the verdict</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S21" onclick="flashFullText(this)">
+<p><strong><code>Let it suffice to remember, that whatever offices of piety are bestowed anywhere else than on God alone, are of the nature of sacrilege.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>Let it suffice to remember**</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>whatever</b> offices of piety <b>are bestowed</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">anywhere else than on God alone</span></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>are of the nature of</b> sacrilege</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>office</em> &lt; <em>opus</em> (work) + <em>facere</em> (to do) → <em>officious, official</em> — a duty performed; <em>sacrilege</em> &lt; <em>sacrum</em> (holy thing) + <em>legere</em> (to gather, pick up) → <em>collect, legend, elect</em> — the picker-up of sacred things, i.e. a temple-thief; <em>bestow</em> &lt; <em>be-</em> + <em>stow</em> (a place) — literally <em>to put in place</em>; <em>suffice</em> &lt; <em>sub-</em> + <em>facere</em> → <em>sufficient, suffix</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>let it suffice to V</em> = let it be enough to V; <em>offices of piety</em> = the duties piety owes; <em>bestow X on Y</em> = confer X upon Y; <em>anywhere else than on X</em> = anywhere other than on X; <em>be of the nature of X</em> = be X in kind.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Let it be enough to remember that any duty of piety paid anywhere other than to God alone is a kind of sacrilege.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Let it suffice to remember, that</b> → Let it be enough to remember that</li><li><b>offices of piety</b> → duty of piety</li><li><b>bestowed anywhere else than on God alone</b> → paid anywhere other than to God alone</li><li><b>of the nature of sacrilege</b> → a kind of sacrilege.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S22" id="S22"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S22</span><span class="stars s2" title="2-star">★★</span><span class="s-label">ambition which, decking man in the spoils of God, dared to profane all that was sacred — the genealogy, stage one</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S22" onclick="flashFullText(this)">
+<p><strong><code>First, superstition attached divine honours to the sun and stars, or to idols: afterwards ambition followed—ambition which, decking man in the spoils of God, dared to profane all that was sacred.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>First<b>, superstition </b>attached** divine honours</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to the sun and stars, or to idols</span></li></ul></li></ul></li><li><span class="leaf"><b>afterwards</b> ambition <b>followed</b> —</span></li><li><span class="leaf">ambition.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>which</b>, <b>dared to profane</b> all</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>decking</b> man in the spoils of God</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> was sacred</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>ambition</em> &lt; <em>ambire</em> (to go around, canvass for votes) → <em>ambient, ambit</em> — the Roman candidate's round of the forum, hence the appetite for honour; <em>spoil</em> &lt; <em>spolium</em>, hide stripped from an animal, then plunder → <em>spoliation, despoil</em>; <em>deck</em> &lt; Dutch <em>dekken</em> (to cover) → <em>deck (of a ship), thatch</em>; <em>profane</em> &lt; <em>pro-</em> + <em>fanum</em> (temple) — see S10.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>attach X to Y</em>; <em>first … afterwards …</em>; <em>deck X in Y</em> = dress X up in Y; <em>the spoils of X</em> = plunder taken from X; <em>dare to V</em>; <em>all that was sacred</em> = everything holy.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">First, superstition fastened divine honours onto the sun and the stars, or onto idols; then came ambition — ambition which, dressing man up in plunder taken from God, dared to profane everything holy.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>attached … to</b> → fastened … onto</li><li><b>afterwards ambition followed</b> → then came ambition</li><li><b>decking man in the spoils of God</b> → dressing man up in plunder taken from God</li><li><b>all that was sacred</b> → everything holy.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S23" id="S23"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S23</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">so prone is the descent to this vice — the inverted exclamation that ends the chapter</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S23" onclick="flashFullText(this)">
+<p><strong><code>And though the principle of worshipping a supreme Deity continued to be held, still the practice was to sacrifice promiscuously to genii and minor gods, or departed heroes: so prone is the descent to this vice of communicating to a crowd that which God strictly claims as his own peculiar right!</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf"><b> `</b>And though** the principle continued to be held</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of worshipping a supreme Deity</span></li></ul></li></ul></li><li><span class="leaf"><b>still</b> the practice was</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">to sacrifice</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">promiscuously</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to genii and minor gods, or departed heroes</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab ph">결과절 (so…that)</span><span class="leaf"><b>so prone is the descent</b> <b>!</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to this vice</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of <b>communicating</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">to a crowd</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that which</b> God strictly claims as his own peculiar right</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>prone</em> &lt; <em>pronus</em> (leaning forward, sloping) → <em>prone, proclivity</em> (<em>pro-clivus</em>, a slope forward); <em>descent</em> &lt; <em>de-</em> + <em>scandere</em> (to climb) → <em>ascend, scale, echelon</em>; <em>communicate</em> &lt; <em>communis</em> (<em>com-</em> + <em>munus</em>, a shared duty/gift) → <em>common, community, immune</em> (<em>im-munis</em>, exempt from duty), <em>municipal</em>; <em>peculiar</em> &lt; <em>peculium</em> (private property) &lt; <em>pecu</em> (cattle) → <em>pecuniary</em> — wealth was cattle; <em>genius/genii</em> &lt; <em>gignere</em> (to beget) → <em>genus, generate, ingenious</em> — the begetting spirit attached to a person or place.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>though … still …</em> = although … nevertheless; <em>continue to be held</em> = go on being maintained; <em>sacrifice to X</em>; <em>so ADJ is the N</em> (inversion) = the N is so ADJ; <em>be prone to X</em> = be inclined/tilted toward X; <em>communicate X to Y</em> = share X out among Y; <em>claim X as one's own</em> = assert a title to X; <em>peculiar right</em> = exclusive right.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And although the principle of worshipping one supreme God went on being held, the practice was still to sacrifice indiscriminately to guardian spirits and lesser gods, or to dead heroes — that is how steeply the ground slopes down to this vice of sharing out among a crowd what God strictly claims as his own exclusive right!</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>still the practice was to sacrifice promiscuously</b> → the practice was still to sacrifice indiscriminately</li><li><b>genii and minor gods, or departed heroes</b> → guardian spirits and lesser gods, or dead heroes</li><li><b>so prone is the descent</b> → that is how steeply the ground slopes down</li><li><b>communicating to a crowd that which</b> → sharing out among a crowd what</li><li><b>his own peculiar right</b> → his own exclusive right.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — degree + result with a negative inside: <code>so … as (not) to V</code> (S7, S12, S15)</h3><pre><code>   BASE          S + V + so + ADJ/ADV + as to V        = to such a degree that S V-s
+                 so far forgotten himself AS TO HAVE INTENDED …        (S7)
+
+   NEG-RESULT    S + V + so + ADJ/ADV + AS NOT TO V    = precisely enough to avoid V-ing
+                 distinguish so accurately AS NOT TO transfer
+
+   + NEG MATRIX  S + did NOT + … so little … AS NOT TO V   →  POSITIVE
+                 "had NOT made SO LITTLE progress AS NOT TO confine"   (S12)
+                 = he DID confine.                      [3 negatives → affirmative]
+
+   + NEVER       S + NEVER + … so … AS NOT TO V          →  "S ALWAYS V-s"
+                 "men NEVER distinguish so accurately AS NOT TO transfer"  (S15)
+                 = they ALWAYS transfer.
+
+   TENSE NOTE    as to HAVE INTENDED  ≠  as to intend
+                 perfect infinitive = time PRIOR to the main verb (S7)
+</code></pre><p>⚠️ <strong>Traps.</strong> (a) Never merge <code>never</code> with <code>not to</code> — they negate different things (the <em>degree</em>, and the <em>avoided result</em>). (b) <code>so little X as not to Y</code> under a negated matrix comes out <strong>affirmative</strong>; count on paper before you translate. (c) After <code>so … as</code>, use <strong><code>as to V</code></strong>, not <em>that to V</em> and not <em>so as for V-ing</em>. (d) The perfect infinitive is not decorative — flatten it and you shift the timeline.</p><p><strong>Transformation drill.</strong> <em>루터는 그 구별을 알아보지 못할 만큼 무지하지 않았다. 그러나 사람들은 결코 그 선을 지킬 만큼 정확히 구별하지 못한다.</em></p><blockquote>
+<p><strong>Model:</strong> <em>Luther had not made so little progress in learning as not to recognise the distinction. But men never distinguish so accurately as not to lose the line.</em>
+<strong>채점 포인트:</strong> <code>not … so little … as not to</code> must produce a <strong>positive</strong> claim about Luther; <code>never … so … as not to</code> must produce a <strong>universal negative</strong> about men; both keep <code>as **to**</code>, not <em>that</em>.</p>
+</blockquote><h3>Formula 2 — the <code>should</code> family, and negative purpose (S8, S19; with S16's <code>without</code> + gerund)</h3><pre><code>   PUTATIVE      It is impossible / strange / natural  THAT  S  SHOULD (NOT) V
+                 "impossible that a worship … SHOULD NOT SAVOUR somewhat of …"  (S8)
+                 ⚠️ should ≠ ought to.  It marks the clause as ENTERTAINED, not commanded.
+                 impossible that … should NOT V   =   it NECESSARILY DID V
+
+   NEG-PURPOSE   … , LEST  S  SHOULD V        = so that S may NOT V
+                 "LEST any SHOULD allow themselves to devise a worship of their own"  (S19)
+                 ⚠️ lest ALREADY contains the negative → NEVER "lest … not"
+                 also: lest he FORGET (bare subjunctive) = lest he should forget
+
+   ABSOLUTE      NP + being + that-clause                   = the reason for this being that…
+                 "the reason BEING, that he might have nothing in common with idols"  (S17)
+
+   WITHOUT       … WITHOUT V-ing  = with the inseparable consequence of V-ing
+                 "could not … WITHOUT DEROGATING from the glory of God"      (S8)
+                 "can never appropriate … WITHOUT RETAINING what is his due"  (S16)
+                 ⚠️ retaining here = re-tinere, HOLDING BACK from him
+</code></pre><p>⚠️ <strong>Traps.</strong> (a) Three <code>should</code>s in one week — <strong>putative</strong> (S8, stance), <strong>mandative</strong> (Day 72 <code>enjoins that … be</code>, command), <strong>negative-purpose</strong> (S19 <code>lest … should</code>). Name which one before you translate. (b) <code>impossible that … should not</code> cancels to a <strong>necessity</strong>, not to a doubt. (c) <code>without</code> + gerund states what unavoidably <em>accompanies</em> the act — it is not a condition you can satisfy.</p><p><strong>Transformation drill.</strong> <em>어떤 성인에게 바치는 기도도 신적 예배의 맛을 풍기지 않을 수 없었다. 그러므로 하나님은 아무도 자기 나름의 예배를 고안하지 못하도록 규칙을 정하셨다.</em></p><blockquote>
+<p><strong>Model:</strong> <em>It was impossible that any prayer offered to a saint should not savour somewhat of divine worship. God therefore prescribed a certain rule, lest any should devise a worship of his own.</em>
+<strong>채점 포인트:</strong> ① <code>impossible that … **should not** savour</code> — keep both negatives; <em>impossible that it savoured</em> loses the construction. ② <code>lest any **should** devise</code> — no <em>not</em>, and no <em>in order that … not to</em>. ③ <code>savour **of**</code> keeps its preposition.</p>
+</blockquote><h3>Formula 3 — moved parts: fronting, cleaving, inversion, and <code>that which</code> (S4, S5, S6, S15, S23)</h3><pre><code>   OBJECT FRONT  [OBJECT], … S + V(no object)          ← restore base order first
+                 "This superstition, (to which …,) HE CONDEMNS as much as if …"   (S4)
+                 "and HIM ONLY shalt thou serve"                                  (S5, AV)
+                 Diagnostic: a transitive verb with an EMPTY object slot = the seat.
+
+   PSEUDO-CLEFT  ALL (that) S V-ed + BE + X            = the only thing S V-ed was X
+                 "ALL that Satan asked WAS προσκύνησις"                            (S6)
+                 ⚠️ singular BE agrees with "all", not with what follows.
+
+   FREE RELATIVE THAT WHICH = what        (long form used at distance from its verb)
+                 "transfer … to the creature THAT WHICH belongs only to God"       (S15)
+                 "communicating to a crowd THAT WHICH God strictly claims"          (S23)
+
+   SO-INVERSION  SO + ADJ + BE + SUBJECT                = the subject is so ADJ
+                 "SO PRONE IS THE DESCENT to this vice …!"                          (S23)
+                 ⚠️ NOT "so prone the descent is"; the fronted degree phrase FORCES inversion.
+
+   COUNTERFACT.  … AS MUCH AS IF + S + HAD + p.p.       = just as much as he would have if …
+                 "he condemns … AS MUCH AS IF he HAD GIVEN it the name of λατρια"   (S4)
+</code></pre><p>⚠️ <strong>Traps.</strong> (a) A fronted object is not a subject — find the verb with the empty slot. (b) <code>all that … was</code> takes a <strong>singular</strong> verb. (c) <code>so + ADJ</code> at the front of a clause <strong>requires</strong> inversion; leaving S–V order is the classic underline error. (d) <code>as much as if</code> + past perfect is a <strong>counterfactual</strong>, not a comparison of two real things.</p><p><strong>Transformation drill.</strong> <em>이 관습을, 교부들이 관용이라 부르는 이 관습을, 그는 우상숭배라 불렀을 경우와 똑같이 정죄한다. 사탄이 요구한 전부는 절 한 번이었다. 이 악덕으로 기우는 경사가 참으로 가파르다!</em></p><blockquote>
+<p><strong>Model:</strong> <em>This custom, to which the fathers give the name of indulgence, he condemns as much as if he had called it idolatry. All that Satan asked was a single bow. So steep is the descent to this vice!</em>
+<strong>채점 포인트:</strong> ① the object <code>This custom</code> must be <strong>fronted</strong>, with <code>he condemns</code> following and <strong>no object after the verb</strong>. ② <code>as much as if he **had** called</code> — past perfect, counterfactual. ③ <code>All that Satan asked **was**</code> — singular. ④ <code>So steep **is the descent**</code> — inversion; <em>So steep the descent is</em> scores zero.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (어원 후킹)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>lay aside X</strong></td>
+<td>set X aside, drop X</td>
+<td>The opening gesture: two days of <em>subtleties</em> swept off the table. (제쳐 두다)</td>
+</tr>
+<tr>
+<td><strong>subtleties</strong> ⚠️</td>
+<td>over-fine distinctions, quibbles</td>
+<td><em>sub-</em> + <em>tela</em> (under the web) → <em>textile, text</em>. §1's word, now pejorative. (궤변·잔재주)</td>
+</tr>
+<tr>
+<td><strong>examine</strong></td>
+<td>weigh, look into</td>
+<td><em>examen</em>, the tongue of a <strong>balance</strong> — §2's <em>moment</em> continued. (따져 보다)</td>
+</tr>
+<tr>
+<td><strong>the thing</strong></td>
+<td><em>res</em>, the substance</td>
+<td>Third day running: §1 <code>mere name</code>, §2 <code>not the word, but the thing</code>, §3 opens with it. (실체)</td>
+</tr>
+<tr>
+<td><strong>remind X of Y</strong></td>
+<td>bring Y back to X's mind</td>
+<td>⚠️ <em>of</em>, never <em>to X</em>. (X에게 Y를 상기시키다)</td>
+</tr>
+<tr>
+<td><strong>do service unto</strong></td>
+<td>δουλεύω, serve (cultically)</td>
+<td>Gal. 4:8 — <strong>the δουλεία word used of idolatry</strong>. Exhibit 1. (섬기다)</td>
+</tr>
+<tr>
+<td><strong>which</strong> (of persons) ⚠️</td>
+<td>who</td>
+<td><em>Our Father which art in heaven</em> — period usage, <strong>not</strong> an error. (~하는 이들)</td>
+</tr>
+<tr>
+<td><strong>by nature</strong></td>
+<td>φύσει, in their very being</td>
+<td>Dative of respect. Not <em>usually</em>. (본성상)</td>
+</tr>
+<tr>
+<td><strong>excusable</strong> ⚠️</td>
+<td>defensible, able to be excused</td>
+<td><em>ex-causa</em>, to take out of the case. Legal register. (변명될 수 있는)</td>
+</tr>
+<tr>
+<td><strong>as much as if</strong></td>
+<td>just as much as (he would have) if</td>
+<td>+ past perfect = counterfactual. (~했을 경우와 똑같이)</td>
+</tr>
+<tr>
+<td><strong>condemn</strong></td>
+<td>pronounce sentence on</td>
+<td><em>con-</em> + <em>damnare</em> (to fine) → <em>damn, damage, indemnity</em>. (정죄하다)</td>
+</tr>
+<tr>
+<td><strong>repel</strong></td>
+<td>drive back</td>
+<td><em>re-pellere</em> → <em>compel, expel, pulse</em>. Military, not conversational. (물리치다)</td>
+</tr>
+<tr>
+<td><strong>insulting</strong> ⚠️</td>
+<td>insolent, contemptuous</td>
+<td><em>in-saltare</em>, to <strong>leap upon</strong> → <em>assault, salient</em>. Stronger than modern <em>rude</em>. (모욕적인·오만한)</td>
+</tr>
+<tr>
+<td><strong>there is no question of X</strong> ⚠️⚠️</td>
+<td>X is not at issue at all</td>
+<td>NOT "there is no doubt." Fr. <em>il n'est pas question de</em>. Day's #2 word trap. (X는 논점이 아니었다)</td>
+</tr>
+<tr>
+<td><strong>προσκύνησις / προσκυνεῖν</strong></td>
+<td>obeisance / to do obeisance</td>
+<td>πρός + κυνέω, <strong>to kiss toward</strong>; Lat. <em>adoratio</em> &lt; <em>ad os</em> — same gesture, two languages. (부복·절)</td>
+</tr>
+<tr>
+<td><strong>obeisance</strong></td>
+<td>a bow, prostration</td>
+<td>OFr <em>obeissance</em> = obedience — the bow that shows you obey. (경배의 절)</td>
+</tr>
+<tr>
+<td><strong>rebuke</strong></td>
+<td>reprove sharply</td>
+<td>OFr <em>rebuchier</em>, to beat back. (책망하다)</td>
+</tr>
+<tr>
+<td><strong>forget oneself</strong> ⚠️</td>
+<td>lose one's self-command</td>
+<td>Idiom of self-possession, <strong>not</strong> memory. (자제를 잃다)</td>
+</tr>
+<tr>
+<td><strong>so far … as to V</strong></td>
+<td>to such a degree as to V</td>
+<td>With <strong>perfect</strong> infinitive = prior time (S7). (~할 정도로)</td>
+</tr>
+<tr>
+<td><strong>due to X</strong></td>
+<td>owed to X</td>
+<td><em>debere</em> → <em>debt, duty</em>. The chapter's debt image. (X에게 마땅히 돌아갈)</td>
+</tr>
+<tr>
+<td><strong>savour of X</strong> ⚠️</td>
+<td>taste of, smack of X</td>
+<td><em>sapere</em> (to taste) → <em>sapient, insipid, sage</em>. NOT <em>enjoy</em>. (~의 냄새를 풍기다)</td>
+</tr>
+<tr>
+<td><strong>somewhat</strong></td>
+<td>to some degree</td>
+<td>Adverb. The modest claim that does the most damage. (다소)</td>
+</tr>
+<tr>
+<td><strong>derogate from X</strong> ⚠️</td>
+<td>detract from, subtract from X</td>
+<td><em>de-rogare</em>, <strong>to repeal part of a law</strong> → <em>abrogate, prerogative</em>. Roman law. (~을 훼손하다)</td>
+</tr>
+<tr>
+<td><strong>True, … but …</strong></td>
+<td>granted … but</td>
+<td>One-word concession adverbial. (물론 ~이지만)</td>
+</tr>
+<tr>
+<td><strong>if I may so speak</strong></td>
+<td>so to speak</td>
+<td><em>ut ita loquar</em> — flags a coined term of art. (말하자면)</td>
+</tr>
+<tr>
+<td><strong>civil honour</strong> ⚠️⚠️</td>
+<td>honour paid in the civil order</td>
+<td><em>civis</em>, citizen. Calvin's escape valve — day's #1 <strong>scope</strong> trap. (사회적 예의)</td>
+</tr>
+<tr>
+<td><strong>the moment (that) S V-s</strong></td>
+<td>as soon as</td>
+<td>Bare NP as conjunction. Instantaneous, no interval. (~하는 순간)</td>
+</tr>
+<tr>
+<td><strong>conjoined with</strong></td>
+<td>joined to</td>
+<td><em>con-</em> + <em>jungere</em> (to yoke) → <em>junction, conjugal</em>. (~와 결합된)</td>
+</tr>
+<tr>
+<td><strong>carry X along with it</strong></td>
+<td>bring X inseparably</td>
+<td>⚠️ §1 S1 used it of <em>worship</em>; here of <em>profanation</em>. Same idiom, both ends of ch. 12. (X를 필연적으로 수반하다)</td>
+</tr>
+<tr>
+<td><strong>profanation</strong></td>
+<td>making common what is holy</td>
+<td><em>pro-fanum</em>, <strong>in front of</strong> (i.e. outside) the temple. (신성모독)</td>
+</tr>
+<tr>
+<td><strong>make progress in X</strong></td>
+<td>advance in X</td>
+<td><em>pro-gradi</em> → <em>grade, gradual, congress</em>. (~에서 진보하다)</td>
+</tr>
+<tr>
+<td><strong>not so little … as not to</strong> ⚠️⚠️</td>
+<td>enough … to</td>
+<td>S12: three negatives → <strong>affirmative</strong>. Day's #1 grammar trap. (~하지 못할 만큼 모자라지는 않았다)</td>
+</tr>
+<tr>
+<td><strong>confine X to Y</strong></td>
+<td>restrict X to Y</td>
+<td><em>con-</em> + <em>finis</em> (boundary) → <em>finish, define</em>. §1's <code>within due bounds</code>. (X를 Y에 한정하다)</td>
+</tr>
+<tr>
+<td><strong>prostrate oneself</strong></td>
+<td>throw oneself down</td>
+<td><em>pro-sternere</em> (to spread out flat) → <em>stratum, street, consternation</em>. (엎드리다)</td>
+</tr>
+<tr>
+<td><strong>with the intention of V-ing</strong></td>
+<td>meaning to V</td>
+<td>⚠️ <em>of</em> + gerund, like §2's <code>for the purpose of</code>. (~할 의도로)</td>
+</tr>
+<tr>
+<td><strong>And why, but just because</strong></td>
+<td>and for what reason, except simply because</td>
+<td>Self-answering question; two ellipses in five words. (그 이유가 무엇이겠는가, 다만 ~때문이다)</td>
+</tr>
+<tr>
+<td><strong>distinguish between A and B</strong></td>
+<td>tell A and B apart</td>
+<td>⚠️ <em>between … and</em>, both members. (A와 B를 구별하다)</td>
+</tr>
+<tr>
+<td><strong>accurately</strong></td>
+<td>with care, precisely</td>
+<td><em>ad-cura</em> → <em>cure, curator, secure</em> (<em>se-cura</em>). A failure of <strong>care</strong>. (정확히)</td>
+</tr>
+<tr>
+<td><strong>never … so … as not to</strong> ⚠️⚠️</td>
+<td>never precisely enough to avoid</td>
+<td>= they <strong>always</strong> do it. Formula 1's hardest face. (결코 ~하지 않을 만큼 ~하지는 못한다)</td>
+</tr>
+<tr>
+<td><strong>promiscuously</strong> ⚠️</td>
+<td>indiscriminately, without sorting</td>
+<td><em>pro-miscere</em>, to mix thoroughly. <strong>No sexual sense.</strong> = §2's <code>without distinction</code>. (무분별하게)</td>
+</tr>
+<tr>
+<td><strong>that which</strong></td>
+<td>what</td>
+<td>Long-form free relative, used at distance from its verb. (~하는 것)</td>
+</tr>
+<tr>
+<td><strong>if we would have X</strong> ⚠️</td>
+<td>if we wish to have X</td>
+<td>Volitional <em>would</em>, not conditional. (X를 원한다면)</td>
+</tr>
+<tr>
+<td><strong>appropriate</strong> (v.) ⚠️</td>
+<td>take to oneself as one's own</td>
+<td><em>ad-</em> + <em>proprius</em> → <em>property, propriety</em>. NOT the adjective. (제 것으로 취하다)</td>
+</tr>
+<tr>
+<td><strong>the minutest portion</strong></td>
+<td>the smallest share</td>
+<td><em>minuere</em> (to lessen) → <em>diminish, minus, minister</em>. Argument at the margin. (가장 작은 부분)</td>
+</tr>
+<tr>
+<td><strong>retaining</strong> ⚠️⚠️</td>
+<td><strong>holding back, withholding (from him)</strong></td>
+<td><em>re-tinere</em> = hold <strong>back</strong>. Day's #1 word trap — modern <em>keep</em> reverses the argument. (움켜쥐어 못 드림)</td>
+</tr>
+<tr>
+<td><strong>what is his due</strong></td>
+<td>what is owed to him</td>
+<td>The debt chain: §1 <code>duly</code>, §2 <code>pay</code>, S7 <code>due to</code>, S16 <code>his due</code>. (그에게 마땅한 것)</td>
+</tr>
+<tr>
+<td><strong>discourse concerning X</strong></td>
+<td>speak about X</td>
+<td><em>dis-currere</em>, to run about → <em>cursive, course</em>. (X에 관해 말하다)</td>
+</tr>
+<tr>
+<td><strong>the repairing of the Church</strong> ⚠️</td>
+<td>its <strong>restoration</strong></td>
+<td><em>re-parare</em> (to make ready again) → <em>prepare, apparatus</em>. Not mending a wall. (교회의 회복)</td>
+</tr>
+<tr>
+<td><strong>the reason being, that</strong></td>
+<td>the reason for this being that</td>
+<td>Nominative absolute. (그 이유인즉)</td>
+</tr>
+<tr>
+<td><strong>have nothing in common with X</strong></td>
+<td>share nothing with X</td>
+<td>The chapter's negative definition of monotheism. (X와 아무 공통점이 없다)</td>
+</tr>
+<tr>
+<td><strong>in its own place</strong></td>
+<td>in its proper place (later)</td>
+<td><em>suo loco</em> — Book 2, cc. 7–8. Third deferral in three days. (제자리에서)</td>
+</tr>
+<tr>
+<td><strong>be pleased to V</strong></td>
+<td>see fit to V</td>
+<td><em>placuit ei</em> — sovereign good pleasure, not enjoyment. (기꺼이 ~하시다)</td>
+</tr>
+<tr>
+<td><strong>a certain rule</strong> ⚠️</td>
+<td>a <strong>definite</strong>, fixed rule</td>
+<td><em>certus</em>. Not "some rule or other." (일정한 규칙)</td>
+</tr>
+<tr>
+<td><strong>lest S should V</strong> ⚠️</td>
+<td>so that S may not V</td>
+<td>OE <em>þȳ lǣs þe</em>. <strong>Never</strong> <em>lest … not</em>. (~하지 않도록)</td>
+</tr>
+<tr>
+<td><strong>devise</strong></td>
+<td>contrive, invent</td>
+<td><em>dividere</em> → <em>device, division</em>. §2's <code>invented</code> in a second coat. (고안하다)</td>
+</tr>
+<tr>
+<td><strong>inexpedient</strong> ⚠️</td>
+<td>not advantageous, unhelpful</td>
+<td><em>ex-pedire</em>, <strong>to free the foot</strong> → <em>expedite, impede, pedal</em>. Not <em>improper</em>. (득이 되지 않는)</td>
+</tr>
+<tr>
+<td><strong>dwell on X</strong></td>
+<td>linger over X</td>
+<td>(X를 길게 다루다)</td>
+</tr>
+<tr>
+<td><strong>let it suffice to V</strong></td>
+<td>let it be enough to V</td>
+<td><em>sub-facere</em>, to make up from underneath. A summary marker. (~하는 것으로 족하다)</td>
+</tr>
+<tr>
+<td><strong>offices of piety</strong> ⚠️</td>
+<td>the duties piety owes</td>
+<td><em>officium</em> = duty. Not buildings, not ranks. (경건의 의무들)</td>
+</tr>
+<tr>
+<td><strong>bestow X on Y</strong></td>
+<td>confer X upon Y</td>
+<td><em>be-</em> + <em>stow</em> (a place) — literally <em>to put in place</em>. (X를 Y에게 바치다)</td>
+</tr>
+<tr>
+<td><strong>of the nature of sacrilege</strong> ⚠️</td>
+<td>sacrilege <strong>in kind</strong></td>
+<td><em>sacrum</em> + <em>legere</em>, to pick up sacred things = <strong>temple-robbery</strong>. (신성모독에 속하는)</td>
+</tr>
+<tr>
+<td><strong>attach X to Y</strong></td>
+<td>fasten X onto Y</td>
+<td><em>ad-</em> + <em>tache</em> (a nail) → <em>attack, detach, stake</em>. (X를 Y에 붙이다)</td>
+</tr>
+<tr>
+<td><strong>ambition</strong></td>
+<td>the appetite for honour</td>
+<td><em>ambire</em>, to <strong>go around canvassing</strong> for votes → <em>ambient, ambit</em>. The Roman candidate. (야망)</td>
+</tr>
+<tr>
+<td><strong>the spoils of God</strong> ⚠️</td>
+<td>plunder taken from God</td>
+<td><em>spolium</em>, hide stripped from a beast → <em>despoil</em>. A battlefield word. (하나님에게서 빼앗은 전리품)</td>
+</tr>
+<tr>
+<td><strong>deck X in Y</strong></td>
+<td>dress X up in Y</td>
+<td>Dutch <em>dekken</em>, to cover → <em>deck of a ship</em>. (X를 Y로 치장하다)</td>
+</tr>
+<tr>
+<td><strong>profane</strong> (v.)</td>
+<td>treat as common</td>
+<td>See <em>profanation</em> (S10). (더럽히다)</td>
+</tr>
+<tr>
+<td><strong>genii</strong> ⚠️</td>
+<td>tutelary spirits</td>
+<td>Lat. <em>genius</em>, pl. <em>genii</em> &lt; <em>gignere</em> (to beget) → <em>genus, generate</em>. <strong>Not</strong> <em>geniuses</em>. (수호신들)</td>
+</tr>
+<tr>
+<td><strong>departed heroes</strong></td>
+<td>deified dead men</td>
+<td>§2's <code>dead men</code> in pagan dress. (신격화된 죽은 영웅들)</td>
+</tr>
+<tr>
+<td><strong>prone</strong> ⚠️</td>
+<td>inclined, sloping downward</td>
+<td><em>pronus</em>, leaning forward → <em>proclivity</em> (<em>pro-clivus</em>, a slope). The <strong>ground tilts</strong>. (기울어진)</td>
+</tr>
+<tr>
+<td><strong>descent</strong></td>
+<td>the slope down</td>
+<td><em>de-scandere</em> → <em>ascend, scale, echelon</em>. (내리막)</td>
+</tr>
+<tr>
+<td><strong>communicate X to Y</strong> ⚠️</td>
+<td>share X out among Y</td>
+<td><em>communis</em> (<em>com-</em> + <em>munus</em>, a shared duty) → <em>community, immune, municipal</em>. Not "inform." (X를 Y에게 나눠 주다)</td>
+</tr>
+<tr>
+<td><strong>a crowd</strong></td>
+<td>the multitude (of minor deities)</td>
+<td>Set against S17's <em>one God, one name</em>. The chapter's arithmetic. (무리)</td>
+</tr>
+<tr>
+<td><strong>peculiar right</strong> ⚠️⚠️</td>
+<td>right belonging <strong>exclusively</strong> to him</td>
+<td><em>peculium</em>, private property &lt; <em>pecu</em> (cattle) → <em>pecuniary</em>. The chapter title in a phrase. (그분만의 고유한 권리)</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>Where we are, and what closes today.</strong> Chapter 12 has three sections and today finishes it. §1 (Day 72) built the <strong>rule</strong>: <code>unless everything peculiar to divinity is confined to God alone, he is robbed of his honour</code>. §2 (Day 73) took up the <strong>evasion</strong> — the <em>dulia/latria</em> distinction — and beat it on its own terms. §3 sweeps the terms away (<code>Laying aside subtleties</code>) and brings <strong>Scripture</strong>. Notice that the chapter is deliberately <strong>negative</strong> throughout: three times now Calvin has deferred the positive doctrine of worship to Book 2 (§1 twice, S18 today). Chapter 12's whole job is to establish that the unity of God is not a numeral but an <strong>exclusive right of worship</strong> — which is exactly the premise Chapter 13 will have to hold on to while saying <em>one essence, three persons</em>.</p><p><strong>The method: four refusals with innocent intentions.</strong> Read the exhibits as a set and the design is unmistakable. Gal. 4:8 — Paul names pagan cult with the <strong>δουλεία</strong> word, the very word the defence claims is safe (S2–S4). Mt. 4:10 — Satan asked only for <strong>προσκύνησις</strong>, and Christ answered with the <strong>λατρεύσεις</strong> commandment (S5–S6). Rev. 19:10; 22:8–9 — John's intention was not to give an angel God's honour, and the angel stopped him anyway (S7–S8). Acts 10:25 — Cornelius' theology was sound, and Peter <code>sternly forbids him</code> (S11–S14). Three of the four turn on <strong>intention being irrelevant</strong>, and that is the argumentative point of the whole section: the <em>dulia/latria</em> scheme is a scheme about <strong>what you mean</strong>, and Calvin's exhibits are all cases where meaning well did not help.</p><p><strong>Why Exhibit 2 is aimed where it is.</strong> Yesterday's Period 6 gave you the conciliar background: Nicaea II (787) authorised images by grading the vocabulary — τιμητικὴ προσκύνησις (honorific veneration) for images and saints, ἀληθινὴ λατρεία (true worship) for God alone, following John of Damascus, who had sorted προσκύνησις into an absolute kind owed to God and relative kinds owed to what is connected with him. Now look at what Calvin does today. He picks the one narrative in the Gospels where the request on the table is <strong>exactly</strong> προσκύνησις and <strong>not</strong> λατρεία — and shows that Christ refused it with the λατρεία text. That is not a general appeal to Scripture; it is a strike at the precise word the council used. The same for John: the angel refuses <strong>προσκύνησις</strong> (Rev. 19:10, καὶ ἔπεσα ἔμπροσθεν τῶν ποδῶν αὐτοῦ <strong>προσκυνῆσαι</strong> αὐτῷ … ὅρα μή), and answers with <strong>σύνδουλός σού εἰμι</strong> — <em>I am thy fellow-</em><em>servant</em>**, the δοῦλος root inside the refusal. Calvin never cites Nicaea II here. He does not have to; his reader knows which vocabulary is being dismantled.</p><p><strong>The guardrail Calvin builds himself: <code>civil honour</code> (S9–S10).</strong> This is the most important qualification in the section, and it is the one students skip. Scripture is full of people bowing to people — Abraham to the children of Heth (Gen. 23:7), David to Saul (1 Sam. 24:8), the woman of Tekoa to David (2 Sam. 14:4), Bathsheba to the king (1 Kgs. 1:16) — with the same Hebrew verb (הִשְׁתַּחֲוָה, <em>hishtaḥawah</em>) and the same Greek verb (προσκυνέω) used elsewhere of worshipping God. If Calvin's rule were <em>never bow to a creature</em>, the Bible refutes him immediately. So the line is drawn not at the <strong>posture</strong> and not at the <strong>intention</strong> but at the <strong>sphere</strong>: <code>the moment it is conjoined with worship</code>. Honour inside the civil order is lawful; honour inside the religious order is God's alone. Hold that limit, because without it Calvin's argument becomes the absurdity his opponents accused him of, and with it his position is coherent and narrow. (It is also why later Reformed conscience-cases about kneeling and doffing hats had to be argued case by case: everything turns on whether the act is <em>conjoined with worship</em>, and that is a judgement, not a rule.)</p><p><strong>S19 and the seed of the regulative principle.</strong> <code>He has been pleased to prescribe in his Law what is lawful and right, and thus restrict men to a certain rule, **lest any should allow themselves to devise a worship of their own**.</code> That sentence, with §1's <code>it is designed as a bridle to curb men</code> and I.4.3's <code>whatever they themselves devise</code>, is the root of what later Reformed theology systematised as the <strong>regulative principle of worship</strong> — worship is to be shaped by what God has commanded, not by what seems fitting to us — and it is stated in the Westminster Confession (21.1) as the rule that acceptable worship is <code>instituted by himself</code> and <code>limited by his own revealed will</code>. Calvin's own priority is on record: in <em>The Necessity of Reforming the Church</em> (1543) he put the <strong>mode of worship</strong> first among the things at stake in the Reformation, before justification. Read S19 as the hinge between doctrine and church practice, and Chapter 12 stops being an abstract argument about words.</p><p><strong>The genealogy in S22–S23, and the limit on it.</strong> The two-stage story — first the heavenly bodies and images, then <strong>ambition</strong> and the deified dead — is a version of <strong>euhemerism</strong>, the ancient theory (from Euhemerus, c. 300 BC) that the gods were once men, transmitted to Latin readers by Cicero and by Lactantius. Those are the two authors Beveridge's footnote to §1 cites (<em>De Natura Deorum</em> II.28; <em>Divinae Institutiones</em> IV.28), and Calvin uses them the way he used Cicero on the <em>sensus divinitatis</em> in I.3 — as <strong>hostile or pagan witnesses</strong> whose own account of religion convicts it. The scriptural half of the picture is real enough: astral cult is condemned again and again (Deut. 4:19; 17:3; 2 Kgs. 17:16; 23:5; Jer. 8:2; Job 31:26–28), and the deuterocanonical Wisdom 14:15 gives the classic account of images born from grief for the dead. ⚠️ <strong>The guardrail:</strong> do not take S22–S23 as a documented history of religion. It is a <strong>theological</strong> reading of a tendency, and it is offered as one — the sentence ends not with evidence but with an exclamation about the slope: <code>so prone is the descent</code>. Modern study of ancient religion does not support a single descending sequence from star-worship to hero-cult; the pattern varies. What Calvin's genealogy <em>is</em> good for is the thing he actually claims: that the corruption is <strong>downhill and easy</strong>, which is S15 in the form of a landscape.</p><p><strong>How strong is the section, ranked honestly.</strong> (1) <strong>Mt. 4:10 / Rev. 19:10</strong> — the strongest, because they are cases where the <em>lower</em> act was requested or offered and was still refused, and Rome's own defence is built on exactly that grading. (2) <strong>S15's anthropology</strong> — that men never hold the line — is powerful and, notice, <strong>empirical</strong>: it can be granted by an opponent who then replies that abuse does not abolish use. (3) <strong>Gal. 4:8</strong> — a real point about biblical usage, but it proves that the words are not technical, which is a lexical result, and Calvin has already said the words are not the question. (4) <strong>Acts 10:25</strong> — the weakest as proof, because Peter's <code>I myself also am a man</code> (Acts 10:26) can be read as personal modesty rather than principle; Calvin's reading is defensible but not forced. Rome's answer, then and now, is the one from yesterday: <em>latria</em> is a <strong>stipulated</strong> term fixed by its <strong>object</strong> (the Creator as first principle), so ordinary usage cannot settle it, and the Council of Trent — Session 25, December 1563, four years after this text and months before Calvin's death — reaffirmed the invocation of saints and the honouring of images, as the current <em>Catechism</em> (§2132) still does. Quote Calvin's exhibits as exhibits, not as a knock-down.</p><p><strong>The bridge to tomorrow.</strong> Chapter 12 ends with God <code>strictly claim[ing]</code> his <code>own peculiar right</code>, and with S17's demand that he have <code>only one name</code>. Tomorrow, Chapter 13 §1 opens the longest and most technical chapter of Book 1 — the <strong>Trinity</strong> — and it must say <em>one essence, three persons</em> without giving anything back to the crowd. Watch how Calvin gets there: he begins from the <strong>immensity and spirituality</strong> of God, which is the same anti-idolatry argument carried one step further inward. The chapter you finish today is the floor the doctrine of the Trinity stands on.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li><strong>Gal. 4:8 — quoted in full (S2).</strong> ἀλλὰ τότε μὲν οὐκ εἰδότες θεὸν <strong>ἐδουλεύσατε</strong> τοῖς <strong>φύσει</strong> μὴ οὖσιν θεοῖς — <em>howbeit then, when ye knew not God, ye </em><em>did service</em><em> unto them which </em><em>by nature</em><em> are no gods</em>. Calvin's use: Exhibit 1, and it cashes the promissory note of §2 S5 (<code>the words are sometimes used in Scripture indiscriminately</code>). The Apostle labels <strong>idolatry itself</strong> with the δουλεία word. Note φύσει — not a lower grade of deity, but <strong>no gods at all</strong>.</li>
+<li><strong>Mt. 4:10, quoting Deut. 6:13 — quoted in full (S5).</strong> Ὕπαγε, Σατανᾶ· γέγραπται γάρ· <strong>Κύριον τὸν θεόν σου προσκυνήσεις καὶ αὐτῷ μόνῳ λατρεύσεις</strong>; Hebrew אֶת־יְהוָה אֱלֹהֶיךָ תִּירָא וְאֹתוֹ תַעֲבֹד. Calvin's use: Exhibit 2, and the sharpest. The <strong>exclusive</strong> word <code>only</code> is attached to the <strong>serve</strong> verb (λατρεύσεις; Vulg. <em>illi soli servies</em>), and Christ deploys it against a request for a mere <strong>bow</strong>. Yesterday's reversal (<code>to serve is something higher than to worship</code>) has its root here.</li>
+<li><strong>Rev. 19:10; 22:8–9 — cited (S7–S8).</strong> καὶ ἔπεσα ἔμπροσθεν τῶν ποδῶν αὐτοῦ <strong>προσκυνῆσαι</strong> αὐτῷ. καὶ λέγει μοι· <strong>ὅρα μή· σύνδουλός σού εἰμι</strong> … <strong>τῷ θεῷ προσκύνησον</strong> — <em>See thou do it not: I am thy </em><em>fellowservant</em><em> … </em><em>worship God</em><strong>. Calvin's use: Exhibit 3, and the reason <code>angels</code> came first in §2's <code>angels and dead men</code> — the New Testament supplies </strong>explicit refusals**, and a refusal outweighs an argument. The δοῦλος root sits inside the refusal itself.</li>
+<li><strong>Acts 10:25–26 — cited (S11–S14).</strong> πεσὼν ἐπὶ τοὺς πόδας <strong>προσεκύνησεν</strong> … ὁ δὲ Πέτρος ἤγειρεν αὐτὸν λέγων· <strong>ἀνάστηθι· καὶ ἐγὼ αὐτὸς ἄνθρωπός εἰμι</strong> — <em>Stand up; I myself also am a man</em>. Calvin's use: Exhibit 4, chosen because Cornelius is <strong>devout and well instructed</strong> (Acts 10:2) — S12's <code>not so little progress in piety</code>. Sound theology, innocent intention, and Peter refuses anyway.</li>
+<li><strong>Zech. 14:9 — paraphrased, no reference printed (S17).</strong> וְהָיָה יְהוָה לְמֶלֶךְ עַל־כָּל־הָאָרֶץ בַּיּוֹם הַהוּא יִהְיֶה <strong>יְהוָה אֶחָד וּשְׁמוֹ אֶחָד</strong> — <em>in that day shall there be </em><em>one LORD, and his name one</em><strong>. Calvin's use: Exhibit 5, and the only </strong>positive<strong> one. Monotheism is not a count but an </strong>exclusive name** — <code>that he might have nothing in common with idols</code>. Behind it stands the Shema, Deut. 6:4, יְהוָה אֱלֹהֵינוּ יְהוָה אֶחָד.</li>
+<li><strong>Exod. 20:3–5 — under <code>divine honours</code> and the whole argument (S16, S19, S21).</strong> לֹא־תִשְׁתַּחֲוֶה לָהֶם וְלֹא תָעָבְדֵם, LXX οὐ <strong>προσκυνήσεις</strong> αὐτοῖς οὐδὲ μὴ <strong>λατρεύσῃς</strong> αὐτοῖς — <em>thou shalt not bow down to them, nor serve them</em>. ⚠️ <strong>Both</strong> verbs, joined, forbidding <strong>both</strong> acts toward creatures. Calvin's use: the second commandment leaves no grade of honour open — which is why the Law is the <code>bridle</code> of §1 and the <code>certain rule</code> of S19.</li>
+<li><strong>Isa. 42:8 — under <code>derogating from the glory of God</code> and <code>the minutest portion</code> (S8, S16).</strong> אֲנִי יְהוָה הוּא שְׁמִי וּכְבוֹדִי לְאַחֵר לֹא־אֶתֵּן — <em>I am the LORD: that is my name: and my glory will I not give to another</em>. Calvin's use: the property claim underneath S16 and S23. Note that the verse joins <strong>name</strong> and <strong>glory</strong>, exactly as S17 joins one God and one name.</li>
+<li><strong>Gen. 23:7; 1 Sam. 24:8; 2 Sam. 14:4; 1 Kgs. 1:16 — under <code>civil honour</code> (S9).</strong> All use הִשְׁתַּחֲוָה / προσκυνέω of men bowing to men, with no censure. Calvin's use: <strong>the counter-evidence he raises against himself.</strong> These texts are why S9 exists, and why the line is drawn at <code>conjoined with worship</code> and not at the posture.</li>
+<li><strong>Deut. 4:19; 2 Kgs. 17:16; 23:5; Job 31:26–28 — under <code>the sun and stars</code> (S22).</strong> צְבָא הַשָּׁמַיִם, <em>the host of heaven</em>; and Job's oath — <em>if I beheld the sun when it shined … and my heart hath been secretly enticed</em>. Calvin's use: stage one of the genealogy is not invented; it is the Old Testament's own most frequent idolatry.</li>
+<li><strong>Rom. 1:23, 25 — under the descent of S22–S23.</strong> ἤλλαξαν τὴν δόξαν τοῦ ἀφθάρτου θεοῦ ἐν ὁμοιώματι εἰκόνος φθαρτοῦ ἀνθρώπου … <strong>ἐλάτρευσαν τῇ κτίσει παρὰ τὸν κτίσαντα</strong> — <em>worshipped and served the creature more than the Creator</em>. ⚠️ Paul uses the <strong>λατρεία</strong> verb of creature-worship, the mirror image of Gal. 4:8's δουλεία. Calvin's use: unstated here, but it is the engine of the closing sentence — the exchange of glory, and the slope.</li>
+<li><strong>Jas. 2:19; Ps. 96:5 — under <code>genii and minor gods</code> (S23).</strong> Not quoted; the frame is Scripture's flat refusal of a middle tier between the Creator and the creature. Calvin's use: the <code>crowd</code> of S23 has no ontological standing at all — which is Gal. 4:8's <code>by nature are no gods</code> returning at the end of the section that began with it.</li>
+</ol><p><strong>How Calvin uses Scripture here:</strong> by <strong>case law</strong>. §2 argued from definitions and from the fathers; §3 produces incidents — a rebuke, a refusal, a prohibition — and reads them as precedents. That is why the section keeps saying what people <em>did not intend</em> (S7, S13): in a case-law argument, the holding is what the court <strong>did</strong>, not what the parties meant. And the closing verdict, <code>of the nature of sacrilege</code> (S21), is a classification of an act, not an assessment of a heart.</p><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① Grammar — which underlined part is wrong?</h3><blockquote>
+<p>He ⓐ <strong>had not made so little progress in piety as not to confine</strong> supreme worship to God alone. For ⓑ <strong>all that Satan asked was προσκύνησις</strong>, and Christ still refused him. God has been pleased to prescribe in his Law what is lawful and right, ⓒ <strong>lest any should not allow themselves to devise</strong> a worship of their own. And though the principle of worshipping a supreme Deity continued to be held, ⓓ <strong>so prone is the descent</strong> to this vice of communicating to a crowd that which God strictly claims as his own.</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답 · Answer: ⓒ.</strong> <code>Lest</code> <strong>already contains the negative</strong> (= <em>for fear that … / so that … not</em>), so <code>lest any should **not** allow themselves to devise</code> says the opposite of what is meant — that God gave the Law so that people <em>would</em> invent their own worship. Correct: <code>lest any **should allow** themselves to devise a worship of their own</code>. ⓐ is Formula 1 at its hardest — <code>not … so little … as not to</code> — and it is <strong>right</strong>: three negatives resolving to <em>he did confine</em>. ⓑ is Formula 3's pseudo-cleft, and the <strong>singular</strong> <code>was</code> correctly agrees with <code>all</code>. ⓓ is Formula 3's inversion after a fronted <code>so + adjective</code>, which is <strong>obligatory</strong>, not optional. <strong>Exam-setter's rationale:</strong> yesterday's error was an <strong>absence</strong> (a dropped preposition); today's is an <strong>addition</strong> — one superfluous <code>not</code> hidden inside a sentence surrounded by three constructions that <em>look</em> wrong and are not. The lesson is the reverse of yesterday's: when a sentence is already dense with negatives, count them and cancel them; do not decide by ear. And know which words carry a negative inside them — <code>lest</code>, <code>unless</code>, <code>hardly</code>, <code>scarcely</code>, <code>deny</code>, <code>fail</code>, <code>little</code>.</p><h3>② Comprehension — which statement is TRUE according to the passage?</h3><p>(A) Cornelius' piety was still so undeveloped that he did not reserve supreme worship for God alone, and this is why Peter forbade him.
+(B) Calvin argues that Peter forbade Cornelius not because Cornelius meant to adore him in God's place, but because men never distinguish accurately enough between the worship of God and the creatures to avoid transferring to the creature what belongs only to God.
+(C) Calvin holds that every recorded instance in Scripture of men being bowed to is a violation of the honour due to God.
+(D) Calvin observes that Satan expressly demanded λατρεία from Christ, and that this is what made Christ's refusal absolute.</p><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답 · Answer: (B).</strong> S13 + S15 together: <code>he certainly does it **not** with the intention of adoring him instead of God</code> … <code>And why, but just because men **never** distinguish **so** accurately … **as not to** transfer promiscuously to the creature that which belongs only to God.</code> <strong>Exam-setter's rationale:</strong> (A) is the <strong>direction-flip</strong> on S12, and it is the single most productive wrong answer on this section — <code>had **not** made **so little** progress … **as not to** confine</code> means Cornelius <strong>did</strong> confine supreme worship to God; the option reverses a triple negative and then bolts on a false causal claim that S13 explicitly denies. (C) is <strong>scope-overreach</strong> on S9 — Calvin concedes <code>we often read that men were worshipped</code> and calls it <code>civil honour</code>; the line falls where the act is <code>conjoined with worship</code> (S10), not on the posture. (D) is the <strong>direction-flip</strong> on S5–S6 and it destroys the argument it pretends to report: <code>there was **no question** of λατρια</code>, because <code>all that Satan asked was προσκύνησις</code> — the whole force of the exhibit is that Christ refused the <strong>lesser</strong> request with the <strong>greater</strong> commandment. Anyone who reads <code>there was no question of λατρια</code> as <em>there was no doubt about latria</em> will choose (D).</p><h3>③ Composition — apply Formulas 1, 2 and 3</h3><p>Translate, using <strong><code>not … so little … as not to</code></strong> and <strong><code>never … so … as not to</code></strong> for the first pair, <strong><code>impossible that … should not</code> + <code>lest … should</code></strong> for the second, and <strong><code>so + ADJ + BE + subject</code></strong> inversion for the last:</p><p><em>(1) 그는 그 구별을 지키지 못할 만큼 배움이 모자라지는 않았다. 그러나 사람들은 결코 피조물에게 하나님의 것을 넘겨주지 않을 만큼 정확히 구별하지 못한다. (2) 종교와 결합된 어떤 영예도 신적 예배의 맛을 풍기지 않을 수 없었다. 그러므로 하나님은 아무도 자기 나름의 예배를 고안하지 못하도록 일정한 규칙을 정하셨다. (3) 이 악덕으로 내려가는 경사가 참으로 가파르다!</em></p><blockquote>
+<p><strong>모범답안 · Model:</strong> <em>He had not made so little progress in learning as not to keep the distinction. But men never distinguish so accurately as not to transfer to the creature that which belongs only to God. It was impossible that any honour conjoined with religion should not savour somewhat of divine worship; God therefore prescribed a certain rule, lest any should devise a worship of their own. So prone is the descent to this vice!</em>
+<strong>채점 포인트:</strong> ① <code>not … so little … as not to keep</code> must come out <strong>affirmative</strong> — <em>he did keep the distinction</em>; writing <em>so little … as to keep</em> inverts it. ② <code>never … so accurately **as not to** transfer</code> must come out <strong>universal</strong> — <em>they always transfer</em>; and keep <code>as **to**</code>, not <em>that</em>. ③ <code>impossible that … **should not** savour</code> — both negatives, and <code>savour **of**</code> keeps its preposition; <em>impossible that … savoured</em> loses the putative <code>should</code>. ④ <code>lest any **should** devise</code> — ⚠️ no <code>not</code>, and not <em>in order that … should not</em>. ⑤ <code>**So prone is** the descent</code> — the fronted <code>so + ADJ</code> <strong>forces</strong> subject–verb inversion; <em>So prone the descent is</em> scores zero on the formula. ⑥ Bonus mark for <code>**that which** belongs only to God</code> rather than bare <code>what</code> — the long free relative at distance from its verb, as Beveridge writes it in S15 and S23.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> <code>**Laying aside subtleties**, let us examine **the thing**</code> (S1) — and the thing is five exhibits, every one of them a refusal. Paul calls pagan cult <code>**did service** unto them which **by nature** are no gods</code> (S2), so <code>**was their superstition excusable**</code> because he did not say λατρεία (S3)? No: <code>This superstition … **he condemns as much as if** he had given it the name of λατρια</code> (S4). Christ answers Satan with <code>**him only shalt thou serve**</code>, and yet <code>**there was no question of** λατρια</code> — <code>**all that Satan asked was** προσκύνησις</code> (S5–S6). John did not <code>**so far** forget himself **as to have intended** to transfer the honour due to God alone to an angel</code> (S7), but <code>it was **impossible that** a worship connected with religion **should not savour** somewhat of divine worship</code>, so he could not bow <code>**without derogating from** the glory of God</code> (S8). <code>**True**</code>, men are bowed to — <code>but that was … **civil honour**</code> (S9), whereas religious honour, <code>**the moment** it is conjoined with worship, **carries profanation** … along with it</code> (S10). Cornelius <code>had **not** made **so little** progress in piety **as not to** confine supreme worship to God alone</code> (S12), and <code>certainly does it **not with the intention of** adoring him instead of God</code> (S13) — <code>**Yet Peter sternly forbids him**</code> (S14). Why? <code>Because men **never** distinguish **so** accurately … **as not to** transfer **promiscuously** to the creature **that which** belongs only to God</code> (S15). Therefore <code>we can **never appropriate the minutest portion** of his glory **without retaining** what is his due</code> (S16) — Zechariah's restored Church has <code>**not only** … one God, **but also** … only **one name**</code>, <code>that he might have **nothing in common with idols**</code> (S17). True worship waits for Book 2 (S18); the Law is the <code>**certain rule**</code>, given <code>**lest** any **should** allow themselves to **devise** a worship of their own</code> (S19–S20); and the verdict is flat: <code>whatever **offices of piety** are bestowed anywhere else than on God alone, are **of the nature of sacrilege**</code> (S21). Then the genealogy — stars and idols, then <code>**ambition** … **decking man in the spoils of God**</code> (S22) — and the last line of the chapter: <code>**so prone is the descent** to this vice of **communicating to a crowd that which God strictly claims as his own peculiar right!**</code> (S23). <strong>The distinction fails not because the words are unintelligible but because we cannot keep them apart: four innocent intentions, four refusals, and a slope that runs one way.</strong></p><p><strong>Grammar, the three to carry out of here.</strong> ① <strong><code>so … as (not) to V</code></strong> — degree + result with the negative in the result: <code>so far … as to **have intended**</code> (perfect infinitive = prior time, S7); <code>**not** … **so little** … **as not to**</code> = affirmative (S12); <code>**never** … so … **as not to**</code> = <em>always</em> (S15). Count the negatives on paper, cancel, then translate. ② <strong>the <code>should</code> family</strong> — <strong>putative</strong> <code>impossible that … **should not** savour</code> = <em>it necessarily did</em> (S8), against Day 72's <strong>mandative</strong> <code>enjoins that … be</code> and today's <strong>negative-purpose</strong> <code>**lest** any **should**</code> (S19, ⚠️ never <em>lest … not</em>); plus the nominative absolute <code>the reason **being**, that</code> (S17) and the consequence-<code>without</code> of <code>**without derogating**</code> (S8) and <code>**without retaining**</code> (S16, = <em>withholding</em>). ③ <strong>moved parts</strong> — object fronting (<code>This superstition … **he condemns**</code>, S4; <code>**him only** shalt thou serve</code>, S5), the pseudo-cleft with singular agreement (<code>**all that** Satan asked **was**</code>, S6), the long free relative <code>**that which**</code> (S15, S23), the counterfactual <code>**as much as if** he **had given**</code> (S4), and the obligatory inversion after a fronted degree phrase (<code>**so prone is the descent**</code>, S23).</p><p><strong>Homework (10 min).</strong></p><ol>
+<li><strong>구조 복원.</strong> Take <strong>S12</strong> and <strong>S15</strong> and write each one out with the negatives numbered above the words (1, 2, 3). Then write, in one line each, the plain affirmative that the sentence actually asserts. Second, take <strong>S4</strong> and mark the fronted object, draw an arrow to the empty object slot after <code>condemns</code>, and rewrite the sentence in base order. Third, rewrite <strong>S23</strong> without inversion (<em>the descent to this vice is so prone that…</em>) and complete the result clause Calvin left as an exclamation mark — what <em>is</em> the result he does not state? Answer in one line: <em>why does Calvin insist, twice (S7, S13), that the intention was innocent?</em></li>
+<li><strong>영작.</strong> Using <strong>Formula 1</strong>, write one sentence of the form <code>S had not V-ed so little … as not to …</code> that comes out <strong>affirmative</strong>, and one of the form <code>S never … so … as not to …</code> that comes out <strong>universal</strong>. Then, using <strong>Formula 2</strong>, write a sentence beginning <code>It was impossible that …</code> with <code>should not</code> inside it, and attach a <code>lest … should</code> clause to it. Test: does your <code>lest</code> clause contain <strong>no</strong> <code>not</code>? Does your <code>impossible that … should not</code> cancel to a <strong>necessity</strong>? Does your <code>as</code> take <strong><code>to</code></strong> and not <em>that</em>?</li>
+<li><strong>내일 예습 한 줄.</strong> Chapter 12 is finished. Tomorrow is <strong>Book 1, Chapter 13, §1</strong> — <em>The unity of the divine essence in three persons taught, in Scripture, from the foundation of the world</em> — the longest and most technical chapter of Book 1, and it opens on God's <strong>immensity and spiritual essence</strong> as the two things that <code>check our presumption</code> and crush every gross idea of him. Ask yourself tonight: today's chapter has just spent three sections proving that God will share his name with <strong>nothing</strong>. What kind of doctrine of <em>three persons</em> can be built on that floor without giving anything back to the crowd?</li>
+</ol><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 12, §3 끝. <strong>Chapter 12 완료.</strong> 다음은 <strong>Book 1, Ch. 13, §1</strong> (Day 75) — <em>The unity of the divine essence in three persons taught, in Scripture, from the foundation of the world.</em></p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>

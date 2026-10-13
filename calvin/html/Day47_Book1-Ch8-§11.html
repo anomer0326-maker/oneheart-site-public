@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 성경의 신빙성에 대한 증거들 §11 (1권 8장 · Day 47) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 8장 §11(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 47. 연관 성구: 누가복음 1, 로마서 1, 사도행전 2, 누가복음 5."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day47_Book1-Ch8-%C2%A711.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="성경의 신빙성에 대한 증거들 §11 — 기독교 강요 영어로 읽기 (Day 47)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 8장 §11(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 47. 연관 성구: 누가복음 1, 로마서 1, 사도행전 2, 누가복음 5."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day47_Book1-Ch8-%C2%A711.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 성경의 신빙성에 대한 증거들 §11 (1권 8장 · Day 47) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 8장 §11(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 47. 연관 성구: 누가복음 1, 로마서 1, 사도행전 2, 누가복음 5.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 8장 §11 — 성경의 신빙성에 대한 증거들","mentions":[{"@type":"CreativeWork","name":"누가복음 1 (Luke 1)"},{"@type":"CreativeWork","name":"로마서 1 (Rom 1)"},{"@type":"CreativeWork","name":"사도행전 2 (Acts 2)"},{"@type":"CreativeWork","name":"누가복음 5 (Luke 5)"},{"@type":"CreativeWork","name":"갈라디아서 1 (Gal 1)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day47_Book1-Ch8-%C2%A711.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 47 — Book 1, Chapter 8, §11<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (the whole § — 11 sentences, verbatim)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl2" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl1" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl2" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl1" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl2" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl3" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl3" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl2" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl3" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl2" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl3" href="#S11" onclick="closeNavMobile()">S11</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 47 — Book 1, Chapter 8, §11</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday ended on the strangest job title in theology: <strong>the librarians of the Christian Church</strong> — Christ's bitterest enemies, guarding Christ's book. And I left you a question overnight:</p><blockquote>
+<p><em>§1–2 made Scripture's MAJESTY the evidence. §11 makes the Gospels' LOWLY STYLE (simplicity) the evidence. How can lowness argue for credibility — and how is that paradox family to yesterday's (the enemy as custodian)?</em></p>
+</blockquote><p>Open today's section and collect your answer in the first three sentences. Calvin does not apologize for the <code>mean and humble style</code> — <strong>he weaponizes it.</strong> Watch the engine: the Synoptics' style is <em>below</em> human ambition, but their content is <code>heavenly mysteries beyond the capacity of man</code> (S3) — <em>above</em> human capacity. ★ <strong>Low vessel, high cargo. When the container cannot explain the contents, you must look above the container.</strong> That is EXACTLY yesterday's <code>In what workshop could they have been so quickly fabricated?</code> — the natural explanation is choked off on purpose, so that only the providential one is left standing. Enemy librarians, unschooled fishermen, a persecutor turned preacher: <strong>one engine, four exhibits.</strong></p><p>And notice the stage change. <strong>Old Testament proofs are finished (§§3–10). Today the New Testament takes the stand</strong> — and Calvin builds a little courtroom procession: three humble evangelists → John the thunderbolt → Peter and Paul's letters → then the men themselves (S9–S11): a tax-collector, two boatmen, a persecutor. The section ends where Chapter 8 has been heading all along: <code>the Holy Spirit must have been the teacher</code> — ⚠️ and that modal will be on the exam.</p><p>The shape in one breath:</p><pre><code>   S1        the fanfare  ── "how solid ARE the pillars!"
+   S2–S5     writings I   ── Synoptics: humble style, heavenly content
+   S6–S8     writings II  ── John's thunder; Peter &amp; Paul's majesty
+   S9–S10    the MEN      ── unschooled apostles; converted Paul
+   S11       verdict      ── deny what you like — the circumstances
+                             still prove a divine Teacher
+   ⚠️ 시험 포인트: §11 의 논거는 문체 하나가 아니라 둘이다 —
+      글(S1–S8)과 사람(S9–S11). 절반만 고르는 선지를 조심하라.
+</code></pre><p><strong>Today's 3 Big Points — write them down now:</strong></p><ol>
+<li><strong>Exclamatory inversion: <code>how solid ARE the pillars ...!</code> (S1).</strong> The textbook exclamation keeps statement order — <code>How solid the pillars are!</code> Calvin flips it: <code>how solid are the pillars</code>. ⚠️ That V–S order is question syntax under an exclamation mark — <strong>a rhetorical exclamation on the border of a question</strong> (I promised you this line yesterday; here it is). ★ Rhetorical-elevated register uses inversion for force; don't "correct" it, and don't parse <code>are</code> as starting a real question — the <code>!</code> settles the speech-act.</li>
+<li><strong>The return of <code>, is, that ...</code> — and this time the subject stacks three men deep (S9).</strong> Day 46 S1 gave you <code>An objection ..., is, ... fitted</code>. Today: <code>But one circumstance, (sufficient of itself to exalt their doctrine above the world), is, that Matthew, (who ...), Peter and John, (who ...), being all rude and illiterate, **had never learned** ...</code> ⚠️ Two verbs to find: the copula <code>is</code> (locked in commas, singular — agreeing with <code>one circumstance</code>, not with three apostles) and the buried main verb of the that-clause, <code>had never learned</code> — five commas deep. ⚠️ <code>being all rude and illiterate</code> is a participle, NOT the verb. Cover the appositives with your hand and the skeleton appears.</li>
+<li><strong>Two faces of <code>Let</code> — plus the FOURTH value of <code>modal + have + p.p.</code></strong> ★ S7: <code>let them read the Gospel of John, and ... they will find</code> = <strong>challenge-let</strong>: imperative + and = a conditional (<em>if they read, they will find</em>). ★ S11: <code>Let those dogs deny ..., still the very circumstances proclaim</code> = <strong>concessive-let</strong>: imperative + still = <em>even if they deny ..., still ...</em> — no one is inviting the dogs to do anything. ⚠️ Same <code>Let</code>, opposite value; the tail decides (<code>and</code> → condition, <code>still</code> → concession). And inside S11: <code>must have been the teacher</code> = <strong>deductive certainty about the past</strong> (<em>the evidence forces the conclusion that he was</em>). Yesterday's museum had three values of <code>modal + have + p.p.</code>; ⚠️ <strong>this is the fourth — and it is NOT Day 46 S13's counterfactual <code>must have utterly perished</code>.</strong> There an if-clause made it unreal; here an evidence-clause (<code>the circumstances proclaim</code>) makes it an inference about what really happened. <strong>The frame decides everything. Again.</strong></li>
+</ol><p>Eleven sentences. S6, S7, S9 and S11 will take real time. Let's go.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (the whole § — 11 sentences, verbatim)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+11. When we proceed to the New Testament, how solid are the pillars by which its truth is supported! Three evangelists give a narrative in a mean and humble style. The proud often eye this simplicity with disdain, because they attend not to the principal heads of doctrine; for from these they might easily infer that these evangelists treat of heavenly mysteries beyond the capacity of man. Those who have the least particle of candour must be ashamed of their fastidiousness when they read the first chapter of Luke. Even our Saviour’s discourses, of which a summary is given by these three evangelists, ought to prevent every one from treating their writings with contempt. John, again, fulminating in majesty, strikes down more powerfully than any thunderbolt the petulance of those who refuse to submit to the obedience of faith. Let all those acute censors, whose highest pleasure it is to banish a reverential regard of Scripture from their own and other men’s hearts, come forward; let them read the Gospel of John, and, willing or unwilling, they will find a thousand sentences which will at least arouse them from their sloth; nay, which will burn into their consciences as with a hot iron, and check their derision. The same thing may be said of Peter and Paul, whose writings, though the greater part read them blindfold, exhibit a heavenly majesty, which in a manner binds and rivets every reader. But one circumstance, sufficient of itself to exalt their doctrine above the world, is, that Matthew, who was formerly fixed down to his money-table, Peter and John, who were employed with their little boats, being all rude and illiterate, had never learned in any human school that which they delivered to others. Paul, more over, who had not only been an avowed but a cruel and bloody foe, being changed into a new man, shows, by the sudden and unhoped-for change, that a heavenly power had compelled him to preach the doctrine which once he destroyed. Let those dogs deny that the Holy Spirit descended upon the apostles, or, if not, let them refuse credit to the history, still the very circumstances proclaim that the Holy Spirit must have been the teacher of those who, formerly contemptible among the people, all of a sudden began to discourse so magnificently of heavenly mysteries.
+✅ Text note. Our source file source/Institutes_Beveridge_FULL.txt carries §11 at lines 3746–3772. Page furniture removed as noise, per the standing rule: the page number 82 (trailing line 3767, after Let those dogs deny that the Holy) and the blank line that follows it (3768) — ⚠️ note where the page break lands: inside S11, splitting the Holy from Spirit. Mid-sentence, mid-TITLE this time. Two line-break hyphenations handled: rever- / ential (lines 3755–3756) → reverential (repair); money- / table (lines 3762–3763) → money-table — ⚠️ this one KEEPS its hyphen: it is Beveridge's genuine compound, and the line break merely happens to fall on the compound's own hyphen. Two different calls on two line-end hyphens — know why. ★ more over (S10, line 3764) is printed as TWO words in the source and stays two words here — a 19th-century spacing of moreover; quote it verbatim, do not "fix" it (same discipline as Day 45's it is asked, where / Day 46's ask, In what workshop). Curly apostrophes in Saviour’s (S5) and men’s (S7) are the source's own. One paragraph only — no Beveridge break today; the courtroom procession runs unbroken.
+⚠️ Now run the standing Day 42 checks. Every stranded comparative, every so/too/such without a partner, every pronoun without an antecedent.
+
+Correlatives: **more** powerfully **than** any thunderbolt (S6) ✓ — but ⚠️ mind the ellipsis: than any thunderbolt ‹strikes›. **not only** been an avowed **but** a cruel and bloody foe (S10) ✓ — ⚠️ one shared head: an avowed ‹foe› ... but a ... foe — this is escalation on the SAME noun, not two different items (and no also; don't supply one). **so** magnificently (S11) — no that-partner, and none needed: the degree anchor is the contrast built into the same sentence (formerly contemptible among the people → so magnificently). Flag it, resolve it, move on.
+Pronouns: its (S1) = the New Testament's ✓. **these** in for from these (S3) — ⚠️ flagged: = the principal heads of doctrine, NOT the evangelists — misassign it and S3's logic dies (you infer heavenly mysteries from the doctrinal heads, not from the writers). it in whose highest pleasure it is to banish (S7) = extraposition dummy for the to-infinitive ✓. them (S8, read them blindfold) = the writings ✓, and the readers are the greater part, not Peter and Paul. that which (S9) = what — fused antecedent. the history (S11) — ⚠️ flagged: = the Pentecost narrative (Acts 2), a specific book's specific record — not "history in general."
+Trap words on patrol: mean (S2) = lowly — nobody is being unkind. candour (S4) = fairness of mind — not bluntness. fastidiousness (S4) = sneering squeamishness — not attention to detail. again (S6) = in his turn — John did not do anything twice. petulance (S6) = insolence — not sulkiness. rude (S9) = unschooled — nobody is being impolite. credit (S11) = belief (credere) — no money moves. All seven in Period 5.
+
+ℹ️ On the count. Eleven sentences, one paragraph. The two long ones are S7 (the double-let challenge, held together by a semicolon and a nay) and S9 (the triple-subject circumstance). Semicolons inside S3 and S7 do NOT end sentences — the count stands at 11.
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>A courtroom procession — the writings testify first, then the writers themselves:</p><pre><code>   S1        FANFARE     ── NT stage opens: how solid ARE the pillars!
+   S2–S5     WITNESS 1   ── the Synoptics: mean style (S2), sneered
+                            at by the proud who skip the content (S3),
+                            shamed by Luke 1 (S4), sealed by the
+                            Saviour's own discourses (S5)
+   S6–S8     WITNESS 2   ── John fulminates: thunderbolt (S6);
+                            challenge-test: read him and be burned
+                            awake (S7); Peter &amp; Paul: same majesty,
+                            binds and rivets (S8)
+   S9–S10    WITNESS 3   ── the MEN: tax-booth + fishing boats +
+                            no human school (S9); the persecutor
+                            reversed mid-charge (S10)
+   S11       VERDICT     ── concede nothing, still lose: the very
+                            circumstances prove the Spirit taught them
+</code></pre><p><strong>Examiner's Eye — 네 개를 찍어 둔다.</strong></p><p><strong>① 최다 출제 예상: 문체 논증의 방향.</strong>
+⚠️ 선지에 이런 게 나온다: <em>"Calvin apologizes for the evangelists' crude style, urging readers to overlook it for the sake of the message."</em> ✗ <strong>정확히 거꾸로다.</strong> 칼빈은 문체의 낮음을 변명하지 않는다 — <strong>낮은 그릇에 담긴 높은 내용물(S3 <code>heavenly mysteries beyond the capacity of man</code>) 자체가 증거다.</strong> 자연적 설명(수사학 훈련·인간 학교)이 막히니 섭리적 설명만 남는다. ★ 어제의 <code>In what workshop…?</code> 과 같은 엔진.</p><p><strong>② 두 번째 함정: S7 의 <code>willing or unwilling</code>.</strong>
+⚠️ <em>"John's Gospel persuades only those already willing to submit"</em> ✗ — <strong>본문이 명시적으로 반대를 말한다</strong>: <code>willing or unwilling, they will find a thousand sentences</code>. 요한의 위엄은 독자의 동의를 기다리지 않는다. (단, 이것이 구원을 준다는 말은 아니다 — 한계선은 Period 6.)</p><p><strong>③ 세 번째 함정: S8 의 <code>read them blindfold</code>.</strong>
+⚠️ <em>"Peter and Paul wrote blindly"</em> ✗ — 눈가리개를 한 것은 <strong>독자 대다수(<code>the greater part</code>)</strong>이고, <code>them</code> 은 <strong>그들의 글</strong>이다. 대충 읽는 대다수에게도 하늘의 위엄이 <code>binds and rivets</code> 한다 — 삽입된 양보절(<code>though …</code>)이 주어와 동사를 갈라놓았을 뿐이다.</p><p><strong>④ 네 번째 함정: S11 을 양보가 아니라 시인으로 읽기.</strong>
+⚠️ <em>"Calvin concedes that the descent of the Spirit cannot be proven from history"</em> ✗ — <code>Let those dogs deny …, still …</code> 는 <strong>양보 명령문</strong>이다: <em>부인하려면 해 보라, 그래도(still) 정황 자체가 증명한다.</em> 칼빈은 아무것도 내주지 않았다 — 상대가 다 부인해도 결론이 선다는 <strong>최강수</strong>다. ★ <code>must have been</code> = 반사실이 아니라 <strong>추론적 확실성</strong> (Big Point 3).</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl2" data-lvl="2" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the fanfare — exclamation wearing question syntax</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>"When we proceed to the New Testament, how solid are the pillars by which its truth is supported!"</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf">When we proceed to the New Testament</span></li></ul></li></ul></li><li><span class="leaf"><b>how solid</b></span></li><li><span class="leaf"><b>are</b> !</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the pillars</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by which its truth is supported</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>solid</em> &lt; Lat. <em>solidus</em> (dense, whole) → consolidate, solidarity; <em>pillar</em> &lt; Lat. <em>pila</em> (pier) — load-bearing, not decorative.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>proceed to X</em> = move on to X (next item of business); <em>how + adj + V + S!</em> = rhetorical exclamation (elevated register).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">When we come to the New Testament, look how solid the pillars supporting its truth are!</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>how solid are the pillars</b> → how solid the pillars are</li><li><b>proceed to</b> → come/move on to</li><li><b>by which its truth is supported</b> → that support its truth.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s1" title="1-star">★</span><span class="s-label">mean — the day's first trap word</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>"Three evangelists give a narrative in a mean and humble style."</p>
+</blockquote><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p>One point and we move: <strong><code>mean</code> = lowly, plain</strong> (the archaic sense — Lat. <em>humilis</em> pair, "mean and humble" is a doublet), ⚠️ NOT unkind, NOT average. Matthew, Mark, Luke write street-level prose — and that fact is about to become an argument, not an embarrassment.</p></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the diagnosis — why the proud sneer, and what they'd see if they looked</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>"The proud often eye this simplicity with disdain, because they attend not to the principal heads of doctrine; for from these they might easily infer that these evangelists treat of heavenly mysteries beyond the capacity of man."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">The proud</span></li><li><span class="leaf">often <b>eye</b> this simplicity with disdain</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">이유절 (because)</span><span class="leaf">because they <b>attend not</b> to the principal heads of doctrine</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">for</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">from these</span></li></ul></li><li><span class="leaf">they <b>might easily infer</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that these evangelists treat of heavenly mysteries</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">beyond the capacity of man</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>disdain</em> &lt; Lat. <em>dis-</em> + <em>dignari</em> (deem worthy) — to deem UNworthy; <em>doctrine</em> &lt; <em>docere</em> (teach) → doctor, docile.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>eye X with disdain</em> = look down on X; <em>treat of X</em> = deal with X (archaic); <em>heads of doctrine</em> = main points of teaching.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Proud readers often look down on this simple style because they pay no attention to the main points of the teaching; if they did, they could easily conclude that these evangelists handle heavenly mysteries far beyond human capacity.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>attend not</b> → do not attend</li><li><b>heads</b> → main points</li><li><b>treat of</b> → deal with</li><li><b>eye ... with disdain</b> → look down on.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s1" title="1-star">★</span><span class="s-label">candour vs fastidiousness — a duel of trap words</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>"Those who have the least particle of candour must be ashamed of their fastidiousness when they read the first chapter of Luke."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><strong>candour</strong> — candidus(희다) → candid, candidate(흰 토가) — 마음이 흰 것 = 공정. '직설' 아님. KR: 공정성</li><li><strong>fastidiousness</strong> — fastidium(구역질, 오만) — '꼼꼼함' 아님, 코를 쥐는 태도. KR: 결벽적 경멸</li></ul></div></div><details class="prose-toggle"><summary>전체 해설 더보기</summary><div class="prose-rest"><p>One point: <strong><code>candour</code> = fairness of mind</strong> (not bluntness), and <strong><code>fastidiousness</code> = sneering squeamishness</strong> (not attention to detail) — even <em>one grain</em> (<code>the least particle</code>) of the first shames the second, and the exhibit is <strong>Luke 1</strong> (Period 7 tells you why that chapter, of all chapters).</p></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the fronted genitive — of which a summary is given</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>"Even our Saviour’s discourses, of which a summary is given by these three evangelists, ought to prevent every one from treating their writings with contempt."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">Even our Saviour’s discourses</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of which</b></span></li><li><span class="leaf">a summary</span></li><li><span class="leaf">is given</span></li><li><span class="leaf">by these three evangelists</span></li></ul></li></ul></li><li><span class="leaf"><b>ought to prevent</b></span></li><li><span class="leaf">every one</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>from treating</b> their writings with contempt</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>discourse</em> &lt; Lat. <em>dis-</em> + <em>currere</em> (run to and fro) — speech that ranges; <em>contempt</em> &lt; <em>contemnere</em> (scorn).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>prevent X from V-ing</em> = keep X from doing; <em>of which a summary is given</em> = which is summarized (fronted genitive).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Even our Savior's discourses, which these three evangelists summarize, should keep everyone from despising their writings.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>of which a summary is given by</b> → which are summarized by</li><li><b>every one</b> → everyone</li><li><b>treating ... with contempt</b> → despising.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #1 — the thunderbolt, and the object that arrives late</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>"John, again, fulminating in majesty, strikes down more powerfully than any thunderbolt the petulance of those who refuse to submit to the obedience of faith."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>John</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">again</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">fulminating in majesty</span></li></ul></li></ul></li><li><span class="leaf"><b>strikes down</b></span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">more powerfully than any thunderbolt</span></li></ul></li><li><span class="leaf"><b>the petulance</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of those</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who refuse to submit to the obedience of faith</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>fulminate</em> &lt; Lat. <em>fulmen</em> (thunderbolt) — here LITERAL-metaphorical, not the diluted modern "protest loudly"; <em>petulance</em> &lt; <em>petere</em> (attack, assail) → petition, impetus — insolent assault, not sulking.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>strike down X</em> = fell X; <em>submit to the obedience of faith</em> = yield to faith's rule (Rom 1:5); <em>in majesty</em> = clothed in majesty (manner-PP).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">John, for his part, thundering in majesty, strikes down the insolence of those who refuse to yield to the obedience of faith more powerfully than any thunderbolt could.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>again</b> → for his part / in his turn</li><li><b>fulminating</b> → thundering</li><li><b>petulance</b> → insolence</li><li>object moved back to its modern position after the verb phrase.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #2 — the challenge-let: step up, read, and be branded awake</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>"Let all those acute censors, whose highest pleasure it is to banish a reverential regard of Scripture from their own and other men’s hearts, come forward; let them read the Gospel of John, and, willing or unwilling, they will find a thousand sentences which will at least arouse them from their sloth; nay, which will burn into their consciences as with a hot iron, and check their derision."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>Let</b> all those acute censors</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (whose)</span><span class="leaf">whose highest pleasure it is</span><ul class="tr"><li><span class="leaf">to banish a reverential regard of Scripture</span></li><li><span class="leaf">from their own and other men’s hearts</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>come forward</b></span></li></ul></li></ul></li><li><span class="leaf">, and</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>let</b> them <b>read</b> the Gospel of John</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">willing or unwilling</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">they <b>will find</b> a thousand sentences</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which will at least arouse them from their sloth</span></li></ul></li><li><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">nay</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which will burn into their consciences, and check their derision</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">as with a hot iron</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>censor</em> &lt; Lat. <em>censere</em> (assess) — the Roman magistrate of morals, self-appointed here; <em>nay</em> &lt; Old Norse <em>nei</em> — corrective "no, more than that"; <em>derision</em> &lt; <em>ridere</em> (laugh) → ridicule.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>come forward</em> = step up publicly; <em>willing or unwilling</em> = whether they like it or not; <em>arouse X from sloth</em> = shake X out of laziness; <em>as with a hot iron</em> = as if branded.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Let all those sharp critics whose greatest pleasure is driving reverence for Scripture out of their own and other people's hearts step forward; let them read the Gospel of John, and, like it or not, they will find a thousand sentences that will at least shake them out of their laziness — no, that will burn into their consciences like a branding iron and stop their mockery.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>whose highest pleasure it is to banish</b> → whose greatest pleasure is driving out</li><li><b>willing or unwilling</b> → like it or not</li><li><b>nay</b> → no, more than that</li><li><b>check their derision</b> → stop their mockery.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Peter and Paul — the verb three clauses away</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>"The same thing may be said of Peter and Paul, whose writings, though the greater part read them blindfold, exhibit a heavenly majesty, which in a manner binds and rivets every reader."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">The same thing may be said of Peter and Paul</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (whose)</span><span class="leaf"><b>whose writings</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf">though the greater part read them blindfold</span></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>exhibit</b> a heavenly majesty</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which binds and rivets every reader</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in a manner</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>rivet</em> &lt; Old French <em>river</em> (fix, clench) — the metal bolt is the image: reader fastened to text; <em>exhibit</em> &lt; Lat. <em>ex- + habere</em> (hold out) — display.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>the same thing may be said of X</em> = X deserves the same verdict; <em>the greater part</em> = most people; <em>in a manner</em> = as it were, so to speak.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The same can be said of Peter and Paul: even though most people read their writings half-asleep, those writings display a heavenly majesty that practically chains every reader to the page.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the greater part</b> → most people</li><li><b>blindfold</b> → carelessly / with their eyes shut</li><li><b>in a manner</b> → practically / as it were</li><li><b>binds and rivets</b> → chains ... to the page.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #3 — Big Point 2: the , is, that returns, three subjects deep</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p>"But one circumstance, sufficient of itself to exalt their doctrine above the world, is, that Matthew, who was formerly fixed down to his money-table, Peter and John, who were employed with their little boats, being all rude and illiterate, had never learned in any human school that which they delivered to others."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf">But <b>one circumstance</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">sufficient of itself</span></li><li><span class="leaf">to exalt their doctrine above the world</span></li></ul></li></ul></li><li><span class="leaf"><b>is</b></span></li><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>Matthew</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who was formerly fixed down to his money-table</span></li></ul></li></ul></li><li><span class="leaf"><b>Peter and John</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who were employed with their little boats</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">being all rude and illiterate</span></li></ul></li><li><span class="leaf"><b>had never learned</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in any human school</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that which</b> they delivered to others</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>illiterate</em> &lt; Lat. <em>in-</em> + <em>littera</em> (letter) — unlettered; <em>rude</em> &lt; <em>rudis</em> (raw, untrained) → rudiment — the untrained state, no discourtesy; <em>circumstance</em> &lt; <em>circum-stare</em> (stand around) — an attendant fact.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>sufficient of itself</em> = enough by itself (per se); <em>fixed down to X</em> = tied to X (desk-bound); <em>that which</em> = what.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But one fact, enough by itself to lift their teaching above the world, is that Matthew, once tied to his tax-collector's table, and Peter and John, who worked their little boats — all of them untrained and unlettered — had never learned in any human school what they passed on to others.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>money-table</b> → tax-collector's table</li><li><b>rude and illiterate</b> → untrained and unlettered</li><li><b>that which</b> → what</li><li><b>sufficient of itself</b> → enough by itself.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Paul — the escalating not only ... but, and the reversal that argues</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p>"Paul, more over, who had not only been an avowed but a cruel and bloody foe, being changed into a new man, shows, by the sudden and unhoped-for change, that a heavenly power had compelled him to preach the doctrine which once he destroyed."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>Paul</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">more over</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who had <b>not only</b> been an avowed <b>but</b> a cruel and bloody <b>foe</b></span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">being changed into a new man</span></li></ul></li></ul></li><li><span class="leaf"><b>shows</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by the sudden and unhoped-for change</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> a heavenly power <b>had compelled</b> him</span><ul class="tr"><li><span class="leaf">to preach the doctrine</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf">which once he destroyed</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>avowed</em> &lt; Old French <em>avouer</em> &lt; Lat. <em>advocare</em> — openly declared, on the record; <em>compel</em> &lt; <em>com- + pellere</em> (drive) → impulse, propel — driven, not persuaded.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>more over</em> (= moreover) = besides, next in the list; <em>an avowed foe</em> = an open, declared enemy; <em>unhoped-for</em> = beyond all expectation.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Paul, moreover, who had been not just an open enemy but a cruel and bloodthirsty one, was changed into a new man — and by that sudden, unhoped-for change he shows that a heavenly power had forced him to preach the very doctrine he once tried to destroy.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>more over</b> → moreover</li><li><b>an avowed but a cruel and bloody foe</b> → not just an open enemy but a cruel and bloodthirsty one</li><li><b>which once he destroyed</b> → which he once destroyed.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ SENTENCE OF THE DAY #4 — Big Point 3: the concessive Let, and the fourth must have</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p>"Let those dogs deny that the Holy Spirit descended upon the apostles, or, if not, let them refuse credit to the history, still the very circumstances proclaim that the Holy Spirit must have been the teacher of those who, formerly contemptible among the people, all of a sudden began to discourse so magnificently of heavenly mysteries."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>Let</b> those dogs <b>deny</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that the Holy Spirit descended upon the apostles</span></li></ul></li></ul></li><li><span class="lab ph">등위 (or)</span><span class="leaf">or</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf">if not</span></li></ul></li></ul></li><li><span class="leaf"><b>let</b> them <b>refuse credit</b> to the history</span></li></ul></li></ul></li><li><span class="leaf"><b>still</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the very circumstances <b>proclaim</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf">that the Holy Spirit <b>must have been</b> the teacher</span><ul class="tr"><li><span class="leaf">of those</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf">who</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">formerly contemptible among the people</span></li></ul></li></ul><ul class="tr"><li><span class="leaf">began to discourse of heavenly mysteries</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">all of a sudden</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">결과절 (so…that)</span><span class="leaf">so magnificently</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>credit</em> &lt; Lat. <em>credere</em> (believe) — belief before banking; <em>contemptible</em> &lt; <em>contemnere</em> (scorn) — S5's <em>contempt</em> returns, now aimed at persons; <em>proclaim</em> &lt; <em>pro- + clamare</em> (cry out) — the circumstances SHOUT.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>refuse credit to X</em> = decline to believe X; <em>all of a sudden</em> = suddenly (already idiomatic in 1845); <em>discourse of X</em> = speak of X (archaic).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Let those dogs deny that the Holy Spirit came down on the apostles — or, if they won't do that, let them refuse to believe the account — even so, the facts themselves declare that the Holy Spirit must have been the teacher of men who, once despised among the people, all at once began to speak so magnificently of heavenly mysteries.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>refuse credit to the history</b> → refuse to believe the account</li><li><b>still</b> → even so</li><li><b>discourse of</b> → speak of</li><li><b>formerly contemptible among the people</b> → once despised among the people.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>Formula 1 — Exclamatory inversion (rhetorical register)</strong></p><pre><code>   How + ADJ + V + S (...)!
+   평서 감탄문: How solid the pillars are!   (S-V 어순)
+   수사 감탄문: How solid ARE the pillars!   (V-S 어순 — 의문 구문 + !)
+   ⚠️ 함정 1: V-S 어순만 보고 "의문문인데 물음표가 틀렸다"로
+      고치면 오답 — !가 화행(speech-act)을 결정한다.
+   ⚠️ 함정 2: 일반 영작에서 남용 금지 — 격조 높은 수사문 전용.
+</code></pre><p><em>Drill:</em> 「신약의 증인들은 얼마나 견고한가!」 → <em>When we examine these witnesses, how firm is the foundation on which our faith rests!</em></p><p><strong>Formula 2 — Heavy subject + <code>, is, that ...</code> (콤마에 갇힌 copula + that절 보어)</strong></p><pre><code>   S(head) + (수식더미) , is , that + [주어스택 + (삽입들) + 본동사]
+   ① copula 의 수일치는 주어 머리(head)를 따른다:
+      one circumstance ... IS   (사도가 셋이어도 단수)
+   ② that절 안에서도 같은 훈련: 삽입(관계절·분사구)을 괄호로
+      걷어내고 본동사를 찾는다 (being ≠ 본동사).
+   ⚠️ 함정: `, is,` 의 콤마는 19세기 관행이다. 오류로 고치지
+      말고, 콤마 안의 is 를 정동사로 '수배'하라.
+</code></pre><p><em>Drill:</em> 「한 가지 사정 — 그 자체로 충분한 — 은, 어부들이 배운 적 없는 것을 전달했다는 것이다.」 → <em>But one circumstance, sufficient of itself to silence the scoffers, is, that these fishermen, being wholly untrained, delivered to the world that which they had never learned.</em></p><p><strong>Formula 3 — <code>Let</code> 의 두 얼굴 + 추론의 <code>must have + p.p.</code></strong></p><pre><code>   ① 도전-Let (조건):  Let X V ..., and S will V
+      = If X V-es, S will V          (S7: let them read, and
+                                       they will find)
+   ② 양보-Let (최강수): Let X V ..., still S + V
+      = Even if X V-es, still S V-es (S11: Let them deny, still
+                                       the circumstances proclaim)
+   ⚠️ 꼬리로 판별: and → 조건 / still·yet → 양보.
+   ③ must have + p.p. (증거절과 함께) = 과거 사실에 대한 추론적
+      확신: "~였음에 틀림없다"
+      ⚠️ Day 46 S13 의 반사실(must have utterly perished)과
+        골격이 같다. if절(반사실) vs 증거절(추론) — 프레임이
+        값을 정한다.
+</code></pre><p><em>Drill:</em> 「그들이 그 기록을 부인하게 두라 — 그래도 그 갑작스러운 변화 자체가, 하늘의 능력이 그를 가르쳤음에 틀림없다고 선포한다.」 → <em>Let them deny the record if they will, still the sudden change itself proclaims that a heavenly power must have been his teacher.</em></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>mean</strong> (adj.) ⚠️</td>
+<td>lowly, plain</td>
+<td>고어 함정: '비열한/평균' 아님 — <em>mean and humble</em> 는 동의어 겹침(doublet). KR: 비천한</td>
+</tr>
+<tr>
+<td><strong>candour</strong> ⚠️</td>
+<td>fairness of mind</td>
+<td><em>candidus</em>(희다) → candid, candidate(흰 토가) — 마음이 흰 것 = 공정. '직설' 아님. KR: 공정성</td>
+</tr>
+<tr>
+<td><strong>fastidiousness</strong> ⚠️</td>
+<td>sneering squeamishness</td>
+<td><em>fastidium</em>(구역질, 오만) — '꼼꼼함' 아님, 코를 쥐는 태도. KR: 결벽적 경멸</td>
+</tr>
+<tr>
+<td><strong>petulance</strong> ⚠️</td>
+<td>insolence, forwardness</td>
+<td><em>petere</em>(들이받다) → impetus. '토라짐' 아님 — 들이대는 무엄함. KR: 방자함</td>
+</tr>
+<tr>
+<td><strong>fulminate</strong></td>
+<td>thunder forth</td>
+<td><em>fulmen</em>(벼락) — S6 에서는 문자 그대로 벼락 이미지. KR: 뇌성을 발하다</td>
+</tr>
+<tr>
+<td><strong>censor</strong></td>
+<td>self-appointed judge</td>
+<td>로마의 풍기 감찰관 <em>censere</em>(사정하다) — 남의 경외심을 몰수하는 자칭 감찰관. KR: 감찰자</td>
+</tr>
+<tr>
+<td><strong>sloth</strong></td>
+<td>laziness, torpor</td>
+<td>slow 의 명사형(slow-th) — 나무늘보 전에 게으름이 먼저였다. KR: 나태</td>
+</tr>
+<tr>
+<td><strong>blindfold</strong> (adv.) ⚠️</td>
+<td>with eyes covered, carelessly</td>
+<td>부사로 쓰인 flat adverb — '눈가리개'(명사) 아님. KR: 눈감은 채</td>
+</tr>
+<tr>
+<td><strong>rivet</strong></td>
+<td>to bolt fast</td>
+<td>대장간의 리벳 — 독자를 본문에 못박는다. KR: 못박다</td>
+</tr>
+<tr>
+<td><strong>rude</strong> ⚠️</td>
+<td>untrained, unschooled</td>
+<td><em>rudis</em>(날것) → rudiment. '무례한' 아님 — 행 4:13 의 ἀγράμματοι. KR: 무학한</td>
+</tr>
+<tr>
+<td><strong>avowed</strong></td>
+<td>openly declared</td>
+<td><em>ad-vocare</em> → vow 계열: 공언된. KR: 공공연한</td>
+</tr>
+<tr>
+<td><strong>unhoped-for</strong></td>
+<td>beyond expectation</td>
+<td>hope 의 수동 합성 — 바랄 수조차 없던. KR: 기대 밖의</td>
+</tr>
+<tr>
+<td><strong>credit</strong> ⚠️</td>
+<td>belief</td>
+<td><em>credere</em>(믿다) — 신용카드 이전에 신앙. <em>refuse credit</em> = 불신. KR: 신빙</td>
+</tr>
+<tr>
+<td><strong>discourse (of)</strong> (v.)</td>
+<td>to speak (of)</td>
+<td><em>dis-currere</em> — 고어 자동사 + of. KR: 논하다</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>Where we are in the chapter's machine.</strong> Chapter 8 is the catalogue of <em>rational</em> confirmations — and §§1–2 opened it with Scripture's <strong>majesty</strong> vs human eloquence. Today's section is that theme's boldest variation: the majesty argument runs THROUGH the anti-eloquence. The Synoptics have no Ciceronian period, no Demosthenic thunder — and precisely there, content <code>beyond the capacity of man</code> rides in a cart. The argument is a fork: if Scripture is eloquent (John <code>fulminating</code>, the epistles' <code>heavenly majesty</code>), majesty testifies; if Scripture is plain (the Synoptics), the surplus of content over style testifies. <strong>Heads, God wins; tails, the sneerers lose.</strong></p><p><strong>The lineage — this argument has scars.</strong> The sneer is ancient: <strong>Celsus</strong> (2nd c.) mocked Christianity's founders as sailors and tax-gatherers; <strong>Origen</strong> flipped the taunt — unlettered men converting the world proves a power <code>not in persuasive words of wisdom</code> (1 Cor 2:4–5 was the engine long before Calvin). <strong>Augustine</strong> confessed the sneer from inside: young rhetor Augustine found Scripture unworthy next to Cicero (<em>Conf.</em> 3.5), and only later learned to read the lowliness as accommodation — God stooping to lift (<em>Conf.</em> 6.5). Calvin — a trained humanist who cut his teeth on a Seneca commentary (1532) and could weigh Latin prose with the best of his century — is not making a virtue of ignorance. <strong>A stylist certifies the anomaly:</strong> he knows exactly what human skill can produce, which is how he knows this surplus is not human skill. Centuries later Erich Auerbach gives the phenomenon its classic name — <em>sermo humilis</em>, the low style bearing the highest things — and apologetics from Paley to Warfield will keep re-filing S9–S10 (unschooled witnesses, the hostile witness converted) under "evidences."</p><p><strong>The over-reading guardrail.</strong> ⚠️ Do not promote Calvin into an evidentialist. These are <em>secondary helps</em> (adminicula): §13 will say in so many words that such proofs serve <strong>only after</strong> the Spirit's inner testimony has established certainty in the heart (and I.7.4–5 already said faith does not stand on argument). S7 promises the censors arousal and a branded conscience — <strong>not conversion.</strong> The thousand sentences of John can stop a mouth without opening a heart. Keep the two registers apart on the exam: what the circumstances PROVE (a divine teacher — inexcusability's cousin) vs what the Spirit GIVES (certainty of faith). ★ And one more historical note: the man writing <code>the harmony of the Evangelists</code> into his argument will spend part of his life on it — Calvin's own <em>Harmony of the Gospels</em> (1555) is this section grown up.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li><strong>Rom 1:5 — ὑπακοὴ πίστεως (<code>the obedience of faith</code>) — S6.</strong> A verbatim Pauline phrase dropped without citation: the refusers are measured in the apostle's own coinage. Calvin's habit: the argument FOR Scripture is conducted IN Scripture's words.</li>
+<li><strong>Luke 1:1–4 — S4's exhibit.</strong> Why "the first chapter of Luke," of all chapters? Its four-verse preface is the most polished periodic Greek in the NT — <em>then</em> the register drops into Hebraic narrative. One chapter shows the evangelist COULD write high style and chose the low: the simplicity is election, not incapacity. Candour's least particle must concede it.</li>
+<li><strong>1 Tim 4:2 — κεκαυστηριασμένων τὴν συνείδησιν — S7's <code>burn into their consciences as with a hot iron</code>.</strong> ★ A reversal: in Paul, the seared conscience is branded NUMB; in Calvin, John's sentences brand the conscience AWAKE. Same iron, opposite therapy — deliberate, and exam-worthy.</li>
+<li><strong>Acts 4:13 — ἀγράμματοί εἰσιν καὶ ἰδιῶται — S9's <code>rude and illiterate</code>.</strong> Nearly a translation: the Sanhedrin's own astonished verdict on Peter and John becomes Calvin's premise. The hostile court supplies the adjective — yesterday's "hostile witness" method, again.</li>
+<li><strong>Matt 9:9 (the τελώνιον) and Luke 5:1–11 — S9's <code>money-table</code> and <code>little boats</code>.</strong> The callings, compressed to two props. The diminutive <code>little boats</code> is doing argumentative work: small boats, small men, small school.</li>
+<li><strong>Gal 1:13, 23 — <code>preach the faith which once he destroyed</code> (ἐπόρθει) — S10's <code>preach the doctrine which once he destroyed</code>.</strong> A near-quotation: the Judean churches' one-line summary of Paul's reversal is Calvin's entire S10 in miniature. What the churches glorified God for, Calvin enters as evidence.</li>
+<li><strong>Acts 2 — S11's <code>the history</code>.</strong> The specific record the dogs may <code>refuse credit to</code>: the descent (2:1–4) AND the crowd's own inference — <code>are not all these which speak Galileans?</code> (2:7). The <code>very circumstances</code> argument is already inside the narrative being denied.</li>
+<li><strong>Phil 3:2 — Βλέπετε τοὺς κύνας (<code>Beware of dogs</code>) — S11's <code>those dogs</code>.</strong> The epithet is borrowed polemic, not lost temper: Paul's word for those who gnaw at the gospel's credentials. Calvin cites by snarl.</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① 어법 — 밑줄 친 부분 중 틀린 것은?</h3><blockquote>
+<p>How solid ①<strong>are</strong> the pillars by which this doctrine is supported! One circumstance, sufficient of itself to silence the scoffers, ②<strong>are</strong>, that fishermen, being all rude and illiterate, delivered to the world that which they had never learned. Let them deny the history, ③<strong>still</strong> the very facts proclaim that a heavenly power ④<strong>must have been</strong> their teacher.</p>
+</blockquote><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: ②.</strong> 주어 머리는 <code>One circumstance</code>(단수) — 수식더미(<code>sufficient of itself ...</code>)와 that절 안의 복수 명사(fishermen)에 홀리면 진다. <code>is</code> 로 고쳐야 한다 (Formula 2 ①). <strong>출제 의도:</strong> ①은 Formula 1 의 수사 감탄 도치(정상), ③은 양보-Let 의 꼬리(정상), ④는 증거절과 함께 선 추론의 must have p.p.(정상) — 오늘의 세 공식을 정상 선지로 깔고, 어제부터 이틀째 조련한 <strong>무거운 주어 수일치</strong>를 함정으로 세웠다.</p><h3>② 내용일치 — §11 의 논지와 일치하는 것은?</h3><p>(a) Calvin apologizes for the Synoptics' crude style, asking readers to excuse it for the sake of their message.
+(b) Calvin argues that John's Gospel convinces only those who are already willing to submit to it.
+(c) Calvin holds that the apostles' lack of human schooling, set against what they actually delivered, points to the Holy Spirit as their teacher.
+(d) Calvin concedes that if opponents deny the descent of the Spirit, the argument from the apostles cannot proceed.</p><p class="spoiler" onclick="this.classList.toggle('revealed')"><span class="spoiler-hint">✨ 답안 보기 (클릭)</span><strong>정답: (c).</strong> S9 + S11 그대로: 배운 적 없는 자들의 출력 초과분이 하늘의 교사를 증명한다. <strong>함정 해설:</strong> (a) 방향 뒤집기 — 문체의 낮음은 변명거리가 아니라 증거다(Examiner's Eye ①). (b) 본문 명시 반대 — <code>willing or unwilling</code>(S7, Examiner's Eye ②). (d) 방향 뒤집기 — S11 의 양보-Let 은 부인을 허용해도 결론이 선다는 최강수지, 논증의 중단이 아니다(Examiner's Eye ④).</p><h3>③ 영작 — 오늘의 공식을 적용해 옮기시오</h3><blockquote>
+<p><strong>문제:</strong> 「이 증인들은 얼마나 견고한가! 그들로 하여금 그 기록을 불신하게 두라 — 그래도 그 갑작스러운 변화는, 하늘의 능력이 그들의 교사였음에 틀림없다고 선포한다. 그리고 한 가지 사정 — 그 자체로 충분한 — 은, 그들이 어떤 인간 학교에서도 자기들이 전달한 것을 배운 적이 없다는 것이다.」</p>
+<p>(조건: Formula 1(<code>How + adj + V + S!</code>), Formula 3 ②(<code>Let ..., still ...</code>)와 ③(<code>must have been</code>), Formula 2(<code>, is, that</code> + 수일치)를 각각 사용할 것.)</p>
+</blockquote><p><strong>모범 답안:</strong></p><blockquote>
+<p><em>How solid are these witnesses! Let them refuse credit to the history, still the sudden change proclaims that a heavenly power must have been their teacher. And one circumstance, sufficient of itself, is, that they had never learned in any human school that which they delivered.</em></p>
+</blockquote><p><strong>출제 의도 해설.</strong> 네 공식이 연속 산문에서 값을 유지하는지 본다. 자주 나오는 실패 넷:</p><ol>
+<li><strong><code>How solid these witnesses are!</code></strong> — 문법은 맞지만 ⚠️ <strong>오늘의 과제가 아니다.</strong> 수사 감탄의 V-S 도치(<code>How solid are these witnesses!</code>)가 과녁.</li>
+<li><strong><code>Let them refuse ..., and still ...</code></strong> — ✗ ⚠️ <strong>and 를 넣는 순간 도전-Let(조건)의 꼬리와 섞인다.</strong> 양보-Let 은 콤마 + still 로 바로 잇는다.</li>
+<li><strong><code>must be their teacher</code></strong> — ✗ ⚠️ <strong>과거 사실에 대한 추론은 must have been.</strong> 현재형이면 시제가 증거보다 앞서 나간다.</li>
+<li><strong><code>one circumstance ... are, that ...</code></strong> — ✗ ⚠️ <strong>①번 문제를 그대로 다시 틀리는 학생이 반드시 있다.</strong> 주어 머리 단수 → <code>is</code>. 그리고 <code>, is,</code> 의 콤마를 지우지 말 것 — 오늘은 이 19세기 골격 자체가 과녁이다.</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> ⚠️ <strong>§11 은 신약 증언의 개시이고, 논거는 둘이다 — 글과 사람.</strong> 무대가 열리고(<code>how solid are the pillars ...!</code> — S1, 수사 감탄 도치), 공관복음의 <code>mean and humble style</code>(S2)이 먼저 선다: 교만한 자들은 문체를 비웃지만 그것은 <code>the principal heads of doctrine</code> 을 안 읽었기 때문이고(S3 — ⚠️ <code>from these</code> = 교리의 머리들), 조금의 공정성(<code>the least particle of candour</code>)만 있어도 누가복음 1장 앞에서 부끄러워진다(S4). 요약본만으로도 경멸은 금지되고(S5), 요한은 <code>fulminating in majesty</code> 벼락보다 강하게 내리친다(S6 — ⚠️ 목적어 <code>the petulance</code> 는 비교 부사구 뒤로 늦게 온다). 감찰자들은 나와서 읽어 보라 — <code>willing or unwilling</code>, 천 개의 문장이 잠을 깨우고 낙인처럼 태운다(S7 — 도전-Let). 베드로·바울의 글도 대충 읽는 대다수(<code>the greater part read them blindfold</code>)를 <code>binds and rivets</code> 한다(S8). 그리고 사람들: <code>one circumstance, ..., is, that</code>(S9 — ⚠️ 어제의 <code>, is,</code> 귀환, 수일치는 머리 단수) 세리와 어부들이 <code>being all rude and illiterate</code> — 분사지 동사가 아니다 — <code>had never learned in any human school that which they delivered</code>: <strong>출력이 입력을 초과하면 초과분이 증거다.</strong> 바울의 <code>sudden and unhoped-for change</code>(S10 — 갈 1:23 근인용)가 네 번째 전시물이고, 평결: <code>Let those dogs deny ..., still the very circumstances proclaim that the Holy Spirit must have been the teacher</code>(S11 — ★ 양보-Let + 추론의 must have been). <strong>낮은 그릇, 높은 내용물 — 자연적 설명이 질식하는 자리에서 섭리적 설명이 선다: 어제의 공방(workshop) 질문과 한 엔진이다.</strong></p><p><strong>And the three grammar points, restated:</strong></p><ol>
+<li><strong>수사 감탄 도치.</strong> ★ <code>How + adj + V + S!</code> — 의문 구문에 감탄 부호: 격조 높은 수사문의 힘 주기(S1). ⚠️ 평서 감탄(How solid the pillars are!)으로 "교정"하지 말 것 — !가 화행을 정한다.</li>
+<li><strong><code>, is, that</code> + 주어 스택.</strong> ★ copula 는 주어 머리를 따른다(<code>one circumstance ... is</code>); that절 안에서는 삽입(관계절 둘 + <code>being</code> 분사)을 괄호로 걷어내고 본동사 <code>had never learned</code> 를 수배한다(S9). ⚠️ <code>being</code> 을 동사로 앉히는 순간 전멸.</li>
+<li><strong>Let 의 두 얼굴 + 네 번째 modal perfect.</strong> ★ 꼬리가 값을 정한다: <code>..., and S will V</code> = 조건(도전, S7) / <code>..., still S V</code> = 양보(최강수, S11). 그리고 <code>must have been</code> + 증거절 = <strong>과거 사실에 대한 추론적 확신</strong> — ⚠️ Day 46 S13 의 반사실(<code>must have utterly perished</code>)과 골격은 같고 값은 반대. <strong>이틀, 네 값, 한 교훈: 프레임이 결정한다.</strong></li>
+</ol><p><strong>Homework (10 minutes).</strong></p><p><strong>① 구조 복원.</strong> <strong>S9</strong> 를 네 개의 독립된 평서문으로 해체하라: (a) 뼈대 문장(<code>One circumstance is that they had never learned what they delivered.</code> 수준까지 압축), (b) Matthew 의 관계절을 독립시킨 문장, (c) Peter and John 의 관계절을 독립시킨 문장, (d) <code>being all rude and illiterate</code> 분사를 정동사(이유절)로 세운 문장. 그런 다음 한 줄로 답하라: <strong>(d)의 '이유'는 논증에서 왜 필수인가 — 만약 그들이 배운 자들이었다면 S9 의 증거력은 어떻게 되는가?</strong></p><p><strong>② 영작.</strong> <strong>S6 의 공식</strong>(타동사 + 비교 부사구 + 늦게 오는 목적어)과 <strong>S11 의 양보-Let</strong> 을 한 단락에 넣어, <strong>"비판자가 부인해도 정황 자체가 증언한다"</strong> 는 오늘의 최강수 논법을 <strong>다른 소재</strong>(예: 순교자들의 담대함, 교회의 존속)로 두세 문장 만들어라. 조건: <code>must have + p.p.</code> 를 추론(반사실 아님) 값으로 쓸 것. 그런 다음 한 줄로 답하라: <strong>당신의 문단에서 '증거절' 역할을 하는 절은 무엇인가?</strong></p><p><strong>③ 내일 예습 한 줄.</strong> §12 는 이렇게 열린다: <code>Add, moreover, that, for the best of reasons, the consent of the Church is not without its weight.</code> — ★ <strong>명령문 <code>Add that ...</code> 이 논거를 쌓는 장부 화법</strong>이고, <code>not without its weight</code> 는 <strong>이중부정 litotes</strong>(= 상당한 무게가 있다): 두 장치 모두 내일의 과녁이다. 무대도 바뀐다: 글(§11)에서 <strong>교회의 역사</strong>(§12)로 — 수많은 세대의 한결같은 순종, 진리 자체의 불굴의 힘. ⚠️ <strong>준비해 둘 질문 하나:</strong> <em>칼빈은 I.7 에서 "교회가 성경을 승인해서 권위가 선다"는 로마의 논리를 격파했다. 그런데 §12 는 교회의 consent 를 증거로 세운다 — 모순인가? 힌트: 권위의 근거(foundation)와 신빙성의 방증(help)은 법정에서 다른 자리에 앉는다.</em></p><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 8, §11 끝. 다음은 <strong>Book 1, Ch. 8, §12</strong> (Day 48) — "Proofs from Church history. I. Perpetual consent of the Church in receiving and preserving the truth. II. The invincible power of the truth itself. III. Agreement among the godly, not withstanding of their many differences in other respects."</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>

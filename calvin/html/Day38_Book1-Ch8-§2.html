@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 성경의 신빙성에 대한 증거들 §2 (1권 8장 · Day 38) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 8장 §2(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 38. 연관 성구: 고린도전서 2, 사도행전 4, 히브리서 5, 아모스 1."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day38_Book1-Ch8-%C2%A72.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="성경의 신빙성에 대한 증거들 §2 — 기독교 강요 영어로 읽기 (Day 38)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 8장 §2(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 38. 연관 성구: 고린도전서 2, 사도행전 4, 히브리서 5, 아모스 1."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day38_Book1-Ch8-%C2%A72.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 성경의 신빙성에 대한 증거들 §2 (1권 8장 · Day 38) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 8장 §2(성경의 신빙성에 대한 증거들)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 38. 연관 성구: 고린도전서 2, 사도행전 4, 히브리서 5, 아모스 1.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 8장 §2 — 성경의 신빙성에 대한 증거들","mentions":[{"@type":"CreativeWork","name":"고린도전서 2 (1 Cor 2)"},{"@type":"CreativeWork","name":"사도행전 4 (Acts 4)"},{"@type":"CreativeWork","name":"히브리서 5 (Heb 5)"},{"@type":"CreativeWork","name":"아모스 1 (Amos 1)"},{"@type":"CreativeWork","name":"고린도후서 11 (2 Cor 11)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day38_Book1-Ch8-%C2%A72.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 38 — Book 1, Chapter 8, §2<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (the whole § — 8 sentences, verbatim)</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance (board work)</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl2" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl3" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl3" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl2" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl3" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl2" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl1" href="#S8" onclick="closeNavMobile()">S8</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (어원 후킹 테이블)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 38 — Book 1, Chapter 8, §2</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday Calvin argued that the Bible's <strong>bad prose is a design feature</strong>: <code>the sublime mysteries of the kingdom of heaven have for the greater part been delivered with a contemptible meanness of words</code>, and <code>an unpolished simplicity, almost bordering on rudeness, makes a deeper impression than the loftiest flights of oratory</code>.</p><p>Today, sentence one:</p><blockquote>
+<p><code>I confess, however, that in elegance and beauty, nay, splendour, the style of some of the prophets is not surpassed by the eloquence of heathen writers.</code></p>
+</blockquote><p>Read that cold and it looks like a man walking his own argument back twenty-four hours after making it. <strong>It is not.</strong> Go back to yesterday's S6 and find four words you probably read straight past: <code>for the greater part</code>. ⚠️ <strong>He built the exit before he needed it.</strong> That is what a limiting phrase is <em>for</em>, and if you did not mark it yesterday, mark it now — this is how Calvin writes: the qualification is planted one section early, quietly, and then cashed.</p><p>But the concession is not merely defensive housekeeping. <strong>Watch what he does with it in S2.</strong> The elegant prophets are not an embarrassment to be managed; they are turned into <strong>evidence</strong>:</p><pre><code>   IF the Bible were plain everywhere        → "he could not write better"
+   BUT some prophets write like Isaiah       → "he could, and elsewhere chose not to"
+        ↓
+   S2:  it was NOT FROM WANT OF ELOQUENCE  ‹that›  he in other instances
+        used a rude and homely style
+</code></pre><p>The splendour of Isaiah is what proves the roughness of Amos was <strong>a choice, not a ceiling.</strong> Calvin grants the opponent's strongest ground and then stands on it. That is his method in the whole chapter, and today is the cleanest specimen of it in Book 1.</p><p>And then S3 delivers the thesis that makes the entire argument-from-majesty coherent: whether you read David's sweetness <em>or</em> Amos the herdsman's <code>rougher idiom</code>, <code>**that majesty of the Spirit to which I adverted appears conspicuous in all**</code>. ★ <strong>Which means majesty is not a stylistic property at all.</strong> If it appears equally in two opposite styles, it is not made of style. It is what shows <em>through</em> style — and that is exactly why it can serve as evidence, and exactly why an "aesthetic apologetic" reading of §1 was wrong.</p><p>Then the section walks straight into the hardest objection in the whole of Christian apologetics, and Calvin does not flinch from it — he raises it himself, at length, in the longest sentence of the day: <strong>⚠️ Satan apes God.</strong> Counterfeit revelation exists; it also uses an <code>uncouth and semi-barbarous style</code>; it also employs <code>obsolete forms of expression</code>. If rough archaic language is a mark of divinity, the oracles have it too. Watch, in S5, the single word he uses to dispose of the counterfeit — <code>**affectation**</code> — and ask yourself, honestly, whether one sentence is enough.</p><p><strong>Today's 3 Big Points — write them down now:</strong></p><ol>
+<li><strong>The cleft sentence with the <code>that</code> amputated.</strong> S2: <code>it was **not from want of eloquence** ‹**that**› he in other instances used a rude and homely style.</code> Two traps in one clause. ⚠️ First, <code>want</code> = <strong>LACK</strong>, not desire — the archaic reversal the syllabus keeps warning you about, and today is where it decides the meaning of the section. ⚠️ Second, the connector <code>that</code> is <strong>deleted</strong>, so <code>he in other instances used</code> looks like a fresh main clause and the sentence appears to have two of them. It has one.</li>
+<li><strong><code>as ... so ...</code> correlative — with a purpose clause folded inside it, and a comparative adverb wearing a definite article.</strong> S4: <code>**as** Satan often apes God, (**that he may** by a fallacious resemblance **the better** insinuate himself into the minds of the simple,) **so** he craftily disseminated the impious errors...</code>. Three separate constructions stacked in one 60-word sentence. ⚠️ <code>that he may</code> = <em>so that he may</em> (purpose, not that-clause). ⚠️ <code>the better insinuate</code> = <em>the more effectively insinuate</em> — <code>the</code> + comparative adverb, the same <code>the</code> as in <em>the more, the merrier</em>.</li>
+<li><strong>Negation through the back door — six times in eight sentences.</strong> <code>is **not surpassed** by</code> (S1) · <code>**not** from **want** of eloquence</code> (S2) · <code>I am **not unaware**</code> (S4) · <code>**None** ... **need** be told</code> (S5) · <code>man **never could have** conceived</code> (S6) · <code>**not one** will be found who does **not** rise</code> (S7). ⚠️ Four of these are <strong>litotes</strong> — a negative that means the positive with <em>extra</em> force — and S7 is a <strong>double negative that means a universal affirmative</strong>. If you translate these flat, you will end up with a Calvin who is hedging. He is doing the opposite.</li>
+</ol><p>And one small beauty to watch for: the section opens on <code>**savours** of rusticity</code> (S3) and closes on <code>**insipid** ... devoid of **taste**</code> (S8). ★ <em>sapere</em> at both ends. <strong>Calvin sealed the section with a taste-bracket.</strong> Eight sentences. Let's go.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (the whole § — 8 sentences, verbatim)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+2. I confess, however, that in elegance and beauty, nay, splendour, the style of some of the prophets is not surpassed by the eloquence of heathen writers. By examples of this description, the Holy Spirit was pleased to show that it was not from want of eloquence he in other instances used a rude and homely style. But whether you read David, Isaiah, and others of the same class, whose discourse flows sweet and pleasant; or Amos the herdsman, Jeremiah, and Zechariah, whose rougher idiom savours of rusticity; that majesty of the Spirit to which I adverted appears conspicuous in all. I am not unaware, that as Satan often apes God, that he may by a fallacious resemblance the better insinuate himself into the minds of the simple, so he craftily disseminated the impious errors with which he deceived miserable men in an uncouth and semi-barbarous style, and frequently employed obsolete forms of expression in order to cloak his impostures. None possessed of any moderate share of sense need be told how vain and vile such affectation is. But in regard to the Holy Scriptures, however petulant men may attempt to carp at them, they are replete with sentiments which it is clear that man never could have conceived. Let each of the prophets be examined, and not one will be found who does not rise far higher than human reach. Those who feel their works insipid must be absolutely devoid of taste.
+⚠️ Text note (transcription, not Calvin) — three housekeeping items from our local Beveridge file.
+(1) Two line-break hyphenations have been closed: de-/scription → description (S2), Scrip-/tures → Scriptures (S6).
+(2) The marginal page number 76, which falls in mid-sentence immediately after that majesty of the in S3, is not part of the text and has been left out.
+(3) The section is one unbroken paragraph in the source — unlike §1, there is no internal paragraph division to preserve. Eight sentences, straight through.
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance (board work)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>  ── PART A: THE CONCESSION, MADE AS LARGE AS POSSIBLE (S1–S2) ──
+[⚠️ CONCESSION]   S1  I CONFESS, HOWEVER —
+                      in elegance and beauty, NAY, SPLENDOUR,
+                      the style of SOME of the prophets
+                      is NOT SURPASSED BY the eloquence of heathen writers
+                                  ↑ litotes. "지지 않는다" = 대등하다(그 이상이다).
+                                  ↑ NAY = 아니 그 정도가 아니라 (상향 정정)
+
+[THE USE OF       S2  By examples OF THIS DESCRIPTION (= of this KIND),
+ THE CONCESSION]      the Holy Spirit WAS PLEASED TO SHOW
+                      [ that IT WAS NOT FROM WANT OF ELOQUENCE  ‹THAT›
+                        he in other instances USED A RUDE AND HOMELY STYLE ]
+                                  ↑ 강조구문에서 that 이 삭제됨
+                                  ↑ WANT = 결핍. 어제의 조야함 = 무능 아님, 선택.
+
+  ── PART B: THE THESIS — THE CONSTANT ACROSS OPPOSITE STYLES (S3) ──
+[⚠️ THE THESIS]   S3  BUT WHETHER you read
+                        ① David, Isaiah, and others of the same class,
+                           WHOSE DISCOURSE FLOWS SWEET AND PLEASANT ;
+                        OR ② AMOS THE HERDSMAN, Jeremiah, and Zechariah,
+                           WHOSE ROUGHER IDIOM SAVOURS OF RUSTICITY ;
+                      → THAT MAJESTY OF THE SPIRIT (to which I ADVERTED)
+                        APPEARS CONSPICUOUS  IN ALL
+                                  ↑ 주절은 세미콜론 둘을 지난 뒤에야 온다.
+                                  ↑ 두 문체가 정반대인데 상수는 같다
+                                    ⇒ majesty 는 문체의 속성이 아니다.
+
+  ── PART C: THE COUNTERFEIT OBJECTION — RAISED, THEN DISMISSED (S4–S5) ──
+[⚠️ THE MONSTER]  S4  I AM NOT UNAWARE that
+                        AS  Satan often APES GOD
+                            ( THAT HE MAY, by a FALLACIOUS RESEMBLANCE,
+                              THE BETTER INSINUATE himself into the minds
+                              of THE SIMPLE, )
+                        SO  he craftily DISSEMINATED the impious errors
+                            (with which he deceived miserable men)
+                            in an UNCOUTH AND SEMI-BARBAROUS style,
+                            and frequently employed OBSOLETE FORMS OF
+                            EXPRESSION  IN ORDER TO CLOAK HIS IMPOSTURES
+                                  ↑ 사탄은 성경의 '조야함'까지 흉내 냈다.
+
+[THE DISMISSAL]   S5  NONE (possessed of any moderate share of sense)
+                      NEED BE TOLD  how VAIN AND VILE such AFFECTATION is
+                                  ↑ need = 조동사(원형 be, -s 없음)
+                                  ↑⚠️ AFFECTATION = 꾸며낸 티. 이 한 단어가
+                                     위조와 진품을 가르는 칼빈의 유일한 칼이다.
+
+  ── PART D: THE POSITIVE CLAIM — CONTENT, NOT STYLE (S6–S8) ──
+[THE ANSWER]      S6  BUT in regard to the Holy Scriptures,
+                      ( HOWEVER PETULANT men MAY ATTEMPT TO CARP at them, )
+                      they are REPLETE WITH SENTIMENTS
+                        [ which ‹IT IS CLEAR THAT› man NEVER COULD HAVE
+                          CONCEIVED ]
+                                  ↑ 판단절이 관계사와 동사 사이에 끼어든다.
+                                  ↑ 기준이 문체(style)→내용(sentiments)으로 이동.
+
+[THE TEST]        S7  LET each of the prophets BE EXAMINED,  AND
+                      NOT ONE will be found  WHO DOES NOT RISE
+                      far higher than HUMAN REACH
+                                  ↑ 이중부정 = 전원 예외 없이 상승 (전칭긍정)
+                                  ↑ 명령문 + and = 조건 (어제 S12 재출)
+
+[THE VERDICT]     S8  Those who FEEL their works INSIPID
+                      must be ABSOLUTELY DEVOID OF TASTE
+                                  ↑ savour(S3) … insipid/taste(S8):
+                                    같은 어근(sapere)이 절 전체를 봉한다.
+</code></pre><p><strong>Examiner's Eye — four traps, and the first one is worth the whole section.</strong></p><p>⚠️ <strong>① "S1 retracts §1."</strong> The single most likely 내용일치 distractor, and it is designed to catch the student who read yesterday without marking <code>for the greater part</code>. S1 does not withdraw yesterday's claim; <strong>S2 conscripts S1 into it.</strong> The elegance of some prophets is the premise of an argument <em>for</em> the providential character of the roughness of the others. Concession → weapon, in one sentence.</p><p>⚠️ <strong>② "Calvin admits the counterfeits are indistinguishable."</strong> S4 is long, vivid, and entirely about Satan; a hurried reader finishes it with the impression that Calvin has conceded the parity. <strong>S5 exists precisely to deny it</strong> — and note that S5 denies it by <em>refusing to argue</em>: <code>None possessed of any moderate share of sense **need be told**</code>. Whether that refusal satisfies you is Period 6's business. But do not misreport what the text says.</p><p>⚠️ <strong>③ S7's double negative.</strong> <code>not one will be found who does not rise far higher than human reach</code> = <strong>every single one rises far higher.</strong> A distractor reading "some prophets do not rise above human reach" flips it, and the flip is invisible if you read the sentence at speed.</p><p>⚠️ <strong>④ S1's <code>some</code>.</strong> <code>the style of **some** of the prophets</code>. Any option saying <em>all</em> the prophets are elegant — or <em>all</em> are rough — is dead on the quantifier alone. Calvin's whole point in S3 is that they come in <strong>both</strong> kinds.</p><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl2" data-lvl="2" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s2" title="2-star">★★</span><span class="s-label">a concession that gets bigger as it goes — and a negative that means "at least equal"</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p>"I confess, however, that in elegance and beauty, nay, splendour, the style of some of the prophets is not surpassed by the eloquence of heathen writers."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>I confess,</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">however</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> <b>is not surpassed by</b> the eloquence of heathen writers</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in elegance and beauty, <b>nay</b>, splendour</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the style of <b>some</b> of the prophets</span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>confess</em> &lt; <em>con-</em> (thoroughly) + <em>fateri</em> (to acknowledge, speak out) &lt; <em>fari</em> (to speak) — cf. <em>profess</em>, <em>fate</em> (what is spoken), <em>fable</em>, <em>infant</em> (<em>in-fans</em> = not speaking). — <em>splendour</em> &lt; <em>splendere</em> (to shine) — cf. <em>splendid</em>, <em>resplendent</em>. — <em>surpass</em> &lt; OFr <em>sur-</em> (over, &lt; <em>super</em>) + <em>passer</em> — literally "to pass over the top of." — <em>heathen</em> &lt; OE <em>hǣthen</em>, "one who dwells on the heath" — an Old English calque on Lat. <em>paganus</em> (<em>pagus</em> = country district) → "villager, countryman" → non-Christian. ★ Note the accident: <em>heathen</em> and <em>rusticity</em> (S3) come from the same metaphor — religion and refinement both measured from the town.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>I confess that ...</em> = 인정하건대 (양보 도입); <em>nay</em> = 아니, 그 정도가 아니라 (상향 정정, = Lat. <em>immo</em>); <em>be not surpassed by</em> = ~에 뒤지지 않는다 (≥); <em>some of the prophets</em> = 선지자들 가운데 일부 (전체 아님).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I admit that when it comes to elegance and beauty — in fact, sheer brilliance — the writing of some of the prophets is every bit as good as anything the pagan authors produced.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>I confess</b> → I admit</li><li><b>nay, splendour</b> → in fact, sheer brilliance</li><li><b>is not surpassed by</b> → is every bit as good as</li><li><b>the eloquence of heathen writers</b> → the polished writing of pagan authors.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ THE SENTENCE OF THE DAY — a cleft with its that cut out, and a word that means the opposite of what you think</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p>"By examples of this description, the Holy Spirit was pleased to show that it was not from want of eloquence he in other instances used a rude and homely style."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>By examples of this description,</b></span></li><li><span class="leaf"><b>was pleased to show</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">the Holy Spirit</span></li></ul></li></ul></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> ‹ <b>it was not from want of eloquence</b> ‹<b>that</b>› he in other instances <b>used</b> a rude and homely style ›</span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>want</em> &lt; ON <em>vanta</em> (to be lacking); kin to <em>wane</em> &lt; OE <em>wanian</em> (to decrease), and to Lat. <em>vanus</em> (empty) → <em>vain</em>, <em>vanity</em>, <em>evanescent</em>. ★ Same family as `in vain` in yesterday's S1 — the section's two great negatives are cousins. — <em>description</em> &lt; <em>de-</em> + <em>scribere</em> (to write down) → a written-out specification → a sort, a class. — <em>homely</em> = <em>home</em> + <em>-ly</em>: of the house, plain. — <em>rude</em> &lt; <em>rudis</em> (raw, unworked) → <em>erudite</em>, <em>rudiment</em>. — <em>eloquence</em> &lt; <em>e-</em> + <em>loqui</em> (to speak out) → <em>loquacious</em>, <em>colloquial</em>, <em>soliloquy</em>, <em>elocution</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>of this description</em> = 이런 종류의 (묘사 아님); <em>be pleased to V</em> = 기꺼이 ~하시다 (윗분에 대한 격식); <em>from want of X</em> = X가 없어서 (⚠️ 원해서 아님); <em>for want of X</em> = 같은 뜻; <em>be found wanting</em> = 부족한 것으로 드러나다; <em>a rude and homely style</em> = 다듬지 않고 소박한 문체.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">By giving us examples like these, the Holy Spirit wanted to make it clear that when he used a plain, unpolished style elsewhere, it was not because he was incapable of eloquence.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>examples of this description</b> → examples like these</li><li><b>was pleased to show</b> → wanted to make clear</li><li><b>it was not from want of eloquence ‹that›</b> → it was not because he lacked the ability</li><li><b>in other instances</b> → elsewhere</li><li><b>a rude and homely style</b> → a plain, unpolished style.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ the main clause arrives after two semicolons — and the thesis of the section is hiding behind them</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p>"But whether you read David, Isaiah, and others of the same class, whose discourse flows sweet and pleasant; or Amos the herdsman, Jeremiah, and Zechariah, whose rougher idiom savours of rusticity; that majesty of the Spirit to which I adverted appears conspicuous in all."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf">` <b>But</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>whether</b> you read <b>or</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">David, Isaiah, and others of the same class</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (whose)</span><span class="leaf"><b>whose</b> discourse flows sweet and pleasant</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Amos the herdsman, Jeremiah, and Zechariah</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (whose)</span><span class="leaf"><b>whose</b> rougher idiom savours of rusticity</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>appears</b> conspicuous <b>in all</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that majesty of the Spirit</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to which</b> I adverted</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>discourse</em> &lt; <em>dis-</em> (apart) + <em>currere</em> (to run) → a running to and fro → connected speech; cf. <em>concourse</em>, <em>cursive</em>, <em>excursion</em>, <em>precursor</em>. — <em>idiom</em> &lt; Gk. ἴδιος (one's own) → ἰδίωμα = a peculiarity, one's own way of speaking. ★ Same ἴδιος behind ἰδιώτης = a <em>private</em> person, a layman — the very word in Acts 4:13 (`unlearned and ignorant men`) that we flagged yesterday under S8. Amos and the apostles are described with the same Greek root. — <em>rusticity</em> &lt; <em>rus, ruris</em> (the countryside) → <em>rustic</em>, <em>rural</em>, <em>rusticate</em>. — <em>savour</em> &lt; <em>sapor</em> &lt; <em>sapere</em> (to taste; to be wise) → <em>sapient</em>, <em>insipid</em> (S8!), <em>sage</em>, <em>savvy</em>. — <em>advert</em> &lt; <em>ad-</em> + <em>vertere</em> (to turn) → <em>avert</em>, <em>divert</em>, <em>convert</em>, <em>versatile</em>, <em>advertise</em>. — <em>conspicuous</em> &lt; <em>con-</em> (intensive) + <em>specere</em> (to look at) → <em>spectacle</em>, <em>suspicion</em>, <em>despise</em>, <em>conspectus</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>whether A or B, X</em> = A든 B든 (양보 부사절); <em>others of the same class</em> = 같은 부류의 다른 이들; <em>one's discourse flows sweet and pleasant</em> = 문장이 매끄럽고 아름답게 흐르다; <em>savour of X</em> = X의 티가 나다; <em>advert to X</em> = X를 언급하다 (⚠️ 광고 아님); <em>appear conspicuous</em> = 뚜렷하게 드러나다 (⚠️ '~인 듯하다' 아님).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But it makes no difference whether you read David, Isaiah, and writers of that kind, whose prose runs smooth and beautiful, or Amos the shepherd, Jeremiah, and Zechariah, whose rougher language has a country flavour to it: the majesty of the Spirit I mentioned earlier stands out plainly in every one of them.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>whether you read ... or ...</b> → it makes no difference whether you read ... or ...</li><li><b>whose discourse flows sweet and pleasant</b> → whose prose runs smooth and beautiful</li><li><b>rougher idiom savours of rusticity</b> → rougher language has a country flavour</li><li><b>to which I adverted</b> → that I mentioned earlier</li><li><b>appears conspicuous in all</b> → stands out plainly in every one of them.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ THE MONSTER — three constructions stacked inside one 60-word concession, and the objection that every apologetic must face</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p>"I am not unaware, that as Satan often apes God, that he may by a fallacious resemblance the better insinuate himself into the minds of the simple, so he craftily disseminated the impious errors with which he deceived miserable men in an uncouth and semi-barbarous style, and frequently employed obsolete forms of expression in order to cloak his impostures."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>I am not unaware,</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> <b>so</b> he craftily <b>disseminated</b> the impious errors <b>in an uncouth and semi-barbarous style,</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>as</b> Satan often <b>apes</b> God</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that he may</b> <b>the better insinuate</b> himself into the minds of the simple</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by a fallacious resemblance</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>with which</b> he deceived miserable men</span></li></ul></li></ul><ul class="tr"><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and</b> frequently <b>employed</b> obsolete forms of expression</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in order to cloak</b> his impostures</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>ape</em> (v.) — from the animal; cf. Lat. <em>simia</em> and the patristic tag <em>simia Dei</em>, "God's ape." — <em>fallacious</em> &lt; <em>fallere</em> (to deceive) → <em>fallacy</em>, <em>false</em>, <em>fail</em>, <em>fault</em>, <em>default</em>, <em>fallible</em>. — <em>insinuate</em> &lt; <em>in-</em> + <em>sinus</em> (a curve, fold, bay) → to introduce by windings; cf. <em>sinuous</em>, <em>sinus</em>, <em>insinuation</em>. — <em>simple</em> &lt; <em>sim-</em> (one) + <em>plicare</em> (to fold) → single-fold, unmixed; cf. <em>duplicity</em> (two-fold = double-dealing), <em>complicated</em>, <em>explicate</em>, <em>supple</em>. — <em>disseminate</em> &lt; <em>dis-</em> (abroad) + <em>semen</em> (seed) → <em>seminary</em>, <em>seminal</em>, <em>inseminate</em>. — <em>uncouth</em> &lt; OE <em>un-</em> + <em>cūth</em> (known, pp. of <em>cunnan</em>) → <em>can</em>, <em>ken</em>, <em>cunning</em>, <em>uncanny</em>, <em>couth</em>. — <em>barbarous</em> &lt; Gk. βάρβαρος, an onomatopoeia for unintelligible speech ("bar-bar") = one who does not speak Greek. ★ Note the irony: the word for <em>unintelligible</em> is being applied to a style that trades on unintelligibility. — <em>obsolete</em> &lt; <em>ob-</em> + <em>solere</em> (to be accustomed) → gone out of use. — <em>imposture</em> &lt; <em>im-</em> (<em>in-</em>) + <em>ponere</em> (to place) → <em>impose upon</em>, hence to deceive; cf. <em>impostor</em>, <em>imposition</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>I am not unaware that ...</em> = ~을 모르지 않는다 (= 잘 안다, 양보 도입); <em>as ... so ...</em> = ~하듯이 그렇게; <em>that he may V</em> = ~하기 위하여 (목적, = so that); <em>the better V</em> = 더 효과적으로 V하려고; <em>insinuate oneself into</em> = ~에 슬며시 파고들다; <em>the simple</em> = 순진한 사람들 (⚠️ 어리석은 자 아님); <em>in order to V</em> = ~하기 위하여; <em>cloak one's impostures</em> = 사기를 은폐하다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">I am well aware that Satan often imitates God — his aim being to work his way into simple people's minds more effectively by means of a deceptive likeness — and that this is exactly how he went about spreading the wicked errors he used to fool his miserable victims: he dressed them in a crude, half-barbaric style and kept using outdated turns of phrase to disguise the fraud.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>I am not unaware</b> → I am well aware</li><li><b>apes God</b> → imitates God</li><li><b>that he may ... the better insinuate himself</b> → so that he can work his way in more effectively</li><li><b>the simple</b> → simple / unsuspecting people</li><li><b>disseminated</b> → spread</li><li><b>uncouth and semi-barbarous</b> → crude and half-barbaric</li><li><b>in order to cloak his impostures</b> → to disguise the fraud.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s2" title="2-star">★★</span><span class="s-label">⚠️ one modal verb and one noun — and the noun is the only blade Calvin draws against the counterfeit</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p>"None possessed of any moderate share of sense need be told how vain and vile such affectation is."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>None</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">‹who are› <b>possessed of</b> any moderate share of sense</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>need be told</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>how vain and vile</b> such affectation <b>is</b></span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>need</em> — OE <em>nēodian</em>; in modal use, bare infinitive and no third-person <em>-s</em>, licensed only in non-assertive contexts. — <em>possessed of</em> &lt; <em>possidere</em> (<em>potis</em> able + <em>sedere</em> to sit) = to sit as master over; cf. <em>possess</em>, <em>session</em>, <em>sedentary</em>, <em>preside</em>. — <em>affectation</em> &lt; <em>affectare</em>, frequentative of <em>afficere</em> (<em>ad-</em> + <em>facere</em>) = to strive after, aim at, feign; cf. <em>affect</em> (v., to put on), <em>affected</em> (adj.), <em>affection</em>. — <em>vain</em> &lt; <em>vanus</em> (empty) → <em>vanity</em>, <em>evanescent</em>, <em>vaunt</em>; and cf. today's `want` &lt; ON <em>vanta</em>, same Indo-European neighbourhood of "lack/empty." — <em>vile</em> &lt; <em>vilis</em> (cheap, low-priced) → <em>vilify</em>, <em>vilipend</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>none need be told</em> = 아무도 들을 필요가 없다 (need = 조동사); <em>be possessed of X</em> = X를 지니고 있다 (⚠️ 사로잡힌 것 아님); <em>a moderate share of sense</em> = 웬만한 정도의 분별력; <em>how vain and vile X is</em> = X가 얼마나 공허하고 천한지.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Anyone with even ordinary common sense can see for himself how empty and cheap that kind of posturing is — it doesn't need pointing out.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>None ... need be told</b> → nobody needs to be told / anyone can see for himself</li><li><b>possessed of any moderate share of sense</b> → with even ordinary common sense</li><li><b>how vain and vile</b> → how empty and cheap</li><li><b>such affectation</b> → that kind of posturing.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">⚠️ a judgment clause wedged between a relative pronoun and its verb — and the criterion quietly changes</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p>"But in regard to the Holy Scriptures, however petulant men may attempt to carp at them, they are replete with sentiments which it is clear that man never could have conceived."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (but)</span><span class="leaf">` <b>But in regard to the Holy Scriptures,</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>however petulant</b> men <b>may attempt</b> to carp at them</span></li></ul></li><li><span class="leaf"><b>they are replete with</b> sentiments</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b> ‹ <b>it is clear that</b> › man <b>never could have conceived</b></span></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>petulant</em> &lt; <em>petulans</em> &lt; <em>petere</em> (to seek, to attack, to make for) → <em>petition</em>, <em>appetite</em>, <em>competitor</em>, <em>impetus</em>, <em>centripetal</em>. — <em>carp</em> (v.) — ON <em>karpa</em> (to boast), assimilated to Lat. <em>carpere</em> (to pluck, pull apart) → <em>carpe diem</em>, <em>excerpt</em> (<em>ex-</em> + <em>carpere</em>), <em>scarce</em>. — <em>replete</em> &lt; <em>re-</em> + <em>plere</em> (to fill) → <em>complete</em>, <em>plenary</em>, <em>plenty</em>, <em>deplete</em>, <em>supply</em>. — <em>sentiment</em> &lt; <em>sentire</em> (to feel, to perceive, to think) → <em>sentence</em>, <em>sententious</em>, <em>consent</em>, <em>assent</em>, <em>sense</em>, <em>scent</em>. ⚠️ In this period `sentiment` = an opinion or thought, not a feeling. — <em>conceive</em> &lt; <em>con-</em> + <em>capere</em> (to take) → to take in (mind or womb) → <em>concept</em>, <em>conception</em>, <em>capture</em>, <em>receive</em>, <em>susceptible</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in regard to X</em> = X에 관해서는; <em>however ADJ S may V</em> = 아무리 ~하게 ~해도; <em>carp at X</em> = X에 트집을 잡다; <em>be replete with X</em> = X로 가득하다; <em>which it is clear that S V</em> = ~라는 것이 분명한 (관계사 + 삽입 판단절).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But when it comes to the Holy Scriptures, no matter how brazenly people try to nitpick them, they are packed with ideas that no human being could possibly have thought up — and that much is obvious.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>in regard to</b> → when it comes to</li><li><b>however petulant men may attempt to carp at them</b> → no matter how brazenly people try to nitpick them</li><li><b>replete with sentiments</b> → packed with ideas</li><li><b>which it is clear that man never could have conceived</b> → that no human being could possibly have thought up — and that much is obvious.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s2" title="2-star">★★</span><span class="s-label">a conditional imperative in the passive, and a double negative that means every single one</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p>"Let each of the prophets be examined, and not one will be found who does not rise far higher than human reach."</p>
+</blockquote><div class="syntax-holder"><p>`</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">` <b>Let</b> <b>be examined,</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">each of the prophets</span></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and</b></span></li><li><span class="leaf"><b>will be found</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>not one</b></span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who does not rise</b> far higher than human reach</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>examine</em> &lt; <em>examen</em> (the tongue of a balance, a weighing) &lt; <em>exigere</em> (<em>ex-</em> + <em>agere</em>, to drive out, weigh out) → <em>exact</em>, <em>exigent</em>, <em>essay</em>/<em>assay</em>. ★ To <em>examine</em> is to put on the scales — the image is judicial weighing, not casual inspection. — <em>reach</em> &lt; OE <em>ræcan</em> (to stretch out the hand) → cognate German <em>reichen</em>. — <em>rise</em> &lt; OE <em>rīsan</em>; note it is intransitive — no object; `rise far higher` takes an adverbial comparative, not a direct object.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Let X be p.p.</em> = X를 ~해 보라 (3인칭 명령); <em>명령문 + and</em> = ~해 보라, 그러면; <em>not one will be found who ...</em> = ~하는 자는 하나도 발견되지 않을 것이다; <em>rise higher than human reach</em> = 인간의 손이 닿는 범위를 넘어서다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Put every one of the prophets to the test, and you will not find a single one who does not reach far beyond anything a human being could manage.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Let each of the prophets be examined</b> → Put every one of the prophets to the test</li><li><b>and not one will be found</b> → and you will not find a single one</li><li><b>who does not rise far higher than human reach</b> → who does not reach far beyond what a human could manage.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s1" title="1-star">★</span><span class="s-label">the closing verdict — and the word that seals the section back to S3</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p>"Those who feel their works insipid must be absolutely devoid of taste."</p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>insipid</em> &lt; <em>in-</em> (not) + <em>sapidus</em> (tasty) &lt; <em>sapere</em> (to taste; to be wise) — the same root as <em>savour</em>, <em>sapient</em>, <em>sage</em>, <em>savvy</em>. — <em>devoid</em> &lt; OFr <em>desvuidier</em> (<em>des-</em> + <em>vuidier</em>, to empty) &lt; Lat. <em>vacuus</em> → <em>void</em>, <em>vacant</em>, <em>vacuum</em>, <em>evacuate</em>, <em>avoid</em>, <em>vanish</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>feel X insipid</em> = X가 맛없다고 느끼다 (5형식); <em>be devoid of X</em> = X가 전혀 없다.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Anyone who finds their writings dull must have no taste whatsoever.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>feel their works insipid</b> → finds their writings dull</li><li><b>absolutely devoid of taste</b> → has no taste whatsoever.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas (시험 직전 이것만)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code> ════════════════════════════════════════════════════════════════════════
+  FORMULA 1 — 강조구문(cleft)에서 that 이 사라진다 + not from want of
+ ════════════════════════════════════════════════════════════════════════
+
+   ① IT IS / IT WAS  +  X  +  ‹THAT›  +  S V ...
+      ▸ IT WAS not from want of eloquence ‹THAT› he in other instances
+        USED a rude and homely style                                       (S2)
+      ⚠️ that 가 삭제되면 「주절이 둘」로 보인다. 접속사가 안 보이면
+         제일 먼저 that 을 복원해 볼 것.
+      ⚠️ 강조되는 자리에 부사구(from want of ...)가 오면 뒤는 완전한 절이다.
+         (관계사 which 로 착각 금지 — 선행사가 없다.)
+
+   ② NOT FROM / FOR WANT OF  +  N        = ~이 없어서가 아니라
+      ▸ NOT FROM WANT OF ELOQUENCE                                        (S2)
+      ⚠️⚠️ want = LACK. 「원해서」 아님. 이 한 단어에 절 전체가 걸려 있다.
+      ▸ 화석형: for want of a nail / in want / found wanting (단5:27)
+                / wanting in judgement
+      ⚠️ want &lt; ON vanta(결핍) ~ wane ~ vanus(empty). 어제의 in vain 과 친척.
+ ════════════════════════════════════════════════════════════════════════
+</code></pre><p><strong>Transformation drill 1:</strong> <em>It was not from want of power that he permitted the trial, nor for want of a witness that he chose the unlettered; and the plainest of the apostles was found wanting in nothing that the hour required.</em></p><pre><code> ════════════════════════════════════════════════════════════════════════
+  FORMULA 2 — as ... so ... 상관구문, 그 안에 목적절과 the+비교급을 접어 넣기
+ ════════════════════════════════════════════════════════════════════════
+
+   ① AS  +  S1 V1  ,  SO  +  S2 V2        = ~하듯이, 그렇게 ~하다
+      ▸ AS Satan often apes God, ... SO he craftily disseminated ...       (S4)
+      ⚠️ as 와 so 사이가 60단어까지 벌어진다. so 를 「그래서」로 읽으면
+         비교가 사라지고 문장이 서사로 무너진다.
+      ⚠️ 읽기 요령: 콤마로 울타리 친 삽입부를 먼저 **지우고** 뼈대를 본 뒤
+         되돌린다.  → "as Satan apes God, so he disseminated the errors"
+
+   ② THAT  +  S  +  MAY / MIGHT  +  V     = ~하기 위하여 (목적)
+      ▸ THAT HE MAY ... insinuate himself into the minds of the simple     (S4)
+      ⚠️ 명사절 that 아님. = so that / in order that.
+      ▸ 같은 문장 끝의 현대형이 증거: IN ORDER TO cloak his impostures      (S4)
+
+   ③ THE  +  비교급 부사  +  V             = 그만큼 더 ~하게
+      ▸ THE BETTER insinuate himself                                       (S4)
+      ⚠️ the = 관사 아님. 고대 영어 도구격 þȳ = 「그만큼」의 화석.
+      ▸ 동족: the more, the merrier / so much the better / none the wiser
+      ⚠️ 현대 관용은 the better TO V. 오늘 본문은 may ... the better V
+         (조동사와 원형 사이에 부사구가 들어간 형태). 둘 다 존재 — 구별할 것.
+ ════════════════════════════════════════════════════════════════════════
+</code></pre><p><strong>Transformation drill 2:</strong> <em>As the counterfeit apes the coin, that it may the better pass unquestioned among those who never weigh what they are given, so the false teacher borrows the plainness of the prophets in order to cloak a doctrine that could not survive being said clearly.</em></p><pre><code> ════════════════════════════════════════════════════════════════════════
+  FORMULA 3 — 부정을 우회하는 네 가지 방법 (오늘 여덟 문장에 여섯 번)
+ ════════════════════════════════════════════════════════════════════════
+
+   ① LITOTES  (부정 = 강한 긍정)
+      ▸ is NOT SURPASSED BY the eloquence of heathen writers      (S1)  ⇒ ≥
+      ▸ NOT from want of eloquence                                (S2)
+      ▸ I am NOT UNAWARE that ...                                 (S4)  ⇒ 잘 안다
+      ⚠️ 「not surpassed」를 「못 미친다」로 읽으면 부호가 뒤집힌다.
+      ⚠️ 「I am not unaware / I confess」는 대개 **양보 도입 신호**다.
+         바로 뒤에 오는 but 을 찾아라.
+
+   ② 조동사 NEED  (비단정 문맥 전용)
+      ▸ NONE ... NEED BE TOLD how vain and vile such affectation is  (S5)
+      ⚠️ 원형 be, 3인칭 -s 없음, to 없음.  *needs be told  ✗
+      ⚠️ 문두 None / hardly / never 등 **부정어가 조동사 need 를 허가**한다.
+      ▸ 짝: any moderate share (any 도 부정극성어) / 어제 at all
+
+   ③ 관계사 + 삽입 판단절
+      ▸ sentiments WHICH ‹IT IS CLEAR THAT› man never could have CONCEIVED (S6)
+      ⚠️ that 은 「it is clear」의 것이지 which 의 것이 아니다.
+      ▸ 확인법: 「it is clear that」를 손으로 가려라. 남는 문장이 완전하면 정답.
+      ▸ 동족: a man who I think ‹that› you met / a claim which I suspect
+              that no one has tested
+
+   ④ 이중부정 = 전칭긍정  (+ 조건 명령문의 틀)
+      ▸ LET each of the prophets BE EXAMINED, AND
+        NOT ONE will be found WHO DOES NOT RISE far higher than human reach (S7)
+      ⇒ 예외 없이 전원이 인간의 한계를 넘어선다
+      ⚠️ 부정 둘이 12단어 떨어져 있고 하나는 관계절 안에 있다. 반드시 **종이에**
+         괄호 치고 상쇄할 것.
+      ⚠️ 명령문 + and = 「~해 보라, 그러면」 (어제 S12 turn ..., and 재출)
+ ════════════════════════════════════════════════════════════════════════
+</code></pre><p><strong>Transformation drill 3:</strong> <em>I am not unaware that the objection has been pressed; none possessed of any patience need be told how thin it is. Open the book at any page you like, and not one chapter will be found which it is clear that a committee could have produced.</em></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (어원 후킹 테이블)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>confess</strong></td>
+<td>(논쟁에서) 인정하다</td>
+<td><em>con-</em> + <em>fateri</em>(speak out) &lt; <em>fari</em>(speak). <code>profess</code>, <code>fable</code>, <code>infant</code>(<em>in-fans</em> = 말 못 하는). 참회 아님 — <strong>양보 도입 동사</strong>.</td>
+</tr>
+<tr>
+<td><strong>⚠️ nay</strong></td>
+<td>아니, 그 정도가 아니라</td>
+<td>Lat. <em>immo</em>. 자기 말을 <strong>위로 정정</strong>하는 표시. <code>competent, nay, brilliant</code>. 「아니오」의 거부 아님.</td>
+</tr>
+<tr>
+<td><strong>splendour</strong></td>
+<td>광휘·화려함</td>
+<td><em>splendere</em>(빛나다). <code>splendid</code>, <code>resplendent</code>.</td>
+</tr>
+<tr>
+<td><strong>surpass</strong></td>
+<td>능가하다</td>
+<td><em>sur-</em>(&lt; <em>super</em>, 위로) + <em>passer</em>. <strong>위로 지나가다</strong>. <code>not surpassed by</code> = <strong>뒤지지 않는다(≥)</strong>.</td>
+</tr>
+<tr>
+<td><strong>heathen</strong></td>
+<td>이교의</td>
+<td>OE <em>hǣthen</em> = <strong>황야(heath)에 사는 자</strong> — Lat. <em>paganus</em>(<em>pagus</em> 시골)의 번역차용. ★ 오늘의 <code>rusticity</code> 와 <strong>같은 은유</strong>(도시 기준).</td>
+</tr>
+<tr>
+<td><strong>⚠️ of this description</strong></td>
+<td>이런 <strong>종류의</strong></td>
+<td><em>de-</em> + <em>scribere</em>. <code>persons of every description</code>. 「묘사」 아님. cf. 같은 절의 <code>others of the same class</code>.</td>
+</tr>
+<tr>
+<td><strong>be pleased to V</strong></td>
+<td>기꺼이 ~하시다</td>
+<td>윗분·군주에 쓰는 격식. 필연이 아니라 <strong>자유로운 선의</strong>로 하셨다는 뜻.</td>
+</tr>
+<tr>
+<td><strong>⚠️⚠️ want</strong></td>
+<td><strong>결핍</strong></td>
+<td>ON <em>vanta</em>(부족하다) ~ <em>wane</em>(줄다) ~ <em>vanus</em>(empty). <code>for want of a nail</code>, <code>in want</code>, <code>found wanting</code>(단5:27), <code>wanting in judgement</code>. <strong>원함 아님.</strong> 오늘 최대 함정.</td>
+</tr>
+<tr>
+<td><strong>⚠️ rude</strong></td>
+<td>다듬지 않은</td>
+<td><em>rudis</em> = <strong>raw, unwrought</strong>. <code>erudite</code> = <em>e-</em> + <em>rudis</em> = 거친 데서 <strong>깎아낸</strong>. 무례 아님(어제 재출).</td>
+</tr>
+<tr>
+<td><strong>⚠️ homely</strong></td>
+<td>소박한·꾸밈없는</td>
+<td><em>home</em> + <em>-ly</em>. 영국 용법 = plain. <strong>못생긴(미국식) 아님</strong>, 아늑함도 아님.</td>
+</tr>
+<tr>
+<td><strong>discourse</strong></td>
+<td>담화·문장의 흐름</td>
+<td><em>dis-</em> + <em>currere</em>(달리다) → 이리저리 달림. <code>concourse</code>, <code>cursive</code>, <code>excursion</code>, <code>precursor</code>.</td>
+</tr>
+<tr>
+<td><strong>idiom</strong></td>
+<td>어투·말버릇</td>
+<td>Gk. <strong>ἴδιος</strong>(자기 고유의) → ἰδίωμα. ★ 같은 ἴδιος 가 <strong>ἰδιώτης</strong>(사인·비전문가 = 행4:13 <code>ignorant men</code>, 어제 S8) 를 낳는다. 아모스와 사도들이 <strong>같은 뿌리</strong>로 묘사된다.</td>
+</tr>
+<tr>
+<td><strong>⚠️ savour of</strong></td>
+<td>~한 티가 나다</td>
+<td><em>sapor</em> &lt; <em>sapere</em>(맛보다·현명하다). <code>sapient</code>, <code>sage</code>, <code>savvy</code>, 그리고 <strong>오늘 S8의 <code>insipid</code></strong>. 절의 처음과 끝을 같은 어근이 봉한다.</td>
+</tr>
+<tr>
+<td><strong>rusticity</strong></td>
+<td>시골티</td>
+<td><em>rus, ruris</em>(시골). <code>rustic</code>, <code>rural</code>, <code>rusticate</code>.</td>
+</tr>
+<tr>
+<td><strong>⚠️ advert to</strong></td>
+<td>언급하다</td>
+<td><em>ad-</em> + <em>vertere</em>(돌리다) = 마음을 ~로 <strong>돌리다</strong>. <code>avert</code>, <code>divert</code>, <code>convert</code>, <code>versatile</code>. <strong>광고 아님</strong>(단, <em>advertise</em> 는 동족 — 주의를 돌리게 하다).</td>
+</tr>
+<tr>
+<td><strong>conspicuous</strong></td>
+<td>뚜렷한</td>
+<td><em>con-</em> + <em>specere</em>(보다). <code>spectacle</code>, <code>suspicion</code>, <code>despise</code>, <code>conspectus</code>.</td>
+</tr>
+<tr>
+<td><strong>⚠️ appear + 형용사</strong></td>
+<td>~하게 드러나다</td>
+<td>연결동사(2형식). <code>appears conspicuous</code> = <strong>뚜렷하게 드러난다</strong>. 「~인 듯하다」의 유보 아님. cf. <code>stands firm</code>, <code>rings true</code>.</td>
+</tr>
+<tr>
+<td><strong>ape</strong> (v.)</td>
+<td>흉내 내다</td>
+<td>Lat. <em>simia</em>. 교부·종교개혁 상투구 <strong><em>simia Dei</em></strong>(하나님의 원숭이). <strong>형태는 정확, 내용은 공허</strong> — 위조의 완벽한 표상.</td>
+</tr>
+<tr>
+<td><strong>fallacious</strong></td>
+<td>속이는</td>
+<td><em>fallere</em>(속이다). <code>fallacy</code>, <code>false</code>, <code>fail</code>, <code>fault</code>, <code>default</code>, <code>fallible</code>.</td>
+</tr>
+<tr>
+<td><strong>insinuate oneself</strong></td>
+<td>슬며시 파고들다</td>
+<td><em>in-</em> + <em>sinus</em>(굽이·주름·품). <strong>굽이를 따라</strong> 들어간다 — 정면이 아니라 옆으로. <code>sinuous</code>, <code>sinus</code>.</td>
+</tr>
+<tr>
+<td><strong>⚠️ the simple</strong></td>
+<td>순진한 사람들</td>
+<td><em>sim-</em>(하나) + <em>plicare</em>(접다) = <strong>한 겹</strong>. <code>duplicity</code>(두 겹 = 이중성), <code>complicated</code>, <code>explicate</code>. 롬16:18 <strong>ἄκακοι</strong>. <strong>어리석은 자 아님</strong> — 악의의 겹이 없어 무방비인 자.</td>
+</tr>
+<tr>
+<td><strong>disseminate</strong></td>
+<td>퍼뜨리다</td>
+<td><em>dis-</em>(사방으로) + <em>semen</em>(씨). <code>seminary</code>, <code>seminal</code>. ★ <strong>마13:25 가라지 비유의 바로 그 동사</strong>(ἐπέσπειρεν).</td>
+</tr>
+<tr>
+<td><strong>⚠️ uncouth</strong></td>
+<td>낯선·기이한</td>
+<td>OE <em>un-</em> + <em>cūth</em>(알려진; <em>cunnan</em>의 과거분사) → <strong>알려지지 않은</strong>. <code>can</code>, <code>ken</code>, <code>cunning</code>, <code>uncanny</code>, <code>couth</code>. 「무례」는 후대의 굳음.</td>
+</tr>
+<tr>
+<td><strong>barbarous</strong></td>
+<td>야만적인</td>
+<td>Gk. <strong>βάρβαρος</strong> — 알아들을 수 없는 말소리의 의성어("바르바르") = 그리스어를 못 하는 자. ★ 알아들을 수 없음을 <strong>밑천 삼는</strong> 문체에 이 말을 쓴 것이 칼빈의 아이러니.</td>
+</tr>
+<tr>
+<td><strong>obsolete</strong></td>
+<td>폐어가 된</td>
+<td><em>ob-</em> + <em>solere</em>(익숙하다) → 쓰이지 않게 된. ⚠️ 본문의 뜻은 <strong>인위적으로 낡게 유지된</strong> 말투.</td>
+</tr>
+<tr>
+<td><strong>cloak</strong> (v.)</td>
+<td>은폐하다</td>
+<td>외투로 덮다. <code>in order to cloak his impostures</code> — <strong>불투명함이 곧 은폐 수단</strong>.</td>
+</tr>
+<tr>
+<td><strong>imposture</strong></td>
+<td>사기·기만</td>
+<td><em>im-</em>(<em>in-</em>) + <em>ponere</em>(놓다) → <code>impose upon</code> = 속이다. <code>impostor</code>, <code>imposition</code>.</td>
+</tr>
+<tr>
+<td><strong>⚠️ need</strong> (modal)</td>
+<td>~할 필요가 있다</td>
+<td><strong>비단정 문맥 전용 조동사.</strong> 원형 be, <code>-s</code> 없음, <code>to</code> 없음. 문두 <code>None</code> 이 조동사를 <strong>허가</strong>한다. <code>*needs be told</code> ✗ / <code>needs **to** be told</code> ○.</td>
+</tr>
+<tr>
+<td><strong>⚠️ possessed of</strong></td>
+<td>~을 지닌</td>
+<td><em>possidere</em>(<em>potis</em> 능한 + <em>sedere</em> 앉다) = 주인으로 앉다. <code>possessed **of** wealth</code>(소유) ↔ <code>possessed **by** a demon</code>(피소유). <strong>전치사가 주체를 뒤집는다.</strong></td>
+</tr>
+<tr>
+<td><strong>⚠️ affectation</strong></td>
+<td>꾸며낸 티·가장</td>
+<td><em>affectare</em>(~을 <strong>얻으려 애쓰다</strong>, 가장하다) &lt; <em>ad-</em> + <em>facere</em>. ★ <strong>오늘 위조와 진품을 가르는 유일한 단어.</strong> 사탄의 조야함은 <strong>연기</strong>, 성경의 조야함은 <strong>사실</strong>.</td>
+</tr>
+<tr>
+<td><strong>⚠️ vain</strong></td>
+<td>공허한</td>
+<td><em>vanus</em> = <strong>empty</strong>. 어제 <code>in vain</code>, 오늘 <code>want</code>(&lt; <em>vanta</em>) 와 한 동네. 「헛된」 = 속이 없다.</td>
+</tr>
+<tr>
+<td><strong>vile</strong></td>
+<td>값싼·천한</td>
+<td><em>vilis</em> = <strong>싼값의</strong>. <code>vilify</code>. ★ 칼빈은 위조를 「무섭다」 하지 않고 <strong>「싸구려다」</strong> 한다 — 의도된 온도 낮추기.</td>
+</tr>
+<tr>
+<td><strong>⚠️ petulant</strong></td>
+<td>무례히 덤비는</td>
+<td><em>petulans</em> &lt; <em>petere</em>(공격하다·구하다). <code>petition</code>, <code>appetite</code>, <code>impetus</code>, <code>competitor</code>. 현대의 「샐쭉한」이 아니라 <strong>야유꾼의 공격성</strong>.</td>
+</tr>
+<tr>
+<td><strong>⚠️ carp at</strong></td>
+<td>트집 잡다</td>
+<td>Lat. <em>carpere</em>(뜯다, 잡아 뜯다) — ★ <strong><em>carpe</em> diem 의 그 동사.</strong> 날을 붙잡고, 성경을 <strong>뜯는다</strong>. <code>excerpt</code> = <em>ex-</em> + <em>carpere</em>.</td>
+</tr>
+<tr>
+<td><strong>replete with</strong></td>
+<td>~로 가득한</td>
+<td><em>re-</em>(강조) + <em>plere</em>(채우다). <code>complete</code>, <code>plenary</code>, <code>plenty</code>, <code>deplete</code>. Gk. πλήρωμα.</td>
+</tr>
+<tr>
+<td><strong>⚠️ sentiments</strong></td>
+<td><strong>사상·판단</strong></td>
+<td><em>sentire</em>(느끼다·<strong>생각하다</strong>) → <em>sententia</em>. <code>sentence</code>, <code>sententious</code>, <code>consent</code>, <code>assent</code>. <strong>감정 아님</strong> — 감정으로 읽으면 인식론적 주장이 정서 주장으로 변질된다.</td>
+</tr>
+<tr>
+<td><strong>conceive</strong></td>
+<td>(마음으로) 품다·착상하다</td>
+<td><em>con-</em> + <em>capere</em>(잡다) → 안으로 받아들이다(정신·태). <code>concept</code>, <code>capture</code>, <code>receive</code>, <code>susceptible</code>.</td>
+</tr>
+<tr>
+<td><strong>examine</strong></td>
+<td>검증하다</td>
+<td><em>examen</em> = <strong>저울의 바늘</strong> &lt; <em>exigere</em>(달아내다). ★ 「살펴본다」가 아니라 <strong>저울에 올린다</strong>. <code>exact</code>, <code>exigent</code>, <code>assay</code>.</td>
+</tr>
+<tr>
+<td><strong>reach</strong> (n.)</td>
+<td>손이 닿는 범위</td>
+<td>OE <em>ræcan</em>(손을 뻗다), 독일어 <em>reichen</em>. <code>human reach</code> = 인간의 도달 한계.</td>
+</tr>
+<tr>
+<td><strong>⚠️ insipid</strong></td>
+<td>맛없는·싱거운</td>
+<td><em>in-</em> + <em>sapidus</em> &lt; <em>sapere</em>. <strong>S3의 <code>savours</code> 와 같은 뿌리.</strong> 절의 개폐를 미각 어휘가 담당한다.</td>
+</tr>
+<tr>
+<td><strong>devoid of</strong></td>
+<td>전혀 없는</td>
+<td><em>de-</em> + <em>void</em> &lt; <em>vacuus</em>. <code>vacant</code>, <code>vacuum</code>, <code>evacuate</code>, <code>avoid</code>. <code>absolutely devoid</code> = 결핍이 아니라 <strong>완전한 공백</strong>.</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>① Why §2 exists at all — and why it is not a retraction.</strong></p><p>Yesterday's argument had a hole in it the size of Isaiah. If Scripture's authority is evidenced by <code>a contemptible meanness of words</code>, what do you do with the prophets who write magnificently? Calvin had already covered it with a four-word limiter — <code>for the greater part</code> — and §2 is where the limiter is cashed. But look at the <em>structure</em> of the cashing, because it is the same three-beat move as yesterday's <code>you will, I admit, feel wonderfully allured</code>:</p><pre><code>   BEAT 1  GRANT the opponent's strongest ground, and inflate it        (S1: "nay, splendour")
+   BEAT 2  SHOW the granted ground supports your own case               (S2: "not from want of eloquence")
+   BEAT 3  RELOCATE the claim where the concession cannot reach it      (S3: majesty is in ALL)
+</code></pre><p>★ <strong>This is Calvin's standard operating procedure in Chapter 8</strong>, and once you see it you will see it four more times before the chapter ends. A concession that you make <em>larger</em> than your opponent asked for is a concession he can no longer use.</p><p><strong>② Majesty is not a stylistic property — and this is the load-bearing claim of the whole chapter.</strong></p><p>S3 is easy to skim and impossible to overrate. If <code>that majesty of the Spirit ... appears conspicuous **in all**</code> — in David's sweetness <em>and</em> in Amos's rusticity — then majesty is not elegance, and not plainness either. It is the constant across an inverted variable.</p><p>⚠️ <strong>Note a mild tension with the Westminster Confession here, and do not paper over it.</strong> WCF 1.5 lists among the evidences <code>the **majesty of the style**</code>. Read on its own that phrase locates majesty <em>in</em> style, which is precisely what Calvin's S3 denies. The Divines are compressing; Calvin is discriminating. <strong>When a confession summarises a theologian, the summary is usually shorter than the thought</strong> — which is a reason to read the theologian.</p><p><strong>③ <code>Amos the herdsman</code> — a real judgment about Hebrew, and a guardrail on it.</strong></p><p>Amos 1:1 (<code>among the herdmen of Tekoa</code>, נֹקְדִים) and 7:14 (<code>I was no prophet ... but I was an herdman, and a gatherer of sycomore fruit</code>) give Calvin his epithet, and the choice is pointed: the one prophet who <strong>disclaims professional standing in his own text</strong> is made the test case for style. Jeremiah and Zechariah round out the "rough" column.</p><p>⚠️ <strong>Guardrail.</strong> Calvin's stylistic rankings reflect the Hebrew scholarship of his century, and later Hebraists have argued the other way — Amos's Hebrew is now widely regarded as rhetorically sophisticated (the oracle-cycle structure of chs. 1–2, the doxologies, the vision sequence). <strong>Do not turn Calvin's literary impressions into linguistic doctrine.</strong> Note also that his argument does not actually depend on the rankings being right: he needs <em>only</em> that the prophetic corpus contains conspicuously different registers, which is uncontroversial. <strong>The premise survives even if the examples are re-sorted.</strong></p><p><strong>④ <em>Simia Dei</em> — Satan the ape of God.</strong></p><p><code>as Satan often apes God</code> is not Calvin's coinage; it is a long-standing commonplace. <strong>Tertullian, <em>De Praescriptione Haereticorum</em> 40</strong>, argues that the devil imitates the sacraments of the divine mysteries in the pagan rites — baptism, marking of the forehead, an offering of bread, a resurrection — precisely in order to compete. Augustine works the same theme against pagan theurgy. By the Reformation <em>simia Dei</em> is standard vocabulary on all sides.</p><p>The biblical charter is <strong>2 Cor. 11:13–15</strong>: false apostles <code>transforming themselves</code> (μετασχηματιζόμενοι) into apostles of Christ, <code>for Satan himself is transformed into an angel of light</code>. ★ <strong>Note what Paul's verb concedes:</strong> the transformation <em>works</em>. The counterfeit really does look like the thing. Calvin is not being alarmist; he is quoting the New Testament's own estimate of the difficulty.</p><p><strong>⑤ Stylistic forensics was a live Renaissance method — and that is what S5 is invoking.</strong></p><p>When Calvin says Satan <code>frequently employed **obsolete forms of expression** in order to **cloak** his impostures</code>, and then dismisses it as <code>**affectation**</code>, he is standing on a technique his century had just perfected: <strong>you can detect a forgery by its style.</strong> Lorenzo Valla's <em>Declamatio</em> (1440) demolished the Donation of Constantine by showing its Latin was pretending to be older than it was — anachronistic vocabulary, wrong idiom, a fourth-century document written in language nobody spoke in the fourth century. Erasmus applied comparable philological pressure to patristic attributions.</p><p>★ So S5's <code>None possessed of any moderate share of sense need be told how vain and vile such affectation is</code> is not a shrug. It is the humanist claim that <strong>studied archaism reads as studied</strong> to a trained eye. Whether it is <em>sufficient</em> against S4 is another question — see ⑥.</p><p><strong>⑥ ⚠️ 과대해석 방지 — five lines you must not cross with today's text.</strong></p><ol>
+<li><strong>§2 is not a retraction of §1.</strong> S1's <code>some</code> and yesterday's <code>for the greater part</code> are the same limiter, and S2 makes the concession serve the original argument. Anyone quoting S1 as "Calvin admits the plain-style argument fails" has stopped reading after one sentence.</li>
+<li><strong>Majesty ≠ beauty.</strong> S3 makes majesty the constant across <em>both</em> registers. Any use of this section to argue "the Bible is beautiful, therefore divine" is defeated by the sentence it would be quoting.</li>
+<li><strong>Calvin does not here <em>refute</em> the counterfeit objection; he <em>dismisses</em> it.</strong> Be honest about this. S4 concedes the phenomenon in sixty words; S5 disposes of it in fifteen, and disposes of it by <strong>declining to argue</strong> (<code>None ... need be told</code>). The substantive answer arrives only in S6, when the criterion moves from style to <strong>content</strong> — <code>sentiments which ... man never could have conceived</code>. ⚠️ If you are going to use this section apologetically, <strong>S6 is the load-bearing sentence, not S5.</strong></li>
+<li><strong>S8 is not a claim about intelligence.</strong> <code>devoid of taste</code> sits inside Calvin's running sensory epistemology (I.5.3 <code>tasted his paternal love</code>; I.7.2 <code>sweet and bitter ... of taste</code>), and its doctrinal ground is <strong>1 Cor. 2:14</strong> — <code>the natural man receiveth not the things of the Spirit of God ... neither can he know them, because they are **spiritually discerned**</code>. The incapacity is located in the absence of the Spirit's testimony (Ch. 7), not in the reader's IQ. Read as an insult it is merely rude; read in context it is I.7.4–5 restated in the vocabulary of the palate.</li>
+<li><strong>Do not read S7's <code>not one will be found</code> as a survey result.</strong> It is a challenge in the form of a prediction (see S7 §2). Calvin is inviting the examination, not reporting one.</li>
+</ol><p><strong>⑦ Where the modern conversation picks this up.</strong></p><p>S4 is, in contemporary dress, the <strong>parity objection</strong>: if a belief may be held as properly basic on the ground of an inner witness, what stops any rival tradition from claiming the same warrant? Plantinga's readers know it as the "Great Pumpkin objection," and the standard reply — that a properly basic belief remains open to defeaters, and that a parity claim must actually be <em>made good</em> case by case rather than merely asserted — is a development of Calvin, not a quotation of him. ★ <strong>Calvin raises the objection and answers it with S6's criterion (content beyond human reach) plus S5's stylistic forensics.</strong> Whether that is enough is a real question, and a student who can <em>state</em> it without either sneering at Calvin or pretending he settled it has understood the section.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li>
+<p><strong>Amos 1:1 and 7:14 — S3, quoted in the epithet.</strong> <code>Amos, who was among the **herdmen** (בַּנֹּקְדִים, *nōqədîm*) of Tekoa</code>; <code>I was no prophet, neither was I a prophet's son; but I was an **herdman** (בּוֹקֵר, *bôqēr*), and a gatherer of sycomore fruit</code>. <strong>How Calvin uses it:</strong> as the extreme end of the stylistic spectrum, chosen because the prophet himself supplies the disclaimer. The rough style and the rough biography are the same datum.</p>
+</li>
+<li>
+<p><strong>2 Cor. 11:13–15 — S4, the charter text.</strong> <code>false apostles ... **transforming themselves** (μετασχηματιζόμενοι) into the apostles of Christ. And no marvel; for Satan himself is transformed into an angel of light.</code> ★ This is the biblical basis for <code>apes God</code> and for <code>a fallacious resemblance</code>. <strong>How Calvin uses it:</strong> without citation, as an assumed premise — the resemblance is granted by Scripture itself, so conceding it costs him nothing.</p>
+</li>
+<li>
+<p><strong>Matt. 13:24–25 — S4, the verb.</strong> <code>while men slept, his enemy came and **sowed** tares among the wheat</code> (ἐπέσπειρεν ζιζάνια). <code>**disseminated**</code> = <em>dis-</em> + <em>semen</em>, to scatter seed. <strong>How Calvin uses it:</strong> the parable's own image, converted into a verb of doctrine. Note the parable's other detail — the tares are indistinguishable from wheat until harvest — which is exactly S4's problem.</p>
+</li>
+<li>
+<p><strong>Rom. 16:18 — S4, <code>the minds of the simple</code>.</strong> <code>by good words and fair speeches deceive the hearts of **the simple**</code> (τῶν <strong>ἀκάκων</strong>, the guileless). ★ Paul's warning is specifically about <strong>attractive style used as bait on the undefended</strong>, which is today's topic exactly. <strong>How Calvin uses it:</strong> to fix the target of the counterfeit — not the learned, the guileless.</p>
+</li>
+<li>
+<p><strong>2 Thess. 2:9 — S4, the mode.</strong> <code>after the working of Satan with all power and signs and **lying wonders**</code> (τέρασιν ψεύδους). <strong>How Calvin uses it:</strong> background assumption that counterfeit is Satan's standing method, not an occasional tactic.</p>
+</li>
+<li>
+<p><strong>2 Pet. 1:16 — behind S4–S5.</strong> <code>we have not followed **cunningly devised fables**</code> (σεσοφισμένοις μύθοις) — literally <em>fables made clever</em>, i.e. <strong>manufactured</strong>. ★ The apostolic word for a fabricated revelation contains the idea of craft, which is Calvin's <code>**craftily**</code> and <code>**affectation**</code>. <strong>How Calvin uses it:</strong> the category is apostolic; he need only apply it.</p>
+</li>
+<li>
+<p><strong>1 Cor. 2:9 — S6, the source of the claim.</strong> <code>Eye hath not seen, nor ear heard, neither have **entered into the heart of man** (οὐκ ἀνέβη ἐπὶ καρδίαν ἀνθρώπου), the things which God hath prepared</code> — itself quoting Isa 64:4. <code>sentiments **which ... man never could have conceived**</code> is this verse. ⚠️ <strong>And note the running quarry:</strong> Day 37 took 1 Cor. 2:4–5, Day 38 takes 1 Cor. 2:9. <strong>Calvin is mining one chapter of Paul across the whole opening of Chapter 8.</strong> If you want the New Testament source of his epistemology, it is 1 Corinthians 2, entire.</p>
+</li>
+<li>
+<p><strong>1 Cor. 2:14 — S8, the doctrinal engine.</strong> <code>the natural man receiveth not the things of the Spirit of God ... neither can he know them, because they are **spiritually discerned**</code> (πνευματικῶς <strong>ἀνακρίνεται</strong> — "examined, sifted"). ★ And ἀνακρίνω is a <strong>judicial weighing</strong> verb, which is exactly the metaphor in S7's <code>**examined**</code> (&lt; <em>examen</em>, the balance-beam). <strong>How Calvin uses it:</strong> S8's <code>devoid of taste</code> is this verse in the vocabulary of the palate — the incapacity is spiritual, not intellectual.</p>
+</li>
+<li>
+<p><strong>Isa. 55:8–9 — S7, <code>higher than human reach</code>.</strong> <code>as the heavens are higher than the earth, so are my ways higher than your ways, and my thoughts than your thoughts.</code> ★ And note the form: it is an <strong><code>as ... so ...</code> correlative</strong> — today's Formula 2, in the prophet Calvin is arguing about. <strong>How Calvin uses it:</strong> the vertical axis of the whole argument. Everything in §2 is measured up or down from <code>human reach</code>.</p>
+</li>
+<li>
+<p><strong>Ps. 34:8 / Heb. 5:14 — S3 and S8, the taste bracket.</strong> <code>O **taste** and see that the LORD is good</code>; <code>strong meat belongeth to them ... who by reason of use have their **senses exercised** (τὰ **αἰσθητήρια** γεγυμνασμένα) to discern both good and evil</code>. ★ Heb 5:14 is the New Testament's own doctrine of <em>trained perception</em>, and it is the precise warrant for S8: discernment is a <strong>faculty that can be exercised or left undeveloped</strong>, which is why its absence can be described as being <code>devoid of taste</code>. <strong>How Calvin uses it:</strong> recognition of the divine is treated throughout Book 1 as perception, not deduction — hence a section that opens on <code>savours</code> and closes on <code>insipid</code>.</p>
+</li>
+<li>
+<p><strong>Acts 4:13 — behind S3's <code>idiom</code>.</strong> <code>unlearned and ignorant men</code> (ἀγράμματοι καὶ <strong>ἰδιῶται</strong>). ★ ἰδιώτης and <code>idiom</code> are the same root, <strong>ἴδιος</strong> — one's own, private, non-professional. Yesterday's S8 flagged Acts 4:13 behind <code>unpolished simplicity</code>; today the same root surfaces in the word Calvin uses for Amos's speech. <strong>How Calvin uses it:</strong> unstated, but the lexical continuity between the herdsman-prophet and the fisherman-apostles is not accidental in a writer this careful.</p>
+</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① 어법 — 밑줄 넷 중 <strong>틀린</strong> 것을 고르시오.</h3><blockquote>
+<p>It was not from want of eloquence ①<u>that</u> the Spirit in other instances used a rude and homely style. As Satan apes God, ②<u>that he may</u> the better insinuate himself into the minds of the simple, ③<u>so</u> he cloaked his impostures in obsolete forms of expression. None possessed of any moderate share of sense ④<u>needs be told</u> how vain and vile such affectation is.</p>
+<p><strong>정답: ④</strong></p>
+<p><code>needs be told</code> → <strong><code>need be told</code></strong>. <code>None</code> 이라는 부정 주어가 <strong>조동사 <code>need</code></strong> 를 허가한 자리다. 조동사이므로 (i) 3인칭 단수 <code>-s</code> 를 붙이지 않고 (ii) <code>to</code> 없이 <strong>원형</strong> <code>be</code> 를 취한다. 본동사로 쓰려면 <code>needs **to** be told</code> 로 써야 하고, <code>needs be told</code> 는 둘을 섞은 <strong>혼종형</strong>이라 어느 쪽으로도 성립하지 않는다.</p>
+<p><strong>출제 의도 — 나머지 셋이 왜 옳은지를 말할 수 있어야 실력이다.</strong>
+① <code>that</code> — 강조구문(cleft)의 that. 본문 S2에서는 <strong>삭제</strong>돼 있지만, <strong>복원한 형태도 완전히 옳다.</strong> 「원문에 없으니 틀렸다」고 고르면 삭제가 <em>선택</em>이라는 사실을 모른다는 뜻이다.
+② <code>that he may</code> — 목적절(= so that he may). 같은 문장 뒤쪽의 <code>in order to cloak</code> 이 동일한 목적 관계의 현대형이라는 것이 내부 증거다.
+③ <code>so</code> — 앞의 <code>As</code> 를 받는 <strong>상관어</strong>. 빼거나 <code>and</code> 로 바꾸면 비교 구문이 무너진다.
+<strong>함정 설계:</strong> ④는 「need 는 조동사도 되고 본동사도 된다」는 반쯤 맞는 지식을 자극한다. <strong>어느 쪽이든 형태는 하나를 골라야 한다</strong>는 것, 그리고 <strong>부정 문맥이 조동사 용법을 허가한다</strong>는 것 — 두 가지를 다 아는 학생만 통과한다.</p>
+</blockquote><hr/><h3>② 내용일치 — §2의 내용과 <strong>일치하는</strong> 것은?</h3><ol>
+<li>Calvin withdraws the argument of the preceding section: since the style of some prophets rivals that of the pagan writers, the plainness of the sacred writings can no longer be treated as any mark of their divine origin.</li>
+<li>Calvin grants that some of the prophets are unsurpassed by heathen writers in elegance, and treats those very examples as the Spirit's demonstration that the rude style used elsewhere was not owing to any lack of eloquence; the majesty he has in view is conspicuous alike in the sweet discourse of David and Isaiah and in the rustic idiom of Amos, Jeremiah, and Zechariah.</li>
+<li>Calvin concedes that, since Satan clothes his errors in the same uncouth and antiquated style, the counterfeits cannot be told apart from Scripture by any faculty available to ordinary human sense.</li>
+<li>Calvin maintains that the prophets write without exception in a rough and countrified idiom, and that a reader who takes pleasure in the beauty of their language has been captivated by the mere graces of composition.</li>
+</ol><blockquote>
+<p><strong>정답: ②</strong></p>
+<p>S1 (<code>in elegance and beauty, nay, splendour, the style of **some** of the prophets is **not surpassed by** the eloquence of heathen writers</code>) + S2 (<code>the Holy Spirit was pleased to show that it was **not from want of eloquence** he in other instances used a rude and homely style</code>) + S3 (<code>whether you read David, Isaiah ... or Amos the herdsman, Jeremiah, and Zechariah ... that majesty of the Spirit ... appears conspicuous **in all**</code>). 양보 → 그 양보의 용도 → 두 문체에 걸친 상수, 세 박자가 그대로 들어 있다.</p>
+<p><strong>출제 의도 — 오답 셋이 §2의 세 가지 서로 다른 오독을 각각 대표한다.</strong>
+① <strong>방향 뒤집기, 그리고 이 절 최대의 함정.</strong> 양보를 <strong>철회</strong>로 읽었다. S2가 그 양보를 즉시 <strong>논증의 전제로 전용</strong>한다는 것을 놓치면 반드시 걸린다. 어제의 <code>for the greater part</code> 와 오늘의 <code>some</code> 이 함께 이 선지를 죽인다.
+③ <strong>양보의 범위 초과.</strong> S4는 <strong>현상</strong>(위조가 존재하고 같은 옷을 입는다)만 인정한다. <strong>추론</strong>(따라서 구별 불가)은 S5가 정면으로 부정한다 — <code>**None** possessed of any moderate share of sense **need be told** how vain and vile such **affectation** is</code>. ⚠️ 「길게 인정한 쪽」을 결론으로 착각하게 만드는 전형적 배치다.
+④ <strong>양화사 위반 + 논지 반전.</strong> S1이 <code>**some** of the prophets</code> 라 못박았고 S3이 <code>discourse flows **sweet and pleasant**</code> 를 한 축으로 세운다. <code>without exception</code> 은 그 자체로 오답 표지.
+<strong>⚠️ 채점 관점:</strong> ①과 ④는 정반대 방향인데 <strong>둘 다 오답</strong>이다(어제 ①·④와 같은 설계). 오늘의 요지는 「성경은 소박하다」도 「성경은 화려하다」도 아니라, <strong>장엄은 문체의 속성이 아니다</strong>라는 것. 양극단을 한 문제에 넣는 것은 그 구조를 아는지 확인하는 표준 수법이다.</p>
+</blockquote><hr/><h3>③ 영작 — 오늘의 공식을 적용해 영작하시오.</h3><blockquote>
+<p><strong>(a)</strong> [Formula 1] "그가 다른 곳에서 소박한 문체를 쓴 것은 웅변이 없어서가 아니었다. 이런 종류의 예들을 통해 성령은 그 조야함이 무능이 아니라 선택이었음을 기꺼이 보여 주셨다."
+— ①강조구문에서 <strong>that 을 생략</strong>할 것 ②<code>not from want of</code> 를 반드시 쓸 것 ③<code>of this description</code>, <code>was pleased to show</code> 를 살릴 것.</p>
+<p><strong>(b)</strong> [Formula 2] "위조꾼이 진품을 흉내 내는 것은, 거짓된 닮음으로 순진한 이들의 마음에 더 수월히 파고들기 위함이다. 그와 똑같이 그는 자기 사기를 감추려고 낡은 말투를 교묘히 퍼뜨렸다."
+— <code>As ... , that he may ... the better V ..., so ...</code> 를 <strong>그 순서 그대로</strong>, 그리고 끝에 <code>in order to</code> 를 쓸 것.</p>
+<p><strong>(c)</strong> [Formula 3] "나는 그 반론을 모르지 않는다. 그러나 웬만한 분별력을 지닌 사람이라면 누구도 그것이 얼마나 공허하고 천한지 들을 필요가 없다. 선지자들을 하나씩 저울에 올려 보라, 그러면 인간의 손이 닿는 범위를 넘어서지 <strong>않는</strong> 자는 하나도 발견되지 않을 것이다."
+— <code>I am not unaware</code>, <code>None ... need be told</code>, <code>Let ... be examined, and not one will be found who does not ...</code> 를 각각 쓸 것.</p>
+<p><strong>모범답안:</strong>
+<strong>(a)</strong> <strong>It was not from want of eloquence ‹that› he in other instances used a plain and homely style. By examples of this description the Holy Spirit was pleased to show that the rudeness was not an incapacity but a choice.</strong>
+<strong>(b)</strong> <strong>As the forger apes the genuine coin, that he may by a fallacious resemblance the better insinuate himself into the minds of the simple, so he craftily disseminated an obsolete idiom in order to cloak his impostures.</strong>
+<strong>(c)</strong> <strong>I am not unaware of the objection; but none possessed of any moderate share of sense need be told how vain and vile it is. Let each of the prophets be examined, and not one will be found who does not rise far higher than human reach.</strong></p>
+<p><strong>채점 포인트.</strong>
+<strong>(a)</strong> ⚠️ <code>want</code> 를 <code>desire</code>·<code>wish</code> 로 옮기면 <strong>즉시 0점</strong> — 뜻이 반대가 된다. <code>not because he lacked eloquence</code> 로 풀어 쓰는 것은 뜻은 맞으나 <strong>오늘 공식 미적용</strong>(감점). 강조구문의 <code>that</code> 은 <strong>생략을 요구</strong>했으므로 넣으면 감점, 다만 넣어도 문법적으로는 옳다는 점을 답안 옆에 적을 것. <code>of this description</code> 을 <code>of this depiction</code>·<code>described like this</code> 로 옮기면 <strong>어휘 함정 미숙지</strong>로 감점.
+<strong>(b)</strong> ⚠️ <code>so</code> 를 빼거나 <code>and so</code>·<code>therefore</code> 로 바꾸면 <strong>상관구문 붕괴 — 0점</strong>. <code>that he may</code> 를 <code>that he can</code>·<code>so that he could</code> 로 바꾸는 것은 허용하되 시제 일치를 지킬 것. ⚠️ <code>the better insinuate</code> 를 <code>better insinuate</code>(the 탈락) 또는 <code>to better insinuate</code>(부정사 삽입)로 쓰면 감점 — <code>may</code> 와 원형 사이에 <code>the + 비교급</code>이 들어가는 형태를 요구했다. 마지막 <code>in order to</code> 를 <code>for cloaking</code> 으로 바꾸면 감점(목적 부정사를 요구).
+<strong>(c)</strong> ⚠️ <code>not unaware</code> 를 <code>aware</code> 로 풀면 <strong>litotes 미적용 — 감점</strong>. ⚠️ <code>need be told</code> 를 <code>needs be told</code> 로 쓰면 <strong>0점</strong>, <code>needs to be told</code> 로 쓰면 뜻은 통하나 공식 미적용(감점). ⚠️ 마지막 절에서 부정을 하나 빠뜨려 <code>not one will be found who rises far higher</code> 로 쓰면 <strong>의미가 정반대로 뒤집혀 0점</strong> — 이중부정은 반드시 둘 다 살릴 것. <code>Let ... be examined</code> 를 <code>Examine each of the prophets</code> 로 바꾸면 뜻은 같으나 3인칭 명령 수동형을 요구했으므로 감점, <code>and</code> 를 <code>then</code> 으로 바꾸면 조건 명령문이 아니게 되어 감점.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> Calvin opens by making the enemy's case for him — <code>**I confess**, however, that in elegance and beauty, **nay**, splendour, the style of **some** of the prophets is **not surpassed by** the eloquence of heathen writers</code> — and then spends the next sentence turning that concession into ammunition: <code>By examples **of this description**, the Holy Spirit **was pleased to show** that it was **not from want of eloquence** ‹that› he in other instances used a **rude and homely** style</code> (⚠️ <code>want</code> = <strong>lack</strong>, and the cleft's <code>that</code> has been cut out), so that Isaiah's splendour becomes the proof that Amos's roughness was a <strong>choice, not a ceiling</strong>; then comes the thesis, delayed behind two semicolons — <code>**But whether** you read David, Isaiah ... **whose discourse flows sweet and pleasant**; **or** Amos **the herdsman**, Jeremiah, and Zechariah, **whose rougher idiom savours of rusticity**; **that majesty of the Spirit to which I adverted appears conspicuous in all**</code> — which, since the two registers are opposites, establishes that <strong>majesty is not a stylistic property at all</strong>; whereupon Calvin raises against himself the one objection every argument from marks must face, and raises it in his longest sentence — <code>I am **not unaware**, that **as** Satan often **apes** God, (**that he may** by a **fallacious resemblance the better insinuate** himself into the minds of **the simple**,) **so** he craftily **disseminated** the impious errors ... in an **uncouth and semi-barbarous** style, and frequently employed **obsolete forms of expression in order to cloak his impostures**</code> — concedes the phenomenon entirely, and then disposes of it with one noun and no argument: <code>**None** possessed of any moderate share of sense **need be told** how **vain and vile** such **affectation** is</code> (Satan's plainness is <strong>put on</strong>; Scripture's is not); and only then does he give the substantive answer, by <strong>moving the criterion off style and onto content</strong> — <code>**But** in regard to the Holy Scriptures, **however petulant** men **may attempt to carp** at them, they are **replete with sentiments which** ‹**it is clear that**› **man never could have conceived**</code> — since a style can be copied but a thought beyond human reach cannot; and he closes, as he closed yesterday, with an experiment and a verdict: <code>**Let** each of the prophets **be examined**, **and not one** will be found **who does not rise** far higher than **human reach**. Those who feel their works **insipid** must be absolutely **devoid of taste**</code> — the last word, <em>insipid</em>, carrying the same root as <code>savours</code> in S3, so that the section is <strong>sealed at both ends by the vocabulary of the palate</strong>.</p><p><strong>And the three grammar points, once more:</strong></p><ol>
+<li><strong>The cleft with its <code>that</code> amputated — plus the archaic reversal that decides the doctrine.</strong> <code>It was **not from want of eloquence** ‹**that**› he in other instances used a rude and homely style</code> (S2). ⚠️ When you meet <code>it is/was + adverbial + a full clause with no connector</code>, <strong>restore the <code>that</code> first</strong>. ⚠️ And <code>want</code> = <strong>lack</strong> (&lt; ON <em>vanta</em>, kin to <em>wane</em>, <em>vanus</em>) — cf. <em>for want of a nail</em>, <em>found wanting</em>. The whole argument turns on <em>could have, chose not to</em>, and that reading exists only if <code>want</code> means lack.</li>
+<li><strong><code>as ... so ...</code>, with a purpose clause folded in and a comparative wearing a definite article.</strong> <code>**as** Satan often apes God, (**that he may** ... **the better** insinuate himself ...) **so** he craftily disseminated ...</code> (S4). ⚠️ Sixty words between <code>as</code> and <code>so</code>; lose the correlative and the analogy collapses into narrative. ⚠️ <code>that he may</code> = <em>so that</em> (purpose) — the same sentence's <code>**in order to** cloak</code> is the modern form of the identical relation. ⚠️ <code>the better</code> = <em>by that much more effectively</em>; the <code>the</code> is the Old English instrumental, as in <em>the more, the merrier</em>. <strong>Reading technique: delete the comma-fenced material, find the spine, put it back.</strong></li>
+<li><strong>Four ways to say a thing by negating its opposite.</strong> ① <strong>Litotes</strong> — <code>is **not surpassed** by</code> (≥, S1) · <code>**not** from **want** of</code> (S2) · <code>I am **not unaware**</code> (S4); ⚠️ litotes in argumentative prose is usually a <strong>concession marker</strong> — go find the <code>but</code>. ② <strong>Modal <code>need</code></strong> — <code>**None** ... **need be** told</code> (S5): bare infinitive, no <code>-s</code>, and it is the negative subject that licenses it (<code>*needs be told</code> ✗). ③ <strong>Relative + inserted judgment</strong> — <code>sentiments **which** ‹**it is clear that**› man never could have conceived</code> (S6): the <code>that</code> belongs to <code>it is clear</code>; cover the insertion with your finger and the relative clause is flawless. ④ <strong>Double negative = universal affirmative</strong> — <code>**not one** will be found **who does not rise** far higher than human reach</code> (S7) = <em>every single one rises</em>; bracket both negations <strong>on paper</strong>, never in your head — and note the frame is yesterday's <strong>conditional imperative</strong>, <code>Let ... be examined, **and** ...</code>.</li>
+</ol><p><strong>Homework (10 minutes).</strong></p><p><strong>① Structure restoration.</strong> Take S4 — the monster — and rebuild it as <strong>four</strong> flat sentences, losing nothing:</p><blockquote>
+<p><em>I am not unaware, that as Satan often apes God, that he may by a fallacious resemblance the better insinuate himself into the minds of the simple, so he craftily disseminated the impious errors with which he deceived miserable men in an uncouth and semi-barbarous style, and frequently employed obsolete forms of expression in order to cloak his impostures.</em></p>
+<p>Target shape: (i) I know this perfectly well. (ii) Satan frequently imitates God. (iii) His aim in imitating is to slip into unsuspecting minds by means of a likeness that deceives. (iv) In just that way he spread his errors in a crude, half-barbaric style and kept using outdated expressions, so as to hide the fraud. — Then <strong>draw a box around everything between the two commas that fence <code>that he may ... the simple</code></strong>, read the sentence once with the box removed, and write one line on what the <code>as ... so</code> correlative claims that a plain <code>and</code> would not.</p>
+</blockquote><p><strong>② Composition.</strong> Write three English sentences on this content, using <strong>Formula 1① and ② in the first, Formula 2①②③ in the second, Formula 3①②④ in the third</strong>:</p><blockquote>
+<p><em>"It was not from want of clarity ‹that› he spoke in parables, but that the hearing might be a sifting. As the counterfeiter apes the mint, that he may by a fallacious resemblance the better pass among those who never weigh what they are handed, so every false teaching borrows the accent of the true. I am not unaware that this has been said before; none possessed of any moderate share of sense need be told why. Weigh the chapters one by one, and not one will be found which does not ask more of the reader than he brought."</em>
+— then check your work against S2 for the deleted <code>that</code> and the meaning of <code>want</code>, against S4 for <code>as ... that he may ... the better ... so ... in order to</code>, and against S5/S7 for modal <code>need</code> and the double negative.</p>
+</blockquote><p><strong>③ Tomorrow's preview (one line).</strong> §3 changes weapons entirely. The literary argument is over; Calvin says so in his first breath — <code>**As this subject has been treated at large by others, it will be sufficient here merely to touch on its leading points**</code> — and then turns to the second of the chapter's four parts: <strong>the argument from antiquity.</strong> ⚠️ Watch for the pivot phrase <code>**In addition to the qualities already mentioned, great weight is due to the antiquity of Scripture**</code>, and then a genuinely clever historical move: Moses <code>**does not introduce a new Deity**</code> but leads Israel <code>**back to the covenant which had been made with Abraham**</code> — so the claim is not merely that Moses is old, but that Moses <strong>appeals to something already older than himself</strong>, and appeals to it publicly, before people who would have known if he were inventing it (<code>their deliverance from the bondage in which they were held must have been a fact of **familiar and universal notoriety**</code>). ★ That is an argument from <strong>the impossibility of a successful forgery in front of witnesses</strong> — the same forensic instinct as today's <code>affectation</code>, moved from style to history.</p><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 8, §2 끝. 다음은 <strong>Book 1, Ch. 8, §3</strong> (Day 39) — 논거의 전환: 문체에서 <strong>고대성(antiquity)</strong>으로. 모세의 책들이 어떤 종교 기념물보다 오래됐다는 주장, 그러나 모세는 새 신을 도입하지 않고 <strong>아브라함 언약으로 되돌아간다</strong>는 점, 400년의 기간과 「널리 알려진 사실」 논증, 그리고 이집트 신학의 연대 주장과의 대조.</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
