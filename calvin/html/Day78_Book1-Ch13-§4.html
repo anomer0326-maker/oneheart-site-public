@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 삼위일체 하나님 §4 (1권 13장 · Day 78) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 13장 §4(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 78. 연관 성구: 고린도후서 11, 디모데후서 2, 디모데전서 1, 요한복음 1."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day78_Book1-Ch13-%C2%A74.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="삼위일체 하나님 §4 — 기독교 강요 영어로 읽기 (Day 78)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 13장 §4(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 78. 연관 성구: 고린도후서 11, 디모데후서 2, 디모데전서 1, 요한복음 1."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day78_Book1-Ch13-%C2%A74.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 삼위일체 하나님 §4 (1권 13장 · Day 78) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 13장 §4(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 78. 연관 성구: 고린도후서 11, 디모데후서 2, 디모데전서 1, 요한복음 1.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 13장 §4 — 삼위일체 하나님","mentions":[{"@type":"CreativeWork","name":"고린도후서 11 (2 Cor 11)"},{"@type":"CreativeWork","name":"디모데후서 2 (2 Tim 2)"},{"@type":"CreativeWork","name":"디모데전서 1 (1 Tim 1)"},{"@type":"CreativeWork","name":"요한복음 1 (John 1)"},{"@type":"CreativeWork","name":"야고보서 2 (James 2)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day78_Book1-Ch13-%C2%A74.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 78 — Book 1, Chapter 13, §4<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (⚠️ invariable) — 16 sentences</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl2" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl3" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl3" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl2" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl1" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl2" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl2" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl3" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl3" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl1" href="#S11" onclick="closeNavMobile()">S11</a><a class="toc-s lvl2" href="#S12" onclick="closeNavMobile()">S12</a><a class="toc-s lvl3" href="#S13" onclick="closeNavMobile()">S13</a><a class="toc-s lvl1" href="#S14" onclick="closeNavMobile()">S14</a><a class="toc-s lvl3" href="#S15" onclick="closeNavMobile()">S15</a><a class="toc-s lvl2" href="#S16" onclick="closeNavMobile()">S16</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary (어원 후킹)</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems (출제자의 눈)</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 78 — Book 1, Chapter 13, §4</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday Calvin booked a debt and told you so: <code>**When it has been proved** that the Church was impelled, by the strongest necessity, to use the words Trinity and Person…</code> (§3 S12). <strong>Today he pays it.</strong> And notice <em>how</em> he pays it — not with a syllogism, not with a proof-text, but with <strong>two case histories</strong>. Arius. Sabellius. Two men, two evasions, two coined words. That is the whole section.</p><p>Now the thing that makes this section great, and the thing students get backwards every single time. ⚠️⚠️⚠️ <strong>Both heretics confess.</strong> Look:</p><ul>
+<li><code>**Arius confessed that Christ was God, and the Son of God**</code> (S5).</li>
+<li><code>**he acknowledged his belief that the Father was God, the Son God, the Spirit God**</code> (S13) — that is Sabellius.</li>
+</ul><p>Neither man denies anything you would find in a Bible verse. <strong>That is the point.</strong> Calvin's argument is not <em>heretics contradict Scripture</em>; it is <strong>heretics repeat Scripture and mean something else by it.</strong> Which yields the conclusion the whole chapter needs: if a heresy can say every biblical sentence, then <strong>the only defence left is a word the heretic cannot say.</strong> ὁμοούσιος. Three subsistences. Trinity. The new term is not a decoration on the doctrine — it is a <strong>test</strong>, and its entire value is that the evasive man chokes on it.</p><p>Watch the imagery, because Calvin builds it deliberately and it runs the length of the section. Yesterday his opponents were <strong>dogs</strong> (<code>snarl</code>, <code>carp</code>). Today they are <strong>snakes</strong> — <code>These slippery snakes escape by their swift and tortuous windings</code> (S3) — and the hunt goes on for sixteen sentences: <code>hiding-place</code> (S4) → <code>lurking-places</code> (S7) → <code>disclosed</code>, literally <em>un-shut</em> (S8) → <code>the simple open truth</code> (S16). <strong>Concealment against exposure.</strong> That is the same argument as yesterday's light-chain (<code>uncandid</code> → <code>the light of truth</code> → <code>transparent</code>), rerun in a different metaphor. Two sections, one accusation: <strong>bad faith</strong>.</p><p>Grammatically today is <strong>ellipsis-and-inversion day</strong>. S3 deletes a subject, a verb, <em>and a negative</em>, and if you do not restore all three the sentence means the opposite of what it says. S9 deletes <code>if</code>, fronts the auxiliary, and then shoves a <code>viz.</code>-clause between the subject and its participle. S10 uses <code>dare</code> as a modal. These are not curiosities; two of them are on every exam that has ever been set on Elizabethan-to-Victorian prose.</p><p>And one warning about the printed page: <strong>S15 contains a genuine textual crux</strong> — two of them, in one line. Details in the text note. Do not "fix" them in the quotation; do read them correctly.</p><h3>Today's 3 Big Points</h3><ol>
+<li><strong>Object-fronting + the putative <code>should</code>: <code>if novelty it should be called</code> (S1).</strong> Six words, two constructions. First, <code>**novelty**</code> is the <strong>object</strong> of <code>called</code>, dragged in front of its own subject <code>it</code> — <code>if [novelty]ᴼᴮᴶ [it]ˢᵁᴮᴶ should be called</code>. Restore the flat order and you get <em>if it should be called novelty</em>. ⚠️ Read <code>novelty</code> as the subject and you produce <em>"if novelty should be called it"</em>, which is gibberish. Second, <code>**should**</code> here is <strong>not obligation and not the future-in-the-past</strong>. It is the <strong>putative <code>should</code></strong> — the one that marks a clause as <em>entertained rather than asserted</em> (cf. <em>it is strange that he </em><em>should</em><em> say so</em>). Together they make the parenthesis a <strong>concession with a doubt built into it</strong>: Calvin uses the word <code>novelty</code> and questions the label in the same breath. Formula 1.</li>
+<li><strong>Reduced adverbial clauses with a carried-over negative: <code>if not strenuously pursued, and when caught, firmly held</code> (S3).</strong> ⚠️⚠️ This is today's hardest reading and the most dangerous. In <code>if/when/though + past participle</code>, English deletes <strong>subject + <code>be</code></strong>. Fine — you know that. But here the <strong><code>not</code> is stated once and has to be carried into the second arm as well</strong>, and the <code>when</code>-clause is <strong>nested inside</strong> the second condition rather than coordinate with it. Full restoration: <em>…if [they are] not strenuously pursued, and if, when [they are] caught, [they are] </em><em>not</em><em> firmly held.</em> Read the second arm as a positive and Calvin is saying snakes escape <strong>when you hold them tight</strong>. Exact opposite of the sentence. Formula 2.</li>
+<li><strong>The inverted counterfactual, with an interrupter jammed inside it: <code>Had their first confession—viz. that Christ was God, been sincere…, they would not have denied…</code> (S9).</strong> Delete <code>if</code>, front the auxiliary: <code>**Had** S … **been** …, S **would not have** V-ed</code>. ⚠️ Then the trap: <code>—viz. that Christ was God,</code> sits <strong>between the subject and its participle</strong>, and the interrupter has an opening dash but <strong>no closing dash</strong> — the comma after <code>God</code> does the closing. Bracket it out and the skeleton appears. ⚠️⚠️ And learn the <em>logic</em>, because it is the engine of the whole section: from <em>they refused the word</em> Calvin infers <em>the confession was insincere</em>. <strong>Modus tollens on a counterfactual.</strong> Formula 3.</li>
+</ol><p>Trap words I <em>will</em> test. <strong><code>confessed</code></strong> (S5) ⚠️⚠️⚠️ = <strong>professed, openly declared</strong> (<em>con-fateri</em>; Gk ὁμολογέω, <em>to say the same thing</em>) — <strong>not</strong> "admitted a fault". If you read the modern sense, S5 becomes <em>Arius owned up that Christ was God</em>, and the entire argument evaporates. Today's #1 lexical trap. <strong><code>sound</code></strong> (S2) ⚠️⚠️ = <strong>healthy</strong> — the Pastorals' ὑγιαίνουσα διδασκαλία (1 Tim. 1:10), the root of <em>hygiene</em>. A <strong>medical</strong> word, not an acoustic one. <strong><code>dare</code></strong> (S10) ⚠️⚠️⚠️ = a <strong>modal auxiliary</strong> — no <code>-s</code>, no <code>to</code>, no <code>do</code>-support. <strong><code>tortuous</code></strong> (S3) ⚠️⚠️ = <strong>full of twists</strong> (<em>torquere</em>) — <strong>not</strong> <em>torturous</em>. <strong><code>detestation</code></strong> (S8) ⚠️⚠️ = <strong>abhorrence sworn out loud</strong> (<em>de-testari</em>, to curse <strong>by calling the gods to witness</strong> — <em>testis</em>, a witness) — nothing to do with taste. <strong><code>disclosed</code></strong> (S8) ⚠️ = <strong>un-shut</strong> (<em>dis-claudere</em>) — the deliberate counter-move to <code>hiding-place</code>. <strong><code>quibbling</code></strong> (S1) ⚠️ = <strong>hair-splitting evasion</strong>. <strong><code>calumniators</code></strong> (S1) ⚠️⚠️ = <strong>false accusers</strong> (<em>calumnia</em>, malicious prosecution in Roman law) — not merely "critics"; the charge is <strong>bad faith</strong>. <strong><code>subterfuges</code></strong> (S4) ⚠️⚠️ = <strong>escapes by going under</strong> (<em>subter</em> + <em>fugere</em>). <strong><code>give out</code></strong> (S6) ⚠️ = <strong>to put about, proclaim</strong> — not "run out of". <strong><code>wiles</code></strong> (S7) ⚠️ = <strong>stratagems</strong> (<em>versutus</em>, <strong>turned</strong>) — the same picture as <code>tortuous</code>. <strong><code>nonentities</code></strong> (S12) ⚠️ = <strong>non-beings, nothings</strong> (<em>non</em> + <em>ens</em>). <strong><code>sung another note</code></strong> (S14) ⚠️ = <strong>changed his tune</strong> — and <code>sung</code> for <em>sang</em> is period-normal, not a slip. <strong><code>quiet</code></strong> (S10) ⚠️ = a <strong>noun</strong>, <em>tranquillity</em>. <strong><code>viz.</code></strong> (S9, S14) ⚠️ = <strong>namely</strong> (<em>videlicet</em>; the <em>z</em> is a scribal contraction mark, not a letter). <strong><code>simple</code></strong> (S16) ⚠️⚠️ = <strong>unguarded, straightforward</strong> — the <strong>third distinct sense in three days</strong>. <strong><code>piety</code></strong> (S15) = <em>pietas</em>, <strong>due reverence</strong>, a Roman virtue word, not modern sanctimony.</p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (⚠️ invariable) — 16 sentences</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+4. <span class="ft-sent" data-s="S1" id="ft-S1" onclick="jumpToCard('S1')">Such novelty (if novelty it should be called) becomes most requisite, when the truth is to be maintained against calumniators who evade it by quibbling.</span> <span class="ft-sent" data-s="S2" id="ft-S2" onclick="jumpToCard('S2')">Of this, we of the present day have too much experience in being constantly called upon to attack the enemies of pure and sound doctrine.</span> <span class="ft-sent" data-s="S3" id="ft-S3" onclick="jumpToCard('S3')">These slippery snakes escape by their swift and tortuous windings, if not strenuously pursued, and when caught, firmly held.</span> <span class="ft-sent" data-s="S4" id="ft-S4" onclick="jumpToCard('S4')">Thus the early Christians, when harassed with the disputes which heresies produced, were forced to declare their sentiments in terms most scrupulously exact in order that no indirect subterfuges might remain to ungodly men, to whom ambiguity of expression was a kind of hiding-place.</span> <span class="ft-sent" data-s="S5" id="ft-S5" onclick="jumpToCard('S5')">Arius confessed that Christ was God, and the Son of God; because the passages of Scripture to this effect were too clear to be resisted, and then, as if he had done well, pretended to concur with others.</span> <span class="ft-sent" data-s="S6" id="ft-S6" onclick="jumpToCard('S6')">But, meanwhile, he ceased not to give out that Christ was created, and had a beginning like other creatures.</span> <span class="ft-sent" data-s="S7" id="ft-S7" onclick="jumpToCard('S7')">To drag this man of wiles out of his lurking-places, the ancient Church took a further step, and declared that Christ is the eternal Son of the Father, and consubstantial with the Father.</span> <span class="ft-sent" data-s="S8" id="ft-S8" onclick="jumpToCard('S8')">The impiety was fully disclosed when the Arians began to declare their hatred and utter detestation of the term ο μοου σιος.</span> <span class="ft-sent" data-s="S9" id="ft-S9" onclick="jumpToCard('S9')">Had their first confession—viz. that Christ was God, been sincere and from the heart, they would not have denied that he was consubstantial with the Father.</span> <span class="ft-sent" data-s="S10" id="ft-S10" onclick="jumpToCard('S10')">Who dare charge those ancient writers as men of strife and contention, for having debated so warmly, and disturbed the quiet of the Church for a single word?</span> <span class="ft-sent" data-s="S11" id="ft-S11" onclick="jumpToCard('S11')">That little word distinguished between Christians of pure faith and the blasphemous Arians.</span> <span class="ft-sent" data-s="S12" id="ft-S12" onclick="jumpToCard('S12')">Next Sabellius arose, who counted the names of Father, Son, and Holy Spirit, as almost nonentities; maintaining that they were not used to mark out some distinction, but that they were different attributes of God, like many others of a similar kind.</span> <span class="ft-sent" data-s="S13" id="ft-S13" onclick="jumpToCard('S13')">When the matter was debated, he acknowledged his belief that the Father was God, the Son God, the Spirit God; but then he had the evasion ready, that he had said nothing more than if he had called God powerful, and just, and wise.</span> <span class="ft-sent" data-s="S14" id="ft-S14" onclick="jumpToCard('S14')">Accordingly, he sung another note—viz. that the Father was the Son, and the Holy Spirit the Father, without order or distinction.</span> <span class="ft-sent" data-s="S15" id="ft-S15" onclick="jumpToCard('S15')">The worthy doctors who then had the interests of piety at heart, in order to defeat it is man’s dishonesty, proclaimed that three subsistence were to be truly acknowledged in the one God.</span> <span class="ft-sent" data-s="S16" id="ft-S16" onclick="jumpToCard('S16')">That they might protect themselves against tortuous craftiness by the simple open truth, they affirmed that a Trinity of Persons subsisted in the one God, or (which is the same thing) in the unity of God.</span>
+</blockquote><p><strong>Sentence count: 16 (S1–S16). One paragraph. Two case histories inside it: Arius = S5–S11, Sabellius = S12–S16.</strong></p><blockquote>
+<p><strong>Text note (not a correction to the quotation).</strong> Six features of the printed page, all left exactly as they stand.
+(i) ⚠️⚠️⚠️ <strong>S15 prints <code>in order to defeat it is man’s dishonesty</code>.</strong> As it stands this is not English. The sense requires <code>**this** man’s dishonesty</code> — the referent being <strong>Sabellius</strong>, just named. <code>it is</code> is a misreading of <code>this</code>. <strong>The internal evidence is strong:</strong> S7 has the exactly parallel <code>To drag **this man** of wiles out of his lurking-places</code> for <strong>Arius</strong>. Calvin gives each heretic the same contemptuous demonstrative at the same point in each case history. <strong>Read <em>this man’s</em>; quote <em>it is man’s</em>.</strong>
+(ii) ⚠️⚠️ <strong>S15 prints <code>three subsistence were to be truly acknowledged</code></strong> where the plural is required by both <code>three</code> and <code>were</code>. <strong>The same printing has the plural three sections later</strong> — §6: <em>each of the three </em><em>subsistences</em><em> while related to the others is distinguished…</em> <strong>Read <em>subsistences</em>; quote <em>subsistence</em>.</strong> ⚠️ Two slips in one sentence, and this sentence sits directly on a page break in this printing — exactly where compositors’ errors cluster. You saw the identical phenomenon yesterday at §3 S9.
+(iii) <strong>The Greek is printed with its breathing and accent detached:</strong> <code>ο μοου σιος</code> = <strong>ὁμοούσιος</strong>. The rough breathing and the acute have been split off in scanning; the spaces are artifacts, <strong>not word divisions</strong>. The same thing happens at §5 (<code>ο μοου σιος</code> again) and at §7 (<code>λο γος</code> for <strong>λόγος</strong>). <strong>Quote as printed; read ὁμοούσιος.</strong>
+(iv) <strong>S9’s interrupter opens with a dash and closes with a comma</strong> — <code>Had their first confession—viz. that Christ was God, been sincere and from the heart</code>. There is <strong>no second dash</strong>. Period pointing; leave it. Bracketing it correctly is half the sentence.
+(v) <strong><code>sung</code> for <em>sang</em> (S14)</strong> is period-normal strong-verb morphology, not an error. Likewise <strong><code>ceased not to give out</code></strong> (S6) — the negative after the lexical verb, without <code>do</code>-support.
+(vi) <strong><code>hiding-place</code> and <code>lurking-places</code> are hyphenated; <code>nonentities</code> is not.</strong> All period forms, correct as printed.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>[THESIS]      S1     novelty is MOST REQUISITE when truth is held against QUIBBLERS
+[PRESENT]     S2     "we of the present day have TOO MUCH EXPERIENCE" ← 1559, not 325
+[IMAGE]       S3     heresy = SLIPPERY SNAKES → must be (a) pursued (b) HELD FAST
+[PRINCIPLE]   S4     ∴ early Christians FORCED to exact terms — to close the HIDING-PLACES
+              ─────────── CASE 1 · ARIUS — too much distinction ───────────
+[CONCESSION]  S5     Arius CONFESSED: Christ is God, Son of God (Scripture too clear to resist)
+[EVASION]     S6     BUT ceased not to give out: created · had a beginning like other creatures
+[REMEDY]      S7     Church's FURTHER STEP: the ETERNAL Son + CONSUBSTANTIAL
+[DIAGNOSIS]   S8     the ο μοου σιος test → their HATRED disclosed the impiety
+[INFERENCE]   S9     Had the confession been sincere → they would NOT have denied the word
+[DEFENCE]     S10-11 not "strife over a single word": that word DIVIDED faith from blasphemy
+              ─────────── CASE 2 · SABELLIUS — too much unity ───────────
+[EVASION]     S12    the names = almost NONENTITIES → mere attributes, not distinctions
+[CONCESSION]  S13    Father God, Son God, Spirit God — "no more than powerful, just, wise"
+[COLLAPSE]    S14    ∴ Father IS the Son, Spirit IS the Father — no order, no distinction
+[REMEDY]      S15    THREE SUBSISTENCE(S) truly acknowledged in the one God
+[FORMULA]     S16    → a TRINITY OF PERSONS subsisting in the one God = in the unity of God
+</code></pre><p><strong>The engine, in one line:</strong> each heretic <strong>passes the verbal test and fails the real one</strong> — so the Church must coin a word the heretic <strong>cannot say</strong>. The new term has no independent content (that was yesterday's §3 S1: the terms <code>do nothing more than explain what the Scriptures declare and sanction</code>); its function is <strong>diagnostic</strong>. It is a shibboleth. And notice the symmetry Calvin builds: <strong>opposite errors get opposite words.</strong> Arius keeps the distinction and loses the unity → answer: <code>**consubstantial**</code>, a <em>unity</em> word. Sabellius keeps the unity and loses the distinction → answer: <code>**three subsistences**</code>, a <em>distinction</em> word. S16 then bolts the two halves together in one clause: <code>a **Trinity of Persons** subsisted in **the one God**, or (which is the same thing) **in the unity of God**.</code> That final sentence is the chapter title in miniature.</p><p><strong>Examiner's Eye — five traps, and the first one catches nearly everybody.</strong></p><ol>
+<li>⚠️⚠️⚠️ <strong>Both heretics confess.</strong> <code>Arius **confessed** that Christ was God, and the Son of God</code> (S5). <code>he **acknowledged his belief** that the Father was God, the Son God, the Spirit God</code> (S13). An option reading <em>"Arius denied the deity of Christ"</em> is <strong>false as this passage states the case</strong> — and it is exactly what your church-history memory will supply. ⚠️ Calvin's whole argument depends on the heretic being able to <strong>say the orthodox sentence</strong>. Read what is on the page.</li>
+<li>⚠️⚠️ <strong>Opposite errors, opposite remedies.</strong> <code>consubstantial</code> (S7) answers <strong>Arius</strong>; <code>three subsistence[s]</code> (S15) answers <strong>Sabellius</strong>. Any option that swaps them, or that treats both as the same move, has lost the structure of the section. This is the commonest <em>structural</em> trap here.</li>
+<li>⚠️⚠️ <strong>S1's parenthesis is a doubt, not an admission.</strong> <code>(if novelty it should be called)</code> = <em>supposing it ought to be called novelty at all</em>. An option reading <em>"Calvin concedes that the terms are novelties"</em> over-reads a <strong>putative <code>should</code></strong> into an assertion. ⚠️ Yesterday he conceded a great deal; today he is <strong>withdrawing the word itself.</strong></li>
+<li>⚠️⚠️ <strong>S10 is a rhetorical question and the expected answer is <em>nobody</em>.</strong> <code>Who dare charge those ancient writers as men of strife and contention…?</code> An option that converts it into a report — <em>"Calvin notes that the ancient writers were blamed for contentiousness"</em>, or worse, <em>"Calvin agrees they were"</em> — inverts the voice. And S11 supplies the reason the answer is <em>nobody</em>: <code>That little word distinguished between Christians of pure faith and the blasphemous Arians.</code></li>
+<li>⚠️ <strong>Who acts?</strong> Not Calvin, not "the Church" as an abstraction: <code>**the ancient Church** took a further step</code> (S7) and <code>**The worthy doctors** who then had the interests of piety at heart</code> (S15). The necessity Calvin is proving is <strong>historical</strong> — something that <em>happened to</em> people under attack — not a speculative principle. ⚠️ And note S2: <code>**we of the present day** have too much experience</code>. The claim is that it is happening <strong>again</strong>, in Geneva, now.</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">if novelty it should be called — six words, two constructions, and a concession that takes itself back</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p><strong><code>Such novelty (if novelty it should be called) becomes most requisite, when the truth is to be maintained against calumniators who evade it by quibbling.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `Such novelty</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if</b> ᴼᴮᴶ ˢᵁᴮᴶ <b>should be called</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">novelty</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">it</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>becomes</b> most requisite</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> the truth <b>is to be maintained</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>against</b> calumniators</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who</b> evade it <b>by</b> quibbling</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>requisite</em> &lt; <em>re-</em> + <em>quaerere</em> (to seek) → <em>require, request, inquire, conquest, exquisite</em> (= sought out); <em>calumniator</em> &lt; <em>calumnia</em>, malicious prosecution → Fr. <em>challenge</em> is a cousin; <em>evade</em> &lt; <em>e-</em> + <em>vadere</em>, to go, to stride → <em>invade, pervade, evasion, wade</em>; <em>novelty</em> &lt; <em>novus</em> → <em>novel, innovate, renovate, novice</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>if X it should be called</em> = if that is even the right name for it; <em>be to be V-ed</em> = must be V-ed; <em>evade X by V-ing</em> = get out of X by means of V-ing.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">This kind of new wording — if "new" is even the right word — becomes absolutely necessary whenever the truth has to be defended against bad-faith accusers who wriggle out of it by splitting hairs.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Such novelty</b> → this kind of new wording</li><li><b>if novelty it should be called</b> → if "new" is even the right word</li><li><b>most requisite</b> → absolutely necessary</li><li><b>is to be maintained</b> → has to be defended</li><li><b>calumniators</b> → bad-faith accusers</li><li><b>evade it by quibbling</b> → wriggle out of it by splitting hairs.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s2" title="2-star">★★</span><span class="s-label">we of the present day — the sentence that dates the argument, and aims it</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p><strong><code>Of this, we of the present day have too much experience in being constantly called upon to attack the enemies of pure and sound doctrine.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>Of this</b></span></li></ul></li></ul></li><li><span class="leaf">we <b>have</b> too much experience</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of the present day</b></span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in</b> being constantly <b>called upon to attack</b> the enemies</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of</b> pure and sound doctrine</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>experience</em> &lt; <em>ex-</em> + <em>periri</em>, to try, to go through → <em>experiment, peril, expert</em>; <em>sound</em> (healthy) &lt; OE <em>gesund</em> → German <em>gesund</em>, and the greeting <em>safe and sound</em> — a different word from <em>sound</em> (noise) &lt; Lat. <em>sonus</em>; <em>doctrine</em> &lt; <em>docere</em>, to teach → <em>doctor, document, docile</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>of this we have too much experience</em> = we know this all too well; <em>be called upon to V</em> = be required/summoned to V; <em>pure and sound doctrine</em> = unadulterated, healthy teaching.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">We know this all too well nowadays, since we are constantly being called on to fight the enemies of pure and healthy teaching.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Of this … too much experience</b> → we know this all too well</li><li><b>we of the present day</b> → nowadays we</li><li><b>called upon to attack</b> → called on to fight</li><li><b>sound doctrine</b> → healthy teaching.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">if not strenuously pursued, and when caught, firmly held — three deletions, and one of them is a negative</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p><strong><code>These slippery snakes escape by their swift and tortuous windings, if not strenuously pursued, and when caught, firmly held.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `These slippery snakes </b>escape**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>by</b> their swift and tortuous windings</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if</b> ⌀they are⌀ <b>not</b> strenuously pursued</span></li></ul></li><li><span class="leaf"><b>and</b>.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">⌀<b>if</b>⌀,, ⌀they are <b>not</b>⌀ firmly held</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> ⌀they are⌀ caught</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>tortuous</em> &lt; <em>torquere</em>, to twist → <em>torque, torment, contort, distort, extort, torch</em> (a twist of tow); <em>strenuous</em> &lt; <em>strenuus</em>, brisk, vigorous; <em>wind</em> (v., to turn) is Germanic and unrelated to <em>wind</em> (n., air) — cf. <em>wend, wander, wand</em>; <em>pursue</em> &lt; <em>pro-</em> + <em>sequi</em>, to follow → <em>sequel, consequence, prosecute, suit</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>if not V-ed</em> = unless it is V-ed; <em>hold firmly</em> = grip fast; <em>escape by X</em> = get away by means of X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">These slippery snakes get away by twisting and turning fast, unless you chase them hard and then, once you have them, hold on tight.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>swift and tortuous windings</b> → twisting and turning fast</li><li><b>if not strenuously pursued</b> → unless you chase them hard</li><li><b>when caught, firmly held</b> → once you have them, hold on tight.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">in order that no indirect subterfuges might remain — the thesis of the section, stated as history</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p><strong><code>Thus the early Christians, when harassed with the disputes which heresies produced, were forced to declare their sentiments in terms most scrupulously exact in order that no indirect subterfuges might remain to ungodly men, to whom ambiguity of expression was a kind of hiding-place.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>Thus** the early Christians</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> ⌀they were⌀ harassed <b>with</b> the disputes</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b> heresies produced</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>were forced to declare</b> their sentiments</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in</b> terms most scrupulously exact</span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in order that</b> no indirect subterfuges <b>might remain to</b> ungodly men</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>to whom</b> ambiguity of expression <b>was</b> a kind of hiding-place</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>harass</em> &lt; OF <em>harer</em>, to set a dog on (<em>hare!</em>, the cry to hounds); <em>scrupulous</em> &lt; <em>scrupulus</em>, a small sharp pebble (in the shoe) → a nagging misgiving → <em>scruple</em>; <em>subterfuge</em> &lt; <em>subter</em> (beneath) + <em>fugere</em> (to flee) → <em>fugitive, refuge, centrifugal</em>; <em>ambiguity</em> &lt; <em>ambi-</em> (both ways) + <em>agere</em> (to drive) → <em>ambition</em> (going round canvassing), <em>ambivalent</em>; <em>exact</em> &lt; <em>ex-</em> + <em>agere</em>, driven out, weighed out → <em>exact, exigent, essay</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>be harassed with X</em> = be hounded by X (period: <em>with</em>, not <em>by</em>); <em>be forced to V</em> = be driven to V; <em>in order that … might</em> = so that … would; <em>a kind of X</em> = a sort of X (hedged metaphor).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And so the early Christians, hounded by the disputes that heresies stirred up, were driven to state their beliefs in the most painstakingly precise terms, so that no roundabout escape routes would be left for ungodly men — men for whom vague wording was a kind of bolt-hole.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Thus</b> → And so</li><li><b>harassed with the disputes which heresies produced</b> → hounded by the disputes that heresies stirred up</li><li><b>terms most scrupulously exact</b> → the most painstakingly precise terms</li><li><b>no indirect subterfuges might remain</b> → no roundabout escape routes would be left</li><li><b>ambiguity of expression</b> → vague wording</li><li><b>hiding-place</b> → bolt-hole.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Arius confessed that Christ was God — the sentence you will misread, and a because that faces backwards</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p><strong><code>Arius confessed that Christ was God, and the Son of God; because the passages of Scripture to this effect were too clear to be resisted, and then, as if he had done well, pretended to concur with others.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `Arius </b>confessed**</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> Christ was God, <b>and</b> ⌀that Christ was⌀ the Son of God</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">이유절 (because)</span><span class="leaf"><b>because</b> the passages of Scripture were <b>too</b> clear <b>to be</b> resisted</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to this effect</b></span></li></ul></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and then</b>,, ⌀Arius⌀ <b>pretended to concur</b> with others.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>as if</b> he had done well</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>confess</em> &lt; <em>con-</em> + <em>fateri</em>, to declare → <em>profess, confession, fateor</em>; Gk ὁμολογέω = <em>homo-</em> (same) + <em>legein</em> (say); <em>pretend</em> &lt; <em>prae-tendere</em>, to stretch in front → a <em>pretext</em> is a thing woven in front (<em>praetextum</em>); <em>concur</em> &lt; <em>con-</em> + <em>currere</em> → <em>current, course, cursor, occur, recur, discourse</em>; <em>resist</em> &lt; <em>re-</em> + <em>sistere</em>, to make a stand.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>confess that</em> = openly profess that; <em>to this effect</em> = to this purport, saying this; <em>too ADJ to V</em> = so ADJ that one cannot V; <em>as if he had V-ed</em> = as though he had V-ed (counterfactual); <em>concur with</em> = agree with.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Arius professed that Christ was God and the Son of God — because the Bible passages saying so were too plain to argue with — and then, as though he had behaved perfectly well, he made a show of agreeing with everyone else.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>confessed</b> → professed</li><li><b>to this effect</b> → saying so</li><li><b>too clear to be resisted</b> → too plain to argue with</li><li><b>as if he had done well</b> → as though he had behaved perfectly well</li><li><b>pretended to concur with others</b> → made a show of agreeing with everyone else.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s1" title="1-star">★</span><span class="s-label">he ceased not to give out — one point, and it is where the poison is</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p><strong><code>But, meanwhile, he ceased not to give out that Christ was created, and had a beginning like other creatures.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>cease</em> &lt; <em>cessare</em> &lt; <em>cedere</em>, to yield, go away → <em>concede, recede, decease, ancestor</em>; <em>creature</em> &lt; <em>creatura</em>, a thing created — ⚠️ in this register it means anything made, with no animal overtone; <em>meanwhile</em> = <em>mean</em> (middle, &lt; <em>medianus</em>) + <em>while</em> (a space of time) → cf. <em>mean time, Greenwich Mean Time</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>cease not to V</em> = not stop V-ing; <em>give out that</em> = put it about that, proclaim that; <em>have a beginning</em> = come into being at some point.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But all the while he kept putting it about that Christ was created and had a beginning, like every other created thing.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>meanwhile</b> → all the while</li><li><b>ceased not to give out</b> → kept putting it about</li><li><b>like other creatures</b> → like every other created thing.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s2" title="2-star">★★</span><span class="s-label">took a further step — a fronted purpose infinitive, and a tense that changes on purpose</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p><strong><code>To drag this man of wiles out of his lurking-places, the ancient Church took a further step, and declared that Christ is the eternal Son of the Father, and consubstantial with the Father.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>To drag</b> this man of wiles <b>out of</b> his lurking-places</span></li></ul></li></ul></li><li><span class="leaf">the ancient Church <b>took</b> a further step</span></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and declared</b>.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> Christ <b>is</b> the eternal Son of the Father, <b>and</b> ⌀that Christ is⌀ consubstantial with the Father</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>consubstantial</em> &lt; <em>con-</em> + <em>substantia</em> &lt; <em>sub-stare</em>, to stand under → <em>substance, substantial, circumstance, constant, obstacle</em>; Gk ὁμοούσιος = ὁμός (same) + οὐσία (being, &lt; εἶναι); <em>wile</em> — a trick; cognate ideas in <em>guile</em>, <em>wily</em>; <em>lurk</em> — to lie hidden, cognate with <em>lower</em> (to look sullen).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>to drag X out of his lurking-places</em> = to flush X out of hiding; <em>take a further step</em> = go one step further; <em>a man of wiles</em> = a trickster.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">To flush this trickster out of his hiding places, the early Church went a step further and declared that Christ is the eternal Son of the Father, of one and the same substance with the Father.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>this man of wiles</b> → this trickster</li><li><b>lurking-places</b> → hiding places</li><li><b>took a further step</b> → went a step further</li><li><b>consubstantial with</b> → of one and the same substance with.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s2" title="2-star">★★</span><span class="s-label">The impiety was fully disclosed — the word as a diagnostic instrument</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p><strong><code>The impiety was fully disclosed when the Arians began to declare their hatred and utter detestation of the term ο μοου σιος.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `The impiety </b>was fully disclosed**</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> the Arians <b>began to declare</b> their hatred <b>and</b> utter detestation</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>of</b> the term ο μοου σιος</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>disclose</em> &lt; <em>dis-</em> + <em>claudere</em>, to shut → <em>close, clause, cloister, include, exclude, recluse</em>; <em>detestation</em> &lt; <em>de-testari</em>, to call the gods to witness against → <em>testify, testament, protest, attest, contest, testicle</em> (a "witness" — Roman etymological folklore, but the root is the same <em>testis</em>); <em>impiety</em> &lt; <em>in-</em> + <em>pietas</em>, due reverence.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>X was fully disclosed</em> = X was completely brought to light; <em>utter detestation of X</em> = absolute abhorrence of X; <em>begin to declare</em> = start openly saying.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Their godlessness was completely exposed the moment the Arians started openly saying how much they hated and loathed the word <em>homoousios</em>.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>impiety</b> → godlessness</li><li><b>fully disclosed</b> → completely exposed</li><li><b>began to declare</b> → started openly saying</li><li><b>hatred and utter detestation</b> → how much they hated and loathed.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Had their first confession … been sincere — inversion, an interrupter in the worst place, and a counterfactual doing forensic work</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p><strong><code>Had their first confession—viz. that Christ was God, been sincere and from the heart, they would not have denied that he was consubstantial with the Father.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>Had** <b>been</b> sincere <b>and</b> from the heart</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">their first confession</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">—<b>viz.</b> that Christ was God</span></li></ul></li></ul></li><li><span class="leaf"><b>they would not have denied</b>.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> he was consubstantial with the Father</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>sincere</em> &lt; <em>sincerus</em>, clean, pure, sound (the <em>sine cera</em> "without wax" story is folk etymology); <em>viz.</em> &lt; <em>videlicet</em> &lt; <em>videre licet</em>, "it is permitted to see" — the <em>z</em> is a scribal contraction for <em>-et</em>; <em>deny</em> &lt; <em>de-</em> + <em>negare</em>, to say no → <em>negative, renegade, abnegate</em>; <em>confession</em> &lt; <em>con-fateri</em>, to declare together/openly.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Had S been …, S would have V-ed</em> = if S had been …, S would have V-ed; <em>from the heart</em> = heartfelt, sincerely; <em>viz.</em> = namely.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">If their original profession — namely, that Christ was God — had been sincere and heartfelt, they would not have refused to say that he was of one substance with the Father.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Had their first confession … been sincere</b> → If their original profession … had been sincere</li><li><b>viz.</b> → namely</li><li><b>and from the heart</b> → and heartfelt</li><li><b>denied that he was consubstantial</b> → refused to say that he was of one substance.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Who dare charge …? — a modal in disguise, a perfect gerund, and a question that answers itself</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p><strong><code>Who dare charge those ancient writers as men of strife and contention, for having debated so warmly, and disturbed the quiet of the Church for a single word?</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b> `</b>Who dare charge** those ancient writers</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>as</b> men of strife and contention</span></li></ul></li></ul><ul class="tr"><li><span class="leaf">?`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>for having debated</b> so warmly, <b>and</b> ⌀having⌀ <b>disturbed</b> the quiet of the Church</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>for</b> a single word</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>dare</em> &lt; OE <em>durran</em>, a preterite-present verb — hence its modal behaviour, the same class that gave us <em>can, shall, may, must, ought, need</em>; <em>charge</em> &lt; Late Lat. <em>carricare</em>, to load a wagon (<em>carrus</em>) → <em>cargo, car, carry, discharge, caricature</em> (an overloaded portrait); <em>quiet</em> (n.) &lt; <em>quies, quietis</em> → <em>requiem, quiescent, acquiesce, coy</em>; <em>contention</em> &lt; <em>con-</em> + <em>tendere</em>, to stretch → <em>tension, tendon, intend, pretend, contend</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Who dare V …?</em> = who would presume to V (answer: nobody); <em>charge X as Y</em> = accuse X of being Y (period usage; modern: <em>charge X with being Y</em>); <em>for having V-ed</em> = on the ground of having V-ed; <em>disturb the quiet of X</em> = upset the peace of X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Who would dare accuse those ancient writers of being quarrelsome troublemakers, just for arguing so fiercely and upsetting the Church's peace over a single word?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Who dare charge</b> → who would dare accuse</li><li><b>as men of strife and contention</b> → of being quarrelsome troublemakers</li><li><b>for having debated so warmly</b> → just for arguing so fiercely</li><li><b>the quiet of the Church</b> → the Church's peace.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s1" title="1-star">★</span><span class="s-label">That little word distinguished — one point, and it is the section's thesis in fourteen words</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p><strong><code>That little word distinguished between Christians of pure faith and the blasphemous Arians.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>distinguish</em> &lt; <em>dis-</em> + <em>stinguere</em>, to prick, mark off → <em>instinct, extinguish, distinct, sting</em>; <em>blasphemous</em> — usually derived from Gk βλάπτω (to injure) + φήμη (speech) = injuring speech → <em>blame</em> is the same word worn down through Old French.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>distinguish between A and B</em> = tell A and B apart, draw the line between them; <em>that little word</em> = that one small word (⚠️ concessive in form, triumphant in force).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">That one small word drew the line between Christians of genuine faith and the blaspheming Arians.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>That little word</b> → that one small word</li><li><b>distinguished between</b> → drew the line between</li><li><b>of pure faith</b> → of genuine faith.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S12" id="S12"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S12</span><span class="stars s2" title="2-star">★★</span><span class="s-label">Next Sabellius arose — a relative, a dangling participle, and a not … but that does not match</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S12" onclick="flashFullText(this)">
+<p><strong><code>Next Sabellius arose, who counted the names of Father, Son, and Holy Spirit, as almost nonentities; maintaining that they were not used to mark out some distinction, but that they were different attributes of God, like many others of a similar kind.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>Next<b> Sabellius </b>arose**</span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who counted</b> the names <b>as</b> almost nonentities</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of Father, Son, and Holy Spirit</span></li></ul></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>maintaining</b></span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> they were <b>not</b> used <b>to mark out</b> some distinction, <b>but that</b> they were different attributes of God</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>like</b> many others of a similar kind</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>nonentity</em> &lt; <em>non</em> + <em>entitas</em> &lt; <em>ens, entis</em> (being) &lt; <em>esse</em> → <em>entity, essence, absent, present, interest</em>; <em>maintain</em> &lt; <em>manu tenere</em>, to hold in the hand → <em>tenant, tenure, retain, sustain, tenacious</em>; <em>attribute</em> &lt; <em>ad-</em> + <em>tribuere</em>, to assign (originally, to allot to a <em>tribus</em>, a tribe) → <em>tribute, contribute, distribute, tribunal</em>; <em>arise</em> — OE <em>ārīsan</em>, here in the historian's sense, <em>appeared on the scene</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>count X as Y</em> = reckon X to be Y; <em>mark out a distinction</em> = designate a difference; <em>of a similar kind</em> = of the same sort.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Next came Sabellius, who reckoned the names Father, Son, and Holy Spirit to be next to nothing — arguing that they were not there to mark any distinction, but were simply different attributes of God, like plenty of others of the same sort.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Next Sabellius arose</b> → next came Sabellius</li><li><b>counted … as almost nonentities</b> → reckoned … to be next to nothing</li><li><b>maintaining</b> → arguing</li><li><b>mark out some distinction</b> → mark any distinction</li><li><b>like many others of a similar kind</b> → like plenty of others of the same sort.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S13" id="S13"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S13</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">he had the evasion ready — gapping, and a comparative with a whole conditional inside it</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S13" onclick="flashFullText(this)">
+<p><strong><code>When the matter was debated, he acknowledged his belief that the Father was God, the Son God, the Spirit God; but then he had the evasion ready, that he had said nothing more than if he had called God powerful, and just, and wise.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>When</b> the matter was debated</span></li></ul></li></ul></li><li><span class="leaf">he <b>acknowledged</b> his belief</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> the Father was God, the Son ⌀was⌀ God, the Spirit ⌀was⌀ God</span></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but then</b> he <b>had</b> the evasion <b>ready</b></span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> he had said <b>nothing more than</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if</b> he had called God powerful, <b>and</b> just, <b>and</b> wise</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>evasion</em> &lt; <em>e-</em> + <em>vadere</em>, to go out → <em>evade, invade, pervade, wade</em>; <em>acknowledge</em> = <em>ac-</em> (&lt; OE <em>on</em>) + <em>knowledge</em>, with the Latinate <em>-ac-</em> prefix by analogy — to own, to recognise openly; <em>debate</em> &lt; <em>de-</em> + <em>battuere</em>, to beat down → <em>battle, batter, abate, combat</em>; <em>just</em> &lt; <em>justus</em> &lt; <em>jus</em>, law, right → <em>justice, judge, jury, injury</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>have X ready</em> = have X prepared in advance; <em>nothing more than if …</em> = no more than would be the case if …; <em>when the matter was debated</em> = when the question came up for discussion.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">When the question came up for debate, he admitted he believed the Father to be God, the Son God, the Spirit God — but then he had his escape route ready: he had said no more, he claimed, than if he had called God powerful, and just, and wise.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the matter was debated</b> → the question came up for debate</li><li><b>acknowledged his belief that</b> → admitted he believed that</li><li><b>had the evasion ready</b> → had his escape route ready</li><li><b>nothing more than if he had called</b> → no more than if he had called.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S14" id="S14"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S14</span><span class="stars s1" title="1-star">★</span><span class="s-label">he sung another note — one point, and it is an idiom you already know</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S14" onclick="flashFullText(this)">
+<p><strong><code>Accordingly, he sung another note—viz. that the Father was the Son, and the Holy Spirit the Father, without order or distinction.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>note</em> &lt; <em>nota</em>, a mark, a sign → in music a written mark for a pitch; hence <em>change one's note/tune</em>; <em>accordingly</em> &lt; <em>ad-</em> + <em>cor, cordis</em> (heart) → <em>accord, concord, discord, courage, record</em> (to bring back to heart); <em>order</em> &lt; <em>ordo</em>, a row, a rank (originally of threads in a loom) → <em>ordain, ordinary, coordinate, primordial</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>sing another note</em> = change one's tune; <em>without order or distinction</em> = with no ranking and no difference; <em>accordingly</em> = and so, consistently with that.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And so he changed his tune — namely, that the Father was the Son and the Holy Spirit was the Father, with no ranking and no difference between them.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>he sung another note</b> → he changed his tune</li><li><b>viz.</b> → namely</li><li><b>without order or distinction</b> → with no ranking and no difference between them.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S15" id="S15"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S15</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">three subsistence were to be truly acknowledged — the remedy, and two slips in one line</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S15" onclick="flashFullText(this)">
+<p><strong><code>The worthy doctors who then had the interests of piety at heart, in order to defeat it is man’s dishonesty, proclaimed that three subsistence were to be truly acknowledged in the one God.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `The worthy doctors</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (who)</span><span class="leaf"><b>who</b> then <b>had</b> the interests of piety <b>at heart</b></span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in order to defeat</b> ⌜<b>this</b>⌝ man’s dishonesty</span></li></ul></li><li><span class="leaf"><b>proclaimed</b>.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> three subsistence⌜<b>s</b>⌝ <b>were to be</b> truly <b>acknowledged</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in</b> the one God</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>subsistence</em> &lt; <em>sub-sistere</em>, to stand firm under → <em>subsist, consist, resist, insist, persist, assist</em> — all <em>sistere</em>, to make a stand; the Greek it renders, ὑπόστασις, is the same picture limb for limb (<em>hypo-</em> under + <em>stasis</em> standing); <em>doctor</em> &lt; <em>docere</em>, to teach → <em>doctrine, document, docile, disciple</em>; <em>piety</em> &lt; <em>pietas</em>, dutiful reverence → <em>pious, pity</em> (the same word, split in meaning through French).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>have X at heart</em> = care deeply about X; <em>in order to V</em> = so as to V; <em>be to be V-ed</em> = must be V-ed; <em>acknowledge truly</em> = recognise as really so (not merely in name).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The worthy teachers of that day, who genuinely cared about true religion, in order to defeat this man's dishonesty declared that three subsistences must be really acknowledged in the one God.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>the worthy doctors</b> → the worthy teachers</li><li><b>had the interests of piety at heart</b> → genuinely cared about true religion</li><li><b>it is [this] man's dishonesty</b> → this man's dishonesty</li><li><b>three subsistence[s] were to be truly acknowledged</b> → three subsistences must be really acknowledged.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S16" id="S16"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S16</span><span class="stars s2" title="2-star">★★</span><span class="s-label">the simple open truth — a fronted purpose clause, a sentential relative, and the frame closing</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S16" onclick="flashFullText(this)">
+<p><strong><code>That they might protect themselves against tortuous craftiness by the simple open truth, they affirmed that a Trinity of Persons subsisted in the one God, or (which is the same thing) in the unity of God.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>That</b> they <b>might protect</b> themselves</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>against</b> tortuous craftiness</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>by</b> the simple open truth</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf">they <b>affirmed</b>.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> a Trinity of Persons <b>subsisted</b>, <b>or</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in</b> the one God</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b> is the same thing</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>in</b> the unity of God</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>craft</em> — OE <em>cræft</em>, strength, skill (cf. German <em>Kraft</em>, force) → skill turned sideways = cunning; <em>subsist</em> &lt; <em>sub-sistere</em>, to stand firm under → <em>consist, persist, insist, resist</em>; <em>affirm</em> &lt; <em>ad-</em> + <em>firmus</em>, firm → <em>confirm, firm, farm</em> (a fixed rent); <em>Trinity</em> &lt; <em>trinitas</em> &lt; <em>trinus</em>, threefold — Tertullian's coinage in Latin (<em>trinitas</em>, c. AD 213), and note that it is itself a non-scriptural word, which is the point of the section.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>that they might V</em> = so that they could V (purpose); <em>protect oneself against X by Y</em> = shield oneself from X by means of Y; <em>or (which is the same thing)</em> = or, what comes to the same thing (a sentential relative = <em>i.e.</em>).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So as to shield themselves from twisting cunning by means of the plain, open truth, they affirmed that a Trinity of Persons really exists in the one God — or, what comes to the same thing, in the unity of God.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>That they might protect themselves</b> → so as to shield themselves</li><li><b>tortuous craftiness</b> → twisting cunning</li><li><b>the simple open truth</b> → the plain, open truth</li><li><b>subsisted in</b> → really exists in</li><li><b>or (which is the same thing)</b> → or, what comes to the same thing.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — Object-fronting + the putative <code>should</code></h3><pre><code>┌──────────────────────────────────────────────────────────────────────────┐
+│   ( IF  ‹NOUN›ᴼᴮᴶ   it ˢᵁᴮᴶ   SHOULD BE CALLED )                         │
+│          └ fronted object      └ PUTATIVE should = "is to be / ought      │
+│                                   to be", NOT obligation                  │
+│                                                                          │
+│   S1   Such novelty ( IF NOVELTY IT SHOULD BE CALLED ) becomes most       │
+│        requisite …                                                       │
+│        = "if it ought to be called novelty at all"                       │
+│                                                                          │
+│   RESTORE IN ONE MOVE:  put the fronted noun back AFTER the verb.        │
+│        if novelty it should be called  →  if it should be called novelty │
+│                                                                          │
+│   FAMILY:  if such it be · if so it be · if such it may be called ·      │
+│            call it what you will · if a heresy it should be called      │
+└──────────────────────────────────────────────────────────────────────────┘
+</code></pre><p>⚠️ <strong>Trap 1 — which noun is the subject?</strong> <code>it</code>. The <strong>bare <code>it</code></strong> late in a finite clause is almost always the subject, because English will not leave a finite clause subjectless. Take <code>novelty</code> for the subject and you produce <em>"if novelty should be called it"</em> — nonsense.
+⚠️ <strong>Trap 2 — <code>should</code> is not obligation and not future-in-the-past.</strong> It is the <strong>putative <code>should</code></strong>, which marks a clause as <em>entertained</em> rather than asserted. Family: <em>It is strange that he </em><em>should</em><em> say so</em>; <em>Lest any man </em><em>should</em><em> boast</em>; <em>If any </em><em>should</em><em> object</em>.
+⚠️ <strong>Trap 3 — this is a concession that withdraws itself.</strong> Calvin repeats the objectors' word from §3 S12 (<code>novelty of terms</code>) and questions the label in the same breath. <strong>Do not report the parenthesis as an admission.</strong></p><p><strong>Transformation drill.</strong>
+1. <em>Some call this an innovation; I doubt the name. It is forced on us by our adversaries.</em>
+   → <strong>Such innovation (if innovation it should be called) is forced upon us by our adversaries.</strong>
+2. <em>If it deserves to be called a heresy at all, it is at least an old one.</em>
+   → <strong>If a heresy it should be called, it is at least an ancient one.</strong></p><h3>Formula 2 — Reduced adverbial clauses with a carried-over negative</h3><pre><code>┌──────────────────────────────────────────────────────────────────────────┐
+│   S  V … ,   IF  ⌀S + be⌀  NOT  V-ed ,                                   │
+│              AND ⌀IF⌀ , ( WHEN ⌀S + be⌀ V-ed ) , ⌀S + be + NOT⌀  V-ed   │
+│                                                                          │
+│   S3   These slippery snakes ESCAPE by their swift and tortuous          │
+│        windings,                                                         │
+│            if  ⌀they are⌀  NOT  strenuously pursued,                     │
+│        and ⌀if⌀ , ( when ⌀they are⌀ caught ) , ⌀they are NOT⌀            │
+│                                            firmly held.                  │
+│                                                                          │
+│   RESTORE IN THREE MOVES:                                                │
+│     1. Put back  SUBJECT + BE  in every reduced clause. Ask WHOSE.       │
+│     2. Carry the NOT forward into the second arm.                        │
+│     3. Check the NESTING: `when caught` sits INSIDE the second `if`.     │
+└──────────────────────────────────────────────────────────────────────────┘
+</code></pre><p>⚠️ <strong>Trap 1 — the negative is stated once and governs twice.</strong> Read <code>and when caught, firmly held</code> as a positive and Calvin is saying snakes escape <strong>when you grip them tight</strong>. The exact opposite of the sentence.
+⚠️ <strong>Trap 2 — whose subject are you restoring?</strong> The <strong>snakes'</strong>, not the hunter's — even though <code>pursued</code> and <code>held</code> are things a hunter does. Deletion always recovers the subject from the <strong>main clause</strong>.
+⚠️ <strong>Trap 3 — two levels, not one.</strong> <code>when caught</code> is subordinate to the second <code>if</code>, not coordinate with the first. Lay it out vertically before you translate.</p><p><strong>Transformation drill.</strong>
+1. <em>Error slips away unless it is closely pressed, and unless, once it is exposed, it is plainly named.</em>
+   → <strong>Error slips away, if not closely pressed, and when exposed, plainly named.</strong>
+2. <em>A quibble survives unless it is precisely defined, and unless, when it is defined, it is firmly held to that definition.</em>
+   → <strong>A quibble survives, if not precisely defined, and when defined, firmly held to that definition.</strong></p><h3>Formula 3 — The inverted counterfactual (with an interrupter inside it)</h3><pre><code>┌──────────────────────────────────────────────────────────────────────────┐
+│   HAD  S  ( —viz. …, )  BEEN / V-ed  … ,                                 │
+│        S  WOULD (NOT) HAVE  V-ed …                                       │
+│   └── `if` DELETED, auxiliary FRONTED. Past-unreal subjunctive.          │
+│                                                                          │
+│   S9   HAD their first confession —viz. that Christ was God,             │
+│                                    BEEN sincere and from the heart,      │
+│        they WOULD NOT HAVE DENIED that he was consubstantial …           │
+│                                                                          │
+│   ONLY THREE AUXILIARIES INVERT FOR `if`:                                │
+│        If S HAD been …    → HAD S been …                                 │
+│        If it WERE so …    → WERE it so …                                 │
+│        If any SHOULD …    → SHOULD any object …                          │
+│        (✗ *Did he come* ≠ If he came.)                                   │
+│                                                                          │
+│   THE LOGIC IT CARRIES (modus tollens on a counterfactual):              │
+│        P1  IF sincere, THEN they would not have refused the word.        │
+│        P2  They DID refuse it.            (S8)                           │
+│        ∴   NOT sincere.                                                  │
+└──────────────────────────────────────────────────────────────────────────┘
+</code></pre><p>⚠️ <strong>Trap 1 — the inversion is not a question.</strong> No <code>?</code>, and the second clause carries <code>would</code>. The apodosis is what tells you the mood; check it first.
+⚠️ <strong>Trap 2 — bracket the interrupter before parsing.</strong> <code>—viz. that Christ was God,</code> sits <strong>between the subject and its participle</strong>, and it opens with a dash but <strong>closes with a comma</strong> — there is no second dash. Take the comma for the end of the subject and you will hunt for a main verb that is not there.
+⚠️ <strong>Trap 3 — the inference is only as good as its premise.</strong> It works because the term is stipulated to <strong>add nothing</strong> to what they already confessed (§3 S1: the terms <code>do nothing more than explain</code>). Against a term that adds content, the argument would not run. <strong>Know the limit of the tool you are being handed.</strong></p><p><strong>Transformation drill.</strong>
+1. <em>If his profession had been honest, he would not have shrunk from the word.</em>
+   → <strong>Had his profession been honest, he would not have shrunk from the word.</strong>
+2. Now with the interrupter in Beveridge's position:
+   → <strong>Had their confession—viz. that the Spirit is God, been made in earnest, they would not have quarrelled with the term.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary (어원 후킹)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>confess</strong> (S5) ⚠️⚠️⚠️</td>
+<td>to <strong>profess openly</strong>, declare as one's belief</td>
+<td><em>con-</em> + <em>fateri</em> (to declare); renders Gk <strong>ὁμολογέω</strong>, <em>homo-</em> (same) + <em>legein</em> (say) = <strong>to say the same thing</strong>. ⚠️ <strong>NOT</strong> "admit a fault." Survives in <em>confession of faith</em>, <em>the Augsburg Confession</em>, <em>a confessing church</em>. <strong>Today's #1 lexical trap</strong> — miss it and S5 inverts. 고백하다·공언하다</td>
+</tr>
+<tr>
+<td><strong>sound</strong> (S2) ⚠️⚠️</td>
+<td><strong>healthy</strong></td>
+<td>OE <em>gesund</em> → Ger. <em>gesund</em>; cf. <em>safe and sound</em>. Renders Gk <strong>ὑγιαίνουσα</strong> (1 Tim. 1:10) → <em>hygiene</em>. ⚠️ A <strong>different word</strong> from <em>sound</em> (noise) &lt; <em>sonus</em>. Heresy in the Pastorals is <strong>gangrene</strong> (2 Tim. 2:17). 건전한</td>
+</tr>
+<tr>
+<td><strong>requisite</strong> (S1)</td>
+<td>needed, called for</td>
+<td><em>re-</em> + <em>quaerere</em> (to seek) → <em>require, request, inquire, conquest, exquisite</em> (= sought out). 필수적인</td>
+</tr>
+<tr>
+<td><strong>calumniator</strong> (S1) ⚠️⚠️</td>
+<td>a <strong>false accuser</strong></td>
+<td><em>calumnia</em> = in Roman law a <strong>malicious prosecution</strong>; a convicted <em>calumniator</em> was branded with a K. ⚠️ Not "critic": the charge is <strong>bad faith</strong>, the same charge as yesterday's <code>uncandid</code>. 중상자</td>
+</tr>
+<tr>
+<td><strong>quibbling</strong> (S1) ⚠️</td>
+<td>hair-splitting evasion</td>
+<td>Probably from obsolete <em>quib</em>; traditionally traced to Lat. <strong>quibus</strong>, the case-form that swarms in legal instruments → <em>quibbles</em> = <strong>lawyer's small print</strong>. 말꼬리 잡기</td>
+</tr>
+<tr>
+<td><strong>evade / evasion</strong> (S1, S13) ⚠️⚠️</td>
+<td>to walk out of / an escape-hatch</td>
+<td><em>e-</em> + <em>vadere</em>, <strong>to go, to stride</strong> → <em>invade, pervade, wade</em>. ⚠️ <strong>The section's spine:</strong> evade (S1) → windings (S3) → subterfuges (S4) → lurking-places (S7) → the evasion ready (S13) → tortuous craftiness (S16). 회피하다</td>
+</tr>
+<tr>
+<td><strong>tortuous</strong> (S3, S16) ⚠️⚠️</td>
+<td>full of twists</td>
+<td><em>torquere</em>, <strong>to twist</strong> → <em>torque, contort, distort, extort, torment, torch</em> (a twist of tow). ⚠️ <strong>NOT</strong> <em>torturous</em> (painful). Opens and closes the section. 구불구불한</td>
+</tr>
+<tr>
+<td><strong>strenuously</strong> (S3)</td>
+<td>vigorously, with effort</td>
+<td><em>strenuus</em>, brisk, active.</td>
+</tr>
+<tr>
+<td><strong>harassed</strong> (S4) ⚠️</td>
+<td>hounded, worried</td>
+<td>Traditionally OF <em>harer</em>, <strong>to set a dog on</strong> (<em>hare!</em>, the cry to hounds). ⚠️ Yesterday the opponents <strong>snarled</strong>; today the orthodox are <strong>dogged</strong>. Note the period preposition: <em>harassed </em><em>with</em>**. 시달린</td>
+</tr>
+<tr>
+<td><strong>scrupulously</strong> (S4) ⚠️⚠️</td>
+<td>with painstaking exactness</td>
+<td><em>scrupulus</em>, <strong>a small sharp stone</strong> in the shoe → a nagging misgiving → <em>scruple</em>. ⚠️ <strong>Precision produced by discomfort</strong> — the exact psychology of creed-making. 세심하게</td>
+</tr>
+<tr>
+<td><strong>subterfuge</strong> (S4) ⚠️⚠️</td>
+<td>an evasive shift</td>
+<td><em>subter</em> (<strong>beneath</strong>) + <em>fugere</em> (<strong>to flee</strong>) = <strong>escape by going under</strong> → <em>fugitive, refuge, centrifugal</em>. ⚠️ <code>indirect subterfuges</code> is not redundant: <em>indirect</em> = manner, <em>subterfuge</em> = act. 구실·회피책</td>
+</tr>
+<tr>
+<td><strong>ambiguity</strong> (S4) ⚠️</td>
+<td>double-sidedness</td>
+<td><em>ambi-</em> (both) + <em>agere</em> (<strong>to drive</strong>) = <strong>driving both ways</strong> → <em>ambition</em> (going round canvassing), <em>ambivalent</em>. ⚠️ For Calvin a <strong>moral instrument</strong>, not a stylistic fault. 모호함</td>
+</tr>
+<tr>
+<td><strong>hiding-place / lurking-places</strong> (S4, S7) ⚠️⚠️</td>
+<td>the section's controlling image</td>
+<td>Lat. <em>latebrae</em>, the standard word for a wild animal's <strong>den</strong>; <em>lurk</em> is cognate with <em>lower</em> (to look sullen). <strong>Chain: hiding-place → lurking-places → disclosed → the simple open truth.</strong> 은신처</td>
+</tr>
+<tr>
+<td><strong>concur</strong> (S5)</td>
+<td>to agree</td>
+<td><em>con-</em> + <em>currere</em>, <strong>to run together</strong> → <em>current, cursor, course, occur, recur</em>. <code>pretended to concur</code> = <em>made a show of running with the pack</em>.</td>
+</tr>
+<tr>
+<td><strong>pretend</strong> (S5) ⚠️</td>
+<td>to make a show of</td>
+<td><em>prae-tendere</em>, <strong>to stretch out in front</strong> (a screen) → a <em>pretext</em> is a thing <strong>woven in front</strong> (<em>praetextum</em>). Another cover-word.</td>
+</tr>
+<tr>
+<td><strong>give out</strong> (S6) ⚠️</td>
+<td>to put about, proclaim</td>
+<td>Survives in <em>he gave out that he was ill</em>. ⚠️ <strong>NOT</strong> "run out of." Note the period negative: <code>ceased **not** to give out</code> — no <em>do</em>-support. 퍼뜨리다</td>
+</tr>
+<tr>
+<td><strong>creature</strong> (S6) ⚠️</td>
+<td><strong>anything made</strong></td>
+<td><em>creatura</em> &lt; <em>creare</em>. ⚠️ No animal overtone in this register: <code>like other creatures</code> = <em>like everything else that was made</em>. 피조물</td>
+</tr>
+<tr>
+<td><strong>wiles</strong> (S7) ⚠️</td>
+<td>tricks, stratagems</td>
+<td>The idea of Lat. <em>versutus</em>, <strong>turned, twisted</strong> — ⚠️ <strong>the same picture as <code>tortuous</code></strong>. Cf. Eph. 6:11, <em>the wiles</em> (μεθοδεῖαι) <em>of the devil</em>. 궤계</td>
+</tr>
+<tr>
+<td><strong>consubstantial</strong> (S7) ⚠️⚠️⚠️</td>
+<td>of one and the same substance</td>
+<td><em>con-</em> + <em>substantia</em> &lt; <em>sub-stare</em>, <strong>to stand under</strong> — a calque of <strong>ὁμοούσιος</strong> (ὁμός same + οὐσία being). ⚠️ <strong>The crack:</strong> <em>substantia</em> is really the calque of <strong>ὑπόστασις</strong>, not of οὐσία — and that mismatch is <strong>the whole subject of §5</strong>. 동일본질의</td>
+</tr>
+<tr>
+<td><strong>disclose</strong> (S8) ⚠️</td>
+<td>to lay open</td>
+<td><em>dis-</em> + <em>claudere</em>, <strong>to un-shut</strong> → <em>close, clause, cloister, include, exclude, recluse</em>. ⚠️ The exact counter-move to <code>hiding-place</code>.</td>
+</tr>
+<tr>
+<td><strong>detestation</strong> (S8) ⚠️⚠️</td>
+<td>abhorrence sworn aloud</td>
+<td><em>de-testari</em>, <strong>to curse by calling the gods to witness</strong> (<em>testis</em>, a <strong>witness</strong>) → <em>testify, testament, protest, attest, contest</em>. ⚠️ Nothing to do with taste. <code>hatred</code> = the inward state; <code>detestation</code> = the <strong>public oath</strong> — which is why it counted as evidence. 혐오</td>
+</tr>
+<tr>
+<td><strong>viz.</strong> (S9, S14) ⚠️</td>
+<td><strong>namely</strong></td>
+<td><em>videlicet</em> = <em>videre licet</em>, "one may see." ⚠️ The <strong>z is not a letter</strong> — it is a medieval scribal contraction for <em>-et</em>. <strong>Read it aloud as "namely."</strong> 즉</td>
+</tr>
+<tr>
+<td><strong>sincere</strong> (S9)</td>
+<td>unmixed, pure</td>
+<td><em>sincerus</em>, clean, sound. ⚠️ The famous <em>sine cera</em> ("without wax") story is <strong>folk etymology</strong>. Sense: <strong>unmixed</strong> — same family as today's <em>pure</em>, <em>sound</em>, <em>simple</em>.</td>
+</tr>
+<tr>
+<td><strong>dare</strong> (S10) ⚠️⚠️⚠️</td>
+<td>modal: to presume, venture</td>
+<td>OE <em>durran</em>, a <strong>preterite-present</strong> verb — the class that gave us <em>can, shall, may, must, ought, need</em>. Hence: <strong>no <code>-s</code>, no <code>to</code>, no <code>do</code>-support</strong>. <code>Who dare charge…?</code>, <em>he dare not</em>, <em>I dare say</em>, <em>how dare you</em>. <strong>Today's #1 grammar trap.</strong> 감히 ~하다</td>
+</tr>
+<tr>
+<td><strong>charge X as Y</strong> (S10) ⚠️</td>
+<td>accuse X of being Y</td>
+<td>Late Lat. <em>carricare</em>, <strong>to load a wagon</strong> (<em>carrus</em>) → <em>cargo, car, carry, discharge, caricature</em> (an overloaded portrait). <strong>An accusation is a load laid on a man</strong> — sibling of yesterday's <em>impose</em>. ⚠️ Period preposition: modern English wants <em>charge X </em><em>with</em><em> being Y</em>.</td>
+</tr>
+<tr>
+<td><strong>quiet</strong> (S10) ⚠️</td>
+<td>tranquillity, peace — a <strong>NOUN</strong></td>
+<td><em>quies, quietis</em> → <em>requiem, quiescent, acquiesce, coy</em>. ⚠️ Not an adjective modifying <code>Church</code>.</td>
+</tr>
+<tr>
+<td><strong>contention</strong> (S10)</td>
+<td>wrangling</td>
+<td><em>con-</em> + <em>tendere</em>, <strong>to stretch</strong> → <em>tension, tendon, intend, pretend, contend, tent</em>.</td>
+</tr>
+<tr>
+<td><strong>distinguish</strong> (S11)</td>
+<td>to draw the line between</td>
+<td><em>dis-</em> + <em>stinguere</em>, <strong>to prick apart</strong> → <em>instinct, extinguish, distinct, sting</em>. ⚠️ The metaphor is a <strong>pin-prick that separates</strong> — exactly what a shibboleth does.</td>
+</tr>
+<tr>
+<td><strong>blasphemous</strong> (S11)</td>
+<td>impiously railing</td>
+<td>Usually derived from Gk <strong>βλάπτω</strong> (to injure) + <strong>φήμη</strong> (speech) = <strong>injuring speech</strong>; <em>blame</em> is the same word worn down through Old French. 신성모독의</td>
+</tr>
+<tr>
+<td><strong>nonentity</strong> (S12) ⚠️</td>
+<td>a non-being, a nothing</td>
+<td><em>non</em> + <em>entitas</em> &lt; <em>ens, entis</em> (<strong>being</strong>) &lt; <em>esse</em> → <em>entity, essence, absent, present, interest</em>. ⚠️ Note Calvin's hedge <code>**almost** nonentities</code> — Sabellius said the names were not <em>distinguishing</em>, not that they were meaningless. 무의미한 것</td>
+</tr>
+<tr>
+<td><strong>maintain</strong> (S12)</td>
+<td>to hold to, assert</td>
+<td><em>manu tenere</em>, <strong>to hold in the hand</strong> → <em>tenant, tenure, retain, sustain, tenacious, lieutenant</em>.</td>
+</tr>
+<tr>
+<td><strong>attribute</strong> (S12) ⚠️</td>
+<td>a quality assigned</td>
+<td><em>ad-</em> + <em>tribuere</em>, to allot (originally, to a <em>tribus</em>, a tribe) → <em>tribute, contribute, distribute, tribunal</em>. ⚠️ <strong>The Sabellian word.</strong> An attribute is a <strong>quality of one subject</strong> — which is precisely what a subsistence is not. 속성</td>
+</tr>
+<tr>
+<td><strong>debate</strong> (S13)</td>
+<td>to dispute</td>
+<td><em>de-</em> + <em>battuere</em>, <strong>to beat down</strong> → <em>battle, batter, abate, combat, debate</em>.</td>
+</tr>
+<tr>
+<td><strong>nothing more than if …</strong> (S13) ⚠️⚠️</td>
+<td>no more than would be the case if …</td>
+<td>⚠️ <strong>A whole clause is deleted after <code>than</code>:</strong> <em>nothing more than ⌜he would have said⌝ if he had called…</em> <strong>Rule: if <code>than</code> is followed by <code>if</code>, restore a clause between them.</strong></td>
+</tr>
+<tr>
+<td><strong>sing another note</strong> (S14) ⚠️</td>
+<td><strong>change one's tune</strong></td>
+<td><em>nota</em>, a mark, a written pitch. The idiom survives intact in modern English. ⚠️ <code>**sung**</code> for <em>sang</em> is period-normal strong-verb morphology, <strong>not</strong> a slip. 태도를 바꾸다</td>
+</tr>
+<tr>
+<td><strong>order</strong> (S14) ⚠️⚠️</td>
+<td>the <strong>fixed relation</strong> Father → Son → Spirit</td>
+<td><em>ordo</em>, a row, a rank (originally of threads in a <strong>loom</strong>) → <em>ordain, ordinary, coordinate, primordial</em>. ⚠️ The later Greek <strong>τάξις</strong>. Most readers skip it; <code>without order **or distinction**</code> is <strong>two</strong> denials, not one. 질서</td>
+</tr>
+<tr>
+<td><strong>doctors</strong> (S15) ⚠️</td>
+<td><strong>teachers</strong> — the church fathers</td>
+<td><em>docere</em>, to teach → <em>doctrine, document, docile, disciple</em>. ⚠️ Not physicians. 교부·교사</td>
+</tr>
+<tr>
+<td><strong>piety</strong> (S15) ⚠️</td>
+<td>dutiful reverence</td>
+<td><em>pietas</em>, the Roman virtue of <strong>rendering what is owed</strong> — to gods, parents, country. → <em>pious</em>, and <em>pity</em> (the same word split in meaning through French). ⚠️ Not modern sanctimony. 경건</td>
+</tr>
+<tr>
+<td><strong>subsistence / subsist</strong> (S15, S16) ⚠️⚠️</td>
+<td>a distinct standing-in-being</td>
+<td><em>sub-sistere</em>, <strong>to stand firm under</strong> → <em>consist, resist, insist, persist, assist</em> — all <em>sistere</em>, to make a stand. The Latin calque of <strong>ὑπόστασις</strong> (<em>hypo-</em> under + <em>stasis</em> standing), limb for limb. ⚠️ <strong>NOT</strong> "a livelihood." 위격·자존</td>
+</tr>
+<tr>
+<td><strong>truly</strong> (S15) ⚠️⚠️</td>
+<td><strong>in reality</strong>, not merely in name</td>
+<td>Lat. <em>vere</em>, against <em>nomine tenus</em>. ⚠️ Sabellius <strong>would</strong> acknowledge three names; what he denied is that they are <strong>really</strong> three subsistences. <strong>One adverb carries the whole anti-Sabellian point.</strong></td>
+</tr>
+<tr>
+<td><strong>craftiness</strong> (S16)</td>
+<td>cunning</td>
+<td>OE <em>cræft</em>, <strong>strength, skill</strong> (cf. Ger. <em>Kraft</em>) → skill turned sideways. Cf. Gk <strong>πανουργία</strong>, the serpent's (2 Cor. 11:3).</td>
+</tr>
+<tr>
+<td><strong>simple</strong> (S16) ⚠️⚠️⚠️</td>
+<td>unguarded, straightforward</td>
+<td><em>simplex</em>, <strong>one-fold</strong>. ⚠️ <strong>The third distinct sense in three days:</strong> §2 <code>simple essence</code> = <em>not composed of parts</em>; §3 <code>the simplicity of God's Word</code> = <em>plainness</em> (ἁπλότης); §4 <code>the simple open truth</code> = <em>straightforwardness</em>, the opposite of <em>tortuous</em>. <strong>Same word, three fields.</strong> 단순한·솔직한</td>
+</tr>
+<tr>
+<td><strong>Trinity</strong> (S16) ⚠️</td>
+<td>threefoldness</td>
+<td><em>trinitas</em> &lt; <em>trinus</em>, threefold — <strong>Tertullian's Latin coinage</strong> (c. AD 213). ⚠️ Note the irony that carries the section: <strong>the word is itself non-scriptural</strong>, which is exactly the objection §3–§5 exists to answer. 삼위일체</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>What §4 is, in the architecture.</strong> The chapter synopsis calls it <strong>Answer 2</strong>: <em>The orthodox compelled to use the terms, Trinity, Subsistence, and Person. Examples from the case of the Arians and Sabellians.</em> Four answers in all: §3 = the term is not foreign in any damning sense; <strong>§4 = the orthodox were compelled</strong>; §5 = the ancient Church varied in words but agreed in substance, and, the meaning being kept, terms are not worth a fight. ⚠️ <strong>Today proves necessity, not adequacy.</strong> Every over-reading of §4 comes from forgetting that §5 is coming.</p><p><strong>1. Arius, and why Calvin's account is historically right.</strong> Arius (c. 256–336), a presbyter of Alexandria; the quarrel with his bishop Alexander breaks out around 318–320. ⚠️ The crucial point for today: <strong>Arius used the biblical vocabulary and meant something else by it.</strong> In his letter to Eusebius of Nicomedia and in the <em>Thalia</em> he calls the Son <em>God</em>, <em>only-begotten</em>, <em>a perfect creature of God — but not as one of the creatures</em>. His slogan is <strong>ἦν ποτε ὅτε οὐκ ἦν</strong>, <em>there was when he was not</em> — which is exactly Calvin's <code>had a beginning</code> (S6). So S5–S6 is not caricature. Nicaea (325) answered not with a better proof-text but with <strong>ὁμοούσιος</strong> plus a set of anathemas that shut the verbal exits one by one (<em>from another hypostasis or ousia</em>; <em>there was when he was not</em>; <em>created</em>; <em>changeable</em>).</p><p>⚠️⚠️ <strong>And Calvin's argument has an ancient source, which is worth knowing.</strong> Athanasius, <em>De Decretis</em> 19–20, tells exactly this story: the council first tried purely <strong>scriptural</strong> formulas — <em>of God</em>, <em>true power</em>, <em>image of the Father</em>, <em>unalterable</em> — and at every one of them the Eusebians <strong>nodded and winked at one another</strong>, because each phrase could be twisted. Only then did the fathers reach for the non-scriptural word. <strong>§4 is Athanasius' argument, in French-Latin dress, applied to 1559.</strong> If you want one paragraph of patristics behind today's section, that is it.</p><p><strong>2. Sabellius, and why he is the mirror image.</strong> Sabellius (fl. c. 215–220 at Rome), condemned under Callistus around 220. The position — <strong>modalist monarchianism</strong> — holds that Father, Son and Spirit are <em>modes</em> or <em>faces</em> (πρόσωπα) of one single subject, successive or aspectual rather than really distinct. Tertullian's <em>Adversus Praxean</em> gives the Latin West's version and coins the jibe that such a view makes <strong>the Father suffer</strong> (<em>patripassianism</em>). ⚠️ Calvin's summary — the names as <code>different attributes of God, like many others of a similar kind</code>, on a level with <em>powerful, just, wise</em> (S13) — is precisely the reduction of <strong>persons to predicates</strong>, and it is why the answer must be a word for <em>real standing in being</em>: <strong>subsistence / ὑπόστασις</strong>.</p><p>⚠️⚠️ <strong>Now the symmetry, which is the thing to carry away:</strong></p><pre><code>                  KEEPS                LOSES              REMEDY
+ARIUS       the distinction      the unity of essence   CONSUBSTANTIAL   (ὁμοούσιος)
+SABELLIUS   the unity            the distinction        THREE SUBSISTENCES (ὑποστάσεις)
+                                                        └ and S16 welds both:
+                                                          "a Trinity of Persons … in the one God"
+</code></pre><p><strong>3. One honest caveat about the chronology — Calvin is telescoping.</strong> ⚠️⚠️ The settled formula <strong>μία οὐσία, τρεῖς ὑποστάσεις</strong> (one essence, three subsistences) is <strong>Cappadocian</strong> — Basil and the two Gregories, 360s–380s, ratified at Constantinople in 381. That is roughly <strong>150 years after Sabellius</strong>, and at Nicaea itself <em>ousia</em> and <em>hypostasis</em> were still being used as near-synonyms (the anathema condemns those who say the Son is <em>from another hypostasis or ousia</em>). So <code>The worthy doctors who then had the interests of piety at heart</code> (S15) is not a datable body of men responding to Sabellius in the 220s. <strong>Calvin is giving the logic of the case, not a chronicle.</strong> Say so if asked; it costs him nothing, because his claim is about <strong>why</strong> such terms arise, not about the minutes of a particular synod.</p><p><strong>4. <code>We of the present day</code> — the sentence with a Geneva address.</strong> S2 is not throat-clearing. Behind it: <strong>Michael Servetus</strong>, whose <em>De Trinitatis Erroribus</em> (1531) argued that the whole vocabulary was a philosophical importation, burned at Geneva in 1553; and the Italian radicals who passed through Geneva in the 1550s — <strong>Matteo Gribaldi</strong>, <strong>Giorgio Blandrata</strong>, and <strong>Valentino Gentile</strong>. ⚠️ Gentile ran the Arian play exactly: he confessed the Son to be God while reserving true self-existent deity (<em>autotheos</em>) to the Father alone. <strong>In 1558 Calvin drafted a confession expressly to close Gentile's escape routes and required him to subscribe it.</strong> So when Calvin writes <code>we of the present day have too much experience</code>, he is describing something he did <strong>the year before</strong>. §4 is autobiography wearing a fourth-century coat.</p><p><strong>5. The idea's afterlife, and its proper name.</strong> The claim that doctrinal language is <strong>reactive</strong> — that creeds are forced into existence by evasion and are therefore mostly <strong>negative</strong>, fencing off errors rather than exhausting a mystery — is one of the durable ideas in Christian thought. Newman's <em>The Arians of the Fourth Century</em> (1833) makes essentially this argument at length, from the other side of the Reformation. ⚠️ And its practical form is the <strong>shibboleth</strong>: a term whose value lies not in what it adds but in <strong>who will not say it</strong>. That is a tool with obvious dangers — it works only where the term genuinely adds nothing to what is already professed, which is exactly the condition §3 laboured to establish and which S9's inference silently depends on.</p><p><strong>Over-reading guard-rail.</strong> ⚠️ Five limits, and they matter more here than usual because §4 is the section people quote.
+<strong>(a)</strong> §4 proves <strong>necessity</strong>, not <strong>adequacy</strong>. Tomorrow Calvin writes <code>**I wish, indeed, that such names were buried**, provided all would concur in the belief…</code>. Hold today's conclusion loosely enough to survive that.
+<strong>(b)</strong> <code>took a further step</code> (S7) is a step in <strong>language</strong>, not in <strong>doctrine</strong>. For Calvin the doctrine stands in Scripture from the first; the word is a guard placed around it. Quoting S7 as a doctrine-of-development text is exactly the misuse that §3's four locks were built to prevent.
+<strong>(c)</strong> §4 does <strong>not</strong> license coining terms at will. It licenses coining <strong>under attack</strong>, to close a specific evasion — which is why both halves of the section are <strong>case histories</strong> rather than principles.
+<strong>(d)</strong> The chronology is <strong>telescoped</strong> (see 3 above). Do not defend §4 as history of the councils; defend it as an account of why councils talk the way they do.
+<strong>(e)</strong> S9's inference — <em>they refused the word, therefore the confession was insincere</em> — is <strong>valid only where the word adds nothing</strong>. Generalised into "anyone who declines our formula is dishonest," it becomes a machine for manufacturing heretics. ⚠️ <strong>Calvin himself is the proof that he knew this</strong>: in 1537 Pierre Caroli demanded he subscribe the Athanasian Creed on the spot, and Calvin <strong>refused</strong> — while holding the doctrine entire.</p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li>
+<p><strong>Judges 12:5–6 — the shibboleth, behind S8 and S11, unquoted.</strong> <em>Then said they unto him, Say now Shibboleth: and he said Sibboleth: for he could not frame to pronounce it right.</em> Hebrew <strong>שִׁבֹּלֶת / סִבֹּלֶת</strong>. ⚠️ <strong>How Calvin uses it:</strong> he never cites it, but S8 and S11 are its logic exactly — <code>That little word distinguished between Christians of pure faith and the blasphemous Arians</code> is a shibboleth described without being named. One word, an enemy who cannot say it, a border. <strong>The term is diagnostic, not definitional</strong> — it adds no content and identifies everything.</p>
+</li>
+<li>
+<p><strong>Genesis 3:1 (and 2 Cor. 11:3) — the serpent, behind S3.</strong> <em>Now the serpent was more </em><em>subtil</em><em> (LXX </em><em>φρονιμώτατος</em><em>) than any beast of the field.</em> ⚠️ Calvin's <code>slippery snakes … swift and tortuous windings</code> is the serpent's <em>subtilty</em> converted into a hunting scene, and 2 Cor. 11:3 — the serpent's <strong>πανουργία</strong> (craftiness) corrupting minds <em>from the simplicity that is in Christ</em> — was already in the room <strong>yesterday</strong>, behind §3 S5's <code>the simplicity of God's Word</code>. ⚠️ <strong>Two days, one serpent, and today Calvin closes the loop by opposing <code>tortuous craftiness</code> to <code>the simple open truth</code> (S16).</strong> The Pauline pair <em>craftiness / simplicity</em> is the frame of the whole section.</p>
+</li>
+<li>
+<p><strong>Jude 4 and 2 Peter 2:1 — stealth, behind S4 and S7.</strong> <em>For there are certain men </em><em>crept in unawares</em><strong> (</strong>παρεισέδυσαν<strong>, <em>slipped in alongside</em>); *who privily shall </strong>bring in<strong> damnable heresies* (</strong>παρεισάξουσιν<strong>). ⚠️ Both Greek verbs carry the <em>para-eis-</em> prefix of </strong>sideways entry<strong>. Calvin's <code>indirect subterfuges</code>, <code>hiding-place</code> and <code>lurking-places</code> are not his own colour: </strong>the vocabulary of stealth is apostolic**, and he is writing inside it.</p>
+</li>
+<li>
+<p><strong>John 1:1–3 — behind S6 and S7, and it is the grammar that matters.</strong> <em>In the beginning </em><em>was</em><em> (</em><em>ἦν</em><em>) the Word … All things </em><em>were made</em><em> (</em><em>ἐγένετο</em><em>) by him.</em> ⚠️ The contrast of <strong>ἦν</strong> (imperfect, continuous being) against <strong>ἐγένετο</strong> (aorist, coming-to-be) is the exact hinge of the Nicene case — and <strong>Arius' slogan attacks that ἦν directly</strong>: <em>ἦν ποτε ὅτε οὐκ ἦν</em>, <strong>there was when he was not</strong>. So S6's <code>Christ was created, and had a beginning like other creatures</code> is Arius quoting himself, and S7's <code>the **eternal** Son of the Father</code> is John 1:1's imperfect turned into an adjective. <strong>The whole fight is over one Greek tense.</strong></p>
+</li>
+<li>
+<p><strong>Hebrews 1:3 — carried over from §2, and now cashed.</strong> <em>the express image of his </em><em>person</em><strong> (</strong>χαρακτὴρ τῆς ὑποστάσεως αὐτοῦ<strong>). ⚠️ Day 76 spent a whole lesson on that genitive; today it pays. S7's <code>consubstantial</code> and S15's <code>three subsistence[s]</code> are the </strong>Nicene and Cappadocian cash-value<strong> of what Calvin read out of Hebrews two days ago — <em>hypostasis</em> is literally the word in the verse. </strong>Calvin builds his vocabulary before he needs it. Watch him do this; it is a habit, not an accident.**</p>
+</li>
+<li>
+<p><strong>Deuteronomy 6:4 with James 2:19 — the shape of S13's evasion, an echo rather than a quotation.</strong> <em>Hear, O Israel: the LORD our God is one LORD</em>; <em>Thou believest that there is one God; thou doest well: the devils also believe, and tremble.</em> ⚠️ Sabellius' confession is impeccably monotheistic, and that is the problem. <strong>Assent that costs nothing proves nothing</strong> — the same structure James uses, though Calvin does not cite it here. Flag it as an <strong>echo</strong>, not a quotation, if you use it.</p>
+</li>
+<li>
+<p><strong>1 Timothy 1:10 and 2 Timothy 2:17 — the medicine behind S2's <code>sound doctrine</code>.</strong> <em>…if there be any other thing that is contrary to </em><em>sound doctrine</em><strong> (</strong>ὑγιαινούσῃ διδασκαλίᾳ<strong>); <em>their word will eat as doth a **canker</em></strong> (<strong>γάγγραινα</strong>). ⚠️ <code>sound</code> is <strong>healthy</strong>, and its opposite in the Pastorals is <strong>gangrene</strong>. Calvin has taken over a <strong>medical</strong> picture of heresy, which is why the answer is described as something done <strong>to a body under attack</strong> rather than as an intellectual improvement. Set it beside 2 Tim. 2:14's <strong>μὴ λογομαχεῖν</strong> (<em>strive not about words</em>) — which was yesterday's objection — and you can see Calvin holding both Pauline commands at once: <strong>do not fight about words; do fight for a healthy body.</strong></p>
+</li>
+</ol><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems (출제자의 눈)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① Grammar — which underlined part is wrong?</h3><blockquote>
+<p>ⓐ Such novelty (if novelty <strong>it should be called</strong>) becomes most requisite, when the truth is to be maintained against calumniators who evade it by quibbling.
+ⓑ These slippery snakes escape by their swift and tortuous windings, <strong>if not strenuously pursued</strong>, and when caught, firmly held.
+ⓒ <strong>Had</strong> their first confession—viz. that Christ was God, been sincere and from the heart, they <strong>would not have denied</strong> that he was consubstantial with the Father.
+ⓓ Who <strong>dares charge</strong> those ancient writers as men of strife and contention, for having debated so warmly?</p>
+</blockquote><p><strong>Answer: ⓓ.</strong></p><p><strong>출제 의도.</strong> <code>dare</code> in this construction is a <strong>modal auxiliary</strong>, not a lexical verb, and the two paradigms cannot be mixed. Beveridge prints <code>Who **dare** charge…?</code> — <strong>no <code>-s</code>, bare infinitive, no <code>do</code>-support</strong>, exactly like <em>he dare not speak</em>, <em>I dare say</em>, <em>how dare you</em>. ⓓ takes the modal's <strong>bare infinitive complement</strong> (<code>charge</code>) and bolts the <strong>lexical verb's <code>-s</code></strong> onto <code>dare</code>. That is ungrammatical on either analysis. ⚠️ Note the near-miss that is <strong>not</strong> the answer: <em>Who </em><em>dares to</em><em> charge…?</em> is perfectly good modern English — the lexical construction, consistently used — merely not what is printed. <strong>The <code>-s</code> with a bare infinitive is always the error.</strong> Now check why the others stand, because each is a separate formula. <strong>ⓐ</strong> is Formula 1: <code>novelty</code> is the <strong>fronted object</strong> of <code>called</code> and <code>it</code> is the subject, so <code>should be called</code> (passive) is right — <em>should call</em> would need an agent and leave <code>novelty</code> stranded; and the <code>should</code> is <strong>putative</strong>, so <em>must be called</em> would misreport a doubt as an obligation. <strong>ⓑ</strong> is Formula 2: <strong>subject + <code>be</code> deletion</strong> in a conditional (<code>if ⌀they are⌀ not strenuously pursued</code>), which is standard and requires no repair — ⚠️ the bait here is that you may <em>feel</em> the missing negative in the following arm and blame this one. <strong>ⓒ</strong> is Formula 3: <strong>inversion for <code>if</code></strong> with <code>had</code>, and the apodosis <code>would not have denied</code> in the past-unreal — ⚠️ the bait is that <code>Had …?</code> looks interrogative; the <code>would have</code> clause proves it is not, and <em>Would their first confession have been…</em> would genuinely turn it into a question.</p><h3>② Comprehension — which statement is TRUE according to the passage?</h3><blockquote>
+<p>ⓐ Arius denied that Christ was God, and the ancient Church answered by proving his deity from the plain passages of Scripture.
+ⓑ Sabellius denied that the Father, the Son, and the Spirit are each God, and was answered by the term <em>consubstantial</em>.
+ⓒ Both Arius and Sabellius professed what Scripture says while emptying it by a reserved explanation, and the ancient Church therefore coined exact terms to close the evasions their professions left open.
+ⓓ Calvin holds that the ancient writers may fairly be blamed for disturbing the peace of the Church over a single word.</p>
+</blockquote><p><strong>Answer: ⓒ.</strong> (S5 <code>Arius **confessed** that Christ was God, and the Son of God</code> + S6 <code>he ceased not to give out that Christ was created</code>; S13 <code>he **acknowledged his belief** that the Father was God, the Son God, the Spirit God; but then he had the **evasion ready**</code>; S4 <code>**forced** to declare their sentiments in terms most scrupulously exact **in order that no indirect subterfuges might remain**</code>.)</p><p><strong>출제 의도.</strong> Four options, four distinct failure modes. Name each.
+- <strong>ⓐ is a direction-flip on the section's key fact, and it is the one that catches nearly everyone</strong> — because your church-history memory supplies it. ⚠️⚠️⚠️ S5 says Arius <strong>confessed</strong> that Christ was God, and S5 even tells you <em>why</em>: <code>the passages of Scripture to this effect were **too clear to be resisted**</code>. The plain passages <strong>could not</strong> settle it; that is the premise of the whole section. An option that has Scripture doing the work §4 exists to say Scripture could not do by itself has inverted Calvin completely. <strong>And note the lexical hinge: <code>confessed</code> = professed, not "admitted."</strong>
+- <strong>ⓑ swaps the two remedies, and it also misstates Sabellius.</strong> He did <strong>not</strong> deny that each is God — S13: <code>he acknowledged his belief that the Father was God, the Son God, the Spirit God</code>. He denied that the names mark <strong>distinctions</strong>. And <code>consubstantial</code> (S7) is the <strong>anti-Arian</strong> word; Sabellius is met with <code>three subsistence[s] … in the one God</code> (S15). ⚠️ <strong>Opposite errors, opposite remedies</strong> — the commonest structural trap here.
+- <strong>ⓒ is true</strong>, and note it is true <strong>only with the second clause</strong>. A version reading <em>"both professed what Scripture says, and the Church coined exact terms"</em> without <code>to close the evasions</code> would drop the <strong>necessity</strong>, which is the entire content of §4.
+- <strong>ⓓ is a valence-flip on a rhetorical question.</strong> S10 <code>**Who dare charge** those ancient writers as men of strife and contention…?</code> expects the answer <strong>nobody</strong>, and S11 gives the ground: <code>That little word distinguished between Christians of pure faith and the blasphemous Arians.</code> ⚠️ <strong>Rhetorical questions are propositions with the polarity reversed.</strong> Convert before you answer.</p><h3>③ Composition — apply Formulas 1, 2 and 3</h3><p>Render into Beveridge-style English, using <strong>all three</strong> of today's formulas:</p><blockquote>
+<p>"그러한 엄밀함은 — 그것을 엄밀함이라 불러야 한다면 — 진리가 궤변으로 그것을 빠져나가는 자들을 상대로 지켜져야 할 때 가장 필요하다. 이 미끄러운 자들은, 끈질기게 추격당하지 않으면, 또 붙잡혔을 때 단단히 붙들리지 않으면, 빠져나간다. 만일 그들의 고백이 — 곧 그리스도께서 하나님이시라는 그 고백이 — 진심에서 나온 것이었다면, 그들은 그 한 단어를 미워하지 않았을 것이다."</p>
+</blockquote><p><strong>Model answer:</strong></p><blockquote>
+<p><strong>Such exactness (if exactness it should be called) becomes most requisite, when the truth is to be maintained against triflers who evade it by quibbling. These slippery men escape, if not strenuously pursued, and when caught, firmly held. Had their confession—viz. that Christ is God, been sincere and from the heart, they would not have hated that single word.</strong></p>
+</blockquote><p><strong>출제 의도 및 채점 기준.</strong> Six things are being checked.
+1. <strong>Formula 1 — object-fronting + putative <code>should</code>.</strong> <code>**if exactness it should be called**</code>, not <em>if it should be called exactness</em> (grammatical, but the fronting is the point) and not <em>if exactness should be called it</em> (nonsense). ⚠️ <code>should</code>, not <em>must</em> — the clause is a <strong>doubt</strong>, not a duty.
+2. <strong>Formula 2 — reduced clauses with a carried-over negative.</strong> <code>**if not strenuously pursued, and when caught, firmly held**</code>. ⚠️ Three requirements: subject + <code>be</code> deleted in <strong>both</strong> reduced clauses; the <code>not</code> stated <strong>once</strong>; <code>when caught</code> <strong>nested inside</strong> the second condition. Writing <em>and if not firmly held when caught</em> is correct English and forfeits the point — the exercise is the compression.
+3. <strong>Formula 3 — inverted counterfactual.</strong> <code>**Had** their confession … **been** sincere …, they **would not have** hated</code>. ⚠️ No <code>if</code>. <code>Had</code>, not <em>Did</em>, not <em>Would</em>. The apodosis must be <code>would (not) have</code> + past participle; a plain <code>would not hate</code> shifts it to present-unreal and breaks the argument.
+4. <strong>The interrupter in Beveridge's position.</strong> <code>Had their confession**—viz. that Christ is God,** been sincere…</code> — dash in, <strong>comma out</strong>, sitting <strong>between subject and participle</strong>. ⚠️ Placing it after <code>been sincere</code> is easier and wrong; the exercise is precisely the hard placement.
+5. <strong>Vocabulary control.</strong> <code>requisite</code>, <code>is to be maintained</code>, <code>evade … by quibbling</code>, <code>strenuously pursued</code>, <code>firmly held</code>, <code>from the heart</code>, <code>viz.</code> ⚠️ <em>Confession</em> must be used in the <strong>profession</strong> sense, not the admission-of-fault sense.
+6. <strong>Argumentative accuracy — the heaviest criterion.</strong> The inference must run <strong>from the refusal of the word back to the insincerity of the confession</strong> (S9), not forward from insincerity to refusal. ⚠️ Reverse the arrow and you have written a <strong>circular</strong> argument and lost the only thing §4 was for.</p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> Paying the debt he booked yesterday, Calvin proves the <strong>necessity</strong> of non-scriptural terms not by argument but by <strong>two case histories in which the heretic says every biblical sentence and means something else</strong>: exactness <code>becomes most requisite, when the truth is to be maintained against calumniators who evade it by quibbling</code> (S1) — and these are <code>slippery snakes</code> who get away unless pursued <strong>and</strong> gripped (S3), for whom <code>ambiguity of expression was a kind of hiding-place</code> (S4); so <strong>Arius <code>confessed that Christ was God, and the Son of God</code></strong> because the texts were <code>too clear to be resisted</code> (S5) while <code>meanwhile</code> giving out that he <code>was created, and had a beginning</code> (S6), until the Church added <code>**consubstantial**</code> (S7) and his <code>hatred and utter detestation</code> of that one word <code>fully disclosed</code> the impiety (S8) — for <code>**Had** their first confession … **been** sincere …, they **would not have denied**</code> it (S9), which is why nobody <code>dare charge those ancient writers as men of strife</code> when <code>that little word distinguished between Christians of pure faith and the blasphemous Arians</code> (S10–S11); and then <strong>Sabellius</strong>, failing in the <strong>opposite</strong> direction, made the names <code>almost nonentities</code>, mere <code>attributes … like many others of a similar kind</code> (S12), professed <code>the Father was God, the Son God, the Spirit God</code> with <code>the evasion ready</code> that this was <code>nothing more than if he had called God powerful, and just, and wise</code> (S13), and so <code>sung another note</code> — <code>the Father was the Son … without order or distinction</code> (S14) — until the doctors proclaimed <code>three subsistence[s] … **truly** acknowledged in the one God</code> (S15) and, <code>by the simple open truth</code>, <code>a Trinity of Persons subsisted in the one God, or (which is the same thing) in the unity of God</code> (S16). <strong>Opposite errors, opposite words, one method: take away the hiding-place.</strong></p><p><strong>And the three grammar points, once more.</strong> ① <strong>Object-fronting + the putative <code>should</code></strong> — <code>if novelty it should be called</code> (S1): put the fronted noun back after the verb, remember <code>it</code> is the subject, and read <code>should</code> as <em>entertained</em>, not <em>obligatory</em>. ② <strong>Reduced adverbial clauses with a carried-over negative</strong> — <code>if not strenuously pursued, and when caught, firmly held</code> (S3): restore <strong>subject + <code>be</code></strong> in both, carry the <strong><code>not</code></strong> into the second arm, and check the <strong>nesting</strong>. ③ <strong>The inverted counterfactual with an interrupter</strong> — <code>Had their first confession—viz. that Christ was God, been sincere…, they would not have denied…</code> (S9): only <code>had</code>, <code>were</code> and <code>should</code> invert for <code>if</code>; bracket the interrupter (dash in, <strong>comma</strong> out) before you parse; and learn the <strong>modus tollens</strong> the sentence carries, along with the limit that makes it valid. Plus three things to keep: the <strong>modal <code>dare</code></strong> (<code>Who dare charge…?</code> — no <code>-s</code>, no <code>to</code>, no <code>do</code>), the <strong>rhetorical question as a polarity-flipped proposition</strong> (S10, answer = <em>nobody</em>), and <strong><code>nothing more than if …</code></strong>, where a whole clause has been deleted after <code>than</code>.</p><p><strong>Homework (10 minutes).</strong></p><ol>
+<li><strong>Structure restoration.</strong> Take <strong>S3</strong> and write it out with <strong>every</strong> deletion filled in — both subjects, both <code>be</code>s, and the second negative — and lay it out on three lines so the nesting is visible. Then say aloud what the two stages of the hunt are, and why Calvin needs both. (Target: <em>These slippery snakes escape by their swift and tortuous windings, </em><em>if they are not</em><em> strenuously pursued, </em><em>and if, when they are caught, they are not</em><em> firmly held.</em> Two stages: <strong>pursue</strong>, then <strong>grip</strong> — argument, then <strong>term</strong>.)</li>
+<li><strong>Composition.</strong> One sentence, English, containing (a) an <strong>inverted counterfactual</strong> with an <strong>interrupter between the subject and its participle</strong>, and (b) a <strong>putative <code>should</code></strong> somewhere in it. <em>If their profession — namely, that the Spirit is God — had been honest, they would not have objected to the word; supposing "word" is even the right name for it.</em> (Target shape: <strong>Had their profession—viz. that the Spirit is God, been made from the heart, they would not have cavilled at the term; if a term it should be called.</strong>)</li>
+<li><strong>Preview — §5, one line.</strong> Tomorrow the argument turns <strong>documentary</strong>, and it opens with a warning aimed at <em>us</em>: <code>**Where names have not been invented rashly, we must beware lest we become chargeable with arrogance and rashness in rejecting them.**</code> ⚠️ Watch four things. <strong>(i)</strong> <code>**lest** we become</code> — the <code>lest</code> + <strong>subjunctive</strong> of apprehension, and <code>chargeable **with**</code> where today gave you <code>charge … **as**</code>. <strong>(ii)</strong> The bare past subjunctive again — <code>**I wish, indeed, that such names were buried**, provided all would concur in the belief that the Father, Son, and Spirit, are one God</code> — <strong>fourth appearance in four days</strong>, and ⚠️⚠️ read that sentence twice, because the man who has just spent a section proving the words <strong>necessary</strong> now says he wishes them <strong>buried</strong>. <strong>That is not a contradiction; it is the difference between <em>serviceable</em> and <em>sacred</em>, and it is Calvin's real position.</strong> <strong>(iii)</strong> The <code>substantia</code> crack you were told to mark in S7 splits wide open: Jerome calls three <em>substantiae</em> in God <strong>profane</strong>; Hilary affirms them <code>more than a hundred times</code>; both are orthodox. <strong>(iv)</strong> New names on the board — Hilary, Jerome (<em>Letter to Damasus</em>), Augustine (<em>De Trinitate</em> 5.8–9), Socrates' <em>Tripartite History</em> — and Calvin's verdict that the ancient writers <code>neither agreed with each other, nor were always consistent with themselves</code>. <strong>Today he showed you why the words were forced. Tomorrow he shows you how little he thinks they are worth.</strong></li>
+</ol><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 13, §4 끝. 다음은 Book 1, Ch. 13, §5 — "Answer continued, 3. The ancient Church, though differing somewhat in the explanation of these terms, agree in substance. Proofs from Hilary, Jerome, Augustine, in their use of the words Essence, Substance, Hypostasis. 4. Provided the orthodox meaning is retained, there should be no dispute about mere terms."</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>

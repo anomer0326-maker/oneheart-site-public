@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기독교 강요 영어로 읽기 — 삼위일체 하나님 §12 (1권 13장 · Day 86) | 칼빈 원문 문장분석·신학 영어공부 | 한마음침례교회</title>
+<style>
+:root{
+  --bg:#f4eee1; --surface:#fffdf8; --surface2:#fbf6ea;
+  --ink:#2c2720; --muted:#7a7164; --rule:#e6dcc8;
+  --quote:#fbf5e6; --quote-bar:#c9a14a;
+  --s3:#9b2c2c; --s2:#bf8a2c; --s1:#9b9384;
+  --link:#1f6f6f; --accent:#9b2c2c; --flash:#fff3b0; --cl:#1f6f6f; --md:#8a6d2c;
+  --shadow:0 1px 3px rgba(60,45,20,.08),0 6px 24px rgba(60,45,20,.06);
+  --serif:"Iowan Old Style","Palatino Linotype","Noto Serif",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --fs:18px;
+}
+html[data-theme="dark"]{
+  --bg:#181612; --surface:#221f19; --surface2:#2a261d;
+  --ink:#e9e2d4; --muted:#a59b89; --rule:#3a352b;
+  --quote:#2a2619; --quote-bar:#b08a3a;
+  --s3:#e07a6a; --s2:#e0b257; --s1:#a89e8c;
+  --link:#5fc2c2; --accent:#e07a6a; --flash:#5a4d1f; --cl:#5fc2c2; --md:#c9a46a;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:var(--fs);line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+/* progress bar */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .1s}
+/* top bar */
+header.bar{position:sticky;top:0;z-index:50;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.6rem;padding:.5rem .9rem}
+.bar .menu{display:none;background:none;border:0;font-size:1.4rem;color:var(--ink);cursor:pointer}
+.bar .ttl{font-weight:700;font-size:.98rem;line-height:1.2;flex:1;min-width:0}
+.bar .ttl small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.bar .tools{display:flex;gap:.3rem}
+.bar button.tool{background:var(--surface2);border:1px solid var(--rule);color:var(--ink);
+  border-radius:8px;width:34px;height:34px;font-size:.95rem;cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.bar button.tool.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* layout */
+.wrap{display:flex;max-width:1180px;margin:0 auto;gap:1.4rem;padding:0 1rem}
+nav.toc{position:sticky;top:60px;align-self:flex-start;width:230px;flex:none;
+  max-height:calc(100vh - 72px);overflow:auto;padding:1rem .2rem 3rem;font-size:.82rem}
+nav.toc .toc-link{display:flex;gap:.5rem;align-items:baseline;text-decoration:none;color:var(--ink);
+  padding:.32rem .4rem;border-radius:7px}
+nav.toc .toc-link:hover,nav.toc .toc-link.active{background:var(--surface2)}
+nav.toc .toc-num{display:inline-flex;width:20px;height:20px;flex:none;align-items:center;justify-content:center;
+  background:var(--accent);color:#fff;border-radius:50%;font-size:.66rem;font-weight:700}
+nav.toc .toc-link.active .toc-num{box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav.toc .toc-subs{display:flex;flex-wrap:wrap;gap:.22rem;margin:.1rem 0 .5rem 1.7rem}
+nav.toc .toc-s{font-size:.66rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);
+  border-radius:5px;padding:.02rem .28rem}
+nav.toc .toc-s.lvl3{color:var(--s3);border-color:var(--s3)}
+nav.toc .toc-s.lvl2{color:var(--s2);border-color:var(--s2)}
+main{flex:1;min-width:0;padding:1.2rem 0 6rem}
+/* lesson header */
+.lesson-h{margin:.4rem 0 1.6rem;padding:1.4rem 1.5rem;background:var(--surface);
+  border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow)}
+.lesson-h .ref{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:.18rem .6rem;border-radius:999px;margin-bottom:.6rem}
+.lesson-h h1{font-family:var(--serif);font-size:1.7rem;line-height:1.25;margin:.2rem 0}
+.lesson-h .sub{color:var(--muted);font-size:.9rem}
+/* period cards */
+section.period{background:var(--surface);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:var(--shadow);margin:0 0 1.1rem;overflow:hidden;scroll-margin-top:64px}
+.period-head{display:flex;align-items:center;gap:.7rem;margin:0;padding:1rem 1.3rem;cursor:pointer;
+  font-size:1.12rem;font-family:var(--sans);user-select:none}
+.period-head .p-num{display:inline-flex;width:30px;height:30px;flex:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));
+  color:#fff;border-radius:9px;font-weight:800;font-size:.95rem}
+.period-head .p-title{flex:1}
+.period-head .p-caret{color:var(--muted);font-size:1.1rem;transition:transform .2s}
+section.period.collapsed .period-body{display:none}
+section.period.collapsed .p-caret{transform:rotate(0);content:"+"}
+.period-body{padding:.2rem 1.5rem 1.4rem;border-top:1px solid var(--rule)}
+/* generic content */
+.period-body p{margin:.7rem 0}
+.period-body h3{font-size:1.02rem;margin:1.3rem 0 .4rem}
+.period-body ul,.period-body ol{margin:.6rem 0;padding-left:1.3rem}
+.period-body li{margin:.3rem 0}
+.period-body code{background:var(--surface2);padding:.06em .35em;border-radius:5px;font-size:.86em}
+.period-body pre{background:var(--surface2);border:1px solid var(--rule);border-radius:11px;
+  padding:1rem 1.1rem;overflow-x:auto;font-size:.95em;line-height:1.75;
+  -webkit-overflow-scrolling:touch;box-shadow:inset 0 1px 0 rgba(0,0,0,.02)}
+.period-body pre code{white-space:pre;font-size:inherit}
+.period-body pre code{background:none;padding:0}
+/* blockquotes (Calvin's words) */
+blockquote{font-family:var(--serif);background:var(--quote);border-left:4px solid var(--quote-bar);
+  margin:1rem 0;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;font-size:1.02em;line-height:1.7;color:var(--ink)}
+blockquote.fulltext{font-size:1.08em}
+blockquote.s-quote{cursor:pointer}
+blockquote.s-quote:hover{background:color-mix(in srgb,var(--quote) 80%,var(--accent) 10%)}
+/* full-text <-> sentence cross link */
+.ft-sent{cursor:pointer;border-radius:3px;transition:background .15s;padding:.02em 0}
+.ft-sent:hover{background:color-mix(in srgb,var(--quote-bar) 30%,transparent)}
+.flash{animation:flash 1.4s ease}
+@keyframes flash{0%{background:var(--flash)}100%{background:transparent}}
+/* tables (vocabulary) */
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.9rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+thead th{background:var(--surface2);position:sticky;top:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--surface2) 55%,transparent)}
+/* sentence cards */
+.scard{border:1px solid var(--rule);border-radius:12px;margin:.7rem 0;overflow:hidden;
+  border-left-width:4px}
+.scard.lvl3{border-left-color:var(--s3)}
+.scard.lvl2{border-left-color:var(--s2)}
+.scard.lvl1{border-left-color:var(--s1)}
+.scard-head{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;cursor:pointer;
+  background:var(--surface2);user-select:none}
+.scard-head .s-tag{font-weight:800;font-size:.82rem}
+.scard.lvl3 .s-tag{color:var(--s3)}.scard.lvl2 .s-tag{color:var(--s2)}.scard.lvl1 .s-tag{color:var(--s1)}
+.stars{letter-spacing:1px;font-size:.78rem}
+.stars.s3{color:var(--s3)}.stars.s2{color:var(--s2)}.stars.s1{color:var(--s1)}
+.s-label{flex:1;font-size:.86rem;color:var(--muted)}
+.s-caret{color:var(--muted);transition:transform .2s}
+.scard.open .s-caret{transform:rotate(90deg)}
+.scard-body{display:none;padding:.3rem 1rem 1rem;border-top:1px solid var(--rule)}
+.scard.open .scard-body{display:block}
+/* syntax tool */
+.syntax-tool{margin:.7rem 0}
+.syntax-toggle{background:var(--surface2);border:1px dashed var(--quote-bar);color:var(--ink);
+  border-radius:9px;padding:.4rem .8rem;cursor:pointer;font-size:.82rem;font-weight:600}
+.syntax-tool.open .syntax-toggle{background:var(--accent);color:#fff;border-style:solid;border-color:var(--accent)}
+.syntax-body{display:none;margin-top:.5rem;padding:.85rem 1rem;background:var(--surface2);
+  border:1px solid var(--rule);border-radius:11px}
+.syntax-tool.open .syntax-body{display:block}
+.chunk-line{font-family:var(--serif);line-height:2.1;font-size:1.02em}
+.chunk-line .slash{color:var(--accent);font-weight:800;margin:0 .15em}
+.chunk-line .g-paren{color:var(--muted);background:color-mix(in srgb,var(--s1) 16%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.chunk-line .g-brack{background:color-mix(in srgb,var(--quote-bar) 22%,transparent);
+  border-radius:5px;padding:.04em .12em}
+.syntax-legend{margin-top:.7rem;font-size:.74rem;color:var(--muted);font-family:var(--sans)}
+.syntax-legend .slash{color:var(--accent);font-weight:800}
+/* syntax tree */
+.tree{font-family:var(--serif);margin:.2rem 0 .3rem}
+.tree .rootnode{display:inline-block;background:var(--accent);color:#fff;font-weight:600;
+  font-size:.78rem;padding:.1rem .6rem;border-radius:7px;margin-bottom:.3rem;font-family:var(--sans)}
+.tree ul.tr{list-style:none;margin:0;padding-left:20px;position:relative}
+.tree>ul.tr{padding-left:6px}
+.tree li{position:relative;padding:3px 0 3px 16px}
+.tree li::before{content:"";position:absolute;left:0;top:0;height:calc(50% + 2px);width:12px;
+  border-left:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule)}
+.tree li::after{content:"";position:absolute;left:0;top:calc(50% + 2px);bottom:0;
+  border-left:1.5px solid var(--rule)}
+.tree>ul.tr>li:last-child::after,.tree li:last-child::after{display:none}
+.tree .leaf{font-size:.96em;line-height:1.5}
+.tree .leaf b{font-weight:700;background:color-mix(in srgb,var(--quote-bar) 30%,transparent);
+  border-radius:4px;padding:0 .15em}
+.tree .lab{display:inline-block;font-size:.66rem;font-weight:700;padding:.03rem .4rem;
+  border-radius:6px;margin-right:.4rem;vertical-align:.08em;font-family:var(--sans)}
+.tree .lab.cl{background:color-mix(in srgb,var(--cl) 16%,transparent);color:var(--cl)}
+.tree .lab.md{background:color-mix(in srgb,var(--md) 20%,transparent);color:var(--md)}
+.tree .lab.ph{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
+/* morphology / idiom boxes + collapsed prose */
+.mi-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.7rem 0}
+@media(max-width:560px){.mi-grid{grid-template-columns:1fr}}
+.mi-box{border:1px solid var(--rule);border-left-width:3px;border-radius:9px;padding:.55rem .8rem;background:var(--surface2)}
+.mi-box.morph{border-left-color:var(--cl)}
+.mi-box.idiom{border-left-color:var(--md)}
+.mi-h{font-size:.82em;font-weight:700;margin-bottom:.4rem;letter-spacing:.02em}
+.mi-box.morph .mi-h{color:var(--cl)}
+.mi-box.idiom .mi-h{color:var(--md)}
+.mi-box ul{list-style:none;margin:0;padding:0}
+.mi-box li{font-size:.95em;line-height:1.6;padding:.16rem 0}
+.mi-box li b,.mi-box li strong{font-weight:700;color:var(--ink)}
+.mi-box li em{font-style:italic}
+.prose-toggle{margin:.5rem 0 .1rem;border-top:1px dashed var(--rule);padding-top:.45rem}
+.prose-toggle>summary{cursor:pointer;font-size:.8rem;color:var(--muted);font-weight:600;list-style:none;user-select:none}
+.prose-toggle>summary::-webkit-details-marker{display:none}
+.prose-toggle>summary::before{content:"\25b8  해설 ";color:var(--accent);font-weight:700}
+.prose-toggle[open]>summary{margin-bottom:.3rem}
+.prose-toggle[open]>summary::before{content:"\25be  해설 "}
+.prose-rest>*:first-child{margin-top:0}
+.prose-toggle.modern>summary::before{content:"\25b8  쉬운 영어 ";color:var(--cl);font-weight:700}
+.prose-toggle.modern[open]>summary::before{content:"\25be  쉬운 영어 "}
+.modern-body{padding-top:.5rem}
+.modern-para{font-family:var(--serif);font-size:1.01em;line-height:1.65;background:color-mix(in srgb,var(--cl) 8%,transparent);
+  border-left:3px solid var(--cl);border-radius:0 8px 8px 0;padding:.6rem .85rem;margin:.2rem 0 .6rem}
+.keych .kc-h{font-size:.82em;font-weight:700;color:var(--md);margin:.2rem 0 .35rem}
+.keych ul{list-style:none;margin:0;padding:0}
+.keych li{font-size:.95em;line-height:1.6;padding:.13rem 0}
+.keych li b{font-weight:700;color:var(--ink);font-style:italic}
+/* spoiler (answers) */
+p.spoiler{position:relative;background:var(--surface2);border:1px solid var(--rule);border-radius:10px;
+  padding:.8rem 1rem;cursor:pointer}
+p.spoiler > :not(.spoiler-hint){filter:blur(5px);transition:filter .2s;user-select:none}
+p.spoiler.revealed > :not(.spoiler-hint){filter:none;user-select:text}
+.spoiler-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-weight:700;color:var(--accent);font-size:.9rem;z-index:2}
+p.spoiler.revealed .spoiler-hint{display:none}
+/* focus mode: dim commentary, spotlight Calvin's text */
+body.focus .period-body > p,body.focus .scard-body > p:not(.lit),
+body.focus .syntax-tool,body.focus table,body.focus pre{opacity:.32}
+body.focus blockquote{opacity:1;box-shadow:0 0 0 2px color-mix(in srgb,var(--quote-bar) 40%,transparent)}
+hr{border:0;border-top:1px solid var(--rule);margin:1.4rem 0}
+/* mobile */
+.scrim{display:none}
+@media(max-width:860px){
+  .bar .menu{display:block}
+  nav.toc{position:fixed;left:0;top:0;bottom:0;width:78%;max-width:320px;background:var(--surface);
+    z-index:70;transform:translateX(-100%);transition:transform .25s;box-shadow:var(--shadow);
+    max-height:none;padding-top:3.5rem}
+  body.nav-open nav.toc{transform:none}
+  body.nav-open .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65}
+  .wrap{padding:0 .7rem}
+}
+@media print{
+  header.bar,nav.toc,#progress,.menu{display:none!important}
+  section.period,.lesson-h{box-shadow:none;break-inside:avoid}
+  .scard-body,.period-body,.syntax-body{display:block!important}
+  p.spoiler > *{filter:none!important}.spoiler-hint{display:none!important}
+  .prose-rest{display:block!important}
+}
+</style>
+<link rel="icon" type="image/png" href="../../favicon.png"><meta name="description" content="칼빈 『기독교 강요』 1권 13장 §12(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 86. 연관 성구: 요한복음 5, 히브리서 1, 이사야 42, 이사야 43."><link rel="canonical" href="https://oneheartchurchcolumbus.org/calvin/html/Day86_Book1-Ch13-%C2%A712.html"><meta property="og:type" content="article"><meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church"><meta property="og:title" content="삼위일체 하나님 §12 — 기독교 강요 영어로 읽기 (Day 86)"><meta property="og:description" content="칼빈 『기독교 강요』 1권 13장 §12(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 86. 연관 성구: 요한복음 5, 히브리서 1, 이사야 42, 이사야 43."><meta property="og:url" content="https://oneheartchurchcolumbus.org/calvin/html/Day86_Book1-Ch13-%C2%A712.html"><meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":["Article","LearningResource"],"headline":"기독교 강요 영어로 읽기 — 삼위일체 하나님 §12 (1권 13장 · Day 86) | 칼빈 원문 문장분석·신학 영어공부","description":"칼빈 『기독교 강요』 1권 13장 §12(삼위일체 하나님)을 Beveridge 영어 원문으로 한 문장씩 해부합니다. 끊어읽기·구문 나무·문법 공식·어원 어휘·쉬운 영어 의역 — 무료 신학 영어 공부, Day 86. 연관 성구: 요한복음 5, 히브리서 1, 이사야 42, 이사야 43.","inLanguage":["en","ko"],"learningResourceType":"Lesson","educationalLevel":"영어 중급 이상","teaches":"칼빈 기독교 강요 1권 13장 §12 — 삼위일체 하나님","mentions":[{"@type":"CreativeWork","name":"요한복음 5 (John 5)"},{"@type":"CreativeWork","name":"히브리서 1 (Heb 1)"},{"@type":"CreativeWork","name":"이사야 42 (Isaiah 42)"},{"@type":"CreativeWork","name":"이사야 43 (Isaiah 43)"},{"@type":"CreativeWork","name":"요한복음 2 (John 2)"}],"isAccessibleForFree":true,"url":"https://oneheartchurchcolumbus.org/calvin/html/Day86_Book1-Ch13-%C2%A712.html","isPartOf":{"@type":"Course","name":"칼빈 『기독교 강요』 영어로 읽기 (Day 1–1277)","description":"Beveridge 영역 전문을 하루 한 절씩 문장 단위로 분석하는 무료 영어·신학 스터디","provider":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"},"isAccessibleForFree":true,"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"P1D"}},"publisher":{"@type":"Church","name":"Columbus One Heart Baptist Church","url":"https://oneheartchurchcolumbus.org/"}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-S23G4J640B");</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"><style id="church-skin">
+:root{
+  --bg:#f4f2ed; --surface:#ffffff; --surface2:#ebe7df;
+  --ink:#46514c; --muted:#5b645d; --rule:#e3ddd3;
+  --quote:#eef3f0; --quote-bar:#97b3ae;
+  --s3:#4a6a62; --s2:#7d9e97; --s1:#b0a89b;
+  --link:#4a6a62; --accent:#4a6a62; --flash:#fbe4dd; --cl:#4a6a62; --md:#a86b60;
+  --shadow:0 1px 3px rgba(58,71,68,.06),0 6px 24px rgba(58,71,68,.05);
+  --serif:"Palatino Linotype","Book Antiqua","Gowun Batang",Georgia,serif;
+  --sans:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;
+}
+html[data-theme="dark"]{
+  --bg:#202724; --surface:#28312d; --surface2:#2f3a35;
+  --ink:#e4e8e4; --muted:#a6b0a9; --rule:#3a463f;
+  --quote:#2b352f; --quote-bar:#7d9e97;
+  --s3:#8fb3aa; --s2:#7d9e97; --s1:#9aa39a;
+  --link:#9cc3ba; --accent:#8fb3aa; --flash:#4a3f3b; --cl:#9cc3ba; --md:#cf9a8f;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+body{word-break:keep-all;}
+.lesson-h h1{font-family:"Gowun Batang",serif;color:#3a4744;}
+.period-head .p-title{font-family:"Gowun Batang",serif;}
+.church-brand{display:flex;align-items:center;gap:.45rem;text-decoration:none;color:#3a4744;
+  font-family:"Gowun Batang",serif;font-weight:700;font-size:1rem;line-height:1.1;white-space:nowrap;}
+.church-brand img{height:26px;width:auto;display:block;}
+.church-brand small{display:block;font-family:"Pretendard",sans-serif;font-weight:700;
+  font-size:.56rem;color:#4a6a62;letter-spacing:.1em;margin-top:2px;}
+.church-back{font-size:.82rem;color:#4a6a62;text-decoration:none;font-weight:600;white-space:nowrap;}
+.church-back:hover{text-decoration:underline;}
+footer.church{margin:2.5rem auto 0;max-width:1180px;text-align:center;color:#5b645d;
+  font-size:.85rem;border-top:1px solid #e3ddd3;padding:1.8rem 1rem 2.4rem;line-height:1.9;}
+footer.church b{color:#3a4744;font-family:"Gowun Batang",serif;}
+footer.church a{color:#4a6a62;}
+/* 풀어 쓴 우리말 의역 블록 */
+#paraphrase .period-body{font-family:"Gowun Batang",Georgia,serif;line-height:2.05;}
+#paraphrase .para-note,#paraphrase-verses .para-note,#paraphrase-notes .para-note{font-family:"Pretendard",sans-serif;font-size:.82em;color:var(--muted);
+  background:var(--quote);border-left:3px solid var(--quote-bar);padding:.6em .9em;border-radius:8px;line-height:1.7;}
+/* 더 깊이 — 신학자의 눈 블록 */
+.nt-ko .nt-label{font-family:"Gowun Batang",serif;font-size:.98em;color:var(--s3);margin:1.15em 0 .3em;}
+.nt-ko p{line-height:1.9;margin:.2em 0 .6em;}
+.nt-ko strong{color:var(--s3);}
+/* 성구로 다시 읽기 블록 */
+.vs-ko .vs-label{font-family:"Gowun Batang",serif;font-size:.95em;color:var(--s3);margin:1.2em 0 .35em;scroll-margin-top:90px;}
+.vs-ko .vs-item{background:var(--quote);border-left:3px solid var(--quote-bar);border-radius:8px;
+  padding:.55em .9em;margin:.35em 0;font-size:.94em;line-height:1.85;}
+.vs-ko .vs-item b{color:var(--s3);}
+.vs-ko .vs-back{float:right;font-family:"Pretendard",sans-serif;font-size:.74em;font-weight:600;
+  color:var(--muted);text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:.1em .6em;}
+.vs-ko .vs-back:hover{color:var(--s3);border-color:var(--s2);}
+/* 의역 문장 번호 배지 → 성구 점프 */
+sup.vs-ref{font-size:.6em;line-height:0;}
+sup.vs-ref a{color:#fff;background:var(--s2);border-radius:999px;padding:.15em .5em;
+  text-decoration:none;font-weight:800;font-family:"Pretendard",sans-serif;}
+sup.vs-ref a:hover{background:var(--s3);}
+.para-ko p{scroll-margin-top:90px;}
+@media(max-width:640px){.church-brand .nm{display:none}.church-back{display:none}}
+</style></head>
+<body>
+<div id="progress"></div>
+<header class="bar"><a class="church-brand" href="../../index.html"><img src="../../cross-cut.png" alt=""><span class="nm">한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a><a class="church-back" href="../index.html">← 칼빈 강요 목록</a>
+  <button class="menu" onclick="toggleNav()" aria-label="목차">☰</button>
+  <div class="ttl">Day 86 — Book 1, Chapter 13, §12<small></small></div>
+  <div class="tools">
+    <button class="tool" id="btn-focus" onclick="toggleFocus()" title="집중 모드 (Calvin 본문 강조)">◎</button>
+    <button class="tool" onclick="setFs(fs-1)" title="글자 작게">A-</button>
+    <button class="tool" onclick="setFs(fs+1)" title="글자 크게">A+</button>
+    <button class="tool" id="btn-theme" onclick="toggleTheme()" title="다크 모드">☾</button>
+  </div>
+</header>
+<div class="scrim" onclick="closeNavMobile()"></div>
+<div class="wrap">
+  <nav class="toc"><a class="toc-link" href="#period-0" onclick="closeNavMobile()"><span class="toc-num">0</span><span class="toc-t">— Orientation (1 minute)</span></a>
+<a class="toc-link" href="#period-1" onclick="closeNavMobile()"><span class="toc-num">1</span><span class="toc-t">— Full Text (⚠️ invariable) — 11 sentences</span></a>
+<a class="toc-link" href="#period-2" onclick="closeNavMobile()"><span class="toc-num">2</span><span class="toc-t">— Structure at a Glance</span></a>
+<a class="toc-link" href="#period-3" onclick="closeNavMobile()"><span class="toc-num">3</span><span class="toc-t">— Sentence-by-Sentence Live Teaching</span></a><div class="toc-subs"><a class="toc-s lvl3" href="#S1" onclick="closeNavMobile()">S1</a><a class="toc-s lvl3" href="#S2" onclick="closeNavMobile()">S2</a><a class="toc-s lvl3" href="#S3" onclick="closeNavMobile()">S3</a><a class="toc-s lvl2" href="#S4" onclick="closeNavMobile()">S4</a><a class="toc-s lvl3" href="#S5" onclick="closeNavMobile()">S5</a><a class="toc-s lvl3" href="#S6" onclick="closeNavMobile()">S6</a><a class="toc-s lvl2" href="#S7" onclick="closeNavMobile()">S7</a><a class="toc-s lvl2" href="#S8" onclick="closeNavMobile()">S8</a><a class="toc-s lvl3" href="#S9" onclick="closeNavMobile()">S9</a><a class="toc-s lvl2" href="#S10" onclick="closeNavMobile()">S10</a><a class="toc-s lvl1" href="#S11" onclick="closeNavMobile()">S11</a></div>
+<a class="toc-link" href="#period-4" onclick="closeNavMobile()"><span class="toc-num">4</span><span class="toc-t">— Today&#x27;s Grammar Formulas</span></a>
+<a class="toc-link" href="#period-5" onclick="closeNavMobile()"><span class="toc-num">5</span><span class="toc-t">— Vocabulary</span></a>
+<a class="toc-link" href="#period-6" onclick="closeNavMobile()"><span class="toc-num">6</span><span class="toc-t">— Background in 5 Minutes</span></a>
+<a class="toc-link" href="#period-7" onclick="closeNavMobile()"><span class="toc-num">7</span><span class="toc-t">— Scripture Connections</span></a>
+<a class="toc-link" href="#period-8" onclick="closeNavMobile()"><span class="toc-num">8</span><span class="toc-t">— Exam Problems</span></a>
+<a class="toc-link" href="#period-9" onclick="closeNavMobile()"><span class="toc-num">9</span><span class="toc-t">— One-Line Wrap-up + Homework</span></a></nav>
+  <main>
+    <div class="lesson-h">
+      <span class="ref"></span>
+      <h1>Day 86 — Book 1, Chapter 13, §12</h1>
+      <div class="sub"></div>
+    </div>
+    
+<section class="period" id="period-0" data-period="0">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">0</span>
+    <span class="p-title">— Orientation (1 minute)</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p>Yesterday Calvin promised you a series and you should have written down the word. S3 of §11: <code>And the **first** thing deserving of special observation is that predictions concerning the eternal God are applied to Christ.</code> <strong>First.</strong> A first implies a second, and here it is, in the very first sentence of today's section: <code>The divinity of Christ, if judged by **the works which are ascribed to him** in Scripture, becomes still more evident.</code> (S1) ⚠️⚠️ <strong>The axis has rotated.</strong> §11 was about what Scripture <em>says</em> of him — titles, oracles, predications. §12 is about what he <em>does</em>. <strong>From naming to doing.</strong> And §13 will rotate it once more, to how he does it (<code>his miracles</code>). <strong>Three sections, three proofs: prophecy applied, works ascribed, power exercised.</strong> Today is proof two, and Calvin tells you at the top that it is a <strong>stronger</strong> one — <code>still more evident</code>. <strong>Underline the comparative. It is a cross-reference disguised as an adverb.</strong></p><p>Now the thing that makes §12 different in kind from §11, and it is the single most testable feature of the section. <strong>Look at who the witnesses are.</strong> Yesterday: Paul, John, the writer to the Hebrews, Thomas — friendly witnesses, every one. Today: <code>the Jews, **though most dull in regard to his other sayings**, perceived that he was laying claim to divine power</code> (S2), and then <code>they sought the more to kill him</code> (S3). ⚠️⚠️⚠️ <strong>Calvin's chief witness in §12 is a mob trying to commit a murder.</strong> That is not clumsiness; it is the oldest move in forensic rhetoric — <strong>the admission against interest.</strong> A friend's testimony can be discounted as partiality. An enemy's cannot. And notice how the concession sharpens it rather than weakening it: <code>**though most dull** in regard to his other sayings</code> — <em>these men missed nearly everything he said, and they did not miss this</em>. <strong>The dullness is the argument.</strong> If a test option tries to make the Jews' hostility or their dullness a <em>problem</em> for Calvin's reading, it has inverted the section.</p><p>Then the catalogue, and you should be able to list it from memory because Calvin is enumerating <strong>works that cannot be delegated</strong>: ① <strong>world-government</strong> — <code>To govern the world by his power and providence, and regulate all things by **an energy inherent in himself**</code> (S5, with Heb 1:3 in the parenthesis), <code>surely belongs to **none but the Creator**</code>; ② <strong>all the other offices</strong> — <code>Nor does he **merely** share the government of the world with the Father, **but also** each of the other offices, **which cannot be communicated to creatures**</code> (S6); ③ <strong>the forgiveness of sins</strong> — Isaiah's <code>**I, even I**, am he that blotteth out thy transgressions **for mine own sake**</code> (S7), asserted in words and <code>**proved** it by a miracle</code> (S8); ④ <strong>the reading of hearts</strong> — <code>Is it not the **province of God alone** to penetrate and interrogate the secret thoughts of the heart?</code> (S10). ⇒ <code>we infer that Christ is God</code> (S11).</p><p>And here is the hinge of the entire section, the sentence you must not let blur into the others: <code>We thus see that he possessed in himself **not the ministry of forgiving sins, but the inherent power** which the Lord declares **he will not give to another**.</code> (S9) ⚠️⚠️⚠️ <strong><code>ministry</code> versus <code>inherent power</code>. Write it across the top of the page.</strong> A prophet can announce forgiveness; an apostle can pronounce it; a minister can declare it. All of that is <strong>ministerium</strong> — delegated agency, the messenger's office. What none of them has is the thing itself. <strong>The whole section stands or falls on that distinction, and if you flatten it, §12 collapses into a repetition of §11.</strong> ⚠️ Notice also what <code>he will not give to another</code> is doing: <strong>that is Isaiah 42:8 walking back in for the third time</strong> — §9 used it, §11 used it (<code>whose glory cannot be given to another</code>), and today it returns in its Isaiah 43:25 dress. <strong>Calvin has one premise he keeps re-banking: divine prerogatives are non-transferable. Everything in §12 is that premise plus a list.</strong></p><p>One last thing before we start. <strong>Count the rhetorical questions: two, and they are differently built.</strong> <code>**What, then, will be our stupidity if** we do not perceive from the same passage that his divinity is plainly instructed?</code> (S4) and <code>**What! Is it not** the province of God alone to penetrate and interrogate the secret thoughts of the heart?</code> (S10). ⚠️ The first is a <em>degree</em> question (<em>how great will our stupidity be?</em>); the second is a negative <em>polarity</em> question expecting <strong>yes</strong>. <strong>They are not the same construction and I will test both.</strong> And they bracket the section — S4 closes the John 5 evidence, S10 opens the last item before the QED. <strong>The argument is framed by two shouts.</strong></p><h3>Today's 3 Big Points</h3><ol>
+<li><strong>Reduced clauses — a conjunction with no subject and no finite verb, and you must supply both.</strong> <code>The divinity of Christ, **if judged by** the works which are ascribed to him in Scripture, becomes still more evident.</code> (S1) ⚠️⚠️ Restore it: <code>if [**it is**] judged by …</code>, where <em>it</em> = <code>the divinity of Christ</code>, the subject of the main clause. <strong>The rule: in a reduced adverbial clause the missing subject is the subject of the main clause.</strong> Then S2 does the same with an adjective instead of a participle: <code>the Jews, **though most dull** in regard to his other sayings, perceived …</code> = <code>though [**they were**] most dull …</code>. ⚠️ And <code>**most dull**</code> here is the <strong>elative superlative</strong> — <em>extremely dull</em>, not <em>the dullest of all</em>; period English drops the article for this sense. One more, harder, in S3: <code>because he not only broke the Sabbath, but also said that God was his Father, **making himself equal with God**</code> — a <strong>participial clause with no conjunction at all</strong>, and the question <em>whose</em> participle it is (grammatically Christ's; in John's Greek the Jews' inference) is worth a paragraph on its own. <strong>Wherever Beveridge gives you a conjunction without a verb, stop and rebuild the clause before you translate.</strong> Formula 1.</li>
+<li><strong>The escalation family: <code>not only A but also B</code>, <code>not merely A but also B</code>, <code>not A but B</code> — and the inversion that comes with a fronted negative.</strong> Three of them today, and they do three different jobs. ① <strong>Additive:</strong> <code>because he **not only** broke the Sabbath, **but also** said that God was his Father</code> (S3) — B is <em>worse</em> than A, and that ordering is the point. ② <strong>Additive with inversion:</strong> <code>**Nor does he merely** share the government of the world with the Father, **but also** each of the other offices</code> (S6) ⚠️⚠️ — <code>Nor</code> at the head of a clause <strong>forces subject-auxiliary inversion</strong> (<code>Nor **does he** share</code>, never <em>Nor he shares</em>), and the second arm <strong>gaps the verb</strong> (<code>but also [does he share] each of the other offices</code>). ③ <strong>Exclusive, and this one is the section's thesis:</strong> <code>he possessed in himself **not** the ministry of forgiving sins, **but** the inherent power</code> (S9) — ⚠️⚠️⚠️ <strong>here A is <em>rejected</em>, not merely supplemented.</strong> <strong>Do not confuse ③ with ① and ②.</strong> <code>not only A but also B</code> = <em>both</em>. <code>not A but B</code> = <em>B and not A</em>. <strong>A test item that swaps these is the easiest one to write and the easiest one to fail.</strong> And S8 gives you ① again in its strongest form: <code>he **not only asserted**, in distinct terms, that this power belonged to him, **but also proved** it by a miracle</code>. Formula 2.</li>
+<li><strong>Exclusivity frames — four ways to say <em>and nobody else</em>.</strong> ① <code>surely **belongs to none but** the Creator</code> (S5) — <code>none but X</code> = <em>no one except X</em>. ② <code>which **cannot be communicated to creatures**</code> (S6) — the negative stated as a property of the thing. ③ <code>which the Lord declares **he will not give to another**</code> (S9) — the negative as a divine speech-act (Isa 42:8). ④ <code>Is it not the province of **God alone** …?</code> (S10) — postposed <code>alone</code> restricting the noun it follows. ⚠️ <strong>All four are the same premise in four grammatical costumes: divine prerogatives are non-transferable.</strong> Learn to spot the costume change. And file one cousin beside them: <code>they sought **the more** to kill him</code> (S3) — ⚠️ <code>the</code> + comparative used adverbially = <em>all the more, so much the more</em>; <strong>not the definite article</strong>, and not a typo for <em>them</em>. Formula 3.</li>
+</ol><p>Trap words I <em>will</em> test. <strong><code>ascribed to</code></strong> (S1) = <strong>attributed to, assigned to</strong> (<em>ad-</em> + <em>scribere</em>, to write to someone's account) — carried straight over from §11's <code>ascribe the Majesty of God to Christ</code>. <strong><code>still more evident</code></strong> (S1) ⚠️⚠️ — <code>still</code> is <strong>intensifying a comparative</strong> = <em>even more</em>; it is <strong>not</strong> <em>nevertheless</em> and <strong>not</strong> <em>yet</em>. Same use as <em>still greater</em>, <em>still worse</em>. <strong><code>worketh hitherto</code></strong> (S2) ⚠️ = <strong>has been working right up to now</strong> — <code>hitherto</code> (OE <em>hider</em> + <em>to</em>) = <em>up to this point in time</em>; the KJV renders Gk <em>ἕως ἄρτι ἐργάζεται</em>, a present of continuing action. <strong>Not</strong> "works in this manner." <strong><code>most dull</code></strong> (S2) ⚠️⚠️ = <strong>extremely slow of understanding</strong> — elative superlative, no article; <code>dull</code> of the mind = <em>blunt, not sharp</em>, the same metaphor as a dull blade. <strong><code>in regard to</code></strong> (S2) = <strong>with respect to, concerning</strong>. <strong><code>laying claim to</code></strong> (S2) = <strong>asserting a right to, claiming</strong> — legal idiom, <em>to lay claim to an estate</em>. <strong><code>the more</code></strong> (S3) ⚠️⚠️ = <strong>all the more, so much the more</strong> — adverbial, answering <em>because …</em>. <strong><code>making himself equal with God</code></strong> (S3) ⚠️ = <strong>putting himself on a level with God</strong> — KJV of <em>ἴσον ἑαυτὸν ποιῶν τῷ θεῷ</em>; <code>with</code>, not <em>to</em>, is the period preposition after <code>equal</code>. <strong><code>stupidity</code></strong> (S4) ⚠️ = <strong>dullness, stupor, want of perception</strong> (<em>stupēre</em>, to be stunned) — a <strong>cognitive</strong> word, not an insult about intelligence; it is the same charge Calvin laid on the Jews in S2 (<code>most dull</code>), now turned on <strong>us</strong>. <strong><code>plainly instructed</code></strong> (S4) ⚠️⚠️⚠️ = <strong>clearly taught</strong> — <code>instruct</code> here takes the <strong>doctrine</strong> as its object, not the person: <em>his divinity is plainly taught</em>. Modern English cannot do this (<em>a doctrine is instructed</em> is ungrammatical now). <strong>Do not read it as "instructed" = commanded.</strong> <strong><code>providence</code></strong> (S5) = <strong>foreseeing care, God's government of what he has made</strong> (<em>pro-</em> + <em>vidēre</em>, to see ahead). <strong><code>regulate</code></strong> (S5) = <strong>direct, order, keep by rule</strong> (<em>regula</em>, a rule, a straight-edge). <strong><code>energy</code></strong> (S5) ⚠️ = <strong>operative power, working force</strong> (Gk <em>ἐνέργεια</em>, <em>en-</em> + <em>ergon</em>, work) — a <strong>theological</strong> term of art, not calories; <code>an energy **inherent in himself**</code> = <em>a working power belonging to him in his own right</em>. <strong><code>inherent</code></strong> (S5, S9) ⚠️⚠️ = <strong>belonging to something as part of itself, not conferred</strong> (<em>in-</em> + <em>haerēre</em>, to stick in) — <strong>the key adjective of the section</strong>, and the exact antonym of <code>communicated</code> and of <code>ministry</code>. <strong><code>surely</code></strong> (S5) = <strong>assuredly, certainly</strong> — asseverative, not <em>safely</em>. <strong><code>none but</code></strong> (S5) ⚠️ = <strong>no one except</strong>. <strong><code>merely</code></strong> (S6) = <strong>only, simply</strong> (<em>merus</em>, pure, unmixed). <strong><code>offices</code></strong> (S6) ⚠️⚠️ = <strong>functions, appointed duties</strong> (<em>officium</em>, a service, a charge) — <strong>not</strong> rooms and <strong>not</strong> ecclesiastical posts here; the <em>other offices</em> are the other things God does. <strong><code>communicated</code></strong> (S6) ⚠️⚠️ = <strong>imparted, made over, shared out</strong> (<em>communicare</em>, to make common) — the technical verb; <code>cannot be communicated to creatures</code> = <em>cannot be handed over to anything made</em>. Nothing to do with speech. <strong><code>creatures</code></strong> (S6) = <strong>created things, everything that is not God</strong> — the widest possible term, and that width is the argument. <strong><code>proclaims by his prophets</code></strong> (S7) ⚠️ = <strong>declares through his prophets</strong> — instrumental <code>by</code> where modern English says <em>through</em>. <strong><code>I, even I</code></strong> (S7) ⚠️⚠️ = <strong>I myself, I and no other</strong> — <code>even</code> is the <strong>intensive particle</strong> (<em>I, yes I</em>), not <em>also</em> and not <em>despite</em>; it renders the Hebrew emphatic doubling <em>ānōkî ānōkî</em>. <strong><code>he that blotteth out</code></strong> (S7) = <strong>the one who wipes out</strong> — <code>he that</code> is the KJV headless relative; <code>blot out</code> = <em>erase, expunge</em> (as ink is blotted from a page, Heb. <em>māḥâ</em>). <strong><code>transgressions</code></strong> (S7) = <strong>acts of stepping across the line</strong> (<em>trans-</em> + <em>gradi</em>, to step). <strong><code>for mine own sake</code></strong> (S7) ⚠️⚠️ = <strong>on my own account, for reasons lodged in myself</strong> (Heb. <em>ləma'ănî</em>) — <strong>the motive is in God, not in the sinner</strong>, and that is exactly why the act cannot be deputed. <strong><code>in accordance with</code></strong> (S8) = <strong>in agreement with, in line with</strong>. <strong><code>injustice was done to God</code></strong> (S8) = <strong>God was wronged</strong> — the Jews' charge, reported not endorsed. <strong><code>asserted … in distinct terms</code></strong> (S8) ⚠️ = <strong>stated in express, unmistakable words</strong> — <code>distinct</code> (<em>dis-</em> + <em>stinguere</em>, to prick apart) = <em>clearly separated out</em>, hence <em>explicit</em>. <strong><code>ministry</code></strong> (S9) ⚠️⚠️⚠️ = <strong>the office of a servant or agent, delegated service</strong> (<em>minister</em>, an attendant, from <em>minus</em>, less — the exact opposite of <em>magister</em>, from <em>magis</em>, more) — <strong>the pivot word of the section.</strong> Not a government department, and here <strong>not</strong> the pastoral office either: it means <em>acting on another's authority</em>. <strong><code>to another</code></strong> (S9) ⚠️ = <strong>to anyone else</strong> — the Isaiah 42:8 formula. <strong><code>province</code></strong> (S10) ⚠️⚠️ = <strong>proper sphere, the business belonging to one by right</strong> (<em>provincia</em>, a charge assigned to a magistrate) — <code>the province of God alone</code> = <em>God's business and nobody else's</em>. <strong>Not a region on a map.</strong> <strong><code>penetrate</code></strong> (S10) = <strong>pierce through into</strong> (<em>per-</em> + <em>intrāre</em>, to enter through). <strong><code>interrogate</code></strong> (S10) ⚠️ = <strong>question, examine judicially</strong> (<em>inter-</em> + <em>rogāre</em>, to ask between) — a <strong>courtroom</strong> verb, and it is deliberate: God does not merely <em>see</em> the heart, he <strong>puts it on the stand</strong>. <strong><code>infer</code></strong> (S11) = <strong>draw as a conclusion</strong> (<em>in-</em> + <em>ferre</em>, to carry in) — ⚠️ the <em>reader</em> infers; Calvin does not say <em>we assert</em>. <strong>The section ends on an act of reasoning, not a claim.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-1" data-period="1">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">1</span>
+    <span class="p-title">— Full Text (⚠️ invariable) — 11 sentences</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><blockquote class="fulltext">
+12. <span class="ft-sent" data-s="S1" id="ft-S1" onclick="jumpToCard('S1')">The divinity of Christ, if judged by the works which are ascribed to him in Scripture, becomes still more evident.</span> <span class="ft-sent" data-s="S2" id="ft-S2" onclick="jumpToCard('S2')">When he said of himself, “My Father worketh hitherto, and I work,” the Jews, though most dull in regard to his other sayings, perceived that he was laying claim to divine power.</span> <span class="ft-sent" data-s="S3" id="ft-S3" onclick="jumpToCard('S3')">And, therefore, as John relates (John 5:17), they sought the more to kill him, because he not only broke the Sabbath, but also said that God was his Father, making himself equal with God.</span> <span class="ft-sent" data-s="S4" id="ft-S4" onclick="jumpToCard('S4')">What, then, will be our stupidity if we do not perceive from the same passage that his divinity is plainly instructed?</span> <span class="ft-sent" data-s="S5" id="ft-S5" onclick="jumpToCard('S5')">To govern the world by his power and providence, and regulate all things by an energy inherent in himself (this an Apostle ascribes to him, Heb. 1:3), surely belongs to none but the Creator.</span> <span class="ft-sent" data-s="S6" id="ft-S6" onclick="jumpToCard('S6')">Nor does he merely share the government of the world with the Father, but also each of the other offices, which cannot be communicated to creatures.</span> <span class="ft-sent" data-s="S7" id="ft-S7" onclick="jumpToCard('S7')">The Lord proclaims by his prophets “I, even I, am he that blotteth out thy transgressions for mine own sake,” (Is. 43:25).</span> <span class="ft-sent" data-s="S8" id="ft-S8" onclick="jumpToCard('S8')">When, in accordance with this declaration, the Jews thought that injustice was done to God when Christ forgave sins, he not only asserted, in distinct terms, that this power belonged to him, but also proved it by a miracle (Mt. 9:6).</span> <span class="ft-sent" data-s="S9" id="ft-S9" onclick="jumpToCard('S9')">We thus see that he possessed in himself not the ministry of forgiving sins, but the inherent power which the Lord declares he will not give to another.</span> <span class="ft-sent" data-s="S10" id="ft-S10" onclick="jumpToCard('S10')">What! Is it not the province of God alone to penetrate and interrogate the secret thoughts of the heart?</span> <span class="ft-sent" data-s="S11" id="ft-S11" onclick="jumpToCard('S11')">But Christ also had this power, and therefore we infer that Christ is God.</span>
+</blockquote><p><strong>Sentence count: 11 (S1–S11). One paragraph, four movements: the thesis and its comparative — works, not words, and <code>still more evident</code> than §11 (S1) · the John 5 evidence, with hostile witnesses — <code>My Father worketh hitherto, and I work</code>, the Jews who <code>perceived</code>, the murder attempt, and the reproach turned on the reader (S2–S4) · the catalogue of non-delegable works — world-government by <code>an energy inherent in himself</code>, then <code>each of the other offices, which cannot be communicated to creatures</code>, then the forgiveness of sins asserted and proved, closing on the section's axis, <code>not the ministry of forgiving sins, but the inherent power</code> (S5–S9) · the last prerogative and the QED — the heart searched, <code>and therefore we infer that Christ is God</code> (S10–S11).</strong></p><blockquote>
+<p><strong>Text note (not a correction to the quotation).</strong> Four features of the printed page, all left exactly as they stand.
+(i) <strong>No page-break falls inside §12.</strong> The section sits whole between the header block that precedes §11 and the margin number <code>121</code>, which drops <strong>after</strong> §13's second sentence. Nothing has been joined across a seam, and there are <strong>no line-break hyphens</strong> inside the section — unusually clean after three days of them.
+(ii) ⚠️⚠️ <strong>S3's reference prints <code>(John 5:17)</code> although the matter reported is John 5:18.</strong> <code>My Father worketh hitherto, and I work</code> is 5:17 (quoted in <strong>S2</strong>); <code>they sought the more to kill him, because he not only broke the Sabbath, but also said that God was his Father, making himself equal with God</code> is 5:18 almost word for word. The single reference is placed in <strong>S3</strong>, attached to <code>as John relates</code>, and covers the narrative as a whole. <strong>Left as printed.</strong> (Compare yesterday's <code>(John 1:14)</code> standing for John 1:1 — Calvin's citations point at <em>passages</em>, not at verses.)
+(iii) <strong><code>Is.</code> and <code>Mt.</code> are the file's abbreviations</strong> (<code>(Is. 43:25)</code>, <code>(Mt. 9:6)</code>), beside <code>(John 5:17)</code> and <code>(Heb. 1:3)</code> spelled out. The inconsistency is the edition's; it is kept.
+(iv) <strong>Typography kept:</strong> curly quotation marks around the two Scripture quotations; the comma-before-reference pattern <code>,” (Is. 43:25)</code>; the parenthesis embedded <strong>between subject and verb</strong> in S5, <code>(this an Apostle ascribes to him, Heb. 1:3)</code>, with its internal comma before the reference; the free-standing exclamation <code>What!</code> in S10 with its own full stop-level punctuation; and the commas isolating <code>then</code> in S4 and <code>therefore</code> in S3.</p>
+</blockquote><hr/></div>
+</section>
+
+<section class="period" id="period-2" data-period="2">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">2</span>
+    <span class="p-title">— Structure at a Glance</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><pre><code>                 ─── I. THESIS (S1) ───
+[THESIS]         S1     divinity of Christ, IF JUDGED BY "THE WORKS WHICH ARE ASCRIBED TO HIM"
+                        ⇒ "becomes STILL MORE EVIDENT"        ← comparative = measured against §11
+                 ─── II. THE JOHN 5 EVIDENCE — HOSTILE WITNESSES (S2–S4) ───
+[SAYING]         S2     "My Father WORKETH HITHERTO, and I WORK"
+                        the Jews, THOUGH MOST DULL (concession) → "PERCEIVED that he was LAYING CLAIM
+                        to DIVINE POWER"                       ← admission against interest
+[REACTION]       S3     "they sought THE MORE to kill him" — NOT ONLY broke the Sabbath
+                        BUT ALSO "said that God was his Father, MAKING HIMSELF EQUAL WITH GOD"
+[REPROACH]       S4     "WHAT, THEN, WILL BE OUR STUPIDITY if we do not perceive …?"   ← turned on the reader
+                 ─── III. THE CATALOGUE OF NON-DELEGABLE WORKS (S5–S9) ───
+[WORK 1]         S5     TO GOVERN the world / TO REGULATE all things "by AN ENERGY INHERENT IN HIMSELF"
+                        (Heb 1:3) ⇒ "surely belongs to NONE BUT THE CREATOR"
+[WIDENING]       S6     "NOR does he MERELY share the government … BUT ALSO each of the other OFFICES,
+                        WHICH CANNOT BE COMMUNICATED TO CREATURES"        ← negative-initial inversion
+[WORK 2 · text]  S7     Isa 43:25 "I, EVEN I, am he that BLOTTETH OUT thy transgressions
+                        FOR MINE OWN SAKE"                                 ← motive lodged in God
+[WORK 2 · proof] S8     Jews charge injustice ⇒ he NOT ONLY ASSERTED "in distinct terms"
+                        BUT ALSO PROVED IT BY A MIRACLE (Mt 9:6)
+[THE AXIS]       S9     ⇒ "NOT the MINISTRY of forgiving sins, BUT the INHERENT POWER
+                        which the Lord declares HE WILL NOT GIVE TO ANOTHER"   ← Isa 42:8 returns
+                 ─── IV. THE LAST PREROGATIVE AND THE QED (S10–S11) ───
+[WORK 3]         S10    "WHAT! IS IT NOT the PROVINCE OF GOD ALONE to PENETRATE and INTERROGATE
+                        the SECRET THOUGHTS OF THE HEART?"
+[QED]            S11    "But Christ ALSO HAD THIS POWER, and therefore WE INFER that Christ is God."
+</code></pre><p><strong>Examiner's Eye.</strong> Five traps, and the first one is the section.</p><ul>
+<li><strong>Trap 1 — <code>ministry</code> vs <code>inherent power</code> (S9).</strong> ⚠️⚠️⚠️ <code>he possessed in himself **not the ministry** of forgiving sins, **but the inherent power** which the Lord declares he will not give to another.</code> This is <code>not A **but** B</code> — <strong>A is denied.</strong> Christ does not hold a <em>commission</em> to forgive; he holds the thing itself. <strong>An option that says Calvin grants Christ a ministry of forgiveness, or that treats <code>ministry</code> and <code>inherent power</code> as two things Christ has, has read <code>not only A but also B</code> where the text says <code>not A but B</code>.</strong> That is the single most likely item on this section.</li>
+<li><strong>Trap 2 — the direction of the Jews' dullness (S2).</strong> <code>the Jews, **though most dull** in regard to his other sayings, **perceived** that he was laying claim to divine power.</code> ⚠️⚠️ The dullness is <strong>conceded and then used</strong>: <em>even these men, who understood almost nothing else, understood this</em>. <strong>An option that presents the Jews as having misunderstood him, or that makes their hostility a reason to discount the testimony, has inverted the concession.</strong> Calvin's whole reason for going to John 5 is that the witnesses are unfriendly. Compare S4, where he turns the same word (<code>stupidity</code> ↔ <code>most dull</code>) on <strong>us</strong>: <em>if they saw it and we do not, what does that make us?</em></li>
+<li><strong>Trap 3 — who shares what with whom (S6).</strong> <code>Nor does he merely share the government of the world **with the Father**, but also each of the other offices, **which cannot be communicated to creatures**.</code> ⚠️⚠️ The sharing is <strong>with the Father</strong>. The relative clause says those same offices <strong>cannot be shared with creatures</strong>. <strong>An option that has Calvin saying the offices are communicated to creatures, or that reads the relative clause as restricting what the Son receives, has crossed the two halves.</strong> The sentence's force is a contrast between <em>shared within God</em> and <em>not communicable outside God</em>.</li>
+<li><strong>Trap 4 — assertion versus proof (S8).</strong> <code>he **not only asserted**, in distinct terms, that this power belonged to him, **but also proved it by a miracle**.</code> ⚠️ Calvin is explicitly guarding against the reply <em>anyone can claim anything</em>. <strong>An option that says Christ merely claimed the power, or that the miracle was offered instead of the claim, has broken the <code>not only … but also</code>.</strong> The healing is <strong>evidence for</strong> the pardon, which is Matthew 9:6's own logic (<code>that ye may know that the Son of man hath power on earth to forgive sins</code>).</li>
+<li><strong>Trap 5 — what <code>still more evident</code> is measured against (S1).</strong> ⚠️ <code>becomes **still more** evident</code> = <em>more evident than it already was</em> — i.e. than it was from §11's prophecy-applied argument. <strong>An option that reads it as "Christ's works are clearer evidence than Scripture," or "this is the clearest of all proofs," over-reads a comparative into a superlative</strong> — and §13 immediately outbids it (<code>How clearly and transparently does this appear in his miracles?</code>). <strong>A comparative is a relation, not a ranking.</strong></li>
+</ul><hr/></div>
+</section>
+
+<section class="period" id="period-3" data-period="3">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">3</span>
+    <span class="p-title">— Sentence-by-Sentence Live Teaching</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><div class="scard lvl3" data-lvl="3" data-s="S1" id="S1"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S1</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">The divinity of Christ, if judged by the works which are ascribed to him in Scripture, becomes still more evident — the reduced conditional, and a comparative that points backwards</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S1" onclick="flashFullText(this)">
+<p><strong><code>The divinity of Christ, if judged by the works which are ascribed to him in Scripture, becomes still more evident.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `The divinity of Christ</span></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if judged by</b> the works</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b> are ascribed to him in Scripture</span></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>becomes</b></span></li><li><span class="leaf"><b>still more</b> evident.`</span></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>divinity</em> &lt; <em>divinus</em> &lt; <em>deus</em> → <em>divine, deity, diva</em>; <em>ascribe</em> &lt; <em>ad-</em> + <em>scribere</em>, to write to someone's account → <em>describe, subscribe, prescribe, scripture</em> (itself <em>scriptura</em>, a thing written); <em>evident</em> &lt; <em>e-</em> + <em>vidēre</em>, to see out, to be plainly seen → <em>evidence, provide, prudent</em> (&lt; <em>providens</em>); <em>judge</em> &lt; <em>iūdex</em> &lt; <em>ius</em> (law) + <em>dicere</em> (to say) → <em>judicial, prejudice</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>if judged by X</em> = if it is assessed on the basis of X (reduced passive clause); <em>still more</em> + adjective = even more; <em>ascribe A to B</em> = attribute A to B; <em>become evident</em> = come to be plain.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Christ's divinity becomes even clearer if you judge it by the works Scripture attributes to him.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>if judged by</b> → if you judge it by</li><li><b>the works which are ascribed to him</b> → the works attributed to him</li><li><b>still more evident</b> → even clearer</li><li><b>becomes</b> → becomes / comes out as.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S2" id="S2"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S2</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">When he said of himself, “My Father worketh hitherto, and I work,” the Jews, though most dull in regard to his other sayings, perceived that he was laying claim to divine power — the hostile witness, and a concession with no verb</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S2" onclick="flashFullText(this)">
+<p><strong><code>When he said of himself, “My Father worketh hitherto, and I work,” the Jews, though most dull in regard to his other sayings, perceived that he was laying claim to divine power.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>When</b> he said, “My Father worketh hitherto, and I work,”</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">of himself</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>the Jews</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab ph">양보절 (though)</span><span class="leaf"><b>though</b> <b>most dull</b> in regard to his other sayings</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">they were</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>perceived</b></span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> he was laying claim to divine power</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>hitherto</em> = OE <em>hider</em> (hither, to this place) + <em>to</em> — space borrowed for time; <em>dull</em> &lt; OE <em>dol</em>, stupid; cognate with German <em>toll</em> — the mind as a blunt blade (hence <em>dull knife</em>, <em>dull wit</em>, one word); <em>perceive</em> &lt; <em>per-</em> + <em>capere</em>, to take thoroughly → <em>conceive, receive, deceive, perception</em>; <em>claim</em> &lt; <em>clāmāre</em>, to cry out → <em>exclaim, proclaim, clamour</em> (yesterday's S19 word).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>say of oneself</em> = say about oneself; <em>hitherto</em> = up to now; <em>in regard to X</em> = with respect to X; <em>lay claim to X</em> = assert a right to X (legal); <em>though most dull</em> = although extremely slow to understand (verbless concession).</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">When he said of himself, "My Father is still working, and so am I," the Jews — slow as they were to grasp anything else he said — realised he was claiming divine power.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>worketh hitherto</b> → is still working / has been working until now</li><li><b>though most dull in regard to</b> → slow as they were to grasp</li><li><b>his other sayings</b> → the other things he said</li><li><b>was laying claim to</b> → was claiming.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S3" id="S3"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S3</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">And, therefore, as John relates (John 5:17), they sought the more to kill him, because he not only broke the Sabbath, but also said that God was his Father, making himself equal with God — the more, the escalating pair, and a participle with a disputed owner</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S3" onclick="flashFullText(this)">
+<p><strong><code>And, therefore, as John relates (John 5:17), they sought the more to kill him, because he not only broke the Sabbath, but also said that God was his Father, making himself equal with God.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>And, therefore**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>as</b> John relates</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">John 5:17</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>they sought the more to kill him</b></span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">이유절 (because)</span><span class="leaf"><b>because</b> he <b>not only</b> broke the Sabbath</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but also</b> said</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> God was his Father</span></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>making himself equal with God</b></span></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>relate</em> &lt; <em>re-</em> + <em>ferre</em> (supine <em>lātum</em>), to carry back → <em>relation, translate, legislate</em>; <em>Sabbath</em> &lt; Heb. <em>šabbāt</em> &lt; <em>šābat</em>, to cease, to desist — the word means <em>stopping</em>, which is exactly what S2's `worketh hitherto` denies of God; <em>equal</em> &lt; <em>aequālis</em> &lt; <em>aequus</em>, level → <em>equity, adequate, equanimity</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>the more</em> (+ verb) = all the more, so much the more; <em>seek to V</em> = try to V, be intent on V-ing; <em>not only A but also B</em> = A, and B on top of it (B the weightier); <em>make oneself equal with X</em> = put oneself on a level with X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And so, as John records, they wanted to kill him even more, because he had not only broken the Sabbath but had also called God his own Father, making himself equal with God.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>as John relates</b> → as John records</li><li><b>sought the more to kill him</b> → wanted to kill him even more</li><li><b>not only … but also</b> → not only … but also (unchanged)</li><li><b>equal with God</b> → equal with God / on a level with God.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S4" id="S4"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S4</span><span class="stars s2" title="2-star">★★</span><span class="s-label">What, then, will be our stupidity if we do not perceive from the same passage that his divinity is plainly instructed? — a degree question, and a verb modern English can no longer use</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S4" onclick="flashFullText(this)">
+<p><strong><code>What, then, will be our stupidity if we do not perceive from the same passage that his divinity is plainly instructed?</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>What**,, <b>will be</b> our stupidity</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>then</b></span></li></ul></li></ul></li><li><span class="leaf">?`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">조건절 (if)</span><span class="leaf"><b>if</b> we <b>do not perceive</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">from the same passage</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> his divinity is plainly instructed</span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>stupidity</em> &lt; <em>stupēre</em>, to be stunned, benumbed → <em>stupor, stupefy, stupendous</em> (= stunning); <em>perceive</em> &lt; <em>per-</em> + <em>capere</em> (see S2); <em>plainly</em> &lt; <em>plānus</em>, flat, level, clear → <em>plain, plane, explain</em> (to make level); <em>instruct</em> &lt; <em>in-</em> + <em>struere</em>, to build in, to pile up in order → <em>structure, construct, destroy</em> — to instruct is to <em>build something into</em> the mind.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>What will be our X?</em> = how great will our X be?; <em>then</em> (between commas) = in that case, therefore; <em>from the same passage</em> = from this very text; <em>be plainly instructed</em> = be clearly taught.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">How stupid, then, will we be if we fail to see from this same passage that his divinity is plainly taught?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>What, then, will be our stupidity</b> → how stupid, then, will we be</li><li><b>if we do not perceive</b> → if we fail to see</li><li><b>is plainly instructed</b> → is plainly taught.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S5" id="S5"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S5</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">To govern the world by his power and providence, and regulate all things by an energy inherent in himself (this an Apostle ascribes to him, Heb. 1:3), surely belongs to none but the Creator — infinitive subjects, a parenthesis in the wrong place, and the first exclusivity frame</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S5" onclick="flashFullText(this)">
+<p><strong><code>To govern the world by his power and providence, and regulate all things by an energy inherent in himself (this an Apostle ascribes to him, Heb. 1:3), surely belongs to none but the Creator.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>To govern</b> the world</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by his power and providence</span></li></ul></li></ul></li><li><span class="lab ph">등위 (and)</span><span class="leaf"><b>and</b> <b>regulate</b> all things</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>to</b></span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by an energy inherent in himself</span></li></ul></li></ul></li></ul></li></ul></li><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">this an Apostle ascribes to him, Heb. 1:3</span></li></ul></li></ul></li><li><span class="leaf"><b>surely belongs</b></span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>to none but</b> the Creator</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>govern</em> &lt; Gk <em>κυβερνᾶν</em>, to steer a ship → Lat. <em>gubernare</em> → <em>governor, cybernetics</em> — the metaphor is a hand on a tiller; <em>providence</em> &lt; <em>pro-</em> + <em>vidēre</em> → <em>provide, prudent, purvey</em>; <em>regulate</em> &lt; <em>regula</em>, a straight-edge, a rule → <em>rule, regular, regiment</em>; <em>energy</em> &lt; Gk <em>ἐν-</em> + <em>ἔργον</em>, work → <em>ergonomic, surgery</em> (<em>χειρ-ουργία</em>, hand-work), <em>synergy</em>; <em>inherent</em> &lt; <em>in-</em> + <em>haerēre</em>, to stick → <em>adhere, cohere, hesitate</em> (&lt; <em>haesitare</em>, to stick fast).</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>to govern by X</em> = to rule by means of X; <em>inherent in oneself</em> = belonging to one in one's own right; <em>belong to none but X</em> = belong to no one except X; <em>ascribe X to Y</em> = attribute X to Y.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Governing the world by his power and providence, and directing everything by a power that is his own — which is exactly what an apostle attributes to him (Heb. 1:3) — certainly belongs to no one but the Creator.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>To govern … and regulate</b> → governing … and directing</li><li><b>an energy inherent in himself</b> → a power that is his own</li><li><b>this an Apostle ascribes to him</b> → which an apostle attributes to him</li><li><b>surely belongs to none but</b> → certainly belongs to no one but.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S6" id="S6"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S6</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">Nor does he merely share the government of the world with the Father, but also each of the other offices, which cannot be communicated to creatures — negative-initial inversion, a gapped verb, and the widest claim in the section</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S6" onclick="flashFullText(this)">
+<p><strong><code>Nor does he merely share the government of the world with the Father, but also each of the other offices, which cannot be communicated to creatures.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="lab ph">등위 (nor)</span><span class="leaf"><b> `</b>Nor does he** <b>share</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>merely</b></span></li></ul></li></ul></li><li><span class="leaf">the government of the world</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>with the Father</b></span></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but also</b> each of the other offices</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf">‹does he share›</span></li></ul></li></ul></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b> <b>cannot be communicated</b> to creatures</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>merely</em> &lt; <em>merus</em>, pure, unmixed → <em>mere</em> = <em>nothing but</em>; <em>office</em> &lt; <em>opus</em> (work) + <em>facere</em> (to do) → <em>officium</em>, a service, a duty → <em>official, officiate, officious</em>; <em>communicate</em> &lt; <em>communis</em>, common → <em>common, community, excommunicate</em> (= put out of the common); <em>creature</em> &lt; <em>creāre</em> + <em>-tūra</em> → anything created, the widest possible noun.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>Nor does he merely A, but also B</em> = it is not only A that he does, but B as well (fronted negative → inversion); <em>share X with Y</em> = hold X in common with Y; <em>each of the other X</em> = every one of the remaining X; <em>be communicated to X</em> = be imparted to X.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">And it is not only the government of the world that he shares with the Father — he shares every one of the other divine functions too, functions that cannot be handed over to any creature.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>Nor does he merely share</b> → it is not only … that he shares</li><li><b>each of the other offices</b> → every one of the other divine functions</li><li><b>communicated to creatures</b> → handed over to any creature.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S7" id="S7"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S7</span><span class="stars s2" title="2-star">★★</span><span class="s-label">The Lord proclaims by his prophets “I, even I, am he that blotteth out thy transgressions for mine own sake,” (Is. 43:25) — the emphatic doubling, and a motive that cannot be delegated</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S7" onclick="flashFullText(this)">
+<p><strong><code>The Lord proclaims by his prophets “I, even I, am he that blotteth out thy transgressions for mine own sake,” (Is. 43:25).</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `The Lord </b>proclaims**</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>by</b> his prophets</span></li></ul></li></ul></li><li><span class="leaf">“<b>I, even I</b>, am <b>he that</b> blotteth out thy transgressions</span></li><li><span class="leaf">,”.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf"><b>for mine own sake</b></span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Is. 43:25</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>proclaim</em> &lt; <em>pro-</em> + <em>clāmāre</em>, to cry out before → <em>exclaim, claim, clamour</em>; <em>blot</em> (OE/ON origin, a spot of ink) — <em>to blot out</em> = to obliterate by covering; <em>transgression</em> &lt; <em>trans-</em> + <em>gradi</em> (supine <em>gressum</em>), to step across → <em>progress, aggression, congress, grade</em>; <em>sake</em> &lt; OE <em>sacu</em>, a lawsuit, a cause — `for my own sake` originally = <em>for my own cause</em>, a legal phrase, which fits Isaiah's courtroom setting exactly.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>proclaim by X</em> = declare through X; <em>I, even I</em> = I myself and no other (emphatic); <em>he that V-s</em> = the one who V-s; <em>blot out</em> = erase, wipe away; <em>for one's own sake</em> = on one's own account, for reasons of one's own.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">The Lord declares through his prophets, "I, I myself, am the one who wipes away your sins for my own sake" (Isa. 43:25).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>proclaims by his prophets</b> → declares through his prophets</li><li><b>I, even I</b> → I, I myself</li><li><b>he that blotteth out</b> → the one who wipes away</li><li><b>thy transgressions</b> → your sins</li><li><b>for mine own sake</b> → for my own sake.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S8" id="S8"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S8</span><span class="stars s2" title="2-star">★★</span><span class="s-label">When, in accordance with this declaration, the Jews thought that injustice was done to God when Christ forgave sins, he not only asserted, in distinct terms, that this power belonged to him, but also proved it by a miracle — two whens, an interposed phrase, and claim plus evidence</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S8" onclick="flashFullText(this)">
+<p><strong><code>When, in accordance with this declaration, the Jews thought that injustice was done to God when Christ forgave sins, he not only asserted, in distinct terms, that this power belonged to him, but also proved it by a miracle (Mt. 9:6).</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf">** `</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>When</b>,, the Jews <b>thought</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in accordance with this declaration</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> injustice was done to God</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">시간절 (when)</span><span class="leaf"><b>when</b> Christ forgave sins</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><span class="leaf"><b>he</b></span></li><li><span class="leaf"><b>not only asserted</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in distinct terms</span></li></ul></li></ul><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> this power belonged to him</span></li></ul></li></ul></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but also proved it</b>.`</span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">by a miracle</span></li></ul></li></ul><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">Mt. 9:6</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>accordance</em> &lt; <em>ad-</em> + <em>cor/cordis</em>, heart → <em>accord</em> = to bring hearts together, hence agreement; <em>injustice</em> &lt; <em>in-</em> + <em>iustitia</em> &lt; <em>ius</em>, right, law; <em>assert</em> &lt; <em>ad-</em> + <em>serere</em>, to join, to bind to oneself → <em>series, insert, desert</em> (&lt; <em>de-serere</em>, to unbind); <em>distinct</em> &lt; <em>dis-</em> + <em>stinguere</em>, to prick apart → <em>distinguish, extinguish, instinct</em>; <em>miracle</em> &lt; <em>mīrāculum</em> &lt; <em>mīrārī</em>, to wonder at → <em>admire, mirror, marvel</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>in accordance with X</em> = in line with X; <em>do injustice to X</em> = wrong X; <em>in distinct terms</em> = in explicit words; <em>not only asserted but also proved</em> = claimed it and backed it up; <em>prove X by Y</em> = demonstrate X by means of Y.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">When, in line with that declaration, the Jews thought God was being wronged when Christ forgave sins, he not only stated explicitly that this power was his, but also proved it by a miracle (Matt. 9:6).</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>in accordance with this declaration</b> → in line with that declaration</li><li><b>injustice was done to God</b> → God was being wronged</li><li><b>in distinct terms</b> → explicitly</li><li><b>this power belonged to him</b> → this power was his.</li></ul></div></div></details></div></div><div class="scard lvl3" data-lvl="3" data-s="S9" id="S9"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S9</span><span class="stars s3" title="3-star">★★★</span><span class="s-label">We thus see that he possessed in himself not the ministry of forgiving sins, but the inherent power which the Lord declares he will not give to another — the axis of the section, and a relative pronoun buried three clauses deep</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S9" onclick="flashFullText(this)">
+<p><strong><code>We thus see that he possessed in himself not the ministry of forgiving sins, but the inherent power which the Lord declares he will not give to another.</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>We thus see**</span></li><li><span class="leaf">.`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">명사/결과절 (that)</span><span class="leaf"><b>that</b> he <b>possessed</b></span><ul class="tr"><li><span class="lab md">삽입·수식 ( )</span><ul class="tr"><li><span class="leaf">in himself</span></li></ul></li></ul><ul class="tr"><li><span class="leaf"><b>not</b> the <b>ministry</b> of forgiving sins</span></li><li><span class="lab ph">등위 (but)</span><span class="leaf"><b>but</b> the <b>inherent power</b></span></li><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="lab ph">관계절 (which)</span><span class="leaf"><b>which</b> the Lord declares ‹that› he will not give ___ <b>to another</b></span></li></ul></li></ul></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>ministry</em> &lt; <em>minister</em> &lt; <em>minus</em>, less — the attendant, the lesser one (opposite <em>magister</em> &lt; <em>magis</em>, more) → <em>minister, administration, minus, minute</em>; <em>inherent</em> &lt; <em>in-</em> + <em>haerēre</em>, to stick fast (see S5) → <em>adhere, cohere, hesitate</em>; <em>possess</em> &lt; <em>potis</em> (able, having power) + <em>sedēre</em>, to sit → to sit as master over → <em>potent, possible, session</em>; <em>declare</em> &lt; <em>de-</em> + <em>clārus</em>, clear → <em>clarify, clarion, clear</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>we thus see that</em> = so it is clear that; <em>possess in oneself</em> = have in one's own right; <em>not A but B</em> = B, and not A (exclusive contrast); <em>give X to another</em> = hand X over to someone else.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">So we can see that what he had in himself was not a delegated role of forgiving sins, but the inherent power that the Lord says he will not hand over to anyone else.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>We thus see</b> → so we can see</li><li><b>the ministry of forgiving sins</b> → a delegated role of forgiving sins</li><li><b>the inherent power</b> → the power that is his own</li><li><b>give to another</b> → hand over to anyone else.</li></ul></div></div></details></div></div><div class="scard lvl2" data-lvl="2" data-s="S10" id="S10"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S10</span><span class="stars s2" title="2-star">★★</span><span class="s-label">What! Is it not the province of God alone to penetrate and interrogate the secret thoughts of the heart? — the free-standing exclamation, anticipatory it, and exclusivity frame ④</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S10" onclick="flashFullText(this)">
+<p><strong><code>What! Is it not the province of God alone to penetrate and interrogate the secret thoughts of the heart?</code></strong></p>
+</blockquote><div class="syntax-holder"><p>**</p><div class="syntax-tool"><button class="syntax-toggle" onclick="this.parentElement.classList.toggle('open')">🌳 구문 나무 보기 / Syntax tree</button><div class="syntax-body"><div class="tree"><div class="rootnode">S</div><ul class="tr"><li><span class="leaf"><b> `</b>What!**</span></li><li><span class="leaf"><b>Is it not</b></span></li><li><span class="leaf">the province of <b>God alone</b></span></li><li><span class="leaf">?`</span><ul class="tr"><li><span class="lab cl">절 [ ]</span><ul class="tr"><li><span class="leaf"><b>to penetrate and interrogate</b> the secret thoughts of the heart</span></li></ul></li></ul></li></ul></div><div class="syntax-legend"><span class="lab cl">절 [ ]</span> 종속절   <span class="lab md">( )</span> 삽입·수식   <span class="lab ph">등위/관계</span> 접속   <b>bold</b> 핵심 구문</div></div></div></div><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>province</em> &lt; <em>provincia</em>, a magistrate's assigned charge → <em>provincial</em> — the sense "region" is a later narrowing of "sphere of authority"; <em>penetrate</em> &lt; <em>penitus</em> (inmost) + <em>intrāre</em> → <em>interior, enter, penetrable</em>; <em>interrogate</em> &lt; <em>inter-</em> + <em>rogāre</em>, to ask → <em>rogation, arrogant</em> (&lt; <em>ad-rogāre</em>, to claim for oneself), <em>abrogate, prerogative</em> — ⚠️ `prerogative` is literally <em>asked first</em>, and it is the word the whole section is about; <em>secret</em> &lt; <em>se-</em> (apart) + <em>cernere</em>, to sift → <em>discern, concern, discreet, certain</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>What!</em> = come now!, why! (free-standing exclamation); <em>Is it not …?</em> = surely it is … (negative rhetorical question expecting <em>yes</em>); <em>it is the province of X to V</em> = it is X's business alone to V; <em>X alone</em> = X and no one else.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">Come now — isn't it God's business alone to see into and examine the secret thoughts of the heart?</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>What!</b> → Come now!</li><li><b>Is it not the province of God alone</b> → isn't it God's business alone</li><li><b>penetrate and interrogate</b> → see into and examine</li><li><b>the secret thoughts of the heart</b> → the heart's secret thoughts.</li></ul></div></div></details></div></div><div class="scard lvl1" data-lvl="1" data-s="S11" id="S11"><div class="scard-head" onclick="toggleCard(this)"><span class="s-tag">S11</span><span class="stars s1" title="1-star">★</span><span class="s-label">But Christ also had this power, and therefore we infer that Christ is God — the QED, and the name repeated instead of a pronoun</span><span class="s-caret">›</span></div><div class="scard-body"><blockquote class="s-quote" data-s="S11" onclick="flashFullText(this)">
+<p><strong><code>But Christ also had this power, and therefore we infer that Christ is God.</code></strong></p>
+</blockquote><div class="mi-grid"><div class="mi-box morph"><div class="mi-h">🔤 Morphology · 어형</div><ul><li><em>infer</em> &lt; <em>in-</em> + <em>ferre</em>, to carry in → <em>refer, confer, transfer, fertile</em>.</li></ul></div><div class="mi-box idiom"><div class="mi-h">💬 Idiom · 관용</div><ul><li><em>have this power</em> = possess this power; <em>we infer that</em> = we conclude that, we draw the conclusion that.</li></ul></div></div><details class="prose-toggle modern"><summary>쉬운 영어 / Modern English</summary><div class="modern-body"><p class="modern-para">But Christ had this power too, and so we conclude that Christ is God.</p><div class="keych"><div class="kc-h">Key changes · 올·현대 표현</div><ul><li><b>also had this power</b> → had this power too</li><li><b>we infer</b> → we conclude.</li></ul></div></div></details></div></div></div>
+</section>
+
+<section class="period" id="period-4" data-period="4">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">4</span>
+    <span class="p-title">— Today&#x27;s Grammar Formulas</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>Formula 1 — Reduced adverbial clauses: conjunction + (participle / adjective), subject supplied from the main clause</h3><pre><code>   if / when / though / while  +  [past participle]        ← passive, subject = main-clause subject
+   if / when / though / while  +  [adjective phrase]       ← "be" elided
+   ⚠ the missing subject is ALWAYS the subject of the main clause
+   ⚠ if it is NOT, the clause is "dangling" — and Beveridge sometimes lets it dangle (S3)
+
+   S1  The divinity of Christ, [if judged by the works …], becomes still more evident.
+         = if [it (= the divinity) is] judged by …
+   S2  the Jews, [though most dull in regard to his other sayings], perceived …
+         = though [they were] most dull …
+   S3  … said that God was his Father, [making himself equal with God].
+         = no conjunction at all; subject grammatically = he
+</code></pre><p>⚠️ <strong>Trap 1 — supplying the wrong subject.</strong> <code>if judged by the works</code> is <strong>not</strong> <em>if we judge</em>. The participle is passive and its subject is <code>the divinity of Christ</code>. ⚠️ <strong>Trap 2 — reading <code>though most dull</code> as a superlative ranking.</strong> <strong>Elative superlative</strong>: <em>extremely dull</em>, no article, no comparison class. ⚠️ <strong>Trap 3 — the position.</strong> These clauses are usually <strong>wedged between subject and verb</strong>, so a comma after a long subject does <strong>not</strong> mean the verb is next. Look for the closing comma.</p><p><strong>Transformation drill.</strong> <em>그의 권위는, 그가 행한 일들로 판단한다면, 훨씬 더 분명해진다. 제자들은, 다른 모든 점에서는 느렸으나, 이것만은 알아보았다.</em>
+→ <code>His authority, if judged by the works which he performed, becomes still more evident. The disciples, though most slow in every other respect, perceived this one thing.</code> ⚠️ Check both: the implied subject of <code>judged</code> is <code>his authority</code>; the implied subject of <code>most slow</code> is <code>the disciples</code>.</p><hr/><h3>Formula 2 — The escalation family, and the negative-initial inversion that comes with it</h3><pre><code>   ① ADDITIVE      not only A  but also B          ⇒ A AND B  (B the weightier)
+   ② ADDITIVE+INV  Nor does S merely A, but also B ⇒ A AND B  (Nor → subject-aux INVERSION,
+                                                              second arm GAPS the verb)
+   ③ EXCLUSIVE     not A  but B                    ⇒ B, NOT A   ⚠ A IS DENIED
+
+   S3  … because he NOT ONLY broke the Sabbath, BUT ALSO said that God was his Father   ①
+   S8  … he NOT ONLY asserted … that this power belonged to him, BUT ALSO proved it     ①
+   S6  NOR DOES HE MERELY share the government … BUT ALSO each of the other offices     ②
+   S9  … he possessed in himself NOT the ministry …, BUT the inherent power             ③
+</code></pre><p>⚠️ <strong>Trap 1 — confusing ③ with ① and ②.</strong> <code>not only A but also B</code> = <em>both</em>. <code>not A but B</code> = <em>B and not A</em>. <strong>S9 denies the ministry. S3 and S8 deny nothing.</strong> ⚠️ <strong>Trap 2 — forgetting the inversion.</strong> <code>Nor **does he** share</code>, never <em>Nor he shares</em>. Any fronted negative (<code>Nor</code>, <code>Not only</code>, <code>Never</code>, <code>Little</code>) → <strong>do-support + inversion</strong>. ⚠️ <strong>Trap 3 — a second negative after <code>Nor</code>.</strong> <code>Nor</code> already carries the negation; adding <code>not</code> doubles it. ⚠️ <strong>Trap 4 — losing the gapped material in arm ②.</strong> <code>but also each of the other offices</code> = <code>but also [he shares] each of the other offices [with the Father]</code>.</p><p><strong>Transformation drill.</strong> <em>그는 단지 심판만 아버지와 함께 나누는 것이 아니라, 다른 각각의 직무도 나누신다. 그리고 그는 그것을 말로만 주장한 것이 아니라 행위로 입증하셨다. 그가 가진 것은 위임받은 직분이 아니라 고유한 권능이었다.</em>
+→ <code>Nor does he merely share the judgment with the Father, but also each of the other offices. And he not only asserted it in words, but also proved it by his deeds. What he possessed was not a delegated office, but an inherent power.</code> ⚠️ Three sentences, three members of the family — and only the third denies its first arm.</p><hr/><h3>Formula 3 — Exclusivity frames: four ways to say <em>and no one else</em></h3><pre><code>   belongs to NONE BUT X          (S5)   ← "but" = except (OE be-ūtan, outside of)
+   CANNOT BE COMMUNICATED to Y    (S6)   ← the negative stated as a property
+   will NOT GIVE to another       (S9)   ← the negative as a speech-act (Isa 42:8)
+   the province of X ALONE        (S10)  ← postposed "alone" restricting the noun
+
+   + cousin:  they sought THE MORE to kill him   (S3)
+              "the" + comparative = adverbial degree ("all the more") — NOT the article
+</code></pre><p>⚠️ <strong>Trap 1 — reading <code>none but</code> as an adversative.</strong> <code>but</code> = <strong>except</strong>. <em>Belongs to none but the Creator</em> = <em>belongs to no one other than the Creator</em>, <strong>not</strong> <em>does not belong to anyone, however the Creator …</em>. ⚠️ <strong>Trap 2 — <code>communicate</code> = <em>impart</em>, not <em>tell</em>.</strong> ⚠️ <strong>Trap 3 — moving <code>alone</code>.</strong> <code>the province of God alone</code> restricts <strong>God</strong>; <em>God alone's province</em> and <em>the only province of God</em> both say something else. ⚠️ <strong>Trap 4 — parsing <code>the more</code> as an article.</strong> It is a degree adverb: <em>all the more</em>.</p><p><strong>Transformation drill.</strong> <em>세상을 다스리는 일은 창조주 외에 그 누구에게도 속하지 않는다. 그 직무들은 피조물에게 넘겨질 수 없다. 주께서는 그 영광을 다른 이에게 주지 않겠다고 선언하신다. 마음을 살피는 것은 오직 하나님만의 영역이다.</em>
+→ <code>To govern the world belongs to none but the Creator. Those offices cannot be communicated to creatures. The Lord declares that he will not give that glory to another. To search the heart is the province of God alone.</code> ⚠️ Four sentences, four frames, one premise.</p><hr/></div>
+</section>
+
+<section class="period" id="period-5" data-period="5">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">5</span>
+    <span class="p-title">— Vocabulary</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><table>
+<thead>
+<tr>
+<th>Word (Sn)</th>
+<th>Meaning</th>
+<th>Memory hook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ascribe to</strong> (S1)</td>
+<td>attribute to, assign to</td>
+<td><em>ad-</em> + <em>scribere</em>, to write to someone's account → <em>describe, subscribe, scripture</em></td>
+</tr>
+<tr>
+<td><strong>still more</strong> (S1) ⚠⚠</td>
+<td><strong>even more</strong> (intensified comparative)</td>
+<td><strong>not</strong> <em>nevertheless</em>, <strong>not</strong> <em>up to now</em>. Cf. <em>still greater, still worse</em></td>
+</tr>
+<tr>
+<td><strong>evident</strong> (S1)</td>
+<td>plain to see</td>
+<td><em>e-</em> + <em>vidēre</em>, to be seen out → <em>evidence, vision, provide</em></td>
+</tr>
+<tr>
+<td><strong>worketh hitherto</strong> (S2) ⚠</td>
+<td>has been working right up to now</td>
+<td><code>hitherto</code> = OE <em>hider</em> + <em>to</em>, "to here" — <strong>space borrowed for time</strong></td>
+</tr>
+<tr>
+<td><strong>most dull</strong> (S2) ⚠⚠</td>
+<td>extremely slow of understanding</td>
+<td><strong>elative superlative</strong>, no article; the mind as a <strong>blunt blade</strong> (<em>a dull knife, a dull wit</em>)</td>
+</tr>
+<tr>
+<td><strong>in regard to</strong> (S2)</td>
+<td>with respect to</td>
+<td><em>regard</em> &lt; OFr <em>regarder</em>, to look at → <em>guard, ward, regardless</em></td>
+</tr>
+<tr>
+<td><strong>lay claim to</strong> (S2)</td>
+<td>assert a right to</td>
+<td>legal idiom — <em>to lay claim to an estate</em>; <em>clāmāre</em>, to cry out → <em>proclaim, clamour</em></td>
+</tr>
+<tr>
+<td><strong>the more</strong> (S3) ⚠⚠</td>
+<td>all the more, so much the more</td>
+<td><strong>adverbial <code>the</code> + comparative</strong> — <em>the sooner the better</em>. <strong>Not the article</strong></td>
+</tr>
+<tr>
+<td><strong>relate</strong> (S3)</td>
+<td>report, narrate</td>
+<td><em>re-</em> + <em>ferre/lātum</em>, carry back → <em>relation, translate, legislate</em></td>
+</tr>
+<tr>
+<td><strong>Sabbath</strong> (S3)</td>
+<td>the day of ceasing</td>
+<td>Heb. <em>šābat</em>, <strong>to stop</strong> — ⚠ which is exactly what S2's <em>worketh hitherto</em> denies of God</td>
+</tr>
+<tr>
+<td><strong>equal with God</strong> (S3) ⚠</td>
+<td>on a level with God</td>
+<td>KJV preposition: <code>with</code>, not <em>to</em>. Gk <em>ἴσον ἑαυτὸν ποιῶν τῷ θεῷ</em></td>
+</tr>
+<tr>
+<td><strong>stupidity</strong> (S4) ⚠⚠</td>
+<td>dullness, numbness of perception</td>
+<td><em>stupēre</em>, <strong>to be stunned</strong> → <em>stupor, stupefy, stupendous</em>. A <strong>cognitive</strong> word, not an insult</td>
+</tr>
+<tr>
+<td><strong>plainly instructed</strong> (S4) ⚠⚠⚠</td>
+<td><strong>clearly taught</strong></td>
+<td><code>instruct</code> takes the <strong>doctrine</strong> as object in period English. <em>in-</em> + <em>struere</em>, to build in → <em>structure, construct</em></td>
+</tr>
+<tr>
+<td><strong>providence</strong> (S5)</td>
+<td>foreseeing government</td>
+<td><em>pro-</em> + <em>vidēre</em>, to see ahead → <em>provide, prudent, purvey</em></td>
+</tr>
+<tr>
+<td><strong>regulate</strong> (S5)</td>
+<td>direct by rule</td>
+<td><em>regula</em>, a straight-edge → <em>rule, regular, regiment</em></td>
+</tr>
+<tr>
+<td><strong>energy</strong> (S5) ⚠</td>
+<td>operative working power</td>
+<td>Gk <em>ἐν-</em> + <em>ἔργον</em>, work → <em>synergy, ergonomic, surgery</em> (<em>χειρουργία</em>, hand-work)</td>
+</tr>
+<tr>
+<td><strong>inherent in</strong> (S5, S9) ⚠⚠</td>
+<td>belonging in one's own right, underived</td>
+<td><em>in-</em> + <em>haerēre</em>, <strong>to stick fast in</strong> → <em>adhere, cohere, hesitate</em>. <strong>The section's key adjective</strong></td>
+</tr>
+<tr>
+<td><strong>surely</strong> (S5)</td>
+<td>assuredly, certainly</td>
+<td>asseverative adverb — <strong>not</strong> <em>safely</em></td>
+</tr>
+<tr>
+<td><strong>none but</strong> (S5) ⚠</td>
+<td>no one except</td>
+<td><code>but</code> = <strong>except</strong> (OE <em>be-ūtan</em>, outside of) — same <em>but</em> as <em>all but one</em></td>
+</tr>
+<tr>
+<td><strong>merely</strong> (S6)</td>
+<td>only, simply</td>
+<td><em>merus</em>, pure, unmixed → <em>mere</em> = nothing but</td>
+</tr>
+<tr>
+<td><strong>offices</strong> (S6) ⚠⚠</td>
+<td>functions, appointed duties</td>
+<td><em>opus</em> + <em>facere</em> → <em>officium</em>, a service → <em>official, officiate</em>. <strong>Not rooms</strong></td>
+</tr>
+<tr>
+<td><strong>communicate</strong> (S6) ⚠⚠</td>
+<td>impart, hand over, make common</td>
+<td><em>communis</em>, common → <em>community, excommunicate</em> (= put <strong>out of</strong> the common). <strong>Nothing to do with speech</strong></td>
+</tr>
+<tr>
+<td><strong>creatures</strong> (S6)</td>
+<td>created things, all that is not God</td>
+<td><em>creāre</em> + <em>-tūra</em> — <strong>the widest noun available</strong>, and the width is the argument</td>
+</tr>
+<tr>
+<td><strong>proclaim by</strong> (S7) ⚠</td>
+<td>declare <strong>through</strong></td>
+<td>period <code>by</code> = the intermediate agent (KJV <em>spoken by the prophet</em> = Gk <em>διά</em>, through)</td>
+</tr>
+<tr>
+<td><strong>I, even I</strong> (S7) ⚠⚠</td>
+<td>I myself, I and no other</td>
+<td>Heb. <em>ānōkî ānōkî</em> — emphatic <strong>doubling</strong>; <code>even</code> = intensive particle, <strong>not</strong> <em>also</em></td>
+</tr>
+<tr>
+<td><strong>he that</strong> (S7)</td>
+<td>the one who</td>
+<td>KJV headless relative</td>
+</tr>
+<tr>
+<td><strong>blot out</strong> (S7)</td>
+<td>erase, wipe away</td>
+<td>Heb. <em>māḥâ</em> — <strong>a record rubbed off a page</strong>, hence authority over the book</td>
+</tr>
+<tr>
+<td><strong>transgression</strong> (S7)</td>
+<td>a stepping across the line</td>
+<td><em>trans-</em> + <em>gradi/gressum</em> → <em>progress, aggression, congress, grade</em></td>
+</tr>
+<tr>
+<td><strong>for mine own sake</strong> (S7) ⚠⚠⚠</td>
+<td>on my own account</td>
+<td>OE <em>sacu</em>, <strong>a lawsuit, a cause</strong> — <em>for my own cause</em>. <strong>The motive is in God ⇒ the act cannot be deputed</strong></td>
+</tr>
+<tr>
+<td><strong>in accordance with</strong> (S8)</td>
+<td>in line with</td>
+<td><em>ad-</em> + <em>cor/cordis</em>, heart → <em>accord</em> = bringing hearts together</td>
+</tr>
+<tr>
+<td><strong>injustice done to</strong> (S8)</td>
+<td>a wrong committed against</td>
+<td><em>in-</em> + <em>iustitia</em> &lt; <em>ius</em>, right</td>
+</tr>
+<tr>
+<td><strong>assert</strong> (S8)</td>
+<td>state firmly, claim</td>
+<td><em>ad-</em> + <em>serere</em>, to bind to oneself → <em>series, insert, desert</em> (<em>de-serere</em>, to unbind)</td>
+</tr>
+<tr>
+<td><strong>in distinct terms</strong> (S8)</td>
+<td>in express, unmistakable words</td>
+<td><em>dis-</em> + <em>stinguere</em>, <strong>to prick apart</strong> → <em>distinguish, extinguish, instinct</em></td>
+</tr>
+<tr>
+<td><strong>miracle</strong> (S8)</td>
+<td>a thing to be wondered at</td>
+<td><em>mīrārī</em>, to wonder → <em>admire, marvel, mirror</em></td>
+</tr>
+<tr>
+<td><strong>ministry</strong> (S9) ⚠⚠⚠</td>
+<td><strong>delegated office, agency on another's authority</strong></td>
+<td><em>minister</em> &lt; <em>minus</em>, <strong>less</strong> — the <strong>lesser one</strong>; exact opposite of <em>magister</em> &lt; <em>magis</em>, more</td>
+</tr>
+<tr>
+<td><strong>possess in himself</strong> (S9)</td>
+<td>have in his own right</td>
+<td><em>potis</em> (able) + <em>sedēre</em>, to sit → <strong>to sit as master over</strong> → <em>potent, possible</em></td>
+</tr>
+<tr>
+<td><strong>give to another</strong> (S9) ⚠</td>
+<td>hand over to anyone else</td>
+<td><strong>Isaiah 42:8, third appearance in five sections</strong></td>
+</tr>
+<tr>
+<td><strong>What!</strong> (S10) ⚠⚠</td>
+<td>Come now! Why!</td>
+<td><strong>free-standing exclamation</strong> — grammatically <strong>outside</strong> the sentence. Contrast S4's <code>What</code> = predicate</td>
+</tr>
+<tr>
+<td><strong>province</strong> (S10) ⚠⚠</td>
+<td>proper sphere, one's own business</td>
+<td><em>provincia</em>, <strong>a magistrate's assigned charge</strong>. "Region" is the later narrowing</td>
+</tr>
+<tr>
+<td><strong>penetrate</strong> (S10)</td>
+<td>pierce into</td>
+<td><em>penitus</em> (inmost) + <em>intrāre</em> → <em>interior, enter</em></td>
+</tr>
+<tr>
+<td><strong>interrogate</strong> (S10) ⚠</td>
+<td>question judicially, examine</td>
+<td><em>inter-</em> + <em>rogāre</em>, to ask → <em>prerogative</em> = <strong>asked first</strong>, which is the section's whole subject</td>
+</tr>
+<tr>
+<td><strong>secret</strong> (S10)</td>
+<td>set apart, hidden</td>
+<td><em>se-</em> (apart) + <em>cernere</em>, to sift → <em>discern, discreet, certain</em></td>
+</tr>
+<tr>
+<td><strong>infer</strong> (S11)</td>
+<td>draw as a conclusion</td>
+<td><em>in-</em> + <em>ferre</em>, to carry in → <em>refer, confer, transfer</em>. ⚠ the <strong>reader</strong> infers</td>
+</tr>
+</tbody>
+</table><hr/></div>
+</section>
+
+<section class="period" id="period-6" data-period="6">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">6</span>
+    <span class="p-title">— Background in 5 Minutes</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>1. Where §12 sits. Proof two of three, and Calvin numbered them for you.</strong> §11 S3 said <code>the **first** thing deserving of special observation</code> — and the series runs: <strong>§11 prophecy applied</strong> (what Scripture <em>says</em> of God is said of Christ) → <strong>§12 works ascribed</strong> (what only God <em>does</em> is done by Christ) → <strong>§13 power exercised</strong> (and he does it <em>by his own might</em>, not as a delegate). ⚠️ <strong>Each step closes a door the previous one left ajar.</strong> After §11 an opponent can still say <em>the titles are honorific</em>. After §12 he can still say <em>the works were done by God through him</em>. <strong>§13 shuts that</strong>: <code>they dispensed the gifts of God as his ministers, whereas he exerted his own inherent might.</code> ⚠️ <strong>Notice that §13's sentence uses today's two words — <code>ministers</code> and <code>inherent</code>. §12 and §13 are one argument split across a section break.</strong> <strong>If a test asks what §12 contributes, say: the argument from <em>non-delegable works</em>, second of three.</strong></p><p><strong>2. The argument's real name: <em>opera Dei propria</em>, the works proper to God alone.</strong> The reasoning <code>only God does X; Christ does X; therefore Christ is God</code> is not Calvin's invention — it is <strong>the standard fourth-century anti-Arian instrument.</strong> ⚠️ <strong>Athanasius</strong> (<em>Orations against the Arians</em>) argues it from creation and from the giving of the Spirit; <strong>Basil of Caesarea</strong> (<em>On the Holy Spirit</em>, c. 375) runs the identical form for the <strong>Spirit</strong>, from the works ascribed to him; <strong>Gregory of Nazianzus</strong> (<em>Theological Orations</em>) systematises it. <strong>The underlying rule is that the works of God are the surest index of the nature of God</strong>, because a nature is known by its operations — a principle Calvin has been running since I.5 (<code>his perfections … delineated as in a picture</code>, Day 22). ⚠️ <strong>Guardrail: Calvin names none of them here.</strong> §10 mentioned <code>the orthodox doctors of the Church</code>; §§11–12 name nobody. <strong>Do not write that Calvin cites Athanasius. He runs a patristic argument in purely biblical clothing — which is the method of the <em>Institutes</em> in one sentence.</strong></p><p><strong>3. The hostile-witness move, and why Calvin keeps reaching for it.</strong> The whole John 5 unit (S2–S4) rests on testimony from people trying to kill the witness-bearer. ⚠️ <strong>You have seen this before, twice.</strong> Day 7: <strong>Caligula</strong>, whose terror in a thunderstorm proved the <em>sensus divinitatis</em> precisely because he despised religion. Day 8: <strong>Diagoras</strong> and <strong>Dionysius</strong>, whose mockery Calvin turned into evidence. <strong>The logic is always the same — a concession from an opponent is worth more than a hundred friendly testimonies</strong>, because the opponent has every motive to concede nothing. ⚠️ And note how Calvin <strong>strengthens</strong> the witness by <strong>disparaging</strong> it: <code>though most dull in regard to his other sayings</code>. <strong>The duller the witness, the plainer the thing he could not miss.</strong> <strong>That is not a flourish; it is the structure of the inference.</strong></p><p><strong>4. <em>Ministerium</em> versus <em>potentia inhaerens</em>, and why this distinction has a long tail.</strong> S9's <code>not the ministry of forgiving sins, but the inherent power</code> is doing more work than §12 admits. ⚠️ <strong>The problem Calvin is heading off is real:</strong> Scripture <strong>does</strong> give men a ministry of forgiveness — <code>Whose soever sins ye remit, they are remitted unto them</code> (John 20:23). So <em>forgiving sins</em> on its own does not prove divinity; <strong>the apostles do it.</strong> Calvin's answer is that they do it <strong>ministerially</strong> — announcing a pardon granted elsewhere — while Christ does it <strong>inherently</strong>, on a ground <code>for mine own sake</code> (S7) that only God can occupy. ⚠️⚠️ <strong>This distinction becomes one of the load-bearing beams of Calvin's later polemic</strong>: in Book III and Book IV he uses it against sacerdotal absolution — the minister's word is <strong>declarative</strong> of a forgiveness God alone effects, not <strong>effective</strong> of it. <strong>Guardrail: §12 does not argue any of that.</strong> It uses the distinction and moves on. <strong>Do not import Book IV's controversy into Book I's proof.</strong></p><p><strong>5. Searching the heart — <em>cardiognosia</em> as a divine name.</strong> S10's prerogative has a specific Old Testament pedigree: <code>thou, **even thou only**, knowest the hearts of all the children of men</code> (1 Kgs 8:39 — ⚠️ <strong>note the exclusivity is already in the text</strong>); <code>I the Lord search the heart, I try the reins</code> (Jer 17:10); <code>the righteous God trieth the hearts and reins</code> (Ps 7:9). ⚠️ In the New Testament it becomes a <strong>Christological</strong> title almost at once: <code>he knew what was in man</code> (John 2:25); <code>Thou, Lord, which knowest the hearts of all men</code> (<em>καρδιογνῶστα</em>, Acts 1:24); <code>I am he which searcheth the reins and hearts</code> (Rev 2:23, spoken by the risen Christ). <strong>Calvin gives no reference because he is assuming a reader who hears all of them.</strong> <strong>If you want to know why S10 needs no citation, that is why.</strong></p><p><strong>6. The polemical target, unnamed today.</strong> §10 named <strong>Servetus</strong>, and §§22–29 of this chapter will return to him at length — the 1559 edition sharpens that polemic considerably after the 1553 trial at Geneva. ⚠️ <strong>§12 names no opponent, but the shape of the argument tells you who it is for.</strong> Against a <strong>subordinationist</strong> — Arius, or the anti-Trinitarians of the radical Reformation — the reply to <em>Scripture calls Christ God</em> is always <em>yes, in a derived sense, as a creature exalted above creatures</em>. <strong>The works argument is designed to be immune to that reply</strong>, because it does not turn on a title at all: it turns on <strong>whether a creature could be given this to do</strong>, and S6 answers <strong>no, by definition</strong> (<code>which cannot be communicated to creatures</code>). ⚠️ <strong>That is why S6 is in the section. Without it, every item in the catalogue could be re-described as a delegated commission.</strong></p><p><strong>7. Modern reception, honestly.</strong> The move Calvin makes here — identifying Christ by <strong>divine prerogatives and functions</strong> rather than by titles — is close to what <strong>Richard Bauckham</strong> calls inclusion in the <em>divine identity</em>: early Christians placed Jesus within the unique identity of the one God by ascribing to him precisely what Second Temple Judaism reserved for God alone, <strong>sovereignty over all things and creation</strong> being the two decisive markers. ⚠️ <strong>Which is, note, S5 and S6.</strong> <strong>Larry Hurtado</strong> approached the same data through devotional practice. ⚠️⚠️ <strong>Guardrail, and it is the same one as yesterday:</strong> modern scholarship converges on Calvin's <strong>data</strong> far more than on his <strong>conclusion</strong>. That John 5:18 reports the charge, that Hebrews 1:3 ascribes the upholding of all things to the Son — not disputed. <strong>What that implied about <em>essence</em> in the first century is exactly what is disputed.</strong> <strong>Calvin reads the ascription as a proposition about being; a historian reads it as a datum about early belief. Do not claim modern work "vindicates" §12.</strong></p><p><strong>8. One thing §12 deliberately does not do.</strong> It does not distinguish the natures, and it does not ask how a man can exercise an energy <code>inherent in himself</code>. ⚠️ <strong>That question is Book 2, chapters 12–14</strong> — and note that today's S2 quotes a saying of the incarnate Christ (<code>My Father worketh hitherto, and I work</code>) while treating it as evidence of eternal Godhead, <strong>exactly the move §11 S2 conceded and defended</strong> (<code>though the Apostles spoke of him after his appearance in the flesh as Mediator</code>). <strong>Guardrail: §12 is a proof of divinity, not a doctrine of the incarnation.</strong> <strong>An answer that has Calvin teaching the <em>communicatio idiomatum</em> from §12 is reading Book 2 back into Book 1.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-7" data-period="7">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">7</span>
+    <span class="p-title">— Scripture Connections</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><ol>
+<li><strong>John 5:17</strong> (S2) — <code>“My Father worketh hitherto, and I work.”</code> Gk <em>ὁ πατήρ μου ἕως ἄρτι ἐργάζεται, κἀγὼ ἐργάζομαι</em> — ⚠️ <strong>two present indicatives set side by side with nothing between them but <em>καί</em></strong>. Calvin's use: <strong>the parallel of the two verbs is the claim</strong>, and he lets the Jews state its meaning rather than stating it himself.</li>
+<li><strong>John 5:18</strong> (S3) — the murder attempt, the Sabbath, <code>making himself equal with God</code>. Gk <em>ἴσον ἑαυτὸν ποιῶν τῷ θεῷ</em>. ⚠️⚠️ <strong>Printed reference is <code>(John 5:17)</code>; the matter is 5:18</strong>, and Calvin's wording tracks the KJV almost exactly. Calvin's use: <strong>the Evangelist's own comment on how the claim was understood — apostolic testimony wearing the clothes of a hostile reaction.</strong></li>
+<li><strong>Hebrews 1:3</strong> (S5, in the parenthesis) — <code>upholding all things by the word of his power</code>. Gk <em>φέρων τὰ πάντα τῷ ῥήματι τῆς δυνάμεως </em><em>αὐτοῦ</em><strong> — ⚠️ <code>φέρων</code> = </strong>bearing along<strong>, sustaining in motion, not merely propping up; hence Calvin's <code>regulate all things</code>. And <code>αὐτοῦ</code> = <em>his own</em>, which is the warrant for <code>inherent in himself</code>. Calvin's use: </strong>the minor premise of S5's suppressed syllogism**, tucked into a bracket.</li>
+<li><strong>Isaiah 43:25</strong> (S7) — <code>“I, even I, am he that blotteth out thy transgressions for mine own sake.”</code> Heb. <em>ānōkî ānōkî hû' mōḥeh pəšā'êkā ləma'ănî</em>. ⚠️⚠️ The <strong>doubled pronoun</strong> excludes a substitute; <code>ləma'ănî</code> lodges the <strong>motive</strong> in God. Calvin's use: <strong>this is the text that makes forgiveness non-delegable</strong>, and everything in S8–S9 depends on it.</li>
+<li><strong>Isaiah 42:8</strong> (S9, unreferenced) — <code>my glory will I not give to another</code>. ⚠️⚠️⚠️ <strong>Third appearance in five sections</strong> (§9, §11 S7 <code>whose glory cannot be given to another</code>, and today with <code>power</code> for <code>glory</code>). Calvin's use: <strong>the exclusivity premise, re-banked without citation</strong> — and today extended from divine <strong>titles</strong> to divine <strong>acts</strong>.</li>
+<li><strong>Matthew 9:6</strong> (S8) — <code>that ye may know that the Son of man hath power on earth to forgive sins</code>. Gk <em>ἐξουσίαν ἔχει</em>. ⚠️ Calvin's use: <strong>the miracle as evidence for the pardon</strong> — and note that the <em>epistemic</em> purpose clause (<code>that ye may know</code>) is Matthew's own, not Calvin's addition. <strong>Calvin is reporting an argument Scripture already makes.</strong></li>
+<li><strong>Mark 2:7 / Luke 5:21</strong> (S8, unreferenced) — <code>who can forgive sins but God only?</code> ⚠️ Calvin writes <code>the Jews thought that injustice was done to God</code>; <strong>that is this verse in indirect speech.</strong> Note the form of the objection: <strong>exclusivity frame (<code>but … only</code>) in Scripture's own words</strong> — the Jews supply Calvin's major premise.</li>
+<li><strong>John 20:23</strong> (behind S9, never quoted) — <code>Whose soever sins ye remit, they are remitted unto them</code>. ⚠️⚠️ <strong>The text Calvin is guarding against.</strong> Because the apostles <em>do</em> have a ministry of forgiveness, <code>Christ forgave sins</code> proves nothing by itself — which is exactly why S9 has to say <code>**not the ministry** … but the inherent power</code>. <strong>The unquoted verse is the reason the sentence is built the way it is.</strong></li>
+<li><strong>1 Kings 8:39</strong> (S10, unreferenced) — <code>thou, **even thou only**, knowest the hearts of all the children of men</code>. ⚠️ <strong>The same emphatic exclusivity as S7's <code>I, even I</code></strong> — Solomon's prayer is the Old Testament's formal statement that heart-knowledge is a divine monopoly. Calvin's use: the unstated warrant for <code>the province of God alone</code>.</li>
+<li><strong>Jeremiah 17:10 / Psalm 7:9</strong> (S10, unreferenced) — <code>I the Lord search the heart, I try the reins</code>; <code>the righteous God trieth the hearts and reins</code>. ⚠️ Heb. <em>kəlāyôt</em>, "kidneys," the seat of the inmost affections — <strong>which is why Calvin's verb is <code>penetrate</code></strong>.</li>
+<li><strong>John 2:24–25 / Acts 1:24 / Revelation 2:23</strong> (S10–S11, unreferenced) — <code>he knew what was in man</code>; <code>Thou, Lord, **καρδιογνῶστα** of all men</code>; <code>I am he which searcheth the reins and hearts</code>. ⚠️ Calvin's use: <code>But Christ also had this power</code> (S11) is a <strong>summary of these</strong>, offered without a single citation. <strong>The minor premise of the last syllogism is left entirely to the reader's memory.</strong></li>
+</ol><p>⚠️ <strong>Count the unreferenced texts: Isa 42:8, Mark 2:7, John 20:23, 1 Kgs 8:39, Jer 17:10, Ps 7:9, John 2:25, Acts 1:24, Rev 2:23 — nine, against four that are cited.</strong> <strong>Exactly yesterday's ratio, and the same reason: §11 S1's <code>the selection of a few, rather than an accumulation of the whole</code> is still governing. When Calvin stops giving addresses, he is writing at speed for readers who already know the texts.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-8" data-period="8">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">8</span>
+    <span class="p-title">— Exam Problems</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><h3>① 어법 (Grammar) — one of the four underlined items is wrong</h3><blockquote>
+<p>The divinity of Christ, ⓐ<strong>if judged</strong> by his works, becomes still more evident; ⓑ<strong>nor he shares</strong> merely the government of the world with the Father, but also each of the other offices, ⓒ<strong>which cannot be communicated</strong> to creatures; and to search the heart is the province of God ⓓ<strong>alone</strong>.</p>
+</blockquote><p><strong>Answer: ⓑ.</strong></p><p><strong>출제 의도.</strong> ⓑ fronts the negative <code>nor</code> and then leaves the clause uninverted. <strong>A fronted negative requires subject-auxiliary inversion with do-support</strong>: <code>**nor does he** share merely …</code> (Formula 2, member ②). <code>nor he shares</code> is the single most recognisable error in period English, and it is the one item in the four that is actually ungrammatical. ⚠️ <strong>The three decoys all <em>look</em> wrong and are not.</strong> ⓐ <code>if judged</code> is a <strong>reduced passive adverbial clause</strong> whose implied subject is the main-clause subject <code>the divinity of Christ</code> (Formula 1) — "correcting" it to <em>if we judge</em> changes the voice and is the trap. ⓒ <code>which cannot be communicated</code> is a restrictive relative with a passive modal, and <code>communicate</code> = <em>impart</em> — correct as printed; a reader who takes <code>communicate</code> to mean <em>tell</em> will suspect it wrongly. ⓓ <strong>postposed <code>alone</code></strong> restricting the noun it follows (<code>the province of God alone</code>) is Formula 3 — correct, and moving it (<em>God's only province</em>) would change the meaning. <strong>Three of the four underlines test whether you will "fix" good period English; only one tests a real error.</strong></p><hr/><h3>② 내용일치 (Comprehension) — which of the following best represents Calvin's argument in §12?</h3><ol>
+<li>Calvin argues that Christ possessed both a ministry of forgiving sins, received from the Father, and an inherent power to govern the world, and that the two together prove his divinity.</li>
+<li>Calvin notes that the Jews of John 5, being dull and hostile, misconstrued Christ's saying about his Father's work, and he corrects their misreading in order to establish the true sense of the passage.</li>
+<li>Calvin argues that the works Scripture ascribes to Christ — governing and upholding all things, forgiving sins, and searching the heart — are functions that cannot be handed over to any creature, and that Christ exercises them in his own right rather than as a delegate.</li>
+<li>Calvin argues that because Christ performed miracles which the prophets and apostles could not perform, it follows that the power at work in him was inherent rather than derived.</li>
+</ol><p><strong>Answer: 3.</strong></p><p><strong>출제 의도.</strong> Option 3 states the section's spine: the catalogue (S5, S7–S9, S10), the criterion (<code>which cannot be communicated to creatures</code>, S6), and the axis (<code>not the ministry of forgiving sins, but the inherent power</code>, S9).</p><ul>
+<li><strong>1 — the <code>not A but B</code> trap, and the one most people fall into.</strong> S9 reads <code>he possessed in himself **not** the ministry of forgiving sins, **but** the inherent power</code>. ⚠️⚠️ <strong>The ministry is <em>denied</em>, not added.</strong> This option converts an exclusive contrast into the additive <code>not only A but also B</code> of S3 and S8. <strong>It is the sharpest distractor in the set precisely because the section contains both constructions.</strong></li>
+<li><strong>2 — direction flipped.</strong> S2 says the Jews <code>**perceived** that he was laying claim to divine power</code> — <strong>they read him correctly</strong>, and their dullness is conceded in order to make the testimony stronger, not to discredit it. ⚠️ Calvin corrects nothing; he <strong>endorses</strong> their reading and then turns it on the reader (<code>What, then, will be **our** stupidity …?</code>, S4).</li>
+<li><strong>4 — the right premise, the wrong section.</strong> The contrast between what prophets and apostles did <strong>as ministers</strong> and what Christ did <strong>by his own inherent might</strong> is §13, not §12: <code>they dispensed the gifts of God as his ministers, whereas he exerted his own inherent might.</code> ⚠️ §12 mentions no miracle except the one in S8, and that one is cited as <strong>evidence for the pardon</strong>, not as a comparison with the prophets. <strong>This option is true of the chapter and false of the section — which is exactly how a scope-overreach trap is built.</strong></li>
+</ul><hr/><h3>③ 영작 (Composition) — apply today's formulas</h3><blockquote>
+<p><em>세상을 다스리고 만물을 자기 안에 있는 능력으로 주관하는 일은 창조주 외에 그 누구에게도 속하지 않는다. 그리고 그는 단지 그 통치만 아버지와 함께 나누시는 것이 아니라, 피조물에게 넘겨질 수 없는 다른 각각의 직무도 나누신다. 그의 말씀은, 그가 행하신 일들로 판단한다면, 훨씬 더 분명해진다. 그가 가지신 것은 위임받은 직분이 아니라 주께서 다른 이에게 주지 않겠다고 선언하신 고유한 권능이었다.</em></p>
+</blockquote><p><strong>Target (each formula used, marked):</strong></p><p><code>To govern the world, and regulate all things by an energy inherent in himself, surely belongs to none but the Creator.</code> <strong>(Formula 3 — <code>belongs to none but X</code>; note the two infinitives share one <code>to</code>, and the compound subject takes the singular <code>belongs</code>.)</strong>
+<code>Nor does he merely share that government with the Father, but also each of the other offices, which cannot be communicated to creatures.</code> <strong>(Formula 2 ② — <code>Nor</code> + inversion, verb gapped in the second arm; Formula 3 — <code>cannot be communicated to</code>.)</strong>
+<code>His word, if judged by the works which he performed, becomes still more evident.</code> <strong>(Formula 1 — reduced passive clause, implied subject = <code>his word</code>.)</strong>
+<code>What he possessed was not a delegated office, but the inherent power which the Lord declares he will not give to another.</code> <strong>(Formula 2 ③ — <code>not A but B</code>, A denied; Formula 3 — <code>will not give to another</code>.)</strong></p><p><strong>출제 의도.</strong> The four sentences drill the four things most likely to break: <strong>(i)</strong> singular agreement after coordinated infinitive subjects (<code>To govern … and regulate … **belongs**</code>, not <em>belong</em>); <strong>(ii)</strong> the inversion after <code>Nor</code> and the gapping of the verb in the second arm; <strong>(iii)</strong> supplying the right implied subject in a reduced clause (<code>if judged</code> = <em>if it is judged</em>, subject = <code>his word</code>); <strong>(iv)</strong> choosing <code>not A but B</code> rather than <code>not only A but also B</code> when the Korean says 아니라, not 뿐 아니라. ⚠️ <strong>The commonest error on (iv) is writing <em>not only a delegated office but also the inherent power</em> — which gives Christ both, and reverses the section.</strong></p><hr/></div>
+</section>
+
+<section class="period" id="period-9" data-period="9">
+  <h2 class="period-head" onclick="togglePeriod(this)">
+    <span class="p-num">9</span>
+    <span class="p-title">— One-Line Wrap-up + Homework</span>
+    <span class="p-caret">–</span>
+  </h2>
+  <div class="period-body"><p><strong>One-line summary.</strong> Proof two of three arrives exactly as §11's <code>the **first** thing</code> promised, and the axis rotates from what Scripture <em>says</em> of Christ to what Christ <em>does</em>: <code>The divinity of Christ, **if judged by the works which are ascribed to him** in Scripture, becomes **still more evident**</code> (S1) — proved first from John 5, where the witnesses are <strong>hostile and dull and saw it anyway</strong> (<code>the Jews, **though most dull** in regard to his other sayings, **perceived** that he was laying claim to divine power</code>, S2) and where their murderous reaction measures the size of the claim (S3), the reproach then turned on the reader (<code>**What, then, will be our stupidity** if we do not perceive …?</code>, S4); then from a catalogue of works that <strong>cannot be handed to a creature</strong> — world-government <code>by **an energy inherent in himself**</code>, which <code>surely **belongs to none but the Creator**</code> (S5), widened in one stroke to <code>**each of the other offices, which cannot be communicated to creatures**</code> (S6), then narrowed again to forgiveness, where Isaiah's <code>**I, even I** … **for mine own sake**</code> (S7) lodges the motive in God and Christ <code>**not only asserted** … **but also proved it** by a miracle</code> (S8), yielding the sentence the whole section turns on — <code>**not the ministry** of forgiving sins, **but the inherent power** which the Lord declares **he will not give to another**</code> (S9) — and last the searching of the heart, <code>the **province of God alone**</code> (S10), <code>and therefore **we infer that Christ is God**</code> (S11). Grammar: ① <strong>reduced adverbial clauses</strong> — <code>if judged by …</code> (= <em>if it is judged</em>), <code>though most dull …</code> (= <em>though they were</em>), the missing subject always the main clause's, and <code>most dull</code> an <strong>elative</strong> superlative, not a ranking; ② <strong>the escalation family and its inversion</strong> — additive <code>not only A but also B</code> (S3, S8), <code>**Nor does he** merely A **but also** B</code> with fronted-negative inversion and a <strong>gapped</strong> verb (S6), and the <strong>exclusive</strong> <code>not A but B</code> in which A is <strong>denied</strong> (S9); ③ <strong>four exclusivity frames, one premise</strong> — <code>none but the Creator</code> (S5), <code>cannot be communicated to creatures</code> (S6), <code>will not give to another</code> (S9, Isa 42:8 for the third time), <code>the province of God alone</code> (S10), plus the adverbial <code>they sought **the more** to kill him</code> (S3).</p><p><strong>Homework (10 minutes).</strong></p><ol>
+<li><strong>Structure restoration.</strong> Take <strong>S9</strong> and write it on three lines: line 1 the frame <code>he possessed in himself **not** X **but** Y</code>, with <code>not</code> circled and <em>A is DENIED</em> written beside it; line 2 the two terms side by side — <code>the ministry of forgiving sins</code> / <code>the inherent power</code> — with <em>delegated, on another's authority</em> under the first and <em>underived, his own</em> under the second; line 3 the relative clause rebuilt in stages, <code>the Lord declares [that] he will not give [IT] to another</code> → <code>the inherent power **which** the Lord declares he will not give ___ to another</code>, with the <strong>gap</strong> marked and an arrow from <code>which</code> to it. Then take <strong>S5</strong> and lay it out as the syllogism Calvin suppresses (P1 <code>governing and regulating the world belongs to none but the Creator</code> · P2 <code>(this an Apostle ascribes to him, Heb. 1:3)</code> · C <code>therefore Christ is the Creator</code>), writing <em>conclusion suppressed until S11</em> beside the empty third line. Finally box the four exclusivity frames (S5, S6, S9, S10) on one line each and write the single premise they share underneath.</li>
+<li><strong>Composition.</strong> One short paragraph, English, containing (a) a <strong>reduced clause</strong> <code>if judged by …</code> with the implied subject clearly recoverable, (b) a <strong><code>Nor does he merely … but also …</code></strong> sentence with the verb gapped in the second arm, (c) a <strong><code>not A but B</code></strong> contrast in which A is genuinely denied, and (d) one <strong>exclusivity frame</strong> of your choice. <em>그의 권위는, 그가 행하신 일들로 판단한다면, 훨씬 더 분명해진다. 그는 단지 심판만 아버지와 함께 나누시는 것이 아니라, 피조물에게 넘겨질 수 없는 다른 각각의 직무도 나누신다. 그가 가지신 것은 위임받은 직분이 아니라 고유한 권능이었다. 마음을 살피는 것은 오직 하나님만의 영역이기 때문이다.</em> Target: <code>His authority, if judged by the works which he performed, becomes still more evident. Nor does he merely share the judgment with the Father, but also each of the other offices, which cannot be communicated to creatures. What he possessed was not a delegated office, but an inherent power. For to search the heart is the province of God alone.</code></li>
+<li><strong>Preview — §13, one line.</strong> Tomorrow proof <strong>three</strong>, and it opens with a rhetorical question instead of a thesis: <code>**How clearly and transparently does this appear in his miracles?**</code> ⚠️ Watch three things. <strong>(i)</strong> The <strong>concession first, then the difference</strong> — <code>I admit that similar and equal miracles were performed by the prophets and apostles; **but there is this very essential difference**, that **they dispensed the gifts of God as his ministers, whereas he exerted his own inherent might**.</code> ⚠️⚠️ <strong>Those are today's two words, <code>ministers</code> and <code>inherent</code>, doing the same job one section later. §12 and §13 are one argument.</strong> <strong>(ii)</strong> The <strong>a fortiori from delegation</strong>: <code>And **how should not he be** the true author of miracles, **who**, of his own authority, **commissions others** to perform them?</code> — <em>the one who hands out the power must have it</em>; then Peter's <code>**In the name of** Jesus Christ of Nazareth … rise up and walk</code> as the apostles' own admission of a derived power. <strong>(iii)</strong> The grammar to expect: <strong><code>How + adverb + does + S + V</code></strong> exclamatory inversion (<code>How clearly and transparently does this appear …?</code>), the <strong>concessive <code>I admit that … but</code></strong> frame, <strong><code>whereas</code></strong> as a contrastive conjunction, and another <strong><code>how should not he be …?</code></strong> rhetorical modal. ⚠️ <strong>Today his enemies watched him work; tomorrow his servants borrow his name.</strong></li>
+</ol><hr/><p><strong>Where we stopped:</strong> Book 1, Ch. 13, §12 끝. 다음은 Book 1, Ch. 13, §13.</p></div>
+</section>
+  </main>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('cal-theme',t)}catch(e){}
+  document.getElementById('btn-theme').classList.toggle('on',t==='dark');}
+function toggleTheme(){setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');}
+let fs=18;function setFs(v){fs=Math.max(14,Math.min(26,v));root.style.setProperty('--fs',fs+'px');
+  try{localStorage.setItem('cal-fs',fs)}catch(e){}}
+function togglePeriod(h){h.parentElement.classList.toggle('collapsed');
+  h.querySelector('.p-caret').textContent=h.parentElement.classList.contains('collapsed')?'+':'–';}
+function toggleCard(h){h.parentElement.classList.toggle('open');}
+function jumpToCard(sid){const c=document.getElementById(sid);if(!c)return;
+  c.closest('section.period')?.classList.remove('collapsed');c.classList.add('open');
+  c.scrollIntoView({behavior:'smooth',block:'center'});flash(c.querySelector('.scard-head'));}
+function flashFullText(bq){const sid=bq.getAttribute('data-s');const t=document.getElementById('ft-'+sid);
+  if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});flash(t);}
+function flash(el){if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');}
+function toggleFocus(){document.body.classList.toggle('focus');
+  document.getElementById('btn-focus').classList.toggle('on');}
+function toggleNav(){document.body.classList.toggle('nav-open');}
+function closeNavMobile(){document.body.classList.remove('nav-open');}
+// reading progress + scrollspy
+function onScroll(){const h=document.documentElement;
+  const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
+  document.getElementById('progress').style.width=p+'%';
+  let cur=null;document.querySelectorAll('section.period').forEach(s=>{
+    if(s.getBoundingClientRect().top<120)cur=s.id;});
+  document.querySelectorAll('nav.toc .toc-link').forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+cur);});}
+document.addEventListener('DOMContentLoaded',()=>{
+  try{const t=localStorage.getItem('cal-theme');if(t)setTheme(t);
+      const f=localStorage.getItem('cal-fs');if(f)setFs(+f);}catch(e){}
+  // default: 3- & 2-star cards open, 1-star collapsed
+  document.querySelectorAll('.scard').forEach(c=>{
+    if(c.getAttribute('data-lvl')!=='1')c.classList.add('open');});
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+});
+</script>
+<footer class="church"><b>한마음침례교회 · One Heart Baptist Church</b><br>미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus · <a href="../../index.html">교회 홈</a></footer></body>
+</html>
