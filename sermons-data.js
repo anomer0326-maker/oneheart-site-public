@@ -35169,6 +35169,602 @@ window.SERMONS_DATA = {
           "en": "May our Lord Jesus Christ, who received the burnt offering at Manoah's altar and offered Himself as the sacrifice on the cross, cleanse you and cause you to serve the living God every day. I bless you in the name of Jesus Christ."
         }
       ]
+    },
+    {
+      "id": "2026-11-08",
+      "date": "2026-11-08",
+      "title_ko": "받아서 되신 하나님? 스스로 존재하시는 하나님!",
+      "title_en": "A God Who Received His Deity? No! The Self-Existent God!",
+      "scripture_ref_ko": "요한복음 8:56–58",
+      "scripture_ref_en": "John 8:56–58",
+      "preacher_ko": "유병훈 목사",
+      "preacher_en": "Rev. Byong H. Yoo",
+      "series": "",
+      "scripture_text": [
+        {
+          "ko": "\"너희 조상 아브라함은 나의 때 볼 것을 즐거워하다가 보고 기뻐하였느니라 유대인들이 가로되 네가 아직 오십도 못되었는데 아브라함을 보았느냐 예수께서 가라사대 진실로 진실로 너희에게 이르노니 아브라함이 나기 전부터 내가 있느니라 하시니\" (요한복음 8:56–58)",
+          "en": "\"Your father Abraham rejoiced to see my day: and he saw it, and was glad. Then said the Jews unto him, Thou art not yet fifty years old, and hast thou seen Abraham? Jesus said unto them, Verily, verily, I say unto you, Before Abraham was, I am.\" (John 8:56–58)"
+        }
+      ],
+      "slides": [
+        {
+          "type": "title",
+          "title_ko": "받아서 되신 하나님? 스스로 존재하시는 하나님!",
+          "title_en": "A God Who Received His Deity? No! The Self-Existent God!",
+          "ref_ko": "요한복음 8:56–58",
+          "ref_en": "John 8:56–58",
+          "preacher_ko": "유병훈 목사",
+          "preacher_en": "Rev. Byong H. Yoo",
+          "date": "2026-11-08"
+        },
+        {
+          "type": "question",
+          "label_ko": "서론",
+          "label_en": "Introduction",
+          "ko": "우리는 예수님이 하나님이시라는 것을 믿습니다. 그런데 예수님은 \"하나님의 아들\"이라고 불리십니다. 그러면 예수님의 하나님 되심은 아버지에게서 받아 오신 것입니까?",
+          "en": "We believe that Jesus is God. Yet Jesus is called \"the Son of God.\" Then did Jesus receive His deity from the Father?"
+        },
+        {
+          "type": "bigidea",
+          "label_ko": "오늘의 한 문장",
+          "label_en": "Big Idea",
+          "ko": "예수님은 받아서 되신 하나님이 아니라 스스로 존재하시는 하나님이십니다. 아들로서는 아버지에게서 나셨지만, 하나님으로서는 누구에게서도 받지 않으셨습니다. 만물을 붙드시는 그 손이 우리를 붙드십니다.",
+          "en": "Jesus is not a God who became God by receiving; He is the self-existent God. As the Son He was begotten of the Father, but as God He received from no one. The hand that upholds all things upholds us.",
+          "left_ko": "받아서 되신 하나님?",
+          "left_en": "A God by Receiving?",
+          "left_desc_ko": "아버지가 하나님으로 세워 주신 분",
+          "left_desc_en": "One whom the Father set up as God",
+          "right_ko": "스스로 존재하시는 하나님",
+          "right_en": "The Self-Existent God",
+          "right_desc_ko": "여호와, 스스로 있는 자의 이름을 자기 것으로",
+          "right_desc_en": "LORD, the name of I AM, spoken as His own"
+        },
+        {
+          "type": "section",
+          "label_ko": "첫째",
+          "label_en": "First",
+          "num_ko": "첫째",
+          "num_en": "First",
+          "ko": "성경은 여호와의 것을 예수님께 돌립니다",
+          "en": "The Bible Ascribes What Is the LORD's to Jesus"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "요한복음 8:58",
+          "label_en": "John 8:58",
+          "ko": "\"예수께서 가라사대 진실로 진실로 너희에게 이르노니 아브라함이 나기 전부터 내가 있느니라 하시니\"",
+          "en": "\"Jesus said unto them, Verily, verily, I say unto you, Before Abraham was, I am.\"",
+          "ref_ko": "요한복음 8:58",
+          "ref_en": "John 8:58"
+        },
+        {
+          "type": "point",
+          "label_ko": "현재형 \"내가 있느니라\"",
+          "label_en": "The Present Tense: \"I Am\"",
+          "ko": "예수님은 \"내가 있었다\"가 아니라 \"내가 있느니라\"라고 하셨습니다. 시작이 있는 아브라함과 시작이 없는 자신을 가르신 말씀입니다. 유대인들은 모세가 들은 이름 \"스스로 있는 자\"를 알아듣고 돌을 들었습니다.",
+          "en": "Jesus did not say \"I was\" but \"I am.\" The word sets apart Abraham, who had a beginning, from Himself, who has none. The Jews recognized the name Moses heard, \"I AM,\" and took up stones."
+        },
+        {
+          "type": "point",
+          "label_ko": "\"하나님의 아들\"의 뜻",
+          "label_en": "What \"Son of God\" Means",
+          "ko": "성경이 아버지를 특별히 \"하나님\"이라 부르는 것은 아버지가 근원이시기 때문입니다. 그러나 하나님에게서 나신 분은 하나님이십니다. 아들은 아버지 곁의 또 다른 하나님이 아니라 아버지에게서 나신 그 하나님이시므로, 하나님은 한 분이십니다.",
+          "en": "The Bible calls the Father \"God\" in a special way because the Father is the source. But the One begotten of God is God. The Son is not another God beside the Father but that very God begotten of the Father; therefore God is one."
+        },
+        {
+          "type": "point",
+          "label_ko": "시간의 순서가 아니라 관계의 순서",
+          "label_en": "Not an Order of Time but of Relationship",
+          "ko": "하나님은 영원히 아버지이십니다. 그러면 아들도 영원히 함께 계셔야 합니다. 아들이 없었던 때가 있었다면 그때 하나님은 아버지가 아니셨을 것입니다. 아버지에게서 나셨다는 것은 누가 먼저냐가 아니라 누가 누구에게서 나셨느냐의 순서입니다.",
+          "en": "God is eternally the Father. Then the Son must also be eternally with Him. If there had been a time without the Son, God would not then have been the Father. \"Begotten of the Father\" is not about who came first, but about who is begotten of whom."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "요한복음 1:1",
+          "label_en": "John 1:1",
+          "ko": "\"태초에 말씀이 계시니라 이 말씀이 하나님과 함께 계셨으니 이 말씀은 곧 하나님이시니라\"",
+          "en": "\"In the beginning was the Word, and the Word was with God, and the Word was God.\"",
+          "ref_ko": "요한복음 1:1",
+          "ref_en": "John 1:1"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "요한복음 17:24",
+          "label_en": "John 17:24",
+          "ko": "\"아버지여 내게 주신 자도 나 있는 곳에 나와 함께 있어 아버지께서 창세 전부터 나를 사랑하시므로 내게 주신 나의 영광을 저희로 보게 하시기를 원하옵나이다\"",
+          "en": "\"Father, I will that they also, whom thou hast given me, be with me where I am; that they may behold my glory, which thou hast given me: for thou lovedst me before the foundation of the world.\"",
+          "ref_ko": "요한복음 17:24",
+          "ref_en": "John 17:24"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "요한복음 17:5",
+          "label_en": "John 17:5",
+          "ko": "\"아버지여 창세 전에 내가 아버지와 함께 가졌던 영화로써 지금도 아버지와 함께 나를 영화롭게 하옵소서\"",
+          "en": "\"And now, O Father, glorify thou me with thine own self with the glory which I had with thee before the world was.\"",
+          "ref_ko": "요한복음 17:5",
+          "ref_en": "John 17:5"
+        },
+        {
+          "type": "point",
+          "label_ko": "받으시지만 본래 자기 것",
+          "label_en": "Received, Yet His Own from the Beginning",
+          "ko": "아들은 모든 것을 아버지에게서 받으십니다. 그런데 받으신 영광은 창세 전에 아버지와 함께 가졌던 영광입니다. 아들이시기에 받으시지만, 하나님이신 것은 받아서 되신 것이 아닙니다.",
+          "en": "The Son receives everything from the Father. Yet the glory He receives is the glory He had with the Father before the world was. He receives because He is the Son, but His being God is not something He became by receiving."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "히브리서 1:10",
+          "label_en": "Hebrews 1:10",
+          "ko": "\"또 주여 태초에 주께서 땅의 기초를 두셨으며 하늘도 주의 손으로 지으신바라\"",
+          "en": "\"And, Thou, Lord, in the beginning hast laid the foundation of the earth; and the heavens are the works of thine hands:\"",
+          "ref_ko": "히브리서 1:10",
+          "ref_en": "Hebrews 1:10"
+        },
+        {
+          "type": "point",
+          "label_ko": "여호와의 것이 다 예수님의 것",
+          "label_en": "All That Is the LORD's Is Jesus'",
+          "ko": "이사야가 본 여호와의 영광, 거치는 돌, 꿇는 무릎, 땅의 기초를 두신 창조, 천사들의 경배. 한 분 하나님께 드린 모든 말씀을 성경은 예수님께 돌립니다. 예수님이 하나님이 아니시라면 있을 수 없는 일입니다.",
+          "en": "The glory of the LORD that Isaiah saw, the stone of stumbling, the bowing knees, the creation that laid the earth's foundation, the worship of the angels. Everything spoken of the one God, the Bible ascribes to Jesus. Impossible, if Jesus were not God."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "이사야 42:8",
+          "label_en": "Isaiah 42:8",
+          "ko": "\"나는 여호와니 이는 내 이름이라 나는 내 영광을 다른 자에게, 내 찬송을 우상에게 주지 아니하리라\"",
+          "en": "\"I am the LORD: that is my name: and my glory will I not give to another, neither my praise to graven images.\"",
+          "ref_ko": "이사야 42:8",
+          "ref_en": "Isaiah 42:8"
+        },
+        {
+          "type": "point",
+          "label_ko": "빌려 주신 영광이 아닙니다",
+          "label_en": "Not a Borrowed Glory",
+          "ko": "하나님은 자기 영광을 다른 자에게 주지 않으십니다. 그런데 그 영광을 예수님께 돌리십니다. 그러면 예수님은 \"다른 자\"가 아니십니다. 성경이 주님께 바치는 영광은 빌려 온 것이 아니라 원래부터 예수님 자신의 것입니다. 예수님이 바로 그 여호와이십니다.",
+          "en": "God does not give His glory to another. Yet He ascribes that glory to Jesus. Then Jesus is not \"another.\" The glory the Bible offers to the Lord is not borrowed; it is Jesus' own from the beginning. Jesus is that very LORD."
+        },
+        {
+          "type": "section",
+          "label_ko": "둘째",
+          "label_en": "Second",
+          "num_ko": "둘째",
+          "num_en": "Second",
+          "ko": "그러므로 예수님은 스스로 존재하시는 하나님이십니다",
+          "en": "Therefore Jesus Is the Self-Existent God"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "출애굽기 3:14",
+          "label_en": "Exodus 3:14",
+          "ko": "\"하나님이 모세에게 이르시되 나는 스스로 있는 자니라 또 이르시되 너는 이스라엘 자손에게 이같이 이르기를 스스로 있는 자가 나를 너희에게 보내셨다 하라\"",
+          "en": "\"And God said unto Moses, I AM THAT I AM: and he said, Thus shalt thou say unto the children of Israel, I AM hath sent me unto you.\"",
+          "ref_ko": "출애굽기 3:14",
+          "ref_en": "Exodus 3:14"
+        },
+        {
+          "type": "point",
+          "label_ko": "여호와는 스스로 있는 자의 이름",
+          "label_en": "LORD Is the Name of the One Who Is",
+          "ko": "여호와는 누가 있게 해 주어서 계신 분이 아니라 본래부터 스스로 계신 분의 이름입니다. 성경이 그 이름을 예수님께 쓴다면, 예수님은 하나님으로서 스스로 존재하시는 분이십니다.",
+          "en": "LORD is the name not of one whom someone caused to exist, but of the One who is of Himself from the beginning. If the Bible uses that name for Jesus, then Jesus, as God, exists of Himself."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "이사야 44:6",
+          "label_en": "Isaiah 44:6",
+          "ko": "\"이스라엘의 왕인 여호와, 이스라엘의 구속자인 만군의 여호와가 말하노라 나는 처음이요 나는 마지막이라 나 외에 다른 신이 없느니라\"",
+          "en": "\"Thus saith the LORD the King of Israel, and his redeemer the LORD of hosts; I am the first, and I am the last; and beside me there is no God.\"",
+          "ref_ko": "이사야 44:6",
+          "ref_en": "Isaiah 44:6"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "예레미야 10:11",
+          "label_en": "Jeremiah 10:11",
+          "ko": "\"너희는 이같이 그들에게 이르기를 천지를 짓지 아니한 신들은 땅 위에서, 이 하늘 아래서 망하리라 하라\"",
+          "en": "\"Thus shall ye say unto them, The gods that have not made the heavens and the earth, even they shall perish from the earth, and from under these heavens.\"",
+          "ref_ko": "예레미야 10:11",
+          "ref_en": "Jeremiah 10:11"
+        },
+        {
+          "type": "point",
+          "label_ko": "나셨다와 지음 받았다는 다릅니다",
+          "label_en": "Begotten Is Not Made",
+          "ko": "하늘과 땅을 지으신 분만이 참 하나님이신데, 땅의 기초를 두신 분이 아들이십니다. 모든 것에 있음을 주시는 창조주가 자기 있음을 빌리셨을 리 없습니다. 아들은 아버지에게서 나심으로 아버지의 본질을 같이 가지시는 것이지, 지음을 받으신 것이 아닙니다.",
+          "en": "Only the One who made heaven and earth is the true God, and the One who laid the earth's foundation is the Son. The Creator who gives being to all things could not have borrowed His own being. The Son, begotten of the Father, shares the Father's essence; He was not made."
+        },
+        {
+          "type": "section",
+          "label_ko": "셋째",
+          "label_en": "Third",
+          "num_ko": "셋째",
+          "num_en": "Third",
+          "ko": "스스로 존재하시는 하나님이 우리를 붙드십니다",
+          "en": "The Self-Existent God Upholds Us"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "히브리서 1:3",
+          "label_en": "Hebrews 1:3",
+          "ko": "\"이는 하나님의 영광의 광채시요 그 본체의 형상이시라 그의 능력의 말씀으로 만물을 붙드시며 죄를 정결케 하는 일을 하시고 높은 곳에 계신 위엄의 우편에 앉으셨느니라\"",
+          "en": "\"Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high;\"",
+          "ref_ko": "히브리서 1:3",
+          "ref_en": "Hebrews 1:3"
+        },
+        {
+          "type": "point",
+          "label_ko": "광채가 만물을 붙드십니다",
+          "label_en": "The Brightness Upholds All Things",
+          "ko": "광채라고 하신 바로 그 아들이 능력의 말씀으로 만물을 붙드십니다. 비쳐 보이기만 하는 것이 만물을 붙들 수는 없습니다. 태양이 터지지도 무너지지도 않고 오늘 아침에도 떠오른 것은 아들이 붙들고 계시기 때문입니다.",
+          "en": "The very Son who is called the brightness upholds all things by the word of His power. A mere reflection cannot uphold all things. The sun rose again this morning, neither bursting nor collapsing, because the Son is holding it."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "요한복음 10:28",
+          "label_en": "John 10:28",
+          "ko": "\"내가 저희에게 영생을 주노니 영원히 멸망치 아니할 터이요 또 저희를 내 손에서 빼앗을 자가 없느니라\"",
+          "en": "\"And I give unto them eternal life; and they shall never perish, neither shall any man pluck them out of my hand.\"",
+          "ref_ko": "요한복음 10:28",
+          "ref_en": "John 10:28"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "이사야 41:10",
+          "label_en": "Isaiah 41:10",
+          "ko": "\"두려워 말라 내가 너와 함께 함이니라 놀라지 말라 나는 네 하나님이 됨이니라 내가 너를 굳세게 하리라 참으로 너를 도와 주리라 참으로 나의 의로운 오른손으로 너를 붙들리라\"",
+          "en": "\"Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness.\"",
+          "ref_ko": "이사야 41:10",
+          "ref_en": "Isaiah 41:10"
+        },
+        {
+          "type": "point",
+          "label_ko": "그 손이 우리를 붙드십니다",
+          "label_en": "That Hand Upholds Us",
+          "ko": "태양을 붙드시는 그 손이 우리의 인생과 영혼과 육신을 붙드십니다. 우리 손은 나이가 들면 약해지지만, 나를 쥐고 계신 손은 절대 약해지지 않습니다. 스스로 존재하시는 하나님의 손이기 때문입니다. 그러니 그 손에 맡기고, 주님의 뜻을 내 뜻보다 앞에 놓아야 합니다.",
+          "en": "The hand that holds the sun holds our lives, souls, and bodies. Our hands weaken with age, but the hand that holds me never weakens, because it is the hand of the self-existent God. So entrust yourself to that hand, and put the Lord's will before your own."
+        },
+        {
+          "type": "conclusion",
+          "label_ko": "결론",
+          "label_en": "Conclusion",
+          "ko": "예수님은 빌린 이름도 훔친 이름도 아닌 자기 이름을 말씀하셨습니다. 우리를 붙드시는 손은 스스로 존재하시는 하나님의 손이라 힘이 다하지도 마음이 변하지도 않습니다. 우리 구원은 내 손이 아니라 그 손 위에 서 있습니다. 그러므로 이 주님을 믿고, 하나님께만 드리는 경배를 아들께 드립니다.",
+          "en": "Jesus spoke not a borrowed or stolen name but His own. The hand that holds us is the hand of the self-existent God; its strength never fails and its heart never changes. Our salvation stands not on my hand but on that hand. Therefore we believe in this Lord and give the Son the worship due to God alone."
+        },
+        {
+          "type": "blessing",
+          "label_ko": "축원",
+          "label_en": "Benediction",
+          "ko": "스스로 존재하시는 하나님, 우리를 붙드시는 우리 하나님 예수 그리스도를 끝까지 믿고 그 존귀하심 그대로 경배하는 여러분 되시기를 예수 그리스도의 이름으로 축원 드립니다.",
+          "en": "May you believe to the end in Jesus Christ, the self-existent God, our God who upholds us, and worship Him according to all His worth. I bless you in the name of Jesus Christ."
+        }
+      ],
+      "body": [
+        {
+          "ko": "본문 낭독",
+          "en": "Scripture Reading",
+          "section": true
+        },
+        {
+          "ko": "\"너희 조상 아브라함은 나의 때 볼 것을 즐거워하다가 보고 기뻐하였느니라 유대인들이 가로되 네가 아직 오십도 못되었는데 아브라함을 보았느냐 예수께서 가라사대 진실로 진실로 너희에게 이르노니 아브라함이 나기 전부터 내가 있느니라 하시니\" (요한복음 8:56–58)",
+          "en": "\"Your father Abraham rejoiced to see my day: and he saw it, and was glad. Then said the Jews unto him, Thou art not yet fifty years old, and hast thou seen Abraham? Jesus said unto them, Verily, verily, I say unto you, Before Abraham was, I am.\" (John 8:56–58)"
+        },
+        {
+          "ko": "서론",
+          "en": "Introduction",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 우리는 빌려 쓰는 것이 참 많습니다. 집도 돈을 빌려 살고, 차도 빌려 타고, 돈도 빌려 씁니다. 빌린 것은 쓰는 동안은 내 것 같습니다. 그런데 빌린 것에는 한 가지 분명한 것이 있습니다. 주인이 따로 있다는 것입니다. 주인이 돌려 달라고 하면 돌려주어야 합니다. 아무리 오래 썼어도, 아무리 내 것처럼 썼어도, 빌린 것은 끝내 내 것이 아닌 것입니다. 하지만 내 것은 다릅니다. 내 것은 누구에게 돌려줄 것이 없습니다.",
+          "en": "Dear brothers and sisters, we borrow a great many things. We buy a house with borrowed money, we lease a car, we borrow money itself. While we are using it, a borrowed thing feels like our own. But one thing is certain about anything borrowed: it has an owner. When the owner asks for it back, we must return it. However long we have used it, however much we have used it as our own, a borrowed thing is in the end not ours. But what is truly mine is different. What is mine, I owe to no one."
+        },
+        {
+          "ko": "우리는 예수님이 하나님이시라는 것을 믿습니다. 그런데 어떻게 하나님이신지를 물으면 말이 막힐 때가 있습니다. 예수님은 사람이신데 어떻게 하나님이신가. 아버지 하나님이 계신데, 그러면 아버지가 예수님을 하나님으로 만들어 주신 것인가. 이런 생각이 듭니다. 오늘은 이 물음을 가지고 말씀을 보려고 합니다. 오늘 성경이 그 답을 줍니다.",
+          "en": "We believe that Jesus is God. Yet when someone asks how He is God, there are times when we are at a loss for words. Jesus is a man, so how is He God? There is God the Father, so did the Father make Jesus into God? Such thoughts come to us. Today we want to look at the Word with this question. Today the Bible gives us the answer."
+        },
+        {
+          "ko": "지난번에 우리는 우리가 예배하는 예수님이 이스라엘이 늘 예배해 온 바로 그 여호와 하나님이시라는 말씀을 들었습니다. 마노아와 그 아내가 얼굴을 땅에 대고 엎드려 뵌 그 여호와의 사자가 우리 주님이셨습니다. 그런데 여기서 한 가지 생각이 더 들 수 있습니다. 예수님은 \"하나님의 아들\"이라고 불리십니다. 아들이면 아버지에게서 났다는 말입니다. 그러면 예수님이 하나님이신 것도 아버지 하나님에게서 받으신 것입니까? 아버지만 본래 하나님이시고, 아들은 아버지가 하나님으로 세워 주신 분입니까? 말하자면, 예수님의 하나님 되심은 아버지에게서 받아 오신 것입니까?",
+          "en": "Last time we heard that the Jesus we worship is the very LORD God whom Israel has always worshiped. The angel of the LORD before whom Manoah and his wife fell on their faces to the ground was our Lord. But here one more thought may arise. Jesus is called \"the Son of God.\" A son is one who is begotten of a father. Then is Jesus' being God also something He received from God the Father? Is the Father alone God by nature, and the Son one whom the Father set up as God? In other words, did Jesus receive His deity from the Father?"
+        },
+        {
+          "ko": "답부터 말씀드리겠습니다. 아닙니다. 예수님은 받아서 되신 하나님이 아니라, 스스로 존재하시는 하나님이십니다. 아들로서는 아버지 하나님에게서 나셨습니다. 그러나 하나님으로서는 누구에게서도 받으신 분이 아닙니다.",
+          "en": "Let me give the answer first. No. Jesus is not a God who became God by receiving; He is the self-existent God. As the Son, He was begotten of God the Father. But as God, He received from no one."
+        },
+        {
+          "ko": "오늘 본문이 바로 그 말씀입니다. 예수님이 유대인들과 아브라함을 두고 말씀하시던 장면입니다.",
+          "en": "Today's text is exactly that word. It is the scene where Jesus was speaking with the Jews about Abraham."
+        },
+        {
+          "ko": "성경은 말씀하십니다.",
+          "en": "The Bible says:"
+        },
+        {
+          "ko": "\"너희 조상 아브라함은 나의 때 볼 것을 즐거워하다가 보고 기뻐하였느니라\" (요한복음 8:56)",
+          "en": "\"Your father Abraham rejoiced to see my day: and he saw it, and was glad.\" (John 8:56)"
+        },
+        {
+          "ko": "\"유대인들이 가로되 네가 아직 오십도 못되었는데 아브라함을 보았느냐\" (요한복음 8:57)",
+          "en": "\"Then said the Jews unto him, Thou art not yet fifty years old, and hast thou seen Abraham?\" (John 8:57)"
+        },
+        {
+          "ko": "\"예수께서 가라사대 진실로 진실로 너희에게 이르노니 아브라함이 나기 전부터 내가 있느니라 하시니\" (요한복음 8:58)",
+          "en": "\"Jesus said unto them, Verily, verily, I say unto you, Before Abraham was, I am.\" (John 8:58)"
+        },
+        {
+          "ko": "아브라함이 나기 전부터 내가 있느니라. \"내가 있었다\"라고 과거로 말씀하시지 않으셨습니다. 현재형으로 \"내가 있느니라\"라고 말씀하신 것입니다. 아브라함은 예수님보다 이천 년쯤 앞선 사람입니다. 지금 이 자리에 서 계신 분이, 그 아브라함이 나기 전부터, \"있다\"라고 말씀하시는 것입니다. 이것은 아브라함보다 나이가 많다는 말씀이 아닙니다. 인간으로 태어나 시작이 있는 아브라함과 영원하신 존재로서 아예 시작이 없는 자신을 가르신 말씀입니다. 그러나 이 말을 들은 사람들은 돌을 들었습니다. 왜 돌을 들었습니까? 이 말이 무슨 말인지 이스라엘 사람들은 정확하게 알았기 때문입니다. 모세가 떨기나무 앞에서 들은 하나님의 이름, \"스스로 있는 자\"를 이 사람이 자기 입으로 자신을 가리키며 사용하고 있다고 생각한 것입니다.",
+          "en": "Before Abraham was, I am. He did not say \"I was,\" in the past tense. He said \"I am,\" in the present tense. Abraham lived about two thousand years before Jesus. The One standing there at that moment says that before that Abraham was born, He \"is.\" This is not a claim to be older than Abraham. It is a word that sets apart Abraham, who was born a man and had a beginning, from Himself, the eternal One who has no beginning at all. But the people who heard this took up stones. Why did they take up stones? Because the people of Israel knew exactly what these words meant. They understood that this man was using the name of God that Moses heard before the burning bush, \"I AM,\" with his own mouth, pointing to himself."
+        },
+        {
+          "ko": "그들이 보기에 이것은 사람이 하나님의 이름을 훔친 것이었습니다. 그렇습니다. 분명히 예수님은 하나님의 이름을 자신의 이름으로 말씀하셨습니다. 그러면 이 이름은 정말 예수님 자신의 이름입니까? 우리는 예수님의 이 이름을 어떻게 이해해야 합니까? 이 물음에 성경이 답하십니다. 오늘은 세 가지를 성경에서 찾아 확인해 보겠습니다. 먼저 성경이 예수님을 어떻게 말하는지, 다음에 그것이 무슨 뜻인지, 마지막으로 그것이 우리와 무슨 상관인지 보겠습니다.",
+          "en": "In their eyes, this was a man stealing the name of God. Yes. Jesus clearly spoke the name of God as His own name. Then is this name really Jesus' own? How are we to understand this name of Jesus? The Bible answers this question. Today we will find and confirm three things from the Bible. First, how the Bible speaks of Jesus; next, what that means; and finally, what it has to do with us."
+        },
+        {
+          "ko": "1. 성경은 여호와의 것을 예수님께 돌립니다",
+          "en": "1. The Bible Ascribes What Is the LORD's to Jesus",
+          "section": true
+        },
+        {
+          "ko": "1-1. \"하나님의 아들\"이라는 이름은 그런 뜻이 아닙니다",
+          "en": "1-1. The Name \"Son of God\" Does Not Mean That",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 먼저 \"하나님의 아들\"이라는 이름부터 살펴보겠습니다. 이렇게 물을 수 있습니다. 예수님이 \"하나님의 아들\"이라고 불리시고, 하나님은 한 분뿐이시니, 하나님은 예수님보다 높으신 아버지 한 분뿐이라는 말 아닙니까? 그러나 성경의 대답은 그렇지 않습니다. 성경이 아버지를 특별히 \"하나님\"이라고 부를 때가 있는 것은 사실입니다. 그것은 아버지가 모든 것의 근원이시기 때문입니다. 아들은 아버지에게서 나셨고, 아버지는 누구에게서도 나지 않으셨습니다. 그래서 그 이름이 아버지께 가는 것입니다. 그런데 성경이 그렇게 부르는 까닭이 무엇입니까? 역설적으로 이것은 하나님이 둘이 아니라 한 분이시라는 것을 보이기 위해서입니다.",
+          "en": "Dear brothers and sisters, let us first look at the name \"Son of God.\" One might ask: since Jesus is called \"the Son of God,\" and there is only one God, does this not mean that God is the Father alone, who is higher than Jesus? But the Bible's answer is no. It is true that there are times when the Bible calls the Father \"God\" in a special way. That is because the Father is the source of all things. The Son was begotten of the Father, and the Father was begotten of no one. That is why the name goes to the Father. But why does the Bible speak this way? Paradoxically, it is to show that God is not two but one."
+        },
+        {
+          "ko": "그러면 이런 생각이 들 것입니다. 근원이 아버지시라면, 아버지만 하나님이신 것 아닌가. 아닙니다. 아버지에게서 나신 분이 누구십니까? 사람에게서 난 것은 사람입니다. 하나님에게서 나신 분은 하나님이십니다. 아들은 하나님에게서 나신 하나님이십니다. 그러니 아버지가 근원이시라는 말은 아들이 어디에서 나셨는지를 말하는 것이지, 아들이 하나님이 아니라는 말이 아닙니다. 오히려 그 반대입니다. 아들이 아버지와 상관없이 따로 계신 하나님이라면 하나님이 둘이 됩니다. 그러나 아들은 아버지에게서 나셨습니다. 아버지 곁에 따로 서 있는 또 하나의 하나님이 아니라, 아버지에게서 나신 그 하나님이십니다. 그래서 하나님은 둘이 아니라 한 분이십니다. 교회가 \"아버지와 아들은 본질이 하나이시다\"라고 고백해 온 것이 바로 이 말입니다. 성경이 아버지를 특별히 \"하나님\"이라고 부르는 것은 바로 이것을 보이려는 것입니다. 하나님이 한 분이시라는 것입니다.",
+          "en": "Then this thought may come: if the Father is the source, is the Father alone God? No. Who is the One begotten of the Father? What is born of man is man. The One begotten of God is God. The Son is God begotten of God. So to say that the Father is the source is to say where the Son comes from; it is not to say that the Son is not God. Rather, the opposite. If the Son were a God existing separately, apart from the Father, there would be two Gods. But the Son was begotten of the Father. He is not another God standing on His own beside the Father; He is that very God begotten of the Father. That is why God is not two but one. This is exactly what the church has confessed: \"The Father and the Son are one in essence.\" The Bible calls the Father \"God\" in a special way precisely to show this: that God is one."
+        },
+        {
+          "ko": "그러면 \"아버지에게서 나셨다\"는 말은 아버지가 먼저 계시고 아들이 나중에 생기셨다는 뜻입니까? 아닙니다. 생각해 보십시오. 자녀 없는 아버지는 없습니다. 아버지라는 이름 자체가 자녀를 필요로 합니다. 자녀가 태어나는 날 그 사람은 아버지가 됩니다. 그 전에는 아버지가 아닙니다. 그런데 하나님은 영원히 아버지이십니다. 영원히 아버지이시라는 것은 언제나 아버지이셨고, 지금도 아버지이시고, 앞으로도 아버지이시라는 뜻입니다. 그러면 아들도 영원히 함께 계셔야 합니다. 아들이 없었던 때가 있었다면, 그때 하나님은 아버지가 아니셨다는 말이 되기 때문입니다. 그러니 아버지가 근원이시고 아들이 아버지에게서 나셨다는 순서는, 누가 먼저냐 하는 시간의 순서가 아닙니다. 누가 누구에게서 나셨느냐 하는 관계의 순서입니다. 우리 집에서는 아버지가 먼저 태어나고 아들이 나중에 태어납니다. 하나님께는 그런 먼저와 나중이 없습니다. 아들이 안 계셨던 때가 없기 때문입니다. 아버지는 영원히 아버지이시고, 아들은 영원히 아들이십니다. 그리고 성령은 영원히 아버지와 아들에게서 나오시는 영이십니다.",
+          "en": "Then does \"begotten of the Father\" mean that the Father existed first and the Son came into being later? No. Think about it. There is no father without a child. The very name \"father\" requires a child. On the day a child is born, that person becomes a father. Before that, he is not a father. But God is eternally the Father. To be eternally the Father means He was always the Father, is the Father now, and will be the Father forever. Then the Son must also be with Him eternally. For if there had been a time when there was no Son, then at that time God would not have been the Father. So the order in which the Father is the source and the Son is begotten of the Father is not an order of time, of who came first. It is an order of relationship, of who is begotten of whom. In our homes the father is born first and the son is born later. With God there is no such before and after, because there was never a time when the Son was not. The Father is eternally the Father, and the Son is eternally the Son. And the Holy Spirit is eternally the Spirit who proceeds from the Father and the Son."
+        },
+        {
+          "ko": "이것은 우리의 머리로 지어낸 헛된 말이 아닙니다. 말씀은 태초에 이미 하나님과 함께 계셨습니다.",
+          "en": "This is not empty talk invented by our own minds. In the beginning the Word was already with God."
+        },
+        {
+          "ko": "성경은 말씀하십니다.",
+          "en": "The Bible says:"
+        },
+        {
+          "ko": "\"태초에 말씀이 계시니라 이 말씀이 하나님과 함께 계셨으니 이 말씀은 곧 하나님이시니라\" (요한복음 1:1)",
+          "en": "\"In the beginning was the Word, and the Word was with God, and the Word was God.\" (John 1:1)"
+        },
+        {
+          "ko": "\"그가 태초에 하나님과 함께 계셨고\" (요한복음 1:2)",
+          "en": "\"The same was in the beginning with God.\" (John 1:2)"
+        },
+        {
+          "ko": "태초에 말씀이 계셨습니다. 창조되거나 생기신 것이 아니라 원래부터 계셨습니다. 이 우주가 시작되기도 전, 하나님 외에는 아무것도 없던 그때 태초에 말씀은 이미 계셨던 것입니다. 그 말씀이 하나님과 함께 계셨습니다. 그 말씀이 아버지와 함께 계신 아들이십니다. 그리고 이 말씀은 곧 하나님이셨습니다. 하나님과 함께 계시면서 하나님이신 것입니다. 요한은 이 세 가지를 요한복음 1장 1절, 한 절에 말씀하십니다. 말씀이 계셨고, 하나님과 함께 계셨고, 말씀이 하나님이셨다. 그리고 주님은 십자가를 앞두고 아버지께 이렇게 기도하셨습니다.",
+          "en": "In the beginning was the Word. He was not created and did not come into being; He was from the beginning. Before this universe even began, when there was nothing but God, in the beginning the Word already was. That Word was with God. That Word is the Son who is with the Father. And this Word was God. He is with God, and He is God. John says these three things in one verse, John 1:1: the Word was, the Word was with God, and the Word was God. And before the cross, the Lord prayed to the Father like this."
+        },
+        {
+          "ko": "성경은 말씀하십니다.",
+          "en": "The Bible says:"
+        },
+        {
+          "ko": "\"아버지여 내게 주신 자도 나 있는 곳에 나와 함께 있어 아버지께서 창세 전부터 나를 사랑하시므로 내게 주신 나의 영광을 저희로 보게 하시기를 원하옵나이다\" (요한복음 17:24)",
+          "en": "\"Father, I will that they also, whom thou hast given me, be with me where I am; that they may behold my glory, which thou hast given me: for thou lovedst me before the foundation of the world.\" (John 17:24)"
+        },
+        {
+          "ko": "창세 전부터 나를 사랑하시므로. 세상이 있기 전에 아버지는 이미 아들을 사랑하고 계셨다는 것입니다. 얼마 전에 우리가 「사랑은 혼자 있을 수 없다」에서 확인한 하나님의 바로 그 사랑입니다. 하나님은 창세 전부터 아들을 사랑하셨고, 그러므로 하나님께 아들이 없었던 때는 없었던 것입니다.",
+          "en": "For thou lovedst me before the foundation of the world. Before the world existed, the Father was already loving the Son. This is the very love of God we confirmed not long ago in \"Love Cannot Be Alone.\" God loved the Son before the foundation of the world, and therefore there was never a time when God was without the Son."
+        },
+        {
+          "ko": "그런데 이 말씀에 \"내게 주신 나의 영광\"이라는 말이 있습니다. 그러면 누군가는 이렇게 물을 수 있습니다. 아버지께서 영광을 주셨다면 아들이 받으신 것 아닙니까? 그렇습니다. 아들은 모든 것을 아버지에게서 받으십니다. 아들이시기 때문입니다. 그러면 아버지께 받으시는 아들은 아버지보다 못한 분입니까? 그 영광이 어떤 영광인지 보십시오.",
+          "en": "But in this verse there is the phrase \"my glory, which thou hast given me.\" Then someone may ask: if the Father gave the glory, did the Son not receive it? Yes. The Son receives everything from the Father, because He is the Son. Then is the Son, who receives from the Father, lesser than the Father? Look at what kind of glory this is."
+        },
+        {
+          "ko": "같은 기도에서 주님은 이렇게 말씀하셨습니다.",
+          "en": "In the same prayer the Lord said this:"
+        },
+        {
+          "ko": "\"아버지여 창세 전에 내가 아버지와 함께 가졌던 영화로써 지금도 아버지와 함께 나를 영화롭게 하옵소서\" (요한복음 17:5)",
+          "en": "\"And now, O Father, glorify thou me with thine own self with the glory which I had with thee before the world was.\" (John 17:5)"
+        },
+        {
+          "ko": "창세 전에 아버지와 함께 가졌던 영광입니다. 세상이 있기 전부터 아들에게 있던 영광입니다. 그러니 아버지께서 주셨다는 말은 아들에게 없던 것을 새로 주셨다는 말이 아닙니다. 아버지와 아들 사이의 주고받음은 이렇습니다. 아버지는 주시고 아들은 받으십니다. 그런데 받으신 것이 본래부터 아들의 것입니다. 그러니 아들이 아버지에게서 받으신다는 것과 아들이 하나님이시라는 것은 부딪히지 않습니다. 아들이시기에 받으십니다. 그러나 하나님이신 것은 받아서 되신 것이 아닙니다. 본래부터 하나님이십니다. 오늘 우리가 보려는 것이 바로 이것입니다. \"하나님의 아들\"이라는 이름은 아들이 영원히 아버지에게서 나셨다는 말입니다. 아버지에게서 나신 하나님이라는 말입니다.",
+          "en": "It is the glory He had with the Father before the world was. It is the glory that belonged to the Son before the world existed. So to say that the Father gave it does not mean the Father newly gave the Son something He did not have. The giving and receiving between the Father and the Son is like this: the Father gives and the Son receives. Yet what He receives has been the Son's own from the beginning. So the Son's receiving from the Father and the Son's being God do not conflict. He receives because He is the Son. But His being God is not something He became by receiving. He is God from the beginning. This is exactly what we want to see today. The name \"Son of God\" means that the Son is eternally begotten of the Father. It means God begotten of the Father."
+        },
+        {
+          "ko": "1-2. 성경은 여호와께 속한 것을 예수님께 돌립니다",
+          "en": "1-2. The Bible Ascribes What Belongs to the LORD to Jesus",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 그러면 이제 이렇게 물어야 합니다. 성경이 \"하나님\"이라고 할 때, 아버지만 가리키는 것입니까? 아닙니다. 성경은 한 분 하나님께 속한 것을 예수님께 그대로 적용해 말씀하십니다.",
+          "en": "Dear brothers and sisters, now we must ask this: when the Bible says \"God,\" does it mean the Father alone? No. The Bible applies what belongs to the one God directly to Jesus."
+        },
+        {
+          "ko": "이사야는 성전에서 만군의 여호와이신 왕을 뵙고 화로다 나여 망하게 되었도다 하고 탄식했습니다. 그런데 요한은 그날 이사야가 본 영광이 예수님의 영광이었다고 말씀하십니다. 이사야에서 거치는 돌, 걸리는 반석이 되시겠다고 하신 분은 만군의 여호와이신데, 바울은 그 돌이 예수님이라고 말씀하십니다. 여호와께서 자기를 두고 맹세하시기를 내게 모든 무릎이 꿇겠다고 하셨는데, 바울은 그 말씀이 예수님을 말씀하시는 것이라고 하시고, 예수의 이름 앞에 모든 무릎을 꿇게 하셨다고 말씀하십니다.",
+          "en": "Isaiah saw the King, the LORD of hosts, in the temple and cried out, Woe is me, for I am undone. Yet John says that the glory Isaiah saw that day was the glory of Jesus. In Isaiah, the One who said He would be a stone of stumbling and a rock of offence is the LORD of hosts, but Paul says that stone is Jesus. The LORD swore by Himself that every knee would bow to Him, but Paul says that word speaks of Jesus, and that at the name of Jesus every knee shall bow."
+        },
+        {
+          "ko": "시편은 땅의 기초를 두신 여호와를 노래합니다. 그러나 히브리서 1장은 아들에 관하여 하는 말이라고 먼저 밝히고, 그 노래를 그대로 아들이신 예수님께 씁니다.",
+          "en": "The Psalms sing of the LORD who laid the foundation of the earth. But Hebrews chapter 1 first states that it is speaking of the Son, and then applies that song, just as it is, to Jesus the Son."
+        },
+        {
+          "ko": "성경은 말씀하십니다.",
+          "en": "The Bible says:"
+        },
+        {
+          "ko": "\"또 주여 태초에 주께서 땅의 기초를 두셨으며 하늘도 주의 손으로 지으신바라\" (히브리서 1:10)",
+          "en": "\"And, Thou, Lord, in the beginning hast laid the foundation of the earth; and the heavens are the works of thine hands:\" (Hebrews 1:10)"
+        },
+        {
+          "ko": "아들에 관하여 하신 말씀입니다. 땅의 기초를 두신 분이 아들이시라는 것입니다. 시편은 또 모든 신들에게 여호와께 경배하라고 합니다. 경배는 당연히 하나님께만 드리는 것입니다. 천사도 경배를 받지 못하는 법입니다. 그런데 히브리서에서 하나님께서는 친히 모든 천사에게 일러 아들께 경배하라고 하십니다.",
+          "en": "This is said of the Son. The One who laid the foundation of the earth is the Son. The Psalms also tell all the gods to worship the LORD. Worship, of course, is given to God alone. Not even an angel may receive worship. Yet in Hebrews, God Himself commands all the angels to worship the Son."
+        },
+        {
+          "ko": "성경 어디를 펴도 같습니다. 여호와의 영광, 여호와라는 거치는 돌, 여호와께 꿇는 무릎, 여호와의 창조, 여호와께 드리는 경배. 이 모든 말씀은 한 분 하나님께 드린 말씀입니다. 그런데 성경은 그 모든 것이 다 예수님의 것이라고 말씀하십니다. 예수님이 하나님이 아니시라면 있을 수 없는 일입니다. 하나님의 말씀이신 성경이 신약과 구약을 넘나들며 우리 주 예수 그리스도를 그렇게 찬양하고 계신 것입니다.",
+          "en": "Wherever you open the Bible, it is the same. The glory of the LORD, the LORD as the stone of stumbling, the knees that bow to the LORD, the creation of the LORD, the worship given to the LORD. All these words are spoken of the one God. Yet the Bible says that all of them belong to Jesus. This would be impossible if Jesus were not God. The Bible, the Word of God, moving back and forth between the Old and New Testaments, praises our Lord Jesus Christ in this way."
+        },
+        {
+          "ko": "그러면 이런 생각이 들 수 있습니다. 하나님이 자기 영광을 예수님께 빌려 주신 것 아닌가.",
+          "en": "Then this thought may arise: did God not simply lend His glory to Jesus?"
+        },
+        {
+          "ko": "그러나 여호와 하나님께서 이렇게 말씀하셨습니다.",
+          "en": "But the LORD God said this:"
+        },
+        {
+          "ko": "\"나는 여호와니 이는 내 이름이라 나는 내 영광을 다른 자에게, 내 찬송을 우상에게 주지 아니하리라\" (이사야 42:8)",
+          "en": "\"I am the LORD: that is my name: and my glory will I not give to another, neither my praise to graven images.\" (Isaiah 42:8)"
+        },
+        {
+          "ko": "하나님은 자기 영광을 다른 자에게 주지 않으시는 분입니다. 그런데 그 하나님이 자기 영광과 자기에게 꿇는 무릎과 자기에게 드리는 경배를 예수님께 돌리십니다. 하나님이 자기 말씀을 어기신 것입니까? 그럴 수 없습니다. 그러면 남는 길은 하나입니다. 예수님은 \"다른 자\"가 아니십니다. 또 하나님 곁에 세워진 다른 신도 아니십니다. 성경이 주님께 바치는 이 모든 영광은, 빌려 온 것이 아니라 원래부터 예수님 자신의 것입니다. 예수님이 바로 그 여호와이시기 때문입니다. 성경은 예수님을 여호와라고 하는 것입니다. 성경은 예수님이 하나님이심을 그렇게 증거하시는 것입니다.",
+          "en": "God is One who does not give His glory to another. Yet that same God ascribes His glory, the knees that bow to Him, and the worship given to Him, to Jesus. Has God broken His own word? That cannot be. Then only one way remains: Jesus is not \"another.\" Nor is He another god set up beside God. All this glory that the Bible offers to the Lord is not borrowed; it is Jesus' own from the beginning. For Jesus is that very LORD. The Bible calls Jesus the LORD. In this way the Bible testifies that Jesus is God."
+        },
+        {
+          "ko": "그런데 여기서 이렇게 물을 수 있습니다. \"예수님은 하나님의 영광의 광채이시니, 하나님의 것이 비쳐 보이는 것뿐 아닙니까?\" 그 물음은 기억해 두십시오. 조금 뒤에 답하겠습니다. 먼저 여호와라는 이름이 어떤 이름인지 보아야 합니다.",
+          "en": "But here one may ask, \"Jesus is the brightness of God's glory, so is He not simply reflecting what is God's?\" Keep that question in mind. I will answer it a little later. First we must see what kind of name the name LORD is."
+        },
+        {
+          "ko": "2. 그러므로 예수님은 스스로 존재하시는 하나님이십니다 — 여호와는 스스로 있는 자의 이름입니다",
+          "en": "2. Therefore Jesus Is the Self-Existent God — LORD Is the Name of the One Who Is",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 성경이 예수님을 여호와라고 부른다면, 그것이 무슨 뜻입니까? 여호와는 어떤 이름입니까? 모세가 하나님께 이름을 물었을 때, 하나님은 이렇게 답하셨습니다.",
+          "en": "Dear brothers and sisters, if the Bible calls Jesus the LORD, what does that mean? What kind of name is LORD? When Moses asked God His name, God answered like this."
+        },
+        {
+          "ko": "성경은 말씀하십니다.",
+          "en": "The Bible says:"
+        },
+        {
+          "ko": "\"하나님이 모세에게 이르시되 나는 스스로 있는 자니라 또 이르시되 너는 이스라엘 자손에게 이같이 이르기를 스스로 있는 자가 나를 너희에게 보내셨다 하라\" (출애굽기 3:14)",
+          "en": "\"And God said unto Moses, I AM THAT I AM: and he said, Thus shalt thou say unto the children of Israel, I AM hath sent me unto you.\" (Exodus 3:14)"
+        },
+        {
+          "ko": "나는 스스로 있는 자니라. 하나님은 먼저 이렇게 말씀하시고, 이어서 그 이름을 여호와라고 하셨습니다. 여호와는 스스로 존재하시는 분의 이름입니다. 누가 있게 해 주어서 계신 분이 아니라, 본래부터 스스로 계신 분의 이름입니다. 성경이 그 이름을 예수님께 쓴다면, 예수님은 하나님으로서 스스로 존재하시는 분이라는 말입니다. 하나님 되심을 누구에게서 받아서 되신 하나님이 아니라는 말입니다.",
+          "en": "I AM THAT I AM. God first said this, and then He gave that name as LORD. LORD is the name of the One who exists of Himself. It is the name not of one whom someone else caused to exist, but of the One who is of Himself from the beginning. If the Bible uses that name for Jesus, it means that Jesus, as God, exists of Himself. It means He is not a God who received His deity from anyone."
+        },
+        {
+          "ko": "여호와께서 이렇게 말씀하셨습니다.",
+          "en": "The LORD said this:"
+        },
+        {
+          "ko": "\"이스라엘의 왕인 여호와, 이스라엘의 구속자인 만군의 여호와가 말하노라 나는 처음이요 나는 마지막이라 나 외에 다른 신이 없느니라\" (이사야 44:6)",
+          "en": "\"Thus saith the LORD the King of Israel, and his redeemer the LORD of hosts; I am the first, and I am the last; and beside me there is no God.\" (Isaiah 44:6)"
+        },
+        {
+          "ko": "나는 처음이요 나는 마지막이라. 나 외에 다른 신이 없느니라. 예수님이 여호와이시면, 예수님이 바로 이렇게 말씀하시는 하나님이십니다. 여호와 곁에 선 둘째 하나님이 아니라, 나 외에 다른 신이 없다 하시는 바로 그 한 분 하나님이신 것입니다. 그 한 분의 이름이 무엇입니까? 스스로 있는 자입니다. 스스로 있는 자가 하나님 되심을 남에게서 받아서 되셨겠습니까? 그럴 수 없습니다. 그러니 예수님은 누구에게 무엇을 받아서 되신 하나님이 아닙니다. 아들로서는 아버지에게서 나셨고, 하나님으로서는 스스로 존재하시는 것입니다.",
+          "en": "I am the first, and I am the last; and beside me there is no God. If Jesus is the LORD, then Jesus is the very God who speaks this way. Not a second God standing beside the LORD, but that one God who says there is no God beside Him. What is the name of that one God? I AM. Could the One who is of Himself have become God by receiving it from someone else? That cannot be. So Jesus is not a God who became God by receiving anything from anyone. As the Son He was begotten of the Father, and as God He exists of Himself."
+        },
+        {
+          "ko": "예레미야는 또 이렇게 말합니다.",
+          "en": "Jeremiah also says this:"
+        },
+        {
+          "ko": "\"너희는 이같이 그들에게 이르기를 천지를 짓지 아니한 신들은 땅 위에서, 이 하늘 아래서 망하리라 하라\" (예레미야 10:11)",
+          "en": "\"Thus shall ye say unto them, The gods that have not made the heavens and the earth, even they shall perish from the earth, and from under these heavens.\" (Jeremiah 10:11)"
+        },
+        {
+          "ko": "하늘과 땅을 짓지 않은 신은 망합니다. 거꾸로 말하면, 하늘과 땅을 지으신 분만이 참 하나님이신 것입니다. 천지를 창조하는 일은 하나님만 하시는 일이기 때문입니다. 그런데 조금 전에 우리는 무엇을 읽었습니까? 땅의 기초를 두신 분이 아들이시라는 히브리서의 말씀을 읽었습니다. 생각해 보십시오. 하늘과 땅, 천사와 사람, 지어진 것은 다 창조주에게서 있음을 받았습니다. 그 창조주가 아들이십니다. 모든 것에 있음을 주시는 창조주께서, 자신의 있음은 남에게서 빌리셨겠습니까? 그럴 수 없는 것입니다. 존재를 빌려서 창조주가 되는 창조주라는 말은 언어도단입니다. 불가능하다는 것입니다. 나셨다는 말과 지음을 받으셨다는 말은 다르다는 것을 알아야 합니다. 아들은 아버지에게서 나심으로 아버지의 본질을 같이 가지시는 것이지, 아버지에게 지음을 받으신 것이 아닙니다. 성경은 예수님을 여호와라고 부릅니다. 성경을 누가 쓰셨습니까? 성령께서 쓰셨습니다. 그러니 성경이 예수님을 여호와라고 부를 때마다, 성경을 쓰신 성령께서 아들 되시는 하나님을 증거하시는 것입니다. 그렇습니다. 예수님은 스스로 존재하시는 하나님이십니다.",
+          "en": "The gods that did not make the heavens and the earth shall perish. Put the other way, only the One who made the heavens and the earth is the true God, because creating heaven and earth is a work that God alone does. And what did we read a moment ago? We read the word of Hebrews that the One who laid the foundation of the earth is the Son. Think about it. Heaven and earth, angels and men, everything that was made received its being from the Creator. That Creator is the Son. Would the Creator who gives being to all things have borrowed His own being from someone else? That cannot be. A creator who becomes creator by borrowing his existence is a contradiction in terms. It is impossible. We must understand that being begotten and being made are different. The Son, by being begotten of the Father, shares the Father's essence; He was not made by the Father. The Bible calls Jesus the LORD. Who wrote the Bible? The Holy Spirit wrote it. So every time the Bible calls Jesus the LORD, the Holy Spirit who wrote the Bible is testifying to God the Son. Yes. Jesus is the self-existent God."
+        },
+        {
+          "ko": "3. 스스로 존재하시는 하나님이 우리를 붙드십니다",
+          "en": "3. The Self-Existent God Upholds Us",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 그러면 이것이 우리와 무슨 상관이 있습니까? 예수님이 받아서 되신 하나님이 아니라 스스로 존재하시는 하나님이신 것이, 오늘 우리가 사는 일과 무슨 상관이 있습니까? 히브리서가 답합니다.",
+          "en": "Dear brothers and sisters, then what does this have to do with us? What does it have to do with the life we live today that Jesus is not a God who became God by receiving, but the self-existent God? Hebrews answers."
+        },
+        {
+          "ko": "히브리서는 아들을 이렇게 말합니다.",
+          "en": "Hebrews says this of the Son:"
+        },
+        {
+          "ko": "\"이는 하나님의 영광의 광채시요 그 본체의 형상이시라 그의 능력의 말씀으로 만물을 붙드시며 죄를 정결케 하는 일을 하시고 높은 곳에 계신 위엄의 우편에 앉으셨느니라\" (히브리서 1:3)",
+          "en": "\"Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high;\" (Hebrews 1:3)"
+        },
+        {
+          "ko": "아까 남겨 둔 물음이 있습니다. 예수님은 하나님의 영광의 광채이시니, 하나님의 것이 비쳐 보이는 것뿐 아니냐는 물음입니다. 이 말씀이 답합니다. 광채라고 하신 바로 그 아들이 능력의 말씀으로 만물을 붙드신다고 합니다. 비쳐 보이기만 하는 것이 만물을 붙들 수는 없습니다. 그런데 만물이 예수님께 붙들려 있습니다. 세상을 붙들어 다스리는 일은 지으신 분의 일입니다. 땅의 기초를 두신 아들이 그 땅을 붙드십니다. 자기 안에 있는 힘으로 하시는 일이지, 빌린 힘으로 하는 일이 아닙니다. 조금 전에 말씀드린 그대로입니다. 존재를 빌려서 창조주가 되는 창조주가 없듯이, 힘을 빌려서 만물을 붙드는 하나님도 없습니다. 그러면 예수님의 하나님 되심은 누가 붙들어 주는 것입니까? 아무도 붙들어 주지 않습니다. 만물을 붙드시는 분이 자기의 하나님 되심은 남에게서 받아 쓰실 수는 없습니다. 스스로 존재하시는 하나님이십니다.",
+          "en": "There is the question we left aside earlier: Jesus is the brightness of God's glory, so is He not simply reflecting what is God's? This verse answers it. The very Son who is called the brightness upholds all things by the word of His power. A mere reflection cannot uphold all things. Yet all things are upheld by Jesus. Upholding and ruling the world is the work of the One who made it. The Son who laid the foundation of the earth upholds that earth. He does it by the power within Himself, not by borrowed power. It is just as I said a moment ago. As there is no creator who becomes creator by borrowing his existence, so there is no God who upholds all things by borrowed power. Then who upholds Jesus' being God? No one. The One who upholds all things cannot have His own deity on loan from someone else. He is the self-existent God."
+        },
+        {
+          "ko": "그런데 붙드신다는 것이 무슨 말입니까? 무거운 것을 받치고 있다는 말이 아닙니다. 존재할 수 있게 하신다는 말입니다. 지으신 것을 지금도 존재하도록 붙들고 계신다는 말입니다. 누군가 붙들지 않으시면 만물은 그 자리에서 없어집니다. 태양을 생각해 보십시오. 태양 속에서는 두 힘이 맞서고 있습니다. 안에서 밖으로 터져 나가려는 힘과, 밖에서 안으로 무너져 내리려는 힘입니다. 터지는 힘이 이기면 태양은 흩어져 버립니다. 무너지는 힘이 이기면 태양은 안으로 꺼져 버립니다. 이 두 힘이 꼭 맞게 맞서 있기 때문에 태양이 오늘 아침에도 태양으로 떠오른 것입니다. 이 균형이 저절로 서 있는 것입니까? 성경은 아니라고 말합니다. 아들이 능력의 말씀으로 만물을 붙드신다고 말합니다. 골로새서도 같은 말을 합니다. 만물이 그 안에 함께 서있다는 것입니다. 태양도 그 만물 가운데 하나입니다. 태양이 태양으로 있는 것은 붙들려 있기 때문입니다. 터지지도 않고 무너지지도 않게, 아들이 붙들고 계시기 때문입니다.",
+          "en": "But what does it mean that He upholds? It does not mean holding up something heavy. It means causing things to exist. It means He is even now holding what He made so that it continues to exist. If no one upheld it, everything would vanish on the spot. Think of the sun. Inside the sun two forces are pitted against each other: the force that would burst outward from within, and the force that would collapse inward from without. If the bursting force wins, the sun scatters. If the collapsing force wins, the sun caves in on itself. Because these two forces are held in exact balance, the sun rose as the sun again this morning. Does this balance stand on its own? The Bible says no. It says the Son upholds all things by the word of His power. Colossians says the same: by Him all things consist. The sun is one of those things. The sun remains the sun because it is upheld, because the Son holds it so that it neither bursts nor collapses."
+        },
+        {
+          "ko": "그 손이 우리를 붙드십니다. 태양만 붙드시는 것이 아닙니다. 우리의 인생과 영혼과 육신을 붙드십니다.",
+          "en": "That hand upholds us. He does not uphold only the sun. He upholds our lives, our souls, and our bodies."
+        },
+        {
+          "ko": "주님이 친히 말씀하셨습니다.",
+          "en": "The Lord Himself said:"
+        },
+        {
+          "ko": "\"내가 저희에게 영생을 주노니 영원히 멸망치 아니할 터이요 또 저희를 내 손에서 빼앗을 자가 없느니라\" (요한복음 10:28)",
+          "en": "\"And I give unto them eternal life; and they shall never perish, neither shall any man pluck them out of my hand.\" (John 10:28)"
+        },
+        {
+          "ko": "저희를 내 손에서 빼앗을 자가 없느니라. 어떤 손입니까? 태양을 붙들고 있는 손입니다. 만물을 붙드는 그 손이 우리를 붙들고 있는데, 누가 우리를 그 손에서 빼앗겠습니까? 아무도 빼앗지 못합니다.",
+          "en": "Neither shall any man pluck them out of my hand. What hand is this? The hand that holds the sun. The hand that upholds all things is holding us, so who could pluck us out of that hand? No one can."
+        },
+        {
+          "ko": "그리고 여호와께서 이사야를 통해 이렇게 약속하셨습니다.",
+          "en": "And the LORD promised this through Isaiah:"
+        },
+        {
+          "ko": "\"두려워 말라 내가 너와 함께 함이니라 놀라지 말라 나는 네 하나님이 됨이니라 내가 너를 굳세게 하리라 참으로 너를 도와 주리라 참으로 나의 의로운 오른손으로 너를 붙들리라\" (이사야 41:10)",
+          "en": "\"Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness.\" (Isaiah 41:10)"
+        },
+        {
+          "ko": "나는 네 하나님이 됨이니라. 내가 너를 붙들리라. 모세에게 나는 스스로 있는 자니라 하신 그 하나님이, 여기서는 나는 네 하나님이 됨이니라 하십니다. 스스로 계신 분이 우리의 하나님이 되어 주시는 것입니다. 하나님은 우리와 아무 상관없이 스스로 계신 분이십니다. 우리가 필요하신 분이 아니시라는 것입니다. 우리가 없어도 스스로 계신 분이, 우리에게 오셔서 우리의 하나님이 되어 주신 것입니다. 이렇게 말씀하신 여호와가 누구십니까? 오늘 우리가 성경에서 본 그대로입니다. 성경은 여호와의 모든 것을 예수님께로 돌려드립니다. 여호와의 붙드시는 오른손이 예수님의 손입니다. 만물을 붙드시는 예수님이 우리를 붙드시고, 우리를 붙드시는 그 예수님이 우리의 하나님이십니다. 스스로 존재하시고 스스로 우리를 붙드시는 하나님이 우리의 하나님이신 것입니다.",
+          "en": "I am thy God. I will uphold thee. The God who said to Moses, I AM THAT I AM, here says, I am thy God. The One who is of Himself becomes our God. God exists of Himself, without any need of us. He is not One who needs us. The One who exists of Himself even without us came to us and became our God. Who is the LORD who said this? It is just as we have seen in the Bible today. The Bible ascribes everything of the LORD to Jesus. The upholding right hand of the LORD is the hand of Jesus. Jesus who upholds all things upholds us, and that Jesus who upholds us is our God. The God who exists of Himself and upholds us by Himself is our God."
+        },
+        {
+          "ko": "그러면 우리는 어떻게 살아야 합니까? 주님께 맡겨 드려야 합니다. 우리의 인생과 영혼과 육신까지 쥐고 계신 분이 예수님이십니다. 그런 주님을 신뢰하고 믿으며 우리의 인생을 맡겨 드려야 하는 것입니다. 그런데 왜 우리는 맡기지 못합니까? 내가 나를 붙들고 있다고 생각하기 때문입니다. 내가 놓으면 떨어질 것 같아서 망할 것 같아서 나를 잡고 있는 내 손을 못 놓는 것입니다. 그러나 성경은 그렇게 말하지 않습니다. 내가 나를 붙들고 사는 것이 아닙니다. 하나님이 나를 붙들고 계십니다. 예수님이 나를 붙들고 계십니다. 태양을 붙들어 주시는 그 손이 나를 붙들고 계시고, 그 손에서 빼앗을 자가 없다고 약속하셨습니다. 우리 손은 약해집니다. 나이가 들면 쥐는 힘부터 빠집니다. 그러나 나를 쥐고 계신 손은 절대 약해지지 않습니다. 스스로 존재하시는 하나님의 손이기 때문입니다. 그러니 믿음을 가지고 우리를 그 손에 맡겨 드려야 합니다. 그리고 주님의 뜻을 나의 뜻보다 더 앞에 놓고 따라가야 합니다. 내 뜻을 놓지 못하는 것도 같은 까닭입니다. 내가 나를 붙들고 있다고 생각하기 때문입니다. 그러나 나를 붙드시는 주님의 뜻이, 내가 붙들고 놓지 못하고 있는 내 뜻보다 앞서야 합니다. 하나님의 뜻의 가치를 나의 뜻보다 무겁게 받아들여야 하는 것입니다. 하나님이 나를 붙드시니, 나의 인생도 영혼도 육신도 다 맡겨 드리는 것입니다.",
+          "en": "Then how should we live? We must entrust ourselves to the Lord. Jesus is the One who holds our lives, our souls, and even our bodies. We must trust and believe in such a Lord and entrust our lives to Him. But why can we not entrust ourselves? Because we think we are holding ourselves up. We feel that if we let go we will fall, we will be ruined, so we cannot release the hand with which we grip ourselves. But the Bible does not say that. I do not live by holding myself up. God is holding me. Jesus is holding me. The hand that holds up the sun is holding me, and He promised that no one can pluck me out of that hand. Our hands grow weak. As we age, the first thing to go is our grip. But the hand that holds me never grows weak, because it is the hand of the self-existent God. So with faith we must entrust ourselves into that hand. And we must put the Lord's will ahead of our own and follow it. The reason we cannot let go of our own will is the same: we think we are holding ourselves up. But the will of the Lord who holds me must come before the will I grip and cannot release. We must weigh the value of God's will more heavily than our own. Since God holds me, I entrust to Him my life, my soul, and my body."
+        },
+        {
+          "ko": "결론",
+          "en": "Conclusion",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 모세에게 \"나는 스스로 있는 자\"라고 하신 그 하나님의 이름을, 예수님은 자기 것으로 말씀하셨습니다.",
+          "en": "Dear brothers and sisters, the name of the God who said to Moses, \"I AM THAT I AM\" — Jesus spoke that name as His own."
+        },
+        {
+          "ko": "성경은 말씀하십니다.",
+          "en": "The Bible says:"
+        },
+        {
+          "ko": "\"예수께서 가라사대 진실로 진실로 너희에게 이르노니 아브라함이 나기 전부터 내가 있느니라 하시니\" (요한복음 8:58)",
+          "en": "\"Jesus said unto them, Verily, verily, I say unto you, Before Abraham was, I am.\" (John 8:58)"
+        },
+        {
+          "ko": "유대인들은 물었습니다. 네가 아브라함을 보았느냐. 예수님은 아브라함을 보았다고 답하지 않으셨습니다. 아브라함이 나기 전부터 내가 있다고 하셨습니다. 아브라함이 예수님의 때를 바라보고 기뻐했다고 하셨습니다. 아브라함이 바라보던 그 날의 주인이 지금 그들 앞에 서 계신 것입니다. 그런데 사람들은 돌을 들었습니다. 사람이 하나님의 이름을 자기 것으로 말했다고 생각했기 때문입니다. 그들에게 이 말은 하나님을 모독하는 말로 들렸습니다. 요한복음 10장에서 같은 일이 또 있습니다. 예수님이 \"나와 아버지는 하나이니라\" 하시자 사람들은 다시 돌을 들었고, 왜 드는지 자기 입으로 말했습니다. 네가 사람이 되어 자칭 하나님이라 함이로라. 그러나 예수님은 빌린 이름을 말씀하신 것이 아닙니다. 훔친 이름도 아닙니다. 자기 이름을 말씀하신 것입니다. 아브라함이 나기 전부터 계신 분, 여호와의 영광을 가지신 분, 땅의 기초를 두신 분, 천사들의 경배를 받으시는 분이 자기 이름을 말씀하신 것입니다.",
+          "en": "The Jews asked, Hast thou seen Abraham? Jesus did not answer that He had seen Abraham. He said that before Abraham was, He is. He said that Abraham looked forward to His day and was glad. The Lord of the day Abraham was looking for was now standing before them. But the people took up stones, because they thought a man had spoken God's name as his own. To them these words sounded like blasphemy. The same thing happens again in John chapter 10. When Jesus said, \"I and my Father are one,\" the people took up stones again, and with their own mouths they said why: because thou, being a man, makest thyself God. But Jesus was not speaking a borrowed name. Nor a stolen name. He was speaking His own name. The One who was before Abraham was born, the One who has the glory of the LORD, the One who laid the foundation of the earth, the One whom the angels worship, spoke His own name."
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 그러면 우리는 이 예수님을 왜 믿을 수 있습니까? 스스로 존재하시는 우리의 하나님이시기 때문입니다. 우리 주님은 천지를 창조하신 말씀이신 하나님이시요, 이 우주를 붙들어 지탱하시는 하나님이시기 때문입니다. 그러니 우리를 붙드시는 주님의 그 손은 절대 누가 거두어 갈 수 있는 손이 아닙니다. 스스로 존재하시는 하나님의 손은 아무도 치우지 못하기 때문입니다. 사람의 손은 놓을 때가 있습니다. 힘이 다하면 놓고, 마음이 변하면 놓습니다. 그러나 스스로 존재하시는 하나님의 손은 힘이 다하는 일도 없고, 마음이 변하는 일도 없습니다. 그래서 주님은 내 손에서 빼앗을 자가 없다고 당당하게 말씀하실 수 있었던 것입니다. 우리가 주님의 그 손을 믿는 것은 우리 믿음이 강해서가 아닙니다. 우리 주님의 그 손이 스스로 존재하시는 하나님의 손이기 때문입니다.",
+          "en": "Dear brothers and sisters, then why can we believe in this Jesus? Because He is our self-existent God. Because our Lord is God the Word who created heaven and earth, the God who upholds and sustains this universe. So the hand of the Lord that holds us is a hand no one can ever take away, because no one can remove the hand of the self-existent God. A human hand lets go at times. It lets go when its strength fails, and it lets go when the heart changes. But the hand of the self-existent God never fails in strength and never changes its heart. That is why the Lord could say with full confidence that no one shall pluck them out of His hand. We trust that hand of the Lord not because our faith is strong, but because that hand of our Lord is the hand of the self-existent God."
+        },
+        {
+          "ko": "우리 구원도 그렇습니다. 히브리서는 만물을 붙드시는 분이 죄를 정결케 하는 일을 하시고 높은 곳에 계신 위엄의 우편에 앉으셨다고 말합니다. 말씀 한 마디로 온 세상을 붙드시는 분이, 우리의 죄를 씻는 일은 마다하지 않으셨습니다. 보좌에 앉으셨다는 것은 그 일이 끝났다는 말입니다. 우리 죄를 씻으신 분이 스스로 존재하시는 하나님이십니다. 스스로 존재하시는 하나님이 우리를 위해 죽으시고, 그 일을 다 이루시고 앉으셨습니다. 그 일에 모자란 것이 없고, 우리가 더 보탤 것도 없습니다. 우리 구원은 그 위에 서 있습니다. 우리가 우리를 붙드는 힘 위에 서 있지 않습니다. 그러니 내 믿음이 약해 보이는 날에도 구원이 흔들리는 것이 아닙니다. 구원은 내 손이 아니라 주님의 손에 있기 때문입니다.",
+          "en": "It is the same with our salvation. Hebrews says that the One who upholds all things purged our sins and sat down on the right hand of the Majesty on high. The One who holds the whole world with a single word did not refuse the work of washing away our sins. That He sat down on the throne means the work is finished. The One who washed away our sins is the self-existent God. The self-existent God died for us, finished that work completely, and sat down. Nothing is lacking in that work, and there is nothing we can add to it. Our salvation stands on that. It does not stand on our own power to hold ourselves up. So even on the days when my faith looks weak, my salvation is not shaken, because salvation is not in my hand but in the Lord's hand."
+        },
+        {
+          "ko": "그러므로 사랑하는 형제 자매 여러분, 이 주님을 믿으십시오. 우리가 기도 끝에 \"예수님의 이름으로 기도합니다\" 할 때, 그 이름은 스스로 존재하시는 하나님의 이름입니다. 그 이름으로 기도하는 것은 스스로 존재하시는 하나님께 직접 아뢰는 것입니다. 두려운 일이 닥칠 때는 오늘 읽은 말씀을 붙드십시오. 두려워 말라 내가 너와 함께 함이니라. 이렇게 말씀하신 여호와 하나님이 바로 우리 주 예수님이십니다. 우리를 붙들겠다고 약속하신 분이 스스로 존재하시는 하나님이시니, 그 약속을 막을 자도 없고 거둘 자도 없는 것입니다. 내 힘으로는 어찌 할 수 없는 일 앞에서도 주저앉지 마십시오. 그 일을 붙드시고 다루시는 손이 따로 있기 때문입니다.",
+          "en": "Therefore, dear brothers and sisters, believe in this Lord. When we end our prayers with \"In Jesus' name we pray,\" that name is the name of the self-existent God. To pray in that name is to speak directly to the self-existent God. When something fearful comes, hold on to the word we read today: Fear thou not; for I am with thee. The LORD God who said this is our Lord Jesus Himself. The One who promised to uphold us is the self-existent God, so there is no one who can block that promise and no one who can take it back. Even before things you cannot handle by your own strength, do not collapse, because there is another hand that holds and handles those things."
+        },
+        {
+          "ko": "그러면 우리는 주님을 어떻게 경배해야 합니까? 아들께 드리는 경배는 아버지께 드리는 경배보다 작은 경배입니까? 아닙니다. 하나님께서 친히 모든 천사에게 아들께 경배하라 하셨습니다. 하나님의 말씀은 하나님께만 드리는 그 경배를 아들께 드리라 하신 것입니다. 그러니 우리가 예수님 앞에 엎드릴 때, 우리는 하나님보다 조금 낮은 분 앞에 엎드리는 것이 아닙니다. 스스로 존재하시는 하나님 앞에 엎드리는 것입니다. 우리의 모든 것과 인생을 붙드시는 그 손의 주인 앞에 엎드리는 것입니다.",
+          "en": "Then how should we worship the Lord? Is the worship we give the Son a lesser worship than what we give the Father? No. God Himself commanded all the angels to worship the Son. The Word of God commands that the worship given to God alone be given to the Son. So when we bow before Jesus, we are not bowing before someone a little lower than God. We are bowing before the self-existent God. We are bowing before the owner of the hand that holds everything we have and our very lives."
+        },
+        {
+          "ko": "스스로 존재하시는 하나님, 우리를 붙드시는 우리 하나님 예수 그리스도를 끝까지 믿고 그 존귀하심 그대로 경배하는 여러분 되시기를 예수 그리스도의 이름으로 축원 드립니다.",
+          "en": "May you believe to the end in Jesus Christ, the self-existent God, our God who upholds us, and worship Him according to all His worth. I bless you in the name of Jesus Christ."
+        }
+      ]
     }
   ]
 };
