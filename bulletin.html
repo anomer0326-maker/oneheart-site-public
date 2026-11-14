@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>주보 · Weekly Bulletin · 한마음침례교회</title>
+<meta name="description" content="한마음침례교회 주일 예배 주보 — 예배 순서, 말씀, 교회소식을 보고 PDF로 내려받으실 수 있습니다.">
+<link rel="icon" type="image/png" href="favicon.png">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S23G4J640B"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-S23G4J640B');</script>
+
+<link rel="canonical" href="https://oneheartchurchcolumbus.org/bulletin.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="한마음침례교회 One Heart Baptist Church">
+<meta property="og:title" content="주보 · 한마음침례교회">
+<meta property="og:description" content="주일 예배 주보를 보고 PDF로 내려받으실 수 있습니다.">
+<meta property="og:url" content="https://oneheartchurchcolumbus.org/bulletin.html">
+<meta property="og:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="주보 · 한마음침례교회">
+<meta name="twitter:description" content="주일 예배 주보 보기 · 다운로드">
+<meta name="twitter:image" content="https://oneheartchurchcolumbus.org/og-image-v2.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  /* 색·글꼴·메뉴·바닥글은 sermons.html 과 같은 값 — 한쪽을 바꾸면 여기도 같이 바꾼다 */
+  :root {
+    --brown: #3a4744;
+    --brown-soft: #5b645d;
+    --cream: #f4f2ed;
+    --cream-2: #ebe7df;
+    --gold: #97b3ae;
+    --gold-ink: #4a6a62;
+    --accent: #4a6a62;
+    --ink: #46514c;
+    --line: #e3ddd3;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Pretendard", sans-serif;
+    color: var(--ink); background: var(--cream);
+    line-height: 1.8; font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    word-break: keep-all;
+  }
+  h1, h2, h3, .serif { font-family: "Gowun Batang", serif; }
+  .en { display: block; font-size: .8em; color: var(--brown-soft); font-weight: 400; margin-top: .2em; letter-spacing: 0.03em; }
+  a { color: var(--accent); text-decoration: none; transition: color 0.2s ease; }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 0 24px; }
+
+  header.nav {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line); box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+  }
+  .nav-in { max-width: 1020px; margin: 0 auto; padding: 12px 24px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .brand { display: flex; align-items: center; gap: 12px; font-family: "Gowun Batang", serif; font-weight: 900; font-size: 1.3rem; line-height: 1; color: var(--brown); letter-spacing: -0.02em; }
+  .brand-mark { height: 42px; width: auto; display: block; }
+  .brand small { display: block; font-family: "Pretendard", sans-serif; font-weight: 700; font-size: .65rem; color: var(--gold-ink); letter-spacing: .12em; margin-top: 4px; }
+  nav a { color: var(--brown); font-weight: 500; margin-left: 24px; font-size: 0.95rem; padding: 4px 0; white-space: nowrap; }
+  nav a:hover { color: var(--accent); }
+  nav a[aria-current="page"] { color: var(--accent); font-weight: 700; }
+
+  /* 쪽 머리 — 주보를 바로 보도록 화면 전체를 쓰지 않는다 */
+  .page-head {
+    background: linear-gradient(180deg, #ffffff 0%, #ebe7df 100%);
+    color: var(--brown); text-align: center; padding: 54px 24px 46px;
+    border-bottom: 4px solid var(--gold);
+  }
+  .page-head h1 { font-size: clamp(2.2rem, 5vw, 3rem); font-weight: 900; letter-spacing: .02em; color: var(--brown); }
+  .page-head h1 .en { color: var(--gold-ink); font-size: .45em; letter-spacing: .2em; margin-top: .5em; font-weight: 500; }
+  .page-head p { color: var(--brown-soft); margin-top: 14px; font-size: 1.05rem; font-weight: 400; }
+  .page-head p .en { font-size: .88em; margin-top: 0; }
+
+  /* 최근 주보 */
+  .latest {
+    background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--gold);
+    border-radius: 12px; padding: 30px 32px 32px; margin-top: 44px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.01);
+  }
+  .label { font-size: .72rem; font-weight: 700; letter-spacing: .2em; color: var(--gold-ink); }
+  .latest .date { font-family: "Gowun Batang", serif; font-weight: 700; font-size: 1.7rem; color: var(--brown); line-height: 1.35; margin-top: 6px; }
+  .latest .date .en { font-family: "Pretendard", sans-serif; font-size: .5em; letter-spacing: .08em; margin-top: 2px; }
+  .latest .title { font-size: 1.08rem; font-weight: 600; color: var(--brown); margin-top: 16px; line-height: 1.5; }
+  .latest .title .en { font-size: .86em; }
+  .meta { margin-top: 6px; color: var(--brown-soft); font-size: .95rem; }
+
+  .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; margin-top: 22px; }
+  .btn {
+    display: inline-flex; align-items: baseline; gap: 8px;
+    padding: 11px 26px; border-radius: 50px; border: 1.5px solid var(--accent);
+    font-weight: 700; font-size: 1rem; line-height: 1.3; color: var(--accent); background: #fff;
+    transition: all 0.2s ease; white-space: nowrap;
+  }
+  .btn small { font-weight: 500; font-size: .74em; letter-spacing: .06em; opacity: .85; }
+  .btn.primary { background: var(--accent); color: #fff; }
+  .btn:hover { transform: translateY(-1px); box-shadow: 0 6px 14px rgba(58,71,68,0.14); }
+  .btn.sm { padding: 7px 18px; font-size: .9rem; }
+  .fileinfo { color: var(--brown-soft); font-size: .85rem; margin-left: 4px; }
+
+  .pages { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 30px; padding-top: 26px; border-top: 1px solid var(--line); }
+  .pages a { display: block; color: var(--brown-soft); text-align: center; font-size: .86rem; line-height: 1.4; }
+  .pages img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid var(--line); border-radius: 4px; box-shadow: 0 3px 10px rgba(58,71,68,0.08); transition: all 0.2s ease; margin-bottom: 9px; }
+  .pages a:hover img { transform: translateY(-3px); box-shadow: 0 10px 22px rgba(58,71,68,0.14); border-color: var(--gold); }
+  .pages.wide { grid-template-columns: repeat(2, 1fr); }      /* 가로 두 장짜리 주보(인쇄용 판) */
+  .pages b { display: block; font-weight: 600; color: var(--brown); }
+  .pages i { font-style: normal; font-size: .88em; letter-spacing: .04em; }
+
+  /* 지난 주보 */
+  .year { margin: 52px 0 6px; font-family: "Gowun Batang", serif; font-weight: 900; font-size: 1.6rem; color: var(--brown); border-bottom: 2px solid var(--gold); padding-bottom: 8px; letter-spacing: -0.01em; }
+  .year .en { display: inline; font-family: "Pretendard", sans-serif; font-size: .5em; letter-spacing: .14em; font-weight: 500; margin-left: 10px; }
+  .row { display: flex; align-items: center; gap: 18px; padding: 16px 4px; border-bottom: 1px solid var(--line); }
+  .row .thumb { flex: none; width: 54px; }
+  .row .thumb img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 3px; background: #fff; }
+  .row.wide .thumb { width: 84px; }
+  .row .info { flex: 1; min-width: 0; }
+  .row .date { font-weight: 700; color: var(--brown); font-size: 1.02rem; line-height: 1.4; }
+  .row .t { color: var(--brown-soft); font-size: .92rem; line-height: 1.5; margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .row .acts { flex: none; display: flex; gap: 8px; }
+
+  .empty { text-align: center; color: var(--brown-soft); padding: 80px 0; font-size: 1.1rem; }
+  .note { margin-top: 34px; color: var(--brown-soft); font-size: .88rem; text-align: center; line-height: 1.7; }
+
+  footer { background: var(--cream-2); color: var(--brown-soft); text-align: center; padding: 45px 22px; margin-top: 80px; font-size: .9rem; line-height: 2; border-top: 4px solid var(--gold); }
+  footer .fb { font-family: "Gowun Batang", serif; font-weight: 900; color: var(--brown); font-size: 1.25rem; margin-bottom: 8px; letter-spacing: 0.02em; }
+
+  @media(max-width:760px){
+    body { font-size: 16px; }
+    /* 상단 메뉴: 홈과 동일 — 브랜드 윗줄 + 메뉴 한 줄 가로 스크롤 */
+    .nav-in { flex-direction: column; flex-wrap: nowrap; align-items: stretch; gap: 7px; padding: 8px 14px; }
+    .brand { font-size: 1.05rem; gap: 9px; }
+    .brand-mark { height: 34px; }
+    .nav-in nav { display: flex; gap: 18px; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; }
+    .nav-in nav::-webkit-scrollbar { display: none; }
+    nav a { margin: 0; flex: 0 0 auto; font-size: .9rem; }
+    .page-head { padding: 36px 20px 30px; }
+    .page-head h1 { font-size: 1.9rem; }
+    .page-head p { font-size: .95rem; }
+    .latest { padding: 22px 20px 24px; margin-top: 28px; }
+    .latest .date { font-size: 1.4rem; }
+    .actions .btn { flex: 1 1 0; justify-content: center; padding: 12px 10px; }
+    .fileinfo { flex: 1 1 100%; margin: 2px 0 0; text-align: center; }
+    .pages { grid-template-columns: repeat(2, 1fr); gap: 16px 14px; margin-top: 24px; padding-top: 22px; }
+    .pages.wide { grid-template-columns: 1fr; gap: 18px; }
+    .year { font-size: 1.4rem; margin-top: 40px; }
+    .row { flex-wrap: wrap; gap: 10px 14px; padding: 14px 2px; }
+    .row .thumb { width: 44px; }
+    .row .info { flex: 1 1 60%; }
+    .row .acts { flex: 1 1 100%; padding-left: 58px; }
+    .row.wide .thumb { width: 68px; }
+    .row.wide .acts { padding-left: 82px; }
+    .row .t { white-space: normal; }
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="index.html" style="color:var(--brown)"><img class="brand-mark" src="cross-cut.png" alt=""><span>한마음침례교회<small>ONE HEART BAPTIST CHURCH</small></span></a>
+    <nav>
+      <a href="index.html#home">홈</a>
+      <a href="index.html#pastor">담임목사 인사말</a>
+      <a href="index.html#times">예배</a>
+      <a href="index.html#word">이번 주 말씀</a>
+      <a href="sermons.html">설교</a>
+      <a href="bulletin.html" aria-current="page">주보</a>
+      <a href="index.html#visit">오시는 길</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-head">
+  <h1>주보<span class="en">WEEKLY BULLETIN</span></h1>
+  <p>주일 예배 주보를 보거나 내려받으실 수 있습니다<span class="en">View or download the Sunday bulletin</span></p>
+</div>
+
+<div class="wrap">
+  <div id="latest"><div class="empty">불러오는 중… · Loading…</div></div>
+  <div id="past"></div>
+  <noscript><div class="empty">주보 목록을 보려면 자바스크립트를 켜 주세요 · Please enable JavaScript to see the bulletins</div></noscript>
+</div>
+
+<footer>
+  <div class="fb">한마음침례교회 · One Heart Baptist Church</div>
+  미국 조지아주 콜럼버스(컬럼버스) 한인교회<br>
+  3679 Steam Mill Road, Columbus, GA 31906 · 404-641-4285<br>
+  담임목사 유병훈 (Rev. Byong H. Yoo) · 오직예수 Only Jesus
+</footer>
+
+<script>
+  // 주보 목록은 bulletins/data.js 한 파일에 있다 (add_bulletin.py 가 쓴다).
+  // 날짜를 붙여 불러 하루가 지나면 새 목록을 받는다.
+  var latestEl = document.getElementById('latest');
+  var pastEl = document.getElementById('past');
+  // 쪽 이름: 가로 두 장(인쇄용 판 — 안쪽면, 바깥면) 또는 세로 네 쪽
+  var SPREAD_KO = ['예배 순서 · 말씀', '교회소식 · 표지'];
+  var SPREAD_EN = ['Order of Worship · Message', 'News · Cover'];
+  var PAGE_KO = ['표지', '예배 순서', '말씀', '교회소식'];
+  var PAGE_EN = ['Cover', 'Order of Worship', 'Message', 'News'];
+
+  function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+  function dateKo(iso){
+    var d = new Date(iso + 'T12:00:00');
+    return d.getFullYear() + '년 ' + (d.getMonth() + 1) + '월 ' + d.getDate() + '일' + (d.getDay() === 0 ? ' 주일' : '');
+  }
+  function dateEn(iso){
+    var d = new Date(iso + 'T12:00:00');
+    return d.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  }
+  function saveName(b){ return '한마음교회-주보-' + b.date + '.pdf'; }
+  function fileInfo(b){
+    var parts = ['PDF'];
+    if (b.pages) parts.push(b.pages + '쪽');
+    if (b.kb) parts.push(b.kb >= 1000 ? (b.kb / 1024).toFixed(1) + 'MB' : b.kb + 'KB');
+    return parts.join(' · ');
+  }
+  function buttons(b, small){
+    var c = small ? ' sm' : '';
+    return '<a class="btn primary' + c + '" href="' + esc(b.pdf) + '" target="_blank" rel="noopener">보기' + (small ? '' : '<small>VIEW</small>') + '</a>' +
+           '<a class="btn' + c + '" href="' + esc(b.pdf) + '" download="' + esc(saveName(b)) + '">다운로드' + (small ? '' : '<small>DOWNLOAD</small>') + '</a>';
+  }
+  function titleLine(b){
+    var ko = b.title_ko || '', ref = b.ref_ko || '';
+    return ko + (ko && ref ? ' · ' : '') + ref;
+  }
+
+  function latestHTML(b){
+    var h = '<section class="latest">' +
+      '<div class="label">최근 주보 · LATEST BULLETIN</div>' +
+      '<h2 class="date">' + esc(dateKo(b.date)) + '<span class="en">' + esc(dateEn(b.date)) + '</span></h2>';
+    if (b.title_ko || b.title_en)
+      h += '<div class="title">' + esc(b.title_ko) + (b.title_en ? '<span class="en">' + esc(b.title_en) + '</span>' : '') + '</div>';
+    if (b.ref_ko || b.ref_en)
+      h += '<div class="meta">' + esc(b.ref_ko) + (b.ref_ko && b.ref_en ? ' · ' : '') + esc(b.ref_en) + '</div>';
+    h += '<div class="actions">' + buttons(b, false) + '<span class="fileinfo">' + esc(fileInfo(b)) + '</span></div>';
+    var th = b.thumbs || [];
+    if (th.length){
+      var wide = !!b.landscape;
+      var KO = wide && th.length === 2 ? SPREAD_KO : (!wide && th.length === 4 ? PAGE_KO : null);
+      var EN = KO === SPREAD_KO ? SPREAD_EN : PAGE_EN;
+      h += '<div class="pages' + (wide ? ' wide' : '') + '">';
+      th.forEach(function(src, i){
+        var ko = KO ? KO[i] : (i + 1) + '쪽', en = KO ? EN[i] : 'Page ' + (i + 1);
+        h += '<a href="' + esc(b.pdf) + '#page=' + (i + 1) + '" target="_blank" rel="noopener">' +
+             '<img src="' + esc(src) + '" alt="' + esc(dateKo(b.date) + ' 주보 ' + ko) + '" loading="lazy">' +
+             '<b>' + esc(ko) + '</b><i>' + esc(en) + '</i></a>';
+      });
+      h += '</div>';
+    }
+    return h + '</section>';
+  }
+
+  function rowHTML(b){
+    var th = (b.thumbs || [])[0];
+    return '<div class="row' + (b.landscape ? ' wide' : '') + '">' +
+      (th ? '<a class="thumb" href="' + esc(b.pdf) + '" target="_blank" rel="noopener" tabindex="-1"><img src="' + esc(th) + '" alt="" loading="lazy"></a>' : '') +
+      '<div class="info"><div class="date">' + esc(dateKo(b.date)) + '</div>' +
+      (titleLine(b) ? '<div class="t">' + esc(titleLine(b)) + '</div>' : '') + '</div>' +
+      '<div class="acts">' + buttons(b, true) + '</div></div>';
+  }
+
+  function render(data){
+    var list = ((data && data.bulletins) || []).slice().sort(function(a, b){ return b.date.localeCompare(a.date); });
+    if (!list.length){
+      latestEl.innerHTML = '<div class="empty">아직 올라온 주보가 없습니다 · No bulletins yet</div>';
+      return;
+    }
+    latestEl.innerHTML = latestHTML(list[0]);
+    var html = '', cur = '';
+    list.slice(1).forEach(function(b){
+      var y = b.date.slice(0, 4);
+      if (y !== cur){
+        html += '<div class="year">' + (cur ? y + '년' : '지난 주보<span class="en">PAST BULLETINS · ' + y + '</span>') + '</div>';
+        cur = y;
+      }
+      html += rowHTML(b);
+    });
+    pastEl.innerHTML = html;
+  }
+  function fail(){
+    latestEl.innerHTML = '<div class="empty">주보 목록을 불러오지 못했습니다.<br>잠시 뒤 다시 열어 주세요 · Could not load the bulletins</div>';
+  }
+
+  (function(){
+    var d = new Date();
+    var v = d.getFullYear() + ('0' + (d.getMonth() + 1)).slice(-2) + ('0' + d.getDate()).slice(-2);
+    var s = document.createElement('script');
+    s.src = 'bulletins/data.js?v=' + v;
+    s.onload = function(){ window.BULLETINS_DATA ? render(window.BULLETINS_DATA) : fail(); };
+    s.onerror = fail;
+    document.body.appendChild(s);
+  })();
+</script>
+</body>
+</html>
