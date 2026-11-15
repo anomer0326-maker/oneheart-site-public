@@ -1,6 +1,21 @@
 window.BULLETINS_DATA = {
  "bulletins": [
   {
+   "date": "2026-11-15",
+   "title_ko": "창세 전부터 그날까지",
+   "title_en": "From Before the Foundation of the World to That Day",
+   "ref_ko": "요한복음 17:24–26",
+   "ref_en": "John 17:24–26",
+   "pdf": "bulletins/2026-11-15.pdf",
+   "pages": 2,
+   "landscape": true,
+   "kb": 216,
+   "thumbs": [
+    "bulletins/2026-11-15-1.jpg",
+    "bulletins/2026-11-15-2.jpg"
+   ]
+  },
+  {
    "date": "2026-11-08",
    "title_ko": "받아서 되신 하나님? 스스로 존재하시는 하나님!",
    "title_en": "A God Who Received His Deity? No! The Self-Existent God!",
