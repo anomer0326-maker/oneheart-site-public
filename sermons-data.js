@@ -37147,6 +37147,699 @@ window.SERMONS_DATA = {
           "en": "May you believe to the end in Jesus Christ, the self-existent God, our God who upholds us, and worship Him according to all His worth. I bless you in the name of Jesus Christ."
         }
       ]
+    },
+    {
+      "id": "2026-11-15",
+      "date": "2026-11-15",
+      "title_ko": "창세 전부터 그날까지, 한 사랑",
+      "title_en": "From Before the Foundation of the World to That Day, One Love",
+      "scripture_ref_ko": "요한복음 17:24–26",
+      "scripture_ref_en": "John 17:24–26",
+      "preacher_ko": "유병훈 목사",
+      "preacher_en": "Rev. Byong H. Yoo",
+      "series": "",
+      "scripture_text": [
+        {
+          "ko": "\"아버지여 내게 주신 자도 나 있는 곳에 나와 함께 있어 아버지께서 창세 전부터 나를 사랑하시므로 내게 주신 나의 영광을 저희로 보게 하시기를 원하옵나이다 의로우신 아버지여 세상이 아버지를 알지 못하여도 나는 아버지를 알았삽고 저희도 아버지께서 나를 보내신줄 알았삽나이다 내가 아버지의 이름을 저희에게 알게 하였고 또 알게 하리니 이는 나를 사랑하신 사랑이 저희 안에 있고 나도 저희 안에 있게 하려 함이니이다\" (요한복음 17:24–26)",
+          "en": "\"Father, I will that they also, whom thou hast given me, be with me where I am; that they may behold my glory, which thou hast given me: for thou lovedst me before the foundation of the world. O righteous Father, the world hath not known thee: but I have known thee, and these have known that thou hast sent me. And I have declared unto them thy name, and will declare it: that the love wherewith thou hast loved me may be in them, and I in them.\" (John 17:24–26)"
+        }
+      ],
+      "slides": [
+        {
+          "type": "title",
+          "title_ko": "창세 전부터 그날까지, 한 사랑",
+          "title_en": "From Before the Foundation of the World to That Day, One Love",
+          "ref_ko": "요한복음 17:24–26",
+          "ref_en": "John 17:24–26",
+          "preacher_ko": "유병훈 목사",
+          "preacher_en": "Rev. Byong H. Yoo",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "question",
+          "label_ko": "서론",
+          "label_en": "Introduction",
+          "ko": "우리는 하나님이 나를 사랑하시는지를 지금 나의 형편에서 확인하려고 합니다. 내 형편이 바뀔 때마다 하나님에 대한 믿음도 확신도 따라서 흔들립니다. 하나님은 언제부터 우리를 사랑하셨고, 언제까지 붙드십니까?",
+          "en": "We try to confirm whether God loves us by looking at our present circumstances. Every time our circumstances change, our faith in God and our assurance are shaken along with them. Since when has God loved us, and until when does He hold us?"
+        },
+        {
+          "type": "bigidea",
+          "label_ko": "오늘의 한 문장",
+          "label_en": "Big Idea",
+          "ko": "하나님은 창세 전부터 우리를 사랑하셨고, 때가 차매 아들과 성령을 보내셔서 우리를 만나 주셨으며, 주님이 다시 오시는 그날까지 그 사랑으로 우리를 붙드십니다.",
+          "en": "God has loved us from before the foundation of the world; when the fulness of the time was come He sent the Son and the Spirit and met us; and He holds us with that love until the day the Lord comes again.",
+          "left_ko": "나의 형편",
+          "left_en": "My Circumstances",
+          "left_desc_ko": "형편이 바뀔 때마다 흔들리는 확신",
+          "left_desc_en": "Assurance shaken whenever circumstances change",
+          "right_ko": "하나님의 사랑",
+          "right_en": "The Love of God",
+          "right_desc_ko": "창세 전부터 그날까지 변함없으신 사랑",
+          "right_desc_en": "Unchanging from before the foundation of the world to that day"
+        },
+        {
+          "type": "section",
+          "label_ko": "첫째",
+          "label_en": "First",
+          "num_ko": "첫째",
+          "num_en": "First",
+          "ko": "창세 전부터 사랑하셨습니다",
+          "en": "He Loved Us from Before the Foundation of the World"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "요한일서 4:8",
+          "label_en": "1 John 4:8",
+          "ko": "\"사랑하지 아니하는 자는 하나님을 알지 못하나니 이는 하나님은 사랑이심이라\"",
+          "en": "\"He that loveth not knoweth not God; for God is love.\"",
+          "ref_ko": "요한일서 4:8",
+          "ref_en": "1 John 4:8"
+        },
+        {
+          "type": "point",
+          "label_ko": "하나님은 사랑이십니다",
+          "label_en": "God Is Love",
+          "ko": "사랑이 많다 적다의 차원이 아니고 하나님이 사랑 바로 그 자체이십니다. 사랑은 혼자 있을 수 없습니다. 세상이 있기 전, 사람도 천사도 없을 때에도 하나님은 사랑이셨습니다.",
+          "en": "It is not a matter of having much love or little; God is love itself. Love cannot be alone. Before the world existed, when there was neither man nor angel, God was love."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "요한복음 17:24",
+          "label_en": "John 17:24",
+          "ko": "\"아버지여 내게 주신 자도 나 있는 곳에 나와 함께 있어 아버지께서 창세 전부터 나를 사랑하시므로 내게 주신 나의 영광을 저희로 보게 하시기를 원하옵나이다\"",
+          "en": "\"Father, I will that they also, whom thou hast given me, be with me where I am; that they may behold my glory, which thou hast given me: for thou lovedst me before the foundation of the world.\"",
+          "ref_ko": "요한복음 17:24",
+          "ref_en": "John 17:24"
+        },
+        {
+          "type": "point",
+          "label_ko": "창세 전부터의 사랑",
+          "label_en": "Love from Before the Foundation of the World",
+          "ko": "창세 전부터 하나님 아버지는 아들을 사랑하고 계셨습니다. 하나님은 외로우셔서 우리를 지으신 것이 아닙니다. 우리가 필요해서 사랑하시는 것이 아니라 하나님의 사랑이 넘치심으로 사랑하시는 것입니다.",
+          "en": "From before the foundation of the world, God the Father was loving the Son. God did not make us because He was lonely. He loves us not because He needs us but because His love overflows."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "에베소서 1:4",
+          "label_en": "Ephesians 1:4",
+          "ko": "\"곧 창세 전에 그리스도 안에서 우리를 택하사 우리로 사랑 안에서 그 앞에 거룩하고 흠이 없게 하시려고\"",
+          "en": "\"According as he hath chosen us in him before the foundation of the world, that we should be holy and without blame before him in love:\"",
+          "ref_ko": "에베소서 1:4",
+          "ref_en": "Ephesians 1:4"
+        },
+        {
+          "type": "point",
+          "label_ko": "그리스도 안에서 택하셨습니다",
+          "label_en": "He Chose Us in Christ",
+          "ko": "아버지께서 아들을 사랑하시는 그 사랑 안에 우리를 두기로 하신 것입니다. 우리가 있기도 전에 미리 정하신 일이니, 우리의 공로나 형편에서 나온 것이 절대 아닙니다.",
+          "en": "He determined to place us within the very love with which the Father loves the Son. Since it was determined beforehand, before we even existed, it by no means came from our merit or our circumstances."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "히브리서 6:17",
+          "label_en": "Hebrews 6:17",
+          "ko": "\"하나님은 약속을 기업으로 받는 자들에게 그 뜻이 변치 아니함을 충분히 나타내시려고 그 일에 맹세로 보증하셨나니\"",
+          "en": "\"Where in God, willing more abundantly to shew unto the heirs of promise the immutability of his counsel, confirmed it by an oath:\"",
+          "ref_ko": "히브리서 6:17",
+          "ref_en": "Hebrews 6:17"
+        },
+        {
+          "type": "point",
+          "label_ko": "변치 않는 뜻",
+          "label_en": "A Will That Does Not Change",
+          "ko": "하나님은 거짓말을 하실 수 없습니다. 그래서 하나님의 뜻은 변치 않는 것이며, 우리의 믿음의 확신은 이 위에 세워지는 것입니다.",
+          "en": "God cannot lie. Therefore God's will does not change, and the assurance of our faith is built upon this."
+        },
+        {
+          "type": "section",
+          "label_ko": "둘째",
+          "label_en": "Second",
+          "num_ko": "둘째",
+          "num_en": "Second",
+          "ko": "때가 차매 우리를 만나 주셨습니다",
+          "en": "When the Fulness of the Time Was Come, He Met Us"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "갈라디아서 4:4–5",
+          "label_en": "Galatians 4:4–5",
+          "ko": "\"때가 차매 하나님이 그 아들을 보내사 여자에게서 나게 하시고 율법 아래 나게 하신 것은 율법 아래 있는 자들을 속량하시고 우리로 아들의 명분을 얻게 하려 하심이라\"",
+          "en": "\"But when the fulness of the time was come, God sent forth his Son, made of a woman, made under the law, To redeem them that were under the law, that we might receive the adoption of sons.\"",
+          "ref_ko": "갈라디아서 4:4–5",
+          "ref_en": "Galatians 4:4–5"
+        },
+        {
+          "type": "point",
+          "label_ko": "삼위 하나님의 일",
+          "label_en": "The Work of the Triune God",
+          "ko": "아버지께서 아들을 보내시고, 아들이 우리를 속량하시고, 아들의 영이 우리 마음에 오셔서 하나님 아버지를 부르게 하십니다. 우리의 구원을 정하심도 이루심도 삼위 하나님의 일입니다.",
+          "en": "The Father sends the Son, the Son redeems us, and the Spirit of the Son comes into our hearts and causes us to call on God the Father. Both the determining and the accomplishing of our salvation are the work of the triune God."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "로마서 5:8",
+          "label_en": "Romans 5:8",
+          "ko": "\"우리가 아직 죄인 되었을 때에 그리스도께서 우리를 위하여 죽으심으로 하나님께서 우리에게 대한 자기의 사랑을 확증하셨느니라\"",
+          "en": "\"But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us.\"",
+          "ref_ko": "로마서 5:8",
+          "ref_en": "Romans 5:8"
+        },
+        {
+          "type": "point",
+          "label_ko": "사랑을 확인하는 곳",
+          "label_en": "Where We Confirm His Love",
+          "ko": "우리가 하나님의 사랑을 확인할 수 있는 곳은 내가 잘되고 못되는 우리의 형편이 아니라 주님이 나를 위해 대신 지신 바로 그 십자가입니다.",
+          "en": "The place where we can confirm God's love is not our circumstances, whether things go well or badly for me, but that very cross which the Lord bore for me in my place."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "요한복음 17:26",
+          "label_en": "John 17:26",
+          "ko": "\"내가 아버지의 이름을 저희에게 알게 하였고 또 알게 하리니 이는 나를 사랑하신 사랑이 저희 안에 있고 나도 저희 안에 있게 하려 함이니이다\"",
+          "en": "\"And I have declared unto them thy name, and will declare it: that the love wherewith thou hast loved me may be in them, and I in them.\"",
+          "ref_ko": "요한복음 17:26",
+          "ref_en": "John 17:26"
+        },
+        {
+          "type": "point",
+          "label_ko": "똑같은 사랑",
+          "label_en": "The Same Love",
+          "ko": "우리가 하나님께 받는 사랑은 아버지께서 아들을 사랑하신 바로 그 사랑, 똑같은 사랑입니다. 그리고 성령께서 그 사랑을 우리 마음에 부으셨습니다.",
+          "en": "The love we receive from God is the very love with which the Father loved the Son, the same love. And the Holy Spirit has poured that love into our hearts."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "요한복음 17:3",
+          "label_en": "John 17:3",
+          "ko": "\"영생은 곧 유일하신 참 하나님과 그의 보내신 자 예수 그리스도를 아는 것이니이다\"",
+          "en": "\"And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent.\"",
+          "ref_ko": "요한복음 17:3",
+          "ref_en": "John 17:3"
+        },
+        {
+          "type": "point",
+          "label_ko": "하나님을 아는 것",
+          "label_en": "Knowing God",
+          "ko": "영생은 하나님에 관하여 아는 것이 아니라 하나님을 아는 것입니다. 참된 지식은 정보가 아니라 관계입니다. 그래서 인격적이신 하나님과의 만남이 필요한 것입니다.",
+          "en": "Eternal life is not knowing about God but knowing God. True knowledge is not information but relationship. That is why a meeting with the personal God is needed."
+        },
+        {
+          "type": "section",
+          "label_ko": "셋째",
+          "label_en": "Third",
+          "num_ko": "셋째",
+          "num_en": "Third",
+          "ko": "그날까지 붙드십니다",
+          "en": "He Holds Us Until That Day"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "로마서 8:35",
+          "label_en": "Romans 8:35",
+          "ko": "\"누가 우리를 그리스도의 사랑에서 끊으리요 환난이나 곤고나 핍박이나 기근이나 적신이나 위험이나 칼이랴\"",
+          "en": "\"Who shall separate us from the love of Christ? shall tribulation, or distress, or persecution, or famine, or nakedness, or peril, or sword?\"",
+          "ref_ko": "로마서 8:35",
+          "ref_en": "Romans 8:35"
+        },
+        {
+          "type": "point",
+          "label_ko": "끊지 못합니다",
+          "label_en": "Nothing Can Separate Us",
+          "ko": "바울은 성도에게 환난이 없다고 말하지 않습니다. 그럼에도 그것들이 우리를 그리스도의 사랑에서 끊지 못한다고 말씀하십니다. 우리를 붙들고 계시는 분이 하나님이시기 때문입니다.",
+          "en": "Paul does not say that the saints have no tribulation. He says that even so, these things cannot separate us from the love of Christ. For the One who is holding us is God."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "로마서 8:26",
+          "label_en": "Romans 8:26",
+          "ko": "\"이와 같이 성령도 우리 연약함을 도우시나니 우리가 마땅히 빌바를 알지 못하나 오직 성령이 말할 수 없는 탄식으로 우리를 위하여 친히 간구하시느니라\"",
+          "en": "\"Likewise the Spirit also helpeth our infirmities: for we know not what we should pray for as we ought: but the Spirit itself maketh intercession for us with groanings which cannot be uttered.\"",
+          "ref_ko": "로마서 8:26",
+          "ref_en": "Romans 8:26"
+        },
+        {
+          "type": "point",
+          "label_ko": "혼자 두지 않으십니다",
+          "label_en": "He Does Not Leave Us Alone",
+          "ko": "기도할 말조차 나오지 않는 날에도 하나님은 우리를 혼자 두지 않으십니다. 성령께서 우리를 위하여 친히 같이 탄식하시면서 아버지께 간구하십니다.",
+          "en": "Even on the day when not even words of prayer will come, God does not leave us alone. The Holy Spirit Himself groans together with us and makes intercession to the Father for us."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "베드로후서 3:9",
+          "label_en": "2 Peter 3:9",
+          "ko": "\"주의 약속은 어떤이의 더디다고 생각하는 것 같이 더딘 것이 아니라 오직 너희를 대하여 오래 참으사 아무도 멸망치 않고 다 회개하기에 이르기를 원하시느니라\"",
+          "en": "\"The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward, not willing that any should perish, but that all should come to repentance.\"",
+          "ref_ko": "베드로후서 3:9",
+          "ref_en": "2 Peter 3:9"
+        },
+        {
+          "type": "point",
+          "label_ko": "오래 참으심",
+          "label_en": "The Longsuffering of God",
+          "ko": "하나님이 더딘 것이 아니라 참으시는 것입니다. 하나님은 단 한 영혼이라도 더 돌아오기를 기다리십니다. 그것이 하나님의 오래 참으심입니다.",
+          "en": "God is not slow; He is being patient. God waits for even one more soul to return. That is the longsuffering of God."
+        },
+        {
+          "type": "scripture",
+          "label_ko": "요한복음 14:3",
+          "label_en": "John 14:3",
+          "ko": "\"가서 너희를 위하여 처소를 예비하면 내가 다시 와서 너희를 내게로 영접하여 나 있는 곳에 너희도 있게 하리라\"",
+          "en": "\"And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, there ye may be also.\"",
+          "ref_ko": "요한복음 14:3",
+          "ref_en": "John 14:3"
+        },
+        {
+          "type": "scripture",
+          "label_ko": "요한계시록 21:4",
+          "label_en": "Revelation 21:4",
+          "ko": "\"모든 눈물을 그 눈에서 씻기시매 다시 사망이 없고 애통하는 것이나 곡하는 것이나 아픈 것이 다시 있지 아니하리니 처음 것들이 다 지나갔음이러라\"",
+          "en": "\"And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away.\"",
+          "ref_ko": "요한계시록 21:4",
+          "ref_en": "Revelation 21:4"
+        },
+        {
+          "type": "point",
+          "label_ko": "그날",
+          "label_en": "That Day",
+          "ko": "그날 하나님은 이 망가진 현실을 끝내십니다. 창세 전의 사랑이 주님의 다시 오심까지 끝까지 닿아 있는 것입니다.",
+          "en": "On that day God will bring this broken reality to an end. The love from before the foundation of the world reaches all the way to the Lord's coming again."
+        },
+        {
+          "type": "conclusion",
+          "label_ko": "결론",
+          "label_en": "Conclusion",
+          "ko": "하나님이 먼저 우리를 붙드셨고, 지금도 붙드시며, 끝까지 붙드십니다. 여러분이 하나님을 붙들 힘조차 없다고 느끼는 순간에도 하나님은 자기 자녀를 놓지 않으십니다. 소망의 마지막 근거는 하나님의 신실하심입니다.",
+          "en": "God held us first, holds us now, and will hold us to the end. Even in the moment when you feel you have no strength even to hold on to God, God does not let go of His children. The final ground of hope is the faithfulness of God."
+        },
+        {
+          "type": "blessing",
+          "label_ko": "축원",
+          "label_en": "Benediction",
+          "ko": "창세 전부터 우리를 사랑하신 하나님을 예수 그리스도 안에서 만나고, 오늘의 고난 가운데서도 그 사랑을 알고 믿으며, 주님이 다시 오시는 그날까지 그 사랑 안에 거하는 여러분 되시기를 예수 그리스도의 이름으로 축원 드립니다.",
+          "en": "May you meet in Jesus Christ the God who has loved us from before the foundation of the world, know and believe that love even in the midst of today's suffering, and abide in that love until the day the Lord comes again. I bless you in the name of Jesus Christ."
+        }
+      ],
+      "body": [
+        {
+          "ko": "본문 낭독",
+          "en": "Scripture Reading",
+          "section": true
+        },
+        {
+          "ko": "\"아버지여 내게 주신 자도 나 있는 곳에 나와 함께 있어 아버지께서 창세 전부터 나를 사랑하시므로 내게 주신 나의 영광을 저희로 보게 하시기를 원하옵나이다 의로우신 아버지여 세상이 아버지를 알지 못하여도 나는 아버지를 알았삽고 저희도 아버지께서 나를 보내신줄 알았삽나이다 내가 아버지의 이름을 저희에게 알게 하였고 또 알게 하리니 이는 나를 사랑하신 사랑이 저희 안에 있고 나도 저희 안에 있게 하려 함이니이다\" (요한복음 17:24–26)",
+          "en": "\"Father, I will that they also, whom thou hast given me, be with me where I am; that they may behold my glory, which thou hast given me: for thou lovedst me before the foundation of the world. O righteous Father, the world hath not known thee: but I have known thee, and these have known that thou hast sent me. And I have declared unto them thy name, and will declare it: that the love wherewith thou hast loved me may be in them, and I in them.\" (John 17:24–26)"
+        },
+        {
+          "ko": "서론",
+          "en": "Introduction",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 우리는 하나님이 나를 사랑하시는지를 지금 나의 형편에서 확인하려고 합니다. 내 일이 잘 풀리고 몸이 편안하면 하나님이 나를 사랑하시는구나! 살아 계시고 역사하시는구나! 생각합니다. 하지만 그러다 병이 오고 일이 콱 막히면 하나님이 나를 잊으셨다고 생각하고 하나님이 어디 계시냐고 생각합니다. 내 형편이 바뀔 때마다 하나님에 대한 믿음도 확신도 따라서 흔들리는 것입니다. 그런데 말입니다, 성경은 하나님의 사랑의 증거를 우리의 형편이 좋은지 아닌지에서 찾지 않으십니다. 성경은 세상이 있기 전부터 주님이 다시 오시는 날까지 계속되시는 하나님의 진실하시고 변함없으신 큰 사랑을 말씀하시기 때문입니다.",
+          "en": "Dear brothers and sisters, we try to confirm whether God loves us by looking at our present circumstances. When things go well and our bodies are comfortable, we think, \"God loves me! He is alive and at work!\" But then, when illness comes and everything is suddenly blocked, we think God has forgotten us and ask where God is. Every time our circumstances change, our faith in God and our assurance are shaken along with them. But the Bible does not look for the evidence of God's love in whether our circumstances are good or not. For the Bible speaks of the great love of God, true and unchanging, that continues from before the world existed until the day the Lord comes again."
+        },
+        {
+          "ko": "오늘 본문은 주님이 십자가를 앞둔 마지막 밤에 아버지께 드리신 기도의 끝부분입니다. 주님은 이 기도를 제자들에게만이 아니라, 제자들의 말을 듣고 주님을 믿게 될 우리를 위해서도 드리셨습니다. 오늘은 이 기도를 따라 세 가지를 살펴보겠습니다. 과연 하나님은 언제부터 우리를 사랑하셨는지, 우리가 그 사랑을 어떻게 알고 믿게 되는지, 그리고 하나님이 그 사랑으로 우리를 언제까지 붙드시는지입니다.",
+          "en": "Today's passage is the closing part of the prayer the Lord offered to the Father on the last night before the cross. The Lord offered this prayer not only for the disciples but also for us, who would hear the disciples' word and come to believe in Him. Today we will follow this prayer and look at three things: since when God has loved us, how we come to know and believe that love, and until when God holds us with that love."
+        },
+        {
+          "ko": "1. 창세 전부터 사랑하셨습니다",
+          "en": "1. He Loved Us from Before the Foundation of the World",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 하나님은 언제부터 우리를 사랑하셨습니까? 우리가 태어나면서부터 사랑하셨을까요? 아니면 그보다 먼저이십니까? 놀랍게도 하나님은 우리를 창세 전부터 사랑하셨습니다. 이미 세상이 있기 전에 하나님은 이미 사랑이셨고, 그리고 하나님의 그 사랑 안으로 우리를 초대하시기로 결정하셨습니다.",
+          "en": "Dear brothers and sisters, since when has God loved us? Has He loved us since we were born? Or was it earlier than that? Amazingly, God has loved us from before the foundation of the world. Already before the world existed, God was already love, and He decided to invite us into that love of His."
+        },
+        {
+          "ko": "성경은 말씀하십니다.",
+          "en": "The Bible says:"
+        },
+        {
+          "ko": "\"사랑하지 아니하는 자는 하나님을 알지 못하나니 이는 하나님은 사랑이심이라\" (요한일서 4:8)",
+          "en": "\"He that loveth not knoweth not God; for God is love.\" (1 John 4:8)"
+        },
+        {
+          "ko": "그렇습니다, 하나님은 사랑이십니다. 사랑이 많다 적다의 차원이 아니고 하나님이 사랑 바로 그 자체이신 것입니다. 그리고 사랑은 혼자 있을 수 없습니다. 사랑은 언제나 누군가를 향합니다. 사랑하는 누군가가 없는 사랑은 없기 때문입니다. 세상이 있기 전, 사람도 천사도 없을 때에도 하나님은 사랑이셨습니다. 그때 하나님이 누구를 사랑하셨는지는 주님이 말씀해 주셨습니다.",
+          "en": "Yes, God is love. It is not a matter of having much love or little; God is love itself. And love cannot be alone. Love is always directed toward someone, for there is no love without someone to love. Before the world existed, when there was neither man nor angel, God was love. And whom God loved then, the Lord has told us."
+        },
+        {
+          "ko": "오늘 본문 24절에서 주님은 아버지께 이렇게 기도하셨습니다.",
+          "en": "In verse 24 of today's passage the Lord prayed to the Father like this:"
+        },
+        {
+          "ko": "\"아버지여 내게 주신 자도 나 있는 곳에 나와 함께 있어 아버지께서 창세 전부터 나를 사랑하시므로 내게 주신 나의 영광을 저희로 보게 하시기를 원하옵나이다\" (요한복음 17:24)",
+          "en": "\"Father, I will that they also, whom thou hast given me, be with me where I am; that they may behold my glory, which thou hast given me: for thou lovedst me before the foundation of the world.\" (John 17:24)"
+        },
+        {
+          "ko": "창세 전부터 하나님 아버지는 아들을 사랑하고 계셨습니다. 하나님은 혼자 계시다가 우리를 창조하시고 나서야 사랑을 시작하신 것이 아닙니다. 아버지와 아들과 성령, 삼위가 다 사랑이신 한 하나님이십니다. 하나님의 본질은 인격적이며, 그 인격성은 관계적이고, 그 관계는 사랑입니다. 사랑은 혼자 있을 수 없으므로 하나님의 본질은 창세 전부터 아버지와 아들과 성령의 사랑의 관계 안에 계시고 사랑으로 드러납니다. 그리고 하나님은 완전하시므로 하나님 안에는 있어도 되고 없어도 되는 것이 없습니다. 그러므로 사랑은 하나님께서 하시다가 그치실 수 있는 일이 아니라 하나님 자신이신 것입니다.",
+          "en": "From before the foundation of the world, God the Father was loving the Son. God did not exist alone and begin to love only after He created us. The Father, the Son, and the Holy Spirit, all three Persons, are the one God who is love. God's essence is personal, that personhood is relational, and that relationship is love. Since love cannot be alone, God's essence exists from before the foundation of the world within the loving relationship of the Father, the Son, and the Holy Spirit, and is revealed as love. And because God is perfect, there is nothing in God that could either be there or not be there. Therefore love is not something God does for a while and may then stop doing; it is God Himself."
+        },
+        {
+          "ko": "그러니 하나님은 외로우셔서 우리를 지으신 것이 아닙니다. 창세 전부터 하나님은, 사랑은 이미 완전했습니다. 하나님은 우리가 필요해서 사랑하시는 것이 아니라 하나님의 사랑이 넘치심으로 사랑하시는 것입니다. 그러므로 우리를 향하신 사랑은 우리가 무엇을 드려서 얻은 사랑이 아니고, 우리가 무엇을 못 드린다고 잃는 사랑도 아닙니다.",
+          "en": "So God did not make us because He was lonely. From before the foundation of the world, God, His love, was already complete. God loves us not because He needs us but because His love overflows. Therefore His love toward us is not a love we gained by giving Him something, nor a love we lose because we fail to give Him something."
+        },
+        {
+          "ko": "성경에는 \"창세 전\"이라는 말이 또 나옵니다.",
+          "en": "The phrase \"before the foundation of the world\" appears again in the Bible."
+        },
+        {
+          "ko": "\"곧 창세 전에 그리스도 안에서 우리를 택하사 우리로 사랑 안에서 그 앞에 거룩하고 흠이 없게 하시려고\" (에베소서 1:4)",
+          "en": "\"According as he hath chosen us in him before the foundation of the world, that we should be holy and without blame before him in love:\" (Ephesians 1:4)"
+        },
+        {
+          "ko": "\"그 기쁘신 뜻대로 우리를 예정하사 예수 그리스도로 말미암아 자기의 아들들이 되게 하셨으니\" (에베소서 1:5)",
+          "en": "\"Having predestinated us unto the adoption of children by Jesus Christ to himself, according to the good pleasure of his will,\" (Ephesians 1:5)"
+        },
+        {
+          "ko": "\"이는 그의 사랑하시는 자 안에서 우리에게 거저 주시는바 그의 은혜의 영광을 찬미하게 하려는 것이라\" (에베소서 1:6)",
+          "en": "\"To the praise of the glory of his grace, wherein he hath made us accepted in the beloved.\" (Ephesians 1:6)"
+        },
+        {
+          "ko": "하나님께서 창세 전에 우리를 택하셨습니다. 그것도 그리스도 안에서 택하셨습니다. 6절은 그리스도를 \"그의 사랑하시는 자\"라고 부르십니다. 아버지께서 창세 전부터 사랑하신 바로 그 아들이신 것입니다. 그러니까 하나님이 우리를 택하신 것은 사랑과 따로 있는 설계도가 아닙니다. 아버지께서 아들을 사랑하시는 그 사랑 안에 우리를 두기로 하신 것입니다. 그것이 하나님의 본성이시기 때문입니다. 그리고 우리로 하여금 하나님의 아들들이 되게 하시려고 택하셨습니다. 아들을 사랑하시는 아버지께서 그 아들 안에서 우리를 자녀 삼기로 정하신 것, 이것이 하나님의 계획입니다. 하나님의 계획은 하나님의 그 사랑이 우리에게 오는 길, 즉 예수 그리스도이신 것입니다.",
+          "en": "God chose us before the foundation of the world. And He chose us in Christ. Verse 6 calls Christ \"the beloved.\" He is the very Son whom the Father loved from before the foundation of the world. So God's choosing of us is not a blueprint that stands apart from love. He determined to place us within the very love with which the Father loves the Son. For that is God's nature. And He chose us in order to make us His sons. That the Father, who loves the Son, determined to adopt us as children in that Son: this is God's plan. God's plan is the way by which that love of God comes to us, that is, Jesus Christ."
+        },
+        {
+          "ko": "하나님 자신이 사랑이시고, 그러니까 사랑은 하나님의 본성이 되시는 것입니다. 그러나 우리를 하나님의 그 사랑 안으로 들이신 것은 \"그 기쁘신 뜻대로\" 정하신 일입니다. 하나님은 우리 없이도 완전한 사랑이십니다. 그런데도 우리를 택하셨습니다. 그래서 이것은 \"거저 주시는\" 은혜라는 것입니다. 그리고 우리가 있기도 전에 미리 정하신 일이니, 우리의 공로나 형편에서 나온 것이 절대 아닙니다.",
+          "en": "God Himself is love, and so love is God's nature. But bringing us into that love of God is something He determined \"according to the good pleasure of his will.\" God is perfect love even without us. And yet He chose us. That is why this is grace \"freely given.\" And since it was determined beforehand, before we even existed, it by no means came from our merit or our circumstances."
+        },
+        {
+          "ko": "하나님은 이 뜻이 바뀌지 않는다는 것을 우리가 알기를 원하셨습니다.",
+          "en": "God wanted us to know that this will does not change."
+        },
+        {
+          "ko": "성경은 말씀하십니다.",
+          "en": "The Bible says:"
+        },
+        {
+          "ko": "\"하나님은 약속을 기업으로 받는 자들에게 그 뜻이 변치 아니함을 충분히 나타내시려고 그 일에 맹세로 보증하셨나니\" (히브리서 6:17)",
+          "en": "\"Where in God, willing more abundantly to shew unto the heirs of promise the immutability of his counsel, confirmed it by an oath:\" (Hebrews 6:17)"
+        },
+        {
+          "ko": "\"이는 하나님이 거짓말을 하실 수 없는 이 두 가지 변치 못할 사실을 인하여 앞에 있는 소망을 얻으려고 피하여 가는 우리로 큰 안위를 받게 하려 하심이라\" (히브리서 6:18)",
+          "en": "\"That by two immutable things, in which it was impossible for God to lie, we might have a strong consolation, who have fled for refuge to lay hold upon the hope set before us:\" (Hebrews 6:18)"
+        },
+        {
+          "ko": "우리를 택하신 것은 하나님의 기쁘신 뜻이었습니다. 그러나 한번 뜻하시고 맹세하신 것을 지키시는 것은, 지키셔도 되고 안 지키셔도 되는 일이 아닙니다. 하나님은 거짓말을 하실 수 없기 때문이시며 하나님의 뜻은 결코 이루어지기 때문입니다. 그래서 하나님의 뜻은 변치 않는 것이며, 우리는 이런 하나님께 큰 위로를 받을 수 있는 것입니다. 우리의 믿음의 확신은 이 위에 세워지는 것입니다.",
+          "en": "Choosing us was the good pleasure of God's will. But keeping what He has once willed and sworn is not something He may either keep or not keep. For God cannot lie, and God's will is surely accomplished. Therefore God's will does not change, and we can receive strong consolation from such a God. The assurance of our faith is built upon this."
+        },
+        {
+          "ko": "2. 때가 차매 우리를 만나 주셨습니다",
+          "en": "2. When the Fulness of the Time Was Come, He Met Us",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 그러면 우리는 하나님의 그 사랑을 어떻게 알고 믿게 됩니까? 하나님께서 때가 차매 아들과 성령을 보내셔서 우리를 만나 주셨기 때문입니다. 그러므로 우리는 그 하나님을 만나서 그 사랑을 알고 믿는 것입니다.",
+          "en": "Dear brothers and sisters, then how do we come to know and believe that love of God? Because when the fulness of the time was come, God sent the Son and the Spirit and met us. Therefore we know and believe that love by meeting that God."
+        },
+        {
+          "ko": "창세 전에 정하신 하나님의 뜻은 우리 눈에 보이지 않습니다. 우리는 다만 그 뜻을 하나님께서 이루신 일에서 볼 뿐입니다. 창세 전에 정하신 일을 하나님은 역사 속에서 실제로 이루셨기 때문입니다.",
+          "en": "God's will, determined before the foundation of the world, is not visible to our eyes. We see that will only in what God has accomplished. For what He determined before the foundation of the world, God actually accomplished in history."
+        },
+        {
+          "ko": "성경은 말씀하십니다.",
+          "en": "The Bible says:"
+        },
+        {
+          "ko": "\"때가 차매 하나님이 그 아들을 보내사 여자에게서 나게 하시고 율법 아래 나게 하신 것은\" (갈라디아서 4:4)",
+          "en": "\"But when the fulness of the time was come, God sent forth his Son, made of a woman, made under the law,\" (Galatians 4:4)"
+        },
+        {
+          "ko": "\"율법 아래 있는 자들을 속량하시고 우리로 아들의 명분을 얻게 하려 하심이라\" (갈라디아서 4:5)",
+          "en": "\"To redeem them that were under the law, that we might receive the adoption of sons.\" (Galatians 4:5)"
+        },
+        {
+          "ko": "\"너희가 아들인고로 하나님이 그 아들의 영을 우리 마음 가운데 보내사 아바 아버지라 부르게 하셨느니라\" (갈라디아서 4:6)",
+          "en": "\"And because ye are sons, God hath sent forth the Spirit of his Son into your hearts, crying, Abba, Father.\" (Galatians 4:6)"
+        },
+        {
+          "ko": "이 모든 것이 하나님께서 정하신 그대로 이루셨습니다. 우리로 하여금 하나님의 아들들이 되게 하시려고 택하셨고, 아들의 명분을 얻게 하시려고 독생자 아들을 보내셨습니다. 아버지께서 아들을 보내시고, 아들이 우리를 속량하시고, 아들의 영이 우리 마음에 오셔서 우리로 하여금 하나님 아버지를 부르게 하시는 것입니다. 그러므로 우리의 구원을 정하심도 삼위 하나님의 일이고 이루심도 삼위 하나님의 일입니다.",
+          "en": "All of this God accomplished exactly as He had determined. He chose us in order to make us His sons, and He sent His only begotten Son so that we might receive the adoption of sons. The Father sends the Son, the Son redeems us, and the Spirit of the Son comes into our hearts and causes us to call on God the Father. Therefore the determining of our salvation is the work of the triune God, and the accomplishing of it is also the work of the triune God."
+        },
+        {
+          "ko": "요한은 이렇게 말씀하십니다.",
+          "en": "John says it this way:"
+        },
+        {
+          "ko": "\"사랑은 여기 있으니 우리가 하나님을 사랑한 것이 아니요 오직 하나님이 우리를 사랑하사 우리 죄를 위하여 화목제로 그 아들을 보내셨음이니라\" (요한일서 4:10)",
+          "en": "\"Herein is love, not that we loved God, but that he loved us, and sent his Son to be the propitiation for our sins.\" (1 John 4:10)"
+        },
+        {
+          "ko": "아들을 보내신 그 일에 이미 아버지의 사랑이 있습니다. 그런데 그냥 보내신 것이 아니라 화목제로 보내셨습니다. 하나님은 죄 있는 자를 그냥 넘기지 않으십니다. 죄인이 그 사랑 안에 들어가는 길은 아들의 십자가에서 우리의 죄를 사하시기 위한 죄 없으신 분의 대신 죽으심입니다.",
+          "en": "In the very sending of the Son, the Father's love is already there. Yet He did not simply send Him; He sent Him as the propitiation. God does not simply pass over the guilty. The way for a sinner to enter that love is the death of the sinless One in our place, on the cross of the Son, for the forgiveness of our sins."
+        },
+        {
+          "ko": "바울도 같은 것을 말합니다.",
+          "en": "Paul says the same thing:"
+        },
+        {
+          "ko": "\"우리가 아직 죄인 되었을 때에 그리스도께서 우리를 위하여 죽으심으로 하나님께서 우리에게 대한 자기의 사랑을 확증하셨느니라\" (로마서 5:8)",
+          "en": "\"But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us.\" (Romans 5:8)"
+        },
+        {
+          "ko": "그렇습니다, 우리가 아직 죄인 되었을 때입니다. 우리가 아직 주님을 믿지도 않을 때, 주님을 모를 때, 주님은 그런 우리를 위해 나 대신 십자가를 지신 것입니다. 그러므로 우리가 하나님의 사랑을 확인할 수 있는 곳은 내가 잘되고 못되는 우리의 형편이 아니라 주님이 나를 위해 대신 지신 바로 그 십자가입니다. 그 이상의 사랑을 인간은 알지 못합니다. 그리고 주님은 죽음에 머물지 않으시고 다시 사셨습니다. 주님의 죽으심과 부활 안에서 하나님의 공의와 자비가 우리의 구원을 이루신 것입니다.",
+          "en": "Yes, it was while we were yet sinners. When we did not yet believe in the Lord, when we did not know the Lord, the Lord bore the cross in my place for such as we were. Therefore the place where we can confirm God's love is not our circumstances, whether things go well or badly for me, but that very cross which the Lord bore for me in my place. Man knows no love greater than that. And the Lord did not remain in death but rose again. In the Lord's death and resurrection, God's justice and mercy accomplished our salvation."
+        },
+        {
+          "ko": "그리고 하나님은 우리가 그 사랑을 깨달아 알 수 있도록 성령을 주셨습니다.",
+          "en": "And God gave us the Holy Spirit so that we might come to understand and know that love."
+        },
+        {
+          "ko": "성경은 말씀하십니다.",
+          "en": "The Bible says:"
+        },
+        {
+          "ko": "\"소망이 부끄럽게 아니함은 우리에게 주신 성령으로 말미암아 하나님의 사랑이 우리 마음에 부은바 됨이니\" (로마서 5:5)",
+          "en": "\"And hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us.\" (Romans 5:5)"
+        },
+        {
+          "ko": "주님도 오늘 본문 25절과 26절에서 이렇게 기도하셨습니다.",
+          "en": "The Lord also prayed like this in verses 25 and 26 of today's passage:"
+        },
+        {
+          "ko": "\"의로우신 아버지여 세상이 아버지를 알지 못하여도 나는 아버지를 알았삽고 저희도 아버지께서 나를 보내신줄 알았삽나이다\" (요한복음 17:25)",
+          "en": "\"O righteous Father, the world hath not known thee: but I have known thee, and these have known that thou hast sent me.\" (John 17:25)"
+        },
+        {
+          "ko": "\"내가 아버지의 이름을 저희에게 알게 하였고 또 알게 하리니 이는 나를 사랑하신 사랑이 저희 안에 있고 나도 저희 안에 있게 하려 함이니이다\" (요한복음 17:26)",
+          "en": "\"And I have declared unto them thy name, and will declare it: that the love wherewith thou hast loved me may be in them, and I in them.\" (John 17:26)"
+        },
+        {
+          "ko": "그렇습니다, 세상은 아버지를 알지 못합니다. 그러나 유일하게 아버지를 아시는 아들이 오셔서 아버지의 이름을 우리에게 알게 하셨습니다. 그렇게 하신 뜻이 주님을 사랑하시는 아버지의 사랑이 우리 안에도 있다는 그 사실입니다. 우리가 하나님께 받는 사랑은 아버지께서 아들을 사랑하신 바로 그 사랑, 똑같은 사랑이라는 것입니다. 그리고 성령께서 그 사랑을 우리 마음에 부으셨습니다. 그 사랑의 손길을 따라 우리가 오늘 다 같이 주님의 전에 나오시게 된 것입니다. 그래서 우리는 아들로 말미암아 한 성령 안에서 아버지께 나아감을 확신할 수 있는 것입니다.",
+          "en": "Yes, the world does not know the Father. But the Son, who alone knows the Father, came and made the Father's name known to us. The purpose for which He did so is this very fact: that the love of the Father, who loves the Lord, is in us also. The love we receive from God is the very love with which the Father loved the Son, the same love. And the Holy Spirit has poured that love into our hearts. Following the touch of that love, we have all come together to the house of the Lord today. Therefore we can be assured that through the Son we come to the Father in one Spirit."
+        },
+        {
+          "ko": "하나님의 본질은 인격적입니다. 그래서 하나님은 사랑을 알려 주시는 데서 그치지 않으시고 직접 우리를 만나 주십니다.",
+          "en": "God's essence is personal. Therefore God does not stop at letting us know of His love; He meets us Himself."
+        },
+        {
+          "ko": "주님은 십자가를 앞둔 기도에서 이렇게 말씀하셨습니다.",
+          "en": "In His prayer before the cross, the Lord said:"
+        },
+        {
+          "ko": "\"영생은 곧 유일하신 참 하나님과 그의 보내신 자 예수 그리스도를 아는 것이니이다\" (요한복음 17:3)",
+          "en": "\"And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent.\" (John 17:3)"
+        },
+        {
+          "ko": "영생은 하나님에 관하여 아는 것이 아니라 하나님을 아는 것입니다. 참된 지식은 정보가 아니라 관계입니다. 그리고 이 깨달음은 하나님의 아들이 오셔서 주신 것입니다.",
+          "en": "Eternal life is not knowing about God but knowing God. True knowledge is not information but relationship. And this understanding is what the Son of God came and gave us."
+        },
+        {
+          "ko": "그러므로 하나님은 말씀으로 자신을 알리시고 성령으로 우리 눈을 여시는 것입니다. 성령께서 하나님의 사랑을 우리 마음에 부으실 때, 우리가 아들의 영으로 아바 아버지라 부를 때, 우리는 우리를 사랑하시는 하나님을 만납니다. 우리가 읽는 성경 속에서 살아 계신 예수 그리스도를 만나고, 그 말씀을 붙들고 살아가는 우리 삶 속에서도 지금 일하시는 주님을 만나는 것입니다. 그 사랑을 깨달은 사람이 하나님을 믿습니다. 그래서 인격적이신 하나님과의 만남이 필요한 것입니다.",
+          "en": "Therefore God makes Himself known by the Word and opens our eyes by the Holy Spirit. When the Holy Spirit pours God's love into our hearts, when we cry Abba, Father, by the Spirit of the Son, we meet the God who loves us. In the Scriptures we read, we meet the living Jesus Christ, and in our lives, as we hold fast to that Word, we also meet the Lord who is at work now. The one who has come to understand that love believes in God. That is why a meeting with the personal God is needed."
+        },
+        {
+          "ko": "3. 그날까지 붙드십니다",
+          "en": "3. He Holds Us Until That Day",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 그러면 아직 망가진 이 세상에서 하나님은 그 사랑으로 우리를 언제까지 붙드십니까? 우리가 하나님께 잘할 때까지만이십니까? 성경은 주님이 다시 오시는 그날까지 하나님이 우리를 굳건히 붙들어 주심을 말씀해 주십니다.",
+          "en": "Dear brothers and sisters, then in this still-broken world, until when does God hold us with that love? Only as long as we do well toward God? The Bible tells us that God holds us firmly until the day the Lord comes again."
+        },
+        {
+          "ko": "먼저 지금입니다. 믿는 사람도 아프고, 늙고, 사랑하는 사람을 잃습니다.",
+          "en": "First, the present. Believers too fall ill, grow old, and lose those they love."
+        },
+        {
+          "ko": "성경은 바로 그 형편을 두고 말씀하십니다.",
+          "en": "The Bible speaks about that very condition:"
+        },
+        {
+          "ko": "\"누가 우리를 그리스도의 사랑에서 끊으리요 환난이나 곤고나 핍박이나 기근이나 적신이나 위험이나 칼이랴\" (로마서 8:35)",
+          "en": "\"Who shall separate us from the love of Christ? shall tribulation, or distress, or persecution, or famine, or nakedness, or peril, or sword?\" (Romans 8:35)"
+        },
+        {
+          "ko": "바울은 성도에게 환난이 없다고 말하지 않습니다. 환난과 곤고와 칼과 위험을 하나하나 부르면서, 그럼에도 그것들이 우리를 그리스도의 사랑에서 끊지 못한다고 말씀하십니다.",
+          "en": "Paul does not say that the saints have no tribulation. He names tribulation and distress and sword and peril one by one, and says that even so, these things cannot separate us from the love of Christ."
+        },
+        {
+          "ko": "그 근거를 바울은 조금 앞에서 이렇게 말씀하십니다.",
+          "en": "Paul gives the ground for this a little earlier:"
+        },
+        {
+          "ko": "\"자기 아들을 아끼지 아니하시고 우리 모든 사람을 위하여 내어주신 이가 어찌 그 아들과 함께 모든 것을 우리에게 은사로 주지 아니하시겠느뇨\" (로마서 8:32)",
+          "en": "\"He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?\" (Romans 8:32)"
+        },
+        {
+          "ko": "아들까지 주신 하나님께서 그 나머지를 아끼실 수가 없습니다. 하나님은 창세 전에 그리스도 안에서 우리를 그 사랑 안에 두기로 정하셨고, 그 뜻대로 아들을 우리 대신 화목제사의 제물로 내어 주셨습니다. 그래서 타락한 이 세상의 형편이 우리를 그 사랑에서 끊지 못합니다. 우리를 붙들고 계시는 분이 하나님이시기 때문입니다.",
+          "en": "The God who gave even His Son cannot withhold the rest. Before the foundation of the world, God determined in Christ to place us within that love, and according to that will He delivered up His Son in our place as the sacrifice of propitiation. Therefore the conditions of this fallen world cannot separate us from that love. For the One who is holding us is God."
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 혹시라도 여러분에게 병이 오고 일이 무너지고 사람에게 버림받아도, 하나님의 사랑은 절대 여러분을 떠나지 않으십니다. 사랑이신 하나님은 그러실 수가 없으신 것입니다.",
+          "en": "Dear brothers and sisters, even if illness comes to you, your work collapses, and you are forsaken by people, the love of God will never leave you. God, who is love, cannot do that."
+        },
+        {
+          "ko": "물론 하나님은 이 모든 문제를 해결하실 수 있습니다. 실제로 하나님의 거룩하신 능력으로 어떤 문제를 해결하시기도 하십니다. 그러나 그럼에도 심판의 날이 오기 전까지는 타락한 세상의 모든 문제를 거두어 가시지는 않습니다. 하나님은 공의로우신 하나님이시기 때문입니다. 하나님이 우리에게 복을 주시는 방식은 모든 문제를 없애 주시는 것이 아니라, 우리가 그 문제 속에서도 믿음으로 이 세상을 이길 힘을 주시는 것입니다.",
+          "en": "Of course God is able to solve all these problems. Indeed, by His holy power God does at times solve a problem. Nevertheless, until the day of judgment comes, He does not take away all the problems of the fallen world. For God is a just God. The way God blesses us is not by removing every problem, but by giving us strength to overcome this world by faith even in the midst of those problems."
+        },
+        {
+          "ko": "인간인 우리에겐 기도할 말조차 나오지 않는 날이 있습니다. 그날에도 하나님은 우리를 혼자 두지 않으십니다.",
+          "en": "For us human beings, there are days when not even words of prayer will come. Even on that day, God does not leave us alone."
+        },
+        {
+          "ko": "성경은 말씀하십니다.",
+          "en": "The Bible says:"
+        },
+        {
+          "ko": "\"이와 같이 성령도 우리 연약함을 도우시나니 우리가 마땅히 빌바를 알지 못하나 오직 성령이 말할 수 없는 탄식으로 우리를 위하여 친히 간구하시느니라\" (로마서 8:26)",
+          "en": "\"Likewise the Spirit also helpeth our infirmities: for we know not what we should pray for as we ought: but the Spirit itself maketh intercession for us with groanings which cannot be uttered.\" (Romans 8:26)"
+        },
+        {
+          "ko": "하나님의 사랑을 우리 마음에 부으신 그 성령께서, 우리가 무엇을 빌어야 할지 모르는 자리에서 우리를 위하여 친히 같이 탄식하시면서 아버지께 간구하십니다. 아버지와 아들과 성령이 서로 사랑하시는 그 사랑 안에 우리가 있는 것입니다. 그래서 우리는 더 이상 혼자일 수 없습니다.",
+          "en": "The very Spirit who poured God's love into our hearts, in the place where we do not know what we should pray for, Himself groans together with us and makes intercession to the Father for us. We are within that love with which the Father, the Son, and the Holy Spirit love one another. Therefore we can no longer be alone."
+        },
+        {
+          "ko": "하나님을 만난 사람은 지금의 고난을 다시 봅니다. 이 타락하고 망가진 현실은 그 안에 사는 우리에게 거대하게 느껴집니다.",
+          "en": "A person who has met God sees present suffering anew. This fallen and broken reality feels enormous to us who live within it."
+        },
+        {
+          "ko": "그러나 성경은 말씀하십니다.",
+          "en": "But the Bible says:"
+        },
+        {
+          "ko": "\"우리의 잠시 받는 환난의 경한 것이 지극히 크고 영원한 영광의 중한 것을 우리에게 이루게 함이니\" (고린도후서 4:17)",
+          "en": "\"For our light affliction, which is but for a moment, worketh for us a far more exceeding and eternal weight of glory;\" (2 Corinthians 4:17)"
+        },
+        {
+          "ko": "\"우리의 돌아보는 것은 보이는 것이 아니요 보이지 않는 것이니 보이는 것은 잠간이요 보이지 않는 것은 영원함이니라\" (고린도후서 4:18)",
+          "en": "\"While we look not at the things which are seen, but at the things which are not seen: for the things which are seen are temporal; but the things which are not seen are eternal.\" (2 Corinthians 4:18)"
+        },
+        {
+          "ko": "영원에서 보면 지금의 고난은 사라지는 찰나의 순간입니다. 이 모든 것들은 하나님이 소멸하실 부스럼 같은 것입니다. 영원을 살아갈 우리는 이 비밀을 깨달아야 하는 것입니다.",
+          "en": "Seen from eternity, the present suffering is a fleeting moment that passes away. All these things are like a sore that God will do away with. We, who will live for eternity, must come to understand this mystery."
+        },
+        {
+          "ko": "물론 주님은 아직 오시지 않으셨습니다. 성경은 그 까닭을 말씀하십니다.",
+          "en": "Of course, the Lord has not yet come. The Bible tells us the reason:"
+        },
+        {
+          "ko": "\"주의 약속은 어떤이의 더디다고 생각하는 것 같이 더딘 것이 아니라 오직 너희를 대하여 오래 참으사 아무도 멸망치 않고 다 회개하기에 이르기를 원하시느니라\" (베드로후서 3:9)",
+          "en": "\"The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward, not willing that any should perish, but that all should come to repentance.\" (2 Peter 3:9)"
+        },
+        {
+          "ko": "그렇습니다, 하나님이 더딘 것이 아니라 참으시는 것입니다. 생각해 보십시오. 하나님이 우리 주님의 십자가 뒤에 곧바로 세상을 심판하셨다면, 우리와, 우리의 믿지 않는 가족과 자녀와 형제와 이웃에게는 전혀 구원의 기회가 없었을 것입니다. 그러나 하나님은 단 한 영혼이라도 더 돌아오기를 기다리십니다. 그것이 하나님의 오래 참으심입니다.",
+          "en": "Yes, God is not slow; He is being patient. Think about it. If God had judged the world immediately after the cross of our Lord, there would have been no opportunity of salvation at all for us and for our unbelieving families, children, brothers and sisters, and neighbors. But God waits for even one more soul to return. That is the longsuffering of God."
+        },
+        {
+          "ko": "주님이 기다리시는 동안 믿는 우리도 이 세상에 남아 있습니다. 그 시간에 우리가 겪는 고난을 성경은 이렇게 말씀하십니다.",
+          "en": "While the Lord waits, we who believe also remain in this world. Of the suffering we go through in that time, the Bible says this:"
+        },
+        {
+          "ko": "\"자녀이면 또한 후사 곧 하나님의 후사요 그리스도와 함께한 후사니 우리가 그와 함께 영광을 받기 위하여 고난도 함께 받아야 될 것이니라\" (로마서 8:17)",
+          "en": "\"And if children, then heirs; heirs of God, and joint-heirs with Christ; if so be that we suffer with him, that we may be also glorified together.\" (Romans 8:17)"
+        },
+        {
+          "ko": "이 망가진 세상에서 믿는 사람이 몸으로 겪는 고난을, 성경은 그리스도와 함께 받는 고난이라고 부르시는 것입니다.",
+          "en": "The suffering that a believer goes through in the body in this broken world, the Bible calls suffering with Christ."
+        },
+        {
+          "ko": "그래서 이 시간은 그냥 참고 견디는 시간이 아닙니다. 우리가 주 예수 그리스도를 향한 믿음을 지키며 이 세상을 견디는 그 시간을, 하나님은 우리가 그리스도의 십자가에 동참하는 것으로 여겨 주십니다. 그러므로 우리가 사는 이 인생의 고난은 주님의 십자가에 동참하는 적극적인 순종의 시간인 것입니다.",
+          "en": "So this time is not merely a time to bear up and endure. The time in which we keep our faith in the Lord Jesus Christ and endure this world, God counts as our sharing in the cross of Christ. Therefore the suffering of this life we live is a time of active obedience, sharing in the cross of the Lord."
+        },
+        {
+          "ko": "그리고 그날이 오는 것입니다. 우리가 세상에서 기다리는 이 기다림에는 분명한 끝이 있습니다.",
+          "en": "And that day is coming. This waiting of ours in the world has a definite end."
+        },
+        {
+          "ko": "주님은 떠나시기 전에 약속하셨습니다.",
+          "en": "Before He departed, the Lord promised:"
+        },
+        {
+          "ko": "\"가서 너희를 위하여 처소를 예비하면 내가 다시 와서 너희를 내게로 영접하여 나 있는 곳에 너희도 있게 하리라\" (요한복음 14:3)",
+          "en": "\"And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, there ye may be also.\" (John 14:3)"
+        },
+        {
+          "ko": "나 있는 곳에 너희도 있게 하리라.",
+          "en": "That where I am, there ye may be also."
+        },
+        {
+          "ko": "오늘 본문에서 읽은 주님의 기도가 바로 이것이었습니다. 아버지여 내게 주신 자도 나 있는 곳에 나와 함께 있어. 그렇습니다, 아들이 계신 곳은 아버지의 사랑 안입니다. 아버지께서 주 안에, 주께서 아버지 안에 계시고 성령께서 언제나 아버지와 아들과 함께하시는 하나님의 품 안에 우리도 주 안에서 영원히 함께할 것입니다.",
+          "en": "The Lord's prayer we read in today's passage was this very thing. Father, I will that they also, whom thou hast given me, be with me where I am. Yes, the place where the Son is, is within the love of the Father. In the bosom of God, where the Father is in the Lord and the Lord is in the Father and the Holy Spirit is always with the Father and the Son, we too will be together forever in the Lord."
+        },
+        {
+          "ko": "거기서 우리는 아버지께서 아들에게 주신 영광을 보고, 그리스도와 함께 그 영광을 받습니다. 주님이 다시 오시는 것은 바로 주님의 이 기도가 이루어지는 일입니다. 그리고 그 기도의 근거는 바로 이것이었습니다. \"아버지께서 창세 전부터 나를 사랑하시므로.\" 그렇습니다, 창세 전의 사랑이 주님의 다시 오심까지 끝까지 닿아 있는 것입니다.",
+          "en": "There we will behold the glory the Father has given the Son, and receive that glory together with Christ. The Lord's coming again is the fulfillment of this very prayer of the Lord. And the ground of that prayer was this: \"for thou lovedst me before the foundation of the world.\" Yes, the love from before the foundation of the world reaches all the way to the Lord's coming again."
+        },
+        {
+          "ko": "그날 하나님은 이 망가진 현실을 끝내십니다. 성경은 말씀하십니다.",
+          "en": "On that day God will bring this broken reality to an end. The Bible says:"
+        },
+        {
+          "ko": "\"모든 눈물을 그 눈에서 씻기시매 다시 사망이 없고 애통하는 것이나 곡하는 것이나 아픈 것이 다시 있지 아니하리니 처음 것들이 다 지나갔음이러라\" (요한계시록 21:4)",
+          "en": "\"And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away.\" (Revelation 21:4)"
+        },
+        {
+          "ko": "\"보좌에 앉으신 이가 가라사대 보라 내가 만물을 새롭게 하노라 하시고 또 가라사대 이 말은 신실하고 참되니 기록하라 하시고\" (요한계시록 21:5)",
+          "en": "\"And he that sat upon the throne said, Behold, I make all things new. And he said unto me, Write: for these words are true and faithful.\" (Revelation 21:5)"
+        },
+        {
+          "ko": "다시 사망이 없습니다. 애통하는 것도, 곡하는 것도, 아픈 것도 다시 있지 않습니다. 이 말은 신실하고 참되니. 그렇습니다. 이 일은 반드시 이루어집니다. 하나님의 뜻은 변치 않기 때문입니다.",
+          "en": "There shall be no more death. Neither sorrow, nor crying, nor pain shall be any more. For these words are true and faithful. Yes. This will surely come to pass. For God's will does not change."
+        },
+        {
+          "ko": "이 일이 반드시 이루어진다는 것을 우리가 믿을 수 있는 것은, 하나님을 알고 인격적으로 만날 때뿐입니다. 바울은 고난 가운데서 이렇게 말했습니다.",
+          "en": "It is only when we know God and meet Him personally that we can believe this will surely come to pass. In the midst of suffering, Paul said this:"
+        },
+        {
+          "ko": "\"이를 인하여 내가 또 이 고난을 받되 부끄러워하지 아니함은 나의 의뢰한 자를 내가 알고 또한 나의 의탁한 것을 그 날까지 저가 능히 지키실 줄을 확신함이라\" (디모데후서 1:12)",
+          "en": "\"For the which cause I also suffer these things: nevertheless I am not ashamed: for I know whom I have believed, and am persuaded that he is able to keep that which I have committed unto him against that day.\" (2 Timothy 1:12)"
+        },
+        {
+          "ko": "결론",
+          "en": "Conclusion",
+          "section": true
+        },
+        {
+          "ko": "사랑하는 형제 자매 여러분, 하나님은 창세 전부터 사랑이신 아버지와 아들과 성령이십니다. 하나님은 사랑하시는 아들 안에서 우리를 자녀 삼기로 정하셨습니다. 하나님은 아들을 보내셨고, 성령을 부으셨고, 지금 우리를 붙드시며 기다리시고, 다시 오십니다. 우리의 확신은 이 하나님께 있습니다.",
+          "en": "Dear brothers and sisters, God is the Father, the Son, and the Holy Spirit, who is love from before the foundation of the world. God determined to adopt us as children in the Son He loves. God sent the Son, poured out the Spirit, holds us now and waits, and is coming again. Our assurance rests in this God."
+        },
+        {
+          "ko": "그러므로 사랑하는 형제 자매 여러분, 성경을 펴서 이 하나님을 만나십시오. 몸이 아파 마음까지 지친 날에도, 사랑하는 사람의 아픔을 보며 아무것도 할 수 없어 안타까운 날에도, 기도하려고 해도 무슨 말을 해야 할지 모르는 날에도 하나님께 나아가십시오. 여러분이 하나님을 붙들 힘조차 없다고 느끼는 순간에도 하나님은 자기 자녀를 놓지 않으십니다.",
+          "en": "Therefore, dear brothers and sisters, open the Bible and meet this God. On days when your body is sick and even your heart is worn out, on days when you watch the pain of someone you love and grieve that you can do nothing, on days when you try to pray and do not know what to say, come to God. Even in the moment when you feel you have no strength even to hold on to God, God does not let go of His children."
+        },
+        {
+          "ko": "우리가 아는 하나님은 살아 계시고 신실하십니다. 하나님이 먼저 우리를 붙드셨고, 지금도 붙드시며, 끝까지 붙드십니다. 우리는 하나님을 믿습니다. 소망의 마지막 근거는 하나님의 신실하심입니다.",
+          "en": "The God we know is living and faithful. God held us first, holds us now, and will hold us to the end. We believe in God. The final ground of hope is the faithfulness of God."
+        },
+        {
+          "ko": "성경은 말씀하십니다.",
+          "en": "The Bible says:"
+        },
+        {
+          "ko": "\"하나님이 우리를 사랑하시는 사랑을 우리가 알고 믿었노니 하나님은 사랑이시라 사랑 안에 거하는 자는 하나님 안에 거하고 하나님도 그 안에 거하시느니라\" (요한일서 4:16)",
+          "en": "\"And we have known and believed the love that God hath to us. God is love; and he that dwelleth in love dwelleth in God, and God in him.\" (1 John 4:16)"
+        },
+        {
+          "ko": "하나님이 우리를 사랑하시는 사랑을 우리가 알고 믿었노니. 그렇습니다. 우리는 이 사랑을 알고 믿습니다.",
+          "en": "And we have known and believed the love that God hath to us. Yes. We know and believe this love."
+        },
+        {
+          "ko": "창세 전부터 우리를 사랑하신 하나님을 예수 그리스도 안에서 만나고, 오늘의 고난 가운데서도 그 사랑을 알고 믿으며, 주님이 다시 오시는 그날까지 그 사랑 안에 거하는 여러분 되시기를 예수 그리스도의 이름으로 축원 드립니다.",
+          "en": "May you meet in Jesus Christ the God who has loved us from before the foundation of the world, know and believe that love even in the midst of today's suffering, and abide in that love until the day the Lord comes again. I bless you in the name of Jesus Christ."
+        }
+      ]
     }
   ]
 };
