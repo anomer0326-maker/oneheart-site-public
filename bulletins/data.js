@@ -9,7 +9,7 @@ window.BULLETINS_DATA = {
    "pdf": "bulletins/2026-11-15.pdf",
    "pages": 2,
    "landscape": true,
-   "kb": 216,
+   "kb": 228,
    "thumbs": [
     "bulletins/2026-11-15-1.jpg",
     "bulletins/2026-11-15-2.jpg"
@@ -24,7 +24,7 @@ window.BULLETINS_DATA = {
    "pdf": "bulletins/2026-11-08.pdf",
    "pages": 2,
    "landscape": true,
-   "kb": 219,
+   "kb": 232,
    "thumbs": [
     "bulletins/2026-11-08-1.jpg",
     "bulletins/2026-11-08-2.jpg"
@@ -39,7 +39,7 @@ window.BULLETINS_DATA = {
    "pdf": "bulletins/2026-11-01.pdf",
    "pages": 2,
    "landscape": true,
-   "kb": 226,
+   "kb": 240,
    "thumbs": [
     "bulletins/2026-11-01-1.jpg",
     "bulletins/2026-11-01-2.jpg"
@@ -54,7 +54,7 @@ window.BULLETINS_DATA = {
    "pdf": "bulletins/2026-10-25.pdf",
    "pages": 2,
    "landscape": true,
-   "kb": 231,
+   "kb": 245,
    "thumbs": [
     "bulletins/2026-10-25-1.jpg",
     "bulletins/2026-10-25-2.jpg"
@@ -69,7 +69,7 @@ window.BULLETINS_DATA = {
    "pdf": "bulletins/2026-10-18.pdf",
    "pages": 2,
    "landscape": true,
-   "kb": 221,
+   "kb": 233,
    "thumbs": [
     "bulletins/2026-10-18-1.jpg",
     "bulletins/2026-10-18-2.jpg"
@@ -84,7 +84,7 @@ window.BULLETINS_DATA = {
    "pdf": "bulletins/2026-10-11.pdf",
    "pages": 2,
    "landscape": true,
-   "kb": 219,
+   "kb": 230,
    "thumbs": [
     "bulletins/2026-10-11-1.jpg",
     "bulletins/2026-10-11-2.jpg"
@@ -99,7 +99,7 @@ window.BULLETINS_DATA = {
    "pdf": "bulletins/2026-10-04.pdf",
    "pages": 2,
    "landscape": true,
-   "kb": 214,
+   "kb": 223,
    "thumbs": [
     "bulletins/2026-10-04-1.jpg",
     "bulletins/2026-10-04-2.jpg"
