@@ -1,6 +1,21 @@
 window.BULLETINS_DATA = {
  "bulletins": [
   {
+   "date": "2026-11-22",
+   "title_ko": "다스리라 하셨는데",
+   "title_en": "Told to Rule",
+   "ref_ko": "창세기 3:11–13",
+   "ref_en": "Genesis 3:11–13",
+   "pdf": "bulletins/2026-11-22.pdf",
+   "pages": 2,
+   "landscape": true,
+   "kb": 224,
+   "thumbs": [
+    "bulletins/2026-11-22-1.jpg",
+    "bulletins/2026-11-22-2.jpg"
+   ]
+  },
+  {
    "date": "2026-11-15",
    "title_ko": "창세 전부터 그날까지",
    "title_en": "From Before the Foundation of the World to That Day",
